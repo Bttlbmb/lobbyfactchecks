@@ -7,6 +7,7 @@ a{color:var(--blue)}a:hover{color:#163a7a}
 .hd{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line)}
 .hd-in{max-width:780px;margin:0 auto;padding:4px 32px;display:flex;flex-wrap:wrap;gap:0 24px;justify-content:space-between;align-items:center}
 .hd a{color:var(--ink);text-decoration:none;font-size:14px;font-weight:500;display:inline-flex;align-items:center;min-height:44px}
+.hd a.brand{font-size:20px;font-weight:600;gap:10px}
 .hd nav{display:flex;flex-wrap:wrap;gap:0 22px}
 .col{max-width:780px;margin:0 auto;padding:0 32px;overflow-wrap:anywhere}
 .crumb{margin:20px 0 0;font-size:14px}.crumb a{display:inline-flex;align-items:center;min-height:44px}
@@ -16,14 +17,14 @@ a{color:var(--blue)}a:hover{color:#163a7a}
 .sevtag.major{color:var(--amber)}.sevtag.major::before{background:var(--amber)}
 .sevtag.minor{color:var(--muted)}.sevtag.minor::before{border:2px solid var(--muted)}
 h1{font-weight:600;font-size:38px;line-height:1.1;margin:0 0 4px}
-.lawlabel{margin:14px 0 4px;font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.lawlabel{margin:14px 0 4px;font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
 .standfirst{margin:4px 0 10px;font:400 20px/1.4 Newsreader,Georgia,serif;color:var(--muted);max-width:34em}
 .byline{margin:0 0 28px;color:var(--muted);font-size:15px}
 .lawlabel.in-short{margin:0 0 10px}
 .crumb+h1{margin-bottom:12px}
 .rows{display:grid;gap:18px;margin:0}
-.r{display:grid;grid-template-columns:120px minmax(0,1fr);gap:0 20px}
-.r dt{font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding-top:5px}
+.r{display:grid;grid-template-columns:136px minmax(0,1fr);gap:0 20px}
+.r dt{font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding-top:5px}
 .r dd{margin:0;font-size:15px}
 .r.said dd,.r.real dd{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:20px;line-height:1.35;padding-left:14px;border-left:3px solid}
 .r.said dd{color:var(--amber);border-color:var(--amber)}.r.real dd{border-color:var(--ink)}
@@ -46,7 +47,7 @@ mark{background:var(--amberbg);color:var(--amber);padding:0 2px;text-decoration:
 .tl,.srcl,.ctx{list-style:none;margin:0 0 8px;padding:0;font-size:14px}
 .tl li,.srcl li,.ctx li{padding:8px 0;border-top:1px solid var(--line)}
 .tl li b{display:inline-block;min-width:116px;font-weight:600}
-.srcl li a{display:inline-flex;align-items:center;min-height:44px;margin-left:8px}
+.srcl li a{display:inline-flex;align-items:center;min-height:44px}
 details.dd{border-top:1px solid var(--line)}
 details.dd>summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;min-height:56px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
 details.dd>summary::-webkit-details-marker{display:none}
@@ -57,5 +58,7 @@ details.dd>div{padding:0 0 20px;font-size:15px}
 .end a{display:inline-flex;align-items:center;min-height:44px;font-size:14px}
 footer{overflow-wrap:anywhere;margin:56px 0 0;padding:24px 0 48px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
 footer p{margin:0 0 6px}
+footer .flink a{display:inline-flex;align-items:center;min-height:44px}
 @media (max-width:760px){.hd-in,.col{padding-left:20px;padding-right:20px}h1{font-size:30px}}
 @media (max-width:640px){.r{grid-template-columns:minmax(0,1fr);gap:2px}}
+@media (max-width:360px){.hd-in{gap:0 12px}.hd a.brand{font-size:17px;gap:8px}}

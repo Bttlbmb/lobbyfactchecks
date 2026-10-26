@@ -35,6 +35,17 @@ def link(src, label):
     u = (src or {}).get("url") or (src or {}).get("mirror_url")
     return f'<a href="{raw(u)}">{label} ↗</a>' if u else ""
 
+def review_text(r):
+    """Plain wording for a review outcome; the stored codes ("retain_provisional_minor_true") are for the research record."""
+    a = str(r.get("assessment") or r.get("outcome") or "").strip().replace("_", " ")
+    if not a or a == "reviewed": return "completed"
+    if re.match(r"(?i)(retain|supports)\b", a):
+        head, _, rest = a.partition(";")
+        if rest.strip(): return "kept as a provisional finding. " + rest.strip()[:1].upper() + rest.strip()[1:]
+        m = re.search(r"\b(with|after) (.+)$", a)
+        return "kept as a provisional finding" + (f", {m.group(1)} {m.group(2)}" if m else "")
+    return human(a)
+
 def human(s):
     s = str(s or "").strip()
     return s.replace("_", " ").capitalize() if "_" in s and " " not in s else s
@@ -109,13 +120,17 @@ def page(i):
     if i.get("correction"): secs.append(("Correction in detail", f'<p class="lead">{e(i["correction"])}</p>'))
     lim = ""
     if i.get("limits"): lim += f'<p>{e(i["limits"])}</p>'
-    if i.get("materiality_explanation"): lim += f'<p class="sn">{e(i["materiality_explanation"])}</p>'
+    me = i.get("materiality_explanation")
+    if me:
+        m = re.match(r"(Major|Minor)[:.]\s+(.*)$", me, flags=re.S)
+        lim += f'<p class="sn"><b>Why {m.group(1).lower()}:</b> {e(m.group(2))}</p>' if m else f'<p class="sn">{e(me)}</p>'
     if lim: secs.append(("What this does not show", lim))
     # how we checked
     revs = i.get("review", {}).get("ai_reviews") or []
-    rv = "".join(f'<li><b>{e(fmt(r.get("date")))}</b> Independent AI review: {e(human(r.get("assessment") or r.get("outcome") or "reviewed"))}</li>' for r in revs)
+    rv = "".join(f'<li><b>{e(fmt(r.get("date")))}</b> Independent AI review: {e(review_text(r))}</li>' for r in revs)
     cf = i.get("confidence") or {}
-    conf = f'Match between text and source: {e(human(cf.get("text_source_mismatch", "n/a")))}. Seriousness: {e(human(cf.get("materiality", "n/a")))}.'
+    sev_note = "Severity is an editorial judgment." if cf.get("materiality") == "editorial_judgment" else f'Seriousness: {e(human(cf.get("materiality", "n/a")))}.'
+    conf = f'Match between text and source: {e(human(cf.get("text_source_mismatch", "n/a")))}. {sev_note}'
     reviews = f'<ul class="tl">{rv}</ul><p class="sn">{conf}' + "</p>"
     if resp: reviews += '<ul class="tl">' + "".join("<li>" + e("; ".join(str(v) for v in (r.values() if isinstance(r, dict) else [r]))) + "</li>" for r in resp) + "</ul>"
     ver = d.get("version") or ("Version of " + fmt(d.get("version_date")) + (" " + d["version_time"] if d.get("version_time") else "") if d.get("version_date") else "")
@@ -154,7 +169,7 @@ def page(i):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
 <style>{CSS}</style></head><body><div class="pg">
-<header class="hd"><div class="hd-in"><a href="../index.html" class="serif" style="font-size:20px;font-weight:600;gap:10px"><svg width="26" height="20" viewBox="6 12 52 40" aria-hidden="true"><path d="M10 16h18v18H18l-8 14z" fill="#14181F"/><path d="M36 16h18v18H44l-8 14z" fill="#A84A00"/></svg>Lobby Fact Checks</a><nav aria-label="Main"><a href="../about.html">About &amp; data</a></nav></div></header>
+<header class="hd"><div class="hd-in"><a href="../index.html" class="serif brand"><svg width="26" height="20" viewBox="6 12 52 40" aria-hidden="true"><path d="M10 16h18v18H18l-8 14z" fill="#14181F"/><path d="M36 16h18v18H44l-8 14z" fill="#A84A00"/></svg>Lobby Fact Checks</a><nav aria-label="Main"><a href="../about.html">About &amp; data</a></nav></div></header>
 <main class="col">
 <p class="crumb"><a href="../index.html#{raw(i["id"])}">← All findings</a></p>
 <p class="eyebrow"><span class="sevtag {sev}">{sevtxt}</span> {e(FAV[i["favours_author_request"]])}</p>
@@ -164,7 +179,7 @@ def page(i):
 <p class="byline">{e(byline)}</p>
 {rows}{body}
 <p class="end"><a href="../index.html#{raw(i["id"])}">← Back to all findings</a></p>
-<footer><p>Provisional AI-screened finding {e(i["id"])}. No human specialist confirmation is recorded.</p><p><a href="../about.html">Method, limitations and research data</a></p></footer>
+<footer><p>Provisional AI-screened finding {e(i["id"])}. No human specialist confirmation is recorded.</p><p class="flink"><a href="../about.html">Method, limitations and research data</a></p></footer>
 </main></div></body></html>'''
 
 OUT.mkdir(parents=True, exist_ok=True)

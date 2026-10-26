@@ -10,8 +10,15 @@ _RULES = [
     (re.compile(r"([,;:])(?=[A-Za-z§])"), r"\1 "),
     (re.compile(r"%(?=[A-Za-z])"), "% "),
     (re.compile(r"\)(?=[A-Za-z§])"), ") "),
+    (re.compile(r"(?<=[A-Za-z])([,;:])(?=\d)"), r"\1 "),                                  # "position,25 August"
+    (re.compile(r"(?<=[a-z])(?=(?:%s) \d{4})" % "|".join(_MONTHS)), " "),       # "inJuly 2025"
+    (re.compile(r"(?<=[a-z])(?=BT ?\d{2}/\d)"), " "),                           # "billBT20/13092"
+    (re.compile(r"\b(from|on|at|see)(?=(?:pp?|pages?) ?\d)"), r"\1 "),             # "frompage 5", "onpp 5-6"
     (re.compile(r"(?<=\d)(?=(?:%s)(?![A-Za-z]))" % "|".join(_MONTHS)), " "),
     (re.compile("(?:" + "|".join(f"(?<={m})" for m in _MONTHS) + r")(?=\d)"), " "),
+    (re.compile(r"(?<=[a-z])\((?=\d)"), " ("),                                     # "date(28 April"
+    (re.compile(r"(\d (?:%s))(?=[a-z])" % "|".join(_MONTHS)), r"\1 "),             # "14 Aprilsubmission"
+    (re.compile(r"(?<=\d),(?=\d{1,2} (?:%s) \d{4})" % "|".join(_MONTHS)), ", "),   # "13092,30 September 2025"; after the month rules have split the date
 ]
 
 _URL = re.compile(r"(https?://\S+)")

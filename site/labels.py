@@ -63,7 +63,7 @@ AUTH = {
  "ivd-mietrecht-20261009":("IVD","real-estate association"),
  "agsbv-financing-20260825":("AG SBV",""),
  "marburger-suizid-20260728-r6":("Marburger Bund","doctors’ union"),
- "wolf-hearing-protocol-20260223":("Committee hearing, 23 Feb 2026","speaker in the hearing transcript"),
+ "wolf-hearing-protocol-20260223":("Committee hearing, 23 February 2026","speaker in the hearing transcript"),
 }
 
 def law_label(law_id):
