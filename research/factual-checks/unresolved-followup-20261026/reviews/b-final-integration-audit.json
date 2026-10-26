@@ -1,0 +1,239 @@
+{
+  "reviewer": "b",
+  "audited_at_utc": "2026-10-26T00:56:34.636174+00:00",
+  "result": "pass",
+  "scope": "Read-only final saved integration and bounded post-format/citation/cleanup closure. No new source research, builder execution, original disposition edits or main-data edits.",
+  "reviewed_snapshots": [
+    {
+      "file": "research/build_resolution_followup.py",
+      "sha256": "7c95661c07a396d7bf86848e7bacb6c11468248a319a04ba204a21540daeb81f"
+    },
+    {
+      "file": "README.md",
+      "sha256": "bee93b5f476176281787888f5ebcfd95eea765881f2e38a556352fc6b7b3317b"
+    },
+    {
+      "file": "data/validation-report.json",
+      "sha256": "2cd795a21e5e4cf3c8675258325fe3d6ecc74d12e41d655275770f7dbf40476e"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/protocol.json",
+      "sha256": "132be3015bdb77e1cef1b72244fb56f41feb2d515e21ff7967de6377ecba434e"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/adjudication.json",
+      "sha256": "5bf1d168f6b613b1d4adf767e525944d7a442e8bf6b7a44044c00f94ae9c0cc0"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/review-freeze.json",
+      "sha256": "7772e1de45c9b15b2490cddd523d01c21c586e7e933be08da37aa919ddaf8754"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/resolution-ledger.json",
+      "sha256": "d323ce6bead85a2d0bf2cda6a3996e4ae15d4f66c4940d6d88099c96a4afcb9f"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/summary.json",
+      "sha256": "c66ac6066e425001f61252453a8ea46243c8892bf663d1c2814479fe13993e2d"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/report.html",
+      "sha256": "e5ab9cc947b81107b2eac133027543f5d6c4c243799b530cb95910e15295bdaa"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/completion-audit.json",
+      "sha256": "2ad6ab13b09e12bcd7b7d235082ea75adb69a51fb2f2eb32990d6f32699bd110"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/preservation-baseline.json",
+      "sha256": "94799fa1d6db8e8b9547bcb33ac40d4d20a4a2442a03b529d698bf8e2b7de49c"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/initial-freezes.json",
+      "sha256": "bb044b2c338616d1592f5f27f71162ecef5b1be33f853c7f54f7ef908650512c"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/baseline-claims.json",
+      "sha256": "a64d950a61112fb0a888edea57ca8bc0f78392f66df118506a27a4406fd328cb"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/reviews/c-workflow-code-audit.json",
+      "sha256": "0604e71ff07b012c23af9c9bbd828c0d2e8713ba3d9ee80cec3b5bcff6dc658b"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "sha256": "3633ad130f3e11e5572ef8189a84ac465564d4eb8bc038ba4593076705703742"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "sha256": "279cbbe2e6457e787eff8a4335414385d48d76214c9ccc8514f321cf6a8b1bee"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/sources/br-publication-supplement.json",
+      "sha256": "cbb634e7259aefde8014eecaf530005cc2044c276ea9c65fdec94abf4eb84d3a"
+    }
+  ],
+  "checks": [
+    {
+      "check": "All protected historical files unchanged",
+      "result": "pass",
+      "detail": {
+        "checked": 135,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "All final frozen input hashes and builder pin",
+      "result": "pass",
+      "detail": {
+        "checked_inputs": 20,
+        "mismatches": [],
+        "builder_sha256": "7c95661c07a396d7bf86848e7bacb6c11468248a319a04ba204a21540daeb81f"
+      }
+    },
+    {
+      "check": "Exactly all 56 baseline cases",
+      "result": "pass",
+      "detail": {
+        "ledger": 56,
+        "unique": 56
+      }
+    },
+    {
+      "check": "Original contexts, anchors/pages and original PDF identities preserved",
+      "result": "pass",
+      "detail": {
+        "original_documents": 16,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "Adjudication integrated without silent proposition/status/limit changes",
+      "result": "pass",
+      "detail": {
+        "mismatches": []
+      }
+    },
+    {
+      "check": "Every displayed evidence reference resolves to one frozen authored source record",
+      "result": "pass",
+      "detail": {
+        "evidence_references": 153,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "Outcome arithmetic and protected baseline snapshots",
+      "result": "pass",
+      "detail": {
+        "baseline_count": 201,
+        "baseline_hash_mismatches": [],
+        "overlay_outcomes": {
+          "supported": 13,
+          "unresolved": 43
+        },
+        "effective_outcomes": {
+          "supported": 156,
+          "unresolved": 43,
+          "contradicted": 2
+        }
+      }
+    },
+    {
+      "check": "All 56 exact-proposal independent peer references retained",
+      "result": "pass",
+      "detail": {
+        "peer_counts": [
+          17,
+          20,
+          19
+        ],
+        "mismatches": []
+      }
+    },
+    {
+      "check": "Final HTML agrees with ledger and completion link resolves",
+      "result": "pass",
+      "detail": {
+        "cards": 56,
+        "statuses": {
+          "supported": 13,
+          "unresolved": 43
+        },
+        "local_link_targets": 215,
+        "missing_targets": [],
+        "card_mismatches": []
+      }
+    },
+    {
+      "check": "No new reading/main-finding credit and separate main38 scope",
+      "result": "pass",
+      "detail": {
+        "main_list_counts": {
+          "findings.json": 69,
+          "unresolved-leads.json": 38,
+          "rejected-candidates.json": 3,
+          "documents.json": 87,
+          "source-registry.json": 587
+        },
+        "unchanged_existing_pool_units": 791,
+        "new_reading_units": 0,
+        "new_main_findings": 0,
+        "affected_existing_documents": 16,
+        "affected_existing_physical_pages": 53
+      }
+    },
+    {
+      "check": "Citation label concern explicitly resolved with historical copies retained",
+      "result": "pass",
+      "detail": {
+        "resolution": "The duplicate incorrectly inherited July-table display title is omitted. Correct original A evidence, full independent peer/source notes and transparent root explanation remain. No numerical/status change.",
+        "formatting_history": "reviews/formatting-history",
+        "citation_history": "reviews/citation-display-history"
+      }
+    },
+    {
+      "check": "Saved global validation and independent code audit bound to actual bytes",
+      "result": "pass",
+      "detail": {
+        "global_records": 110,
+        "errors": 0,
+        "warnings": 0,
+        "code_audit": "C independently executed isolated fixtures/captured build; B read the complete builder and audit, but did not run a mutating live builder.",
+        "fixture_tests_reported": 38
+      }
+    },
+    {
+      "check": "Completion record hashes/counts and cleanup inventories",
+      "result": "pass",
+      "detail": {
+        "output_hash_mismatches": [],
+        "verified_cleanup_inventories": 4,
+        "removed_regenerable_files": 87,
+        "removed_bytes": 45193411,
+        "limit": "Other investigators’ cleanup statements verified against authored inventory hashes; no deleted public bytes restored for final integration."
+      }
+    }
+  ],
+  "issues": [],
+  "resolved_concerns": [
+    {
+      "concern": "Duplicate July birth-table citation inherited April press-release identity label.",
+      "resolution": "Explicit root explanation plus removal of duplicate derived citation; original frozen peer/source bytes and prior adjudication/freeze retained. A008 remains unresolved; correct April/July distinction remains."
+    },
+    {
+      "concern": "Completion link initially pointed to a not-yet-created file.",
+      "resolution": "Final completion-audit.json now exists, is read/bound above and all 215 local report targets resolve."
+    }
+  ],
+  "semantic_limits_reviewed": [
+    "A007/A048 public GKV benchmark versus confidential/same-day prices; A008 hypothetical cohort uncertainty retained.",
+    "B033 existential possession versus prevalence/all-duty claims; B049 direct initial scope versus later indirect work; B057 shared person key versus all object assignment; root003 conditional owner-data rework versus measured project cost/frequency.",
+    "C023 ordinary intertemporal relationship with non-authoritative EFRAG/entity scope; C031 audit-specific WPK corroboration beyond valuation, no universal legal mandate.",
+    "C032/C042 BVBC October-reference identity separated from unresolved IDW September dispatch; institutional eight-year confirmation separated from individual degree-age rule.",
+    "IT standards implementation contribution, broad DBSV disease-risk population/method differences, and first concrete EfA mandate contextual limits retained.",
+    "No human specialist/author-contact or exhaustive current-fact/whole-consultation claim; 43 uncertainties retain blockers/next steps and are not errors."
+  ],
+  "remaining_steps_for_b": [],
+  "temporary_source_status": "No public source bytes needed. Own 17 files removed with inventory preserved; no restore requested."
+}
