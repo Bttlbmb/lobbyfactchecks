@@ -13,11 +13,18 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory dist
 
 Open [the local preview](http://127.0.0.1:8000). The build validates the public file set, finding identities, source/document references and internal links, including compatibility with GitHub Pages repository subpaths. It uses only Python's standard library and makes no network requests. `dist/` is generated and ignored by Git.
 
-## Publish later on GitHub Pages
+## Publish on GitHub Pages
 
-This folder is a local Git repository on `main`. No GitHub repository, remote or deployment is created by the local build. When ready, create an empty public GitHub repository, add its URL as `origin`, and push `main`. In the GitHub repository, choose **Settings → Pages → Build and deployment → Source → GitHub Actions**. Run the **Static site and GitHub Pages** workflow if the first push happened before Pages was enabled.
+The repository is [Bttlbmb/lobbyfactchecks](https://github.com/Bttlbmb/lobbyfactchecks). The public site is [Claim Monitor](https://bttlbmb.github.io/lobbyfactchecks/). GitHub Pages publishes the generated `gh-pages` branch from its root, using **Deploy from a branch**. There is no custom Actions workflow.
 
-The included [workflow](.github/workflows/pages.yml) builds and checks pull requests and publishes pushes to `main` after Pages is configured. Only the generated `dist/` directory is uploaded. See [publishing and maintenance](docs/publishing.md) for commands and the distinction between website checks and original-source research validation. The setup follows [GitHub's custom Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+After committing the source changes on `main`, publish with:
+
+```sh
+git push origin main
+python3 site/publish.py
+```
+
+The script builds and validates the committed site locally, then pushes only its generated public files to `gh-pages`. It preserves deployment history and removes stale pages. Changes to JSON records reach the live website after this publication step. See [publishing and maintenance](docs/publishing.md) for the complete workflow and the distinction between website checks and original-source research validation.
 
 ## Repository contents
 

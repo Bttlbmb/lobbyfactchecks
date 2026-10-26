@@ -15,18 +15,22 @@ The public artifact contains the findings index, an About page, an evidence page
 
 All site links are relative, so the same output works at a domain root and at `https://OWNER.github.io/REPOSITORY/`. External original-source links and the existing Google Fonts requests need internet access; the core content uses local HTML and system font fallbacks. No visitor authentication or backend is required.
 
-## First GitHub push
+## Branch publishing on GitHub Pages
 
-Create an empty public repository in GitHub, without adding a README or other initial files. Replace the example owner and repository below with its actual SSH URL:
+The source repository is [Bttlbmb/lobbyfactchecks](https://github.com/Bttlbmb/lobbyfactchecks), with SSH remote `git@github.com:Bttlbmb/lobbyfactchecks.git`. The website is [Claim Monitor](https://bttlbmb.github.io/lobbyfactchecks/).
+
+Commit source changes on `main`, then run:
 
 ```sh
-git remote add origin git@github.com:OWNER/REPOSITORY.git
-git push -u origin main
+git push origin main
+python3 site/publish.py
 ```
 
-In the GitHub repository, open **Settings → Pages** and select **GitHub Actions** as the source. If necessary, open **Actions → Static site and GitHub Pages → Run workflow** on `main`. The successful deployment exposes its URL in the `github-pages` environment. No custom domain is assumed.
+The publishing script builds and validates `site/` and `data/` from the pushed commit. It uses a temporary directory, leaving the current checkout and unrelated research work in place. It then commits only the generated public files to `gh-pages` and pushes that branch without force. An unchanged build creates no new deployment commit. Removed findings leave no stale evidence pages.
 
-GitHub Actions builds and validates pull requests without deploying them. Pushes to `main` and manual runs on `main` build and deploy. Build jobs have read-only repository access; the deployment job alone receives Pages and identity-token permissions. Configure the `github-pages` environment to permit deployment from `main` as appropriate for the repository. See [GitHub's publishing-source instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+In **Settings → Pages → Build and deployment**, use **Deploy from a branch**, branch **gh-pages**, folder **/(root)**. The branch must exist before it can be selected. `.nojekyll` keeps the generated HTML intact. No custom domain or custom GitHub Actions workflow is required. GitHub still uses its own internal Pages deployment machinery, which may appear in the Actions interface. See [GitHub's branch-publishing instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+Pushing `main` saves the source changes; running the publishing script updates the live website. The script rejects uncommitted changes in `site/` or `data/`, and requires `main` to have been pushed first. The public artifact is the same explicit file set checked by the local build.
 
 ## Updating findings
 
