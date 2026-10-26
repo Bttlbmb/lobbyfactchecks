@@ -1,4 +1,4 @@
-"""Assemble the factual pilot without changing earlier issue or reading records."""
+"""Validate saved pilot records; --check-local-sources opts into source checks and assembly."""
 
 import copy
 import hashlib
@@ -15,7 +15,8 @@ from jsonschema import Draft202012Validator
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
-RENDER_ONLY = "--render-only" in sys.argv
+CHECK_LOCAL_SOURCES = "--check-local-sources" in sys.argv
+RENDER_ONLY = "--render-only" in sys.argv or not CHECK_LOCAL_SOURCES
 
 
 def read(path):
@@ -138,14 +139,15 @@ for claim in claims:
     pages = claim["pdf_pages"]
     if any(p > doc["physical_pages"] for p in pages):
         errors.append(f"Out-of-range author page: {cid}")
-    extracted = (ROOT / doc["pilot_text"]).read_text().split("\f")
-    text = " ".join(extracted[p - 1] for p in pages if p <= len(extracted))
-    if normal(claim["original_excerpt"]) not in normal(text):
-        if claim.get("visual_anchor_check", {}).get("evidence_file"):
-            if not (ROOT / claim["visual_anchor_check"]["evidence_file"]).is_file():
-                errors.append(f"Missing visual anchor evidence: {cid}")
-        else:
-            errors.append(f"Original anchor not found on cited pages: {cid}")
+    if CHECK_LOCAL_SOURCES:
+        extracted = (ROOT / doc["pilot_text"]).read_text().split("\f")
+        text = " ".join(extracted[p - 1] for p in pages if p <= len(extracted))
+        if normal(claim["original_excerpt"]) not in normal(text):
+            if claim.get("visual_anchor_check", {}).get("evidence_file"):
+                if not (ROOT / claim["visual_anchor_check"]["evidence_file"]).is_file():
+                    errors.append(f"Missing visual anchor evidence: {cid}")
+            else:
+                errors.append(f"Original anchor not found on cited pages: {cid}")
     for evidence in claim["evidence"]:
         source = sources.get(evidence["source_id"])
         if not source:
@@ -158,25 +160,26 @@ for claim in claims:
         errors.append(f"Claim has no independent review: {cid}")
 
 archive_checks = []
-for source in sources.values():
-    local = source.get("local_file")
-    if not local:
-        if not source.get("error") and source.get("usable_as_evidence") is not False:
-            warnings.append(f"No local source archive: {source['id']}")
-        continue
-    path = ROOT / local
-    if not path.is_file():
-        errors.append(f"Missing archive: {source['id']}:{local}")
-        continue
-    actual = digest(path)
-    if source.get("sha256") != actual:
-        errors.append(f"Source hash mismatch or absent: {source['id']}")
-    if path.suffix.lower() == ".pdf" and not path.read_bytes().startswith(b"%PDF-"):
-        errors.append(f"Not a PDF: {source['id']}")
-    archive_checks.append({"source_id": source["id"], "file": local, "sha256": actual})
-for doc in documents.values():
-    if digest(ROOT / doc["local_file"]) != doc["sha256"]:
-        errors.append(f"Original author snapshot changed: {doc['id']}")
+if CHECK_LOCAL_SOURCES:
+    for source in sources.values():
+        local = source.get("local_file")
+        if not local:
+            if not source.get("error") and source.get("usable_as_evidence") is not False:
+                warnings.append(f"No local source archive: {source['id']}")
+            continue
+        path = ROOT / local
+        if not path.is_file():
+            errors.append(f"Missing archive: {source['id']}:{local}")
+            continue
+        actual = digest(path)
+        if source.get("sha256") != actual:
+            errors.append(f"Source hash mismatch or absent: {source['id']}")
+        if path.suffix.lower() == ".pdf" and not path.read_bytes().startswith(b"%PDF-"):
+            errors.append(f"Not a PDF: {source['id']}")
+        archive_checks.append({"source_id": source["id"], "file": local, "sha256": actual})
+    for doc in documents.values():
+        if digest(ROOT / doc["local_file"]) != doc["sha256"]:
+            errors.append(f"Original author snapshot changed: {doc['id']}")
 
 per_doc = []
 for doc in documents.values():
@@ -200,6 +203,11 @@ summary = {
     "archived_source_files": len(archive_checks), "new_reading_units": 0,
     "source_access_attempts_unusable": sum(s.get("usable_as_evidence") is False or bool(s.get("error")) for s in sources.values()),
 }
+if not CHECK_LOCAL_SOURCES:
+    print(json.dumps({"validation_scope": "saved_records_only", "source_bytes_rechecked": False,
+                      "claims": len(claims), "errors": errors, "warnings": warnings}, indent=2))
+    raise SystemExit(bool(errors))
+
 write(HERE / "validation-report.json", {"valid": not errors, "errors": errors,
       "warnings": warnings, "author_snapshot_hashes_checked": len(documents),
       "claims_checked": len(claims), "reviews": reviews, "archives": archive_checks})

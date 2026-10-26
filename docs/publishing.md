@@ -32,7 +32,7 @@ GitHub Actions builds and validates pull requests without deploying them. Pushes
 
 Research decisions must still follow [the contributor guidance](../AGENTS.md). Preserve rejected decisions, unresolved leads and review records. The site reads the current assembled `data/` files; it does not automatically promote candidate records from `research/`.
 
-When changing research inputs, use the affected research builders and full original-source validation in the existing research workspace:
+When changing research inputs, use the affected builders and saved-record validation:
 
 ```sh
 python3 -m venv .venv
@@ -42,8 +42,10 @@ python3 -m venv .venv
 python3 site/build_static.py
 ```
 
-Full research validation also requires Poppler's `pdftotext` and the exact local source files referenced by the records. Read `data/validation-report.json`: the historical validator writes its result there and does not signal every failure through its process exit status. The static build's checks are narrower and do not authenticate quotations or recheck substantive truth.
+Routine research validation checks schemas, issue/review references and recorded metadata. `data/validation-report.json` explicitly labels its scope as `saved_records_only`; it does not authenticate quotations or recheck substantive truth. Validation failures also return a nonzero process status.
 
-Downloaded PDFs, fetched HTML, text extractions, datasets and page renders remain local and ignored. Do not use `git add -f` to publish entire source directories. Keep authored metadata and review records under version control. If a particular historical snapshot or unique piece of evidence must be committed, record its reason and identity in its source metadata and add a narrow exception to `.gitignore`.
+To repeat original-source checks, restore only the exact files needed for that task, then pass `--check-local-sources`. This mode also requires Poppler's `pdftotext` (and `pdfinfo` for factual batches). The factual pilot, batch and resolution builders default to validating authored records without rewriting historical ledgers or reports. Their explicit source-check mode retains the stricter checks used to assemble a new snapshot. Remove temporary originals and regenerated extractions/renders after the task.
+
+Downloaded PDFs, fetched HTML, text extractions, datasets and page renders are temporary and ignored. The MVP keeps links, source identity/version, access dates, short quotations, locators and authored research/review records. Do not use `git add -f` to publish entire source directories or retain downloads to keep validators working offline. Retain a snapshot only when explicitly requested or when it is unique evidence that cannot be regenerated, with the exception recorded in its metadata.
 
 Consult `research/cache-manifest.json` for intentionally evicted files. List them with `python3 research/source_cache.py --list` and restore only the exact paths needed for the current check. The tool covers that eviction manifest; it is not a general installer for every local asset omitted from Git. A changed or unavailable live source must be disclosed and reassessed. Restoration and a successful website build are not new factual checks.

@@ -1,5 +1,6 @@
-"""Check the saved JSON, references, archived files and page-located excerpts."""
+"""Validate saved research records; recheck local source bytes only when requested."""
 
+import argparse
 import hashlib
 import json
 import re
@@ -9,6 +10,11 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 from jsonschema import Draft202012Validator
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--check-local-sources", action="store_true",
+                    help="Also check exact cached source bytes and quotations; restore only needed files first")
+CHECK_LOCAL_SOURCES = parser.parse_args().check_local_sources
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -73,6 +79,12 @@ def check_quote(issue_id, field, quote, fallback_source=None):
     if source is None:
         check["result"] = "source_unresolved"
         errors.append(f"{issue_id}:{field}: unknown source {source_id}")
+    elif not CHECK_LOCAL_SOURCES:
+        check["result"] = "recorded_quote_not_rechecked"
+        check["reason"] = "MVP record validation only; consult the preserved source identity, locator and research/review record. No source was downloaded or checked in this run."
+    elif source.get("local_file") and not (ROOT / source["local_file"]).is_file():
+        check["result"] = "source_not_cached"
+        errors.append(f"{issue_id}:{field}: source not cached; restore {source['local_file']} for this explicit source check")
     elif (source.get("local_file") or "").endswith((".html", ".htm")):
         parser = VisibleText()
         raw_html = (ROOT / source["local_file"]).read_bytes()
@@ -182,7 +194,10 @@ for sid, source in sources.items():
         continue
     path = ROOT / source["local_file"]
     check = {"source_id": sid, "local_file": source["local_file"]}
-    if not path.is_file():
+    if not CHECK_LOCAL_SOURCES:
+        check.update(result="local_snapshot_not_required", recorded_sha256=source.get("sha256"),
+                     original_url=source.get("url") or source.get("mirror_url"))
+    elif not path.is_file():
         errors.append(f"Missing archive: {sid}")
         check["result"] = "missing"
     else:
@@ -197,7 +212,10 @@ for sid, source in sources.items():
 
 report = {
     "checked_at_utc": datetime.now(timezone.utc).isoformat(),
-    "result": "pass_with_disclosed_manual_checks" if not errors else "requires_correction",
+    "result": ("pass_with_disclosed_manual_checks" if CHECK_LOCAL_SOURCES else "pass_metadata_only") if not errors else "requires_correction",
+    "validation_scope": "local_sources_and_records" if CHECK_LOCAL_SOURCES else "saved_records_only",
+    "sources_downloaded": False,
+    "source_bytes_rechecked": CHECK_LOCAL_SOURCES,
     "record_count": len(records),
     "errors": errors,
     "warnings": warnings,
@@ -208,3 +226,4 @@ report = {
 }
 (DATA / "validation-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n")
 print(json.dumps({"records": len(records), "errors": errors, "warnings": warnings}, ensure_ascii=False, indent=2))
+raise SystemExit(bool(errors))

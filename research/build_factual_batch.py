@@ -1,4 +1,4 @@
-"""Validate and assemble one configured factual-check batch; preserve raw inventories."""
+"""Validate saved batch records; --check-local-sources opts into source checks and assembly."""
 
 import argparse
 import copy
@@ -19,10 +19,12 @@ ROOT = Path(__file__).resolve().parent.parent
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("batch", help="Workspace-relative batch directory containing protocol.json")
 parser.add_argument("--render-only", action="store_true", help="Validate and render HTML without changing saved JSON snapshots")
+parser.add_argument("--check-local-sources", action="store_true", help="Recheck exact local originals; restore needed sources first")
 args = parser.parse_args()
+CHECK_LOCAL_SOURCES = args.check_local_sources
 HERE = (ROOT / args.batch).resolve()
 BATCH = str(HERE.relative_to(ROOT))
-RENDER_ONLY = args.render_only
+RENDER_ONLY = args.render_only or not CHECK_LOCAL_SOURCES
 
 
 def read(path):
@@ -244,21 +246,22 @@ for claim in claims:
     pages = claim["pdf_pages"]
     if any(p > doc["physical_pages"] for p in pages):
         errors.append(f"Out-of-range author page: {cid}")
-    extracted = (ROOT / doc["pilot_text"]).read_text().split("\f")
-    text = " ".join(extracted[p - 1] for p in pages if p <= len(extracted))
-    if normal(claim["original_excerpt"]) not in normal(text):
-        if claim.get("visual_anchor_check", {}).get("evidence_file"):
-            check = claim["visual_anchor_check"]
-            visual = ROOT / check["evidence_file"]
-            if (not visual.is_file() or digest(visual) != check.get("evidence_sha256")
-                    or check.get("source_sha256") != doc["sha256"]
-                    or check.get("excerpt") != claim["original_excerpt"]
-                    or set(check.get("pdf_pages", [])) != set(pages)
-                    or check.get("reviewer") not in {"root", claim.get("peer_review", {}).get("reviewer")}
-                    or not check.get("reviewer")):
-                errors.append(f"Visual anchor review lacks hash/page/excerpt/reviewer binding: {cid}")
-        else:
-            errors.append(f"Original anchor not found on cited pages: {cid}")
+    if CHECK_LOCAL_SOURCES:
+        extracted = (ROOT / doc["pilot_text"]).read_text().split("\f")
+        text = " ".join(extracted[p - 1] for p in pages if p <= len(extracted))
+        if normal(claim["original_excerpt"]) not in normal(text):
+            if claim.get("visual_anchor_check", {}).get("evidence_file"):
+                check = claim["visual_anchor_check"]
+                visual = ROOT / check["evidence_file"]
+                if (not visual.is_file() or digest(visual) != check.get("evidence_sha256")
+                        or check.get("source_sha256") != doc["sha256"]
+                        or check.get("excerpt") != claim["original_excerpt"]
+                        or set(check.get("pdf_pages", [])) != set(pages)
+                        or check.get("reviewer") not in {"root", claim.get("peer_review", {}).get("reviewer")}
+                        or not check.get("reviewer")):
+                    errors.append(f"Visual anchor review lacks hash/page/excerpt/reviewer binding: {cid}")
+            else:
+                errors.append(f"Original anchor not found on cited pages: {cid}")
     for evidence in claim["evidence"]:
         source = sources.get(evidence["source_id"])
         if not source:
@@ -270,38 +273,38 @@ for claim in claims:
     if not claim.get("peer_review") and not claim.get("independent_review"):
         errors.append(f"Claim has no independent review: {cid}")
 
-archive_checks = []
-for source in sources.values():
-    local = source.get("local_file")
-    if not local:
-        if not source.get("error") and source.get("usable_as_evidence") is not False:
-            warnings.append(f"No local source archive: {source['id']}")
-        continue
-    path = ROOT / local
-    if not path.is_file():
-        errors.append(f"Missing archive: {source['id']}:{local}")
-        continue
-    actual = digest(path)
-    if source.get("sha256") != actual:
-        errors.append(f"Source hash mismatch or absent: {source['id']}")
-    if path.suffix.lower() == ".pdf" and not path.read_bytes().startswith(b"%PDF-"):
-        errors.append(f"Not a PDF: {source['id']}")
-    archive_checks.append({"source_id": source["id"], "file": local, "sha256": actual})
-author_text_checks = []
-for doc in documents.values():
-    if digest(ROOT / doc["local_file"]) != doc["sha256"]:
-        errors.append(f"Original author snapshot changed: {doc['id']}")
-    info = subprocess.run(["pdfinfo", str(ROOT / doc["local_file"])], capture_output=True, text=True)
-    page_match = re.search(r"^Pages:\s+(\d+)", info.stdout, re.M)
-    if not page_match or int(page_match.group(1)) != doc["physical_pages"]:
-        errors.append(f"Original physical page count mismatch: {doc['id']}")
-    extracted = subprocess.run(["pdftotext", "-layout", str(ROOT / doc["local_file"]), "-"], capture_output=True, text=True)
-    text_path = ROOT / doc["pilot_text"]
-    if extracted.returncode or extracted.stdout != text_path.read_text():
-        errors.append(f"Saved author text differs from fresh original PDF extraction: {doc['id']}")
-    author_text_checks.append({"document_id": doc["id"], "pdf_sha256": doc["sha256"],
-                               "text_file": doc["pilot_text"], "text_sha256": digest(text_path),
-                               "method": "Exact comparison with fresh pdftotext -layout extraction"})
+archive_checks, author_text_checks = [], []
+if CHECK_LOCAL_SOURCES:
+    for source in sources.values():
+        local = source.get("local_file")
+        if not local:
+            if not source.get("error") and source.get("usable_as_evidence") is not False:
+                warnings.append(f"No local source archive: {source['id']}")
+            continue
+        path = ROOT / local
+        if not path.is_file():
+            errors.append(f"Missing archive: {source['id']}:{local}")
+            continue
+        actual = digest(path)
+        if source.get("sha256") != actual:
+            errors.append(f"Source hash mismatch or absent: {source['id']}")
+        if path.suffix.lower() == ".pdf" and not path.read_bytes().startswith(b"%PDF-"):
+            errors.append(f"Not a PDF: {source['id']}")
+        archive_checks.append({"source_id": source["id"], "file": local, "sha256": actual})
+    for doc in documents.values():
+        if digest(ROOT / doc["local_file"]) != doc["sha256"]:
+            errors.append(f"Original author snapshot changed: {doc['id']}")
+        info = subprocess.run(["pdfinfo", str(ROOT / doc["local_file"])], capture_output=True, text=True)
+        page_match = re.search(r"^Pages:\s+(\d+)", info.stdout, re.M)
+        if not page_match or int(page_match.group(1)) != doc["physical_pages"]:
+            errors.append(f"Original physical page count mismatch: {doc['id']}")
+        extracted = subprocess.run(["pdftotext", "-layout", str(ROOT / doc["local_file"]), "-"], capture_output=True, text=True)
+        text_path = ROOT / doc["pilot_text"]
+        if extracted.returncode or extracted.stdout != text_path.read_text():
+            errors.append(f"Saved author text differs from fresh original PDF extraction: {doc['id']}")
+        author_text_checks.append({"document_id": doc["id"], "pdf_sha256": doc["sha256"],
+                                   "text_file": doc["pilot_text"], "text_sha256": digest(text_path),
+                                   "method": "Exact comparison with fresh pdftotext -layout extraction"})
 
 per_doc = []
 for doc in documents.values():
@@ -332,6 +335,11 @@ summary = {
     "new_reading_units": 0,
     "source_access_attempts_unusable": sum(s.get("usable_as_evidence") is False or bool(s.get("error")) for s in sources.values()),
 }
+if not CHECK_LOCAL_SOURCES:
+    print(json.dumps({"validation_scope": "saved_records_only", "source_bytes_rechecked": False,
+                      "claims": len(claims), "errors": errors, "warnings": warnings}, indent=2))
+    raise SystemExit(bool(errors))
+
 write(HERE / "validation-report.json", {"valid": not errors, "errors": errors,
       "warnings": warnings, "author_snapshot_hashes_checked": len(documents),
       "author_text_extractions": author_text_checks,

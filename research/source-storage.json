@@ -1,0 +1,27 @@
+{
+  "policy": "MVP links-first source storage; no persistent archive of public downloads",
+  "effective_date": "2026-10-26",
+  "supersedes": "Earlier source-retention notes requiring downloads solely for offline report builds or source validation describe historical snapshots and no longer govern this MVP.",
+  "retained": [
+    "Findings and unresolved/rejected decisions",
+    "Authored research notes, protocols and review records",
+    "Original URLs, document identities/versions, access dates, hashes and page locators",
+    "Short evidence quotations and recorded check results",
+    "Historical authored reports and their frozen review inputs"
+  ],
+  "removed": {
+    "files": 25230,
+    "bytes": 2734293653,
+    "kinds": [
+      "Public PDFs and fetched webpages",
+      "ZIPs, datasets and partial/failed downloads",
+      "Full text, OCR and browser captures",
+      "Regenerable page renders"
+    ]
+  },
+  "recovery_manifest": "research/cache-manifest.json",
+  "recovery_limits": "No new URLs were guessed. Manifest entries without an authenticated direct recovery URL require consulting the preserved source metadata. Regenerable derivatives are not treated as original-source downloads. Changed or unavailable live bytes must be disclosed; restoration is not a new factual check.",
+  "validation": "Routine validators check saved records without downloading or rechecking original bytes. Explicit --check-local-sources requires only the originals needed for that task, which should be removed afterward.",
+  "historical_builder": "research/reviews/build_resolution_followup-frozen.py preserves the authored code identity bound by the earlier review freeze; current record validation uses that frozen identity without rewriting the review.",
+  "scope_note": "Authored files in the separate ongoing unresolved-hour-20261026 pass were left untouched."
+}

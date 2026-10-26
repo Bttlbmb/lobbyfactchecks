@@ -18,6 +18,9 @@ def write(name, value):
     (OUT / name).write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n")
 
 
+evicted_sources = {item["path"]: item for item in read("research/cache-manifest.json")["files"]}
+
+
 registries = [
     ("research/energy/sources.json", "research/energy"),
     ("research/root/sources.json", "research/root"),
@@ -54,6 +57,8 @@ def add_source(source, base):
         source["local_file"] = str(p)
         if (ROOT / p).is_file():
             source["sha256"] = hashlib.sha256((ROOT / p).read_bytes()).hexdigest()
+        elif str(p) in evicted_sources:
+            source.setdefault("sha256", evicted_sources[str(p)]["sha256"])
     existing = source_index.get(source["id"])
     if existing:
         # Keep the earliest metadata and add independently recorded details.

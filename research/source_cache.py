@@ -26,6 +26,8 @@ def restore(entry, fetch=None):
         if hashlib.sha256(path.read_bytes()).hexdigest() != entry['sha256']:
             raise ValueError('Existing file differs; refusing to overwrite it')
         return 'already present'
+    if entry.get('method') not in {'download', 'zip_member'} or not entry.get('url'):
+        raise ValueError(entry.get('recovery_note') or 'Regenerate this derivative from its cited original; no direct exact-byte download is recorded')
     if fetch is None:
         request = urllib.request.Request(entry['url'], headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(request, timeout=60) as response:

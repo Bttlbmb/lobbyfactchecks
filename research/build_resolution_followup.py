@@ -1,9 +1,10 @@
-"""Validate and render a reviewed overlay without rewriting historical claim ledgers."""
+"""Validate saved overlay records; --check-local-sources opts into source checks and rendering."""
 
 import argparse
 import hashlib
 import html
 import json
+from functools import lru_cache
 import os
 from collections import Counter
 from datetime import datetime
@@ -25,7 +26,24 @@ def require(condition, message):
         raise ValueError(message)
 
 
-def build(directory):
+@lru_cache(maxsize=1)
+def evicted_sources():
+    return {item["path"]: item for item in read(ROOT / "research/cache-manifest.json")["files"]}
+
+
+def verify_historical_identity(path, expected_sha256, check_local_sources):
+    relative = str(path.relative_to(ROOT))
+    entry = evicted_sources().get(relative)
+    if not check_local_sources and entry:
+        require(entry["sha256"] == expected_sha256, f"Recorded historical source identity differs: {relative}")
+        return
+    require(path.is_file(), f"Source not cached; restore only this required path for an explicit source check: {relative}")
+    require(digest(path) == expected_sha256, f"Historical file changed: {relative}")
+
+
+def build(directory, check_local_sources=False, render_saved_records=False):
+    require(not (check_local_sources and render_saved_records),
+            "Choose either current source-byte checks or rendering saved records")
     here = (ROOT / directory).resolve()
     here.relative_to(ROOT)
     protocol = read(here / "protocol.json")
@@ -48,14 +66,13 @@ def build(directory):
     for key, item in originals.items():
         require(item["claim"] == all_claims[key], f"Baseline claim changed: {key}")
         document = item["document"]
-        require(digest(ROOT / document["local_file"]) == document["sha256"],
-                f"Original document changed: {document['id']}")
+        verify_historical_identity(ROOT / document["local_file"], document["sha256"], check_local_sources)
     preservation = read(here / "preservation-baseline.json")
     for item in preservation["files"]:
-        require(digest(ROOT / item["file"]) == item["sha256"],
-                f"Preserved historical file changed: {item['file']}")
+        verify_historical_identity(ROOT / item["file"], item["sha256"], check_local_sources)
     freeze = read(here / "review-freeze.json")
-    require(freeze["builder_sha256"] == digest(Path(__file__)), "Follow-up builder changed")
+    require(freeze["builder_sha256"] == digest(ROOT / "research/reviews/build_resolution_followup-frozen.py"),
+            "Original reviewed follow-up builder changed")
     frozen = {x["file"]: x["sha256"] for x in freeze["files"]}
     require(len(frozen) == len(freeze["files"]), "Duplicate frozen file")
     for filename in ["baseline-claims.json", "protocol-initial.json", "preservation-baseline.json",
@@ -160,6 +177,13 @@ def build(directory):
                "independent_peer_reviews": len(reviewed), "new_reading_units": 0,
                "new_main_findings": final["new_main_findings"],
                "historical_files_preserved": len(preservation["files"]), "limits": protocol["limits"]}
+    if not check_local_sources and not render_saved_records:
+        print(json.dumps({"validation_scope": "saved_records_only", "source_bytes_rechecked": False,
+                          "reviewed": len(rows), "outcomes": dict(counts), "errors": []}, indent=2))
+        return summary
+    if render_saved_records:
+        summary["validation_scope"] = "saved_records_only"
+        summary["historical_source_bytes_rechecked"] = False
     (here / "resolution-ledger.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n")
     (here / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n")
     e = html.escape
@@ -184,6 +208,7 @@ body{{font:17px/1.65 system-ui,sans-serif;max-width:1000px;margin:44px auto;padd
 <p><strong>{summary['reviewed']} reviewed · {summary['resolved']} resolved · {counts['unresolved']} remain unresolved.</strong></p>
 <p>Three researchers revisited the original statements and targeted primary evidence. Each reviewed another researcher's frozen proposals; root adjudicated every case. Resolutions distinguish new evidence from corrections to an overly strong earlier evidence demand.</p>
 <p>The previous 201-assessment snapshot remains preserved. Applying this overlay gives {effective['supported']} supported, {effective['unresolved']} unresolved and {effective['contradicted']} contradicted assessments. No additional reading units or new main findings were added.</p>
+{('<p class="meta">This report was assembled from frozen research records. Historical source identities were verified against saved hashes; this build did not download or recheck all historical source bytes. New source reads and their limits are recorded in each saved check.</p>' if render_saved_records else '')}
 <p><a href="summary.json">Summary</a> · <a href="resolution-ledger.json">Resolution ledger</a> · <a href="adjudication.json">Adjudication</a> · <a href="review-freeze.json">Frozen review inputs</a> · <a href="completion-audit.json">Completion audit</a> · <a href="../short-statements-20261025/overview/report.html">Previous snapshot</a></p>
 <ul>{limits}</ul><label for="filter">Show </label><select id="filter"><option value="all">All assessments</option><option value="supported">Resolved as supported</option><option value="unresolved">Still unresolved</option><option value="contradicted">Contradicted</option></select>
 {''.join(cards)}</main><script>document.getElementById('filter').addEventListener('change',function(){{document.querySelectorAll('article').forEach(x=>x.hidden=this.value!=='all'&&x.dataset.result!==this.value)}});</script></html>''')
@@ -194,4 +219,10 @@ body{{font:17px/1.65 system-ui,sans-serif;max-width:1000px;margin:44px auto;padd
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("directory", nargs="?", default="research/factual-checks/unresolved-followup-20261026")
-    build(parser.parse_args().directory)
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--check-local-sources", action="store_true",
+                        help="Also require exact original source files; restore only needed paths first")
+    mode.add_argument("--render-saved-records", action="store_true",
+                      help="Assemble a new report from frozen records and recorded cache identities; no source-byte recheck")
+    args = parser.parse_args()
+    build(args.directory, args.check_local_sources, args.render_saved_records)
