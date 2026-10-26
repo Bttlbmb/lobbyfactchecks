@@ -27,7 +27,7 @@ def publish(root=ROOT):
     if not remote_main or remote_main.split()[0] != commit:
         raise ValueError("Push main to origin before publishing its website")
     archive = subprocess.check_output(["git", "-C", str(root), "archive", "HEAD", "site", "data"])
-    with tempfile.TemporaryDirectory(prefix="claim-monitor-publish-") as temporary:
+    with tempfile.TemporaryDirectory(prefix="lobby-fact-checks-publish-") as temporary:
         source = Path(temporary) / "source"
         source.mkdir()
         with tarfile.open(fileobj=io.BytesIO(archive)) as bundle:

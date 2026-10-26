@@ -35,7 +35,7 @@ def validate(directory):
     document_ids = {document["id"] for document in documents}
     if len(source_ids) != len(sources) or len(document_ids) != len(documents):
         raise ValueError("Duplicate source or document identity")
-    expected = {"index.html", "about.html", "evidence.css", ".nojekyll"}
+    expected = {"index.html", "about.html", "evidence.css", "favicon.svg", ".nojekyll"}
     expected.update(f"data/{name}" for name in (
         "findings.json", "unresolved-leads.json", "rejected-candidates.json",
         "source-registry.json", "documents.json", "issue.schema.json",

@@ -21,7 +21,7 @@ PUBLIC_DATA = (
 
 def main():
     # Build in a fresh directory so removed findings cannot leave stale pages.
-    with tempfile.TemporaryDirectory(prefix="claim-monitor-site-") as temporary:
+    with tempfile.TemporaryDirectory(prefix="lobby-fact-checks-site-") as temporary:
         output = Path(temporary)
         subprocess.run(
             [sys.executable, str(HERE / "build.py"), str(output / "index.html")],
@@ -31,7 +31,7 @@ def main():
             [sys.executable, str(HERE / "build_evidence.py"), str(output / "evidence")],
             check=True,
         )
-        for name in ("about.html", "evidence.css"):
+        for name in ("about.html", "evidence.css", "favicon.svg"):
             shutil.copyfile(HERE / name, output / name)
         (output / "data").mkdir()
         for name in PUBLIC_DATA:

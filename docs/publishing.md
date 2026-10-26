@@ -11,13 +11,13 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory dist
 
 Open [the local preview](http://127.0.0.1:8000). Stop the server with Ctrl+C. Rebuild after editing templates or data. The build replaces only the generated `dist/` directory after the new output passes validation. Removed findings therefore leave no stale evidence pages.
 
-The public artifact contains the findings index, an About page, an evidence page per admitted finding, CSS, `.nojekyll`, and six JSON exports: findings, unresolved leads, rejected candidates, sources, documents and the issue schema. The explicit file list prevents templates, Python scripts, raw source downloads and other research files from being included in the website. The GitHub repository itself will expose every committed file when made public.
+The public artifact contains the findings index, an About page, an evidence page per admitted finding, CSS, the favicon, `.nojekyll`, and six JSON exports: findings, unresolved leads, rejected candidates, sources, documents and the issue schema. The explicit file list prevents templates, Python scripts, raw source downloads and other research files from being included in the website. The GitHub repository itself will expose every committed file when made public.
 
 All site links are relative, so the same output works at a domain root and at `https://OWNER.github.io/REPOSITORY/`. External original-source links and the existing Google Fonts requests need internet access; the core content uses local HTML and system font fallbacks. No visitor authentication or backend is required.
 
 ## Branch publishing on GitHub Pages
 
-The source repository is [Bttlbmb/lobbyfactchecks](https://github.com/Bttlbmb/lobbyfactchecks), with SSH remote `git@github.com:Bttlbmb/lobbyfactchecks.git`. The website is [Claim Monitor](https://bttlbmb.github.io/lobbyfactchecks/).
+The source repository is [Bttlbmb/lobbyfactchecks](https://github.com/Bttlbmb/lobbyfactchecks), with SSH remote `git@github.com:Bttlbmb/lobbyfactchecks.git`. The website is [Lobby Fact Checks](https://bttlbmb.github.io/lobbyfactchecks/).
 
 Commit source changes on `main`, then run:
 

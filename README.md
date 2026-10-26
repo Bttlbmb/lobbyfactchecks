@@ -1,4 +1,4 @@
-# Claim Monitor
+# Lobby Fact Checks
 
 A static public website showing provisional, AI-screened checks of submissions to German federal lawmakers. The site is generated from the structured research records in `data/`. It needs no server application, database, API key or JavaScript build tool.
 
@@ -15,7 +15,7 @@ Open [the local preview](http://127.0.0.1:8000). The build validates the public 
 
 ## Publish on GitHub Pages
 
-The repository is [Bttlbmb/lobbyfactchecks](https://github.com/Bttlbmb/lobbyfactchecks). The public site is [Claim Monitor](https://bttlbmb.github.io/lobbyfactchecks/). GitHub Pages publishes the generated `gh-pages` branch from its root, using **Deploy from a branch**. There is no custom Actions workflow.
+The repository is [Bttlbmb/lobbyfactchecks](https://github.com/Bttlbmb/lobbyfactchecks). The public site is [Lobby Fact Checks](https://bttlbmb.github.io/lobbyfactchecks/). GitHub Pages publishes the generated `gh-pages` branch from its root, using **Deploy from a branch**. There is no custom Actions workflow.
 
 After committing the source changes on `main`, publish with:
 

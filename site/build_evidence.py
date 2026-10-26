@@ -148,11 +148,12 @@ def page(i):
     title = f"{headline(author, kind)} on {law}: {claim}"      # headline first: that is the part a tab still shows
     return f'''<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{e(title)} · Claim Monitor</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<title>{e(title)} · Lobby Fact Checks</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
 <style>{CSS}</style></head><body><div class="pg">
-<header class="hd"><div class="hd-in"><a href="../index.html" class="serif" style="font-size:20px;font-weight:600">Claim Monitor</a><nav aria-label="Main"><a href="../index.html">Findings</a> · <a href="../about.html">About &amp; data</a></nav></div></header>
+<header class="hd"><div class="hd-in"><a href="../index.html" class="serif" style="font-size:20px;font-weight:600;gap:10px"><svg width="26" height="20" viewBox="6 12 52 40" aria-hidden="true"><path d="M10 16h18v18H18l-8 14z" fill="#14181F"/><path d="M36 16h18v18H44l-8 14z" fill="#A84A00"/></svg>Lobby Fact Checks</a><nav aria-label="Main"><a href="../index.html">Findings</a> · <a href="../about.html">About &amp; data</a></nav></div></header>
 <main class="col">
 <p class="crumb"><a href="../index.html#{raw(i["id"])}">← Newest findings</a></p>
 <p class="eyebrow"><span class="sevtag {sev}">{sevtxt}</span> {e(FAV[i["favours_author_request"]])}</p>
