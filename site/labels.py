@@ -16,7 +16,14 @@ LAW = {
  "ip-speicherung-2026":"IP address retention","jstg-2026":"Annual Tax Act 2026","luftverkehrsteuer-aenderung-2026":"Air travel tax amendment",
  "mietrechtII-2026":"Tenancy law reform II","mindestlohn-reform-antraege-2025":"Minimum wage motions","netzanschlusspaket-2026":"Grid connection package",
  "steuerberatungsgesetz-9-aenderung-2026":"Tax Advisers Act, 9th amendment","tabstaendg-2026":"Tobacco tax amendment",
- "thg-quote-2026":"Greenhouse-gas quota act","umwrg-2026":"Environmental Appeals Act (UmwRG)",
+ "thg-quote-2026":"Greenhouse-gas quota act",
+ "biostoffv-amendment-2026":"Biological Agents Ordinance (BioStoffV)","csrd-implementation-2025":"Sustainability reporting act (CSRD)",
+ "einkommensteuerreformgesetz-2027":"Income Tax Reform Act 2027","gedig-2026":"Digital health act (GeDIG)",
+ "gigabit-grundbuch-verordnung-2026":"Gigabit land-register ordinance","idnrg-grundbuch-2026":"Tax ID act, land-register data (IDNrG)",
+ "infrastruktur-zukunftsgesetz-2026":"Infrastructure future act","krwg-2026":"Circular Economy Act (KrWG)",
+ "regg-eleventh-amendment-2025":"Regionalisation Act, 11th amendment","rentenniveau-kindererziehung-2025":"Pension level and childrearing credits",
+ "schuberdg-2025-2026":"Debt advice act (SchuBerDG)","standortfoerdergesetz-2025":"Financial-centre investment act",
+ "suizidpraevg-2026":"Suicide prevention act","umwrg-2026":"Environmental Appeals Act (UmwRG)",
  "wasserstoffbeschleunigungsgesetz-2024":"Hydrogen acceleration act","wolf-bjagdg-2026":"Wolf management, Federal Hunting Act",
 }
 # (author, descriptor)
@@ -48,6 +55,14 @@ AUTH = {
  "bstbk-stberg-20260408":("Bundessteuerberaterkammer","tax advisers’ chamber"),"bvte-tabstaendg-2026":("BVTE","tobacco industry association"),
  "hornsteiner-thg-20260302":("Matthias Hornsteiner","individual expert"),"hess-umwrg-202603":("Franziska Heß","individual expert"),
  "waniczek-wassbg-2024":("Helmut Waniczek","individual expert"),"pfannenstiel-wolf-20260208":("Hans-Dieter Pfannenstiel","individual expert"),
+ "dstv-est-reform-20261021":("Deutscher Steuerberaterverband (DStV)","tax advisers’ association"),
+ "svdgv-gedig-20261012":("Spitzenverband Digitale Gesundheitsversorgung","digital health industry association"),
+ "dai-fruehstart-20260731":("Deutsches Aktieninstitut","capital-market association"),
+ "biesemann-izg-20260223-r6":("Prof. Dr. Jörg Biesemann","individual expert"),
+ "itad-krwg-20260807":("ITAD","thermal waste-treatment operators’ association"),
+ "ivd-mietrecht-20261009":("IVD","real-estate association"),
+ "agsbv-financing-20260825":("AG SBV",""),
+ "marburger-suizid-20260728-r6":("Marburger Bund","doctors’ union"),
  "wolf-hearing-protocol-20260223":("Committee hearing, 23 Feb 2026","speaker in the hearing transcript"),
 }
 

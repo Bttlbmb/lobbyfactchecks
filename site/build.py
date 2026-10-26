@@ -43,12 +43,12 @@ def row(r):
     date=""   # the section heading already gives the date (submission or hearing)
     auth=e(r["author"])+(f", {e(r['kind'])}" if r["kind"] else "")
     sib=f'<span class="by sib">One of {SIBLINGS[r["sid"]]} findings in this statement</span>' if SIBLINGS[r["sid"]]>1 else ""
-    role=f'<span class="by desc">{e(r["kind"])}</span>' if r["kind"] and r["kind"]!="individual expert" else ""   # "individual expert" is already in the headline
-    by=sib+role+(f'<span class="by">{e(date)}</span>' if date else "")
+    role=f'<p class="role">{e(r["kind"][:1].upper()+r["kind"][1:])}</p>' if r["kind"] and r["kind"]!="individual expert" else ""   # "individual expert" is already in the headline
+    by=sib+(f'<span class="by">{e(date)}</span>' if date else "")
     link=f'<a class="more" href="evidence/{raw(r["id"])}.html">Open the evidence<span class="vh"> for {e(r["law"])}, {auth}</span>&nbsp;→</a>'
     hid=" hidden" if r["sev"]!="major" else ""   # matches the default view without JavaScript
     return f'''<article class="rc" id="{raw(r['id'])}" data-sev="{r['sev']}" data-fav="{str(r['fav']).lower()}"{hid}>
-<header class="fhead"><p class="lawlabel">{e(r['law'])}</p><h3 class="fh">{e(headline(r['author'],r['kind']))}</h3></header>
+<header class="fhead"><p class="lawlabel">{e(r['law'])}</p><h3 class="fh">{e(headline(r['author'],r['kind']))}</h3>{role}</header>
 <div class="meta">{tag}<p class="about">{e(r['about'])}</p>{by}{link}</div>
 <dl class="rows">
 <div class="r"><dt>They want</dt><dd>{e(r['wants'])}</dd></div>
@@ -65,11 +65,16 @@ body=""
 for day in order:
     rs=groups[day]
     nm=sum(r["sev"]=="major" for r in rs)
-    title=f"{day[0]} on {fmt(day[1])}" if day else "No date recorded"
-    body+=f'<section class="day" data-day{"" if nm else " hidden"}><div class="dayhd"><h2 class="h2">{title}</h2><span class="n"><span data-n>{nm}</span> findings</span></div>'+"".join(row(r) for r in rs)+'</section>'
+    title=(fmt(day[1]) if day[0]=="Submitted" else f"Hearing on {fmt(day[1])}") if day else "No date recorded"   # submission dates are the default, so only hearings are labelled
+    body+=f'<section class="day" data-day{"" if nm else " hidden"}><div class="dayhd"><h2 class="h2">{title}</h2><span class="n"{" hidden" if nm==1 else ""}><span data-n>{nm}</span> findings</span></div>'+"".join(row(r) for r in rs)+'</section>'
 
+n_minor=len(rows)-n_major
+def filt(f,label,n,pressed=False):
+    return f'<button type="button" data-f="{f}" aria-pressed="{str(pressed).lower()}">{label}<span class="n">{n}</span></button>'
+# The favour filter only earns its place while it differs from "Major errors".
+filters=filt("major","Major errors",n_major,True)+("" if n_maj_fav==n_major else filt("fav","Major, favouring the request",n_maj_fav))+filt("minor","Minor errors",n_minor)
 tpl=open(TEMPLATE,encoding="utf-8").read()
-out=(tpl.replace("{{BODY}}",body).replace("{{COUNT}}",f"{n_major} findings").replace("{{NSUB}}",str(n_sub)).replace("{{NLAW}}",str(n_law))
+out=(tpl.replace("{{FILTERS}}",filters).replace("{{BODY}}",body).replace("{{COUNT}}",f"{n_major} findings").replace("{{NSUB}}",str(n_sub)).replace("{{NLAW}}",str(n_law))
  .replace("{{NALL}}",str(len(rows))).replace("{{NMAJOR}}",str(n_major)).replace("{{NMAJFAV}}",str(n_maj_fav)).replace("{{NFAV}}",str(n_fav))
  .replace("{{SNAP}}",fmt(max(r["found"] for r in rows))))
 open(OUT,"w",encoding="utf-8").write(out); print(len(rows),"rows",n_major,"major",len(groups),"days")

@@ -59,6 +59,7 @@ def quote(q, kind, mark=None):
     if tr and lang != "en":
         m = re.match(r"^(Translation[^:]*):\s*(.*)$", tr.strip(), flags=re.S)
         label, body = (m.group(1) + ":", m.group(2)) if m else ("Translation:", tr.strip())
+        if label in ("Translation:", "Translation of fragment:"): label = "English:"   # the plain case; other labels name what was translated
         h += f'<p class="qt">{e(label)} “{e(nest(body))}”</p>'
     return h + "</blockquote>"
 
@@ -93,7 +94,7 @@ def page(i):
     resp = i.get("author_response") or []
     secs = []
     # 1 submission
-    secs.append(("What the submission says", qblock(cq, "claim", cq.get("underline")) + lk(sub, "Open the original submission")))
+    secs.append(("Their wording", qblock(cq, "claim", cq.get("underline")) + lk(sub, "Open the original submission")))
     # 2 source
     s2 = (f'<p class="srct">{e(ctr.get("title", ""))}</p>' if ctr.get("title") else "") + qblock(rq, "source") + lk(ctr, "Open the source")
     a = i.get("additional_counter_quote")
@@ -104,8 +105,8 @@ def page(i):
     if calc and calc.get("expression"):
         s2 += f'<p class="calc"><b>Calculation</b> {e(calc["expression"])}' + (f' = {e(calc["result_percent"])}%' if calc.get("result_percent") is not None else "") + "</p>"
         if calc.get("scope"): s2 += f'<p class="sn">{e(calc["scope"])}</p>'
-    secs.append(("What the source says", s2))
-    if i.get("correction"): secs.append(("The correction", f'<p class="lead">{e(i["correction"])}</p>'))
+    secs.append(("The source’s wording", s2))
+    if i.get("correction"): secs.append(("Correction in detail", f'<p class="lead">{e(i["correction"])}</p>'))
     lim = ""
     if i.get("limits"): lim += f'<p>{e(i["limits"])}</p>'
     if i.get("materiality_explanation"): lim += f'<p class="sn">{e(i["materiality_explanation"])}</p>'
@@ -132,14 +133,14 @@ def page(i):
         note = s.get("access_note") or s.get("access") or s.get("provenance_note") or ""
         name = e(s.get("title", sid2)); u = s.get("url") or s.get("mirror_url")
         srcs += "<li>" + (f'<a href="{raw(u)}">{name} ↗</a>' if u else name) + (f'<span class="sn">{e(note)}</span>' if note else "") + "</li>"
-    chk = (details("Draft compared", draft or "<p class='sn'>No draft details recorded.</p>", True)
+    chk = (details("Draft compared", draft or "<p class='sn'>No draft details recorded.</p>")
            + details("Reviews and confidence", reviews)
            + (details("What we read around the claim", '<ul class="ctx">' + "".join(f"<li>{e(x)}</li>" for x in ctx) + "</ul>") if ctx else "")
            + details("History", f'<ul class="tl">{hist}</ul>')
            + details("Sources", f'<ul class="srcl">{srcs}</ul>'))
     secs.append(("How we checked", chk))
-    body = "".join(f'<section class="sec"><h2 class="h">{n}. {e(t)}</h2>{b}</section>' for n, (t, b) in enumerate(secs, 1))
-    rows = (f'<dl class="rows"><div class="r"><dt>They want</dt><dd>{e(c["they_want"])}</dd></div>'
+    body = "".join(f'<section class="sec"><h2 class="h">{e(t)}</h2>{b}</section>' for t, b in secs)
+    rows = (f'<p class="lawlabel in-short">In short</p><dl class="rows"><div class="r"><dt>They want</dt><dd>{e(c["they_want"])}</dd></div>'
             f'<div class="r said"><dt>They said</dt><dd>{e(c["they_claim"])}</dd></div>'
             f'<div class="r real"><dt>The source says</dt><dd>{e(c["the_problem"])}</dd></div>'
             f'<div class="r"><dt>What it changes</dt><dd>{e(i["effect"])}</dd></div></dl>')
@@ -153,16 +154,16 @@ def page(i):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
 <style>{CSS}</style></head><body><div class="pg">
-<header class="hd"><div class="hd-in"><a href="../index.html" class="serif" style="font-size:20px;font-weight:600;gap:10px"><svg width="26" height="20" viewBox="6 12 52 40" aria-hidden="true"><path d="M10 16h18v18H18l-8 14z" fill="#14181F"/><path d="M36 16h18v18H44l-8 14z" fill="#A84A00"/></svg>Lobby Fact Checks</a><nav aria-label="Main"><a href="../index.html">Findings</a> · <a href="../about.html">About &amp; data</a></nav></div></header>
+<header class="hd"><div class="hd-in"><a href="../index.html" class="serif" style="font-size:20px;font-weight:600;gap:10px"><svg width="26" height="20" viewBox="6 12 52 40" aria-hidden="true"><path d="M10 16h18v18H18l-8 14z" fill="#14181F"/><path d="M36 16h18v18H44l-8 14z" fill="#A84A00"/></svg>Lobby Fact Checks</a><nav aria-label="Main"><a href="../about.html">About &amp; data</a></nav></div></header>
 <main class="col">
-<p class="crumb"><a href="../index.html#{raw(i["id"])}">← Newest findings</a></p>
+<p class="crumb"><a href="../index.html#{raw(i["id"])}">← All findings</a></p>
 <p class="eyebrow"><span class="sevtag {sev}">{sevtxt}</span> {e(FAV[i["favours_author_request"]])}</p>
 <p class="lawlabel">{e(law)}</p>
 <h1 class="serif">{e(headline(author, kind))}</h1>
 <p class="standfirst">{e(c["law_is_about"])}</p>
 <p class="byline">{e(byline)}</p>
 {rows}{body}
-<p class="end"><a href="../index.html#{raw(i["id"])}">← Back to newest findings</a></p>
+<p class="end"><a href="../index.html#{raw(i["id"])}">← Back to all findings</a></p>
 <footer><p>Provisional AI-screened finding {e(i["id"])}. No human specialist confirmation is recorded.</p><p><a href="../about.html">Method, limitations and research data</a></p></footer>
 </main></div></body></html>'''
 
