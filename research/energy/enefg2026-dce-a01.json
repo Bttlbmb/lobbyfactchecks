@@ -1,0 +1,141 @@
+{
+  "id": "enefg2026-dce-a01",
+  "law_id": "enefg-2026",
+  "document_id": "dce-enefg-20260416",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "major",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Revising energy-efficiency duties and datacentre reporting.",
+    "they_want": "Enumerate which data may be withheld from the federal register and impose a justification duty.",
+    "they_claim": "The draft confidentiality exception allows withholding register data, making reporting to the EU impossible.",
+    "the_problem": "The exception concerns public publication. Mandatory transmission to the federal authority and onward EU reporting remain, with confidentiality safeguards."
+  },
+  "claim_quote": {
+    "original": "eine Berichterstattung gegenüber der Europäischen Union auf Basis dieser Daten nicht mehr möglich",
+    "language": "de",
+    "translation_en": "Translation of fragment: reporting to the European Union on the basis of these data no longer possible",
+    "locator": {
+      "pdf_page": 7,
+      "printed_page": 7,
+      "section": "Anmerkung 7, Befund",
+      "paragraph": "last paragraph, final sentence"
+    },
+    "underline": "nicht mehr möglich"
+  },
+  "request_quote": {
+    "original": "abschließend und enumerativ festzulegen",
+    "language": "de",
+    "translation_en": "Translation of request fragment: to specify exhaustively and by enumeration",
+    "locator": {
+      "pdf_page": 8,
+      "printed_page": 8,
+      "section": "Anmerkung 7, Forderung",
+      "paragraph": "first sentence: which Annex 2 data can be exempted from transmission on confidentiality grounds"
+    }
+  },
+  "counter_quote": {
+    "original": "Von der Pflicht zur Veröffentlichung ausgenommen sind Informationen",
+    "language": "de",
+    "translation_en": "Translation of fragment: Information is exempt from the publication obligation",
+    "source_id": "enefg-draft-2026-04-09",
+    "locator": {
+      "pdf_page": 15,
+      "printed_page": 15,
+      "section": "Article 1 number 15(a)(aa), proposed § 13(1) second sentence"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "supplementary_counter_quote": {
+    "original": "keine Ausnahme für Informationen",
+    "language": "de",
+    "translation_en": "Translation of fragment: no exception for information",
+    "source_id": "enefg-draft-2026-04-09",
+    "locator": {
+      "pdf_page": 66,
+      "printed_page": 66,
+      "section": "Zu Nummer 15 (§ 13 EnEfG)",
+      "paragraph": "third: expressly concerns transmission to the federal authority, including confidential information"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "correction": "The amendment inserts an exception only from publication in §13(1). The retained first sentence separately requires transmission to the federal authority; the draft also adds IT-operator cooperation and §13(3) federal transmission to the European database with confidential handling. Its explanatory memorandum expressly says there is no confidentiality exception from transmission. The described permission to withhold the register data is therefore not in this exact draft. The requested list would introduce specified transmission exemptions where this draft provides none, rather than merely narrow an existing broad transmission exemption.",
+  "effect": "Removes the factual premise that this amendment permits wholesale non-reporting and makes EU reporting impossible. That premise directly supports the requested exhaustive list and extra justification requirement.",
+  "limits": "This is a mismatch about the scope of the proposed reporting exception, not a prediction that all firms will comply. Confidentiality can restrict what the public, municipalities or researchers can see; those separate access concerns are not refuted. The author may prefer more public transparency or tighter enforcement. The finding does not establish complete reporting, accurate data, adequate enforcement, appropriate confidentiality boundaries or the merits of the proposed list. No intent is inferred.",
+  "materiality": "Major: the claimed ability to withhold all register data and resulting inability to report to the EU is the central stated reason for the requested amendment in this section. The correction changes that legal-text premise, rather than merely adjusting a peripheral figure. It does not dispose of separate transparency concerns.",
+  "direction_explanation": "True: conflating public publication with confidential regulatory transmission makes the requested exhaustive list and additional justification duty appear necessary to keep the register complete.",
+  "context_checks": [
+    "Read all ten pages, particularly the full finding, request, proposed list and rationale on pages 7–8; visually inspected both pages.",
+    "Tested the public-facing-register reading. The author expressly discusses inability to report to the EU, asks for exemptions from transmission to be enumerated, and says the information is sent only to an authority. Those contextual statements make this more than a complaint about loss of public access.",
+    "Checked the complete amendment on draft page15 together with explanation page66. Existing § 13(1) separates publication and transmission; did not mistake confidentiality of regulatory holdings for permission not to submit them.",
+    "The author correctly identifies several other changes and bracketed 80% design-PUE option in this consultation version; the critique is not judged against a later June cabinet draft.",
+    "Other DCE comments about grandfathering, technical feasibility, certification or foreseeable behaviour are not adjudicated in this finding."
+  ],
+  "draft": {
+    "title": "Gesetz zur Beschleunigung der Umsetzung der Energieeffizienzrichtlinie",
+    "version_date": "2026-04-09",
+    "submission_date": "2026-04-16",
+    "source_id": "enefg-draft-2026-04-09",
+    "relevant_provision": "Article 1 number 15, § 13 EnEfG, physical15; explanatory memorandum physical66. Exact 79-page ministry consultation draft.",
+    "version_check": "The ten-page 16 April response is published in the official consultation archive for this draft; its specific amendments and proposed 80% option match. No later bill is substituted."
+  },
+  "source_ids": [
+    "dce-enefg-20260416",
+    "enefg-draft-2026-04-09",
+    "enefg-ministry-consultation-archive-2026"
+  ],
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "root_ai_agent",
+        "date": "2026-10-24",
+        "outcome": "retain_provisional_major_true",
+        "review_file": "research/reviews/root-reviews-dce-enefg.json",
+        "specialist_review": false
+      },
+      {
+        "reviewer": "tax_consultations_ai_agent",
+        "date": "2026-10-24",
+        "outcome": "retain_provisional_major_true",
+        "review_file": "research/reviews/tax-reviews-dce-enefg.json",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "First recorded after full submission, exact operative draft, explanatory memorandum and public-facing-register alternative checks; independent AI review requested.",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Independent root review retained major/true after full publication-versus-transmission alternative check. Added exact request-target fragment and clarified that its proposed list would introduce transmission exceptions.",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Second independent AI review retained major/true after all ten pages, exact draft and public-facing-register alternative checks.",
+      "by": "energy_hearings_ai_screen"
+    }
+  ],
+  "source_registry": "research/energy/sources.json",
+  "additional_request_quote": {
+    "original": "von der Übermittlungspflicht ausgenommen werden können",
+    "language": "de",
+    "translation_en": "Translation of request fragment: may be exempted from the transmission obligation",
+    "locator": {
+      "pdf_page": 8,
+      "printed_page": 8,
+      "section": "Anmerkung 7, Forderung",
+      "paragraph": "First sentence, continuing the request to enumerate allowable exemptions."
+    }
+  }
+}

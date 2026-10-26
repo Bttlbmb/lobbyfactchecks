@@ -1,0 +1,133 @@
+{
+  "started_at_utc": "2026-10-25T12:20:01+00:00",
+  "not_before_utc": "2026-10-25T13:50:01+00:00",
+  "records": [
+    {
+      "phase": "selection_and_identity",
+      "checks": "All17 current original PDFs exist; every original SHA256 and physical page count matched saved bounded proofs; fresh author-text snapshots generated for strict original/anchor validation. Existing pool IDs matched; restoration is not a new reading check.",
+      "selected_documents": 17,
+      "physical_pages": 58,
+      "maximum_target_pages": 6
+    },
+    {
+      "phase": "root_primary_read",
+      "source_id": "short-root-rsv-draft",
+      "physical_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "checks": "Complete6page draft independently read. Generic entitlement adds Clesrovimab beside Nirsevimab, no displacement of other SGBV rights, one provision, commencement day after promulgation, §20i(3) authority without Bundesrat consent. Claimed cost neutrality is an estimate, not observed saving."
+    },
+    {
+      "phase": "root_primary_read",
+      "source_id": "short-root-idnrg-draft",
+      "physical_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "checks": "Complete11page short draft independently read. Operative2032transition, late database conversion for none-owner rights, purpose limitation §12e, no automatic replacement of inconsistent legal-title information, draft-model€3.3m/year and€4m initial costs distinguished from actual measured results. Need independent statute/technical check for historical and NOOTS assertions."
+    },
+    {
+      "phase": "minimal_workflow_extension",
+      "file": "research/build_bounded_coverage.py",
+      "before_copy": "research/factual-checks/short-statements-20261025/reviews/bounded-builder-before.py",
+      "after_sha256": "3f889b7351172df0eb48cc7e2adbb0ebc96f826ef9e7d3b5b3ef0b9be4682884",
+      "checks": "Optional coverage_groups partition a mixed short-statement batch, match complete existing bounded proof counts/paths, and report per-process claim subsets. Existing single-process route unchanged. Independent code review pending; no live coverage output rebuilt yet."
+    },
+    {
+      "phase": "root_primary_read",
+      "source_id": "short-root-wpexam-draft",
+      "physical_pages": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        29,
+        30
+      ],
+      "checks": "Selected complete pages independently read: operative four-hour exceptions, oral exemption threshold, eight-year university confirmation, deferred CSRD cross-references, proposed1March2027 commencement. This later artifact corroborates content but does not authenticate23September dispatch; no full30page root read claimed."
+    },
+    {
+      "phase": "root_visual_read",
+      "documents": [
+        "idnrg2026-vdv",
+        "idnrg2026-zbi"
+      ],
+      "physical_pages": [
+        1
+      ],
+      "checks": "Both original image-only page1 renders independently viewed at1600px; dates2August2026 read and substantive geodata/identity scope context read. Fresh pdftotext snapshots intentionally left untouched. Exact candidate anchors and independent peer binding will be recorded after inventory freeze."
+    },
+    {
+      "phase": "root_original_read",
+      "documents": [
+        "idnrg2026-bnotk",
+        "bmwe-wpexamen-2026-002",
+        "bmwe-wpexamen-2026-003"
+      ],
+      "physical_pages": 17,
+      "checks": "Complete fresh original text independently read, with broader legal/practice assertions checked against raw inventories; no root claim of full remaining IDNrG originals."
+    },
+    {
+      "phase": "root_primary_followups",
+      "note_file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+      "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892",
+      "checks": "Provider availability chronology, qualified EU vocational routes, ordinary WPO exemptions, broad audit-method comparability and precise seasonality context. Independent peer recommendations pending."
+    },
+    {
+      "phase": "independent_cross_review_and_adjudication",
+      "checks": "All 166 initial claims received individual peer reviews after full counterpart-original reads. Root adjudicated all challenges and three peer omissions. Final 169 assessments: 125 supported, 42 unresolved, two contradicted. No new main-data admission.",
+      "adjudication": "research/factual-checks/short-statements-20261025/adjudication.json"
+    },
+    {
+      "phase": "root_provenance_correction",
+      "checks": "B snapshot audit identified two copied VDV provenance labels. Corrected them to IDW physical3 and municipal umbrellas physical5. Preserved the earlier root assembly under reviews/root-assembly-v1. No result, source anchor, or raw inventory changed. Root prose spacing corrected and already-frozen supplements linked.",
+      "independent_review": "research/factual-checks/short-statements-20261025/reviews/b-integration-snapshot-audit.json"
+    },
+    {
+      "phase": "source_metadata_clarification",
+      "checks": "Generic batch summary now distinguishes checked source records from distinct local files. Legacy archived_source_files field retains its prior per-record meaning; explicit archived_source_records and unique_local_source_files clarify it. JSON check-note links are labelled saved check record, not original archives. Independent code review requested.",
+      "file": "research/build_factual_batch.py"
+    },
+    {
+      "phase": "additional_short_IT_subset",
+      "checks": "Added a separately protocolled batch of three formal external IT-components responses, five physical pages, each one or two pages. Government replies and an association decline excluded; this does not close factual coverage for the whole twelve-reply public set. Initial inventories frozen before scheduled peers.",
+      "protocol": "research/factual-checks/short-it-components-20261025/protocol.json"
+    },
+    {
+      "phase": "final_semantic_re_adjudication",
+      "at_utc": "2026-10-25T22:28:14.133381+00:00",
+      "checks": "B flagged non-availability versus undetermined future start date; C independently concurred and extended the issue to B021. Root read actual DAVp2,DNotVp4,Article20p13–14 and providerB/E. B021/B036 now U for full compound. VDVp1 primary-source interpretation retained, no chronological error. Prior decisions and raw records preserved.",
+      "scope_followup": "research/factual-checks/short-statements-20261025/reviews/c-idnr-scope-followup.json"
+    },
+    {
+      "phase": "final_root_context_and_scope_audit",
+      "at_utc": "2026-10-25T22:40:01.499703+00:00",
+      "checks": "Root reread complete AOK,BÄK,BÄMI,G-BA,GKV and vfa original text, and DATABUND/DAV/DNotV original context; read remaining municipal physical1–3 and ZBI/VDV text pages after earlier image-page inspection. These were context checks after frozen inventories and peer review, not fresh independent initial inventories or additional reading units. Broad clinical-alternative language, conditional savings/work mechanisms, legal-source scope and retained undetermined-date components remain proportionate. No further finding or disposition change.",
+      "result": "Existing conservative final dispositions retained."
+    }
+  ],
+  "limits": [
+    "Rechecks add no reading unit.",
+    "Do not promote forecasts, policy preference, undefined absolute comparisons, lack of evidence or mismatched draft versions to findings.",
+    "Every initial inventory is frozen before the scheduled counterpart sees it. Full-original peer reads include omission audit.",
+    "No author contact, intent inference or human specialist confirmation.",
+    "Avoid duplicating the separate ongoing Round6 research; preserve its outputs and attribute any concurrent shared-data changes."
+  ],
+  "timing_note": "Wall clock jumped across a pause. The goal active-time counter must reach at least 5400 seconds; paused hours are excluded."
+}

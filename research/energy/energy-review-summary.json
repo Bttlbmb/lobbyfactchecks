@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-24",
+  "researcher": "energy_hearings_ai_agent",
+  "status": "ai_screened",
+  "scope": "Selected energy and infrastructure submissions, plus independent checks of other agents’ cases. Not a complete audit of every claim in every archived response.",
+  "records": [
+    {
+      "id": "geg2023-hausgrund-a01",
+      "path": "research/energy/candidates.json",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "independent_reviews": {
+        "specialist": null,
+        "independent_ai": [
+          {
+            "reviewer": "tax_consultations_ai",
+            "date": "2026-10-24",
+            "outcome": "retain_provisional_finding",
+            "review_file": "research/reviews/tax-reviews-energy.json",
+            "specialist_review": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "wassbg2024-waniczek-a01",
+      "path": "research/energy/candidates.json",
+      "finding_state": "provisional_finding",
+      "severity": "major",
+      "favours_author_request": true,
+      "independent_reviews": {
+        "specialist": null,
+        "independent_ai": [
+          {
+            "reviewer": "tax_consultations_ai",
+            "date": "2026-10-24",
+            "outcome": "retain_provisional_finding",
+            "review_file": "research/reviews/tax-reviews-energy.json",
+            "specialist_review": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "enefg2026-algorithmwatch-l01",
+      "path": "research/energy/enefg2026-algorithmwatch-l01.json",
+      "finding_state": "unresolved_lead",
+      "severity": "minor",
+      "favours_author_request": null,
+      "independent_reviews": {
+        "specialist": null,
+        "independent_ai": [
+          {
+            "reviewer": "tax_consultations_ai_agent",
+            "date": "2026-10-24",
+            "file": "research/reviews/tax-reviews-energy.json",
+            "status": "unresolved_lead_retained"
+          }
+        ]
+      }
+    },
+    {
+      "id": "enefg2026-bund-a01",
+      "path": "research/energy/enefg2026-bund-a01.json",
+      "finding_state": "unresolved_lead",
+      "severity": "minor",
+      "favours_author_request": null,
+      "independent_reviews": {
+        "specialist": null,
+        "independent_ai": [
+          {
+            "reviewer": "tax_consultations_ai_agent",
+            "date": "2026-10-24",
+            "file": "research/reviews/tax-reviews-energy.json",
+            "status": "provisional_finding_retained"
+          }
+        ],
+        "late_adjudication": {
+          "date": "2026-10-24",
+          "reviewers": [
+            "root_ai_agent",
+            "tax_consultations_ai_agent"
+          ],
+          "outcome": "downgrade_unresolved_minor_null",
+          "file": "research/reviews/tax-reviews-energy.json"
+        }
+      }
+    },
+    {
+      "id": "enefg2026-dce-a01",
+      "path": "research/energy/enefg2026-dce-a01.json",
+      "finding_state": "provisional_finding",
+      "severity": "major",
+      "favours_author_request": true,
+      "independent_reviews": {
+        "specialist": null,
+        "independent_ai": [
+          {
+            "reviewer": "root_ai_agent",
+            "date": "2026-10-24",
+            "outcome": "retain_provisional_major_true",
+            "review_file": "research/reviews/root-reviews-dce-enefg.json",
+            "specialist_review": false
+          },
+          {
+            "reviewer": "tax_consultations_ai_agent",
+            "date": "2026-10-24",
+            "outcome": "retain_provisional_major_true",
+            "review_file": "research/reviews/tax-reviews-dce-enefg.json",
+            "specialist_review": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "enefg2026-hansgrohe-a01",
+      "path": "research/energy/enefg2026-hansgrohe-a01.json",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "independent_reviews": {
+        "specialist": null,
+        "independent_ai": [
+          {
+            "reviewer": "tax_consultations_ai_agent",
+            "date": "2026-10-24",
+            "file": "research/reviews/tax-reviews-energy.json",
+            "status": "provisional_finding_retained"
+          }
+        ]
+      }
+    },
+    {
+      "id": "enefg2026-uim-l01",
+      "path": "research/energy/enefg2026-uim-l01.json",
+      "finding_state": "unresolved_lead",
+      "severity": "major",
+      "favours_author_request": true,
+      "independent_reviews": {
+        "specialist": null,
+        "independent_ai": [
+          {
+            "reviewer": "tax_consultations_ai_agent",
+            "date": "2026-10-24",
+            "file": "research/reviews/tax-reviews-energy.json",
+            "status": "unresolved_lead_retained"
+          }
+        ]
+      }
+    },
+    {
+      "id": "enefg2026-vik-a01",
+      "path": "research/energy/enefg2026-vik-a01.json",
+      "finding_state": "provisional_finding",
+      "severity": "major",
+      "favours_author_request": true,
+      "independent_reviews": {
+        "specialist": null,
+        "independent_ai": [
+          {
+            "reviewer": "tax_consultations_ai_agent",
+            "date": "2026-10-24",
+            "file": "research/reviews/tax-reviews-energy.json",
+            "status": "provisional_finding_retained"
+          },
+          {
+            "reviewer": "root_ai_agent",
+            "date": "2026-10-24",
+            "file": "research/reviews/root-reviews-vik.json",
+            "status": "provisional_finding_retained"
+          }
+        ]
+      }
+    }
+  ],
+  "provisional_findings": 5,
+  "unresolved_leads": 3,
+  "supporting_files": [
+    "research/energy/sources.json",
+    "research/energy/sources/SHA256SUMS",
+    "research/energy/quotation-validation.json",
+    "research/energy/negative-screening-audit.json"
+  ],
+  "important_scope_limits": [
+    "No specialist or human review is claimed.",
+    "Waniczek concerns categorical absence of prior operation, with the industrial demonstration versus routine commercial service alternative prominent.",
+    "Haus & Grund is minor after giving weight to the later qualification about full-demand heat pumps and avoiding hybrids.",
+    "BUND remains unresolved: fixed-IT/fixed-carrier arithmetic does not alone prove its actual electricity assertion false, because PUE describes total energy.",
+    "VIK concerns an invalid numerical comparator, not proof that the national target is feasible or precisely required by EU law.",
+    "DCE concerns the draft’s distinction between publication and regulatory transmission, not proof of actual reporting compliance or adequate public transparency.",
+    "UIM and AlgorithmWatch remain unresolved because plausible scope readings survive."
+  ],
+  "cross_review_correction": "The initial BÄK denominator review’s reconstructed8.23% illustration was explicitly withdrawn after checking the original DSHS2016 methods and direct table. Follow-up adjudication is preserved in research/reviews/energy-reviews-social.json; no such reconstruction should remain in active findings."
+}

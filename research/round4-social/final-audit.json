@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-25",
+  "scope": "Own round-four records, source registry, actual-reading ledger and quotation integrity; no compiled edits.",
+  "case_file_hashes": {
+    "research/round4-social/svdgv-android-disposition.json": "397a7357c1338f1667d80c9a51a537a6e67b2e94c91d25a0c6945adc7764b6f7",
+    "research/round4-social/gedig2026-svdgv-costs-social-r4-01.json": "678f347792e0f752dc96e787f1fdf36aaf2b35dc6e45515729421ae972a9e1f5",
+    "research/round4-social/gedig2026-svdgv-ceilings-social-r4-02.json": "e4cd840cf4ab8f704ff3aecd9d5c7d2468ba822b7cbb19c94253dddcbea0122a"
+  },
+  "author_original_excerpts": [
+    "20 Millionen",
+    "niedrigeren Sicherheitsniveau",
+    "Kostenaufwände für Krankenkassen und Verwaltung hierfür nicht vorgesehen sind",
+    "anbieterneutral ausgestaltet sein.",
+    "jede DiGA ab dem ersten Tag",
+    "im Einvernehmen"
+  ],
+  "aggregate_words_same_author_source": 24,
+  "quote_budget_limit": 25,
+  "checks": [
+    {
+      "file": "research/round4-social/svdgv-android-disposition.json",
+      "field": "claim_quote",
+      "exact_fragment_present_in_original_extraction": true,
+      "words": 2
+    },
+    {
+      "file": "research/round4-social/svdgv-android-disposition.json",
+      "field": "author_request",
+      "exact_fragment_present_in_original_extraction": true,
+      "words": 2
+    },
+    {
+      "file": "research/round4-social/svdgv-android-disposition.json",
+      "review_file": "research/round4-reviews/energy-reviews-svdgv-android.json",
+      "exists": true,
+      "review_identifier": "svdgv-android-access-round4-not-promoted",
+      "identifier_matches_if_present": true
+    },
+    {
+      "file": "research/round4-social/gedig2026-svdgv-costs-social-r4-01.json",
+      "field": "claim_quote",
+      "exact_fragment_present_in_original_extraction": true,
+      "words": 9
+    },
+    {
+      "file": "research/round4-social/gedig2026-svdgv-costs-social-r4-01.json",
+      "field": "request_quote",
+      "exact_fragment_present_in_original_extraction": true,
+      "words": 3
+    },
+    {
+      "file": "research/round4-social/gedig2026-svdgv-costs-social-r4-01.json",
+      "review_file": "research/round4-reviews/root-reviews-svdgv-costs.json",
+      "exists": true,
+      "review_identifier": "gedig2026-svdgv-costs-social-r4-01",
+      "identifier_matches_if_present": true
+    },
+    {
+      "file": "research/round4-social/gedig2026-svdgv-costs-social-r4-01.json",
+      "review_file": "research/round4-reviews/energy-reviews-svdgv-costs.json",
+      "exists": true,
+      "review_identifier": "gedig2026-svdgv-costs-social-r4-01",
+      "identifier_matches_if_present": true
+    },
+    {
+      "file": "research/round4-social/gedig2026-svdgv-ceilings-social-r4-02.json",
+      "field": "claim_quote",
+      "exact_fragment_present_in_original_extraction": true,
+      "words": 6
+    },
+    {
+      "file": "research/round4-social/gedig2026-svdgv-ceilings-social-r4-02.json",
+      "field": "request_quote",
+      "exact_fragment_present_in_original_extraction": true,
+      "words": 2
+    },
+    {
+      "file": "research/round4-social/gedig2026-svdgv-ceilings-social-r4-02.json",
+      "review_file": "research/round4-reviews/root-reviews-svdgv-ceilings.json",
+      "exists": true,
+      "review_identifier": "gedig2026-svdgv-ceilings-social-r4-02",
+      "identifier_matches_if_present": true
+    },
+    {
+      "file": "research/round4-social/gedig2026-svdgv-ceilings-social-r4-02.json",
+      "review_file": "research/round4-reviews/energy-reviews-svdgv-ceilings.json",
+      "exists": true,
+      "review_identifier": "gedig2026-svdgv-ceilings-social-r4-02",
+      "identifier_matches_if_present": true
+    },
+    {
+      "file": "research/round4-social/svdgv-android-disposition.json",
+      "all_source_ids_resolved": true,
+      "specialist_review_is_null": true,
+      "author_response_empty": true
+    },
+    {
+      "file": "research/round4-social/gedig2026-svdgv-costs-social-r4-01.json",
+      "all_source_ids_resolved": true,
+      "specialist_review_is_null": true,
+      "author_response_empty": true
+    },
+    {
+      "file": "research/round4-social/gedig2026-svdgv-ceilings-social-r4-02.json",
+      "all_source_ids_resolved": true,
+      "specialist_review_is_null": true,
+      "author_response_empty": true
+    }
+  ],
+  "actual_draft_pdf_pages": 258,
+  "semantic_dispositions": {
+    "android": "Not promoted; arithmetic rescue and practical access uncertainty retained.",
+    "costs": "Unresolved minor/null; estimate is not appropriation or proof of adequate full-pathway funding.",
+    "ceilings": "Provisional minor/true; ordinary-group initial exemption and separate category exceptions, not a universal initial exemption. General-framework reading and policy limits retained."
+  },
+  "remaining_limits": [
+    "GKV primary PDFs read via original web source; direct local download timed out.",
+    "No independent human specialist or author response.",
+    "No verified corrected excluded-patient count, actual system costs, price effects or policy merits.",
+    "Body-authorship dates do not independently establish delivery dates."
+  ],
+  "reading_ledger_independent_audit": "research/round4-reviews/energy-reviews-social-pool.json",
+  "pool_summary": {
+    "distinct_submissions": 10,
+    "full_submission": 7,
+    "keyword_triage": 3,
+    "full_resource_pages": 86,
+    "external_submission_flag_present_all_rows": true
+  },
+  "source_registry_count": 45,
+  "all_registry_source_ids_unique": true,
+  "all_case_hashes_still_match": true,
+  "locator_refinement": "Identical request fragment located on visually checked physical/printed page 16 final paragraph; page 15 column-extraction ambiguity avoided."
+}

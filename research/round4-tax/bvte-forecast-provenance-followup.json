@@ -1,0 +1,123 @@
+{
+  "id": "bvte-forecast-provenance-followup-tax-round4",
+  "created_at_utc": "2026-10-25T06:21:59.244173+00:00",
+  "submission_register_id": "SG2610050008",
+  "record_kind": "research_only_evidence_note",
+  "disposition": "Historical forecast source description is now a concrete lead, but no corrected cumulative forecast loss is established here.",
+  "relation_to_prior_note": "Adds evidence to research/round4-reviews/tax-reviews-bvte-forecast-vintages.json; it does not erase the earlier cautious assessment or create a new screened submission.",
+  "new_primary_source": {
+    "id": "bt-14-6801-financialplan2001",
+    "title": "Finanzplan des Bundes 2001 bis 2005",
+    "date": "2001-08-17",
+    "url": "https://dserver.bundestag.de/btd/14/068/1406801.pdf",
+    "local_pdf": "research/round4-tax/sources/bt-14-6801.pdf",
+    "local_text": "research/round4-tax/sources/bt-14-6801.txt",
+    "sha256": "5650c4dc161fc435c5cbd7f098f61ebd2661537146dee100bd8690e343eb7703",
+    "read_extent": "Cover; full section1.4.2.2 on physical63 and Table9 on physical64, including the surrounding paragraph defining forecast vintage and current-law basis. Not all85pages read.",
+    "evidence": "The table uses the May2001 tax estimate and gives tobacco totals11.9/12.0/12.1/12.2/12.3bn for2001–2005. The author’s2002–2005series14.8/15.2/16.4/17.7bn is not this pre-reform baseline."
+  },
+  "independently_read_corroboration": [
+    {
+      "id": "bt-14-7062",
+      "url": "https://dserver.bundestag.de/btd/14/070/1407062.pdf",
+      "local_pdf": "research/round4-root/sources/bt-1407062.pdf",
+      "locator": "physical4 financial tableau; rendered and visually checked",
+      "preview": "research/round4-tax/previews/bt1407062-p4.png",
+      "evidence": "Original October2001 proposal: tobacco increments in2002–2005 are980+70,1380+70,1430+70,1480+70million euros. Insurance tax is a distinct row. These totals differ from the later committee version, so the oldest proposal cannot silently substitute for the final amendment estimates."
+    },
+    {
+      "id": "bt-14-7332",
+      "url": "https://dserver.bundestag.de/btd/14/073/1407332.pdf",
+      "local_pdf": "research/round4-root/sources/bt-1407332.pdf",
+      "locator": "physical2/6",
+      "evidence": "Final committee tableau separately lists cigarette increments950/1050/1470/1520million and fine-cut50million each year; the cover total also includes insurance tax and must not be treated as tobacco alone."
+    },
+    {
+      "id": "bt-15-149",
+      "url": "https://dserver.bundestag.de/btd/15/001/1500149.pdf",
+      "locator": "physical60–61, chapter6001, lines03202 and03212",
+      "access": "Official webreader text independently read; local archival identity managed by parent, not claimed here.",
+      "evidence": "Supplementary2002budget compares previous tobacco total12.4bn with revised13.35bn; a separately budgeted1.0bn tobacco-law measure is removed from the measures group. The sum of previous tobacco plus separately listed measure is13.4bn, not14.8bn. This is one identified budget vintage; it is not asserted to be every possible forecast."
+    }
+  ],
+  "reconstruction_from_printed_numbers": [
+    {
+      "year": 2002,
+      "author_actual_bn": 13.8,
+      "author_forecast_bn": 14.8,
+      "author_gap_bn": 1.0,
+      "projected_marginal_tobacco_revenue_bn": 1.0,
+      "formula": "(.950+.050)"
+    },
+    {
+      "year": 2003,
+      "author_actual_bn": 14.1,
+      "author_forecast_bn": 15.2,
+      "author_gap_bn": 1.1,
+      "projected_marginal_tobacco_revenue_bn": 1.1,
+      "formula": "(1.050+.050)"
+    },
+    {
+      "year": 2004,
+      "author_actual_bn": 13.6,
+      "author_forecast_bn": 16.4,
+      "author_gap_bn": 2.8,
+      "projected_marginal_tobacco_revenue_bn": 2.773,
+      "formula": "(1.470+.050)+1.253; rounds2.8"
+    },
+    {
+      "year": 2005,
+      "author_actual_bn": 14.2,
+      "author_forecast_bn": 17.7,
+      "author_gap_bn": 3.5,
+      "projected_marginal_tobacco_revenue_bn": 3.511,
+      "formula": "(1.520+.050)+1.941; rounds3.5"
+    },
+    {
+      "year": 2006,
+      "author_actual_bn": 14.4,
+      "author_forecast_bn": 16.5,
+      "author_gap_bn": 2.1,
+      "projected_marginal_tobacco_revenue_bn": 2.123,
+      "formula": "2003bill increment2.123; rounds2.1"
+    },
+    {
+      "year": 2007,
+      "author_actual_bn": 14.2,
+      "author_forecast_bn": 16.3,
+      "author_gap_bn": 2.1,
+      "projected_marginal_tobacco_revenue_bn": 2.123,
+      "formula": "2003bill increment2.123; rounds2.1"
+    }
+  ],
+  "assessment": "The repeated match is strong evidence that the displayed shortfalls were derived from projected additional revenue, with each displayed total obtained by adding that increment to realised revenue. Projected additional revenue relative to a no-reform counterfactual is not itself the gap between an ex-ante total-revenue forecast and actual receipts. Nevertheless, the exact unseen spreadsheet and baseline have not been acquired; the reconstruction is an inference, not a statement about how the author actually worked.",
+  "benign_alternatives_and_limits": [
+    "A separate original total forecast or documented counterfactual baseline could in principle explain the author’s figures; neither repetition by another industry source nor missing provenance establishes that explanation.",
+    "The May2001 baseline precedes the terrorist attacks and subsequent amendments. Adding later legislation to it is a diagnostic comparison, not a historically authoritative corrected forecast.",
+    "A published realised total can differ from tax statistics by cash-versus-tax-assessment basis and rounding. No such difference is used here to manufacture a discrepancy.",
+    "The identified2002budget vintage is stronger evidence than the mere absence of a total forecast in the four cited amendment bills, but later supplementary forecasts do not alone refute every earlier estimate.",
+    "Even a verified forecast miss would not establish a causal tax-loss estimate, what receipts would have been without tax increases, or any intent."
+  ],
+  "secondary_provenance_only": {
+    "url": "https://www.verbaende.com/news/pressemitteilung/forderungen-der-who-nach-drastischen-tabaksteuererhoehungen-hinterlassen-nur-verlierer-96561/",
+    "extent": "Main press-release body read via webreader; no second screened-submission unit.",
+    "evidence": "The republished association release describes more than10bn in expected additional revenue through2007; it does not supply a contemporaneous full-receipts forecast table or the8.4bn cumulative miss."
+  },
+  "no_compiled_record_changed": true,
+  "new_screening_pool_units": 0,
+  "subsequent_additional_vintage_check": {
+    "checked_at_utc": "2026-10-25T06:24:57.115833+00:00",
+    "url": "https://dserver.bundestag.de/btd/15/015/1501501.pdf",
+    "title": "BT15/1501, Financial plan 2003–2007, 15 August 2003",
+    "read_extent": "Official webreader: cover and complete section 4.2.2 with Table 8, physical pages 65–66; not all 94 pages.",
+    "local_archive": null,
+    "evidence": "May 2003 current-law tobacco totals are 14.6/14.6/14.7/14.8/14.9 billion euros for 2003–2007; planned tax changes appear in a separate aggregated line. This is another identified vintage that does not reproduce the submission’s displayed forecast series, but it is not proof that every original possible forecast has been exhausted.",
+    "use": "Research-only supplementary context; not added to the issue’s evidential source list during independent review."
+  },
+  "later_disposition_cross_reference": {
+    "candidate_id": "tabstaendg2026-bvte-forecast-tax-r4-03",
+    "path": "research/round4-tax/tabstaendg2026-bvte-forecast-tax-r4-03.json",
+    "finding_state": "unresolved_lead",
+    "note": "The later matching reconstruction justifies a formal unresolved source-description lead. This supersedes the earlier research-only procedural disposition, but does not promote the allegation to a proven finding or erase the baseline/vintage qualifications."
+  }
+}

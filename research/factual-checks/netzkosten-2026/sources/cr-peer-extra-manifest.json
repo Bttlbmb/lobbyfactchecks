@@ -1,0 +1,68 @@
+[
+  {
+    "id": "netzkosten-cr-ben2026",
+    "title": "TSO unified tariff 2026, 5 December 2025",
+    "url": "https://www.netztransparenz.de/xspproxy/api/staticfiles/ntp-relaunch/dokumente/netzentgelte/251205_preisblatt_ben_2026.pdf",
+    "retrieved_at": "2026-10-25T10:14:48.577463+00:00",
+    "local_file": "research/factual-checks/netzkosten-2026/sources/cr-ben2026.pdf",
+    "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+    "http_status": 200,
+    "bytes": 630792,
+    "content_type": "application/pdf",
+    "sha256": "b901093d6800b224b30597cae9d48e08dd3cfbd9e33cfa662ff8ecf3bf9e7fcf",
+    "usable_as_evidence": true,
+    "archive_kind": "original_download",
+    "content_validation": "Proper primary PDF; all pages extracted, relevant tariff table visually inspected, dates and tariff components checked."
+  },
+  {
+    "id": "netzkosten-cr-ben2026-theoretical",
+    "title": "TSO theoretical tariff 2026 without subsidy",
+    "url": "https://www.netztransparenz.de/xspproxy/api/staticfiles/ntp-relaunch/dokumente/netzentgelte/251205_theoretische%20netzentgelte%202026%20ohne%20zuschuss_information.pdf",
+    "retrieved_at": "2026-10-25T10:14:48.577900+00:00",
+    "local_file": "research/factual-checks/netzkosten-2026/sources/cr-ben2026-theoretical.pdf",
+    "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+    "http_status": 200,
+    "bytes": 202751,
+    "content_type": "application/pdf",
+    "sha256": "1949fbdb1d2d7f1e5f09751dd7b8357d3bb3f2fab54284af5351135ece1831a6",
+    "usable_as_evidence": true,
+    "archive_kind": "original_download",
+    "content_validation": "Proper primary PDF; all pages extracted, relevant tariff table visually inspected, dates and tariff components checked."
+  },
+  {
+    "id": "netzkosten-cr-50hz2025",
+    "title": "50Hertz tariff 2025, 16 December 2024",
+    "url": "https://www.50hertz.com/xspProxy/api/staticfiles/50hertz-client/dokumente/vertragspartner/netzkunden/netzzugang/241213_finales%20preisblatt%2050hertz.pdf",
+    "retrieved_at": "2026-10-25T10:14:48.578076+00:00",
+    "local_file": "research/factual-checks/netzkosten-2026/sources/cr-50hz2025.pdf",
+    "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+    "http_status": 200,
+    "bytes": 602519,
+    "content_type": "application/pdf",
+    "sha256": "964dfa2a4b55fca55a0513d6fa40dfeed8754a51a0207777bc84d23222347726",
+    "usable_as_evidence": true,
+    "archive_kind": "original_download",
+    "content_validation": "Proper primary PDF; all pages extracted, relevant tariff table visually inspected, dates and tariff components checked."
+  },
+  {
+    "id": "netzkosten-cr-bmf2026",
+    "title": "BMF: main tax changes 2026, 30 December 2025",
+    "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/das-aendert-sich-2026.html",
+    "retrieved_at": "2026-10-25T10:14:48.578235+00:00",
+    "local_file": null,
+    "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+    "error": "HTTP Error 503: Service Temporarily Unavailable",
+    "usable_as_evidence": false
+  },
+  {
+    "id": "netzkosten-cr-bmf2026-index",
+    "title": "BMF: main tax changes 2026, 30 December 2025 (primary page search-index extraction)",
+    "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/das-aendert-sich-2026.html",
+    "retrieved_at": "2026-10-25 10:16:46 UTC",
+    "local_file": "research/factual-checks/netzkosten-2026/sources/cr-bmf2026-search-extraction.json",
+    "sha256": "5319380934fbe44b6f1f9c174b00b97ba0a82ac9f0b8cc120a700ea46b839954",
+    "archive_kind": "web_search_index_extraction_not_original_html",
+    "usable_as_evidence": true,
+    "temporal_limit": "Page is dated 30 December 2025, before authorship. Search index retrieved 25 October 2026. Direct current page fetch returned 503; statutory full text is independently available and preferred for legal scope."
+  }
+]

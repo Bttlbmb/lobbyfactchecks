@@ -1,0 +1,1992 @@
+{
+  "audit_type": "Independent read-only mechanical integration audit",
+  "reviewer": "c",
+  "started_at_utc": "2026-10-25T22:33:58.264349+00:00",
+  "scope": "Independent read-only mechanical audit of the corrected two-batch factual snapshot. Parent minimum active research duration and final completion/storage assembly are not certified by this audit.",
+  "no_live_output_writes": true,
+  "concerns": [],
+  "reviewed_code": [
+    {
+      "file": "research/build_factual_batch.py",
+      "sha256": "02ab08c4c8377504622742ff333346addfc00669847ca6b867e576f904e7870d"
+    },
+    {
+      "file": "research/build_bounded_coverage.py",
+      "sha256": "3f889b7351172df0eb48cc7e2adbb0ebc96f826ef9e7d3b5b3ef0b9be4682884"
+    },
+    {
+      "file": "research/build_factual_index.py",
+      "sha256": "f55efd7477f70c4f8d7d5f636f9937fda4908933ebef25535ab9d8eb016c9758"
+    },
+    {
+      "file": "research/build_deliverables.py",
+      "sha256": "b1ac1179178f75b8fd9d40146bc553aaaac3bd91ef3ab433268578d2c198eaf2"
+    },
+    {
+      "file": "research/build_screening_pool.py",
+      "sha256": "92d95bb87225ffa9e355097008d1a7c6fe9775c52a98a3970c478603d52e7310"
+    },
+    {
+      "file": "research/build_coverage_progress.py",
+      "sha256": "67d56a9490f04957aa7c60deec0a4abfb1b6c4c5b4ec5bc6d52949c00a70a7e3"
+    },
+    {
+      "file": "research/validate_deliverables.py",
+      "sha256": "850cdecab575d632006df09de4c6b29e9e416f242e33f45ddb5d095eda4edf57"
+    },
+    {
+      "file": "AGENTS.md",
+      "sha256": "afc424e3078be78ba27980adf1d49665e61310fb066cf597891679d1c1e1ae1c"
+    }
+  ],
+  "batches": [
+    {
+      "batch": "short-statements-20261025",
+      "freeze": {
+        "file": "research/factual-checks/short-statements-20261025/factual-freeze.json",
+        "sha256": "51a3d472ec7a811b6b5b6d648a2da603889c0a7523b4800b18030962396ef56d"
+      },
+      "frozen_file_checks": [
+        {
+          "file": "research/factual-checks/short-statements-20261025/protocol.json",
+          "sha256": "305254e5b21439b5dc4b3c682a586f17f81fa7df0bed85c080f8b047effee186"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/adjudication.json",
+          "sha256": "35dfd07513ac5019971edab165722835a2657ed1e59b674ae8b4eca6f3256f46"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/assembly-manifest.json",
+          "sha256": "9d51a14687215215863bc15a0684d70b3c1b8f509c502a9c6bfb4e3cae7e4548"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+          "sha256": "761cc33b4f63980d13b4d28a60adc0ed6f43b8e4751ac9dda3181aacbcd8c5ac"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/summary.json",
+          "sha256": "9d5e1468ebadff1c8f5e83a239815eccf004213ea13f3b84be0afaa112dfb259"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/validation-report.json",
+          "sha256": "e34792163522c7c31e620c9cb9ed9980f7b0d573f556d726396f00db9db49c4c"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/root-visual-anchor-checks.json",
+          "sha256": "9c1d283f7b09e24827257ebbd422a7cccc0d2ac64cd3536e479376de9c7930cf"
+        }
+      ],
+      "originals": [
+        {
+          "document_id": "rsv-amendvo2026-aok",
+          "pdf_sha256": "f6835f4dc31059a57b46384c5cd42451b5dd58152a600d5eb6de0e83b0e66836",
+          "physical_pages": 2,
+          "text_sha256": "648e6537bf2528294a5dc9524e91ca9f42ec897c0767fad9849355a1dc4a8d2b",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "rsv-amendvo2026-baek",
+          "pdf_sha256": "f10263034eb8d143c31ca8e8cbd07cfc00bfd64f02616d7ab83cc5acc0a04698",
+          "physical_pages": 3,
+          "text_sha256": "5bafebbeb7d2350b3b357951ea768bcc9aa3e2688b68dfb91005162d4b49e32c",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "rsv-amendvo2026-baemi",
+          "pdf_sha256": "2d2c9f027900b1426b00d640e29fed3a90d2f354722a26ceb0569699f66ff949",
+          "physical_pages": 2,
+          "text_sha256": "f610ab824d837607f96b773d407707a858ba9b98e227f527c8b9d3e8125ae1c5",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "rsv-amendvo2026-bvkj",
+          "pdf_sha256": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+          "physical_pages": 4,
+          "text_sha256": "f425525cfebb28a078c5ac829d299d61d8dddd234ab64c45eacde7ce6411e7b1",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "rsv-amendvo2026-bvoegd",
+          "pdf_sha256": "4c939eb88da6cd6ae5c8882c32e8674b411ddad61489e00dd7b98ff2af987fd6",
+          "physical_pages": 2,
+          "text_sha256": "5d8272ad23b822f6b2f7d226543dbe30ac2e26da9c3f43f9b11cc82c21bc3ddd",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "rsv-amendvo2026-gba",
+          "pdf_sha256": "666233e76ca9e4369ed13ade4866e0ce00fb241504771bdf10a3121a55aa8b29",
+          "physical_pages": 3,
+          "text_sha256": "795eaf33597626f84b9cc3fe6c98a187b9e21f34fd20e764044607e005d6a74c",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "rsv-amendvo2026-gkvsv",
+          "pdf_sha256": "b417cb7aa430874181f26c0a16b450da9246fef63094e05f5aa57077b8e1743b",
+          "physical_pages": 2,
+          "text_sha256": "638e220f68409c7384a6abf507e7b65605a8fead3edbf768267235fb85fd7eb3",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "rsv-amendvo2026-vfa",
+          "pdf_sha256": "d6d4ec30393881a428e4fe34e135610ec554360d9f0fc9509803683e3a60b094",
+          "physical_pages": 2,
+          "text_sha256": "eec4727a1f9efeee4d9130e006c6abe50d90a25049ba0a048cd43fd2e8ff5c55",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "idnrg2026-bnotk",
+          "pdf_sha256": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+          "physical_pages": 5,
+          "text_sha256": "fe62f7da963eeaad1f7ea687922ca4c31073f536bee59f8d8b48009a3a2c19ef",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "idnrg2026-databund",
+          "pdf_sha256": "5bc89faa12bb4469ebc4962df2470ff2f052fb944a84f28e3b65cd9378509f2c",
+          "physical_pages": 2,
+          "text_sha256": "58f356c25c4895d803a495f3e9a4c183a5fbbbc78764addb96790ba6263e439e",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "idnrg2026-dav",
+          "pdf_sha256": "614b10ba3b8dbc7a11728bcac2b49e6b6befab52a938e878ebccfd4dab271cbf",
+          "physical_pages": 4,
+          "text_sha256": "a0db6c3a0e29bcba303b578d620187eb1bb109ca3c63aacaa1cf260c610270a6",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "idnrg2026-dnotv",
+          "pdf_sha256": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+          "physical_pages": 4,
+          "text_sha256": "11c62eaf739728f7186d98adaf3630f95530fe5c1948d984779d22db661507f7",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "idnrg2026-kommunale-spitzenverbaende",
+          "pdf_sha256": "9372c9b810d4ad0c4cfeca94d42dac477c2bdeb9e1623d8de482cc55179ac72e",
+          "physical_pages": 6,
+          "text_sha256": "2f55e257c8e27a2cc8ec0c7340b38f7ff7cb10ea134daf028e81d99e73b92b19",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "idnrg2026-vdv",
+          "pdf_sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+          "physical_pages": 2,
+          "text_sha256": "3c77c1ba5ee70b18eadd5e26e38f14d55095cfb4d1fa118a7742e991065c3ec1",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "idnrg2026-zbi",
+          "pdf_sha256": "65734c02596c9cc46940ffde4effd5bf6eed22f058b72843fe6dc218a5ebed06",
+          "physical_pages": 3,
+          "text_sha256": "267dd99288390ab7d8f73feab5d03da89e1f1ee1c1d033183b620ca078f2d234",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "bmwe-wpexamen-2026-002",
+          "pdf_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+          "physical_pages": 6,
+          "text_sha256": "149dc0d5fbfe136ef4241dda142688106290df2db060b678b51fbb075a8e4c84",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "bmwe-wpexamen-2026-003",
+          "pdf_sha256": "91571d57ee384611cb117c6b52786dc17ba6fc161d0bab578071812a3b0531a3",
+          "physical_pages": 6,
+          "text_sha256": "aa92a3a5c9a65ff87af13a261e2b6038f5cba0b3121badadef4945d282688b37",
+          "fresh_text_exact": true
+        }
+      ],
+      "raw_freezes": [
+        {
+          "agent": "b",
+          "path": "research/factual-checks/short-statements-20261025/agents/claims-b.json",
+          "sha256": "9c073cde771461e0f87bb7b0f9850d18b5c5f50c3d4ebfb34329a082667a5274",
+          "acknowledged_at_utc": "2026-10-25T12:46:33.628664+00:00",
+          "claim_count": 63
+        },
+        {
+          "agent": "c",
+          "path": "research/factual-checks/short-statements-20261025/agents/claims-c.json",
+          "sha256": "35588c685450176ed1b2a7319cefee2b5700206c3cccd20a3e3fdecc768a7dda",
+          "acknowledged_at_utc": "2026-10-25T12:46:33.629384+00:00",
+          "claim_count": 44
+        },
+        {
+          "agent": "a",
+          "path": "research/factual-checks/short-statements-20261025/agents/claims-a.json",
+          "sha256": "b3444bb4e8564b1fe9bb08c8acc7af6ec158324d65644a38f674ecb0047e8ce5",
+          "acknowledged_at_utc": "2026-10-25T12:50:32.657994+00:00",
+          "claim_count": 59
+        }
+      ],
+      "peers": [
+        {
+          "file": "research/factual-checks/short-statements-20261025/reviews/a-reviews-c.json",
+          "sha256": "c9be0ba1fdd45a912b2ab9ba6193fbef98905c0989667cb4bd0f76fc5801bc31",
+          "claims": 44,
+          "omissions": 1
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/reviews/b-reviews-a.json",
+          "sha256": "068eeaed80f13d4bca5ecd01bbe732c72f0b2f7f367cd2df16caabfa185c643f",
+          "claims": 59,
+          "omissions": 0
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/reviews/c-reviews-b.json",
+          "sha256": "e1147ce173c14ea2b92129f5554b28dbe0c13ac309d253d8e83254276b22170d",
+          "claims": 63,
+          "omissions": 2
+        }
+      ],
+      "source_checks": [
+        {
+          "id": "short-root-rsv-draft",
+          "file": "research/round3-social/sources/rsv-amendment-refe-20260820.pdf",
+          "sha256": "17a2e54ee41f149a66c7ff59091958e0932a9e361f76f44ad356642413ad8894"
+        },
+        {
+          "id": "short-root-idnrg-draft",
+          "file": "research/round3-root/coverage/sources/idnrg-regelungsentwurf-20260720.pdf",
+          "sha256": "b40199901fd08e2db16993c5d14a368efb5b69aae330516d5b4e84b26937e8fa"
+        },
+        {
+          "id": "short-root-wpexam-draft",
+          "file": "research/round3-energy/sources/wpexamen-refe-official.pdf",
+          "sha256": "e719aec2fb79e41bfd54b30fb36d67eff0644cfbd74f9ee8b3cc53256f7bc5bc"
+        },
+        {
+          "id": "short-root-ema",
+          "file": "research/factual-checks/short-statements-20261025/root-primary-checks.json",
+          "sha256": "b5cb972893d36dbbfd44496f54a504acdfdeaada18509a7c4e5e6c6ce1e6c835"
+        },
+        {
+          "id": "short-root-danish-council",
+          "file": "research/factual-checks/short-statements-20261025/root-primary-checks.json",
+          "sha256": "b5cb972893d36dbbfd44496f54a504acdfdeaada18509a7c4e5e6c6ce1e6c835"
+        },
+        {
+          "id": "short-root-egk",
+          "file": "research/factual-checks/short-statements-20261025/root-primary-checks.json",
+          "sha256": "b5cb972893d36dbbfd44496f54a504acdfdeaada18509a7c4e5e6c6ce1e6c835"
+        },
+        {
+          "id": "short-root-bnotk-availability",
+          "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+          "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892"
+        },
+        {
+          "id": "short-root-wpo8",
+          "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+          "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892"
+        },
+        {
+          "id": "short-root-eu200643",
+          "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+          "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892"
+        },
+        {
+          "id": "short-root-eu2026470",
+          "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+          "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892"
+        },
+        {
+          "id": "short-root-issa5000",
+          "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+          "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892"
+        },
+        {
+          "id": "short-root-wipr4",
+          "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+          "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892"
+        },
+        {
+          "id": "short-root-rsv-guideline",
+          "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+          "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892"
+        },
+        {
+          "id": "short-root-cai2026",
+          "file": "research/factual-checks/short-statements-20261025/root-adjudication-primary-checks.json",
+          "sha256": "a005a04f172d8361b8ffe49dffa652760d2e02880b833e201cb065a38fe50587"
+        },
+        {
+          "id": "short-root-hgb317",
+          "file": "research/factual-checks/short-statements-20261025/root-adjudication-primary-checks.json",
+          "sha256": "a005a04f172d8361b8ffe49dffa652760d2e02880b833e201cb065a38fe50587"
+        },
+        {
+          "id": "short-root-wipr7-13",
+          "file": "research/factual-checks/short-statements-20261025/root-adjudication-primary-checks.json",
+          "sha256": "a005a04f172d8361b8ffe49dffa652760d2e02880b833e201cb065a38fe50587"
+        },
+        {
+          "id": "short-a-sgb20i",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-ifsg2",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-ifsg20",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-sgb130e",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-sgb10",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-rsv2024",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-enflonsia",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-emaenflonsia",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-emabeyfortus",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-emasynagis",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-emaabrysvo",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-emaarexvy",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-emamresvia",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-rki2024",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-rkiratgeber2024",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-rki2025",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-rki2026",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-banz-shortage",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-egk",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-danish",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-danishdecision",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-bvkj2024",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-covidma",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-covidbanz",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-prices",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-calc",
+          "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+          "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+        },
+        {
+          "id": "short-a-li2022",
+          "file": "research/round3-social/sources/li-rsv2019-2022.pdf",
+          "sha256": "6efcb545d1cf2cc18b09bbd2b1126dd79ffd195650e4ad638fe0cbd917b78c19"
+        },
+        {
+          "id": "short-b-idnrg",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-gbo",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-gbv",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-beurkg",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-tax",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-enova",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-olg2019",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-bva2023",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-noots",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-berlin-search",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-xjustiz",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-adv2025",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-lgln2022",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-nas",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-nrw-solum",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-b-vdi-monitor",
+          "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+          "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+        },
+        {
+          "id": "short-c-wpo",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-wiprpruefv",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-wpanrv",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-bibu",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-dihk-bibu",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-dqr-faq",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-stbdv",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-bremen-exam",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-stberg3",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-hgb",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-wpk-stat-july2026",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-wp2019act",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-wpk2019mag",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-eu200643",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-eu2026-boe",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-iaasb-summary",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-c-accreditation",
+          "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+          "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+        },
+        {
+          "id": "short-root-rsv-price-followup",
+          "file": "research/factual-checks/short-statements-20261025/root-price-followup.json",
+          "sha256": "9b86ac0fa56ff5f019e774458cf567406f77ffc8db560950ef107778eebcf0a4"
+        },
+        {
+          "id": "short-cr-lgln",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-ar-wpo",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-wiprpruefv",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-wpanrv",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-bibu",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-dihk-bibu",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-dqr-faq",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-stbdv",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-bremen-exam",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-stberg3",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-hgb",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-wpk-stat-july2026",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-wp2019act",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-wpk2019mag",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-eu200643",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-eu2026-boe",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-accreditation",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-iaasb-guide",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-eu201456",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-ar-issa5000-final",
+          "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+          "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+        },
+        {
+          "id": "short-br-rsv-draft",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-statutes",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-egk",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-enflonsia",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-danish",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-rki2024",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-rki-guide",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-rki2025",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-rki2026",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-shortage",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-guideline",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-li2022",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-ema-counts",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-bvkj-context",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-covid",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-br-price-limits",
+          "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+          "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+        },
+        {
+          "id": "short-cr-idnrg",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-gbo",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-gbv",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-beurk",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-grestg18",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-grestg20",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-erbstg34",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-erbstdv7",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-estdv54",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-search",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-enova-availability",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-noots",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-nrw-solum",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-vdi",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-xjustiz",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-adv",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-nas",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-bnotk2007",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-enova",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-olg2019",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-bva2023",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        },
+        {
+          "id": "short-cr-draft",
+          "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+          "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+        }
+      ],
+      "supplement_checks": [
+        {
+          "file": "research/factual-checks/short-statements-20261025/reviews/b-rsv-causal-supplement.json",
+          "sha256": "2aa5272282864c2deb4323fd7761d5447652d366de08fada7a483bb37b5f41b7"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/reviews/b-rsv-anchor-supplement.json",
+          "sha256": "dcd6ad634effe3b886b25ca487c7773062fcbdd0c1bff6db633ff939212f57be"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/reviews/b-idnr-technical-supplement.json",
+          "sha256": "242aeb577d0c00861c19a42f969f673ed384de1251d5da6a37c49f63369fb034"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/reviews/b-initial-followups.json",
+          "sha256": "1a510cd35c0e7f8814ad93ec9a8b1a9de557fbf39592341569ac737e0a52ea79"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/reviews/b-enova-availability-followup.json",
+          "sha256": "c3bf9d6d5c41ef430b76935f655ece1660467b1cfcd7ff677f182c2e21ee8ae4"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/reviews/c-source-time-precision-note.json",
+          "sha256": "e245fe35e500a20cc86e34341cc4c01e22e6fc6051851361ffcc5a91fe96bd3b"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/reviews/a-source-label-code-review.json",
+          "sha256": "9360cdb96b68f0096fc5a7fe4989cb29326aa57a5942c36824e42cd26054dd01"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/reviews/b-integration-snapshot-audit.json",
+          "sha256": "8697d57f7f42d912a4360c51cc9a413fdbe1a05e47414b6f23b1403f167d5b4c"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/reviews/a-baseline-audit.json",
+          "sha256": "5366aca834544999472f6a13cafa303cc2466371c43a13f5080909dc381dd622"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/reviews/b-rsv-price-supplement.json",
+          "sha256": "faecd52ffc40eeb429064a581d2fb554ecfa7fdd5850b85f21e9b3c05b76cc3c"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/reviews/c-idnr-scope-followup.json",
+          "sha256": "cb5dabb170ba66054b62b0bfe8f3a4e8862b9b915e34a83af37eeb7f272a576a"
+        }
+      ],
+      "root_omissions": [
+        {
+          "claim_id": "short-root-001",
+          "document_id": "bmwe-wpexamen-2026-002",
+          "pages": [
+            3
+          ],
+          "outcome": "supported",
+          "peer_file": "research/factual-checks/short-statements-20261025/reviews/a-reviews-c.json",
+          "omission_index": 0
+        },
+        {
+          "claim_id": "short-root-002",
+          "document_id": "idnrg2026-kommunale-spitzenverbaende",
+          "pages": [
+            5
+          ],
+          "outcome": "supported",
+          "peer_file": "research/factual-checks/short-statements-20261025/reviews/c-reviews-b.json",
+          "omission_index": 0
+        },
+        {
+          "claim_id": "short-root-003",
+          "document_id": "idnrg2026-vdv",
+          "pages": [
+            1
+          ],
+          "outcome": "unresolved",
+          "peer_file": "research/factual-checks/short-statements-20261025/reviews/c-reviews-b.json",
+          "omission_index": 1
+        }
+      ],
+      "captured_strict_builder": {
+        "exit_code": 0,
+        "files": [
+          {
+            "file": "research/factual-checks/short-statements-20261025/validation-report.json",
+            "matches_saved_except_dynamic_timestamps": true
+          },
+          {
+            "file": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+            "matches_saved_except_dynamic_timestamps": true
+          },
+          {
+            "file": "research/factual-checks/short-statements-20261025/summary.json",
+            "matches_saved_except_dynamic_timestamps": true
+          },
+          {
+            "file": "research/factual-checks/short-statements-20261025/report.html",
+            "matches_saved_except_dynamic_timestamps": true
+          }
+        ],
+        "live_writes": 0
+      },
+      "summary": {
+        "documents": 17,
+        "pdf_pages": 58,
+        "claims": 169,
+        "outcomes": {
+          "supported": 123,
+          "unresolved": 44,
+          "contradicted": 2
+        },
+        "independent_peer_claim_reviews": 166,
+        "new_reading_units": 0
+      }
+    },
+    {
+      "batch": "short-it-components-20261025",
+      "freeze": {
+        "file": "research/factual-checks/short-it-components-20261025/factual-freeze.json",
+        "sha256": "1465d1e1dc737799be6c0f96e2b723e3bb10099bf355f90f6d6b0a30e630f83d"
+      },
+      "frozen_file_checks": [
+        {
+          "file": "research/factual-checks/short-it-components-20261025/protocol.json",
+          "sha256": "8b383620aa9e1ac8c34f8a99ec5a297739120ec42fb9a5ac24ed223080656aa5"
+        },
+        {
+          "file": "research/factual-checks/short-it-components-20261025/adjudication.json",
+          "sha256": "f8467ca476a46d29eb5c5e6c044a019c961126fe31e04b97619448654a9ed03e"
+        },
+        {
+          "file": "research/factual-checks/short-it-components-20261025/assembly-manifest.json",
+          "sha256": "f0911cecadaa865316d05feb3bfe1532668534ab30a13b2f829d847082a4d4ba"
+        },
+        {
+          "file": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+          "sha256": "7853bb5d363924107763e75341bcdb48bbfe0ede9fcd881f69d7cef509e4aeca"
+        },
+        {
+          "file": "research/factual-checks/short-it-components-20261025/summary.json",
+          "sha256": "4642c054b873772b09d7a32922a357d22d2ac28d2360bbf8b9539e0eea2c021b"
+        },
+        {
+          "file": "research/factual-checks/short-it-components-20261025/validation-report.json",
+          "sha256": "8723e120a58cb56ef17cd18c6ab0fb559ee3dbe3c5f41c323eeb235703260bc9"
+        }
+      ],
+      "originals": [
+        {
+          "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+          "pdf_sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+          "physical_pages": 2,
+          "text_sha256": "dfe1168dcb08a5877ef0d259becc29a121708c1ad35f40dbc14276a8423007ba",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "bmds-it-komponentenverordnung-itkv-response-004",
+          "pdf_sha256": "f42d81c2a2e0f3ae8d7415732464cafa310ce95310c182943ed6ea8a3e7a59a2",
+          "physical_pages": 1,
+          "text_sha256": "1b6fa79f16937ed7b453357f4dc2dd06daafdc8b236f28e49077a82f714ea297",
+          "fresh_text_exact": true
+        },
+        {
+          "document_id": "bmds-it-komponentenverordnung-itkv-response-012",
+          "pdf_sha256": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699",
+          "physical_pages": 2,
+          "text_sha256": "cfc914c98698f56b32fcdb72820e2d5815654c147fb4f9b63db96b530dae69e3",
+          "fresh_text_exact": true
+        }
+      ],
+      "raw_freezes": [
+        {
+          "agent": "b",
+          "path": "research/factual-checks/short-it-components-20261025/agents/claims-b.json",
+          "sha256": "3efb0d75c363fa9525f8424f57793875d5cdfab906ffddfd6c9f9eb479d1a5f7",
+          "claims": 5,
+          "acknowledged_at_utc": "2026-10-25T22:09:07.280575+00:00"
+        },
+        {
+          "agent": "a",
+          "path": "research/factual-checks/short-it-components-20261025/agents/claims-a.json",
+          "sha256": "f9b4665bcd107f3ec39f1ef7e5f459c56c1a3c718156d89a2baa8a3c16966792",
+          "claims": 15,
+          "acknowledged_at_utc": "2026-10-25T22:14:00.543563+00:00"
+        },
+        {
+          "agent": "c",
+          "path": "research/factual-checks/short-it-components-20261025/agents/claims-c.json",
+          "sha256": "52a572db0816360722f510d607d40f06b198edb06fd9d7c7680cffd22ab35223",
+          "claims": 11,
+          "acknowledged_at_utc": "2026-10-25T22:16:27.757822+00:00"
+        }
+      ],
+      "peers": [
+        {
+          "file": "research/factual-checks/short-it-components-20261025/reviews/a-reviews-c.json",
+          "sha256": "b6f3e12cfa28b99244db8fa7f88d4466763d05fd6886dae72c31890a9011a208",
+          "claims": 11,
+          "omissions": 1
+        },
+        {
+          "file": "research/factual-checks/short-it-components-20261025/reviews/b-reviews-a.json",
+          "sha256": "d651248a0758da095855d0b4001cd06e605bc269a76ea18b81defaf3d05feb81",
+          "claims": 15,
+          "omissions": 0
+        },
+        {
+          "file": "research/factual-checks/short-it-components-20261025/reviews/c-reviews-b.json",
+          "sha256": "86c7f724854a72c3eaeee9104a6ee1d4f506c07729c0029499f05076dfe977d1",
+          "claims": 5,
+          "omissions": 0
+        }
+      ],
+      "source_checks": [
+        {
+          "id": "short-it-root-draft",
+          "file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-draft.pdf",
+          "sha256": "3083a6061d2f2512530d3f8f8272e564d557a3ada730660b9aa264a51780cf22"
+        },
+        {
+          "id": "short-it-root-accessibility",
+          "file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+          "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd"
+        },
+        {
+          "id": "short-it-root-dvdv",
+          "file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+          "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd"
+        },
+        {
+          "id": "short-it-root-dataport-faq",
+          "file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+          "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd"
+        },
+        {
+          "id": "short-it-root-ozg4-current",
+          "file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+          "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd"
+        },
+        {
+          "id": "short-it-root-bmg",
+          "file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+          "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd"
+        },
+        {
+          "id": "short-it-a-dnrw",
+          "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+          "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+        },
+        {
+          "id": "short-it-a-dataport-fv",
+          "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+          "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+        },
+        {
+          "id": "short-it-a-xpass-release25-11",
+          "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+          "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+        },
+        {
+          "id": "short-it-a-bsi-tr03128-3",
+          "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+          "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+        },
+        {
+          "id": "short-it-a-ozg4",
+          "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+          "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+        },
+        {
+          "id": "short-it-a-pauswg7",
+          "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+          "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+        },
+        {
+          "id": "short-it-a-pauswg20a",
+          "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+          "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+        },
+        {
+          "id": "short-it-a-pauswv19",
+          "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+          "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+        },
+        {
+          "id": "short-it-a-eidkg6",
+          "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+          "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+        },
+        {
+          "id": "short-it-a-eidkg12",
+          "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+          "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+        },
+        {
+          "id": "short-it-a-eidkg14a",
+          "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+          "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+        },
+        {
+          "id": "short-it-a-aufenthg71",
+          "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+          "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+        },
+        {
+          "id": "short-it-a-aufenthg78",
+          "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+          "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+        },
+        {
+          "id": "short-it-a-access-search",
+          "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+          "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+        },
+        {
+          "id": "short-it-b-satzung",
+          "file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+          "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43"
+        },
+        {
+          "id": "short-it-b-dog-count",
+          "file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+          "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43"
+        },
+        {
+          "id": "short-it-b-ghs",
+          "file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+          "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43"
+        },
+        {
+          "id": "short-it-b-ewa-provider",
+          "file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+          "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43"
+        },
+        {
+          "id": "short-it-b-ewa-accessibility",
+          "file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+          "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43"
+        },
+        {
+          "id": "short-it-b-bitv",
+          "file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+          "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43"
+        },
+        {
+          "id": "short-it-c-ozg",
+          "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+          "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+        },
+        {
+          "id": "short-it-c-ozg2024",
+          "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+          "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+        },
+        {
+          "id": "short-it-c-ozg2026",
+          "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+          "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+        },
+        {
+          "id": "short-it-c-bmg",
+          "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+          "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+        },
+        {
+          "id": "short-it-c-ministry",
+          "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+          "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+        },
+        {
+          "id": "short-it-c-lower-saxony",
+          "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+          "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+        },
+        {
+          "id": "short-it-c-baykommun",
+          "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+          "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+        },
+        {
+          "id": "short-it-c-mpk-progress",
+          "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+          "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+        },
+        {
+          "id": "short-it-c-ewa-faq",
+          "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+          "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+        },
+        {
+          "id": "short-it-root-mpk",
+          "file": "research/factual-checks/short-it-components-20261025/root-mpk-check.json",
+          "sha256": "7acd702a15f0987be9938589f4e9c7586e32bb2cf74e983a6dc343fadb49d000"
+        },
+        {
+          "id": "short-it-ar-ozg",
+          "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+          "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+        },
+        {
+          "id": "short-it-ar-bmg",
+          "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+          "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+        },
+        {
+          "id": "short-it-ar-ministry",
+          "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+          "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+        },
+        {
+          "id": "short-it-ar-ozg2024",
+          "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+          "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+        },
+        {
+          "id": "short-it-ar-ozg2026",
+          "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+          "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+        },
+        {
+          "id": "short-it-ar-lower-saxony",
+          "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+          "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+        },
+        {
+          "id": "short-it-ar-baykommun",
+          "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+          "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+        },
+        {
+          "id": "short-it-ar-mpk-resolution",
+          "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+          "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+        },
+        {
+          "id": "short-it-ar-ewa-faq",
+          "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+          "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+        },
+        {
+          "id": "short-it-br-draft",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-dnrw",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-dataport-fv",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-xpass",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-bsi",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-ozg4",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-pauswg7",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-pauswg20a",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-pauswv19",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-eidkg6",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-eidkg12",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-eidkg14a",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-aufenthg71",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-aufenthg78",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-history",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-br-search",
+          "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+          "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+        },
+        {
+          "id": "short-it-cr-satzung",
+          "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+          "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+        },
+        {
+          "id": "short-it-cr-bitv",
+          "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+          "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+        },
+        {
+          "id": "short-it-cr-whitebook",
+          "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+          "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+        },
+        {
+          "id": "short-it-cr-wds-method",
+          "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+          "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+        },
+        {
+          "id": "short-it-cr-korb2014",
+          "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+          "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+        },
+        {
+          "id": "short-it-cr-schuster2019",
+          "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+          "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+        },
+        {
+          "id": "short-it-cr-dog2025",
+          "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+          "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+        },
+        {
+          "id": "short-it-cr-wcag21",
+          "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+          "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+        },
+        {
+          "id": "short-it-cr-declaration",
+          "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+          "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+        }
+      ],
+      "supplement_checks": [
+        {
+          "file": "research/factual-checks/short-it-components-20261025/reviews/c-initial-followup.json",
+          "sha256": "0391e46b9c6835069037c2d4e275a3c308b56c600434f985171141152014f406"
+        },
+        {
+          "file": "research/factual-checks/short-it-components-20261025/reviews/b-count-followup.json",
+          "sha256": "01612687704e50bed237e70a11334d858ec065da60c077403db5357bbd9e18b9"
+        }
+      ],
+      "root_omissions": [
+        {
+          "claim_id": "short-it-root-001",
+          "document_id": "bmds-it-komponentenverordnung-itkv-response-012",
+          "pages": [
+            2
+          ],
+          "outcome": "supported",
+          "peer_file": "research/factual-checks/short-it-components-20261025/reviews/a-reviews-c.json",
+          "omission_index": 0
+        }
+      ],
+      "captured_strict_builder": {
+        "exit_code": 0,
+        "files": [
+          {
+            "file": "research/factual-checks/short-it-components-20261025/validation-report.json",
+            "matches_saved_except_dynamic_timestamps": true
+          },
+          {
+            "file": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+            "matches_saved_except_dynamic_timestamps": true
+          },
+          {
+            "file": "research/factual-checks/short-it-components-20261025/summary.json",
+            "matches_saved_except_dynamic_timestamps": true
+          },
+          {
+            "file": "research/factual-checks/short-it-components-20261025/report.html",
+            "matches_saved_except_dynamic_timestamps": true
+          }
+        ],
+        "live_writes": 0
+      },
+      "summary": {
+        "documents": 3,
+        "pdf_pages": 5,
+        "claims": 32,
+        "outcomes": {
+          "unresolved": 12,
+          "supported": 20
+        },
+        "independent_peer_claim_reviews": 31,
+        "new_reading_units": 0
+      }
+    }
+  ],
+  "combined": {
+    "documents": 20,
+    "pdf_pages": 63,
+    "claims": 201,
+    "outcomes": {
+      "supported": 143,
+      "unresolved": 56,
+      "contradicted": 2
+    },
+    "initial_peer_claims": 197,
+    "root_omission_claims": 4,
+    "main_admissions": 0,
+    "new_reading_units": 0
+  },
+  "main_lists": [
+    {
+      "file": "data/findings.json",
+      "baseline_file": "research/factual-checks/short-statements-20261025/baseline/findings.json",
+      "sha256": "1d0a76119a83ba58b9d93e4e01d3c8b91ca371ed7e62582d3baca0d4cdeaaf79",
+      "byte_identical": true
+    },
+    {
+      "file": "data/unresolved-leads.json",
+      "baseline_file": "research/factual-checks/short-statements-20261025/baseline/unresolved-leads.json",
+      "sha256": "b0430096b8186c3b6c8fcfe646026af9881b660bad3614632da3f74ab49f53cc",
+      "byte_identical": true
+    },
+    {
+      "file": "data/rejected-candidates.json",
+      "baseline_file": "research/factual-checks/short-statements-20261025/baseline/rejected-candidates.json",
+      "sha256": "b7855eb215a1a33f2102a38845581de148df9c29440db3d7d37f8972adc75487",
+      "byte_identical": true
+    },
+    {
+      "file": "data/documents.json",
+      "baseline_file": "research/factual-checks/short-statements-20261025/baseline/documents.json",
+      "sha256": "ba3a57cd62ed4e10524a49be8ef889ff8e84a4f1e971c47d30e70af07378ad8a",
+      "byte_identical": true
+    },
+    {
+      "file": "data/source-registry.json",
+      "baseline_file": "research/factual-checks/short-statements-20261025/baseline/source-registry.json",
+      "sha256": "b48a74317df92d67dbe5e70f73c41541a6a964f8eda3785aad94039b18a044e6",
+      "byte_identical": true
+    }
+  ],
+  "pool": {
+    "count": 791,
+    "same_ids_as_baseline": true,
+    "old_annotations_preserved": 59,
+    "new_annotations": 20,
+    "total_annotations": 79,
+    "changed_fields_only": [
+      "factual_check_pilots"
+    ],
+    "changed_ids": [
+      "bmds-it-komponentenverordnung-itkv-response-003",
+      "bmds-it-komponentenverordnung-itkv-response-004",
+      "bmds-it-komponentenverordnung-itkv-response-012",
+      "bmwe-wpexamen-2026-002",
+      "bmwe-wpexamen-2026-003",
+      "idnrg2026-bnotk",
+      "idnrg2026-databund",
+      "idnrg2026-dav",
+      "idnrg2026-dnotv",
+      "idnrg2026-kommunale-spitzenverbaende",
+      "idnrg2026-vdv",
+      "idnrg2026-zbi",
+      "rsv-amendvo2026-aok",
+      "rsv-amendvo2026-baek",
+      "rsv-amendvo2026-baemi",
+      "rsv-amendvo2026-bvkj",
+      "rsv-amendvo2026-bvoegd",
+      "rsv-amendvo2026-gba",
+      "rsv-amendvo2026-gkvsv",
+      "rsv-amendvo2026-vfa"
+    ]
+  },
+  "pilot_index": {
+    "old_entries_unchanged": 6,
+    "new_entries": 2,
+    "total": 8
+  },
+  "bounded": {
+    "groups": [
+      {
+        "process": "RSV ordinance amendment",
+        "documents": 8,
+        "claims": 59,
+        "outcomes": {
+          "supported": 50,
+          "unresolved": 8,
+          "contradicted": 1
+        }
+      },
+      {
+        "process": "Land-register IDNrG proposal",
+        "documents": 7,
+        "claims": 65,
+        "outcomes": {
+          "supported": 45,
+          "unresolved": 19,
+          "contradicted": 1
+        }
+      },
+      {
+        "process": "Accountant-examination ordinance",
+        "documents": 2,
+        "claims": 45,
+        "outcomes": {
+          "supported": 28,
+          "unresolved": 17
+        }
+      }
+    ],
+    "other_rows_exactly_preserved": 11,
+    "IT_full_twelve_reply_closure": false,
+    "IT_separate_batch_subset": {
+      "documents": 3,
+      "pages": 5
+    },
+    "no_aggregate_denominator": true
+  },
+  "global_captured_builds": [
+    {
+      "script": "research/build_deliverables.py",
+      "exit_code": 0,
+      "writes_captured": 6,
+      "files": [
+        {
+          "file": "data/findings.json",
+          "matches_saved_except_timestamps": true
+        },
+        {
+          "file": "data/unresolved-leads.json",
+          "matches_saved_except_timestamps": true
+        },
+        {
+          "file": "data/rejected-candidates.json",
+          "matches_saved_except_timestamps": true
+        },
+        {
+          "file": "data/source-registry.json",
+          "matches_saved_except_timestamps": true
+        },
+        {
+          "file": "data/documents.json",
+          "matches_saved_except_timestamps": true
+        },
+        {
+          "file": "data/review-index.json",
+          "matches_saved_except_timestamps": false
+        }
+      ]
+    },
+    {
+      "script": "research/build_screening_pool.py",
+      "exit_code": 0,
+      "writes_captured": 2,
+      "files": [
+        {
+          "file": "data/screening-pool.json",
+          "matches_saved_except_timestamps": true
+        },
+        {
+          "file": "data/screening-pool-summary.json",
+          "matches_saved_except_timestamps": true
+        }
+      ]
+    },
+    {
+      "script": "research/build_coverage_progress.py",
+      "exit_code": 0,
+      "writes_captured": 1,
+      "files": [
+        {
+          "file": "data/coverage-progress.json",
+          "matches_saved_except_timestamps": true
+        }
+      ]
+    },
+    {
+      "script": "research/build_bounded_coverage.py",
+      "exit_code": 0,
+      "writes_captured": 1,
+      "files": [
+        {
+          "file": "data/bounded-coverage.json",
+          "matches_saved_except_timestamps": true
+        }
+      ]
+    },
+    {
+      "script": "research/validate_deliverables.py",
+      "exit_code": 0,
+      "writes_captured": 1,
+      "files": [
+        {
+          "file": "data/validation-report.json",
+          "matches_saved_except_timestamps": true
+        }
+      ]
+    }
+  ],
+  "index_reproductions": [
+    {
+      "config": "default",
+      "files": [
+        {
+          "file": "research/factual-checks/summary.json",
+          "matches_saved_except_timestamps": true
+        },
+        {
+          "file": "research/factual-checks/report.html",
+          "matches_saved_except_timestamps": true
+        }
+      ],
+      "live_writes": 0
+    },
+    {
+      "config": "research/factual-checks/continuation-20261025/protocol.json",
+      "files": [
+        {
+          "file": "research/factual-checks/continuation-20261025/summary.json",
+          "matches_saved_except_timestamps": true
+        },
+        {
+          "file": "research/factual-checks/continuation-20261025/report.html",
+          "matches_saved_except_timestamps": true
+        }
+      ],
+      "live_writes": 0
+    },
+    {
+      "config": "research/factual-checks/short-statements-20261025/round-protocol.json",
+      "files": [
+        {
+          "file": "research/factual-checks/short-statements-20261025/overview/summary.json",
+          "matches_saved_except_timestamps": true
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/overview/report.html",
+          "matches_saved_except_timestamps": true
+        }
+      ],
+      "live_writes": 0
+    }
+  ],
+  "optional_report_note_escaped": true,
+  "new_mixed_batch_label_correct": true,
+  "index_negative_fixtures": [
+    {
+      "fixture": "incomplete_phase",
+      "rejected_before_output": true,
+      "reason": "ValueError: Factual-check phase is not complete"
+    },
+    {
+      "fixture": "duplicate_names",
+      "rejected_before_output": true,
+      "reason": "ValueError: Configure a nonempty list of distinct batches"
+    },
+    {
+      "fixture": "duplicate_resolved_alias",
+      "rejected_before_output": true,
+      "reason": "ValueError: Batches must identify distinct direct child directories"
+    },
+    {
+      "fixture": "outside_direct_child",
+      "rejected_before_output": true,
+      "reason": "ValueError: Batches must identify distinct direct child directories"
+    },
+    {
+      "fixture": "outside_absolute",
+      "rejected_before_output": true,
+      "reason": "ValueError: Batches must identify distinct direct child directories"
+    }
+  ],
+  "index_canonical_alias_fixtures": [
+    {
+      "fixture": "absolute",
+      "canonical_batch_and_report_links": true
+    },
+    {
+      "fixture": "dot_alias",
+      "canonical_batch_and_report_links": true
+    }
+  ],
+  "report_local_links": [
+    {
+      "file": "research/factual-checks/short-statements-20261025/report.html",
+      "local_links_checked": 668,
+      "missing": []
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/report.html",
+      "local_links_checked": 138,
+      "missing": []
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/overview/report.html",
+      "local_links_checked": 6,
+      "missing": []
+    }
+  ],
+  "overview": {
+    "id": "short-documents-20261025-research-round",
+    "status": "complete",
+    "built_at_utc": "2026-10-25T22:32:12.357273+00:00",
+    "started_at_utc": "2026-10-25T12:20:01+00:00",
+    "batches": [
+      {
+        "batch": "short-statements-20261025",
+        "title": "Short expert statements: RSV, land-register identifiers and accountant examinations",
+        "documents": 17,
+        "pdf_pages": 58,
+        "claims": 169,
+        "outcomes": {
+          "supported": 123,
+          "unresolved": 44,
+          "contradicted": 2
+        },
+        "initial_peer_reviews": 166,
+        "main_issue_admissions": [],
+        "report": "research/factual-checks/short-statements-20261025/report.html",
+        "ledger": "research/factual-checks/short-statements-20261025/claim-ledger.json"
+      },
+      {
+        "batch": "short-it-components-20261025",
+        "title": "Three short external IT-components responses",
+        "documents": 3,
+        "pdf_pages": 5,
+        "claims": 32,
+        "outcomes": {
+          "unresolved": 12,
+          "supported": 20
+        },
+        "initial_peer_reviews": 31,
+        "main_issue_admissions": [],
+        "report": "research/factual-checks/short-it-components-20261025/report.html",
+        "ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json"
+      }
+    ],
+    "documents": 20,
+    "pdf_pages": 63,
+    "claims": 201,
+    "outcomes": {
+      "supported": 143,
+      "unresolved": 56,
+      "contradicted": 2
+    },
+    "initial_peer_reviews": 197,
+    "main_issue_admissions": [],
+    "new_reading_units": 0,
+    "limits": [
+      "20 previously examined short responses across three complete finite sets and the three-formal-external-response subset of the IT-components set. No whole-twelve-reply IT closure or representative national denominator.",
+      "Finite, previously examined response sets; not a representative sample or national denominator.",
+      "Physical PDF pages include committee covers where present.",
+      "Supported concerns the recorded proposition; unresolved is neither a finding nor confirmation.",
+      "Every initial assessment received an independent AI peer review. Root adjudicated challenges and omissions.",
+      "The inventories target material testable premises; they do not certify every factual assertion.",
+      "No author contact or human specialist confirmation."
+    ],
+    "report_note": "Every target is one to six pages. No new substantive finding or main unresolved lead was admitted. The two contradicted assessments concern one already-recorded deadline error and one incidental one-day commencement description; neither is counted as a new substantive case."
+  },
+  "prior_code_audit_reuse": {
+    "file": "research/factual-checks/short-statements-20261025/reviews/c-coverage-code-audit.json",
+    "sha256": "e70957e378d1bf8de5dde813189306854c50a32f4526a30afdffb07958fb08f3",
+    "applicable_code_sha256": "3f889b7351172df0eb48cc7e2adbb0ebc96f826ef9e7d3b5b3ef0b9be4682884",
+    "scope": "Prior mixed-group positive and duplicate/missing/wrong-proof/wrong-count/unknown-process fixtures remain applicable only at matching code hash."
+  },
+  "finished_at_utc": "2026-10-25T22:36:07.958339+00:00",
+  "result": "pass_factual_snapshot_with_final_assembly_refresh_pending",
+  "pending_parent_assembly": [
+    {
+      "file": "data/review-index.json",
+      "status": "refresh_pending",
+      "captured_existing_entries_changed": 0,
+      "captured_existing_entries_removed": 0,
+      "captured_new_entries": [
+        "research/factual-checks/short-statements-20261025/reviews/a-index-compatibility-audit.json",
+        "research/factual-checks/short-statements-20261025/reviews/a-index-label-audit.json",
+        "research/factual-checks/short-statements-20261025/reviews/a-temp-cleanup.json",
+        "research/factual-checks/short-statements-20261025/reviews/b-final-semantic-audit.json",
+        "research/factual-checks/short-statements-20261025/reviews/b-temporary-source-cleanup.json",
+        "research/factual-checks/short-statements-20261025/reviews/c-idnr-scope-followup.json"
+      ],
+      "note": "Root will refresh after this audit and the C cleanup record are saved, then independently verify only expected review-index additions."
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/overview/completion-audit.json",
+      "status": "interim_assembly_record",
+      "observed_sha256": "0485235fee2f898b9fcfade190742cf558e8fa9a7cb51548bb8df71c44c78566",
+      "observed_issue": "reading_units.total_existing_units_with_factual_annotations is 0 in the interim record; independently verified correct value is 79, comprising 59 old and 20 new. Parent notified for final record correction."
+    },
+    {
+      "scope": "minimum active research duration",
+      "status": "not_certified",
+      "reason": "Parent goal active time controls the 5400 second gate; wall-clock gap does not establish completion."
+    }
+  ],
+  "index_compatibility_delta": {
+    "reviewed_sha256": "f55efd7477f70c4f8d7d5f636f9937fda4908933ebef25535ab9d8eb016c9758",
+    "result": "pass",
+    "default_html": "Exact saved historical HTML reproduced.",
+    "prior_continuation_html": "Exact saved continuation HTML reproduced.",
+    "new_overview": "Uses grouping_unit=research_batch and 2 research batches; no whole IT response-set factual closure asserted.",
+    "summary_json": "All three captured summaries match saved values except dynamic built_at_utc.",
+    "report_note": "Escaped before HTML insertion.",
+    "path_gates": "Incomplete phase, duplicate names, duplicate resolved aliases and outside-direct-child paths reject before captured output; single absolute and dot aliases produce canonical links."
+  },
+  "source_retention": {
+    "file": "research/factual-checks/short-statements-20261025/source-retention.json",
+    "sha256": "923a7b96cf17dc4c54d4fbf9ed6a358e8d993a9c0718b4556393133498203189",
+    "counts": {
+      "target_originals": 20,
+      "author_text_snapshots": 20,
+      "unique_source_dependency_paths": 23,
+      "shared_supporting_pdfs": 5
+    },
+    "hash_bound_entries_checked": 63,
+    "unique_protected_paths": 63,
+    "all_protected_paths_present_and_hash_matching": true,
+    "temporary_cleanup": "Separate C cleanup record follows this audit; canonical protected repository files remain untouched."
+  },
+  "point_in_time_overview_files": [
+    {
+      "file": "research/factual-checks/short-statements-20261025/round-protocol.json",
+      "sha256": "06ad1c77b06ab1cb4e504e9c403311712ba73c21ad8f89d507bd9ad2ba9e300f"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/overview/summary.json",
+      "sha256": "539886aa92ffa32224364bc68f357bd853a29c716940682769a6b7997c0f667d"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/overview/report.html",
+      "sha256": "39eba31a7d1f83490b5ff10637fdc70f617db6ab1b712f041986e3b1b2e2e5f3"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/overview/completion-audit.json",
+      "sha256": "0485235fee2f898b9fcfade190742cf558e8fa9a7cb51548bb8df71c44c78566"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/source-retention.json",
+      "sha256": "923a7b96cf17dc4c54d4fbf9ed6a358e8d993a9c0718b4556393133498203189"
+    }
+  ],
+  "method_limits": [
+    "This mechanical audit verifies hash identities, page and text coverage, exact anchor validation through strict captured batch builds, references, adjudication bindings and reproduction. It does not replace the independent semantic source reviews or certify every possible factual assertion.",
+    "All builder writes were captured in memory using patched Path write methods; saved live artifacts were not rebuilt or overwritten by C. Only this authored audit is saved to the repository.",
+    "The in-progress root completion record and review-index refresh are explicitly pending; main five data lists are byte-identical to the captured baseline.",
+    "No national denominator, error rate or whole 12-reply IT process factual closure follows from these finite response batches."
+  ]
+}

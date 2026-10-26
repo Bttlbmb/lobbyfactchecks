@@ -1,0 +1,123 @@
+{
+  "id": "biostoffv2026-dgaum-sinclair-social-r3-08",
+  "law_id": "biostoffv-amendment-2026",
+  "document_id": "dgaum-biostoffv-20260929",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Modernising workplace biological-agent protections, including digital instruction and external exposure records.",
+    "they_want": "Retain practical instruction and exercises when digital instruction is used.",
+    "they_claim": "A Sinclair2013 safety-training study is identified as Journal of Safety Research46:145–150.",
+    "the_problem": "Pages145–155 of that volume belong to a Boelhouwer et al. hazard-pictogram paper; the printed author/title and page coordinates do not identify the same article."
+  },
+  "correction": "In Journal of Safety Research volume46, pages145–155 identify Boelhouwer, Davis, Franco-Watkins, Dorris and Lungu’s2013 paper on hazard pictograms, DOI10.1016/j.jsr.2013.06.001. Elsevier-deposited metadata and the coauthor’s university record agree. The author’s stated145–150 interval lies within that different paper, and the printed Sinclair author/title combination is bibliographically inconsistent. The intended Sinclair reference has not been established.",
+  "effect": "The printed locator does not identify the safety-training study invoked. Correcting it would allow the evidence behind the practical-instruction argument to be checked. No clinical or pedagogical conclusion about whether exercises are necessary is drawn from this citation error.",
+  "limits": "No claim that no Sinclair training research exists or that the recommendation for practical instruction is wrong. A copied, blended or partly mistyped citation is plausible. Original article metadata and university-hosted abstract were read; the complete11-page Boelhouwer paper was not obtained or clinically reappraised. Preliminary secondary catalogue inference that these pages were a railway paper was rejected when primary metadata showed otherwise; it is not used as evidence.",
+  "confidence": {
+    "text_source_mismatch": "high_for_bibliographic_identity_only",
+    "materiality": "editorial_judgment"
+  },
+  "materiality_explanation": "Minor source-location error affecting verification of a supporting reference. It does not demonstrate that the practical-training request changes or that claimed learning effects are false.",
+  "direction_explanation": null,
+  "context_and_alternatives": "Full two-page DGAUM response read and original physical2 visually checked. The heading expressly presents occupational-medical evidence on digital instruction. Its paragraph supports useful theoretical digital learning while requiring practice for physical skills. There is no DOI in the printed reference. A genuine differently located Sinclair study could support the request; that does not make the printed source identity accurate.",
+  "draft": {
+    "source_id": "biostoffv-refe-ministry",
+    "addressed_version": "August2026 consultation; DGAUM expressly refers to ministry letter of31August2026; another response identifies24August draft",
+    "exactness": "Current official15-page draft is undated in its body and technically created/modified2October2026. Its§7(5) exposure-data transfer and§14 changes are directly identifiable, but the exact August dispatch file has not been independently archived. October technical metadata is not treated as an August publication date.",
+    "version_gate": "Exact August dispatch version remains unverified; bibliographic identity comparison does not depend on altered draft wording.",
+    "locator": {
+      "pdf_page": 4,
+      "section": "Article1No7, amendment of§14(2)/(3); related memorandum physical13–14 on digital instruction and necessary practical training"
+    },
+    "read_extent": "All15physical pages of the currently served ministry draft read; not certified identical to August dispatch."
+  },
+  "submission_source": {
+    "url": "https://www.bmas.de/SharedDocs/Downloads/DE/Gesetze/Stellungnahmen/verordnung-zur-aenderung-der-biostoffverordnung-dgaum.pdf?__blob=publicationFile&v=3",
+    "local_file": "research/round3-social/coverage-pdfs/acfe36c057b07d7dc3.pdf",
+    "authored_date": "2026-09-29",
+    "channel": "Official BMAS ministry consultation page",
+    "reported_delivery_independently_verified": false
+  },
+  "reading_depth": {
+    "author": "Full2physicalpages and visualp2.",
+    "counter_source": "Elsevier-deposited bibliographic metadata plus full original coauthor-university record/abstract. Not full11-page article."
+  },
+  "source_ids": [
+    "dgaum-biostoffv-20260929",
+    "boelhouwer-pictograms-2013-crossref",
+    "boelhouwer-pictograms-2013-author-record",
+    "biostoffv-refe-ministry"
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "root independent AI",
+        "verdict": "Retain narrow provisional minor/null bibliographic source identity mismatch; no scientific-benefit or intended-source conclusion.",
+        "review_file": "research/round3-reviews/root-reviews-dgaum-sinclair-citation.json",
+        "specialist": null
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as a separate narrow provisional minor bibliographic identity mismatch; direction unknown. Independent review requested. Same author response as two other citation issues, not another author/document.",
+      "by": "social_round3_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent root adversarial review retained narrow provisional minor/null identity mismatch after original author/visual and primary metadata/abstract checks.",
+      "by": "social_round3_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Draft locator tailored to this citation’s actual policy request: practical instruction or combined-exposure assessment; no blanket identification with exposure-database amendment.",
+      "by": "social_round3_ai"
+    }
+  ],
+  "claim_quote": {
+    "original": "Sinclair RC et al. (2013).",
+    "language": "en",
+    "translation_en": "Translation: not applicable—the bibliographic author/year entry is already in English.",
+    "locator": {
+      "pdf_page": 2,
+      "section": "Section2, literature entry on digital instruction"
+    },
+    "underline": "Sinclair RC et al. (2013)."
+  },
+  "additional_claim_quotes": [
+    {
+      "original": "46:145-150.",
+      "language": "en",
+      "translation_en": "Translation: not applicable—these are bibliographic coordinates.",
+      "locator": {
+        "pdf_page": 2,
+        "section": "Same Section2 literature entry, final coordinates"
+      }
+    }
+  ],
+  "request_quote": {
+    "original": "praktische Vermittlungs- und Übungsanteile",
+    "language": "de",
+    "translation_en": "Translation of fragment: practical teaching and exercise components",
+    "locator": {
+      "pdf_page": 2,
+      "section": "Section2, sentence asserting these are necessary for motor skills"
+    }
+  },
+  "counter_quote": {
+    "original": "Comprehension of hazard communication: Effects of pictograms on safety data sheets and labels",
+    "language": "en",
+    "translation_en": "Translation: not applicable—the original title is already in English.",
+    "source_id": "boelhouwer-pictograms-2013-crossref",
+    "locator": {
+      "json_pointer": "/message/title/0",
+      "section": "Elsevier-deposited DOI10.1016/j.jsr.2013.06.001 metadata; /message/page=145-155, volume46 and author list starts EricBoelhouwer"
+    },
+    "retrieved_at": "2026-10-25"
+  }
+}

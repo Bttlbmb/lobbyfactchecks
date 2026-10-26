@@ -1,0 +1,118 @@
+{
+  "law_id": "krwg-2026",
+  "document_id": "itad-krwg-20260807",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "favours_author_request": true,
+  "draft": {
+    "source_id": "krwg-refe-20260626-r6",
+    "version": "BMUKN KrWG consultation draft circulated 26 June 2026, expressly named on response cover",
+    "version_limit": "Current official PDF was modified 8 July 2026; exact relevant operative/explanatory wording matches response. No byte-identical 26 June historical snapshot claimed.",
+    "process_status": "Ongoing at 24 October 2026; dossier planned cabinet January 2027 and completion June 2027."
+  },
+  "submission_source_id": "itad-krwg-20260807",
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "tax_consultations",
+        "path": "research/round6-reviews/tax-reviews-itad-krwg.json",
+        "date": "2026-10-25",
+        "disposition": "retain narrow provisional finding with official Destatis and version limits"
+      },
+      {
+        "reviewer": "root",
+        "path": "research/round6-reviews/root-reviews-itad-krwg.json",
+        "date": "2026-10-25",
+        "disposition": "retain narrow provisional finding; independent method/rationale and full claim context checked"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full original response and primary calculation/draft context checked; independent review requested.",
+      "by": "energy_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent adversarial review retained the stated narrow finding; materiality and benign alternatives preserved.",
+      "by": "energy_ai_screen"
+    }
+  ],
+  "verification": {
+    "source_registry": "research/round6-energy/sources.json",
+    "full_submission_read": true,
+    "visual_pages": [
+      8,
+      20
+    ],
+    "quotation_budget": "Across both ITAD records:9+3+6+5=23 original author words. No additional original author quotations without shortening existing fragments."
+  },
+  "id": "krwg2026-itad-recycling-method-energy-r6-01",
+  "severity": "major",
+  "card": {
+    "law_is_about": "Revising waste prevention, recycling and collection rules.",
+    "they_want": "Reassess the draft measures and data basis.",
+    "they_claim": "The 69% statistical recycling rate is the WFD compliance basis, suggesting the target is already met.",
+    "the_problem": "Eurostat separates that statistical series from mandatory target reporting, which gives 46.36% for Germany 2023."
+  },
+  "claim_quote": {
+    "original": "Grundlage für die Erfüllung der Vorgaben in der AbfRRL",
+    "language": "de",
+    "translation_en": "Translation: basis for meeting the requirements in the Waste Framework Directive",
+    "locator": {
+      "pdf_page": 8,
+      "printed_page": 7,
+      "section": "2.4 Ziele der Abfallvermeidung; bullet beginning Gemäß Destatis"
+    },
+    "underline": "Grundlage"
+  },
+  "request_quote": {
+    "original": "neu zu bewerten",
+    "language": "de",
+    "translation_en": "Translation: to reassess",
+    "locator": {
+      "pdf_page": 9,
+      "printed_page": 8,
+      "section": "Zwischenfazit; draft measures and large parts of the amendment"
+    }
+  },
+  "counter_quote": {
+    "original": "It is not a legal obligation and is not linked to compliance targets",
+    "language": "en",
+    "source_id": "eurostat-municipal-2026-r6",
+    "locator": {
+      "pdf_page": 1,
+      "section": "Municipal Waste Statistics; MWS JQ description"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The approximately 69% number is supported by the longstanding statistical JQ series; it is not the rate in the mandatory MWRO series used for the 2025/2030/2035 targets. Eurostat Figure 6 gives Germany 2023 MWRO 46.3603% versus JQ 68.6760%. The exact draft below 50% rationale is consistent with MWRO. This does not decide compliance with the separate old 2020 target, for which earlier calculation options remained relevant.",
+  "effect": "Removes this numerical rebuttal to the draft’s rationale that further action is needed for the rising EU targets. The series distinction supports the existence of a target gap on the relevant 2023 baseline, without proving that any particular proposed measure is required.",
+  "limits": "Does not establish 2025 actual compliance, future 2035 performance, the optimal target level, reliable cross-country rankings, or the merits of the requested data improvements. Destatis itself expressly publishes the already-met 2035 claim in its current official explanation; faithful repetition is a strong source-provenance explanation. No intent or invented number is inferred.",
+  "context_and_alternatives": [
+    "The response qualifies its already-met conclusion and asks about preparing for reuse and definitions. Its explicit claim about which series forms the compliance basis is stronger than those questions. It does not ask for general deregulation.",
+    "Official sources conflict in presentation: current Destatis repeats the already-met 2035 claim; its older indexed 2023/613 kg/69% text closely matches the submission. This is preserved, not dismissed. Eurostat expressly explains the methodological difference and its own source spreadsheet distinguishes the two measures.",
+    "Eurostat metadata says the mandatory data were first published March 2026, before the response. The linked source spreadsheet has last-modified 30 March 2026 metadata. These authenticate a pre-author data edition, not an independently frozen historic download.",
+    "Article 11a attaches the unified calculation to 2025/2030/2035 targets. Original 2019/1004 Article 7 distinguishes these from the 2020 target reports; no allegation that the old 2020 target was necessarily missed."
+  ],
+  "materiality_explanation": "Major: the wrong compliance measure turns a baseline below 50% into one above the 2035 threshold 65%, directly reversing a substantial stated reason for the draft measures. This materiality is separate from the direction and from other reasons for data-quality reform.",
+  "direction_explanation": "True narrowly: apparent prior attainment strengthens the express request to reassess measures justified by a target shortfall. It does not negate every other author argument.",
+  "confidence": {
+    "text_source_mismatch": "high for JQ versus MWRO category; official Destatis wording and historic-download limit prominent",
+    "materiality": "editorial_judgment"
+  },
+  "source_ids": [
+    "itad-krwg-20260807",
+    "krwg-refe-20260626-r6",
+    "krwg-bmukn-dossier-r6",
+    "eurostat-municipal-2026-r6",
+    "eurostat-municipal-tables202603-r6",
+    "eurostat-mwro-methods202603-r6",
+    "destatis-municipal20261022-r6",
+    "wfd-2018-ukarchive-r6",
+    "eu2019-1004-ukarchive-r6"
+  ]
+}

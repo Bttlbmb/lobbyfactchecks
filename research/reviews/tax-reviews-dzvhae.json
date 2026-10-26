@@ -1,0 +1,53 @@
+{
+  "reviewer": "tax_consultations_ai",
+  "reviewed_on": "2026-10-24",
+  "review_type": "independent adversarial AI review; not a specialist assessment",
+  "specialist_review": null,
+  "submission_context_checked": "All four pages read in layout text; physical pages1and3 independently rendered and inspected. Dated17April2026, referring to16April2026BMGdraft. Exact draft section11(6) and explanation checked; no later legislative version substituted.",
+  "reviews": [
+    {
+      "issue_id": "bstabg2026-dzvhae-a01",
+      "decision": "retain_provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "independent_checks": [
+        "Opened contemporaneous Swiss EDI3June2005 announcement independently: reimbursement for five methods, expressly including homeopathy, was terminated effective30June2005.",
+        "Opened BAG official history:1999provisional coverage,2005termination,2012provisional reinstatement,2017permanent coverage. Read explanatory document pp2–5, which distinguishes physician services from medicinal products.",
+        "Read full submission: physician treatment and retained reimbursement are its focus, and the immediately preceding antecedent of the disputed continuity statement is the2005SwissHTA."
+      ],
+      "adversarial_tests": [
+        "Current Swiss coverage is real and remains an example available to the author; the narrow error is continuity since2005.",
+        "A medicinal-products-only interpretation could yield a different chronology but does not fit the treatment-focused passage sufficiently to rescue its unqualified statement. Do not generalise finding to every product.",
+        "Whether a particular2005HTA author reported positive efficacy findings is a separate research question and is not adjudicated here."
+      ],
+      "materiality_reason": "The author overstates duration of its foreign precedent. Current coverage remains and the error does not establish the merits of clinical effectiveness or German policy. Minor is proportionate.",
+      "direction_reason": "A supposedly uninterrupted two-decade precedent supports retaining coverage, even though correcting the chronology does not remove the present-day Swiss example.",
+      "primary_urls": [
+        "https://www.admin.ch/de/nsb?id=3740",
+        "https://www.bag.admin.ch/de/arztliche-komplementaermedizin"
+      ],
+      "visual_check": "research/reviews/tax-dzvhae-p3.png"
+    },
+    {
+      "issue_id": "bstabg2026-dzvhae-a02",
+      "decision": "retain_provisional_finding",
+      "severity": "minor",
+      "favours_author_request": false,
+      "independent_checks": [
+        "Opened official BMG10March2026 report independently; preliminary2025total expenditure is352.4billion euros, published before the17April submission.",
+        "Recalculated40million/352.4billion*100=0.0113507%; a0.03%share would imply105.72million on that denominator.",
+        "Read complete paragraph and independently inspected visual page1: numerator and percentage appear directly paired in the same parentheses."
+      ],
+      "adversarial_tests": [
+        "The author does not specify an expenditure year; no recent annual total plausibly makes40million equal0.03%. A different numerator could explain the number but would require changing the stated pairing.",
+        "This is not a verification of actual homeopathic treatment cost or substitution savings. The draft estimates50million for the combined homeopathic and anthroposophic exclusions; that broader scope does not independently refute a40million homeopathy-only estimate.",
+        "The incorrect percentage overstates cost; it therefore works against, rather than strengthens, the author’s small-budget rationale."
+      ],
+      "materiality_reason": "Both shares are small on the insurer-wide denominator, and the correction strengthens the small-budget point. Minor is proportionate.",
+      "primary_urls": [
+        "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/finanzentwicklung-gkv-2025"
+      ],
+      "visual_check": "research/reviews/tax-dzvhae-p1.png"
+    }
+  ]
+}

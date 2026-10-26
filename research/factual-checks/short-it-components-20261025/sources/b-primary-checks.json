@@ -1,0 +1,92 @@
+{
+  "researcher": "b",
+  "created_at_utc": "2026-10-25T21:12:37.238462+00:00",
+  "artifact_type": "Concise authored primary check notes, not public-document archive",
+  "sources": [
+    {
+      "id": "short-it-b-satzung",
+      "title": "DBSV statutes adopted June 2022",
+      "url": "https://www.dbsv.org/satzung-dbsv.html",
+      "retrieved_at": "2026-10-25T21:12:37.238462+00:00",
+      "read_extent": "Header and section 2(2)–(5), with membership context section 4",
+      "check_performed": "Expressly represents blind, visually impaired, deafblind and disease-at-risk people, including interests arising from additional disabilities. Broad interest representation is distinct from an actual membership count.",
+      "temporal_limit": "Primary organisation rule; June 2022 stated version predates September 2026 response.",
+      "archive_type": "Concise authored primary-source check note, not original HTML/PDF"
+    },
+    {
+      "id": "short-it-b-dog-count",
+      "title": "DOG September 2025 primary clinical-society statement",
+      "url": "https://dog.org/wp-content/uploads/sites/11/2025/09/DOG-PM-Kongress_AMD_und-Katarakt_September_2025_F.pdf",
+      "retrieved_at": "2026-10-25T21:12:37.238462+00:00",
+      "read_extent": "Physical page 1, dated header and prevalence context only",
+      "check_performed": "Clinical society states around seven million people have AMD including different stages; cataract can overlap. Supports broad scale and disease-at-risk interpretation. Does not independently reconstruct a deduplicated September 2026 count of every constituency in DBSV definition.",
+      "temporal_limit": "Rough clinical estimate, not a current national census. No summation of overlapping eye-disease counts; not a blindness-only number.",
+      "archive_type": "Concise authored primary-source check note, not original HTML/PDF"
+    },
+    {
+      "id": "short-it-b-ghs",
+      "title": "Korb et al., Gutenberg Health Study, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24566902/",
+      "retrieved_at": "2026-10-25T21:12:37.238462+00:00",
+      "read_extent": "Primary article indexed abstract: methods, results, conclusion",
+      "check_performed": "Fundus photographs from 4,340 regional German participants aged 35–74, independently graded. Early AMD 11.9 percent and late AMD 0.2 percent; age-specific differences large. Broad population extrapolations, stages and age bounds differ from diagnosed blindness counts.",
+      "temporal_limit": "Original abstract only, not full paper or reconstructed national extrapolation. Does not settle exact composite 2026 count.",
+      "archive_type": "Concise authored primary-source check note, not original HTML/PDF"
+    },
+    {
+      "id": "short-it-b-ewa-provider",
+      "title": "Official electronic residence-registration provider homepage",
+      "url": "https://wohnsitzanmeldung.gov.de/",
+      "retrieved_at": "2026-10-25T21:12:37.238462+00:00",
+      "read_extent": "Main substantive homepage including provider/development attribution",
+      "check_performed": "Official service describes Hamburg provision for Germany, developed jointly with BMI and federal funding. Draft physical pages 1 and 12 independently corroborate Hamburg development and Dataport operation for Hamburg.",
+      "temporal_limit": "Current provider page; historical attribution corroborated by exact September draft. Not sole-developer or sole-funder claim.",
+      "archive_type": "Concise authored primary-source check note, not original HTML/PDF"
+    },
+    {
+      "id": "short-it-b-ewa-accessibility",
+      "title": "Hamburg service-specific eWA accessibility declaration, checked 22 April 2026",
+      "url": "https://static.hamburg.de/fhh/efa-ods/bfe-ewa.pdf",
+      "retrieved_at": "2026-10-25T21:12:37.238462+00:00",
+      "read_extent": "Complete three-page declaration, independently read via PDF text; exact service URL/date confirmed",
+      "check_performed": "Provider declares service only partly compliant with applicable Hamburg/EU-based requirements. April assessment lists keyboard controls that cannot be opened, screen-reader information/labels and other deficiencies; planned repair is not completed compliance.",
+      "temporal_limit": "Supports author explicitly qualified according-to-declaration premise. Actual live service not independently retested at 14 September or October; current retrieved declaration has April date, not authenticated September capture.",
+      "archive_type": "Concise authored primary-source check note, not original HTML/PDF",
+      "checked_snapshot_sha256": "0066c4dba36cfc8c17bbf8b6a370560890589812c61e6bf227cee8bda2235db7",
+      "snapshot_storage": "Shared canonical source or temporary task download; no duplicate source archive"
+    },
+    {
+      "id": "short-it-b-bitv",
+      "title": "Official BITV 2.0, last amended 24 October 2023",
+      "url": "https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html",
+      "retrieved_at": "2026-10-25T21:12:37.238462+00:00",
+      "read_extent": "Header and sections 1–4,7; BGG12 and OZG7 scope context",
+      "check_performed": "Header confirms 12 September 2011 origin and current 2023 amendment. Sections distinguish scope, harmonised standards and declarations. Existing accessibility duties do not make a request for explicit additional ITKV wording a factual error.",
+      "temporal_limit": "OZG current consolidation includes post-author 6 October 2026 amendment; current §§4/7 are context only, not a certified historical chain. Hamburg-law direct page required JavaScript and was not treated as read. No assertion every Land has identical implementation.",
+      "archive_type": "Concise authored primary-source check note, not original HTML/PDF",
+      "additional_urls": [
+        "https://www.gesetze-im-internet.de/ozg/BJNR313800017.html",
+        "https://www.gesetze-im-internet.de/ozg/__4.html",
+        "https://www.gesetze-im-internet.de/ozg/__7.html",
+        "https://www.gesetze-im-internet.de/bgg/__12.html"
+      ]
+    }
+  ],
+  "failed_attempts": [
+    {
+      "url": "https://www.wohnsitzanmeldung.gov.de/ueber-uns",
+      "usable_as_evidence": false,
+      "reason": "Guessed route inaccessible; official homepage supplied explicit attribution instead."
+    },
+    {
+      "url": "https://www.landesrecht-hamburg.de/bsha/document/jlr-BITVHA2019pP1",
+      "usable_as_evidence": false,
+      "reason": "JavaScript-only response; operative text not read."
+    },
+    {
+      "url": "https://www.recht.bund.de/bgbl/1/2024/245/VO.html",
+      "usable_as_evidence": false,
+      "reason": "Browser 403; no historical OZG chain certified from inaccessible act."
+    }
+  ]
+}

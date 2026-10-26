@@ -1,0 +1,42 @@
+{
+  "reviewer": "root",
+  "created_at_utc": "2026-10-25T12:41:23.987193+00:00",
+  "format": "Authored concise primary-reading notes, not original downloaded HTML/PDF.",
+  "checks": [
+    {
+      "source_id": "short-root-ema",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/enflonsia",
+      "locator": "Overview: study benefits/risks/authorisation; product information chronology",
+      "read_extent": "Relevant full overview sections and product-information dating inspected through web tool; no full EPAR read claimed.",
+      "findings": "EU authorisation15April2026 and first-season indication corroborated. Healthy infant trial: medically attended RSV lower respiratory disease60/2398 versus74/1201 over150days. Palivizumab comparison is a separate high-risk population. Acceptable safety and benefits/risk judgment do not establish exact nirsevimab equivalence.",
+      "limits": "The overview distinguishes medically attended disease from hospitalization outcomes. Trial follow-up horizon is not an unconditional guaranteed protection duration for every infant. Current retrieval of a dated regulatory account; no historical byte identity claimed."
+    },
+    {
+      "source_id": "short-root-danish-council",
+      "url": "https://medicinraadet.dk/anbefalinger-og-vejledninger/laegemidler-og-indikationsudvidelser/c/clesrovimab-enflonsia-rs-virus-hos-nyfodte-og-spaedborn",
+      "locator": "Decision27May2026, updated29May; recommendation/reasoning/uncertainties",
+      "read_extent": "Complete substantive recommendation/reasons/cost/uncertainty sections, not all linked HTA documents.",
+      "findings": "The council treats clesrovimab as an alternative equivalent to nirsevimab for specified first-season eligible groups and recommends cheapest product. Eligibility and cost-effectiveness differ with gestation, maternal vaccination and birth during season.",
+      "limits": "Danish policy assessment is not German reimbursement law or direct head-to-head trial evidence. Its compressed87percent doctor/hospital wording must not replace endpoint-specific EMA/primary-trial figures; medical-attendance and hospitalization endpoints differ."
+    },
+    {
+      "source_id": "short-root-egk",
+      "url": "https://www.kbv.de/documents/infothek/rechtsquellen/bundesmantelvertrag/anlage-04a-elektronische-gesundheitskarte/04a-elektronische-gesundheitskarte.pdf",
+      "observed_original_sha256": "8809137028e4d04f4b0f881ec2bdd07541a26999fba2e7e55bf6c4cf8ab14a82",
+      "locator": "Physical1,5–7, Annex1 nos2.1,2.5–2.9; stand1July2026",
+      "read_extent": "Selected complete physical pages1,5,6,7 from shared temporary original, identity verified independently.",
+      "findings": "Under-18 insured persons without eGK/electronic replacement can use substitute billing. Required data include insurer and identity; representative confirms existing cover. Number is requested if possible. Conditional private payment/refund and electronic replacement rules are separate.",
+      "limits": "This removes card absence as a universal barrier for insured children; it does not establish cover where genuinely uncertain, disprove practice frequency, or prove all clinics follow rules. Full11page document not read by root."
+    }
+  ],
+  "related_original_context": {
+    "document_id": "rsv-amendvo2026-bvkj",
+    "physical_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "check": "Root read all4 original pages. Insurance paragraph concerns uncertain cover and asserted practice/frequency, not a categorical claim that no substitute procedure exists."
+  }
+}

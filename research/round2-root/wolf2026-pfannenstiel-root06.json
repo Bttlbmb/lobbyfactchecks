@@ -1,0 +1,117 @@
+{
+  "id": "wolf2026-pfannenstiel-root06",
+  "law_id": "wolf-bjagdg-2026",
+  "document_id": "pfannenstiel-wolf-20260208",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "major",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Adding wolves to federal hunting law and regulating regular hunting and targeted removals.",
+    "they_want": "Broader regular wolf hunting, with fewer conservation-status obstacles.",
+    "they_claim": "An absence of favourable conservation status among German wolves cannot justify opposition to regular hunting, because the whole European population is decisive.",
+    "the_problem": "The cited judgment expressly requires local and national assessment. Cross-border exchange can support favourable status; a favourable European population does not replace the national assessment."
+  },
+  "claim_quote": {
+    "original": "Ein angebliches Fehlen des GEZ der deutschen Wölfe kann also keineswegs als Begründung gegen die reguläre Bejagung des Wolfs herhalten.",
+    "language": "de",
+    "translation_en": "Translation: An alleged absence of favourable conservation status among German wolves can therefore in no way serve as a reason against regular wolf hunting.",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": 1,
+      "paragraph": "Third body paragraph, following the reference to CJEU C-629/23 of12June2025."
+    },
+    "underline": "keineswegs"
+  },
+  "request_quote": {
+    "original": "Bejagung des Wolfs zu fordern",
+    "language": "de",
+    "translation_en": "Translation of request fragment: to call for wolf hunting",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "paragraph": "Second substantive paragraph, bold sentence identifying potential loss of open-land biodiversity as the main reason for the request."
+    },
+    "context": "The preceding page questions why favourable conservation status plays a decisive role in the bill; the final page also seeks hunting guidelines in ordinances rather than statute."
+  },
+  "counter_quote": {
+    "original": "örtlicher und nationaler Ebene bestehen und bewertet werden",
+    "language": "de",
+    "translation_en": "Translation of fragment: exist and be assessed at local and national level",
+    "source_id": "cjeu-c62923-de",
+    "locator": {
+      "pdf_page": 17,
+      "printed_page": 17,
+      "section": "Operative part,1,second indent",
+      "supplementary_paragraphs": [
+        47,
+        48,
+        66
+      ]
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "C-629/23 requires favourable conservation status to exist and be assessed primarily and necessarily at local and national level. Paragraph48 expressly applies that principle to Article14 management of AnnexV species. Paragraphs52–64 allow relevant cross-border demographic and genetic exchange to inform that assessment, including where an isolated national population would not be viable. They do not make an unfavourable national status irrelevant merely because the wider European population is favourable.",
+  "effect": "Removes the stated legal basis for dismissing the German conservation-status condition in the argument for regular hunting. It does not establish the outcome of any particular hunting application.",
+  "limits": "The judgment does not require each country’s wolves to be biologically self-sufficient: paragraph55 expressly allows continuous exchange to support favourable national status. The author’s earlier phrase about local wolves not being favourable entirely on their own is compatible with that point. The finding concerns the later categorical dismissal of German status, not the legitimacy of considering European connections. It does not determine Germany’s actual conservation status, ecological population boundaries, hunting effectiveness, the legality of every targeted removal, or the desirability of the bill. No intent is inferred.",
+  "context_and_alternatives": [
+    "Read all3physical submission pages, including the author’s separate ecological reasons for hunting, preference for juvenile removal, and desire to place operational guidelines in ordinances.",
+    "The strongest benign reading is that the author objects to treating Germany as an isolated biological population. The cited judgment supports considering cross-border exchange, but expressly preserves the local and national legal assessment; the later categorical conclusion goes beyond that reading.",
+    "The case concerns Estonia, where wolves already fell under AnnexV. Its Article14 reasoning is relevant to the proposed post-reclassification German framework; no claim is made that all factual circumstances are identical.",
+    "The population-size assertions and the claim that all European populations exchange genes were not independently determined here. They are not separate findings."
+  ],
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Änderung des Bundesjagdgesetzes und zur Änderung des Bundesnaturschutzgesetzes",
+    "version": "BT21/3546,12January2026; author dated8February2026, committee cover9February2026",
+    "source_id": "wolf-bt213546",
+    "relevant_provision": "Proposed§22d(2),physical9,conditions regular hunting on favourable conservation status and a management plan;§22d(3)provides separate cases for unfavourable status.",
+    "version_check": "The author identifiesBT21/3546 and discusses the Bundesrat’s criticism ofBR765/25. Later companionBT21/4090,11February2026,belongs to the hearing dossier but postdates this author text; it is not asserted to be a version he had read. No later committee amendment or enacted wording is substituted.",
+    "submission_date": "2026-02-08",
+    "hearing_date": "2026-02-23",
+    "process_status_at_screen": "Completed; federal amendment entered into force2April2026,after the addressed draft."
+  },
+  "materiality_explanation": "Major editorial judgment: the disputed source description removes a central conservation-status constraint from the author’s proposed regular-hunting framework. It is a direct legal premise of the policy request, rather than an incidental citation date. This is separate from the policy merits and from whether Germany’s actual status would permit hunting.",
+  "direction_explanation": "True: treating wider European status as sufficient makes the case for regular hunting with fewer German-status obstacles appear stronger. This does not establish intent.",
+  "confidence": {
+    "text_source_mismatch": "high for the categorical dismissal versus the cited operative holding; cross-border-exchange interpretation independently tested",
+    "materiality": "editorial_judgment"
+  },
+  "submission_source_id": "pfannenstiel-wolf-20260208",
+  "source_ids": [
+    "pfannenstiel-wolf-20260208",
+    "cjeu-c62923-de",
+    "wolf-bt213546",
+    "wolf-bt214090",
+    "wolf-bundestag-process-2026"
+  ],
+  "verification": {
+    "source_reading": "Official German judgment read through web reader, including operative part and paragraphs47–66; no successful local PDF archive claimed. Exact source URL and page locator retained.",
+    "quote_budget": "Twenty author words in claim plus five in request; no additional author quotation added.",
+    "visual": "Root rendered and visually checked original author physical2and3, including the full conservation-status paragraph and separate hunting request."
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "energy_hearings_independent_ai",
+        "date": "2026-10-25",
+        "review_file": "research/round2-reviews/energy-reviews-pfannenstiel-wolf.json",
+        "outcome": "retain_provisional_major_true_narrowly",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full author and exact-draft checks; independent adversarial review requested, with cross-border-exchange rescue explicit. Not yet admitted to compiled findings.",
+      "by": "root_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent full-author, primary-judgment and exact-draft review retained the narrow major finding, with national self-sufficiency and all-hunting-ban readings expressly excluded.",
+      "by": "root_ai_screen"
+    }
+  ]
+}

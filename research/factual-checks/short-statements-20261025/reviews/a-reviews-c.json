@@ -1,0 +1,1110 @@
+{
+  "reviewer": "a",
+  "reviewed_file": "research/factual-checks/short-statements-20261025/agents/claims-c.json",
+  "reviewed_sha256": "35588c685450176ed1b2a7319cefee2b5700206c3cccd20a3e3fdecc768a7dda",
+  "created_at_utc": "2026-10-25T13:00:26.522631+00:00",
+  "documents_reread": [
+    {
+      "document_id": "bmwe-wpexamen-2026-002",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8"
+    },
+    {
+      "document_id": "bmwe-wpexamen-2026-003",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "original_sha256": "91571d57ee384611cb117c6b52786dc17ba6fc161d0bab578071812a3b0531a3"
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "short-c-001",
+      "claim_as_reviewed": "The profession has a demographic structure relevant to replacement recruitment, with a substantial older membership.",
+      "verdict": "accept",
+      "reason": "Age-band counts and denominator independently checked in July 2026 WPK statistics. Broad demographic premise is supported without converting membership into vacancies or demand.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wpk-stat-july2026",
+          "locator": "Physical p. 5, WP age table",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-002",
+      "claim_as_reviewed": "The WP examination was modularised in 2019.",
+      "verdict": "accept",
+      "reason": "Promulgated four-page 2019 amendment independently read; next-day commencement and contemporaneous first modular II/2019 examination match the author.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wp2019act",
+          "locator": "Article 1 items 5/11 and Article 2",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wpk2019mag",
+          "locator": "Physical p. 16",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-003",
+      "claim_as_reviewed": "The existing German catalogue is broader than the EU minimum because it generally lacks the express audit-relevance qualification for ancillary subjects.",
+      "verdict": "revise",
+      "reason": "Actual EU Article 8(2) and German catalogue independently compared. Audit-relevance qualification is general in EU ancillary fields and largely absent from the broad German list; no illegality inference. Use the supplied shorter exact contiguous anchor to avoid silently removing a PDF line-break hyphen in the original anchor.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-eu200643",
+          "locator": "Article 8(2)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Section 4(3)–(5)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ],
+      "proposed_result": "supported",
+      "proposed_original_excerpt": "nach Artikel 8 Abs. 2 EU-APrRL"
+    },
+    {
+      "claim_id": "short-c-004",
+      "claim_as_reviewed": "The addressed draft removes methodological corporate-governance content from BWL/VWL and narrows some subject/depth requirements.",
+      "verdict": "accept",
+      "reason": "Current ministry Article 1 no. 3 independently matches the described pruning; IDW expressly names 23 September while current artifact was technically created 6 October. Retain historical identity uncertainty.",
+      "evidence_checks": [
+        {
+          "source_id": "short-root-wpexam-draft",
+          "locator": "Physical pp. 4–5, Article 1 no. 3",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-005",
+      "claim_as_reviewed": "Statutory auditors play an important governance role.",
+      "verdict": "revise",
+      "reason": "Keep supported using independently read HGB sections 252/317 and WPO role. Revise EU evidence locator: the original 2006 Article 41 is historical; 2014 Article 1 item 32 replaced Chapter X with Article 39. This is a checker-source correction, not an author error. Use the supplied shorter exact contiguous anchor to avoid silently removing a PDF line-break hyphen in the original anchor.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-hgb",
+          "locator": "Section 317(1), (2), (4), (4a)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-eu200643",
+          "locator": "Article 41(2), (4)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-eu201456",
+          "locator": "Article 1 item 32, replacement Chapter X/Article 39",
+          "independent_check": "The historical EU Article 41 locator must be corrected; HGB independently supports the result."
+        }
+      ],
+      "proposed_result": "supported",
+      "proposed_original_excerpt": "weil der Abschlussprüfer"
+    },
+    {
+      "claim_id": "short-c-006",
+      "claim_as_reviewed": "Independent review of restructuring concepts is typically performed by practitioners with relevant practical experience.",
+      "verdict": "accept",
+      "reason": "Professional competence and legal curriculum do not measure who typically performs restructuring reviews. Retain unresolved practice-frequency assertion; no error from unavailable survey.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Section 4(2)2(c)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wpo",
+          "locator": "Section 2(1), (3)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-007",
+      "claim_as_reviewed": "Going-concern assessment under HGB section 252(1)2 makes basic insolvency/restructuring knowledge relevant to financial reporting.",
+      "verdict": "accept",
+      "reason": "Full HGB section 252 going-concern condition and section 317 audit duties independently read. Basic insolvency/restructuring knowledge has the claimed relevance.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-hgb",
+          "locator": "Sections 252(1)2 and 317(1)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-008",
+      "claim_as_reviewed": "The addressed draft allows the six-year module-registration period to be extended on application by up to two years for evidenced specified family/protection periods.",
+      "verdict": "accept",
+      "reason": "Current section 5 baseline and current proposal Article 1 no. 4 independently match six years plus evidenced family/protection periods up to two years; exact addressed September version remains unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "short-root-wpexam-draft",
+          "locator": "Physical p. 5, Article 1 no. 4",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Section 5(2)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-009",
+      "claim_as_reviewed": "The six-year modular design already allowed planning around longer absences such as time abroad.",
+      "verdict": "accept",
+      "reason": "Independently viewed WPK 2019 p. 16 graphic explicitly illustrates time abroad and family planning inside six years. It supports design allowance, not automatic tolling.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wpk2019mag",
+          "locator": "Physical/printed p. 16, text and visually checked six-year graphic",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wp2019act",
+          "locator": "Article 1 item 5",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-010",
+      "claim_as_reviewed": "The addressed draft reduces BWL/VWL written papers from two to one.",
+      "verdict": "accept",
+      "reason": "Existing two papers and current proposal one paper independently verified; retain exact addressed-draft identity limit.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Section 7(3)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-root-wpexam-draft",
+          "locator": "Physical p. 5, Article 1 no. 5(b)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-011",
+      "claim_as_reviewed": "The addressed draft fixes four hours in the three non-tax modules while leaving tax papers at four to six.",
+      "verdict": "accept",
+      "reason": "Operative proposal fixes four hours in three non-tax modules and four to six for tax, matching the described reform. Exact September identity remains unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Section 7(2)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-root-wpexam-draft",
+          "locator": "Physical p. 5, Article 1 no. 5(a)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-012",
+      "claim_as_reviewed": "More than four hours is unnecessary to reliably establish the knowledge and skills required by the examination.",
+      "verdict": "accept",
+      "reason": "The draft rationale supplies the adequacy judgment but no independent validity measurement. Four-to-six-hour current rule neither proves nor disproves universal sufficiency of four hours.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Sections 4 and 7(1)–(2)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-root-wpexam-draft",
+          "locator": "Cover B and written-duration provision p. 5",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-013",
+      "claim_as_reviewed": "WPs are authorised to provide unrestricted professional assistance in tax matters.",
+      "verdict": "accept",
+      "reason": "Actual StBerG section 3 and WPO section 2(2) independently read; WPs share unrestricted tax-assistance authority. This does not establish optimal paper length.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-stberg3",
+          "locator": "Complete section 3",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wpo",
+          "locator": "Section 2(2)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-014",
+      "claim_as_reviewed": "The existing WP examination rules do not give numerical weighting to tax subfields.",
+      "verdict": "accept",
+      "reason": "Full tax catalogue and paper rules have no numerical subfield weights. The whole-wage-tax sentence is hypothetical, not a historical event or claim every arbitrary exam composition is permissible.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Sections 4(5), 7(1)–(3)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-015",
+      "claim_as_reviewed": "The tax-adviser examination allocates subjects to papers under an established scheme.",
+      "verdict": "accept",
+      "reason": "DVStB section 16 plus actual Bremen chamber instructions support the established broad paper scheme. Keep express scope limit that papers may extend to other subjects.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-stbdv",
+          "locator": "Sections 16, 18",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-bremen-exam",
+          "locator": "Written examination, order of three papers",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-016",
+      "claim_as_reviewed": "Modularisation replaced the standard combined oral examination with an oral component in each of the four modules.",
+      "verdict": "accept",
+      "reason": "2019 promulgation and current sections 5/15 independently show the ordinary oral module structure, with exemption routes preserved.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wp2019act",
+          "locator": "Article 1 items 5, 11",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Sections 5(1), 6, 15",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-017",
+      "claim_as_reviewed": "The additional oral components caused a substantially higher burden for candidates.",
+      "verdict": "accept",
+      "reason": "More components is a possible organisational mechanism, while planning flexibility and changed oral durations also matter. No independent causal burden measure located; unresolved is fair.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wp2019act",
+          "locator": "Article 1 items 5, 11",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wpk2019mag",
+          "locator": "Physical p. 16 planning flexibility",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-018",
+      "claim_as_reviewed": "Candidates with good written grades were previously seldom questioned orally, as examiners focused on candidates needing improvement.",
+      "verdict": "accept",
+      "reason": "Formal question/grade rules do not disprove claimed actual examiner practice. No matched frequency logs or representative grade-stratified study found.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Sections 15–18",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-019",
+      "claim_as_reviewed": "Oral examinations can assess communicative and argumentative skills in addition to written knowledge.",
+      "verdict": "accept",
+      "reason": "A required short presentation and professional questioning offer a concrete opportunity to assess communication and argumentation. Author uses a capability claim; no measured validity inferred.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Section 15(1)–(3)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-020",
+      "claim_as_reviewed": "The addressed draft leaves only the core oral component obligatory when non-core written grades reach at least 4.00.",
+      "verdict": "accept",
+      "reason": "Current proposal section 13(2) independently read in context: good non-core written results pass without oral, while other eligible grades still need oral to pass. Historical addressed-draft identity remains unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "short-root-wpexam-draft",
+          "locator": "Physical p. 6, Article 1 no. 6",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-021",
+      "claim_as_reviewed": "The addressed draft abolishes the special supplementary core examination.",
+      "verdict": "accept",
+      "reason": "Current proposed deletion and transition independently verified against current section 19. No error or already-operative abolition inferred; exact September version unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "short-root-wpexam-draft",
+          "locator": "Physical p. 6, Article 1 nos. 8, 12",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Section 19",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-022",
+      "claim_as_reviewed": "The ordinary module route provides an initial attempt and two repeats.",
+      "verdict": "accept",
+      "reason": "Current section 22 gives two repeats, hence three attempts in the ordinary module cycle. Separate whole-exam repeat and supplementary route properly preserved.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Section 22(1)–(3)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-023",
+      "claim_as_reviewed": "Nonfinancial developments often later have financial effects on the reporting company.",
+      "verdict": "accept",
+      "reason": "EU financial-materiality mechanism is corroborated, but does not by itself quantify the author’s temporal frequency word often. Retain unresolved with a supported mechanism, not an error.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-eu2026-boe",
+          "locator": "Article 2(4), replacement Directive 2013/34 Article 19a(1)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-024",
+      "claim_as_reviewed": "Financial and nonfinancial assurance use comparable methodology, whose core knowledge is already examined in the WP module.",
+      "verdict": "revise",
+      "reason": "Revise to supported for the actual modest methodological premise. Selected final ISSA 5000 and the independent IAASB guide show planning, materiality/risk procedures, evidence and reporting; current WP section 4 expressly tests audit standards, approach/execution and reporting. The author says comparable and recognises sustainability-specific differences. Requiring proof of identical methods, complete curriculum equivalence or one-paper adequacy strengthens the original proposition. Keep the one-four-hour-paper sufficiency conclusion as a separate expert assessment, not empirically established. Use the supplied shorter exact contiguous anchor to avoid silently removing a PDF line-break hyphen in the original anchor.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Section 4(2)2(a), 7(1)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-issa5000-final",
+          "locator": "Publication scope overview",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-issa5000-final",
+          "locator": "Paragraphs 8–13, 89, 95, 103L/R and A225–A227",
+          "independent_check": "Actual comparable methodological families corroborated; distinct scope and assurance levels retained."
+        },
+        {
+          "source_id": "short-ar-iaasb-guide",
+          "locator": "Physical p. 149, paragraphs 448–450; pp. 9–11 and 13",
+          "independent_check": "Risk/evidence techniques and limited/reasonable distinctions independently read."
+        }
+      ],
+      "proposed_result": "supported",
+      "proposed_original_excerpt": "Prüfung von finanziellen und nichtfinanziellen Informationen"
+    },
+    {
+      "claim_id": "short-c-025",
+      "claim_as_reviewed": "The addressed future sustainability-exam proposal reduces papers from two to one four-hour paper and waives oral examination at grade 4.00.",
+      "verdict": "accept",
+      "reason": "Current Article 1 no. 10 and footnote independently verify one four-hour paper and grade threshold, expressly conditional on a separate future WPO/CSRD package. Exact September version remains unproved.",
+      "evidence_checks": [
+        {
+          "source_id": "short-root-wpexam-draft",
+          "locator": "Physical p. 6, Article 1 no. 10 and footnote 1",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-026",
+      "claim_as_reviewed": "The addressed proposal gives institutional section 13b equivalence confirmations an eight-year validity period.",
+      "verdict": "accept",
+      "reason": "Current proposal and existing institutional/student rules independently distinguished. Matching eight-year proposal is corroboration, with exact September identity unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "short-root-wpexam-draft",
+          "locator": "Physical p. 7, Article 2 no. 3; rationale pp. 29–30",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wpanrv",
+          "locator": "Sections 8, 9(2)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-027",
+      "claim_as_reviewed": "Existing institutional confirmation procedure operates before semesters or academic years, whereas section 8a accreditation normally uses an eight-year cycle.",
+      "verdict": "accept",
+      "reason": "Current section 8 application cycle, section 5 accreditation route and dated official accreditation FAQ support the ordinary cycle comparison; current rationale independently states it. No universal historical expiry inferred.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wpanrv",
+          "locator": "Sections 5, 8(1)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-accreditation",
+          "locator": "FAQ 01.6, MRVO section 26 explanation",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-root-wpexam-draft",
+          "locator": "Physical pp. 29–30, rationale no. 3",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-028",
+      "claim_as_reviewed": "Credit continues to cease after material curriculum changes, preserving examination competence.",
+      "verdict": "accept",
+      "reason": "Independently read section 9(6) and proposed renumbering. Equivalence loss after redesign can justify refusal; material change alone is not an automatic bar. Fair interpretation and historical-version limits justify unresolved, without narrow wording accusation.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wpanrv",
+          "locator": "Section 9(6)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-root-wpexam-draft",
+          "locator": "Physical p. 30, rationale retaining redesigned section 9(4)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-029",
+      "claim_as_reviewed": "Expanding statutory credit and admission categories generally requires amending WPO, beyond this procedural ordinance.",
+      "verdict": "accept",
+      "reason": "Statutory categories and delegation independently read. Expanding statutory credit/admission categories goes beyond an ordinance power to regulate procedural detail.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wpo",
+          "locator": "Sections 8, 8a(3), 13b and 14",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-030",
+      "claim_as_reviewed": "A qualified non-university candidate such as an examination specialist currently relies on a ten-year practice route absent another section 8(2) privilege.",
+      "verdict": "accept",
+      "reason": "WPO section 8(2) independently gives ten years absent the other professional-status alternative; the desired six years is explicitly a proposal.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wpo",
+          "locator": "Section 8(2)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-031",
+      "claim_as_reviewed": "Working with professional pronouncements is standard audit practice.",
+      "verdict": "accept",
+      "reason": "Formal curriculum/standards relevance does not alone establish empirical routine use of IDW publications across actual engagements. Retain unresolved without inferring that professional work never uses them.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Section 4(2)2(a)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-hgb",
+          "locator": "Section 317(5)–(6)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-032",
+      "claim_as_reviewed": "The addressed credit relief concerns university education and leaves advanced vocational qualifications outside its credit categories.",
+      "verdict": "revise",
+      "reason": "Retain unresolved exact addressed-version identity, but revise author-specific explanation. BVBC does not identify 23 September; only IDW does. Current October artifact corroborates the described university credit scope, while WPO section 13b independently proves current university limitation. Do not attribute IDW’s addressed date to BVBC. Use the supplied shorter exact contiguous anchor to avoid silently removing a PDF line-break hyphen in the original anchor.",
+      "evidence_checks": [
+        {
+          "source_id": "short-root-wpexam-draft",
+          "locator": "Physical p. 7, Article 2",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wpo",
+          "locator": "Section 13b",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ],
+      "proposed_result": "unresolved",
+      "proposed_original_excerpt": "an Hochschulausbildungen an."
+    },
+    {
+      "claim_id": "short-c-033",
+      "claim_as_reviewed": "WPO normally requires a degree, with non-degree alternatives based on ten years at listed audit bodies or five years as tax adviser/sworn auditor.",
+      "verdict": "revise",
+      "reason": "Full section 8 normal degree route and both express waiver alternatives match the author. Other actual audit participation requirements remain separate. Use the supplied shorter exact contiguous anchor to avoid silently removing a PDF line-break hyphen in the original anchor.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wpo",
+          "locator": "Section 8(1)–(2)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ],
+      "proposed_result": "supported",
+      "proposed_original_excerpt": "§ 8 Abs. 2 WPO ermöglicht"
+    },
+    {
+      "claim_id": "short-c-034",
+      "claim_as_reviewed": "An advanced accounting qualification is not independently credited in those WPO admission conditions.",
+      "verdict": "revise",
+      "reason": "Section 8 does not independently credit the named Bachelor Professional diploma. Author expressly acknowledges non-degree routes, so no broader no-access claim is invented. Use the supplied shorter exact contiguous anchor to avoid silently removing a PDF line-break hyphen in the original anchor.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wpo",
+          "locator": "Section 8",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ],
+      "proposed_result": "supported",
+      "proposed_original_excerpt": "Ein einschlägiger Fortbildungsabschluss"
+    },
+    {
+      "claim_id": "short-c-035",
+      "claim_as_reviewed": "The Bilanzbuchhalter Bachelor Professional qualification is federally regulated on the second higher-vocational stage.",
+      "verdict": "accept",
+      "reason": "Actual federal 2020 qualification ordinance section 2(1) expressly establishes second higher-vocational stage.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-bibu",
+          "locator": "Header and section 2(1)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-036",
+      "claim_as_reviewed": "The qualification covers accounting, financial analysis/control and relevant tax skills that overlap subject areas used in WP work.",
+      "verdict": "accept",
+      "reason": "Actual statutory curriculum matches national accounting, international comparison, financial/tax/control domains. This supports relevant competence overlap, not automatic equivalence of all exams or full IFRS expertise.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-bibu",
+          "locator": "Sections 2(3), 7",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Section 4(2), (3), (5)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-037",
+      "claim_as_reviewed": "This qualification is assigned DQR level 6.",
+      "verdict": "accept",
+      "reason": "Primary DIHK August 2021 implementation note independently read; level 6 assignment explicit.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-dihk-bibu",
+          "locator": "Physical p. 2, DQR section",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-038",
+      "claim_as_reviewed": "DQR level assignment does not create formal university equivalence or automatic professional admission credit.",
+      "verdict": "accept",
+      "reason": "Actual federal DQR FAQ and WPO independently show level assignment creates no automatic degree, credit or access rights.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-dqr-faq",
+          "locator": "FAQ answer: rights from assignment",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wpo",
+          "locator": "Sections 8 and 13b",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-039",
+      "claim_as_reviewed": "EU auditor law sets qualification minima while allowing national long-practical-experience routes subject to requirements.",
+      "verdict": "accept",
+      "reason": "Actual Articles 6–12 and relevant 2014/2026 amendments independently checked. National long-experience options exist subject to professional exam/training conditions; no direct German shortcut follows.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-eu200643",
+          "locator": "Articles 6–7 and 11",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-eu2026-boe",
+          "locator": "Article 1, no amendment to these route provisions",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-040",
+      "claim_as_reviewed": "EU Article 12 permits national credit for at least one year of theoretical training completed by state-recognised examination, capped at four years of experience reduction.",
+      "verdict": "accept",
+      "reason": "Full Article 12 independently read, including at-least-one-year training, state-recognised examination, four-year cap and combined-duration condition. Author’s bounded description does not erase those conditions.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-eu200643",
+          "locator": "Complete Article 12",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-eu2026-boe",
+          "locator": "Article 1 amendment list",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-041",
+      "claim_as_reviewed": "These EU options create no immediate right to shorten German admission requirements, and distinct section 9 audit-practice requirements remain.",
+      "verdict": "accept",
+      "reason": "Permissive EU provisions and distinct German audit-participation requirements independently read. A general commercial background is not automatically qualifying audit practice.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-eu200643",
+          "locator": "Articles 9, 11–12",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wpo",
+          "locator": "Sections 8 and 9(1)–(3)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-c-042",
+      "claim_as_reviewed": "The addressed proposal extends section 8 institutional equivalence-confirmation validity to eight years.",
+      "verdict": "revise",
+      "reason": "Retain unresolved exact addressed-version identity, with a BVBC-specific explanation: it does not itself name 23 September. Matching current October proposal corroborates eight years but not exact dispatch bytes.",
+      "evidence_checks": [
+        {
+          "source_id": "short-root-wpexam-draft",
+          "locator": "Physical p. 7, Article 2 no. 3",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        },
+        {
+          "source_id": "short-ar-wpanrv",
+          "locator": "Sections 8 and 9(2)",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "short-c-043",
+      "claim_as_reviewed": "Current WPO section 13b excludes purely vocational examination work because credit is confined to work in higher education.",
+      "verdict": "revise",
+      "reason": "Full WPO section 13b expressly concerns examinations taken in higher education. Purely vocational examinations are outside that provision; other routes remain separate. Use the supplied shorter exact contiguous anchor to avoid silently removing a PDF line-break hyphen in the original anchor.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-wpo",
+          "locator": "Complete section 13b",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ],
+      "proposed_result": "supported",
+      "proposed_original_excerpt": "§ 13b WPO bleibt allerdings"
+    },
+    {
+      "claim_id": "short-c-044",
+      "claim_as_reviewed": "EU Article 9 permits theoretical-subject exemptions based on university or equivalent examinations/qualifications, so exclusive university restriction is not EU-mandated.",
+      "verdict": "accept",
+      "reason": "Actual Article 9(1)–(2) includes equivalent examinations and qualifications. That supports EU discretion, with subject equivalence and national choices still required; DQR alone creates no exemption.",
+      "evidence_checks": [
+        {
+          "source_id": "short-ar-eu200643",
+          "locator": "Article 9(1)–(2), current indexed cross-check",
+          "independent_check": "Primary passage read independently; scope and temporal limits evaluated against the full author paragraph."
+        }
+      ]
+    }
+  ],
+  "omissions": [
+    {
+      "document_id": "bmwe-wpexamen-2026-002",
+      "pdf_pages": [
+        3
+      ],
+      "original_excerpt": "bei einer unveränderten Klausurstruktur",
+      "claim_en": "Conditional on retaining the structure and scope of each paper, reducing two BWL/VWL papers to one reduces topic diversification and opportunities to offset weaker answers across papers.",
+      "proposed_result": "supported",
+      "reason": "This is a bounded structural mechanism supporting the request for several smaller tasks, distinct from forecasts of deterrence or total competence. Current sections 7(3) and 13(1) give two papers and an average; deleting one unchanged paper removes its additional question opportunities and inter-paper averaging. No numerical claim about actual score variance, total topical breadth after redesign or candidate behaviour is established.",
+      "evidence": [
+        {
+          "source_id": "short-ar-wiprpruefv",
+          "locator": "Sections 7(3) and 13(1)"
+        },
+        {
+          "source_id": "short-root-wpexam-draft",
+          "locator": "Physical p. 5, Article 1 no. 5(b); exact September identity unverified"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "short-ar-wpo",
+      "title": "WPO current consolidation, amendment 4 February 2026",
+      "url": "https://www.gesetze-im-internet.de/wipro/WPO.pdf",
+      "retrieved_at": "2026-10-25T13:00:26.513750+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "438e41ccc5b833d904a2d3dc4b288f014e2acba374ebd3a3cf3a842956221c3e",
+      "read_extent": "Header; section 2, physical p. 8; complete sections 8, 8a, 9, 13, 13a, 13b and 14, physical pp. 9–12.",
+      "temporal_limit": "No full 77-page reading. Current relevant statutory framework predates authors; no six-year specialist shortcut or automatic vocational credit invented.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-wiprpruefv",
+      "title": "WiPrPrüfV current consolidation, amendment 11 December 2024",
+      "url": "https://www.gesetze-im-internet.de/wiprpr_fv/WiPrPr%C3%BCfV.pdf",
+      "retrieved_at": "2026-10-25T13:00:26.513827+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "3ea1af865e5cc6528933bae744e8084b1bd02efd8a7422f91b2109196b01d205",
+      "read_extent": "Header; complete sections 4–7, 13, 15–19 and 22, physical pp. 4–10.",
+      "temporal_limit": "Formal structure does not measure subjective candidate burden, actual examiner frequency or psychometric validity. Specific statutory exemption routes remain.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-wpanrv",
+      "title": "WPAnrV current consolidation, amendment 11 December 2024",
+      "url": "https://www.gesetze-im-internet.de/wpanrv/WPAnrV.pdf",
+      "retrieved_at": "2026-10-25T13:00:26.513829+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "30be806b2d4f73a2c70d06dbbc11cbb99d20ff73d5e0a2ed1ae28418324de46e",
+      "read_extent": "Header; complete sections 5, 7, 8 and 9, physical pp. 2–5.",
+      "temporal_limit": "Institutional cycle and student age limit are distinct. Current proposal keeps a redesign safeguard, but does not itself demonstrate unchanged competence.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-bibu",
+      "title": "BibuBAProFPrV, 18 December 2020",
+      "url": "https://www.gesetze-im-internet.de/bibubaprofprv/BibuBAProFPrV.pdf",
+      "retrieved_at": "2026-10-25T13:00:26.513831+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "ec60480eb85b4ff69037eeb04555c298072a1ab1a573f70d4c2bb342c497fd30",
+      "read_extent": "Header; complete section 2 and section 7, physical pp. 1–2 and 4–6.",
+      "temporal_limit": "Targets/domains do not establish equality of every exam, an IFRS qualification equal to a university degree, or automatic audit authority.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-dihk-bibu",
+      "title": "DIHK information on Bilanzbuchhalter Bachelor Professional examination, 12 August 2021",
+      "url": "https://www.ihk.de/blueprint/servlet/resource/blob/5232564/07962e728efb8f3809d99800f2b7e405/fp-bilanzbuchhalter-20201218-dihk-info20210812-data.pdf",
+      "retrieved_at": "2026-10-25T13:00:26.513834+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "b92dd6f9c454e28499392feeebf559bdd8a3261a192f84f034472ceb6503ec69",
+      "read_extent": "Physical pp. 1–2.",
+      "temporal_limit": "No automatic formal degree or professional right follows.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-dqr-faq",
+      "title": "Federal DQR FAQ on rights arising from level assignment",
+      "url": "https://www.dqr.de/dqr/de/wem-nuetzt-der-dqr/bildungseinrichtungen/faq/faq_node.html",
+      "retrieved_at": "2026-10-25T13:00:26.513835+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "949a7eced666ddc237942a512d92dbb21cd5e0ab668508b3b1f4c3b1bb73ef03",
+      "read_extent": "Federal FAQ answers on rights arising from assignment and relationship to university framework.",
+      "temporal_limit": "Current FAQ; WPO supplies independently dated professional-law scope.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-stbdv",
+      "title": "DVStB current consolidation, amendment 19 December 2025",
+      "url": "https://www.gesetze-im-internet.de/stbdv/DVStB.pdf",
+      "retrieved_at": "2026-10-25T13:00:26.513837+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "ca5e29edaa78e107e69280dd1c5fb635a9bd2e685c5a20b259bd949fe10dcc26",
+      "read_extent": "Header and physical p. 6, complete sections 16 and 18.",
+      "temporal_limit": "This is a broad allocation, not exclusive subject silos or detailed numerical weights.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-bremen-exam",
+      "title": "Bremen tax-adviser chamber official written-examination instructions",
+      "url": "https://stbkammer-bremen.de/berufe/steuerberater-in/steuerberaterpruefung/schriftliche-pruefung/",
+      "retrieved_at": "2026-10-25T13:00:26.513838+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "94d13df744abc9c96ac19f5f602a47a680f992464c9c92d04145334aa493edaf",
+      "read_extent": "Actual official chamber paragraph on paper sequence and current 2026 aids.",
+      "temporal_limit": "Current undated HTML is not exact as-of-14-October bytes; preceding DVStB independently corroborates broad structure.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-stberg3",
+      "title": "StBerG section 3, authorised unrestricted tax assistance",
+      "url": "https://www.gesetze-im-internet.de/stberg/__3.html",
+      "retrieved_at": "2026-10-25T13:00:26.513840+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "91f7a70fae9b6403c0989b8ce424e56196041bd8c04755bb345b44e397debf8f",
+      "read_extent": "Complete official section 3, decoded from actual HTML.",
+      "temporal_limit": "Shared authority, not an exclusive WP monopoly or proof that a particular exam length is necessary.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-hgb",
+      "title": "HGB current consolidation, amendment 4 February 2026",
+      "url": "https://www.gesetze-im-internet.de/hgb/HGB.pdf",
+      "retrieved_at": "2026-10-25T13:00:26.513841+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "30dd1fc834d186097de827e80c3ebda61a63967996066525701658c3871acc09",
+      "read_extent": "Header; complete section 252(1)–(2), physical pp. 49–50; complete section 317, physical pp. 93–94.",
+      "temporal_limit": "No full 218-page reading. Historical EU Article 41 is unnecessary for the supported governance premise.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-wpk-stat-july2026",
+      "title": "WPK membership statistics as at 1 July 2026",
+      "url": "https://www.wpk.de/fileadmin/documents/Ueber_uns/Organisation/WPK-Statistiken_Juli_2026.pdf",
+      "retrieved_at": "2026-10-25T13:00:26.513843+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "476e2ea484d5ea3f8c259798a6cf81748a6dd107c9798bd7a879c52b599f5e41",
+      "read_extent": "Physical pp. 1–2 and 5; age counts and denominators checked.",
+      "temporal_limit": "Not a vacancy, FTE or future demand measure. No forecast manufactured.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-wp2019act",
+      "title": "Promulgated 2019 second WiPrPrüfV amendment, BGBl. I pp. 78–81",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/XYZ/zweite-verordnung-zur-aenderung-der-wirtschaftsprueferpruefungsverordnung.pdf?__blob=publicationFile&v=1",
+      "retrieved_at": "2026-10-25T13:00:26.513844+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "b42f32230241c27802a37193a9e59a3c289de5a7328e49a1fa8fb1348fcaf349",
+      "read_extent": "All four short promulgated amendment pages independently read, especially items 5, 11 and 18; transition and Article 2.",
+      "temporal_limit": "Distinct from draft or causal burden evidence; pre/post oral duration also changed.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-wpk2019mag",
+      "title": "WPK Magazin 2/2019, contemporaneous modularisation explanation",
+      "url": "https://www.wpk.de/fileadmin/documents/Magazin/WPK_Magazin_2-2019.pdf",
+      "retrieved_at": "2026-10-25T13:00:26.513846+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "934a2c0bd8897c2215780b40f7403611988f38f1f28c6c2c31b818d51c4a2b4f",
+      "read_extent": "Only physical/printed p. 16, text and independently viewed graphic.",
+      "temporal_limit": "A design allowance, not a clock-stopping legal entitlement, measured family outcome, or full-magazine reading.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-eu200643",
+      "title": "Official original Directive 2006/43/EC, BOE publication",
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2006-81064",
+      "retrieved_at": "2026-10-25T13:00:26.513847+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "5518d65c5ece89754ad49dbcce0035887238c42cc64b28cf2bf72bdcb26820b5",
+      "read_extent": "Official original BOE text: Articles 6–12 and historical Article 41; later 2014 amendment and 2026 amendment checked separately.",
+      "temporal_limit": "Original is not a current consolidation. Historical Article 41 must not be labelled current; 2014 replaced Chapter X with Article 39.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-eu2026-boe",
+      "title": "Directive (EU) 2026/470, official BOE publication",
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2026-80283",
+      "retrieved_at": "2026-10-25T13:00:26.513848+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "357eb38120f45ac840c3d2d14239949bec73774ce4c99cb85f07a669cc5c5e50",
+      "read_extent": "Article 1 read in full; selected Article 2(4), new reporting Article 19a(1).",
+      "temporal_limit": "Not full amendment history or German transposition. Recognised financial materiality does not quantify how often a later financial effect occurs.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-accreditation",
+      "title": "Stiftung Akkreditierungsrat FAQ 01.6 on accreditation terms",
+      "url": "https://akkreditierungsrat.de/faq-eintrag/01-6/",
+      "retrieved_at": "2026-10-25T13:00:26.513850+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "ab3e4dac761e05f13a1d16d2e68bb8591acfb36e9319824a4613a113d28cf85c",
+      "read_extent": "FAQ 01.6, full relevant ordinary term explanation and 2020 worked example.",
+      "temporal_limit": "Ordinary cycle, not expiry of each historical programme. Page visibly gives 27 August 2020 publication.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-iaasb-guide",
+      "title": "IAASB ISSA 5000 Implementation Guide, January 2025, July 2025 correction",
+      "url": "https://ifacweb.blob.core.windows.net/publicfiles/2025-11/IAASB-ISSA-5000-Implementation-Guide-Sustainability-Assurance.pdf",
+      "retrieved_at": "2026-10-25T13:00:26.514033+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "f4887692032d6e0ddca5cd4bb2180cab09b188d6f24d3f5e7c7a29f8dded66be",
+      "read_extent": "Physical pp. 3, 7, 9–11, 13–15 and 149; paragraph 448–450 methodology passages; searches for cross-standard references.",
+      "temporal_limit": "No full 193-page reading. Distinct standards do not imply incomparable methods, and method overlap does not prove one four-hour examination suffices.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-eu201456",
+      "title": "Directive 2014/56/EU, official BOE text",
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2014-81094",
+      "retrieved_at": "2026-10-25T13:00:26.514035+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "95efd3321a5510f03dd9bdca3c5139fd1e0696d388c297834b814ea3383ba08f",
+      "read_extent": "Article 1 items 6–8 and item 32 replacing Chapter X with Article 39; no full 31-page reading.",
+      "temporal_limit": "Use current German HGB for the governance claim; no need to reconstruct the entire EU governance regime.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-ar-issa5000-final",
+      "title": "IAASB final ISSA 5000, November 2024",
+      "url": "https://ifacweb.blob.core.windows.net/publicfiles/2025-01/IAASB-International-Standard-on-Sustainability-Assurance-ISSA-5000.pdf",
+      "retrieved_at": "2026-10-25T13:00:26.514037+00:00",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": null,
+      "read_extent": "Paragraphs 8–13, 89, 95, 103L/R and A225–A227; physical pp. 9, 31–33 and 110 (PDF zero index +1).",
+      "temporal_limit": "Selected passages only, not full 231-page reading. Effective for periods beginning on/after 15 December 2026, with early application; no universal current German statutory adoption inferred.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored independent-review record; full new public source snapshots are temporary."
+    },
+    {
+      "id": "short-root-wpexam-draft",
+      "title": "BMWE current examination-reform draft,October artifact",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/Gesetz/2026/20261007-refentwurf-wirtschaftsprueferexamen.pdf?__blob=publicationFile&v=4",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round3-energy/sources/wpexamen-refe-official.pdf",
+      "sha256": "e719aec2fb79e41bfd54b30fb36d67eff0644cfbd74f9ee8b3cc53256f7bc5bc",
+      "temporal_limit": "Current official PDF technical creation6October2026; IDW expressly addresses23September version. Matching later wording does not authenticate exact September dispatch.",
+      "retention_exception": "One canonical exact snapshot required by current claim/report and strict validation/review; reused historical file, restoration not a new factual read. No duplicate retained.",
+      "retrieval_note": "Existing original restored only if absent and exact historical hash matched; original acquisition date remains in historical metadata."
+    }
+  ],
+  "visual_checks": [
+    {
+      "document_id": "bmwe-wpexamen-2026-002",
+      "pdf_pages": [
+        3
+      ],
+      "purpose": "Rendered original confirms conditional diversification premise and tax-paper context."
+    },
+    {
+      "document_id": "bmwe-wpexamen-2026-003",
+      "pdf_pages": [
+        4
+      ],
+      "purpose": "Rendered original confirms EU training conditions, ordinary national audit practice, and eight-year proposal context."
+    },
+    {
+      "source_id": "short-ar-wpk2019mag",
+      "physical_page": 16,
+      "purpose": "Independently viewed six-year planning graphic with foreign year and family planning."
+    }
+  ],
+  "limitations": [
+    "All 12 original pages independently read before C inventory, all 44 original claim anchors checked, outcomes and page exclusions re-read; no duplicate reading unit.",
+    "Independent primary reads include necessary selected passages of longer evidence sources; no full long-law, magazine or 193/231-page standard reading claimed.",
+    "Current ministry October artifact is corroborative. IDW expressly addresses 23 September; BVBC does not identify that date. Neither exact dispatched version is authenticated.",
+    "Current federal law headers predate authors. EU original plus selected 2014 and 2026 amendments and indexed contextual checks are not a fully archived current consolidation.",
+    "No substantive author-error candidate proposed. One supported methodological revision and one bounded omitted structural premise are proposed for root adjudication.",
+    "Raw C and frozen A files were not modified. Only concise authored independent-review notes retained; full new public background bytes remain temporary."
+  ],
+  "counts": {
+    "documents": 2,
+    "physical_pages": 12,
+    "claims_reviewed": 44,
+    "accept": 36,
+    "revise": 8,
+    "omissions": 1,
+    "new_error_candidates": 0
+  }
+}

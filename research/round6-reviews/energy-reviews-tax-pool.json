@@ -1,0 +1,45 @@
+{
+  "reviewer": "energy_hearings",
+  "at_utc": "2026-10-25T11:48:19.826154+00:00",
+  "subject": "Round6 tax actual-reading inventory and novelty premises",
+  "snapshot_files": [
+    {
+      "path": "research/round6-tax/pool-audit.json",
+      "sha256": "3689b3737f2207799bf6793e82e145a3ee627428bb8c36c58dd524fc6ebc20db"
+    },
+    {
+      "path": "research/round6-tax/research-log.json",
+      "sha256": "5d0d4cafd6dff8e34a5b0881d09a39cf21e8b7be7059c885ecbf6ee09abb7142"
+    },
+    {
+      "path": "data/screening-pool.json",
+      "sha256": "11ac3480bbf72c468b88fb62b643ee0689f195d25d95964520cacb5413d71d61"
+    }
+  ],
+  "counts_recomputed": {
+    "units": 55,
+    "depths": {
+      "full_submission": 55
+    },
+    "physical_pages": 251,
+    "identity_reconciled": 55,
+    "baseline_resolved_distinct_pdf_hashes": 542,
+    "baseline_binary_matches": [],
+    "errors": []
+  },
+  "disposition": "Identity/depth bookkeeping and binary-newness supported for the55-row live snapshot, with stale top-level count and crossbranch dedup reminders below. This reviewer independently read only the named short provenance samples, not all55submissions.",
+  "checks": [
+    "All55PDF identities match current files or original cache/register manifest hashes; intentional eviction does not create a new content check.",
+    "All pool full-depth entries match the log declared complete page count. The extra DKcrypto reread is absent from the pool; the logged SmartbrokerIDA copy is explicitly an alias of the JulyIDA response.",
+    "JulyIDA and SeptemberSoltau bodies have substantial overlap but different authored versions/context; an81%shingle overlap alone does not prove identity. Exact Smartbroker/JulyIDA alias is handled separately.",
+    "Reviewed full short provenance samples: VÖB/VKU20August2026two-pageletter; medmissio one-page budget table with source/method notes and no own visible author date; VBUW14October2026two-page response naming BT21/8235. This confirms the sampled titles/date/scope premises, not their every factual claim.",
+    "Register dispatch, committee dates and authored dates are kept separate. Historical June/July2026 and December2025author dates are retained, rather than being relabelled within the preferred recent window.",
+    "EU-only FESE and nut-tariff administrative requests, executive strategy and tax-administration-only positions retain pending/outside exact-German-legislative scope tags; reading does not confer eligibility."
+  ],
+  "corrections_or_limits": [
+    "At this snapshot the top-level counts object still says31units/158pages; recomputed current list is55/251. The list grew from39to55while this audit was running. Tax agent notified to refresh the top-level summary.",
+    "BUND SG2610080006 and DSW SG2609300287 are also read by energy/social in this round. These are real repeat reads, not distinct new authored units; final merged pool must deduplicate.",
+    "An anonymous-looking medmissio table has external attribution from register provenance; the table itself does not authenticate individual authorship or an exact submission date. No stronger claim inferred.",
+    "The baseline binary comparison resolves542distinctPDFhashes with no unresolved baselinePDFpaths. It cannot by itself exclude all semantically identical reformatted bodies; the separate text-novelty audit and disclosed alias checks supplement it."
+  ]
+}

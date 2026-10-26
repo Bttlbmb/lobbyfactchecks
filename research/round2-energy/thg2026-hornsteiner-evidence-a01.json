@@ -1,0 +1,141 @@
+{
+  "id": "thg2026-hornsteiner-evidence-a01",
+  "law_id": "thg-quote-2026",
+  "document_id": "hornsteiner-thg-20260302",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "major",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Increasing transport-fuel greenhouse-gas reduction quotas and implementing RED III.",
+    "they_want": "Do not base policy on the climate premises used to justify this bill.",
+    "they_claim": "No indications of anthropogenic climate warming are known.",
+    "the_problem": "Published field measurements provide empirical evidence of increasing greenhouse forcing linked to human emissions."
+  },
+  "claim_quote": {
+    "original": "keine Indizien für eine „anthropogene Klimaerwärmung\" bekannt sind",
+    "language": "de",
+    "translation_en": "Translation: no indications of “anthropogenic climate warming” are known",
+    "locator": {
+      "pdf_page": 12,
+      "printed_page": 11,
+      "section": "3. Kenntnisstand der Grundlagenwissenschaft",
+      "paragraph": "Penultimate paragraph; sentence beginning with Da bis heute."
+    },
+    "underline": "keine Indizien"
+  },
+  "request_quote": {
+    "original": "können keine Basis für eine Sachpolitik sein",
+    "language": "de",
+    "translation_en": "Translation of request fragment: cannot be a basis for substantive policy",
+    "locator": {
+      "pdf_page": 18,
+      "printed_page": 17,
+      "section": "6. Schlussbemerkungen",
+      "paragraph": "Final paragraph, concerning the climate premises criticised throughout the submission."
+    },
+    "note": "This is an express objection to using those premises in policy, not a verbatim demand to reject every technical clause of the bill."
+  },
+  "counter_quote": {
+    "original": "These results confirm theoretical predictions of the atmospheric greenhouse effect due to anthropogenic emissions",
+    "language": "en",
+    "source_id": "feldman-co2-forcing-2015",
+    "locator": {
+      "pdf_page": 1,
+      "section": "Abstract",
+      "paragraph": "Final sentence; fragment before the following empirical-evidence clause."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Known evidence exists. Feldman et al. report statistically significant clear-sky CO 2 surface-forcing increases of 0.2 W/m² per decade at Oklahoma/Alaska sites during 2000–2010, associated with 22 ppm more CO 2. Their analysis combines measured spectra, ancillary observations and radiative-transfer calculations; fossil emissions and fires substantially contributed to the CO 2 increase. This is empirical support for the warming mechanism, not a standalone estimate of global temperature attribution.",
+  "effect": "Undercuts the categorical absence-of-evidence premise supporting refusal to base policy on anthropogenic-warming concerns.",
+  "limits": "The measurement is surface radiative forcing at two clear-sky sites, not direct measurement of global temperature sensitivity or the benefit of this bill. It uses model-assisted isolation of CO 2, with reported uncertainties ±0.06/±0.07 W/m² per decade; methods discuss cloud-selection effects. The author may mean no evidence he regards as convincing: later pages reject mainstream research and funding arrangements. That evaluative reading should be distinguished from the literal claim that no indications are known. No intent is inferred.",
+  "materiality_explanation": "Major editorial judgment: the claimed absence of any indications is a foundational premise of the submission’s policy objection, rather than an incidental figure. The correction does not establish that any particular fuel quota is efficient or desirable.",
+  "direction_explanation": "True: categorical absence makes rejection of the bill’s climate rationale appear stronger. This direction is assessed separately from materiality.",
+  "confidence": {
+    "text_source_mismatch": "high that empirical evidence existed; interpretive limit concerning author’s evaluative use of known indications",
+    "materiality": "editorial_judgment"
+  },
+  "context_checked": [
+    "Read all 18 physical submission pages, including the adjacent acknowledgement of urban heat-island warming, feedback discussion, criticism of consensus/model calculations and final policy objection. The finding does not treat every scientific or rhetorical assertion as a separate issue.",
+    "Read the full five-page main research letter and methods on physical page  6, including radiative-transfer dependence, uncertainty analysis and fair-weather bias; reviewed extended-data captions.",
+    "The explicitly named draft is BR 778/25,19 December 2025; the committee cover also identifies BT 21/4083. Both archived. No later enacted quota substituted."
+  ],
+  "draft": {
+    "title": "Entwurf eines Zweiten Gesetzes zur Weiterentwicklung der Treibhausgasminderungs-Quote",
+    "version": "BR 778/25,19 December 2025, explicitly named on author cover; committee hearing also addresses BT 21/4083,11 February 2026",
+    "source_id": "thg-br778-25",
+    "additional_source_id": "thg-bt214083",
+    "relevant_provision": "Climate rationale and THG-quota extension to 59% from 2040. The historical evidence-existence claim does not depend on the quota schedule.",
+    "submission_date": "2026-03-02",
+    "process_status_at_screen": "Completed; original government drafts addressed at 4 March 2026 hearing, not subsequent amended law."
+  },
+  "sources": [
+    {
+      "id": "hornsteiner-thg-20260302",
+      "title": "Matthias Hornsteiner/Gesellschaft für Fortschritt in Freiheit,A-Drs 21(16)107-G,2 March 2026",
+      "url": "https://www.bundestag.de/resource/blob/1151118/Stellungnahme-Dr-Hornsteiner-GfFiF.pdf",
+      "local_file": "research/round2-energy/sources/hornsteiner-thg-202602.pdf",
+      "sha256": "47247d5615fb891d9fc1dc4b403b711dbd1fe247ce00b376ac88d26bd3db93b7",
+      "retrieved_at": "2026-10-25"
+    },
+    {
+      "id": "feldman-co2-forcing-2015",
+      "title": "Feldman et al., Observational determination of surface radiative forcing by CO 2 from 2000 to 2010, Nature,25 February 2015, DOI 10.1038/nature14240",
+      "url": "https://www.ssec.wisc.edu/~dennyh/papers/FeldmanEtal%20Nature%202015%20Surface%20CO2%20radiative%20forcing.pdf",
+      "local_file": "research/round2-energy/sources/feldman-co2-forcing-2015.pdf",
+      "sha256": "7f043cca29e2c392fef743fec95ca20d53e1d2410033b74b2d590df75abffd00",
+      "retrieved_at": "2026-10-25"
+    },
+    {
+      "id": "thg-br778-25",
+      "title": "Original government THG-quota bill BR 778/25,19 December 2025",
+      "url": "https://dserver.bundestag.de/brd/2025/0778-25.pdf",
+      "local_file": "research/round2-energy/sources/thg-br778-25.pdf",
+      "sha256": "c2f290add2affee84073bfd1b844a3f81894c410af648086a52f104a9d9d9f2c",
+      "retrieved_at": "2026-10-25"
+    },
+    {
+      "id": "thg-bt214083",
+      "title": "Government THG-quota bill BT 21/4083,11 February 2026",
+      "url": "https://dserver.bundestag.de/btd/21/040/2104083.pdf",
+      "local_file": "research/round2-energy/sources/thg-bt214083.pdf",
+      "sha256": "a63c33e7120f394f184829aabdb34b5d0222eca0441a30e004263872a3bd1b98",
+      "retrieved_at": "2026-10-25"
+    },
+    {
+      "id": "berkeley-forcing-study-2015",
+      "title": "Berkeley Lab primary account of its field study,25 February 2015",
+      "url": "https://newscenter.lbl.gov/2015/02/25/co2-greenhouse-effect-increase/",
+      "retrieved_at": "2026-10-25",
+      "note": "Independent institutional explanation; paper is the quoted scientific counter-source."
+    }
+  ],
+  "verification": {
+    "visual": "Submission physical page  12/printed 11 and paper page  1 rendered and visually checked; author-policy-request wording checked physical page  18. Independent adversarial review completed; retained with existing scope limits."
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "tax_consultations_independent_ai",
+        "date": "2026-10-25",
+        "disposition": "retain provisional major/true, limited to categorical absence of indications",
+        "review_file": "research/round2-reviews/tax-reviews-hornsteiner-evidence.json"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as provisional categorical evidence-existence issue; independent review requested, with forcing/temperature and evaluative-reading alternatives explicit.",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent full submission, primary methods and exact-draft review retained major/true, with local forcing/global-temperature and evaluative-reading limits.",
+      "by": "energy_hearings_ai_screen"
+    }
+  ]
+}

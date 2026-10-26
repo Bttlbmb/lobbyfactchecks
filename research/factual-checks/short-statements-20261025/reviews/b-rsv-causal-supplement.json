@@ -1,0 +1,36 @@
+{
+  "reviewer": "b",
+  "reviewed_file": "research/factual-checks/short-statements-20261025/reviews/b-reviews-a.json",
+  "reviewed_sha256": "068eeaed80f13d4bca5ecd01bbe732c72f0b2f7f367cd2df16caabfa185c643f",
+  "created_at_utc": "2026-10-25T13:05:19.907284+00:00",
+  "claim_reviews": [
+    {
+      "claim_id": "short-a-035",
+      "verdict": "accept",
+      "proposed_result": "supported",
+      "reason": "Fresh pre-author primary study supports the restored broad preventive-contribution wording, with ecological uncertainty explicitly retained. Do not reinterpret substantial reduction as an exact programme-attributable percentage or exclusive causal explanation.",
+      "evidence_checks": [
+        {
+          "source_id": "short-br-cai2026",
+          "locator": "Sections 1–3, especially ecological limitations and conclusion"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "short-br-cai2026",
+      "title": "Cai et al., Influenza and Other Respiratory Viruses, 17 June 2026",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/irv.70274",
+      "retrieved_at": "2026-10-25T13:05:19.907284+00:00",
+      "temporal_limit": "Published 17 June 2026, before BVÖGD response. Broad contribution supported; exact national attributable fraction and exclusive causation not established.",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/br-rsv-causal-supplement-note.json",
+      "sha256": "07bf55735a2c4f28dab5e56f3d934598522d45483b2dd1df40162d2167ebcb2c",
+      "archive_type": "Concise authored independent primary-source check note; not original HTML/PDF",
+      "usable_as_evidence": true
+    }
+  ],
+  "limitations": [
+    "Frozen scheduled peer remains unchanged. This supplemental check adds source support and does not create a new claim or finding."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "reviewer": "energy_hearings",
+  "reviewed_at": "2026-10-25",
+  "input": "research/round3-social/coverage-biostoff-proof.json",
+  "scope": "Independent bounded count, archive, deduplication and date/version-role protocol audit; not clinical or all-claim review.",
+  "checks_completed": [
+    "Independently reparsed nine BMAS response-link occurrences; exact nine-URL set matches proof.",
+    "All nine response PDF SHA-256 values and physical page counts independently verified; total39pages.",
+    "All nine reading-log pointers resolved to the stated local artifact. Full-depth reading remains the original researcher assertion, not a clinical review by this auditor.",
+    "Re-ran all five literal patterns over all1558central register metadata records; zero matching records confirmed. This is keyword discovery only.",
+    "Exact August24/31source-version gate retained: current official artifact is undated and technicallyOctober2, not silently treated as the August draft."
+  ],
+  "counts_supported": {
+    "published_response_versions": 9,
+    "physical_pages": 39,
+    "external_associations_without_pending_DGUV": 8,
+    "DGUV_role_pending": 1,
+    "literal_register_metadata_matches": 0
+  },
+  "required_corrections": [],
+  "disposition": "Supports bounded counts and conservative version limits; no required count correction.",
+  "role_caution": "DGUV is an umbrella association of statutory accident-insurance institutions. Its public function alone is not a universal exclusion rule, especially where other professional chambers or municipal umbrellas are included. Keeping this one case separately pending is reproducible; final external-denominator treatment should apply the same role protocol consistently.",
+  "limits": [
+    "Nine authored dates in window do not authenticate nine individual delivery events.",
+    "A literal zero-match search cannot exclude different aliases, incomplete metadata, unpublished replies or new versions.",
+    "Whole-author reading does not certify every medical citation or biological effect.",
+    "The proof does not establish national or all-channel completeness."
+  ]
+}

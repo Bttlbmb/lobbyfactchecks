@@ -1,0 +1,135 @@
+{
+  "id": "haushalt2026-venro-social11",
+  "law_id": "haushalt-2026",
+  "document_id": "venro-haushalt2026-20250909",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "The federal budget for 2026, including German contributions to international vaccination programmes.",
+    "they_want": "Raise Germany’s annual Gavi contribution to EUR 150 million and contribute EUR 750 million over five years.",
+    "they_claim": "Gavi sought EUR 11.9 billion for 2026–2030 and received about EUR 9 billion in pledges.",
+    "the_problem": "Gavi reported those amounts in US dollars. The unit mismatch is established, but formal submission of this particular document has not been verified."
+  },
+  "draft": {
+    "title": "Entwurf eines Gesetzes über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 2026",
+    "version": "Government draft adopted 30 July 2025, BT 21/600 dated 15 August 2025; corresponding official draft Einzelplan 23.",
+    "source_id": "haushalt2026-epl23-entwurf",
+    "submission_date": "2025-09-09",
+    "date_note": "Imprint date of the author-published statement; not independently verified ministry or Bundestag receipt.",
+    "version_check": "Author publication page expressly identifies the cabinet draft of 30 July. Its BMZ total EUR 9,944,724 thousand and Gavi EUR 80,000 thousand match the official draft, physical/printed pages 4 and 30. Chapter 2303, title 687 01, explanation item 13 makes the Gavi line binding through the budget note on page 29. Later parliamentary appropriations are not substituted."
+  },
+  "claim_quote": {
+    "original": "wollte die Impfallianz mindestens 11,9 Milliarden Euro mobilisieren",
+    "language": "de",
+    "translation_en": "Translation: the Vaccine Alliance wanted to mobilise at least EUR 11.9 billion.",
+    "locator": {
+      "pdf_page": 12,
+      "printed_page": 12,
+      "column": "right",
+      "paragraph": "Gavi paragraph, second sentence"
+    },
+    "underline": "11,9 Milliarden Euro"
+  },
+  "additional_claim_quote": {
+    "original": "Neuen Milliarden Euro",
+    "language": "de",
+    "translation_en": "Translation of apparent typographical wording: [intended: nine] billion euros.",
+    "locator": {
+      "pdf_page": 12,
+      "printed_page": 12,
+      "column": "right",
+      "paragraph": "Gavi paragraph, third sentence"
+    },
+    "note": "The original visibly prints Neuen, not Neun. This spelling is preserved and is not treated as a separate error."
+  },
+  "request_quote": {
+    "original": "Deutschland Gavi mit 750 Millionen Euro über die nächsten fünf Jahre unterstützen.",
+    "language": "de",
+    "translation_en": "Translation of request fragment: Germany [should] support Gavi with EUR 750 million over the next five years.",
+    "locator": {
+      "pdf_page": 12,
+      "printed_page": 12,
+      "column": "right",
+      "paragraph": "Gavi paragraph, penultimate sentence"
+    }
+  },
+  "counter_quote": {
+    "original": "more than US$ 9 billion secured against a targeted US$ 11.9 billion budget",
+    "language": "en",
+    "source_id": "gavi-summit-20250625",
+    "locator": {
+      "section": "Opening paragraph",
+      "paragraph": "Brussels, 25 June 2025; first sentence"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Both the target and the summit pledge total are US-dollar amounts in Gavi’s own announcement: USD 11.9 billion and more than USD 9 billion. They should retain that currency or be converted using an explicitly stated exchange rate and date. This record does not invent an exact euro conversion or a later pledge total.",
+  "effect": "Correcting both units preserves the approximate proportion of the target covered. It changes the euro comparison with Germany’s proposed contribution and the absolute size of the remaining global gap. A stronger claim that it materially changes the requested EUR 750 million has not been established.",
+  "limits": "The substantial funding shortfall is confirmed by Gavi. A currency-label slip is a strong benign explanation. The document does not derive Germany’s requested contribution mechanically from the global gap; other health and financing arguments remain. No intent is inferred. The author-published September document has not been tied to a ministry consultation receipt, Bundestag hearing attachment or matching Lobbyregister submission. The January 24-page filing SG2503260010 is a different document and is not presented as provenance for this September 13-page statement.",
+  "context_and_alternatives": [
+    "All thirteen author pages were read, including tables and imprint. The Gavi paragraph states a 2026–2030 strategic period, correctly distinguishes Germany’s existing EUR 600 million pledge from the requested EUR 750 million, and accurately identifies EUR 80 million in the addressed 2026 draft. Its 500 million children and up-to-nine-million lives are programme projections, not alleged errors.",
+    "The primary announcement distinguishes the main funding budget from complementary development-finance and private-sector commitments. Its headline and opening paragraph consistently use US dollars for the two global figures. The German domestic budget request genuinely uses euros; the currencies must not be silently equated.",
+    "A rough funding narrative or an accidental currency substitution could explain the wording. Neither rescues the stated currency, but both limit conclusions about the argument’s practical effect.",
+    "Formal-channel searches found a different January 2025 VENRO filing and other organisations citing the September statement. A citation by another lobbyist and publication on the author’s website do not establish receipt of this exact document by a federal legislative body.",
+    "The independent reviewer additionally checked a Council of the EU release dated 26 June 2025, which reports approximately EUR 10.2 billion targeted and EUR 7.7 billion secured. These published conversions corroborate the currency mismatch without inventing a new exchange rate. This branch’s own subsequent Council retrieval failed; the successful read belongs to the independent reviewer, as their review records."
+  ],
+  "materiality_explanation": "Potentially minor: an auxiliary international funding benchmark. The currency mismatch does not erase the shortage, change the coverage fraction or demonstrate that the German funding request is excessive.",
+  "direction_explanation": "Null: the absolute euro funding comparison changes, but the author’s request is not calculated from it. This branch has not established a sufficiently specific request-favouring effect or an exact dated conversion.",
+  "confidence": {
+    "text_source_mismatch": "high for the currency mismatch; formal submission channel unresolved",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "energy_ai_independent_review",
+        "date": "2026-10-25",
+        "review_file": "research/round2-reviews/energy-reviews-venro-gavi.json",
+        "outcome": "retain_unresolved_lead_minor_null",
+        "specialist_review": false
+      }
+    ],
+    "follow_up_checks": [
+      {
+        "review_file": "research/round2-reviews/root-followup-venro-channel.json",
+        "scope": "Independent root provenance check only; unresolved scope gate retained."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as an unresolved lead: primary currency mismatch verified; formal submission scope gate remains pending.",
+      "by": "social_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent energy review retained unresolved/minor/null. Reviewer additionally read a contemporaneous Council release converting the global totals into euros; formal channel remains pending.",
+      "by": "social_ai_screen"
+    }
+  ],
+  "source_ids": [
+    "venro-haushalt2026-20250909",
+    "gavi-summit-20250625",
+    "haushalt2026-epl23-entwurf",
+    "venro-lobby-rv0003413-20250721",
+    "council-gavi-summit-20250626",
+    "venro-rv3413-20250721-rootarchive",
+    "venro-profile-83691-rootarchive",
+    "venro-sg2503260010-jan2025"
+  ],
+  "submission_source_id": "venro-haushalt2026-20250909",
+  "scope_gate": {
+    "status": "pending",
+    "reason": "Author-published statement on an exact federal draft, without verified official receipt or matching Lobbyregister filing."
+  },
+  "verification": {
+    "quotation_budget": "Eight author claim words, three additional claim words and thirteen request words: twenty-four total. Thirteen words from the Gavi announcement.",
+    "visual_check": "Author physical/printed page 12 rendered and inspected; original Neuen typo preserved.",
+    "retrieval_limits": "Author PDF and primary Gavi HTML archived. Official draft EP23 read through indexed full-PDF text at pages 4 and 27–32; direct download returned 503. Full 70 MB BT 21/600 download was attempted with a thirty-second limit and is not claimed as archived or fully read."
+  }
+}

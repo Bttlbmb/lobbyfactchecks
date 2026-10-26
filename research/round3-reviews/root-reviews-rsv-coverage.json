@@ -1,0 +1,29 @@
+{
+  "id": "root-reviews-rsv-coverage",
+  "reviewer": "root",
+  "review_type": "independent_ai_coverage_and_negative_screen_review",
+  "date": "2026-10-25",
+  "outcome": "supports_eight_known_public_versions_fully_read_with_limits",
+  "evidence_read": {
+    "submissions": "All eight full extracted texts (20 physical pages), not only the agent summary.",
+    "draft": "All six physical pages of20August2026draft, includingArticle2 andmemorandum.",
+    "ministry_enumeration": "Independently parsed sourceHTML; exactly eight unique response links underRSV_1_AendVO, matching all eight listedURLs after resolving relative paths. All eight archived PDFhashes independently matched.",
+    "register_identity": "Independently compared completeBÄK ministry/register extractedtexts; identical. Independently compared allthree corresponding renderedPNGs; byte-identical.",
+    "primary_sources": "Independently opened EMAEnflonsia livepage; read archivedEMA RSV producttable, IfSG§2andSGBV§20i. Livelegal fetches timedout; archived primarytext used.",
+    "agent_primary_check_limit": "Li2019globalburden estimate andPEIshortage check supported by agent sourcearchives; root didnotindependently reanalyse underlying epidemiological dataset or historicalmatchedprices."
+  },
+  "findings": {
+    "material_errors_established": 0,
+    "incidental_mismatch": "BVKJ commencement-day description differs from exactdraftArticle2 byoneday; insufficientmaterialeffect established.",
+    "unverified": "AOK/GKVhistorical comparable netprice assertion remains unverified; arithmetic conditional600,000doses is coherent.",
+    "no_blanket_accuracy_verdict": true
+  },
+  "coverage_limits": [
+    "Knownpublicversions throughcomplete ministrychapter and specifiedregistermetadata/nativequeries; couldmissunpublished,misindexed orbody-onlyregisterreferences.",
+    "Authordate andreportedrecipientdate aredistinct;registerBÄKmetadata discrepancy remains recorded.",
+    "NoRSVhearingincomplete currenthealthindex doesnotproveabsenceofallparliamentaryrepresentation.",
+    "This isoneclosedknown-processsubcorpus,notcomplete3monthnationalcoverage."
+  ],
+  "specialist_review": null,
+  "author_contact": null
+}

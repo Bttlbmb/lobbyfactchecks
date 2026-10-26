@@ -1,0 +1,96 @@
+{
+  "reviewed_at": "2026-10-25",
+  "reviewer": "energy_hearings independent AI",
+  "scope": "Compact file/hash/depth/date-protocol audit of social round4 inventory, not independent full rereading of seven responses.",
+  "verdict": "Supported; no count-changing correction identified. Explicit external_submission fields requested separately.",
+  "counts": {
+    "named_rows": 10,
+    "declared_full_submission": 7,
+    "declared_keyword_triage": 3,
+    "full_resource_pages": 86
+  },
+  "file_checks": [
+    {
+      "id": "svdgv-gedig-20261012",
+      "pages": 45,
+      "hash_matches": true,
+      "depth": "full_submission",
+      "full_page_credit_valid": true
+    },
+    {
+      "id": "dgina-notfall-20260907",
+      "pages": 2,
+      "hash_matches": true,
+      "depth": "full_submission",
+      "full_page_credit_valid": true
+    },
+    {
+      "id": "divi-notfall-cabinet20260422",
+      "pages": 4,
+      "hash_matches": true,
+      "depth": "full_submission",
+      "full_page_credit_valid": true
+    },
+    {
+      "id": "dgiin-notfall-bt216808",
+      "pages": 6,
+      "hash_matches": true,
+      "depth": "full_submission",
+      "full_page_credit_valid": true
+    },
+    {
+      "id": "joint-notfall-quality-cabinet20260422",
+      "pages": 7,
+      "hash_matches": true,
+      "depth": "full_submission",
+      "full_page_credit_valid": true
+    },
+    {
+      "id": "bag-selbsthilfe-gedig-20260515",
+      "pages": 14,
+      "hash_matches": true,
+      "depth": "full_submission",
+      "full_page_credit_valid": true
+    },
+    {
+      "id": "vzbv-gedig-20261012",
+      "pages": 17,
+      "hash_matches": true,
+      "depth": "keyword_triage",
+      "full_page_credit_valid": true
+    },
+    {
+      "id": "rennert-gedig-20261012",
+      "pages": 10,
+      "hash_matches": true,
+      "depth": "keyword_triage",
+      "full_page_credit_valid": true
+    },
+    {
+      "id": "dgrn-notfall-20260904",
+      "pages": 4,
+      "hash_matches": true,
+      "depth": "keyword_triage",
+      "full_page_credit_valid": true
+    },
+    {
+      "id": "dbrd-notfall-20260907",
+      "pages": 8,
+      "hash_matches": true,
+      "depth": "full_submission",
+      "full_page_credit_valid": true
+    }
+  ],
+  "observations": [
+    "Every listed PDF exists, has a unique SHA256 within these ten rows and matches its recorded hash. All seven full-page totals equal actual resource page counts. Three keyword rows deliberately have null full-page credit.",
+    "Reading log extents align with ledger depth, including rereading after truncated extraction. These are researcher declarations, not a certificate that every substantive claim was fact checked.",
+    "Independently read BAG SELBSTHILFE original physical1–2 and14: first page identifies a ministry Referentenentwurf and carries an October14 committee stamp; last page expressly dates the authored body15May2026. The cover does not authenticate a new October-authored version or exact government-draft match. Its outside-window author-date/delivery-unverified qualification is necessary and correctly retained.",
+    "Individual DGINA, DIVI and DGIIN responses and their separate joint quality response have distinct files and authored content. Shared organisations do not themselves make different jointly authored documents duplicates.",
+    "Original studies, statutory sources, technical standards, draft bills and repeated SVDGV independent reviews are not additional submission rows."
+  ],
+  "limits": [
+    "Did not independently repeat all seven full reads or certify semantic novelty against every historical mirror.",
+    "No proof of complete July–October coverage, or of recipient-server delivery, follows from this audit.",
+    "No compiled files or issue records edited."
+  ]
+}

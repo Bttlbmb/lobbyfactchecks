@@ -1,0 +1,310 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "author_snapshot_hashes_checked": 7,
+  "author_text_extractions": [
+    {
+      "document_id": "hearing-1216340-response-001",
+      "pdf_sha256": "bc804d7e98aee2df21c28a87a9459b7b72fc008d1096bf98e1e6947df637ea16",
+      "text_file": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-001.txt",
+      "text_sha256": "5304a50a82865d6abd15b44b024121c65a3bd9d7e0fe416e70e4911076424b7f",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "hearing-1216340-response-002",
+      "pdf_sha256": "28fb73692a54915cd7b0b9a118c97b59421b5328d35a1df8c5e15ab6c8e4407b",
+      "text_file": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-002.txt",
+      "text_sha256": "ef7042e3e7d01b8742d8a60dba0972ee478c68bfed4ebeb517413317039c7ace",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "hearing-1216340-response-003",
+      "pdf_sha256": "49376cbc681f7eecbfdfc5941d26614103fe315e5c90136fa921198fcdc628f8",
+      "text_file": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-003.txt",
+      "text_sha256": "5ec4a0169ae1babe397c0d74bfe3df4e0bc479acd5233fcfdd2c0d1e11291f81",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "hearing-1216340-response-004",
+      "pdf_sha256": "68e87ae61c90ab6c697bae8294d750e87edecb083b2d521016c2b54e8a203463",
+      "text_file": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-004.txt",
+      "text_sha256": "c5f1ce32e3ef90ac5ea6ecdc5f5db6deb18e4a80674018d0b169d17981dd393a",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "hearing-1216340-response-005",
+      "pdf_sha256": "47eb4565c0935ec79cc66c654382536653756876beffbd134ca5c0c4583e6299",
+      "text_file": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-005.txt",
+      "text_sha256": "61ccdbc635d46bb718f4d919d2c86f621fdcb1aaa99d26c8ef5638874e28e612",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "hearing-1216340-response-006",
+      "pdf_sha256": "8b31335f8558f20ded06e64675fdf1fd9196f9d06f0188c2ad2865465c8632c5",
+      "text_file": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-006.txt",
+      "text_sha256": "75dd9a618dea016d1dbff93648f2ec6cd53917b00df91794c3ff7fc2cede9519",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "hearing-1216340-response-007",
+      "pdf_sha256": "38cf33d940ad44399222dd5a258e7fa9dde4906f110758c62cad821998092ad9",
+      "text_file": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-007.txt",
+      "text_sha256": "2b6ef701e68e50d3eb2969a3dfc3910385f5b69a19aad4b9610cc8b1450173ca",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    }
+  ],
+  "claims_checked": 143,
+  "reviews": [
+    {
+      "file": "research/factual-checks/fruehstart-2026/reviews/a-reviews-c.json",
+      "sha256": "ba59887a742e020ecf3f3855b2da06d85c62860fe933956d3fc77c02ac9c913a",
+      "claims_reviewed": 50,
+      "omissions": 2
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/reviews/b-reviews-a.json",
+      "sha256": "36fd78db3fab974d5526817436f3b9d5f1ff6d639b8621602c9fd9c5ee7c8827",
+      "claims_reviewed": 41,
+      "omissions": 0
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/reviews/c-reviews-b.json",
+      "sha256": "5383cec3d6a35e223656e23f7c976512c078a53aa5b8a851d93341355768ee3e",
+      "claims_reviewed": 49,
+      "omissions": 1
+    }
+  ],
+  "archives": [
+    {
+      "source_id": "fruehstart-2026-root-draft",
+      "file": "research/round2-tax/sources/fruehstart-bt217864.pdf",
+      "sha256": "9d14355f8293339cd031b901c02c7be0b0f9dab1d7ca5f7edf5ce07fa834b4e7"
+    },
+    {
+      "source_id": "fruehstart-root-ministry-july-index",
+      "file": "research/factual-checks/fruehstart-2026/sources/root-ministry-july-index.html",
+      "sha256": "c14a7a1137ee90b79fa43dc4924d99636fe05dcbd42b9becbd87e57e0b8e4aaa"
+    },
+    {
+      "source_id": "fruehstart-root-altreform-landing",
+      "file": "research/factual-checks/fruehstart-2026/sources/root-altreform-landing.html",
+      "sha256": "227dad6973aec0adecfa4b610516386f5fb3acf699a7f96701a0593ac14486fe"
+    },
+    {
+      "source_id": "fruehstart-root-altreform2026",
+      "file": "research/factual-checks/fruehstart-2026/sources/root-altreform2026.pdf",
+      "sha256": "88e8bedbc87566c0943433e767a1f2b42d3089adade3235e38f2acf153dc04ce"
+    },
+    {
+      "source_id": "fruehstart-a-kmk2025",
+      "file": "research/factual-checks/fruehstart-2026/sources/a-kmk2025.pdf",
+      "sha256": "604ccd3b665e91fa67cfe6cb186ad253c2869e010e6aebee31c729361d25df74"
+    },
+    {
+      "source_id": "fruehstart-a-vzbv2014",
+      "file": "research/factual-checks/fruehstart-2026/sources/a-vzbv2014.pdf",
+      "sha256": "7c4c8e1ac7dcdfef36c7c42513e37c7935d4070fd2fdbfa6371dce6f912d67f4"
+    },
+    {
+      "source_id": "fruehstart-a-vzbv2025",
+      "file": "research/factual-checks/fruehstart-2026/sources/a-vzbv2025.html",
+      "sha256": "711c8f0fbdadbef115fd6ae322c7b97954d9945cdb78fc6eb7543f27bcd420d1"
+    },
+    {
+      "source_id": "fruehstart-a-buntins2024",
+      "file": "research/factual-checks/fruehstart-2026/sources/a-buntins2024.pdf",
+      "sha256": "b706634c758440c9784d3fcf5d3c68f64c071053ed0bc9c264a02526672debbd"
+    },
+    {
+      "source_id": "fruehstart-a-mn2009",
+      "file": "research/factual-checks/fruehstart-2026/sources/a-mn2009.pdf",
+      "sha256": "d1e62cd9cc16a3f3cb69a304351427b83964d0f9b8d8fdf5ddcf7e5ac69a734b"
+    },
+    {
+      "source_id": "fruehstart-a-ampudia2014",
+      "file": "research/factual-checks/fruehstart-2026/sources/a-ampudia2014.pdf",
+      "sha256": "a103948501a0203f3bb89035fb27c0d9bcd58bc9f21e1bd509231566e4a045b2"
+    },
+    {
+      "source_id": "fruehstart-a-bonfig2026",
+      "file": "research/factual-checks/fruehstart-2026/sources/a-bonfig2026.html",
+      "sha256": "a4d684bda5fd98665aee1d0163e5ee3d4571aa9b5c5909805e1767091384625e"
+    },
+    {
+      "source_id": "fruehstart-a-bpb",
+      "file": "research/factual-checks/fruehstart-2026/sources/a-bpb.html",
+      "sha256": "37c3c39c27204c5405a0b24ca3277e083b934afea8bfef08d7e7efc4d282a418"
+    },
+    {
+      "source_id": "fruehstart-a-safe121",
+      "file": "research/factual-checks/fruehstart-2026/sources/a-safe121.pdf",
+      "sha256": "b40c7b815a506e00f7009e32f9ec237227f6ee1b2869170720a2094323788e92"
+    },
+    {
+      "source_id": "fruehstart-a-financial2026",
+      "file": "research/factual-checks/fruehstart-2026/sources/a-financial2026.html",
+      "sha256": "185d58386adce2ab83fa48b1e1b13c6ff074784d133bf0b59e2b9a35f4dce0a6"
+    },
+    {
+      "source_id": "fruehstart-a-financial2026-full",
+      "file": "research/factual-checks/fruehstart-2026/sources/a-financial2026-full.html",
+      "sha256": "b2e93fc9bd0c2ce42c13317c0e01f714dd87ed694487e18cc8148297c420d286"
+    },
+    {
+      "source_id": "fruehstart-a-web-primary",
+      "file": "research/factual-checks/fruehstart-2026/sources/a-web-primary.json",
+      "sha256": "d6b0d153889470167c312e5399eed020baa8e48d88eca6ab7651548292b75997"
+    },
+    {
+      "source_id": "frueh-b-altzertg",
+      "file": "research/factual-checks/fruehstart-2026/sources/b-altzertg.pdf",
+      "sha256": "f2b42dfeb7d453a4c27a2a1c058dc656a7888e254834e929b70ca831a6bf50eb"
+    },
+    {
+      "source_id": "frueh-b-vag",
+      "file": "research/factual-checks/fruehstart-2026/sources/b-vag.pdf",
+      "sha256": "3754af571db75c47e2c4f3517de7278565cbb88235a44c335150c066a7e36ad4"
+    },
+    {
+      "source_id": "frueh-b-vvg",
+      "file": "research/factual-checks/fruehstart-2026/sources/b-vvg.pdf",
+      "sha256": "9f5d10f2e819f06038945f8b51383c71d800efce7b61297e270bc1ed1e5cff50"
+    },
+    {
+      "source_id": "frueh-b-bgb1629",
+      "file": "research/factual-checks/fruehstart-2026/sources/b-bgb1629.html",
+      "sha256": "d8c632d1cf4227dcc557dd01c7c705b4fed540fd3ea2424c83c966e9444e4d88"
+    },
+    {
+      "source_id": "frueh-b-idd",
+      "file": "research/factual-checks/fruehstart-2026/sources/b-idd.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_id": "frueh-b-draft",
+      "file": "research/round2-tax/sources/fruehstart-bt217864.pdf",
+      "sha256": "9d14355f8293339cd031b901c02c7be0b0f9dab1d7ca5f7edf5ce07fa834b4e7"
+    },
+    {
+      "source_id": "frueh-b-pav-bill",
+      "file": "research/round2-tax/sources/altersvorsorge-bt214088.pdf",
+      "sha256": "3e54fb86e17e901a1aea8d620a24bcc204989f51c7cde3e56fb5c9c535c18825"
+    },
+    {
+      "source_id": "frueh-b-primary-search",
+      "file": "research/factual-checks/fruehstart-2026/sources/b-pension-primary-search.json",
+      "sha256": "dac3ed42079ba3368e000fba8862729445a9bea8dbd13a9d214dc5fe9e499fb2"
+    },
+    {
+      "source_id": "frueh-b-failed-web",
+      "file": "research/factual-checks/fruehstart-2026/sources/b-bmf-and-idd-web-extraction.json",
+      "sha256": "0b42fa5dc9ae963f3786df49ae8c1b2c10624115bf02e1832784e4218bf559c2"
+    },
+    {
+      "source_id": "fruehstart-2026-c-bgb",
+      "file": "research/factual-checks/fruehstart-2026/sources/c-bgb.pdf",
+      "sha256": "9b5a99536e7b00756e9fa5f20082bd9ad3951b37c381fc0f5d52aa5a556839eb"
+    },
+    {
+      "source_id": "fruehstart-2026-c-gwg",
+      "file": "research/factual-checks/fruehstart-2026/sources/c-gwg.pdf",
+      "sha256": "cfb853679a0c5bae1df8c1235278cff6959ec3c00bfdcea78bf526d843396819"
+    },
+    {
+      "source_id": "fruehstart-2026-c-diw2015",
+      "file": "research/factual-checks/fruehstart-2026/sources/c-diw2015.pdf",
+      "sha256": "59c1e10b24bfcf228ce4627cd9b25b19a55c1c0a8d6eef32f4284db44384f7b3"
+    },
+    {
+      "source_id": "fruehstart-2026-c-altzertg",
+      "file": "research/factual-checks/fruehstart-2026/sources/c-altzertg.pdf",
+      "sha256": "f2b42dfeb7d453a4c27a2a1c058dc656a7888e254834e929b70ca831a6bf50eb"
+    },
+    {
+      "source_id": "fruehstart-2026-c-phf-index",
+      "file": "research/factual-checks/fruehstart-2026/sources/c-phf-primary-extraction.json",
+      "sha256": "028774e2ca54d44d89a4f901ecc19873378be223b483b8b63524b2fad43bd196"
+    },
+    {
+      "source_id": "fruehstart-2026-c-material",
+      "file": "research/factual-checks/fruehstart-2026/sources/c-frue-material-extraction.json",
+      "sha256": "1bb51e835d477578cf42e816b5d2ba4937491c35e366c9a3d15bed64b3178e9e"
+    },
+    {
+      "source_id": "fruehstart-2026-c-calculations",
+      "file": "research/factual-checks/fruehstart-2026/sources/c-calculations.json",
+      "sha256": "02634fa9e8627e2070311bcd463a674c18f5d54d93111401b6d7a179e7c71cb3"
+    },
+    {
+      "source_id": "fruehstart-2026-c-strategy-index",
+      "file": "research/factual-checks/fruehstart-2026/sources/c-frue-strategy-extraction.json",
+      "sha256": "4d1c0b41654663919445f22c59031ac1db0a3c1c47fdca45e0a3535728bfce18"
+    },
+    {
+      "source_id": "fruehstart-2026-c-july-mirror",
+      "file": "research/round2-tax/sources/fruehstart-refe-20260721-mirror.pdf",
+      "sha256": "38418c4a3b37eb4211b7194d17b0cd8931188e3858e2449bae612a9d272e640a"
+    },
+    {
+      "source_id": "fruehstart-br-priips-indexed",
+      "file": "research/factual-checks/fruehstart-2026/sources/br-priips-web-extraction.json",
+      "sha256": "790eaba62db5e5a76c8d676f19bfa3b0da5f0049d980de4fed8ee0d31027ffa7"
+    },
+    {
+      "source_id": "fruehstart-br-priips2023",
+      "file": "research/factual-checks/fruehstart-2026/sources/br-priips2023.failed.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_id": "fruehstart-ar-calculation",
+      "file": "research/factual-checks/fruehstart-2026/sources/ar-calculation.json",
+      "sha256": "6aa040cfe6b1c936afa5a443f592e7a3b08fa240384dff3d77dc3289e14ac678"
+    },
+    {
+      "source_id": "fruehstart-br-nber2011",
+      "file": "research/factual-checks/fruehstart-2026/sources/br-nber2011.pdf",
+      "sha256": "b0d12a771d0ce76a9c353d3ddc3b0476ef776a2f7654596d15b14946177682b1"
+    },
+    {
+      "source_id": "fruehstart-br-pisa2024",
+      "file": "research/factual-checks/fruehstart-2026/sources/br-pisa2024.pdf",
+      "sha256": "19ccbc12662a10081b0cab4687ff629fb8c836eda56160a5865f5886165dc391"
+    },
+    {
+      "source_id": "fruehstart-br-li2026",
+      "file": "research/factual-checks/fruehstart-2026/sources/br-li2026.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_id": "fruehstart-br-web-primary",
+      "file": "research/factual-checks/fruehstart-2026/sources/br-primary-web-extraction.json",
+      "sha256": "9eff9b582a748f611aeb676a2c86a9b2cffb52cc65b536a37b9ab5ea04919fea"
+    },
+    {
+      "source_id": "fruehstart-2026-c-r-vag",
+      "file": "research/factual-checks/fruehstart-2026/sources/c-r-vag.pdf",
+      "sha256": "3754af571db75c47e2c4f3517de7278565cbb88235a44c335150c066a7e36ad4"
+    },
+    {
+      "source_id": "fruehstart-2026-c-r-vvg",
+      "file": "research/factual-checks/fruehstart-2026/sources/c-r-vvg.pdf",
+      "sha256": "9f5d10f2e819f06038945f8b51383c71d800efce7b61297e270bc1ed1e5cff50"
+    },
+    {
+      "source_id": "fruehstart-2026-cr-pension-capital-primary",
+      "file": "research/factual-checks/fruehstart-2026/sources/cr-pension-capital-primary-extraction.json",
+      "sha256": "4d94272f3abdd9d4cf64883e58eee46b958d1b2e221e7b01315692284f71707c"
+    },
+    {
+      "source_id": "fruehstart-2026-cr-idd-and-geography",
+      "file": "research/factual-checks/fruehstart-2026/sources/cr-idd-and-geography-extraction.json",
+      "sha256": "d237a121ca56d92dcbfc97e368619d65ea39bf3057391a94ea9959853f62baaa"
+    },
+    {
+      "source_id": "fruehstart-2026-cr-pav",
+      "file": "research/round2-tax/sources/altersvorsorge-bt214088.pdf",
+      "sha256": "3e54fb86e17e901a1aea8d620a24bcc204989f51c7cde3e56fb5c9c535c18825"
+    }
+  ]
+}

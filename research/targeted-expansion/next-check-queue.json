@@ -1,0 +1,71 @@
+{
+  "id": "targeted-expansion-next-check-queue",
+  "status": "ai_lead_selection_complete",
+  "completed_at_utc": "2026-10-25T05:25:26.726097+00:00",
+  "purpose": "Respond to the feasibility of expanding toward potentially material errors with a concrete, independently screened shortlist. No new factual error established.",
+  "priority_checks": [
+    {
+      "rank": 1,
+      "id": "target-social-svdgv-android-access",
+      "author": "Spitzenverband Digitale Gesundheitsversorgung",
+      "claim_summary": "Around20million statutory-insurance members effectively excluded from DiGA use by older-Android restrictions.",
+      "request_summary": "Permit informed consent to a lower technical-security level.",
+      "check": "Reconstruct the population/OS calculation, dated certification rule and realistic alternative access routes.",
+      "source_and_context": "research/targeted-expansion/social-leads.json",
+      "independent_review": "research/targeted-expansion/social-leads-energy-review.json",
+      "limits": "The figure and practical exclusion could be correct; neither is adjudicated."
+    },
+    {
+      "rank": 2,
+      "id": "tax-expansion-sg2610070020",
+      "author": "Bundesverband der Deutschen Spirituosen-Industrie und -Importeure",
+      "claim_summary": "Nearly70%of alcohol-tax revenue compared with4.6%of alcohol consumption.",
+      "request_summary": "Oppose the proposed20%spirits-tax increase.",
+      "check": "Identify whether the consumption share uses beverage volume or ethanol, verify both figures and inspect whether the comparison is transparently presented.",
+      "source_and_context": "research/targeted-expansion/tax-leads.json",
+      "independent_review": "research/targeted-expansion/social-reviews-tax-leads.json",
+      "limits": "The word mengenmäßig may make this a transparent beverage-volume comparison, rather than a factual error."
+    }
+  ],
+  "conditional_lower_priority": [
+    {
+      "id": "energy-selection-mibrag-reserve-scope",
+      "gate": "First establish a concrete federal legislative proposal and its exact version; then determine whether the EU strategic-reserve rule applies to the described German network-reserve return.",
+      "file": "research/targeted-expansion/energy-leads.json"
+    },
+    {
+      "id": "tax-expansion-sg2610060025",
+      "reason": "The packaging-tax cost comparator is expressly identified and qualified in surrounding text. No specific mismatch established.",
+      "file": "research/targeted-expansion/tax-leads.json"
+    }
+  ],
+  "deprioritised_after_initial_source_support": [
+    {
+      "id": "energy-selection-rwe-prognos-pv",
+      "reason": "Original model contains the quoted30%cost increase and1.3–1.5cent gaps. The future-charge pricing explanation also weakens the timing suspicion."
+    },
+    {
+      "id": "energy-selection-gda-ashrae-loadpoints",
+      "reason": "Official publisher description supports the four load points; original technical standard not fully examined."
+    }
+  ],
+  "recommendation": "Use the two concrete priority checks as a small feasibility pilot, then apply the same claim-centred selection to additional unread submissions if useful. No high-yield pool has yet been demonstrated.",
+  "counting": {
+    "new_findings": 0,
+    "new_issues_admitted": 0,
+    "compiled_pool_changed": false,
+    "pilot_reading_extent": "Actual selection reads and excluded candidates are separately recorded in branch files; not silently added to the audited565-unit snapshot."
+  },
+  "inference_limit": "Targeted selection can identify cases to investigate; it cannot supply a representative error rate or predict the eventual yield.",
+  "snapshot_hashes": {
+    "research/targeted-expansion/energy-leads.json": "f1467aa47a15aa08608bc0f8d91481ba6b8823cdbbd7401099c83678f9125536",
+    "research/targeted-expansion/tax-leads.json": "52f7bbf119a1dad44b54801a2538024ad1dfc79338768fd3166af6249777bbe0",
+    "research/targeted-expansion/social-leads.json": "a363fa0b6d5577edbd0022d3b9e19ac86c4609c2d1d616eddd1f9880296fb4a2",
+    "research/targeted-expansion/energy-leads-review.json": "61d1dd2856605253ebf13d5f3acaee5172cf34f16c9ef4023e9170d1a74d86ef",
+    "research/targeted-expansion/social-reviews-tax-leads.json": "0dc159bf9ee4ff283210f100141a07e84368b6709901762ecac9764c97004690",
+    "research/targeted-expansion/social-leads-energy-review.json": "4ddbc452b47acffcec5c7e9fe5d2f0b39e90dc1db0b3f10e159a58650d0187be",
+    "research/targeted-expansion/root-triage-notes.json": "c5b53c0402ef341e129ed1ba8df0f0ccd417d51b73e98f1ffdbba6dab4a005bc",
+    "research/targeted-expansion/root-primary-source-checks.json": "aa6005cfc338abbda2065b2c16df787135b0e9e211fb1849794a25187523b2e9",
+    "research/targeted-expansion/selection-protocol.json": "3862083f1b69900944b486e8e73e306ca3a803fd52a952b0845892364be69885"
+  }
+}

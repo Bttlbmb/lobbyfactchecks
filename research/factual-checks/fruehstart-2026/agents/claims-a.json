@@ -1,0 +1,1563 @@
+{
+  "agent": "a",
+  "batch": "fruehstart-2026",
+  "status": "frozen_initial_inventory",
+  "created_at_utc": "2026-10-25T11:23:02.261449+00:00",
+  "documents": [
+    {
+      "id": "hearing-1216340-response-001",
+      "author": "Anja Bonfig",
+      "author_date": "2026-10-01",
+      "submission_date_verified": false,
+      "url": "https://www.bundestag.de/resource/blob/1222026/01-Bonfig-JProf-Dr-Anja.pdf",
+      "local_file": "research/round3-tax/sources/hearing-1216340-response-001.pdf",
+      "sha256": "bc804d7e98aee2df21c28a87a9459b7b72fc008d1096bf98e1e6947df637ea16",
+      "physical_pages": 6,
+      "external_submission": true,
+      "depth": "full_submission",
+      "read_round": "round3-tax",
+      "evidence_log": "research/round3-tax/research-log.json",
+      "pilot_text": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-001.txt",
+      "page_scope": "Physical PDF pages, including covers and appendices where present.",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "fully_read": true,
+      "read_before_prior_dispositions": true
+    },
+    {
+      "id": "hearing-1216340-response-004",
+      "author": "Harald Hantke",
+      "author_date": "2026-10-03",
+      "submission_date_verified": false,
+      "url": "https://www.bundestag.de/resource/blob/1222028/Hantke-Prof-Dr-Harald.pdf",
+      "local_file": "research/round3-tax/sources/hearing-1216340-response-004.pdf",
+      "sha256": "68e87ae61c90ab6c697bae8294d750e87edecb083b2d521016c2b54e8a203463",
+      "physical_pages": 6,
+      "external_submission": true,
+      "depth": "full_submission",
+      "read_round": "round3-tax",
+      "evidence_log": "research/round3-tax/research-log.json",
+      "pilot_text": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-004.txt",
+      "page_scope": "Physical PDF pages, including covers and appendices where present.",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "fully_read": true,
+      "read_before_prior_dispositions": true
+    },
+    {
+      "id": "hearing-1216340-response-005",
+      "author": "Ulrike Malmendier",
+      "author_date": null,
+      "submission_date_verified": false,
+      "url": "https://www.bundestag.de/resource/blob/1222326/06-Malmendier-Prof-Dr-Ulrike.pdf",
+      "local_file": "research/round3-tax/sources/hearing-1216340-response-005.pdf",
+      "sha256": "47eb4565c0935ec79cc66c654382536653756876beffbd134ca5c0c4583e6299",
+      "physical_pages": 4,
+      "external_submission": true,
+      "depth": "full_submission",
+      "read_round": "round3-tax",
+      "evidence_log": "research/round3-tax/research-log.json",
+      "pilot_text": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-005.txt",
+      "page_scope": "Physical PDF pages, including covers and appendices where present.",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "fully_read": true,
+      "read_before_prior_dispositions": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "fruehstart-a-bonfig-01",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF pages 1",
+      "original_excerpt": "ein zentraler Aspekt des Gesetzes",
+      "claim_en": "Financial education is an explicit central objective of the September government bill.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Cover A/B; § 1 and rationale",
+          "summary": "Education and start capital are stated objectives."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Directly corroborated by the addressed bill.",
+      "limits": "Targeted primary research, not an exhaustive systematic review. Missing evidence does not establish error; policy preferences and forecasts excluded separately.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-02",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF pages 1",
+      "original_excerpt": "im Jahr 2023",
+      "claim_en": "BMF and BMBF launched their financial-education initiative in 2023.",
+      "claim_type": "historical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "BMF release 6 December 2023, background",
+          "summary": "Official source identifies launch on 23 March 2023."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Official contemporaneous ministry release supports the timing.",
+      "limits": "Targeted primary research, not an exhaustive systematic review. Missing evidence does not establish error; policy preferences and forecasts excluded separately.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-03",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "section": "Physical PDF pages [1, 2]",
+      "original_excerpt": "nicht nur",
+      "claim_en": "Financial competence includes more than factual knowledge.",
+      "claim_type": "definitional",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-kmk2025",
+          "locator": "2025 recommendation, preamble and education objectives",
+          "summary": "Knowledge, understanding, reflection, action and judgement are explicit dimensions."
+        },
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "OECD/INFE 2023 survey description",
+          "summary": "Uses knowledge, behaviour and attitude components."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Supported as a description of established multidimensional frameworks.",
+      "limits": "The author’s preferred comprehensive definition is a pedagogical framework, not the only admissible conception of education.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-04",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF pages 2",
+      "original_excerpt": "fortlaufend Informationen zur Wertentwicklung",
+      "claim_en": "The bill requires ongoing target-appropriate information about collective investment performance.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 26, physical p. 17; rationale physical p. 54",
+          "summary": "Public start-capital information and ongoing performance information; accessible texts/graphics and capital-market explanations."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Matches the addressed operative provision and rationale.",
+      "limits": "Information duty is not a demonstrated educational effect.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-05",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "Physical PDF pages [2, 3]",
+      "original_excerpt": "Schulunterricht",
+      "claim_en": "The rationale says collective-investment materials can be a basis for classroom discussion.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Rationale to § 26, physical p. 54",
+          "summary": "Explicit possible classroom use, not mandatory adoption of provider material."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Directly corroborated.",
+      "limits": "Targeted primary research, not an exhaustive systematic review. Missing evidence does not establish error; policy preferences and forecasts excluded separately.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-06",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF pages 2",
+      "original_excerpt": "Beutelsbacher Konsens",
+      "claim_en": "Non-indoctrination and controversy are established principles also used in consumer/financial education.",
+      "claim_type": "definitional",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-kmk2025",
+          "locator": "Sections 4–5, physical pp. 6–7",
+          "summary": "Explicit Beutelsbach principles in consumer education."
+        },
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "bpb official explanatory text",
+          "summary": "Identifies non-indoctrination, controversy and pupil orientation."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Official education guidance supports the principle description.",
+      "limits": "Whether this particular bill breaches the principles is an evaluative question.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-07",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF pages 2",
+      "original_excerpt": "Lehrkräfte suchen im Internet",
+      "claim_en": "Teachers use internet searches to obtain teaching materials.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-buntins2024",
+          "locator": "Methods §§ 3.1–3.3 and results § 4.1",
+          "summary": "1,960 starts, 1,693 completes; Google commonly used. NRW and Gymnasien overrepresented."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The primary survey directly supports this ordinary practice claim.",
+      "limits": "Not representative for every state/school type. Exact material adaptability/currentness motivation from Neumann was not independently reconstructed.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-08",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF pages 2",
+      "original_excerpt": "Banken",
+      "claim_en": "Banks and foundations provide the largest supply of freely available school financial-education materials; ministry materials are less findable.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-bonfig2026",
+          "locator": "University project description and publication list",
+          "summary": "Confirms project/publication, but not reproducible search corpus, denominators and rankings."
+        },
+        {
+          "source_id": "fruehstart-a-vzbv2025",
+          "locator": "2025 Materialkompass sample",
+          "summary": "Rated sample differs from internet supply: nonprofit group largest in this selected corpus."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The original Bonfig study’s complete methods/results were not recovered. A different selected rating sample cannot refute the internet-supply ranking.",
+      "limits": "Do not confuse offer counts, search visibility, publisher categories or publication versions; source-access gap is not an error.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-09",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF pages 3",
+      "original_excerpt": "Gesetzgebung der Länder",
+      "claim_en": "Conditions for schools’ use of outside partners are determined at state level.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-kmk2025",
+          "locator": "2025 recommendation and implementation framework",
+          "summary": "Interstate education recommendation and state/school implementation, with conditions for outside partners."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Supported as an ordinary description of state school competence and the framework, without claiming a uniform binding nationwide rule.",
+      "limits": "The individual rules of all 16 states were not exhaustively reviewed; precise advertising/permission exceptions remain local.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-10",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF pages 3",
+      "original_excerpt": "im letzten Jahr (2025)",
+      "claim_en": "BMK’s 2025 recommendation requires outside offers to accord with schools’ educational mandate.",
+      "claim_type": "historical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-kmk2025",
+          "locator": "Cover date and section 4, physical p. 6",
+          "summary": "5 June 2025 revision; outside offers must align with educational/teaching mission."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Date and requirement match the quoted official recommendation.",
+      "limits": "Targeted primary research, not an exhaustive systematic review. Missing evidence does not establish error; policy preferences and forecasts excluded separately.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-11",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF pages 3",
+      "original_excerpt": "häufiger",
+      "claim_en": "vzbv’s 2014 review found disproportionate one-sided or interest-led material among economic publishers.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-vzbv2014",
+          "locator": "Methods physical pp. 4–5; sample limit p. 6; results p. 16",
+          "summary": "453 materials rated January 2011–October 2013; selected corpus, not whole-market publisher distribution; reported economic-category weaknesses."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The attributed finding matches.",
+      "limits": "Selected expert-rating corpus and subjective rubric, not a random market census; author explicitly does not condemn all private materials.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-12",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF pages 3",
+      "original_excerpt": "deutlich größere Schwächen",
+      "claim_en": "vzbv’s 2025 financial-material review finds greater weaknesses in financial-industry material, particularly controversy and competence orientation.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-vzbv2025",
+          "locator": "November 2025 analysis and publisher comparison",
+          "summary": "138 reviews, 156 publisher-relevant ratings; 41 industry ratings, 4 very good, 21 good, remainder satisfactory or worse, 5 poor."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Matches the reported comparison and caveat that many private materials are good.",
+      "limits": "Selection and grading methods limit generalisation; planned unpublished scientific reanalysis not independently accessed.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-13",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF pages 3",
+      "original_excerpt": "fachfremde Lehrkräfte",
+      "claim_en": "Subjects carrying financial education are more often taught outside teachers’ qualifications than other subjects.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "Porsch 2016 original study indexed text",
+          "summary": "Reports high politics rates in specified states/school types, with considerable variation."
+        },
+        {
+          "source_id": "fruehstart-a-kmk2025",
+          "locator": "Cross-curricular implementation",
+          "summary": "Financial education spans multiple subjects rather than one uniform subject."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Regional subject-specific evidence supports the concern but not a single current nationwide comparative rate for this whole grouping.",
+      "limits": "Do not conflate teacher counts with teaching hours or school types. Existing source does not imply every teacher lacks competence.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-14",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "section": "Physical PDF pages [3, 4]",
+      "original_excerpt": "keinem einheitlichen, unabhängigen",
+      "claim_en": "Private providers’ material and workshops are not subject to a uniform independent review before school use.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-kmk2025",
+          "locator": "Sections 4–6",
+          "summary": "Sets independence/mission standards and refers to voluntary Materialkompass reviews; does not impose a single universal prior vetting process."
+        },
+        {
+          "source_id": "fruehstart-a-vzbv2025",
+          "locator": "Review programme description",
+          "summary": "Voluntary/expert review of selected materials, not universal approval."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Recovered framework is consistent, but universal absence across all states and formats is not established by these sources.",
+      "limits": "A risk assessment, not proof that no quality checks exist or that every commercial offer is unsuitable.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-15",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF pages 4",
+      "original_excerpt": "§31",
+      "claim_en": "The bill provides evaluation of uptake, budget use, financial knowledge and pension behaviour, linked to the national strategy.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 31 physical p. 19; rationale physical p. 56",
+          "summary": "2031 evaluation includes social/economic uptake, additional contributions, transfer, returns/costs and information effects."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Matches operative purpose and more detailed rationale.",
+      "limits": "Social selectivity is already partly covered by uptake-group analysis; the author requests stronger/different attention, not necessarily denies existing coverage.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-16",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF pages 4",
+      "original_excerpt": "sehr gut ab",
+      "claim_en": "German adults perform well in the OECD international financial-literacy comparison.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "OECD 2023/2024 publications and OeNB original 2024 comparison",
+          "summary": "German mean 76/100, high among participants; knowledge, attitudes and behaviour combined."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Supports the qualitative international comparison.",
+      "limits": "Adult participating-country assessment, not PISA school performance or every German subgroup. OECD PDF direct download denied; official indexed/report text used.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-17",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF pages 4",
+      "original_excerpt": "Besonders ausgeprägt",
+      "claim_en": "PHF financial knowledge differs by education, gender and age, with a pronounced education gap.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-financial2026-full",
+          "locator": "PHF 2023 methods and Figure 2",
+          "summary": "3,984 household financial respondents; weighted data; Big Three all-correct 76.8% upper-secondary vs 53.4% lower-secondary, men 70.4% vs women 60.9%."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Primary own calculations corroborate the association and strong education gap.",
+      "limits": "Financial household respondent, not every household member; three knowledge questions are not all financial competence, no causal inference.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-18",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF pages 4",
+      "original_excerpt": "Bruttoeinkommen und Nettovermögen",
+      "claim_en": "Gross household income and net wealth correlate positively with financial knowledge.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-financial2026-full",
+          "locator": "Discussion of financial knowledge/wealth and prior German studies",
+          "summary": "Consistent associations discussed; exact 2017 income/wealth model not recovered."
+        },
+        {
+          "source_id": "fruehstart-a-safe121",
+          "locator": "Introduction",
+          "summary": "Reports wealth-return and participation disparities, not the exact joint knowledge correlations."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The claim is plausible and consistent, but the exact original 2017 sample, weighting and estimates were not directly authenticated in this pass.",
+      "limits": "Do not infer causation, and do not convert a cited association into a falsehood because the full older model is unavailable.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-19",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF pages 4",
+      "original_excerpt": "häufiger für das Alter",
+      "claim_en": "Higher financial knowledge is associated with more retirement planning and saving.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-financial2026-full",
+          "locator": "Section Finanzwissen fördert Altersvorsorgeplanung",
+          "summary": "2026 original research article situates own PHF data and explicitly summarises German/international planning associations; cites direct empirical studies."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The author states association, not proof of a causal effect of knowledge alone. Multiple primary research discussions are consistent.",
+      "limits": "The 2026 PHF analysis is primarily a knowledge-distribution analysis, while planning results derive from cited earlier studies, not a new experiment in this article.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-20",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF pages 4",
+      "original_excerpt": "an der Deutschland nicht teilgenommen hat",
+      "claim_en": "Germany did not participate in the PISA 2022 financial-literacy option.",
+      "claim_type": "historical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "OECD PISA in Focus 126, country list and figures",
+          "summary": "20 participating economies, no Germany."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The stated omission applies to the financial-literacy option, not all PISA domains.",
+      "limits": "Targeted primary research, not an exhaustive systematic review. Missing evidence does not establish error; policy preferences and forecasts excluded separately.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-21",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF pages 4",
+      "original_excerpt": "um eine Kompetenzstufe",
+      "claim_en": "Advantaged PISA pupils score about one proficiency level higher and report more learning opportunities.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "OECD PISA in Focus 126, physical pp. 2–4",
+          "summary": "Average gap 87 points, level width 75; national top/bottom ESCS quarters. More learning opportunities reported."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The approximate one-level description is reasonable for a gap slightly greater than one level.",
+      "limits": "15-year-olds in participating countries; country gaps vary. Observational associations, not parental-income treatment effects.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-22",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF pages 4",
+      "original_excerpt": "gut situierte Frauen",
+      "claim_en": "Existing German financial-education offers concentrate on pupils, young adults and affluent women, with poorer groups less addressed and limited systemic perspective.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "Aprea/Suna 2024 primary publisher abstract",
+          "summary": "Systematic offer inventory and secondary curricular analysis report these target groups, information orientation and weak evaluation base."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Matches the study’s reported inventory conclusions.",
+      "limits": "Full corpus coding and detailed methods unavailable because original PDF requests failed; support concerns the reported study findings, not proof of exhaustive current market shares.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-bonfig-23",
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Physical PDF pages 5",
+      "original_excerpt": "6.840 Euro",
+      "claim_en": "The bill permits up to €6,840 yearly additional contributions and tax-free accumulation of gains.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 3(3) physical p. 9 and rationale EStG physical p. 56",
+          "summary": "€6,840 yearly cap; no tax on appreciation/returns during accumulation, later benefits taxed."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Both legal premises match when read as tax-free accumulation.",
+      "limits": "Not permanent exemption of all retirement payouts; investment gains and later payment treatment are distinct.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-hantke-01",
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF pages 1",
+      "original_excerpt": "ab dem sechsten Lebensjahr",
+      "claim_en": "The bill funds eligible children’s retirement capital from age six and explicitly seeks financial education.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§ 1–2 and cover",
+          "summary": "Completed sixth year to before 18, cohort and residency/tax-ID conditions."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Matches policy description.",
+      "limits": "Ordinary age-six meaning; not a claim that every child regardless of eligibility receives funds.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-hantke-02",
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF pages 1",
+      "original_excerpt": "fortlaufend Informationen",
+      "claim_en": "§ 26 and its rationale require accessible ongoing performance information potentially usable at school.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 26 physical p. 17; rationale physical p. 54",
+          "summary": "Age-targeted information, short texts, graphics and possible classroom use."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The described duties and rationale are authentic.",
+      "limits": "Targeted primary research, not an exhaustive systematic review. Missing evidence does not establish error; policy preferences and forecasts excluded separately.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-hantke-03",
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF pages 3",
+      "original_excerpt": "Studien mit Erwachsenen",
+      "claim_en": "Adult studies link experienced investment returns to later risk attitudes and stock-market participation.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-mn2009",
+          "locator": "2009 author working version, abstract, methods and identification",
+          "summary": "US SCF 1964–2004, adult household decisions, age/year/wealth/income controls."
+        },
+        {
+          "source_id": "fruehstart-a-ampudia2014",
+          "locator": "2014 ECB working version, abstract and methods pp. 4–6",
+          "summary": "58,000+ households in 11 euro-area countries, experienced returns and household decisions."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Supports the association and adult population caveat.",
+      "limits": "Working versions predate cited final 2008/2011 publications; no children intervention and no direct proof the Frühstart policy changes competence.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-hantke-04",
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF pages 3",
+      "original_excerpt": "nicht unmittelbar auf Kinder und Jugendliche",
+      "claim_en": "The cited adult experience studies do not directly establish effects for children or adolescents.",
+      "claim_type": "methodological",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-mn2009",
+          "locator": "SCF adult household population and outcomes",
+          "summary": "No random childhood pension-account intervention."
+        },
+        {
+          "source_id": "fruehstart-a-ampudia2014",
+          "locator": "HFCS respondent/method",
+          "summary": "Adult household cross-section with constructed lifetime returns."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The population/estimand limit is correct.",
+      "limits": "Adult experience evidence may inform hypotheses; lack of direct transfer does not prove no child effect.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-hantke-05",
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF pages 4",
+      "original_excerpt": "hoher Anteil von Aktien",
+      "claim_en": "The bill’s rationale regards a high equity share as useful for illustrating return, risk and volatility.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Rationale to § 24, physical p. 53",
+          "summary": "Explicit education rationale for high equity/equity-fund proportion."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Matches the rationale, although the operative law does not require a fixed equity share.",
+      "limits": "Targeted primary research, not an exhaustive systematic review. Missing evidence does not establish error; policy preferences and forecasts excluded separately.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-hantke-06",
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF pages 4",
+      "original_excerpt": "weder curriculare",
+      "claim_en": "The bill supplies no concrete state curriculum links, detailed age-specific learning progression or documented state coordination.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 26 and rationale, physical pp. 17, 54; education-related references checked",
+          "summary": "General information and possible school use, without a state curriculum or staged teaching plan."
+        },
+        {
+          "source_id": "fruehstart-a-kmk2025",
+          "locator": "2025 implementation recommendation",
+          "summary": "Shows that curricula and school implementation are separate from the draft’s product information."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Supported as a bounded document-content statement about the bill.",
+      "limits": "Does not establish that no consultation or curriculum work exists outside this text; necessity of more detail is a pedagogical judgement.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-malmendier-01",
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF pages 1",
+      "original_excerpt": "im Vergleich zu anderen fortgeschrittenen Volkswirtschaften",
+      "claim_en": "Germany uses capital-market retirement investment little compared with other advanced economies, overweights guarantees/fixed income and forgoes substantial returns.",
+      "claim_type": "empirical",
+      "materiality": "high",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-safe121",
+          "locator": "Introduction and asset-class discussion, printed pp. 3–6",
+          "summary": "Reports German low-equity/high-deposit allocation and historical equity premium; refers to Bundesbank data."
+        },
+        {
+          "source_id": "fruehstart-a-ampudia2014",
+          "locator": "Euro-area household comparison",
+          "summary": "Adult household participation, not complete cross-national retirement-wealth allocation or forgone-return estimates."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Direction is consistent with research, but the precise retirement-wealth denominator, comparator countries and counterfactual forgone returns are not defined.",
+      "limits": "Statutory pension claims, deposits, insurance guarantees and indirect equity exposure are different measures; no conservative error inferred.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-malmendier-02",
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF pages 1",
+      "original_excerpt": "alle Einkommensschichten",
+      "claim_en": "All income groups could benefit from modern low-fee capital-market strategies, especially lower-income households.",
+      "claim_type": "empirical",
+      "materiality": "high",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-safe121",
+          "locator": "Asset-allocation rationale and cost illustration",
+          "summary": "Positive expected long-term equity premium, fees and compound interest under assumptions."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "A conditional expected-return benefit is plausible, but all-household welfare dominance depends on risk, liquidity, debt, wealth and existing pension exposure.",
+      "limits": "The author says could, not guaranteed realised gains. Future benefit is a policy forecast; its universal empirical premise remains qualified.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-malmendier-03",
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF pages 1",
+      "original_excerpt": "über Jahrzehnte",
+      "claim_en": "Personal return experiences are associated with expectations, risk perception and investment behaviour for decades.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-mn2009",
+          "locator": "Abstract and identification; US adult SCF 1964–2004",
+          "summary": "Recent experiences weighted more heavily; older experiences remain significant."
+        },
+        {
+          "source_id": "fruehstart-a-ampudia2014",
+          "locator": "2014 ECB paper, nontechnical summary and methods",
+          "summary": "Replicates experience associations across euro-area adult households."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Supports the broad lasting-experience finding.",
+      "limits": "The primary archived US version is February 2009 rather than final QJE 2011. Adult observational identification is not a controlled childhood-learning effect.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-malmendier-04",
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "section": "Physical PDF pages [1, 2]",
+      "original_excerpt": "auch für Deutschland",
+      "claim_en": "Comparable experience effects have been estimated in European and German data.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-ampudia2014",
+          "locator": "Methods and findings",
+          "summary": "Includes Germany among 11 countries, weighted HFCS household data."
+        },
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "Li/Malmendier/Schaffranka/Schwarz 2026 publisher bibliographic abstract",
+          "summary": "Identifies specific German application; original full German model not recovered."
+        }
+      ],
+      "result": "supported",
+      "explanation": "European estimates including Germany and existence of the Germany-specific study corroborate the statement about estimated effects.",
+      "limits": "Exact German study estimates not independently reproduced; working paper differs from final 2017 article.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-malmendier-05",
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF pages 2",
+      "original_excerpt": "automatisch alle Kinder",
+      "claim_en": "Eligible cohorts are automatically covered through collective investment if families do not choose an individual contract.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§ 1–2, 21–23",
+          "summary": "Collective fallback for eligible beneficiaries without an individual contract; cohort-level funding rules."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Matches fallback structure.",
+      "limits": "Eligible cohort and residency/identification conditions still apply; no claim that every child has an individually owned default account.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-malmendier-06",
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF pages 2",
+      "original_excerpt": "erstmals in Deutschland",
+      "claim_en": "Capital-market investment becomes a retirement default for the first time in Germany.",
+      "claim_type": "historical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-safe121",
+          "locator": "Executive summary",
+          "summary": "Repeats first-time characterisation."
+        },
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 21",
+          "summary": "Establishes this particular child-cohort default, without surveying every earlier occupational or private pension default."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Supported for this new nationwide child-cohort design; the universal historical first across all retirement arrangements is not independently authenticated.",
+      "limits": "Do not silently narrow the original universal statement to this programme alone or treat another default as equivalent without matching its scope.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-malmendier-07",
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF pages 2",
+      "original_excerpt": "weniger einkommensstarke Familien",
+      "claim_en": "Other countries show lower-income families falling back on familiar lower-return choices.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-safe121",
+          "locator": "Introduction, default discussion",
+          "summary": "Cites international default studies and an INNOFIB parent survey; choice depends on prior experience."
+        },
+        {
+          "source_id": "fruehstart-a-ampudia2014",
+          "locator": "Household risk/participation analysis",
+          "summary": "Income and wealth controls, but not a matched child-account default experiment."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "No specified country, programme or causal estimate in the statement; the recovered evidence does not directly establish this exact cross-country household pattern.",
+      "limits": "The further claim that the German design avoids widening inequality is a forecast, not an observed result.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-malmendier-08",
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF pages 2",
+      "original_excerpt": "minimiert das Risiko kurzfristiger Schwankungen",
+      "claim_en": "A long horizon minimises equity-volatility risk and a globally diversified equity portfolio offers optimal expected returns.",
+      "claim_type": "empirical",
+      "materiality": "high",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-safe121",
+          "locator": "Asset-class discussion, printed pp. 4–6",
+          "summary": "Historical long-run equity premium and rationale for low-cost broad equity; discusses alternatives and different risks."
+        },
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 27 and rationale",
+          "summary": "No guaranteed collective outcome; losses possible."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Long-horizon equity allocation is a defensible recommendation, but minimisation/optimality depends on the risk measure, withdrawal timing, preferences and model. Historical averages do not establish universal optimality.",
+      "limits": "Expected return differs from realised return or variance of terminal wealth; the author expressly invokes expectation, not a capital guarantee.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-malmendier-09",
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF pages 2",
+      "original_excerpt": "Eine solche Festlegung fehlt",
+      "claim_en": "The operative bill lacks an explicit equity-based portfolio mandate and assigns investment-guideline choices to BMF with the Chancellery.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 24(3)–(4), physical p. 17",
+          "summary": "Global diversification and return/safety/liquidity principles; guidelines BMF in agreement with Chancellery and Bundesbank."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The equity-specific binding mandate is absent. Global diversification is already required and the Bundesbank also participates.",
+      "limits": "Do not paraphrase this as absence of all investment safeguards; statement calls for a stronger equity-specific safeguard.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-malmendier-10",
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "Physical PDF pages [2, 3]",
+      "original_excerpt": "Diese Lernerfahrung wird",
+      "claim_en": "The collective default does not provide the described personal experience of regularly seeing one’s own performance under the bill.",
+      "claim_type": "empirical",
+      "materiality": "high",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 26 and rationale physical p. 54",
+          "summary": "Public cohort/month capital figures and ongoing accessible performance information; no explicit periodic personal mailing."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The bill does require performance information. In the full paragraph the complaint is about direct delivery and personal engagement, not a categorical denial that any information exists. The educational consequence is not demonstrated.",
+      "limits": "Preserve this reasonable context; a website versus mailing design concern cannot be promoted to a legal contradiction. No individual lookup-system design authenticated.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-malmendier-11",
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF pages 3",
+      "original_excerpt": "stets mit einer Dreiteilung",
+      "claim_en": "International evidence shows well-functioning pension investment governance always uses parliamentary principles, an expert guideline body and independent implementation.",
+      "claim_type": "empirical",
+      "materiality": "high",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-a-safe121",
+          "locator": "Governance discussion, printed pp. 15–17",
+          "summary": "Sweden AP7, UK NEST and Norway illustrate division of responsibilities and political-interference limits."
+        },
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "NBIM official governance structure and NEST official principles",
+          "summary": "Norway ministry issues mandate; central-bank board and manager implement; NEST trustee retains strategy."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Examples support differentiated roles, but not a necessary universal three-part governance theorem or a single institutional arrangement. The author may describe a functional design principle.",
+      "limits": "Necessary successful-governance conditions and well-functioning criteria are undefined; no error proposed from institutional differences alone.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-a-malmendier-12",
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF pages 4",
+      "original_excerpt": "18 Jahren",
+      "claim_en": "The bill requires new active decisions/contracts at age 18 and by age 35, risking discontinuity of further retirement saving.",
+      "claim_type": "draft legal",
+      "materiality": "high",
+      "policy_link": "Premise for the response’s assessment of financial education, access, investment design, governance or distribution.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, including original methods, populations, draft provisions and contextual/temporal limits.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§ 3, 9, 21–23 and rationale",
+          "summary": "Subsidy stops at 18; late transfer requires individual contract before 35; unused collective cohort funds returned after 35."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The active late-transfer requirement and age-35 cutoff are supported. The text does not establish that an already existing individual contract must be newly concluded at 18. Wording can mean the choice/transition stage rather than universal termination.",
+      "limits": "No automatic withdrawal of every individual account at 18; claimed future break in saving is a forecast. Requested automatic continuation is a policy proposal.",
+      "check_completed": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "fruehstart-a-oecd2023",
+      "title": "oecd2023 primary evidence",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/oecd-infe-2023-international-survey-of-adult-financial-literacy_8ce94e2c/56003a32-en.pdf",
+      "retrieved_at": "2026-10-25T11:16:48.866923+00:00",
+      "temporal_limit": "Publication date checked separately; retrieved 25 October 2026, not a historical webpage snapshot.",
+      "usable_as_evidence": false,
+      "error": "<HTTPError 403: 'Forbidden'>"
+    },
+    {
+      "id": "fruehstart-a-pisa2024",
+      "title": "pisa2024 primary evidence",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/shaping-students-financial-literacy_197a8f87/c3f3dc74-en.pdf",
+      "retrieved_at": "2026-10-25T11:16:48.867224+00:00",
+      "temporal_limit": "Publication date checked separately; retrieved 25 October 2026, not a historical webpage snapshot.",
+      "usable_as_evidence": false,
+      "error": "<HTTPError 403: 'Forbidden'>"
+    },
+    {
+      "id": "fruehstart-a-aprea2024",
+      "title": "aprea2024 primary evidence",
+      "url": "https://www.zfoeb.de/2024_13/2024-13_238_335_aprea.pdf",
+      "retrieved_at": "2026-10-25T11:16:48.867373+00:00",
+      "temporal_limit": "Publication date checked separately; retrieved 25 October 2026, not a historical webpage snapshot.",
+      "usable_as_evidence": false,
+      "error": "<HTTPError 500: 'Internal Server Error'>"
+    },
+    {
+      "id": "fruehstart-a-kmk2025",
+      "title": "kmk2025 primary evidence",
+      "url": "https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2013/2013_09_12-Verbraucherbildung.pdf",
+      "retrieved_at": "2026-10-25T11:16:48.867502+00:00",
+      "temporal_limit": "Publication date checked separately; retrieved 25 October 2026, not a historical webpage snapshot.",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-kmk2025.pdf",
+      "sha256": "604ccd3b665e91fa67cfe6cb186ad253c2869e010e6aebee31c729361d25df74",
+      "bytes": 215023,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "content_validation": "Readable actual primary text inspected; legal/source identity and cited methods/results checked. Not merely HTTP 200.",
+      "read_extent": "Targeted cited passages, methods, limitations and publication metadata; long reports are evidence only, not additional screening targets."
+    },
+    {
+      "id": "fruehstart-a-vzbv2014",
+      "title": "vzbv2014 primary evidence",
+      "url": "https://www.vzbv.de/sites/default/files/downloads/Verbraucherbildung-Analyse-Unterrichtsmaterialien-vzbv-2014.pdf",
+      "retrieved_at": "2026-10-25T11:16:48.867628+00:00",
+      "temporal_limit": "Publication date checked separately; retrieved 25 October 2026, not a historical webpage snapshot.",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-vzbv2014.pdf",
+      "sha256": "7c4c8e1ac7dcdfef36c7c42513e37c7935d4070fd2fdbfa6371dce6f912d67f4",
+      "bytes": 162660,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "content_validation": "Readable actual primary text inspected; legal/source identity and cited methods/results checked. Not merely HTTP 200.",
+      "read_extent": "Targeted cited passages, methods, limitations and publication metadata; long reports are evidence only, not additional screening targets."
+    },
+    {
+      "id": "fruehstart-a-vzbv2025",
+      "title": "vzbv2025 primary evidence",
+      "url": "https://www.verbraucherbildung.de/meldung/finanzielle-bildung-unter-der-lupe",
+      "retrieved_at": "2026-10-25T11:16:48.867760+00:00",
+      "temporal_limit": "Publication date checked separately; retrieved 25 October 2026, not a historical webpage snapshot.",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-vzbv2025.html",
+      "sha256": "711c8f0fbdadbef115fd6ae322c7b97954d9945cdb78fc6eb7543f27bcd420d1",
+      "bytes": 64124,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "content_validation": "Readable actual primary text inspected; legal/source identity and cited methods/results checked. Not merely HTTP 200.",
+      "read_extent": "Targeted cited passages, methods, limitations and publication metadata; long reports are evidence only, not additional screening targets."
+    },
+    {
+      "id": "fruehstart-a-buntins2024",
+      "title": "buntins2024 primary evidence",
+      "url": "https://learninglab.uni-due.de/sites/default/files/1768_Buntins%2Bet%2Bal_final.pdf",
+      "retrieved_at": "2026-10-25T11:16:48.924661+00:00",
+      "temporal_limit": "Publication date checked separately; retrieved 25 October 2026, not a historical webpage snapshot.",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-buntins2024.pdf",
+      "sha256": "b706634c758440c9784d3fcf5d3c68f64c071053ed0bc9c264a02526672debbd",
+      "bytes": 883118,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "content_validation": "Readable actual primary text inspected; legal/source identity and cited methods/results checked. Not merely HTTP 200.",
+      "read_extent": "Targeted cited passages, methods, limitations and publication metadata; long reports are evidence only, not additional screening targets."
+    },
+    {
+      "id": "fruehstart-a-mn2009",
+      "title": "mn2009 primary evidence",
+      "url": "https://eml.berkeley.edu/~ulrike/Papers/DepressionBabies_37.pdf",
+      "retrieved_at": "2026-10-25T11:16:48.934738+00:00",
+      "temporal_limit": "Publication date checked separately; retrieved 25 October 2026, not a historical webpage snapshot.",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-mn2009.pdf",
+      "sha256": "d1e62cd9cc16a3f3cb69a304351427b83964d0f9b8d8fdf5ddcf7e5ac69a734b",
+      "bytes": 309989,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "content_validation": "Readable actual primary text inspected; legal/source identity and cited methods/results checked. Not merely HTTP 200.",
+      "read_extent": "Targeted cited passages, methods, limitations and publication metadata; long reports are evidence only, not additional screening targets."
+    },
+    {
+      "id": "fruehstart-a-ampudia2014",
+      "title": "ampudia2014 primary evidence",
+      "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1652.pdf",
+      "retrieved_at": "2026-10-25T11:16:50.116762+00:00",
+      "temporal_limit": "Publication date checked separately; retrieved 25 October 2026, not a historical webpage snapshot.",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-ampudia2014.pdf",
+      "sha256": "a103948501a0203f3bb89035fb27c0d9bcd58bc9f21e1bd509231566e4a045b2",
+      "bytes": 963939,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "content_validation": "Readable actual primary text inspected; legal/source identity and cited methods/results checked. Not merely HTTP 200.",
+      "read_extent": "Targeted cited passages, methods, limitations and publication metadata; long reports are evidence only, not additional screening targets."
+    },
+    {
+      "id": "fruehstart-a-bonfig2026",
+      "title": "bonfig2026 primary evidence",
+      "url": "https://www.ph-gmuend.de/hochschule/mitarbeitenden/b/bonfig-anja",
+      "retrieved_at": "2026-10-25T11:16:50.810771+00:00",
+      "temporal_limit": "Publication date checked separately; retrieved 25 October 2026, not a historical webpage snapshot.",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-bonfig2026.html",
+      "sha256": "a4d684bda5fd98665aee1d0163e5ee3d4571aa9b5c5909805e1767091384625e",
+      "bytes": 169574,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "content_validation": "Readable actual primary text inspected; legal/source identity and cited methods/results checked. Not merely HTTP 200.",
+      "read_extent": "Targeted cited passages, methods, limitations and publication metadata; long reports are evidence only, not additional screening targets."
+    },
+    {
+      "id": "fruehstart-a-bpb",
+      "title": "bpb primary evidence",
+      "url": "https://www.bpb.de/lernen/inklusiv-politisch-bilden/505269/der-beutelsbacher-konsens/",
+      "retrieved_at": "2026-10-25T11:16:50.822206+00:00",
+      "temporal_limit": "Publication date checked separately; retrieved 25 October 2026, not a historical webpage snapshot.",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-bpb.html",
+      "sha256": "37c3c39c27204c5405a0b24ca3277e083b934afea8bfef08d7e7efc4d282a418",
+      "bytes": 156518,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "content_validation": "Readable actual primary text inspected; legal/source identity and cited methods/results checked. Not merely HTTP 200.",
+      "read_extent": "Targeted cited passages, methods, limitations and publication metadata; long reports are evidence only, not additional screening targets."
+    },
+    {
+      "id": "fruehstart-a-safe121",
+      "title": "safe121 primary publication",
+      "url": "https://safe-frankfurt.de/fileadmin/user_upload/editor_common/Policy_Center/SAFE_White_Paper_121.pdf",
+      "retrieved_at": "2026-10-25T11:17:12.751335+00:00",
+      "temporal_limit": "Published before hearing; exact source version assessed separately.",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-safe121.pdf",
+      "sha256": "b40c7b815a506e00f7009e32f9ec237227f6ee1b2869170720a2094323788e92",
+      "bytes": 366701,
+      "usable_as_evidence": true,
+      "content_validation": "Readable actual primary text inspected; legal/source identity and cited methods/results checked. Not merely HTTP 200.",
+      "read_extent": "Targeted cited passages, methods, limitations and publication metadata; long reports are evidence only, not additional screening targets."
+    },
+    {
+      "id": "fruehstart-a-financial2026",
+      "title": "financial2026 primary publication",
+      "url": "https://reference-global.com/article/10.2478/wd-2026-0119",
+      "retrieved_at": "2026-10-25T11:17:14.669935+00:00",
+      "temporal_limit": "Published before hearing; exact source version assessed separately.",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-financial2026.html",
+      "sha256": "185d58386adce2ab83fa48b1e1b13c6ff074784d133bf0b59e2b9a35f4dce0a6",
+      "bytes": 562936,
+      "usable_as_evidence": true,
+      "content_validation": "Readable actual primary text inspected; legal/source identity and cited methods/results checked. Not merely HTTP 200.",
+      "read_extent": "Targeted cited passages, methods, limitations and publication metadata; long reports are evidence only, not additional screening targets."
+    },
+    {
+      "id": "fruehstart-a-financial2026-full",
+      "title": "financial2026-full primary text",
+      "url": "https://www.wirtschaftsdienst.eu/inhalt/jahr/2026/heft/7/beitrag/finanzwissen-in-der-bevoelkerung-heraus-forderungen-fuer-die-altersvorsorgeplanung.html",
+      "retrieved_at": "2026-10-25T11:19:01.119958+00:00",
+      "temporal_limit": "Original publication predates October 2026; current retrieval not a historical HTML snapshot.",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-financial2026-full.html",
+      "sha256": "b2e93fc9bd0c2ce42c13317c0e01f714dd87ed694487e18cc8148297c420d286",
+      "bytes": 95738,
+      "usable_as_evidence": true,
+      "content_validation": "Readable actual primary text inspected; legal/source identity and cited methods/results checked. Not merely HTTP 200.",
+      "read_extent": "Targeted cited passages, methods, limitations and publication metadata; long reports are evidence only, not additional screening targets."
+    },
+    {
+      "id": "fruehstart-a-porsch2016",
+      "title": "porsch2016 primary text",
+      "url": "https://www.pedocs.de/volltexte/2023/25943/pdf/DDS_2016_1_Porsch_Fachfremd_unterrichten.pdf",
+      "retrieved_at": "2026-10-25T11:19:03.710703+00:00",
+      "temporal_limit": "Original publication predates October 2026; current retrieval not a historical HTML snapshot.",
+      "error": "URLError(timeout('timed out'))",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "fruehstart-a-web-primary",
+      "title": "Primary institution and original research tool extractions, with access failures",
+      "url": "https://www.oecd.org/en/publications/shaping-students-financial-literacy_c3f3dc74-en.html",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-web-primary.json",
+      "sha256": "d6b0d153889470167c312e5399eed020baa8e48d88eca6ab7651548292b75997",
+      "temporal_limit": "Explicit tool extraction, not original HTML/PDF. Includes OECD 2023/2024, BMF 2023, primary research publisher text, NBIM/NEST governance. Failed direct PDF/HTML requests preserved as limits."
+    },
+    {
+      "id": "fruehstart-2026-root-draft",
+      "title": "Frühstartrente hearing — archived official addressed draft/context",
+      "url": "https://dserver.bundestag.de/btd/21/078/2107864.pdf",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round2-tax/sources/fruehstart-bt217864.pdf",
+      "sha256": "9d14355f8293339cd031b901c02c7be0b0f9dab1d7ca5f7edf5ce07fa834b4e7",
+      "archive_note": "Previously archived official file; hash and physical page count reverified at continuation start. Not a new original-download timestamp.",
+      "temporal_limit": "Government bill transmitted 7 September 2026, not the 21 July consultation draft or later committee text.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "fruehstart-root-ministry-july-index",
+      "title": "BMF July FrühStRG consultation landing-page attempt",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-07-21-FruehStRG/0-Gesetz.html",
+      "retrieved_at": "2026-10-25T11:00:40.555893+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/root-ministry-july-index.html",
+      "sha256": "c14a7a1137ee90b79fa43dc4924d99636fe05dcbd42b9becbd87e57e0b8e4aaa",
+      "http_status": 503,
+      "usable_as_evidence": false,
+      "temporal_limit": "Current retrieval; July draft identity and historical delivery bytes require authentication. Access error/challenge cannot support substantive claims."
+    }
+  ],
+  "exclusions": [
+    {
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "reason": "Competence definitions, comprehensive education standards and rejection of product information as sufficient education are pedagogical frameworks/arguments; their framework existence and bill information duties are inventoried."
+    },
+    {
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        3
+      ],
+      "reason": "School advertising rejection, influence risk and requested material quality safeguards are normative; no author intent inferred."
+    },
+    {
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "reason": "Predicted widening inequality, unchanged informal learning in default households and relative future visibility are forecasts. Association premises, contribution cap and tax treatment inventoried."
+    },
+    {
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        6
+      ],
+      "reason": "Bibliography only; no additional material premise beyond cited body claims."
+    },
+    {
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "reason": "Educational principles and own table of reflection questions are explicitly a theoretical evaluative framework, not empirically measured policy effects."
+    },
+    {
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "reason": "Problem, subject, social-context, pluralism and curriculum requirements are educational interpretations/recommendations; specific adult-study population and bill-content assertions inventoried."
+    },
+    {
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        5
+      ],
+      "reason": "Conclusion repeats normative conditions for calling experience education; no new measured outcome."
+    },
+    {
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        6
+      ],
+      "reason": "Bibliography; material cited empirical premises inventoried from body."
+    },
+    {
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "reason": "Future wider access, low-income gains and educational benefit are policy predictions; underlying allocation/default/experience assumptions inventoried."
+    },
+    {
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        3
+      ],
+      "reason": "Long-term steady gains, no boom explosion, policy failure and expected large default uptake are forecasts; do not convert them into factual errors. Mailing requirement and governance design are preferences."
+    },
+    {
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        4
+      ],
+      "reason": "Automatic connection to other retirement schemes is a policy request; future saving interruptions are forecasts. Signature/affiliations incidental."
+    }
+  ],
+  "visual_checks": [
+    {
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        3
+      ],
+      "method": "Poppler PNG examined for no-information versus personal-delivery context and grouped governance wording."
+    },
+    {
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        3
+      ],
+      "method": "Poppler PNG examined for Länder competence, private-publisher qualification and footnote context."
+    }
+  ],
+  "limitations": [
+    "All 16 allocated physical pages read before counterpart inventories or prior dispositions. No candidate errors proposed.",
+    "Malmendier response is undated; hearing 5 October 2026 provides an upper context, not authenticated delivery date. Studies/white paper predate hearing; later evidence not silently used as contemporaneous.",
+    "Long evidence reports read in relevant passages only. OECD/direct journal PDF access gaps explicitly retained; original papers and tool extractions distinguished.",
+    "No author contact or human specialist confirmation. Educational framework disagreements, forecasts and unquantified risks are not findings."
+  ]
+}

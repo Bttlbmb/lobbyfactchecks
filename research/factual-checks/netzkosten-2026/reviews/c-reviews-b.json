@@ -1,0 +1,1769 @@
+{
+  "reviewer": "claims_c",
+  "reviewed_at": "2026-10-25T10:31:16.594837+00:00",
+  "reviewed_file": "research/factual-checks/netzkosten-2026/agents/claims-b.json",
+  "reviewed_sha256": "fa6b6b61054a33ce4aa3ea3437da238427fb5848e73fc855245ee2510b2778ca",
+  "documents_reread": [
+    {
+      "document_id": "bmwe-netzkosten-2026-008",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fully_read": true,
+      "sha256": "2808b19a5bb1843ca1442c055382dcd7cd0bde8d4044111f6fab88fd55d14034",
+      "visual_pages": [
+        3
+      ]
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-009",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fully_read": true,
+      "sha256": "762898b5a24d4ec118b289511cf6c9d4db3fe2cec9d8b98cd78621ee09cb45d9",
+      "visual_pages": [
+        3
+      ]
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-010",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "fully_read": true,
+      "sha256": "fcccacc0cbc14c644a7fbbb644d122cdefe745e160fb1f238402d844275be01d",
+      "visual_pages": []
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-011",
+      "pages": [
+        1,
+        2
+      ],
+      "fully_read": true,
+      "sha256": "8fbc73dc6dd02de58d3d8b7880514fa80ed4c1a659cb7a99367b7759611a509a",
+      "visual_pages": []
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-012",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fully_read": true,
+      "sha256": "ef4258c47c5c63706a570e68f474987d3dca96136ddb6a0f00eae4c36d584067",
+      "visual_pages": []
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-013",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "fully_read": true,
+      "sha256": "46904b8b054e72305d5f121ec6702b1f0ca8ae19aea34b93dd255480237461a1",
+      "visual_pages": []
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "netzkosten-b-008-01",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The general calculation/cascade mechanism is supported, with the original grundsätzlich and the raw retail/individual-tariff qualifications preserved.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        },
+        {
+          "check_id": "consentec",
+          "source_id": "netzkosten-c-consentec2025",
+          "locator": "Independently accessed original report; printed pages 3–7, 12–17 and summary table",
+          "result": "Vertical allocation and local generation/withdrawals produce regional effects. Subsidising uniform levies gives geographically uniform per-kWh relief within a non-privileged category, with privilege-specific limits for high-volume industry. Physical-path tariff issues and differences between financing redistribution and gross cost reductions are acknowledged."
+        },
+        {
+          "check_id": "asset",
+          "source_id": "netzkosten-root-stromnev",
+          "locator": "Annex 1 and §§13–19",
+          "result": "Regulatory technical asset lives extend well beyond a few years; vertical cost allocation and individual tariff floors have specified rules. Technical useful life is not identical to every industrial project’s amortisation period."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-02",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Regional and connection-level differences are supported; a common transmission tariff does not imply a common distribution tariff effect.",
+      "evidence_checks": [
+        {
+          "check_id": "consentec",
+          "source_id": "netzkosten-c-consentec2025",
+          "locator": "Independently accessed original report; printed pages 3–7, 12–17 and summary table",
+          "result": "Vertical allocation and local generation/withdrawals produce regional effects. Subsidising uniform levies gives geographically uniform per-kWh relief within a non-privileged category, with privilege-specific limits for high-volume industry. Physical-path tariff issues and differences between financing redistribution and gross cost reductions are acknowledged."
+        },
+        {
+          "check_id": "allocation",
+          "source_id": "netzkosten-cr-ee-distribution",
+          "locator": "Primary regulator description of BK8-24-001-A and effective 2025 mechanism",
+          "result": "Special renewable-integration costs above the threshold can be distributed nationally through the special-network-use surcharge. Current beneficiary list dated October 2026 is not used to prove an August count. The mechanism redistributes costs and some regional differences; it does not remove gross network expense or all differences."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-03",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved: typical topology does not verify the near-universal quantifier for this particular membership population.",
+      "evidence_checks": [
+        {
+          "check_id": "consentec",
+          "source_id": "netzkosten-c-consentec2025",
+          "locator": "Independently accessed original report; printed pages 3–7, 12–17 and summary table",
+          "result": "Vertical allocation and local generation/withdrawals produce regional effects. Subsidising uniform levies gives geographically uniform per-kWh relief within a non-privileged category, with privilege-specific limits for high-volume industry. Physical-path tariff issues and differences between financing redistribution and gross cost reductions are acknowledged."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-04",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved: eligibility varies by activity and load/use, and no membership-weighted denominator establishes largely excluded across these distinct instruments.",
+      "evidence_checks": [
+        {
+          "check_id": "tax",
+          "source_id": "netzkosten-cr-stromstg",
+          "locator": "Header amended 22 December 2025; §2 no. 3, §3, §9b and exemptions",
+          "result": "Producing-industry definition includes WZ 2003 manufacturing and construction. Crafts are not a blanket excluded category. §9b has a permanent 20 euros/MWh application-based refund with 250 euros annual deductible and eligibility/state-aid conditions; the general rate is 20.50 euros/MWh. The primary BMF indexed page independently retrieved gives bakery, butcher and construction/craft examples."
+        },
+        {
+          "check_id": "asset",
+          "source_id": "netzkosten-root-stromnev",
+          "locator": "Annex 1 and §§13–19",
+          "result": "Regulatory technical asset lives extend well beyond a few years; vertical cost allocation and individual tariff floors have specified rules. Technical useful life is not identical to every industrial project’s amortisation period."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-05",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved: identical final statutory rates, identical marginal savings and no refund applications are different design propositions; the hypothetical proposal does not settle existing exemptions.",
+      "evidence_checks": [
+        {
+          "check_id": "tax",
+          "source_id": "netzkosten-cr-stromstg",
+          "locator": "Header amended 22 December 2025; §2 no. 3, §3, §9b and exemptions",
+          "result": "Producing-industry definition includes WZ 2003 manufacturing and construction. Crafts are not a blanket excluded category. §9b has a permanent 20 euros/MWh application-based refund with 250 euros annual deductible and eligibility/state-aid conditions; the general rate is 20.50 euros/MWh. The primary BMF indexed page independently retrieved gives bakery, butcher and construction/craft examples."
+        },
+        {
+          "check_id": "eu-tax",
+          "source_id": "netzkosten-c-taxminimum-web",
+          "locator": "Primary Directive 2003/96/EC, Annex I table C",
+          "result": "Business-use electricity minimum is 0.5 euros/MWh = 0.05 ct/kWh; non-business minimum is 1 euro/MWh. This is a rate floor, not every firm’s effective refund-adjusted average tax."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-06",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Permanent statutory refund from 2026 is supported, with deductible and eligibility conditions retained.",
+      "evidence_checks": [
+        {
+          "check_id": "tax",
+          "source_id": "netzkosten-cr-stromstg",
+          "locator": "Header amended 22 December 2025; §2 no. 3, §3, §9b and exemptions",
+          "result": "Producing-industry definition includes WZ 2003 manufacturing and construction. Crafts are not a blanket excluded category. §9b has a permanent 20 euros/MWh application-based refund with 250 euros annual deductible and eligibility/state-aid conditions; the general rate is 20.50 euros/MWh. The primary BMF indexed page independently retrieved gives bakery, butcher and construction/craft examples."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-07",
+      "reviewed_result": "overstated",
+      "verdict": "accept",
+      "reason": "Accept the narrow overstatement: an unqualified excluded craft category is too broad. Manufacturing/construction crafts may qualify. The preceding producing-industry sentence permits a charitable non-producing-crafts shorthand, but that omitted qualifier is not actually stated. Preserve it as an alternative and preserve the valid trade/service and policy context. No claim that all crafts receive a refund or that every bill has a 0.05 ct effective average is warranted.",
+      "evidence_checks": [
+        {
+          "check_id": "tax",
+          "source_id": "netzkosten-cr-stromstg",
+          "locator": "Header amended 22 December 2025; §2 no. 3, §3, §9b and exemptions",
+          "result": "Producing-industry definition includes WZ 2003 manufacturing and construction. Crafts are not a blanket excluded category. §9b has a permanent 20 euros/MWh application-based refund with 250 euros annual deductible and eligibility/state-aid conditions; the general rate is 20.50 euros/MWh. The primary BMF indexed page independently retrieved gives bakery, butcher and construction/craft examples."
+        }
+      ],
+      "candidate_context_review": {
+        "classification": "Accept overstated only for the unqualified legal category exclusion.",
+        "severity": "minor: supporting eligibility example, while substantial non-producing SME exclusion and author policy preference remain.",
+        "direction": "True narrowly: overbroad exclusion makes the case for extending tax relief appear broader.",
+        "credible_alternative": "Non-producing crafts may be intended after the producing-industry qualifier; this narrows what can fairly be published but does not make the unqualified craft category accurate.",
+        "no_extra_claims": "Eligibility is not actual receipt; annual deductible, activity classification and refund conditions remain."
+      }
+    },
+    {
+      "claim_id": "netzkosten-b-008-08",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved for the unspecified example; high cooling demand alone creates no §9b entitlement, but legal-entity activity and other electricity uses/exemptions remain unspecified.",
+      "evidence_checks": [
+        {
+          "check_id": "tax",
+          "source_id": "netzkosten-cr-stromstg",
+          "locator": "Header amended 22 December 2025; §2 no. 3, §3, §9b and exemptions",
+          "result": "Producing-industry definition includes WZ 2003 manufacturing and construction. Crafts are not a blanket excluded category. §9b has a permanent 20 euros/MWh application-based refund with 250 euros annual deductible and eligibility/state-aid conditions; the general rate is 20.50 euros/MWh. The primary BMF indexed page independently retrieved gives bakery, butcher and construction/craft examples."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-09",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The standard rate, business-use EU floor and unit conversions are supported; the statutory deductible prevents treating the rate difference as every firm’s effective average.",
+      "evidence_checks": [
+        {
+          "check_id": "tax",
+          "source_id": "netzkosten-cr-stromstg",
+          "locator": "Header amended 22 December 2025; §2 no. 3, §3, §9b and exemptions",
+          "result": "Producing-industry definition includes WZ 2003 manufacturing and construction. Crafts are not a blanket excluded category. §9b has a permanent 20 euros/MWh application-based refund with 250 euros annual deductible and eligibility/state-aid conditions; the general rate is 20.50 euros/MWh. The primary BMF indexed page independently retrieved gives bakery, butcher and construction/craft examples."
+        },
+        {
+          "check_id": "eu-tax",
+          "source_id": "netzkosten-c-taxminimum-web",
+          "locator": "Primary Directive 2003/96/EC, Annex I table C",
+          "result": "Business-use electricity minimum is 0.5 euros/MWh = 0.05 ct/kWh; non-business minimum is 1 euro/MWh. This is a rate floor, not every firm’s effective refund-adjusted average tax."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-10",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The broad electricity-tax promise is present; separate promise, law and implemented relief.",
+      "evidence_checks": [
+        {
+          "check_id": "coalition",
+          "source_id": "shared-coalition2025",
+          "locator": "Physical page 32 lines 956–964 and physical page 49 lines 1501–1503 independently reread",
+          "result": "Contains the five-ct package target, electricity tax for all at EU minima, lower levies/tariffs, lasting tariff cap goal, and industrial support. These are promises/goals, not proof of enacted universal entitlements."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-11",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "6.5 minus 5.525 is 0.975 billion euros; dividing by 6.5 gives 15%. This is nominal subsidy arithmetic, not a retail-price percentage.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        },
+        {
+          "check_id": "law",
+          "source_id": "netzkosten-root-enwg",
+          "locator": "Current header 23 July 2026; §§24b,24c,118(5),17f and 17i independently reread",
+          "result": "Existing 2026 subsidy is 6.5 billion euros. The generic supplier duty requires the lower net cost balance in the next contractual price adjustment; it does not guarantee instantaneous full pass-through for every retail contract. Offshore construction/operation and specified compensation costs have statutory financing provisions. The 2023 allocation uses forecast revenue-cap increases over 2022 and 12.84 billion euros."
+        },
+        {
+          "check_id": "tariff",
+          "source_id": "netzkosten-cr-igbce-recalculation",
+          "locator": "Independent recalculation from 2025 50Hertz physical page 2; 2026 unified sheet physical page 3; theoretical 2026 sheet physical page 1; all tariff tables independently rendered",
+          "result": "At 6000 hours, HöS annualised totals are 207.54 (2025), 215.11 (2026 without subsidy), 94.46 (with); HöS/HS 237.06, 232.96, 102.50. Scaling the relief by 0.85 gives 112.5575 and 122.069, and about 47.67%/47.60% relief. 47.6 divided by 1.05/1.10/1.15 gives 45.33/43.27/41.39. These are modelled profile totals, not published pure performance-price cells or forecasts."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-12",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The lower subsidy/growing denominator relation is supported conditionally; no annual cost or per-kWh path is proved.",
+      "evidence_checks": [
+        {
+          "check_id": "cost",
+          "source_id": "netzkosten-cr-bet-monitor2025",
+          "locator": "Physical pages 13, 79 and 88; independent government corroboration BT 21/2161 physical page 7",
+          "result": "The commissioned 2025 report reprices the same NEP 2023 measure basis to around 440 billion euros from TSO interviews in July 2025. This is a model/cost-basis estimate, not realised expenditure or necessarily the latest revised plan."
+        },
+        {
+          "check_id": "tariff",
+          "source_id": "netzkosten-cr-igbce-recalculation",
+          "locator": "Independent recalculation from 2025 50Hertz physical page 2; 2026 unified sheet physical page 3; theoretical 2026 sheet physical page 1; all tariff tables independently rendered",
+          "result": "At 6000 hours, HöS annualised totals are 207.54 (2025), 215.11 (2026 without subsidy), 94.46 (with); HöS/HS 237.06, 232.96, 102.50. Scaling the relief by 0.85 gives 112.5575 and 122.069, and about 47.67%/47.60% relief. 47.6 divided by 1.05/1.10/1.15 gives 45.33/43.27/41.39. These are modelled profile totals, not published pure performance-price cells or forecasts."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-13",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The generic longer-than-a-few-years asset horizon is supported. No particular BKM project payback or investment deadline follows.",
+      "evidence_checks": [
+        {
+          "check_id": "asset",
+          "source_id": "netzkosten-root-stromnev",
+          "locator": "Annex 1 and §§13–19",
+          "result": "Regulatory technical asset lives extend well beyond a few years; vertical cost allocation and individual tariff floors have specified rules. Technical useful life is not identical to every industrial project’s amortisation period."
+        },
+        {
+          "check_id": "flex",
+          "source_id": "netzkosten-cr-ffe-glass2025",
+          "locator": "Physical pages 3, 6–7, 10, 19–22 and 25; publication page dated 27 October 2025",
+          "result": "New independently located primary engineering/interview study: five glass producers and three furnace manufacturers, with some site inspections. Thermal balance, product quality and equipment integrity constrain short-term flexibility. Specific furnaces have multi-year lives and replacement windows, but these are not universal plant payback periods. Commissioned by BV Glas; process/sample-specific evidence, not all-industry survey."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-14",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The term, KTF financing and absence of automatic continuation match the current draft, with version identity qualified.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-15",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The immediate accounting mechanism changes the funding source rather than eliminating gross physical network costs. Longer-run behavioural effects remain open.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        },
+        {
+          "check_id": "consentec",
+          "source_id": "netzkosten-c-consentec2025",
+          "locator": "Independently accessed original report; printed pages 3–7, 12–17 and summary table",
+          "result": "Vertical allocation and local generation/withdrawals produce regional effects. Subsidising uniform levies gives geographically uniform per-kWh relief within a non-privileged category, with privilege-specific limits for high-volume industry. Physical-path tariff issues and differences between financing redistribution and gross cost reductions are acknowledged."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-16",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Congestion management incurs regulated-system costs recovered through tariffs. All remains a system-level generalisation with exemptions and differing incidence retained.",
+      "evidence_checks": [
+        {
+          "check_id": "imk97",
+          "source_id": "netzkosten-cr-imk97",
+          "locator": "Physical pages 1, 3–10, 12, 17–19; Table 1 on physical page 9",
+          "result": "Primary 2024 research synthesises 328 billion euros transmission and 323 billion distribution by 2045, including start/expansion networks and model uncertainty. Physical page 8 describes the investment interval as 2023–2037; the precise 2024 start in the author’s sentence is not independently established as the complete spending boundary."
+        },
+        {
+          "check_id": "law",
+          "source_id": "netzkosten-root-enwg",
+          "locator": "Current header 23 July 2026; §§24b,24c,118(5),17f and 17i independently reread",
+          "result": "Existing 2026 subsidy is 6.5 billion euros. The generic supplier duty requires the lower net cost balance in the next contractual price adjustment; it does not guarantee instantaneous full pass-through for every retail contract. Offshore construction/operation and specified compensation costs have statutory financing provisions. The 2023 allocation uses forecast revenue-cap increases over 2022 and 12.84 billion euros."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-17",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The dated primary announcement confirms cabinet adoption; no inference of parliamentary enactment or exact delivery date.",
+      "evidence_checks": [
+        {
+          "check_id": "cabinet",
+          "source_id": "netzkosten-cr-eeg-cabinet",
+          "locator": "Government announcement dated 29 July 2026",
+          "result": "Confirms cabinet adoption of EEG 2027 and network-package draft bills, before the August consultation; adoption is not enactment. BKM authorship date remains unauthenticated."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-008-18",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved: general electrification scenarios do not measure the current trend specifically within the author’s membership.",
+      "evidence_checks": [
+        {
+          "check_id": "cost",
+          "source_id": "netzkosten-cr-bet-monitor2025",
+          "locator": "Physical pages 13, 79 and 88; independent government corroboration BT 21/2161 physical page 7",
+          "result": "The commissioned 2025 report reprices the same NEP 2023 measure basis to around 440 billion euros from TSO interviews in July 2025. This is a model/cost-basis estimate, not realised expenditure or necessarily the latest revised plan."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-009-01",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The draft funds a bounded tariff reduction and reporting, rather than redesigning the general tax/tariff system; structural adequacy is an opinion.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-009-02",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "A universal minimum-rate cut is not enacted, despite the sector-specific permanent refund. Producing crafts are not excluded by this formulation.",
+      "evidence_checks": [
+        {
+          "check_id": "tax",
+          "source_id": "netzkosten-cr-stromstg",
+          "locator": "Header amended 22 December 2025; §2 no. 3, §3, §9b and exemptions",
+          "result": "Producing-industry definition includes WZ 2003 manufacturing and construction. Crafts are not a blanket excluded category. §9b has a permanent 20 euros/MWh application-based refund with 250 euros annual deductible and eligibility/state-aid conditions; the general rate is 20.50 euros/MWh. The primary BMF indexed page independently retrieved gives bakery, butcher and construction/craft examples."
+        },
+        {
+          "check_id": "coalition",
+          "source_id": "shared-coalition2025",
+          "locator": "Physical page 32 lines 956–964 and physical page 49 lines 1501–1503 independently reread",
+          "result": "Contains the five-ct package target, electricity tax for all at EU minima, lower levies/tariffs, lasting tariff cap goal, and industrial support. These are promises/goals, not proof of enacted universal entitlements."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-009-03",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved under the strongest contextual reading. The literal no-rule proposition is too broad because cost deduction, cost allocation and §118(5) exist. The wording can also concern a guaranteed complete retail chain, which those provisions do not ensure instantly for every contract. Do not transform the absence of automatic retail repricing into no legal duties.",
+      "evidence_checks": [
+        {
+          "check_id": "law",
+          "source_id": "netzkosten-root-enwg",
+          "locator": "Current header 23 July 2026; §§24b,24c,118(5),17f and 17i independently reread",
+          "result": "Existing 2026 subsidy is 6.5 billion euros. The generic supplier duty requires the lower net cost balance in the next contractual price adjustment; it does not guarantee instantaneous full pass-through for every retail contract. Offshore construction/operation and specified compensation costs have statutory financing provisions. The 2023 allocation uses forecast revenue-cap increases over 2022 and 12.84 billion euros."
+        },
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        },
+        {
+          "check_id": "asset",
+          "source_id": "netzkosten-root-stromnev",
+          "locator": "Annex 1 and §§13–19",
+          "result": "Regulatory technical asset lives extend well beyond a few years; vertical cost allocation and individual tariff floors have specified rules. Technical useful life is not identical to every industrial project’s amortisation period."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-009-04",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Final-user craft firms do not apply for this subsidy. That supports the bounded no-additional-application point, not zero administrative duties for all participants.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-009-05",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved as a population-experience claim; future bill effects are profile/contract-specific and no survey verifies many firms’ knowledge.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        },
+        {
+          "check_id": "consentec",
+          "source_id": "netzkosten-c-consentec2025",
+          "locator": "Independently accessed original report; printed pages 3–7, 12–17 and summary table",
+          "result": "Vertical allocation and local generation/withdrawals produce regional effects. Subsidising uniform levies gives geographically uniform per-kWh relief within a non-privileged category, with privilege-specific limits for high-volume industry. Physical-path tariff issues and differences between financing redistribution and gross cost reductions are acknowledged."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-009-06",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Expiry after 2029 and absence of a successor mechanism are supported. A later burden jump is a conditional forecast.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-010-01",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The period and rounded 5.5-billion amount match. The explicit end date prevents interpreting verstetigen as permanence.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        },
+        {
+          "check_id": "law",
+          "source_id": "netzkosten-root-enwg",
+          "locator": "Current header 23 July 2026; §§24b,24c,118(5),17f and 17i independently reread",
+          "result": "Existing 2026 subsidy is 6.5 billion euros. The generic supplier duty requires the lower net cost balance in the next contractual price adjustment; it does not guarantee instantaneous full pass-through for every retail contract. Offshore construction/operation and specified compensation costs have statutory financing provisions. The 2023 allocation uses forecast revenue-cap increases over 2022 and 12.84 billion euros."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-010-02",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The general substantial electricity-price component is supported across monitored examples; it is not a uniform percentage.",
+      "evidence_checks": [
+        {
+          "check_id": "monitor",
+          "source_id": "netzkosten-root-monitoring2025",
+          "locator": "Physical pages 105–106, especially Figure 48; price definitions on physical page 29",
+          "result": "2020–2025 household/commercial/industrial network-tariff series rise materially over the interval, with 2025 slightly below 2024. Figures use distinct profiles and weighted net charges; no universal rank or identical share across groups follows."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-010-03",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved: a million-euro possibility is not impossible at large consumption, but the statement supplies no testable firm/profile example and the magnitude is not established.",
+      "evidence_checks": [
+        {
+          "check_id": "tariff",
+          "source_id": "netzkosten-cr-igbce-recalculation",
+          "locator": "Independent recalculation from 2025 50Hertz physical page 2; 2026 unified sheet physical page 3; theoretical 2026 sheet physical page 1; all tariff tables independently rendered",
+          "result": "At 6000 hours, HöS annualised totals are 207.54 (2025), 215.11 (2026 without subsidy), 94.46 (with); HöS/HS 237.06, 232.96, 102.50. Scaling the relief by 0.85 gives 112.5575 and 122.069, and about 47.67%/47.60% relief. 47.6 divided by 1.05/1.10/1.15 gives 45.33/43.27/41.39. These are modelled profile totals, not published pure performance-price cells or forecasts."
+        },
+        {
+          "check_id": "consentec",
+          "source_id": "netzkosten-c-consentec2025",
+          "locator": "Independently accessed original report; printed pages 3–7, 12–17 and summary table",
+          "result": "Vertical allocation and local generation/withdrawals produce regional effects. Subsidising uniform levies gives geographically uniform per-kWh relief within a non-privileged category, with privilege-specific limits for high-volume industry. Physical-path tariff issues and differences between financing redistribution and gross cost reductions are acknowledged."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-010-04",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The listed offshore connection and compensation cost categories match statutory financing.",
+      "evidence_checks": [
+        {
+          "check_id": "law",
+          "source_id": "netzkosten-root-enwg",
+          "locator": "Current header 23 July 2026; §§24b,24c,118(5),17f and 17i independently reread",
+          "result": "Existing 2026 subsidy is 6.5 billion euros. The generic supplier duty requires the lower net cost balance in the next contractual price adjustment; it does not guarantee instantaneous full pass-through for every retail contract. Offshore construction/operation and specified compensation costs have statutory financing provisions. The 2023 allocation uses forecast revenue-cap increases over 2022 and 12.84 billion euros."
+        },
+        {
+          "check_id": "consentec",
+          "source_id": "netzkosten-c-consentec2025",
+          "locator": "Independently accessed original report; printed pages 3–7, 12–17 and summary table",
+          "result": "Vertical allocation and local generation/withdrawals produce regional effects. Subsidising uniform levies gives geographically uniform per-kWh relief within a non-privileged category, with privilege-specific limits for high-volume industry. Physical-path tariff issues and differences between financing redistribution and gross cost reductions are acknowledged."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-010-05",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The effective 2025 special-cost allocation mechanism is supported; it is not complete national tariff equalisation.",
+      "evidence_checks": [
+        {
+          "check_id": "allocation",
+          "source_id": "netzkosten-cr-ee-distribution",
+          "locator": "Primary regulator description of BK8-24-001-A and effective 2025 mechanism",
+          "result": "Special renewable-integration costs above the threshold can be distributed nationally through the special-network-use surcharge. Current beneficiary list dated October 2026 is not used to prove an August count. The mechanism redistributes costs and some regional differences; it does not remove gross network expense or all differences."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-010-06",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The five-ct package target and lower levies/tariffs are explicit in the agreement; not an achieved saving.",
+      "evidence_checks": [
+        {
+          "check_id": "coalition",
+          "source_id": "shared-coalition2025",
+          "locator": "Physical page 32 lines 956–964 and physical page 49 lines 1501–1503 independently reread",
+          "result": "Contains the five-ct package target, electricity tax for all at EU minima, lower levies/tariffs, lasting tariff cap goal, and industrial support. These are promises/goals, not proof of enacted universal entitlements."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-010-07",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved for the full broad industrial-user formulation. Geographical uniformity within a levy-paying category is supported, while industrial privileges can suppress or alter relief. Breite need not mean every user gets the same amount.",
+      "evidence_checks": [
+        {
+          "check_id": "consentec",
+          "source_id": "netzkosten-c-consentec2025",
+          "locator": "Independently accessed original report; printed pages 3–7, 12–17 and summary table",
+          "result": "Vertical allocation and local generation/withdrawals produce regional effects. Subsidising uniform levies gives geographically uniform per-kWh relief within a non-privileged category, with privilege-specific limits for high-volume industry. Physical-path tariff issues and differences between financing redistribution and gross cost reductions are acknowledged."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-011-01",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The amount, duration and transparency provision match. Bills need point to the information; full with/without tariff tables are not required on every bill.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-011-02",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The roughly one-billion reduction is accurate nominal arithmetic.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        },
+        {
+          "check_id": "law",
+          "source_id": "netzkosten-root-enwg",
+          "locator": "Current header 23 July 2026; §§24b,24c,118(5),17f and 17i independently reread",
+          "result": "Existing 2026 subsidy is 6.5 billion euros. The generic supplier duty requires the lower net cost balance in the next contractual price adjustment; it does not guarantee instantaneous full pass-through for every retail contract. Offshore construction/operation and specified compensation costs have statutory financing provisions. The 2023 allocation uses forecast revenue-cap increases over 2022 and 12.84 billion euros."
+        },
+        {
+          "check_id": "tariff",
+          "source_id": "netzkosten-cr-igbce-recalculation",
+          "locator": "Independent recalculation from 2025 50Hertz physical page 2; 2026 unified sheet physical page 3; theoretical 2026 sheet physical page 1; all tariff tables independently rendered",
+          "result": "At 6000 hours, HöS annualised totals are 207.54 (2025), 215.11 (2026 without subsidy), 94.46 (with); HöS/HS 237.06, 232.96, 102.50. Scaling the relief by 0.85 gives 112.5575 and 122.069, and about 47.67%/47.60% relief. 47.6 divided by 1.05/1.10/1.15 gives 45.33/43.27/41.39. These are modelled profile totals, not published pure performance-price cells or forecasts."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-011-03",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Accept unresolved: 440 billion euros is a real older-plan repricing basis, repeated even in the later plan, while revised measures give 365–392. The author does not specify the basis. This is not a demonstrated numerical error.",
+      "evidence_checks": [
+        {
+          "check_id": "cost",
+          "source_id": "netzkosten-cr-bet-monitor2025",
+          "locator": "Physical pages 13, 79 and 88; independent government corroboration BT 21/2161 physical page 7",
+          "result": "The commissioned 2025 report reprices the same NEP 2023 measure basis to around 440 billion euros from TSO interviews in July 2025. This is a model/cost-basis estimate, not realised expenditure or necessarily the latest revised plan."
+        },
+        {
+          "check_id": "nep",
+          "source_id": "netzkosten-cr-nep2025-v2",
+          "locator": "Physical pages 270–272 of March 2026 second draft",
+          "result": "Revised scenarios total about 365–392 billion euros by 2045, including specified start and expansion networks; the same page explicitly repeats the older 440-billion-euro repricing for NEP 2023. Different measure sets, overhead lines and assumptions matter. Neither figure alone disproves the other."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-011-04",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved: approximate 800 billion total requires matched transmission/distribution coverage, price years and scenario definitions. Different published totals alone do not contradict it.",
+      "evidence_checks": [
+        {
+          "check_id": "cost",
+          "source_id": "netzkosten-cr-bet-monitor2025",
+          "locator": "Physical pages 13, 79 and 88; independent government corroboration BT 21/2161 physical page 7",
+          "result": "The commissioned 2025 report reprices the same NEP 2023 measure basis to around 440 billion euros from TSO interviews in July 2025. This is a model/cost-basis estimate, not realised expenditure or necessarily the latest revised plan."
+        },
+        {
+          "check_id": "nep",
+          "source_id": "netzkosten-cr-nep2025-v2",
+          "locator": "Physical pages 270–272 of March 2026 second draft",
+          "result": "Revised scenarios total about 365–392 billion euros by 2045, including specified start and expansion networks; the same page explicitly repeats the older 440-billion-euro repricing for NEP 2023. Different measure sets, overhead lines and assumptions matter. Neither figure alone disproves the other."
+        },
+        {
+          "check_id": "imk97",
+          "source_id": "netzkosten-cr-imk97",
+          "locator": "Physical pages 1, 3–10, 12, 17–19; Table 1 on physical page 9",
+          "result": "Primary 2024 research synthesises 328 billion euros transmission and 323 billion distribution by 2045, including start/expansion networks and model uncertainty. Physical page 8 describes the investment interval as 2023–2037; the precise 2024 start in the author’s sentence is not independently established as the complete spending boundary."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-011-05",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The lasting cap goal is explicit and includes industry, but is broadly phrased for consumers/businesses, not an exclusive industrial entitlement.",
+      "evidence_checks": [
+        {
+          "check_id": "coalition",
+          "source_id": "shared-coalition2025",
+          "locator": "Physical page 32 lines 956–964 and physical page 49 lines 1501–1503 independently reread",
+          "result": "Contains the five-ct package target, electricity tax for all at EU minima, lower levies/tariffs, lasting tariff cap goal, and industrial support. These are promises/goals, not proof of enacted universal entitlements."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-011-06",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Ongoing reform and unsettled future design are supported. The precise forecast consultation date remains outside the established proposition.",
+      "evidence_checks": [
+        {
+          "check_id": "agnes",
+          "source_id": "netzkosten-c-agnes-announcement",
+          "locator": "Official announcement 6 August 2026 and current 198-page consultation draft",
+          "result": "Confirms ongoing general-tariff consultation and future reform/implementation. The precise timing and final content of a separate future industrial reform remain open."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-011-07",
+      "reviewed_result": "supported",
+      "verdict": "revise",
+      "reason": "Revise the complete original assessment: the possibility of limited/no direct path-cost relief is supported, but the source says numerous users will be affected. A possible mechanism does not establish that population or outcome, and the raw English some silently weakens numerous. Retain the narrow mechanism as supported and the actual numerous-user impact as unresolved.",
+      "evidence_checks": [
+        {
+          "check_id": "path",
+          "source_id": "netzkosten-cr-path-costs",
+          "locator": "Physical pages 3–12 / printed pages 1–10, especially printed pages 6–10; StromNEV §19(2) floors",
+          "result": "The path method directly allocates relevant existing asset cost and excludes upstream network cost from the path-to-generator operating-cost calculation. Path-to-node tariff variants and 10/15/20-percent general-tariff floors can still transmit relief. Possibility of limited/no direct relief is established; a count of numerous actually affected firms is not."
+        },
+        {
+          "check_id": "asset",
+          "source_id": "netzkosten-root-stromnev",
+          "locator": "Annex 1 and §§13–19",
+          "result": "Regulatory technical asset lives extend well beyond a few years; vertical cost allocation and individual tariff floors have specified rules. Technical useful life is not identical to every industrial project’s amortisation period."
+        },
+        {
+          "check_id": "consentec",
+          "source_id": "netzkosten-c-consentec2025",
+          "locator": "Independently accessed original report; printed pages 3–7, 12–17 and summary table",
+          "result": "Vertical allocation and local generation/withdrawals produce regional effects. Subsidising uniform levies gives geographically uniform per-kWh relief within a non-privileged category, with privilege-specific limits for high-volume industry. Physical-path tariff issues and differences between financing redistribution and gross cost reductions are acknowledged."
+        }
+      ],
+      "proposed_result": "unresolved",
+      "proposed_supported_subclaim": "The physical-path method can limit or remove the direct effect of a lower upstream general tariff; actual numerous-user incidence is unresolved."
+    },
+    {
+      "claim_id": "netzkosten-b-011-08",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The in-year adjustment permission and specified trigger match, subject to the common decision, six-week notice and once-yearly restriction.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-01",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Annual amounts, three-year total and KTF rationale match; future appropriation/execution is distinct.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        },
+        {
+          "check_id": "law",
+          "source_id": "netzkosten-root-enwg",
+          "locator": "Current header 23 July 2026; §§24b,24c,118(5),17f and 17i independently reread",
+          "result": "Existing 2026 subsidy is 6.5 billion euros. The generic supplier duty requires the lower net cost balance in the next contractual price adjustment; it does not guarantee instantaneous full pass-through for every retail contract. Offshore construction/operation and specified compensation costs have statutory financing provisions. The 2023 allocation uses forecast revenue-cap increases over 2022 and 12.84 billion euros."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-02",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The historical rise in regulated network-price components is supported. It need not mean an increase every year or for every customer.",
+      "evidence_checks": [
+        {
+          "check_id": "monitor",
+          "source_id": "netzkosten-root-monitoring2025",
+          "locator": "Physical pages 105–106, especially Figure 48; price definitions on physical page 29",
+          "result": "2020–2025 household/commercial/industrial network-tariff series rise materially over the interval, with 2025 slightly below 2024. Figures use distinct profiles and weighted net charges; no universal rank or identical share across groups follows."
+        },
+        {
+          "check_id": "imk98",
+          "source_id": "netzkosten-cr-imk98",
+          "locator": "Physical pages 3–5, 16, 18–22, 24, 26–27 and model context",
+          "result": "Conditional public/private funding scenarios produce 1.7 versus 3 ct/kWh tariff increments and 6.5 to 14.3 billion euros annual differences. Financing assumptions, guarantees and regulatory choices are integral. The debt rate is inconsistent at 4%/5% across discussion pages; this is a source limitation, not a fabricated author number. It does not establish realised 2026 savings or universal private financing costs."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-03",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Supported as can reach user groups in principle. The original can and group-level scope prevent treating this as a guaranteed positive saving for every individual user.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        },
+        {
+          "check_id": "consentec",
+          "source_id": "netzkosten-c-consentec2025",
+          "locator": "Independently accessed original report; printed pages 3–7, 12–17 and summary table",
+          "result": "Vertical allocation and local generation/withdrawals produce regional effects. Subsidising uniform levies gives geographically uniform per-kWh relief within a non-privileged category, with privilege-specific limits for high-volume industry. Physical-path tariff issues and differences between financing redistribution and gross cost reductions are acknowledged."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-04",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "15% nominal reduction is exact; future bill-price effects are conditional on other components and volumes.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        },
+        {
+          "check_id": "law",
+          "source_id": "netzkosten-root-enwg",
+          "locator": "Current header 23 July 2026; §§24b,24c,118(5),17f and 17i independently reread",
+          "result": "Existing 2026 subsidy is 6.5 billion euros. The generic supplier duty requires the lower net cost balance in the next contractual price adjustment; it does not guarantee instantaneous full pass-through for every retail contract. Offshore construction/operation and specified compensation costs have statutory financing provisions. The 2023 allocation uses forecast revenue-cap increases over 2022 and 12.84 billion euros."
+        },
+        {
+          "check_id": "tariff",
+          "source_id": "netzkosten-cr-igbce-recalculation",
+          "locator": "Independent recalculation from 2025 50Hertz physical page 2; 2026 unified sheet physical page 3; theoretical 2026 sheet physical page 1; all tariff tables independently rendered",
+          "result": "At 6000 hours, HöS annualised totals are 207.54 (2025), 215.11 (2026 without subsidy), 94.46 (with); HöS/HS 237.06, 232.96, 102.50. Scaling the relief by 0.85 gives 112.5575 and 122.069, and about 47.67%/47.60% relief. 47.6 divided by 1.05/1.10/1.15 gives 45.33/43.27/41.39. These are modelled profile totals, not published pure performance-price cells or forecasts."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-05",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved: absence of an explicit comparative 15% explanation in the draft is different from no adequate reason anywhere. Substantive adequacy is partly judgmental.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-06",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "No target/top-up and declining relative coverage if costs rise are supported. Ordinary regulatory reconciliation does not change the federal fixed amount.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        },
+        {
+          "check_id": "tariff",
+          "source_id": "netzkosten-cr-igbce-recalculation",
+          "locator": "Independent recalculation from 2025 50Hertz physical page 2; 2026 unified sheet physical page 3; theoretical 2026 sheet physical page 1; all tariff tables independently rendered",
+          "result": "At 6000 hours, HöS annualised totals are 207.54 (2025), 215.11 (2026 without subsidy), 94.46 (with); HöS/HS 237.06, 232.96, 102.50. Scaling the relief by 0.85 gives 112.5575 and 122.069, and about 47.67%/47.60% relief. 47.6 divided by 1.05/1.10/1.15 gives 45.33/43.27/41.39. These are modelled profile totals, not published pure performance-price cells or forecasts."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-07",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved. The identified consolidation contribution is not a reconciled revenue-side cut. No switch from spending reduction to revenue reduction is justified.",
+      "evidence_checks": [
+        {
+          "check_id": "budget",
+          "source_id": "netzkosten-cr-ktf-july6-index",
+          "locator": "Primary BMF indexed transcript, independently retrieved; current original URL returned 503",
+          "result": "Transcript describes 2.7 billion euros consolidation savings through programme cuts. That is not a reconciled KTF revenue-side reduction, contemporaneous budget denominator, or complete compensation-category definition. Retain unresolved; do not convert an expenditure cut into a proven revenue cut."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-08",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Existing national distribution of specified renewable-integration costs is supported, with limited scope.",
+      "evidence_checks": [
+        {
+          "check_id": "allocation",
+          "source_id": "netzkosten-cr-ee-distribution",
+          "locator": "Primary regulator description of BK8-24-001-A and effective 2025 mechanism",
+          "result": "Special renewable-integration costs above the threshold can be distributed nationally through the special-network-use surcharge. Current beneficiary list dated October 2026 is not used to prove an August count. The mechanism redistributes costs and some regional differences; it does not remove gross network expense or all differences."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-09",
+      "reviewed_result": "supported",
+      "verdict": "revise",
+      "reason": "Revise the exact time basis. The attributed 328-billion estimate by 2045 is supported, but the complete 2024-start spending window is not established. The original primary discussion uses 2023–2037 and includes start networks; do not silently certify a precise post-2023 expenditure boundary.",
+      "evidence_checks": [
+        {
+          "check_id": "imk97",
+          "source_id": "netzkosten-cr-imk97",
+          "locator": "Physical pages 1, 3–10, 12, 17–19; Table 1 on physical page 9",
+          "result": "Primary 2024 research synthesises 328 billion euros transmission and 323 billion distribution by 2045, including start/expansion networks and model uncertainty. Physical page 8 describes the investment interval as 2023–2037; the precise 2024 start in the author’s sentence is not independently established as the complete spending boundary."
+        },
+        {
+          "check_id": "imk98",
+          "source_id": "netzkosten-cr-imk98",
+          "locator": "Physical pages 3–5, 16, 18–22, 24, 26–27 and model context",
+          "result": "Conditional public/private funding scenarios produce 1.7 versus 3 ct/kWh tariff increments and 6.5 to 14.3 billion euros annual differences. Financing assumptions, guarantees and regulatory choices are integral. The debt rate is inconsistent at 4%/5% across discussion pages; this is a source limitation, not a fabricated author number. It does not establish realised 2026 savings or universal private financing costs."
+        }
+      ],
+      "proposed_result": "unresolved",
+      "proposed_supported_subclaim": "IMK Study 97 reports about 328 billion euros transmission investment by 2045 on its stated start/expansion and price basis; the exact author-specified 2024 start is not certified."
+    },
+    {
+      "claim_id": "netzkosten-b-012-10",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Accept unresolved for a general implementable financing outcome, while explicitly preserving the supported conditional model result: several-billion annual savings are traceable to the cited scenario and are not invented. A realised saving or all-structures financing advantage is not proved.",
+      "evidence_checks": [
+        {
+          "check_id": "imk98",
+          "source_id": "netzkosten-cr-imk98",
+          "locator": "Physical pages 3–5, 16, 18–22, 24, 26–27 and model context",
+          "result": "Conditional public/private funding scenarios produce 1.7 versus 3 ct/kWh tariff increments and 6.5 to 14.3 billion euros annual differences. Financing assumptions, guarantees and regulatory choices are integral. The debt rate is inconsistent at 4%/5% across discussion pages; this is a source limitation, not a fabricated author number. It does not establish realised 2026 savings or universal private financing costs."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-11",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Supported as a qualifying transaction could be debt-brake neutral. It does not eliminate fiscal risk, public debt or necessary transaction/budget approvals.",
+      "evidence_checks": [
+        {
+          "check_id": "g115",
+          "source_id": "netzkosten-cr-g115",
+          "locator": "Header 30 September 2025; §§2–3",
+          "result": "Qualifying equity-acquisition and lending transactions are removed for debt-brake balance calculation. This supports conditional possibility, not absence of public debt/risk or automatic neutrality for every acquisition, guarantee or subsidy."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-12",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved as a general future financing-cost claim. The near-double model comparison is traceable, not fabricated; its funding/regulatory assumptions and internal debt-rate inconsistency matter.",
+      "evidence_checks": [
+        {
+          "check_id": "imk98",
+          "source_id": "netzkosten-cr-imk98",
+          "locator": "Physical pages 3–5, 16, 18–22, 24, 26–27 and model context",
+          "result": "Conditional public/private funding scenarios produce 1.7 versus 3 ct/kWh tariff increments and 6.5 to 14.3 billion euros annual differences. Financing assumptions, guarantees and regulatory choices are integral. The debt rate is inconsistent at 4%/5% across discussion pages; this is a source limitation, not a fabricated author number. It does not establish realised 2026 savings or universal private financing costs."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-13",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The operating subsidy itself purchases no public equity asset. This does not mean there is no public benefit.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        },
+        {
+          "check_id": "g115",
+          "source_id": "netzkosten-cr-g115",
+          "locator": "Header 30 September 2025; §§2–3",
+          "result": "Qualifying equity-acquisition and lending transactions are removed for debt-brake balance calculation. This supports conditional possibility, not absence of public debt/risk or automatic neutrality for every acquisition, guarantee or subsidy."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-14",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Universal cut remains unimplemented while sector relief is permanent; exact eligibility and exemptions remain.",
+      "evidence_checks": [
+        {
+          "check_id": "tax",
+          "source_id": "netzkosten-cr-stromstg",
+          "locator": "Header amended 22 December 2025; §2 no. 3, §3, §9b and exemptions",
+          "result": "Producing-industry definition includes WZ 2003 manufacturing and construction. Crafts are not a blanket excluded category. §9b has a permanent 20 euros/MWh application-based refund with 250 euros annual deductible and eligibility/state-aid conditions; the general rate is 20.50 euros/MWh. The primary BMF indexed page independently retrieved gives bakery, butcher and construction/craft examples."
+        },
+        {
+          "check_id": "coalition",
+          "source_id": "shared-coalition2025",
+          "locator": "Physical page 32 lines 956–964 and physical page 49 lines 1501–1503 independently reread",
+          "result": "Contains the five-ct package target, electricity tax for all at EU minima, lower levies/tariffs, lasting tariff cap goal, and industrial support. These are promises/goals, not proof of enacted universal entitlements."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-15",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved for the unspecified international comparison: price definitions, customer classes, relief and comparison countries/periods differ.",
+      "evidence_checks": [
+        {
+          "check_id": "monitor",
+          "source_id": "netzkosten-root-monitoring2025",
+          "locator": "Physical pages 105–106, especially Figure 48; price definitions on physical page 29",
+          "result": "2020–2025 household/commercial/industrial network-tariff series rise materially over the interval, with 2025 slightly below 2024. Figures use distinct profiles and weighted net charges; no universal rank or identical share across groups follows."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-012-16",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Keep unresolved: an exact compensatory-spending definition and a contemporaneous KTF denominator are missing, and opportunity-cost adequacy is normative.",
+      "evidence_checks": [
+        {
+          "check_id": "budget",
+          "source_id": "netzkosten-cr-ktf-july6-index",
+          "locator": "Primary BMF indexed transcript, independently retrieved; current original URL returned 503",
+          "result": "Transcript describes 2.7 billion euros consolidation savings through programme cuts. That is not a reconciled KTF revenue-side reduction, contemporaneous budget denominator, or complete compensation-category definition. Retain unresolved; do not convert an expenditure cut into a proven revenue cut."
+        },
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-01",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "All payment/calculation features and 3×5.525 arithmetic match the draft, with request dates and version caveat retained.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        },
+        {
+          "check_id": "tariff",
+          "source_id": "netzkosten-cr-igbce-recalculation",
+          "locator": "Independent recalculation from 2025 50Hertz physical page 2; 2026 unified sheet physical page 3; theoretical 2026 sheet physical page 1; all tariff tables independently rendered",
+          "result": "At 6000 hours, HöS annualised totals are 207.54 (2025), 215.11 (2026 without subsidy), 94.46 (with); HöS/HS 237.06, 232.96, 102.50. Scaling the relief by 0.85 gives 112.5575 and 122.069, and about 47.67%/47.60% relief. 47.6 divided by 1.05/1.10/1.15 gives 45.33/43.27/41.39. These are modelled profile totals, not published pure performance-price cells or forecasts."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-02",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Supported: nominal claim, no target or extra reserve/top-up, and a missed-payment adjustment route coexist. No denial that the basic statutory payment entitlement can be enforced.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-03",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Public-law contract and continuing regulator authority match. Executed contract terms remain unverified.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-04",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Supported as contemplated examples in the rationale, not obligatory exact statutory profiles. Operative §118(5b) is physical page 4; examples physical page 11.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-05",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The subsidy difference and percentage are independently reproduced.",
+      "evidence_checks": [
+        {
+          "check_id": "law",
+          "source_id": "netzkosten-root-enwg",
+          "locator": "Current header 23 July 2026; §§24b,24c,118(5),17f and 17i independently reread",
+          "result": "Existing 2026 subsidy is 6.5 billion euros. The generic supplier duty requires the lower net cost balance in the next contractual price adjustment; it does not guarantee instantaneous full pass-through for every retail contract. Offshore construction/operation and specified compensation costs have statutory financing provisions. The 2023 allocation uses forecast revenue-cap increases over 2022 and 12.84 billion euros."
+        },
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        },
+        {
+          "check_id": "tariff",
+          "source_id": "netzkosten-cr-igbce-recalculation",
+          "locator": "Independent recalculation from 2025 50Hertz physical page 2; 2026 unified sheet physical page 3; theoretical 2026 sheet physical page 1; all tariff tables independently rendered",
+          "result": "At 6000 hours, HöS annualised totals are 207.54 (2025), 215.11 (2026 without subsidy), 94.46 (with); HöS/HS 237.06, 232.96, 102.50. Scaling the relief by 0.85 gives 112.5575 and 122.069, and about 47.67%/47.60% relief. 47.6 divided by 1.05/1.10/1.15 gives 45.33/43.27/41.39. These are modelled profile totals, not published pure performance-price cells or forecasts."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-06",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The rounded 56% and 47.6% comparisons reproduce for the defined fixed-cost profiles. They are not official 2027 tariffs or all-customer reductions.",
+      "evidence_checks": [
+        {
+          "check_id": "tariff",
+          "source_id": "netzkosten-cr-igbce-recalculation",
+          "locator": "Independent recalculation from 2025 50Hertz physical page 2; 2026 unified sheet physical page 3; theoretical 2026 sheet physical page 1; all tariff tables independently rendered",
+          "result": "At 6000 hours, HöS annualised totals are 207.54 (2025), 215.11 (2026 without subsidy), 94.46 (with); HöS/HS 237.06, 232.96, 102.50. Scaling the relief by 0.85 gives 112.5575 and 122.069, and about 47.67%/47.60% relief. 47.6 divided by 1.05/1.10/1.15 gives 45.33/43.27/41.39. These are modelled profile totals, not published pure performance-price cells or forecasts."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-07",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "207.54 and 215.11 are annual general-tariff totals per peak kW at 6000 hours; the 3.65% increase is correct.",
+      "evidence_checks": [
+        {
+          "check_id": "tariff",
+          "source_id": "netzkosten-cr-igbce-recalculation",
+          "locator": "Independent recalculation from 2025 50Hertz physical page 2; 2026 unified sheet physical page 3; theoretical 2026 sheet physical page 1; all tariff tables independently rendered",
+          "result": "At 6000 hours, HöS annualised totals are 207.54 (2025), 215.11 (2026 without subsidy), 94.46 (with); HöS/HS 237.06, 232.96, 102.50. Scaling the relief by 0.85 gives 112.5575 and 122.069, and about 47.67%/47.60% relief. 47.6 divided by 1.05/1.10/1.15 gives 45.33/43.27/41.39. These are modelled profile totals, not published pure performance-price cells or forecasts."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-08",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "237.06 and 232.96, and the 1.73% decrease, reproduce for the transformer profile.",
+      "evidence_checks": [
+        {
+          "check_id": "tariff",
+          "source_id": "netzkosten-cr-igbce-recalculation",
+          "locator": "Independent recalculation from 2025 50Hertz physical page 2; 2026 unified sheet physical page 3; theoretical 2026 sheet physical page 1; all tariff tables independently rendered",
+          "result": "At 6000 hours, HöS annualised totals are 207.54 (2025), 215.11 (2026 without subsidy), 94.46 (with); HöS/HS 237.06, 232.96, 102.50. Scaling the relief by 0.85 gives 112.5575 and 122.069, and about 47.67%/47.60% relief. 47.6 divided by 1.05/1.10/1.15 gives 45.33/43.27/41.39. These are modelled profile totals, not published pure performance-price cells or forecasts."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-09",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Same-year theoretical tariffs demonstrate that the large profile reduction is principally subsidy-driven. No audited universal operating-cost decomposition follows.",
+      "evidence_checks": [
+        {
+          "check_id": "tariff",
+          "source_id": "netzkosten-cr-igbce-recalculation",
+          "locator": "Independent recalculation from 2025 50Hertz physical page 2; 2026 unified sheet physical page 3; theoretical 2026 sheet physical page 1; all tariff tables independently rendered",
+          "result": "At 6000 hours, HöS annualised totals are 207.54 (2025), 215.11 (2026 without subsidy), 94.46 (with); HöS/HS 237.06, 232.96, 102.50. Scaling the relief by 0.85 gives 112.5575 and 122.069, and about 47.67%/47.60% relief. 47.6 divided by 1.05/1.10/1.15 gives 45.33/43.27/41.39. These are modelled profile totals, not published pure performance-price cells or forecasts."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-10",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "112.5575 and 122.069 reproduce the stated linear model. Leistungsentgelt is imprecise terminology here, but the explicit 6000-hour model context identifies annualised total costs, so no material numerical candidate is warranted.",
+      "evidence_checks": [
+        {
+          "check_id": "tariff",
+          "source_id": "netzkosten-cr-igbce-recalculation",
+          "locator": "Independent recalculation from 2025 50Hertz physical page 2; 2026 unified sheet physical page 3; theoretical 2026 sheet physical page 1; all tariff tables independently rendered",
+          "result": "At 6000 hours, HöS annualised totals are 207.54 (2025), 215.11 (2026 without subsidy), 94.46 (with); HöS/HS 237.06, 232.96, 102.50. Scaling the relief by 0.85 gives 112.5575 and 122.069, and about 47.67%/47.60% relief. 47.6 divided by 1.05/1.10/1.15 gives 45.33/43.27/41.39. These are modelled profile totals, not published pure performance-price cells or forecasts."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-11",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Conditional cost-growth percentages reproduce from the rounded 47.6 baseline. These are scenarios, not probabilities or forecasts.",
+      "evidence_checks": [
+        {
+          "check_id": "tariff",
+          "source_id": "netzkosten-cr-igbce-recalculation",
+          "locator": "Independent recalculation from 2025 50Hertz physical page 2; 2026 unified sheet physical page 3; theoretical 2026 sheet physical page 1; all tariff tables independently rendered",
+          "result": "At 6000 hours, HöS annualised totals are 207.54 (2025), 215.11 (2026 without subsidy), 94.46 (with); HöS/HS 237.06, 232.96, 102.50. Scaling the relief by 0.85 gives 112.5575 and 122.069, and about 47.67%/47.60% relief. 47.6 divided by 1.05/1.10/1.15 gives 45.33/43.27/41.39. These are modelled profile totals, not published pure performance-price cells or forecasts."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-12",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The 2023 statute and primary account support the stated stabilising mechanism and scale; tariff-relevant cost burden is distinct from gross physical expense.",
+      "evidence_checks": [
+        {
+          "check_id": "law",
+          "source_id": "netzkosten-root-enwg",
+          "locator": "Current header 23 July 2026; §§24b,24c,118(5),17f and 17i independently reread",
+          "result": "Existing 2026 subsidy is 6.5 billion euros. The generic supplier duty requires the lower net cost balance in the next contractual price adjustment; it does not guarantee instantaneous full pass-through for every retail contract. Offshore construction/operation and specified compensation costs have statutory financing provisions. The 2023 allocation uses forecast revenue-cap increases over 2022 and 12.84 billion euros."
+        },
+        {
+          "check_id": "consentec",
+          "source_id": "netzkosten-c-consentec2025",
+          "locator": "Independently accessed original report; printed pages 3–7, 12–17 and summary table",
+          "result": "Vertical allocation and local generation/withdrawals produce regional effects. Subsidising uniform levies gives geographically uniform per-kWh relief within a non-privileged category, with privilege-specific limits for high-volume industry. Physical-path tariff issues and differences between financing redistribution and gross cost reductions are acknowledged."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-13",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The in-year option for TSOs and corresponding DSO permission match, including legal/payment failure trigger and procedural limits.",
+      "evidence_checks": [
+        {
+          "check_id": "draft",
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-14",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The existing mechanism and its bounded regional redistribution role are supported; it does not reduce gross system costs.",
+      "evidence_checks": [
+        {
+          "check_id": "allocation",
+          "source_id": "netzkosten-cr-ee-distribution",
+          "locator": "Primary regulator description of BK8-24-001-A and effective 2025 mechanism",
+          "result": "Special renewable-integration costs above the threshold can be distributed nationally through the special-network-use surcharge. Current beneficiary list dated October 2026 is not used to prove an August count. The mechanism redistributes costs and some regional differences; it does not remove gross network expense or all differences."
+        },
+        {
+          "check_id": "consentec",
+          "source_id": "netzkosten-c-consentec2025",
+          "locator": "Independently accessed original report; printed pages 3–7, 12–17 and summary table",
+          "result": "Vertical allocation and local generation/withdrawals produce regional effects. Subsidising uniform levies gives geographically uniform per-kWh relief within a non-privileged category, with privilege-specific limits for high-volume industry. Physical-path tariff issues and differences between financing redistribution and gross cost reductions are acknowledged."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-b-013-15",
+      "reviewed_result": "unresolved",
+      "verdict": "revise",
+      "reason": "Revise the evidence rationale: newly located primary engineering research establishes that industrial processes can have technical flexibility limits, with explicit glass examples. The compound statement should distinguish that supported narrow premise from any broader claim about industry-wide extent or every transformation investment’s planning/amortisation period, which remains unquantified.",
+      "evidence_checks": [
+        {
+          "check_id": "flex",
+          "source_id": "netzkosten-cr-ffe-glass2025",
+          "locator": "Physical pages 3, 6–7, 10, 19–22 and 25; publication page dated 27 October 2025",
+          "result": "New independently located primary engineering/interview study: five glass producers and three furnace manufacturers, with some site inspections. Thermal balance, product quality and equipment integrity constrain short-term flexibility. Specific furnaces have multi-year lives and replacement windows, but these are not universal plant payback periods. Commissioned by BV Glas; process/sample-specific evidence, not all-industry survey."
+        },
+        {
+          "check_id": "asset",
+          "source_id": "netzkosten-root-stromnev",
+          "locator": "Annex 1 and §§13–19",
+          "result": "Regulatory technical asset lives extend well beyond a few years; vertical cost allocation and individual tariff floors have specified rules. Technical useful life is not identical to every industrial project’s amortisation period."
+        }
+      ],
+      "proposed_result": "unresolved",
+      "proposed_supported_subclaim": "Some industrial processes, including documented glassmaking cases, have technical limits on short-term electrical flexibility; the general scope of future investment paybacks is not established."
+    }
+  ],
+  "omissions": [
+    {
+      "document_id": "bmwe-netzkosten-2026-008",
+      "pdf_pages": [
+        2
+      ],
+      "original_excerpt": "ohne zusätzlichen bürokratischen Aufwand",
+      "claim_en": "The tariff-based subsidy does not require separate subsidy applications by final-user businesses.",
+      "proposed_result": "supported",
+      "reason": "The absolute no-bureaucracy wording should be narrowed to the end-user application mechanism; networks and suppliers do have implementation/publication duties. This bounded premise is material and already inventoried for ZDH, but not separately for BKM.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages 3–5 and 9–11; relevant payment, calculation, reporting and duration provisions independently reread",
+          "result": "§24d(1) gives 5.525 billion euros each year 2027–2029; (2) revenue-cap shares; (3) ten requested instalments February–November; (4) public-law contract; (5) mandatory tariff deduction and regulatory power; (6) once-yearly joint adjustment after nonpayment/legal impossibility with six-week notice. §118(5b) is on physical page 4; illustrative cases are in rationale page 11, which says may use them. No successor, target tariff or extra automatic cost top-up."
+        }
+      ]
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-008",
+      "pdf_pages": [
+        4
+      ],
+      "original_excerpt": "verbessern die relativen Preise zugunsten strombasierter Anwendungen",
+      "claim_en": "Holding other costs and prices constant, lower electricity costs improve the operating-cost comparison of electricity-based applications.",
+      "proposed_result": "supported",
+      "reason": "Separate the conditional economic mechanism from excluded forecasts about actual investment/transformation speed. VEA physical page 1 and DGB physical page 1 repeat closely related causal premises. No particular project payback, actual investment response or central-ranking claim is proved.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-cr-imk98",
+          "locator": "Physical pages 3–5, 16, 18–22, 24, 26–27 and model context",
+          "result": "Conditional public/private funding scenarios produce 1.7 versus 3 ct/kWh tariff increments and 6.5 to 14.3 billion euros annual differences. Financing assumptions, guarantees and regulatory choices are integral. The debt rate is inconsistent at 4%/5% across discussion pages; this is a source limitation, not a fabricated author number. It does not establish realised 2026 savings or universal private financing costs."
+        },
+        {
+          "source_id": "netzkosten-cr-ffe-glass2025",
+          "locator": "Physical pages 3, 6–7, 10, 19–22 and 25; publication page dated 27 October 2025",
+          "result": "New independently located primary engineering/interview study: five glass producers and three furnace manufacturers, with some site inspections. Thermal balance, product quality and equipment integrity constrain short-term flexibility. Specific furnaces have multi-year lives and replacement windows, but these are not universal plant payback periods. Commissioned by BV Glas; process/sample-specific evidence, not all-industry survey."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "netzkosten-cr-imk97",
+      "title": "IMK Study 97, Ausbau der Stromnetze: Investitionsbedarfe, December 2024",
+      "url": "https://www.imk-boeckler.de/fpdf/HBS-009011/p_imk_study_97_2024.pdf",
+      "retrieved_at": "2026-10-25T10:11:47.761708+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-imk97.pdf",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 488486,
+      "content_type": "application/pdf",
+      "sha256": "94b4271fd7f3e30a4ae24a0d602b270e1440e6945993a4db12982ae892d88e11",
+      "usable_as_evidence": true,
+      "archive_kind": "original_download",
+      "content_validation": "PDF signature, text extraction, title, primary authors and tables inspected."
+    },
+    {
+      "id": "netzkosten-cr-imk98",
+      "title": "IMK Study 98, Finanzierungsoptionen für den Stromnetzausbau, January 2025",
+      "url": "https://www.imk-boeckler.de/fpdf/HBS-009039/p_imk_study_98_2025.pdf",
+      "retrieved_at": "2026-10-25T10:11:47.762165+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-imk98.pdf",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 588233,
+      "content_type": "application/pdf",
+      "sha256": "8d30fe64b794ab01f257b2acdff5b87ca055ee68be5937aafc83a121ea75dcc5",
+      "usable_as_evidence": true,
+      "archive_kind": "original_download",
+      "content_validation": "PDF signature, text extraction, title, primary authors and tables inspected."
+    },
+    {
+      "id": "netzkosten-cr-g115",
+      "title": "Federal Article 115 implementing law",
+      "url": "https://www.gesetze-im-internet.de/g_115/BJNR270400009.html",
+      "retrieved_at": "2026-10-25T10:11:47.762327+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-g115.html",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 15977,
+      "content_type": "text/html",
+      "sha256": "c99859793b2e0363c3aa860090d64deae0d053ff7da27f4652c156a01a22c176",
+      "usable_as_evidence": true,
+      "archive_kind": "original_download",
+      "content_validation": "Full law text and official version header inspected; automated initial juris-keyword check was too restrictive. No challenge content."
+    },
+    {
+      "id": "netzkosten-cr-stromstg",
+      "title": "Stromsteuergesetz, current official full text",
+      "url": "https://www.gesetze-im-internet.de/stromstg/BJNR037810999.html",
+      "retrieved_at": "2026-10-25T10:11:47.762473+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-stromstg.html",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 79137,
+      "content_type": "text/html",
+      "sha256": "9172204a3447c44585e228540c65ffd9f7969d52492c6adf9e389c6046c0a77d",
+      "usable_as_evidence": true,
+      "archive_kind": "original_download",
+      "content_validation": "Full law text and official version header inspected; automated initial juris-keyword check was too restrictive. No challenge content."
+    },
+    {
+      "id": "netzkosten-cr-ben2026",
+      "title": "TSO unified tariff 2026, 5 December 2025",
+      "url": "https://www.netztransparenz.de/xspproxy/api/staticfiles/ntp-relaunch/dokumente/netzentgelte/251205_preisblatt_ben_2026.pdf",
+      "retrieved_at": "2026-10-25T10:14:48.577463+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-ben2026.pdf",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 630792,
+      "content_type": "application/pdf",
+      "sha256": "b901093d6800b224b30597cae9d48e08dd3cfbd9e33cfa662ff8ecf3bf9e7fcf",
+      "usable_as_evidence": true,
+      "archive_kind": "original_download",
+      "content_validation": "Proper primary PDF; all pages extracted, relevant tariff table visually inspected, dates and tariff components checked."
+    },
+    {
+      "id": "netzkosten-cr-ben2026-theoretical",
+      "title": "TSO theoretical tariff 2026 without subsidy",
+      "url": "https://www.netztransparenz.de/xspproxy/api/staticfiles/ntp-relaunch/dokumente/netzentgelte/251205_theoretische%20netzentgelte%202026%20ohne%20zuschuss_information.pdf",
+      "retrieved_at": "2026-10-25T10:14:48.577900+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-ben2026-theoretical.pdf",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 202751,
+      "content_type": "application/pdf",
+      "sha256": "1949fbdb1d2d7f1e5f09751dd7b8357d3bb3f2fab54284af5351135ece1831a6",
+      "usable_as_evidence": true,
+      "archive_kind": "original_download",
+      "content_validation": "Proper primary PDF; all pages extracted, relevant tariff table visually inspected, dates and tariff components checked."
+    },
+    {
+      "id": "netzkosten-cr-50hz2025",
+      "title": "50Hertz tariff 2025, 16 December 2024",
+      "url": "https://www.50hertz.com/xspProxy/api/staticfiles/50hertz-client/dokumente/vertragspartner/netzkunden/netzzugang/241213_finales%20preisblatt%2050hertz.pdf",
+      "retrieved_at": "2026-10-25T10:14:48.578076+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-50hz2025.pdf",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 602519,
+      "content_type": "application/pdf",
+      "sha256": "964dfa2a4b55fca55a0513d6fa40dfeed8754a51a0207777bc84d23222347726",
+      "usable_as_evidence": true,
+      "archive_kind": "original_download",
+      "content_validation": "Proper primary PDF; all pages extracted, relevant tariff table visually inspected, dates and tariff components checked."
+    },
+    {
+      "id": "netzkosten-cr-bmf2026",
+      "title": "BMF: main tax changes 2026, 30 December 2025",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/das-aendert-sich-2026.html",
+      "retrieved_at": "2026-10-25T10:14:48.578235+00:00",
+      "local_file": null,
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "error": "HTTP Error 503: Service Temporarily Unavailable",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "netzkosten-cr-bmf2026-index",
+      "title": "BMF: main tax changes 2026, 30 December 2025 (primary page search-index extraction)",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/das-aendert-sich-2026.html",
+      "retrieved_at": "2026-10-25 10:16:46 UTC",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-bmf2026-search-extraction.json",
+      "sha256": "5319380934fbe44b6f1f9c174b00b97ba0a82ac9f0b8cc120a700ea46b839954",
+      "archive_kind": "web_search_index_extraction_not_original_html",
+      "usable_as_evidence": true,
+      "temporal_limit": "Page is dated 30 December 2025, before authorship. Search index retrieved 25 October 2026. Direct current page fetch returned 503; statutory full text is independently available and preferred for legal scope."
+    },
+    {
+      "id": "netzkosten-cr-bt2161",
+      "title": "Federal government answer, BT 21/2161, 9 October 2025",
+      "url": "https://dserver.bundestag.de/btd/21/021/2102161.pdf",
+      "retrieved_at": "2026-10-25T10:17:49.793552+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-bt2161.pdf",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 413136,
+      "content_type": "application/pdf",
+      "sha256": "1b9db5c3452d22df14515428d2ca8fec52701015d1e1c246f64d31b3fba8f678",
+      "usable_as_evidence": true,
+      "content_validation": "Proper primary PDF; title, publication date, methods and relevant pages independently extracted and inspected.",
+      "archive_kind": "original_download"
+    },
+    {
+      "id": "netzkosten-cr-bet-monitor2025",
+      "title": "BET and EWI: Energiewende. Effizient. Machen., September 2025",
+      "url": "https://www.bet-consulting.de/fileadmin/redaktion/PDF/Veroeffentlichungen/2025/Energiewende.Effizient.Machen.pdf",
+      "retrieved_at": "2026-10-25T10:17:49.793997+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-bet-monitor2025.pdf",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 2937049,
+      "content_type": "application/pdf",
+      "sha256": "64b5bd21241a1fbb136c5809d31dfc0aa5b030c4584164055cecf1bee258db1e",
+      "usable_as_evidence": true,
+      "content_validation": "Proper primary PDF; title, publication date, methods and relevant pages independently extracted and inspected.",
+      "archive_kind": "original_download"
+    },
+    {
+      "id": "netzkosten-cr-nep2025-v2",
+      "title": "TSOs NEP 2037/2045, version 2025, second draft March 2026",
+      "url": "https://www.netzentwicklungsplan.de/sites/default/files/2026-03/NEP_2037_2045_V2025_2_Entwurf_0.pdf",
+      "retrieved_at": "2026-10-25T10:23:54.067469+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-nep2025-v2.pdf",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 20427189,
+      "content_type": "application/pdf",
+      "sha256": "9d0804594c65800665351e78f5112e91c515bb9539319bb920cf0295543a347a",
+      "usable_as_evidence": true,
+      "content_validation": "Proper primary PDF; title, publication date, methods and relevant pages independently extracted and inspected.",
+      "archive_kind": "original_download"
+    },
+    {
+      "id": "netzkosten-cr-path-costs",
+      "title": "BNetzA and state regulators: physical-path operating-cost position paper",
+      "url": "https://www.bundesnetzagentur.de/DE/Beschlusskammern/BK04/BK4_71_NetzE/BK4_71_Ind_NetzE_Strom/Downloads/BK4_gem_Positionspapier_download_BF.pdf?__blob=publicationFile&v=5",
+      "retrieved_at": "2026-10-25T10:23:54.067899+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-path-costs.pdf",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 132116,
+      "content_type": "application/pdf;charset=UTF-8",
+      "sha256": "2d2ff5dc0bd4f40863d845b0c9c9d79e247a0be8a96d60be1e4a410cae97a7e6",
+      "usable_as_evidence": true,
+      "content_validation": "Proper primary PDF; title, publication date, methods and relevant pages independently extracted and inspected.",
+      "archive_kind": "original_download"
+    },
+    {
+      "id": "netzkosten-cr-ee-distribution",
+      "title": "BNetzA renewable-integration network-cost allocation",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Aktuelles/VerteilungNetzkosten/start.html",
+      "retrieved_at": "2026-10-25T10:23:54.068079+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-ee-distribution.html",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 64378,
+      "content_type": "text/html;charset=utf-8",
+      "sha256": "7663cb72b18f664b5869a235ba8c07285b80bd61eb894f1d19b88256ae775824",
+      "usable_as_evidence": true,
+      "content_validation": "Title and substantive primary page content independently inspected, not a browser challenge.",
+      "archive_kind": "original_download"
+    },
+    {
+      "id": "netzkosten-cr-eeg-cabinet",
+      "title": "Federal government cabinet adoption of EEG 2027 and network package",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/kabinett-eeg-novelle-netzpaket-strom-2448636",
+      "retrieved_at": "2026-10-25T10:23:54.068233+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-eeg-cabinet.html",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 129076,
+      "content_type": "text/html;charset=UTF-8",
+      "sha256": "32b53cf218f01e4a1b67e057aa3fee92539e4d6237b43a25565f86dc242bf8ba",
+      "usable_as_evidence": true,
+      "content_validation": "Title and substantive primary page content independently inspected, not a browser challenge.",
+      "archive_kind": "original_download"
+    },
+    {
+      "id": "netzkosten-cr-ktf-july6",
+      "title": "BMF budget press conference text, 6 July 2026",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Video-Textfassungen/2026/textfassung-2026-07-06-bundeshaushalt-2027.html",
+      "retrieved_at": "2026-10-25T10:23:55.118219+00:00",
+      "local_file": null,
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "error": "HTTP Error 503: Service Temporarily Unavailable",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "netzkosten-cr-ffe-glass2025",
+      "title": "FfE: Energieflexibilität in der Glasindustrie, September 2025",
+      "url": "https://www.ffe.de/wp-content/uploads/2025/10/Energieflexibilitaet-in-der-Glasindustrie-Abschlussbericht.pdf",
+      "retrieved_at": "2026-10-25T10:25:15.209601+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-ffe-glass2025.pdf",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 1388626,
+      "content_type": "application/pdf",
+      "sha256": "6f842bed580777865a80d876154b1845288407f9a598c7dca3d867c51a34299f",
+      "usable_as_evidence": true,
+      "content_validation": "Proper primary PDF; title, publication date, methods and relevant pages independently extracted and inspected.",
+      "archive_kind": "original_download"
+    },
+    {
+      "id": "netzkosten-cr-ffe-glass-page",
+      "title": "FfE publication page, 27 October 2025",
+      "url": "https://www.ffe.de/veroeffentlichungen/studie-energieflexibilitaet-in-der-glasindustrie/",
+      "retrieved_at": "2026-10-25T10:25:15.210035+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-ffe-glass-page.html",
+      "temporal_limit": "Current public bytes retrieved 25 October 2026; compare publication or amendment date with authored date before use.",
+      "http_status": 200,
+      "bytes": 115915,
+      "content_type": "text/html; charset=UTF-8",
+      "sha256": "48897843bca3e7023ff1c49aef5d1f27593ba92a9eb13d0e6cbb33b224f39e5e",
+      "usable_as_evidence": true,
+      "content_validation": "Title and substantive primary page content independently inspected, not a browser challenge.",
+      "archive_kind": "original_download"
+    },
+    {
+      "id": "netzkosten-cr-igbce-recalculation",
+      "title": "Independent IGBCE conditional-profile recalculation",
+      "url": "https://www.netztransparenz.de/xspproxy/api/staticfiles/ntp-relaunch/dokumente/netzentgelte/251205_preisblatt_ben_2026.pdf",
+      "retrieved_at": "2026-10-25T10:17:17.018667+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-igbce-recalculation.json",
+      "sha256": "75e2dfed81343f5cef52fd9b7704fa733c0d90844a8d6deab03dc508ab5d380b",
+      "archive_kind": "researcher_calculation_from_original_tariffs",
+      "temporal_limit": "Original tariff documents predate authorship; this is fixed-assumption arithmetic, not a 2027 prediction.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "netzkosten-c-agnes-announcement",
+      "title": "BNetzA AgNes consultation announcement,6 August 2026",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260806_Agnes.html",
+      "retrieved_at": "2026-10-25T09:52:54.512077+00:00",
+      "http_status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "resolved_url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260806_Agnes.html",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/c-agnes-announcement.html",
+      "sha256": "643a94c62ec69c15cb32560fdad0ceafffc3f47dccebff8852dc2ef0e0664112",
+      "bytes": 59041,
+      "temporal_limit": "Retrieved 25 October 2026. Source dates,method/cohort and legal headers checked against August authored statements; later snapshots are not automatically contemporaneous evidence.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "netzkosten-c-consentec2025",
+      "title": "Consentec network-subsidy distribution study,6 March 2025",
+      "url": "https://www.zvei.org/fileadmin/user_upload/Presse_und_Medien/Pressebereich/2025-024_Kurzgutachten_VKU-ZVEI_Zuschuss_Netzentgelte/Consentec_VKU_ZVEI_ZuschussNetzentgelte_20250306.pdf",
+      "retrieved_at": "2026-10-25T09:51:08.047387+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "resolved_url": "https://www.zvei.org/fileadmin/user_upload/Presse_und_Medien/Pressebereich/2025-024_Kurzgutachten_VKU-ZVEI_Zuschuss_Netzentgelte/Consentec_VKU_ZVEI_ZuschussNetzentgelte_20250306.pdf",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/c-consentec2025.pdf",
+      "sha256": "7caefdb7ac894b27f318bd4d3c6889de713f558cabb0624553139bfccfffff87",
+      "bytes": 669457,
+      "temporal_limit": "Retrieved 25 October 2026. Dated source content and historical legal header checked before August 2026 use; later updated pages are qualified.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "netzkosten-c-taxminimum-web",
+      "title": "EU Energy Taxation Directive 2003/96, Annex I Table C — primary tool extraction",
+      "url": "https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32003L0096",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/c-taxminimum-web-extract.json",
+      "sha256": "24a3969d5f77a97447ddce642e2624f50a9b60735017a0ac50b10f4524209aa9",
+      "temporal_limit": "Original EU legal text extracted through search tool rather than archived original bytes. Table C distinguishes business €0.5/MWh and non-business €1/MWh minima.",
+      "archive_kind": "tool extraction",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "netzkosten-root-draft",
+      "title": "Ministry draft subsidy 2027–2029, internal 3 August 2026 12:48",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/Gesetz/2026/20260821-refentwurf-uebertragungsnetzkosten.pdf?__blob=publicationFile&v=4",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round3-energy/sources/netzkosten-refe-official-current.pdf",
+      "sha256": "ebf3b4ee6a7ab05635d5d1624e6808d09fa0c78feae4268f141038af8a55a76c",
+      "temporal_limit": "Internal August3,2026,12:48; current official artifact byte identity with initial dispatch not authenticated."
+    },
+    {
+      "id": "netzkosten-root-enwg",
+      "title": "EnWG full text, header amended 23 July 2026",
+      "url": "https://www.gesetze-im-internet.de/enwg_2005/BJNR197010005.html",
+      "retrieved_at": "2026-10-25T09:35:40.293269+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/netzkosten-root-enwg.html",
+      "sha256": "7a66f9c9b112c8363b65063e94617cf2bf154433f1953ef3862cf6f1b8bddf4b",
+      "temporal_limit": "Current consolidated text reports last amendment 23 July 2026, before August responses. Retrieved 25 October; not a frozen August copy. §24c governs the €6.5bn 2026 subsidy; §118(5) requires lower net cost balances at the next contractual price adjustment, not automatic instantaneous full pass-through.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "netzkosten-root-stromnev",
+      "title": "StromNEV full text",
+      "url": "https://www.gesetze-im-internet.de/stromnev/BJNR222500005.html",
+      "retrieved_at": "2026-10-25T09:35:42.562576+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/netzkosten-root-stromnev.html",
+      "sha256": "5fb5c7f44c53eaf0c3fafd0ec3b3a029c2fe26cc3e53be1ea035038618010e52",
+      "temporal_limit": "Current consolidated text reports last amendment 22 December 2023, before August 2026. Scheduled expiry end2028. BNetzA determinations and EU-law independence must be considered separately.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "netzkosten-root-monitoring2025",
+      "title": "BNetzA and Bundeskartellamt Monitoring Report 2025",
+      "url": "https://data.bundesnetzagentur.de/Bundesnetzagentur/SharedDocs/Mediathek/Monitoringberichte/MonitoringberichtEnergie2025.pdf",
+      "retrieved_at": "2026-10-25T09:36:04.313100+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/netzkosten-root-monitoring2025.pdf",
+      "sha256": "29695eeb24c6b6d247ba86adba0f8df54039ef4cbb9380cc466f8c37f921297a",
+      "temporal_limit": "Retrieved 25 October 2026. Match amendment header, data year and exact metric before using for August 2026 claims. Later observations cannot establish contemporaneous forecasts false.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "shared-coalition2025",
+      "title": "CDU, CSU and SPD coalition agreement 2025, official party-published accessible version",
+      "url": "https://www.cdu.de/app/uploads/2025/04/Koalitionsvertrag-%E2%80%93-barrierefreie-Version.pdf",
+      "retrieved_at": "2026-10-25T09:48:13.920576+00:00",
+      "local_file": "research/factual-checks/sources/coalition2025.pdf",
+      "sha256": "c0633240e8bbe34d1998cf3ebb916f9adba370936682cad033ffb75d5520a89d",
+      "temporal_limit": "Agreement adopted2025, before all studied2026responses. A policy promise is not enacted law or proof of fulfilment; later policy changes must be checked separately."
+    },
+    {
+      "id": "netzkosten-root-agnes",
+      "title": "BNetzA AgNes consultation draft, 198 pages",
+      "url": "https://www.bundesnetzagentur.de/DE/Beschlusskammern/1_GZ/GBK-GZ/2025/GBK-25-01-1x3_AgNes/Downloads/FL-Entwurf_DE_DL_BF.html?nn=1059162",
+      "retrieved_at": "2026-10-25T09:50:05.612870+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/netzkosten-root-agnes.pdf",
+      "sha256": "2fce8a8bd50b5d5f8af3cddf9dafc57de40d7dea0f7c66b3aa528cb7120e6da5",
+      "usable_as_evidence": true,
+      "temporal_limit": "Current official consultation draft; check metadata and precise paragraph against August2026 response. Proposal, not adopted law. Current file identity with specific publication-day bytes not independently authenticated."
+    },
+    {
+      "id": "netzkosten-cr-ktf-july6-index",
+      "title": "BMF budget press conference, 6 July 2026, independently retrieved primary-page index extraction",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Video-Textfassungen/2026/textfassung-2026-07-06-bundeshaushalt-2027.html",
+      "retrieved_at": "2026-10-25 10:31:37 UTC",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/cr-ktf-july6-search-extraction.json",
+      "sha256": "444a5beead389de23f0a01a53ea0d68a50f3d2b255add941d64b0da4911d6369",
+      "archive_kind": "web_search_index_extraction_not_original_html",
+      "usable_as_evidence": true,
+      "temporal_limit": "Primary page dated 6 July 2026, before the responses; original current fetch returned 503. Indexed transcript describes 2.7 billion euros savings and programme cuts, not a reconciled revenue-side comparison."
+    }
+  ],
+  "limitations": [
+    "All six author PDFs and all 26 physical pages were read before consulting the frozen B inventory; full page-based exclusions were audited, including covers/contact pages.",
+    "All 70 supported, unresolved and candidate outcomes were reviewed. The only accepted candidate is a narrow legal-category overstatement; no intent, forecast, missing evidence or policy disagreement is turned into an error.",
+    "Some public original pages returned 503. The BMF tax explanation was independently accessed through its primary-page search index, explicitly archived as extraction. Current statutory law is independently downloaded and provides the legal baseline.",
+    "Current ministry draft byte identity with initial dispatch is unauthenticated; BKM author date is unverified. No delivery date is inferred from a ministry publication window.",
+    "Sources were read to the extent needed for the recorded propositions, not every page of every long planning/monitoring report. Original author documents were fully read.",
+    "The new FfE study is commissioned by a trade association and based on five producers, three furnace manufacturers and some site inspections. It supports existence of technical process constraints, not universal inflexibility or every industrial investment’s payback.",
+    "No author contact or human specialist confirmation. Original raw inventories and staged/main data were not edited.",
+    "B source title for 50Hertz says 13 December 2024, apparently from its filename; the actual publication footer says Stand: 16 December 2024. The independently archived source and all tariff numbers were checked against the footer/table, not the title."
+  ],
+  "summary": {
+    "claims_reviewed": 70,
+    "physical_pages_reread": 26,
+    "accept": 67,
+    "revise": 3,
+    "candidate_errors_reviewed": 1,
+    "new_error_candidates": 0
+  }
+}

@@ -1,0 +1,712 @@
+{
+  "researcher": "b",
+  "target_agent": "b",
+  "status": "frozen_initial_proposals",
+  "created_at_utc": "2026-10-26T00:32:02.674626+00:00",
+  "baseline_ledgers": [
+    {
+      "ledger": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+      "sha256": "761cc33b4f63980d13b4d28a60adc0ed6f43b8e4751ac9dda3181aacbcd8c5ac"
+    },
+    {
+      "ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "sha256": "7853bb5d363924107763e75341bcdb48bbfe0ede9fcd881f69d7cef509e4aeca"
+    }
+  ],
+  "source_notes": {
+    "file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+    "sha256": "5125a0a5a08ecebdb95c3d33a868930f817846dc9c7ee9427f54cc00986ce1ec"
+  },
+  "scope": "All 19 assigned unresolved IDNrG claims; original full propositions and contextual alternatives rechecked, no prior files altered.",
+  "resolutions": [
+    {
+      "claim_id": "short-b-008",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "targeted primary legal recheck; evidential scope remains open",
+      "explanation": "The author says dürfte regelmäßig and offers a legal evidential inference, not a measured all-case superiority claim. BeurkG 10 and ZPO proof provisions support taking notarial identification seriously, but do not alone establish a regular first-appearance preference for old land-register details over more recent base data. The age and source of the conflicting entry matter.",
+      "limits": "No general automatic presumption is attributed to the author; no error inferred from lack of a matching decision.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-identitylaw",
+          "locator": "BeurkG 10; ZPO 415/418",
+          "check": "Care duty and proof rules rechecked; no direct regular old-data preference found."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-bnotk",
+        "original_pdf": "research/round3-root/coverage/package-members/70dc62e0c15287deba79.pdf",
+        "original_pdf_sha256": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+        "pdf_pages": [
+          3
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "BNotK physical 3: returned data only one element of a whole evaluation; author distinguishes an error indication, notice and an established error before correction."
+      },
+      "original_excerpt": "regelmäßig einen ersten Anschein",
+      "recorded_claim_en": "Notarial identification regularly creates a presumption favouring the original land-register data, and conflicting returned data will regularly be insufficient to justify correction.",
+      "resolution_blocker": "No matching primary decision or rule establishes the proposed regular preference.",
+      "next_step": "A directly applicable correction/identity decision or official guidance could settle the legal inference; no need for a national error-rate survey."
+    },
+    {
+      "claim_id": "short-b-011",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "scope recheck; full only proposition retained",
+      "explanation": "The cited property/inheritance duties and June Act verify important collection and bounded future-query cases. They do not establish an exhaustive only rule for every notarial business relationship. Collection permission, a duty to seek an ID and actual possession are distinct. EStDV 54 refers to company tax numbers and cannot itself establish a universal natural-party rule.",
+      "limits": "No extra universal duty is asserted. Voluntary collection or bank-account rules are possibilities requiring precise scope, not demonstrated contradictions.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-taxduties",
+          "locator": "GrEStG 18/20, ErbStG 34, ErbStDV 7, EStDV 54",
+          "check": "Checked purpose-specific duties."
+        },
+        {
+          "source_id": "follow-b-enova",
+          "locator": "Articles 8/10",
+          "check": "Future query only where specified ID required and not otherwise known."
+        },
+        {
+          "source_id": "follow-b-ao139b",
+          "locator": "Paragraph 2",
+          "check": "Duty/permission/consent distinction."
+        },
+        {
+          "source_id": "follow-b-ao154",
+          "locator": "Paragraphs 2–2b",
+          "check": "Separate account context not collapsed into tax-notification rule."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-bnotk",
+        "original_pdf": "research/round3-root/coverage/package-members/70dc62e0c15287deba79.pdf",
+        "original_pdf_sha256": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "BNotK physical 3–4 says Nur wenn; examples and request to limit transmission to IDs actually held."
+      },
+      "original_excerpt": "Nur wenn steuerliche Anzeigepflichten",
+      "recorded_claim_en": "Only where the cited tax-notification duties apply must notaries request the IDs, or may they in particular cases query BZSt under the future rules.",
+      "resolution_blocker": "Exhaustiveness across the author’s actual notarial-business scope remains unproven.",
+      "next_step": "A bounded complete statutory-duty map could resolve the only clause; do not demand possession statistics for a legal rule."
+    },
+    {
+      "claim_id": "short-b-012",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "overstrong prior universal reading corrected, but actual possession proposition remains open",
+      "explanation": "Standalone land charges do not trigger a universal natural-party tax-ID duty in the checked provisions. That is different from establishing that the notary will be unaware of IDs outside the cited cases: prior business or a voluntary questionnaire can supply them. The ordinary reading permits case variation, but a scoped primary basis for actual non-possession in this particular example was not recovered.",
+      "limits": "No every-deed frequency survey is demanded. The undated practitioner form is not a completed transaction or August counterexample, and no falsehood is proposed.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-taxduties",
+          "locator": "Purpose-specific clauses",
+          "check": "No universal standalone-land-charge ID field established."
+        },
+        {
+          "source_id": "follow-b-groundcharge-form",
+          "locator": "Three-page form",
+          "check": "Tax IDs are requested in a possible land-charge workflow; undated and imperfect footer."
+        },
+        {
+          "source_id": "follow-b-notary-faq",
+          "locator": "Missing-ID instruction",
+          "check": "Missing IDs are possible generally, not a specific isolated-land-charge rate."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-bnotk",
+        "original_pdf": "research/round3-root/coverage/package-members/70dc62e0c15287deba79.pdf",
+        "original_pdf_sha256": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+        "pdf_pages": [
+          4
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "BNotK physical 4 categorical sind unbekannt follows In anderen Fällen; request only to transmit IDs actually possessed. Read as normal case practice rather than literally never-known."
+      },
+      "original_excerpt": "bei isolierten Grundschuldbestellungen",
+      "recorded_claim_en": "Tax IDs are unknown to notaries in other cases, for example isolated land-charge creation.",
+      "resolution_blocker": "Specific actual possession scope for isolated land charges is not established.",
+      "next_step": "A dated primary workflow or concrete official case with missing IDs in such a transaction could suffice; a nationwide survey is unnecessary."
+    },
+    {
+      "claim_id": "short-b-013",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "cost model rechecked; contextual legal-assumption gap retained",
+      "explanation": "The strongest contextual reading concerns initial statutory inconsistency reporting/review, not denial of all priced inconsistencies. The draft treats initial matched conflicts as low-burden additional storage with no immediate action, while separately pricing ongoing conflicts at 5% and two minutes. That supports the author’s concern about an initial-process assumption, but does not establish that the full statutory extra work is both required in each such case and excluded from all initial implementation estimates.",
+      "limits": "No error from missing line items, no realised-cost inference, and no claim that the model contains zero inconsistency costs. Additional workload magnitude is not the sole blocker; the legal/process scope is.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-draft",
+          "locator": "Physical 6–8",
+          "check": "Recomputed ongoing arithmetic and read initial versus ongoing process assumptions."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-bnotk",
+        "original_pdf": "research/round3-root/coverage/package-members/70dc62e0c15287deba79.pdf",
+        "original_pdf_sha256": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+        "pdf_pages": [
+          3
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "BNotK physical 3 links the alleged omission to IDNrG 10(4), parallel data/no action and initial inconsistencies."
+      },
+      "original_excerpt": "bislang nicht berücksichtigt",
+      "recorded_claim_en": "The administrative work generated by inconsistency reporting/review has apparently not been accounted for.",
+      "resolution_blocker": "Unresolved legal interaction and initial-model allocation, not simply absence of measured future cost.",
+      "next_step": "Targeted official costing assumptions or specific initial 10(4) reporting guidance would resolve this more directly than a broad cost survey."
+    },
+    {
+      "claim_id": "short-b-016",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "technical alternatives checked; stronger compound not silently narrowed",
+      "explanation": "A missing shared tax-ID key blocks matching by that same key. It does not establish that unambiguous assignment cannot occur in a municipal workflow at all: the AdV model includes source/object references, parcel relations and existing electronic exchanges. Whether those references cover the natural-person identity problem depends on the actual workflow.",
+      "limits": "Object IDs are not presumed equivalent to a lifelong natural-person ID. A charitable same-key reading is plausible but the recorded claim uses the broader assignment formulation.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-adv",
+          "locator": "Physical 24, 29–30, 45",
+          "check": "Object/source references, ownership objects and preprocessing scope independently checked."
+        },
+        {
+          "source_id": "follow-b-draft",
+          "locator": "Physical 2–3/11",
+          "check": "New storage/use scope checked."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-databund",
+        "original_pdf": "research/round3-root/coverage/package-members/e988e94152724ca18e6c.pdf",
+        "original_pdf_sha256": "5bc89faa12bb4469ebc4962df2470ff2f052fb944a84f28e3b65cd9378509f2c",
+        "pdf_pages": [
+          1
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "DATABUND physical 1–2: municipal storage/use request, serious logical break, and necessary future interfaces/use cases."
+      },
+      "original_excerpt": "keine eindeutige Zuordnung im Fachverfahren",
+      "recorded_claim_en": "If identifier storage is confined to the land-register system, unambiguous assignment cannot occur in municipal specialist systems.",
+      "resolution_blocker": "No specified municipal identity workflow or mapping establishes the full impossibility claim.",
+      "next_step": "A concrete data model/use case could separate a missing common person key from otherwise valid object assignment."
+    },
+    {
+      "claim_id": "short-b-021",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "targeted historical announcement search failed to close full compound",
+      "explanation": "The June Act authenticates the conditional readiness rule and BMF announcement requirement. The May committee explanation and September provider circular corroborate preparation and later non-availability. They do not establish independently whether a future date had already been determined/announced at the August response. Targeted exact-phrase Gazette/BMF/BZSt searches recovered no matching notice, but the Gazette browser entry was blocked and no complete historical index was reconstructed.",
+      "limits": "Non-availability is not substituted for undetermined commencement; no notice absence or author error inferred.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-enova",
+          "locator": "Physical 9/14, Articles 8/10 and 20(5)",
+          "check": "Exact promulgated trigger checked."
+        },
+        {
+          "source_id": "follow-b-bt5806",
+          "locator": "Physical 18",
+          "check": "Technical connection work explained in May."
+        },
+        {
+          "source_id": "follow-b-bnotk-circular",
+          "locator": "25 September sections B/E",
+          "check": "Later forthcoming route with distinct filing dates."
+        },
+        {
+          "source_id": "follow-b-commencement-search",
+          "locator": "Targeted searches and 403 access",
+          "check": "No complete August history recovered."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-dav",
+        "original_pdf": "research/round3-root/coverage/package-members/4ad8dc289a29234a308d.pdf",
+        "original_pdf_sha256": "614b10ba3b8dbc7a11728bcac2b49e6b6befab52a938e878ebccfd4dab271cbf",
+        "pdf_pages": [
+          2
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "DAV physical 2; cover says Berlin, im August 2026 rather than a verified exact day. The author combines unavailable query and an undetermined future start."
+      },
+      "original_excerpt": "von Notaren nicht genutzt werden kann",
+      "recorded_claim_en": "At the response date the tax-ID enquiry power could not yet be used because the commencement date was still undetermined.",
+      "resolution_blocker": "Exact relevant August announcement/determination history remains unauthenticated.",
+      "next_step": "An authenticated relevant BMF notice or contemporaneous official no-date status could resolve; do not bulk-download the Gazette."
+    },
+    {
+      "claim_id": "short-b-031",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "technical specification is not an operational load series",
+      "explanation": "Existing exchanges and legal safeguards confirm functioning services, not that traffic is primarily notarial or representative systems are generally robust for that traffic. No suitable contemporary primary workload/availability series was recovered in this targeted pass.",
+      "limits": "No error from lack of performance data. Historic commercial-register problems do not prove current land-register fragility.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-adv",
+          "locator": "Physical 11, 14–17",
+          "check": "Existing systems and exchanges checked; no notarial traffic share or availability rate."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-dnotv",
+        "original_pdf": "research/round3-root/coverage/package-members/9128f71fd4c3fff3b58f.pdf",
+        "original_pdf_sha256": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+        "pdf_pages": [
+          3
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "DNotV physical 3 compares familiar notarial accesses with proposed future broader demand and says grundsätzlich, not flawless uptime."
+      },
+      "original_excerpt": "grundsätzlich als belastbar",
+      "recorded_claim_en": "Current technical land-register systems are primarily oriented to notarial accesses and generally robust within that spectrum.",
+      "resolution_blocker": "Current load composition and operational reliability remain unmeasured.",
+      "next_step": "A relevant operator availability/load report would help; further generic law or current isolated outages would not."
+    },
+    {
+      "claim_id": "short-b-032",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "new contemporary primary operator testimony partly resolves historical premise",
+      "explanation": "The 2014 hearing now establishes actual early portal performance problems at high access peaks, with extra servers required. This is stronger than modern outage notices. It does not establish the full häufig outages proposition or the other technical causes; the 2007 circular is a load forecast rather than an incident series.",
+      "limits": "Retain the author’s especially early years framing. Performance degradation is not automatically total outage, and no precise frequency threshold is invented.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-register-history",
+          "locator": "Physical 8, 16–17",
+          "check": "Identity and complete operator response independently read."
+        },
+        {
+          "source_id": "follow-b-register-2007",
+          "locator": "Complete short circular",
+          "check": "Contemporary anticipated filing load, not observed retrieval outages."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-dnotv",
+        "original_pdf": "research/round3-root/coverage/package-members/9128f71fd4c3fff3b58f.pdf",
+        "original_pdf_sha256": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+        "pdf_pages": [
+          3
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "DNotV physical 3 says häufig von Ausfällen and especially Anfangsjahren; no future systems failure attributed."
+      },
+      "original_excerpt": "häufig von Ausfällen",
+      "recorded_claim_en": "The electronic commercial register was frequently affected by overload and other technical outages, especially in its early years.",
+      "resolution_blocker": "Frequency and full outage/cause scope still not demonstrated.",
+      "next_step": "A contemporary operator incident series or equivalent official qualitative recurrent-outage account could settle the remaining breadth."
+    },
+    {
+      "claim_id": "short-b-033",
+      "baseline_result": "unresolved",
+      "proposed_result": "supported",
+      "resolution_basis": "new pre-author primary rationale plus correction of excessive proof demand",
+      "explanation": "The claim is existential: IDs are not available at every deed, not a claim about a particular national missing-ID rate. BT 21/5806 expressly recognises clients not supplying IDs and explains the query route for those cases. The June Act likewise conditions enquiries on IDs not already otherwise known. Identification law does not universally require a tax ID. These are adequate primary support for non-universal possession without a nationwide survey.",
+      "limits": "Support does not extend to universal ignorance outside tax-reporting transactions, typical frequency, or the distinct exhaustive collection-duty proposition B034. Later operator missing-ID workflows corroborate but are not used alone to prove August practice.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-bt5806",
+          "locator": "Physical 6 and 17",
+          "check": "Pre-author missing-ID circumstances explicitly recognised."
+        },
+        {
+          "source_id": "follow-b-enova",
+          "locator": "Physical 9, Articles 8/10",
+          "check": "Not already otherwise known condition."
+        },
+        {
+          "source_id": "follow-b-identitylaw",
+          "locator": "BeurkG 10",
+          "check": "No universal tax-ID field."
+        },
+        {
+          "source_id": "follow-b-notary-faq",
+          "locator": "Missing-ID workflow",
+          "check": "Later corroboration only."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-dnotv",
+        "original_pdf": "research/round3-root/coverage/package-members/9128f71fd4c3fff3b58f.pdf",
+        "original_pdf_sha256": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "DNotV physical 3–4: nicht bei sämtlichen Urkundsgeschäften, followed by special-purpose duties and an actually-held-data transmission request. The exact non-universal proposition is retained."
+      },
+      "original_excerpt": "nicht bei sämtlichen Urkundsgeschäften",
+      "recorded_claim_en": "Tax IDs are not available to notaries in every deed transaction."
+    },
+    {
+      "claim_id": "short-b-034",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "full only-duty scope retained separately from resolved non-possession",
+      "explanation": "Purpose-limited notification and query routes are well supported, and B033 can be resolved. Their existence is not an exhaustive legal account of all occasions on which a notary must collect an ID. Permission and actual prior possession cannot resolve that separate only clause.",
+      "limits": "No requirement for a possession survey to establish a legal duty. No invented universal duty outside the cited provisions.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-taxduties",
+          "locator": "Complete relevant clauses",
+          "check": "Specific duties confirmed, no all-business map."
+        },
+        {
+          "source_id": "follow-b-enova",
+          "locator": "Articles 8/10",
+          "check": "Bounded query route confirmed."
+        },
+        {
+          "source_id": "follow-b-ao139b",
+          "locator": "Paragraph 2",
+          "check": "Other-law and consent distinction."
+        },
+        {
+          "source_id": "follow-b-ao154",
+          "locator": "Paragraphs 2–2b",
+          "check": "Separate account context noted without assuming automatic notarial coverage."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-dnotv",
+        "original_pdf": "research/round3-root/coverage/package-members/9128f71fd4c3fff3b58f.pdf",
+        "original_pdf_sha256": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "DNotV physical 3–4: Nur soweit; actual not-every-deed argument is a separate claim, not weakened into this full legal compound."
+      },
+      "original_excerpt": "Nur soweit steuerliche Anzeigepflichten",
+      "recorded_claim_en": "The cited tax-notification cases delimit when IDs have to be requested and when the future BZSt enquiry route may be used.",
+      "resolution_blocker": "Exhaustive scope across notarial business remains unsettled.",
+      "next_step": "A bounded complete statutory-duty review could settle this; no empirical frequency denominator needed."
+    },
+    {
+      "claim_id": "short-b-036",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "targeted historical announcement search failed to close full compound",
+      "explanation": "The June Act authenticates the conditional readiness rule and BMF announcement requirement. The May committee explanation and September provider circular corroborate preparation and later non-availability. They do not establish independently whether a future date had already been determined/announced at the August response. Targeted exact-phrase Gazette/BMF/BZSt searches recovered no matching notice, but the Gazette browser entry was blocked and no complete historical index was reconstructed.",
+      "limits": "Non-availability is not substituted for undetermined commencement; no notice absence or author error inferred.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-enova",
+          "locator": "Physical 9/14, Articles 8/10 and 20(5)",
+          "check": "Exact promulgated trigger checked."
+        },
+        {
+          "source_id": "follow-b-bt5806",
+          "locator": "Physical 18",
+          "check": "Technical connection work explained in May."
+        },
+        {
+          "source_id": "follow-b-bnotk-circular",
+          "locator": "25 September sections B/E",
+          "check": "Later forthcoming route with distinct filing dates."
+        },
+        {
+          "source_id": "follow-b-commencement-search",
+          "locator": "Targeted searches and 403 access",
+          "check": "No complete August history recovered."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-dnotv",
+        "original_pdf": "research/round3-root/coverage/package-members/9128f71fd4c3fff3b58f.pdf",
+        "original_pdf_sha256": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+        "pdf_pages": [
+          4
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "DNotV physical 4 and dated cover 7 August 2026. The author says the enquiry commencement is not yet fixed, with readiness-dependent legal wording."
+      },
+      "original_excerpt": "das Inkrafttreten dieser Auskunftsmöglichkeit",
+      "recorded_claim_en": "As of the 7 August response, the commencement date for the purpose-limited tax-ID query route was not yet determined; the Act makes it conditional on technical/organisational readiness.",
+      "resolution_blocker": "Exact relevant August announcement/determination history remains unauthenticated.",
+      "next_step": "An authenticated relevant BMF notice or contemporaneous official no-date status could resolve; do not bulk-download the Gazette."
+    },
+    {
+      "claim_id": "short-b-043",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "ownership/source denominator checked; uniqueness not established",
+      "explanation": "Official sources support broad digital parcel/owner coverage and municipal uses. The word regelmäßig allows variation, but the only comprehensive source claim still requires understanding alternative municipal property, tax and planning datasets and whether they are derivatives of the same cadastre. This targeted pass did not establish that denominator.",
+      "limits": "BKG’s Bavaria exclusion is a derivative product scope, not proof the underlying cadastre lacks Bavaria. Restricted web-service access is not a general absence of lawful municipal data.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-cadastre-bonn",
+          "locator": "Substantive service description",
+          "check": "Full city digital parcel/owner source."
+        },
+        {
+          "source_id": "follow-b-cadastre-bkg",
+          "locator": "22 April 2025 product description",
+          "check": "Derivative scope separated from underlying cadastre."
+        },
+        {
+          "source_id": "follow-b-cadastre-st",
+          "locator": "Owner WMS/WFS section",
+          "check": "Service-specific access context."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-kommunale-spitzenverbaende",
+        "original_pdf": "research/round3-root/coverage/package-members/2c8eae086c97d6e8b252.pdf",
+        "original_pdf_sha256": "9372c9b810d4ad0c4cfeca94d42dac477c2bdeb9e1623d8de482cc55179ac72e",
+        "pdf_pages": [
+          2
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "Municipal umbrellas physical 2: regelmäßig, comprehensive spatial parcel AND owner data in municipal administrations; not a claim no alternative data anywhere."
+      },
+      "original_excerpt": "die einzige flächendeckend digital verfügbare",
+      "recorded_claim_en": "The cadastre is generally the only comprehensive digitally available spatial source covering parcels and their owners in municipal administrations.",
+      "resolution_blocker": "Generally-only denominator not established across the stated municipal context.",
+      "next_step": "A primary comparative municipal data architecture or usage survey would be more useful than additional generic ALKIS descriptions."
+    },
+    {
+      "claim_id": "short-b-044",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "person-key risk distinguished from existing reference exchange",
+      "explanation": "The author’s intended natural-person key can be lost if the cadastre cannot hold it; source/object references are not a substitute for that same unique person key. However, the full statement says matching will continue through names/birth dates/addresses with manual work and duplication/misassignment risk. Existing object links, ownership objects and preprocessing mean that the actual additional manual person-matching scope under the future design is not established simply by lack of the ID.",
+      "limits": "A risk need not be quantified to be real, but no specific municipal natural-person matching workflow was authenticated. Do not read the author as claiming all present transfer is manual.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-adv",
+          "locator": "Physical 24, 35, 45",
+          "check": "Object references, person links and owner preprocessing rechecked."
+        },
+        {
+          "source_id": "follow-b-draft",
+          "locator": "Physical 2–3/11",
+          "check": "Land-register-only immediate scope."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-kommunale-spitzenverbaende",
+        "original_pdf": "research/round3-root/coverage/package-members/2c8eae086c97d6e8b252.pdf",
+        "original_pdf_sha256": "9372c9b810d4ad0c4cfeca94d42dac477c2bdeb9e1623d8de482cc55179ac72e",
+        "pdf_pages": [
+          2
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "Municipal umbrellas physical 2: proposed cadastre inclusion and subsequent quality/risk rationale; no actual measured error rate asserted."
+      },
+      "original_excerpt": "anhand von Namen, Geburtsdaten und Anschriften",
+      "recorded_claim_en": "Without cadastre inclusion, owner records there would still have to be matched using names, birth dates and addresses, causing manual work and duplicate/misassignment risks.",
+      "resolution_blocker": "Full mechanism in the stated future architecture remains incompletely specified.",
+      "next_step": "A concrete person-matching design could resolve whether named-attribute matching/manual checks remain necessary rather than merely possible."
+    },
+    {
+      "claim_id": "short-b-049",
+      "baseline_result": "unresolved",
+      "proposed_result": "supported",
+      "resolution_basis": "actual contextual qualification corrects an overly broad burden test",
+      "explanation": "The operative proposal adds land-register datasets and purpose-limited storage/use, with the immediate implementation process at the land-register/BVA/BZSt level. The author says zunächst and voraussichtlich and expressly discusses later municipal integration costs and possible quality-clarification work on the next page. Thus the proposition concerns no immediate direct municipal specialist-system amendment/routine participation, not a guarantee of no indirect municipal task. The exact draft supports that scoped immediate description.",
+      "limits": "No prediction that municipalities will never incur cost or handle a discrepancy. General IDNrG quality cooperation is compatible with the author’s express caveat; proposed later cadastre integration is separate.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-draft",
+          "locator": "Physical 1–3 and 6–11",
+          "check": "Operative and implementation scope independently checked against qualified author wording."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-kommunale-spitzenverbaende",
+        "original_pdf": "research/round3-root/coverage/package-members/2c8eae086c97d6e8b252.pdf",
+        "original_pdf_sha256": "9372c9b810d4ad0c4cfeca94d42dac477c2bdeb9e1623d8de482cc55179ac72e",
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "Municipal umbrellas physical 4–5 fully reread: immediate direct changes zunächst nicht, routine transfers voraussichtlich without direct participation; later costs and additional clarification expressly acknowledged."
+      },
+      "original_excerpt": "zunächst nicht",
+      "recorded_claim_en": "The immediate proposal does not itself require changes to municipal specialist systems; routine transmissions are initially designed without direct municipal participation."
+    },
+    {
+      "claim_id": "short-b-055",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "reasonable primary-source reading retained; actual delivery breadth remains open",
+      "explanation": "The author’s erste is reasonably primary or first-consulted, not historically first-ever. ALKIS standards and the Bonn service corroborate established digital owner/parcel information; they do not independently establish comprehensive actual digital provision across the federal, Land and municipal uses described. The new BKG/service examples clarify product and access limits without proving the author false.",
+      "limits": "No chronological error, exclusivity claim or guaranteed all-office uptime is imputed. Current undated local pages cannot authenticate August nationwide delivery.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-adv",
+          "locator": "Physical 11/45",
+          "check": "Established digital cadastral/ownership exchanges."
+        },
+        {
+          "source_id": "follow-b-cadastre-bonn",
+          "locator": "Full substantive description",
+          "check": "One-city coverage."
+        },
+        {
+          "source_id": "follow-b-cadastre-bkg",
+          "locator": "Product description",
+          "check": "Federal derivative limit, not underlying-cadastre counterexample."
+        },
+        {
+          "source_id": "follow-b-cadastre-st",
+          "locator": "WMS/WFS scope",
+          "check": "One access route limitation only."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-vdv",
+        "original_pdf": "research/round3-root/coverage/package-members/e2ba6f91a069b805bd8e.pdf",
+        "original_pdf_sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+        "pdf_pages": [
+          1
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "VDV physical 1 independently rendered and visually reread, dated 2 August 2026: primary digital information source including owners; broad user examples."
+      },
+      "original_excerpt": "die erste und digital vollumfänglich bereitgestellte",
+      "recorded_claim_en": "Cadastre owner/parcel information is the primary or first-consulted spatial information source, comprehensively digitally provided for federal, Länder and especially municipal administrative work.",
+      "resolution_blocker": "Comprehensive actual delivery/use breadth remains unverified; not merely the word erste.",
+      "next_step": "A relevant cross-administration service/coverage account could resolve; unrelated alternative sources would not refute the primary-source reading."
+    },
+    {
+      "claim_id": "short-b-057",
+      "baseline_result": "unresolved",
+      "proposed_result": "supported",
+      "resolution_basis": "conditional technical scope resolved; explicit person-key reading retained",
+      "explanation": "The actual phrase is uniqueness of the Personen-ID at the interface, in a conditional where the land register holds the identifier but the cadastre may not store it. Under that condition the same tax-ID value cannot remain the shared persistent natural-person key in the destination. Existing object/source IDs maintain references but are not established as the same lifelong natural-person identifier. This supports the conditional loss of that common person-ID link.",
+      "limits": "This is an explicit contextual interpretation, not a finding that every transfer or person assignment becomes impossible. It does not establish how many matching failures result, forbid other valid mappings, or resolve broader B016/B044 formulations.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-draft",
+          "locator": "Physical 2–3/11",
+          "check": "New tax-ID storage confined to land-register specialist systems."
+        },
+        {
+          "source_id": "follow-b-adv",
+          "locator": "Physical 24/29–30/45",
+          "check": "Existing object/source IDs distinguished from a common natural-person key."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-vdv",
+        "original_pdf": "research/round3-root/coverage/package-members/e2ba6f91a069b805bd8e.pdf",
+        "original_pdf_sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+        "pdf_pages": [
+          2
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "VDV physical 2 complete reread: Wenn ... Identifikationsnummer ... aber nicht speichern darf, ... Eindeutigkeit der Personen-ID an der Schnittstelle verloren. The conditional and explicit Personen-ID wording support this reading."
+      },
+      "original_excerpt": "Eindeutigkeit der Personen-ID",
+      "recorded_claim_en": "If only the land register can hold the tax ID, uniqueness of that person-ID link is lost at the cadastre interface."
+    },
+    {
+      "claim_id": "short-b-058",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "contextual denominator retained; no speculative counterexample finding",
+      "explanation": "The surrounding examples concern land, infrastructure, construction and permitting, so nearly all engineering tasks should not be casually read as a literal claim about every engineering discipline. Even in that charitable planning-oriented context, this pass recovered no representative denominator for nahezu alle. The AdV model establishes importance for land workflows rather than the stated share of tasks.",
+      "limits": "No author error is inferred from unrelated engineering examples, no measured percentage invented, and no need for a study of all possible disciplines if the context is narrower.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-adv",
+          "locator": "Physical 11/14–17/45",
+          "check": "Land-data role supported; task-share denominator absent."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-zbi",
+        "original_pdf": "research/round3-root/coverage/package-members/b559f95b62c7fa35bbf0.pdf",
+        "original_pdf_sha256": "65734c02596c9cc46940ffde4effd5bf6eed22f058b72843fe6dc218a5ebed06",
+        "pdf_pages": [
+          2
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "ZBI physical 2–3 fully reread: infrastructure, housing, energy, water and mobility examples frame the premise before the general engineering expression."
+      },
+      "original_excerpt": "nahezu alle ingenieurfachlichen Aufgaben",
+      "recorded_claim_en": "Nearly all engineering tasks draw on parcel and geospatial data.",
+      "resolution_blocker": "Actual contextual near-universality remains unestablished.",
+      "next_step": "A scoped primary task/use survey could settle; another generic geodata-benefit brochure would not."
+    },
+    {
+      "claim_id": "short-b-062",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "trend, sector and realised-versus-forecast distinctions retained",
+      "explanation": "A pre-author July 2026 VDI release concerns Q4 2025 and supports persistent structural shortages in particular disciplines. It does not establish an increasing observed shortage in each of technical administrations, planning authorities and engineering offices. Aggregate short-term demand variation and long-term demographic concerns can coexist.",
+      "limits": "Do not turn falling aggregate vacancies into proof no shortage or call a long-term forecast a current trend. The latest full monitor was not newly read in this pass.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-engineermonitor",
+          "locator": "Dated Q4 2025 listing and substantive primary summary",
+          "check": "Relevant publication timing and scope checked."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-zbi",
+        "original_pdf": "research/round3-root/coverage/package-members/b559f95b62c7fa35bbf0.pdf",
+        "original_pdf_sha256": "65734c02596c9cc46940ffde4effd5bf6eed22f058b72843fe6dc218a5ebed06",
+        "pdf_pages": [
+          3
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "ZBI physical 3: increasing shortage motivates efficiency; the stated three workplace categories are kept, not replaced by all engineers."
+      },
+      "original_excerpt": "zunehmenden Fachkräftemangels",
+      "recorded_claim_en": "Technical administrations, planning authorities and engineering offices face an increasing skilled-staff shortage.",
+      "resolution_blocker": "No matching employer-category/time-window trend evidence.",
+      "next_step": "A primary employer-specific staffing time series could resolve; general engineer-market headlines cannot."
+    },
+    {
+      "claim_id": "short-root-003",
+      "baseline_result": "unresolved",
+      "proposed_result": "supported",
+      "resolution_basis": "proof-demand correction for an ordinary conditional rework mechanism",
+      "explanation": "The author identifies data-dependent workflows and says bad/missing/outdated owner data delay or increase project costs OR cause more administrative work. No frequency, cost amount or every-defect/every-project assertion appears. AdV documents additional preprocessing, ownership redundancy/address handling and manual intervention when reference updating fails. That independently supports the ordinary mechanism that consequential data defects can cause extra work. A national frequency survey is an excessive requirement for this unquantified mechanism.",
+      "limits": "Support is for the ordinary causal risk/rework mechanism, not measured prevalence, every bad entry affecting every project, a quantified project-cost saving, or proof that the proposed reform delivers future benefits. The most explicit failed-successor example is parcel data; owner-specific redundancy/current-address preprocessing supplies relevant ownership context.",
+      "new_evidence": [
+        {
+          "source_id": "follow-b-adv",
+          "locator": "Physical 33–35 and 45",
+          "check": "Error handling/manual intervention plus ownership preprocessing independently read."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "idnrg2026-vdv",
+        "original_pdf": "research/round3-root/coverage/package-members/e2ba6f91a069b805bd8e.pdf",
+        "original_pdf_sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+        "pdf_pages": [
+          1
+        ],
+        "method": "Fresh relevant complete-page text reread; VDV image-only physical 1 independently rendered and visually reread. Exact original excerpt and original proposition retained.",
+        "context": "VDV image-only physical 1 independently rendered and visually reread: users rely on current consistent owner data; errors delay/increase costs oder create higher administrative work. The disjunction and absence of any measured share are retained."
+      },
+      "original_excerpt": "Falsche, fehlende oder veraltete Daten",
+      "recorded_claim_en": "Wrong, missing or outdated owner data delay and increase project costs or generate more administrative work in workflows relying on these data."
+    }
+  ],
+  "counts": {
+    "unresolved": 15,
+    "supported": 4
+  },
+  "methodological_changes": [
+    "An existential not-every-deed proposition does not require a national prevalence survey.",
+    "Qualified immediate/direct implementation scope is not a promise of no indirect future work.",
+    "A conditional common-person-key mechanism is distinct from all possible object/person exchange.",
+    "A generic unquantified disjunctive rework mechanism does not require a measured national cost or error rate."
+  ],
+  "new_error_candidates": [],
+  "temporary_sources": "Keep task-owned public bytes in /private/tmp/unresolved-b-20261026 until C/root independent checks finish, then remove regenerable bytes while preserving notes/manifests/scripts."
+}

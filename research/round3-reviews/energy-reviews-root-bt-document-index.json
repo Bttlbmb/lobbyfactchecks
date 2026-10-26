@@ -1,0 +1,110 @@
+{
+  "reviewer": "energy_hearings",
+  "reviewed_at": "2026-10-25",
+  "input": "research/round3-root/coverage/bt-root-document-publication-index.json",
+  "scope": "Independent archived endpoint and paginated document-table enumeration audit; no document content screening credit.",
+  "portal_pages_examined": 14,
+  "observed_embedded_document_endpoints": 12,
+  "no_embedded_document_table": [
+    "Landwirtschaft",
+    "entwicklung"
+  ],
+  "tables": [
+    {
+      "committee": "inneres",
+      "records": 298,
+      "pages_including_end": 31,
+      "explicit_published_no_results_end": true,
+      "reparsed_sequence_matches": true
+    },
+    {
+      "committee": "recht-verbraucherschutz",
+      "records": 508,
+      "pages_including_end": 52,
+      "explicit_published_no_results_end": true,
+      "reparsed_sequence_matches": true
+    },
+    {
+      "committee": "a22_kultur",
+      "records": 133,
+      "pages_including_end": 15,
+      "explicit_published_no_results_end": true,
+      "reparsed_sequence_matches": true
+    },
+    {
+      "committee": "a20_tourismus",
+      "records": 159,
+      "pages_including_end": 17,
+      "explicit_published_no_results_end": true,
+      "reparsed_sequence_matches": true
+    },
+    {
+      "committee": "sport_und_ehrenamt",
+      "records": 241,
+      "pages_including_end": 26,
+      "explicit_published_no_results_end": true,
+      "reparsed_sequence_matches": true
+    },
+    {
+      "committee": "europa",
+      "records": 74,
+      "pages_including_end": 9,
+      "explicit_published_no_results_end": true,
+      "reparsed_sequence_matches": true
+    },
+    {
+      "committee": "a17_menschenrechte",
+      "records": 60,
+      "pages_including_end": 7,
+      "explicit_published_no_results_end": true,
+      "reparsed_sequence_matches": true
+    },
+    {
+      "committee": "a02_Petitionsausschuss",
+      "records": 9,
+      "pages_including_end": 2,
+      "explicit_published_no_results_end": true,
+      "reparsed_sequence_matches": true
+    },
+    {
+      "committee": "a03_auswaertiges",
+      "records": 109,
+      "pages_including_end": 12,
+      "explicit_published_no_results_end": true,
+      "reparsed_sequence_matches": true
+    },
+    {
+      "committee": "geschaeftsordnung",
+      "records": 33,
+      "pages_including_end": 5,
+      "explicit_published_no_results_end": true,
+      "reparsed_sequence_matches": true
+    },
+    {
+      "committee": "verteidigung",
+      "records": 65,
+      "pages_including_end": 8,
+      "explicit_published_no_results_end": true,
+      "reparsed_sequence_matches": true
+    },
+    {
+      "committee": "a23_digitales_staatsmodernisierung",
+      "records": 162,
+      "pages_including_end": 18,
+      "explicit_published_no_results_end": true,
+      "reparsed_sequence_matches": true
+    }
+  ],
+  "total_document_rows": 1851,
+  "total_response_pages_including_end": 202,
+  "errors": [],
+  "method": "Independently parsed all 14 archived portal documents components, reconstructed every returned table row URL/date-label/type in order, checked all ten-offset increments and the final published no-results template. Compared reconstructed sequences with the saved manifest. No download or mutation of original sources.",
+  "disposition": "Supports bounded published document-index enumeration and explicit closure states; no required correction.",
+  "limits": [
+    "These rows include agendas, minutes, official documents and correspondence, not just external submissions.",
+    "Index publication date is not verified submission, recipient or author date; window eligibility and authored-version deduplication remain separate.",
+    "No embedded document table on two portals is an access/enumeration limit, not proof that those committees have no public submissions.",
+    "The audit does not establish national completeness or authenticate historical public availability as of October 24.",
+    "Repetition of a resource across committees or publication rows may require later deduplication; row count is not a unique external-submission count."
+  ]
+}

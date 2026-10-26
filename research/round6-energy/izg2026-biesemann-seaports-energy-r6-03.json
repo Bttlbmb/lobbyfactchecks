@@ -1,0 +1,110 @@
+{
+  "id": "izg2026-biesemann-seaports-energy-r6-03",
+  "law_id": "infrastruktur-zukunftsgesetz-2026",
+  "document_id": "biesemann-izg-20260223",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Accelerating infrastructure planning and approval.",
+    "they_want": "Finance maintenance from taxes, fees and contributions, with tighter fiscal priorities.",
+    "they_claim": "The existing federal annual seaport contribution is EUR 38.4 billion.",
+    "the_problem": "The identifiable statutory grant is EUR 38.346 million, about one-thousandth as much."
+  },
+  "claim_quote": {
+    "original": "jährlich 38.4 Milliarden Euro",
+    "language": "de",
+    "translation_en": "Translation: EUR 38.4 billion annually",
+    "locator": {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "section": "D. Missbrauch aus bestehenden Gesetzen; seaport example"
+    },
+    "underline": "Milliarden"
+  },
+  "request_quote": {
+    "original": "durch Steuern, Gebühren und Beiträge getragen werden",
+    "language": "de",
+    "translation_en": "Translation: be financed through taxes, fees and contributions",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": 3,
+      "section": "C. Modernisierungsstau und Fehler der Vergangenheit; maintenance and preservation investments"
+    }
+  },
+  "counter_quote": {
+    "original": "in Höhe von jährlich insgesamt 38.346.000\nEuro.",
+    "language": "de",
+    "translation_en": "Translation: in the total amount of EUR 38,346,000 annually.",
+    "source_id": "seehafen-finanzhilfen-law-r6",
+    "locator": {
+      "pdf_page": 1,
+      "section": "§ 1(1), annual aid to five coastal Länder"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Section 1 BFinHBRuaG sets this specific federal grant for seaport infrastructure investment at EUR 38.346 million annually. The submitted billion-euro unit is approximately 1,000 times larger. This does not count every possible federal expense related to ports, waterways or maritime transport.",
+  "effect": "Greatly reduces the scale of the illustrative existing annual baseline that the author says new infrastructure borrowing could free for social spending. It does not establish whether budget substitution occurs.",
+  "limits": "A million/billion clerical slip is a strong explanation. No explicit derived total depends on it, and the wider financing recommendation stands independently. Neither actual diversion of funds nor the entirety of federal maritime expenditure is established. No intent inferred.",
+  "context_and_alternatives": [
+    "All five physical pages were read. Section D uses ports as an example of possible overlapping SVIK, defence and KTF funding and says existing federal resources could then go to social spending. The counter identifies the matching annual coastal-Länder grant.",
+    "A broader total-maritime-spending interpretation is conceivable, but the 38.4 mantissa, annual grant wording and Länder-infrastructure context match the named statutory grant. The correction is deliberately limited to that programme.",
+    "The addressed bill concerns planning/permitting. The response discusses broader fiscal priorities rather than proposing a specific operative port-grant amendment. No mismatch is inferred solely from that broader scope."
+  ],
+  "materiality_explanation": "Minor despite approximately 1,000-fold unit mismatch: this is an auxiliary illustration, without a derived financing total or quantitative policy threshold. The general maintenance-financing argument does not turn on its amount.",
+  "direction_explanation": "True narrowly for the explicit substitution concern: a much larger pre-existing annual contribution makes the alleged room to divert ordinary funds appear greater and reinforces calls for fiscal reprioritisation. This does not refute the broad concern.",
+  "confidence": {
+    "text_source_mismatch": "high for the specific statutory grant; broader maritime-spending scope limited",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "source_id": "izg-br780-25-r6",
+    "version": "BR 780/25,19 December 2025, expressly named in author body; committee cover associates BT 21/4099,11 February 2026",
+    "relevant_provision": "General planning/permitting reforms; budget-effects statement. Grant amount is existing background law, not an operative bill figure.",
+    "version_limit": "Both original public versions archived; no assumption of later-amendment identity."
+  },
+  "document_metadata": {
+    "author": "Prof. Dr. Jörg Biesemann for Gesellschaft für Fortschritt in Freiheit e.V.",
+    "author_date": "2026-02-23",
+    "physical_pages": 5,
+    "window_status": "Outside preferred 25 July–24 October 2026 window, within overall legislative-process task.",
+    "external_submission": true
+  },
+  "submission_source_id": "biesemann-izg-20260223-r6",
+  "source_ids": [
+    "biesemann-izg-20260223-r6",
+    "seehafen-finanzhilfen-law-r6",
+    "izg-br780-25-r6",
+    "izg-bt214099-r6"
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "tax_consultations",
+        "path": "research/round6-reviews/tax-reviews-biesemann-seaports.json",
+        "date": "2026-10-25",
+        "disposition": "retain provisional minor/true narrowly for specific statutory grant; auxiliary example"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full short expert response, exact named draft and complete primary grant statute read; independent review requested.",
+      "by": "energy_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent adversarial review retained the stated narrow finding; materiality and benign alternatives preserved.",
+      "by": "energy_ai_screen"
+    }
+  ],
+  "verification": {
+    "source_registry": "research/round6-energy/sources.json",
+    "author_quote_words": 12,
+    "visual": "Original physical5/printed4 claim and physical4/printed3 request rendered and visually checked; exact fragments confirmed."
+  }
+}

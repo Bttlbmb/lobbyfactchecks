@@ -1,0 +1,99 @@
+{
+  "law_id": "dac8-umsetzungsgesetz-2025",
+  "document_id": "georg-dac8-202510",
+  "status": "ai_screened",
+  "request_quote_ref": {
+    "quote_id": "georg-dac8-request",
+    "metadata_file": "data/documents.json"
+  },
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Umsetzung der Richtlinie (EU)2023/2226",
+    "version": "Government bill BT 21/1937, 1 October 2025; hearing 13 October 2025",
+    "source_id": "dac8-bt211937",
+    "submission_date": null,
+    "hearing_date": "2025-10-13",
+    "relevant_provision": "Article 1 reporting rules; government user-growth cost assumption physical page 41; memorandum physical page 38 expressly limits the bill to procedural rules.",
+    "version_check": "The submission expressly identifies BT 21/1937 on its first page. The exact original bill, not the November committee amendment or enacted legislation, was checked."
+  },
+  "submission_source_id": "georg-dac8-202510",
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_round2_ai_agent",
+        "date": "2026-10-25",
+        "review_file": "research/round2-reviews/social-reviews-georg-dac8.json",
+        "outcome": "retain_unresolved_minor_null",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full four-page submission and primary source context check; independent adversarial AI review requested.",
+      "by": "tax_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent social-agent primary-source review retained the narrow classification, preserving the shorthand reading and avoiding any new forecast or actual-compliance conclusion.",
+      "by": "tax_ai_screen"
+    }
+  ],
+  "id": "dac8-2025-georg-denominator-tax-r2-09",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Reporting cryptoasset transactions to tax authorities and exchanging that information internationally.",
+    "they_want": "Review crypto tax incentives and improve tax-authority information.",
+    "they_claim": "A Divly estimate says fewer than 3% of crypto investors fulfilled their tax obligations.",
+    "the_problem": "Divly estimates declarations as a share of all owners, including people who may owe no tax. Whether the author intended a literal noncompliance rate or loose reporting-rate shorthand remains unresolved."
+  },
+  "claim_quote": {
+    "original": "weniger als 3 % der Kryptoinvestoren ihrer Steuerpflicht nachgekommen sind.",
+    "language": "de",
+    "translation_en": "Translation of claim fragment: fewer than 3% of crypto investors fulfilled their tax obligations.",
+    "locator": {
+      "pdf_page": 2,
+      "section": "Zur Notwendigkeit des Gesetzentwurfs",
+      "paragraph": "Second paragraph, final sentence; specifically attributes this to Divly’s 2023 estimate."
+    },
+    "underline": "ihrer Steuerpflicht nachgekommen"
+  },
+  "counter_quote": {
+    "original": "Owning crypto does not always mean taxes are due",
+    "language": "en",
+    "source_id": "divly-global-tax-report2022",
+    "locator": {
+      "section": "Possible reasons for variations in tax payment rate, point 4; methodology Step 3 uses all investors as denominator."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The source’s ratio is estimated declarants divided by all estimated crypto investors, not declarants divided by people with an obligation to declare or pay. Nondeclaration among all owners is therefore not by itself the percentage breaching a tax duty. However, Divly itself repeatedly uses compliance terminology, making a loose shorthand reading plausible.",
+  "effect": "If the claim were read as an estimate of actual compliance with existing duties, the source would not establish the implied overwhelming noncompliance rate. The current record does not resolve that reading and is not counted as a proven error.",
+  "limits": "No actual German compliance rate or tax gap is calculated. The source may contain substantial estimation error, but methodological uncertainty alone does not prove its numerical conclusion false. The author’s adjacent discussion expressly recognises the one-year tax exemption and does not explicitly say 97% are tax evaders. No intent is inferred.",
+  "context_and_alternatives": [
+    "All four author pages were read. The immediately preceding paragraph recognises tax-free gains after a holding period, which weighs against reading the author as unaware that many investors have no payment obligation.",
+    "The primary Divly methodology and all qualifications were read, including its explicit ownership-versus-duty distinction and warning about search-data bias. Its own title, section headings and conclusion also use compliance terminology. This is affirmative denominator context, but not enough to exclude shorthand.",
+    "The contemporary issuer press release also says the study does not assume every investor had to pay tax. Search exposed that statement; its page subsequently timed out, so the fully accessible original Divly report is the principal evidence.",
+    "The author’s generally low-compliance concern could survive a properly restricted denominator. Missing data on that denominator are not treated as proof that compliance is high or that the policy request is wrong."
+  ],
+  "materiality_explanation": "Potentially minor as a source-scope description; a stronger claim about actual widespread tax evasion could be more material, but that is not unequivocally stated here. This remains an unresolved lead.",
+  "direction_explanation": "Unknown until the intended scope is resolved; the literal alarming reading would favour reform, while mere reporting-rate shorthand need not imply a false compliance comparison.",
+  "confidence": {
+    "text_source_mismatch": "unresolved: denominator difference clear, intended compliance-versus-reporting reading ambiguous",
+    "materiality": "editorial_judgment"
+  },
+  "source_ids": [
+    "georg-dac8-202510",
+    "divly-global-tax-report2022",
+    "dac8-bt211937",
+    "dac8-hearing-20251013"
+  ],
+  "verification": {
+    "context": "Full original submission and full original Divly report read; no later 2026 Divly estimate substituted.",
+    "quotation_budget": "Shared total 23 author words across both Georg issues and the single shared request."
+  }
+}

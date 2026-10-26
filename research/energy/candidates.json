@@ -1,0 +1,238 @@
+[
+  {
+    "id": "geg2023-hausgrund-a01",
+    "law_id": "gebaeudeenergiegesetz-2023",
+    "document_id": "hausgrund-geg-2023-bt20-25-403",
+    "status": "ai_screened",
+    "finding_state": "provisional_finding",
+    "severity": "minor",
+    "favours_author_request": true,
+    "card": {
+      "law_is_about": "A 65% renewable-heat requirement for newly installed building heating systems.",
+      "they_want": "Additional hardship exceptions, including for partially renovated and unrenovated buildings.",
+      "they_claim": "Only a heat-pump and gas/oil hybrid is technically feasible in older buildings.",
+      "the_problem": "Contemporary measurements include older buildings heated by heat pumps without a gas/oil boiler."
+    },
+    "claim_quote": {
+      "original": "Für ältere Gebäude ist überdies nur eine noch teurere hybride Lösung mit Wärmepumpe und Gas- bzw. Ölheizung technisch umsetzbar.",
+      "language": "de",
+      "translation_en": "Translation: For older buildings, moreover, only an even more expensive hybrid solution with a heat pump and gas or oil heating is technically feasible.",
+      "locator": {
+        "pdf_page": 2,
+        "printed_page": 1,
+        "section": "Zusammenfassung",
+        "paragraph": "Paragraph beginning Für ältere Gebäude"
+      },
+      "underline": "nur eine noch teurere hybride Lösung"
+    },
+    "request_quote": {
+      "original": "weitere Härtefallklauseln",
+      "language": "de",
+      "translation_en": "Translation: additional hardship clauses",
+      "locator": {
+        "pdf_page": 19,
+        "printed_page": 18,
+        "section": "10. Härtefallklausel / Befreiungen (§ 102)",
+        "paragraph": "Final bold request and following list; second bullet covers partially renovated and unrenovated buildings"
+      }
+    },
+    "counter_quote": {
+      "original": "2009: Austausch Ölkessel (Bj. 1972) durch Wärmepumpe",
+      "source_id": "fraunhofer-wpsmart-2020",
+      "language": "de",
+      "translation_en": "Translation: 2009: replacement of oil boiler (built 1972) by heat pump",
+      "locator": {
+        "pdf_page": 235,
+        "section": "Appendix, building ID 363",
+        "table": "Informationen zu durchgeführten Sanierungsmaßnahmen",
+        "row": "Wärmeerzeuger"
+      },
+      "retrieved_at": "2026-10-24"
+    },
+    "correction": "Fraunhofer's July 2020 report documents building ID 363, built in 1973, with a ground-source heat pump and electric backup, without a gas/oil boiler. In July 2018–June 2019 its measured annual performance factor was 3.7; recorded heater-to-compressor electricity ratios were 0%/0% for room heating/hot water. Original walls and windows remained, with roof insulation and a bathroom-radiator change recorded.",
+    "effect": "Removes the blanket technical premise that older buildings necessarily need a fossil hybrid, weakening that rationale for broader exceptions.",
+    "limits": "One counterexample refutes the unqualified exclusivity claim; it does not establish suitability, affordability or sufficient capacity for every older building. This house had earlier improvements, including roof insulation. The later section 2.4 expressly contemplates heat pumps covering full heat demand and avoiding costly hybrids. The finding therefore concerns the opening categorical sentence, rather than the document as a whole. Subsidy and hardship policy remain separate judgments.",
+    "materiality": "Minor after full-context review: the opening summary overstates technical necessity for a broad older-building category, but section 2.4 explicitly recognises heat pumps covering full demand and avoiding hybrids. This narrows the material effect on the overall hardship request. High confidence in the literal mismatch is separate from this conservative severity judgment.",
+    "direction_reason": "The asserted constraint strengthens the case for extra hardship exemptions; correcting it weakens that particular premise without resolving the request overall.",
+    "confidence": {
+      "text_source_mismatch": "high",
+      "materiality": "editorial_judgment"
+    },
+    "draft_version": {
+      "addressed": "BMWK/BMWSB consultation draft dated 3 April 2023, 09:06; the April-dated statement appears as an annex in the June hearing package.",
+      "source_id": "geg-draft-2023-04-03",
+      "hearing_context": "Committee cover dated 19 June 2023 identifies BT-Drs. 20/6875 and the 13 June coalition guidelines; the quoted annex expressly identifies the 3 April draft. The later enacted law is not used to judge this statement.",
+      "relevant_provision": "§ 71c permits electric heat pumps covering the building's heat demand; no categorical older-building hybrid requirement. The mismatch chiefly concerns physical feasibility, not a later legal amendment."
+    },
+    "sources": [
+      "hausgrund-geg-2023",
+      "fraunhofer-wpsmart-2020",
+      "geg-draft-2023-04-03",
+      "hausgrund-lobbyregister-2023",
+      "bmwk-geg-consultation-2023"
+    ],
+    "review": {
+      "specialist": null,
+      "independent_ai": [
+        {
+          "reviewer": "tax_consultations_ai",
+          "date": "2026-10-24",
+          "outcome": "retain_provisional_finding",
+          "review_file": "research/reviews/tax-reviews-energy.json",
+          "specialist_review": false
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "first recorded; original PDF and counterexample visually verified; pending independent AI review",
+        "by": "ai_screen_energy"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "independent AI cross-review retained provisional finding; no specialist review",
+        "by": "tax_consultations_ai"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Originating agent rechecked complete heat-pump section and individual-building system boundary; added later contextual qualification. Independent reviewer remains the separate tax agent.",
+        "by": "energy_hearings_ai_screen"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Additional full-context audit recorded later recognition of avoiding hybrids. Narrowed characterization to opening summary; severity recheck requested.",
+        "by": "root_ai_adjudication"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Severity downgraded from major to minor after independent follow-up review gave greater weight to section 2.4. Earlier assessment and revised recommendation preserved in tax-reviews-energy.json.",
+        "by": "root_ai_adjudication"
+      }
+    ],
+    "additional_context_audit": "research/energy/hausgrund-additional-context-audit.json",
+    "context_and_alternatives": [
+      "The disputed sentence is the opening summary’s categorical formulation. Later section 2.4 (physical PDF page 7, printed page 6) calls for heat pumps where they can cover 100% of heat demand and says expensive hybrids can thereby be avoided. The finding does not say the document denies all boiler-free applications throughout.",
+      "Older is undefined. The counterexample is a building constructed in 1973 with original walls and windows, earlier roof insulation and one recorded radiator change. The request expressly includes partially renovated as well as unrenovated buildings; the example does not establish unrenovated-building feasibility in every case."
+    ]
+  },
+  {
+    "id": "wassbg2024-waniczek-a01",
+    "law_id": "wasserstoffbeschleunigungsgesetz-2024",
+    "document_id": "waniczek-wassbg-2024-bt20-25-673",
+    "status": "ai_screened",
+    "finding_state": "provisional_finding",
+    "severity": "major",
+    "favours_author_request": true,
+    "card": {
+      "law_is_about": "Faster permitting, procurement and legal procedures for hydrogen infrastructure.",
+      "they_want": "Oppose acceleration on the stated ground that technical and economic prerequisites are missing.",
+      "they_claim": "No industrial gas turbine anywhere had operated on pure hydrogen.",
+      "the_problem": "An industrial SGT-400 turbine had run on 100% hydrogen in France in 2023."
+    },
+    "claim_quote": {
+      "original": "Bisher wurde weltweit noch keine einzige industrielle Gasturbine mit reinem Wasserstoff betrieben.",
+      "language": "de",
+      "translation_en": "Translation: So far, not a single industrial gas turbine worldwide has been operated on pure hydrogen.",
+      "locator": {
+        "pdf_page": 4,
+        "section": "Paragraph immediately after discussion of the Leipzig turbine"
+      },
+      "underline": "noch keine einzige industrielle Gasturbine"
+    },
+    "request_quote": {
+      "original": "die technischen und ökonomischen Voraussetzungen fehlen",
+      "language": "de",
+      "translation_en": "Translation: the technical and economic prerequisites are lacking",
+      "locator": {
+        "pdf_page": 4,
+        "paragraph": "Penultimate paragraph, which criticises the government for proceeding with the bill"
+      },
+      "policy_request_basis": "The written statement expressly rejects the bill's rationale and acceleration approach. This is opposition rather than an imperative amendment sentence; the oral record confirms the position."
+    },
+    "additional_request_quote": {
+      "original": "etwas beschleunigen, was man nicht beschleunigen muss",
+      "source_id": "wassbg-hearing-transcript-2024",
+      "language": "de",
+      "translation_en": "Translation: accelerate something that does not need to be accelerated",
+      "locator": {
+        "pdf_page": 26,
+        "printed_page": 26,
+        "speaker": "Dr. Dipl. Ing. Helmut Waniczek",
+        "paragraph": "Final answer to Marc Bernhard before Michael Kruse's next question"
+      }
+    },
+    "counter_quote": {
+      "original": "gespeichert und zum Betrieb einer Siemens Energy SGT-400 Industriegasturbine verwendet.",
+      "source_id": "siemens-hyflexpower-2023",
+      "language": "de",
+      "translation_en": "Translation: stored and used to operate a Siemens Energy SGT-400 industrial gas turbine.",
+      "locator": {
+        "pdf_page": 1,
+        "paragraph": "First body paragraph; same paragraph identifies 100% renewable hydrogen"
+      },
+      "retrieved_at": "2026-10-24"
+    },
+    "correction": "The 13 October 2023 Siemens Energy/ENGIE/Centrax report describes operation of an industrial SGT-400 turbine at the Smurfit Kappa site in Saillat-sur-Vienne, France, on 100% renewable hydrogen. A separate NEDO primary report records 100%-hydrogen turbine heat-and-power delivery in Kobe in April 2018.",
+    "effect": "Contradicts the categorical claim of zero prior industrial-turbine operation, weakening the stated technical-prerequisites argument against acceleration.",
+    "limits": "An implicit reading of industrial as routine commercial or market-ready utility operation is possible. The counterexamples were demonstrations or verification tests; they do not establish routine commercial deployment, economics, utility-scale operation or readiness of the substantially larger Leipzig project. The actual sentence gives no commercial-maturity qualification, and the preceding sentence discusses a missing test run. The correction concerns categorical absence of prior operation only. It does not establish affordable hydrogen power or resolve hydrogen supply, safety or scaling. The cited article concerns Leipzig’s SGT-800 model; this finding does not contradict its model-specific account by substituting the different SGT-400.",
+    "materiality": "Major: the statement asserts complete worldwide absence of a key technical demonstration and uses this in the section arguing that the bill lacks technical prerequisites. Economic and permitting questions remain independent.",
+    "direction_reason": "The categorical absence claim reinforces opposition to accelerating hydrogen infrastructure. Demonstrated prior operation weakens that premise, without establishing that acceleration is desirable.",
+    "confidence": {
+      "text_source_mismatch": "high",
+      "materiality": "editorial_judgment"
+    },
+    "draft_version": {
+      "addressed": "Government bill BT-Drs. 20/11899, dated 21 June 2024",
+      "source_id": "wassbg-draft-bt2011899",
+      "document_date": "2024-09-20 committee cover; attached statement dated September 2024",
+      "hearing_date": "2024-09-25",
+      "version_check": "The 2024 bill, not the later 2025/2026 reintroduced bill, is the relevant version. The historical turbine assertion is independent of subsequent changes to the bill."
+    },
+    "sources": [
+      "waniczek-wassbg-2024",
+      "wassbg-hearing-transcript-2024",
+      "siemens-hyflexpower-2023",
+      "nedo-hydrogen-turbine-2018",
+      "wassbg-draft-bt2011899",
+      "wassbg-hearing-page-2024",
+      "correctiv-leipzig-20240326-context"
+    ],
+    "review": {
+      "specialist": null,
+      "independent_ai": [
+        {
+          "reviewer": "tax_consultations_ai",
+          "date": "2026-10-24",
+          "outcome": "retain_provisional_finding",
+          "review_file": "research/reviews/tax-reviews-energy.json",
+          "specialist_review": false
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "first recorded; original PDF and contextual paragraphs visually verified; pending independent AI review",
+        "by": "ai_screen_energy"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "independent AI cross-review retained provisional finding; no specialist review",
+        "by": "tax_consultations_ai"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Added independently published EU funder/project corroboration and archived the existing NEDO primary source; retained demonstration/commercialisation qualification.",
+        "by": "energy_hearings_ai_screen"
+      }
+    ],
+    "additional_corroboration": "European Commission CORDIS project record, 10 November 2023, explicitly describes actual 100% hydrogen operation of the SGT-400 industrial turbine. It also states that scaling and commercialisation remain further work; the demonstration/routine-operation limit is therefore preserved. Archived source id cordis-hyflexpower-2023.",
+    "additional_scope_audit": "research/energy/waniczek-additional-scope-audit.json",
+    "context_and_alternatives": [
+      "Read the 26 March 2024 Correctiv article expressly cited in footnote 9. Its no-prior-operation statement is explicitly limited to the SGT-800 turbines used in Leipzig, rather than all industrial turbine models. This strengthens a possible implicit model/utility context, which is preserved as an alternative. The submission’s following standalone sentence expands to worldwide industrial turbines without that qualification. Correctiv is used only to check the cited context; manufacturer, NEDO and Commission project records supply the counterevidence."
+    ]
+  }
+]

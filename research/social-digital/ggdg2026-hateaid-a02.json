@@ -1,0 +1,116 @@
+{
+  "id": "ggdg2026-hateaid-a02",
+  "law_id": "gesetz-digitale-gewalt-2026",
+  "document_id": "hateaid-ggdg-20260522",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Civil and criminal protection against digital violence.",
+    "they_want": "Avoid referring sexualised-deepfake victims to private prosecution.",
+    "they_claim": "98% of online deepfake content is pornographic.",
+    "the_problem": "The cited primary result concerns videos; whether content is intended more broadly remains unresolved."
+  },
+  "claim_quote": {
+    "original": "98 %",
+    "language": "de",
+    "translation_en": "Translation: 98%. The surrounding sentence describes all online deepfake content.",
+    "locator": {
+      "pdf_page": 14,
+      "printed_page": 14,
+      "footnote": 6
+    },
+    "underline": "98 %"
+  },
+  "counter_quote": {
+    "original": "Deepfake pornography makes up 98% of all deepfake videos online.",
+    "language": "en",
+    "source_id": "securityhero-state-deepfakes-2023",
+    "locator": {
+      "section": "Key Findings",
+      "item": "02; repeated in Overview of Current State"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "request_quote": {
+    "original": "kein Verweis",
+    "language": "de",
+    "translation_en": "Translation of heading fragment: no referral. The heading specifies the private-prosecution route; the following sentence expressly asks against classifying the offence as a private-prosecution offence.",
+    "locator": {
+      "pdf_page": 14,
+      "printed_page": 14,
+      "section": "b) Effective enforcement; heading"
+    }
+  },
+  "correction": "When reporting this study, specify its video population. It analysed 95,820 videos and describes the 98% result as a video share.",
+  "effect": "A narrower source description would limit the numerical claim’s demonstrated coverage. No direction or size of change in the actual all-format share is established.",
+  "limits": "No error in the actual global percentage is proved. Content may be shorthand for the videos measured. The additional cited documentary page discusses 2020 estimates and other formats but supplies no independent 2023 all-format 98% estimate. Non-consensual sexualised deepfakes remain a documented harm; this check does not decide the prosecution policy.",
+  "materiality_explanation": "Minor if confirmed: the number and video result are accurately reproduced; the open question is the population label, with no established impact on the requested enforcement rule.",
+  "direction_explanation": "Null: a broader apparent evidential scope could support the request, but no proved inflation or favourable effect follows.",
+  "confidence": {
+    "text_source_mismatch": "unresolved_scope_interpretation",
+    "materiality": "editorial_judgment"
+  },
+  "context_and_alternatives": [
+    "Read author and ministry copies of page 14, surrounding pages 13–15, primary findings/methodology and the second source expressly cited in footnote 6. The same footnote and heading occur in both copies.",
+    "The argument concerns a mass phenomenon and public interest in prosecution. The footnote does not claim that the study directly tested prosecution outcomes.",
+    "Do not infer that absence of an all-format estimate refutes the wider numerical assertion. Human review should assess whether the German content wording is a material source-description error or ordinary shorthand."
+  ],
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Stärkung des zivilrechtlichen und strafrechtlichen Schutzes vor digitaler Gewalt",
+    "version": "BMJV RefE, Bearbeitungsstand 16.04.2026 14:37; published 17 April 2026",
+    "submission_date": "2026-05-22",
+    "dispatch_date_register": "2026-05-26",
+    "source_id": "ggdg-refe-20260417",
+    "relevant_provision": "Article 2 number 5, proposed section 184k(1) number 4 StGB, covers sexualised deepfake images (physical draft pages 12–13); Article 4 proposes section 374(1) number 2a StPO private-prosecution availability (physical draft page 14). Version: 16 April 2026, 14:37.",
+    "process_status_at_screen": "ongoing; compare this consultation version, not the October 2026 Cabinet version"
+  },
+  "source_ids": [
+    "hateaid-ggdg-20260522",
+    "hateaid-ggdg-ministry",
+    "hateaid-ggdg-register",
+    "ggdg-refe-20260417",
+    "securityhero-state-deepfakes-2023",
+    "deepfake-report-digital-rape"
+  ],
+  "sources": [
+    {
+      "id": "securityhero-state-deepfakes-2023",
+      "title": "Security Hero: 2023 State of Deepfakes",
+      "url": "https://www.securityhero.io/state-of-deepfakes/",
+      "local_file": "research/social-digital/securityhero-2023-deepfakes.html",
+      "retrieved_at": "2026-10-24",
+      "locator": "Introduction; Key Findings 02; Overview; Appendix methodology"
+    },
+    {
+      "id": "deepfake-report-digital-rape",
+      "title": "The Deepfake Report: Digital Rape, Juliane Reuther",
+      "url": "https://www.thedeepfake.report/en/09-digital-rape-en",
+      "retrieved_at": "2026-10-24",
+      "locator": "Opening and subsequent paragraphs; separate 2020 estimates"
+    }
+  ],
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      "research/reviews/energy-reviews-hateaid-deepfake.json"
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "Recorded as an unresolved source-scope lead, expressly without concluding the global percentage false; independent review requested.",
+      "by": "social_digital_ai"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Independent AI review retained unresolved minor/null; corrected draft article locators after checking exact draft. Content shorthand remains plausible.",
+      "by": "social_digital_ai"
+    }
+  ],
+  "verification": {
+    "visual": "Ministry submission physical/printed page 14 rendered and inspected; footnote and heading agree with author copy."
+  }
+}

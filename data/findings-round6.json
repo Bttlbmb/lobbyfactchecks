@@ -1,0 +1,695 @@
+[
+  {
+    "id": "fruehstart2026-dai-doubletax-tax-r6-01",
+    "law_id": "fruehstartrentengesetz-2026",
+    "document_id": "dai-fruehstart-20260731",
+    "status": "ai_screened",
+    "finding_state": "provisional_finding",
+    "severity": "major",
+    "favours_author_request": true,
+    "card": {
+      "law_is_about": "A public pension starting balance for children, with optional privately financed top-ups.",
+      "they_want": "Additional tax support for private top-ups, drawing on foreign junior-investment schemes.",
+      "they_claim": "Private contributions from net income are taxed again at payout, making those contributions doubly taxed.",
+      "the_problem": "The addressed draft distinguishes unfunded private contributions from the state-funded balance. Its memorandum expressly retains taxation of the income component for unfunded contributions, rather than taxing the contributed principal again."
+    },
+    "claim_quote": {
+      "original": "die Beiträge Dritter doppelt besteuert",
+      "language": "de",
+      "translation_en": "Translation of claim fragment: third-party contributions are taxed twice.",
+      "locator": {
+        "pdf_page": 4,
+        "printed_page": 4,
+        "section": "Attraktive steuerliche Förderung für Zusatzbeiträge",
+        "paragraph": "Paragraph beginning Laut dem Referentenentwurf; sentence linking net-income contributions and payout taxation."
+      },
+      "underline": "doppelt besteuert"
+    },
+    "request_quote": {
+      "original": "steuerliche Förderung",
+      "language": "de",
+      "translation_en": "Translation of request fragment: tax support.",
+      "locator": {
+        "pdf_page": 4,
+        "printed_page": 4,
+        "section": "Attraktive steuerliche Förderung für Zusatzbeiträge",
+        "paragraph": "Last sentence requests support oriented towards the preceding French, British and US examples."
+      }
+    },
+    "counter_quote": {
+      "original": "Grundsätzlich erfolgt eine Ertragsanteilsbesteuerung.",
+      "language": "de",
+      "translation_en": "Translation: As a rule, taxation of the income component applies.",
+      "source_id": "fruehstart-refe-20260721-mirror",
+      "locator": {
+        "pdf_page": 61,
+        "printed_page": 61,
+        "section": "Memorandum on Article 2, amendment of section 22 number 5 EStG; paragraph on payments based on unfunded contributions."
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "The July consultation draft does not put all private top-ups in the fully taxed state-funded category. Proposed section 29(2) distinguishes the state-funded balance from private contributions and permits private tax support only under the existing conditions of section 10 a or Chapter XI EStG. Article 2 extends section 22 number 5 sentence 1 to the state-funded Frühstartrente; it retains sentence 2 for payments based on unfunded contributions. The memorandum explicitly requires allocation where funded and unfunded contributions coexist. Depending on the payout form, sentence 2 taxes the annuity income share or the difference between the payment and the contributions, with further cross-references. It therefore does not automatically tax the unfunded contributed principal again.",
+    "effect": "Removing a supposed second tax on private principal weakens this specific rationale for additional contribution tax support. A policy case for deductions, higher grants or tax-free investment returns may still exist.",
+    "limits": "No future individual tax liability, tax rate or effective return is calculated. Parents genuinely cannot deduct their contributions under this draft, and subsequent investment income can still be taxed. State grants and the returns attributable to them are a different, funded category. The finding does not establish that the proposed tax support is undesirable or that foreign schemes are comparable in all respects. It infers no intent.",
+    "context_and_alternatives": [
+      "All six author pages were read. The paragraph first identifies private top-ups of EUR 6,840 per year, their financing from net salary and the absence of a deduction. It then expressly says those third-party contributions are taxed both during contribution and payout, before requesting foreign-model tax support.",
+      "A strong benign reading is economic shorthand: earnings used for investment have already borne income tax, and subsequent returns also face tax. That describes a tax disadvantage without a second tax on principal. However, the explicit link between the contributions themselves and both phases makes the narrower principal-versus-return distinction relevant.",
+      "The taxpayer may be a parent during contribution and the child during payout. That does not turn taxation of investment returns into full taxation of the same unfunded principal; no family-level double-tax calculation is asserted here.",
+      "The memorandum initially describes deferred taxation in general terms, which could explain the author wording. Its following paragraphs expressly distinguish funded and unfunded contributions and apportion mixed accounts.",
+      "The consultation text is the archived 21 July 2026, 15:48 version, obtained from a university-maintained mirror. The author dated 31 July expressly addresses a Referentenentwurf and reproduces its EUR 6,840 limit and age-25 fallback, distinguishing it from the later government version. No author-transmitted draft copy or byte-identical official ministry download is claimed. The BMF landing page returned HTTP 503 in this round.",
+      "The live official section 22 number 5 was independently checked on 25 October. It corroborates the incorporated baseline rule but is not represented as a frozen July webpage or as the future enacted Frühstart law.",
+      "A later related government-stage statement, dated 26 August 2026 and separately registered as SG2608260005, repeats the claim and explicitly contrasts ordinary securities saving, which taxes returns, with purported taxation of the full payout here. All six later pages were read. This strengthens the interpretation of the ongoing argument as concerning principal, but does not replace the July text, supply a response to this screening, or establish intent."
+    ],
+    "materiality_explanation": "Major, provisionally: full second taxation of contributed principal would be substantially more restrictive than taxation confined to investment income, and this is the central factual premise in the dedicated tax-support subsection. The record concerns that premise, not all four policy requests in the submission; independent review may reassess severity.",
+    "direction_explanation": "True narrowly: portraying private principal as fully taxed again makes the proposed top-up arrangement appear less attractive and supports the explicit request for additional tax support. Direction is separate from the editorial materiality assessment.",
+    "confidence": {
+      "text_source_mismatch": "high for unfunded principal versus the expressly retained income-component rules; interpretation of the author shorthand is the main qualification",
+      "materiality": "editorial_judgment"
+    },
+    "draft": {
+      "source_id": "fruehstart-refe-20260721-mirror",
+      "title": "Referentenentwurf eines Gesetzes zur Einführung einer Frühstartrente",
+      "version": "Bearbeitungsstand 21.07.2026 15:48",
+      "version_date": "2026-07-21",
+      "relevant_provision": "Article 1 sections 2(4), 3(3), 29(2); Article 2 section 22 number 5 amendment; memorandum physical pages 60–61.",
+      "exact_version_evidence": "Author cover dated 31 July expressly identifies the consultation draft; its top-up limit and age-25 fallback match the July version, before the August cabinet version. Mirror provenance and absence of an author-transmitted copy remain explicit.",
+      "read_extent": "Selected complete physical pages 1, 4–5, 7–8, 17–19, 21, 50, 60–61 and 64–65; not a full 65-page read."
+    },
+    "document_metadata": {
+      "author": "Deutsches Aktieninstitut e.V.",
+      "author_date": "2026-07-31",
+      "register_id": "SG2608050020",
+      "recipient_dates_self_reported": [
+        "2026-07-31",
+        "2026-08-05"
+      ],
+      "delivery_independently_verified": false,
+      "physical_pages": 6,
+      "full_submission_read": true,
+      "visual_check": "research/round6-tax/previews/dai-fruehstart-p4.png"
+    },
+    "submission_source_id": "dai-fruehstart-20260731",
+    "source_ids": [
+      "dai-fruehstart-20260731",
+      "fruehstart-refe-20260721-mirror",
+      "estg22-current20261025",
+      "dai-fruehstart-20260826-context"
+    ],
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "review_file": "research/round6-reviews/social-reviews-dai-doubletax.json",
+          "review_type": "independent_AI",
+          "specialist_review": false
+        },
+        {
+          "review_file": "research/round6-reviews/root-reviews-dai-doubletax.json",
+          "review_type": "independent_AI",
+          "specialist_review": false
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded after full six-page original, exact consultation operative provisions and memorandum, live official baseline tax rule and visual checks; independent review requested.",
+        "by": "tax_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent social AI read all six original pages, relevant exact July draft and official tax rule; retained narrowly major/true, preserving the economic-double-tax shorthand alternative.",
+        "by": "tax_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Later 26 August related submission independently read in full and by the social reviewer at physical 4. It repeats the premise with an explicit returns-versus-full-payout contrast; recorded as context, not an author response or duplicate issue.",
+        "by": "tax_ai_screen"
+      }
+    ],
+    "research_record": "research/round6-tax/fruehstart2026-dai-doubletax-tax-r6-01.json"
+  },
+  {
+    "id": "izg2026-biesemann-seaports-energy-r6-03",
+    "law_id": "infrastruktur-zukunftsgesetz-2026",
+    "document_id": "biesemann-izg-20260223",
+    "status": "ai_screened",
+    "finding_state": "provisional_finding",
+    "severity": "minor",
+    "favours_author_request": true,
+    "card": {
+      "law_is_about": "Accelerating infrastructure planning and approval.",
+      "they_want": "Finance maintenance from taxes, fees and contributions, with tighter fiscal priorities.",
+      "they_claim": "The existing federal annual seaport contribution is EUR 38.4 billion.",
+      "the_problem": "The identifiable statutory grant is EUR 38.346 million, about one-thousandth as much."
+    },
+    "claim_quote": {
+      "original": "jährlich 38.4 Milliarden Euro",
+      "language": "de",
+      "translation_en": "Translation: EUR 38.4 billion annually",
+      "locator": {
+        "pdf_page": 5,
+        "printed_page": 4,
+        "section": "D. Missbrauch aus bestehenden Gesetzen; seaport example"
+      },
+      "underline": "Milliarden"
+    },
+    "request_quote": {
+      "original": "durch Steuern, Gebühren und Beiträge getragen werden",
+      "language": "de",
+      "translation_en": "Translation: be financed through taxes, fees and contributions",
+      "locator": {
+        "pdf_page": 4,
+        "printed_page": 3,
+        "section": "C. Modernisierungsstau und Fehler der Vergangenheit; maintenance and preservation investments"
+      }
+    },
+    "counter_quote": {
+      "original": "in Höhe von jährlich insgesamt 38.346.000\nEuro.",
+      "language": "de",
+      "translation_en": "Translation: in the total amount of EUR 38,346,000 annually.",
+      "source_id": "seehafen-finanzhilfen-law-r6",
+      "locator": {
+        "pdf_page": 1,
+        "section": "§ 1(1), annual aid to five coastal Länder"
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "Section 1 BFinHBRuaG sets this specific federal grant for seaport infrastructure investment at EUR 38.346 million annually. The submitted billion-euro unit is approximately 1,000 times larger. This does not count every possible federal expense related to ports, waterways or maritime transport.",
+    "effect": "Greatly reduces the scale of the illustrative existing annual baseline that the author says new infrastructure borrowing could free for social spending. It does not establish whether budget substitution occurs.",
+    "limits": "A million/billion clerical slip is a strong explanation. No explicit derived total depends on it, and the wider financing recommendation stands independently. Neither actual diversion of funds nor the entirety of federal maritime expenditure is established. No intent inferred.",
+    "context_and_alternatives": [
+      "All five physical pages were read. Section D uses ports as an example of possible overlapping SVIK, defence and KTF funding and says existing federal resources could then go to social spending. The counter identifies the matching annual coastal-Länder grant.",
+      "A broader total-maritime-spending interpretation is conceivable, but the 38.4 mantissa, annual grant wording and Länder-infrastructure context match the named statutory grant. The correction is deliberately limited to that programme.",
+      "The addressed bill concerns planning/permitting. The response discusses broader fiscal priorities rather than proposing a specific operative port-grant amendment. No mismatch is inferred solely from that broader scope."
+    ],
+    "materiality_explanation": "Minor despite approximately 1,000-fold unit mismatch: this is an auxiliary illustration, without a derived financing total or quantitative policy threshold. The general maintenance-financing argument does not turn on its amount.",
+    "direction_explanation": "True narrowly for the explicit substitution concern: a much larger pre-existing annual contribution makes the alleged room to divert ordinary funds appear greater and reinforces calls for fiscal reprioritisation. This does not refute the broad concern.",
+    "confidence": {
+      "text_source_mismatch": "high for the specific statutory grant; broader maritime-spending scope limited",
+      "materiality": "editorial_judgment"
+    },
+    "draft": {
+      "source_id": "izg-br780-25-r6",
+      "version": "BR 780/25,19 December 2025, expressly named in author body; committee cover associates BT 21/4099,11 February 2026",
+      "relevant_provision": "General planning/permitting reforms; budget-effects statement. Grant amount is existing background law, not an operative bill figure.",
+      "version_limit": "Both original public versions archived; no assumption of later-amendment identity."
+    },
+    "document_metadata": {
+      "author": "Prof. Dr. Jörg Biesemann for Gesellschaft für Fortschritt in Freiheit e.V.",
+      "author_date": "2026-02-23",
+      "physical_pages": 5,
+      "window_status": "Outside preferred 25 July–24 October 2026 window, within overall legislative-process task.",
+      "external_submission": true
+    },
+    "submission_source_id": "biesemann-izg-20260223-r6",
+    "source_ids": [
+      "biesemann-izg-20260223-r6",
+      "seehafen-finanzhilfen-law-r6",
+      "izg-br780-25-r6",
+      "izg-bt214099-r6"
+    ],
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "tax_consultations",
+          "date": "2026-10-25",
+          "disposition": "retain provisional minor/true narrowly for specific statutory grant; auxiliary example",
+          "review_file": "research/round6-reviews/tax-reviews-biesemann-seaports.json"
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded after full short expert response, exact named draft and complete primary grant statute read; independent review requested.",
+        "by": "energy_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent adversarial review retained the stated narrow finding; materiality and benign alternatives preserved.",
+        "by": "energy_ai_screen"
+      }
+    ],
+    "verification": {
+      "source_registry": "research/round6-energy/sources.json",
+      "author_quote_words": 12,
+      "visual": "Original physical5/printed4 claim and physical4/printed3 request rendered and visually checked; exact fragments confirmed."
+    },
+    "research_record": "research/round6-energy/izg2026-biesemann-seaports-energy-r6-03.json"
+  },
+  {
+    "law_id": "krwg-2026",
+    "document_id": "itad-krwg-20260807",
+    "status": "ai_screened",
+    "finding_state": "provisional_finding",
+    "favours_author_request": true,
+    "draft": {
+      "source_id": "krwg-refe-20260626-r6",
+      "version": "BMUKN KrWG consultation draft circulated 26 June 2026, expressly named on response cover",
+      "version_limit": "Current official PDF was modified 8 July 2026; exact relevant operative/explanatory wording matches response. No byte-identical 26 June historical snapshot claimed.",
+      "process_status": "Ongoing at 24 October 2026; dossier planned cabinet January 2027 and completion June 2027."
+    },
+    "submission_source_id": "itad-krwg-20260807",
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "tax_consultations",
+          "date": "2026-10-25",
+          "disposition": "retain narrow provisional finding with official Destatis and version limits",
+          "review_file": "research/round6-reviews/tax-reviews-itad-krwg.json"
+        },
+        {
+          "reviewer": "root",
+          "date": "2026-10-25",
+          "disposition": "retain narrow provisional finding; independent method/rationale and full claim context checked",
+          "review_file": "research/round6-reviews/root-reviews-itad-krwg.json"
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded after full original response and primary calculation/draft context checked; independent review requested.",
+        "by": "energy_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent adversarial review retained the stated narrow finding; materiality and benign alternatives preserved.",
+        "by": "energy_ai_screen"
+      }
+    ],
+    "verification": {
+      "source_registry": "research/round6-energy/sources.json",
+      "full_submission_read": true,
+      "visual_pages": [
+        8,
+        20
+      ],
+      "quotation_budget": "Across both ITAD records:9+3+6+5=23 original author words. No additional original author quotations without shortening existing fragments."
+    },
+    "id": "krwg2026-itad-prevention-target-energy-r6-02",
+    "severity": "minor",
+    "card": {
+      "law_is_about": "Adding waste-prevention targets to the KrWG.",
+      "they_want": "Adjust the targets to realistic conditions.",
+      "they_claim": "The government calls a 40% reduction in municipal waste volume by 2045 ambitious.",
+      "the_problem": "The draft sets a 20% municipal waste reduction target per person; 40% applies to waste intensity relative to real GDP."
+    },
+    "claim_quote": {
+      "original": "Reduktion des Siedlungsabfallaufkommens um 40 %",
+      "language": "de",
+      "translation_en": "Translation: reduction of municipal waste volume by 40%",
+      "locator": {
+        "pdf_page": 20,
+        "printed_page": 19,
+        "section": "3.5 Abfallintensität und Abfallvermeidung; paragraph following quoted draft rationale"
+      },
+      "underline": "40 %"
+    },
+    "request_quote": {
+      "original": "realen Bedingungen angepasst werden sollten",
+      "language": "de",
+      "translation_en": "Translation: should be adjusted to real conditions",
+      "locator": {
+        "pdf_page": 20,
+        "printed_page": 19,
+        "section": "Same paragraph, following the claim"
+      }
+    },
+    "counter_quote": {
+      "original": "Das Pro-Kopf-Aufkommen an Siedlungsabfällen soll bis zum Jahr 2045 im Vergleich zum Jahr 2020 um 20 Prozent sinken.",
+      "language": "de",
+      "translation_en": "Translation: Municipal waste per capita should fall by 20% by 2045 compared with 2020.",
+      "source_id": "krwg-refe-20260626-r6",
+      "locator": {
+        "pdf_page": 6,
+        "section": "Article 1 number 7, proposed §7b(2)"
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "Proposed §7b(2) sets a 20% per-capita municipal-waste reduction. Section 7 b(1) sets 40% lower waste intensity, defined by§3(7 c) as net waste divided by price-adjusted GDP. The quoted 40% rationale on draft page 27 explains intensity, not the separate municipal-waste quantity target.",
+    "effect": "The paragraph overstates the quantity reduction being challenged, making that particular burden argument stronger. It does not demonstrate that the actual 20% target is feasible.",
+    "limits": "The response correctly reproduces the 20% operative text immediately above and correctly describes 40% intensity elsewhere. A local drafting or reference slip is therefore plausible; readers can recover the correct distinction from the same document. No prediction about feasibility or motive is inferred.",
+    "context_and_alternatives": [
+      "Full section 3.5 discusses intensity, relative versus absolute decoupling and alternative indicators. The erroneous paragraph then expressly calls 40% a municipal-waste volume reduction while asking that targets reflect real conditions.",
+      "This is a separate draft-description mistake from the recycling-compliance metric: it concerns prevention targets, not the recycling rate. It is classified minor because the correct 20% text is already supplied immediately before it."
+    ],
+    "materiality_explanation": "Minor: it doubles the stated quantity-reduction percentage in one supporting paragraph, but the same page gives the correct 20%rule and the response separately recognises the 40% intensity target.",
+    "direction_explanation": "True narrowly: a 40%quantity reduction sounds more demanding and supports adjustment; this direction does not by itself make the local error major.",
+    "confidence": {
+      "text_source_mismatch": "high",
+      "materiality": "editorial_judgment"
+    },
+    "source_ids": [
+      "itad-krwg-20260807",
+      "krwg-refe-20260626-r6",
+      "krwg-bmukn-dossier-r6"
+    ],
+    "research_record": "research/round6-energy/krwg2026-itad-prevention-target-energy-r6-02.json"
+  },
+  {
+    "law_id": "krwg-2026",
+    "document_id": "itad-krwg-20260807",
+    "status": "ai_screened",
+    "finding_state": "provisional_finding",
+    "favours_author_request": true,
+    "draft": {
+      "source_id": "krwg-refe-20260626-r6",
+      "version": "BMUKN KrWG consultation draft circulated 26 June 2026, expressly named on response cover",
+      "version_limit": "Current official PDF was modified 8 July 2026; exact relevant operative/explanatory wording matches response. No byte-identical 26 June historical snapshot claimed.",
+      "process_status": "Ongoing at 24 October 2026; dossier planned cabinet January 2027 and completion June 2027."
+    },
+    "submission_source_id": "itad-krwg-20260807",
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "tax_consultations",
+          "date": "2026-10-25",
+          "disposition": "retain narrow provisional finding with official Destatis and version limits",
+          "review_file": "research/round6-reviews/tax-reviews-itad-krwg.json"
+        },
+        {
+          "reviewer": "root",
+          "date": "2026-10-25",
+          "disposition": "retain narrow provisional finding; independent method/rationale and full claim context checked",
+          "review_file": "research/round6-reviews/root-reviews-itad-krwg.json"
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded after full original response and primary calculation/draft context checked; independent review requested.",
+        "by": "energy_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent adversarial review retained the stated narrow finding; materiality and benign alternatives preserved.",
+        "by": "energy_ai_screen"
+      }
+    ],
+    "verification": {
+      "source_registry": "research/round6-energy/sources.json",
+      "full_submission_read": true,
+      "visual_pages": [
+        8,
+        20
+      ],
+      "quotation_budget": "Across both ITAD records:9+3+6+5=23 original author words. No additional original author quotations without shortening existing fragments."
+    },
+    "id": "krwg2026-itad-recycling-method-energy-r6-01",
+    "severity": "major",
+    "card": {
+      "law_is_about": "Revising waste prevention, recycling and collection rules.",
+      "they_want": "Reassess the draft measures and data basis.",
+      "they_claim": "The 69% statistical recycling rate is the WFD compliance basis, suggesting the target is already met.",
+      "the_problem": "Eurostat separates that statistical series from mandatory target reporting, which gives 46.36% for Germany 2023."
+    },
+    "claim_quote": {
+      "original": "Grundlage für die Erfüllung der Vorgaben in der AbfRRL",
+      "language": "de",
+      "translation_en": "Translation: basis for meeting the requirements in the Waste Framework Directive",
+      "locator": {
+        "pdf_page": 8,
+        "printed_page": 7,
+        "section": "2.4 Ziele der Abfallvermeidung; bullet beginning Gemäß Destatis"
+      },
+      "underline": "Grundlage"
+    },
+    "request_quote": {
+      "original": "neu zu bewerten",
+      "language": "de",
+      "translation_en": "Translation: to reassess",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 8,
+        "section": "Zwischenfazit; draft measures and large parts of the amendment"
+      }
+    },
+    "counter_quote": {
+      "original": "It is not a legal obligation and is not linked to compliance targets",
+      "language": "en",
+      "source_id": "eurostat-municipal-2026-r6",
+      "locator": {
+        "pdf_page": 1,
+        "section": "Municipal Waste Statistics; MWS JQ description"
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "The approximately 69% number is supported by the longstanding statistical JQ series; it is not the rate in the mandatory MWRO series used for the 2025/2030/2035 targets. Eurostat Figure 6 gives Germany 2023 MWRO 46.3603% versus JQ 68.6760%. The exact draft below 50% rationale is consistent with MWRO. This does not decide compliance with the separate old 2020 target, for which earlier calculation options remained relevant.",
+    "effect": "Removes this numerical rebuttal to the draft’s rationale that further action is needed for the rising EU targets. The series distinction supports the existence of a target gap on the relevant 2023 baseline, without proving that any particular proposed measure is required.",
+    "limits": "Does not establish 2025 actual compliance, future 2035 performance, the optimal target level, reliable cross-country rankings, or the merits of the requested data improvements. Destatis itself expressly publishes the already-met 2035 claim in its current official explanation; faithful repetition is a strong source-provenance explanation. No intent or invented number is inferred.",
+    "context_and_alternatives": [
+      "The response qualifies its already-met conclusion and asks about preparing for reuse and definitions. Its explicit claim about which series forms the compliance basis is stronger than those questions. It does not ask for general deregulation.",
+      "Official sources conflict in presentation: current Destatis repeats the already-met 2035 claim; its older indexed 2023/613 kg/69% text closely matches the submission. This is preserved, not dismissed. Eurostat expressly explains the methodological difference and its own source spreadsheet distinguishes the two measures.",
+      "Eurostat metadata says the mandatory data were first published March 2026, before the response. The linked source spreadsheet has last-modified 30 March 2026 metadata. These authenticate a pre-author data edition, not an independently frozen historic download.",
+      "Article 11 a attaches the unified calculation to 2025/2030/2035 targets. Original 2019/1004 Article 7 distinguishes these from the 2020 target reports; no allegation that the old 2020 target was necessarily missed."
+    ],
+    "materiality_explanation": "Major: the wrong compliance measure turns a baseline below 50% into one above the 2035 threshold 65%, directly reversing a substantial stated reason for the draft measures. This materiality is separate from the direction and from other reasons for data-quality reform.",
+    "direction_explanation": "True narrowly: apparent prior attainment strengthens the express request to reassess measures justified by a target shortfall. It does not negate every other author argument.",
+    "confidence": {
+      "text_source_mismatch": "high for JQ versus MWRO category; official Destatis wording and historic-download limit prominent",
+      "materiality": "editorial_judgment"
+    },
+    "source_ids": [
+      "itad-krwg-20260807",
+      "krwg-refe-20260626-r6",
+      "krwg-bmukn-dossier-r6",
+      "eurostat-municipal-2026-r6",
+      "eurostat-municipal-tables202603-r6",
+      "eurostat-mwro-methods202603-r6",
+      "destatis-municipal20261022-r6",
+      "wfd-2018-ukarchive-r6",
+      "eu2019-1004-ukarchive-r6"
+    ],
+    "research_record": "research/round6-energy/krwg2026-itad-recycling-method-energy-r6-01.json"
+  },
+  {
+    "law_id": "mietrechtII-2026",
+    "document_id": "ivd-mietrecht-20261009",
+    "status": "ai_screened",
+    "finding_state": "provisional_finding",
+    "severity": "minor",
+    "favours_author_request": true,
+    "draft": {
+      "source_id": "mietrechtII-bt216807",
+      "version": "Government billBT21/6807,1July2026",
+      "exactness": "Author cover and heading explicitly identifyBT21/6807; quoted operative measures match that version.",
+      "read_extent": "Relevant operative pages7–8 and memorandum20–23; not full36pages."
+    },
+    "source_ids": [
+      "ivd-mietrecht-20261009",
+      "mietrechtII-bt216807",
+      "destatis-cpi2021-release005",
+      "destatis-vpi12-r6"
+    ],
+    "submission_source_id": "ivd-mietrecht-20261009",
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "energy_hearings",
+          "date": "2026-10-25",
+          "disposition": "Supports narrow provisional minor/true; annual-versus-rolling-interval and0.05percentage-point illustrative reduction limits.",
+          "review_file": "research/round6-reviews/energy-reviews-ivd-mietrecht.json"
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded for independent challenge after complete13-page original and exact draft passages; not yet admitted.",
+        "by": "root_round6_ai"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent adversarial review supports narrow counterexample and minor materiality; admitted provisionally.",
+        "by": "root_ai_screen"
+      }
+    ],
+    "confidence": {
+      "text_source_mismatch": "high for the additional2021calendar-year counterexample; not an exhaustive rolling-interval count",
+      "materiality": "editorial_judgment"
+    },
+    "id": "mietrechtII2026-ivd-cpiyears-root-r6-02",
+    "card": {
+      "law_is_about": "Changing index rents, including halving the part of a one-year CPI rise above 3%.",
+      "they_want": "Drop the proposed index-rent restriction.",
+      "they_claim": "Only 2022 and 2023 in the last 25 years would have triggered the restriction.",
+      "the_problem": "Official CPI growth was also above 3% in 2021. Effects on individual rent adjustments depend on the rolling measurement period."
+    },
+    "claim_quote": {
+      "original": "nur zwei Jahre gab",
+      "language": "de",
+      "translation_en": "Translation of fragment: there were only two years.",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 8,
+        "paragraph": "Third substantive paragraph, beginningGeradedeshalb; parenthesis identifies2022and2023."
+      },
+      "underline": "zwei Jahre"
+    },
+    "request_quote": {
+      "original": "Begrenzung der Indexmiete verzichtet werden.",
+      "language": "de",
+      "translation_en": "Translation of fragment: the restriction on index rents should be dispensed with.",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 8,
+        "section": "Petitum, final sentence."
+      }
+    },
+    "counter_quote": {
+      "original": "+3,1 % im Jahresdurchschnitt 2021 gegenüber 2020 (vorläufig)",
+      "language": "de",
+      "translation_en": "Translation: +3.1%in the annual average 2021 compared with 2020(provisional).",
+      "source_id": "destatis-cpi2021-release005",
+      "locator": {
+        "section": "PressemitteilungNr005vom6Januar2022, headline indicators"
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "At minimum 2021 is an additional counterexample: the official annual CPI rose 3.1%, corroborated by the later official historical table; several 2021 monthly year-on-year rates also exceeded 3%. Thus the dates 2022/2023 are not an exhaustive set of historical years containing a one-year rise above the bill’s 3%threshold. The proposed rule halves only the excess over 3%and applies in designated areas; it is not a 3%absolute cap.",
+    "effect": "The correction weakens the claim that the restriction would have been wholly irrelevant outside two exceptional years. Under an annual-average illustration,3.1%would imply 3.05%instead, a very small difference.",
+    "limits": "Annual-average inflation is not the formula for every individual index-rent increase. The bill uses a one-year period, while contracts can have different adjustment dates and longer intervals. No exact count of affected leases, lost revenue or future inflation is established. The count error does not prove the cap desirable. The release quoted is explicitly provisional; the later official historical table corroborates the same 2021 figure.",
+    "materiality_explanation": "Minor: omitting at least one historical year overstates rarity, but the 2021 annual example exceeds 3% by only 0.1 percentage point. Halving that excess changes the illustrative increase from 3.1% to 3.05%; no substantial financial effect is established.",
+    "direction_explanation": "True narrowly: understating the occasions when the rule could matter supports the express request to remove it.",
+    "context_and_alternatives": [
+      "The author accurately describes the 3%plus half-excess mechanism earlier and offers separate predictability,modernisation andground-rent arguments. Those survive.",
+      "Exact billphysical 8 and full authorpage 9 checked.2021 is within any plausible25-year lookback fromOctober 2026.",
+      "A rollingmonthtocomparison matters, so no definitive complete count is substituted from annualaverages."
+    ],
+    "research_record": "research/round6-root/mietrechtII2026-ivd-cpiyears-root-r6-02.json"
+  },
+  {
+    "id": "suizidpraevg2026-marburger-costs-social-r6-01",
+    "law_id": "suizidpraevg-2026",
+    "document_id": "marburger-suizid-20260728",
+    "status": "ai_screened",
+    "finding_state": "provisional_finding",
+    "severity": "minor",
+    "favours_author_request": true,
+    "card": {
+      "law_is_about": "Creating a federal suicide-prevention office, coordinating crisis services and enabling prevention pilots.",
+      "they_want": "Adequate resources for the office and direct support services.",
+      "they_claim": "The draft provides EUR 1.2 million a year for the office through 2029, in addition to a one-off EUR 1.2 million.",
+      "the_problem": "The addressed draft estimates recurring office costs of EUR 1.482 million a year. EUR 1.2 million is the one-off setup estimate phased in through 2029."
+    },
+    "claim_quote": {
+      "original": "bis 2029 jährlich weiterer 1 200 000 Euro",
+      "language": "de",
+      "translation_en": "Translation of claim fragment: through 2029, a further EUR 1,200,000 annually.",
+      "locator": {
+        "pdf_page": 3,
+        "printed_page": 3,
+        "paragraph": "Second substantive paragraph; sentence beginning Aus unserer Sicht werden hier für die Bundesfachstelle."
+      },
+      "underline": "jährlich weiterer 1 200 000 Euro"
+    },
+    "request_quote": {
+      "original": "Erfordernis einer ausreichenden Finanzierung",
+      "language": "de",
+      "translation_en": "Translation of request fragment: requirement for adequate funding.",
+      "locator": {
+        "pdf_page": 3,
+        "printed_page": 3,
+        "paragraph": "Second substantive paragraph: applies adequate funding to all §4 concepts/projects and immediately says the office amounts are inadequate."
+      }
+    },
+    "counter_quote": {
+      "original": "jährlichen Erfüllungsaufwand geschätzt in Höhe von 1 482 000\nEuro",
+      "language": "de",
+      "translation_en": "Translation of counter-evidence fragment: estimated annual administrative compliance costs of EUR 1,482,000.",
+      "source_id": "suizid-refe-20260625-r6",
+      "locator": {
+        "pdf_page": 27,
+        "printed_page": 27,
+        "section": "Vorgabe4.3.1, recurring costs for the Bundesfachstelle; paragraph beginning Insgesamt ist mit einem."
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "The addressed draft of 25 June 2026 estimates EUR 1.482 million in recurring annual office costs and EUR 1.2 million once for setup. Tables on physical pages 19 and 26 and explanations on pages 20–21 and 27–28 agree. Both costs begin incrementally in 2027; the recurring estimate applies fully from 2029, and setup costs are fully incurred by then. The stated annual amount is EUR 282,000 below the full recurring estimate, about 19.0% of that estimate. No specific underestimation is computed for the phase-in years 2027 or 2028. This corrects the description of estimated costs, rather than an enacted appropriation or actual expenditure.",
+    "effect": "The stated annual amount makes the office appear to have fewer estimated resources and modestly strengthens the demand for more funding. Correcting it does not answer whether the higher estimate is sufficient for all proposed tasks or direct services.",
+    "limits": "The estimated costs are not legally guaranteed funding or proof of actual spending. The author does not expressly say funding ends after 2029; its period may focus on implementation. No separate termination-date allegation is made. Early costs are phased in, and no amount for 2027 or 2028 is invented. The correction does not establish adequate resources, clinical benefit or the merits of the policy request. No intent is inferred.",
+    "context_and_alternatives": [
+      "All four author pages were read. The funding paragraph calls the amounts inadequate for the office’s complex tasks, particularly if it performs more than conceptual planning. The paper also seeks an unexpired office, earlier evaluation, ministry cooperation and direct help; these positions do not depend solely on the number.",
+      "The strongest benign reading is a compressed description of the early implementation period, or a clerical transfer of the one-off setup figure into the annual category. The draft indeed says the one-off EUR 1.2 million is fully incurred by 2029. It separately and repeatedly identifies EUR 1.482 million as the recurring estimate applying fully from 2029.",
+      "The claim and counter-evidence concern the same federal office. Conditional GKV pilot costs are not added to the office estimate. The distinct request for direct services does not establish that those services must be financed from the office-cost estimate.",
+      "The official ministry consultation linked the byte-identical 28 July author response and draft whose cover is dated 25 June 2026 at 12:08. The page’s release date of 3 July is distinguished from that cover version. Private transmission of the draft to the author is not claimed. Source files were actually read and hashed before intentional cache eviction; exact identities and restore metadata remain recorded."
+    ],
+    "materiality_explanation": "Minor: the full annual estimate is understated by about 19%, but the qualitative adequacy argument survives. This is a bounded description of the draft, not proof that more funding is unnecessary.",
+    "direction_explanation": "True narrowly: the lower stated annual resource figure strengthens the explicit inadequacy argument supporting adequate office and service funding. Direction is separate from severity.",
+    "confidence": {
+      "text_source_mismatch": "high for the full annual cost estimate; early-period interpretation and actual appropriation remain limited",
+      "materiality": "editorial_judgment"
+    },
+    "draft": {
+      "source_id": "suizid-refe-20260625-r6",
+      "title": "Entwurf eines Gesetzes zur Stärkung der nationalen Suizidprävention",
+      "version": "Bearbeitungsstand 25.06.2026 12:08; ministry chronology release 03.07.2026",
+      "version_date": "2026-06-25",
+      "relevant_provision": "Articles 1–2, especially sections 3–4 of SuizidPrävG-E; cost tables on physical pages 19/26, explanations 20–21/27–28, household-resources qualification 35.",
+      "exact_version_evidence": "Official consultation links the byte-identical author response and draft, downloaded and hashed during the check. The office scope, 15-year limit and 2038 evaluation match. On-demand restoration metadata preserves exact identities after intentional cache eviction.",
+      "read_extent": "Complete selected physical pages 1–9, 19–21, 26–28 and 35; not the full draft."
+    },
+    "document_metadata": {
+      "author": "Marburger Bund Bundesverband",
+      "author_date": "2026-07-28",
+      "register_id": "SG2608060013",
+      "physical_pages": 4,
+      "full_submission_read": true,
+      "official_ministry_byte_mirror_confirmed": true,
+      "window_status": "Authored within 25 July–24 October 2026; recipient delivery date is self-reported."
+    },
+    "submission_source_id": "marburger-suizid-20260728-r6",
+    "source_ids": [
+      "marburger-suizid-20260728-r6",
+      "suizid-refe-20260625-r6",
+      "bmg-suizid-consultation-r6"
+    ],
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "review_file": "research/round6-reviews/energy-reviews-marburger-costs.json",
+          "review_type": "independent_AI",
+          "specialist_review": false
+        },
+        {
+          "review_file": "research/round6-reviews/root-reviews-marburger-suizid.json",
+          "review_type": "independent_AI",
+          "specialist_review": false
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded after full four-page response, matched official consultation/draft, repeated cost tables, phase-in qualifications and independent visual checks. Peer review requested.",
+        "by": "social_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent energy-agent review retained narrow provisional minor finding; checked phase-in and full recurring amount by2029.",
+        "by": "social_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Request quotation narrowed to the adjacent explicit adequate-funding requirement; separate direct-services request retained as context, not conflated with office cost appropriation.",
+        "by": "social_ai_screen"
+      }
+    ],
+    "request_context": "The immediately preceding paragraph on physical page 3 expressly describes the amounts as clearly inadequate for the office’s complex tasks, particularly if it provides more than conceptual planning. The quoted adequate-funding requirement grounds the narrow resource argument. The separate direct-services request remains context, rather than proof that all direct help must be financed from the office-cost estimate.",
+    "research_record": "research/round6-social/suizidpraevg2026-marburger-costs-social-r6-01.json"
+  }
+]

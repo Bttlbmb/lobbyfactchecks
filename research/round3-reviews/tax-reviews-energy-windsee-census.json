@@ -1,0 +1,45 @@
+{
+  "id": "tax-review-energy-windsee-bounded-census",
+  "reviewed_at_utc": "2026-10-25T04:11:40.841431+00:00",
+  "reviewer": "tax_consultations",
+  "reviewed_file": "research/round3-energy/coverage-bmwe-published-responses.json",
+  "scope": "Independent bounded census/package/date audit; not a full substantive read of every response.",
+  "checks": [
+    {
+      "item": "Primary participant list",
+      "evidence": "Read both physical pages of b804866832cc01a3.pdf, including publication footnotes and all43 numbered names. Five rows carry non-publication marker:7,27,29,31,42.",
+      "result": "43 named rows;38 publicly represented;5 withheld."
+    },
+    {
+      "item": "Structured response workbook",
+      "evidence": "Independently parsed original XLSX worksheet XML and shared strings: one header row plus34 populated organization response rows.",
+      "result": "34 structured rows; not34 separate PDF statements."
+    },
+    {
+      "item": "External denominator",
+      "evidence": "Independently classified named Land authorities in the primary list. Seven government rows include two Hamburg labels; one government row withheld.",
+      "result": "36 named external contributors,32 public,4 withheld;6 public government labels. These are contributors/rows, not all factual-screened submissions."
+    },
+    {
+      "item": "Hamburg package",
+      "evidence": "Read both pages of Hamburg BWAI supplement b9bdf0b3aeaaf45f2c8b.pdf. Opening explicitly says it supplements the preceding joint BWAI+BUKEA online response and asks joint publication.",
+      "result": "38 public named participant rows reconcile to37 multipart public authored packages; the merger affects government only."
+    },
+    {
+      "item": "Schleswig-Holstein supplement date",
+      "evidence": "Read the entire one-page email export2197e32e5ffe346a8fc8.pdf. Gesendet header19August202612:43 to BMWE, while body identifies prior17August response.",
+      "result": "The supplement was displayed as sent19August; the reported consultation-end17August is not its dispatch timestamp. No independent server authentication claimed."
+    },
+    {
+      "item": "PDF component integrity",
+      "evidence": "Recomputed all six PDF component SHA256 hashes.",
+      "result": "All match inventory."
+    }
+  ],
+  "disposition": "Counts and Hamburg grouping supported; preserve SH supplement19August separately from interval/end-date. No correction to external denominator needed.",
+  "limits": [
+    "No claim every response or footnote was fact-checked.",
+    "Publication consent and withheld entries mean public corpus is smaller than named contributors.",
+    "The ministry interval is not a universal exact dispatch date."
+  ]
+}

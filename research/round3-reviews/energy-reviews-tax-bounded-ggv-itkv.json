@@ -1,0 +1,41 @@
+{
+  "review_id": "energy-reviews-tax-bounded-ggv-itkv",
+  "reviewer": "energy_hearings independent AI",
+  "date": "2026-10-25",
+  "source_proof_file": "research/round3-tax/coverage-bounded-ggv-itkv-proofs.json",
+  "scope": "Independent link/archive/date/package sample audit of two finite published ministry-page sets; not national completeness or every-claim validation.",
+  "checks": {
+    "GGV": {
+      "section2_links_independently_reparsed": 17,
+      "exact_url_set_matches_inventory": true,
+      "all17local_pdf_magic_and_SHA256_verified": true,
+      "external_response_rows_excluding4Land_ministries": 13,
+      "Hessen_package": "Physical4 ends dated author response; physical5 begins the separate77-page3September16:17 draft. Boundary visually checked;81resource pages must not be called81author pages."
+    },
+    "ITKV": {
+      "section2_links_independently_reparsed": 12,
+      "exact_url_set_matches_inventory": true,
+      "all12local_pdf_magic_and_SHA256_verified": true,
+      "external_reply_rows_excluding8Land_authorities": 4,
+      "formal_external_statements_excluding_Bitkom_decline": 3,
+      "email_headers": "Six published email exports have explicit sent/addressee headers:001,002,008,009,010,011. Five are Land replies;002is the Bitkom decline. Headers independently read; Bitkom visual checked.",
+      "date_limit": "Published exports support printed dispatch events; no independent server receipt authentication is asserted."
+    },
+    "register_versions": {
+      "BREKO_SG2610210032": "Independently extracted all4pages of both PDFs; entire texts match after whitespace removal.",
+      "DVGW_SG2610140003": "Independently extracted all5pages of both PDFs; body pages2-5 match after whitespace removal. Ministry cover has contacts omitted from register cover; not byte identity."
+    }
+  },
+  "corrections_requested": [
+    "Replace ambiguous external-replies population wording with all published replies and separately count the external subset.",
+    "Relabel five ITKV email exports as five Land exports, or count six including Bitkom."
+  ],
+  "reading_depth_limit": "I verified enumeration, all29hashes, selected response headers/package boundaries and two register text comparisons. I did not independently reread all17GGV and12ITKV substantive statements; the original researcher reading log supplies that extent.",
+  "disposition": "Bounded published-page closure supported, subject to the two stated counting/scope wording corrections. Extra unpublished or unnamed versions remain possible.",
+  "new_factual_allegations": [],
+  "visual_evidence": [
+    "research/round3-energy/sources/review-tax-bounded/hessen-p4.png",
+    "research/round3-energy/sources/review-tax-bounded/hessen-p5.png",
+    "research/round3-energy/sources/review-tax-bounded/bitkom-decline.png"
+  ]
+}

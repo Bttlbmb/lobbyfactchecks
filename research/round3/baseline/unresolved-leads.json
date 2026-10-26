@@ -1,0 +1,2882 @@
+[
+  {
+    "law_id": "abortion-access-motion-2026",
+    "document_id": "1000plus-abortion-20260414",
+    "status": "ai_screened",
+    "draft": {
+      "title": "Versorgung bei Schwangerschaftsabbrüchen sichern",
+      "version": "BT 21/3909,28 January 2026; parliamentary motion, not an enacted bill",
+      "source_id": "abortion-motion213909",
+      "submission_date": "2026-04-14",
+      "hearing_date": "2026-04-15",
+      "relevant_provision": "MotionII requests access measures including staffing and telemedical support; the historical arithmetic is independent of later outcomes.",
+      "process_status_at_screen": "Motion considered at 15 April 2026 public hearing; exact target is the January motion, not the 2024-2025 abortion reform bill."
+    },
+    "author_response": [],
+    "id": "abortionaccess2026-1000plus-social03",
+    "finding_state": "unresolved_lead",
+    "severity": "major",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "A parliamentary motion to improve access to abortion services, including telemedical support.",
+      "they_want": "Reject the motion; the same section requests stricter regulation of existing home medication abortion.",
+      "they_claim": "Scientific studies confirm elevated psychological risks for home medication abortion.",
+      "the_problem": "The cited studies assess abortion history broadly; whether the wording wrongly implies setting-specific evidence remains unresolved."
+    },
+    "claim_quote": {
+      "original": "die häusliche medikamentöse Abtreibung mit erhöhten psychischen Risiken einhergeht",
+      "language": "de",
+      "translation_en": "Translation of claim fragment: home medication abortion is associated with elevated psychological risks",
+      "locator": {
+        "pdf_page": 10,
+        "printed_page": 10,
+        "section": "e) Ausbau telemedizinischer Betreuung und Beratung",
+        "paragraph": "First paragraph, footnote 25, continuing the section begun on page 9"
+      },
+      "underline": "häusliche medikamentöse Abtreibung"
+    },
+    "request_quote": {
+      "original": "den vorliegenden Antrag abzulehnen.",
+      "language": "de",
+      "translation_en": "Translation of request fragment: to reject the present motion.",
+      "locator": {
+        "pdf_page": 12,
+        "printed_page": 12,
+        "section": "Fazit zum vorgelegten Antrag",
+        "paragraph": "First paragraph, final clause"
+      }
+    },
+    "additional_request_evidence": {
+      "locator": {
+        "pdf_page": 10,
+        "printed_page": 10,
+        "paragraph": "Third paragraph, beginning with the stated conclusion"
+      },
+      "paraphrase": "The author expressly requests review and stricter regulation of medication abortions at home instead of expanding telemedical services. This is a paraphrase, not a quotation."
+    },
+    "counter_quote": {
+      "original": "Whether the woman reported having an elective abortion during the interval.",
+      "language": "en",
+      "source_id": "fergusson-2008",
+      "locator": {
+        "pdf_page": 2,
+        "printed_page": 445,
+        "section": "Pregnancy and abortion (15–30 years)",
+        "list_item": "(a)"
+      },
+      "retrieved_at": "2026-10-25",
+      "note": "This is the primary study’s pregnancy-outcome variable. It does not itself refute risks in any subset."
+    },
+    "correction": "The primary studies need to be described with their actual exposure and outcome scope. Fergusson uses elective-abortion history, without a home-medication comparison. Coleman synthesises broad abortion-history associations. Gissler studies external-cause mortality after pregnancy outcomes, not rates of PTSD, guilt or depressive episodes. This scope check does not establish that the claimed clinical association is false.",
+    "effect": "If readers understand the passage as claiming direct evidence that the home or medication setting adds psychological risk, that evidentiary premise for stricter regulation would be weaker. Applying general abortion evidence cautiously to a subset is an alternative interpretation.",
+    "limits": "No comparison group is specified in the author’s phrase elevated risks. Home medication abortion is a subset of abortion, so general evidence may be relevant without testing that particular method or setting. The adjacent personal accounts and other cited clinical material are distinct evidence; their absence from these studies does not refute them. No clinical safety, causal-effect or policy conclusion is established. No intent is inferred.",
+    "context_and_alternatives": [
+      "Full 12-page author submission and exact 4-page motion read; pages 9–10 describe counselling experiences and individual anonymous accounts before citing three scientific papers.",
+      "Fergusson 2008 compares pregnancy outcomes and common mental-health disorders. Its discussion supports a modest association while acknowledging residual confounding and rejecting very large-effect readings; it does not stratify by home setting or medication method.",
+      "Coleman 2011 pools depression, anxiety, substance use and suicidal behaviour associated with abortion history. It cites earlier medical-versus-surgical literature in its background, so it would be excessive to say the paper contains no reference to medication abortion. That is different from a pooled home-setting estimate.",
+      "Gissler 2005 uses linked Finnish registers for 1987–2000 and external-cause deaths. Its discussion considers common risk factors and missing background information; it does not directly measure the three psychological outcomes named in the submission.",
+      "The author may be applying a broad risk claim to a subset, rather than claiming a home-versus-clinic comparison. This unresolved benign reading prevents promotion to a finding."
+    ],
+    "materiality_explanation": "Potentially major if a setting-specific comparative evidence claim were established: the passage directly supports restricting home medication abortion and opposing telemedical expansion. This is potential materiality, not a finding that the clinical claim is false.",
+    "direction_explanation": "Null while the meaning and mismatch remain unresolved. A confirmed overstatement of setting-specific evidence would support the author’s restriction request; that conditional relationship is not a finding.",
+    "confidence": {
+      "text_source_mismatch": "unresolved: exposure and outcome scopes are documented, but the author’s intended comparison and general-to-subset inference are ambiguous",
+      "materiality": "editorial_judgment"
+    },
+    "submission_source_id": "1000plus-abortion-20260414",
+    "source_ids": [
+      "1000plus-abortion-20260414",
+      "abortion-motion213909",
+      "fergusson-2008",
+      "coleman-2011",
+      "gissler-2005"
+    ],
+    "source_registry": "research/round2-social/sources.json",
+    "verification": {
+      "visual": "Original author page 10 and Fergusson page 2 rendered and visually inspected. Coleman primary publisher PDF read for synthesis, outcomes and limits. Gissler original 5-page publisher PDF was available through the web reader; direct local download was 403, so no local PDF archive is claimed.",
+      "quotation_budget": "Together with the arithmetic record, unique quoted author words remain below 25; the page 12 request is reused rather than expanded."
+    },
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "tax_consultations_ai_agent",
+          "outcome": "retain_unresolved_lead_null",
+          "review_file": "research/round2-reviews/tax-reviews-1000plus-home-scope.json"
+        }
+      ]
+    },
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded as unresolved source-scope lead. No false clinical-risk finding; independent adversarial review requested.",
+        "by": "social_round 2_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent tax AI review retained unresolved/null after primary evidence and benign general-to-subset reading.",
+        "by": "social_round 2_ai_screen"
+      }
+    ],
+    "research_record": "research/round2-social/abortionaccess2026-1000plus-social03.json"
+  },
+  {
+    "id": "bstabg2026-pharmadeutschland-a01",
+    "law_id": "gkv-beitragssatzstabilisierung-2026",
+    "document_id": "pharmadeutschland-bstabg-20260420",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Stabilising statutory health insurance contributions, including ending reimbursement for homeopathic and anthroposophic services.",
+      "they_want": "Retain insurers’ ability to reimburse those treatments as additional benefits.",
+      "they_claim": "Almost all studies in a cited review found comparable or better outcomes at similar or lower costs.",
+      "the_problem": "The review’s cost categories differ, but similarity depends on significance, population and payer perspective; no error is established."
+    },
+    "claim_quote": {
+      "original": "fast alle eingeschlossenen Studien",
+      "language": "de",
+      "translation_en": "Translation: almost all included studies",
+      "locator": {
+        "pdf_page": 7,
+        "printed_page": 7,
+        "section": "3. Die Erstattung homöopathischer und anthroposophischer Arzneimittel ist gesellschaftlich gewünscht und entlastet die GKV",
+        "paragraph": "beginning Zudem hat ein systematischer Review"
+      },
+      "underline": "fast alle"
+    },
+    "counter_quote": {
+      "original": "six (28.6%) described increased costs with homeopathy.",
+      "language": "en",
+      "source_id": "ostermann2024-cost-review",
+      "locator": {
+        "pdf_page": 10,
+        "printed_page": 125,
+        "section": "3.1.2. Summary of main results",
+        "column": "right, second paragraph"
+      },
+      "retrieved_at": "2026-10-24"
+    },
+    "request_quote": {
+      "original": "den letzten Satz im neuen § 11 Absatz 6 zu streichen",
+      "language": "de",
+      "translation_en": "Translation of request fragment: delete the last sentence in the new section 11(6)",
+      "locator": {
+        "pdf_page": 8,
+        "printed_page": 8,
+        "section": "Forderung von Pharma Deutschland",
+        "item": 2
+      }
+    },
+    "correction": "Unresolved: Figure 2 classifies 14 studies as jointly favourable, one neutral and six with higher costs. That classification alone does not disprove the submission’s qualitative description: some differences are nonsignificant, differ between adults and children, or concern societal rather than social-insurer costs. Do not assert 15/21 as a hard bound on similar or lower costs.",
+    "effect": "No established correction to the policy argument. The lead identifies a source-description question requiring study-level interpretation.",
+    "limits": "No proven factual error, clinical ineffectiveness, or net GKV cost effect is established. The qualitative terms almost all and similar require careful interpretation of the underlying comparisons.",
+    "context_checked": "Read the complete homeopathy section on submission pages 5–10, its references, and the review’s methods, results, Figure 2, discussion and conclusion. The submission makes the joint outcome-and-cost assertion before inferring possible GKV relief; its separate arguments about choice, small expenditure and insurer discretion remain independent.",
+    "alternative_explanations": "Independent adversarial review found: Kass 2020 includes nonsignificant atopic-dermatitis cost differences; Ostermann 2021 has lower costs in children and higher in adults; Trichard 2004 has similar social-security costs despite higher societal/patient costs. These can reconcile some higher-cost classifications with similar costs in the submission’s insurance context.",
+    "materiality_explanation": "Potentially minor if a numerical overstatement is confirmed; currently unresolved. The submission also relies on several separate policy grounds.",
+    "direction_explanation": "The asserted consistency supports reimbursement, but an actual error has not been established. Direction is null; the potential argumentative effect remains conditional.",
+    "confidence": {
+      "text_source_mismatch": "unresolved",
+      "materiality": "editorial_judgment"
+    },
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "energy_hearings_independent_ai",
+          "verdict": "downgrade to unresolved lead due to cost-comparison context",
+          "specialist": null,
+          "review_file": "research/reviews/energy-reviews-pharma.json"
+        }
+      ]
+    },
+    "author_response": [],
+    "draft": {
+      "title": "Referentenentwurf eines Gesetzes zur Stabilisierung der Beitragssätze in der gesetzlichen Krankenversicherung",
+      "version_date": "2026-04-16",
+      "submission_date": "2026-04-20",
+      "source_id": "bstabg-refe-20260416",
+      "relevant_provision": "Article 1 number 6, proposed section 11(6), physical/printed page 9; explanation physical/printed pages 91–92. The last sentence excludes the named therapies as additional benefits.",
+      "version_limit": "Current official 16 April PDF has 159 pages; the author describes a 157 page draft. Relevant provision and numbering match; pagination/formatting of the initially dispatched copy is not established. No later 28 April or parliamentary version is substituted.",
+      "process_status_at_screening": "Completed; ministry dossier updated 29 July 2026 links the parliamentary process."
+    },
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "First recorded after primary-source and exact-provision check; pending independent adversarial AI review.",
+        "by": "social_digital_ai"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Downgraded to unresolved_lead after independent AI challenge: a higher-cost category does not establish that all differences exceed similar costs; removed the hard 15/21 bound. Original screening hypothesis retained in research history.",
+        "by": "social_digital_ai"
+      }
+    ],
+    "research_record": "research/social-digital/bstabg2026-pharmadeutschland-a01.json",
+    "submission_source_id": "pharmadeutschland-bstabg-20260420",
+    "source_ids": [
+      "pharmadeutschland-bstabg-20260420",
+      "pharmadeutschland-register-sg2605060026",
+      "ostermann2024-cost-review",
+      "bstabg-refe-20260416",
+      "bstabg-ministry-dossier"
+    ]
+  },
+  {
+    "law_id": "dac8-umsetzungsgesetz-2025",
+    "document_id": "georg-dac8-202510",
+    "status": "ai_screened",
+    "draft": {
+      "title": "Entwurf eines Gesetzes zur Umsetzung der Richtlinie (EU)2023/2226",
+      "version": "Government bill BT 21/1937, 1 October 2025; hearing 13 October 2025",
+      "source_id": "dac8-bt211937",
+      "submission_date": null,
+      "hearing_date": "2025-10-13",
+      "relevant_provision": "Article 1 reporting rules; government user-growth cost assumption physical page 41; memorandum physical page 38 expressly limits the bill to procedural rules.",
+      "version_check": "The submission expressly identifies BT 21/1937 on its first page. The exact original bill, not the November committee amendment or enacted legislation, was checked."
+    },
+    "submission_source_id": "georg-dac8-202510",
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "social_round2_ai_agent",
+          "date": "2026-10-25",
+          "review_file": "research/round2-reviews/social-reviews-georg-dac8.json",
+          "outcome": "retain_unresolved_minor_null",
+          "specialist_review": false
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded after full four-page submission and primary source context check; independent adversarial AI review requested.",
+        "by": "tax_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent social-agent primary-source review retained the narrow classification, preserving the shorthand reading and avoiding any new forecast or actual-compliance conclusion.",
+        "by": "tax_ai_screen"
+      }
+    ],
+    "id": "dac8-2025-georg-denominator-tax-r2-09",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Reporting cryptoasset transactions to tax authorities and exchanging that information internationally.",
+      "they_want": "Review crypto tax incentives and improve tax-authority information.",
+      "they_claim": "A Divly estimate says fewer than 3% of crypto investors fulfilled their tax obligations.",
+      "the_problem": "Divly estimates declarations as a share of all owners, including people who may owe no tax. Whether the author intended a literal noncompliance rate or loose reporting-rate shorthand remains unresolved."
+    },
+    "claim_quote": {
+      "original": "weniger als 3 % der Kryptoinvestoren ihrer Steuerpflicht nachgekommen sind.",
+      "language": "de",
+      "translation_en": "Translation of claim fragment: fewer than 3% of crypto investors fulfilled their tax obligations.",
+      "locator": {
+        "pdf_page": 2,
+        "section": "Zur Notwendigkeit des Gesetzentwurfs",
+        "paragraph": "Second paragraph, final sentence; specifically attributes this to Divly’s 2023 estimate."
+      },
+      "underline": "ihrer Steuerpflicht nachgekommen"
+    },
+    "counter_quote": {
+      "original": "Owning crypto does not always mean taxes are due",
+      "language": "en",
+      "source_id": "divly-global-tax-report2022",
+      "locator": {
+        "section": "Possible reasons for variations in tax payment rate, point 4; methodology Step 3 uses all investors as denominator."
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "The source’s ratio is estimated declarants divided by all estimated crypto investors, not declarants divided by people with an obligation to declare or pay. Nondeclaration among all owners is therefore not by itself the percentage breaching a tax duty. However, Divly itself repeatedly uses compliance terminology, making a loose shorthand reading plausible.",
+    "effect": "If the claim were read as an estimate of actual compliance with existing duties, the source would not establish the implied overwhelming noncompliance rate. The current record does not resolve that reading and is not counted as a proven error.",
+    "limits": "No actual German compliance rate or tax gap is calculated. The source may contain substantial estimation error, but methodological uncertainty alone does not prove its numerical conclusion false. The author’s adjacent discussion expressly recognises the one-year tax exemption and does not explicitly say 97% are tax evaders. No intent is inferred.",
+    "context_and_alternatives": [
+      "All four author pages were read. The immediately preceding paragraph recognises tax-free gains after a holding period, which weighs against reading the author as unaware that many investors have no payment obligation.",
+      "The primary Divly methodology and all qualifications were read, including its explicit ownership-versus-duty distinction and warning about search-data bias. Its own title, section headings and conclusion also use compliance terminology. This is affirmative denominator context, but not enough to exclude shorthand.",
+      "The contemporary issuer press release also says the study does not assume every investor had to pay tax. Search exposed that statement; its page subsequently timed out, so the fully accessible original Divly report is the principal evidence.",
+      "The author’s generally low-compliance concern could survive a properly restricted denominator. Missing data on that denominator are not treated as proof that compliance is high or that the policy request is wrong."
+    ],
+    "materiality_explanation": "Potentially minor as a source-scope description; a stronger claim about actual widespread tax evasion could be more material, but that is not unequivocally stated here. This remains an unresolved lead.",
+    "direction_explanation": "Unknown until the intended scope is resolved; the literal alarming reading would favour reform, while mere reporting-rate shorthand need not imply a false compliance comparison.",
+    "confidence": {
+      "text_source_mismatch": "unresolved: denominator difference clear, intended compliance-versus-reporting reading ambiguous",
+      "materiality": "editorial_judgment"
+    },
+    "source_ids": [
+      "georg-dac8-202510",
+      "divly-global-tax-report2022",
+      "dac8-bt211937",
+      "dac8-hearing-20251013"
+    ],
+    "verification": {
+      "context": "Full original submission and full original Divly report read; no later 2026 Divly estimate substituted.",
+      "quotation_budget": "Shared total 23 author words across both Georg issues and the single shared request."
+    },
+    "research_record": "research/round2-tax/dac8-2025-georg-denominator-tax-r2-09.json",
+    "request_quote": {
+      "quote_id": "georg-dac8-request",
+      "metadata_file": "data/documents.json"
+    }
+  },
+  {
+    "id": "duengg2026-taube-root05",
+    "law_id": "duengg-2026",
+    "document_id": "taube-duengg-20260902",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Changing fertiliser-law monitoring, reporting powers and farm nutrient-balance rules.",
+      "they_want": "Require broader farm nutrient-flow data and strengthen the monitoring system.",
+      "they_claim": "The CJEU expressly required representative, methodologically robust and empirically verifiable monitoring in the cited judgment.",
+      "the_problem": "The cited passage leaves the network dispute undecided, but other passages may support the general quality standard. The source-description concern remains unresolved."
+    },
+    "claim_quote": {
+      "original": "dass das Monitoring repräsentativ, methodisch belastbar und empirisch überprüfbar sein muss",
+      "language": "de",
+      "translation_en": "Translation: that monitoring must be representative, methodologically robust and empirically verifiable",
+      "locator": {
+        "pdf_page": 4,
+        "section": "4. Das Wirkungsmonitoring",
+        "paragraph": "Final sentence on physical page4, following the attribution to CJEU C-543/16 paragraphs60ff."
+      },
+      "underline": "repräsentativ"
+    },
+    "request_quote": {
+      "original": "entsprechende Verordnungsermächtigungen sind zu gewährleisten",
+      "language": "de",
+      "translation_en": "Translation: the corresponding powers to issue ordinances must be ensured",
+      "locator": {
+        "pdf_page": 10,
+        "section": "Konklusion",
+        "paragraph": "First paragraph, following the request to access documented farm nutrient imports and exports."
+      }
+    },
+    "counter_quote": {
+      "original": "ohne dass es einer Erörterung der Frage bedürfte",
+      "language": "de",
+      "translation_en": "Translation of fragment: without there being any need to discuss the question",
+      "source_id": "cjeu-c54316-official",
+      "locator": {
+        "paragraph": 61,
+        "section": "Würdigung durch den Gerichtshof",
+        "mirror_pdf_page": 14,
+        "context": "The following clauses concern calculation methods and which groundwater monitoring network is most representative."
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "No proved error is asserted. Paragraph 61 leaves the calculation-method and monitoring-network dispute unexamined because undisputed coastal eutrophication already demonstrates the need for additional measures. It is not an express monitoring-design ruling. However, paragraph 7 reproduces the duty of suitable monitoring, paragraph 111 requires the best available science, and paragraphs 118–120 discuss unrepresentative studies. Those passages may support the author’s general evidentiary-quality summary.",
+    "effect": "If the express-holding attribution is inaccurate, correcting it would remove a claimed direct judicial authority for the monitoring criticism. The broader monitoring and data proposals retain separate legal and scientific arguments.",
+    "limits": "The absence of the precise three-adjective formulation is not proof of a misdescription. This check does not establish that monitoring may be unrepresentative, that current German arrangements comply with EU law, or that farm nutrient-flow accounting is unnecessary. The judgment’s permission to use forecasts does not refute the author’s narrower point about models conflicting with actual data; he also endorses suitable modelling elsewhere. No intent is inferred.",
+    "context_and_alternatives": [
+      "Read all 12 physical submission pages, including the surrounding monitoring criticism, acknowledged modelling role, final data-access request and bibliography.",
+      "The strongest benign reading is a doctrinal summary of suitable monitoring and best-science requirements, with 60 ff used broadly, rather than a claim that the Court decided between particular networks.",
+      "The originating researcher initially considered a narrow minor express-attribution finding; independent review identified substantial support for an inferential quality-standard reading. It remains a lead."
+    ],
+    "draft": {
+      "title": "Entwurf eines Zweiten Gesetzes zur Änderung des Düngegesetzes",
+      "version": "BT21/6135,26May2026; companionBT21/6811,1July2026",
+      "source_id": "duengg-bt216135",
+      "additional_source_id": "duengg-bt216811",
+      "submission_date": "2026-09-02",
+      "hearing_date": "2026-09-08",
+      "relevant_provision": "Article1: repeal of§11a and new§12a monitoring and data powers; exact2026bill, not failed2024proposal."
+    },
+    "materiality_explanation": "Potential minor source-attribution issue: the text invokes direct judicial authority for a monitoring-quality objection, but the general standard may be independently defensible and the specific data proposal has additional arguments. No major finding is justified.",
+    "direction_explanation": "Null while unresolved. An established overstatement of direct judicial authority would support the request, but this record does not establish that overstatement.",
+    "confidence": {
+      "text_source_mismatch": "unresolved: the cited paragraph leaves the particular dispute open, while the broader judgment may support the general norm",
+      "materiality": "editorial_judgment"
+    },
+    "submission_source_id": "taube-duengg-20260902",
+    "source_ids": [
+      "taube-duengg-20260902",
+      "cjeu-c54316-official",
+      "cjeu-c54316-mirror",
+      "duengg-bt216135",
+      "duengg-bt216811"
+    ],
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "tax_consultations_independent_ai",
+          "date": "2026-10-25",
+          "review_file": "research/round2-reviews/tax-reviews-taube-monitoring.json",
+          "outcome": "recommend_unresolved; broad doctrinal-reading alternative",
+          "specialist_review": false
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded after primary judgment and complete submission check; conservative unresolved disposition follows independent adversarial review.",
+        "by": "root_ai_screen"
+      }
+    ],
+    "research_record": "research/round2-root/duengg2026-taube-root05.json"
+  },
+  {
+    "id": "eeg2027-arge-ppa-a01",
+    "law_id": "eeg-2027",
+    "document_id": "arge-eeg2027-202608",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Renewable-electricity support and conditions for leaving the proposed two-way support scheme.",
+      "they_want": "Allow a permanent exit from support throughout a plant’s operating life.",
+      "they_claim": "The current PPA framework has a maximum duration of five years.",
+      "the_problem": "A contemporary German onshore-wind PPA runs for ten years, but the author may mean only the existing supported-plant opt-out segment."
+    },
+    "claim_quote": {
+      "original": "der aktuelle PPA Rahmen von maximal fünf Jahren",
+      "language": "de",
+      "translation_en": "Translation of fragment: the current PPA framework of a maximum of five years",
+      "locator": {
+        "pdf_page": 24,
+        "printed_page": 20,
+        "section": "§ 21 e EEG: Ausstieg aus der Förderung und Abschöpfung, second paragraph"
+      },
+      "underline": "maximal fünf Jahren"
+    },
+    "request_quote": {
+      "original": "Diese zeitliche Beschränkung sollte gestrichen werden.",
+      "language": "de",
+      "translation_en": "Translation: This time restriction should be removed.",
+      "locator": {
+        "pdf_page": 24,
+        "printed_page": 20,
+        "section": "Same section, first paragraph"
+      }
+    },
+    "counter_quote": {
+      "original": "über eine Laufzeit von zehn Jahren",
+      "language": "de",
+      "translation_en": "Translation of fragment: for a term of ten years",
+      "source_id": "statkraft-dhl-ppa-20260716",
+      "locator": {
+        "section": "Opening paragraph after bullet points"
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "If the statement is meant as a maximum for the whole German PPA market, it is too broad: Statkraft announced a ten-year PPA for a new Schleswig-Holstein onshore wind farm on 16 July 2026. No proved correction is assigned to the narrower opt-out cohort without matched evidence.",
+    "effect": "Potentially weakens one supporting description of short available income commitments; this is an unresolved scope question, not an established error.",
+    "limits": "The paragraph specifically concerns existing operating EEG plants leaving support. Different PPA segments have different terms, and a new-build contract does not necessarily establish terms available to an already subsidised plant. A longer contract elsewhere also does not make permanent exit economically attractive or invalidate the request.",
+    "context_and_alternatives": [
+      "The full 32-physical-page submission was read. Earlier printed 11–12 discusses long project-financing needs and buyers’ preference for shorter commitments, providing context against treating every duration reference as a statutory limit.",
+      "The strongest benign reading limits the current framework to existing EEG plants considering opt-out. Dena/Pexapark 2025 explicitly distinguishes new-build ten-year contracts from much shorter opt-out and post-EEG contracts.",
+      "The submission is dated August 2026 and attached to the Octoberhearing. It has both cabinet and referent-draft covers, while its detailed provisions address the government approach. No exact day within August is inferred."
+    ],
+    "draft": {
+      "version": "Government cabinet draft 29 July 2026, subsequently BT 21/7867 of 7 September 2026; committee cover 16 October 2026.",
+      "source_id": "eeg2027-bt217867",
+      "version_check": "Exact proposed§ 21 e, physical 26, limits the irreversible notice to the end of the tenth calendar year after commissioning. No later law substituted."
+    },
+    "materiality_explanation": "Potential minor: one supporting market-duration statement; no established project-income or financing error.",
+    "direction_explanation": "Null while the relevant market segment remains unresolved; only a broader reading would make the correction weaken the request.",
+    "confidence": {
+      "text_source_mismatch": "high for a broader-market counterexample; unresolved for the intended opt-out cohort",
+      "materiality": "editorial_judgment"
+    },
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "agent": "tax_consultations_ai_agent",
+          "date": "2026-10-25",
+          "result": "Complete independent review retains unresolved/null because existing supported-plant opt-out scope is a natural reading; a new-build PPA does not establish terms for that cohort.",
+          "review_file": "research/round2-reviews/tax-reviews-arge-ppa.json"
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "Recorded as unresolved after independent scope challenge; no factual error promoted.",
+        "by": "energy_ai_screen"
+      }
+    ],
+    "verification": {
+      "quote_budget": "Author 16 words total across claim and request; primary counter 7 words.",
+      "visual": "Original author physical24/printed20 rendered and visually checked; key wording and opt-out context confirmed."
+    },
+    "submission_source_id": "arge-eeg2027-202608",
+    "source_ids": [
+      "arge-eeg2027-202608",
+      "statkraft-dhl-ppa-20260716",
+      "dena-ppa-market2024-2025",
+      "eeg2027-bt217867"
+    ],
+    "research_record": "research/round2-energy/eeg2027-arge-ppa-a01.json"
+  },
+  {
+    "id": "enefg2026-algorithmwatch-l01",
+    "law_id": "enefg-2026",
+    "document_id": "algorithmwatch-enefg-2026",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Revising energy-efficiency duties for datacentres.",
+      "they_want": "Require additional renewable generation fed into the German electricity grid.",
+      "they_claim": "A sentence can be read as saying German datacentres used 98% renewable energy based on certificates.",
+      "the_problem": "The cited report gives a weighted renewable-energy factor of about 89%; 98% plausibly refers instead to the certificate share within renewable purchases. Wording scope is unresolved."
+    },
+    "claim_quote": {
+      "original": "zu 98% erneuerbare Energie, die auf Herkunftszertifikaten beruhte",
+      "language": "de",
+      "translation_en": "Translation: 98% renewable energy, which was based on guarantees of origin",
+      "locator": {
+        "pdf_page": 8,
+        "printed_page": 8,
+        "section": "2) Zeitgenaue Nutzung zusätzlich erzeugter erneuerbarer Energie",
+        "paragraph": "second"
+      },
+      "underline": "zu 98% erneuerbare Energie"
+    },
+    "counter_quote": {
+      "original": "Total renewable energy consumption from Guarantees of Origin",
+      "language": "en",
+      "source_id": "ec-datacentres-first-report-2025",
+      "locator": {
+        "pdf_page": 18,
+        "printed_page": 16,
+        "table": "11, Germany average column, 12 108 417 kWh row"
+      },
+      "retrieved_at": "2026-10-24"
+    },
+    "request_quote": {
+      "original": "eine Pflicht zur Nutzung von erneuerbaren Energien",
+      "language": "de",
+      "translation_en": "Translation of request fragment: an obligation to use renewable energy",
+      "locator": {
+        "pdf_page": 8,
+        "printed_page": 8,
+        "paragraph": "last main-text paragraph; conditions immediately following require German-grid injection and additional production"
+      }
+    },
+    "correction_if_confirmed": "Distinguish renewable share of total energy from the origin of renewable purchases. The report’s Figure 15 gives Germany a weighted REF near 0.89. Table 11 reports separate Germany averages of 14,084,560 kWh total, 12,397,665 kWh renewable, and 12,108,417 kWh renewable backed by guarantees of origin. Dividing the last two averages gives about 97.7%, explaining the 98% as a different denominator. These averages may use different reporting subsets, so their ratios are not asserted as a new weighted national estimate.",
+    "effect": "If read as a total-energy assertion, the sentence overstates certificate-backed coverage, potentially strengthening the stated criticism of purely accounting-based requirements. The surrounding critique does not depend on a precise 98% total share.",
+    "limits": "This is unresolved wording scope, not an established error. The sentence may be compressed shorthand for almost all renewable purchases being certificate-based, which the table approximately supports. Reported sites are incomplete and weighted aggregates differ from ratios of averages. No conclusion about physical power flows, actual additional generation or the merits of tighter renewable requirements is established. The report describes a 2024 reporting period for earlier activity; the submission’s year label is not adjudicated as a separate issue.",
+    "confidence": {
+      "text_source_mismatch": "medium",
+      "materiality": "editorial_judgment"
+    },
+    "draft": {
+      "title": "Gesetz zur Beschleunigung der Umsetzung der Energieeffizienzrichtlinie",
+      "version_date": "2026-04-09",
+      "submission_date": "2026-04-17",
+      "source_id": "enefg-draft-2026-04-09",
+      "relevant_provision": "Proposed section 11(5), accounting-based renewable electricity requirement, exact 79-page consultation draft. The submission explicitly identifies 9 April on cover and addresses this requirement on pages 7–10."
+    },
+    "context_checks": [
+      "Read cover and introduction and complete relevant renewable-energy section on pages 7–10, including qualifications, footnotes 20–25 and alternatives for implementing additionality. Visually inspected submission page 8 and primary report table 11.",
+      "Read report methodology around tables 9–11 and its REF discussion and Figure 15, physical pages 45–46. Do not mistake completeness concerns for affirmative proof that the national claim is false.",
+      "The strongest benign reading is a shortened description of the certificate share within renewable purchases; the surrounding paragraph focuses on certificates and may support that reading.",
+      "Independent reviewer checked that the three reported renewable-source component averages sum exactly to the renewable total, strengthening the benign certificate-share reading without resolving all reporting-subset issues."
+    ],
+    "source_ids": [
+      "algorithmwatch-enefg-2026",
+      "ec-datacentres-first-report-2025",
+      "enefg-draft-2026-04-09",
+      "enefg-ministry-consultation-archive-2026"
+    ],
+    "provenance": "Official ministry ZIP member 014, 15 pages, author Dr Julian Bothe, dated 17 April 2026. Exact cited primary report downloaded from the EU Publications Office.",
+    "open_questions": [
+      "Does the syntax assert a 98% total renewable share or describe the source of renewable purchases?",
+      "Can table 11’s average denominators be matched before computing certificate shares?",
+      "Would clarification materially change the policy argument given the independently high reported certificate use?"
+    ],
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "tax_consultations_ai_agent",
+          "date": "2026-10-24",
+          "status": "unresolved_lead_retained",
+          "review_file": "research/reviews/tax-reviews-energy.json"
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "Recorded only as unresolved denominator/wording lead after primary methodology and benign-reading checks.",
+        "by": "energy_hearings_ai_screen"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Independent tax review retained unresolved/minor/null; noted exact component-total sum as evidence for benign reading.",
+        "by": "energy_hearings_ai_screen"
+      }
+    ],
+    "research_record": "research/energy/enefg2026-algorithmwatch-l01.json",
+    "submission_source_id": "algorithmwatch-enefg-2026",
+    "materiality_explanation": "Minor if the literal total-energy reading were confirmed; the author’s broader accounting/additionality argument remains.",
+    "direction_explanation": "Null while wording scope remains unresolved. On the disputed literal reading a larger accounting share could favour stricter rules, but no established directional effect is assigned."
+  },
+  {
+    "id": "enefg2026-bund-a01",
+    "law_id": "enefg-2026",
+    "document_id": "bund-enefg-2026",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "An ongoing bill revising German energy-efficiency duties, including allowable total-to-IT energy ratios for datacentres.",
+      "they_want": "Reject and substantially improve the draft, preserving stronger efficiency requirements.",
+      "they_claim": "Increasing the allowed PUE ratio by 0.1 permits 10% more total electricity use.",
+      "the_problem": "The 0.1-to-10% conversion is not a general ratio identity. Under a fixed energy mix, the addressed changes imply about 6.7–8.3%; missing energy-carrier detail prevents proving the actual electricity assertion false."
+    },
+    "claim_quote": {
+      "original": "Dies bedeutet, dass bezogen auf den Gesamtverbrauch 10% mehr Strom eingesetzt werden kann",
+      "language": "de",
+      "translation_en": "Translation: This means that, relative to total consumption, 10% more electricity can be used",
+      "locator": {
+        "pdf_page": 3,
+        "printed_page": 3,
+        "section": "Anforderungen an Rechenzentren",
+        "paragraph": "first"
+      },
+      "underline": "bezogen auf den Gesamtverbrauch 10%"
+    },
+    "counter_quote": {
+      "original": "Verhältnis des jährlichen Energiebedarfs des gesamten Rechenzentrums zum Energiebedarf der Informationstechnik",
+      "language": "de",
+      "source_id": "enefg-draft-2026-04-09",
+      "locator": {
+        "pdf_page": 6,
+        "printed_page": 6,
+        "section": "Article 1, proposed § 3 number 11 EnEfG"
+      },
+      "retrieved_at": "2026-10-24",
+      "translation_en": "Translation: ratio of the entire datacentre’s annual energy demand to the energy demand of the information technology"
+    },
+    "request_quote": {
+      "original": "inakzeptabel und muss grundlegend nachgebessert werden",
+      "language": "de",
+      "translation_en": "Translation of request fragment: unacceptable and must be fundamentally improved",
+      "locator": {
+        "pdf_page": 1,
+        "printed_page": 1,
+        "paragraph": "last sentence"
+      }
+    },
+    "correction": "Conditional arithmetic: PUE is total facility energy divided by IT energy. With fixed IT demand, raising PUE from p to p+0.1 changes total energy by 0.1/p. Existing-site limits 1.5→1.6 and 1.3→1.4 imply 6.67% and 7.69%; the new-site limit 1.2→1.3 implies 8.33%. These become electricity percentages only with a fixed energy mix. More generally, electricity change equals 0.1 times IT energy minus the change in non-electric energy. The wording therefore does not establish a general 10%-of-total ratio conversion, but missing carrier information prevents a proven correction to actual electricity use.",
+    "effect": "If the electricity comparison assumes fixed IT demand and a fixed energy mix, the stated 10% overstates the relative allowance and would strengthen opposition to relaxation. Without the carrier assumptions, no actual electricity overstatement or corrected sector forecast is established.",
+    "limits": "Unresolved lead, not a proven error in actual electricity use. The legal PUE definition concerns total energy, whereas the submission expressly says electricity. With fixed IT energy I, a 0.1 PUE change means total-energy change 0.1 I; electricity change is 0.1 I minus the change in non-electric energy. Thus electricity can change differently from total energy. Under a fixed carrier mix, the ratio calculation gives 6.7–8.3%, but the submission does not supply enough carrier detail to prove that assumption. The alternative 10%-of-IT reading remains possible shorthand despite its stated total-consumption wording. Actual sector use also depends on load, compliance, facility mix and capacity. The related 100 TWh illustration and cost extrapolation do not establish a corrected forecast or affected cohort. Missing carrier evidence is not proof of an error.",
+    "confidence": {
+      "text_source_mismatch": "medium",
+      "materiality": "editorial_judgment"
+    },
+    "draft": {
+      "title": "Gesetz zur Beschleunigung der Umsetzung der Energieeffizienzrichtlinie",
+      "version_date": "2026-04-09",
+      "source_id": "enefg-draft-2026-04-09",
+      "submission_date": "2026-04-17",
+      "comparison": "Submission cover identifies 9 April 2026 draft. Exact 79-page version checked. Proposed § 11(1)–(2) on page 13 contains bracketed [1.6], [1.4], [1.3]; existing limits 1.5, 1.3, 1.2 are the pre-amendment law. No substitution of the June Cabinet draft."
+    },
+    "calculation": {
+      "definition": "E_total=PUE×E_IT",
+      "fixed_IT_baseline": 100,
+      "units": "arbitrary electricity units; values scale linearly",
+      "cases": [
+        {
+          "scope": "existing sites 2027",
+          "old_PUE": 1.5,
+          "draft_PUE": 1.6,
+          "old_total": 150,
+          "draft_total": 160,
+          "increase_percent_of_old_total": 6.6666666667
+        },
+        {
+          "scope": "existing sites 2030",
+          "old_PUE": 1.3,
+          "draft_PUE": 1.4,
+          "old_total": 130,
+          "draft_total": 140,
+          "increase_percent_of_old_total": 7.6923076923
+        },
+        {
+          "scope": "new sites",
+          "old_PUE": 1.2,
+          "draft_PUE": 1.3,
+          "old_total": 120,
+          "draft_total": 130,
+          "increase_percent_of_old_total": 8.3333333333
+        }
+      ],
+      "illustration_only": "If 100 TWh means total atPUE 1.2, identical IT activity atPUE 1.3 uses 108.33 TWh, an 8.33 TWh increment. If 100 TWh instead means total atPUE 1.3, moving to 1.2 saves 7.69 TWh. Neither is a new sector forecast."
+    },
+    "context_checks": [
+      "Read all 4 pages, rendered page 3. Paragraph directly links 0.1 PUE threshold change to total-electricity 10%, then 100 TWh/10 TWh illustration; p 4 links this to annual cost.",
+      "Distinguished absolute PUE point change from percentage relative to total. The alternative IT-denominator reading produces 10% but conflicts with the express denominator.",
+      "Verified exact draft page 6 definition and page 13 thresholds.",
+      "The submission cites Netzentwicklungsplan 2025 (2037/2045) without edition, page, scenario or link. A contemporaneous primary scenario framework approved 30 April 2025 includes server and cooling electricity (p 36), describes additional project demand around 80–115 TWh (p 37), and gives 78.4/97.3/116.2 TWh in both 2037 and 2045 (table 9, p 38). Thus about 100 TWh is a rough matching scenario value, not pure IT electricity; the submission calls it all-datacentre consumption. Edition and cohort cannot be conclusively matched. The finding does not depend on choosing a corrected sector forecast.",
+      "The adjacent claimed non-IT operating/cooling increase range also fails to use one consistent denominator: fixed-IT calculations at the addressed old limits give 20%, 33.3% and 50%. That related concern is not counted separately. Its understatement for new sites would run against the author’s request; favours_author_request=true here concerns only the explicitly quoted 10%-of-total overstatement, not every number in the paragraph. The Blue Angel 1.25-from-2024 shorthand matches table 2 of the primary 2023 criteria for the commissioning cohort, so was not treated as another error.",
+      "Late independent follow-up distinguished total energy from electricity. This supersedes the earlier favourable provisional review: the relative-energy identity alone cannot prove actual electricity use overstated without carrier assumptions."
+    ],
+    "source_ids": [
+      "bund-enefg-2026",
+      "enefg-draft-2026-04-09",
+      "bund-enefg-register-process-2026",
+      "nep-scenario-approval-2025",
+      "enefg-current-law-section11",
+      "enefg-ministry-consultation-archive-2026"
+    ],
+    "provenance_limit": "Primary submission extracted from the official BMWE consultation ZIP and verified byte-identical to the archived mirror PDF; see research/energy/sources/enefg-official-archive-comparison.json. No separate BUND Lobbyregister SG attachment located; this remains ministry-consultation-origin.",
+    "review": {
+      "specialist": null,
+      "late_adjudication": {
+        "date": "2026-10-24",
+        "reviewers": [
+          "root_ai_agent",
+          "tax_consultations_ai_agent"
+        ],
+        "outcome": "downgrade_unresolved_minor_null",
+        "file": "research/reviews/tax-reviews-energy.json"
+      },
+      "ai_reviews": [
+        {
+          "reviewer": "tax_consultations_ai_agent",
+          "date": "2026-10-24",
+          "status": "provisional_finding_retained",
+          "review_file": "research/reviews/tax-reviews-energy.json"
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "first recorded pending independent adversarial review",
+        "by": "energy_hearings_ai_screen"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Official ministry ZIP copy verified byte-identical to archived submission; provenance strengthened. Independent review references updated.",
+        "by": "energy_hearings_ai_screen"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Downgraded to unresolved lead, minor/direction null, after independent follow-up identified total-energy versus electricity-carrier scope. Earlier fixed-mix arithmetic and favourable review preserved as history, not proof of actual-electricity overstatement.",
+        "by": "energy_hearings_ai_screen"
+      }
+    ],
+    "potential_favours_author_request": true,
+    "direction_explanation": "A larger proportional electricity allowance makes the proposed relaxation appear more harmful, supporting the expressly requested rejection and fundamental improvement. No intent inferred.",
+    "research_record": "research/energy/enefg2026-bund-a01.json",
+    "submission_source_id": "bund-enefg-2026",
+    "materiality_explanation": "Minor if confirmed: the fixed-mix comparison changes the relative allowance by about 1.7–3.3 percentage points, while its sign and the policy case remain. Carrier scope is unresolved and no numerical overestimate in actual electricity or cost is established."
+  },
+  {
+    "id": "enefg2026-uim-l01",
+    "law_id": "enefg-2026",
+    "document_id": "uim-enefg-2026",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "major",
+    "favours_author_request": true,
+    "card": {
+      "law_is_about": "A pending 2026 bill transposing the EU Energy Efficiency Directive and relaxing some German efficiency duties.",
+      "they_want": "Preserve the existing PUE efficiency limits for new and existing datacentres.",
+      "they_claim": "Borderstep projects average PUE of 1.4 in 2026 and 1.2 in 2030 for existing datacentres, so only a few inefficient sites would face the existing limits.",
+      "the_problem": "The cited model covers the evolving German fleet, including new sites, and does not establish how many pre-July-2026 sites exceed the limits. Scope and distribution need clarification; no error is yet established."
+    },
+    "claim_quote": {
+      "original": "erreichen bestehende Rechenzentren bereits 2026 im Schnitt einen PUE von 1,4",
+      "language": "de",
+      "translation_en": "Translation: existing datacentres already achieve an average PUE of 1.4 in 2026",
+      "locator": {
+        "pdf_page": 7,
+        "printed_page": 7,
+        "section": "4. Energieeffiziente Rechenzentren",
+        "paragraph": "second bullet"
+      },
+      "underline": "bestehende Rechenzentren"
+    },
+    "counter_quote": {
+      "original": "Auswirkungen der EnEfG-Regelung auf neue Colocation-Rechenzentren und bestehende Rechenzentren",
+      "source_id": "borderstep-datacentres-2025",
+      "locator": {
+        "pdf_page": 41,
+        "printed_page": 41,
+        "section": "Wirkungseffekt des EnEfG",
+        "paragraph": "paragraph below Figure 15"
+      },
+      "retrieved_at": "2026-10-24",
+      "language": "de",
+      "translation_en": "Translation: effects of the EnEfG provision on new colocation datacentres and existing datacentres"
+    },
+    "request_quote": {
+      "original": "Die PUE-Werte müssen auf den bestehenden Werten erhalten bleiben.",
+      "language": "de",
+      "translation_en": "Translation: The PUE values must remain at their existing levels.",
+      "locator": {
+        "pdf_page": 7,
+        "printed_page": 7,
+        "section": "4. Energieeffiziente Rechenzentren",
+        "paragraph": "first bullet"
+      }
+    },
+    "effect": "If the alleged scope transfer is confirmed, it would weaken the numerical justification that strict limits burden only a few inefficient incumbent sites. A fleet average cannot by itself identify the share exceeding a threshold.",
+    "limits": "This is a lead, not a proven error. The author may use existing datacentres to mean the fleet existing in each forecast year. The study explicitly includes improvements in incumbent facilities as well as new colocation sites. Its 2030 value is 1.25, which may reasonably be approximated as 1.2; rounding alone is not treated as an error. The statement acknowledges modelling on page 6, so it is not simply misreporting forecast values as measurements. Missing cohort or distribution evidence does not prove the incumbent average or only-few assertion false. No conclusion about desirability or feasibility of PUE regulation follows.",
+    "confidence": {
+      "text_source_mismatch": "low",
+      "materiality": "editorial_judgment"
+    },
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "tax_consultations_ai_agent",
+          "date": "2026-10-24",
+          "status": "unresolved_lead_retained",
+          "review_file": "research/reviews/tax-reviews-energy.json"
+        }
+      ]
+    },
+    "author_response": [],
+    "draft": {
+      "title": "Gesetz zur Beschleunigung der Umsetzung der Energieeffizienzrichtlinie",
+      "version_date": "2026-04-09",
+      "source_id": "enefg-draft-2026-04-09",
+      "addressed_provisions": [
+        "Article 1, proposed § 11(1)–(2) EnEfG"
+      ],
+      "comparison": "Exact 9 April 2026 ministry draft, 79 pages, cover date verified. Page 13 changes pre-July-2026 facilities to [1.6] in July 2027 and [1.4] in July 2030; new facilities [1.3]. Brackets preserved. Do not substitute June cabinet bill BT 21/8027."
+    },
+    "context_checks": [
+      "Read full pages 6–8 of submission and rendered page 7.",
+      "Read model scope and qualifications on primary report pages 40–44; rendered page 41. Model uses evolving IT equipment sales and stock, includes new facilities and smaller IT installations.",
+      "Report page 41 gives 1.46 in 2024 to 1.25 in 2030 with EnEfG versus 1.35 without; the stronger improvement arises in new colocation and incumbent sites.",
+      "A mean does not establish the count or proportion above 1.3 or 1.5. This is a limitation of support, not affirmative proof of a false proportion."
+    ],
+    "source_ids": [
+      "uim-enefg-2026",
+      "uim-enefg-lobbyregister-2026",
+      "uim-enefg-register-process-2026",
+      "borderstep-datacentres-2025",
+      "enefg-draft-2026-04-09",
+      "enefg-ministry-consultation-archive-2026"
+    ],
+    "process_status_at_screening": "Pending Bundestag committee stage as at 24 October 2026; a later government version BT 21/8027 was heard 5 October 2026. This lead concerns the earlier April consultation draft only.",
+    "open_questions": [
+      "Does the model have a separate incumbent-site cohort supporting the claimed average?",
+      "Is existing datacentres intended to refer to a fixed pre-July-2026 cohort or the changing fleet?",
+      "What share of incumbent facilities would actually exceed each limit, by site count rather than capacity-weighted average?"
+    ],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "first recorded as unresolved lead; not a finding of error",
+        "by": "ai_screen"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Official ministry ZIP copy verified byte-identical to archived submission; provenance strengthened. Independent review references updated.",
+        "by": "energy_hearings_ai_screen"
+      }
+    ],
+    "provenance": " Primary submission extracted from the official BMWE consultation ZIP and verified byte-identical to the archived mirror PDF; see research/energy/sources/enefg-official-archive-comparison.json.",
+    "research_record": "research/energy/enefg2026-uim-l01.json",
+    "submission_source_id": "uim-enefg-2026",
+    "materiality_explanation": "Potentially major if confirmed because the claim directly addresses the burden of the existing-site limits in the exact draft. Severity is contingent on resolving scope, independently of its favourable direction.",
+    "direction_explanation": "The disputed reading supports retaining stricter incumbent-site standards by presenting the affected population as small."
+  },
+  {
+    "law_id": "geowg-2024",
+    "document_id": "muellersyhre-geowg-20241031",
+    "status": "ai_screened",
+    "request_quote": {
+      "quote_id": "muellersyhre-geowg-request",
+      "metadata_file": "data/documents.json"
+    },
+    "draft": {
+      "title": "Entwurf eines Gesetzes zur Beschleunigung der Genehmigungsverfahren von Geothermieanlagen,Wärmepumpen und Wärmespeichern sowie zur Änderung weiterer rechtlicher Rahmenbedingungen für den klimaneutralen Ausbau der Wärmeversorgung",
+      "version": "BT 20/13092,30 September 2024; companion comments/replyBT 20/13556,30 October 2024",
+      "source_id": "geowg-bt2013092",
+      "additional_source_id": "geowg-bt2013556",
+      "submission_date": "2024-10-31",
+      "date_note": "Official committee-cover date; author text has no separate date. Hearing 4 November 2024.",
+      "relevant_provision": "Geothermal heat and heat-network expansion rationale; accelerated permitting. The source claims and arithmetic are assessed against this draft, not later legislation.",
+      "process_status_at_screen": "2024 process lapsed with the 20 thBundestag; later reintroduced legislation is not substituted."
+    },
+    "submission_source_id": "muellersyhre-geowg-20241031",
+    "source_ids": [
+      "muellersyhre-geowg-20241031",
+      "geowg-bt2013092",
+      "geowg-bt2013556"
+    ],
+    "source_registry": "research/round2-energy/source-registry.json",
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "social_round2_independent_ai",
+          "date": "2026-10-25",
+          "disposition": "retain unresolved; affirmative alternative interpretation",
+          "review_file": "research/round2-reviews/social-reviews-muellersyhre-geowg.json"
+        }
+      ]
+    },
+    "author_response": [],
+    "verification": {
+      "visual": "Full20author pages plus cover independently read; critical pages12–15/21visually checked. See review."
+    },
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded after full submission/exact-draft check; independent review requested.",
+        "by": "energy_hearings_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent full-context review completed; disposition updated or retained conservatively.",
+        "by": "energy_hearings_ai_screen"
+      }
+    ],
+    "id": "geowg2024-muellersyhre-a01",
+    "finding_state": "unresolved_lead",
+    "severity": "major",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Accelerating geothermal heat, heat-pump and heat-storage permits.",
+      "they_want": "Reject the whole bill.",
+      "they_claim": "An electricity-generation calculation underpins rejection of the 10 TWh geothermal target.",
+      "the_problem": "The addressed target is heat delivered into heat networks; it is unresolved whether the author merely explores an electricity option."
+    },
+    "claim_quote": {
+      "original": "elektrisch zu produzieren",
+      "language": "de",
+      "translation_en": "Translation: to produce electrically",
+      "locator": {
+        "pdf_page": 12,
+        "printed_page": 11,
+        "section": "3. Energetische Berechnungen",
+        "paragraph": "Paragraph after the 10 TWh/year target and continuous-power figure; electricity calculation of 250 plants follows."
+      },
+      "underline": "elektrisch"
+    },
+    "additional_claim_quote": {
+      "original": "daher im Gesetzesentwurfsformular",
+      "language": "de",
+      "translation_en": "Translation of fragment: therefore in the draft-bill document",
+      "locator": {
+        "pdf_page": 12,
+        "printed_page": 11,
+        "section": "3. Energetische Berechnungen",
+        "paragraph": "Paragraph attributing a resulting emphasis on shallow geothermal heat pumps to the bill."
+      }
+    },
+    "counter_quote": {
+      "original": "die derzeitige Einspeisung in Wärmenetze aus dieser Quelle damit verzehnfacht werden",
+      "language": "de",
+      "translation_en": "Translation: thereby increase tenfold the current feed-in from this source into heat networks",
+      "source_id": "geowg-bt2013092",
+      "locator": {
+        "pdf_page": 16,
+        "printed_page": 16,
+        "section": "A. Allgemeiner Teil,I. Zielsetzung und Notwendigkeit der Regelungen",
+        "paragraph": "Geothermal campaign 10 TWh target paragraph."
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "The 10 TWh campaign target concerns heat-network feed-in. Failure to generate that amount of electricity from deep geothermal power plants does not establish failure of that heat target or a need to switch it to shallow heat pumps.",
+    "effect": "If the passage treats the target as electrical output, it weakens the 250-power-plant feasibility objection; the passage may instead be a hypothetical comparison of options.",
+    "limits": "The author elsewhere acknowledges direct heat from deep geothermal energy. Read as a hypothetical electricity scenario, the calculation need not misstate the target. The subsequent attributed therefore-link creates concern but is interpretive. Actual costs, geological availability and feasibility remain unproved. No intent is inferred.",
+    "materiality_explanation": "Potentially major because it concerns the energy category used in a prominent feasibility/cost objection; no proven policy-relevant misdescription is asserted pending review.",
+    "direction_explanation": "Null while unresolved; an established electrical-target misdescription would favour rejection.",
+    "confidence": {
+      "text_source_mismatch": "high for the draft heat category; unresolved author-scenario interpretation",
+      "materiality": "editorial_judgment"
+    },
+    "research_record": "research/round2-energy/geowg2024-muellersyhre-a01.json"
+  },
+  {
+    "law_id": "geowg-2024",
+    "document_id": "muellersyhre-geowg-20241031",
+    "status": "ai_screened",
+    "request_quote": {
+      "quote_id": "muellersyhre-geowg-request",
+      "metadata_file": "data/documents.json"
+    },
+    "draft": {
+      "title": "Entwurf eines Gesetzes zur Beschleunigung der Genehmigungsverfahren von Geothermieanlagen,Wärmepumpen und Wärmespeichern sowie zur Änderung weiterer rechtlicher Rahmenbedingungen für den klimaneutralen Ausbau der Wärmeversorgung",
+      "version": "BT 20/13092,30 September 2024; companion comments/replyBT 20/13556,30 October 2024",
+      "source_id": "geowg-bt2013092",
+      "additional_source_id": "geowg-bt2013556",
+      "submission_date": "2024-10-31",
+      "date_note": "Official committee-cover date; author text has no separate date. Hearing 4 November 2024.",
+      "relevant_provision": "Geothermal heat and heat-network expansion rationale; accelerated permitting. The source claims and arithmetic are assessed against this draft, not later legislation.",
+      "process_status_at_screen": "2024 process lapsed with the 20 thBundestag; later reintroduced legislation is not substituted."
+    },
+    "submission_source_id": "muellersyhre-geowg-20241031",
+    "source_ids": [
+      "muellersyhre-geowg-20241031",
+      "geowg-bt2013092",
+      "geowg-bt2013556"
+    ],
+    "source_registry": "research/round2-energy/source-registry.json",
+    "review": {
+      "specialist": null,
+      "follow_up_checks": [
+        {
+          "review_file": "research/round2-reviews/root-followup-geowg-arithmetic.json",
+          "scope": "Independent root calculation check only; not an additional full primary-source read or specialist review"
+        }
+      ],
+      "ai_reviews": [
+        {
+          "reviewer": "social_round2_independent_ai",
+          "date": "2026-10-25",
+          "disposition": "retain unresolved; affirmative alternative interpretation",
+          "review_file": "research/round2-reviews/social-reviews-muellersyhre-geowg.json"
+        }
+      ]
+    },
+    "author_response": [],
+    "verification": {
+      "visual": "Full20author pages plus cover independently read; critical pages12–15/21visually checked. See review."
+    },
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded after full submission/exact-draft check; independent review requested.",
+        "by": "energy_hearings_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Downgraded following independent adverse review: actual delivery costs could be substantially above the loose 2.8%lower bound; no actual economic falsehood proved.",
+        "by": "energy_hearings_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent full-context review completed; disposition updated or retained conservatively.",
+        "by": "energy_hearings_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Root integration preserves the literal joint expectation instead of implying a universal sufficient threshold; added the near-three-percent threshold under the separately corrected comparator as another benign explanation.",
+        "by": "root_ai_screen"
+      }
+    ],
+    "id": "geowg2024-muellersyhre-a02",
+    "finding_state": "unresolved_lead",
+    "severity": "major",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Accelerating geothermal heat, heat-pump and heat-storage permits.",
+      "they_want": "Reject the whole bill.",
+      "they_claim": "Delivery costs are expected to exceed 2.8%, and the resulting monetary heat-pump ratio is below 1.",
+      "the_problem": "The stated lower bound alone is insufficient; actual higher delivery costs could still make the ratio below 1."
+    },
+    "claim_quote": {
+      "original": "deutlich kleiner als 1",
+      "language": "de",
+      "translation_en": "Translation: significantly less than 1",
+      "locator": {
+        "pdf_page": 15,
+        "printed_page": 14,
+        "section": "3.1.1 Monetärer Aufwands-/Nutzenvergleich",
+        "paragraph": "First paragraph; the claimed result follows from delivery infrastructure costing more than 2.8% of raw-energy costs."
+      },
+      "underline": "kleiner als 1"
+    },
+    "additional_claim_quote": {
+      "original": "mehr als 2,8%",
+      "language": "de",
+      "translation_en": "Translation: more than 2.8%",
+      "locator": {
+        "pdf_page": 15,
+        "printed_page": 14,
+        "section": "3.1.1 Monetärer Aufwands-/Nutzenvergleich",
+        "paragraph": "Same sentence, delivery-cost lower bound."
+      }
+    },
+    "counter_quote": {
+      "original": "1,592",
+      "language": "de",
+      "source_id": "muellersyhre-geowg-20241031",
+      "locator": {
+        "pdf_page": 14,
+        "printed_page": 13,
+        "section": "3.1.1",
+        "paragraph": "Monetary-ratio equation immediately preceding the challenged conclusion."
+      },
+      "retrieved_at": "2026-10-25",
+      "note": "Quoted input/result from the same primary submission. The contradiction is established by the explicitly labelled independent calculation below, not by a fabricated external quotation.",
+      "translation_en": "Translation of numeric entry: 1.592."
+    },
+    "calculation": {
+      "label": "Independent arithmetic check, not a quotation",
+      "author_values": {
+        "heat_cents_per_kwh": 9.5,
+        "electricity_cents_per_kwh": 33,
+        "physical_COP": 4.59,
+        "claimed_price_ratio": 0.347,
+        "claimed_monetary_ratio": 1.592
+      },
+      "using_author_reported_ratio": "1.592/1.03=1.5456 if delivery costs are 3% of raw-heat cost; still above 1. If 3% is instead a retail-price share,1.592×0.97=1.5442.",
+      "correct_price_division": "9.5/33=0.2878788;4.59×9.5/33=1.3213636. At 3% of raw-heat cost this gives 1.2828773; at 3% of retail price,1.2817227.",
+      "break_even_under_stated_prices": "Delivery must exceed 32.136% of raw-heat value, or 24.321% of retail heat price, to push 1.32136 below 1. Greater-than 2.8% alone is insufficient.",
+      "scope": "Uses the author’s hypothetical inputs only. Does not establish actual tariffs, actual delivery shares, total returns or profitability.",
+      "combined_input_correction_context": "Using the independently corrected a 03 ratio 1.0310948 gives raw-heat cost break-even about 3.10948%, or retail-share break-even about 3.0157%. These are conditional calculations within the same model, not observed costs."
+    },
+    "correction": "The quoted 2.8% lower bound does not justify the claimed below-one result. A 3% delivery-cost example satisfies it while the ratio remains above 1 under either plausible denominator, even after correcting the 9.5/33 division.",
+    "effect": "The calculation leaves the below-one conclusion unestablished from the stated lower bound; it does not prove that conclusion false.",
+    "limits": "Actual delivery costs could exceed the true break-even threshold; no actual delivery-cost share is established. Capital, maintenance and other costs can still make a project unprofitable. With both comparator defects in a 03 corrected, the ratio is only 1.03109 and the raw-heat cost break-even is about 3.109%, much closer to 2.8%; this is a further benign calculation alternative. The record therefore identifies an unestablished implication from the stated lower bound, not a proved false project result. No intent is inferred.",
+    "materiality_explanation": "Major editorial judgment: a claimed operating-cost break-even result is used repeatedly to support economic infeasibility and rejection. The independent arithmetic does not validate all input assumptions or settle project economics.",
+    "direction_explanation": "Null while unresolved. If the 2.8%statement were established as a sufficient threshold, it would favour rejection; the loose-lower-bound alternative is plausible.",
+    "confidence": {
+      "text_source_mismatch": "high that the lower bound alone is insufficient; unresolved whether it is intended as a sufficient threshold",
+      "materiality": "editorial_judgment"
+    },
+    "research_record": "research/round2-energy/geowg2024-muellersyhre-a02.json"
+  },
+  {
+    "id": "ggdg2026-hateaid-a02",
+    "law_id": "gesetz-digitale-gewalt-2026",
+    "document_id": "hateaid-ggdg-20260522",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Civil and criminal protection against digital violence.",
+      "they_want": "Avoid referring sexualised-deepfake victims to private prosecution.",
+      "they_claim": "98% of online deepfake content is pornographic.",
+      "the_problem": "The cited primary result concerns videos; whether content is intended more broadly remains unresolved."
+    },
+    "claim_quote": {
+      "original": "98 %",
+      "language": "de",
+      "translation_en": "Translation: 98%. The surrounding sentence describes all online deepfake content.",
+      "locator": {
+        "pdf_page": 14,
+        "printed_page": 14,
+        "footnote": 6
+      },
+      "underline": "98 %"
+    },
+    "counter_quote": {
+      "original": "Deepfake pornography makes up 98% of all deepfake videos online.",
+      "language": "en",
+      "source_id": "securityhero-state-deepfakes-2023",
+      "locator": {
+        "section": "Key Findings",
+        "item": "02; repeated in Overview of Current State"
+      },
+      "retrieved_at": "2026-10-24"
+    },
+    "request_quote": {
+      "original": "kein Verweis",
+      "language": "de",
+      "translation_en": "Translation of heading fragment: no referral. The heading specifies the private-prosecution route; the following sentence expressly asks against classifying the offence as a private-prosecution offence.",
+      "locator": {
+        "pdf_page": 14,
+        "printed_page": 14,
+        "section": "b) Effective enforcement; heading"
+      }
+    },
+    "correction": "When reporting this study, specify its video population. It analysed 95,820 videos and describes the 98% result as a video share.",
+    "effect": "A narrower source description would limit the numerical claim’s demonstrated coverage. No direction or size of change in the actual all-format share is established.",
+    "limits": "No error in the actual global percentage is proved. Content may be shorthand for the videos measured. The additional cited documentary page discusses 2020 estimates and other formats but supplies no independent 2023 all-format 98% estimate. Non-consensual sexualised deepfakes remain a documented harm; this check does not decide the prosecution policy.",
+    "materiality_explanation": "Minor if confirmed: the number and video result are accurately reproduced; the open question is the population label, with no established impact on the requested enforcement rule.",
+    "direction_explanation": "Null: a broader apparent evidential scope could support the request, but no proved inflation or favourable effect follows.",
+    "confidence": {
+      "text_source_mismatch": "unresolved_scope_interpretation",
+      "materiality": "editorial_judgment"
+    },
+    "context_and_alternatives": [
+      "Read author and ministry copies of page 14, surrounding pages 13–15, primary findings/methodology and the second source expressly cited in footnote 6. The same footnote and heading occur in both copies.",
+      "The argument concerns a mass phenomenon and public interest in prosecution. The footnote does not claim that the study directly tested prosecution outcomes.",
+      "Do not infer that absence of an all-format estimate refutes the wider numerical assertion. Human review should assess whether the German content wording is a material source-description error or ordinary shorthand."
+    ],
+    "draft": {
+      "title": "Entwurf eines Gesetzes zur Stärkung des zivilrechtlichen und strafrechtlichen Schutzes vor digitaler Gewalt",
+      "version": "BMJV RefE, Bearbeitungsstand 16.04.2026 14:37; published 17 April 2026",
+      "submission_date": "2026-05-22",
+      "dispatch_date_register": "2026-05-26",
+      "source_id": "ggdg-refe-20260417",
+      "relevant_provision": "Article 2 number 5, proposed section 184k(1) number 4 StGB, covers sexualised deepfake images (physical draft pages 12–13); Article 4 proposes section 374(1) number 2a StPO private-prosecution availability (physical draft page 14). Version: 16 April 2026, 14:37.",
+      "process_status_at_screen": "ongoing; compare this consultation version, not the October 2026 Cabinet version"
+    },
+    "source_ids": [
+      "hateaid-ggdg-20260522",
+      "hateaid-ggdg-ministry",
+      "hateaid-ggdg-register",
+      "ggdg-refe-20260417",
+      "securityhero-state-deepfakes-2023",
+      "deepfake-report-digital-rape"
+    ],
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "review_file": "research/reviews/energy-reviews-hateaid-deepfake.json",
+          "review_type": "independent_AI",
+          "specialist_review": false
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "Recorded as an unresolved source-scope lead, expressly without concluding the global percentage false; independent review requested.",
+        "by": "social_digital_ai"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Independent AI review retained unresolved minor/null; corrected draft article locators after checking exact draft. Content shorthand remains plausible.",
+        "by": "social_digital_ai"
+      }
+    ],
+    "verification": {
+      "visual": "Ministry submission physical/printed page 14 rendered and inspected; footnote and heading agree with author copy."
+    },
+    "research_record": "research/social-digital/ggdg2026-hateaid-a02.json",
+    "submission_source_id": "hateaid-ggdg-20260522"
+  },
+  {
+    "id": "haushalt2026-venro-social11",
+    "law_id": "haushalt-2026",
+    "document_id": "venro-haushalt2026-20250909",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "The federal budget for 2026, including German contributions to international vaccination programmes.",
+      "they_want": "Raise Germany’s annual Gavi contribution to EUR 150 million and contribute EUR 750 million over five years.",
+      "they_claim": "Gavi sought EUR 11.9 billion for 2026–2030 and received about EUR 9 billion in pledges.",
+      "the_problem": "Gavi reported those amounts in US dollars. The unit mismatch is established, but formal submission of this particular document has not been verified."
+    },
+    "draft": {
+      "title": "Entwurf eines Gesetzes über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 2026",
+      "version": "Government draft adopted 30 July 2025, BT 21/600 dated 15 August 2025; corresponding official draft Einzelplan 23.",
+      "source_id": "haushalt2026-epl23-entwurf",
+      "submission_date": "2025-09-09",
+      "date_note": "Imprint date of the author-published statement; not independently verified ministry or Bundestag receipt.",
+      "version_check": "Author publication page expressly identifies the cabinet draft of 30 July. Its BMZ total EUR 9,944,724 thousand and Gavi EUR 80,000 thousand match the official draft, physical/printed pages 4 and 30. Chapter 2303, title 687 01, explanation item 13 makes the Gavi line binding through the budget note on page 29. Later parliamentary appropriations are not substituted."
+    },
+    "claim_quote": {
+      "original": "wollte die Impfallianz mindestens 11,9 Milliarden Euro mobilisieren",
+      "language": "de",
+      "translation_en": "Translation: the Vaccine Alliance wanted to mobilise at least EUR 11.9 billion.",
+      "locator": {
+        "pdf_page": 12,
+        "printed_page": 12,
+        "column": "right",
+        "paragraph": "Gavi paragraph, second sentence"
+      },
+      "underline": "11,9 Milliarden Euro"
+    },
+    "additional_claim_quote": {
+      "original": "Neuen Milliarden Euro",
+      "language": "de",
+      "translation_en": "Translation of apparent typographical wording: [intended: nine] billion euros.",
+      "locator": {
+        "pdf_page": 12,
+        "printed_page": 12,
+        "column": "right",
+        "paragraph": "Gavi paragraph, third sentence"
+      },
+      "note": "The original visibly prints Neuen, not Neun. This spelling is preserved and is not treated as a separate error."
+    },
+    "request_quote": {
+      "original": "Deutschland Gavi mit 750 Millionen Euro über die nächsten fünf Jahre unterstützen.",
+      "language": "de",
+      "translation_en": "Translation of request fragment: Germany [should] support Gavi with EUR 750 million over the next five years.",
+      "locator": {
+        "pdf_page": 12,
+        "printed_page": 12,
+        "column": "right",
+        "paragraph": "Gavi paragraph, penultimate sentence"
+      }
+    },
+    "counter_quote": {
+      "original": "more than US$ 9 billion secured against a targeted US$ 11.9 billion budget",
+      "language": "en",
+      "source_id": "gavi-summit-20250625",
+      "locator": {
+        "section": "Opening paragraph",
+        "paragraph": "Brussels, 25 June 2025; first sentence"
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "Both the target and the summit pledge total are US-dollar amounts in Gavi’s own announcement: USD 11.9 billion and more than USD 9 billion. They should retain that currency or be converted using an explicitly stated exchange rate and date. This record does not invent an exact euro conversion or a later pledge total.",
+    "effect": "Correcting both units preserves the approximate proportion of the target covered. It changes the euro comparison with Germany’s proposed contribution and the absolute size of the remaining global gap. A stronger claim that it materially changes the requested EUR 750 million has not been established.",
+    "limits": "The substantial funding shortfall is confirmed by Gavi. A currency-label slip is a strong benign explanation. The document does not derive Germany’s requested contribution mechanically from the global gap; other health and financing arguments remain. No intent is inferred. The author-published September document has not been tied to a ministry consultation receipt, Bundestag hearing attachment or matching Lobbyregister submission. The January 24-page filing SG2503260010 is a different document and is not presented as provenance for this September 13-page statement.",
+    "context_and_alternatives": [
+      "All thirteen author pages were read, including tables and imprint. The Gavi paragraph states a 2026–2030 strategic period, correctly distinguishes Germany’s existing EUR 600 million pledge from the requested EUR 750 million, and accurately identifies EUR 80 million in the addressed 2026 draft. Its 500 million children and up-to-nine-million lives are programme projections, not alleged errors.",
+      "The primary announcement distinguishes the main funding budget from complementary development-finance and private-sector commitments. Its headline and opening paragraph consistently use US dollars for the two global figures. The German domestic budget request genuinely uses euros; the currencies must not be silently equated.",
+      "A rough funding narrative or an accidental currency substitution could explain the wording. Neither rescues the stated currency, but both limit conclusions about the argument’s practical effect.",
+      "Formal-channel searches found a different January 2025 VENRO filing and other organisations citing the September statement. A citation by another lobbyist and publication on the author’s website do not establish receipt of this exact document by a federal legislative body.",
+      "The independent reviewer additionally checked a Council of the EU release dated 26 June 2025, which reports approximately EUR 10.2 billion targeted and EUR 7.7 billion secured. These published conversions corroborate the currency mismatch without inventing a new exchange rate. This branch’s own subsequent Council retrieval failed; the successful read belongs to the independent reviewer, as their review records."
+    ],
+    "materiality_explanation": "Potentially minor: an auxiliary international funding benchmark. The currency mismatch does not erase the shortage, change the coverage fraction or demonstrate that the German funding request is excessive.",
+    "direction_explanation": "Null: the absolute euro funding comparison changes, but the author’s request is not calculated from it. This branch has not established a sufficiently specific request-favouring effect or an exact dated conversion.",
+    "confidence": {
+      "text_source_mismatch": "high for the currency mismatch; formal submission channel unresolved",
+      "materiality": "editorial_judgment"
+    },
+    "review": {
+      "specialist": null,
+      "follow_up_checks": [
+        {
+          "review_file": "research/round2-reviews/root-followup-venro-channel.json",
+          "scope": "Independent root provenance check only; unresolved scope gate retained."
+        }
+      ],
+      "ai_reviews": [
+        {
+          "reviewer": "energy_ai_independent_review",
+          "date": "2026-10-25",
+          "review_file": "research/round2-reviews/energy-reviews-venro-gavi.json",
+          "outcome": "retain_unresolved_lead_minor_null",
+          "specialist_review": false
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded as an unresolved lead: primary currency mismatch verified; formal submission scope gate remains pending.",
+        "by": "social_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent energy review retained unresolved/minor/null. Reviewer additionally read a contemporaneous Council release converting the global totals into euros; formal channel remains pending.",
+        "by": "social_ai_screen"
+      }
+    ],
+    "source_ids": [
+      "venro-haushalt2026-20250909",
+      "gavi-summit-20250625",
+      "haushalt2026-epl23-entwurf",
+      "venro-lobby-rv0003413-20250721",
+      "council-gavi-summit-20250626",
+      "venro-rv3413-20250721-rootarchive",
+      "venro-profile-83691-rootarchive",
+      "venro-sg2503260010-jan2025"
+    ],
+    "submission_source_id": "venro-haushalt2026-20250909",
+    "scope_gate": {
+      "status": "pending",
+      "reason": "Author-published statement on an exact federal draft, without verified official receipt or matching Lobbyregister filing."
+    },
+    "verification": {
+      "quotation_budget": "Eight author claim words, three additional claim words and thirteen request words: twenty-four total. Thirteen words from the Gavi announcement.",
+      "visual_check": "Author physical/printed page 12 rendered and inspected; original Neuen typo preserved.",
+      "retrieval_limits": "Author PDF and primary Gavi HTML archived. Official draft EP23 read through indexed full-PDF text at pages 4 and 27–32; direct download returned 503. Full 70 MB BT 21/600 download was attempted with a thirty-second limit and is not claimed as archived or fully read."
+    },
+    "research_record": "research/round2-social/haushalt2026-venro-social11.json"
+  },
+  {
+    "law_id": "investitionssofortprogramm-2025",
+    "document_id": "meyer-investitionssofortprogramm-20250620",
+    "status": "ai_screened",
+    "draft": {
+      "title": "Entwurf eines Gesetzes für ein steuerliches Investitionssofortprogramm zur Stärkung des Wirtschaftsstandorts Deutschland",
+      "version_date": "2025-06-03",
+      "source_id": "investitionssofortprogramm-bt2100323",
+      "submission_date": "2025-06-20",
+      "hearing_date": "2025-06-23",
+      "relevant_provision": "Article 1 number 1, proposed §6(1) number4 EStG, physical/printed page 5; special electric-vehicle depreciation in Article 1 number 2(b), same page.",
+      "version_check": "The author expressly identifies BT 21/323. No later amendment or enacted version is substituted.",
+      "bill_initiator": "CDU/CSU and SPD parliamentary groups; Fraktionsgesetzentwurf, not the separately introduced government bill."
+    },
+    "source_registry": "research/round2-tax/sources.json",
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "social_round2_ai_agent",
+          "date": "2026-10-25",
+          "outcome": "retain_unresolved_minor_null",
+          "review_file": "research/round2-reviews/social-reviews-meyer-invest.json",
+          "specialist_review": false
+        }
+      ]
+    },
+    "author_response": [],
+    "id": "invest2025-meyer-tax-r2-02",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Tax changes intended to encourage business investment, including preferential treatment of electric business cars.",
+      "they_want": "Oppose the specific preferential treatment of electric business cars.",
+      "they_claim": "The passage contrasts an 18% BEV new-registration share in May 2025 with a 3.3% E-car share in 2024.",
+      "the_problem": "3.3% is a fleet-stock share, while 2024 BEV new registrations were 13.5%. Whether the author intended a like-for-like comparison is unresolved."
+    },
+    "claim_quote": {
+      "original": "der Anteil von E-Pkw lediglich 3,3 %",
+      "language": "de",
+      "translation_en": "Translation of fragment: the share of electric passenger cars was only 3.3 percent",
+      "locator": {
+        "pdf_page": 5,
+        "printed_page": 5,
+        "section": "2(c)",
+        "paragraph": "last"
+      },
+      "underline": "3,3 %"
+    },
+    "counter_quote": {
+      "original": "13,5 Prozent aller neu zugelassenen PKW wurden rein batterieelektrisch angetrieben.",
+      "language": "de",
+      "translation_en": "Translation: 13.5 percent of all newly registered passenger cars were purely battery-electric.",
+      "source_id": "uba-ee-2024-march2025",
+      "locator": {
+        "pdf_page": 14,
+        "printed_page": 14,
+        "section": "Erneuerbarer Strom im Verkehrssektor",
+        "column": "left",
+        "paragraph": "second"
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "The contemporaneous March 2025 federal report gives 13.5% for BEVs among 2024 new registrations. The approximately 3.3% figure corresponds to BEVs in the whole registered fleet at 1 January 2025. Fleet stock and new registrations have different denominators.",
+    "effect": "If the passage intends a like-for-like change from 2024 to May 2025, it greatly exaggerates the increase in new-registration share. That intended scope is not expressly stated.",
+    "limits": "Unresolved, not a proved false value:3.3% is a valid approximate fleet-stock statistic, and the author does not expressly call it a new-registration share. The adjacent explanation invoking the May-only observation suggests comparison but could be imprecise contextual shorthand. The author also expressly lacks business-car demand and price-elasticity data. This does not prove or disprove the forecast tax-policy effect.",
+    "materiality_explanation": "Minor if confirmed: the comparator concerns one piece of market context, while the anti-preference argument rests separately on CO 2 pricing, targeting and fiscal concerns.",
+    "direction_explanation": "Null: neither the intended 2024 denominator nor a definite effect of this market-context comparison on the author’s request is established.",
+    "confidence": {
+      "text_source_mismatch": "unresolved_author_denominator",
+      "materiality": "editorial_judgment"
+    },
+    "context_checks": [
+      "Read all 13 pages and visually checked the complete passage on page 5 and the policy conclusion on page 6.",
+      "The author immediately suggests May-only observation as a possible explanation; that is not a qualification distinguishing stock from new registrations.",
+      "The 18% May 2025 figure is consistent with 43,060 BEVs among 239,297 new cars, and was not challenged.",
+      "The whole-fleet reading is a strong benign alternative and prevents promotion without further scope evidence."
+    ],
+    "source_ids": [
+      "meyer-investitionssofortprogramm-20250620",
+      "investitionssofortprogramm-bt2100323",
+      "investitionssofortprogramm-hearing-20250623",
+      "uba-ee-2024-march2025",
+      "deutschlandatlas-bev-stock-2025"
+    ],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "Recorded as unresolved comparator lead; not treated as a proved false2024 value. Independent scope review requested.",
+        "by": "tax_consultations_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent social-agent review retained the recorded classification after full source, exact bill and comparator checks.",
+        "by": "tax_consultations_ai_screen"
+      }
+    ],
+    "research_record": "research/round2-tax/invest2025-meyer-tax-r2-02.json",
+    "request_quote": {
+      "quote_id": "meyer-investitionssofortprogramm-request",
+      "metadata_file": "data/documents.json"
+    },
+    "submission_source_id": "meyer-investitionssofortprogramm-20250620"
+  },
+  {
+    "id": "jstg2026-bdst-tax01",
+    "law_id": "jstg-2026",
+    "document_id": "bdst-jstg-2026",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Annual federal tax changes.",
+      "they_want": "Remove the 80% childcare deduction restriction and update allowances.",
+      "they_claim": "The current childcare deduction is capped at €6,000.",
+      "the_problem": "The wording may conflate a €6,000 qualifying-expense base with the €4,800 maximum deduction; no error is established if it means the expense base."
+    },
+    "claim_quote": {
+      "original": "80 % der Kosten, max. 6.000 Euro pro Jahr",
+      "language": "de",
+      "translation_en": "Translation: 80% of costs, maximum €6,000 per year",
+      "locator": {
+        "pdf_page": 16,
+        "printed_page": "Annex 1p 2",
+        "table": "Beispiele für veraltete Pauschalen und Freibeträge im Steuerrecht",
+        "row": "Sonderausgabenabzug für Kinderbetreuung (§ 10 Abs. 1 Nr. 5 EStG)",
+        "column": "aktueller Wert"
+      },
+      "underline": "max. 6.000 Euro"
+    },
+    "request_quote": {
+      "original": "Verzicht auf 80 % Abzugsbeschränkung",
+      "language": "de",
+      "translation_en": "Translation: removal of 80% deduction restriction",
+      "locator": {
+        "pdf_page": 16,
+        "printed_page": "Annex 1p 2",
+        "row": "Sonderausgabenabzug für Kinderbetreuung",
+        "column": "Forderung Bund der Steuerzahler"
+      }
+    },
+    "counter_quote": {
+      "original": "80 Prozent der Aufwendungen, höchstens 4 800 Euro je Kind",
+      "source_id": "estg10",
+      "locator": {
+        "section": "§ 10 Absatz 1 Nummer 5 Satz 1"
+      },
+      "retrieved_at": "2026-10-24",
+      "language": "de",
+      "translation_en": "Translation: 80 percent of expenses, up to €4,800 per child"
+    },
+    "correction": "The maximum deduction is €4,800 per child; at 80%, that is reached with €6,000 of qualifying expenses.",
+    "effect": "Clarifies the baseline used for the proposed childcare change.",
+    "limits": "The €6,000 may mean qualifying expenses before multiplying by 80%. This is an unresolved presentation ambiguity, not a proven numerical or calculation error. Direction is unknown.",
+    "materiality_explanation": "Minor: one appendix baseline is ambiguous or mislabeled; the main reform demand does not depend on treating €6,000 as an already deductible amount. Direction is null because the intended arithmetic is unclear.",
+    "confidence": {
+      "text_source_mismatch": "medium",
+      "materiality": "editorial_judgment"
+    },
+    "review": {
+      "specialist": null,
+      "ai_reviews": [],
+      "follow_up_checks": [
+        {
+          "reviewer": "tax_consultations_ai",
+          "date": "2026-10-25",
+          "independent": false,
+          "review_file": "research/round2-reviews/tax-followup-bdst-statutory-access.json",
+          "outcome": "Supplementary direct statutory access confirms the baseline; unresolved expense-base interpretation and null direction retained. Not a new independent review."
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "first recorded",
+        "by": "tax_consultations_ai"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Classified as unresolved presentation ambiguity after independent AI review; corrected submission date",
+        "by": "tax_consultations_ai"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Supplementary current official statutory HTML retrieved and full relevant provision read; original24October indexed quotation source and date retained. No change to unresolved classification.",
+        "by": "tax_consultations_ai"
+      }
+    ],
+    "draft": {
+      "title": "Referentenentwurf eines Jahressteuergesetzes 2026",
+      "version_date": "2026-05-19",
+      "version_time": "10:22",
+      "source_id": "jstg2026-refe",
+      "submission_date": "2026-06-12",
+      "submission_date_note": "Submission explicitly dated 12 June 2026. This metadata belongs to BdSt, not the undated DSTG submission.",
+      "process_status_at_screen": "Ongoing: BT 21/8283 first reading 2026-10-08; hearing announced for 2026-11-02.",
+      "comparison": "Compared to the 151-page ministerial draft dated 19.05.2026 10:22. The childcare deduction provision is unchanged."
+    },
+    "direction_explanation": "Unknown: €6,000 could denote the gross qualifying expense base rather than the maximum deduction. Neither the intended comparison nor an advantage to the reform request is established.",
+    "research_record": "research/tax/jstg2026-bdst-tax01.json",
+    "submission_source_id": "bdst-jstg2026",
+    "source_ids": [
+      "bdst-jstg2026",
+      "estg10",
+      "bfh2026-childcare",
+      "bmf-jstg2026-consultation",
+      "jstg2026-refe",
+      "estg10-current20261025"
+    ]
+  },
+  {
+    "law_id": "jstg-2026",
+    "document_id": "dstg-jstg-2026",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "energy_ai_independent_review",
+          "date": "2026-10-25",
+          "review_file": "research/round2-reviews/energy-reviews-dstg-deletion.json",
+          "outcome": "retain_unresolved_lead_null_direction",
+          "specialist_review": false
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "first recorded",
+        "by": "tax_consultations_ai"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent full-section and exact-draft review retained the lead as unresolved and set direction to null; conditional possible request-favouring effect remains in explanation. Original first-recorded metadata preserved.",
+        "by": "energy_ai_screen"
+      }
+    ],
+    "id": "jstg2026-dstg-tax03",
+    "severity": "major",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Annual tax changes allowing necessary personal data for tax-authority AI.",
+      "they_want": "Longer retention of training and validation data.",
+      "they_claim": "The draft entails forced annual data destruction.",
+      "the_problem": "The clock starts after measures end or continued-operation need ceases; the intended criticism needs clarification."
+    },
+    "claim_quote": {
+      "original": "jährlicher Datenabbau",
+      "language": "de",
+      "translation_en": "Translation: annual data reduction",
+      "locator": {
+        "pdf_page": 5,
+        "section": "III.3, first paragraph"
+      },
+      "underline": "jährlicher Datenabbau"
+    },
+    "request_quote": null,
+    "counter_quote": {
+      "original": "in dem Zeitpunkt, in dem die Daten für die Fortsetzung eines ordnungsgemäßen Betriebs des automatisierten Systems nicht länger erforderlich sind.",
+      "source_id": "jstg2026-refe",
+      "locator": {
+        "pdf_page": 130,
+        "section": "Article 18 number 5(a), section 29c AO explanation"
+      },
+      "retrieved_at": "2026-10-24",
+      "language": "de",
+      "translation_en": "Translation of fragment: at the time when the data are no longer required to continue proper operation of the automated system."
+    },
+    "correction": "The operative rule on p 28 starts the one-year period after the measures end; its continued-operation clause and explanation p 130 preserve necessary data until they are no longer needed for proper ongoing operation.",
+    "effect": "If annual meant deletion during necessary ongoing use, the stated threat to continuing model validity is overstated.",
+    "limits": "Not established as an error: p 4 accurately describes deletion within one year after the development or review measure ends. Annual may be shorthand for deletion following each completed measure; original-data audit concerns can extend beyond that point. No adjudication of model science, retention necessity or legal compatibility.",
+    "materiality_explanation": "Potentially major because it would support changing retention law, but scope and intended reading remain unresolved. The asserted risk favours longer retention; severity is provisional pending clarification.",
+    "confidence": {
+      "text_source_mismatch": "unresolved_contextual_interpretation",
+      "materiality": "editorial_judgment",
+      "submission_provenance": "high_author_copy_independently_verified"
+    },
+    "context_checked": "Full p 4–5 retained: correct end-of-measure trigger appears before broader annual-destruction wording. Treating the latter as an unqualified annual purge could unfairly ignore that accurate qualification.",
+    "draft": {
+      "title": "Referentenentwurf eines Jahressteuergesetzes 2026",
+      "version_date": "2026-05-19",
+      "version_time": "10:22",
+      "source_id": "jstg2026-refe",
+      "submission_date": null,
+      "submission_date_note": "Undated PDF; author announcement and PDF metadata both 2026-06-15. Do not use 2026-08-12 government draft as comparison.",
+      "process_status_at_screen": "Ongoing: BT 21/8283 first reading 2026-10-08; hearing announced for 2026-11-02.",
+      "comparison": "Compared to the 151-page ministerial draft dated 19.05.2026 10:22; § 29c amendment on PDF p 28, explanation on PDF pp 129–130."
+    },
+    "request_quote_reference": {
+      "issue_id": "jstg2026-dstg-tax02",
+      "field": "request_quote",
+      "note": "Same minimum-three-year request on PDF page 5; refer to exact quote there to avoid duplicating source excerpt."
+    },
+    "direction_explanation": "Null while the intended annual-deletion reading remains unresolved. A proved exaggerated annual purge would favour longer retention, but that conditional hypothesis is context rather than an established direction finding. The author already correctly describes the end-of-measure trigger and may be discussing successive completed measures or retrospective audits.",
+    "research_record": "research/tax/jstg2026-dstg-tax03-unresolved.json",
+    "submission_source_id": "dstg-jstg2026-author",
+    "source_ids": [
+      "dstg-jstg2026-author",
+      "bmf-jstg2026-consultation",
+      "dstg-20260615-news",
+      "jstg2026-refe"
+    ]
+  },
+  {
+    "id": "jstgII2024-dgb-tax06",
+    "law_id": "stefeg-2024",
+    "document_id": "dgb-jstgII-20240719",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": true,
+    "card": {
+      "law_is_about": "Tax changes including protection for charities commenting on current politics.",
+      "they_want": "Broader protection for charities’ democratic engagement.",
+      "they_claim": "The BFH inferred a clear partisan preference from Attac’s policy campaigns.",
+      "the_problem": "The judgment’s stated rationale distinguishes political advocacy from education independently of party preference."
+    },
+    "claim_quote": {
+      "original": "auf eine eindeutige parteipolitische Präferenz",
+      "language": "de",
+      "translation_en": "Translation: a clear party-political preference",
+      "locator": {
+        "pdf_page": 8,
+        "section": "Artikel 8 Nr 2",
+        "paragraph": "first, sentence beginning So hat der BFH"
+      },
+      "underline": "parteipolitische Präferenz"
+    },
+    "request_quote": {
+      "original": "wichtiges demokratisches Engagement von gemeinnützigen Körperschaften noch besser zu unterstützen und zu fördern.",
+      "language": "de",
+      "translation_en": "Translation: to support and promote important democratic engagement by charitable bodies even better.",
+      "locator": {
+        "pdf_page": 8,
+        "paragraph": "last"
+      }
+    },
+    "counter_quote": {
+      "original": "sondern um eine öffentlichkeitswirksame Darstellung und Durchsetzung eigener Vorstellungen zu tagespolitischen Themen",
+      "language": "de",
+      "translation_en": "Translation: rather about publicly presenting and pursuing its own views on current political issues",
+      "source_id": "bfh-vr6017-2019",
+      "locator": {
+        "paragraph": "32",
+        "section": "II.3.b",
+        "pdf_page": 7,
+        "pdf_note": "official web-generated 8 page PDF; paragraph begins on preceding page"
+      },
+      "retrieved_at": "2026-10-24"
+    },
+    "correction": "The BFH’s 2019 judgment treats the campaigns as efforts to influence public opinion outside eligible educational purposes; it separately distinguishes the ban on party support from other political activity. The assertion of actual support for a named party is recorded as the BMF’s litigation submission, not the court’s factual conclusion. The 2020 follow-up retains the political-purpose reasoning.",
+    "effect": "Weakens the specific criticism that the court treated a broadly shared policy demand as evidence of partisan preference.",
+    "limits": "The court restricted Attac’s activities and found them outside educational purposes. The author may criticise that rule and request broader protection. Independent review retained the unresolved question whether the partisan description reports a factual inference or gives an evaluative account of the judgment’s party-finance analogy.",
+    "context_and_alternatives": "The paragraph expressly reports what the court inferred and then argues that five parties supported the tax proposal, so a specific party-preference reading is natural. However, the court does use party-finance analogies in deriving limits, which could explain loose characterisation. This does not adjudicate the correctness of the ruling.",
+    "materiality_explanation": "Minor if retained: it concerns one description in the justification; the genuine restrictions still provide an independent reform argument.",
+    "direction_explanation": "True if treated as error: the disputed attribution makes the court’s reason appear less tenable and reinforces the request for broader legal protection.",
+    "confidence": {
+      "text_source_mismatch": "medium",
+      "materiality": "editorial_judgment"
+    },
+    "unresolved_question": "Does the full passage report a specific court inference of party allegiance, or is it an evaluative gloss on the judgment’s analogy with party financing? Do not promote merely because one disagrees with the author’s legal criticism.",
+    "draft": {
+      "source_id": "jstgII-refe-20240710-1056",
+      "version_date": "2024-07-10",
+      "version_time": "10:56",
+      "submission_date": "2024-07-19",
+      "relevant_provisions": "Article 8 number 2, proposed section 58 number 11 AO, PDF page 17; explanation page 68. It permits occasional political statements outside statutory charitable purposes; the party-support ban remains.",
+      "version_check": "The exact 101-page July consultation draft is archived from the IHK. The comparison does not substitute the September government bill or later enacted law.",
+      "provenance_note": "The official BMF dossier lists the DGB response. Direct PDF retrieval returned 404 in the web reader and 503 on download. The eight-page author original is archived; no byte comparison to the inaccessible ministry copy is claimed."
+    },
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "energy_hearings_ai",
+          "date": "2026-10-24",
+          "outcome": "retain_unresolved_lead",
+          "review_file": "research/reviews/energy-reviews-dgb-attac.json",
+          "specialist_review": false
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "First recorded as an unresolved source-description lead after reading the full 2019 judgment and the 2020 follow-up; independent interpretation review requested.",
+        "by": "tax_consultations_ai"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Independent adversarial AI review retained unresolved because literal partisan-inference reading is natural but evaluative party-finance gloss remains possible.",
+        "by": "energy_hearings_ai"
+      }
+    ],
+    "research_record": "research/tax-round2/jstgII2024-dgb-tax06.json",
+    "submission_source_id": "dgb-jstgII-20240719",
+    "source_ids": [
+      "dgb-jstgII-20240719",
+      "bmf-jstgII-dossier",
+      "bfh-vr6017-2019",
+      "bfh-vr1420-2020",
+      "jstgII-refe-20240710-1056"
+    ]
+  },
+  {
+    "id": "medcang2025-cantourage-social08",
+    "law_id": "medcang-aenderung-2025",
+    "document_id": "cantourage-medcang-20250801",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Restricting remote prescribing and pharmacy shipping of medical cannabis flowers.",
+      "they_want": "Preserve full telemedical access and pharmacy shipping.",
+      "they_claim": "Around two percent of Israel's population are medical cannabis patients.",
+      "the_problem": "The linked 2020 article's two percent is an industry interviewee's assumption for two years ahead, not an observed 2025 share. The actual contemporary total and submission channel remain unresolved here."
+    },
+    "draft": {
+      "title": "Entwurf eines Gesetzes zur Änderung des Medizinal-Cannabisgesetzes",
+      "version": "BMG Referentenentwurf, Bearbeitungsstand 18 June 2025 14:24, as expressly identified in the author introduction",
+      "source_id": "medcang-refe-20250618-mirror",
+      "submission_date": "2025-08-01",
+      "date_note": "Author's publication date, not independently established receipt by BMG.",
+      "version_check": "The 18 June draft's physical 3 operative §3 restricts initial prescribing to personal contact and follow-ups to personal contact within the last four quarters, and prohibits shipping flowers. A publicly indexed Table. Media mirror was read. The official 14 July consultation copy and later BT 21/3061 were not silently substituted."
+    },
+    "claim_quote": {
+      "original": "sind rund zwei Prozent der Bevölkerung Cannabispatient:innen",
+      "language": "de",
+      "translation_en": "Translation of claim fragment: around two percent of the population are cannabis patients.",
+      "locator": {
+        "section": "Patientenzahlen im Ausland",
+        "paragraph": "First paragraph, second sentence; Israel; footnote 5"
+      },
+      "underline": "rund zwei Prozent"
+    },
+    "request_quote": {
+      "original": "Cantourage fordert den vollständigen Erhalt der telemedizinischen Versorgung",
+      "language": "de",
+      "translation_en": "Translation of request fragment: Cantourage calls for the complete preservation of telemedical care.",
+      "locator": {
+        "section": "Die Position der Cantourage Group SE und konkrete Forderungen",
+        "item": 1
+      }
+    },
+    "counter_quote": {
+      "original": "Assuming about 200,000 (personal) licenses in 2 years – about 2% of the population",
+      "language": "en",
+      "source_id": "mjbiz-israel-patients-20200923",
+      "locator": {
+        "section": "Ari Eyal, CSO, Bazelet Group",
+        "paragraph": "First quoted paragraph; published 23 September 2020"
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "The cited two-percent passage is explicitly a conditional industry assumption made in September 2020 for two years later. It must not be described as an observed 2025 registry measurement on the strength of that passage. This record does not establish the actual patient share in August 2025 and therefore does not count the current-share assertion as a proven numerical error.",
+    "effect": "If the contemporary share is materially lower, the international benchmark would make Germany's then below-one-percent share look less exceptional than the author suggests. That conditional effect is not an adjudicated direction finding.",
+    "limits": "An old forecast may later turn out approximately right; absence of a current measurement in the linked article does not prove the 2025 claim false. Primary Israeli monthly PDFs were located, but image-based total charts were not successfully read in this branch. Later original research and contemporaneous company filings indicate lower totals, but are not silently substituted for direct registry verification. Licence/prescription changes, missing prescription reporting, population scope and timing require resolution. Formal submission to BMG or a Lobbyregister filing has not been established; this is an author-published statement expressly addressed to the federal draft. No intent is inferred.",
+    "context_and_alternatives": [
+      "The full author statement was read. The same paragraph compares Colorado's December 2024 registered patients and Germany's below-one-percent estimate; it argues that patient penetration does not establish recreational misuse. It does not claim that the Israeli number alone proves telemedicine safe or necessary.",
+      "The linked article itself reports roughly seventy-one thousand authorised patients in August 2020, then prints several industry interview responses. The two-percent phrase occurs only in Eyal's explicitly assumed future scenario. It is primary evidence of his reported statement, not a substitute for an Israeli registry count.",
+      "The strongest benign explanations are that a forecast was used only as a rough later benchmark, a different patient definition or adult denominator was intended, or current data were known from another source. The author says total population, but none of these explanations has been eliminated sufficiently for a numerical finding.",
+      "The public BMG consultation list and Lobbyregister search did not establish this company's submission channel. A third-party compilation and trade press list are not treated as official receipt evidence."
+    ],
+    "materiality_explanation": "Potentially minor: an auxiliary international comparator, with Germany's share still potentially below Israel's and many independent access arguments. No quantified change to German patient need or clinical outcomes is derived.",
+    "direction_explanation": "Null while current-share accuracy and provenance remain unresolved; a higher benchmark could favour preserving access, but this is conditional.",
+    "confidence": {
+      "text_source_mismatch": "High that the cited two-percent passage is a forecast assumption; unresolved that the author's actual 2025 numerical assertion is false.",
+      "materiality": "editorial_judgment"
+    },
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "root_ai",
+          "date": "2026-10-25",
+          "review_file": "research/round2-reviews/root-reviews-cantourage-israel.json",
+          "outcome": "retain_unresolved_minor_null_scope_gate_pending",
+          "specialist_review": false
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded as an unresolved lead; forecast source checked, current registry chart and channel not established.",
+        "by": "social_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent root review retained unresolved status after full author statement and cited interview read. Independent official PDF display also blank; no current patient share or formal submission channel established.",
+        "by": "root_ai_screen"
+      }
+    ],
+    "source_ids": [
+      "cantourage-medcang-20250801",
+      "mjbiz-israel-patients-20200923",
+      "medcang-refe-20250618-mirror",
+      "israel-moh-march2025",
+      "aviram-israel2025",
+      "medcang-ministry-list-root20261025"
+    ],
+    "verification": {
+      "quotation_budget": "Seven author claim words and nine request words, below 25 combined; sixteen words from the interview passage. Original wording preserved.",
+      "retrieval_limits": "Author HTML archived. The cited article and exact draft mirror were read through web text; direct downloads returned 403 and are not claimed as archived. No successful visual inspection of the Israeli registry charts is claimed."
+    },
+    "scope_gate": {
+      "status": "pending",
+      "reason": "Author-published response to exact federal draft verified; formal ministry receipt or Lobbyregister submission remains unverified. Not a confirmed official consultation filing."
+    },
+    "submission_source_id": "cantourage-medcang-20250801",
+    "research_record": "research/round2-social/medcang2025-cantourage-social08.json"
+  },
+  {
+    "id": "mietrechtII2026-dmb-root03",
+    "law_id": "mietrechtII-2026",
+    "document_id": "dmb-mietrechtII-20260305",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": true,
+    "card": {
+      "law_is_about": "Restricting index-linked rent increases and changing other tenant protections.",
+      "they_want": "Cap increases in existing index-linked tenancies at 2%annually throughout Germany.",
+      "they_claim": "Annual inflation was 7.9%in 2022,followed by 5.9%in 2023.",
+      "the_problem": "The 2022 figure is the superseded2015-base vintage; the 2023 release cited alongside it explicitly gives the revised 2022 rate as 6.9%. Whether historical-vintage use is an error here remains under review."
+    },
+    "claim_quote": {
+      "original": "Die Inflationsrate betrug im Jahr 2022 +7,9 %",
+      "language": "de",
+      "translation_en": "Translation: The inflation rate in 2022 was+7.9%.",
+      "locator": {
+        "pdf_page": 11,
+        "printed_page": 11,
+        "section": "9.Art.1Nr.9§557bBGB-E",
+        "paragraph": "third paragraph,last statistical sentence,before footnote10"
+      },
+      "underline": "+7,9 %"
+    },
+    "request_quote": {
+      "original": "auf maximal 2 % pro Jahr zu begrenzen",
+      "language": "de",
+      "translation_en": "Translation of request fragment: to limit to a maximum of 2%peryear",
+      "locator": {
+        "pdf_page": 13,
+        "printed_page": 13,
+        "section": "Der Deutsche Mieterbund fordert daher",
+        "bullet": "second,on existing index-linked tenancies"
+      }
+    },
+    "counter_quote": {
+      "original": "Sie hatte im Jahr 2022 noch bei +6,9 % gelegen.",
+      "language": "de",
+      "translation_en": "Translation: It had still been+6.9%in 2022.",
+      "source_id": "destatis-inflation2023-release",
+      "locator": {
+        "section": "WIESBADEN,opening paragraph",
+        "paragraph": "second sentence,referring to annual inflation"
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "If using the revised comparable annual CPI series,the 2022 rate is 6.9%,not 7.9%;2023 is 5.9%. The 7.9%value was genuinely published 17 January 2023 on the old 2015 base and was revised 22 February 2023. The very original release linked in submissionfootnote 10 now carries an explicit revision warning. Footnote 11 links theJanuary 2024 release that alreadystates 6.9%for 2022.",
+    "effect": "On a current comparable-series reading,the passage overstates the 2022 inflation benchmark by 1 percentagepoint and makes its crisis-pressure example stronger. Both 6.9%and 5.9%remain well above the draft’s 3.5%threshold.",
+    "limits": "The 7.9%number is not fabricated: it belongs to an authentic earlier statistical vintage. Already implemented contractual index adjustments may remain legally effective after statistical rebasing; this investigation does not recalculate anyone’s rent. Annual-average inflation is not itself the increase applicable to every individual tenancy. The submission does not explicitly name a base year,so the possibility that it deliberately refers to the original historical rate must be considered. No intent is inferred.",
+    "context_and_alternatives": [
+      "Full 20-page submission read; claimphysical 11 and requestphysical 13. Correctly addresses the original 3.5%consultation cap,not the later government formula.",
+      "Historical-vintage alternative is plausible because the author links the originalJanuary 2023 release directly. Against treating the pair as coherent current statistics,the adjacent 2023 source expressly restates revised 2022 at 6.9%and the originalsource has a revision warning. Independent review must decide whether this is an unresolved vintage choice or a narrow factual presentation error.",
+      "The source’s warning and newer series predate theMarch 2026 submission by years; this is not judged against a revision made only after the submission."
+    ],
+    "materiality_explanation": "Potential minor editorial issue:1 percentagepoint changes a supporting historical benchmark,but does not remove the high-inflation example or establish the merits of a 2%cap. No major finding is proposed.",
+    "direction_explanation": "If the unqualified historical rate is treated as erroneous current-series presentation,the higher 2022 rate strengthens the described inflation shock supporting stricter rent caps. This conditional direction is separate from whether an error has been established.",
+    "confidence": {
+      "text_source_mismatch": "high that vintages differ; unresolved whether the submission’s historical-vintage presentation is an error rather than a permissible use of its expressly linked old release",
+      "materiality": "editorial_judgment"
+    },
+    "draft": {
+      "title": "Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete",
+      "version": "34-page BMJV ministerial consultation draft circulated6February2026",
+      "source_id": "mietrechtII-refe-20260206",
+      "submission_date": "2026-03-05",
+      "relevant_provision": "Article1number9,proposed§557b(4)BGB,3.5%annual threshold"
+    },
+    "submission_source_id": "dmb-mietrechtII-20260305",
+    "source_ids": [
+      "dmb-mietrechtII-20260305",
+      "destatis-inflation2022-original",
+      "destatis-inflation2023-release",
+      "destatis-wertsicherung-information",
+      "mietrechtII-refe-20260206"
+    ],
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "social_round2_independent_ai",
+          "date": "2026-10-25",
+          "outcome": "retain_unresolved_historical_vintage_alternative",
+          "review_file": "research/round2-reviews/social-reviews-dmb-inflation-vintage.json",
+          "specialist_review": false
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded as unresolved historical-statistical-vintage lead after reading full submission and both actual cited releases. Independent adversarial review requested; not counted as a finding.",
+        "by": "root_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent social-agent review retained unresolved classification: explicit original-vintage citation and historical rent-adjustment context prevent promotion. Separate2%request has other supporting reasons.",
+        "by": "root_ai_screen"
+      }
+    ],
+    "research_record": "research/round2-root/mietrechtII2026-dmb-root03.json"
+  },
+  {
+    "id": "nipt2024-eiben-social04",
+    "law_id": "nipt-monitoring-motion-2024",
+    "document_id": "eiben-nipt-2024",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "A motion for monitoring public insurance coverage of non-invasive prenatal testing and establishing an interdisciplinary advisory body.",
+      "they_want": "Welcome monitoring, but shape its aims and design around the current factual position.",
+      "they_claim": "Quoted parliamentary and newspaper statements indicate a misunderstanding of positive predictive value.",
+      "the_problem": "The quoted MP immediately specified the conditional denominator correctly. Whether the submission alleges her misunderstanding, rather than criticising the framing, remains unresolved."
+    },
+    "draft": {
+      "title": "Kassenzulassung des nichtinvasiven Pränataltests – Monitoring der Konsequenzen und Einrichtung eines Gremiums",
+      "version": "BT 20/10515, 28 February 2024, parliamentary motion",
+      "source_id": "nipt-motion2010515",
+      "hearing_date": "2024-10-09",
+      "submission_note": "The official hearing attachment reproduces a four-page journal article and bears a committee receipt stamp of 21 October 2024. No pre-hearing submission date is inferred.",
+      "relevant_provision": "MotionII.1–3 requests monitoring, an interdisciplinary body and reporting to Parliament."
+    },
+    "claim_quote": {
+      "original": "All diese Aussagen deuten offensichtlich auf eine Fehlinterpretation des positiv-prädiktiven Wertes des NIPT hin.",
+      "language": "de",
+      "translation_en": "Translation: All these statements clearly indicate a misinterpretation of the positive predictive value of NIPT.",
+      "locator": {
+        "pdf_page": 2,
+        "printed_page": 190,
+        "section": "Falsch verstandene Statistik",
+        "paragraph": "First paragraph, last sentence, right column"
+      },
+      "underline": "All diese Aussagen"
+    },
+    "request_quote": {
+      "original": "müssen sich aber am aktuellen Sachstand",
+      "language": "de",
+      "translation_en": "Translation of request fragment: must, however, be guided by the current factual position",
+      "locator": {
+        "pdf_page": 3,
+        "printed_page": 191,
+        "section": "Abschließende Bemerkungen",
+        "paragraph": "First paragraph, sentence about the aims and design of an evaluation"
+      }
+    },
+    "counter_quote": {
+      "original": "die Wahrscheinlichkeit bei 52 Prozent, dass ein positives Ergebnis falsch ist.",
+      "language": "de",
+      "translation_en": "Translation of speech fragment: the probability is 52 percent that a positive result is wrong.",
+      "source_id": "nipt-debate20165",
+      "locator": {
+        "pdf_page": 60,
+        "printed_page": 21214,
+        "speaker": "Corinna Rüffer",
+        "column": "left, near bottom",
+        "paragraph": "Immediately following the high false-positive-rate sentence quoted by Eiben et al.; example of a 20-year-old pregnant woman"
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "Rüffer’s complete speech explicitly conditions the 52 percent on a positive result, rather than treating it as a share of every test. The submission’s own later explanation of positive predictive value is compatible with that denominator. This does not establish what she or the other speakers privately understood.",
+    "effect": "An allegation that the parliamentary concerns depend on confusing all tests with positive tests would be weaker for this quoted speech. Whether this is the authors’ exact allegation remains unresolved; they may principally reject the framing of rare overall false-positive outcomes as worrying.",
+    "limits": "The claim uses an inference, deuten, and the later text expressly offers the authors’ judgment about whether the frequency is worrying. Concern among test-positive patients and frequency among all tested patients can coexist. The Welt article has not been independently read, so its full context is not adjudicated. No clinical test-performance, screening-appropriateness or policy conclusion follows. No intent is inferred.",
+    "context_and_alternatives": [
+      "Full four-page author article and four-page exact motion read. Author welcomes monitoring rather than asking for rejection of the motion.",
+      "The author quotes two MPs and a newspaper, then explains the distinction between positive-test results and all results. Rüffer’s conditional example immediately follows the excerpt the author selected; Kappert-Gonther interjects agreement. Her own later speech explains that positive results require invasive diagnostic clarification.",
+      "The general term rate is potentially ambiguous without a denominator, but the adjacent sentence supplies it. A complaint about the rhetorical impression of the first sentence is different from a factual allegation that the speaker confused denominators.",
+      "The original Lu 2024 primary study, including its age-specific tables, supports the author’s approximate young-women positive predictive value and rarity figures. No separate numerical test-performance issue is promoted.",
+      "Lu 2024 is expressly retrospective, whereas the author calls it prospective. Prospective data collection within a retrospective analysis is a possible benign reading; no separate finding is asserted."
+    ],
+    "materiality_explanation": "Potentially minor source-description issue: this is an auxiliary criticism of the premises for an evaluation which the author nevertheless expressly supports. It does not determine the proposed monitoring or committee design.",
+    "direction_explanation": "Null while the interpretive issue remains unresolved. A confirmed overstatement would support the author’s request to reshape the evaluation around what they describe as the current factual position.",
+    "confidence": {
+      "text_source_mismatch": "unresolved: the primary speech’s denominator is clear, but the exact object of the author’s criticism remains open",
+      "materiality": "editorial_judgment"
+    },
+    "submission_source_id": "eiben-nipt-2024",
+    "source_ids": [
+      "eiben-nipt-2024",
+      "nipt-motion2010515",
+      "nipt-debate20165",
+      "lu-2024-nipt"
+    ],
+    "source_registry": "research/round2-social/sources.json",
+    "verification": {
+      "visual": "Original author physicalpage 2 and primary parliamentary physicalpage 60 rendered and visually inspected.",
+      "quotation_budget": "Unique quoted author text is 21 words; primary parliamentary counterquote is 12 words."
+    },
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "energy_hearings_ai_agent",
+          "outcome": "retain_unresolved_lead_minor_null",
+          "review_file": "research/round2-reviews/energy-reviews-eiben-nipt.json"
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded as unresolved source-description lead; alternative framing interpretation prevents promotion. Independent energy AI review requested.",
+        "by": "social_round 2_ai_screen"
+      }
+    ],
+    "research_record": "research/round2-social/nipt2024-eiben-social04.json"
+  },
+  {
+    "id": "sbgg2023-eggd-a01",
+    "law_id": "sbgg-2023",
+    "document_id": "eggd-sbgg-2023",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "major",
+    "favours_author_request": true,
+    "card": {
+      "law_is_about": "Simplifying changes to legal gender entries and first names.",
+      "they_want": "Reject the government bill.",
+      "they_claim": "Social followed by medical transition does not improve long-term mental health; Wong 2019 is cited as an example.",
+      "the_problem": "The cited childhood comparison leaves long-term effects unclear; this does not refute the broader claim."
+    },
+    "claim_quote": {
+      "original": "jedoch keineswegs langfristig zu einer besseren psychischen Gesundheit der Betroffenen",
+      "language": "de",
+      "translation_en": "Translation: however, by no means leads to better mental health for those concerned in the long term",
+      "locator": {
+        "pdf_page": 6,
+        "section": "2. Der Entwurf des SBGG gefährdet Kinder und Jugendliche",
+        "paragraph": "opening continuation from previous page; citation 10"
+      },
+      "underline": "keineswegs langfristig"
+    },
+    "request_quote": {
+      "original": "lehnen wir das geplante sog. Selbstbestimmungsgesetz (im Folgenden: “SBGG”) ab.",
+      "language": "de",
+      "translation_en": "Translation: we reject the planned so-called Self-Determination Act (hereafter: SBGG).",
+      "locator": {
+        "pdf_page": 2,
+        "section": "Wer wir sind und warum wir uns gegen dieses Vorhaben stellen",
+        "paragraph": "first"
+      }
+    },
+    "counter_quote": {
+      "original": "The long-term implications of childhood SGT for psychological well-being are also unclear.",
+      "language": "en",
+      "source_id": "wong-2019-social-transition",
+      "locator": {
+        "pdf_page": 10,
+        "printed_page": 250,
+        "section": "Limitations and Future Directions",
+        "paragraph": "second, beginning The long-term implications"
+      },
+      "retrieved_at": "2026-10-24"
+    },
+    "correction": "The cited study does not assess long-term outcomes of combined social and medical transition. It compares parent-reported childhood psychosocial measures across three published samples. Its limitations expressly leave long-term social-transition effects unresolved and say the comparison cannot determine whether transition itself alleviates distress.",
+    "effect": "The identified citation does not establish the broad long-term assertion. Whether the assertion is factually false remains unresolved.",
+    "limits": "The submission gives the study as an example and does not expressly say it measured long-term combined treatment. An inadequate or inconclusive citation is not proof that the broader claim is false. No treatment benefit or harm, intent, or conclusion about the bill’s merits is established.",
+    "materiality_explanation": "Potentially major if the categorical claim were shown false: it supports the child-protection rationale for rejecting the bill. This classification concerns potential argument materiality; a proven error has not been established.",
+    "direction_explanation": "Conditional: if the categorical claim were shown false, its overstatement would favour the stated rejection request. The claim has not been established wrong; no intent is inferred.",
+    "confidence": {
+      "text_source_mismatch": "citation_scope_mismatch_high; factual_error_unresolved",
+      "materiality": "editorial_judgment"
+    },
+    "context_checked": [
+      "The claim sentence starts on PDF page 5 with social followed by medical transition and continues at the top of page 6, ending with footnote 10 to Wong 2019.",
+      "The next paragraph expressly acknowledges that the bill itself does not regulate medical interventions. The finding does not accuse the submission of missing that distinction.",
+      "The primary paper found little difference by transition status; this is compatible with lack of demonstrated benefit in that comparison. It is not equivalent to establishing no long-term improvement after combined treatment.",
+      "The phrase introducing the citation presents it as an example, not necessarily the only evidence the author had in mind. Other citations in the preceding paragraph concern persistence of gender identity rather than this study’s long-term treatment findings."
+    ],
+    "draft": {
+      "source_id": "bt-20-9049-sbgg",
+      "title": "Entwurf eines Gesetzes über die Selbstbestimmung in Bezug auf den Geschlechtseintrag und zur Änderung weiterer Vorschriften",
+      "version": "BT-Drs. 20/9049, 1 November 2023; Cabinet draft 23 August 2023",
+      "submission_date": "2023-11-20",
+      "hearing_date": "2023-11-28",
+      "process_status": "completed; enacted 2024",
+      "comparison": "The claim is an empirical-source description, not a draft-law interpretation. Exact addressed draft section 1(2) leaves medical measures outside this Act; section 3 governs declarations by minors."
+    },
+    "lobbyregister_check": {
+      "result": "not_established",
+      "note": "Exact-name and acronym web searches found no authenticated matching entry; direct search-page retrieval failed. Do not infer absence from register or noncompliance. Attribution relies on official Bundestag cover sheet."
+    },
+    "verification": {
+      "visual": "Submission PDF pages 5–6 and primary paper PDF page 10 rendered and visually inspected on 24 October 2026."
+    },
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "energy_hearings",
+          "assessment_at_review": "retain provisional finding",
+          "subsequent_disposition": "downgraded after stricter missing-evidence review",
+          "review_file": "research/reviews/energy-reviews-eggd.json"
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "first recorded",
+        "by": "social_digital_ai_screen"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "downgraded to unresolved lead after root challenge and social_digital reconsideration: insufficient citation does not establish broad assertion false; earlier energy AI review retained for audit",
+        "by": "social_digital_ai_screen"
+      }
+    ],
+    "resolution_needed": "Affirmative contradictory primary evidence for the exact broad claim, or an explicit false description of this study’s design or findings beyond the inference currently identified. Do not promote solely because the citation is insufficient.",
+    "research_record": "research/social-digital/sbgg2023-eggd-a01.json",
+    "submission_source_id": "eggd-sbgg-2023",
+    "source_ids": [
+      "eggd-sbgg-2023",
+      "wong-2019-social-transition",
+      "bt-20-9049-sbgg",
+      "bt-sbgg-hearing-2023"
+    ]
+  },
+  {
+    "law_id": "steuerberatungsgesetz-9-aenderung-2026",
+    "document_id": "bstbk-stberg-20260408",
+    "status": "ai_screened",
+    "severity": "minor",
+    "confidence": {
+      "text_source_mismatch": "high for the statutory three/six-week distinction; unresolved for the author’s intended legal scope",
+      "materiality": "editorial_judgment"
+    },
+    "draft": {
+      "title": "Neuntes Gesetz zur Änderung des Steuerberatungsgesetzes und zur Änderung weiterer steuerrechtlicher Vorschriften; accompanying Green motion",
+      "version": "BT 21/4550, 12 March 2026, and BT 21/4953, 24 March 2026; hearing 13 April 2026",
+      "source_id": "stberg-bt2104550",
+      "additional_source_id": "stberg-green-motion-bt2104953",
+      "submission_date": "2026-04-08",
+      "version_check": "The dated cover addresses the exact government bill and Green motion. Bill Article 8, physical pages 29–31, concerns real-estate transfer tax; the author expressly proposes additional reform. Motion section II.1, page 2, requests expanded bookkeeping permissions; it is not part of the government bill as introduced."
+    },
+    "submission_source_id": "bstbk-stberg-20260408",
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "energy_hearings_ai_agent",
+          "date": "2026-10-25",
+          "outcome": "retain_unresolved_null",
+          "review_file": "research/round2-reviews/energy-reviews-bstbk-stberg.json",
+          "specialist_review": false
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded after full 35-page submission, named court decision and relevant exact bill/motion text were read; adversarial AI review requested.",
+        "by": "tax_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent energy-agent review read full submission and court decision, exact bill and motion; retained the PV source mismatch as minor and the filing-deadline lead as unresolved.",
+        "by": "tax_ai_screen"
+      }
+    ],
+    "id": "stberg2026-bstbk-tax-r2-05",
+    "finding_state": "unresolved_lead",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Tax-advice permissions; a Green motion also proposes allowing qualified bookkeepers to prepare small-business financial statements.",
+      "they_want": "Keep preparation of financial statements and income-surplus accounts reserved to tax-advisory professions.",
+      "they_claim": "In a paragraph on already-insolvent, balance-sheet-overindebted companies, management must file within three weeks.",
+      "the_problem": "The statutory outer limit for legal overindebtedness is six weeks, but a three-week or earlier duty may arise from illiquidity or the immediate-filing obligation; the author’s scope remains ambiguous."
+    },
+    "claim_quote": {
+      "original": "binnen\n3 Wochen",
+      "language": "de",
+      "translation_en": "Translation: within three weeks",
+      "locator": {
+        "pdf_page": 24,
+        "printed_page": 22,
+        "section": "III.4(a), first bullet, final three sentences."
+      },
+      "underline": "3 Wochen"
+    },
+    "request_quote": {
+      "original": "auch weiterhin den steuerberatenden\nBerufen vorzubehalten",
+      "language": "de",
+      "translation_en": "Translation of request fragment: continue to reserve [these activities] to the tax-advisory professions",
+      "locator": {
+        "pdf_page": 24,
+        "printed_page": 22,
+        "paragraph": "Introductory paragraph before the financial-statement and income-surplus-account bullet."
+      }
+    },
+    "counter_quote": {
+      "original": "Der Antrag ist spätestens drei Wochen nach Eintritt der Zahlungsunfähigkeit und sechs Wochen nach Eintritt der Überschuldung zu stellen.",
+      "language": "de",
+      "translation_en": "Translation: The application must be filed no later than three weeks after illiquidity and six weeks after overindebtedness occurs.",
+      "source_id": "saninsfog-bgbl2020-3256",
+      "locator": {
+        "printed_page": 3282,
+        "section": "Article 5 number 8(a)(bb), inserting Insolvency Code §15a(1) sentence 2; commencement Article 25(1), page 3298."
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "The statute distinguishes a three-week outer limit for illiquidity from six weeks for legal overindebtedness, alongside a duty to file without culpable delay. The six-week rule was inserted by the 2020 Act effective 1 January 2021. Negative balance-sheet equity does not, by itself, establish legal overindebtedness. However, the author first limits the discussion to already-insolvent companies; it does not explicitly exclude illiquidity or state that every affected company may lawfully wait three weeks.",
+    "effect": "If the paragraph purports to state the general deadline triggered by overindebtedness, it overstates the timetable pressure supporting the reserved-profession argument. That reading is not treated as established.",
+    "limits": "Unresolved: an already-insolvent company can also be illiquid, and the duty to file without culpable delay may require an earlier filing than either outer limit. This record does not accuse the author of treating negative equity as invariably sufficient for insolvency, does not confer a six-week grace period, and does not settle the competence or safety of bookkeepers.",
+    "context_and_alternatives": [
+      "The full paragraph begins with preparation of statements for companies already described as insolvency-mature. That qualification prevents a categorical finding that the author equates any negative equity with legal insolvency.",
+      "The three-week sentence is nevertheless linked to balance-sheet overindebtedness, making an outdated general deadline a plausible concern. Coexisting illiquidity or an earlier filing obligation could explain the stated urgency.",
+      "No specific factual company is identified, so its insolvency grounds and permissible filing time cannot be reconstructed from this submission."
+    ],
+    "materiality_explanation": "Potential minor issue only: the disputed timetable is one supporting illustration in a larger competence argument; the scope is too uncertain for a provisional error finding.",
+    "direction_explanation": "Null: a general deadline error would support the author’s urgency argument, but the qualifying already-insolvent-company reading is unresolved.",
+    "source_ids": [
+      "bstbk-stberg-20260408",
+      "saninsfog-bgbl2020-3256",
+      "inso15a-current",
+      "inso19-current",
+      "stberg-bt2104550",
+      "stberg-green-motion-bt2104953",
+      "stberg-hearing-20260413"
+    ],
+    "verification": {
+      "visual": "Submission physical page 24 rendered and visually read. Original 2020 amending provision and commencement checked in the official Gazette web text."
+    },
+    "research_record": "research/round2-tax/stberg2026-bstbk-tax-r2-05.json"
+  },
+  {
+    "id": "stefeg2024-dgb-tax05",
+    "law_id": "stefeg-2024",
+    "document_id": "dgb-stefeg-20241001",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": true,
+    "card": {
+      "law_is_about": "Adjusting tax allowances, child benefit and other tax rules for 2024–2026.",
+      "they_want": "Replace the child tax allowance with higher universal child benefit.",
+      "they_claim": "Existing 2024 maximum tax relief is €4,529 before a proposed allowance increase.",
+      "the_problem": "That amount already includes the increase the footnote says is excluded."
+    },
+    "claim_quote": {
+      "original": "steuerliche Entlastung pro Kind von 4.529 Euro",
+      "language": "de",
+      "translation_en": "Translation: tax relief per child of 4,529 euros",
+      "locator": {
+        "pdf_page": 2,
+        "section": "Bewertung",
+        "paragraph": "second"
+      },
+      "underline": "4.529 Euro"
+    },
+    "context_quote": {
+      "original": "noch nicht mit eingerechnet",
+      "language": "de",
+      "translation_en": "Translation: not yet included in the calculation",
+      "locator": {
+        "pdf_page": 2,
+        "footnote": 1
+      }
+    },
+    "request_quote": {
+      "original": "den Kinderfreibetrag selbst abzuschaffen",
+      "language": "de",
+      "translation_en": "Translation: abolish the child tax allowance itself",
+      "locator": {
+        "pdf_page": 3,
+        "section": "Forderungen des DGB zu Kindergeld und Kinderfreibetrag",
+        "paragraph": "first"
+      }
+    },
+    "counter_quote": {
+      "original": "Anhebung der Kinderfreibeträge ab 1.1.2024 um 228 € von 9.312 € auf 9.540 €",
+      "language": "de",
+      "translation_en": "Translation: raising the child allowances from 1 January 2024 by 228 euros from 9,312 euros to 9,540 euros",
+      "source_id": "bt-20-12783",
+      "locator": {
+        "pdf_page": 8,
+        "printed_page": 8,
+        "section": "VI.3 Haushaltsausgaben ohne Erfüllungsaufwand",
+        "table_row": 1
+      },
+      "retrieved_at": "2026-10-24"
+    },
+    "correction": "Under the passage’s assumptions of a 45% income-tax rate and full 5.5% solidarity surcharge, the existing €9,312 allowance gives €4,420.66 relief; €4,529.12 uses the proposed €9,540 allowance. The stated present gap over €3,000 child benefit is overstated by about €108 annually, or €9 monthly.",
+    "effect": "Weakens the magnitude of the present disparity used to support replacement.",
+    "limits": "The proposed retrospective increase would make €4,529 appropriate. The correction does not decide distributional fairness, constitutionality, reform costs or policy. The exact author-published statement of 1 October is not independently matched to a ministry, hearing or registered copy.",
+    "context_and_alternatives": "Page 2 accurately describes the proposed €228 increase earlier, but its explicit footnote excludes that increase from the subsequent existing-policy example. Thus an unstated forward-looking calculation is not a full rescue. An editing mismatch is plausible; intent is not inferred.",
+    "materiality_explanation": "Minor: the annual overstatement is about €108 within an otherwise substantial disparity that survives correction.",
+    "direction_explanation": "True: it makes the present advantage for the highest-tax households appear larger, supporting the explicit replacement request.",
+    "confidence": {
+      "text_source_mismatch": "high",
+      "materiality": "editorial_judgment",
+      "legislative_submission_provenance": "Unresolved for the 1 October copy"
+    },
+    "unresolved_question": "Authenticate dispatch or receipt of the 1 October 2024 statement through a legislative channel. The ministry lists the related 19 July consultation statement with the same main figure, which does not establish receipt of the October edition.",
+    "document_metadata": {
+      "author": "Deutscher Gewerkschaftsbund",
+      "date": "2024-10-01",
+      "title": "Stellungnahme zu BT 20/12778 und 20/12783",
+      "draft_versions": [
+        "BT-Drs. 20/12778, 9 September 2024",
+        "BT-Drs. 20/12783, 9 September 2024"
+      ],
+      "draft_comparison": "Exact BT 20/12783, operative increase on page 5 and fiscal table on page 8. The comparison does not substitute the subsequently enacted law.",
+      "source_channel": "Author-published response to the exact Bundestag drafts; the ministry corroborates the related July consultation, but not the exact October edition.",
+      "ministry_dossier": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/20_Legislaturperiode/2024-07-20-JStG-II-2024/0-Gesetz.html"
+    },
+    "calculation": {
+      "existing_allowance_eur": 9312,
+      "proposed_allowance_eur": 9540,
+      "income_tax_rate": 0.45,
+      "solidarity_surcharge_rate": 0.055,
+      "existing_relief_eur": 4420.656,
+      "proposed_relief_eur": 4529.115,
+      "existing_excess_per_month_eur": 118.388,
+      "rounding_note": "Continuous marginal-rate calculation; statutory rounding can alter cents or about one euro, not the €108 difference."
+    },
+    "review": {
+      "specialist": null,
+      "ai_reviews": []
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "First recorded as unresolved lead because exact legislative-channel provenance remains open despite clear numerical baseline mismatch.",
+        "by": "tax_consultations_ai"
+      }
+    ],
+    "draft": {
+      "source_id": "bt-20-12783",
+      "version_date": "2024-09-09",
+      "addressed_versions": [
+        "BT-Drs. 20/12778, 9 September 2024",
+        "BT-Drs. 20/12783, 9 September 2024"
+      ],
+      "relevant_provision": "BT 20/12783, Article 1 number 1, PDF page 5; fiscal table page 8; explanation page 11. The existing and proposed child allowance bases are distinguished.",
+      "version_check": "Both exact draft numbers appear on the submission title page. The comparison does not substitute the later enacted retrospective amendment.",
+      "provenance_limit": "The exact October edition is authenticated only on the author website; dispatch to or receipt by a ministry, hearing or register remains unresolved."
+    },
+    "research_record": "research/tax-round2/stefeg2024-dgb-tax05.json",
+    "submission_source_id": "dgb-stefeg-20241001",
+    "source_ids": [
+      "dgb-stefeg-20241001",
+      "bt-20-12783",
+      "solzg-4",
+      "dgb-related-july-response"
+    ]
+  },
+  {
+    "id": "tabstaendg2026-vdr-root01",
+    "law_id": "tabstaendg-2026",
+    "document_id": "vdr-tabstaendg-2026",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "major",
+    "favours_author_request": true,
+    "card": {
+      "law_is_about": "Increasing German tobacco taxes in annual steps from 2027.",
+      "they_want": "Continue moderate, predictable tax increases.",
+      "they_claim": "Earlier increases doubled the black market to over 20%.",
+      "the_problem": "A matching series includes legal foreign purchases, but the author’s actual source remains unidentified."
+    },
+    "claim_quote": {
+      "original": "der Schwarzmarkt verdoppelte sich auf über 20 %",
+      "language": "de",
+      "translation_en": "Translation: the black market doubled to over 20%",
+      "locator": {
+        "pdf_page": 2,
+        "section": "Die erwarteten Mehreinnahmen werden nicht fließen",
+        "paragraph": 1
+      },
+      "underline": "der Schwarzmarkt"
+    },
+    "counter_quote": {
+      "original": "Die nicht in Deutschland versteuerten Zigaretten setzen sich aus legalen und illegalen Importen zusammen.",
+      "language": "de",
+      "translation_en": "Translation: Cigarettes not taxed in Germany comprise legal and illegal imports.",
+      "source_id": "hwwi-2010-1-28",
+      "locator": {
+        "pdf_page": 5,
+        "printed_page": 2,
+        "section": "2.2. Legales oder illegales Grenzgeschäft?",
+        "pagination_note": "EconStor archived PDF includes an additional cover; university repository PDF page4 corresponds to EconStor PDF page5."
+      },
+      "retrieved_at": "2026-10-24"
+    },
+    "request_quote": {
+      "original": "bestehenden Aufwuchspfad mit planbaren, moderaten Schritten fortsetzt",
+      "language": "de",
+      "translation_en": "Translation: continues the existing growth path with predictable, moderate steps",
+      "locator": {
+        "pdf_page": 6,
+        "section": "Empfehlungen des VdR",
+        "paragraph": "final"
+      }
+    },
+    "correction": "HWWI’s relevant series covers cigarettes not taxed in Germany, including legal foreign purchases. It cannot be described wholly as black-market trade. The submission provides no local citation, however, so matching its historical percentage to HWWI does not establish that this was the source used or disprove an alternative illicit-trade estimate.",
+    "effect": "If the mixed legal/illegal series was used, the submission overstates measured criminal-market growth. That premise remains unverified.",
+    "limits": "Unresolved, not an established factual error: the actual historical source must first be identified. Legal foreign purchases can still reduce German receipts. No finding about intent, eventual tax revenue or the appropriate tax rate follows.",
+    "confidence": {
+      "text_source_mismatch": "unresolved_source_identification",
+      "materiality": "editorial_judgment"
+    },
+    "materiality_explanation": "Potentially major if a mixed legal/illegal series was represented as criminal trade, because that would change the historical evidence used for moderate increases. Severity describes the potential issue, not a confirmed error.",
+    "direction_explanation": "The larger alleged black market supports the explicit request for moderate steps. No intent is inferred.",
+    "context_and_alternatives": [
+      "Elsewhere the submission distinguishes foreign purchases from the black market. The historical paragraph may use shorthand, but supplies no definition making legal imports criminal.",
+      "HWWI itself acknowledges uncertainty and assumptions in allocating imports. Its estimated legal/illegal split must not be treated as an exact observed rate.",
+      "The parallel BVTE hearing submission uses the same historical 20% claim with the correct non-German-tax category and cites HWWI 1-27/1-28 and DZV. This helps identify the series but is not independent evidence of the actual illicit share."
+    ],
+    "draft": {
+      "source_id": "bt-21-7859",
+      "version_date": "2026-09-07",
+      "version": "BT-Drs.21/7859; submission also addresses coalition Formulierungshilfe circulating before5October hearing",
+      "version_limit": "Exact date/version of the additional Formulierungshilfe is not authenticated; this historical-series correction is independent of its rate schedule. Do not compare to the later 14 October committee amendment as if it were the addressed text."
+    },
+    "source_ids": [
+      "vdr-tabstaendg-2026",
+      "hwwi-2010-1-28",
+      "bvte-tabstaendg-2026",
+      "bt-21-7859",
+      "bt-tabak-hearing-2026"
+    ],
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "tax_consultations_ai",
+          "date": "2026-10-24",
+          "review_file": "research/reviews/tax-reviews-root.json",
+          "review_type": "independent_AI",
+          "specialist_review": false,
+          "note": "See the review and subsequent adjudication; a linked review is not necessarily an endorsement of the final disposition."
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "first recorded",
+        "by": "root_ai_screen"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Lead researcher downgraded after independent review: matching a likely series without an explicit citation is insufficient to establish the claim false. Independent reviewer’s narrower provisional assessment is preserved.",
+        "by": "root_ai_adjudication"
+      }
+    ],
+    "research_record": "research/root/candidates.json",
+    "submission_source_id": "vdr-tabstaendg-2026"
+  },
+  {
+    "id": "thg2026-nabu-timeline-a01",
+    "law_id": "thg-quote-2026",
+    "document_id": "nabu-thg-20260227",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Increasing the greenhouse-gas reduction quota for transport fuels and implementing RED III.",
+      "they_want": "Lower the quota and prevent further increases.",
+      "they_claim": "The bill reaches 59% in 2045.",
+      "the_problem": "It starts in 2040; however, the same 59% also applies in 2045, so an error depends on reading the sentence as an endpoint claim."
+    },
+    "claim_quote": {
+      "original": "bis auf 59 Prozent im Jahr 2045",
+      "language": "de",
+      "translation_en": "Translation: up to 59 percent in 2045",
+      "locator": {
+        "pdf_page": 7,
+        "printed_page": 6,
+        "section": "THG-Quotenhöhe und Anpassungsmechanismus",
+        "paragraph": "First paragraph, first sentence."
+      },
+      "underline": "im Jahr 2045"
+    },
+    "request_quote": {
+      "original": "nach unten korrigiert werden",
+      "language": "de",
+      "translation_en": "Translation of request fragment: be corrected downward",
+      "locator": {
+        "pdf_page": 7,
+        "printed_page": 6,
+        "section": "THG-Quotenhöhe und Anpassungsmechanismus",
+        "paragraph": "Same paragraph, sentence explicitly concerning the quota level."
+      }
+    },
+    "counter_quote": {
+      "original": "ab dem Kalenderjahr 2040 59 Prozent.",
+      "language": "de",
+      "translation_en": "Translation: from calendar year 2040,59 percent.",
+      "source_id": "thg-bt214083",
+      "locator": {
+        "pdf_page": 9,
+        "printed_page": 9,
+        "section": "Article 1 number 7(b), proposed BImSchG§ 37 a(4)sentence 2 number 20"
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "The government bill specifies 59% from 2040. A continuing 59% requirement in 2045 would also follow from that open-ended wording, but the paragraph presents 2045 as the endpoint of the increase; the bill completes that increase in 2040.",
+    "effect": "If read as the first attainment year, correction would show the criticised quota arriving sooner. That endpoint reading remains unresolved.",
+    "limits": "The 59% level is correct. This appears compatible with an isolated date slip and does not refute the author’s concerns about feedstocks, fraud or the appropriate quota. No intent is inferred. A literal reading that 59% also applies in 2045 is true; the mismatch is the stated timing of the increase.",
+    "materiality_explanation": "Minor editorial judgment: a five-year endpoint error in one supporting description. Other sections correctly give 2040 dates for separate advanced-fuel targets, and the policy case does not depend on this date.",
+    "direction_explanation": "Null: no proved error. If the endpoint interpretation were established, the later date would understate ambition and direction would be false.",
+    "confidence": {
+      "text_source_mismatch": "high for the 2040 legal start date; unresolved whether the author asserts first attainment in 2045",
+      "materiality": "editorial_judgment"
+    },
+    "context_checked": [
+      "Read all nine submission pages, including recommendations and the full quota-timing paragraph.",
+      "Checked the exact government bill named on the cover and its quota schedule, rather than the subsequently amended 65% law."
+    ],
+    "draft": {
+      "title": "Entwurf eines Zweiten Gesetzes zur Weiterentwicklung der Treibhausgasminderungs-Quote",
+      "version": "BT 21/4083,11 February 2026",
+      "source_id": "thg-bt214083",
+      "relevant_provision": "Article 1 number 7(b), BImSchG§ 37 a(4),59% from calendar 2040",
+      "submission_date": "2026-02-27",
+      "date_note": "Author title page 27 February; committee cover 2 March 2026;4 March hearing.",
+      "process_status_at_screen": "Completed; exact government bill addressed, not the April committee version/enacted law."
+    },
+    "verification": {
+      "visual": "Submission p 7 and draft p 9 visually checked; independent review completed."
+    },
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "tax_consultations_independent_ai",
+          "date": "2026-10-25",
+          "disposition": "downgrade to unresolved; the open-ended schedule makes the 2045 statement literally true",
+          "review_file": "research/round2-reviews/tax-reviews-nabu-thg-timeline.json"
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded as a minor timetable-description issue; pending independent review.",
+        "by": "energy_hearings_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Downgraded after independent review: 59% also applies in 2045; no express first/only wording establishes a wrong endpoint.",
+        "by": "energy_hearings_ai_screen"
+      }
+    ],
+    "research_record": "research/round2-energy/thg2026-nabu-timeline-a01.json",
+    "submission_source_id": "nabu-thg-20260227",
+    "source_ids": [
+      "nabu-thg-20260227",
+      "thg-bt214083"
+    ]
+  },
+  {
+    "id": "verpackdg2026-plastics-timeline-root09",
+    "law_id": "verpackdg-2026",
+    "document_id": "plasticseurope-verpackdg-20260504",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Adapting German packaging responsibilities and recycling rules to the EU packaging regulation.",
+      "they_want": "Develop effective differentiated packaging fees promptly.",
+      "they_claim": "EU Article 6(8)requires fee modulation from 1 July 2029.",
+      "the_problem": "The cited rule instead links application to 18 months after the relevant secondary acts enter into force. Whether 2029 is an unstated planning assumption remains unresolved."
+    },
+    "claim_quote": {
+      "original": "ab dem 1. Juli 2029 eine verpflichtende Ökomodulierung vorsieht",
+      "language": "de",
+      "translation_en": "Translation of fragment: provides for mandatory eco-modulation from 1 July 2029",
+      "locator": {
+        "pdf_page": 4,
+        "section": "III. §26VerpackDG – Ökologische Gestaltung der Beteiligungsentgelte",
+        "paragraph": "First paragraph, third sentence; parenthetical cites Article6(8)."
+      },
+      "underline": "1. Juli 2029"
+    },
+    "request_quote": {
+      "original": "§ 26 VerpackDG wirksam weiterzuentwickeln",
+      "language": "de",
+      "translation_en": "Translation of request fragment: effectively develop section 26 VerpackDG further",
+      "locator": {
+        "pdf_page": 5,
+        "section": "VI.Fazit",
+        "item": 3
+      }
+    },
+    "counter_quote": {
+      "original": "18 Monate nach Inkrafttreten",
+      "language": "de",
+      "translation_en": "Translation: 18 months after entry into force",
+      "source_id": "ppwr-pe73-final-2024",
+      "locator": {
+        "pdf_page": 128,
+        "printed_page": 127,
+        "section": "Article6(8), first sentence; continues with delegated acts under paragraph4and implementing acts under paragraph5."
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "The official final Council legislative act and the addressed German government memorandum describe an18-month period after entry into force of the specified delegated and implementing acts. The German memorandum physical 115 explicitly says those acts are not yet available and lists Commission adoption deadlines of 1 January 2028 and 1 January 2030 respectively. A fixed 1 July 2029 start does not follow simply by adding 18 months to the first adoption deadline. Adoption and entry into force are also distinct.",
+    "effect": "An unconditional statutory-start reading overstates timetable certainty and could compress the preparation horizon. A planning assumption about early secondary acts could nevertheless yield a 2029 date; no actual future commencement date is established here.",
+    "limits": "Unresolved rather than a proved calendar-date error. The author may be using a conventional expected schedule, and early national reform may be independently warranted. This does not prove a 2031 start, an inevitable delay, or that the requested fee differentiation is inappropriate. It does not assume the acts must be adopted exactly on their deadlines. No intent is inferred.",
+    "context_and_alternatives": [
+      "Read the complete six-page official submission. The next sentence calls for developing and testing a functioning model in time, which is consistent with a forward-looking planning argument. The narrow lead concerns the unqualified statutory attribution, not disagreement with that policy.",
+      "Read exactBT 21/5346 cover, operative sections 26 and 42 and relevant explanatory physical 115 and 156. The February cabinet bill is the version expressly named by the author. Later enacted amendments are not used to correct the May statement.",
+      "EUR-Lex original OfficialJournal access returned robot challenges or an empty shell response; WKO indexed mirrors returned 404. The archived Council document is the final 4 December 2024 legislative act, still with publication-number placeholders, not silently labelled the published OfficialJournal. Its Article 6(8)matches the addressed German government’s account. Direct published-act verification and the relevant secondary-act schedule remain follow-up requirements."
+    ],
+    "materiality_explanation": "Potentially minor: timetable precision in an auxiliary preparation argument, with no quantified investment or compliance estimate dependent on that exact date.",
+    "direction_explanation": "Null while the intended statutory-versus-expected-schedule reading is unresolved. A falsely fixed earlier deadline would favour urgency, but the actual later start is not established.",
+    "confidence": {
+      "text_source_mismatch": "unresolved_interpretation; conditional wording verified in official final legislative act and government memorandum",
+      "materiality": "editorial_judgment"
+    },
+    "draft": {
+      "id": "verpackdg-bt215346",
+      "source_id": "verpackdg-bt215346",
+      "version": "BT21/5346,15April2026, reproducing11February2026cabinet text, for6Mayhearing",
+      "relevant_provision": "Article1section26,operative physical27; government explanationphysical115and Bundesratcontext156."
+    },
+    "submission_source_id": "plasticseurope-verpackdg-20260504",
+    "source_ids": [
+      "plasticseurope-verpackdg-20260504",
+      "verpackdg-bt215346",
+      "ppwr-pe73-final-2024",
+      "verpackdg-hearing-20260506"
+    ],
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "energy_hearings_ai",
+          "date": "2026-10-25",
+          "review_file": "research/round2-reviews/energy-reviews-plastics-ppwr.json",
+          "outcome": "retain_unresolved_minor_null"
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded as unresolved timetable/source-description lead after whole submission and primary legislative context read; independent review requested.",
+        "by": "root_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent energy AI review retained unresolved/minor/null; actual commencement and published-act direct verification not established.",
+        "by": "root_ai_screen"
+      }
+    ],
+    "research_record": "research/round2-root/verpackdg2026-plastics-timeline-root09.json"
+  },
+  {
+    "id": "wolf2026-djv-root07",
+    "law_id": "wolf-bjagdg-2026",
+    "document_id": "djv-wolf-20260216",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "major",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Adding the wolf to federal hunting law and providing management and removal rules.",
+      "they_want": "Permit population management through shooting young wolves and removing problem wolves.",
+      "they_claim": "A cohort harvest of up to 40% can regulate the population, immediately citing a study’s approximately 40% juvenile mortality threshold.",
+      "the_problem": "The study’s threshold describes annual mortality from all causes, rather than an additional harvest allowance. Whether the proposed plans implicitly deduct other deaths remains unresolved."
+    },
+    "claim_quote": {
+      "original": "indem bis zu 40% der Jungwölfe eines Jahrgangs erlegt werden.",
+      "language": "de",
+      "translation_en": "Translation: by shooting up to 40% of the young wolves in a cohort.",
+      "locator": {
+        "pdf_page": 3,
+        "printed_page": 2,
+        "section": "I.1 Bestandsmanagement",
+        "paragraph": "First paragraph; the next sentence cites the study’s mortality threshold."
+      },
+      "underline": "bis zu 40%"
+    },
+    "request_quote": {
+      "original": "bestandsregulierenden Eingriff in die Jugendklasse",
+      "language": "de",
+      "translation_en": "Translation of request fragment: population-regulating intervention in the juvenile age class",
+      "locator": {
+        "pdf_page": 2,
+        "printed_page": 1,
+        "section": "I. Künftiges Wolfsmanagement in Deutschland",
+        "paragraph": "First paragraph"
+      }
+    },
+    "counter_quote": {
+      "original": "durchschnittlichen jährlichen Mortalität von ca. 40 % bei Juvenilen und Subadulten",
+      "language": "de",
+      "translation_en": "Translation of fragment: average annual mortality of approximately 40% among juveniles and subadults",
+      "source_id": "bfn715-wolf-pva-2024",
+      "locator": {
+        "pdf_page": 51,
+        "printed_page": 49,
+        "section": "6.5 Ergebnisse der Modellprojektionen",
+        "paragraph": "Second paragraph"
+      },
+      "retrieved_at": "2026-10-25"
+    },
+    "correction": "The cited scenario changes survival probabilities and evaluates annual mortality across causes. Its approximately 40% juvenile/subadult threshold is not a measured allowance for additional hunting. The original study uses different age classes and starting ages and highlights adult survival, other combined pressures, and delayed population responses. It does not directly simulate the specific proposed cohort harvest.",
+    "effect": "If the passage is read as a 40% shooting allowance on top of other mortality, its study citation does not establish that allowance. A properly adjusted and monitored harvest could remain within a total-mortality bound; no concrete hunting plan or population outcome is adjudicated.",
+    "limits": "Unresolved: the author says up to, calls for shooting plans and monitoring of all deaths, and retains the favourable-conservation objective. These features may imply an allowance adjusted for other mortality rather than an extra 40%. The study is a model with conditional scenarios, not a proven forecast of the effect of the proposed law. No intent, inevitable decline, fixed sustainable quota or need for a hunting ban is inferred.",
+    "context_and_alternatives": [
+      "Read all 10 physical submission pages. Physical 3 expressly calls for monitoring individuals, traffic deaths, harvested animals and exchange with neighbouring populations; physical 8–9 retain conservation and continuous monitoring. Those qualifications are essential and prevent promotion to a proved numerical error.",
+      "Read primary study summary physical 7, model/scenario sections physical 46–51, and relevant results/discussion physical 53–62. Did not claim a full88-page study review. The baseline uses annual survival around 0.75 in the young classes and 0.87 in adults; the critical scenario reduces survival across classes. Combining baseline mortality and a hypothetical harvest requires specifying timing and whether mortality is additive or compensatory. No simple addition or alternative quota is asserted.",
+      "The exact addressed bill is BT 21/3546,12 January 2026; proposed section 22 d(2) ties regular hunting to favourable status and management plans. The record concerns the author’s study-based numerical rationale, not a statutory 40% quota, which the draft does not set.",
+      "Additional same-hearing oral qualification: official protocol physical 11 records the DJV president specifying 40%of the increase, expressly emphasising the increase, with expected moderate population growth. This may narrow or differ from the written cohort formulation and further weighs against alleging an unconditional extra 40%harvest. No alternative sustainable quota follows."
+    ],
+    "materiality_explanation": "Potentially major if total annual mortality has been converted into an additional shooting allowance: it would affect the quantitative ecological support for the explicit management request. That interpretation is unresolved and severity does not certify a demonstrated error.",
+    "direction_explanation": "Null: a mistaken additional-harvest reading would favour the request, but whether the passage actually makes that claim rather than proposing an adjusted upper limit is unresolved.",
+    "confidence": {
+      "text_source_mismatch": "unresolved_interpretation; distinction_between_total_mortality_and_harvest_high",
+      "materiality": "editorial_judgment"
+    },
+    "draft": {
+      "id": "wolf-bt213546",
+      "version": "BT21/3546,12January2026, expressly addressed in the16February submission",
+      "source_id": "wolf-bt213546",
+      "relevant_provision": "Proposed section22d(2),physical9, conservation status and management plan; no statutory40% quota."
+    },
+    "submission_source_id": "djv-wolf-20260216",
+    "source_ids": [
+      "djv-wolf-20260216",
+      "bfn715-wolf-pva-2024",
+      "wolf-bt213546",
+      "wolf-bundestag-process-2026",
+      "wolf-hearing-protocol-20260223"
+    ],
+    "review": {
+      "specialist": null,
+      "ai_reviews": [
+        {
+          "reviewer": "energy_hearings_ai",
+          "review_file": "research/round2-reviews/energy-reviews-djv-mortality.json",
+          "date": "2026-10-25",
+          "outcome": "retain_unresolved_null"
+        }
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-25",
+        "event": "First recorded as unresolved interpretation after full submission and selected original-study methods/results context read; independent review requested.",
+        "by": "root_ai_screen"
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Independent energy AI review retained unresolved/null after testing adjusted-upper-limit rescue and original model context.",
+        "by": "root_ai_screen"
+      }
+    ],
+    "research_record": "research/round2-root/wolf2026-djv-root07.json"
+  }
+]

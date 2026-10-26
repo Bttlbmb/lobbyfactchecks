@@ -1,0 +1,516 @@
+{
+  "id": "netzkosten-2026-root-adjudication",
+  "status": "complete",
+  "reviewer": "root",
+  "decisions": [
+    {
+      "claim_id": "netzkosten-c-009",
+      "decision": "correct_research_page_locator",
+      "reason": "A independently re-read the complete draft and original response; root independently read all12draftpages and verified the operative provision.",
+      "updates": {
+        "evidence": [
+          {
+            "source_id": "netzkosten-root-draft",
+            "locator": "Physical page4, proposed§118(5b); rationale physical page11",
+            "summary": "With/without subsidy tariffs on operator websites and annual invoice notice by suppliers."
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "netzkosten-c-029",
+      "decision": "correct_research_page_locator",
+      "reason": "A independently re-read the complete draft and original response; root independently read all12draftpages and verified the operative provision.",
+      "updates": {
+        "evidence": [
+          {
+            "source_id": "netzkosten-root-draft",
+            "locator": "Physical page4, proposed§118(5b); rationale physical page11",
+            "summary": "With/without subsidy tariffs on operator websites and annual invoice notice by suppliers."
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "netzkosten-c-003",
+      "decision": "retain_temporal_model_gap",
+      "reason": "A independently checked arithmetic and publication date; C agrees the authenticated model postdates the response. Root retains this conservative distinction.",
+      "updates": {
+        "result": "unresolved",
+        "explanation": "The authenticated BDEW model yields9.24/37.0=24.97%, supporting the rounded quarter share in that later publication. It was published21August after the13August response. An earlier primary model or identical prior version has not been authenticated, so contemporaneous applicability remains unresolved.",
+        "limits": "Later corroboration is retained and no author error is inferred. A model-household tariff share does not describe every individual contract. Missing historical access does not show the earlier statement was wrong."
+      }
+    },
+    {
+      "claim_id": "netzkosten-c-014",
+      "decision": "retain_pre_author_budget_version_gap",
+      "reason": "A independently found only later line-item corroboration; root separately searched earlier cabinet releases without authenticating identical pre13August amounts. C agrees with the temporal qualification.",
+      "updates": {
+        "result": "unresolved",
+        "explanation": "The later official parliamentary account corroborates the rounded5billion compensation and2.45billion industrial-price appropriations. The identified bill and report postdate the13August response; existence of an earlier cabinet plan does not establish continuity of these exact amounts in the addressed version.",
+        "limits": "No numerical error is admitted. Later primary corroboration is preserved, but the pre-author line-item version and actual delivery remain unauthenticated. Budget appropriations are plans, not realised expenditure; direct programme eligibility is assessed separately."
+      }
+    },
+    {
+      "claim_id": "netzkosten-a-001-04",
+      "decision": "strengthen_representative_average_source",
+      "reason": "B independently recovered the contemporaneous primary announcement; root read its complete two pages and checked the averaging and customer-scope limits.",
+      "updates": {
+        "evidence": [
+          {
+            "source_id": "netzkosten-a-tso2026",
+            "locator": "2026 final price sheet",
+            "summary": "Subsidised fixed and variable tariff components."
+          },
+          {
+            "source_id": "netzkosten-a-bnetza-benefit",
+            "locator": "2026 subsidy explanation",
+            "summary": "Subsidy lowers network charges, with regional and customer differences."
+          },
+          {
+            "source_id": "netzkosten-a-tso2024",
+            "locator": "2023 average comparison",
+            "summary": "Pre-surge 3.12 ct/kWh."
+          },
+          {
+            "source_id": "netzkosten-br-tso2026-announcement",
+            "locator": "1October2025 press release, physical page1",
+            "summary": "Explicit representative average6.65→2.86ct/kWh; not an unweighted average reconstructed from tariff-sheet cells."
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "netzkosten-a-002-01",
+      "decision": "replace_partial_word_anchor",
+      "reason": "Independent reviewer B identified a technically exact but incomplete-word anchor. A complete contiguous phrase preserves the original proposition and outcome.",
+      "updates": {
+        "original_excerpt": "5,525 Milliarden Euro"
+      }
+    },
+    {
+      "claim_id": "netzkosten-a-005-01",
+      "decision": "replace_partial_word_anchor",
+      "reason": "Independent reviewer B identified a technically exact but incomplete-word anchor. A complete contiguous phrase preserves the original proposition and outcome.",
+      "updates": {
+        "original_excerpt": "um 15 Prozent"
+      }
+    },
+    {
+      "claim_id": "netzkosten-a-007-03",
+      "decision": "separate_calendar_fact_from_planning_judgment",
+      "reason": "B and root independently checked the whole draft rationale and timing provision. Keep the assessable calendar; explicitly exclude the author’s supplier-planning need as an evaluative claim rather than silently certifying it.",
+      "updates": {
+        "claim_en": "Provisional network tariffs are published in October for the following year; the author considers that timing necessary for suppliers’ product pricing.",
+        "explanation": "The draft rationale describes TSO provisional tariffs by1October, DSO provisional tariffs by15October and final tariffs by1January. This supports the calendar premise. The author’s statement that suppliers need the information by then is a business-planning judgment, separately excluded from factual certification.",
+        "limits": "Supported concerns the specified publication calendar only. No empirical claim that every supplier has the same pricing deadline or that provisional tariffs cannot change is verified.",
+        "excluded_component": {
+          "proposition": "All suppliers need reliable next-year network tariffs by October for product pricing.",
+          "disposition": "evaluative_business_planning_need",
+          "reason": "The legal calendar establishes publication timing, not universal contractual/product-planning necessities."
+        }
+      }
+    },
+    {
+      "claim_id": "netzkosten-b-011-07",
+      "decision": "preserve_original_numerous_user_scope",
+      "reason": "C independently read all26counterpart pages and source methods; root read both complete VCI pages. Possibility of a mechanism does not establish the original claimed affected population.",
+      "updates": {
+        "result": "unresolved",
+        "claim_en": "Numerous particularly electricity-intensive users on§19(2)sentence2 individual tariffs will receive limited or no subsidy benefit because of the physical-path calculation.",
+        "explanation": "Primary regulatory methods support the possibility of limited or no direct path-cost relief. They do not establish the number of actually affected firms or the degree of net benefit. The original says numerous, which must not be silently weakened to some.",
+        "limits": "No author error is admitted. Path-to-generator versus path-to-node rules, general-tariff percentage floors, reserve costs and actual contracts may transmit some relief. The theoretical mechanism is supported; the asserted numerous-user incidence remains unresolved."
+      }
+    },
+    {
+      "claim_id": "netzkosten-b-012-09",
+      "decision": "retain_exact_investment_start_boundary_gap",
+      "reason": "C independently read IMK97/98; root checked DGB page3 and original study pages8–10. Attributed total and end year are supported, but exact2024start is not established.",
+      "updates": {
+        "result": "unresolved",
+        "explanation": "IMK97 reports about€328billion transmission investment by2045 including start and expansion networks, with explicit model assumptions and scope. Its discussion uses2023–2037 and includes already advanced start-network projects. It does not authenticate the full author-specified2024–2045 spending boundary.",
+        "limits": "No numerical author-error finding. This is a conditional attributed model, not realised spending or an independent forecast. Retain the supported total/end year while leaving the exact starting boundary unresolved; do not silently drop that part of the proposition."
+      }
+    },
+    {
+      "claim_id": "netzkosten-b-013-15",
+      "decision": "acknowledge_process_specific_primary_evidence",
+      "reason": "C located primary engineering research; root checked original IGBCE pages4–6 and research pages19–22. Preserve the compound proposition rather than upgrading an unquantified industry-wide payback claim.",
+      "updates": {
+        "result": "unresolved",
+        "evidence": [
+          {
+            "source_id": "netzkosten-root-agnes",
+            "locator": "Industrial demand and tariff reform context",
+            "summary": "Primary text, definitions and relevant context inspected."
+          },
+          {
+            "source_id": "netzkosten-root-stromnev",
+            "locator": "Technical asset lives",
+            "summary": "Primary text, definitions and relevant context inspected."
+          },
+          {
+            "source_id": "netzkosten-cr-ffe-glass2025",
+            "locator": "Physical pages3,6–7,10,19–22,25; published27October2025",
+            "summary": "Process-specific engineering/interview research documents thermal, quality and equipment limits in glass production."
+          }
+        ],
+        "explanation": "The technical-limit clause is supported by primary process-specific glass-industry research: thermal balance, product quality and equipment integrity constrain short-term flexibility. That study covers five producers and three furnace manufacturers and was commissioned by BVGlas. It does not establish industry-wide extent or planning/amortisation periods for all transformation investments. The complete compound claim therefore remains unresolved.",
+        "limits": "Explicit partial support replaces the earlier suggestion that no process-specific evidence had been found. Furnace technical lifetime and replacement windows are not investment payback periods. Actual flexibility varies by technology, product and site; the requested voluntary participation, grandfathering and ten-year horizon remain policy proposals."
+      }
+    },
+    {
+      "claim_id": "netzkosten-b-008-07",
+      "decision": "retain_fair_non_producing_crafts_reading_as_unresolved",
+      "reason": "Initial B and peer C favoured a narrow categorical overstatement. Fresh final reviewer A independently read all five original pages before the staged record, visually checked page3 and independently verified statute/Customs guidance. Root adopts the conservative full-context disposition.",
+      "updates": {
+        "result": "unresolved",
+        "explanation": "The statute includes manufacturing and construction companies; craft status itself does not bar qualifying relief. A literal unqualified craft-exclusion reading is therefore too broad. But the same authored sentence first recognises producing-industry eligibility, and its contrast can reasonably refer to remaining non-producing crafts. Page2 also says largely excluded; examples on page3 concern logistics and trade. The exact intended scope is unresolved.",
+        "limits": "No main finding is admitted. The legal rule is clear; the uncertainty concerns the authored assertion’s contextual scope. No individual firm’s classification, eligible consumption, application or actual refund is established. The broader unequal-coverage argument and universal-tax-cut preference remain.",
+        "evidence": [
+          {
+            "source_id": "netzkosten-b-stromstg",
+            "locator": "Header:last amendment22December2025;§2numbers2a,3;§§3,9b"
+          },
+          {
+            "source_id": "netzkosten-b-zoll-classification",
+            "locator": "Actual economic activity and WZ2003 classification"
+          },
+          {
+            "source_id": "netzkosten-b-bmf2026-indexed",
+            "locator": "Dated30December2025 primary corroboration; researcher extraction, not original HTML"
+          }
+        ]
+      }
+    }
+  ],
+  "additional_sources": [],
+  "additional_claims": [
+    {
+      "id": "netzkosten-root-industrial-eligibility-01",
+      "document_id": "bmwe-netzkosten-2026-014",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Peer-identified material premise",
+      "original_excerpt": "Auch diese Maßnahme kommt nicht den Verbraucher:innen",
+      "claim_en": "The industrial electricity-price programme directly benefits eligible industrial companies rather than ordinary households.",
+      "claim_type": "direct_programme_eligibility",
+      "materiality": "medium",
+      "policy_link": "Premise for the requested scope and distribution of electricity-cost relief.",
+      "cited_by_author": false,
+      "check_method": [
+        "Peer A independently read all counterpart pages and identified the omission",
+        "Root independently read complete original response and primary evidence or checked the bounded conditional mechanism"
+      ],
+      "evidence": [
+        {
+          "source_id": "netzkosten-c-industryprice-web",
+          "locator": "Official BMWE releases16April/26May2026:direct industrial eligibility, consumption limits and retrospective applications"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The pre-author official programme description restricts direct eligibility to specified energy- and trade-intensive industrial sectors and qualifying companies. Ordinary households are not direct programme beneficiaries.",
+      "limits": "Only direct programme eligibility is supported. Indirect household effects through prices, jobs or tax financing are not excluded; eligibility does not establish an individual actual payment.",
+      "check_completed": true,
+      "researcher": "peer_omission_adjudicated_by_root",
+      "initial_result": "identified_by_peer",
+      "peer_review": {
+        "reviewer": "a",
+        "file": "research/factual-checks/netzkosten-2026/reviews/a-reviews-c.json",
+        "verdict": "identified_omission"
+      },
+      "independent_review": {
+        "reviewer": "root",
+        "file": "research/factual-checks/netzkosten-2026/adjudication.json",
+        "verdict": "independently_checked"
+      },
+      "omission_index": 0
+    },
+    {
+      "id": "netzkosten-root-electric-investment-cost-02",
+      "document_id": "bmwe-netzkosten-2026-018",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Peer-identified material premise",
+      "original_excerpt": "Steigende Stromkosten können die Investitionsentscheidungen",
+      "claim_en": "Other relevant conditions held fixed, higher electricity operating costs can make investment in electric technologies less attractive.",
+      "claim_type": "conditional_economic_mechanism",
+      "materiality": "medium",
+      "policy_link": "Premise for the requested scope and distribution of electricity-cost relief.",
+      "cited_by_author": false,
+      "check_method": [
+        "Peer A independently read all counterpart pages and identified the omission",
+        "Root independently read complete original response and primary evidence or checked the bounded conditional mechanism"
+      ],
+      "evidence": [
+        {
+          "source_id": "netzkosten-c-monopoly2026",
+          "locator": "Physical page342 / printed340, paragraph807",
+          "summary": "Lower electricity costs can improve substitution incentives; report also distinguishes limited competitiveness effects where electricity costs are small."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Holding use, efficiency, capital costs, alternative-fuel prices and other conditions fixed, a higher electricity input price raises electric operating costs and reduces their relative advantage. The primary policy analysis recognises that substitution mechanism.",
+      "limits": "Conditional mechanism only. No actual adoption elasticity, foregone investment total, universal household response or optimal subsidy amount is established.",
+      "check_completed": true,
+      "researcher": "peer_omission_adjudicated_by_root",
+      "initial_result": "identified_by_peer",
+      "peer_review": {
+        "reviewer": "a",
+        "file": "research/factual-checks/netzkosten-2026/reviews/a-reviews-c.json",
+        "verdict": "identified_omission"
+      },
+      "independent_review": {
+        "reviewer": "root",
+        "file": "research/factual-checks/netzkosten-2026/adjudication.json",
+        "verdict": "independently_checked"
+      },
+      "omission_index": 1
+    },
+    {
+      "id": "netzkosten-root-family-business-burden-03",
+      "document_id": "bmwe-netzkosten-2026-002",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Peer-identified present factual premise",
+      "original_excerpt": "Familienunternehmen leiden seit Jahren unter hohen Strompreisen",
+      "claim_en": "Family businesses face high electricity prices that cause substantial international competitive disadvantages; network charges have become a growing cost component.",
+      "claim_type": "current_economic_context",
+      "materiality": "medium",
+      "policy_link": "Premise for maintaining electricity-cost relief and addressing structural network costs.",
+      "cited_by_author": false,
+      "check_method": [
+        "Peer B independently read all counterpart pages and identified omission",
+        "Root independently read complete original and relevant primary definitions/data context"
+      ],
+      "evidence": [
+        {
+          "source_id": "netzkosten-root-monitoring2025",
+          "locator": "Historical tariff and customer-profile definitions; household/commercial/industrial categories, not a matched family-business international cohort"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Primary monitoring documents tariff movements for defined customer groups, but not the author’s family-business population or matched international all-in prices and competitiveness effects. That specific comparative causal premise remains unresolved.",
+      "limits": "High is relative to an unspecified period/comparator. Network charges vary by year, voltage, load and relief status; a general recent trend neither quantifies every family business’s burden nor disproves the broader concern.",
+      "check_completed": true,
+      "researcher": "peer_omission_adjudicated_by_root",
+      "initial_result": "identified_by_peer",
+      "peer_review": {
+        "reviewer": "b",
+        "file": "research/factual-checks/netzkosten-2026/reviews/b-reviews-a.json",
+        "verdict": "identified_omission"
+      },
+      "independent_review": {
+        "reviewer": "root",
+        "file": "research/factual-checks/netzkosten-2026/adjudication.json",
+        "verdict": "independently_checked"
+      },
+      "omission_index": 0
+    },
+    {
+      "id": "netzkosten-root-industry-construction-crisis-04",
+      "document_id": "bmwe-netzkosten-2026-006",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Peer-identified present factual premise",
+      "original_excerpt": "aktuellen Konjunkturkrise in Industrie und Bauwirtschaft",
+      "claim_en": "Industry and construction are currently in an economic crisis.",
+      "claim_type": "current_economic_context",
+      "materiality": "medium",
+      "policy_link": "Premise for maintaining electricity-cost relief and addressing structural network costs.",
+      "cited_by_author": false,
+      "check_method": [
+        "Peer B independently read all counterpart pages and identified omission",
+        "Root independently read complete original and relevant primary definitions/data context"
+      ],
+      "evidence": [
+        {
+          "source_id": "netzkosten-br-destatis-june",
+          "locator": "Release279,7August2026:June production, industry/construction/energy-intensive comparisons and methodological note"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The contemporary official release has mixed monthly, three-month and annual sector results. The author does not define crisis, its duration or the relevant industry/construction measure, so the broad present characterisation cannot be independently settled by one indicator.",
+      "limits": "No error finding. A positive month does not refute a sustained or subsector crisis; negative production in one branch does not establish the entire category. The evaluative aspect remains explicit.",
+      "check_completed": true,
+      "researcher": "peer_omission_adjudicated_by_root",
+      "initial_result": "identified_by_peer",
+      "peer_review": {
+        "reviewer": "b",
+        "file": "research/factual-checks/netzkosten-2026/reviews/b-reviews-a.json",
+        "verdict": "identified_omission"
+      },
+      "independent_review": {
+        "reviewer": "root",
+        "file": "research/factual-checks/netzkosten-2026/adjudication.json",
+        "verdict": "independently_checked"
+      },
+      "omission_index": 1
+    },
+    {
+      "id": "netzkosten-root-bkm-no-application-05",
+      "document_id": "bmwe-netzkosten-2026-008",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Peer-identified material premise",
+      "original_excerpt": "ohne zusätzlichen bürokratischen Aufwand",
+      "claim_en": "The tariff-based subsidy requires no separate subsidy application by final-user businesses.",
+      "claim_type": "bounded_administrative_mechanism",
+      "materiality": "medium",
+      "policy_link": "Premise for the tariff-based subsidy and predictable electricity-cost relief.",
+      "cited_by_author": false,
+      "check_method": [
+        "Peer C independently read all counterpart pages and identified omission",
+        "Root independently read all five BKM pages and full12page draft or checked bounded conditional arithmetic"
+      ],
+      "evidence": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pages3–4,§24d payment/calculation duties and§118(5b); rationale9–11"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Payments go to transmission operators and are deducted through tariff calculation. Final-user businesses do not submit a separate subsidy application; this supports the end-user mechanism in the surrounding business-relief discussion.",
+      "limits": "Supported only for no separate end-user application. Operators/suppliers have implementation, contract, publication and invoice duties. The generic no-bureaucracy wording is not treated as proof of zero work anywhere in the system.",
+      "check_completed": true,
+      "researcher": "peer_omission_adjudicated_by_root",
+      "initial_result": "identified_by_peer",
+      "peer_review": {
+        "reviewer": "c",
+        "file": "research/factual-checks/netzkosten-2026/reviews/c-reviews-b.json",
+        "verdict": "identified_omission"
+      },
+      "independent_review": {
+        "reviewer": "root",
+        "file": "research/factual-checks/netzkosten-2026/adjudication.json",
+        "verdict": "independently_checked"
+      },
+      "omission_index": 0
+    },
+    {
+      "id": "netzkosten-root-bkm-electric-economics-06",
+      "document_id": "bmwe-netzkosten-2026-008",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Peer-identified material premise",
+      "original_excerpt": "verbessern die relativen Preise zugunsten strombasierter Anwendungen",
+      "claim_en": "Holding other costs and prices fixed, lower electricity costs improve the operating-cost comparison of electricity-based applications.",
+      "claim_type": "conditional_economic_mechanism",
+      "materiality": "medium",
+      "policy_link": "Premise for the tariff-based subsidy and predictable electricity-cost relief.",
+      "cited_by_author": false,
+      "check_method": [
+        "Peer C independently read all counterpart pages and identified omission",
+        "Root independently read all five BKM pages and full12page draft or checked bounded conditional arithmetic"
+      ],
+      "evidence": [
+        {
+          "source_id": "netzkosten-c-monopoly2026",
+          "locator": "Physical342 / printed340,paragraph807; conditional substitution mechanism"
+        }
+      ],
+      "result": "supported",
+      "explanation": "For fixed electric energy use, lower electricity price reduces operating cost relative to an unchanged alternative. This validates the conditional relative-price premise, consistent with the primary substitution analysis.",
+      "limits": "Does not establish actual investment uptake, project payback, universal profitability, a dominant ranking among investment drivers or the optimal subsidy. Distinct original response; same bounded mechanism is assessed separately for DNR.",
+      "check_completed": true,
+      "researcher": "peer_omission_adjudicated_by_root",
+      "initial_result": "identified_by_peer",
+      "peer_review": {
+        "reviewer": "c",
+        "file": "research/factual-checks/netzkosten-2026/reviews/c-reviews-b.json",
+        "verdict": "identified_omission"
+      },
+      "independent_review": {
+        "reviewer": "root",
+        "file": "research/factual-checks/netzkosten-2026/adjudication.json",
+        "verdict": "independently_checked"
+      },
+      "omission_index": 1
+    }
+  ],
+  "omission_resolutions": [
+    {
+      "review_file": "research/factual-checks/netzkosten-2026/reviews/a-reviews-c.json",
+      "omission_index": 0,
+      "resolution": "Added separately after root original/context and primary-evidence or mechanism check.",
+      "claim_ids": [
+        "netzkosten-root-industrial-eligibility-01"
+      ]
+    },
+    {
+      "review_file": "research/factual-checks/netzkosten-2026/reviews/a-reviews-c.json",
+      "omission_index": 1,
+      "resolution": "Added separately after root original/context and primary-evidence or mechanism check.",
+      "claim_ids": [
+        "netzkosten-root-electric-investment-cost-02"
+      ]
+    },
+    {
+      "review_file": "research/factual-checks/netzkosten-2026/reviews/b-reviews-a.json",
+      "omission_index": 0,
+      "resolution": "Added a bounded unresolved assessment after root complete-original and primary context check; no error is inferred.",
+      "claim_ids": [
+        "netzkosten-root-family-business-burden-03"
+      ]
+    },
+    {
+      "review_file": "research/factual-checks/netzkosten-2026/reviews/b-reviews-a.json",
+      "omission_index": 1,
+      "resolution": "Added a bounded unresolved assessment after root complete-original and primary context check; no error is inferred.",
+      "claim_ids": [
+        "netzkosten-root-industry-construction-crisis-04"
+      ]
+    },
+    {
+      "review_file": "research/factual-checks/netzkosten-2026/reviews/c-reviews-b.json",
+      "omission_index": 0,
+      "resolution": "Added separately after root checked full BKM context and the bounded draft mechanism or conditional cost arithmetic.",
+      "claim_ids": [
+        "netzkosten-root-bkm-no-application-05"
+      ]
+    },
+    {
+      "review_file": "research/factual-checks/netzkosten-2026/reviews/c-reviews-b.json",
+      "omission_index": 1,
+      "resolution": "Added separately after root checked full BKM context and the bounded draft mechanism or conditional cost arithmetic.",
+      "claim_ids": [
+        "netzkosten-root-bkm-electric-economics-06"
+      ]
+    }
+  ],
+  "main_issue_admissions": [],
+  "limits": [
+    "Twenty-one previously examined public external responses,71physical PDF pages. Three Land replies are excluded; this is not a complete legislative-process or national population.",
+    "Inventories target material testable premises rather than every incidental factual assertion. Supported concerns the stated bounded proposition and version; unresolved is neither an error nor confirmation.",
+    "The official ministry dataset reports a5–13August consultation window. Authored dates, publication dates and actual delivery are distinct; one response is authored18August and BKM is undated. Current public draft bytes are not authenticated initial dispatch bytes.",
+    "Pure policy preferences and unconditional future outcomes are recorded in reading/exclusion audits; model attributions, conditional mechanisms and current causal premises remain assessable.",
+    "No author contact, human specialist confirmation, intent inference or representative error rate."
+  ],
+  "as_of_utc": "2026-10-25T10:35:05.590258+00:00",
+  "conclusions": [
+    "All21archived public external responses and71physical PDF pages were independently re-read;188initial assessments each received a complete cross-review. Root independently adjudicated six omissions and added six bounded assessments.",
+    "No new error finding is admitted. The craft-tax candidate remains unresolved after a fresh final reviewer identified a reasonable narrower reading supported by the same sentence’s explicit producing-industry qualification. The legal category is clear; the author’s intended scope is not.",
+    "Primary tariff data, model reports and engineering evidence corroborate many bounded claims. Conditional network-cost forecasts are not treated as realised future facts; technical flexibility constraints are acknowledged without certifying industry-wide payback periods.",
+    "Existing retail pass-through duties are distinguished from immediate universal bill reductions. Current public legal/draft versions, later-August publications, claimed numerous-user incidence and exact investment start dates retain their specific applicability limits.",
+    "Supported and unresolved ledger assessments do not automatically enter the main issue files. Repeat reading adds zero units to the existing626-unit pool."
+  ],
+  "candidate_record_reviews": [
+    {
+      "file": "research/factual-checks/netzkosten-2026/reviews/a-bkm-final-candidate.json",
+      "sha256": "6bd5f54d81c46d582a8ab4769482a261b4b1cbd3692459dfc1c514e743e905e4"
+    }
+  ],
+  "candidate_dispositions": [
+    {
+      "id": "netzkosten2026-bkm-craft-tax-fc01",
+      "result": "unresolved_no_main_issue_admission",
+      "reason": "Preserve B/C’s defensible literal-reading overstatement judgment and A’s reasonable non-producing-crafts contextual alternative. Root accepts the conservative unresolved disposition."
+    }
+  ]
+}

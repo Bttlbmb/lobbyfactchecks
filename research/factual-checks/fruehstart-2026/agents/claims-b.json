@@ -1,0 +1,1704 @@
+{
+  "researcher": "b",
+  "batch": "fruehstart-2026",
+  "status": "initial_inventory_frozen",
+  "completed_at_utc": "2026-10-25T11:10:03.727320+00:00",
+  "documents": [
+    {
+      "id": "hearing-1216340-response-002",
+      "author": "Die Deutsche Kreditwirtschaft",
+      "author_date": "2026-10-01",
+      "submission_date_verified": false,
+      "url": "https://www.bundestag.de/resource/blob/1221886/03-Die-Deutsche-Kreditwirtschaft.pdf",
+      "local_file": "research/round3-tax/sources/hearing-1216340-response-002.pdf",
+      "sha256": "28fb73692a54915cd7b0b9a118c97b59421b5328d35a1df8c5e15ab6c8e4407b",
+      "physical_pages": 7,
+      "external_submission": true,
+      "depth": "full_submission",
+      "read_round": "round3-tax",
+      "evidence_log": "research/round3-tax/research-log.json",
+      "pilot_text": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-002.txt",
+      "page_scope": "Physical PDF pages, including covers and appendices where present.",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "fully_read": true,
+      "read_order": "All original pages read before prior dispositions or counterpart inventories.",
+      "visual_checks": []
+    },
+    {
+      "id": "hearing-1216340-response-003",
+      "author": "Gesamtverband der Deutschen Versicherungswirtschaft",
+      "author_date": "2026-09-30",
+      "submission_date_verified": false,
+      "url": "https://www.bundestag.de/resource/blob/1221768/04-GDV.pdf",
+      "local_file": "research/round3-tax/sources/hearing-1216340-response-003.pdf",
+      "sha256": "49376cbc681f7eecbfdfc5941d26614103fe315e5c90136fa921198fcdc628f8",
+      "physical_pages": 8,
+      "external_submission": true,
+      "depth": "full_submission",
+      "read_round": "round3-tax",
+      "evidence_log": "research/round3-tax/research-log.json",
+      "pilot_text": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-003.txt",
+      "page_scope": "Physical PDF pages, including covers and appendices where present.",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "fully_read": true,
+      "read_order": "All original pages read before prior dispositions or counterpart inventories.",
+      "visual_checks": []
+    }
+  ],
+  "claims": [
+    {
+      "id": "frueh-b-dk-01",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "privater individueller Zuzahlungen",
+      "claim_en": "The bill permits private top-ups and transfer into other retirement products after adulthood.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§3(3), §12(2), physical pages 9 and 13"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Both routes are explicit, subject to contribution limits and certified-contract restrictions.",
+      "limits": "No claim that top-ups receive the state grant or that any unregulated account is eligible.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-02",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "bis zum 1. Januar 2027",
+      "claim_en": "The proposal is designed to start on 1 January 2027.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "Article 8, physical page 23; transitional reporting flexibility §30"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The bill specifies commencement on 1 January 2027 apart from the named later article.",
+      "limits": "This is the proposed legal date, not proof all providers will be ready or that the bill is already in force.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-03",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Kostendeckel für das Altersvorsorge-Standarddepot",
+      "claim_en": "The standard depot has an effective-cost cap applicable to the proposed Frühstartrente product.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "Physical page 39 §3 rationale links §2a(2) AltZertG"
+        },
+        {
+          "source_id": "frueh-b-primary-search",
+          "locator": "BMF September 2026 indexed primary account: one-percent cap and 2027 product framework"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The bill expressly relies on the standard-depot cap. The September ministry account corroborates its final one-percent design.",
+      "limits": "Already adopted future product rules and current operative old-product law differ. Support does not assert an operating standard-depot market before 2027; direct BMF page access failed.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-04",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "weder bei Vertragsschluss",
+      "claim_en": "Before age 18 the bill prohibits acquisition/distribution charges at contract conclusion and qualifying capital transfer.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§3(2)1, physical page 9; rationale 39–40"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The operative clause contains the prohibition and timing.",
+      "limits": "A specific fee prohibition is not a prohibition of every administration or investment cost.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-05",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "klare rechtliche Definition",
+      "claim_en": "The term acquisition and distribution costs lacks a clear legal definition.",
+      "claim_type": "legal_interpretation",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-altzertg",
+          "locator": "§2a current cost categories"
+        },
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§3(2)1 and rationale"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The law uses defined cost categories and cross-references, but those do not resolve every borderline commission and distribution arrangement. Clarity is partly interpretive.",
+      "limits": "Neither absence of a standalone exhaustive definition nor this record proves all legally relevant meanings are undefined.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-06",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Verwaltungs- und Produktkosten möglich",
+      "claim_en": "Administration and product costs remain possible notwithstanding the acquisition/distribution-cost ban.",
+      "claim_type": "legal_scope",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§3(2)1 specific prohibition; physical page 39 standard-depot cost cap rationale"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The clause prohibits named categories, while the standard-depot framework caps total effective costs rather than setting all costs to zero.",
+      "limits": "The author’s specific bestandsprovision classification is assessed separately; actual fee arrangements need their own legal examination.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-07",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Bestandsprovisionen",
+      "claim_en": "Ongoing holding commissions can be classified as product costs rather than prohibited distribution costs.",
+      "claim_type": "legal_interpretation",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-altzertg",
+          "locator": "§2a cost categories"
+        },
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§3(2)1 prohibition"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The checked statutes do not conclusively classify every recurring commission by its label alone; function, recipient and contract design matter.",
+      "limits": "This is the author’s legal interpretation, not an established universal safe harbour. No error inferred.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-08",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Diese Zuzahlungen würden nicht",
+      "claim_en": "Charging voluntary private top-ups would not reduce state subsidy amounts.",
+      "claim_type": "conditional_cost_incidence",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§§2–3; nominal subsidy and shared contract framework"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "A fee charged only against an additional private payment need not reduce the nominal grant. The statement does not specify allocation, fungible assets or net-return effects, so the complete economic-incidence assertion is unestablished.",
+      "limits": "Nominal grant preservation is not identical to zero effect on total child assets or returns. It is a rationale for a policy request, not a demonstrated observed cost result.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-09",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "kostendeckende Standarddepots",
+      "claim_en": "The government rationale aims to let provider groups offer standard depots that cover their costs.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": true,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-pav-bill",
+          "locator": "§2a(2) rationale, phrase kostendeckende Standarddepots"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The earlier government reform bill explicitly states this objective.",
+      "limits": "This verifies documented legislative intent, not realised profitability. The exact footnote page is incidental and final cap differs from the earlier 1.5-percent proposal.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-10",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "auch den ersten Wohnsitz",
+      "claim_en": "Providers must collect and transmit tax ID, date of birth and first residence, including at late contract conclusion between adulthood and 35.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§5(3)–(4), physical page 10; rationale 41–42"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The enumerated fields and late-contract obligation are explicit.",
+      "limits": "This verifies the proposed data obligation, not that it is optimally designed or necessary for every purpose.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-11",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "melderechtlichen Verhältnisse",
+      "claim_en": "Eligibility residence is checked from registered-residence data; a late contract requires checking childhood eligibility rather than just current adult residence.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§§6–7 and §10(1); rationale physical pages 38 and 42"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The draft uses registration data and retrospective entitlement periods for start capital.",
+      "limits": "A historical entitlement test does not by itself prove every current address field is objectively unnecessary for identity matching, administration or communication.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-12",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "trägt zur Feststellung der historischen",
+      "claim_en": "The provider-collected current adult address contributes nothing to establishing historic eligibility.",
+      "claim_type": "data_process_inference",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§5(3)–(4), §6; rationale 41–42"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Current residence cannot alone prove a childhood address. But no complete data-model or error-matching analysis establishes zero contribution to identification or the overall retrospective process.",
+      "limits": "The author qualifies this as grundsätzlich. The privacy-necessity conclusion remains a legal/policy judgment, not a demonstrated data error.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-13",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "staatliche Verifikationsinfrastruktur",
+      "claim_en": "The bill builds a BZSt-linked tax-ID/date/residence verification infrastructure for grant eligibility.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§§5–7,16; rationale 38,41–42"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Automated verification and data exchange are explicit in the proposed statutory architecture.",
+      "limits": "This does not establish that those channels already satisfy every financial customer-identification obligation.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-14",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "wer das Kind wirksam vertreten darf",
+      "claim_en": "Providers need legally valid authority to contract for a minor.",
+      "claim_type": "civil_law",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-bgb1629",
+          "locator": "§1629(1); joint representation and exceptions"
+        },
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "Physical page 39, legal-representative consent rationale"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Joint parental representation and its exceptions make authority relevant to an effective minor’s contract.",
+      "limits": "No universal requirement to collect the same paper documents is inferred; the suggested single-parent-consent rule is a requested change.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-15",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "zurückgeforderten Betrages",
+      "claim_en": "The draft requires providers to register a recalled amount with the central body before remittance.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§14(3), physical page 14; rationale physical page 48"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The registration/remittance step is explicit.",
+      "limits": "Its necessity and avoidable-work character are normative/process-design questions.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-16",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "zweite Absatz der Begründung",
+      "claim_en": "The second rationale paragraph under §15 deals substantively with §14 rather than death repayment.",
+      "claim_type": "draft_rationale_interpretation",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "Physical page 48, second paragraph under §15"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "That paragraph discusses moving abroad, stopping grants and later special EStG repayment rather than death. However, it is not simply the §14 retroactive-overpayment procedure either; it explains a separate repayment connection.",
+      "limits": "An editorial relocation recommendation is reasonable. The exact asserted §14 attribution is not conclusively established, and no material error finding is inferred.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-17",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "am 31. Dezember 2025",
+      "claim_en": "Initial grant eligibility is restricted to the cohort turning six in 2026 or on 31 December 2025 and then successive six-year-old cohorts.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§30(1), physical page 18; rationale physical page 55"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The application rule explicitly matches the stated cohorts, including the civil-law age-counting edge.",
+      "limits": "The calendar application can be retroactive; this is not universal immediate coverage of every six-to-seventeen-year-old.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-18",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Möglichkeit der freiwilligen Besparung",
+      "claim_en": "From the proposed start, other six-to-seventeen-year-olds may open a standard depot funded by their own contributions without the grant.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§3(4), physical page 9; Articles 6 and 8"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The separate non-grant route is explicitly provided for the stated ages.",
+      "limits": "This is not permission for all ages from birth; broadening to younger minors is the author’s request.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-19",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "“zielgruppengerechten” Information",
+      "claim_en": "The draft adds child-targeted, easily understood annual information.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "Article 6, proposed §7a(2), physical page 22"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The operative amendment expressly imposes additional information for funded minor contract partners.",
+      "limits": "The comparison with altersgerecht and legal-certainty concerns are interpretations, not demonstrated factual errors.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-20",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "anstelle der Deutschen Bundesbank",
+      "claim_en": "The draft assigns collective-asset management to the Bundesbank.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§24(1), physical page 17"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The named manager is explicit.",
+      "limits": "A request to use a private manager does not change the recorded institutional assignment.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-21",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        7
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "kein zusätzlicher Aufwand entsteht",
+      "claim_en": "The bill’s business-burden table assumes zero one-off burden from introducing or adjusting digital processes.",
+      "claim_type": "stated_model_assumption",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "Physical page 4, E.2 table: digital-process amount 0.0"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The zero entry is present, alongside nonzero total one-off and annual business burdens.",
+      "limits": "The author criticises that assumption; the model entry is not evidence of actually zero implementation costs.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-dk-22",
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        7
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Die im Gesetzentwurf ausgewiesenen",
+      "claim_en": "The bill understates providers’ actual implementation and follow-up costs.",
+      "claim_type": "cost_estimate_critique",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "E.2 and detailed burden rationale; §§5–17 new process duties"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "New processes give a concrete reason to question a zero digital-process entry, but no independently identified provider-cost sample or reconciled counterfactual establishes the magnitude or net understatement.",
+      "limits": "No realised future cost is inferred from a proposed burden estimate; policy disagreement with an assumption is not an error finding.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-01",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Zeit und Zinseszinseffekt",
+      "claim_en": "Starting earlier increases compounded assets for a fixed positive net return and otherwise equal contributions.",
+      "claim_type": "conditional_financial_mechanism",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "Long-horizon rationale; arithmetic of compounding"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Under the stated conditional assumptions an earlier retained balance compounds for more periods.",
+      "limits": "This mathematical mechanism does not guarantee positive actual returns, participation, financial education or an adequate retirement income.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-02",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "für jedes anspruchsberechtigte Kind",
+      "claim_en": "If no individual contract is opened, the federal collective route preserves access to support for every eligible child, with retrieval until 35.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§§9–10,21,23–24, physical pages 12,16–17"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The fallback and late-contract retrieval route are explicit for eligible children and their cohorts.",
+      "limits": "The funds remain federal collective assets, retrieval requires a qualifying contract and timely application, and no fixed positive return is guaranteed.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-03",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "nur für die Versicherungswirtschaft",
+      "claim_en": "The occasion-based advisory duties discussed here are VVG duties for insurers/intermediaries rather than a general obligation on every pure-investment provider.",
+      "claim_type": "sector_specific_legal_scope",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-vvg",
+          "locator": "§§6,61"
+        },
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "Article 6 proposed AltZertG §1(1f), physical page 21"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The referenced VVG duties apply to insurance distribution, explaining the specific sectoral exception.",
+      "limits": "Pure investment providers still have their own disclosure, suitability/appropriateness and conduct duties. This does not verify a claim that every non-insurance sale is regulation-free.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-04",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "auf Standarddepotverträge",
+      "claim_en": "Grant products are limited to certified standard depots with cost restrictions and an electronic-conclusion option.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§3(1),(5); rationale physical page 39"
+        },
+        {
+          "source_id": "frueh-b-pav-bill",
+          "locator": "§1(1c) electronic-conclusion and two-fund standard design"
+        },
+        {
+          "source_id": "frueh-b-primary-search",
+          "locator": "BMF September 2026 indexed primary standard-depot design"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The addressed bill limits grant contracts to the standard-depot category and relies on its standardised product framework.",
+      "limits": "Earlier reform-bill text is not treated as final on every numerical detail; ministry corroboration is a labelled search extraction. Digital option does not mean paper contracts are universally forbidden.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-05",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "neben § 6 auch",
+      "claim_en": "The bill expressly names VVG §§6 and 61 in the standard-depot no-advice exception, including intermediaries.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "Article 6, §1(1f), physical page 21"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Both provisions are expressly named, while customer wishes/needs consistency is retained.",
+      "limits": "No claim of exemption from all insurance-distribution obligations.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-06",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "europarechtlich korrekt",
+      "claim_en": "The no-advice exception is correctly implemented under EU law.",
+      "claim_type": "eu_legal_compatibility",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§1(1f), retained wishes/needs requirement"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The draft preserves a wishes-and-needs safeguard, but direct IDD access returned an anti-bot challenge and no complete independent compatibility analysis was authenticated.",
+      "limits": "National wording alone is not a full EU-law opinion; lack of that opinion is not evidence that the exception is unlawful.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-07",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Prüfung möglicher Synergien",
+      "claim_en": "The bill announces a review of synergies with the statutory capital pension and public private-pension offer.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "General rationale, synergy discussion"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The bill includes this policy-review context.",
+      "limits": "An announcement is not an existing combined investment institution or proof of future implementation speed.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-08",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "existiert bislang nicht",
+      "claim_en": "The investment vehicle envisaged for the statutory capital pension does not yet exist.",
+      "claim_type": "institutional_status",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "Synergy-review context rather than operative creation of that institution"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The separate planned capital-pension vehicle is not established by this bill. No exhaustive dated primary institutional/legal census was authenticated.",
+      "limits": "Existing KENFO, Bundesbank portfolios or other state funds are not automatically the same envisaged institution; no categorical contradiction from their existence.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-09",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "§ 138 VAG",
+      "claim_en": "Life insurers must calculate adequate premiums so they can meet obligations and form sufficient reserves.",
+      "claim_type": "prudential_law",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": true,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-vag",
+          "locator": "§138(1), current official text"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The statute explicitly imposes actuarial adequacy and sufficient-reserve requirements and restricts planned permanent non-premium financing.",
+      "limits": "Header has September 2026 amendments with incomplete documentary processing. This bounded long-standing calculation duty does not prove profitability of every individual product or validate a requested fee level.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-10",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "10 € pro Monat",
+      "claim_en": "The proposed monthly state contribution is €10.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§2(1), physical page 8"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The nominal monthly amount is explicit.",
+      "limits": "Low contribution magnitude does not itself establish which fee cap permits a profitable product.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-11",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "2 Fonds",
+      "claim_en": "The standard depot is restricted to two provider-selected funds with risk constraints.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-pav-bill",
+          "locator": "§1(1c), original product design; rationale physical page 89"
+        },
+        {
+          "source_id": "frueh-b-primary-search",
+          "locator": "BMF September 2026 primary indexed account confirms two-fund design"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Both primary descriptions identify the restricted two-fund design and safer/riskier components.",
+      "limits": "This supports the described design; it does not certify every obsolete clause of the earlier bill or a numerical risk-adjusted performance comparison.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-12",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "breit diversifizierte",
+      "claim_en": "Insurer secured assets provide a pooled long-term portfolio with diversified investment categories.",
+      "claim_type": "investment_structure",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-vag",
+          "locator": "§§124–125, diversification, asset categories and separate secured portfolio"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The statutory design permits multiple asset classes and requires prudent diversification and liability-matching.",
+      "limits": "The legal framework supports the structural capability, not a finding that every actual portfolio is optimally diversified or uniquely superior.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-13",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "höhere Renditen",
+      "claim_en": "During life-cycling, secured assets achieve higher returns at equivalent safety than a pure bond portfolio.",
+      "claim_type": "comparative_investment_performance",
+      "materiality": "high",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-vag",
+          "locator": "§§124–125 do not establish comparative performance"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "No matched primary return/risk study with valuation, guarantees, illiquidity, fees, cohort and benchmark definitions was authenticated. A diversified permitted asset set does not itself establish risk-adjusted dominance.",
+      "limits": "This is a material comparative-performance premise. Model-dependent superiority is not an observed universal fact or an error established merely by missing evidence.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-14",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "nicht über Publikumsfonds und ETF",
+      "claim_en": "Insurers can finance transformation investments in forms and volumes that public funds and ETFs cannot provide.",
+      "claim_type": "comparative_financing_capacity",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-vag",
+          "locator": "§§124–125 permissible assets"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The law supports investment capacity but not the claimed comparative impossibility. No specified transaction form, volume benchmark, investment-fund regime or primary matched dataset is identified.",
+      "limits": "Specific illiquid/private placements may differ substantially from ordinary UCITS/ETFs. Do not silently weaken the proposition to a simple difference in portfolio composition.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-15",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "zu 70 % in Europa",
+      "claim_en": "Insurers invest 70% of their secured assets in Europe, unlike most market ETFs/funds.",
+      "claim_type": "investment_statistic",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-vag",
+          "locator": "§§124–125 do not prescribe a 70-percent Europe share"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The checked source establishes no matched 70-percent secured-assets denominator, year, geographic look-through method or majority-of-funds comparator. A single insurer factsheet download was denied.",
+      "limits": "Industry overall assets, secured assets and life insurers are distinct; domicile and ultimate economic exposure differ. A newer or issuer-specific statistic remains possible.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-16",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "formal anbieten",
+      "claim_en": "Insurers can formally offer a standard depot but the two-fund restriction prevents direct use of their full secured-asset portfolio.",
+      "claim_type": "product_eligibility_scope",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-altzertg",
+          "locator": "§1(2) provider classes; future-framework certification references"
+        },
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§3 standard-depot category"
+        },
+        {
+          "source_id": "frueh-b-pav-bill",
+          "locator": "Two OGAW fund design"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Insurers are eligible providers, while the referenced standard design is confined to fund components rather than direct participation in the insurer’s entire secured assets.",
+      "limits": "Actual certification, product launch and economic performance are not established for an individual insurer.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-17",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "nun auch die Unpfändbarkeit",
+      "claim_en": "The government bill adds protection against attachment alongside non-pledging and non-sale restrictions for the grant and its returns.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§2(4), physical page 9"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The operative restrictions and defined asset scope match.",
+      "limits": "This checks current addressed wording, not exact identity with an unavailable prior consultation file.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-18",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Eigenbeiträge und die darauf entfallenden Erträge",
+      "claim_en": "Private contributions and their returns can be withdrawn and their separate contract part cancelled.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§3(2)3; rationale physical pages 39–40"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The operative cancellation exception and rationale expressly distinguish private contributions.",
+      "limits": "The rationale says subject to contract terms; taxes and ordinary contract effects may apply. Not an unconditional promise of instant fee-free liquidity.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-19",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        7
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "§ 13 FrühStRG-E",
+      "claim_en": "The provider is generally authorised to apply at contract conclusion, and the grant is paid for only one qualifying contract at a time.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§5(2), §13, physical pages 10 and 13"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Both rules are explicit, including application objection and chronological priority procedures.",
+      "limits": "The statutory authorisation is not universal if timely objection or missing application data prevents it.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-20",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        7
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "nicht geregelt, welche Auswirkungen",
+      "claim_en": "The bill contains no automatic ex-tunc civil nullity rule when a grant application is rejected.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§§5–6,13, draft full procedural scheme"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The draft provides rejection and notification but no automatic civil cancellation/nullity provision of the kind requested.",
+      "limits": "Contractual conditions, general civil remedies and invalidity on other grounds remain possible; the full legal position of every individual agreement is not asserted.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-21",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        7
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Doppelung mit den bereits",
+      "claim_en": "The new annual child-targeted information repeats topics already covered by annual capital/return/cost reporting.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "Article 6 proposed §7a(1)–(2), physical pages 21–22"
+        },
+        {
+          "source_id": "frueh-b-altzertg",
+          "locator": "Existing §7a information categories"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The topics overlap, while paragraph 2 adds a target-group and readability function.",
+      "limits": "Topic overlap does not establish identical duties or that the additional child-oriented requirement is legally unnecessary.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-22",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        7
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "ohne eine normative Konkretisierung",
+      "claim_en": "The term target-group-appropriate has no normative specification and causes legal uncertainty.",
+      "claim_type": "legal_interpretation",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§7a(2) and educational rationale"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The operative text is broad, with contextual explanation rather than an exhaustive list of required wording. Whether that constitutes insufficient legal certainty requires interpretation.",
+      "limits": "Open-textured legal terms are not automatically invalid, undefined or contradictory; the request for central guidance remains normative.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-23",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        7
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "vierteljährliche Auszahlung",
+      "claim_en": "The draft provides quarterly payment and a one-time application rather than annual reapplication.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§8(1), §5(2); rationale physical page 41"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Both procedural simplifications are explicit.",
+      "limits": "Quarterly retrospective payment is distinct from the monthly entitlement amount.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-24",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        7
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "120 Euro",
+      "claim_en": "The draft waives recovery when the recoverable amount does not exceed €120.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§14(5), physical page 14; rationale physical page 48"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The threshold and its inclusive boundary match.",
+      "limits": "The prediction that necessary information arrives late and the request to raise the threshold are forecasts/preferences.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-25",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        7
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Steueridentifikationsnummer des Kindes",
+      "claim_en": "Providers may obtain the child’s tax ID electronically at contract conclusion.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§16(2)–(3), physical page 14; rationale physical page 49"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The machine enquiry route is explicit and subject to data matching.",
+      "limits": "It is not permission for unrestricted reuse across all unrelated customer/authority communications.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-26",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        8
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "vor Vollendung des",
+      "claim_en": "On death before 18 the grant is repaid; grant returns, private payments and their returns can be inherited.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": false,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§15, physical page 14; rationale physical page 48"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The operative repayment rule and rationale expressly distinguish inheritable amounts.",
+      "limits": "The same rationale already acknowledges less than nominal grant may flow back after negative returns; the author’s suggested hardship clarification is not treated as a false claim that no such explanation exists.",
+      "check_completed": true
+    },
+    {
+      "id": "frueh-b-gdv-27",
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        8
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "§ 168 Absatz 1 VVG",
+      "claim_en": "The bill expressly disapplies VVG §168(1) to prevent its ordinary life-policy cancellation rule overriding the restricted grant-contract part.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for pension product design, fees, eligibility, delivery procedures or safeguards requested by the author.",
+      "cited_by_author": true,
+      "check_method": [
+        "All original pages read before earlier dispositions",
+        "Independent primary draft/legal/rationale and investment-scope checks; explicit temporal and access limits"
+      ],
+      "evidence": [
+        {
+          "source_id": "frueh-b-draft",
+          "locator": "§3(2)3, physical page 9"
+        },
+        {
+          "source_id": "frueh-b-vvg",
+          "locator": "§168(1)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The exception is explicit. The ordinary rule allows notice at any time effective at the end of the current insurance period.",
+      "limits": "The author’s jederzeit language does not mean instantaneous payout; §168 exceptions and private-contribution cancellation remain separate.",
+      "check_completed": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "frueh-b-altzertg",
+      "title": "AltZertG current consolidated official PDF, amendment 26 May 2026",
+      "url": "https://www.gesetze-im-internet.de/altzertg/AltZertG.pdf",
+      "retrieved_at": "2026-10-25T11:00:27.799957+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 200,
+      "resolved_url": "https://www.gesetze-im-internet.de/altzertg/AltZertG.pdf",
+      "content_type": "application/pdf",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/b-altzertg.pdf",
+      "sha256": "f2b42dfeb7d453a4c27a2a1c058dc656a7888e254834e929b70ca831a6bf50eb",
+      "bytes": 117574,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "frueh-b-vag",
+      "title": "VAG official consolidated PDF, September 2026 amendments",
+      "url": "https://www.gesetze-im-internet.de/vag_2016/VAG.pdf",
+      "retrieved_at": "2026-10-25T11:00:27.800407+00:00",
+      "temporal_limit": "Header names 25 September 2026 amendments and incomplete documentary processing. Read the particular provision and commencement scope; no exact historical institutional portfolio is inferred.",
+      "http_status": 200,
+      "resolved_url": "https://www.gesetze-im-internet.de/vag_2016/VAG.pdf",
+      "content_type": "application/pdf",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/b-vag.pdf",
+      "sha256": "3754af571db75c47e2c4f3517de7278565cbb88235a44c335150c066a7e36ad4",
+      "bytes": 1064119,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "frueh-b-vvg",
+      "title": "VVG official consolidated PDF, amendment 26 May 2026",
+      "url": "https://www.gesetze-im-internet.de/vvg_2008/VVG.pdf",
+      "retrieved_at": "2026-10-25T11:00:27.800583+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 200,
+      "resolved_url": "https://www.gesetze-im-internet.de/vvg_2008/VVG.pdf",
+      "content_type": "application/pdf",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/b-vvg.pdf",
+      "sha256": "9f5d10f2e819f06038945f8b51383c71d800efce7b61297e270bc1ed1e5cff50",
+      "bytes": 402043,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "frueh-b-bgb1629",
+      "title": "BGB §1629, joint legal representation of a child",
+      "url": "https://www.gesetze-im-internet.de/bgb/__1629.html",
+      "retrieved_at": "2026-10-25T11:00:27.800732+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 200,
+      "resolved_url": "https://www.gesetze-im-internet.de/bgb/__1629.html",
+      "content_type": "text/html",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/b-bgb1629.html",
+      "sha256": "d8c632d1cf4227dcc557dd01c7c705b4fed540fd3ea2424c83c966e9444e4d88",
+      "bytes": 5668,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "frueh-b-idd",
+      "title": "IDD EUR-Lex direct attempt, empty unusable response",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L0097",
+      "retrieved_at": "2026-10-25T11:00:27.800882+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 202,
+      "resolved_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L0097",
+      "content_type": "text/html; charset=UTF-8",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/b-idd.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "usable_as_evidence": false
+    },
+    {
+      "id": "frueh-b-investment-example",
+      "title": "Allianz investment factsheet attempt, denied",
+      "url": "https://www.allianz.de/content/dam/onemarketing/azde/azd/unternehmenskommunikation/pdfs/unternehmen/zahlen-daten-fakten/faktenblaetter-kapitalanlage/Faktenblatt_Kapitalanlage_Allianz_Leben_Stand_31_03_2025.pdf",
+      "retrieved_at": "2026-10-25T11:00:27.801019+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "usable_as_evidence": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "frueh-b-draft",
+      "title": "Government Frühstartrente bill BT 21/7864, 7 September 2026",
+      "url": "https://dserver.bundestag.de/btd/21/078/2107864.pdf",
+      "retrieved_at": "2026-10-25T11:10:03.725614+00:00",
+      "local_file": "research/round2-tax/sources/fruehstart-bt217864.pdf",
+      "sha256": "9d14355f8293339cd031b901c02c7be0b0f9dab1d7ca5f7edf5ce07fa834b4e7",
+      "temporal_limit": "The addressed parliamentary government bill predates both statements. Proposed rules are not enacted or realised future outcomes.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "frueh-b-pav-bill",
+      "title": "Original government private-pension reform bill BT 21/4088, February 2026",
+      "url": "https://dserver.bundestag.de/btd/21/040/2104088.pdf",
+      "retrieved_at": "2026-10-25T11:10:03.726337+00:00",
+      "local_file": "research/round2-tax/sources/altersvorsorge-bt214088.pdf",
+      "sha256": "3e54fb86e17e901a1aea8d620a24bcc204989f51c7cde3e56fb5c9c535c18825",
+      "temporal_limit": "Earlier government proposal, not final May 2026 enacted wording; use only for documented rationale or explicitly version-qualified proposal.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "frueh-b-primary-search",
+      "title": "BMF September 2026 and parliamentary reform process: labelled primary search extraction",
+      "url": "https://www.bundesfinanzministerium.de/Monatsberichte/Ausgabe/2026/09/Inhalte/Kapitel-2-Analysen/2-1-fruehstartrente.html",
+      "retrieved_at": "2026-10-25T11:10:03.727015+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/b-pension-primary-search.json",
+      "sha256": "dac3ed42079ba3368e000fba8862729445a9bea8dbd13a9d214dc5fe9e499fb2",
+      "temporal_limit": "Indexed primary BMF text predates 30 September/1 October statements; complete original page retrieval returned 503. This is not an original HTML archive.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "frueh-b-failed-web",
+      "title": "BMF and IDD direct-reader failed access log",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016L0097",
+      "retrieved_at": "2026-10-25T11:10:03.727076+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/b-bmf-and-idd-web-extraction.json",
+      "sha256": "0b42fa5dc9ae963f3786df49ae8c1b2c10624115bf02e1832784e4218bf559c2",
+      "temporal_limit": "BMF 503 and EUR-Lex anti-bot challenge; neither response is usable evidence.",
+      "usable_as_evidence": false
+    }
+  ],
+  "exclusions": [
+    {
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        1
+      ],
+      "reason": "Title, contact, registration and institutional metadata are provenance, not material policy premises."
+    },
+    {
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "reason": "Expected participation, compound-wealth/education benefits, prompt implementation, fairness, cost-covering policy and requests to abolish the ban or alter cross-references are normative or prospective. Their specific current design, fee and cost-incidence premises are separately inventoried."
+    },
+    {
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "reason": "Proposed eID/BundID/EUDI and digital custody proofs, one-parent-consent exception, process savings and deletion of a step are recommendations/forecasts. Current representation and data-processing premises are retained."
+    },
+    {
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        6
+      ],
+      "reason": "Age-group broadening, private manager choice and altersgerecht wording are recommendations, not descriptions of current rights. The current cohort and manager rules are retained. The §15 editorial-location complaint is assessed as an interpretive premise."
+    },
+    {
+      "document_id": "hearing-1216340-response-002",
+      "pdf_pages": [
+        7
+      ],
+      "reason": "Complete recalculation and IT-provider consultation are policy requests. The zero digital-process model entry and asserted actual understatement are separately assessed; no realised future implementation cost is fabricated."
+    },
+    {
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "reason": "Cover, contents and contact/registration metadata only."
+    },
+    {
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        3
+      ],
+      "reason": "Three-pillar future need, participation, wealth, finance-education and greater-return benefits are forecasts or evaluations; the conditional compounding and concrete product/fallback design are retained."
+    },
+    {
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        4
+      ],
+      "reason": "Prompt implementation, avoidance of delays, synergies, relative implementation speed and desired institutional structure are prospective judgments. The stated current absence of a specified vehicle is retained as unresolved."
+    },
+    {
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "reason": "Necessity/appropriateness of fees, unique advantages, optimal safety component and future above-average customer returns are policy judgments or forecasts. Present structural, legal, risk-return and geographic assertions are separately inventoried; costs-must-be-covered is economic framing, not a measured universal pricing result."
+    },
+    {
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "reason": "Broader locks on own contributions, automatic nullity, central finance terminology and consumer testing are requested changes. Existing draft restrictions, absence of an automatic rule and information topics are retained."
+    },
+    {
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "reason": "Later availability of entitlement data, extension of the tax-ID route, higher recovery threshold and hardship protection are forecasts/preferences. The existing legal mechanics and existing negative-return rationale are checked separately."
+    }
+  ],
+  "limits": [
+    "All fifteen assigned physical pages independently read before earlier dispositions and counterpart inventories.",
+    "No author contact or human legal/financial specialist review. Financial and implementation models are not realised outcomes.",
+    "Government bill, earlier pension reform proposal, May 2026 adopted future product framework and current operative consolidated text are distinct. Failed original-page access and indexed primary extracts are explicitly labelled."
+  ]
+}

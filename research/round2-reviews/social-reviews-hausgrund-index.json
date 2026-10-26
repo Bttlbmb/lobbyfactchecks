@@ -1,0 +1,34 @@
+{
+  "candidate_id": "mietrechtII2026-hausgrund-index-root11",
+  "candidate_description": "Pending root Haus & Grund March 2026 Mietrecht II construction-index levels case, author physical pages 11–12",
+  "reviewer": "social_ai_independent_review",
+  "date": "2026-10-25",
+  "disposition": "retain_only_ancillary_provisional_minor_null_index_levels",
+  "read_extent": [
+    "Read the complete author sections on physical/printed pages 11–12, including the adjacent threshold request, forecasts, concluding request and association-description page. Page 11 rendered and visually checked. Other author sections were not independently reread in this review.",
+    "Read the exact archived consultation draft cover and operative Article 1 number 10, physical/printed page 5, plus the explanatory section on the threshold increase.",
+    "Read the original Destatis November 2022 publication cover and annual-index table, physical 19/printed 20, together with the table heading beginning on physical 18/printed 19. Read current archived Destatis quarterly table header, 2023 entries and reporting-month footnote.",
+    "Found, downloaded and read the full substantive original BMAS notice dated 22 January 2025, published in GMBl. 2025 number 6 page 98. It republishes precisely identified Destatis GENESIS 61261-0001 data extracted 10 January 2025, including annual 2019 and 2023 values on the same 2021 base."
+  ],
+  "assessment": {
+    "established_mismatch": "The author expressly labels the series 2021=100, then gives approximately 107 for 2019 and more than 150 for 2023. The pre-submission federal notice gives annual 2019=90.2 and 2023=126.1 on that base. The current Destatis 2023 quarters are 125.0, 126.0, 126.4 and 126.9. Thus the printed levels do not describe the named national series on the named base.",
+    "ratio_rescue": "Correcting both levels leaves approximately forty percent growth: (126.1/90.2−1)×100=39.8004 percent. The author does not specify identical months or annual means, so do not promote a distinct finding that its broadly over-forty-percent growth statement is false. A different pair of within-year endpoints could pass forty percent. The absolute rebased index numbers are not percentages of inflation.",
+    "materiality": "Minor and ancillary. The index levels are erroneous, but the relevant broad growth comparison survives. The error does not establish that doubling the threshold is excessive, that automatic future indexation is unreasonable, or that modernisation-cost burdens are small. Excluding the incidental level issue from prioritised findings would also be reasonable.",
+    "direction": "Null. No demonstrated request-favouring effect follows from rescaling both endpoints while preserving roughly the same growth. Do not assign true merely because the figures occur beside an indexation request.",
+    "benign_alternatives": "Accidental mixing of index bases, transcribed levels or an unstated comparator is plausible. Correctly changing the reference base rescales every observation together; it does not by itself change proportional growth. No intent inferred.",
+    "scope": "The request concerns automatic indexation of the simplified-modernisation threshold in section 559c, not automatic index-linked rents under section 557b discussed in earlier pages. Preserve this distinction.",
+    "vintage": "The current table is later corroboration. The historical source is the November 2022 report issued 10 January 2023 and revised 10 May 2023, not an annual 2023 report. Its old 2015-base values must not be silently mixed with a new-base series to manufacture a precise corrected growth estimate. The newly archived January 2025 BMAS notice removes that mixed-vintage need."
+  },
+  "new_primary_source": {
+    "id": "bmas-baukostenindex-20250122",
+    "title": "BMAS, Bekanntmachung des Baukostenindexes gemäß § 85 Absatz 3 SGB IV, 22 January 2025, GMBl. 2025 number 6 page 98",
+    "url": "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_22012025_Gb5901063.htm",
+    "local_file": "research/round2-social/sources/bas-baukostenindex-20250122.html",
+    "sha256": "da4ce19fbcfc33a61695228378bb4e4a0c10632d13bcac594c48cc1020ec8de3",
+    "retrieved_at": "2026-10-25",
+    "locator": "Second Baukostenindex table, 2021=100; annual rows 2019 and 2023; source note identifies Destatis series and extraction timestamp.",
+    "identity_limit": "The notice calls its adopted series Baukostenindex for the social-insurance threshold, but its source note explicitly identifies the underlying Destatis construction-price series, including VAT, residential buildings, Bauleistungen am Bauwerk. This is an official republication of that same series, not an unrelated input-cost index."
+  },
+  "quotation_policy": "No author quotations added in this independent review; existing original excerpts and shared-source budget remain the root researcher’s responsibility.",
+  "specialist_review": false
+}

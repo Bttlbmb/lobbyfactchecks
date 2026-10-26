@@ -1,0 +1,128 @@
+{
+  "law_id": "apovwg-2026",
+  "document_id": "raddatz-apovwg-20260302",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Weiterentwicklung der Apothekenversorgung (ApoVWG)",
+    "version": "Government bill BT 21/4084,11 February 2026, including Bundesrat response and government reply",
+    "source_id": "apovwg-bt214084",
+    "submission_date": "2026-03-02",
+    "hearing_date": "2026-03-04",
+    "relevant_provision": "Pharmacy reform and accompanying remuneration debate. The bill itself does not enact the requested fixed-fee increase; Bundesrat general request 30(a) on physicalpage 85 requests€9.50 and government reply discusses the accompanying ordinance. Later enacted rates are not used as the submission-date baseline."
+  },
+  "request_quote": {
+    "original": "Erhöhung des Fixums",
+    "language": "de",
+    "translation_en": "Translation: Increase the fixed fee",
+    "locator": {
+      "pdf_page": 34,
+      "printed_page": 34,
+      "section": "D. Executive Summary",
+      "list_item": "Wichtigste Maßnahmen, first item"
+    }
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "tax_consultations_ai_agent",
+        "path": "research/round2-reviews/tax-reviews-raddatz-apovwg.json",
+        "outcome": "retain_provisional_minor_null"
+      }
+    ]
+  },
+  "author_response": [],
+  "submission_source_id": "raddatz-apovwg-20260302",
+  "source_registry": "research/round2-social/sources.json",
+  "id": "apovwg2026-raddatz-social06",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Reforming pharmacy services, operating rules and the basis for remuneration.",
+    "they_want": "Increase the fixed fee, abolish the pharmacy discount and index remuneration.",
+    "they_claim": "The effective fixed fee after the insurance discount is€6.58.",
+    "the_problem": "The calculation subtracts a gross discount from a net fee. The comparable net remainder is about€6.86; effects on the rhetoric and derived target run in different directions."
+  },
+  "claim_quote": {
+    "original": "Effektiv beträgt der Festzuschlag jedoch nur: 6,58 €.",
+    "language": "de",
+    "translation_en": "Translation: Effectively, however, the fixed surcharge is only€6.58.",
+    "locator": {
+      "pdf_page": 14,
+      "printed_page": 14,
+      "section": "3.1 Anpassung des Fixums – Inflations- und Lohnsteigerungsausgleich",
+      "paragraph": "Second paragraph; following paragraph explains€1.77 discount"
+    },
+    "underline": "6,58 €"
+  },
+  "counter_quote": {
+    "original": "1,49 Euro ohne Umsatzsteuer",
+    "language": "de",
+    "translation_en": "Translation: €1.49 excluding VAT",
+    "source_id": "gkv-pharmacy-remuneration",
+    "locator": {
+      "section": "Apothekenabschlag nach §130 SGBV",
+      "paragraph": "First paragraph, explanation of€1.77 including VAT"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "additional_counter_evidence": [
+    {
+      "source_id": "apovwg-bt214084",
+      "locator": {
+        "pdf_page": 87,
+        "printed_page": 87,
+        "section": "Bundesrat statement, item 30, justification to(a)"
+      },
+      "paraphrase": "Explicitly describes the current€8.35 and proposed€9.50 fixed fees as net amounts."
+    },
+    {
+      "source_id": "abda-gkvfinstg-20220927",
+      "locator": {
+        "pdf_page": 4,
+        "printed_page": 4,
+        "section": "2. Artikel 1 Nr.10",
+        "paragraph": "Last paragraph"
+      },
+      "paraphrase": "Earlier pharmacy-association primary statement proposes expressing the€1.77 discount as€1.49 plusVAT, confirming the gross/net distinction predates the submission."
+    }
+  ],
+  "correction": "At the 19 percentVATrate,€1.77 gross is€1.48739496 net. Comparing like with like gives€8.35−€1.77/1.19=€6.86260504 net, approximately€6.86, rather than€6.58. Equivalently the gross remainder is€8.35×1.19−€1.77=€8.1665.",
+  "effect": "The current net fixed-fee remainder is understated by about 28 cents, which makes present remuneration look smaller. Yet the same understated baseline also lowers the author’s derived replacement amount: retaining only their 40 percentuplift and€0.80 addition gives approximately€10.41 net rather than€10.01 net.",
+  "limits": "The fixed remainder is not total pharmacy remuneration: the percentage component and other payments exist. This arithmetic does not determine an adequate fee, validate a 40 percentuplift, establish profitability, or resolve legal arguments. Correcting the units does not itself oppose the requested fee increase. No intent is inferred.",
+  "context_and_alternatives": [
+    "Full 34-page submission read. Page 15 expressly uses€6.58 as the baseline for a 40 percentinflation uplift, then adds a personnel allowance and asks to abolish the discount and set the fixed fee at€10.00.",
+    "The author does not label€6.58 as net, but€8.35 is the statutory net fixed component and the exact addressed bill’s Bundesrat statement expressly labels it net. A gross remainder would instead be€8.1665, so a consistent gross reading does not yield€6.58.",
+    "The GKVprimary webpage includes laterApril 2026 examples, after the submission. Its role is corroboration of the pre-existing unit distinction, not an assertion that this exact webpage version was seen on 2 March. Earlier 2022 ABDAprimary testimony confirms the same distinction.",
+    "The 2023–January 2025 temporary€2.00 discount is not substituted for the€1.77 submission-date baseline. Later 2026 fee changes are not used to retroactively contradict the author."
+  ],
+  "materiality_explanation": "Minor: roughly 28 cents or 4.1 percentof the correct current net fixed remainder. The arithmetic feeds a fee illustration but does not resolve the broader economic request.",
+  "direction_explanation": "Null because there are opposing argumentative effects. Understating the current baseline supports underpayment rhetoric, while it also understates the replacement fee produced by the author’s own calculation. Neither is silently treated as the only effect.",
+  "confidence": {
+    "text_source_mismatch": "high for gross/net arithmetic; adequacy and policy effects not determined",
+    "materiality": "editorial_judgment"
+  },
+  "source_ids": [
+    "raddatz-apovwg-20260302",
+    "apovwg-bt214084",
+    "gkv-pharmacy-remuneration",
+    "abda-gkvfinstg-20220927"
+  ],
+  "verification": {
+    "visual": "Original author physical 14 rendered and visually inspected; exact addressed bill physical 87 read.",
+    "quotation_budget": "Unique Raddatz quoted text across this and closure record totals 24 words including the shared request. No additional author quotation is necessary."
+  },
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as provisional minor gross/net calculation finding with mixed-directionnull; independent tax AI review requested.",
+      "by": "social_round 2_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent tax AI review retained narrow finding after complete submission and primary context; benign alternatives and direction preserved.",
+      "by": "social_round 2_ai_screen"
+    }
+  ]
+}

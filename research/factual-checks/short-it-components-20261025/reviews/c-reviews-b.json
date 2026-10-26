@@ -1,0 +1,302 @@
+{
+  "reviewer": "c",
+  "reviewed_file": "research/factual-checks/short-it-components-20261025/agents/claims-b.json",
+  "reviewed_sha256": "3efb0d75c363fa9525f8424f57793875d5cdfab906ffddfd6c9f9eb479d1a5f7",
+  "created_at_utc": "2026-10-25T22:19:39.853313+00:00",
+  "documents_reread": [
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "pages": [
+        1
+      ],
+      "pdf_sha256": "f42d81c2a2e0f3ae8d7415732464cafa310ce95310c182943ed6ea8a3e7a59a2",
+      "fully_read": true,
+      "method": "Complete original text read and full-page render visually inspected before B inventory/follow-ups; fresh pdftotext and exact anchors verified"
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "short-it-b-001",
+      "verdict": "accept",
+      "reason": "The original first paragraph and the 2022 statutes § 2(3) agree on broad disease-at-risk interests, including additional disabilities. This is not a membership or blindness-only count.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-cr-satzung",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-b-002",
+      "verdict": "accept",
+      "reason": "Retain unresolved for the exact current composite threshold. Independently read historical model methods explain why the broad scale is plausible, and the count includes early disease. The strongest alternative is an approximate lower-bound scale using AMD alone, but no current deduplicated population reconstruction was established. No error follows from comparing a different blindness-only denominator.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-cr-whitebook",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        },
+        {
+          "source_id": "short-it-cr-wds-method",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        },
+        {
+          "source_id": "short-it-cr-korb2014",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        },
+        {
+          "source_id": "short-it-cr-schuster2019",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        },
+        {
+          "source_id": "short-it-cr-dog2025",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-b-003",
+      "verdict": "accept",
+      "reason": "The operative § 1 and identified rationale support nationwide electronic-service prescription. The author does not deny ordinary in-person routes or every legal exception. General OZG authority and first concrete mandate are distinct.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-root-draft",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        },
+        {
+          "source_id": "short-it-c-ozg",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        },
+        {
+          "source_id": "short-it-c-ozg2024",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        },
+        {
+          "source_id": "short-it-c-ministry",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-b-004",
+      "verdict": "accept",
+      "reason": "The identified exact draft and current official service attribution confirm Hamburg development. Partner/federal involvement is compatible with the author’s wording, which does not claim exclusivity.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-root-draft",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        },
+        {
+          "source_id": "short-it-c-ministry",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-b-005",
+      "verdict": "accept",
+      "reason": "All three declaration pages independently inspected: the named actual transaction service is only partly compatible and concrete keyboard/screen-reader defects are listed. Independent BITV/WCAG checks confirm their substantive accessibility relevance. Support remains for the explicitly according-to-declaration proposition, not a fresh all-user live test.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-cr-declaration",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        },
+        {
+          "source_id": "short-it-cr-bitv",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        },
+        {
+          "source_id": "short-it-cr-wcag21",
+          "check": "Independently inspected relevant primary passages; locator and limits in source note"
+        }
+      ]
+    }
+  ],
+  "omissions": [],
+  "omission_audit": [
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "pdf_pages": [
+        1
+      ],
+      "checked_sections": [
+        "Constituency and count: claims 001–002",
+        "Mandate and Hamburg provenance: claims 003–004",
+        "Uniform standard / explicit BITV reference: normative request, no assertion existing duties are absent or all Länder already identical",
+        "Declaration non-compliance: claim 005",
+        "Date, legal origin and wording typo: provenance/incidental, no cosmetic candidate"
+      ],
+      "conclusion": "No omitted unique material factual premise found."
+    }
+  ],
+  "sources": [
+    {
+      "id": "short-it-root-draft",
+      "title": "Entwurf einer Verordnung über IT-Komponenten für die elektronische Abwicklung von Verwaltungsverfahren; official consultation draft",
+      "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/ITKV_RefE_2026-09-03_barrierefrei.pdf",
+      "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-draft.pdf",
+      "sha256": "3083a6061d2f2512530d3f8f8272e564d557a3ada730660b9aa264a51780cf22",
+      "retrieved_at": "2026-10-25",
+      "temporal_limit": "Printed1September2026,18:18; filename3September not substituted. Actual addressed version to be checked against each response. Current canonical shared original retained as report/validation dependency.",
+      "archive_type": "Shared exact canonical draft PDF",
+      "usable_as_evidence": true,
+      "retention_exception": "Existing shared canonical exact-version report/validation dependency; no duplicate source archive."
+    },
+    {
+      "id": "short-it-c-ozg",
+      "title": "OZG current official law",
+      "url": "https://www.gesetze-im-internet.de/ozg/BJNR313800017.html",
+      "retrieved_at": "2026-10-25T22:13:01.988671+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+      "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c",
+      "temporal_limit": "Current header includes October 2026 amendment; not silently substituted as exact undated author baseline. Promulgated 2024/October amendment passages independently checked below; full intervening history not reconstructed.",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-c-ozg2024",
+      "title": "OZG amending Act, 19 July 2024, published 23 July 2024",
+      "url": "https://www.recht.bund.de/bgbl/1/2024/245/regelungstext.pdf?__blob=publicationFile&v=1",
+      "retrieved_at": "2026-10-25T22:13:02.804430+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+      "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c",
+      "temporal_limit": "Enabling law is different from the first concrete compulsory EfA service ordinance. It alone does not refute the author’s contextual first-legal-backing formulation. Not all 17 pages read.",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-c-ozg2026",
+      "title": "OZG amending Act, 6 October 2026, published 9 October 2026",
+      "url": "https://www.recht.bund.de/bgbl/1/2026/289/regelungstext.pdf?__blob=publicationFile&v=1",
+      "retrieved_at": "2026-10-25T22:13:03.024109+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+      "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c",
+      "temporal_limit": "Post-consultation change is used to separate current text from the identified proposal, never as an author error. Not all nine pages read.",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-c-ministry",
+      "title": "BMDS official ITKV dossier, published 7 September 2026",
+      "url": "https://bmds.bund.de/service/gesetzgebungsverfahren/it-komponentenverordnung-itkv",
+      "retrieved_at": "2026-10-25T22:13:01.505151+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+      "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c",
+      "temporal_limit": "Current ministry account corroborates the identified policy history; it is not an exhaustive audit of every prior legal/contractual EfA instrument or exact original delivery date.",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-cr-satzung",
+      "title": "DBSV statutes, June 2022 version",
+      "url": "https://www.dbsv.org/satzung-dbsv.html",
+      "retrieved_at": "2026-10-25T22:17:20.472083+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "temporal_limit": "The organisation’s own rules are primary evidence of its remit, not independent epidemiological evidence.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-cr-bitv",
+      "title": "Official BITV 2.0, last amended 24 October 2023",
+      "url": "https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html",
+      "retrieved_at": "2026-10-25T22:17:19.055999+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "temporal_limit": "Federal regulation is not silently equated with every Länder implementing rule. Existing duties do not make a request for an explicit ordinance reference erroneous.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-cr-whitebook",
+      "title": "DOG Whitebook 2023",
+      "url": "https://dog.org/wp-content/uploads/sites/11/2023/09/DOG-Weissbuch-2023-1.pdf",
+      "retrieved_at": "2026-10-25T22:17:21.548643+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "temporal_limit": "Only relevant passages of the 72-page background book read. This supports a historical model scale, not an independently enumerated composite September 2026 unique-person count; overlapping disorders must not be added.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-cr-wds-method",
+      "title": "Woche des Sehens / original model authors: German eye-disease estimates",
+      "url": "https://www.woche-des-sehens.de/infothek/zahlen-und-fakten/augenkrankheiten-zahlen-fuer-deutschland/",
+      "retrieved_at": "2026-10-25T22:19:39.853313+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "temporal_limit": "Direct current route returned 404, but the historical original route yielded indexed primary content. Published October 2018, updated September 2020; DBSV coauthor means model provenance, not independent confirmation of the 2026 statement. No original-byte hash claimed for extraction.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-cr-korb2014",
+      "title": "Korb et al., primary GHS AMD study, 2014",
+      "url": "https://link.springer.com/article/10.1007/s00417-014-2591-9",
+      "retrieved_at": "2026-10-25T22:19:39.853313+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "temporal_limit": "Full body is subscription-restricted and was not read. PubMed web/shell returned an empty/challenge-like response and is not affirmative evidence; publisher abstract supplies the actual completed check.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-cr-schuster2019",
+      "title": "Schuster et al., Ophthalmology 2019—where do we stand?",
+      "url": "https://link.springer.com/article/10.1007/s00347-019-0894-2",
+      "retrieved_at": "2026-10-25T22:19:39.853313+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "temporal_limit": "Full text subscription-restricted; not presented as a complete independent recalculation of every model step or a current national census.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-cr-dog2025",
+      "title": "DOG September 2025 primary clinical-society statement",
+      "url": "https://dog.org/wp-content/uploads/sites/11/2025/09/DOG-PM-Kongress_AMD_und-Katarakt_September_2025_F.pdf",
+      "retrieved_at": "2026-10-25T22:19:39.853313+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "temporal_limit": "A broad rounded clinical estimate supports plausibility, not a deduplicated exact September 2026 threshold or blindness-only denominator.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-cr-wcag21",
+      "title": "W3C WCAG 2.1, recommendation dated 6 May 2025",
+      "url": "https://www.w3.org/TR/2025/REC-WCAG21-20250506/",
+      "retrieved_at": "2026-10-25T22:19:39.853313+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "temporal_limit": "Selected normative criteria only, not entire standard or fresh live-service testing. Legal conformity also depends on applicable harmonised standards and implementing rules; WCAG alone is not a complete all-Länder legal audit.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-cr-declaration",
+      "title": "Hamburg eWA transaction-service accessibility declaration",
+      "url": "https://static.hamburg.de/fhh/efa-ods/bfe-ewa.pdf",
+      "retrieved_at": "2026-10-25T22:19:39.853313+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "temporal_limit": "Provider declaration supports the explicitly attributed claim. No independent September immutable capture, current live retest or claim all blind users cannot use any feature. Original temporary PDF supplied by B was independently read; no duplicate full archive retained.",
+      "usable_as_evidence": true
+    }
+  ],
+  "limitations": [
+    "Five claims and complete one-page original reviewed, including supported and unresolved results. No new error candidate.",
+    "The count-method follow-up is independently inspected for source scope; historical model support and exact current composite count are distinguished.",
+    "No human specialist confirmation, no author contact and no live-service accessibility test.",
+    "Only necessary passages of long background studies/standards read; exact extents and access limits are explicit.",
+    "The identified draft and author date are distinct from unverified receipt and immutable September publication history."
+  ],
+  "reviewed_followups": [
+    {
+      "file": "research/factual-checks/short-it-components-20261025/reviews/b-count-followup.json",
+      "sha256": "01612687704e50bed237e70a11334d858ec065da60c077403db5357bbd9e18b9",
+      "scope": "Additional count-method provenance independently inspected after original-first read"
+    }
+  ]
+}

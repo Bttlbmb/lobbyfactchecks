@@ -1,0 +1,782 @@
+{
+  "reviewer": "a",
+  "completed_at_utc": "2026-10-26T00:52:22.698670+00:00",
+  "directory": "/private/tmp/unresolved-a-20261026",
+  "authorisation": "Root confirmed all research, peer and final semantic audits complete; no temporary source bytes needed. B separately confirmed no further need.",
+  "removed_count": 35,
+  "removed_bytes": 13931008,
+  "removed_files": [
+    {
+      "path": "/private/tmp/unresolved-a-20261026/amd-2019-publisher.html",
+      "bytes": 350212,
+      "sha256": "405a5a070131055bdd23f148ea54ed431b96eb7fa6b422de02587aabd967a90c",
+      "kind": "Downloaded public HTML/challenge/error response",
+      "source_urls": [
+        "https://link.springer.com/article/10.1007/s00347-019-0894-2"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#amd-2019-publisher"
+      ],
+      "observed_original_sha256": "405a5a070131055bdd23f148ea54ed431b96eb7fa6b422de02587aabd967a90c"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/amd-2019-publisher.txt",
+      "bytes": 15961,
+      "sha256": "83aeec2f62f835166398a03d4a85a42bbbf53612da52487ffe16e40da91478c1",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://link.springer.com/article/10.1007/s00347-019-0894-2"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#amd-2019-publisher"
+      ],
+      "observed_original_sha256": "405a5a070131055bdd23f148ea54ed431b96eb7fa6b422de02587aabd967a90c"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/amd-author-slides.pdf",
+      "bytes": 510,
+      "sha256": "37db72ad65740fe7124d6f94dca0fce70372312855ad90db75d17d2c8d075aec",
+      "kind": "Downloaded public PDF or explicitly failed non-PDF attempt",
+      "source_urls": [
+        "https://jimdo-storage.global.ssl.fastly.net/file/09eba065-7085-46ca-acb8-a41cbc0572eb/Schuster_2019_Versorgungsforschung.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-manifest.json#amd-author-slides"
+      ],
+      "observed_original_sha256": "37db72ad65740fe7124d6f94dca0fce70372312855ad90db75d17d2c8d075aec"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/aok-plus-2025.pdf",
+      "bytes": 253321,
+      "sha256": "863d2b04843feca6d1128fe886730179a95203077929882125015f646093bf66",
+      "kind": "Downloaded public PDF or explicitly failed non-PDF attempt",
+      "source_urls": [
+        "https://www.aok.de/gp/fileadmin/user_upload/Arzt_Praxis/Publikationen/VM_Newsletter_sac_04_2025.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-manifest.json#aok-plus-2025"
+      ],
+      "observed_original_sha256": "863d2b04843feca6d1128fe886730179a95203077929882125015f646093bf66"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/aok-plus-2025.txt",
+      "bytes": 42009,
+      "sha256": "d952d823f242611cebe9f0753c22b9c125ad8cc37f6052bad59d86e76dad1b46",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://www.aok.de/gp/fileadmin/user_upload/Arzt_Praxis/Publikationen/VM_Newsletter_sac_04_2025.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-manifest.json#aok-plus-2025"
+      ],
+      "observed_original_sha256": "863d2b04843feca6d1128fe886730179a95203077929882125015f646093bf66"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/ar-draft.txt",
+      "bytes": 91263,
+      "sha256": "b4c845619afe2df5b7b9ddfb027d284bd6772dfddab4807a1c70a7615ef700a8",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/Gesetz/2026/20261007-refentwurf-wirtschaftsprueferexamen.pdf?__blob=publicationFile&v=4"
+      ],
+      "provenance_manifest_refs": [
+        "research/factual-checks/unresolved-followup-20261026/sources/ar-primary-checks.json#uf-ar-c-draft"
+      ],
+      "observed_original_sha256": "e719aec2fb79e41bfd54b30fb36d67eff0644cfbd74f9ee8b3cc53256f7bc5bc"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/ar-efrag-selected.txt",
+      "bytes": 24442,
+      "sha256": "a529b988863882245cc6c4f5ade72d2fb9e7273502e4e0e04416c93310f8d252",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://www.efrag.org/sites/default/files/media/document/2026-02/EFRAG%20Discussion%20Paper%20Connectivity%20of%20financial%20and%20sustainability%20reporting.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "research/factual-checks/unresolved-followup-20261026/sources/ar-primary-checks.json#uf-ar-c-connectivity"
+      ],
+      "observed_original_sha256": "f2ad8d956703db6ad4530dead23887cd1149f863b52f1a93e58254769f56cc84"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/ar-ig1-direct-selected.txt",
+      "bytes": 15394,
+      "sha256": "fed9c2ace1bb834ff8174a08da62478c2e3d3740723d49e8f4012955d2538417",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://www.efrag.org/sites/default/files/sites/webpublishing/SiteAssets/IG%201%20Materiality%20Assessment_final.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "research/factual-checks/unresolved-followup-20261026/sources/ar-primary-checks.json#uf-ar-c-ig1"
+      ],
+      "observed_original_sha256": "e303392104bb94ef7f112f2ea5a15446ba537264ca50fe4acfc64481893832a6"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/ar-wp-anrv-selected.txt",
+      "bytes": 11653,
+      "sha256": "e361290b8b75b21ba9a268002cde69fb620bcc3f06ec17cdbcc492a08de9d7de",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://www.gesetze-im-internet.de/wpanrv/WPAnrV.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "research/factual-checks/unresolved-followup-20261026/sources/ar-primary-checks.json#uf-ar-c-wpanrv"
+      ],
+      "observed_original_sha256": "30be806b2d4f73a2c70d06dbbc11cbb99d20ff73d5e0a2ed1ae28418324de46e"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/ar-wp-exam-law-selected.txt",
+      "bytes": 28128,
+      "sha256": "5c9e83593b020e20f13e7d3dca0882a2122b305e93ece2fee8451150f5e3b292",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://www.gesetze-im-internet.de/wiprpr_fv/WiPrPr%C3%BCfV.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "research/factual-checks/unresolved-followup-20261026/sources/ar-primary-checks.json#uf-ar-c-law"
+      ],
+      "observed_original_sha256": "3ea1af865e5cc6528933bae744e8084b1bd02efd8a7422f91b2109196b01d205"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/ar-wpo-selected.txt",
+      "bytes": 15864,
+      "sha256": "196113a269dc5082ff996c145839c6930df131fd366bbf10092e2a5eb7873fcc",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://www.gesetze-im-internet.de/wipro/WPO.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "research/factual-checks/unresolved-followup-20261026/sources/ar-primary-checks.json#uf-ar-c-wpo"
+      ],
+      "observed_original_sha256": "438e41ccc5b833d904a2d3dc4b288f014e2acba374ebd3a3cf3a842956221c3e"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/bmds-itkv.html",
+      "bytes": 176082,
+      "sha256": "e4c99b1ae52ebab322e5861cd7fdf4bf4c8a8d13e34ed1239bc3ae66e018676b",
+      "kind": "Downloaded public HTML/challenge/error response",
+      "source_urls": [
+        "https://bmds.bund.de/service/gesetzgebungsverfahren/it-komponentenverordnung-itkv"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#bmds-itkv"
+      ],
+      "observed_original_sha256": "e4c99b1ae52ebab322e5861cd7fdf4bf4c8a8d13e34ed1239bc3ae66e018676b"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/bmds-itkv.txt",
+      "bytes": 3337,
+      "sha256": "4bf3734e495850f8e7f24fbc885c7bf8872d95a7709077aa3b48400f6396d03d",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://bmds.bund.de/service/gesetzgebungsverfahren/it-komponentenverordnung-itkv"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#bmds-itkv"
+      ],
+      "observed_original_sha256": "e4c99b1ae52ebab322e5861cd7fdf4bf4c8a8d13e34ed1239bc3ae66e018676b"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/bsi-zsd.pdf",
+      "bytes": 1019233,
+      "sha256": "8f52ca127607ed3b20d4bd78b8220ac356ac6908037189d258970bc9269aba1f",
+      "kind": "Downloaded public PDF or explicitly failed non-PDF attempt",
+      "source_urls": [
+        "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil3.pdf?__blob=publicationFile&v=6"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#bsi-zsd"
+      ],
+      "observed_original_sha256": "8f52ca127607ed3b20d4bd78b8220ac356ac6908037189d258970bc9269aba1f"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/bsi-zsd.txt",
+      "bytes": 75290,
+      "sha256": "827eeb3a1427819cae9c25257d68f2ce9c54b959c7eec1aa11ffb9f8e4b88098",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil3.pdf?__blob=publicationFile&v=6"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#bsi-zsd"
+      ],
+      "observed_original_sha256": "8f52ca127607ed3b20d4bd78b8220ac356ac6908037189d258970bc9269aba1f"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/dataport-faq.pdf",
+      "bytes": 896375,
+      "sha256": "c77daab8adcdf4b2a88f33a09669e869bd126e3aee43502522bcb7f92e301d5e",
+      "kind": "Downloaded public PDF or explicitly failed non-PDF attempt",
+      "source_urls": [
+        "https://docs.osi.dataport.de/public/puboddoku/files/525435630/534382054/1/1743090907863/eWA_FAQ.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-manifest.json#dataport-faq"
+      ],
+      "observed_original_sha256": "c77daab8adcdf4b2a88f33a09669e869bd126e3aee43502522bcb7f92e301d5e"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/dataport-faq.txt",
+      "bytes": 67452,
+      "sha256": "b9437888144e669d38265fa30f6e5ea81a33b74543d610564ae28e55065371e5",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://docs.osi.dataport.de/public/puboddoku/files/525435630/534382054/1/1743090907863/eWA_FAQ.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-manifest.json#dataport-faq"
+      ],
+      "observed_original_sha256": "c77daab8adcdf4b2a88f33a09669e869bd126e3aee43502522bcb7f92e301d5e"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/diabetes-ddg-2025.html",
+      "bytes": 185574,
+      "sha256": "eaddbd630dbf81b5ceee6760fa662b5f6d034764eec781c88d967ddece17df6f",
+      "kind": "Downloaded public HTML/challenge/error response",
+      "source_urls": [
+        "https://www.ddg.info/presse/gesundheitsbericht-diabetes-2026-immer-mehr-menschen-erkranken-und-immer-frueher"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#diabetes-ddg-2025"
+      ],
+      "observed_original_sha256": "eaddbd630dbf81b5ceee6760fa662b5f6d034764eec781c88d967ddece17df6f"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/diabetes-ddg-report.pdf",
+      "bytes": 3717414,
+      "sha256": "a1596077e8e89f9a78ceeb6b057dc8ad6c530c8e047d8656fbce6edaa49c40ed",
+      "kind": "Downloaded public PDF or explicitly failed non-PDF attempt",
+      "source_urls": [
+        "https://www.diabetesde.org/system/files/document/Gesundheitsbericht%202025_final_0.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#diabetes-ddg-report"
+      ],
+      "observed_original_sha256": "a1596077e8e89f9a78ceeb6b057dc8ad6c530c8e047d8656fbce6edaa49c40ed"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/diabetes-ddg-report.txt",
+      "bytes": 329055,
+      "sha256": "8d00b2dfce6adcac899d1b76c03abeeac9c4caa97fa139918a9ea1c6bd071186",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://www.diabetesde.org/system/files/document/Gesundheitsbericht%202025_final_0.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#diabetes-ddg-report"
+      ],
+      "observed_original_sha256": "a1596077e8e89f9a78ceeb6b057dc8ad6c530c8e047d8656fbce6edaa49c40ed"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/diabetes-diabinfo.html",
+      "bytes": 152272,
+      "sha256": "40fd5a79044e058f359b7d05125875a282dae8a64f5af7a4a4b0e1624c1350bd",
+      "kind": "Downloaded public HTML/challenge/error response",
+      "source_urls": [
+        "https://www.diabinfo.de/leben/folgeerkrankungen/augen.html"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#diabetes-diabinfo"
+      ],
+      "observed_original_sha256": "40fd5a79044e058f359b7d05125875a282dae8a64f5af7a4a4b0e1624c1350bd"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/diabetes-diabinfo.txt",
+      "bytes": 14690,
+      "sha256": "3bb419a82780291cb959afd6c32767872c55661a7f82710c988219c1ca6d257d",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://www.diabinfo.de/leben/folgeerkrankungen/augen.html"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#diabetes-diabinfo"
+      ],
+      "observed_original_sha256": "40fd5a79044e058f359b7d05125875a282dae8a64f5af7a4a4b0e1624c1350bd"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/dnrw-ewa.html",
+      "bytes": 67254,
+      "sha256": "4f060b8bc0d8a89666268bc0ffb7b700339ffdab82a391bf6c022d2f6a627e2f",
+      "kind": "Downloaded public HTML/challenge/error response",
+      "source_urls": [
+        "https://www.d-nrw.de/kommunalvertreter-onlinezugang/verfuegbare-leistungen/elektronische-wohnsitzanmeldung"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#dnrw-ewa"
+      ],
+      "observed_original_sha256": "4f060b8bc0d8a89666268bc0ffb7b700339ffdab82a391bf6c022d2f6a627e2f"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/dnrw-ewa.txt",
+      "bytes": 6923,
+      "sha256": "4205f0d80aa945045c2e4726e4b0d514f7fc51b26c19ec0ac2d723abe7f1da44",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://www.d-nrw.de/kommunalvertreter-onlinezugang/verfuegbare-leistungen/elektronische-wohnsitzanmeldung"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#dnrw-ewa"
+      ],
+      "observed_original_sha256": "4f060b8bc0d8a89666268bc0ffb7b700339ffdab82a391bf6c022d2f6a627e2f"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/egk-annex.pdf",
+      "bytes": 238755,
+      "sha256": "8809137028e4d04f4b0f881ec2bdd07541a26999fba2e7e55bf6c4cf8ab14a82",
+      "kind": "Downloaded public PDF or explicitly failed non-PDF attempt",
+      "source_urls": [
+        "https://www.kbv.de/documents/infothek/rechtsquellen/bundesmantelvertrag/anlage-04a-elektronische-gesundheitskarte/04a-elektronische-gesundheitskarte.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-manifest.json#egk-annex"
+      ],
+      "observed_original_sha256": "8809137028e4d04f4b0f881ec2bdd07541a26999fba2e7e55bf6c4cf8ab14a82"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/egk-annex.txt",
+      "bytes": 21471,
+      "sha256": "84a1686af987f2f53471746f7d296200ecb6a249fb0bc869a29ec16dd60dea24",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://www.kbv.de/documents/infothek/rechtsquellen/bundesmantelvertrag/anlage-04a-elektronische-gesundheitskarte/04a-elektronische-gesundheitskarte.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-manifest.json#egk-annex"
+      ],
+      "observed_original_sha256": "8809137028e4d04f4b0f881ec2bdd07541a26999fba2e7e55bf6c4cf8ab14a82"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/govdigital-funded.html",
+      "bytes": 53127,
+      "sha256": "4c4d55ed92429b04f7268b9cf8cd3f659da0a55e3600abd9b4cd166178a253d2",
+      "kind": "Downloaded public HTML/challenge/error response",
+      "source_urls": [
+        "https://govdigital.de/efa-finanziert/"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#govdigital-funded"
+      ],
+      "observed_original_sha256": "4c4d55ed92429b04f7268b9cf8cd3f659da0a55e3600abd9b4cd166178a253d2"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/insurance-hospital-2020.pdf",
+      "bytes": 5664978,
+      "sha256": "7b8189cb3b9867b87274b416355f6acfb38839af0f2ca7cf99cefa06b5fafc1e",
+      "kind": "Downloaded public PDF or explicitly failed non-PDF attempt",
+      "source_urls": [
+        "https://www.ev-klinikum-schaumburg.de/fileadmin/Agaplesion_ekk-schaumburg/download/fachabteilungen/geburtshilfe/KSL_Borschuere_Kleines__grosses_Wunder_Schwangerschaft_und_Geburt_Stand_Juli_2020.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-manifest.json#insurance-hospital-2020"
+      ],
+      "observed_original_sha256": "7b8189cb3b9867b87274b416355f6acfb38839af0f2ca7cf99cefa06b5fafc1e"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/insurance-hospital-2020.txt",
+      "bytes": 48577,
+      "sha256": "523b8ed53a6dd4056b6b7e3682a41778c75cd965681f8bf0894a0cd266a9859b",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://www.ev-klinikum-schaumburg.de/fileadmin/Agaplesion_ekk-schaumburg/download/fachabteilungen/geburtshilfe/KSL_Borschuere_Kleines__grosses_Wunder_Schwangerschaft_und_Geburt_Stand_Juli_2020.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-manifest.json#insurance-hospital-2020"
+      ],
+      "observed_original_sha256": "7b8189cb3b9867b87274b416355f6acfb38839af0f2ca7cf99cefa06b5fafc1e"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/iqwig-cost-p69.png",
+      "bytes": 191895,
+      "sha256": "37372bae78609cb11ac9bd244582374a00efac4de6a826c7d42d150df3204663",
+      "kind": "Regenerable page render",
+      "source_urls": [
+        "https://www.iqwig.de/download/a26-67_clesrovimab_nutzenbewertung-35a-sgb-v_v1-0.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json#uf-a-iqwig"
+      ],
+      "observed_original_sha256": "8498d09fe428ddb7e0f32acf926ac3289e37d148270ae83f13be57e618e2229d"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/itkv-draft.txt",
+      "bytes": 83047,
+      "sha256": "1e63d86329b47870a4b3622f06c1378c94b45c0d8ee8580886fc8c4626c00676",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://bmds.bund.de/service/gesetzgebungsverfahren/it-komponentenverordnung-itkv"
+      ],
+      "provenance_manifest_refs": [
+        "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json#uf-a-it-draft"
+      ],
+      "observed_original_sha256": "3083a6061d2f2512530d3f8f8272e564d557a3ada730660b9aa264a51780cf22"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/niedersachsen-rollout.html",
+      "bytes": 53045,
+      "sha256": "ef614ca1517dd361a7dd2b4bfa67b91c2dd2b2a098eb701b8419bcbc0f19faee",
+      "kind": "Downloaded public HTML/challenge/error response",
+      "source_urls": [
+        "https://www.stk.niedersachsen.de/startseite/presseinformationen/flachendeckender-rollout-von-funf-fokusleistungen-nun-auch-in-niedersachsen-vereinbarungen-mit-dem-bund-uber-finanzielle-unterstutzung-251035.html"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#niedersachsen-rollout"
+      ],
+      "observed_original_sha256": "ef614ca1517dd361a7dd2b4bfa67b91c2dd2b2a098eb701b8419bcbc0f19faee"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/niedersachsen-rollout.txt",
+      "bytes": 11377,
+      "sha256": "73d4d7ceda23001486803bc98a15ec4fa037a701196fbcd2cd50cccd3536c8b6",
+      "kind": "Regenerable public-source extraction or selected excerpt",
+      "source_urls": [
+        "https://www.stk.niedersachsen.de/startseite/presseinformationen/flachendeckender-rollout-von-funf-fokusleistungen-nun-auch-in-niedersachsen-vereinbarungen-mit-dem-bund-uber-finanzielle-unterstutzung-251035.html"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#niedersachsen-rollout"
+      ],
+      "observed_original_sha256": "ef614ca1517dd361a7dd2b4bfa67b91c2dd2b2a098eb701b8419bcbc0f19faee"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/rsv-lmu-2026.html",
+      "bytes": 4767,
+      "sha256": "ef144401fbfd40b5d3db21a4c525ad6294702b0b584f2d31753d354dcc30329f",
+      "kind": "Downloaded public HTML/challenge/error response",
+      "source_urls": [
+        "https://thieme-connect.com/products/ejournals/pdf/10.1055/a-2776-6900.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json#rsv-lmu-2026"
+      ],
+      "observed_original_sha256": "ef144401fbfd40b5d3db21a4c525ad6294702b0b584f2d31753d354dcc30329f"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/zi-2024.pdf",
+      "bytes": 261,
+      "sha256": "9b1819d6f54b0d36e504604925a24d725c283fd396a51a4f43cc05dc418aa395",
+      "kind": "Downloaded public PDF or explicitly failed non-PDF attempt",
+      "source_urls": [
+        "https://www.versorgungsatlas.de/fileadmin/pdf/MI_ohneBericht_2024/MI_VA-Diabetes_2024-09-05.pdf"
+      ],
+      "provenance_manifest_refs": [
+        "/private/tmp/unresolved-a-20261026/fetch-zi-manifest.json#zi-2024"
+      ],
+      "observed_original_sha256": "9b1819d6f54b0d36e504604925a24d725c283fd396a51a4f43cc05dc418aa395"
+    }
+  ],
+  "retained_authored_files": [
+    {
+      "path": "/private/tmp/unresolved-a-20261026/cleanup.py",
+      "bytes": 6626,
+      "sha256": "ec4c31f865f52cd694dc61cbfb063a47a631ab25ddbe3491f7c56d21e7fac8a9",
+      "reason": "Unique authored script or provenance manifest; preserved."
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json",
+      "bytes": 5591,
+      "sha256": "c6bb7f61961f6ad2055a7fd691b80da5158d5ed6432aadaedbd949e02aeaef03",
+      "reason": "Unique authored script or provenance manifest; preserved."
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/fetch-extra.py",
+      "bytes": 2030,
+      "sha256": "571ad867e2765dd4f05de11ed6219ba86af701687a4f2d02c013bb6691d0952d",
+      "reason": "Unique authored script or provenance manifest; preserved."
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/fetch-manifest.json",
+      "bytes": 3156,
+      "sha256": "1dc42d9e29bd6920e487c69257acdcff9cd4c0b4f59082905b98c44ca66bb3a3",
+      "reason": "Unique authored script or provenance manifest; preserved."
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/fetch-zi-manifest.json",
+      "bytes": 511,
+      "sha256": "641f6f421bee859c8af94c3d49333abade068ec9a09968b6e2e2ab8ba915e8ae",
+      "reason": "Unique authored script or provenance manifest; preserved."
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/fetch-zi.py",
+      "bytes": 742,
+      "sha256": "cd914bac9e91c4c8d18a1d7ad6cda633e3149337392eb488215ffa50d1b7a8c6",
+      "reason": "Unique authored script or provenance manifest; preserved."
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/fetch.py",
+      "bytes": 1636,
+      "sha256": "fc633240437b24a728584b3ce9dc5e13a9a7b890eae111f7a4fdc16b60c71e47",
+      "reason": "Unique authored script or provenance manifest; preserved."
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/format-notes.py",
+      "bytes": 1791,
+      "sha256": "f9335f2e44052c6e09ce097ad9f42da76f845763d15334921e1dd772139a7314",
+      "reason": "Unique authored script or provenance manifest; preserved."
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/format-peer.py",
+      "bytes": 1683,
+      "sha256": "4b1ad12760aa97adf9cbf0db7dee54cf0189b9f2a73fe9d4c0e384bcaa7a789f",
+      "reason": "Unique authored script or provenance manifest; preserved."
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/write-peer.py",
+      "bytes": 23267,
+      "sha256": "e1ee13f879fa1c1fd0bf09cc24f4e3f0afe81ec1c5ad0c7a0be38f881ddbbca0",
+      "reason": "Unique authored script or provenance manifest; preserved."
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/write-records.py",
+      "bytes": 53839,
+      "sha256": "174d4dd2acd689440a2e1300ebbf6af4c18b1a5105aaab948dfd53c60360a944",
+      "reason": "Unique authored script or provenance manifest; preserved."
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/cleanup-state.json",
+      "sha256": "6dfaa31f5bd967be151e4fa73b9a7f5f678153abda9b8be152e69aff371cf19d",
+      "reason": "Unique cleanup inventory and protected-path snapshot."
+    }
+  ],
+  "download_manifest_refs": [
+    {
+      "path": "/private/tmp/unresolved-a-20261026/fetch-manifest.json",
+      "sha256": "1dc42d9e29bd6920e487c69257acdcff9cd4c0b4f59082905b98c44ca66bb3a3"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/fetch-extra-manifest.json",
+      "sha256": "c6bb7f61961f6ad2055a7fd691b80da5158d5ed6432aadaedbd949e02aeaef03"
+    },
+    {
+      "path": "/private/tmp/unresolved-a-20261026/fetch-zi-manifest.json",
+      "sha256": "641f6f421bee859c8af94c3d49333abade068ec9a09968b6e2e2ab8ba915e8ae"
+    }
+  ],
+  "repository_source_notes": [
+    {
+      "path": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+      "sha256": "4293ba718116e7519b3910071a2e8d4627f9234a858ec9ec0c3b52f5fe093e57"
+    },
+    {
+      "path": "research/factual-checks/unresolved-followup-20261026/sources/ar-primary-checks.json",
+      "sha256": "b18eb4a49012ecbf1c17db62ac488bdbe620272f206cf39d26540d45c2ee546b"
+    }
+  ],
+  "frozen_records": [
+    {
+      "path": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "before_sha256": "b8d6b2e7080415480b50a98269ed22fce800ba8421ffa107271b49033f1b6875",
+      "after_sha256": "b8d6b2e7080415480b50a98269ed22fce800ba8421ffa107271b49033f1b6875",
+      "unchanged": true
+    },
+    {
+      "path": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+      "before_sha256": "4293ba718116e7519b3910071a2e8d4627f9234a858ec9ec0c3b52f5fe093e57",
+      "after_sha256": "4293ba718116e7519b3910071a2e8d4627f9234a858ec9ec0c3b52f5fe093e57",
+      "unchanged": true
+    },
+    {
+      "path": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "before_sha256": "bec322bafcb3011f0ff573a4d2f15bc20a631c18a6b161499d1c1fe2ce40b906",
+      "after_sha256": "bec322bafcb3011f0ff573a4d2f15bc20a631c18a6b161499d1c1fe2ce40b906",
+      "unchanged": true
+    },
+    {
+      "path": "research/factual-checks/unresolved-followup-20261026/sources/ar-primary-checks.json",
+      "before_sha256": "b18eb4a49012ecbf1c17db62ac488bdbe620272f206cf39d26540d45c2ee546b",
+      "after_sha256": "b18eb4a49012ecbf1c17db62ac488bdbe620272f206cf39d26540d45c2ee546b",
+      "unchanged": true
+    }
+  ],
+  "protected_dependency_snapshot": {
+    "source_retention_file": "research/factual-checks/short-statements-20261025/source-retention.json",
+    "source_retention_sha256": "5dec18fa77e6c1d86a79a835e8387d6733a49220e43a67417a67163f56a151a1",
+    "paths_checked": 80,
+    "all_unchanged": true,
+    "before": {
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/package-members/9128f71fd4c3fff3b58f.pdf": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/9262241137ec78a0c5.pdf": "2d2c9f027900b1426b00d640e29fed3a90d2f354722a26ceb0569699f66ff949",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/idnrg2026-kommunale-spitzenverbaende.txt": "2f55e257c8e27a2cc8ec0c7340b38f7ff7cb10ea134daf028e81d99e73b92b19",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/text/bmds-it-komponentenverordnung-itkv-response-012.txt": "cfc914c98698f56b32fcdb72820e2d5815654c147fb4f9b63db96b530dae69e3",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/review-freeze.json": "7772e1de45c9b15b2490cddd523d01c21c586e7e933be08da37aa919ddaf8754",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/sources/ar-primary-checks.json": "b18eb4a49012ecbf1c17db62ac488bdbe620272f206cf39d26540d45c2ee546b",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-energy/sources/wpexamen-refe-official.pdf": "e719aec2fb79e41bfd54b30fb36d67eff0644cfbd74f9ee8b3cc53256f7bc5bc",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/reviews/root-temporary-source-cleanup.json": "fa1038ffdd2023b0289d6c665786507d1e507f5f2789277fd284fedf84b33993",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json": "4293ba718116e7519b3910071a2e8d4627f9234a858ec9ec0c3b52f5fe093e57",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/report.html": "e5ab9cc947b81107b2eac133027543f5d6c4c243799b530cb95910e15295bdaa",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/root-adjudication-primary-checks.json": "a005a04f172d8361b8ffe49dffa652760d2e02880b833e201cb065a38fe50587",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-vfa.txt": "eec4727a1f9efeee4d9130e006c6abe50d90a25049ba0a048cd43fd2e8ff5c55",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-gkvsv.txt": "638e220f68409c7384a6abf507e7b65605a8fead3edbf768267235fb85fd7eb3",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/text/bmds-it-komponentenverordnung-itkv-response-003.txt": "dfe1168dcb08a5877ef0d259becc29a121708c1ad35f40dbc14276a8423007ba",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/reviews/b-temporary-source-cleanup.json": "aa89fbcfa6d553aef25ec89c46dd5b82d214f63024e104ab8a574c56cc7ab6cb",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/36b41c5f7e8c878ef1.pdf": "4c939eb88da6cd6ae5c8882c32e8674b411ddad61489e00dd7b98ff2af987fd6",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-bvoegd.txt": "5d8272ad23b822f6b2f7d226543dbe30ac2e26da9c3f43f9b11cc82c21bc3ddd",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/idnrg2026-zbi.txt": "267dd99288390ab7d8f73feab5d03da89e1f1ee1c1d033183b620ca078f2d234",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/idnrg2026-bnotk.txt": "fe62f7da963eeaad1f7ea687922ca4c31073f536bee59f8d8b48009a3a2c19ef",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-aok.txt": "648e6537bf2528294a5dc9524e91ca9f42ec897c0767fad9849355a1dc4a8d2b",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/bb99c89b22ea1d8154.pdf": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/reviews/c-temporary-source-cleanup.json": "0afbe32eb3b0a0e5ca17978ffede4e22c5d9d842794c16914082e983294fc9fa",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/ac2da2aca06e25a632.pdf": "d6d4ec30393881a428e4fe34e135610ec554360d9f0fc9509803683e3a60b094",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/package-members/e988e94152724ca18e6c.pdf": "5bc89faa12bb4469ebc4962df2470ff2f052fb944a84f28e3b65cd9378509f2c",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/package-members/b559f95b62c7fa35bbf0.pdf": "65734c02596c9cc46940ffde4effd5bf6eed22f058b72843fe6dc218a5ebed06",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/root-primary-checks.json": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/sources/li-rsv2019-2022.pdf": "6efcb545d1cf2cc18b09bbd2b1126dd79ffd195650e4ad638fe0cbd917b78c19",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/claim-ledger.json": "761cc33b4f63980d13b4d28a60adc0ed6f43b8e4751ac9dda3181aacbcd8c5ac",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-012.pdf": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/text/bmds-it-komponentenverordnung-itkv-response-004.txt": "1b6fa79f16937ed7b453357f4dc2dd06daafdc8b236f28e49077a82f714ea297",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/summary.json": "c66ac6066e425001f61252453a8ea46243c8892bf663d1c2814479fe13993e2d",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-draft.pdf": "3083a6061d2f2512530d3f8f8272e564d557a3ada730660b9aa264a51780cf22",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/f11025c9a4e3f2d70e.pdf": "f10263034eb8d143c31ca8e8cbd07cfc00bfd64f02616d7ab83cc5acc0a04698",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-baek.txt": "5bafebbeb7d2350b3b357951ea768bcc9aa3e2688b68dfb91005162d4b49e32c",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/sources/c-primary-checks.json": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/root-price-followup.json": "9b86ac0fa56ff5f019e774458cf567406f77ffc8db560950ef107778eebcf0a4",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json": "b8d6b2e7080415480b50a98269ed22fce800ba8421ffa107271b49033f1b6875",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-004.pdf": "f42d81c2a2e0f3ae8d7415732464cafa310ce95310c182943ed6ea8a3e7a59a2",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/sources/a-primary-checks.json": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/source-retention.json": "5dec18fa77e6c1d86a79a835e8387d6733a49220e43a67417a67163f56a151a1",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json": "bec322bafcb3011f0ff573a4d2f15bc20a631c18a6b161499d1c1fe2ce40b906",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-gba.txt": "795eaf33597626f84b9cc3fe6c98a187b9e21f34fd20e764044607e005d6a74c",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/package-members/4ad8dc289a29234a308d.pdf": "614b10ba3b8dbc7a11728bcac2b49e6b6befab52a938e878ebccfd4dab271cbf",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/baseline-claims.json": "a64d950a61112fb0a888edea57ca8bc0f78392f66df118506a27a4406fd328cb",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/idnrg2026-databund.txt": "58f356c25c4895d803a495f3e9a4c183a5fbbbc78764addb96790ba6263e439e",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/3f38e66dbfaaf78995.pdf": "666233e76ca9e4369ed13ade4866e0ce00fb241504771bdf10a3121a55aa8b29",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/87ae08139ce27708c5.pdf": "f6835f4dc31059a57b46384c5cd42451b5dd58152a600d5eb6de0e83b0e66836",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/41906598a892884b60.pdf": "b417cb7aa430874181f26c0a16b450da9246fef63094e05f5aa57077b8e1743b",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-baemi.txt": "f610ab824d837607f96b773d407707a858ba9b98e227f527c8b9d3e8125ae1c5",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/package-members/70dc62e0c15287deba79.pdf": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/package-members/e2ba6f91a069b805bd8e.pdf": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/root-followup-checks.json": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/package-members/2c8eae086c97d6e8b252.pdf": "9372c9b810d4ad0c4cfeca94d42dac477c2bdeb9e1623d8de482cc55179ac72e",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/sources/rsv-amendment-refe-20260820.pdf": "17a2e54ee41f149a66c7ff59091958e0932a9e361f76f44ad356642413ad8894",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/root-primary-checks.json": "b5cb972893d36dbbfd44496f54a504acdfdeaada18509a7c4e5e6c6ce1e6c835",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/root-mpk-check.json": "7acd702a15f0987be9938589f4e9c7586e32bb2cf74e983a6dc343fadb49d000",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/idnrg2026-vdv.txt": "3c77c1ba5ee70b18eadd5e26e38f14d55095cfb4d1fa118a7742e991065c3ec1",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/initial-freezes.json": "bb044b2c338616d1592f5f27f71162ecef5b1be33f853c7f54f7ef908650512c",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/sources/b-primary-checks.json": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/idnrg2026-dav.txt": "a0db6c3a0e29bcba303b578d620187eb1bb109ca3c63aacaa1cf260c610270a6",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-energy/sources/bmwe-members/91571d57ee384611cb11.pdf": "91571d57ee384611cb117c6b52786dc17ba6fc161d0bab578071812a3b0531a3",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/resolution-ledger.json": "d323ce6bead85a2d0bf2cda6a3996e4ae15d4f66c4940d6d88099c96a4afcb9f",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/claim-ledger.json": "7853bb5d363924107763e75341bcdb48bbfe0ede9fcd881f69d7cef509e4aeca",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-bvkj.txt": "f425525cfebb28a078c5ac829d299d61d8dddd234ab64c45eacde7ce6411e7b1",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/bmwe-wpexamen-2026-002.txt": "149dc0d5fbfe136ef4241dda142688106290df2db060b678b51fbb075a8e4c84",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/sources/idnrg-regelungsentwurf-20260720.pdf": "b40199901fd08e2db16993c5d14a368efb5b69aae330516d5b4e84b26937e8fa",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/reviews/a-temp-cleanup.json": "0ac015af859f583da086a016ca2ec0fd0d122d7381161967c1e315208e98455e",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/idnrg2026-dnotv.txt": "11c62eaf739728f7186d98adaf3630f95530fe5c1948d984779d22db661507f7",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/bmwe-wpexamen-2026-003.txt": "aa92a3a5c9a65ff87af13a261e2b6038f5cba0b3121badadef4945d282688b37"
+    },
+    "after": {
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/package-members/9128f71fd4c3fff3b58f.pdf": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/9262241137ec78a0c5.pdf": "2d2c9f027900b1426b00d640e29fed3a90d2f354722a26ceb0569699f66ff949",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/idnrg2026-kommunale-spitzenverbaende.txt": "2f55e257c8e27a2cc8ec0c7340b38f7ff7cb10ea134daf028e81d99e73b92b19",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/text/bmds-it-komponentenverordnung-itkv-response-012.txt": "cfc914c98698f56b32fcdb72820e2d5815654c147fb4f9b63db96b530dae69e3",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/review-freeze.json": "7772e1de45c9b15b2490cddd523d01c21c586e7e933be08da37aa919ddaf8754",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/sources/ar-primary-checks.json": "b18eb4a49012ecbf1c17db62ac488bdbe620272f206cf39d26540d45c2ee546b",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-energy/sources/wpexamen-refe-official.pdf": "e719aec2fb79e41bfd54b30fb36d67eff0644cfbd74f9ee8b3cc53256f7bc5bc",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/reviews/root-temporary-source-cleanup.json": "fa1038ffdd2023b0289d6c665786507d1e507f5f2789277fd284fedf84b33993",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json": "4293ba718116e7519b3910071a2e8d4627f9234a858ec9ec0c3b52f5fe093e57",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/report.html": "e5ab9cc947b81107b2eac133027543f5d6c4c243799b530cb95910e15295bdaa",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/root-adjudication-primary-checks.json": "a005a04f172d8361b8ffe49dffa652760d2e02880b833e201cb065a38fe50587",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-vfa.txt": "eec4727a1f9efeee4d9130e006c6abe50d90a25049ba0a048cd43fd2e8ff5c55",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-gkvsv.txt": "638e220f68409c7384a6abf507e7b65605a8fead3edbf768267235fb85fd7eb3",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/text/bmds-it-komponentenverordnung-itkv-response-003.txt": "dfe1168dcb08a5877ef0d259becc29a121708c1ad35f40dbc14276a8423007ba",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/reviews/b-temporary-source-cleanup.json": "aa89fbcfa6d553aef25ec89c46dd5b82d214f63024e104ab8a574c56cc7ab6cb",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/36b41c5f7e8c878ef1.pdf": "4c939eb88da6cd6ae5c8882c32e8674b411ddad61489e00dd7b98ff2af987fd6",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-bvoegd.txt": "5d8272ad23b822f6b2f7d226543dbe30ac2e26da9c3f43f9b11cc82c21bc3ddd",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/idnrg2026-zbi.txt": "267dd99288390ab7d8f73feab5d03da89e1f1ee1c1d033183b620ca078f2d234",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/idnrg2026-bnotk.txt": "fe62f7da963eeaad1f7ea687922ca4c31073f536bee59f8d8b48009a3a2c19ef",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-aok.txt": "648e6537bf2528294a5dc9524e91ca9f42ec897c0767fad9849355a1dc4a8d2b",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/bb99c89b22ea1d8154.pdf": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/reviews/c-temporary-source-cleanup.json": "0afbe32eb3b0a0e5ca17978ffede4e22c5d9d842794c16914082e983294fc9fa",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/ac2da2aca06e25a632.pdf": "d6d4ec30393881a428e4fe34e135610ec554360d9f0fc9509803683e3a60b094",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/package-members/e988e94152724ca18e6c.pdf": "5bc89faa12bb4469ebc4962df2470ff2f052fb944a84f28e3b65cd9378509f2c",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/package-members/b559f95b62c7fa35bbf0.pdf": "65734c02596c9cc46940ffde4effd5bf6eed22f058b72843fe6dc218a5ebed06",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/root-primary-checks.json": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/sources/li-rsv2019-2022.pdf": "6efcb545d1cf2cc18b09bbd2b1126dd79ffd195650e4ad638fe0cbd917b78c19",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/claim-ledger.json": "761cc33b4f63980d13b4d28a60adc0ed6f43b8e4751ac9dda3181aacbcd8c5ac",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-012.pdf": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/text/bmds-it-komponentenverordnung-itkv-response-004.txt": "1b6fa79f16937ed7b453357f4dc2dd06daafdc8b236f28e49077a82f714ea297",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/summary.json": "c66ac6066e425001f61252453a8ea46243c8892bf663d1c2814479fe13993e2d",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-draft.pdf": "3083a6061d2f2512530d3f8f8272e564d557a3ada730660b9aa264a51780cf22",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/f11025c9a4e3f2d70e.pdf": "f10263034eb8d143c31ca8e8cbd07cfc00bfd64f02616d7ab83cc5acc0a04698",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-baek.txt": "5bafebbeb7d2350b3b357951ea768bcc9aa3e2688b68dfb91005162d4b49e32c",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/sources/c-primary-checks.json": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/root-price-followup.json": "9b86ac0fa56ff5f019e774458cf567406f77ffc8db560950ef107778eebcf0a4",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json": "b8d6b2e7080415480b50a98269ed22fce800ba8421ffa107271b49033f1b6875",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-004.pdf": "f42d81c2a2e0f3ae8d7415732464cafa310ce95310c182943ed6ea8a3e7a59a2",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/sources/a-primary-checks.json": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/source-retention.json": "5dec18fa77e6c1d86a79a835e8387d6733a49220e43a67417a67163f56a151a1",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json": "bec322bafcb3011f0ff573a4d2f15bc20a631c18a6b161499d1c1fe2ce40b906",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-gba.txt": "795eaf33597626f84b9cc3fe6c98a187b9e21f34fd20e764044607e005d6a74c",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/package-members/4ad8dc289a29234a308d.pdf": "614b10ba3b8dbc7a11728bcac2b49e6b6befab52a938e878ebccfd4dab271cbf",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/baseline-claims.json": "a64d950a61112fb0a888edea57ca8bc0f78392f66df118506a27a4406fd328cb",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/idnrg2026-databund.txt": "58f356c25c4895d803a495f3e9a4c183a5fbbbc78764addb96790ba6263e439e",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/3f38e66dbfaaf78995.pdf": "666233e76ca9e4369ed13ade4866e0ce00fb241504771bdf10a3121a55aa8b29",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/87ae08139ce27708c5.pdf": "f6835f4dc31059a57b46384c5cd42451b5dd58152a600d5eb6de0e83b0e66836",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/coverage-pdfs/41906598a892884b60.pdf": "b417cb7aa430874181f26c0a16b450da9246fef63094e05f5aa57077b8e1743b",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-baemi.txt": "f610ab824d837607f96b773d407707a858ba9b98e227f527c8b9d3e8125ae1c5",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/package-members/70dc62e0c15287deba79.pdf": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/package-members/e2ba6f91a069b805bd8e.pdf": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/root-followup-checks.json": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/package-members/2c8eae086c97d6e8b252.pdf": "9372c9b810d4ad0c4cfeca94d42dac477c2bdeb9e1623d8de482cc55179ac72e",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-social/sources/rsv-amendment-refe-20260820.pdf": "17a2e54ee41f149a66c7ff59091958e0932a9e361f76f44ad356642413ad8894",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/root-primary-checks.json": "b5cb972893d36dbbfd44496f54a504acdfdeaada18509a7c4e5e6c6ce1e6c835",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/root-mpk-check.json": "7acd702a15f0987be9938589f4e9c7586e32bb2cf74e983a6dc343fadb49d000",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/idnrg2026-vdv.txt": "3c77c1ba5ee70b18eadd5e26e38f14d55095cfb4d1fa118a7742e991065c3ec1",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/initial-freezes.json": "bb044b2c338616d1592f5f27f71162ecef5b1be33f853c7f54f7ef908650512c",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/sources/b-primary-checks.json": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/idnrg2026-dav.txt": "a0db6c3a0e29bcba303b578d620187eb1bb109ca3c63aacaa1cf260c610270a6",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-energy/sources/bmwe-members/91571d57ee384611cb11.pdf": "91571d57ee384611cb117c6b52786dc17ba6fc161d0bab578071812a3b0531a3",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/unresolved-followup-20261026/resolution-ledger.json": "d323ce6bead85a2d0bf2cda6a3996e4ae15d4f66c4940d6d88099c96a4afcb9f",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/claim-ledger.json": "7853bb5d363924107763e75341bcdb48bbfe0ede9fcd881f69d7cef509e4aeca",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-bvkj.txt": "f425525cfebb28a078c5ac829d299d61d8dddd234ab64c45eacde7ce6411e7b1",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/bmwe-wpexamen-2026-002.txt": "149dc0d5fbfe136ef4241dda142688106290df2db060b678b51fbb075a8e4c84",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/sources/idnrg-regelungsentwurf-20260720.pdf": "b40199901fd08e2db16993c5d14a368efb5b69aae330516d5b4e84b26937e8fa",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/reviews/a-temp-cleanup.json": "0ac015af859f583da086a016ca2ec0fd0d122d7381161967c1e315208e98455e",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/idnrg2026-dnotv.txt": "11c62eaf739728f7186d98adaf3630f95530fe5c1948d984779d22db661507f7",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/short-statements-20261025/text/bmwe-wpexamen-2026-003.txt": "aa92a3a5c9a65ff87af13a261e2b6038f5cba0b3121badadef4945d282688b37"
+    }
+  },
+  "scope_limits": [
+    "Deleted only enumerated files directly within the A-owned temporary directory. No shared root/C directory or repository file removed.",
+    "Failed/challenge downloads are listed as unusable in authored notes/manifests and were removed along with valid background bytes.",
+    "Authored scripts, manifests, unique notes and frozen records are preserved. Historical temporary paths are provenance, not a claim that files remain available.",
+    "No builder consumes these disposable background paths; report/validation dependencies remain unchanged."
+  ],
+  "validation": {
+    "status": "passed_read_only",
+    "checked_at_utc": "2026-10-26T00:53:31.313869+00:00",
+    "command": "runpy.run_path(research/validate_deliverables.py) with pathlib.Path.write_text intercepted only for data/validation-report.json",
+    "validator_sha256": "850cdecab575d632006df09de4c6b29e9e416f242e33f45ddb5d095eda4edf57",
+    "result": "pass_with_disclosed_manual_checks",
+    "record_count": 110,
+    "errors": [],
+    "warnings": [],
+    "quote_check_count": 352,
+    "archive_check_count": 477,
+    "suppressed_write": {
+      "path": "data/validation-report.json",
+      "existing_sha256_unchanged": "2cd795a21e5e4cf3c8675258325fe3d6ecc74d12e41d655275770f7dbf40476e"
+    },
+    "builder_rerun": "Not applicable: removed files were temporary supporting bytes; all protected repository inputs remain unchanged. No main data or builders were edited.",
+    "limits": "Mechanical validation is not a specialist factual review. PDF text reading order, source access limitations and substantive alternative explanations require the recorded AI reviews and adjudications. No automated result establishes truth or author intent."
+  }
+}

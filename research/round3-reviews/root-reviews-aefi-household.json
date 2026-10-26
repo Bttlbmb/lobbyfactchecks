@@ -1,0 +1,33 @@
+{
+  "reviewer": "root_independent_ai",
+  "date": "2026-10-25",
+  "issue_id": "impfpflicht2022-aefi-social-r3-01",
+  "outcome": "support_provisional_major_with_narrow_framing",
+  "independence": "Reviewer independently opened primary Nature article and read methods/results/discussion, extracted original submission pages22–24and34, and visually inspected original submissionp23andprimarypaperp3. This is independentAIreview, not specialist medical review.",
+  "source_checks": [
+    "Original German sentence on physical23 expressly infers no reduction at all from the copied unadjusted TableS8 rates. The image shows31%unvaccinated,30%fullyvaccinatedwithoutpreviousinfection,32%boosted; do not report the nearby30vs31runningtext difference as a separate material error.",
+    "Primary Table2 physical3 separates contact susceptibility from primary-case infectiousness; the0.80(.69–.92) estimate concerns the primarycase and is pooled acrossDeltaandOmicron. It is not the Omicron-only0.55recipient-susceptibility estimate.",
+    "Primary text p3explains no detected variant/primaryvaccineinteraction(p=.14). Methods require adjustment for age/sexofbothpeople, householdsize, contactvaccinestatusvariantinteraction; observational/nonrandomallocation and residualconfounding limits remain.",
+    "SupplementS18 mainmodel confirms0.80estimate. S23 reports unadjusted primarycase estimate1.30versusadjusted0.80, reinforcing that crude and adjusted answers differ. The review does not use the apparently malformed unadjustedCI as evidence of an author error.",
+    "PrimaryDiscussion explicitly describes some booster protection and short-term transmission relevance, while also saying protection is reduced, uncertain-duration and likely insufficient tocurblong-termOmicronspread. The submissionp24acknowledges clinicallyrelevant/epidemiologicallyrelevant caveats; those do not make categoricalnone a correct summaryofthestudy."
+  ],
+  "required_framing": [
+    "Describe this as the submission author inferring no reduction from crude rates despite the cited study’s contrary adjusted association. Do not claim the submission fabricated the table or falsely directly quoted the authors’ conclusion.",
+    "Do not turn an observational adjusted association into proved causal efficacy, or pool into an independently estimated Omicron-onlyeffect. Paper disagreement can be legitimate; the narrow error is treating crude rates as establishing none while relying on that study.",
+    "This record is outside the newJuly–October2026coveragewindow and addressesmotionsrequestingstatutorychange. Keep it in historicalresearchset, not the newdatedcoverage numerator."
+  ],
+  "severity_rationale": "Major is a defensible editorial judgment because source-based absence of protection is a central premise for the explicit repeal request. The counter-evidence weakens that categorical premise without establishing mandate proportionality or its netbenefit.",
+  "direction": "favours_author_request=true is supported; no inference of intent.",
+  "quotations": "Claimfragment andrequestfragment exact inoriginalPDF; counterquote exact inNaturearticle. Quotes remain short; reused studyexcerptbudget must bechecked atassembly.",
+  "specialist_review": false,
+  "author_contact_or_response": null,
+  "read_files": [
+    "research/round3-social/sources/aefi-impfpflicht-20221012.pdf",
+    "research/round3-social/sources/lyngse-omicron-20220923.pdf",
+    "research/round3-social/sources/lyngse-omicron-supplement.pdf"
+  ],
+  "web_primary_url": "https://www.nature.com/articles/s41467-022-33328-3",
+  "superseded": true,
+  "superseded_by": "research/round3-reviews/root-reconsiders-aefi-household.json",
+  "supersession_note": "Further independent adversarial review and author p20 context support an unresolved methodological-inference reading. The initial provisional-major endorsement is withdrawn; retain as history, not current endorsement."
+}

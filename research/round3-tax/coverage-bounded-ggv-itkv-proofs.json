@@ -1,0 +1,863 @@
+{
+  "proofs": [
+    {
+      "id": "bounded-known-public-bmds-gigabit-grundbuch-verordnung-ggv",
+      "as_of_utc": "2026-10-25T04:10:25.414240+00:00",
+      "status": "known_public_page_subcorpus_reading_complete",
+      "population_scope": "All replies, including government replies, publicly linked in section 2 of this archived ministry process page at retrieval; not all actual submissions and not national window completion.",
+      "window": {
+        "from": "2026-07-25",
+        "through": "2026-10-24",
+        "basis": "Submission/dispatch events remain separate from author dates and publication/hearing dates. Unknown dates retained."
+      },
+      "process_page": {
+        "url": "https://bmds.bund.de/service/gesetzgebungsverfahren/gigabit-grundbuch-verordnung-ggv",
+        "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv.html",
+        "sha256": "d9f85ca9774090e4f611e90bf3df60735b628aea5f15ff197c6beb82c316a9b9",
+        "section": "2. Stellungnahmen der Länder und Verbände"
+      },
+      "enumeration_proof": {
+        "expected_published_reply_links": 17,
+        "reparsed_current_page_reply_urls": 17,
+        "inventory_reply_urls": 17,
+        "missing_from_inventory": [],
+        "not_on_page": [],
+        "file_header_or_hash_failures": [],
+        "all_author_pages_read": true
+      },
+      "reply_counts_by_kind": {
+        "municipal_umbrella_association": 2,
+        "stakeholder_association": 9,
+        "Land_ministry": 4,
+        "company": 2
+      },
+      "user_requested_external_population": {
+        "external_reply_resources": 13,
+        "external_formal_submission_resources": 13,
+        "government_reply_resources": 4,
+        "external_declining_formal_statement": 0
+      },
+      "page_counts": {
+        "physical_resource_pages": 169,
+        "author_pages_actually_read": 92,
+        "draft_annex_pages_not_added_to_author_count": 77
+      },
+      "date_counts": {
+        "in_window_printed_author_dates_or_months": 16,
+        "own_date_unverified": 1,
+        "published_email_exports_with_explicit_sent_header": 0,
+        "Land_email_exports_with_explicit_sent_header": 0,
+        "registered_copy_records_with_self_reported_in_window_recipient_event": 2,
+        "independently_authenticated_server_receipts": 0
+      },
+      "exact_draft": {
+        "source_id": "bmds-gigabit-grundbuch-verordnung-ggv-draft",
+        "printed_version": "3 September 2026, 16:17",
+        "process_publication_date": "2026-09-14",
+        "filename_or_publication_date_not_substituted_for_printed_version": true
+      },
+      "claim_stage_and_source_closure": {
+        "all_full_author_text_read": true,
+        "all_individual_claims_independently_factchecked": false,
+        "method": "Targeted review for material factual, numerical and source-description errors, with primary draft/source checks for concrete leads. Policy choices and unsupported forecasts are not certified false or validated by a negative screen.",
+        "formal_issue_ids": [
+          "ggv2026-deutscheglasfaser-quarterly-tax-r3-03"
+        ],
+        "issue_source_chain": "For the sole GGV issue, exact operative text and explanatory note are archived and independently reviewed; other statements’ every footnote has not been independently validated."
+      },
+      "cross_channel_checks": {
+        "register_file": "research/round3-root/coverage/register-window-records.json",
+        "register_search": "All 1,558 structured metadata records and all available extracted texts searched for exact ordinance names, ITKV/GGV and Wohnsitzanmeldung aliases. Two GGV records confirmed; no ITKV hit. One GGV acronym hit in Bürgerenergie concerned communal building energy and was excluded.",
+        "register_limits": "86 records require OCR/visual review; keyword/metadata absence cannot prove no unnamed or image-only extra version.",
+        "Bundestag_index": "Root current Digital committee index closure: 28 listed pages across 3 fragments. Titles manually checked: no dedicated GGV/ITKV hearing. Underlying TKG hearing 4 November 2026 page currently links only bill, agenda and expert list, no response PDFs.",
+        "Digital_publication_index": "The 162 rows from the committee actual document publication API were checked by visible titles/aliases; no further explicit GGV/ITKV response was identified. Generic labels and unread bodies remain a gap.",
+        "Bundestag_evidence": [
+          "research/round3-root/coverage/bt-root-document-publication-index.json",
+          "research/round3-root/coverage/bt-root-hearing-index-closure.json",
+          "research/round3-root/coverage/bt-root-hearings.json",
+          "research/round3-root/coverage/bt-root-hearing-resources.json"
+        ],
+        "additional_submissions_not_assumed_absent": true
+      },
+      "limits": [
+        "The denominator includes Länder replies and, for ITKV, an association reply explicitly declining a formal statement. Do not label all replies lobbyist submissions.",
+        "Consent-based publication, removed pages and later uploads can leave additional responses outside this bounded known-public set.",
+        "An older or undated author cover does not by itself settle a later transmittal date.",
+        "This proof closes link enumeration, archive integrity and author-text reading for a finite public page, not factual verification of every claim."
+      ],
+      "independent_review": "research/round3-reviews/energy-reviews-tax-bounded-ggv-itkv.json",
+      "documents": [
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-001",
+          "author": "Arbeitsgemeinschaft der kommunalen Landesverbände Schleswig-Holstein",
+          "response_kind": "municipal_umbrella_association",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_Arbeitsgemeinschaft_der_kommunalen_Landesverbaende_Schleswig-Holstein.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-001.pdf",
+          "sha256": "739a095f11049ddd07a5254f09e270c6bc756944b758bf74686925a9ec43f5eb",
+          "physical_resource_pages": 4,
+          "author_pages_read": 4,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-001",
+          "printed_author_date": "2026-10-12",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-002",
+          "author": "Bitkom",
+          "response_kind": "stakeholder_association",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_Bitkom.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-002.pdf",
+          "sha256": "1ad21ad3a78d7cb120dc89ada6e4d29249b24e16a944fde65c2ee0909c75812f",
+          "physical_resource_pages": 6,
+          "author_pages_read": 6,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-002",
+          "printed_author_date": "2026-10",
+          "printed_date_status": "verified_month_only_from_cover",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-003",
+          "author": "Bundesverband Breitbandkommunikation e. V. (BREKO)",
+          "response_kind": "stakeholder_association",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_Bundesverband_Breitbandkommunikation_eV_BREKO.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-003.pdf",
+          "sha256": "79907ef18268e9805258fbff2c4edd5cb76c8f1b22a968cfd54d8c26e450e45a",
+          "physical_resource_pages": 4,
+          "author_pages_read": 4,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-003",
+          "printed_author_date": "2026-10-14",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": [
+            {
+              "id": "SG2610210032",
+              "recipient_events": [
+                {
+                  "date": "14.10.2026",
+                  "recipients": "14.10.2026 Bundestag: Fraktionen/Gruppen [alle SG dorthin] ; Mitglieder des Bundestages [alle SG dorthin] ; Bundesregierung: Bundesministerium des Innern (BMI) [alle SG dorthin] ; Bundesministerium für Digitalisierung und Staatsmodernisierung (BMDS) [alle SG dorthin]",
+                  "links": [
+                    {
+                      "text": "[alle SG dorthin]",
+                      "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundestag%7CFraktionen%2FGruppen%5D=true&sort=FIRSTPUBLICATION_DESC"
+                    },
+                    {
+                      "text": "[alle SG dorthin]",
+                      "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundestag%7CMitglieder+des+Bundestages%5D=true&sort=FIRSTPUBLICATION_DESC"
+                    },
+                    {
+                      "text": "[alle SG dorthin]",
+                      "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundesregierung%7CBundesministerium+des+Innern+%28BMI%29%5D=true&sort=FIRSTPUBLICATION_DESC"
+                    },
+                    {
+                      "text": "[alle SG dorthin]",
+                      "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundesregierung%7CBundesministerium+f%C3%BCr+Digitalisierung+und+Staatsmodernisierung+%28BMDS%29%5D=true&sort=FIRSTPUBLICATION_DESC"
+                    }
+                  ]
+                }
+              ],
+              "copy_assessment": "Entire extracted text identical after whitespace removal",
+              "receipt_independently_verified": false
+            }
+          ]
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-004",
+          "author": "Bundesverband der Energie- und Wasserwirtschaft e. V. (BDEW)",
+          "response_kind": "stakeholder_association",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_Bundesverband_der_Energie-_und_Wasserwirtschaft_eV_BDEW.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-004.pdf",
+          "sha256": "203f26395c72935be025e5c736deb19f78354d43c22625329eb29399f13bd9d8",
+          "physical_resource_pages": 8,
+          "author_pages_read": 8,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-004",
+          "printed_author_date": "2026-10-14",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-005",
+          "author": "Bundesverband Glasfaserausbau (BUGLAS)",
+          "response_kind": "stakeholder_association",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_Bundesverband_Glasfaserausbau_BUGLAS.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-005.pdf",
+          "sha256": "e0dcd7062bf01e811aae69ddc78fb29782ecfb29085a9586043b91fbd4683612",
+          "physical_resource_pages": 8,
+          "author_pages_read": 8,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-005",
+          "printed_author_date": "2026-10-14",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-006",
+          "author": "Bundesvereinigung der kommunalen Spitzenverbände",
+          "response_kind": "municipal_umbrella_association",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_Bundesvereinigung_der_kommunalen_Spitzenverbaende.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-006.pdf",
+          "sha256": "45bc8c956dcc83f2ad8da6353cc09a3d50ef9e443414d86f24f0e5da1a84eff0",
+          "physical_resource_pages": 5,
+          "author_pages_read": 5,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-006",
+          "printed_author_date": "2026-10-13",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-007",
+          "author": "der Vermessungsreferate des Ministeriums für Landesentwicklung und Wohnen Baden-Württemberg (MLW)",
+          "response_kind": "Land_ministry",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_der_Vermessungsreferate_im_MLW_Baden-Wuerttemberg.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-007.pdf",
+          "sha256": "3b36591b4945b49c89be7bd7c8113d647ee4c06503767c426fd3f19545528002",
+          "physical_resource_pages": 7,
+          "author_pages_read": 7,
+          "external_submission": false,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-007",
+          "printed_author_date": null,
+          "printed_date_status": "unverified",
+          "printed_date_window_status": "date_unverified",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-008",
+          "author": "Deutscher Verein des Gas- und Wasserfaches e. V. (DVGW)",
+          "response_kind": "stakeholder_association",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_Deutscher_Verein_des_Gas-_und_Wasserfaches_eV_DVGW.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-008.pdf",
+          "sha256": "c1932b44ede9a57484f979a4ae4414d4320aaa86d560b464b7858236cfc362b8",
+          "physical_resource_pages": 5,
+          "author_pages_read": 5,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-008",
+          "printed_author_date": "2026-10-13",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": [
+            {
+              "id": "SG2610140003",
+              "recipient_events": [
+                {
+                  "date": "13.10.2026",
+                  "recipients": "13.10.2026 Bundesregierung: Bundesministerium für Digitalisierung und Staatsmodernisierung (BMDS) [alle SG dorthin]",
+                  "links": [
+                    {
+                      "text": "[alle SG dorthin]",
+                      "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundesregierung%7CBundesministerium+f%C3%BCr+Digitalisierung+und+Staatsmodernisierung+%28BMDS%29%5D=true&sort=FIRSTPUBLICATION_DESC"
+                    }
+                  ]
+                }
+              ],
+              "copy_assessment": "Author body pages 2–5 identical; register cover omits contact details present on ministry cover",
+              "receipt_independently_verified": false
+            }
+          ]
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-009",
+          "author": "Deutsche Glasfaser",
+          "response_kind": "company",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_Deutsche_Glasfaser.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-009.pdf",
+          "sha256": "a28df4360e7f2b0972ec90ca0ae4d86ea906b80a5035a29c2852babb69780cff",
+          "physical_resource_pages": 5,
+          "author_pages_read": 5,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-009",
+          "printed_author_date": "2026-10-14",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-010",
+          "author": "Deutsche Telekom AG",
+          "response_kind": "company",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_Deutsche_Telekom_AG.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-010.pdf",
+          "sha256": "8836d469c25d7f46c3a8f7bb315636b95272d404f7952cb8611a1193c1488a8c",
+          "physical_resource_pages": 8,
+          "author_pages_read": 8,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-010",
+          "printed_author_date": "2026-10-14",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-011",
+          "author": "eco - Verband der Internetwirtschaft e. V.",
+          "response_kind": "stakeholder_association",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_eco-Verband_der_Internetwirtschaft_eV.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-011.pdf",
+          "sha256": "961f3397f8d61d890a1a35f8f32dbc66718ef8d8a0b0d4ca5a9144a17e6df5d0",
+          "physical_resource_pages": 4,
+          "author_pages_read": 4,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-011",
+          "printed_author_date": "2026-10-13",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-012",
+          "author": "Fachverband Fernmeldebau e. V. (FFB)",
+          "response_kind": "stakeholder_association",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_Fachverband_Fernmeldebau_eV_FFB.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-012.pdf",
+          "sha256": "211365dd864be4c777cf4d2c1a13823cb22973b590b0443bd46a5d139305bf39",
+          "physical_resource_pages": 2,
+          "author_pages_read": 2,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-012",
+          "printed_author_date": "2026-10-14",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-013",
+          "author": "Hessisches Ministerium für Digitalisierung und Innovation",
+          "response_kind": "Land_ministry",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_Hessisches_Ministerium_fuer_Digitalisierung_und_Innovation.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-013.pdf",
+          "sha256": "c0c9ebe03ab87cd570523f8223dea23d378d3218843d09cfb6e98c6462cdd57f",
+          "physical_resource_pages": 81,
+          "author_pages_read": 4,
+          "external_submission": false,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-013",
+          "printed_author_date": "2026-10-13",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": [],
+          "annex_note": "Physical 5–81 are a 77-page draft annex. All four author pages read; annex is not another authored response or 77 additional author pages."
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-014",
+          "author": "Ministerium des Innern des Landes Nordrhein-Westfalen",
+          "response_kind": "Land_ministry",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_Ministerium_des_Innern_des_Landes_Nordrhein-Westfalen.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-014.pdf",
+          "sha256": "1505721bca592ade3d9b74e8b071e47dd10dd358f813ba7865cee30752d288d9",
+          "physical_resource_pages": 2,
+          "author_pages_read": 2,
+          "external_submission": false,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-014",
+          "printed_author_date": "2026-10-13",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-015",
+          "author": "des Ministeriums für Wirtschaft, Verkehr, Arbeit, Technologie und Tourismus Schleswig-Holstein (MWVATT)",
+          "response_kind": "Land_ministry",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_MWVATT_Schleswig-Holstein.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-015.pdf",
+          "sha256": "d9f2b912c9cc0893dcb4edc4368a352b87909d34a8b9aab0a47777aad3561965",
+          "physical_resource_pages": 4,
+          "author_pages_read": 4,
+          "external_submission": false,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-015",
+          "printed_author_date": "2026-10-13",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-016",
+          "author": "Verband der Anbieter im Digital- und Telekommunikationsmarkt e. V. (VATM)",
+          "response_kind": "stakeholder_association",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_Verband_der_Anbieter_im_Digital-_und_Telekommunikationsmarkt_eV_VATM.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-016.pdf",
+          "sha256": "57366e5fcc09a8639407f897fe0cd1650391b6a313c2221880de9e11782b4256",
+          "physical_resource_pages": 9,
+          "author_pages_read": 9,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-016",
+          "printed_author_date": "2026-10-14",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-gigabit-grundbuch-verordnung-ggv-response-017",
+          "author": "Verband kommunaler Unternehmen e. V. (VKU)",
+          "response_kind": "stakeholder_association",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_GGV/Stellungnahme_Verband_kommunaler_Unternehmen_eV_VKU.pdf",
+          "local_file": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-017.pdf",
+          "sha256": "ede789f2e527004fd372c21272d37c1d65701d40b7a7c020c67a3ed9750f32c2",
+          "physical_resource_pages": 7,
+          "author_pages_read": 7,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-gigabit-grundbuch-verordnung-ggv-response-017",
+          "printed_author_date": "2026-10-14",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        }
+      ]
+    },
+    {
+      "id": "bounded-known-public-bmds-it-komponentenverordnung-itkv",
+      "as_of_utc": "2026-10-25T04:10:25.466076+00:00",
+      "status": "known_public_page_subcorpus_reading_complete",
+      "population_scope": "All replies, including government replies, publicly linked in section 2 of this archived ministry process page at retrieval; not all actual submissions and not national window completion.",
+      "window": {
+        "from": "2026-07-25",
+        "through": "2026-10-24",
+        "basis": "Submission/dispatch events remain separate from author dates and publication/hearing dates. Unknown dates retained."
+      },
+      "process_page": {
+        "url": "https://bmds.bund.de/service/gesetzgebungsverfahren/it-komponentenverordnung-itkv",
+        "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv.html",
+        "sha256": "06593e1cbddccae02d6e07dad0bc0ec6aec991fe35e886b6fd557a71bca82dc3",
+        "section": "2. Stellungnahmen der Länder und Verbände"
+      },
+      "enumeration_proof": {
+        "expected_published_reply_links": 12,
+        "reparsed_current_page_reply_urls": 12,
+        "inventory_reply_urls": 12,
+        "missing_from_inventory": [],
+        "not_on_page": [],
+        "file_header_or_hash_failures": [],
+        "all_author_pages_read": true
+      },
+      "reply_counts_by_kind": {
+        "Land_authority": 8,
+        "stakeholder_association_reply_declining_formal_statement": 1,
+        "stakeholder_association": 2,
+        "municipal_IT_association": 1
+      },
+      "user_requested_external_population": {
+        "external_reply_resources": 4,
+        "external_formal_submission_resources": 3,
+        "government_reply_resources": 8,
+        "external_declining_formal_statement": 1
+      },
+      "page_counts": {
+        "physical_resource_pages": 18,
+        "author_pages_actually_read": 18,
+        "draft_annex_pages_not_added_to_author_count": 0
+      },
+      "date_counts": {
+        "in_window_printed_author_dates_or_months": 11,
+        "own_date_unverified": 1,
+        "published_email_exports_with_explicit_sent_header": 6,
+        "Land_email_exports_with_explicit_sent_header": 5,
+        "registered_copy_records_with_self_reported_in_window_recipient_event": 0,
+        "independently_authenticated_server_receipts": 0
+      },
+      "exact_draft": {
+        "source_id": "bmds-it-komponentenverordnung-itkv-draft",
+        "printed_version": "1 September 2026, 18:18",
+        "process_publication_date": "2026-09-07",
+        "filename_or_publication_date_not_substituted_for_printed_version": true
+      },
+      "claim_stage_and_source_closure": {
+        "all_full_author_text_read": true,
+        "all_individual_claims_independently_factchecked": false,
+        "method": "Targeted review for material factual, numerical and source-description errors, with primary draft/source checks for concrete leads. Policy choices and unsupported forecasts are not certified false or validated by a negative screen.",
+        "formal_issue_ids": [],
+        "issue_source_chain": "No formal issue promoted; concrete apparent draft-timing concerns were not forced into findings."
+      },
+      "cross_channel_checks": {
+        "register_file": "research/round3-root/coverage/register-window-records.json",
+        "register_search": "All 1,558 structured metadata records and all available extracted texts searched for exact ordinance names, ITKV/GGV and Wohnsitzanmeldung aliases. Two GGV records confirmed; no ITKV hit. One GGV acronym hit in Bürgerenergie concerned communal building energy and was excluded.",
+        "register_limits": "86 records require OCR/visual review; keyword/metadata absence cannot prove no unnamed or image-only extra version.",
+        "Bundestag_index": "Root current Digital committee index closure: 28 listed pages across 3 fragments. Titles manually checked: no dedicated GGV/ITKV hearing. Underlying TKG hearing 4 November 2026 page currently links only bill, agenda and expert list, no response PDFs.",
+        "Digital_publication_index": "The 162 rows from the committee actual document publication API were checked by visible titles/aliases; no further explicit GGV/ITKV response was identified. Generic labels and unread bodies remain a gap.",
+        "Bundestag_evidence": [
+          "research/round3-root/coverage/bt-root-document-publication-index.json",
+          "research/round3-root/coverage/bt-root-hearing-index-closure.json",
+          "research/round3-root/coverage/bt-root-hearings.json",
+          "research/round3-root/coverage/bt-root-hearing-resources.json"
+        ],
+        "additional_submissions_not_assumed_absent": true
+      },
+      "limits": [
+        "The denominator includes Länder replies and, for ITKV, an association reply explicitly declining a formal statement. Do not label all replies lobbyist submissions.",
+        "Consent-based publication, removed pages and later uploads can leave additional responses outside this bounded known-public set.",
+        "An older or undated author cover does not by itself settle a later transmittal date.",
+        "This proof closes link enumeration, archive integrity and author-text reading for a finite public page, not factual verification of every claim."
+      ],
+      "independent_review": "research/round3-reviews/energy-reviews-tax-bounded-ggv-itkv.json",
+      "documents": [
+        {
+          "id": "bmds-it-komponentenverordnung-itkv-response-001",
+          "author": "des Landes Berlin",
+          "response_kind": "Land_authority",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_ITKV/ITKV_Stn_Berlin.pdf",
+          "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-001.pdf",
+          "sha256": "74102197be8c8f70c637d0e4bf77e921b9613b608e5998b928841a5075ab8aa6",
+          "physical_resource_pages": 1,
+          "author_pages_read": 1,
+          "external_submission": false,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-it-komponentenverordnung-itkv-response-001",
+          "printed_author_date": "2026-09-11",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": [],
+          "displayed_sent_event": {
+            "timestamp": "2026-09-11T16:30",
+            "recipient": "SB I3(BMDS), visible An field",
+            "locator": {
+              "pdf_page": 1,
+              "section": "Published email export, Gesendet/An header"
+            },
+            "verified_scope": "Timestamp and ministry recipient as displayed in primary published email export; no independent server-log or cryptographic authentication claimed."
+          }
+        },
+        {
+          "id": "bmds-it-komponentenverordnung-itkv-response-002",
+          "author": "BITKOM",
+          "response_kind": "stakeholder_association_reply_declining_formal_statement",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_ITKV/ITKV_Stn_BITKOM.pdf",
+          "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-002.pdf",
+          "sha256": "f7df10af3ce91c244f475a97e5dafb951f3f87156922cc071d1d71920c43d40f",
+          "physical_resource_pages": 1,
+          "author_pages_read": 1,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-it-komponentenverordnung-itkv-response-002",
+          "printed_author_date": "2026-09-15",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": false,
+          "registered_copies": [],
+          "displayed_sent_event": {
+            "timestamp": "2026-09-15T18:59",
+            "recipient": "SB I3(BMDS), visible An field",
+            "locator": {
+              "pdf_page": 1,
+              "section": "Published email export, Gesendet/An header"
+            },
+            "verified_scope": "Timestamp and ministry recipient as displayed in primary published email export; no independent server-log or cryptographic authentication claimed."
+          }
+        },
+        {
+          "id": "bmds-it-komponentenverordnung-itkv-response-003",
+          "author": "DATABUND",
+          "response_kind": "stakeholder_association",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_ITKV/ITKV_Stn_DATABUND.pdf",
+          "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+          "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+          "physical_resource_pages": 2,
+          "author_pages_read": 2,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-it-komponentenverordnung-itkv-response-003",
+          "printed_author_date": "2026-09-14",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-it-komponentenverordnung-itkv-response-004",
+          "author": "DBSV",
+          "response_kind": "stakeholder_association",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_ITKV/ITKV_Stn_DBSV.pdf",
+          "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-004.pdf",
+          "sha256": "f42d81c2a2e0f3ae8d7415732464cafa310ce95310c182943ed6ea8a3e7a59a2",
+          "physical_resource_pages": 1,
+          "author_pages_read": 1,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-it-komponentenverordnung-itkv-response-004",
+          "printed_author_date": "2026-09-14",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-it-komponentenverordnung-itkv-response-005",
+          "author": "des Landes Hessen",
+          "response_kind": "Land_authority",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_ITKV/ITKV_Stn_Hessen.pdf",
+          "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-005.pdf",
+          "sha256": "b99c6df08c4183b5dcfa572b7a8e679de4e8cb01acfc3673d6b766b6808524d7",
+          "physical_resource_pages": 2,
+          "author_pages_read": 2,
+          "external_submission": false,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-it-komponentenverordnung-itkv-response-005",
+          "printed_author_date": "2026-09-14",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-it-komponentenverordnung-itkv-response-006",
+          "author": "des Landes Niedersachsen",
+          "response_kind": "Land_authority",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_ITKV/ITKV_Stn_Niedersachsen.pdf",
+          "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-006.pdf",
+          "sha256": "48b2d48e728e9e3d2ea31984cdde085c5338fa4504a76ee461622a7b98b04767",
+          "physical_resource_pages": 3,
+          "author_pages_read": 3,
+          "external_submission": false,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-it-komponentenverordnung-itkv-response-006",
+          "printed_author_date": "2026-09-14",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-it-komponentenverordnung-itkv-response-007",
+          "author": "des Landes Nordrhein-Westfalen",
+          "response_kind": "Land_authority",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_ITKV/ITKV_Stn_NRW.pdf",
+          "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-007.pdf",
+          "sha256": "b7e023f6f28c6539c634ddae3f041f95f7d75127c532870986ba1e0c0ab5be20",
+          "physical_resource_pages": 2,
+          "author_pages_read": 2,
+          "external_submission": false,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-it-komponentenverordnung-itkv-response-007",
+          "printed_author_date": "2026-09-15",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        },
+        {
+          "id": "bmds-it-komponentenverordnung-itkv-response-008",
+          "author": "des Landes Rheinland-Pfalz",
+          "response_kind": "Land_authority",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_ITKV/ITKV_Stn_Rheinland-Pfalz.pdf",
+          "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-008.pdf",
+          "sha256": "38aee3610c246666ccddcbf1e19d9bb02cd0d4c146f1b950a46df541c9578255",
+          "physical_resource_pages": 1,
+          "author_pages_read": 1,
+          "external_submission": false,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-it-komponentenverordnung-itkv-response-008",
+          "printed_author_date": "2026-09-16",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": [],
+          "displayed_sent_event": {
+            "timestamp": "2026-09-16T15:34",
+            "recipient": "SB I3(BMDS), visible An field",
+            "locator": {
+              "pdf_page": 1,
+              "section": "Published email export, Gesendet/An header"
+            },
+            "verified_scope": "Timestamp and ministry recipient as displayed in primary published email export; no independent server-log or cryptographic authentication claimed."
+          }
+        },
+        {
+          "id": "bmds-it-komponentenverordnung-itkv-response-009",
+          "author": "des Landes Sachsen-Anhalt",
+          "response_kind": "Land_authority",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_ITKV/ITKV_Stn_Sachsen-Anhalt.pdf",
+          "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-009.pdf",
+          "sha256": "9118eb44bad14fb2ad5bc6446d5713684e975f1e4d604f54fdbeb52e787ea552",
+          "physical_resource_pages": 1,
+          "author_pages_read": 1,
+          "external_submission": false,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-it-komponentenverordnung-itkv-response-009",
+          "printed_author_date": "2026-09-14",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": [],
+          "displayed_sent_event": {
+            "timestamp": "2026-09-14T14:38",
+            "recipient": "SB I3(BMDS), visible An field",
+            "locator": {
+              "pdf_page": 1,
+              "section": "Published email export, Gesendet/An header"
+            },
+            "verified_scope": "Timestamp and ministry recipient as displayed in primary published email export; no independent server-log or cryptographic authentication claimed."
+          }
+        },
+        {
+          "id": "bmds-it-komponentenverordnung-itkv-response-010",
+          "author": "des Landes Sachsen",
+          "response_kind": "Land_authority",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_ITKV/ITKV_Stn_Sachsen.pdf",
+          "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-010.pdf",
+          "sha256": "d5cecf5527bd93833d0f20ba438f3f5ef86baabb2ddbbb8c42af8fd84d33ea2b",
+          "physical_resource_pages": 1,
+          "author_pages_read": 1,
+          "external_submission": false,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-it-komponentenverordnung-itkv-response-010",
+          "printed_author_date": "2026-09-15",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": [],
+          "displayed_sent_event": {
+            "timestamp": "2026-09-15T08:10",
+            "recipient": "SB I3(BMDS), visible An field",
+            "locator": {
+              "pdf_page": 1,
+              "section": "Published email export, Gesendet/An header"
+            },
+            "verified_scope": "Timestamp and ministry recipient as displayed in primary published email export; no independent server-log or cryptographic authentication claimed."
+          }
+        },
+        {
+          "id": "bmds-it-komponentenverordnung-itkv-response-011",
+          "author": "des Landes Thüringen",
+          "response_kind": "Land_authority",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_ITKV/ITKV_Stn_Thueringen.pdf",
+          "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-011.pdf",
+          "sha256": "376cb9015d8e9a0d073dab4f4331d1774f33083fa011f075dd8560552acf4155",
+          "physical_resource_pages": 1,
+          "author_pages_read": 1,
+          "external_submission": false,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-it-komponentenverordnung-itkv-response-011",
+          "printed_author_date": "2026-09-11",
+          "printed_date_status": "verified_from_document_or_transmittal",
+          "printed_date_window_status": "in_window",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": [],
+          "displayed_sent_event": {
+            "timestamp": "2026-09-11T14:29",
+            "recipient": "SB I3(BMDS), visible An field",
+            "locator": {
+              "pdf_page": 1,
+              "section": "Published email export, Gesendet/An header"
+            },
+            "verified_scope": "Timestamp and ministry recipient as displayed in primary published email export; no independent server-log or cryptographic authentication claimed."
+          }
+        },
+        {
+          "id": "bmds-it-komponentenverordnung-itkv-response-012",
+          "author": "VITAKO",
+          "response_kind": "municipal_IT_association",
+          "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_ITKV/ITKV_Stn_VITAKO.pdf",
+          "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-012.pdf",
+          "sha256": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699",
+          "physical_resource_pages": 2,
+          "author_pages_read": 2,
+          "external_submission": true,
+          "full_author_text_read": true,
+          "reading_evidence": "research/round3-tax/research-log.json#bmds-it-komponentenverordnung-itkv-response-012",
+          "printed_author_date": null,
+          "printed_date_status": "unverified",
+          "printed_date_window_status": "date_unverified",
+          "exact_addressed_draft": "The consultation-stage ordinance linked by this same official process page; no government or enacted version substituted.",
+          "ministry_publication_is_not_receipt_timestamp": true,
+          "formal_statement": true,
+          "registered_copies": []
+        }
+      ]
+    }
+  ]
+}

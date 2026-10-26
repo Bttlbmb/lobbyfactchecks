@@ -1,0 +1,219 @@
+{
+  "researcher": "c",
+  "role": "independent B proposal peer review",
+  "created_at_utc": "2026-10-26T00:42:51.472419+00:00",
+  "reviewed_proposal_sha256": "5d54bd70c84966a6b0901b5bacf8dd71e210fe8833a298877566d2fa50525a0c",
+  "checks": [
+    {
+      "id": "uf-cr-draft",
+      "url": "https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/RefE/Regelungsentwurf_Aenderung_IDNrG.pdf?__blob=publicationFile&v=2",
+      "identity_version": "Canonical 11-page Regelungsentwurf, PDF creation 20 July 2026; protected repository copy",
+      "access_date": "2026-10-26",
+      "read_extent": "Physical pages 1–3 and 6–11; initial/ongoing cost arithmetic independently recomputed",
+      "results": "Proposal adds land-register records and purpose-limited ID storage/use. Initial implementation sits at land-register/BVA/BZSt level. Initial conflicting matched data are described as additional storage with no immediate action; ongoing conflict work is separately priced. 2.4 million × 5% × 2 minutes = 240,000 minutes; 1.6 million × 3 minutes less 240,000 = 4.56 million minutes = 76,000 hours; × €43.20 = €3,283,200.",
+      "limits": "Model description is not realised workload evidence or proof that every initial statutory task was separately costed. No guarantee of zero indirect municipal tasks.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "temporary_file": "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round3-root/coverage/sources/idnrg-regelungsentwurf-20260720.pdf",
+      "sha256": "b40199901fd08e2db16993c5d14a368efb5b69aae330516d5b4e84b26937e8fa"
+    },
+    {
+      "id": "uf-cr-adv",
+      "url": "https://www.adv-online.de/sites/default/files/documents/2026-06/20250410_Zuswirk_ALKIS-LEFIS-DABAG_V1-1_Veroeffentlichung1878.pdf",
+      "identity_version": "AdV Grundsätze des Zusammenwirkens, version 1.1 dated 10 April 2025, 76 physical pages",
+      "access_date": "2026-10-26",
+      "read_extent": "Physical pages 11, 14–17, 24–25, 29–30, 33–35 and 45–47; critical 24–25/35/45 read again in full",
+      "results": "Structured land-register/cadastre exchanges use source/object identifiers, including person objects; current-state cross-system uniqueness is explicit, historical persistence has exceptions. Page 35 failed parcel-successor search requires manual intervention. Page 35 separately requires receiving-system maintenance of person relations when names are corrected in relevant Länder. Page 45 permits ownership redundancy reduction/current-address preprocessing.",
+      "limits": "Object identifiers are not shown to be the same lifelong natural-person tax ID. Parcel manual intervention is not direct evidence of owner-project cost/delay rates. Normative technical design does not prove implementation in every office.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/adv.pdf",
+      "sha256": "ca4cdb7c00ef49c4dacbfd80d67979cb22ba3c7e64ab836753c13ff648ecfefc"
+    },
+    {
+      "id": "uf-cr-enova",
+      "url": "https://www.recht.bund.de/bgbl/1/2026/192/regelungstext.pdf?__blob=publicationFile&v=1",
+      "identity_version": "Act of 22 June 2026, BGBl. 2026 I No. 192, promulgated 26 June; 14 pages",
+      "access_date": "2026-10-26",
+      "read_extent": "Physical pages 1, 8–9 and 14, especially Articles 8/10 and 20(5)",
+      "results": "Future purpose-limited notarial tax-ID query is conditional on required IDs not otherwise being known. Entry into force depends on respective technical/organisational readiness and BMF Gazette notice.",
+      "limits": "This establishes legal trigger and acknowledged missing-ID cases, not the absence of every pre-August announced future start date.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/enova.pdf",
+      "sha256": "15fcf268bd8ec91b2c27933d163d5ffbad40ac7dc6af37ba6a70300b112d0ce2"
+    },
+    {
+      "id": "uf-cr-bt5806",
+      "url": "https://dserver.bundestag.de/btd/21/058/2105806.pdf",
+      "identity_version": "BT 21/5806 dated 6 May 2026, 20 physical pages",
+      "access_date": "2026-10-26",
+      "read_extent": "Physical pages 1, 6, 17–18, operative provisions and explanation of Articles 8/10",
+      "results": "Explanation expressly discusses clients not providing an ID and the query route addressing those cases. May technical-connection work is described.",
+      "limits": "Supports non-universal notarial possession without national frequency data; May readiness discussion alone does not settle August notice history.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/bt5806.pdf",
+      "sha256": "42222d54d2bf7a56487ce7ae640d88cd72a935c470ee1bae9280bde22d87a15e"
+    },
+    {
+      "id": "uf-cr-identitylaw",
+      "url": "https://www.gesetze-im-internet.de/beurkg/__10.html",
+      "identity_version": "Current individual official statutory clauses, checked 26 October 2026",
+      "access_date": "2026-10-26",
+      "read_extent": "BeurkG §10 and ZPO §§415/418 complete relevant clauses",
+      "results": "Notarial care/identification and evidentiary status are supported; no located express rule gives old land-register identity details regular priority over conflicting newer base data.",
+      "limits": "Current clauses and general proof rules do not establish the specific regular first-appearance inference; no error inferred.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "hash_status": "No original-response byte hash captured for web-tool extraction; this authored check note is retained and hashed by the review.",
+      "additional_urls": [
+        "https://www.gesetze-im-internet.de/zpo/__415.html",
+        "https://www.gesetze-im-internet.de/zpo/__418.html"
+      ]
+    },
+    {
+      "id": "uf-cr-taxduties",
+      "url": "https://www.gesetze-im-internet.de/grestg_1983/__18.html",
+      "identity_version": "Current official individual tax clauses; June Act separately authenticates contemporaneous future-query wording",
+      "access_date": "2026-10-26",
+      "read_extent": "GrEStG §§18/20, ErbStG §34, ErbStDV §7 and EStDV §54 relevant complete clauses; AO §139b paragraphs 1–5",
+      "results": "Specific tax-notification fields/query purposes verified. EStDV company tax-number field is not the same as every natural-party tax ID. AO separates duty and permitted/consented use.",
+      "limits": "No exhaustive natural-person ID duty map across every notarial relationship; current October electronic-procedure wording is not silently treated as the August operational state.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "hash_status": "No original-response byte hash captured for web-tool extraction; this authored check note is retained and hashed by the review.",
+      "additional_urls": [
+        "https://www.gesetze-im-internet.de/grestg_1983/__20.html",
+        "https://www.gesetze-im-internet.de/erbstg_1974/__34.html",
+        "https://www.gesetze-im-internet.de/erbstdv_1998/__7.html",
+        "https://www.gesetze-im-internet.de/estdv_1955/__54.html",
+        "https://www.gesetze-im-internet.de/ao_1977/__139b.html"
+      ]
+    },
+    {
+      "id": "uf-cr-ao154",
+      "url": "https://www.gesetze-im-internet.de/ao_1977/__154.html",
+      "identity_version": "Current AO §154 official HTML, actual shared bytes verified",
+      "access_date": "2026-10-26",
+      "read_extent": "Paragraphs 2–2b in actual HTML",
+      "results": "Account-identity duties apply in the credit-institution context. They cannot automatically be converted into a universal independent notary collection duty.",
+      "limits": "Current clause not a complete map of notarial escrow relationships; no counterexample asserted.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/ao154.html",
+      "sha256": "b8e25814d4199d04217ad85488a42fd6d35768267a6bb4cbe4aeeb6e6ec304f9"
+    },
+    {
+      "id": "uf-cr-gwg11",
+      "url": "https://www.gesetze-im-internet.de/gwg_2017/__11.html",
+      "identity_version": "Current GwG §11 official HTML, actual shared bytes verified",
+      "access_date": "2026-10-26",
+      "read_extent": "Relevant complete identification clauses",
+      "results": "Natural-person identification fields and conditional reuse of previous identification checked; tax ID is not the universal field required here.",
+      "limits": "No conclusion about actual tax-ID possession in every deed.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/gwg11.html",
+      "sha256": "b84851fb7de55ea1906ac710a944f5bbade5bd99cdabe863605519061b625fcb"
+    },
+    {
+      "id": "uf-cr-groundcharge",
+      "url": "https://www.schmitz-notar.de/fileadmin/downloads/Frageboegen__neu_/Fragebogen_Grundschuld.pdf",
+      "identity_version": "Undated three-page practitioner land-charge questionnaire",
+      "access_date": "2026-10-26",
+      "read_extent": "All three physical pages",
+      "results": "Questionnaire requests owner/debtor tax IDs in a possible land-charge workflow.",
+      "limits": "Undated, not a completed transaction, and footer inconsistently refers to a purchase contract; does not refute normal August missing-ID practice.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/grondcharge-form.pdf",
+      "sha256": "aaa156ddc25610f53fe1c857de1361254781af4e3f7389ad65227692594eff01"
+    },
+    {
+      "id": "uf-cr-notaryfaq",
+      "url": "https://onlinehilfe.bnotk.de/einrichtungen/notarnet/xnotar/wichtige-versionsinformationen/faq.html",
+      "identity_version": "Current operator FAQ, no authenticated August snapshot",
+      "access_date": "2026-10-26",
+      "read_extent": "Missing-ID section plus company-tax-number context in actual shared HTML",
+      "results": "Operator permits bounded missing-ID reasons and later supplementation.",
+      "limits": "Current general workflow corroborates possible missing IDs, not a historical isolated-land-charge possession rate.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/bnotk-faq.html",
+      "sha256": "dcb2930c896316dff9a13c3fa04c3662cabf25ffe859207e718c90955c3c66b9"
+    },
+    {
+      "id": "uf-cr-bnotk-september",
+      "url": "https://www.bnotk.de/aufgaben-und-taetigkeiten/rundschreiben/details/elektronischer-notar-verwaltungs-austausch-enova-erste-verpflichtungen-ab-dem-1-oktober-2026",
+      "identity_version": "BNotK circular dated 25 September 2026",
+      "access_date": "2026-10-26",
+      "read_extent": "Sections B and E, especially prospective tax-ID application and continued requesting from parties",
+      "results": "Later provider circular corroborates preparation/non-availability of this application at that later point.",
+      "limits": "Non-availability does not prove that a future commencement date was still undetermined at an August response. Targeted BMF/BZSt/Gazette searches did not recover a precise announcement; no complete historical Gazette reconstruction or negative proof is claimed.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "hash_status": "No original-response byte hash captured for web-tool extraction; this authored check note is retained and hashed by the review."
+    },
+    {
+      "id": "uf-cr-register-history",
+      "url": "https://www.bundestag.de/resource/blob/348234/eae00d6ca06342335c2eabd0cdb6dd92/wortprotokoll.pdf",
+      "identity_version": "Bundestag legal committee hearing 18/31, 5 November 2014, 125 physical pages",
+      "access_date": "2026-10-26",
+      "read_extent": "Physical pages 8, 16–17, Carsten Schmidt (NRW justice IT) operator evidence",
+      "results": "Operator describes actual performance problems at high access peaks in early commercial-register service and extra servers.",
+      "limits": "Actual performance degradation is not necessarily complete outage, nor proof of frequent outages from other technical causes.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "temporary_file": "/private/tmp/unresolved-followup-root/bt2014-register-hearing.pdf",
+      "sha256": "169ce722745e2224f3a5fdbc0065f58fb7d5c2db4c900497a5986400dc9678ad"
+    },
+    {
+      "id": "uf-cr-register2007",
+      "url": "https://www.bnotk.de/aufgaben-und-taetigkeiten/rundschreiben/details/elektronischer-handelsregisterverkehr",
+      "identity_version": "BNotK circular 24/2007, 8 August 2007",
+      "access_date": "2026-10-26",
+      "read_extent": "Complete substantive circular, lines 16–28 in official web extraction",
+      "results": "Warns about possible overload/EGVP problems and contingency filing at end-August.",
+      "limits": "Forecast/contingency is not an incident series or demonstrated frequent failure. Register-transport EGVP is distinct from all register retrieval systems.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "hash_status": "No original-response byte hash captured for web-tool extraction; this authored check note is retained and hashed by the review."
+    },
+    {
+      "id": "uf-cr-bonn",
+      "url": "https://www.bonn.de/themen-entdecken/planen-bauen/liegenschaftskataster.php",
+      "identity_version": "Current undated Bonn municipal service description",
+      "access_date": "2026-10-26",
+      "read_extent": "Complete substantive body, lines 3–15",
+      "results": "City describes full local digital parcel/owner data in ALKIS and parcel/owner relevance for purchases, land-register entry, planning and utility work.",
+      "limits": "One current municipality does not establish all federal/Länder/municipal digital delivery or the only-source denominator at the author date.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "hash_status": "No original-response byte hash captured for web-tool extraction; this authored check note is retained and hashed by the review."
+    },
+    {
+      "id": "uf-cr-bkg",
+      "url": "https://www.bkg.bund.de/SharedDocs/Produktinformationen/BKG/DE/P-2025/250422_FS-DE.html",
+      "identity_version": "BKG product notice dated 22 April 2025; dataset date December 2024",
+      "access_date": "2026-10-26",
+      "read_extent": "Complete product body, lines 101–114",
+      "results": "FS-DE is a parcel-polygon derivative, with around 53.7 million current records and explicit Bavaria exclusion.",
+      "limits": "Exclusion from this derivative is not absence of the underlying Bavarian cadastre. Product does not establish comprehensive owner information.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "hash_status": "No original-response byte hash captured for web-tool extraction; this authored check note is retained and hashed by the review."
+    },
+    {
+      "id": "uf-cr-st",
+      "url": "https://www.lvermgeo.sachsen-anhalt.de/de/gdp-alkis-geowebdienste.html",
+      "identity_version": "Current undated official Sachsen-Anhalt service description",
+      "access_date": "2026-10-26",
+      "read_extent": "Substantive WMS/WFS/access paragraphs, lines 918–931",
+      "results": "Owner-data WMS and WFS provision described, with spatial/authorisation and current rollout conditions.",
+      "limits": "Service access conditions are not proof that entitled municipal offices lack digital data; not a historical nationwide delivery or exclusivity census.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "hash_status": "No original-response byte hash captured for web-tool extraction; this authored check note is retained and hashed by the review."
+    },
+    {
+      "id": "uf-cr-vdi",
+      "url": "https://www.vdi.de/themen/nachwuchs-ausbildung-arbeitsmarkt/vdi/iw-ingenieurmonitor",
+      "identity_version": "Current VDI monitor list and Q4 2025 item, listed 28 July 2026",
+      "access_date": "2026-10-26",
+      "read_extent": "Monitor list introduction/date entries and complete Q4 2025 item description",
+      "results": "Persistent structural shortages in particular disciplines coexist with lower aggregate open vacancies. Q4 2025 item reports 18.2% year-on-year drop in total vacancies and separately labels a 2040 outlook.",
+      "limits": "No full gated monitor downloaded, no new contact details submitted. Aggregate discipline evidence does not settle increasing observed shortage in each named employer category.",
+      "check_method": "Independent actual primary-passage read; existing shared public bytes reused where stated, otherwise official web-tool extraction.",
+      "hash_status": "No original-response byte hash captured for web-tool extraction; this authored check note is retained and hashed by the review.",
+      "additional_urls": [
+        "https://www.vdi.de/ueber-uns/presse/publikationen/details/ingenieurmonitor-2025iv"
+      ]
+    }
+  ],
+  "storage": "Only concise authored check notes retained. Shared public source bytes remain temporary until root/peer checks finish; canonical original and draft dependencies preserved."
+}

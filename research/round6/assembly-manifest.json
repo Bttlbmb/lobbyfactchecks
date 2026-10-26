@@ -1,0 +1,37 @@
+{
+  "note": "Six independently reviewed provisional findings (two major/four minor), one unresolved source-description lead after differing AI reviews, one rejected candidate. Negative/research-only and scope-gated leads stay in branch logs, outside the error count. Broad reading ledger is not a national denominator. Final assembly includes one quote-only shortening of an existing unresolved record; original research history preserved.",
+  "inputs": [
+    "research/round6-tax/fruehstart2026-dai-doubletax-tax-r6-01.json",
+    "research/round6-energy/krwg2026-itad-recycling-method-energy-r6-01.json",
+    "research/round6-energy/krwg2026-itad-prevention-target-energy-r6-02.json",
+    "research/round6-energy/izg2026-biesemann-seaports-energy-r6-03.json",
+    "research/round6-social/suizidpraevg2026-marburger-costs-social-r6-01.json",
+    "research/round6-root/mietrechtII2026-ivd-cpiyears-root-r6-02.json",
+    "research/round6-root/mietrechtII2026-ivd-vacate-root-r6-01.json",
+    "research/round6-root/staendg2025-langenmayr-incidence-root-r6-03.json"
+  ],
+  "source_registries": [
+    [
+      "research/round6/source-registry.json",
+      "research/round6"
+    ]
+  ],
+  "document_registries": [
+    "research/round6-root/documents.json",
+    "research/round6-social/documents.json"
+  ],
+  "review_directories": [
+    "research/round6-reviews"
+  ],
+  "submission_sources": {
+    "ivd-mietrecht-20261009": "ivd-mietrecht-20261009",
+    "langenmayr-gastgewerbe-20251002": "langenmayr-gastgewerbe-20251002-r6",
+    "marburger-suizid-20260728": "marburger-suizid-20260728-r6",
+    "itad-krwg-20260807": "itad-krwg-20260807",
+    "biesemann-izg-20260223": "biesemann-izg-20260223-r6",
+    "dai-fruehstart-20260731": "dai-fruehstart-20260731"
+  },
+  "replacement_inputs": {
+    "research/round3-energy/behg2026-fleischmann-binding-targets-energy-r3-01.json": "research/round6/fleischmann-binding-targets-quote-only.json"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "round": 4,
+  "status": "completed",
+  "objective": "Spend another hour following targeted leads, using primary evidence, exact-version qualifications and independent AI checks.",
+  "started_at_utc": "2026-10-25T05:32:40+00:00",
+  "completed_at_utc": "2026-10-25T06:32:46.868420+00:00",
+  "duration_seconds": 3606.86842,
+  "duration_minutes": 60.11,
+  "minimum_duration_seconds": 3600,
+  "minimum_duration_satisfied": true,
+  "current_compiled_counts": {
+    "provisional_findings": 61,
+    "major_findings": 11,
+    "minor_findings": 50,
+    "documents_with_provisional_findings": 53,
+    "documents_with_major_findings": 10,
+    "unresolved_leads": 38,
+    "rejected_candidates": 1,
+    "all_issue_records": 100,
+    "issue_associated_documents": 80,
+    "named_broad_reading_units": 626,
+    "reading_depths": {
+      "full_submission": 406,
+      "selected_passages": 91,
+      "keyword_triage": 128,
+      "full_text_ocr": 1
+    },
+    "source_entries": 530,
+    "source_entries_with_local_archives": 426
+  },
+  "incremental_results": {
+    "major_findings": 0,
+    "minor_findings": 3,
+    "documents_with_new_minor_findings": 3,
+    "unresolved_leads": 3,
+    "potentially_major_unresolved_leads": 1,
+    "note": "The BVTE forecast-category allegation remains unresolved and is not included in the major-finding numerator."
+  },
+  "reading_delta": "research/round4/reading-delta.json",
+  "reading_count_limits": "61 additions to the broad ledger include8pilot reads from immediately before this hour. The remaining53 are reported in round4 logs; date-only entries do not independently prove all exact first-read timestamps. Four baseline documents were rechecked without adding units. Full author reading is not exhaustive verification. Scope and dates remain qualified.",
+  "coverage_complete": false,
+  "national_eligible_submission_denominator": null,
+  "national_coverage_percentage": null,
+  "population_error_rate": null,
+  "assembly_manifest": "research/round4/assembly-manifest.json",
+  "completion_audit": "research/round4/completion-audit.json",
+  "independent_final_snapshot": "research/round4-reviews/energy-final-merged-pool-addendum.json",
+  "review_limits": "AI screening only; no human specialist confirmation, author response, intent inference, or representative prevalence estimate."
+}

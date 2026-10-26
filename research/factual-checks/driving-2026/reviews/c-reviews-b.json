@@ -1,0 +1,647 @@
+{
+  "reviewer": "c",
+  "reviewed_file": "research/factual-checks/driving-2026/agents/claims-b.json",
+  "reviewed_sha256": "b5643bfedb62882bc01995f91f8fc43145465904b0109a82841f7c322973c508",
+  "documents_reread": [
+    {
+      "document_id": "bt-transport-1221870",
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "document_id": "bt-transport-1222032",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "driving-b-adac-01",
+      "reviewed_claim_en": "The bill permits supervised pre-test driving practice outside driving school.",
+      "reviewed_result": "supported",
+      "verdict": "revise",
+      "reason": "Outcome accepted, but evidence locator must be new StVG § 2e, not § 2d. The proposal requires authorisation and implementing safeguards.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Physical pp7–9, Article 1no2",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ],
+      "proposed_result": "supported"
+    },
+    {
+      "claim_id": "driving-b-adac-02",
+      "reviewed_claim_en": "MOVING estimates a shortage exceeding 10,000 driving instructors.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Independently downloadedMOVING 2025p3 confirms10,926 as survey/extrapolation (N400), supporting the attributed estimate without making it an officialOctober 2026 count.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-moving2025",
+          "locator": "Physical p3 andfootnote8",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-03",
+      "reviewed_claim_en": "Germany has about 35,000 active driving instructors.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "IndependentMOVING 2024pp9–10 distinguishes licence holders, age-cutoff scenarios and about32,000 estimated active.35,000 current active remains unmatched.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-moving-shortage",
+          "locator": "Physical pp9–10",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-04",
+      "reviewed_claim_en": "The active instructor workforce averages about 55 years of age.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "The55-year figure derives from a licence-holder forecast rather than a matched active-workforce observed mean. Do not infer a false approximate mean.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-moving-shortage",
+          "locator": "Physical p6",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-05",
+      "reviewed_claim_en": "The share reporting class-B costs below €2,500 fell from 48% to 21% across earlier and recent acquisition cohorts in the 2023 ADAC survey.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Visually inspected original 2023 cost chart:48% and21% refer to3–4-year versus≤6-month tenure groups. Approximately halved is fair.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-root-adac-cost-chart",
+          "locator": "Originalgraphic, cost bands andcohort labels",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-06",
+      "reviewed_claim_en": "The €3,500–4,500 cost band grew from 10% to 22% in the same survey cohort comparison.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Original cost graphic displays10% and22% in the€3,500–4,500 band. Survey cohorts and rounding retained.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-root-adac-cost-chart",
+          "locator": "Originalgraphic",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-07",
+      "reviewed_claim_en": "The transport ministry gives average class-B licence costs of about €3,400.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Official reform package and ministry context corroborate the approximate€3,400 attribution; no new market mean is inferred.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-modernisierung",
+          "locator": "Opening problem/cost context",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-08",
+      "reviewed_claim_en": "In the 2023 survey, 59% completed training within seven months.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Original release says nearly60% needed more than6 months. Without full duration distribution, this does not refute59% within7 months; intervals may overlap.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-survey",
+          "locator": "Trainingduration paragraph",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-09",
+      "reviewed_claim_en": "75% needed at most 30 ordinary driving lessons plus 12 special lessons before passing.",
+      "reviewed_result": "unresolved",
+      "verdict": "revise",
+      "reason": "Original ADAC graphic explicitly headlines three quarters, shows42%+32% and warns of rounding differences, with12 mandatoryspeciallessons excluded. Incontext75% reasonably reports the publisher’s rounded three quarters; exact unrounded count is not needed to treat the approximate source figure as supported.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-root-adac-hours-chart",
+          "locator": "Headline,42%/32% categories andfootnotes",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ],
+      "proposed_result": "supported"
+    },
+    {
+      "claim_id": "driving-b-adac-10",
+      "reviewed_claim_en": "If any mandatory in-person theory remains, savings in ongoing driving-school premises costs are impossible at that point.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Retained premises may retain some fixed costs but no evidence makes every room-related saving impossible; sharing, cost mix and capacity matter.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Room-cost reliefmodel",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-11",
+      "reviewed_claim_en": "Passing the theory examination demonstrates fulfilment of all theory-training requirements and a comparable starting point across learning formats.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "FeV § 16 examines knowledge; educational goals extend to attitudes and behaviour. A common pass threshold is not proof of full learning-format equivalence.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "§ 16 andAnnex7",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-12",
+      "reviewed_claim_en": "Ordinary German class-B learner instruction is currently tied to authorised driving schools.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Ordinary German first acquisition is school/instructor tied, with training readiness attestation. Statutory exceptions andBF17 after passing remain distinct.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-fahrschausbo",
+          "locator": "§ § 1–6",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-13",
+      "reviewed_claim_en": "France, Austria and Switzerland allow conditional pre-test practice with lay companions, with school attendance only partly obligatory or absent.",
+      "reviewed_result": "unresolved",
+      "verdict": "revise",
+      "reason": "Independent Swiss federalindexedArt15 and cantonal police guidance confirm conditional private learner drives; school attendance is not universally absent because other required courses differ. The narrow pretest-practice possibility is supported across named examples; clarify the stronger school-exemption clause rather than retain only a retrieval-gap rationale.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-foreign",
+          "locator": "SwissArt15/cantonalpolice andAustrianL17 guidance",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "driving-b-adac-14",
+      "reviewed_claim_en": "Foreign accompanied-driving curricula provide up to 3,000 km of parental pre-test practice.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "AustrianL17 and French AAC use at least3,000km, not a maximum. Colloquial scale reading of up to remains fair; no error solely from that phrase.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-foreign",
+          "locator": "Austrian § 5 and 2026 governmentguidance",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-15",
+      "reviewed_claim_en": "German learners average 500–700 km of practice by the test.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "No matched representative current Germany mileage dataset established; law’s lesson minima do not imply national mean distance.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "Annex7 does not provide mileage mean",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-16",
+      "reviewed_claim_en": "BF17 increases total practice before first unaccompanied driving to about 2,000 km.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "About2,000km is plausible illustration from older500+1,400 figures, but no current distribution or maximum is verified.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-bf17-study",
+          "locator": "Scope andduration proxy; no 2026 universalmileage",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-17",
+      "reviewed_claim_en": "Currently around 25% obtain their licence before age 18, compared with over 40% twelve years earlier.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "The denominator/time window for25% versus>40% remains unspecified. Full12-month BF17 use is not the same as any licence before 18.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "§ 48a establishes route, not uptake",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-18",
+      "reviewed_claim_en": "Average experience at the start of unaccompanied driving has significantly fallen, caused by longer training duration.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Neither cross-sectional 2023survey nor historical evaluation identifies longer training as the cause of a nationwide later-mileage decline.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-survey",
+          "locator": "Durationdescription, not causal trendmodel",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-19",
+      "reviewed_claim_en": "Additional insurance costs of pre-test lay practice would also arise in BF17 and are effectively brought forward rather than newly created.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Insurance price equivalence depends on actual coverage, drivers and policies; no matched before/after quote supports universal brought-forward-only costs.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Pilotinsurance requirement, not pricing equivalence",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-20",
+      "reviewed_claim_en": "Foreign experience shows accident risk does not rise when training-process requirements are removed.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Positive accompanied practice evaluation cannot establish no risk from removing unspecified training requirements across countries. Reforms and cohorts differ.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-bf17-study",
+          "locator": "Selectedmethods/results, pp5–8",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-adac-21",
+      "reviewed_claim_en": "BF17 evaluation shows that more protected practice produces a larger later safety benefit.",
+      "reviewed_result": "unresolved",
+      "verdict": "revise",
+      "reason": "Newly accessed primary 2007 evaluation reports a duration gradient:>6 months versus≤6 months accompanied phase had57% lower registered at-fault accident probability in18 months. This supports the contextual evaluation-based claim; duration is a practice proxy and the nonrandom cohort comparison does not prove a universal mileage dose law or benefit of arbitrary requirement removal.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-bf17-study",
+          "locator": "Physical pp5–8;4454 BF17,2421 controls; durationgroups 1987/2467",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ],
+      "proposed_result": "supported"
+    },
+    {
+      "claim_id": "driving-b-adac-22",
+      "reviewed_claim_en": "Austrian experience suggests fewer than half initially choose lay practice outside school.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "CurrentAustrianL17 share below half does not establish initial uptake of all lay-practice pathways; keep unresolved and not a falsehood.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-foreign",
+          "locator": "L17 versusother qualifyingroutes",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-bvf-01",
+      "reviewed_claim_en": "Driving schools currently provide expert initial advice, accompany training and coordinate examination preparation.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Training and readiness duties substantiate core coordination; universal counselling practice/authority cost saving is a stronger empirical claim and remains unquantified.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-fahrschausbo",
+          "locator": "§ § 3–6",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-bvf-02",
+      "reviewed_claim_en": "Current FeV §21 requires the application to name the training school.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Own downloaded FeV dated12 August 2026 retains named training school in § 21(1).",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "§ 21(1)sentence3no2",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-bvf-03",
+      "reviewed_claim_en": "The bill records municipal-association concerns about authority burdens from changed school binding.",
+      "reviewed_result": "unresolved",
+      "verdict": "revise",
+      "reason": "Primary NKR opinion does record municipal burden concerns and€30 versus€19.20 fees, but for the supervised practice pilot. It does not expressly attribute that concern to removing school binding; the broader paragraph may reference the package context. Retain uncertainty but replace complete access-gap rationale with this precise causal-scope distinction.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "Physical p118, NKRprintedp4",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "driving-b-bvf-04",
+      "reviewed_claim_en": "FeV §18(1) ordinarily requires at least two weeks before repeating a failed test.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Own FeV § 18(1) confirms ordinarily at least 2 weeks; special cheating rules separate.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "§ 18(1)",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-bvf-05",
+      "reviewed_claim_en": "Theory instruction aims to develop responsible behaviour, self-assessment, hazard awareness and consideration as well as rule knowledge.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Training aims include responsibility, self-assessment, hazard awareness and consideration; this verifies the aim rather than actual attainment.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-fahrschausbo",
+          "locator": "§ 1 andAnnex1",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-bvf-06",
+      "reviewed_claim_en": "Special instruction covers rural/interurban, motorway and night driving.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Special driving categories are rural/motorway/darkness; no quantified marginal effect is inferred.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-fahrschausbo",
+          "locator": "§ 5(3), Annex4",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-bvf-07",
+      "reviewed_claim_en": "Removing fixed special-lesson minima alone does not establish a general reduction in practical training costs because individual competence still determines required training.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Removing minimum quantity alone does not determine actual competence-required quantity or price; safe logical premise rather than an outcome forecast.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-fahrschausbo",
+          "locator": "§ 6 readiness",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-bvf-08",
+      "reviewed_claim_en": "Pass rates also depend on learner characteristics, language, anxiety and interruptions rather than school quality alone.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "General composition caution is defensible, but every named empirical factor is not separately identified by the cited regulation. Keep full compound outcome unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-fahrschausbo",
+          "locator": "Individualreadiness requirements",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-bvf-09",
+      "reviewed_claim_en": "Individual service prices do not determine the eventual total cost without the learner’s quantities and service mix.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Unit prices without quantities do not determine learner-specific total; does not imply price information is useless.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-modernisierung",
+          "locator": "Multiple costinputs andmodel",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-bvf-10",
+      "reviewed_claim_en": "The proposed transparency register requires collection, maintenance and checking of data.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Draft requires collection, updating and register-management functions; net cost and portal effects remain forecasts.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "FahrlGregister andreporting amendments",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-bvf-11",
+      "reviewed_claim_en": "Finland introduced stricter age-exception criteria and night driving restrictions for 17-year-olds in 2026.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Independently downloaded Traficom confirms stricter exception criteria and midnight–05:00 ban effective29 May 2026.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-traficom-reform",
+          "locator": "Implementationdates andnightban paragraphs",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-b-bvf-12",
+      "reviewed_claim_en": "Finland expanded mandatory risk-recognition training on 1 October 2026.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Independently downloaded11 June/23 June notice confirms8→12 hours from 1 October 2026, keyed to driving test date.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-cr-traficom-oct",
+          "locator": "Trainingchange andtransition rules",
+          "check": "Independently accessed/read; actualproposition andtemporal scope compared."
+        }
+      ]
+    }
+  ],
+  "omissions": [],
+  "sources": [
+    {
+      "id": "driving-2026-cr-survey",
+      "title": "ADAC original survey release, 7 November 2023",
+      "url": "https://presse.adac.de/meldungen/adac-ev/verkehr/gute-noten-fuer-die-fahrschulen-aber-der-weg-zum-fuehrerschein-ist-weit-und-teuer.html",
+      "retrieved_at": "2026-10-25T11:15:18.032698+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/cr-survey.html",
+      "temporal_limit": "Independent peer retrieval; primary source scope and authored-date applicability assessed separately.",
+      "sha256": "5588950ee7410516d5c66eeaf8654e30e99e9af7382724ff3cec5cb537611b7c",
+      "bytes": 48436,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-2026-cr-moving-shortage",
+      "title": "MOVING driving-instructor shortage analysis, 2024",
+      "url": "https://www.moving-roadsafety.com/wp-content/uploads/2024/06/Final_MOVING_-Fahrlehrermangel_Analyse-Versand.pdf",
+      "retrieved_at": "2026-10-25T11:15:18.033158+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/cr-moving-shortage.pdf",
+      "temporal_limit": "Independent peer retrieval; primary source scope and authored-date applicability assessed separately.",
+      "sha256": "9214e999a831983df01d8c34346b642b8687e9fc092771db2ca8a03ef083748d",
+      "bytes": 965313,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-2026-cr-moving2025",
+      "title": "MOVING industry outlook 2025, January survey N=400",
+      "url": "https://www.moving-roadsafety.com/wp-content/uploads/2025/03/Final_Branchenaussichten-2025.pdf",
+      "retrieved_at": "2026-10-25T11:15:18.033334+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/cr-moving2025.pdf",
+      "temporal_limit": "Independent peer retrieval; primary source scope and authored-date applicability assessed separately.",
+      "sha256": "cabc7a9da4349509eb24cb4a956a018a601c7a5c59e2e00865186584586aee4f",
+      "bytes": 722994,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-2026-cr-traficom-oct",
+      "title": "Traficom, training changes effective 1 October 2026",
+      "url": "https://www.traficom.fi/en/news/planning-obtain-driving-licence-take-note-these-changes-entering-force-october",
+      "retrieved_at": "2026-10-25T11:15:18.033527+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/cr-traficom-oct.html",
+      "temporal_limit": "Independent peer retrieval; primary source scope and authored-date applicability assessed separately.",
+      "sha256": "463e4aaf08b8eb333239dff7ee00e6016df4b60ed4ef67da48ef887f92393b0c",
+      "bytes": 460893,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-2026-cr-traficom-reform",
+      "title": "Traficom, Driving Licence Act reform 2026",
+      "url": "https://www.traficom.fi/en/drivers-and-vehicles/driving-licenses/driving-licence-act-reform-what-will-change",
+      "retrieved_at": "2026-10-25T11:15:18.033670+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/cr-traficom-reform.html",
+      "temporal_limit": "Independent peer retrieval; primary source scope and authored-date applicability assessed separately.",
+      "sha256": "ab93c2675188b793bd81dcbf98a50533b05484262239ac27b89f8c38fc8d15ff",
+      "bytes": 469898,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-2026-cr-france-aac",
+      "title": "French road-safety authority, accompanied driving guide, June 2024",
+      "url": "https://www.securite-routiere.gouv.fr/sites/default/files/2024-06/depliant_conduite_accompagnee.pdf",
+      "retrieved_at": "2026-10-25T11:15:18.033830+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/cr-france-aac.pdf",
+      "temporal_limit": "Independent peer retrieval; primary source scope and authored-date applicability assessed separately.",
+      "sha256": "2f01ffc7b3ee1d7779afaacfd7c37ee3ec4b17988f7f2190182a9699047e951c",
+      "bytes": 4686914,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-2026-cr-fahrschausbo",
+      "title": "Fahrschüler-Ausbildungsordnung consolidated text",
+      "url": "https://www.gesetze-im-internet.de/fahrschausbo_2012/BJNR131800012.html",
+      "retrieved_at": "2026-10-25T11:15:18.033990+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/cr-fahrschausbo.html",
+      "temporal_limit": "Independent peer retrieval; primary source scope and authored-date applicability assessed separately.",
+      "sha256": "c29f2fd309b2b662fd9c3ab725a2cc43e871810cf5451a78f16392924e98f40c",
+      "bytes": 223648,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-2026-root-br365",
+      "title": "Bundesrat365/26, Fahrschulmodernisierungs-Verordnung,10 June 2026",
+      "url": "https://dserver.bundestag.de/brd/2026/0365-26.pdf",
+      "retrieved_at": "2026-10-25T10:58:32.127255+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/root-br365.pdf",
+      "sha256": "e2891fc67c5afa333d35cc19c3212198b8b6252ca2963c0cf096504ced5544cc",
+      "http_status": 200,
+      "resolved_url": "https://dserver.bundestag.de/brd/2026/0365-26.pdf",
+      "content_type": "application/pdf",
+      "usable_as_evidence": true,
+      "temporal_limit": "Official June 10 parliamentary ordinance draft retrieved25 October 2026, preceding September/October responses. Operative FahrPraxAnlV § § 3–8 at physical28–30; distinguish May 4 ministry draft and any later amendments. Exact recipient-delivery bytes not authenticated.",
+      "physical_pages": 120
+    },
+    {
+      "id": "driving-root-adac-hours-chart",
+      "title": "ADAC 2023 original learner-survey infographic, linked from original7 November 2023release",
+      "url": "https://presse.adac.de/meldungen/adac-ev/verkehr/img/anzahl-fahrstunden-stadt-land-11-06-2023-zoom.jpg",
+      "retrieved_at": "2026-10-25T11:09:31.405815+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/root-adac-hours-chart.jpg",
+      "sha256": "35854cbcf2dad7d06ac99420ad7496935140cfee1b85c0be1ee1204ab4b103a8",
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Original 2023survey, acquisition cohorts differ. Current image retrieval not original-time archive or national 2026representativeness. Visually read category definitions before use."
+    },
+    {
+      "id": "driving-root-adac-cost-chart",
+      "title": "ADAC 2023 original learner-survey infographic, linked from original7 November 2023release",
+      "url": "https://presse.adac.de/meldungen/adac-ev/verkehr/img/fuhrerschein-ist-teuerer-11-06-2023-zoom.jpg",
+      "retrieved_at": "2026-10-25T11:09:32.569121+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/root-adac-cost-chart.jpg",
+      "sha256": "248f5f55640ff592ac7a69b371bcac77491db9a6971c3ee398fa2a4ace6ef0f3",
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Original 2023survey, acquisition cohorts differ. Current image retrieval not original-time archive or national 2026representativeness. Visually read category definitions before use."
+    },
+    {
+      "id": "driving-2026-cr-foreign",
+      "title": "Official Austrian andSwiss conditional learner-driving guidance",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10012898",
+      "retrieved_at": "2026-10-25T11:18:10.133830+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/cr-foreign-extraction.json",
+      "sha256": "f1dbd8475ab691adf47509daf1fb5dfbc7a7bfd7d8351b3d2d1a9a32cd53b1dd",
+      "temporal_limit": "Tool extraction; not original source bytes. BF17 issuer 2007 cohort, not all later drivers or all training reforms."
+    },
+    {
+      "id": "driving-2026-cr-bf17-study",
+      "title": "Niedersachsen commissionedBF17 evaluation, short primary report, selectedmethods/results",
+      "url": "https://www.mw.niedersachsen.de/download/10200/Abschlussbericht_Kurzform_Begleitetes_Fahren_ab_17.pdf",
+      "retrieved_at": "2026-10-25T11:18:10.134408+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/cr-bf17-study-extraction.json",
+      "sha256": "7befde0b8a56d2457a4f6656c33d6ecbe6f18bb152e9b81e4deee72e0b9ef7b7",
+      "temporal_limit": "Tool extraction; not original source bytes. BF17 issuer 2007 cohort, not all later drivers or all training reforms."
+    }
+  ],
+  "limitations": [
+    "All8 counterpart physical pages reread and34 outcomes reviewed; purepreferred minima, forecasts andincidental biography excluded. No additional materialomission identified beyond claims already inventoried.",
+    "Long evidence read only necessarypages/passages. No author contact, humanexpert confirmation or intent inference.",
+    "ADAC75% chart andhistoricalBF17 gradient are supported with cohort/rounding/methodlimits; no new error proposed. Raw B remains unchanged."
+  ]
+}

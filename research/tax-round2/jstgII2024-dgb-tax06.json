@@ -1,0 +1,132 @@
+{
+  "id": "jstgII2024-dgb-tax06",
+  "law_id": "stefeg-2024",
+  "document_id": "dgb-jstgII-20240719",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Tax changes including protection for charities commenting on current politics.",
+    "they_want": "Broader protection for charities’ democratic engagement.",
+    "they_claim": "The BFH inferred a clear partisan preference from Attac’s policy campaigns.",
+    "the_problem": "The judgment’s stated rationale distinguishes political advocacy from education independently of party preference."
+  },
+  "claim_quote": {
+    "original": "auf eine eindeutige parteipolitische Präferenz",
+    "language": "de",
+    "translation_en": "Translation: a clear party-political preference",
+    "locator": {
+      "pdf_page": 8,
+      "section": "Artikel 8 Nr 2",
+      "paragraph": "first, sentence beginning So hat der BFH"
+    },
+    "underline": "parteipolitische Präferenz"
+  },
+  "request_quote": {
+    "original": "wichtiges demokratisches Engagement von gemeinnützigen Körperschaften noch besser zu unterstützen und zu fördern.",
+    "language": "de",
+    "translation_en": "Translation: to support and promote important democratic engagement by charitable bodies even better.",
+    "locator": {
+      "pdf_page": 8,
+      "paragraph": "last"
+    }
+  },
+  "counter_quote": {
+    "original": "sondern um eine öffentlichkeitswirksame Darstellung und Durchsetzung eigener Vorstellungen zu tagespolitischen Themen",
+    "language": "de",
+    "translation_en": "Translation: rather about publicly presenting and pursuing its own views on current political issues",
+    "source_id": "bfh-vr6017-2019",
+    "locator": {
+      "paragraph": "32",
+      "section": "II.3.b",
+      "pdf_page": 7,
+      "pdf_note": "official web-generated 8 page PDF; paragraph begins on preceding page"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "correction": "The BFH’s 2019 judgment treats the campaigns as efforts to influence public opinion outside eligible educational purposes; it separately distinguishes the ban on party support from other political activity. The assertion of actual support for a named party is recorded as the BMF’s litigation submission, not the court’s factual conclusion. The 2020 follow-up retains the political-purpose reasoning.",
+  "effect": "Weakens the specific criticism that the court treated a broadly shared policy demand as evidence of partisan preference.",
+  "limits": "The court restricted Attac’s activities and found them outside educational purposes. The author may criticise that rule and request broader protection. Independent review retained the unresolved question whether the partisan description reports a factual inference or gives an evaluative account of the judgment’s party-finance analogy.",
+  "context_and_alternatives": "The paragraph expressly reports what the court inferred and then argues that five parties supported the tax proposal, so a specific party-preference reading is natural. However, the court does use party-finance analogies in deriving limits, which could explain loose characterisation. This does not adjudicate the correctness of the ruling.",
+  "materiality_explanation": "Minor if retained: it concerns one description in the justification; the genuine restrictions still provide an independent reform argument.",
+  "direction_explanation": "True if treated as error: the disputed attribution makes the court’s reason appear less tenable and reinforces the request for broader legal protection.",
+  "confidence": {
+    "text_source_mismatch": "medium",
+    "materiality": "editorial_judgment"
+  },
+  "unresolved_question": "Does the full passage report a specific court inference of party allegiance, or is it an evaluative gloss on the judgment’s analogy with party financing? Do not promote merely because one disagrees with the author’s legal criticism.",
+  "draft": {
+    "source_id": "jstgII-refe-20240710-1056",
+    "version_date": "2024-07-10",
+    "version_time": "10:56",
+    "submission_date": "2024-07-19",
+    "relevant_provisions": "Article 8 number 2, proposed section 58 number 11 AO, PDF page 17; explanation page 68. It permits occasional political statements outside statutory charitable purposes; the party-support ban remains.",
+    "version_check": "The exact 101-page July consultation draft is archived from the IHK. The comparison does not substitute the September government bill or later enacted law.",
+    "provenance_note": "The official BMF dossier lists the DGB response. Direct PDF retrieval returned 404 in the web reader and 503 on download. The eight-page author original is archived; no byte comparison to the inaccessible ministry copy is claimed."
+  },
+  "sources": [
+    {
+      "id": "dgb-jstgII-20240719",
+      "url": "https://www.dgb.de/fileadmin/download_center/Stellungnahmen/2024-07-19_DGB-Stellungnahme_zum_JSTG_II_2024.pdf",
+      "local_file": "research/tax-round2/sources/dgb-jstgII-refe-20240719.pdf",
+      "role": "author-original consultation response",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "bmf-jstgII-dossier",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/20_Legislaturperiode/2024-07-20-JStG-II-2024/0-Gesetz.html",
+      "locator": "Stellungnahmen zum Referentenentwurf, Deutscher Gewerkschaftsbund",
+      "role": "official consultation provenance",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "bfh-vr6017-2019",
+      "url": "https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE201910035/",
+      "pdf_url": "https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/pdf/STRE201910035?type=1646225765",
+      "local_file": "research/tax-round2/sources/bfh-vr6017-official.pdf",
+      "role": "primary court judgment,10 January 2019",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "bfh-vr1420-2020",
+      "url": "https://www.attac.de/fileadmin/user_upload/Kampagnen/jetzt-erst-recht/210127_Zurueckweisung_Revision_BFH.pdf",
+      "local_file": "research/tax-round2/sources/bfh-vr1420-attac-mirror.pdf",
+      "role": "Primary court-decision copy hosted by the litigant; 10 December 2020",
+      "locator": "Physical PDF pages 8–15, especially 11–13. No exact quotations are taken from unverified OCR.",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "jstgII-refe-20240710-1056",
+      "url": "https://www.ihk.de/blueprint/servlet/resource/blob/6209744/9ad17bcd0978e73c5593d28b15b8e482/referentenentwurf-jahressteuergesetz-2024-ii-data.pdf",
+      "local_file": "research/tax-round2/sources/jstgII2024-refe-20240710-1056.pdf",
+      "role": "Primary draft copy hosted by the IHK",
+      "retrieved_at": "2026-10-24"
+    }
+  ],
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "energy_hearings_ai",
+        "date": "2026-10-24",
+        "outcome": "retain_unresolved_lead",
+        "review_file": "research/reviews/energy-reviews-dgb-attac.json",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "First recorded as an unresolved source-description lead after reading the full 2019 judgment and the 2020 follow-up; independent interpretation review requested.",
+      "by": "tax_consultations_ai"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Independent adversarial AI review retained unresolved because literal partisan-inference reading is natural but evaluative party-finance gloss remains possible.",
+      "by": "energy_hearings_ai"
+    }
+  ]
+}

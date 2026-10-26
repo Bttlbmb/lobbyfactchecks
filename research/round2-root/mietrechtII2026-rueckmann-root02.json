@@ -1,0 +1,111 @@
+{
+  "id": "mietrechtII2026-rueckmann-root02",
+  "law_id": "mietrechtII-2026",
+  "document_id": "rueckmann-mietrechtII-20261012",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Changing short-term rentals,furnishing surcharges,index-linked rent increases and termination protections.",
+    "they_want": "Replace the proposed stepped index-rent formula with a lower absolute limit.",
+    "they_claim": "Destatis data and calculators concern calendar years,creating problems for rental periods that start within a year.",
+    "the_problem": "Destatis provides monthly indices and its dated calculator manual expressly supports flexible starting and ending periods."
+  },
+  "claim_quote": {
+    "original": "da die entsprechenden Daten und Rechner von Destatis sich auf Kalenderjahre beziehen.",
+    "language": "de",
+    "translation_en": "Translation: because the corresponding data and calculators from Destatis relate to calendar years.",
+    "locator": {
+      "pdf_page": 10,
+      "printed_page": 8,
+      "author_page": 8,
+      "section": "C.Indexmieterhöhung3%+½,Bewertung/Alternativen",
+      "paragraph": "second paragraph,last clause"
+    },
+    "underline": "sich auf Kalenderjahre beziehen"
+  },
+  "request_quote": {
+    "original": "Die Begrenzung sollte absolut und niedriger angesetzt sein.",
+    "language": "de",
+    "translation_en": "Translation: The limit should be absolute and set lower.",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": 2,
+      "author_page": 2,
+      "section": "Zusammenfassung in Stichpunkten",
+      "bullet": "second bullet on this page,index-rent provision"
+    }
+  },
+  "counter_quote": {
+    "original": "Veränderungsraten für Kalendermonate und -jahre (mit flexiblen Anfangs- und Endzeitpunkten)",
+    "language": "de",
+    "translation_en": "Translation of fragment: rates of change for calendar months and years(with flexible starting and ending points)",
+    "source_id": "destatis-wertsicherung-manual-202401",
+    "locator": {
+      "pdf_page": 55,
+      "printed_page": 55,
+      "section": "Serviceangebote zu Wertsicherungsklauseln",
+      "paragraph": "first bullet,describing the interactive programme"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Destatis supplies monthly consumer-price indices as well as annual averages. Its January2024manual,well before this hearing,states that the interactive programme calculates changes for calendar months and years with flexible start/end points; page48demonstrates a May2020–October2022comparison. The data and existing calculation aid are therefore not confined to calendar-year rental periods.",
+  "effect": "Removes the claimed calendar-year limitation as a reason why the proposed formula is especially difficult for tenancy periods beginning within a year. That premise supports the request for a simpler absolute cap.",
+  "limits": "This does not establish that the new statutory formula is simple,accessible or already implemented in the existing calculator. The draft itself expects programmes to be adapted. Applying annual thresholds and pro-rata rules can require additional calculations; daily index data are not established here. Broader access,complexity and policy concerns remain open. No intent is inferred.",
+  "context_and_alternatives": [
+    "Read all14physicalpages,including correct description of the stepped formula on physical9and lower-cap request on physical10. The isolated typographical bill reference21/6087is not treated as a separate finding.",
+    "Strongest benign reading: the author may mean that existing tools cannot yet implement the new stepped/pro-rata legal rule,or that calendar-month inputs do not resolve every possible rental date. Those are distinct issues. The express reason given is that Destatis data/calculators relate to calendar years,while the dated manual explicitly includes monthly flexible periods.",
+    "ExactBT21/6807physical18describes anticipated adaptation of existing programmes; physical25explains that each year need not be a calendar year and that incomplete years are considered by complete months. Do not claim the current programme already performs the proposed legal calculation.",
+    "The alleged absence of a calculator in the future is not proved false; the finding is limited to the described scope of already available data and calculation aid."
+  ],
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete",
+    "version": "BT21/6807,1July2026",
+    "source_id": "mietrechtII-bt216807",
+    "submission_date": "2026-10-12",
+    "relevant_provision": "Article1number9,proposed§557b(4)BGB; memorandum physical18and25",
+    "version_check": "Official hearing cover identifiesBT21/6807and the statement accurately quotes its3%plus-half-excess formula. The earlier3.5%consultation cap is not substituted."
+  },
+  "materiality_explanation": "Minor editorial judgment: corrects a concrete supporting explanation about available tools,not the policy judgment that a stepped formula is too complex or its proposed replacement. The dated guidance directly contradicts the calendar-year restriction but does not settle practical usability.",
+  "direction_explanation": "True: making the official calculation aid appear unavailable for non-calendar-year periods strengthens the complexity argument for an absolute cap. The correction is limited and does not establish the best policy.",
+  "confidence": {
+    "text_source_mismatch": "high for the calendar-year-only implication; no finding about complete implementation of the proposed law",
+    "materiality": "editorial_judgment"
+  },
+  "submission_source_id": "rueckmann-mietrechtII-20261012",
+  "source_ids": [
+    "rueckmann-mietrechtII-20261012",
+    "destatis-wertsicherung-manual-202401",
+    "destatis-wertsicherung-information",
+    "mietrechtII-bt216807"
+  ],
+  "verification": {
+    "visual": "Statementphysical4and10and primarymanual55rendered and visually read; manual48and bill18read in extracted text."
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "energy_hearings_independent_ai",
+        "date": "2026-10-25",
+        "outcome": "retain_provisional_minor_true",
+        "review_file": "research/round2-reviews/energy-reviews-rueckmann-calculator.json",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full submission,exact bill and dated official calculator guidance comparison. Independent review requested.",
+      "by": "root_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent energy-agent review of full statement,bill18/25and datedmanual48/55retained narrow minor/true; future programme adaptation limitation preserved.",
+      "by": "root_ai_screen"
+    }
+  ]
+}

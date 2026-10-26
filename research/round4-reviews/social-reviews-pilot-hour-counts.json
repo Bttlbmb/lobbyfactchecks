@@ -1,0 +1,162 @@
+{
+  "reviewer": "social_round2 independent counting audit",
+  "created_at_utc": "2026-10-25T06:14:18.410222+00:00",
+  "baseline_file": "research/round4/baseline/screening-pool.json",
+  "baseline_sha256": "bbca6fb012fcd387bf6e96d0a9b938f5a9bc6ab0608187036c6c4498bbf4753e",
+  "current_file": "data/screening-pool.json",
+  "current_sha256": "3a43c00300d69b0f1b52e75bdd10d5b260aad8155cdfe394d1fb4da651fe5c1f",
+  "baseline_units": 565,
+  "current_units": 626,
+  "added_ids": 61,
+  "removed_ids": 0,
+  "pilot_documents": [
+    {
+      "branch": "root",
+      "author": "BVE",
+      "register_id": "SG2608130020",
+      "local_pdf": "research/round3-root/coverage/register-pdfs/SG2608130020.pdf",
+      "sha256": "54a871e5cb6b223996ebb1794080941e9694555f8a7b9031a78cb9440688e2d4",
+      "pilot_evidence_file": "research/targeted-expansion/root-triage-notes.json",
+      "pilot_log_locator": "/records/0",
+      "absent_from_baseline_by_binary": true,
+      "merged_rows": [
+        "bve-eudr-20260727"
+      ],
+      "current_reading_depths": {
+        "bve-eudr-20260727": "selected_passages"
+      },
+      "pilot_is_one_distinct_binary": true
+    },
+    {
+      "branch": "root",
+      "author": "BAG-SB",
+      "register_id": "SG2610230013",
+      "local_pdf": "research/round3-root/coverage/register-pdfs/SG2610230013.pdf",
+      "sha256": "c388a8b6e67f7be994268576c04cc473889a20d2855a94d20f36852e93e24599",
+      "pilot_evidence_file": "research/targeted-expansion/root-triage-notes.json",
+      "pilot_log_locator": "/records/1",
+      "absent_from_baseline_by_binary": true,
+      "merged_rows": [
+        "bagsb-insverwalter-20261023"
+      ],
+      "current_reading_depths": {
+        "bagsb-insverwalter-20261023": "selected_passages"
+      },
+      "pilot_is_one_distinct_binary": true
+    },
+    {
+      "branch": "energy",
+      "author": "RWE",
+      "register_id": "SG2610230021",
+      "local_pdf": "research/round3-root/coverage/register-pdfs/SG2610230021.pdf",
+      "sha256": "a9447d2df431815919d239f3a6b32d3650cc8d041adeab6dc451d51962823236",
+      "pilot_evidence_file": "research/targeted-expansion/energy-leads.json",
+      "pilot_log_locator": null,
+      "absent_from_baseline_by_binary": true,
+      "merged_rows": [
+        "energy-round4-sg2610230021"
+      ],
+      "current_reading_depths": {
+        "energy-round4-sg2610230021": "full_submission"
+      },
+      "pilot_is_one_distinct_binary": true
+    },
+    {
+      "branch": "energy",
+      "author": "GDA",
+      "register_id": "SG2610130043",
+      "local_pdf": "research/round3-root/coverage/register-pdfs/SG2610130043.pdf",
+      "sha256": "1a91eba9ceafb39ece498cefb110e6db0024f20ac6599375b84f0bd9b9eaf127",
+      "pilot_evidence_file": "research/targeted-expansion/energy-leads.json",
+      "pilot_log_locator": null,
+      "absent_from_baseline_by_binary": true,
+      "merged_rows": [
+        "energy-round4-sg2610130043"
+      ],
+      "current_reading_depths": {
+        "energy-round4-sg2610130043": "full_submission"
+      },
+      "pilot_is_one_distinct_binary": true
+    },
+    {
+      "branch": "energy",
+      "author": "MIBRAG",
+      "register_id": "SG2610190007",
+      "local_pdf": "research/round3-root/coverage/register-pdfs/SG2610190007.pdf",
+      "sha256": "893b5f809d8ba6c6cfeba113de750d81409aed17cea44ec570787c13bc8df1e0",
+      "pilot_evidence_file": "research/targeted-expansion/energy-leads.json",
+      "pilot_log_locator": null,
+      "absent_from_baseline_by_binary": true,
+      "merged_rows": [
+        "energy-round4-sg2610190007"
+      ],
+      "current_reading_depths": {
+        "energy-round4-sg2610190007": "full_submission"
+      },
+      "pilot_is_one_distinct_binary": true
+    },
+    {
+      "branch": "tax",
+      "author": "BSI",
+      "register_id": "SG2610070020",
+      "local_pdf": "research/round3-root/coverage/register-pdfs/SG2610070020.pdf",
+      "sha256": "c9073d7448644d17881888b94d35aff90a27c4de914451a20abc7dcdd0af0daf",
+      "pilot_evidence_file": "research/targeted-expansion/tax-leads.json",
+      "pilot_log_locator": null,
+      "absent_from_baseline_by_binary": true,
+      "merged_rows": [
+        "bsi-alcoholtax-20260907"
+      ],
+      "current_reading_depths": {
+        "bsi-alcoholtax-20260907": "full_submission"
+      },
+      "pilot_is_one_distinct_binary": true
+    },
+    {
+      "branch": "tax",
+      "author": "joint plastics associations",
+      "register_id": "SG2610060025",
+      "local_pdf": "research/round3-root/coverage/register-pdfs/SG2610060025.pdf",
+      "sha256": "285bbf292e32810b0d4315af88f169a238808fddc4e66d5dfd569a4b01e2fd6c",
+      "pilot_evidence_file": "research/targeted-expansion/tax-leads.json",
+      "pilot_log_locator": null,
+      "absent_from_baseline_by_binary": true,
+      "merged_rows": [
+        "round4-root-plastics-joint"
+      ],
+      "current_reading_depths": {
+        "round4-root-plastics-joint": "full_submission"
+      },
+      "pilot_is_one_distinct_binary": true
+    },
+    {
+      "branch": "social",
+      "author": "SVDGV",
+      "register_id": null,
+      "local_pdf": "research/round3-social/coverage-pdfs/0b68365ef906bb5288.pdf",
+      "sha256": "6b059e094166bdeff14fda8ebdb07f8eb50329f2e4422d6cfbe3e90176866516",
+      "pilot_evidence_file": "research/targeted-expansion/social-leads.json",
+      "pilot_log_locator": "/candidates/0",
+      "absent_from_baseline_by_binary": true,
+      "merged_rows": [
+        "svdgv-gedig-20261012"
+      ],
+      "current_reading_depths": {
+        "svdgv-gedig-20261012": "full_submission"
+      },
+      "pilot_is_one_distinct_binary": true
+    }
+  ],
+  "distinct_pilot_binary_count": 8,
+  "pilot_merged_unit_count": 8,
+  "all_eight_absent_baseline_and_present_once": true,
+  "all_pilot_rows_among_new_admissions": true,
+  "other_new_admissions_excluding_earlier_pilot": 53,
+  "counting_verdict": "The increase includes eight documents actually read or selected during the earlier short lead-selection pilot. Later full reads, source checks or repeat independent reviews of those same versions do not make them eight new documents first discovered during the timed hour.",
+  "safe_wording": "The documented pool increased by 61 units in this update, including eight earlier pilot reads; 53 other units were newly admitted. Do not describe all 61 as submissions first screened during the additional hour.",
+  "limits": [
+    "Binary identity and current merged rows checked directly. This audit does not independently prove exact first-read times for every other added document; some ledgers record a date rather than an exact timestamp.",
+    "Pilot reading depth and current deepest reading depth are distinct. Rechecks and depth upgrades count once.",
+    "This is targeted-pool accounting, not an eligible-window denominator or an error-prevalence sample."
+  ]
+}

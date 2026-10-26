@@ -1,0 +1,36 @@
+{
+  "status": "research_only_unverified_provenance_no_error_established",
+  "document_id": "tabak-bvte",
+  "register_id": "SG2610050008",
+  "identity": "Same authored body as existing root-tabak-BVTE; register10-page reflow does not create a new submission. Existing16-page hearing package includes a six-page DIW Econ appendix not read in this pass.",
+  "read_extent": "All ten author-body pages in register copy; selected original bill financial tables and financial-plan context.",
+  "tested_claim": "Cumulative2002–2005 receipts8.4billionEUR below original BMF expectations.",
+  "checks": [
+    {
+      "source": "Author physical6 table",
+      "result": "Printed rounded annual shortfalls1.0+1.1+2.8+3.5 do sum8.4. No internal addition error."
+    },
+    {
+      "source": "BT14/7062,14/7332,15/1313,15/1726",
+      "result": "Cited original reform documents supply incremental-revenue estimates, not the complete total-receipt forecast series in the author table. Reconstructing totals requires an independently dated baseline. The original sources are archived; selected financial tables only were read."
+    },
+    {
+      "source": "BT14/9751 physical68, May2002 estimate",
+      "result": "Forecasts13.1/13.5/13.8/13.9billionEUR for2002–2005 differ from author table, but a later revision does not disprove an earlier original forecast or synthetic estimate. This is not treated as a contradiction sufficient for a finding."
+    },
+    {
+      "source": "Original RIVM2025-0084 publication page and RIVM release",
+      "result": "The over60% Netherlands foreign-purchases description is supported by the primary release; no purchaser-versus-consumed-volume error identified. Full report not read."
+    }
+  ],
+  "open_requirement": "Authenticate the original forecast vintage and base used for each column, and distinguish tax-plan marginal revenue, total revenue forecast and actual receipts before judging attribution.",
+  "limits": "A forecast miss is not itself an error in a submission, nor proof that the tax change caused all the shortfall. No new finding and no major-case promotion.",
+  "existing_issue_not_new": "tabstaendg2026-bvte-root01 elasticity-sign issue remains a separately recorded earlier minor finding.",
+  "access_limits": "BMF May2002 report direct fetch returned503; no successful local PDF archive asserted.",
+  "independent_review": "research/round4-reviews/tax-reviews-bvte-forecast-vintages.json",
+  "later_disposition": {
+    "record": "research/round4-tax/tabstaendg2026-bvte-forecast-tax-r4-03.json",
+    "state": "unresolved_lead",
+    "reason": "Late exact reconstruction of all six annual gaps from the entire cited marginal revenue estimates supplies a specific source-category lead beyond unverified provenance alone. Original total forecast vintage still unverified; no promotion to finding."
+  }
+}

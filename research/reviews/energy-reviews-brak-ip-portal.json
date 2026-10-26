@@ -1,0 +1,43 @@
+{
+  "review_id": "energy-reviews-brak-ip-portal-20261024",
+  "date": "2026-10-24",
+  "reviewer": "energy_hearings_ai_agent",
+  "document_id": "brak-ip-2026-07",
+  "candidate_id": null,
+  "independence": "Independent adversarial review of parent’s lead; no specialist legal or technical review, no author contact.",
+  "recommendation": "retain_unresolved_lead_only",
+  "checks": [
+    {
+      "topic": "Primary original and surrounding context",
+      "result": "Independently located the author’s official thirteen-page response through BRAK’s own linked publication and read the original relevant pages 4–9, especially the entire provider-storage discussion on pages 5–7. Page 5 expressly describes Internet providers each creating and maintaining the separate storage inventory. That nearby acknowledgment makes it unsafe to read the later singular central portal as an unequivocal assertion of one national government database."
+    },
+    {
+      "topic": "Exact draft requirements",
+      "result": "Read the archived draft’s section 176 on physical pages 12–13 and explanations on pages 51 and 54. It assigns storage to Internet-access providers, requires separation from their other end-user data, and specifies disclosure through an established secure interface or email. Those affirmative provisions contradict a mandatory national database interpretation. However a provider could organise its own separate database and access interface centrally; the draft does not exclude such an implementation. Missing portal terminology alone therefore does not prove the quoted sentence false."
+    },
+    {
+      "topic": "Request linkage and materiality",
+      "result": "The sentence expressly supports statutory minimum technical standards because of attack risk. Centralised provider datasets can also present such risk. Consequently even a correction of national-versus-provider scope would not eliminate the requested security-standard argument. Do not turn a plausible architectural imprecision into a proved objection to security safeguards."
+    },
+    {
+      "topic": "Version precision",
+      "result": "The local draft named ip-speicherung-refe-202512.pdf has 61 physical pages, not 59. Its printed/physical page 12–13, 51 and 54 locators do match. Please correct page-count metadata while preserving the exact December consultation version rather than the later April government version."
+    },
+    {
+      "topic": "Official ministry member comparison",
+      "result": "Compared the thirteen-page official ministry ZIP member brak-ip-ministry-202601.pdf with the author-hosted version on relevant physical pages 4–7. The eighteen-year paragraph, central-portal sentence and adjacent provider-inventory acknowledgment are textually identical after ordinary layout whitespace normalisation. Other page differences shown by extraction are whitespace/line-break artefacts; no whole-file binary identity is asserted. Reviewer lists differ as parent documented."
+    }
+  ],
+  "required_changes_if_recorded": [
+    "Mark unresolved_lead and preserve the provider-central-portal alternative.",
+    "Avoid saying the author explicitly claimed a nationwide or government-operated central database; neither qualifier appears in the disputed phrase.",
+    "Use 61 physical pages for the archived draft file."
+  ],
+  "chronology_lead": "The separate eighteen-year statement is being checked by parent and is not adjudicated in this portal review.",
+  "new_quotations_reproduced": false,
+  "sources_independently_opened": [
+    "https://www.brak.de/fileadmin/05_zur_rechtspolitik/stellungnahmen-pdf/stellungnahmen-deutschland/2026/stellungnahme-der-brak-2026-07.pdf"
+  ],
+  "specialist": null,
+  "author_response": []
+}

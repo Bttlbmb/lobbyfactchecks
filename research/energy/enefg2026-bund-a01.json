@@ -1,0 +1,154 @@
+{
+  "id": "enefg2026-bund-a01",
+  "law_id": "enefg-2026",
+  "document_id": "bund-enefg-2026",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "An ongoing bill revising German energy-efficiency duties, including allowable total-to-IT energy ratios for datacentres.",
+    "they_want": "Reject and substantially improve the draft, preserving stronger efficiency requirements.",
+    "they_claim": "Increasing the allowed PUE ratio by 0.1 permits 10% more total electricity use.",
+    "the_problem": "The 0.1-to-10% conversion is not a general ratio identity. Under a fixed energy mix, the addressed changes imply about 6.7–8.3%; missing energy-carrier detail prevents proving the actual electricity assertion false."
+  },
+  "claim_quote": {
+    "original": "Dies bedeutet, dass bezogen auf den Gesamtverbrauch 10% mehr Strom eingesetzt werden kann",
+    "language": "de",
+    "translation_en": "Translation: This means that, relative to total consumption, 10% more electricity can be used",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 3,
+      "section": "Anforderungen an Rechenzentren",
+      "paragraph": "first"
+    },
+    "underline": "bezogen auf den Gesamtverbrauch 10%"
+  },
+  "counter_quote": {
+    "original": "Verhältnis des jährlichen Energiebedarfs des gesamten Rechenzentrums zum Energiebedarf der Informationstechnik",
+    "language": "de",
+    "source_id": "enefg-draft-2026-04-09",
+    "locator": {
+      "pdf_page": 6,
+      "printed_page": 6,
+      "section": "Article 1, proposed § 3 number 11 EnEfG"
+    },
+    "retrieved_at": "2026-10-24",
+    "translation_en": "Translation: ratio of the entire datacentre’s annual energy demand to the energy demand of the information technology"
+  },
+  "request_quote": {
+    "original": "inakzeptabel und muss grundlegend nachgebessert werden",
+    "language": "de",
+    "translation_en": "Translation of request fragment: unacceptable and must be fundamentally improved",
+    "locator": {
+      "pdf_page": 1,
+      "printed_page": 1,
+      "paragraph": "last sentence"
+    }
+  },
+  "correction": "Conditional arithmetic: PUE is total facility energy divided by IT energy. With fixed IT demand, raising PUE from p to p+0.1 changes total energy by 0.1/p. Existing-site limits 1.5→1.6 and 1.3→1.4 imply 6.67% and 7.69%; the new-site limit 1.2→1.3 implies 8.33%. These become electricity percentages only with a fixed energy mix. More generally, electricity change equals 0.1 times IT energy minus the change in non-electric energy. The wording therefore does not establish a general 10%-of-total ratio conversion, but missing carrier information prevents a proven correction to actual electricity use.",
+  "effect": "If the electricity comparison assumes fixed IT demand and a fixed energy mix, the stated 10% overstates the relative allowance and would strengthen opposition to relaxation. Without the carrier assumptions, no actual electricity overstatement or corrected sector forecast is established.",
+  "limits": "Unresolved lead, not a proven error in actual electricity use. The legal PUE definition concerns total energy, whereas the submission expressly says electricity. With fixed IT energy I, a 0.1 PUE change means total-energy change 0.1I; electricity change is 0.1I minus the change in non-electric energy. Thus electricity can change differently from total energy. Under a fixed carrier mix, the ratio calculation gives 6.7–8.3%, but the submission does not supply enough carrier detail to prove that assumption. The alternative 10%-of-IT reading remains possible shorthand despite its stated total-consumption wording. Actual sector use also depends on load, compliance, facility mix and capacity. The related 100 TWh illustration and cost extrapolation do not establish a corrected forecast or affected cohort. Missing carrier evidence is not proof of an error.",
+  "confidence": {
+    "text_source_mismatch": "medium",
+    "materiality": "editorial_judgment"
+  },
+  "materiality": "Minor if confirmed: the fixed-mix comparison changes the relative allowance by about 1.7–3.3 percentage points, while its sign and the policy case remain. Carrier scope is unresolved and no numerical overestimate in actual electricity or cost is established.",
+  "direction_reasoning": "A larger proportional electricity allowance makes the proposed relaxation appear more harmful, supporting the expressly requested rejection and fundamental improvement. No intent inferred.",
+  "draft": {
+    "title": "Gesetz zur Beschleunigung der Umsetzung der Energieeffizienzrichtlinie",
+    "version_date": "2026-04-09",
+    "source_id": "enefg-draft-2026-04-09",
+    "submission_date": "2026-04-17",
+    "comparison": "Submission cover identifies 9 April 2026 draft. Exact 79-page version checked. Proposed § 11(1)–(2) on page 13 contains bracketed [1.6], [1.4], [1.3]; existing limits 1.5, 1.3, 1.2 are the pre-amendment law. No substitution of the June Cabinet draft."
+  },
+  "calculation": {
+    "definition": "E_total=PUE×E_IT",
+    "fixed_IT_baseline": 100,
+    "units": "arbitrary electricity units; values scale linearly",
+    "cases": [
+      {
+        "scope": "existing sites 2027",
+        "old_PUE": 1.5,
+        "draft_PUE": 1.6,
+        "old_total": 150,
+        "draft_total": 160,
+        "increase_percent_of_old_total": 6.6666666667
+      },
+      {
+        "scope": "existing sites 2030",
+        "old_PUE": 1.3,
+        "draft_PUE": 1.4,
+        "old_total": 130,
+        "draft_total": 140,
+        "increase_percent_of_old_total": 7.6923076923
+      },
+      {
+        "scope": "new sites",
+        "old_PUE": 1.2,
+        "draft_PUE": 1.3,
+        "old_total": 120,
+        "draft_total": 130,
+        "increase_percent_of_old_total": 8.3333333333
+      }
+    ],
+    "illustration_only": "If 100 TWh means total atPUE 1.2, identical IT activity atPUE 1.3 uses 108.33 TWh, an 8.33 TWh increment. If 100 TWh instead means total atPUE 1.3, moving to 1.2 saves 7.69 TWh. Neither is a new sector forecast."
+  },
+  "context_checks": [
+    "Read all 4 pages, rendered page 3. Paragraph directly links 0.1 PUE threshold change to total-electricity 10%, then 100 TWh/10 TWh illustration; p 4 links this to annual cost.",
+    "Distinguished absolute PUE point change from percentage relative to total. The alternative IT-denominator reading produces 10% but conflicts with the express denominator.",
+    "Verified exact draft page 6 definition and page 13 thresholds.",
+    "The submission cites Netzentwicklungsplan 2025 (2037/2045) without edition, page, scenario or link. A contemporaneous primary scenario framework approved 30 April 2025 includes server and cooling electricity (p 36), describes additional project demand around 80–115 TWh (p 37), and gives 78.4/97.3/116.2 TWh in both 2037 and 2045 (table 9, p 38). Thus about 100 TWh is a rough matching scenario value, not pure IT electricity; the submission calls it all-datacentre consumption. Edition and cohort cannot be conclusively matched. The finding does not depend on choosing a corrected sector forecast.",
+    "The adjacent claimed non-IT operating/cooling increase range also fails to use one consistent denominator: fixed-IT calculations at the addressed old limits give 20%, 33.3% and 50%. That related concern is not counted separately. Its understatement for new sites would run against the author’s request; favours_author_request=true here concerns only the explicitly quoted 10%-of-total overstatement, not every number in the paragraph. The Blue Angel 1.25-from-2024 shorthand matches table 2 of the primary 2023 criteria for the commissioning cohort, so was not treated as another error.",
+    "Late independent follow-up distinguished total energy from electricity. This supersedes the earlier favourable provisional review: the relative-energy identity alone cannot prove actual electricity use overstated without carrier assumptions."
+  ],
+  "source_ids": [
+    "bund-enefg-2026",
+    "enefg-draft-2026-04-09",
+    "bund-enefg-register-process-2026",
+    "nep-scenario-approval-2025",
+    "enefg-current-law-section11",
+    "enefg-ministry-consultation-archive-2026"
+  ],
+  "provenance_limit": "Primary submission extracted from the official BMWE consultation ZIP and verified byte-identical to the archived mirror PDF; see research/energy/sources/enefg-official-archive-comparison.json. No separate BUND Lobbyregister SG attachment located; this remains ministry-consultation-origin.",
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "tax_consultations_ai_agent",
+        "date": "2026-10-24",
+        "file": "research/reviews/tax-reviews-energy.json",
+        "status": "provisional_finding_retained"
+      }
+    ],
+    "late_adjudication": {
+      "date": "2026-10-24",
+      "reviewers": [
+        "root_ai_agent",
+        "tax_consultations_ai_agent"
+      ],
+      "outcome": "downgrade_unresolved_minor_null",
+      "file": "research/reviews/tax-reviews-energy.json"
+    }
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "first recorded pending independent adversarial review",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Official ministry ZIP copy verified byte-identical to archived submission; provenance strengthened. Independent review references updated.",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Downgraded to unresolved lead, minor/direction null, after independent follow-up identified total-energy versus electricity-carrier scope. Earlier fixed-mix arithmetic and favourable review preserved as history, not proof of actual-electricity overstatement.",
+      "by": "energy_hearings_ai_screen"
+    }
+  ],
+  "potential_favours_author_request": true,
+  "direction_explanation": "Null while unresolved: a confirmed overestimate under fixed IT and a fixed carrier mix would favour the author’s request, but the direction of any actual-electricity error is not established."
+}

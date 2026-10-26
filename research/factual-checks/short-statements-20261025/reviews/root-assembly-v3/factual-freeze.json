@@ -1,0 +1,36 @@
+{
+  "frozen_at_utc": "2026-10-25T22:24:16.104330+00:00",
+  "scope": "Completed factual batch; final integration audit and parent active-research duration remain separately gated.",
+  "files": [
+    {
+      "file": "research/factual-checks/short-statements-20261025/protocol.json",
+      "sha256": "305254e5b21439b5dc4b3c682a586f17f81fa7df0bed85c080f8b047effee186"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/adjudication.json",
+      "sha256": "a17e3c0a3f537a857c3eee12f1aa972a6b1e575bd11895ea625d37e2acf331c9"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/assembly-manifest.json",
+      "sha256": "9d51a14687215215863bc15a0684d70b3c1b8f509c502a9c6bfb4e3cae7e4548"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+      "sha256": "772b9cadb8161a3e9fdd5d9d8bd3bf9dd79971ff42109f61ba182425d15abcfb"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/summary.json",
+      "sha256": "3005f2e9bbd817156a3174b002224c2222991c5bf6681fe8aae36c939edb45b4"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/validation-report.json",
+      "sha256": "e34792163522c7c31e620c9cb9ed9980f7b0d573f556d726396f00db9db49c4c"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/root-visual-anchor-checks.json",
+      "sha256": "9c1d283f7b09e24827257ebbd422a7cccc0d2ac64cd3536e479376de9c7930cf"
+    }
+  ],
+  "supersedes": "research/factual-checks/short-statements-20261025/reviews/root-assembly-v2-freeze.json",
+  "revision_reason": "Exact earlier root snapshot preserved; current version corrects provenance/prose, clarifies source counts/access time and incorporates independent price followup. Raw agent/peer files and result counts unchanged."
+}

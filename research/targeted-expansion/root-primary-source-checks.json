@@ -1,0 +1,25 @@
+{
+  "status": "initial_primary_source_screen",
+  "checks": [
+    {
+      "lead_id": "energy-selection-rwe-prognos-pv",
+      "source_url": "https://www.bdew.de/media/documents/Vorwort_und_Kurzbericht.pdf",
+      "primary_source": "BDEW foreword and Prognos September2026 report,52physicalpages",
+      "extent": "Selected foreword, methods and PV results passages only, not full report. Physical pages2,12,17,38–40 and source-discovery passages.",
+      "result": "The up-to30% PVground LCOE increase and13.2/14.5EUR/MWh gaps over59EUR/MWh occur in the original source and match the selected figures. The proposed cap is a policy request; model disagreement is not evidence of misquotation.",
+      "disposition": "deprioritise_numerical_source_mismatch",
+      "limits": "Exact AgNes timing and exact bill comparison not adjudicated here."
+    },
+    {
+      "lead_id": "energy-selection-gda-ashrae-loadpoints",
+      "source_url": "https://store.accuristech.com/ashrae/standards/ashrae-90-4-2022?product_id=2524333",
+      "primary_source": "ASHRAE official store description indexed by search",
+      "extent": "Publisher description discovery only; direct open returned403. Full standard and addenda not read.",
+      "result": "Publisher description explicitly identifies the four25/50/75/100% electrical-load breakpoints as making electrical and mechanical metrics congruent. This is affirmative evidence for a benign reading and weakens priority.",
+      "disposition": "deprioritise_pending_any_specific_contrary_primary_evidence",
+      "limits": "Not a complete technical-standard validation; does not certify every proposed policy comparison."
+    }
+  ],
+  "issue_count_change": 0,
+  "author_intent_inference": false
+}

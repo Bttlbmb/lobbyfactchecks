@@ -1,0 +1,55 @@
+{
+  "pilots": [
+    {
+      "id": "kltgv-2026-factual-pilot",
+      "status": "complete",
+      "documents": 7,
+      "author_pages": 35,
+      "claims": 111,
+      "outcomes": {
+        "supported": 75,
+        "unresolved": 35,
+        "overstated": 1
+      },
+      "new_reading_units": 0,
+      "summary": "research/factual-pilot/summary.json",
+      "ledger": "research/factual-pilot/claim-ledger.json",
+      "report": "research/factual-pilot/report.html"
+    },
+    {
+      "id": "behg-2026-factual-checks",
+      "status": "complete",
+      "documents": 9,
+      "author_pages": 60,
+      "pdf_pages": 60,
+      "page_scope": "Physical PDF pages, including committee covers and appendices where present.",
+      "claims": 194,
+      "outcomes": {
+        "unresolved": 70,
+        "supported": 123,
+        "overstated": 1
+      },
+      "new_reading_units": 0,
+      "summary": "research/factual-checks/behg-2026/summary.json",
+      "ledger": "research/factual-checks/behg-2026/claim-ledger.json",
+      "report": "research/factual-checks/behg-2026/report.html"
+    },
+    {
+      "id": "netzkosten-2026-factual-checks",
+      "status": "complete",
+      "documents": 21,
+      "author_pages": 71,
+      "pdf_pages": 71,
+      "page_scope": "Physical PDF pages, including committee covers and appendices where present.",
+      "claims": 194,
+      "outcomes": {
+        "supported": 145,
+        "unresolved": 49
+      },
+      "new_reading_units": 0,
+      "summary": "research/factual-checks/netzkosten-2026/summary.json",
+      "ledger": "research/factual-checks/netzkosten-2026/claim-ledger.json",
+      "report": "research/factual-checks/netzkosten-2026/report.html"
+    }
+  ]
+}

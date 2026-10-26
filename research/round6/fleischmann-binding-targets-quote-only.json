@@ -1,0 +1,123 @@
+{
+  "id": "behg2026-fleischmann-binding-targets-energy-r3-01",
+  "law_id": "behg-2026",
+  "document_id": "bt-environment-1222442",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Extending the national fuel-emissions trading transition arrangements through 2027.",
+    "they_want": "Abolish the BEHG national emissions-trading law.",
+    "they_claim": "Only the EU, apart from Norway and Iceland, has imposed binding emission reductions on itself and its members.",
+    "the_problem": "The UK has a statutory 2050 net-zero duty, but the surrounding Paris/effort-sharing discussion could implicitly restrict the claim to internationally binding obligations. That scope question remains unresolved."
+  },
+  "claim_quote": {
+    "original": "nur die EU",
+    "language": "de",
+    "translation_en": "Translation: only the EU",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": 1,
+      "section": "1. Wie sinnvoll sind nationale Ziele zur Emissionsreduktion?",
+      "paragraph": "Paragraph beginning with the Paris two-degree target."
+    },
+    "underline": "nur die EU"
+  },
+  "request_quote": {
+    "original": "Das BEHG sollte abgeschafft werden.",
+    "language": "de",
+    "translation_en": "Translation: The BEHG should be abolished.",
+    "locator": {
+      "pdf_page": 8,
+      "printed_page": 7,
+      "section": "9. Fazit"
+    }
+  },
+  "counter_quote": {
+    "original": "It is the duty of the Secretary of State to ensure",
+    "source_id": "uk-climatechangeact-section1-energy-r3",
+    "locator": {
+      "section": "Climate Change Act2008,section1(1), as amended in2019"
+    },
+    "retrieved_at": "2026-10-25",
+    "language": "en"
+  },
+  "correction": "On a domestic-law reading, the exclusive-country description is too broad: UK section 1 requires its net carbon account for 2050 to be at least 100 percent below its 1990 baseline. The 2019 amendment replaced 80 percent with 100 percent and commenced June 27, 2019. This is a domestic statutory duty; it is not a new internationally enforceable Paris emissions-result obligation.",
+  "effect": "If the author includes domestic legislation, acknowledging this counterexample weakens the picture that binding self-imposed reductions are confined to the EU-related group. It does not overturn the argument that other large emitters have different commitments.",
+  "limits": "The immediately preceding discussion distinguishes the Paris Agreement from EU effort-sharing obligations, creating a credible implicit international-law scope. The UK domestic duty does not refute that narrower meaning. No claim about achieved UK reductions, enforcement outcomes, gross versus net accounting, climate sensitivity or whether BEHG abolition is desirable. No intent inference.",
+  "confidence": {
+    "text_source_mismatch": "scope_dependent",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "source_id": "behg-bt217869",
+    "url": "https://dserver.bundestag.de/btd/21/078/2107869.pdf",
+    "local_file": "research/round3-energy/sources/bt217869-behg.pdf",
+    "version": "Government bill printed September 7, 2026, expressly addressed by author October 5.",
+    "read_extent": "Cover and selected operative physical 9–11 / explanation 21–22, not full bill."
+  },
+  "sources": [
+    {
+      "id": "fleischmann-behg20261005",
+      "source_type": "official_hearing_submission",
+      "url": "https://www.bundestag.de/resource/blob/1222442/Stellungnahme-Fleischmann.pdf",
+      "local_file": "research/round3-energy/sources/submissions/bt-environment-1222442.pdf",
+      "sha256": "16171e921a88ff950fb5cf7e4ac9587dd4bd148590c3642d7dfbf5771413e475",
+      "read_extent": "All nine physical pages including cover; full eight-page authored statement read."
+    },
+    {
+      "id": "uk-climatechangeact-section1-energy-r3",
+      "source_type": "primary_legislation",
+      "url": "https://www.legislation.gov.uk/ukpga/2008/27/section/1",
+      "local_file": "research/round3-energy/sources/uk-climatechangeact-section1.html",
+      "sha256": "e7dd066d80a19f5e48d7e3ab759d32d318a42c7b955a1603ab2f30e28968e29c",
+      "read_extent": "Full operative section and amendment note read."
+    },
+    {
+      "id": "uk-2050-target-order2019-energy-r3",
+      "source_type": "primary_legislation",
+      "url": "https://www.legislation.gov.uk/uksi/2019/1056/made",
+      "local_file": "research/round3-energy/sources/uk-climate-target-amendment2019.html",
+      "sha256": "6548e4cb3fab896d94cc68f4f75c8817d1794aa4d3ba493490635aee06e3888f",
+      "read_extent": "Complete made Order, commencement and explanatory note read."
+    }
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "tax_consultations independent AI",
+        "verdict": "Retain unresolved lead, minor severity, direction null. UK domestic duty is real but does not refute a credible international/supranational scope.",
+        "review_file": "research/round3-reviews/tax-reviews-fleischmann-binding-targets.json",
+        "specialist": null
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as an unresolved scope lead; domestic UK counterexample established, international-law reading not refuted.",
+      "by": "ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent full-context and primary-law AI review retained the unresolved scope lead; no provisional finding promoted.",
+      "by": "tax_consultations AI"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Exact claim excerpt shortened to preserve the combined source quotation budget after integration with the separate mortality finding; no factual reassessment, severity or disposition change. Original longer research record preserved.",
+      "by": "root_ai_integration"
+    }
+  ],
+  "materiality_explanation": "Even a confirmed broad-wording error would correct one supporting geographic generalisation. It does not change the submission’s numerical global-emissions forecast or establish the merits of abolition.",
+  "materiality_analysis": {
+    "classification": "minor",
+    "reason": "Even a confirmed broad-wording error would correct one supporting geographic generalisation. It does not change the submission’s numerical global-emissions forecast or establish the merits of abolition.",
+    "direction": "Unknown while scope remains unresolved. Under the broad domestic-law reading, exclusivity would favour the author’s request; under an international-obligation reading the UK comparator does not establish an error."
+  },
+  "direction_explanation": null,
+  "quote_context": "The short excerpt belongs to the sentence saying that, apart from Norway and Iceland, only the EU has imposed binding emission reductions on itself and its members. The Paris/effort-sharing context and competing domestic-law interpretation remain in the existing analysis."
+}

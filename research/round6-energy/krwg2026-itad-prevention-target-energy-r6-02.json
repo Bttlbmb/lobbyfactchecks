@@ -1,0 +1,111 @@
+{
+  "law_id": "krwg-2026",
+  "document_id": "itad-krwg-20260807",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "favours_author_request": true,
+  "draft": {
+    "source_id": "krwg-refe-20260626-r6",
+    "version": "BMUKN KrWG consultation draft circulated 26 June 2026, expressly named on response cover",
+    "version_limit": "Current official PDF was modified 8 July 2026; exact relevant operative/explanatory wording matches response. No byte-identical 26 June historical snapshot claimed.",
+    "process_status": "Ongoing at 24 October 2026; dossier planned cabinet January 2027 and completion June 2027."
+  },
+  "submission_source_id": "itad-krwg-20260807",
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "tax_consultations",
+        "path": "research/round6-reviews/tax-reviews-itad-krwg.json",
+        "date": "2026-10-25",
+        "disposition": "retain narrow provisional finding with official Destatis and version limits"
+      },
+      {
+        "reviewer": "root",
+        "path": "research/round6-reviews/root-reviews-itad-krwg.json",
+        "date": "2026-10-25",
+        "disposition": "retain narrow provisional finding; independent method/rationale and full claim context checked"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full original response and primary calculation/draft context checked; independent review requested.",
+      "by": "energy_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent adversarial review retained the stated narrow finding; materiality and benign alternatives preserved.",
+      "by": "energy_ai_screen"
+    }
+  ],
+  "verification": {
+    "source_registry": "research/round6-energy/sources.json",
+    "full_submission_read": true,
+    "visual_pages": [
+      8,
+      20
+    ],
+    "quotation_budget": "Across both ITAD records:9+3+6+5=23 original author words. No additional original author quotations without shortening existing fragments."
+  },
+  "id": "krwg2026-itad-prevention-target-energy-r6-02",
+  "severity": "minor",
+  "card": {
+    "law_is_about": "Adding waste-prevention targets to the KrWG.",
+    "they_want": "Adjust the targets to realistic conditions.",
+    "they_claim": "The government calls a 40% reduction in municipal waste volume by 2045 ambitious.",
+    "the_problem": "The draft sets a 20% municipal waste reduction target per person; 40% applies to waste intensity relative to real GDP."
+  },
+  "claim_quote": {
+    "original": "Reduktion des Siedlungsabfallaufkommens um 40 %",
+    "language": "de",
+    "translation_en": "Translation: reduction of municipal waste volume by 40%",
+    "locator": {
+      "pdf_page": 20,
+      "printed_page": 19,
+      "section": "3.5 Abfallintensität und Abfallvermeidung; paragraph following quoted draft rationale"
+    },
+    "underline": "40 %"
+  },
+  "request_quote": {
+    "original": "realen Bedingungen angepasst werden sollten",
+    "language": "de",
+    "translation_en": "Translation: should be adjusted to real conditions",
+    "locator": {
+      "pdf_page": 20,
+      "printed_page": 19,
+      "section": "Same paragraph, following the claim"
+    }
+  },
+  "counter_quote": {
+    "original": "Das Pro-Kopf-Aufkommen an Siedlungsabfällen soll bis zum Jahr 2045 im Vergleich zum Jahr 2020 um 20 Prozent sinken.",
+    "language": "de",
+    "translation_en": "Translation: Municipal waste per capita should fall by 20% by 2045 compared with 2020.",
+    "source_id": "krwg-refe-20260626-r6",
+    "locator": {
+      "pdf_page": 6,
+      "section": "Article 1 number 7, proposed §7b(2)"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Proposed §7b(2) sets a 20% per-capita municipal-waste reduction. Section 7b(1) sets 40% lower waste intensity, defined by§3(7c) as net waste divided by price-adjusted GDP. The quoted 40% rationale on draft page 27 explains intensity, not the separate municipal-waste quantity target.",
+  "effect": "The paragraph overstates the quantity reduction being challenged, making that particular burden argument stronger. It does not demonstrate that the actual 20% target is feasible.",
+  "limits": "The response correctly reproduces the 20% operative text immediately above and correctly describes 40% intensity elsewhere. A local drafting or reference slip is therefore plausible; readers can recover the correct distinction from the same document. No prediction about feasibility or motive is inferred.",
+  "context_and_alternatives": [
+    "Full section 3.5 discusses intensity, relative versus absolute decoupling and alternative indicators. The erroneous paragraph then expressly calls 40% a municipal-waste volume reduction while asking that targets reflect real conditions.",
+    "This is a separate draft-description mistake from the recycling-compliance metric: it concerns prevention targets, not the recycling rate. It is classified minor because the correct 20% text is already supplied immediately before it."
+  ],
+  "materiality_explanation": "Minor: it doubles the stated quantity-reduction percentage in one supporting paragraph, but the same page gives the correct 20%rule and the response separately recognises the 40% intensity target.",
+  "direction_explanation": "True narrowly: a 40%quantity reduction sounds more demanding and supports adjustment; this direction does not by itself make the local error major.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "source_ids": [
+    "itad-krwg-20260807",
+    "krwg-refe-20260626-r6",
+    "krwg-bmukn-dossier-r6"
+  ]
+}

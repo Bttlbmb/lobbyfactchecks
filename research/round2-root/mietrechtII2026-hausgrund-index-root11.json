@@ -1,0 +1,124 @@
+{
+  "id": "mietrechtII2026-hausgrund-index-root11",
+  "law_id": "mietrechtII-2026",
+  "document_id": "hausgrund-mietrechtII-202603",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": null,
+  "reporting_tier": "ancillary_minor_index_labels",
+  "card": {
+    "law_is_about": "Changing tenancy rules, including a higher cost threshold for simplified modernisation rent increases.",
+    "they_want": "Automatically index the proposed EUR20,000 threshold to construction prices.",
+    "they_claim": "On a2021=100 base, the residential construction-price index was about107 in2019 and above150 in2023.",
+    "the_problem": "An official pre-submission table gives annual90.2 and126.1 on that base. The implied rise is nevertheless still about40%, so the numerical growth argument changes little."
+  },
+  "claim_quote": {
+    "original": "bei rund 107 (Basisjahr 2021 = 100)",
+    "language": "de",
+    "translation_en": "Translation of fragment: at around107 (base year2021=100)",
+    "locator": {
+      "pdf_page": 11,
+      "printed_page": 11,
+      "section": "V. Zur Anhebung der Wertgrenze im vereinfachten Verfahren (§559c BGB);1. Strukturelle Unterdimensionierung der statischen Wertgrenze",
+      "paragraph": "Paragraph beginning Die vorgesehene Anhebung;2019 level"
+    },
+    "underline": "(Basisjahr 2021 = 100)"
+  },
+  "additional_claim_quotes": [
+    {
+      "original": "Werte von über 150",
+      "language": "de",
+      "translation_en": "Translation of fragment: values above150",
+      "locator": {
+        "pdf_page": 11,
+        "printed_page": 11,
+        "paragraph": "Same paragraph,2023 index description"
+      }
+    }
+  ],
+  "request_quote": {
+    "original": "eine dynamische Indexierung der Wertgrenze",
+    "language": "de",
+    "translation_en": "Translation of request fragment: dynamic indexation of the threshold",
+    "locator": {
+      "pdf_page": 12,
+      "printed_page": 12,
+      "section": "2. Haus & Grund Deutschland fordert",
+      "paragraph": "Opening paragraph"
+    }
+  },
+  "counter_quote": {
+    "original": "90,2",
+    "language": "de",
+    "translation_en": "Translation of numeric entry:90.2",
+    "source_id": "bmas-bauindex-20250122",
+    "locator": {
+      "section": "Baukostenindex (2021 =100), historical table",
+      "row": "2019 D",
+      "source_note": "Destatis GENESIS61261-0001, filterWohngebäude/Bauleistungen am Bauwerk includingVAT; extraction10January2025"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "supplementary_counter_quotes": [
+    {
+      "original": "126,1",
+      "language": "de",
+      "translation_en": "Translation of numeric entry:126.1",
+      "source_id": "bmas-bauindex-20250122",
+      "locator": {
+        "section": "Same historical table",
+        "row": "2023 D"
+      },
+      "retrieved_at": "2026-10-25"
+    }
+  ],
+  "correction": "Use the correctly labelled2021-base index levels. The official January2025 historical table reports2019 annual90.2 and2023 annual126.1. Their independently calculated change is(126.1/90.2-1)*100=39.8004%, close to40%. Different within-year endpoints may exceed40%; no separate false-growth finding is made.",
+  "effect": "Corrects index-level/base reporting. It does not materially remove the evidence of substantial construction-price increases or the general case for discussing indexation.",
+  "limits": "Ancillary minor issue. A rescaling or clerical mistake is a strong benign explanation, and the implied relative movement remains approximately right. The author does not specify particular months or an annual-average definition, so the precise wording about growth above40% is not separately adjudicated. Construction prices do not alone decide the appropriate threshold, but this screen does not determine whether doubling it or indexing it is justified. No intent is inferred.",
+  "materiality_explanation": "Minor: wrong reported index levels and base, with little practical change to the approximately40%growth premise. This should not be presented as a major inflation exaggeration or a refutation of the policy request.",
+  "direction_explanation": "Null: both levels move downward under correction while their ratio remains similar. A definite favourable effect on the indexation request is not established.",
+  "confidence": {
+    "text_source_mismatch": "high for the index levels/base; no separate growth-error determination",
+    "materiality": "editorial_judgment"
+  },
+  "context_and_alternatives": [
+    "Originating AI read all twelve submission pages earlier in the round and revisited the complete modernisation section11–12. The threshold increase is explicitly supported before additional indexation is requested.",
+    "The exact ministry consultation draft, circulated6February2026, Article1number10 on physical5 raises§559c from10,000 to20,000; rationalephysical10 identifies price growth since2019. Later government text is not substituted.",
+    "The BMAS notice predates the author and expressly identifies the underlying Destatis price-series code and filters, despite using a statutory Baukostenindex heading. This is not the distinct input-cost index.",
+    "The initial historical Destatis publication retrieved in follow-up is the November2022 release, revised10May2023, not a2023index-year release. Its old2015base was not mixed with the final same-base comparison. The archived later currenttable is also not the principal counterevidence.",
+    "The strong rescaling/clerical alternative and approximately preserved growth were independently checked by the social reviewer."
+  ],
+  "draft": {
+    "id": "mietrechtII-refe-20260206",
+    "source_id": "mietrechtII-refe-20260206",
+    "version": "Exact34-page ministerial draft circulated6February2026, consultation record; cover has no internal date",
+    "relevant_provision": "Article1number10,§559c(1), physical5; general rationalephysical10"
+  },
+  "submission_source_id": "hausgrund-mietrechtII-202603",
+  "source_ids": [
+    "hausgrund-mietrechtII-202603",
+    "bmas-bauindex-20250122",
+    "mietrechtII-refe-20260206",
+    "mietrechtII-ministry-consultation-zip-2026"
+  ],
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_round2_ai",
+        "date": "2026-10-25",
+        "review_file": "research/round2-reviews/social-reviews-hausgrund-index.json",
+        "outcome": "retain_ancillary_minor_null"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "Earlier pending housing-index lead completed using official pre-submission same-base table; independent AI review retained only ancillary minor/null level-label issue, with growth rescue preserved.",
+      "by": "root_ai_screen"
+    }
+  ]
+}

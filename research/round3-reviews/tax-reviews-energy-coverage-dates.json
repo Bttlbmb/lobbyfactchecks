@@ -1,0 +1,74 @@
+{
+  "id": "tax-review-energy-census-dates-round3",
+  "reviewer": "tax_consultations",
+  "reviewed_at": "2026-10-25",
+  "scope": "Independent metadata/date-boundary audit, not substantive claim screening",
+  "input_files": [
+    "research/round3-energy/coverage-environment-transport-statement-metadata.json",
+    "research/round3-energy/coverage-housing-submission-metadata.json"
+  ],
+  "counts_checked": {
+    "environment_transport_pdf_links": 122,
+    "housing_pdf_links": 20,
+    "combined_pdf_links": 142,
+    "unique_urls": 142,
+    "unique_sha256": 142,
+    "all_142_local_hashes_match_recorded_values": true,
+    "known_transport_annex_units": 1
+  },
+  "conclusion": "The sampled source dates and retained conflicts are accurate. Updated separation of cover-date verification from actual recipient-delivery verification is necessary and appropriate. The142link count is collection metadata, not142eligible submissions or142fully screened documents.",
+  "samples": [
+    {
+      "id": "bt-transport-1112684",
+      "extent": "First two original pages read; first page rendered and visually checked",
+      "observed_dates": {
+        "committee_stamp": "2026-10-01",
+        "author_header": "2025-10-01",
+        "hearing": "2025-10-06"
+      },
+      "adjudication": "Retain date_conflict. A publisher stamp alone does not prove2026delivery, and the original author/hearing context is2025. Do not silently correct either year or call it an author error."
+    },
+    {
+      "id": "bt-housing-1198104",
+      "extent": "Original first two pages read; cover rendered and visually checked",
+      "observed_dates": {
+        "committee_cover": "2026-09-17",
+        "author_statement": "2026-06-23",
+        "hearing": "2026-09-23"
+      },
+      "adjudication": "Keep both dates. This is a September committee version carrying a June author statement. It cannot be labelled newly authored in September or excluded solely by June date; precise sent/received date remains unverified."
+    },
+    {
+      "id": "bt-environment-1222134",
+      "extent": "Original first two pages read; cover rendered and visually checked",
+      "observed_dates": {
+        "committee_cover": "2026-10-02",
+        "author_statement_month": "2026-07",
+        "hearing": "2026-10-07"
+      },
+      "adjudication": "Month-onlyJuly author date does not resolve25Julyboundary. October cover is a separate source date, not a verified recipient event."
+    },
+    {
+      "id": "bt-housing-1211122",
+      "extent": "Original cover and dated author header read; cover rendered and visually checked",
+      "observed_dates": {
+        "committee_cover": "2026-09-08",
+        "author_header": "2026-09-07",
+        "hearing": "2026-09-23"
+      },
+      "adjudication": "Both printed document dates fall withinwindow; still no precise delivery timestamp is established by the cover."
+    },
+    {
+      "id": "bt-transport-1155574",
+      "extent": "Metadata and original annex status checked alongside parent1155572 first-two-page text",
+      "adjudication": "Correctly attached to the Bauindustrie response, not a second authored submission. Parent12March2026date does not prove absence of a later retransmittal."
+    }
+  ],
+  "strongest_limitations": [
+    "Sample audit does not independently prove completeness of all committee master indexes.",
+    "Current date_verified boolean is interpretable only with date_verified_scope and the new submission_date_verified=false qualifier. A dashboard should prefer the explicit fields.",
+    "Earlier printed dates do not disprove later registered transmittals; exact dispatch events should be reconciled separately."
+  ],
+  "render_directory": "research/round3-reviews/tax-energy-date-renders",
+  "no_finding_changes": true
+}

@@ -1,0 +1,210 @@
+{
+  "reviewer": "b",
+  "kind": "authored_primary_check_notes_not_original_source_bytes",
+  "created_at_utc": "2026-10-25T22:21:57.699476+00:00",
+  "reviewed_file": "research/factual-checks/short-it-components-20261025/agents/claims-a.json",
+  "reviewed_sha256": "f9b4665bcd107f3ec39f1ef7e5f459c56c1a3c718156d89a2baa8a3c16966792",
+  "original_read_order": "Complete original two-page submission first, then frozen claims and A check notes; independent primary reopening followed.",
+  "checks": [
+    {
+      "id": "short-it-br-draft",
+      "title": "Consultation ITKV draft, printed 1 September 2026 at 18:18",
+      "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/ITKV_RefE_2026-09-03_barrierefrei.pdf",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Physical pp. 1–2, 4–5 and 10–12 independently read; not all 12 pages claimed.",
+      "result": "Section C retains the either-EfA-minimum-or-legal-criteria disjunction; proposed section 1 prescribes eWA 10124. Page 12 makes future extension conditional on dissemination and savings. Pages 10–11 explicitly describe ongoing specialist-interface work and one-off supplier integration costs, not an unreasonable cost threshold.",
+      "temporal_limit": "Exact common draft is corroborated by matching quoted content; filename date is not the printed date. Forecast figures in the draft are not independently validated or attributed to DATABUND.",
+      "observed_original_sha256": "3083a6061d2f2512530d3f8f8272e564d557a3ada730660b9aa264a51780cf22",
+      "temporary_or_canonical_path_at_check": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-draft.pdf",
+      "original_pdf_signature_validated": true
+    },
+    {
+      "id": "short-it-br-dnrw",
+      "title": "d-NRW eWA service description, stand March 2026",
+      "url": "https://www.d-nrw.de/kommunalvertreter-onlinezugang/verfuegbare-leistungen/elektronische-wohnsitzanmeldung",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Complete substantive short service entry, technical interfaces and implementation stages; current primary web page independently opened.",
+      "result": "Confirms OZG 10124, OSCI/DVDV infrastructure, software adaptation and phased integration. It is not a census of all administrative software or a record of excluded competing front ends.",
+      "temporal_limit": "Current page states March 2026 but exact September bytes are not authenticated; later page availability is qualified.",
+      "observed_original_sha256": "4f060b8bc0d8a89666268bc0ffb7b700339ffdab82a391bf6c022d2f6a627e2f",
+      "temporary_or_canonical_path_at_check": "/private/tmp/short-it-a-20261025/dnrw.html",
+      "original_pdf_signature_validated": null
+    },
+    {
+      "id": "short-it-br-dataport-fv",
+      "title": "Dataport eWA specialist-application integration documentation",
+      "url": "https://docs.osi.dataport.de/public/puboddoku/fachverfahren-ertuechtigen-525435776.html",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Entire short substantive article, independently reopened and read in saved primary HTML as well as web extraction.",
+      "result": "XMeld for registration; XPassAusweis notifications to document authorities, including 9501/9502/9503 from 1 May 2025. Existing pilot backends are AKDB, HSH, Komm.ONE and regisafe; adaptation is required and costs depend on Land arrangements.",
+      "temporal_limit": "Undated current operator material supports mechanisms but cannot determine historical denials, national market share, causal investment losses or legal adequacy of every competitor.",
+      "observed_original_sha256": "42d98a5f7ac4340c4eeb83a028307f55225358fc350528ce3b22ad071db93ce8",
+      "temporary_or_canonical_path_at_check": "/private/tmp/short-it-a-20261025/dataport-fv.html",
+      "original_pdf_signature_validated": null
+    },
+    {
+      "id": "short-it-br-xpass",
+      "title": "KoSIT XPassAusweis release history 25.11, final 31 January 2025",
+      "url": "https://www1.osci.de/sixcms/media.php/13/ReleaseHistorie-XPassAusweis.16883.pdf",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Physical pp. 1 and 5, exact PDF identity independently verified; seven-page document not fully read.",
+      "result": "Section 2.4.1.1 records EWA-PA notifications by online services to the respective document authority; dated basis corroborates the current operator standard description.",
+      "temporal_limit": "Release history is not the full standard or proof of market/interface access.",
+      "observed_original_sha256": "b6434510b8ff1e094cb7f23b26ecfb3f87ba662a496229e35c7e1ba45a607944",
+      "temporary_or_canonical_path_at_check": "/private/tmp/short-it-a-20261025/xpass-release25-11.pdf",
+      "original_pdf_signature_validated": true
+    },
+    {
+      "id": "short-it-br-bsi",
+      "title": "BSI TR-03128 part 3, version 1.3, 26 March 2026",
+      "url": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil3.pdf?__blob=publicationFile&v=6",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Cover, selected pp. 5–9, complete pp. 14–18 and 22–23 independently read; not a full 25-page reading.",
+      "result": "The central writing service receives eWA orders, authenticates document holders and writes/checks the new address. Sovereign certificates have assigned public functions. ZSD outsourcing with a sovereign certificate needs BSI agreement; third-party non-sovereign operation retains provider responsibility and security obligations.",
+      "temporal_limit": "Security architecture does not prove that named competitors were denied access, whether denial was unjustified, or whether multiple Länder complained. Backend integration is not competing-front-end access.",
+      "observed_original_sha256": "8f52ca127607ed3b20d4bd78b8220ac356ac6908037189d258970bc9269aba1f",
+      "temporary_or_canonical_path_at_check": "/private/tmp/short-it-a-20261025/bsi-tr03128-3.pdf",
+      "original_pdf_signature_validated": true
+    },
+    {
+      "id": "short-it-br-ozg4",
+      "title": "Current OZG section 4, contextual comparison",
+      "url": "https://www.gesetze-im-internet.de/ozg/__4.html",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Complete clause and official full-law amendment header independently checked.",
+      "result": "A specified component mandate and qualified Land deviation/open-interface rules do not alone resolve the alleged practical market effect.",
+      "temporal_limit": "Full-law header includes 6 October 2026 amendment after the 14 September response; not silently substituted as September legal proof.",
+      "observed_original_sha256": "b74a1f1ba707e0625b26c6a25ee953f0715fbe11242f89e1c14303da261d80a2",
+      "temporary_or_canonical_path_at_check": "/private/tmp/short-it-a-20261025/ozg4.html",
+      "original_pdf_signature_validated": null
+    },
+    {
+      "id": "short-it-br-pauswg7",
+      "title": "PAuswG section 7, functional competence",
+      "url": "https://www.gesetze-im-internet.de/pauswg/__7.html",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Complete short clause independently read.",
+      "result": "Land-designated identity authorities perform identity-document matters; functional allocation does not prohibit the same municipal organisation holding registration duties.",
+      "temporal_limit": "Current single clause corroborated by pre-author BSI and PAuswV; no full historical amendment-chain or all Land designation survey.",
+      "observed_original_sha256": "5bd0b810da8c1040b2efdc11d6ccc1feb221f402bb537f8317dd1e64ef06c3b4",
+      "temporary_or_canonical_path_at_check": "/private/tmp/short-it-a-20261025/pauswg7.html",
+      "original_pdf_signature_validated": null
+    },
+    {
+      "id": "short-it-br-pauswg20a",
+      "title": "PAuswG section 20a, sovereign certificate roles",
+      "url": "https://www.gesetze-im-internet.de/pauswg/__20a.html",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Complete short clause independently read.",
+      "result": "Certificate content follows statutory competence; this is not proof of an actual private applicant denial or a ban on all contractors.",
+      "temporal_limit": "Current single clause with dated pre-author technical corroboration; no retrospective denial inference.",
+      "observed_original_sha256": "ee229735609a2f8f1b41c583aad029678dac5579ceec233bfe53f72ac2baa9e9",
+      "temporary_or_canonical_path_at_check": "/private/tmp/short-it-a-20261025/pauswg20a.html",
+      "original_pdf_signature_validated": null
+    },
+    {
+      "id": "short-it-br-pauswv19",
+      "title": "PAuswV section 19, address changes",
+      "url": "https://www.gesetze-im-internet.de/pauswv/__19.html",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Complete clause independently read; full official law header independently opened, last amendment 30 January 2026.",
+      "result": "The identity authority changes the chip address and identity register, and uses a sovereign certificate; electronic registration initiates the linked procedure.",
+      "temporal_limit": "Supports legal roles, not separate physical buildings or a compulsory in-person visit.",
+      "observed_original_sha256": "dc1f3a3fafc65a558d43a32090b7e21054f4c072406d3f3a725ced4011c3ed4f",
+      "temporary_or_canonical_path_at_check": "/private/tmp/short-it-a-20261025/pauswv19.html",
+      "original_pdf_signature_validated": null
+    },
+    {
+      "id": "short-it-br-eidkg6",
+      "title": "eIDKG section 6, competent authorities",
+      "url": "https://www.gesetze-im-internet.de/eidkg/__6.html",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Complete short clause independently read.",
+      "result": "Land-designated eID-card authorities perform eID matters; one organisation may perform more than one legal function.",
+      "temporal_limit": "No complete state competence or historical amendment survey.",
+      "observed_original_sha256": "27caa73be1fdd6ae05a8e1d0569fe005073f6aca6b6cb5c4aa121c3882772ae5",
+      "temporary_or_canonical_path_at_check": "/private/tmp/short-it-a-20261025/eidkg6.html",
+      "original_pdf_signature_validated": null
+    },
+    {
+      "id": "short-it-br-eidkg12",
+      "title": "eIDKG section 12, identification for address updates",
+      "url": "https://www.gesetze-im-internet.de/eidkg/__12.html",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Complete clause, especially paragraph 4, independently read.",
+      "result": "eID-card authorities may perform electronic identification following electronic registration to update the address and use sovereign certificates.",
+      "temporal_limit": "Not proof of a universal contractor exclusion or separate physical office.",
+      "observed_original_sha256": "20da52ff2c1a4fd0e0bd6cb1d7b794485a68594e09c8e4bf745b2d0a68f58784",
+      "temporary_or_canonical_path_at_check": "/private/tmp/short-it-a-20261025/eidkg12.html",
+      "original_pdf_signature_validated": null
+    },
+    {
+      "id": "short-it-br-eidkg14a",
+      "title": "eIDKG section 14a, sovereign certificates",
+      "url": "https://www.gesetze-im-internet.de/eidkg/__14a.html",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Complete short clause independently read.",
+      "result": "Certificate scope follows assigned eID-card authority/manufacturer functions.",
+      "temporal_limit": "Does not identify any denied competing service or establish reasons for an actual denial.",
+      "observed_original_sha256": "533624b5780fb70b6b5b8c23f96c7bebdb6a0579f9f03ed2cef878ee213ee384",
+      "temporary_or_canonical_path_at_check": "/private/tmp/short-it-a-20261025/eidkg14a.html",
+      "original_pdf_signature_validated": null
+    },
+    {
+      "id": "short-it-br-aufenthg71",
+      "title": "AufenthG section 71, foreigner-authority competence",
+      "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__71.html",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Full paragraph 1 and relevant section context independently read; not all statutory tasks independently researched.",
+      "result": "Foreigner authorities perform residence/pass-law tasks, subject to statutory and Land designations.",
+      "temporal_limit": "No all-Land competence survey; related section 78(7) permits other designated bodies.",
+      "observed_original_sha256": "ef1ea6632342decc3fcbf6fae6563d57905c3119600fc3ab3ec5ccfb031db73b",
+      "temporary_or_canonical_path_at_check": "/private/tmp/short-it-a-20261025/aufenthg71.html",
+      "original_pdf_signature_validated": null
+    },
+    {
+      "id": "short-it-br-aufenthg78",
+      "title": "AufenthG section 78, electronic residence documents",
+      "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__78.html",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Complete relevant paragraphs 5 and 7 independently read; full official law header independently opened, last amendment 22 July 2026.",
+      "result": "Paragraph 5 substitutes foreigner authority for identity authority in relevant eID rules; paragraph 7 permits address changes by foreigner authorities and other Land-designated authorities.",
+      "temporal_limit": "Supports function-specific competence, not organisational exclusivity; all designated bodies are not surveyed.",
+      "observed_original_sha256": "6cf9faf257db7f935c7c1a7aff40c491cc549db2ff511e7406922483593cc38c",
+      "temporary_or_canonical_path_at_check": "/private/tmp/short-it-a-20261025/aufenthg78.html",
+      "original_pdf_signature_validated": null
+    },
+    {
+      "id": "short-it-br-history",
+      "title": "HSH primary company history and product description",
+      "url": "https://www.hsh-berlin.com/modules.php?cid=13&name=HSH_Content",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Complete short company description independently opened.",
+      "result": "Company says founded 1991, currently approximately 3,000 MESO registration offices and existing online-service products. This provides a concrete longstanding supplier, not the asserted aggregate majority of all specialist applications or dated online-service history for plural members.",
+      "temporal_limit": "Current self-description is not an independent national market census; 1991 alone does not establish a strict greater-than-35-year threshold at 14 September 2026 or greater-than-20 years of online services.",
+      "observed_original_sha256": null,
+      "temporary_or_canonical_path_at_check": null,
+      "original_pdf_signature_validated": null
+    },
+    {
+      "id": "short-it-br-search",
+      "title": "Primary-source search scope for interface denial, Land complaints and market consequences",
+      "url": "https://www.bundestag.de/",
+      "checked_at_utc": "2026-10-25T22:21:57.699476+00:00",
+      "read_extent": "Independent searches for electronic Wohnsitzanmeldung + Schnittstellen + private Anbieter/verwehrt, including Bundestag and Bundesrat domains; inspected returned technical/operator and primary implementation descriptions.",
+      "result": "No named, dated denial decision, matching Land complaint set, product-wide legal audit or investment decision evidence recovered. Failed-to-find is not a negative factual finding.",
+      "temporal_limit": "Search evidence limits cannot refute historical allegations. No author contact, market survey or human specialist consultation.",
+      "observed_original_sha256": null,
+      "temporary_or_canonical_path_at_check": null,
+      "original_pdf_signature_validated": null
+    }
+  ],
+  "storage_note": "Shared canonical original and draft reused. Background bytes reused in A system temporary directory, not duplicated or retained here; primary original hashes recorded where available. Concise authored note is the retained review dependency.",
+  "access_attempts": [
+    {
+      "kind": "search_no_matched_primary_recovered",
+      "scope": "Named federal interface-denial decisions; several Land complaints; plural-firm dated product history; investment decisions.",
+      "usable_as_positive_or_negative_evidence": false
+    }
+  ]
+}

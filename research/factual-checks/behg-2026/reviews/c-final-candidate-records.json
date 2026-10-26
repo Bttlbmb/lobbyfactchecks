@@ -1,0 +1,264 @@
+{
+  "reviewer": "claims_c",
+  "reviewed_at": "2026-10-25T10:10:52.902448+00:00",
+  "scope": "Fresh third review of both staged BEHG Fleischmann candidate records. All nine original physical pages were independently read before these staged records; exact scientific context and alternatives were then checked. No staged, raw or main data files edited.",
+  "documents_reread": [
+    {
+      "document_id": "bt-environment-1222442",
+      "local_file": "research/round3-energy/sources/submissions/bt-environment-1222442.pdf",
+      "sha256": "16171e921a88ff950fb5cf7e4ac9587dd4bd148590c3642d7dfbf5771413e475",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fully_read": true,
+      "visual_pages": [
+        6
+      ],
+      "authored_date": "2026-10-05",
+      "delivery_date_verified": false
+    }
+  ],
+  "candidate_reviews": [
+    {
+      "finding_id": "behg2026-fleischmann-mortality-range-fc01",
+      "reviewed_file": "research/factual-checks/behg-2026/staged/behg2026-fleischmann-mortality-range-fc01.json",
+      "reviewed_sha256": "b8b8905fcabe7235f5008a04ef6455c61965694d044edf32c671e6e00df24ac2",
+      "verdict": "accept_with_scope_qualification",
+      "proposed_claim_result": "overstated",
+      "proposed_admission": "Accept the narrow misdescription of the cited study, preserving all population, model and uncertainty limits. Do not present this as independent proof of actual national mortality ratios.",
+      "original_quote_check": {
+        "claim_quote_exact": true,
+        "request_quote_exact": true,
+        "counter_quote_exact": true,
+        "physical_page": 6,
+        "printed_page": 5,
+        "visual_check": "Independently rendered author physical page 6 and corrected article physical page 6; universal country range and separate German approximation are distinct sentences."
+      },
+      "source_checks": [
+        {
+          "source_id": "behg-cr-final-masselot-corrected",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "visual_pages": [
+            6
+          ],
+          "locator": "Table 2 on physical page 6 / e276; Methods and limitations on pages 1–4 and 9",
+          "check": "Recomputed same-column cold/heat point-estimate ratios: Denmark 884/28 = 31.57; Finland 1452/45 = 32.27; UK 28342/488 = 58.08; Croatia 1142/293 = 3.90; Germany 12108/2015 = 6.01. Scope is age 20 and older in 854 urban areas, 2000–2019. The table aggregates cities by country.",
+          "result": "The cited table contains point-estimate ratios outside both boundaries of five to fifteen. The separate German approximately-six ratio is supported in that cohort."
+        },
+        {
+          "source_id": "behg-cr-final-masselot-correction",
+          "pages_read": [
+            1
+          ],
+          "check": "Read full notice: age 85+ coding error corrected tables, figures, appendix and text; roughly 35% reduction in impact measures; dated 2 July 2024. Corrected article front page independently states correction first appeared 2 July 2024. Header and body establish the date despite the notice footer’s apparent 2022 typo.",
+          "result": "Use corrected rather than superseded values. The correction predates authorship."
+        }
+      ],
+      "credible_alternatives": [
+        "The author may be summarising an approximate European-wide predominance of cold mortality. The corrected overall ratio, 130228/13589 = 9.58, lies within five to fifteen, and all listed country point estimates show more cold than heat mortality. That charitable aggregate reading is compatible with the source but does not preserve the explicit all-countries numerical range.",
+        "Colloquial German times more can be read as a multiple or as an increase above a baseline. UK and Denmark still exceed either five-to-fifteen or six-to-sixteen conventions, so this semantic ambiguity does not rescue the universal range.",
+        "The urban country-grouped estimates cannot alone prove whole-population national ratios. The finding must remain a misdescription/overgeneralisation of the cited evidence."
+      ],
+      "severity_review": {
+        "proposed": "minor",
+        "reason": "A supporting numerical range is corrected; the larger aggregate cold burden and German cohort approximation remain. It does not decide future warming effects or the policy request."
+      },
+      "direction_review": {
+        "proposed": true,
+        "qualification": "Defensible for the asserted universal minimum cold predominance used to downplay heat risk. The numerical deviations are mixed: in some northern countries the claim understates cold/heat ratios. Do not say it uniformly inflates the cold burden or uniformly exaggerates the ratio in every country."
+      },
+      "suggested_wording": "The cited study’s corrected estimates for adults in 854 European urban areas do not show a five-to-fifteen range in every country group: the UK point-estimate ratio is about 58, Denmark about 32, and Croatia about four. Germany is approximately six in the same urban cohort. These modelled estimates do not establish complete national-population ratios or the effect of future warming.",
+      "check_completed": true
+    },
+    {
+      "finding_id": "behg2026-fleischmann-infrasound-threshold-fc02",
+      "reviewed_file": "research/factual-checks/behg-2026/staged/behg2026-fleischmann-infrasound-threshold-fc02.json",
+      "reviewed_sha256": "2eb4d3bb725c79cd201449dd65e046fb3b3699956dfbfdbc46d580de537d6f8a",
+      "verdict": "needs_more_evidence",
+      "proposed_claim_result": "unresolved",
+      "proposed_admission": "Do not admit this candidate as a factual error on the present evidence. Retain a source-alignment concern in the unresolved ledger.",
+      "original_quote_check": {
+        "claim_quote_exact": true,
+        "request_quote_exact": true,
+        "counter_quote_exact": true,
+        "physical_page": 6,
+        "printed_page": 5,
+        "visual_check": "Author physical page 6 independently rendered. The first numerical sentences do not explicitly specify frequency; the closing anecdote does name around 1 Hz."
+      },
+      "source_checks": [
+        {
+          "source_id": "behg-cr-final-lfu",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "visual_pages": [
+            5
+          ],
+          "locator": "Physical pages 4–6 and 8–10",
+          "check": "Threshold depends on frequency; page 5 gives 103 dB at 8 Hz and says perception below 2 Hz had not been described, with extremely high levels needed. The greater-than-120 dB example explicitly compares audible military aircraft sound and is not an exact 1 Hz threshold. The same page discusses possible individual sensitivity near 20 Hz. Page 6 allows disturbance at the threshold. Its older wind-turbine evidence is not automatically dispositive of the newer Swedish exposure.",
+          "result": "Guidance supports requiring a matched frequency comparison, but does not quantitatively establish the precise 1 Hz threshold or all individual thresholds relevant here."
+        },
+        {
+          "source_id": "behg-cr-final-mattsson-diva",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "visual_pages": [
+            8,
+            11,
+            13
+          ],
+          "locator": "1 Hz measurement definition and Table 2 / Figure 7 on page 8; Table 3 / Figures 12–14 on page 11; Table 4 / Figures 17–18 on page 13",
+          "check": "The mapped spatial values are simulated 1 Hz third-octave SPL, calibrated against microphone measurements. Figure 12 includes 5.6 m/s hub wind and the 90–95 dB contours; Figure 14 shows 9.9 m/s and larger propagation distances. The paper also records wider measured spectra and the authors’ two-person symptom account. Neither the maps nor that anecdote are a controlled measurement of the relevant hearing/perception threshold.",
+          "result": "The source explains the likely 1 Hz basis of the numerical comparison, but does not prove or disprove perceptibility for the complete exposure and all sensitive individuals."
+        },
+        {
+          "source_id": "behg-br-moller2004",
+          "local_file": "research/factual-checks/behg-2026/sources/br-moller2004.pdf",
+          "sha256": "2165a678b934c7a3bd68961dcfa5b0f270b6811d1e840efb123c00e244303f12",
+          "pages_read": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8
+          ],
+          "locator": "Review of threshold studies and variation; not used to manufacture a numerical 1 Hz limit",
+          "check": "Secondary scientific review cited by LfU confirms frequency dependence, experimental differences, natural spread and possible unusually sensitive persons; many experiments stop above 1 Hz. It does not establish the precise threshold/exposure comparison needed for this candidate.",
+          "result": "Additional context does not close the evidential gap."
+        }
+      ],
+      "credible_alternatives": [
+        "A narrow 1 Hz third-octave interpretation makes the threshold inference questionable and the LfU citation incomplete. However, the author’s numerical sentence names no frequency; it can also be read as an imprecise statement about the complete wind-farm exposure rather than a claim about a pure 1 Hz tone.",
+        "Being near a threshold is an approximate comparison, not necessarily an assertion of crossing a universal average threshold. The available guidance does not define what proximity would justify that wording.",
+        "Sensitive individuals, higher-frequency components and possible non-auditory effects cannot be ruled out by comparing the 1 Hz map value with an illustrative threshold at another frequency. None of these alternatives proves the author correct, but they preclude a confident contradiction from the checked evidence."
+      ],
+      "severity_review": {
+        "staged": "minor",
+        "reason": "Minor would be proportionate if a specific mismatch were demonstrated, but severity does not solve the classification gap. No admitted error is recommended."
+      },
+      "direction_review": {
+        "conditional": true,
+        "reason": "If the perception claim were shown wrong, it would narrow a wind-health premise supporting abolition. Direction is conditional because the error itself is unresolved."
+      },
+      "suggested_unresolved_wording": "The cited spatial maps concern a 1 Hz frequency band, and LfU explains that perception thresholds depend strongly on frequency. The checked sources do not establish the stated threshold comparison; they also do not demonstrate that the author’s complete exposure or every sensitive person is below threshold. The exact claim remains unresolved.",
+      "check_completed": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "behg-cr-final-lfu",
+      "url": "https://www.lfu.bayern.de/buerger/doc/uw_117_windkraftanlagen_infraschall_gesundheit.pdf",
+      "retrieved_at": "2026-10-25T10:07:23.989683+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/cr-final-lfu.pdf",
+      "http_status": 200,
+      "bytes": 3487426,
+      "content_type": "application/pdf",
+      "sha256": "5351c2eedcaba230045d2166b893e5c826a9167c9e8b33e4309810ca38214590",
+      "usable_as_evidence": true,
+      "archive_kind": "original_download",
+      "title": "Bavarian LfU and LGL: Windenergieanlagen, Infraschall und Gesundheit, July 2022",
+      "temporal_limit": "Publication and corrected version predate the 5 October 2026 authored submission. Retrieved current public bytes on 25 October 2026; no independent historical server snapshot.",
+      "physical_pages": 12,
+      "content_validation": "PDF signature, page extraction and primary article/guidance identity inspected; not a challenge page.",
+      "extracted_text_file": "research/factual-checks/behg-2026/sources/cr-final-lfu.txt"
+    },
+    {
+      "id": "behg-cr-final-masselot-corrected",
+      "url": "https://www.ag-myresearch.com/uploads/1/3/8/6/13864925/2023_masselot_lancetplanhealth.pdf",
+      "retrieved_at": "2026-10-25T10:07:23.990101+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/cr-final-masselot-corrected.pdf",
+      "http_status": 200,
+      "bytes": 1561507,
+      "content_type": "application/pdf",
+      "sha256": "b82e4db1746f0dd0022494ffd59d7660c9ca5a1fb322b08b6592a93f74f39a21",
+      "usable_as_evidence": true,
+      "archive_kind": "original_download",
+      "title": "Masselot et al.: corrected article, 2 July 2024",
+      "temporal_limit": "Publication and corrected version predate the 5 October 2026 authored submission. Retrieved current public bytes on 25 October 2026; no independent historical server snapshot.",
+      "physical_pages": 11,
+      "content_validation": "PDF signature, page extraction and primary article/guidance identity inspected; not a challenge page.",
+      "extracted_text_file": "research/factual-checks/behg-2026/sources/cr-final-masselot-corrected.txt"
+    },
+    {
+      "id": "behg-cr-final-masselot-correction",
+      "url": "https://www.ag-myresearch.com/uploads/1/3/8/6/13864925/2023_masselot_lancetplanhealth_correction.pdf",
+      "retrieved_at": "2026-10-25T10:07:23.990284+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/cr-final-masselot-correction.pdf",
+      "http_status": 200,
+      "bytes": 35054,
+      "content_type": "application/pdf",
+      "sha256": "f92809d0f34b49bf01e9f154c420baf41697d3aad00ad3ccce9ec3b09729432a",
+      "usable_as_evidence": true,
+      "archive_kind": "original_download",
+      "title": "Masselot et al.: correction notice, 2 July 2024",
+      "temporal_limit": "Publication and corrected version predate the 5 October 2026 authored submission. Retrieved current public bytes on 25 October 2026; no independent historical server snapshot.",
+      "physical_pages": 1,
+      "content_validation": "PDF signature, page extraction and primary article/guidance identity inspected; not a challenge page.",
+      "extracted_text_file": "research/factual-checks/behg-2026/sources/cr-final-masselot-correction.txt"
+    },
+    {
+      "id": "behg-cr-final-mattsson-diva",
+      "url": "https://www.diva-portal.org/smash/get/diva2%3A2015498/FULLTEXT01.pdf",
+      "retrieved_at": "2026-10-25T10:07:23.990438+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/cr-final-mattsson-diva.pdf",
+      "http_status": 200,
+      "bytes": 15761058,
+      "content_type": "application/pdf",
+      "sha256": "68a38aa64eab6980a9faa8ca54beab9669473e6b27d77abd998a9b4839e08063",
+      "usable_as_evidence": true,
+      "archive_kind": "original_download",
+      "title": "Mattsson et al.: Efficient finite difference modeling of infrasound propagation in realistic 3D domains, author repository copy",
+      "temporal_limit": "Publication and corrected version predate the 5 October 2026 authored submission. Retrieved current public bytes on 25 October 2026; no independent historical server snapshot.",
+      "physical_pages": 17,
+      "content_validation": "PDF signature, page extraction and primary article/guidance identity inspected; not a challenge page.",
+      "extracted_text_file": "research/factual-checks/behg-2026/sources/cr-final-mattsson-diva.txt"
+    }
+  ],
+  "limitations": [
+    "No author contact or human specialist confirmation. This third review is limited to the two staged candidates and does not re-inventory every other assertion in the submission.",
+    "The corrected article provides modelled temperature-attributable estimates for adult urban populations, not direct cause-of-death counts or a whole-national-population census.",
+    "A failure of the cited guidance to demonstrate an exact perception threshold is not by itself proof that the author’s exposure statement is false. No universal 1 Hz threshold is inferred from the LfU aircraft comparison."
+  ]
+}

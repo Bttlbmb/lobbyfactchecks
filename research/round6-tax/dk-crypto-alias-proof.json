@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-10-25T11:27:53.662459+00:00",
+  "record_kind": "alias_proof_not_new_reading_unit",
+  "existing_pool_ids": [
+    "dk-crypto-20261015",
+    "dk-kryptotax-20261015"
+  ],
+  "new_reread_original": "SG2610150012",
+  "comparison": [
+    {
+      "register_id": "SG2610190011",
+      "pdf_path": "research/round3-root/coverage/register-pdfs/SG2610190011.pdf",
+      "pdf_currently_exists": true,
+      "current_binary_sha256": "13f78267d3f2a14385b974b6168309a0525a8abf3cc1ece06ad9c86762c01b75",
+      "historical_archive_sha256": "13f78267d3f2a14385b974b6168309a0525a8abf3cc1ece06ad9c86762c01b75",
+      "physical_pages_from_text": 8,
+      "body_pages_2_through_8_whitespace_normalized_sha256": "f8daacae2b6422051b959aa8277fcad1574448fbabdb4faaa1e69c444329896a",
+      "body_words": 2892,
+      "cover_printed_date": "2026-10-15"
+    },
+    {
+      "register_id": "SG2610150030",
+      "pdf_path": "research/round3-root/coverage/register-pdfs/SG2610150030.pdf",
+      "pdf_currently_exists": true,
+      "current_binary_sha256": "a63d153317e63ed95dbaef0cd3061bb437836e11c4a10a1904bb74a208816457",
+      "historical_archive_sha256": "a63d153317e63ed95dbaef0cd3061bb437836e11c4a10a1904bb74a208816457",
+      "physical_pages_from_text": 8,
+      "body_pages_2_through_8_whitespace_normalized_sha256": "f8daacae2b6422051b959aa8277fcad1574448fbabdb4faaa1e69c444329896a",
+      "body_words": 2892,
+      "cover_printed_date": "2026-10-15"
+    },
+    {
+      "register_id": "SG2610150012",
+      "pdf_path": "research/round3-root/coverage/register-pdfs/SG2610150012.pdf",
+      "pdf_currently_exists": false,
+      "current_binary_sha256": null,
+      "historical_archive_sha256": "2b1ac63d32332f3712dc93c2ef1cd5bcc7854b97e34a43adc7c2cbb4130d02a4",
+      "physical_pages_from_text": 8,
+      "body_pages_2_through_8_whitespace_normalized_sha256": "f8daacae2b6422051b959aa8277fcad1574448fbabdb4faaa1e69c444329896a",
+      "body_words": 2892,
+      "cover_printed_date": "2026-10-06"
+    }
+  ],
+  "all_body_texts_equal": true,
+  "conclusion": "The two existing units and the new reread have identical whitespace-normalized authored body text on physical pages 2–8. The new reread is excluded from the round6 pool. Existing pool IDs appear to duplicate the same authored body and should be reconciled with explicit history by the parent compiler; this proof does not mutate them.",
+  "date_limit": "The 6 October versus 15 October cover dates are retained. This is a separately dated cover with an identical substantive body, not evidence of revised policy content. Self-reported recipient events do not establish actual delivery.",
+  "access_limit": "SG2610150012 original PDF has been intentionally evicted under the project source-cache policy. Its extracted text and historical archive manifest remain. Current binary equality is not claimed for that file; no restoration was needed for this alias check. The two existing pool PDF binaries were present at this check."
+}

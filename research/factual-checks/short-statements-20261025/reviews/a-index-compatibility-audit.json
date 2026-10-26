@@ -1,0 +1,70 @@
+{
+  "reviewer": "a",
+  "reviewed_at_utc": "2026-10-25T22:33:34.275480+00:00",
+  "scope": "Read-only compatibility delta audit of index introduction selection; no production builder run or output mutation.",
+  "before_file": "research/factual-checks/short-statements-20261025/reviews/factual-index-before-compatibility.py",
+  "before_sha256": "17135ae8487505261440715cea8ea862d057f80793a0017a9b11f73fdbb3a496",
+  "reviewed_file": "research/build_factual_index.py",
+  "reviewed_sha256": "f55efd7477f70c4f8d7d5f636f9937fda4908933ebef25535ab9d8eb016c9758",
+  "preserved_prior_audit": {
+    "file": "research/factual-checks/short-statements-20261025/reviews/a-index-label-audit.json",
+    "sha256": "7193460babde807a55834a30f5f46eef07f3efd6fe9b1b9854750a0114757a0b",
+    "note": "Earlier label-only audit retained as historical record; this new audit covers later compatibility extension."
+  },
+  "disposition": "accept",
+  "checks": [
+    "Exact source comparison after removing new intro display nodes and restoring prior literal line equals the captured before file. No other source changes.",
+    "Explicit grouping_unit research_batch selects the new accurate batch label. Legacy configured output_directory retains bounded archived public sets. Original default without output_directory uses the exact two complete archived public sets wording.",
+    "Actual rows are one per configured batch; new round comprises three complete response sets plus an IT actor subset, so research batches is the correct count label.",
+    "Intro-only isolated AST fixture matches all three currently captured report introduction strings, and explicit grouping priority also passes.",
+    "No result, aggregation, source handling, admission, coverage or validation data logic changed. Escaping the generated introduction is safe for the current numeric/static text."
+  ],
+  "captured_introduction_checks": [
+    {
+      "config": "research/factual-checks/extension-protocol.json",
+      "config_sha256": "7026254a7c187eee4a119b8298c6476f97ef7a3deb91068398427c19798a6e14",
+      "output_report": "research/factual-checks/report.html",
+      "report_sha256": "0cc58cfe69b9b7857ab77daa2512755b5f7cc2d9ebfa032beedb6ac35f8b089a",
+      "summary": "research/factual-checks/summary.json",
+      "summary_sha256": "de6bd4968b6cde99fbe0de1ea545baa09aafbfbf630f39c3273bcaa94df0f5ba",
+      "grouping_unit": null,
+      "has_output_directory": false,
+      "batch_count": 2,
+      "displayed_intro": "30 previously examined responses, 131 physical PDF pages and 388 claim assessments across two complete archived public sets.",
+      "intro_only_fixture_matches_captured_html": true
+    },
+    {
+      "config": "research/factual-checks/continuation-20261025/protocol.json",
+      "config_sha256": "8f1303913bf9872374b2bbdd4dedcc6cd6a17c78ae9e0656d6ed655e23ed9a4f",
+      "output_report": "research/factual-checks/continuation-20261025/report.html",
+      "report_sha256": "103bdd14bb945a0ae74d6e3ba3dab1a66fe02a114f92a2c78db1093377d5585e",
+      "summary": "research/factual-checks/continuation-20261025/summary.json",
+      "summary_sha256": "c61e3a4bcac16312af38e25487deb477e421cfdbe238b223e34fe06b935f535e",
+      "grouping_unit": null,
+      "has_output_directory": true,
+      "batch_count": 3,
+      "displayed_intro": "22 previously examined response PDFs, 120 physical PDF pages and 401 claim assessments across 3 bounded archived public sets.",
+      "intro_only_fixture_matches_captured_html": true
+    },
+    {
+      "config": "research/factual-checks/short-statements-20261025/round-protocol.json",
+      "config_sha256": "06ad1c77b06ab1cb4e504e9c403311712ba73c21ad8f89d507bd9ad2ba9e300f",
+      "output_report": "research/factual-checks/short-statements-20261025/overview/report.html",
+      "report_sha256": "39eba31a7d1f83490b5ff10637fdc70f617db6ab1b712f041986e3b1b2e2e5f3",
+      "summary": "research/factual-checks/short-statements-20261025/overview/summary.json",
+      "summary_sha256": "539886aa92ffa32224364bc68f357bd853a29c716940682769a6b7997c0f667d",
+      "grouping_unit": "research_batch",
+      "has_output_directory": true,
+      "batch_count": 2,
+      "displayed_intro": "20 previously examined response PDFs, 63 physical PDF pages and 201 claim assessments across 2 research batches.",
+      "intro_only_fixture_matches_captured_html": true
+    }
+  ],
+  "concerns": [],
+  "limits": [
+    "Only the introduction was independently reproduced here. C separately verifies full captured HTML reproduction; this audit does not claim full HTML equality.",
+    "The implicit legacy fallback is a compatibility convention for existing configs. Future mixed-set configs should explicitly use grouping_unit research_batch.",
+    "Historical report paths and hashes are point-in-time bindings; no future automatic reproduction or integration correctness certified.",
+    "All main data, generated reports, scripts and earlier audit records were left unchanged. Only this new authored audit record saved."
+  ]
+}

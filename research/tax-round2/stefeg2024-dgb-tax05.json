@@ -1,0 +1,144 @@
+{
+  "id": "stefeg2024-dgb-tax05",
+  "law_id": "stefeg-2024",
+  "document_id": "dgb-stefeg-20241001",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Adjusting tax allowances, child benefit and other tax rules for 2024–2026.",
+    "they_want": "Replace the child tax allowance with higher universal child benefit.",
+    "they_claim": "Existing 2024 maximum tax relief is €4,529 before a proposed allowance increase.",
+    "the_problem": "That amount already includes the increase the footnote says is excluded."
+  },
+  "claim_quote": {
+    "original": "steuerliche Entlastung pro Kind von 4.529 Euro",
+    "language": "de",
+    "translation_en": "Translation: tax relief per child of 4,529 euros",
+    "locator": {
+      "pdf_page": 2,
+      "section": "Bewertung",
+      "paragraph": "second"
+    },
+    "underline": "4.529 Euro"
+  },
+  "context_quote": {
+    "original": "noch nicht mit eingerechnet",
+    "language": "de",
+    "translation_en": "Translation: not yet included in the calculation",
+    "locator": {
+      "pdf_page": 2,
+      "footnote": 1
+    }
+  },
+  "request_quote": {
+    "original": "den Kinderfreibetrag selbst abzuschaffen",
+    "language": "de",
+    "translation_en": "Translation: abolish the child tax allowance itself",
+    "locator": {
+      "pdf_page": 3,
+      "section": "Forderungen des DGB zu Kindergeld und Kinderfreibetrag",
+      "paragraph": "first"
+    }
+  },
+  "counter_quote": {
+    "original": "Anhebung der Kinderfreibeträge ab 1.1.2024 um 228 € von 9.312 € auf 9.540 €",
+    "language": "de",
+    "translation_en": "Translation: raising the child allowances from 1 January 2024 by 228 euros from 9,312 euros to 9,540 euros",
+    "source_id": "bt-20-12783",
+    "locator": {
+      "pdf_page": 8,
+      "printed_page": 8,
+      "section": "VI.3 Haushaltsausgaben ohne Erfüllungsaufwand",
+      "table_row": 1
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "correction": "Under the passage’s assumptions of a 45% income-tax rate and full 5.5% solidarity surcharge, the existing €9,312 allowance gives €4,420.66 relief; €4,529.12 uses the proposed €9,540 allowance. The stated present gap over €3,000 child benefit is overstated by about €108 annually, or €9 monthly.",
+  "effect": "Weakens the magnitude of the present disparity used to support replacement.",
+  "limits": "The proposed retrospective increase would make €4,529 appropriate. The correction does not decide distributional fairness, constitutionality, reform costs or policy. The exact author-published statement of 1 October is not independently matched to a ministry, hearing or registered copy.",
+  "context_and_alternatives": "Page 2 accurately describes the proposed €228 increase earlier, but its explicit footnote excludes that increase from the subsequent existing-policy example. Thus an unstated forward-looking calculation is not a full rescue. An editing mismatch is plausible; intent is not inferred.",
+  "materiality_explanation": "Minor: the annual overstatement is about €108 within an otherwise substantial disparity that survives correction.",
+  "direction_explanation": "True: it makes the present advantage for the highest-tax households appear larger, supporting the explicit replacement request.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment",
+    "legislative_submission_provenance": "Unresolved for the 1 October copy"
+  },
+  "unresolved_question": "Authenticate dispatch or receipt of the 1 October 2024 statement through a legislative channel. The ministry lists the related 19 July consultation statement with the same main figure, which does not establish receipt of the October edition.",
+  "document_metadata": {
+    "author": "Deutscher Gewerkschaftsbund",
+    "date": "2024-10-01",
+    "title": "Stellungnahme zu BT 20/12778 und 20/12783",
+    "draft_versions": [
+      "BT-Drs. 20/12778, 9 September 2024",
+      "BT-Drs. 20/12783, 9 September 2024"
+    ],
+    "draft_comparison": "Exact BT 20/12783, operative increase on page 5 and fiscal table on page 8. The comparison does not substitute the subsequently enacted law.",
+    "source_channel": "Author-published response to the exact Bundestag drafts; the ministry corroborates the related July consultation, but not the exact October edition.",
+    "ministry_dossier": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/20_Legislaturperiode/2024-07-20-JStG-II-2024/0-Gesetz.html"
+  },
+  "calculation": {
+    "existing_allowance_eur": 9312,
+    "proposed_allowance_eur": 9540,
+    "income_tax_rate": 0.45,
+    "solidarity_surcharge_rate": 0.055,
+    "existing_relief_eur": 4420.656,
+    "proposed_relief_eur": 4529.115,
+    "existing_excess_per_month_eur": 118.388,
+    "rounding_note": "Continuous marginal-rate calculation; statutory rounding can alter cents or about one euro, not the €108 difference."
+  },
+  "sources": [
+    {
+      "id": "dgb-stefeg-20241001",
+      "url": "https://www.dgb.de/fileadmin/download_center/Stellungnahmen/2024-10-01_DGB-Stellungnahme_Steuerfortentwicklungsgesetz.pdf",
+      "local_file": "research/tax-round2/sources/dgb-stefeg-20241001.pdf",
+      "role": "author original",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "bt-20-12783",
+      "url": "https://dserver.bundestag.de/btd/20/127/2012783.pdf",
+      "local_file": "research/tax-round2/sources/bt2012783-existenzminimum2024.pdf",
+      "role": "exact draft and existing/proposed allowance distinction",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "solzg-4",
+      "url": "https://www.gesetze-im-internet.de/solzg_1995/__4.html",
+      "role": "full solidarity-surcharge rate 5.5%",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "dgb-related-july-response",
+      "url": "https://www.dgb.de/fileadmin/download_center/Stellungnahmen/2024-07-19_DGB-Stellungnahme_zum_JSTG_II_2024.pdf",
+      "local_file": "research/tax-round2/sources/dgb-jstgII-refe-20240719.pdf",
+      "role": "Related earlier statement listed by the ministry; it does not authenticate the exact October edition.",
+      "retrieved_at": "2026-10-24"
+    }
+  ],
+  "review": {
+    "specialist": null,
+    "independent_ai": []
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "First recorded as unresolved lead because exact legislative-channel provenance remains open despite clear numerical baseline mismatch.",
+      "by": "tax_consultations_ai"
+    }
+  ],
+  "draft": {
+    "source_id": "bt-20-12783",
+    "version_date": "2024-09-09",
+    "addressed_versions": [
+      "BT-Drs. 20/12778, 9 September 2024",
+      "BT-Drs. 20/12783, 9 September 2024"
+    ],
+    "relevant_provision": "BT 20/12783, Article 1 number 1, PDF page 5; fiscal table page 8; explanation page 11. The existing and proposed child allowance bases are distinguished.",
+    "version_check": "Both exact draft numbers appear on the submission title page. The comparison does not substitute the later enacted retrospective amendment.",
+    "provenance_limit": "The exact October edition is authenticated only on the author website; dispatch to or receipt by a ministry, hearing or register remains unresolved."
+  }
+}

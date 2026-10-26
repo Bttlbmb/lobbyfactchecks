@@ -1,0 +1,401 @@
+{
+  "note": "Only source records used by explicitly admitted issue records. Routine negative-screen sources remain in branch provenance logs. Canonical report/version snapshots are individually retained exceptions; collection is not screening.",
+  "sources": [
+    {
+      "id": "benzarti-carloni-aea-manuscript-r6",
+      "title": "Benzarti and Carloni, Who Really Benefits from Consumption Tax Cuts? Evidence from a Large VAT Reform in France, AEA-hosted manuscript",
+      "url": "https://assets.aeaweb.org/asset-server/files/7311.pdf",
+      "retrieved_at": "2026-10-25",
+      "source_is_primary": true,
+      "read_extent": "Root full physical2–3and17–19plus abstract; independent peers read further methods/results/Table3/conclusion.",
+      "version_limit": "Publisher-hosted manuscript with proof placeholders, not mislabelled as final typeset publication. Published AEA abstract independently corroborates main owner-share result; formal journal PDF access403.",
+      "method_limit": "Authors expressly describe owner estimate as a lower bound; not proof actual80percent impossible.",
+      "local_file": "research/round6-root/sources/benzarti-carloni2019-aej.pdf",
+      "sha256": "82bffb16784c216c3e6970205efb3cdd5a0f7a23b0d526df11d14d9a79f6412e",
+      "retention_exception": "One canonical snapshot retained for current report quotation validation and independent version review; not a general public-document mirror."
+    },
+    {
+      "id": "benzarti-carloni-aea-published-abstract-r6",
+      "title": "AEA published article abstract, February2019, AEJ: Economic Policy11(1),38–63",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/pol.20170504",
+      "retrieved_at": "2026-10-25",
+      "source_is_primary": true,
+      "doi": "10.1257/pol.20170504",
+      "read_extent": "Complete original publisher abstract and citation; final PDF link returned403, not claimed read."
+    },
+    {
+      "id": "benzarti2020-jpe-r6",
+      "title": "Benzarti, Carloni, Harju and Kosonen2020, What Goes Up May Not Come Down, Journal of Political Economy128(12),4438–4474",
+      "url": "https://eml.berkeley.edu/~saez/course131/benzartietalJPE2020VAT.pdf",
+      "retrieved_at": "2026-10-25",
+      "source_is_primary": true,
+      "copy_note": "Published journal PDF on academic course site; title,authors,pagination and2020publication imprint checked. No unverified DOI asserted.",
+      "read_extent": "Complete physical1–4and23–25; targeted full-document owner/France search. Not full37pages.",
+      "scope_note": "Entire paper studies price/profit/markup asymmetry; French subsection specifically examines price patterns, not a four-group owner-allocation estimate.",
+      "local_file": "research/round6-root/sources/benzarti2020-jpe.pdf",
+      "sha256": "321d90e8fda1b055bb38806aea5303e2d73623401e9b2dd9e081558f7a57ef35",
+      "retention_exception": "One canonical snapshot retained for current report quotation validation and independent version review; not a general public-document mirror."
+    },
+    {
+      "id": "biesemann-izg-20260223-r6",
+      "title": "Prof. Dr. Jörg Biesemann, infrastructure-future response, 23 February 2026",
+      "url": "https://www.bundestag.de/resource/blob/1149536/Stellungnahme-Prof-Dr-Biesemann.pdf",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round6-energy/sources/biesemann-izg-20260223.pdf",
+      "sha256": "d051363b4e59174b8cca555a0b7f131d206b033dbd83b4cecc16210ea221f7c6",
+      "scope_note": "All five physical pages read. Exact official URL and historical SHA match after local corpus eviction; physical 4/5 rendered.",
+      "retention_exception": "Exact active report/review dependency. Keep one canonical copy for quotation validation; routine census corpus is not restored."
+    },
+    {
+      "id": "bmg-suizid-consultation-r6",
+      "title": "Official BMG Suizidpräventionsgesetz consultation,21st legislature",
+      "url": "https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/suizidpraeventionsgesetz",
+      "local_file": null,
+      "read_extent": "Live official page consultation chronology and list, original Marburger/draft links compared with archived hashes.",
+      "retrieved_at": "2026-10-25",
+      "role": "primary_evidence",
+      "access_status": "web_read; no local archive claimed"
+    },
+    {
+      "id": "dai-fruehstart-20260731",
+      "title": "Deutsches Aktieninstitut: Frühstart-Rente über ein Altersvorsorgedepot für alle Kinder",
+      "url": "https://www.lobbyregister.bundestag.de/media/b6/c4/826478/Stellungnahme-Gutachten-SG2608050020.pdf",
+      "local_file": "research/round3-root/coverage/register-pdfs/SG2608050020.pdf",
+      "sha256": "6b5da539d08d9b16d11b65f826807bd3455309a9c96444e80037701952f07da3",
+      "date": "2026-07-31",
+      "retrieved_at": "2026-10-25",
+      "read_extent": "All six physical pages; page 4 visually checked.",
+      "source_type": "original_registered_submission",
+      "retention_exception": "Active current finding and exact quotation/review dependency; one canonical copy retained under AGENTS source-storage rule.",
+      "recovery_check": {
+        "date": "2026-10-25T11:38:09.619559+00:00",
+        "result": "Ordinary public accepted-notice cookie plus application/pdf retrieval reproduced exact historical SHA256. Initial helper attempt returned notice HTML and was not used."
+      }
+    },
+    {
+      "id": "dai-fruehstart-20260826-context",
+      "title": "Deutsches Aktieninstitut updated government-stage Frühstart statement, 26 August 2026",
+      "url": "https://www.lobbyregister.bundestag.de/media/24/05/835434/Stellungnahme-Gutachten-SG2608260005.pdf",
+      "sha256": "4d4b59f8cabd8baf37145351e55418d9ec13b745d341220a70568b2280703ca6",
+      "retrieved_at": "2026-10-25",
+      "date": "2026-08-26",
+      "read_extent": "All six original pages; later context, not substituted for July claim or treated as an author reply.",
+      "historical_local_file": "research/round3-root/coverage/register-pdfs/SG2608260005.pdf",
+      "cache_status": "intentionally_evicted_after_actual_full_read",
+      "storage_note": "Related later submission, not an author response. Original historical hash, URL and actual-read extent retained; no current local PDF or new finding claimed. No quotation or exact-draft validation depends on this evicted file."
+    },
+    {
+      "id": "destatis-cpi2021-release005",
+      "title": "Destatis provisional2021annual CPI press release005,6January2022",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2022/01/PD22_005_611.html",
+      "retrieved_at": "2026-10-25",
+      "source_is_primary": true,
+      "publication_date": "2022-01-06",
+      "read_extent": "Original primary headline indicators and2021annual context; explicitly provisional.",
+      "version_limit": "Final January release was not successfully retrieved by root; do not claim it was read.",
+      "local_file": "research/round6-root/sources/destatis-cpi2021-release005.html",
+      "sha256": "a7c77d941825f90504fac90494acfe9ae0d0c2346d0267e2b1a8bcc6cf329046",
+      "retention_exception": "One canonical snapshot retained for current report quotation validation and independent version review; not a general public-document mirror."
+    },
+    {
+      "id": "destatis-municipal20261022-r6",
+      "title": "Destatis Europa municipal-waste explanation,22 October 2026",
+      "url": "https://www.destatis.de/Europa/DE/Thema/Umwelt-Energie/Muell_und_Recycling.html",
+      "retrieved_at": "2026-10-25",
+      "sha256": "e4d62a3ca3b7835cdbe26ef276e514bb3ef4419b3ed3a3796b2f49c14acdcafc",
+      "scope_note": "Read complete current main article. Explicitly says 69%already meets 2035 WFD targets, strongly rescuing faithful source reproduction; current data 2024. Web search indexed older 2023/613 kg/69%version matching submission but that older page not independently archived. Do not label current page contemporaneous 7 August evidence.",
+      "archive_state": "Original HTML intentionally evicted. Retained prior hash/text notes record the completed current-page check; later live-byte change not silently substituted.",
+      "text_file": "research/round6-energy/sources/destatis-municipal2025.txt",
+      "text_sha256": "cd3795983555cbdbc518badb0967101167818493900f893c60f168eb19e534b8",
+      "retention_exception": "Short complete article text records the historically read official rescue. Live HTML bytes changed after intentional eviction; no byte-identity claim for the later live page.",
+      "historical_local_file": "research/round6-energy/sources/destatis-municipal2025.html",
+      "historical_local_file_status": "intentionally_evicted; later liveHTMLbytes differ, so no active HTML archive claimed",
+      "checked_excerpt": {
+        "original": "Deutschland erfüllt die Zielvorgaben für 2035 bereits jetzt",
+        "language": "de",
+        "translation_en": "Translation: Germany already meets the targets for2035.",
+        "locator": {
+          "section": "Heading in the complete current main article",
+          "retained_text_line": 74
+        }
+      },
+      "recovery_check": {
+        "date": "2026-10-25",
+        "result": "Ordinary live retrieval produced SHA2567922ecfb0f56fb65eaa6dbd4e72b70505a7b199c65173b2c6e5fd28aa00c21f6, different from preserved originalHTMLhash. Both raw response bytes and UTF8reencoding matched each other, ruling out an encoding-only explanation. Changed snapshot not substituted.",
+        "live_snapshot_saved": false
+      }
+    },
+    {
+      "id": "destatis-vpi12-r6",
+      "title": "Destatis CPI historical table,12categories",
+      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/Tabellen/Verbraucherpreise-12Kategorien.html",
+      "retrieved_at": "2026-10-25",
+      "source_is_primary": true,
+      "read_extent": "Historical2021overall CPI annual change row and surrounding table context.",
+      "version_limit": "Current13October2026table, after9October author; historic2021value corroborates contemporaneous provisionalrelease, no frozen pre-author current-table snapshot claimed.",
+      "local_file": "research/round6-root/sources/destatis-vpi12.html",
+      "sha256": "43f106cb8879104734c1776e0d6f248a02b4bf2b7269431bdfc4cf4b72ef1d91",
+      "retention_exception": "One canonical snapshot retained for current report quotation validation and independent version review; not a general public-document mirror."
+    },
+    {
+      "id": "estg22-current20261025",
+      "title": "Einkommensteuergesetz section 22, current official text",
+      "url": "https://www.gesetze-im-internet.de/estg/__22.html",
+      "local_file": "research/round6-tax/sources/estg22-current20261025.html",
+      "sha256": "386264f877d3a3b57dcb3e1f82aa6679d0eef3391074ea057beb815897d0d0f3",
+      "retrieved_at": "2026-10-25",
+      "read_extent": "Section 22 number 5 in full; not all remaining income categories.",
+      "temporal_limit": "Live current text is supplementary baseline evidence, not a frozen July snapshot.",
+      "retention_exception": "Active current finding and exact quotation/review dependency; one canonical copy retained under AGENTS source-storage rule."
+    },
+    {
+      "id": "eu2019-1004-ukarchive-r6",
+      "title": "Commission Implementing Decision 2019/1004 original OJ, official UK government archive",
+      "url": "https://www.legislation.gov.uk/eudn/2019/1004/pdfs/eudn_20191004_adopted_en.pdf?timeline=false",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round6-energy/sources/eu2019-1004-en.pdf",
+      "sha256": "ad1f947fee48aded6f71078ae9e1fd5610b6f0dbbca1f4a20aea9064e4182a5a",
+      "scope_note": "Read recitals 1–5, Articles 2–7 and AnnexVheader. Article 7 separates old 2020 target reporting AnnexIV from 2025/30/35 targets AnnexV. Original 2019 text, not assertion of current full consolidated law. EUR-Lex direct retrieval failed; official UK-hosted original used.",
+      "previous_local_file": "research/round6-energy/sources/eu2019-1004-en.pdf",
+      "retention_exception": "Active candidate/source-version review and current report quotation validation require exact identity. One local copy retained; recoverable routine corpus files are not bulk restored."
+    },
+    {
+      "id": "eurostat-municipal-2026-r6",
+      "title": "Eurostat Municipal waste statistics,2026 article PDF",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/10360.pdf?v=2300784226576285",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round6-energy/sources/eurostat-municipal-2026.pdf",
+      "sha256": "8bcc8d20ac0e24e2f199ecc7b019668c364b6616ec1f8b9d6431f92a417f0e18",
+      "scope_note": "Read complete substantive article text and figures context. Article says data extractedJanuary 2026; current downloadable version. Its linked spreadsheet last modified 30 March 2026. No claim archive is independently frozen before author date. Curl HTML returned internal-error page and is not evidence; usable PDF and web-tool article text retained.",
+      "previous_local_file": "research/round6-energy/sources/eurostat-municipal-2026.pdf",
+      "retention_exception": "Active candidate/source-version review and current report quotation validation require exact identity. One local copy retained; recoverable routine corpus files are not bulk restored."
+    },
+    {
+      "id": "eurostat-municipal-tables202603-r6",
+      "title": "Eurostat source spreadsheet, Municipal waste tables and figures",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/images/6/6b/Municipal_waste_-_tables_and_figures_20260327_v5.xlsx",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round6-energy/sources/eurostat-municipal-tables-20260327.xlsx",
+      "sha256": "9b7731518616413b5ef1971d2ff7b083b8f4496b5d67b7d340544482d0afccf2",
+      "scope_note": "Parsed original OOXML cells; Figure 6 row 65 Germany, L65 MWRO new rules 46.360313083469023; N65 MWS JQ 68.676040473479972 for 2023. Headers rows 51–52 checked. File metadata last modified 30 March 2026. Figure 5 B64/F64 independently repeats country/rate. Not an author submission/pool unit.",
+      "previous_local_file": "research/round6-energy/sources/eurostat-municipal-tables-20260327.xlsx",
+      "retention_exception": "Active candidate/source-version review and current report quotation validation require exact identity. One local copy retained; recoverable routine corpus files are not bulk restored."
+    },
+    {
+      "id": "eurostat-mwro-methods202603-r6",
+      "title": "Eurostat MWRO reference metadata,26 March 2026",
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/EN/env_wasobl_esms.htm",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round6-energy/sources/eurostat-mwro-methods.html",
+      "sha256": "8ef821245b909e279fa829527bc418134f8b9f912c497fc98380466e9ae245f8",
+      "scope_note": "Read sections 2–3,6,8–10 and data-comparability context. Metadata last posted/updated 26 March 2026 and says data first publishedMarch 2026. Current retrieved page may have revisions; no frozen historic capture claimed.",
+      "retention_exception": "Active candidate/source-version review and current report quotation validation require exact identity. One local copy retained; recoverable routine corpus files are not bulk restored."
+    },
+    {
+      "id": "fruehstart-refe-20260721-mirror",
+      "title": "Consultation draft Frühstartrentengesetz, 21 July 2026 15:48",
+      "url": "https://www.sozialpolitik-aktuell.de/files/sozialpolitik-aktuell/_Politikfelder/Alter-Rente/Dokumente/2026-07_BMF_referentenentwurf-fruehstartrente.pdf",
+      "local_file": "research/round2-tax/sources/fruehstart-refe-20260721-mirror.pdf",
+      "sha256": "38418c4a3b37eb4211b7194d17b0cd8931188e3858e2449bae612a9d272e640a",
+      "retrieved_at": "2026-10-25",
+      "provenance": "Existing archive from university-maintained mirror; original ministry landing page inaccessible, no byte-identical official download claimed.",
+      "read_extent": "Selected complete physical pages 1, 4–5, 7–8, 17–19, 21, 50, 60–61 and 64–65; not a full 65-page read.",
+      "retention_exception": "Active current finding and exact quotation/review dependency; one canonical copy retained under AGENTS source-storage rule."
+    },
+    {
+      "id": "itad-krwg-20260807",
+      "title": "ITAD response 7 August 2026 to KrWG draft 26 June 2026",
+      "url": "https://www.lobbyregister.bundestag.de/media/87/83/828566/Stellungnahme-Gutachten-SG2608100005.pdf",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round3-root/coverage/register-pdfs/SG2608100005.pdf",
+      "sha256": "788e3ea8c889df1a234a90ea7f0a6481529daa7d8d79f3cca6254584d5d81e1b",
+      "scope_note": "Full 24-page response read; physical 8/printed 7 and 20/printed 19 visually checked. Exact PDF URL reconciled against official register metadata. Direct redownload returned a notice page; only hash-checked source-cache recovery is used.",
+      "register_detail_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608100005/442658",
+      "recipient_events": [
+        {
+          "date": "07.08.2026",
+          "recipients": "07.08.2026 Bundesregierung: Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit (BMUKN) [alle SG dorthin]",
+          "links": [
+            {
+              "text": "[alle SG dorthin]",
+              "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundesregierung%7CBundesministerium+f%C3%BCr+Umwelt%2C+Klimaschutz%2C+Naturschutz+und+nukleare+Sicherheit+%28BMUKN%29%5D=true&sort=FIRSTPUBLICATION_DESC"
+            }
+          ]
+        }
+      ],
+      "retention_exception": "Active report quotation validation and exact historical review require this hash-checked canonical copy. Restored through the ordinary public notice flow; no bulk corpus restoration."
+    },
+    {
+      "id": "ivd-mietrecht-20261009",
+      "title": "IVD response9October2026 to BT21/6807",
+      "url": "https://www.lobbyregister.bundestag.de/media/60/27/861233/Stellungnahme-Gutachten-SG2610140009.pdf",
+      "retrieved_at": "2026-10-25",
+      "source_is_primary": true,
+      "author": "Immobilienverband Deutschland IVD",
+      "authored_date": "2026-10-09",
+      "register_id": "SG2610140009",
+      "physical_pages": 13,
+      "read_extent": "Full13physicalpages;5and9visually checked.",
+      "access_note": "Intentionally evicted after read, individually restored using ordinary public register notice session; historical SHA matched. Restoration is not a new factual check.",
+      "local_file": "research/round3-root/coverage/register-pdfs/SG2610140009.pdf",
+      "sha256": "ebfd3366ac3fe56a7e406eea099ff495cf6580a77b345d1f9b02bdd380d3a0f0",
+      "retention_exception": "One canonical snapshot retained for current report quotation validation and independent version review; not a general public-document mirror."
+    },
+    {
+      "id": "izg-br780-25-r6",
+      "title": "Infrastructure-future draft, BR 780/25,19 December 2025",
+      "url": "https://dserver.bundestag.de/brd/2025/0780-25.pdf",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round6-energy/sources/izg-br780-25.pdf",
+      "sha256": "4c758f10f3f2a32e20990b60062f092c89965c87789e7897b2ca0835dbc53ee1",
+      "scope_note": "Exact Bundesrat version named in author body. Cover, problem/solution and budget-effects sections read; planning/permitting bill, not direct creation of SVIK. Not full large draft.",
+      "retention_exception": "Exact active report/review dependency. Keep one canonical copy for quotation validation; routine census corpus is not restored."
+    },
+    {
+      "id": "izg-bt214099-r6",
+      "title": "Infrastructure-future draft, BT 21/4099,11 February 2026",
+      "url": "https://dserver.bundestag.de/btd/21/040/2104099.pdf",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round6-energy/sources/izg-bt214099.pdf",
+      "sha256": "ddcc995d098fc0dd5f4df92add10521051347b68b93fb8e4284d212ec3e9f698",
+      "scope_note": "Parliamentary bill on hearing cover. Introductory context read; not substituted for earlierBRversion author names.",
+      "retention_exception": "Exact active report/review dependency. Keep one canonical copy for quotation validation; routine census corpus is not restored."
+    },
+    {
+      "id": "krwg-bmukn-dossier-r6",
+      "title": "BMUKN official consultation dossier",
+      "url": "https://www.bundesumweltministerium.de/gesetz/referentenentwurf-eines-gesetzes-zur-aenderung-des-kreislaufwirtschaftsgesetzes",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round6-energy/sources/bmukn-krwg-dossier.html",
+      "sha256": "c286a3e4405e14dbdb161fe512c778fcefafebdf9264c3c6007ebccc3cd4cdfb",
+      "scope_note": "Read complete process narrative and download list; states 26 June circulation and 7 August 2026 consultation deadline. Current page updated 30 September 2026; not historical snapshot.",
+      "previous_local_file": "research/round6-energy/sources/bmukn-krwg-dossier.html",
+      "retention_exception": "Active candidate/source-version review and current report quotation validation require exact identity. One local copy retained; recoverable routine corpus files are not bulk restored."
+    },
+    {
+      "id": "krwg-refe-20260626-r6",
+      "title": "BMUKN KrWG June 2026 consultation draft",
+      "url": "https://www.bundesumweltministerium.de/fileadmin/Daten_BMU/Download_PDF/Glaeserne_Gesetze/21._LP/krwg/refe_krwg_bf.pdf",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round6-energy/sources/krwg-refe-20260626.pdf",
+      "sha256": "bee142016911efaea75ae5016330595fdf4a408645093058a766e1761ea73628",
+      "scope_note": "Exact operative wording and explanatory paragraphs quoted by author match. Official dossier says sent 26 June; PDF creation 26 June/modification 8 July, so bytes are not proved to be frozen 26 June. Same hash as prior round 4 official download. Selected physical 2,5–6,15–17,27–28 checked, not full 38 pages.",
+      "previous_local_file": "research/round6-energy/sources/krwg-refe-20260626.pdf",
+      "retention_exception": "Active candidate/source-version review and current report quotation validation require exact identity. One local copy retained; recoverable routine corpus files are not bulk restored."
+    },
+    {
+      "id": "langenmayr-gastgewerbe-20251002-r6",
+      "title": "Dominika Langenmayr,2October2025, three-page restaurant VAT expert statement",
+      "url": "https://www.bundestag.de/resource/blob/1113546/Stellungnahme-Langenmayr.pdf",
+      "retrieved_at": "2026-10-25",
+      "source_is_primary": true,
+      "author": "Prof. Dr. Dominika Langenmayr",
+      "authored_date": "2025-10-02",
+      "hearing_url": "https://www.bundestag.de/ausschuesse/a20_tourismus/anhoerungen/1110208-1110208",
+      "physical_pages": 3,
+      "read_extent": "All3pages; claim physical2visually checked.",
+      "access_note": "Original archived file individually restored through cache helper; recorded historical SHA matched.",
+      "local_file": "research/round3-root/coverage/response-resources/3ab5b6423a1f64a551.pdf",
+      "sha256": "a08b0687a268cf655d69f3f32695af4d153752d456b2d8ca148246f046513e79",
+      "retention_exception": "One canonical snapshot retained for current report quotation validation and independent version review; not a general public-document mirror."
+    },
+    {
+      "id": "marburger-suizid-20260728-r6",
+      "title": "Marburger Bund Bundesverband — Suizidpräventionsgesetz25June2026 draft",
+      "url": "https://www.lobbyregister.bundestag.de/media/80/46/827416/Stellungnahme-Gutachten-SG2608060013.pdf",
+      "local_file": "research/round3-root/coverage/register-pdfs/SG2608060013.pdf",
+      "text_file": "research/round3-root/coverage/register-pdfs/SG2608060013.txt",
+      "sha256": "31047ed09c20ffe48371ac745bd8d981ec207cd042c48bb3d26f4951872c3106",
+      "pdf_pages": 4,
+      "read_extent": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "retrieved_at": "2026-10-25",
+      "register_ids": [
+        "SG2608060013"
+      ],
+      "role": "author_submission",
+      "actual_pdf": true,
+      "cache_status": "retained exact snapshot as current report/build/quotation-validation dependency; one canonical PDF copy only",
+      "retention_exception": "Required by the active Marburger finding and exact original claim/counter quotation validation under AGENTS.md. Restored individually with original SHA-256 verification.",
+      "restoration_note": "The register URL recovery produced different bytes and was refused. The official BMG author mirror reproduced the exact original hash; those verified bytes were restored at the canonical register-file path."
+    },
+    {
+      "id": "mietrechtII-bt216807",
+      "title": "BT21/6807,1July2026",
+      "url": "https://dserver.bundestag.de/btd/21/068/2106807.pdf",
+      "local_file": "research/round2-root/mietrechtII-bt216807.pdf",
+      "retrieved_at": "2026-10-25",
+      "sha256": "3781ddda9ee3f4708423f425f5ffb10549bf2fb192645420afb8b499b1b45844"
+    },
+    {
+      "id": "seehafen-finanzhilfen-law-r6",
+      "title": "Federal seaport financial-assistance statute, section 1",
+      "url": "https://www.gesetze-im-internet.de/bfinhbruag/BFinHBRuaG.pdf",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round6-energy/sources/seehafen-law-current.pdf",
+      "sha256": "607e1078b4ae037cc31c378d1f591c99160669e15bdae835fd3a337af4e07a4b",
+      "scope_note": "Complete one-page official statute read; last amended 14 August 2017. Specific grant to five coastal Länder, not all maritime spending.",
+      "retention_exception": "Exact active report/review dependency. Keep one canonical copy for quotation validation; routine census corpus is not restored."
+    },
+    {
+      "id": "staendg2025-refe-20250904-r6",
+      "title": "BMF Referentenentwurf Steueränderungsgesetz2025,4September2025,09:21, Beck mirror",
+      "url": "https://rsw.beck.de/docs/librariesprovider112/default-document-library/10_steu_steuer%C3%A4nderungsgesetz-2025_referentenentwurf.pdf",
+      "retrieved_at": "2026-10-25",
+      "source_is_primary": true,
+      "original_url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2025-09-04-St%C3%84ndG2025/1-Referentenentwurf.pdf?__blob=publicationFile&v=2",
+      "read_extent": "Root and independent tax reviewer complete cover1, operativeArticle4physical7, rationale31 and commencement explanation37.",
+      "version_limit": "Historical official URL authenticated by contemporaneous DStV hyperlink but currently404. Exact ministry cover version from Beck; no byte-identical former official snapshot or author-transmitted copy claimed.",
+      "local_file": "research/round6-root/sources/staendg2025-refe-beck.pdf",
+      "sha256": "c5b2b11bcf28fead9e2640b2f00dc898aed0c9ddf472d8610ea6306bac922400",
+      "retention_exception": "One canonical snapshot retained for current report quotation validation and independent version review; not a general public-document mirror."
+    },
+    {
+      "id": "suizid-refe-20260625-r6",
+      "title": "Entwurf eines Gesetzes zur Stärkung der nationalen Suizidprävention, Bearbeitungsstand25.06.2026 12:08",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/S/Suizidpraeventionsgesetz_RefE_LP-21.pdf",
+      "local_file": "research/round6-social/sources/suizid-refe-current.pdf",
+      "text_file": "research/round6-social/sources/suizid-refe-current.txt",
+      "sha256": "c26303506c82e9c6d23d18a33e93ecec18606277e3c4aaedfc96122149a0567a",
+      "pdf_pages": 48,
+      "read_extent": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        19,
+        20,
+        21,
+        26,
+        27,
+        28,
+        35
+      ],
+      "retrieved_at": "2026-10-25",
+      "role": "exact_addressed_draft",
+      "actual_pdf": true,
+      "cache_status": "retained exact snapshot as current report/build/quotation-validation dependency; one canonical PDF copy only",
+      "retention_exception": "Required by the active Marburger finding and exact original claim/counter quotation validation under AGENTS.md. Restored individually with original SHA-256 verification."
+    },
+    {
+      "id": "wfd-2018-ukarchive-r6",
+      "title": "Waste Framework Directive consolidation 5 July 2018, official UK government archive",
+      "url": "https://www.legislation.gov.uk/eudr/2008/98/pdfs/eudr_20080098_2018-07-05_en.pdf",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round6-energy/sources/wfd-2018-en.pdf",
+      "sha256": "ac9f641d466a884cc571f08cd3a8e37dd8653502b69749edd23511fe8ee80e8c",
+      "scope_note": "Selected Articles 11 and 11a physical 19–22 and 37 physical 35–36 read. Official archive of 2018 EUtext; not presented as current 2026 fullconsolidation. Relevant target/calculation provisions crosschecked against Eurostat 2026 metadata and exact 2026 draft.",
+      "previous_local_file": "research/round6-energy/sources/wfd-2018-en.pdf",
+      "retention_exception": "Active candidate/source-version review and current report quotation validation require exact identity. One local copy retained; recoverable routine corpus files are not bulk restored."
+    }
+  ]
+}

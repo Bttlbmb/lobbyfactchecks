@@ -1,0 +1,63 @@
+{
+  "id": "netzkosten2026-bkm-craft-tax-fc01",
+  "law_id": "netzkosten-2026",
+  "document_id": "bmwe-netzkosten-2026-008",
+  "status": "ai_screened",
+  "finding_state": "candidate_pending_independent_review",
+  "severity": "minor",
+  "favours_author_request": true,
+  "submission_source_id": "netzkosten-bkm-2026-submission",
+  "card": {
+    "law_is_about": "Extending federal subsidies for electricity transmission-network costs in 2027–2029.",
+    "they_want": "Reduce electricity tax to the EU minimum for all business uses.",
+    "they_claim": "Craft businesses are excluded from electricity-tax relief and pay the full standard rate.",
+    "the_problem": "Producing and construction craft businesses can qualify under the statutory industry classification. The unqualified craft-business exclusion is too broad."
+  },
+  "claim_quote": {
+    "original": "bleiben Handel, Handwerk, Logistik und Dienstleistungen ausgeschlossen",
+    "language": "de",
+    "translation_en": "Translation: trade, crafts, logistics and services remain excluded",
+    "locator": {"pdf_page": 3, "section": "Electricity-tax relief under §9b"},
+    "underline": "Handwerk"
+  },
+  "request_quote": {
+    "original": "Der BKM fordert daher, die Stromsteuer für alle betrieblichen Verwendungen",
+    "language": "de",
+    "translation_en": "Translation of request fragment: BKM therefore calls for electricity tax for all business uses",
+    "locator": {"pdf_page": 3, "section": "Paragraph immediately following the exclusion argument"}
+  },
+  "counter_quote": {
+    "original": "D (Verarbeitendes Gewerbe), E (Energie- und Wasserversorgung) oder F (Baugewerbe)",
+    "language": "de",
+    "translation_en": "Translation: D (manufacturing), E (energy and water supply) or F (construction)",
+    "source_id": "netzkosten-b-stromstg",
+    "locator": {"section": "§2 number3, definition of producing-industry companies; read with §9b(1)"},
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Section9b grants qualifying relief for eligible business electricity use by companies in producing industry and agriculture/forestry. Section2 number3 includes manufacturing and construction under WZ2003. Craft status does not itself exclude a business: producing or construction crafts can qualify, depending on actual activity and statutory conditions. Describe excluded non-producing craft activities rather than the whole craft category.",
+  "effect": "Narrows the list of businesses described as excluded when arguing for broader tax relief. Genuine exclusions affecting many trade and service businesses remain, and the universal-tax-cut proposal is not refuted.",
+  "limits": "The preceding sentence correctly recognises producing-industry eligibility. A charitable reading is shorthand for non-producing craft activities, which remain outside this category. The proposed finding concerns only the unqualified inclusion of crafts in the excluded list. It does not establish any particular firm’s classification, application, eligible consumption or actual refund. Mixed activities, use restrictions and the statutory application and threshold rules matter.",
+  "materiality_explanation": "Minor: a categorical supporting eligibility premise is too broad; the wider argument about unequal sectoral coverage and the policy request remain.",
+  "direction_explanation": "True narrowly: describing the entire craft category as excluded enlarges the apparent gap used to argue for broader relief. The correction does not establish that broader relief is undesirable.",
+  "context_and_alternatives": [
+    "All five BKM pages were read by researcherB and independently by root; reviewerC has independently re-read the full original and is checking all inventory claims.",
+    "The author correctly identifies producing-industry eligibility immediately before the excluded-sector list. Test whether that context fairly implies only non-producing crafts; do not suppress this alternative.",
+    "The current official consolidated statute identifies its last amendment as22December2025, before the August2026 consultation. Exact BKM authorship and delivery dates remain unverified.",
+    "Primary Customs guidance explains economic-activity classification. A dated BMF explanation gives producing-craft examples, but its directly fetched page was unavailable; the indexed researcher extraction is corroborative, not the legal baseline."
+  ],
+  "confidence": {"text_source_mismatch": "High for statutory inclusion of producing and construction activities; contextual non-producing-crafts shorthand requires independent adjudication.", "materiality": "editorial_judgment"},
+  "draft": {
+    "title": "Entwurf eines Gesetzes über einen Zuschuss zu den Übertragungsnetzkosten für die Jahre2027bis2029",
+    "source_id": "netzkosten-root-draft",
+    "version": "Official ministry PDF, internal3August2026 12:48,12physicalpages; current archived public version.",
+    "relevant_provision": "Proposed EnWG§24d subsidy; narrow tax-category correction uses existing StromStG and does not depend on a subsidy-draft difference.",
+    "authored_submission_date": null,
+    "delivery_date_verified": false,
+    "version_limit": "Ministry reports5–13August consultation; BKM original has no verified authored date. Current public draft bytes are not authenticated initial dispatch bytes."
+  },
+  "source_ids": ["netzkosten-bkm-2026-submission", "netzkosten-b-stromstg", "netzkosten-b-zoll-classification", "netzkosten-root-draft"],
+  "review": {"specialist": null, "ai_reviews": []},
+  "author_response": [],
+  "history": [{"date": "2026-10-25", "event": "Initial researcherB identified a narrow statutory-category overstatement; root independently read full original and legal definitions. Staged pending fresh full-record contextual review, including the charitable shorthand alternative.", "by": "factual_extension_root"}],
+  "factual_check_claim_id": "netzkosten-b-008-07"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "luftvst2026-bdi-tax04",
+  "reviewer": "social_digital_independent_ai",
+  "date": "2026-10-24",
+  "review_type": "Independent adversarial AI review; not specialist review",
+  "specialist": null,
+  "verdict": "Retain provisional chronology finding; minor; favours_author_request null",
+  "checks": [
+    "Read all five pages of the archived BDI submission, including the complete surrounding tax-history argument and reinstatement request. Visually inspected physical PDF page 2.",
+    "Read the exact nine-page ministry draft bearing 26 February 2026 16:25, including article 1 rates, article 2 commencement and explanations.",
+    "Independently retrieved official BT19/22601 and official Lobbyregister SG2606160054 metadata; attempted original BMF and register PDF retrieval, both unavailable through this route."
+  ],
+  "context_challenge": "The sentence expressly links commencement to the December 2019 amendment and its three statutory rates. The preceding paragraph concerns the separate May 2024 increase; neither that context nor the cited November 2023 abatement regulation makes April 2024 the commencement of the 2019 Act. A clerical year error is plausible.",
+  "correction": "The government financial plan BT19/22601, page 63, dates commencement of the cited 2019 Act to 1 April 2020 and describes simultaneous effective-rate reduction. This supports the narrow chronology correction while preserving the adjacent mechanism argument.",
+  "materiality": "Minor: correcting the year does not alter the cited rates, historical abatement distinction, or explicit request to restore ETS-linked abatement. No demonstrated directional advantage from the wrong year; null is appropriate.",
+  "provenance_limit": "The substantive BDI text was reviewed in an archival mirror. Official register metadata confirms a five-page BDI submission sent 17 March 2026, but the raw register copy could not be compared. This is a disclosed source-chain limitation, not an author response.",
+  "sources": [
+    {
+      "url": "https://dserver.bundestag.de/btd/19/226/1922601.pdf",
+      "locator": "physical/printed page 63, Luftverkehrsteuer section"
+    },
+    {
+      "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606160054/379279",
+      "locator": "details and dispatch metadata"
+    }
+  ],
+  "required_changes": []
+}

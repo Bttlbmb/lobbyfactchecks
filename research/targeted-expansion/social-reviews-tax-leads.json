@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-10-25T05:25:00Z",
+  "reviewer": "/root/social_round2",
+  "scope": "Independent next-check plausibility and novelty triage only; no factual-error adjudication.",
+  "candidates": [
+    {
+      "id": "SG2610070020",
+      "read_extent": "All three author pages of central archived text read. No underlying primary statistics or full legal opinion read.",
+      "sha256": "c9073d7448644d17881888b94d35aff90a27c4de914451a20abc7dcdd0af0daf",
+      "binary_match_in_pool": false,
+      "semantic_novelty": "No Spirituosen title/author term match found in pooled metadata; unidentified aliases remain possible.",
+      "disposition": "retain_for_next_check",
+      "priority": "medium",
+      "reason": "Page 1 juxtaposes tax-revenue share and a 4.6% consumption share to support an explicit rejection of the tax increase on page 3. Revenue arithmetic and ethanol-versus-beverage-volume denominator can be checked.",
+      "benign_alternative": "The author says mengenmäßig, which can transparently mean beverage volume; a descriptive comparison is not necessarily a false assertion about ethanol share. Differing tax rates are the argument itself. Preserve this reading.",
+      "limits": "Do not equate unequal tax burdens with an error or infer a causal revenue or health outcome from the figures. Header bill changes and actual draft version still require matching."
+    },
+    {
+      "id": "SG2610060025",
+      "read_extent": "All three author pages of central archived text read. UBA87/2025 itself not read for this review.",
+      "sha256": "285bbf292e32810b0d4315af88f169a238808fddc4e66d5dfd569a4b01e2fd6c",
+      "binary_match_in_pool": false,
+      "semantic_novelty": "No Plastiksteuer title match found in pooled metadata; joint-signatory mirrors may exist outside the screened pool.",
+      "disposition": "lower_priority_context_likely_rescues",
+      "priority": "low",
+      "reason": "The letter expressly calls the 420m estimate a general packaging-tax estimate, says the number of plastic-packaging firms is only slightly smaller, and separately conditions customs costs on 500,000 firms. Those adjacent qualifications substantially weaken a source-transplant allegation.",
+      "benign_alternative": "It may be a transparent analogy from a clearly identified broader tax base, rather than presenting the estimate as an exact calculation of this proposed plastic tax.",
+      "next_primary_check": "UBA87/2025 exact tax design and assumed firm count; identified government plastic-tax draft.",
+      "limits": "No discrepancy established. Do not prioritize this above the explicit denominator claim merely because the estimate is large."
+    }
+  ]
+}

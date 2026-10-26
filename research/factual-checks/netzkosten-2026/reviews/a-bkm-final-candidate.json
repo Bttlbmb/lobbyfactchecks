@@ -1,0 +1,130 @@
+{
+  "reviewer": "A",
+  "reviewed_at_utc": "2026-10-25T10:33:53.925272+00:00",
+  "status": "independent_contextual_review_complete",
+  "documents_reread": [
+    {
+      "document_id": "bmwe-netzkosten-2026-008",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "original_file": "research/round3-energy/sources/bmwe-members/2808b19a5bb1843ca144.pdf",
+      "sha256": "2808b19a5bb1843ca1442c055382dcd7cd0bde8d4044111f6fab88fd55d14034",
+      "fully_read": true,
+      "visual_pages": [
+        3
+      ],
+      "read_order": "All five original pages read before the staged record."
+    }
+  ],
+  "basis": "Fresh full-document and final-record review, independent primary statutory and classification checks, exact short quotation checks and conservative contextual adjudication. No main data or staged record edits.",
+  "candidate_reviews": [
+    {
+      "candidate_id": "netzkosten2026-bkm-craft-tax-fc01",
+      "reviewed_file": "research/factual-checks/netzkosten-2026/staged/netzkosten2026-bkm-craft-tax-fc01.json",
+      "reviewed_sha256": "2d3d20fbea433cf4ed2e210dbb7e513b9fe16048a6cd9b811ee25dabaf51d2ed",
+      "disposition": "downgrade_to_unresolved_do_not_admit",
+      "proposed_claim_result": "unresolved",
+      "main_admission_recommended": false,
+      "reason": "The legal proposition is clear, but the contextual scope of the authored assertion is not. Producing and construction craft businesses can qualify under the activity-based statute. Yet the same authored sentence expressly recognises producing-industry eligibility before contrasting the excluded sectors. Reading the crafts reference as the remaining non-producing craft activities is an ordinary reasonable contextual interpretation. Under the user’s conservative standard, an error finding should not select the broader categorical reading when that narrower reading preserves the expressly stated eligibility rule.",
+      "exact_text_check": {
+        "result": "pass",
+        "detail": "The claim fragment and request fragment are exact contiguous wording on physical page 3, allowing ordinary PDF line-wrap normalization. The complete paragraph, previous page and following pages were read. Physical page 3 was visually inspected. The fragment’s omission of the eligibility clause matters to interpretation even though its words are exact.",
+        "physical_page": 3,
+        "visual_archive": "research/factual-checks/netzkosten-2026/sources/ar-bkm-p3.png",
+        "visual_sha256": "7d0940cd8ff416610de71133992eae4fb7f24de36bd3fcac3f11d632f3a6e6f4"
+      },
+      "primary_evidence_checks": [
+        {
+          "source_id": "netzkosten-a-stromstg",
+          "result": "legal_correction_supported",
+          "locator": "Consolidated statute header; §2 numbers 2a and 3; §§3 and 9b",
+          "detail": "Header states last amendment 22 December 2025, before the 2026 consultation. The statutory definition includes WZ 2003 manufacturing and construction. Section 9b grants relief on application for qualifying taxed business use by producing-industry and agriculture/forestry companies. Craft status itself is not an exclusion. General tax is €20.50/MWh; relief is €20/MWh subject to the €250 deductible and other conditions. No legal uncertainty about a blanket craft-status exclusion is being asserted."
+        },
+        {
+          "source_id": "netzkosten-b-zoll-classification",
+          "result": "classification_method_supported",
+          "locator": "Was sind Unternehmen des Produzierenden Gewerbes?; Zuordnung von Unternehmen",
+          "detail": "Independently re-read full archived primary guidance and repeated primary web search. Customs identifies the relevant WZ 2003 sections and says actual economic activities in the relevant period determine classification. This supports the correction’s conditional form, not entitlement of every craft business or any particular BKM member."
+        },
+        {
+          "source_id": "netzkosten-ar-bkm-primary",
+          "result": "pre_consultation_corroboration",
+          "locator": "BMF, Die wichtigsten steuerlichen Änderungen 2026, dated 30 December 2025",
+          "detail": "Independent primary indexed extraction names local producing businesses including bakeries, butchers and construction/craft companies among beneficiaries. Used as corroboration, not as a replacement for the statute or proof of every company’s classification."
+        }
+      ],
+      "full_context_assessment": [
+        "The exact sentence on page 3 first says producing-industry and agriculture/forestry companies benefit. The contrast then lists trade, crafts, logistics and services as excluded. This is stronger contextual support for the non-producing-crafts reading than a remote or unrelated qualification would be.",
+        "On page 2, BKM says the cooperative middle class is largely excluded from the collection of relief instruments. That qualification is inconsistent with treating every member or all craftsmen as an expressly quantified excluded population.",
+        "Page 3 illustrates the argument with a logistics centre and a trading location. Neither example insists that a producing craft is excluded. No named craft firm is expressly assigned ineligibility or a measured full tax burden.",
+        "Page 1 includes BÄKO among affiliated groups. That does not establish the tax classification or eligible consumption of its legal entities or members, and it does not remove the immediately stated producing-industry qualification.",
+        "The proposal for relief for all business uses goes beyond existing production-sector relief and remains a policy preference. Nothing in this review establishes its desirability or fiscal effects."
+      ],
+      "alternative_interpretations_considered": [
+        {
+          "reading": "Categorical exclusion of every craft business",
+          "assessment": "On an isolated literal reading of the excluded-sector list, this is too broad under §§2 and 9b. A narrowly labelled minor overstatement is defensible under that reading."
+        },
+        {
+          "reading": "Excluded non-producing crafts contrasted with the already acknowledged eligible producing sector",
+          "assessment": "Reasonable in the same-sentence context. The original does not explicitly repeat non-producing, so this is not certainty about author intent. It is enough contextual ambiguity to prevent conservative main-finding admission."
+        }
+      ],
+      "severity_review": "If the categorical reading were established, minor would be proportionate because only one supporting eligibility category changes. With unresolved scope, no main finding or severity is recommended.",
+      "direction_review": "If the categorical reading were established, true narrowly is reasonable: adding all crafts to the excluded list enlarges the apparent coverage gap favouring universal relief. That directional mechanism is conditional and does not resolve what the author actually asserted in context.",
+      "source_and_date_limits": [
+        "BKM has no authenticated authored or recipient-delivery date in the protocol. PDF title/creation metadata suggest an August document but do not authenticate authorship or delivery and are not used to establish a precise date.",
+        "Current consolidated statute header predates the 2026 consultation and supports the legal classification. The undated current Customs page is corroborative interpretation, not a verified historical page snapshot.",
+        "No firm-specific activity mix, annual electricity use, application, threshold, aid condition or refund was reconstructed.",
+        "The correction does not require identity between the current public network-subsidy draft and the initially dispatched draft."
+      ],
+      "required_action": "Retain the clear supported legal rule and the contextual ambiguity in the claim ledger; classify the broader exclusion assertion as unresolved and do not admit the staged candidate to main findings. Preserve reviewer C’s different reading and root adjudication.",
+      "confidence": "High for the statute and the existence of a reasonable contextual alternative; author intent is not inferred."
+    }
+  ],
+  "sources": [
+    {
+      "id": "netzkosten-a-stromstg",
+      "title": "StromStG full consolidated text",
+      "url": "https://www.gesetze-im-internet.de/stromstg/BJNR037810999.html",
+      "retrieved_at": "2026-10-25T09:59:17.205801+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/a-stromstg.html",
+      "sha256": "9172204a3447c44585e228540c65ffd9f7969d52492c6adf9e389c6046c0a77d",
+      "temporal_limit": "Source publication and data period checked against August 2026 authorship; current retrieval does not authenticate historical page bytes.",
+      "bytes": 79137,
+      "content_type": "text/html",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "netzkosten-b-zoll-classification",
+      "title": "Customs explanation of producing-industry classification",
+      "url": "https://www.zoll.de/SharedDocs/Boxen/DE/Fragen/0007_unternehmen_produzierendes_gewerbe.html?faqCalledDoc=136642&faqCalledDoc=292800",
+      "retrieved_at": "2026-10-25T10:08:58.269673+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/b-zoll-classification.html",
+      "sha256": "b375bb447fbc33de6d8145b0ed72df616f83e3c93e84e29a3d19b69d725d50cf",
+      "bytes": 101914,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Retrieved 25 October 2026. Inspect document publication or consolidated-law amendment header and methods against August 2026 authorship; current portal data are not automatically contemporaneous."
+    },
+    {
+      "id": "netzkosten-ar-bkm-primary",
+      "title": "Independent Customs and BMF primary search checks",
+      "url": "Exact official URLs retained in the labelled extraction",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/ar-bkm-primary.json",
+      "sha256": "48e8e21622a3be68ecb1d9f54e35dc394704cfe8fde30728064fe9fd1d660776",
+      "archive_kind": "Web tool extraction, not original HTML bytes",
+      "temporal_limit": "BMF release is dated 30 December 2025. Current Customs explanation has no authenticated author-date snapshot; statutory definition is the temporal baseline."
+    }
+  ],
+  "limitations": [
+    "Independent AI review; no human specialist confirmation, author contact or inference of intent.",
+    "This review records a disagreement with a defensible narrower-overstatement assessment. It does not assert that the literal all-crafts proposition is legally correct."
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "fruehstart2026-vzbv-allocation-tax-r2-10",
+  "law_id": "fruehstartrentengesetz-2026",
+  "document_id": "vzbv-fruehstart-20260922",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": false,
+  "card": {
+    "law_is_about": "A state-funded private-pension starting balance for children, with a collective default investment option.",
+    "they_want": "Bind the collective investment strategy more tightly in the statute, including broad diversification, passive management and low costs.",
+    "they_claim": "The government bill already requires the collective fund to invest exclusively in globally diversified stocks or stock funds.",
+    "the_problem": "The addressed September government bill does not impose the stock-only requirement. That appeared in the earlier July consultation draft and was later restored in October."
+  },
+  "claim_quote": {
+    "original": "ausschließlich global diversifiziert in Aktien oder\nAktienfonds angelegt werden sollen.",
+    "language": "de",
+    "translation_en": "Translation of claim fragment: are to be invested exclusively in globally diversified stocks or stock funds.",
+    "locator": {
+      "pdf_page": 11,
+      "printed_page": 11,
+      "section": "6. Anlagevorschriften gesetzlich absichern",
+      "paragraph": "First paragraph, first sentence, expressly describing §24 FrühStRG."
+    },
+    "underline": "ausschließlich global diversifiziert in Aktien oder\nAktienfonds"
+  },
+  "request_quote": {
+    "original": "die grundlegenden Anforderungen an die kollektive Kapitalanlage unmittelbar in\n§ 24 FrühStRG zu verankern.",
+    "language": "de",
+    "translation_en": "Translation of request fragment: to anchor the basic requirements for collective investment directly in §24 FrühStRG.",
+    "locator": {
+      "pdf_page": 11,
+      "printed_page": 11,
+      "section": "Forderung des vzbv, under section 6",
+      "paragraph": "The following sentence specifies global and broad market diversification, a long-term largely passive strategy and consistently low-cost implementation."
+    }
+  },
+  "counter_quote": {
+    "original": "global diversifiziert anzulegen.",
+    "language": "de",
+    "translation_en": "Translation of operative fragment: to be invested with global diversification.",
+    "source_id": "fruehstart-bt217864",
+    "locator": {
+      "pdf_page": 17,
+      "printed_page": 17,
+      "section": "Article 1, proposed §24(3); §24(4) leaves asset classes to investment guidelines."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The September government bill requires global diversification and the principles of return, security and liquidity; its §24(4) delegates eligible asset classes to guidelines. It does not require exclusive stock investment. The exact July 21 consultation version did impose that restriction, while the October 14 committee recommendation later restored an exclusive broad-global-stock rule. Neither is the government bill addressed at the October 5 hearing.",
+  "effect": "The original government bill leaves more statutory investment discretion than described. Correcting that description strengthens, rather than defeats, the request to anchor additional investment safeguards directly in law.",
+  "limits": "This is a narrow version-description slip. It does not show that the collective fund would actually invest in a particular non-equity asset, that a stock-only allocation is preferable, or that passive management and low costs follow automatically from that restriction. The rest of the requested safeguards remains a policy judgment. No intent is inferred.",
+  "context_and_alternatives": [
+    "All 11 submission pages were read. The paragraph explicitly endorses the supposedly existing stock-only condition but immediately says it is insufficient; the request adds several separate investment principles. The broader reform position is not dependent on this descriptive slip.",
+    "A strong benign explanation is carry-over from the July consultation draft: the original 21 July 2026,15:48 version really contains the stock-only restriction. It was retrieved from a university-maintained public mirror after the ministry page failed. This explains the wording without making it correct for the later government bill.",
+    "The government memorandum physical 53 says a high share of stocks or stock funds is useful for education, but it does not convert the operative provision into an exclusive stock mandate. A policy intention is not the same as the described statutory restriction.",
+    "A later-amendment rescue was checked directly: committee recommendation BT 21/8606,14 October 2026, physical 29 shows the exact insertion against the original text. The submission is dated 22 September and its PDF creation metadata is 21 September, before that amendment. The later change is contextual corroboration, not silently substituted law.",
+    "The mirrored consultation draft’s provenance is explicit, and no byte-identical ministry copy is claimed. The finding itself rests on official original Bundestag submission and government-bill PDFs."
+  ],
+  "materiality_explanation": "Minor: this overstates one existing constraint in a short investment-policy subsection; it does not alter the proposed public/default arrangement or undermine the separate requests for passive management, broad diversification and low costs.",
+  "direction_explanation": "False narrowly: describing the bill as already imposing more binding investment limits understates the statutory gap. Correcting it gives greater support to the request for tighter investment safeguards. The preferred asset allocation itself is not adjudicated.",
+  "confidence": {
+    "text_source_mismatch": "high for the exact operative-version difference; earlier-draft carry-over is a plausible explanation",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Einführung einer Frühstartrente",
+    "version": "Government bill BT 21/7864,7 September 2026, for the 5 October 2026 hearing",
+    "source_id": "fruehstart-bt217864",
+    "submission_date": "2026-09-22",
+    "hearing_date": "2026-10-05",
+    "relevant_provision": "Article 1, §24(3)–(4), physical 17; memorandum physical 52–53.",
+    "version_check": "Official hearing page links the exact source and BT 21/7864. July consultation and October committee versions were checked only to test and explain the version alternative."
+  },
+  "submission_source_id": "vzbv-fruehstart-20260922",
+  "source_ids": [
+    "vzbv-fruehstart-20260922",
+    "fruehstart-bt217864",
+    "fruehstart-hearing-20261005",
+    "fruehstart-refe-20260721-mirror",
+    "fruehstart-committee-bt218606"
+  ],
+  "verification": {
+    "visual": "Submission physical 11, government bill physical 17 and original July consultation physical 16 rendered and visually checked. Committee side-by-side text read.",
+    "quotation_budget": "Claim 10 words plus request 14 words=24 author words; counterquote 3 words."
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "independent_energy_ai",
+        "review_file": "research/round2-reviews/energy-reviews-vzbv-fruehstart.json",
+        "outcome": "retain_provisional_minor_false",
+        "scope": "False only for the broader request for binding statutory safeguards; no proved direction for the distinct passive-management and cost conditions."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full submission, exact government bill, earlier consultation and later committee version comparison; independent adversarial review requested.",
+      "by": "tax_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent energy AI read the full submission and all three relevant draft versions; retained the narrow minor finding and qualified false direction.",
+      "by": "tax_ai_screen"
+    }
+  ]
+}

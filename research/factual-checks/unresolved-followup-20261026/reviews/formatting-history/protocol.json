@@ -1,0 +1,125 @@
+{
+  "id": "unresolved-followup-20261026",
+  "title": "Resolving the remaining short-document assessments",
+  "status": "complete",
+  "started_at_utc": "2026-10-25T23:39:12.701210+00:00",
+  "local_date": "2026-10-26",
+  "objective": "Revisit the 56 unresolved assessments in the latest 20 short responses; prioritise recoverable primary evidence and independently re-review proposed resolutions.",
+  "baseline_ledgers": [
+    {
+      "ledger": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+      "sha256": "761cc33b4f63980d13b4d28a60adc0ed6f43b8e4751ac9dda3181aacbcd8c5ac"
+    },
+    {
+      "ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "sha256": "7853bb5d363924107763e75341bcdb48bbfe0ede9fcd881f69d7cef509e4aeca"
+    }
+  ],
+  "baseline_claims": 56,
+  "agent_allocations": {
+    "a": [
+      "short-a-007",
+      "short-a-008",
+      "short-a-028",
+      "short-a-029",
+      "short-a-030",
+      "short-a-031",
+      "short-a-032",
+      "short-a-048",
+      "short-it-a-001",
+      "short-it-a-002",
+      "short-it-a-005",
+      "short-it-a-007",
+      "short-it-a-010",
+      "short-it-a-011",
+      "short-it-a-012",
+      "short-it-a-013",
+      "short-it-a-014",
+      "short-it-b-002",
+      "short-it-c-003",
+      "short-it-c-007"
+    ],
+    "b": [
+      "short-b-008",
+      "short-b-011",
+      "short-b-012",
+      "short-b-013",
+      "short-b-016",
+      "short-b-021",
+      "short-b-031",
+      "short-b-032",
+      "short-b-033",
+      "short-b-034",
+      "short-b-036",
+      "short-b-043",
+      "short-b-044",
+      "short-b-049",
+      "short-b-055",
+      "short-b-057",
+      "short-b-058",
+      "short-b-062",
+      "short-root-003"
+    ],
+    "c": [
+      "short-c-004",
+      "short-c-006",
+      "short-c-008",
+      "short-c-010",
+      "short-c-011",
+      "short-c-012",
+      "short-c-017",
+      "short-c-018",
+      "short-c-020",
+      "short-c-021",
+      "short-c-023",
+      "short-c-025",
+      "short-c-026",
+      "short-c-028",
+      "short-c-031",
+      "short-c-032",
+      "short-c-042"
+    ]
+  },
+  "peer_review_rotation": {
+    "a": "c",
+    "b": "a",
+    "c": "b"
+  },
+  "rules": [
+    "Read actual original context; recorded proposition remains the target. A narrower supported fragment does not silently resolve a stronger compound.",
+    "Retain reasonable author interpretations. Reconsider excessively strong evidence demands, but distinguish that methodological change from new evidence.",
+    "Find targeted primary evidence outside author citations, exact dates/versions, definitions, methods and denominators. Document actual passages checked and access limits.",
+    "Initial resolution proposals freeze before scheduled peer reads; peer repeats primary checks and author context and reviews retained uncertainties as well as proposed changes. Root adjudicates.",
+    "No new finding solely from missing evidence, policy disagreement or prediction. No author contact, purchasing database access, human specialist confirmation or intent inference.",
+    "Do not alter prior completed ledgers, protocols, adjudications, source notes or review records. Produce a linked follow-up overlay.",
+    "New background bytes in system temp only, shared when useful, removed after final review. Preserve concise authored check notes, source identities, URLs, dates, locators and observed hashes.",
+    "No new reading unit for rechecking. No artificial duration or token budget is imposed."
+  ],
+  "record_fields": [
+    "claim_id",
+    "baseline_result",
+    "proposed_result",
+    "resolution_basis",
+    "explanation",
+    "limits",
+    "new_evidence",
+    "author_context_checked"
+  ],
+  "completion_gates": [
+    "All 56 assigned cases have an explicit disposition or scoped no-further-check rationale",
+    "Every proposed resolution independently reviewed against original context and new evidence",
+    "All challenges adjudicated and potential new findings separately reviewed",
+    "Historical baselines preserved; report and appropriate validation complete"
+  ],
+  "limits": [
+    "This is a follow-up to 56 recorded assessments, not an exhaustive check of every assertion or the separate 38 main unresolved leads.",
+    "Support is scoped; unresolved remains appropriate when primary evidence cannot settle the actual claim.",
+    "The 56 cases occur in16existing short originals/53physicalpages. This is a claim follow-up, not a new exhaustive20-document batch or additional reading units.",
+    "Independent AI cross-review and root adjudication; no author contact or human specialist confirmation."
+  ],
+  "completed_at_utc": "2026-10-26T00:45:24.342701+00:00",
+  "initial_protocol_file": "research/factual-checks/unresolved-followup-20261026/protocol-initial.json",
+  "affected_original_documents": 16,
+  "affected_original_physical_pages": 53,
+  "new_reading_units": 0
+}

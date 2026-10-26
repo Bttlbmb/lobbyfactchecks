@@ -1,0 +1,40 @@
+{
+  "note": "Only independently reviewed issue records admitted: three new provisional minor findings and three unresolved leads (two potential minor and one potential major). The late BVTE lead is not a finding or new document. Negative checks and research-only questions remain separate. Actual reading inventory includes transparent pilot reads before the requested hour; census completeness is not claimed.",
+  "inputs": [
+    "research/round4-tax/schuberdg2026-agsbv-costsum-tax-r4-01.json",
+    "research/round4-tax/estreform2027-dstv-anlagen-tax-r4-02.json",
+    "research/round4-social/gedig2026-svdgv-ceilings-social-r4-02.json",
+    "research/round4-social/gedig2026-svdgv-costs-social-r4-01.json",
+    "research/round4-root/pnog2026-wir-care-share-root-r4-01.json",
+    "research/round4-tax/tabstaendg2026-bvte-forecast-tax-r4-03.json"
+  ],
+  "source_registries": [
+    [
+      "research/round4-root/sources.json",
+      "research/round4-root"
+    ],
+    [
+      "research/round4-energy/sources.json",
+      "research/round4-energy"
+    ],
+    [
+      "research/round4-tax/sources.json",
+      "research/round4-tax"
+    ],
+    [
+      "research/round4-social/sources.json",
+      "research/round4-social"
+    ]
+  ],
+  "document_registries": [],
+  "review_directories": [
+    "research/round4-reviews"
+  ],
+  "submission_sources": {
+    "agsbv-schuberdg-financing-20260825": "agsbv-financing-20260825",
+    "dstv-est-reform-20261021": "dstv-est-reform-20261021",
+    "svdgv-gedig-20261012": "svdgv-gedig-20261012",
+    "wir-pnog-20260901": "wir-pnog-open-letter-20260901",
+    "bvte-tabstaendg-2026": "bvte-tabstaendg-2026"
+  }
+}

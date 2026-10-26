@@ -1,0 +1,85 @@
+{
+  "id": "bsi-alcohol-denominator-round4-negative",
+  "status": "ai_screened",
+  "research_disposition": "not_promoted_after_affirmative_context_check",
+  "document_id": "bsi-alcoholtax-20260907",
+  "register_id": "SG2610070020",
+  "author": "Bundesverband der Deutschen Spirituosen-Industrie und -Importeure e. V. (BSI)",
+  "created_at_utc": "2026-10-25T05:35:33.553981+00:00",
+  "not_issue_record": true,
+  "initial_question": "Does the comparison of nearly 70 percent tax revenue with 4.6 percent consumption falsely substitute beverage volume for pure alcohol?",
+  "submission_context": "All three original pages read. Section 1 uses quantity language for the consumption share; section 2 discusses tax per litre of pure alcohol and expressly refers to the AWB legal opinion as Annex 1. Page 3 requests abandonment of the proposed increase.",
+  "original_claim_fragment": {
+    "original": "knapp 70 %), obwohl sie mengenmäßig nur einen sehr kleinen Anteil am Alkoholkonsum haben (4,6 %)",
+    "language": "de",
+    "translation_en": "Translation: nearly 70 percent, although by quantity they have only a very small share of alcohol consumption, 4.6 percent.",
+    "locator": {
+      "pdf_page": 1,
+      "section": "1. Kein verlässliches Instrument zur Haushaltskonsolidierung"
+    }
+  },
+  "request_locator": {
+    "pdf_page": 3,
+    "section": "Der BSI fordert daher",
+    "paraphrase": "Do not pursue the proposed spirits-tax increase; alternatively produce a realistic net impact assessment."
+  },
+  "affirmative_evidence": [
+    {
+      "source_id": "bsi-data2026",
+      "locator": {
+        "pdf_page": 19,
+        "printed_page": 17
+      },
+      "finding": "The graphic explicitly distinguishes litres of finished beverage from excise-tax receipts. The 2025 finished-beverage denominator is 104.65 litres per capita: wine 21.5, sparkling wine 2.9, beer 75.4 and spirits 4.85. Spirits share = 4.6345 percent, rounding to 4.6. The revenue denominator is EUR 2,977.60 million; spirits EUR 2,050.5 million, share 68.8642 percent, rounding to 68.9 or nearly 70. The original page was visually checked."
+    },
+    {
+      "source_id": "bsi-awb202609",
+      "locator": {
+        "pdf_page": 6,
+        "printed_page": 7,
+        "section": "II.2.a Ungleichbehandlung"
+      },
+      "finding": "The expressly cited annex places the 4.6 percent beverage-consumption share and nearly 70 percent tax share alongside an explicit 18–20 percent pure-alcohol share. The page was visually checked. This affirmative qualification defeats treating the summary as a proven substitution of 4.6 percent for pure-alcohol consumption."
+    },
+    {
+      "source_id": "bsi-june30",
+      "locator": {
+        "section": "Paragraph beginning Spirituosen tragen bereits heute"
+      },
+      "finding": "Before the September submission, the author publicly gave both 4.6 percent of the beverage market and 18–20 percent of pure alcohol. This is contextual evidence, not an author response to this investigation."
+    },
+    {
+      "source_id": "bsi-data2026",
+      "locator": {
+        "pdf_page": 12,
+        "printed_page": 10
+      },
+      "finding": "Separate beverage and pure-alcohol columns reinforce the distinction. Rounded 2025 pure-alcohol values are beer 3.6, spirits 1.6, wine 2.4 and sparkling wine 0.3 litres per capita; the resulting illustrative spirits share is about 20 percent. Wine uses an age-16-plus population denominator from 2023, so these rounded mixed-denominator values must not be advertised as an exact corrected national statistic."
+    }
+  ],
+  "conclusion": "No factual denominator error established. Both stated percentages can be reconstructed from an expressly labelled author table, and the named annex supplies the ethanol-share qualification. Their fairness or policy significance is a separate evaluative question. Do not promote the omission in a short summary as a proven factual falsehood.",
+  "limits": [
+    "The original official BMF underlying exact unrounded revenue table was not yet archived; the brochure attributes its table to BMF, and an indexed official February 2026 monthly report independently gives approximately EUR 2,050 million alcohol-tax revenue.",
+    "The brochure notes an administrative year-allocation issue versus the Destatis tax-assessment volume series. Cash receipts and tax assessed on released volume are not interchangeable, so this does not by itself refute the cash-revenue share.",
+    "The exact June discussion draft has not been obtained. Register metadata names that discussion draft, while the original September position expressly names the household accompanying bill and its annex identifies the 6 July cabinet decision. BT 21/7860 Article 1 matches the stated 1,303 to 1,564 rate change and physical page 16 distinguishes the EUR 385 million spirits component from the total EUR 455 million package. No draft-description error is alleged.",
+    "This disposition does not adjudicate the legal opinion, health effects, elasticity or fiscal forecasts."
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "social_round2 AI agent",
+        "file": "research/round4-reviews/social-reviews-bsi-denominator.json",
+        "result": "Independent review supports negative disposition, preserving underlying-series and mixed-population limits."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "Negative source/context screen recorded; independent peer review requested",
+      "by": "ai_screen"
+    }
+  ]
+}

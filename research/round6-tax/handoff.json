@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-10-25T12:01:59Z",
+  "record_kind": "branch_handoff",
+  "new_actual_full_read_units_before_cross_branch_merge": 55,
+  "physical_pages_before_cross_branch_merge": 251,
+  "scope_status_counts": {
+    "federal_policy_request_no_exact_addressed_draft": 3,
+    "legislative_precursor_scope_pending": 7,
+    "federal_legislative_process": 39,
+    "eu_only_or_unestablished_german_federal_legislative_scope": 1,
+    "executive_strategy_no_identified_bill": 2,
+    "tax_administration_interpretation_no_identified_legislative_vehicle": 1,
+    "eu_customs_administration_not_identified_german_legislative_process": 1,
+    "federal_ordinance_consultation_exact_version_unverified": 1
+  },
+  "window_status_counts": {
+    "author_date_in_2026-07-25_to_2026-10-24_window": 18,
+    "date_unverified": 7,
+    "author_date_in_preferred_window": 14,
+    "author_date_outside_preferred_window": 3,
+    "outside_preferred_window_or_author_date_unverified": 13
+  },
+  "counts_are_not": "Neither an all-German submission denominator nor a number of fully fact-checked documents. All rows are full text reads; selected checks are documented separately.",
+  "formal_proposals": [
+    {
+      "path": "research/round6-tax/fruehstart2026-dai-doubletax-tax-r6-01.json",
+      "state": "provisional_finding",
+      "severity": "major",
+      "independent_reviews": [
+        "research/round6-reviews/social-reviews-dai-doubletax.json",
+        "research/round6-reviews/root-reviews-dai-doubletax.json"
+      ]
+    }
+  ],
+  "research_only": [
+    "fidelity-denominator-research-only.json",
+    "malmendier-simulation-negative.json",
+    "budget-experts-negative.json",
+    "haucap-eu-food-comparator-negative.json"
+  ],
+  "alias_and_merge_notes": [
+    {
+      "original_id": "SG2610080006",
+      "instruction": "Deduplicate BUND budget response against the energy round6 read."
+    },
+    {
+      "original_id": "SG2609300287",
+      "instruction": "Deduplicate DSW August budget response against the social round6 read."
+    },
+    {
+      "original_ids": [
+        "SG2610060010",
+        "SG2610060002"
+      ],
+      "instruction": "Identical joint DAV/IVS two-page response; one reading unit retained."
+    },
+    {
+      "original_id": "SG2608060033",
+      "prior_pool_unit": "tax-screened-thomas-soltau-fruhstartrentengesetz-september-2026",
+      "assessment": "Separate 31 July consultation and 25 September hearing versions. The later eight-page text adds unrestricted private-top-up withdrawal, political investment safeguards and several financial-education strategy proposals. A 77.99% ten-token overlap does not make the earlier six-page version a body alias."
+    }
+  ],
+  "existing_pool_body_alias_note": "research/round6-tax/dk-crypto-alias-proof.json",
+  "peer_pool_review": "research/round6-reviews/energy-reviews-tax-pool.json",
+  "reciprocal_reviews": [
+    "research/round6-reviews/tax-reviews-itad-krwg.json",
+    "research/round6-reviews/tax-reviews-biesemann-seaports.json",
+    "research/round6-reviews/tax-reviews-langenmayr-incidence.json"
+  ],
+  "validation": {
+    "locator_depth_page_hash_shape_errors": [],
+    "unique_ids": true
+  },
+  "time_note": "Individual log recorded_at values are record-creation times, not measured read start/finish times. No per-document elapsed durations are reconstructed. Generic new reads were frozen after the 11:57 UTC parent update.",
+  "files": {
+    "research/round6-tax/pool-audit.json": "0d7f8a3fd80efedf56e9fdc341685b1107393d3c5a331ce2694be40164618e03",
+    "research/round6-tax/research-log.json": "87af9e7451727dc87e2c707d616ab9a56badca6b9eaf0786f460c795e3ea56e9",
+    "research/round6-tax/sources.json": "e8522684bc406fd20ed41a3f69a002e72715b2d9151ca84cbc01529545755624",
+    "research/round6-tax/fruehstart2026-dai-doubletax-tax-r6-01.json": "9df45e976dd969cc0131bd8cd6c5d01773e84f6125864066ff2762fc28bc34d7"
+  }
+}

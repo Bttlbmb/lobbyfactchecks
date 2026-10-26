@@ -1,0 +1,153 @@
+{
+  "id": "ehv2030-2026-eon-biomass-threshold-a01",
+  "law_id": "ehv2030-2026",
+  "document_id": "eon-ehv2030-202601",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Detailed implementation of revised emissions-trading rules, including sustainability evidence for biomass.",
+    "they_want": "Introduce grandfathering or a transition period, with the 80% requirement no earlier than 2027.",
+    "they_claim": "Every biomass plant in EU ETS 1 must demonstrate 80% greenhouse-gas savings from 1 January 2026.",
+    "the_problem": "The addressed rules retain commissioning-date and operating-age distinctions, including 70% for a 2021–2023 cohort until 2029."
+  },
+  "claim_quote": {
+    "original": "In der Folge müssten alle\nBiomasseanlagen",
+    "language": "de",
+    "translation_en": "Translation of fragment: As a result, all biomass plants would have to",
+    "locator": {
+      "pdf_page": 1,
+      "printed_page": 1,
+      "section": "First left-column substantive paragraph; sentence continues with EU ETS 1 scope, 1 January 2026 and 80% minimum."
+    },
+    "underline": "alle\nBiomasseanlagen"
+  },
+  "request_quote": {
+    "original": "eine verbindliche Übergangsfrist einzuführen",
+    "language": "de",
+    "translation_en": "Translation of fragment: introduce a binding transition period",
+    "locator": {
+      "pdf_page": 1,
+      "printed_page": 1,
+      "section": "Second bold bullet, left column."
+    }
+  },
+  "counter_quote": {
+    "original": "70% until 31\nDecember 2029;",
+    "language": "en",
+    "translation_en": "Original source is English; no translation required.",
+    "source_id": "ec-gd3-biomass-20250926",
+    "locator": {
+      "pdf_page": 26,
+      "printed_page": 26,
+      "section": "Table 1, installations ≥10 MW, start between 1 January 2021 and 20 November 2023; first two lines of the relevant table cell."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Replace the universal immediate 80% description with the applicable commissioning-date and operating-age cohorts. The exact draft § 3(3) preserves the relevant start date and years of biomass use; its explanation physical 34 says older plants roll into the 80% requirement after 15 years. Pre-submission Commission guidance table 1 expressly gives 70% until 31 December 2029 for biomass-fuel installations ≥10 MW starting between 1 January 2021 and 20 November 2023, followed by 80% from 2030. Newer plants and certain older cohorts can indeed face 80% in 2026.",
+  "effect": "Narrows the breadth and immediacy of the asserted burden supporting a general transition request.",
+  "limits": "This does not establish that affected old plants face no immediate burden, that compliance supplies are readily available, or that a transition is unnecessary. Optional grandfathering under Article 29(15) and automatic cohort thresholds under Article 29(10) are distinct; the finding does not resolve the acknowledged legal debate over applying the former in EU ETS 1. No conclusion about actual E.ON fleet composition or total affected capacity is drawn.",
+  "context_and_alternatives": [
+    "Both author pages were read, including page 2 expressly acknowledging uncertainty over EU ETS applicability of Article 29(15). That acknowledgement concerns the optional extra grandfathering route; it does not convert Article 29(10) into a universal 80% threshold.",
+    "A benign reading could mean all plants in a narrower affected older cohort or all E.ON assets of interest. No such portfolio or operating-age restriction accompanies the challenged all-plants sentence. The surrounding description instead speaks generally about biomass installations falling into EU ETS through site aggregation.",
+    "The draft explanation directly confirms different applicable criteria depending on commissioning date. The counterexample is an express legal cohort, not merely the absence of evidence that all existing installations are affected.",
+    "Commission guidance is an official but non-binding explanation of the EU rules. The exact national draft is the principal version check; later adopted regulation is not substituted.",
+    "The short claim quote isolates the universal quantifier; the full continuation naming 1 January 2026 and 80% was read and visually checked at the same precise locator.",
+    "The prior August 2025 BioSt-NachV consultation draft, physical 10–11 proposed § 6(2), also contains 70% for the 2021–2023 cohort and operating-age distinctions for older plants. It separately proposes optional extra grandfathering in § 6(4), confirming that these are distinct layers. This EEG-focused draft corroborates context and is not substituted for the addressed EHV draft."
+  ],
+  "draft": {
+    "source_id": "ehv2030-refe-202601",
+    "version": "January 2026 consultation Referentenentwurf, official ministry index updated 16 January 2026, submissions due 30 January 2026; no internal drafting timestamp asserted.",
+    "relevant_provision": "§ 3(1)–(4), physical 7–8; rationale physical 33–34, including start-date differentiation and 15-year rolling requirement.",
+    "version_limit": "The current official January consultation PDF has no internal drafting timestamp. PDF metadata records creation on28January2026UTC and modification on29January; the consultation was announced on15/16January. Accessibility generation or retagging can explain this chronology, but metadata neither establishes byte identity with a15January iteration nor proves substantive revision. VIK is dated29January and E.ON identifiesJanuary. The exact operative text in the linked consultation file was checked; no pre16January frozen byte archive is claimed."
+  },
+  "materiality_explanation": "Minor: the universal scope is overstated, but genuinely affected older/newer cohorts and independent implementation concerns remain. This is not an estimate of the number or proportion spared.",
+  "direction_explanation": "True narrowly: expanding the immediate 80% burden to all EU ETS biomass plants strengthens the case for a general transition. This is separate from the modest materiality classification.",
+  "confidence": {
+    "text_source_mismatch": "high for the express 70% cohort and preserved start-date distinctions; interpretation of all as an implicit older-asset cohort remains the strongest alternative",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "agent": "tax_consultations_ai_agent",
+        "date": "2026-10-25",
+        "result": "Retain provisional/minor/true. Full author and exact draft plus Commission decision tree/table independently checked; implicit old-fleet reading does not fully rescue the express universal wording. Optional extra grandfathering is distinct from automatic cohort thresholds.",
+        "review_file": "research/round2-reviews/tax-reviews-eon-ehv-biomass.json"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full author context, exact draft and pre-submission Commission table checked; independent review requested.",
+      "by": "energy_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent adversarial review retained the narrow universal-threshold mismatch as minor, with request-favouring direction and no fleet-size inference.",
+      "by": "energy_ai_screen"
+    }
+  ],
+  "sources": [
+    {
+      "id": "eon-ehv2030-202601",
+      "url": "https://www.bundesumweltministerium.de/fileadmin/Daten_BMU/Download_PDF/Glaeserne_Gesetze/21._LP/ehv_2030/Stellungnahmen/Verbaende/ehv_2030_stn_eon_bf.pdf",
+      "local_file": "research/round2-energy/sources/eon-ehv2030-202601.pdf",
+      "read_scope": "All two author pages read; page 1 visually inspected.",
+      "retrieved_at": "2026-10-25",
+      "sha256": "c7db44cfbaa9c34ed4fbe51853fed6ac73739372a0935180f330de523329a9eb"
+    },
+    {
+      "id": "ec-gd3-biomass-20250926",
+      "url": "https://climate.ec.europa.eu/document/download/2289952b-4d59-494c-8c49-c0a559c403d6_en?filename=gd3_biomass_issues_en.pdf",
+      "local_file": "research/round2-energy/sources/ec-gd3-biomass-20250926.pdf",
+      "read_scope": "Original 85-page Commission guidance, cover/version and relevant sections 3.2,3.5.2/3.5.6.2 plus table 1 physical 26 read; not entire 85 pages. Table 1 visually inspected.",
+      "retrieved_at": "2026-10-25",
+      "sha256": "106988c3b9b9105e90f550557ecec1d8af4c974155d81b5757c667eccb90a91b"
+    },
+    {
+      "id": "ehv2030-refe-202601",
+      "url": "https://www.bundesumweltministerium.de/fileadmin/Daten_BMU/Download_PDF/Glaeserne_Gesetze/21._LP/ehv_2030/Entwurf/ehv_2030_refe_bf.pdf",
+      "local_file": "research/round2-energy/sources/ehv2030-refe-202601.pdf",
+      "read_scope": "Exact January consultation draft operative § 3 and explanation physical 33–34 read; not entire draft.",
+      "retrieved_at": "2026-10-25",
+      "sha256": "5b9bd54ab095c2d4635fdb6709717fb5e2315656c1acca2c4b57870bf64dea47"
+    },
+    {
+      "id": "biost-nachv-refe-202508",
+      "url": "https://www.bundesumweltministerium.de/fileadmin/Daten_BMU/Download_PDF/Glaeserne_Gesetze/21._LP/biost-nachv_biokraft-nachv/Entwurf/biost-nachv_biokraft-nachv_refe_bf.pdf",
+      "local_file": "research/round2-energy/sources/biost-nachv-refe-202508.pdf",
+      "sha256": "fca353b5ddb8ee9bbc61a5fa6fc37fcb98d2447ee4682e9ccfc902268dd50e8e",
+      "retrieved_at": "2026-10-25",
+      "read_scope": "Original 94-page prior consultation draft; operative proposed § 6(2)–(4), physical 10–11, read; not full 94 pages. Official dossier updated 8 September 2025 and contemporary responses dated August 2025 establish availability before the author submission. Used as corroboration, not a replacement for the addressed EHV draft."
+    },
+    {
+      "id": "ehv2030-final-20260710",
+      "title": "Final Emissionshandelsverordnung2030,10July2026; entry into force15July2026",
+      "url": "https://www.gesetze-im-internet.de/ehv_2030_2/BJNR0C90B0026.html",
+      "retrieved_at": "2026-10-25",
+      "role": "process_status_metadata_only",
+      "scope_note": "Official current-law heading and commencement footnote checked. Used only to classify the process as completed, never as the countertext to a January submission."
+    }
+  ],
+  "submission_source_id": "eon-ehv2030-202601",
+  "verification": {
+    "visual": [
+      "research/round2-energy/sources/eon-ehv-p1.png",
+      "research/round2-energy/sources/ec-gd3-p26.png"
+    ],
+    "quotation_budget": "Author claim fragment 6 words plus request 4 words = 10 author words. Commission counter 5 words.",
+    "read_extent": "Full 2-page submission; selected relevant draft and Commission guidance sections only."
+  },
+  "process_status_at_screen": {
+    "status": "completed",
+    "final_instrument_date": "2026-07-10",
+    "entry_into_force": "2026-07-15",
+    "source_id": "ehv2030-final-20260710",
+    "comparison_limit": "Final text is process metadata only. The claim remains compared against the January consultation draft and its recorded version limits."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Independent IGBCE profile recalculation",
+  "created_at": "2026-10-25T10:17:17.018667+00:00",
+  "method": "Annual general tariff cost divided by peak kW = performance price (EUR/kW/year) + work price (ct/kWh) × 6000 hours / 100. Linear subsidy scaling by 5.525/6.5 = 0.85, holding gross cost basis and profile constant. Not a forecast or pure published performance-price component.",
+  "sources": [
+    "netzkosten-cr-ben2026",
+    "netzkosten-cr-ben2026-theoretical",
+    "netzkosten-cr-50hz2025"
+  ],
+  "profiles": [
+    {
+      "profile": "HöS",
+      "year_2025": 207.54000000000002,
+      "year_2026_with_subsidy": 94.46000000000001,
+      "year_2026_without_subsidy": 215.11,
+      "no_subsidy_change_from_2025_percent": 3.647489640551216,
+      "2026_relief_percent": 56.08758309702013,
+      "new_linear_relief_percent": 47.67444563246711,
+      "new_linear_tariff": 112.5575,
+      "gross_cost_growth_relief_percent": {
+        "0.05": 45.40423393568296,
+        "0.1": 43.34040512042464,
+        "0.15": 41.456039680406185
+      }
+    },
+    {
+      "profile": "HöS/HS",
+      "year_2025": 237.06,
+      "year_2026_with_subsidy": 102.5,
+      "year_2026_without_subsidy": 232.95999999999998,
+      "no_subsidy_change_from_2025_percent": -1.729519952754588,
+      "2026_relief_percent": 56.00103021978021,
+      "new_linear_relief_percent": 47.600875686813175,
+      "new_linear_tariff": 122.069,
+      "gross_cost_growth_relief_percent": {
+        "0.05": 45.334167320774455,
+        "0.1": 43.27352335164834,
+        "0.15": 41.39206581462015
+      }
+    }
+  ]
+}

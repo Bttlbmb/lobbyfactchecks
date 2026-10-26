@@ -1,0 +1,1076 @@
+{
+  "agent": "a",
+  "started_at_utc": "2026-10-25T22:31:42.765600+00:00",
+  "completed_at_utc": "2026-10-25T22:31:42.908207+00:00",
+  "action": "Removed only known owned regenerable temporary public downloads, extractions and renders.",
+  "authorisation_and_dependency_clearance": [
+    "Root explicitly confirmed no remaining need for A RSV RKI/egk bytes and authorised cleanup of these three owned directories.",
+    "B confirmed all scheduled RSV/IT peers, price followup and semantic audit complete; no further need for A temporary bytes.",
+    "C confirmed no further need; final integration uses retained canonical originals and authored notes."
+  ],
+  "directories": [
+    {
+      "directory": "/private/tmp/short-rsv-a",
+      "removed_files": 33,
+      "removed_bytes": 18289646,
+      "retained_files": 3
+    },
+    {
+      "directory": "/private/tmp/short-ar-20261025",
+      "removed_files": 5,
+      "removed_bytes": 4883706,
+      "retained_files": 2
+    },
+    {
+      "directory": "/private/tmp/short-it-a-20261025",
+      "removed_files": 17,
+      "removed_bytes": 1592325,
+      "retained_files": 5
+    }
+  ],
+  "total_removed_files": 55,
+  "total_removed_bytes": 24765677,
+  "removed_exact_inventory": [
+    {
+      "path": "/private/tmp/short-rsv-a/banz-shortage.pdf",
+      "bytes": 242333,
+      "sha256": "25c83fc3713470589391826ace1d8e85630038a0a1ed60cf739ad6cf53eeb623",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/banz-shortage.txt",
+      "bytes": 2538,
+      "sha256": "860e7c32d371512b512fe1a59277b61837757f2a2e29a5e4bddcd2a5853a1f1a",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/bvkj-p2.png",
+      "bytes": 257117,
+      "sha256": "25c076947ed4c6505d9212c1c5b9d2d2ad95408bd8ee8334e180db260d95fba2",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/danish.pdf",
+      "bytes": 1165168,
+      "sha256": "d315a79d64891a01acb6ba79a9c61bf5badf8df405d00d96d59243c56e26cdff",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/danish.txt",
+      "bytes": 228933,
+      "sha256": "1f4cba458d78abc8708d4b5d16a28ad9f3312f2e2bc18d643de9339fac9793c5",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/draft-p3.png",
+      "bytes": 123538,
+      "sha256": "f45df214198bf74f4de2d091b0709e2ec72d44e5c0487d604f4271b2aa5bd8f6",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/egk.pdf",
+      "bytes": 238755,
+      "sha256": "8809137028e4d04f4b0f881ec2bdd07541a26999fba2e7e55bf6c4cf8ab14a82",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/egk.txt",
+      "bytes": 21471,
+      "sha256": "84a1686af987f2f53471746f7d296200ecb6a249fb0bc869a29ec16dd60dea24",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/enflonsia.pdf",
+      "bytes": 248559,
+      "sha256": "c3c4563acc79d9e6808a061f5109676949352cf6fe403f0d8678aecc42972459",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/enflonsia.txt",
+      "bytes": 54940,
+      "sha256": "d12616969935f890787a1abf7fb2bce5d037771c60a113149513e71024d3037e",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/ifsg2.html",
+      "bytes": 11069,
+      "sha256": "b715852c95ff637f34f2dbbb01d7b53ced32932a7f8868c6bebbfb02412c1ccb",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/ifsg2.txt",
+      "bytes": 4819,
+      "sha256": "7e475297815ab2a0239e50f6b940e495694a6445c0ecac5dc6498646ffcfd95a",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/ifsg20.html",
+      "bytes": 24450,
+      "sha256": "a4bb9937c286001161e06bcfb7bf122fe6122b9f8bc0d93ec36dfffd199101c8",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/ifsg20.txt",
+      "bytes": 17032,
+      "sha256": "f32df3f0c4b670905df9d709580193de5973ece798d0e22e7de83cc77e997563",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/rki2024.pdf",
+      "bytes": 3026297,
+      "sha256": "0a91f22f28e93421554550cb9eade601548bb0e26e9d43dc3e5356401bff51e4",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/rki2024.txt",
+      "bytes": 175691,
+      "sha256": "4fe9148830b451adc907b1553437f1d4f059d7a9e76341f6167a3b0a0fef1a82",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/rki2025.pdf",
+      "bytes": 7893454,
+      "sha256": "147de969beae6fc92cb013078499c8dfc05e14f01c1f28d05e877d7d04dfbf12",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/rki2025.txt",
+      "bytes": 149969,
+      "sha256": "72e9c1e18b2e222f489712aec109fbec598d02efc181ecc621b40be4cbaa7284",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/rki2026.pdf",
+      "bytes": 1012041,
+      "sha256": "9e63842779945beebe3fbf90c4cd910b28d42318f08556817fe2a9d237210afa",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/rki2026.txt",
+      "bytes": 125755,
+      "sha256": "dd27ffa24412cb40c774f35459322017c404ddcbe4074add9f5ad5c1d35c25b4",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/rkiratgeber.html",
+      "bytes": 243969,
+      "sha256": "102a46e1ee2c70aba18452ef6bb18071728e1e7b84d246ef07f9a3a944865d57",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/rkiratgeber.txt",
+      "bytes": 49481,
+      "sha256": "48cef0ddad4c07c92476234656f79e2a0a3a23f2403756a734b9e37ef9b114b5",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/rkiratgeber2024.pdf",
+      "bytes": 2538618,
+      "sha256": "4891b986cb1a74a28b3e93f1823854164d5640d555d33aa24fcce0c19aaa5f04",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/rkiratgeber2024.txt",
+      "bytes": 73011,
+      "sha256": "66990f9b579f5bd8264a59aff8e6609bec38365a57c8af4ed1f7be57d4055679",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/rsv2024.pdf",
+      "bytes": 47106,
+      "sha256": "631185fc11ee5c45a99bb1e67e1d59bef9150176192bf4a5a54e38049089a911",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/rsv2024.txt",
+      "bytes": 2123,
+      "sha256": "dc007d6212ba4d3c849520132ab95cc6595640cf77ecd0829962ca8c3172b767",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/sgb10.html",
+      "bytes": 11221,
+      "sha256": "5970cbdf41d584e2c35282e2cc6c73fc687335c479bc488c5ab2e37159f04f7a",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/sgb10.txt",
+      "bytes": 6192,
+      "sha256": "f80690d910f7d43ab61391b512aa389d2e5dc9e1de0b89b228438d8179a39358",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/sgb130e.html",
+      "bytes": 6848,
+      "sha256": "67f2d406866fb216a73404213ab03d7f4b91b7dc1f36496b8e430bb7c8c61ea8",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/sgb130e.txt",
+      "bytes": 2886,
+      "sha256": "596e4e591108ebcdbbc9038619d1f46a9458299eca56f70568e93d6da5a36546",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/sgb20i.html",
+      "bytes": 16554,
+      "sha256": "7ccf103a07fd9ac3fc98f8f3d1ff41822f5f06180e3cc814edccbe05f1a882bf",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/sgb20i.txt",
+      "bytes": 11497,
+      "sha256": "33b897bb62323a6b7e5987d0b0faabf67d115f272644f42961ab91a96085c09c",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/vfa-p1.png",
+      "bytes": 256211,
+      "sha256": "febcac2856dca7567b93756e4b9a9ee6a908275b116c41f25a45f0828ae3cb31",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-ar-20261025/bvbc-p4.png",
+      "bytes": 308219,
+      "sha256": "eb228805f6263eb42010658148e98f1da7a0ea752f6a96adfa78af41408744e0",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-ar-20261025/eu201456.html",
+      "bytes": 160447,
+      "sha256": "95efd3321a5510f03dd9bdca3c5139fd1e0696d388c297834b814ea3383ba08f",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-ar-20261025/iaasb-guide.pdf",
+      "bytes": 3534350,
+      "sha256": "f4887692032d6e0ddca5cd4bb2180cab09b188d6f24d3f5e7c7a29f8dded66be",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-ar-20261025/iaasb-guide.txt",
+      "bytes": 593956,
+      "sha256": "422e44b1ff77df32c7958238253210bab631852b85316501311a99bad1b016ea",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-ar-20261025/idw-p3.png",
+      "bytes": 286734,
+      "sha256": "50ff053bc7d137d7f67cafd3580184e9afb76e780c9a7213d44e9edefd48ff86",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/aufenthg71.html",
+      "bytes": 14697,
+      "sha256": "ef1ea6632342decc3fcbf6fae6563d57905c3119600fc3ab3ec5ccfb031db73b",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/aufenthg78.html",
+      "bytes": 18789,
+      "sha256": "6cf9faf257db7f935c7c1a7aff40c491cc549db2ff511e7406922483593cc38c",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/aufenthv57.html",
+      "bytes": 3600,
+      "sha256": "0a55785f69bb6da63241bed4029249f0d4ec13fdab19ffaeee4b212447205677",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/bsi-tr03128-3.pdf",
+      "bytes": 1019233,
+      "sha256": "8f52ca127607ed3b20d4bd78b8220ac356ac6908037189d258970bc9269aba1f",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/bsi-tr03128-3.txt",
+      "bytes": 75290,
+      "sha256": "827eeb3a1427819cae9c25257d68f2ce9c54b959c7eec1aa11ffb9f8e4b88098",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/databund-p2.png",
+      "bytes": 140918,
+      "sha256": "29332ce99c04ec7b874151d81b55fe59e9cdf48f57bed1dce95dbf86fbdcc93d",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/dataport-fv.html",
+      "bytes": 63542,
+      "sha256": "42d98a5f7ac4340c4eeb83a028307f55225358fc350528ce3b22ad071db93ce8",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/dnrw.html",
+      "bytes": 67254,
+      "sha256": "4f060b8bc0d8a89666268bc0ffb7b700339ffdab82a391bf6c022d2f6a627e2f",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/eidkg12.html",
+      "bytes": 5277,
+      "sha256": "20da52ff2c1a4fd0e0bd6cb1d7b794485a68594e09c8e4bf745b2d0a68f58784",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/eidkg14a.html",
+      "bytes": 4033,
+      "sha256": "533624b5780fb70b6b5b8c23f96c7bebdb6a0579f9f03ed2cef878ee213ee384",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/eidkg6.html",
+      "bytes": 5389,
+      "sha256": "27caa73be1fdd6ae05a8e1d0569fe005073f6aca6b6cb5c4aa121c3882772ae5",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/ozg4.html",
+      "bytes": 5170,
+      "sha256": "b74a1f1ba707e0625b26c6a25ee953f0715fbe11242f89e1c14303da261d80a2",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/pauswg20a.html",
+      "bytes": 4236,
+      "sha256": "ee229735609a2f8f1b41c583aad029678dac5579ceec233bfe53f72ac2baa9e9",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/pauswg7.html",
+      "bytes": 5511,
+      "sha256": "5bd0b810da8c1040b2efdc11d6ccc1feb221f402bb537f8317dd1e64ef06c3b4",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/pauswv19.html",
+      "bytes": 5835,
+      "sha256": "dc1f3a3fafc65a558d43a32090b7e21054f4c072406d3f3a725ced4011c3ed4f",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/xpass-release25-11.pdf",
+      "bytes": 135126,
+      "sha256": "b6434510b8ff1e094cb7f23b26ecfb3f87ba662a496229e35c7e1ba45a607944",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/xpass-release25-11.txt",
+      "bytes": 18425,
+      "sha256": "d0437ba975dc9d40b035577d2cb571b1973241c9959a43096ed11f854978226f",
+      "kind": "Regenerable public-source download, supporting extraction or page render"
+    }
+  ],
+  "retained_exact_inventory": [
+    {
+      "path": "/private/tmp/short-rsv-a/build-inventory.py",
+      "bytes": 41149,
+      "sha256": "842ab7ddebc475a43bc4aa7cc6b2f531b619ac4b06f21558ba88f031fc3b23e1",
+      "kind": "Retained authored script or manifest"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/build-notes.py",
+      "bytes": 15875,
+      "sha256": "6450c61d53066e82e4cae2aec50f448f398a474e8ca1a1cdbdf736dd4282fbee",
+      "kind": "Retained authored script or manifest"
+    },
+    {
+      "path": "/private/tmp/short-rsv-a/manifest.json",
+      "bytes": 6600,
+      "sha256": "4e57a9a689537ff961432a81ef68456b4504b3d81c45b0cb37ec7ca00aa88352",
+      "kind": "Retained authored script or manifest"
+    },
+    {
+      "path": "/private/tmp/short-ar-20261025/build-review.py",
+      "bytes": 26517,
+      "sha256": "779724817bc44edc66eddf1fca8f79c8c35533a928d5544e0282b2f414b0c248",
+      "kind": "Retained authored script or manifest"
+    },
+    {
+      "path": "/private/tmp/short-ar-20261025/manifest.json",
+      "bytes": 809,
+      "sha256": "305412226ab72509e00aa10b3b6b105fbd7142fc336df4b80fa870190eba569c",
+      "kind": "Retained authored script or manifest"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/build-baseline-audit.py",
+      "bytes": 11338,
+      "sha256": "006716fadeaa70858132011195b1f14c1197142b00f7bb7cff61ddb275825b0c",
+      "kind": "Retained authored script or manifest"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/build-inventory.py",
+      "bytes": 22860,
+      "sha256": "c13938907aff5027a26733b5a1807e2295f32549bcbb9c690244f9f327d705be",
+      "kind": "Retained authored script or manifest"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/build-peer.py",
+      "bytes": 12464,
+      "sha256": "281b65e544a1219de2233bf1c9ecc1235208b7e57ff71971075bce7b5e7511ed",
+      "kind": "Retained authored script or manifest"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/manifest-extra.json",
+      "bytes": 1769,
+      "sha256": "5c17496f97ada21a64d2388be180c345263953ad9a42ef2a3638248188588a3a",
+      "kind": "Retained authored script or manifest"
+    },
+    {
+      "path": "/private/tmp/short-it-a-20261025/manifest.json",
+      "bytes": 3490,
+      "sha256": "8244fd272da7b735d44d3ba3c85af92a82e26493f9dd50502362fea1040957ac",
+      "kind": "Retained authored script or manifest"
+    }
+  ],
+  "source_retention_manifest": {
+    "path": "research/factual-checks/short-statements-20261025/source-retention.json",
+    "sha256_at_read": "923a7b96cf17dc4c54d4fbf9ed6a358e8d993a9c0718b4556393133498203189"
+  },
+  "protected_repository_paths_checked": 63,
+  "protected_repository_checks": [
+    {
+      "file": "research/round3-social/coverage-pdfs/87ae08139ce27708c5.pdf",
+      "declared_sha256": "f6835f4dc31059a57b46384c5cd42451b5dd58152a600d5eb6de0e83b0e66836",
+      "existed_before": true,
+      "sha256_before": "f6835f4dc31059a57b46384c5cd42451b5dd58152a600d5eb6de0e83b0e66836",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "f6835f4dc31059a57b46384c5cd42451b5dd58152a600d5eb6de0e83b0e66836",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-social/coverage-pdfs/f11025c9a4e3f2d70e.pdf",
+      "declared_sha256": "f10263034eb8d143c31ca8e8cbd07cfc00bfd64f02616d7ab83cc5acc0a04698",
+      "existed_before": true,
+      "sha256_before": "f10263034eb8d143c31ca8e8cbd07cfc00bfd64f02616d7ab83cc5acc0a04698",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "f10263034eb8d143c31ca8e8cbd07cfc00bfd64f02616d7ab83cc5acc0a04698",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-social/coverage-pdfs/9262241137ec78a0c5.pdf",
+      "declared_sha256": "2d2c9f027900b1426b00d640e29fed3a90d2f354722a26ceb0569699f66ff949",
+      "existed_before": true,
+      "sha256_before": "2d2c9f027900b1426b00d640e29fed3a90d2f354722a26ceb0569699f66ff949",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "2d2c9f027900b1426b00d640e29fed3a90d2f354722a26ceb0569699f66ff949",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-social/coverage-pdfs/bb99c89b22ea1d8154.pdf",
+      "declared_sha256": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+      "existed_before": true,
+      "sha256_before": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-social/coverage-pdfs/36b41c5f7e8c878ef1.pdf",
+      "declared_sha256": "4c939eb88da6cd6ae5c8882c32e8674b411ddad61489e00dd7b98ff2af987fd6",
+      "existed_before": true,
+      "sha256_before": "4c939eb88da6cd6ae5c8882c32e8674b411ddad61489e00dd7b98ff2af987fd6",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "4c939eb88da6cd6ae5c8882c32e8674b411ddad61489e00dd7b98ff2af987fd6",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-social/coverage-pdfs/3f38e66dbfaaf78995.pdf",
+      "declared_sha256": "666233e76ca9e4369ed13ade4866e0ce00fb241504771bdf10a3121a55aa8b29",
+      "existed_before": true,
+      "sha256_before": "666233e76ca9e4369ed13ade4866e0ce00fb241504771bdf10a3121a55aa8b29",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "666233e76ca9e4369ed13ade4866e0ce00fb241504771bdf10a3121a55aa8b29",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-social/coverage-pdfs/41906598a892884b60.pdf",
+      "declared_sha256": "b417cb7aa430874181f26c0a16b450da9246fef63094e05f5aa57077b8e1743b",
+      "existed_before": true,
+      "sha256_before": "b417cb7aa430874181f26c0a16b450da9246fef63094e05f5aa57077b8e1743b",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "b417cb7aa430874181f26c0a16b450da9246fef63094e05f5aa57077b8e1743b",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-social/coverage-pdfs/ac2da2aca06e25a632.pdf",
+      "declared_sha256": "d6d4ec30393881a428e4fe34e135610ec554360d9f0fc9509803683e3a60b094",
+      "existed_before": true,
+      "sha256_before": "d6d4ec30393881a428e4fe34e135610ec554360d9f0fc9509803683e3a60b094",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "d6d4ec30393881a428e4fe34e135610ec554360d9f0fc9509803683e3a60b094",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-root/coverage/package-members/70dc62e0c15287deba79.pdf",
+      "declared_sha256": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+      "existed_before": true,
+      "sha256_before": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-root/coverage/package-members/e988e94152724ca18e6c.pdf",
+      "declared_sha256": "5bc89faa12bb4469ebc4962df2470ff2f052fb944a84f28e3b65cd9378509f2c",
+      "existed_before": true,
+      "sha256_before": "5bc89faa12bb4469ebc4962df2470ff2f052fb944a84f28e3b65cd9378509f2c",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "5bc89faa12bb4469ebc4962df2470ff2f052fb944a84f28e3b65cd9378509f2c",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-root/coverage/package-members/4ad8dc289a29234a308d.pdf",
+      "declared_sha256": "614b10ba3b8dbc7a11728bcac2b49e6b6befab52a938e878ebccfd4dab271cbf",
+      "existed_before": true,
+      "sha256_before": "614b10ba3b8dbc7a11728bcac2b49e6b6befab52a938e878ebccfd4dab271cbf",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "614b10ba3b8dbc7a11728bcac2b49e6b6befab52a938e878ebccfd4dab271cbf",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-root/coverage/package-members/9128f71fd4c3fff3b58f.pdf",
+      "declared_sha256": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+      "existed_before": true,
+      "sha256_before": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-root/coverage/package-members/2c8eae086c97d6e8b252.pdf",
+      "declared_sha256": "9372c9b810d4ad0c4cfeca94d42dac477c2bdeb9e1623d8de482cc55179ac72e",
+      "existed_before": true,
+      "sha256_before": "9372c9b810d4ad0c4cfeca94d42dac477c2bdeb9e1623d8de482cc55179ac72e",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "9372c9b810d4ad0c4cfeca94d42dac477c2bdeb9e1623d8de482cc55179ac72e",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-root/coverage/package-members/e2ba6f91a069b805bd8e.pdf",
+      "declared_sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+      "existed_before": true,
+      "sha256_before": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-root/coverage/package-members/b559f95b62c7fa35bbf0.pdf",
+      "declared_sha256": "65734c02596c9cc46940ffde4effd5bf6eed22f058b72843fe6dc218a5ebed06",
+      "existed_before": true,
+      "sha256_before": "65734c02596c9cc46940ffde4effd5bf6eed22f058b72843fe6dc218a5ebed06",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "65734c02596c9cc46940ffde4effd5bf6eed22f058b72843fe6dc218a5ebed06",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+      "declared_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+      "existed_before": true,
+      "sha256_before": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-energy/sources/bmwe-members/91571d57ee384611cb11.pdf",
+      "declared_sha256": "91571d57ee384611cb117c6b52786dc17ba6fc161d0bab578071812a3b0531a3",
+      "existed_before": true,
+      "sha256_before": "91571d57ee384611cb117c6b52786dc17ba6fc161d0bab578071812a3b0531a3",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "91571d57ee384611cb117c6b52786dc17ba6fc161d0bab578071812a3b0531a3",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+      "declared_sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+      "existed_before": true,
+      "sha256_before": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-004.pdf",
+      "declared_sha256": "f42d81c2a2e0f3ae8d7415732464cafa310ce95310c182943ed6ea8a3e7a59a2",
+      "existed_before": true,
+      "sha256_before": "f42d81c2a2e0f3ae8d7415732464cafa310ce95310c182943ed6ea8a3e7a59a2",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "f42d81c2a2e0f3ae8d7415732464cafa310ce95310c182943ed6ea8a3e7a59a2",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-012.pdf",
+      "declared_sha256": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699",
+      "existed_before": true,
+      "sha256_before": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-aok.txt",
+      "declared_sha256": "648e6537bf2528294a5dc9524e91ca9f42ec897c0767fad9849355a1dc4a8d2b",
+      "existed_before": true,
+      "sha256_before": "648e6537bf2528294a5dc9524e91ca9f42ec897c0767fad9849355a1dc4a8d2b",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "648e6537bf2528294a5dc9524e91ca9f42ec897c0767fad9849355a1dc4a8d2b",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-baek.txt",
+      "declared_sha256": "5bafebbeb7d2350b3b357951ea768bcc9aa3e2688b68dfb91005162d4b49e32c",
+      "existed_before": true,
+      "sha256_before": "5bafebbeb7d2350b3b357951ea768bcc9aa3e2688b68dfb91005162d4b49e32c",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "5bafebbeb7d2350b3b357951ea768bcc9aa3e2688b68dfb91005162d4b49e32c",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-baemi.txt",
+      "declared_sha256": "f610ab824d837607f96b773d407707a858ba9b98e227f527c8b9d3e8125ae1c5",
+      "existed_before": true,
+      "sha256_before": "f610ab824d837607f96b773d407707a858ba9b98e227f527c8b9d3e8125ae1c5",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "f610ab824d837607f96b773d407707a858ba9b98e227f527c8b9d3e8125ae1c5",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-bvkj.txt",
+      "declared_sha256": "f425525cfebb28a078c5ac829d299d61d8dddd234ab64c45eacde7ce6411e7b1",
+      "existed_before": true,
+      "sha256_before": "f425525cfebb28a078c5ac829d299d61d8dddd234ab64c45eacde7ce6411e7b1",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "f425525cfebb28a078c5ac829d299d61d8dddd234ab64c45eacde7ce6411e7b1",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-bvoegd.txt",
+      "declared_sha256": "5d8272ad23b822f6b2f7d226543dbe30ac2e26da9c3f43f9b11cc82c21bc3ddd",
+      "existed_before": true,
+      "sha256_before": "5d8272ad23b822f6b2f7d226543dbe30ac2e26da9c3f43f9b11cc82c21bc3ddd",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "5d8272ad23b822f6b2f7d226543dbe30ac2e26da9c3f43f9b11cc82c21bc3ddd",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-gba.txt",
+      "declared_sha256": "795eaf33597626f84b9cc3fe6c98a187b9e21f34fd20e764044607e005d6a74c",
+      "existed_before": true,
+      "sha256_before": "795eaf33597626f84b9cc3fe6c98a187b9e21f34fd20e764044607e005d6a74c",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "795eaf33597626f84b9cc3fe6c98a187b9e21f34fd20e764044607e005d6a74c",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-gkvsv.txt",
+      "declared_sha256": "638e220f68409c7384a6abf507e7b65605a8fead3edbf768267235fb85fd7eb3",
+      "existed_before": true,
+      "sha256_before": "638e220f68409c7384a6abf507e7b65605a8fead3edbf768267235fb85fd7eb3",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "638e220f68409c7384a6abf507e7b65605a8fead3edbf768267235fb85fd7eb3",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-vfa.txt",
+      "declared_sha256": "eec4727a1f9efeee4d9130e006c6abe50d90a25049ba0a048cd43fd2e8ff5c55",
+      "existed_before": true,
+      "sha256_before": "eec4727a1f9efeee4d9130e006c6abe50d90a25049ba0a048cd43fd2e8ff5c55",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "eec4727a1f9efeee4d9130e006c6abe50d90a25049ba0a048cd43fd2e8ff5c55",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/idnrg2026-bnotk.txt",
+      "declared_sha256": "fe62f7da963eeaad1f7ea687922ca4c31073f536bee59f8d8b48009a3a2c19ef",
+      "existed_before": true,
+      "sha256_before": "fe62f7da963eeaad1f7ea687922ca4c31073f536bee59f8d8b48009a3a2c19ef",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "fe62f7da963eeaad1f7ea687922ca4c31073f536bee59f8d8b48009a3a2c19ef",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/idnrg2026-databund.txt",
+      "declared_sha256": "58f356c25c4895d803a495f3e9a4c183a5fbbbc78764addb96790ba6263e439e",
+      "existed_before": true,
+      "sha256_before": "58f356c25c4895d803a495f3e9a4c183a5fbbbc78764addb96790ba6263e439e",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "58f356c25c4895d803a495f3e9a4c183a5fbbbc78764addb96790ba6263e439e",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/idnrg2026-dav.txt",
+      "declared_sha256": "a0db6c3a0e29bcba303b578d620187eb1bb109ca3c63aacaa1cf260c610270a6",
+      "existed_before": true,
+      "sha256_before": "a0db6c3a0e29bcba303b578d620187eb1bb109ca3c63aacaa1cf260c610270a6",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "a0db6c3a0e29bcba303b578d620187eb1bb109ca3c63aacaa1cf260c610270a6",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/idnrg2026-dnotv.txt",
+      "declared_sha256": "11c62eaf739728f7186d98adaf3630f95530fe5c1948d984779d22db661507f7",
+      "existed_before": true,
+      "sha256_before": "11c62eaf739728f7186d98adaf3630f95530fe5c1948d984779d22db661507f7",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "11c62eaf739728f7186d98adaf3630f95530fe5c1948d984779d22db661507f7",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/idnrg2026-kommunale-spitzenverbaende.txt",
+      "declared_sha256": "2f55e257c8e27a2cc8ec0c7340b38f7ff7cb10ea134daf028e81d99e73b92b19",
+      "existed_before": true,
+      "sha256_before": "2f55e257c8e27a2cc8ec0c7340b38f7ff7cb10ea134daf028e81d99e73b92b19",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "2f55e257c8e27a2cc8ec0c7340b38f7ff7cb10ea134daf028e81d99e73b92b19",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/idnrg2026-vdv.txt",
+      "declared_sha256": "3c77c1ba5ee70b18eadd5e26e38f14d55095cfb4d1fa118a7742e991065c3ec1",
+      "existed_before": true,
+      "sha256_before": "3c77c1ba5ee70b18eadd5e26e38f14d55095cfb4d1fa118a7742e991065c3ec1",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "3c77c1ba5ee70b18eadd5e26e38f14d55095cfb4d1fa118a7742e991065c3ec1",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/idnrg2026-zbi.txt",
+      "declared_sha256": "267dd99288390ab7d8f73feab5d03da89e1f1ee1c1d033183b620ca078f2d234",
+      "existed_before": true,
+      "sha256_before": "267dd99288390ab7d8f73feab5d03da89e1f1ee1c1d033183b620ca078f2d234",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "267dd99288390ab7d8f73feab5d03da89e1f1ee1c1d033183b620ca078f2d234",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/bmwe-wpexamen-2026-002.txt",
+      "declared_sha256": "149dc0d5fbfe136ef4241dda142688106290df2db060b678b51fbb075a8e4c84",
+      "existed_before": true,
+      "sha256_before": "149dc0d5fbfe136ef4241dda142688106290df2db060b678b51fbb075a8e4c84",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "149dc0d5fbfe136ef4241dda142688106290df2db060b678b51fbb075a8e4c84",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/text/bmwe-wpexamen-2026-003.txt",
+      "declared_sha256": "aa92a3a5c9a65ff87af13a261e2b6038f5cba0b3121badadef4945d282688b37",
+      "existed_before": true,
+      "sha256_before": "aa92a3a5c9a65ff87af13a261e2b6038f5cba0b3121badadef4945d282688b37",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "aa92a3a5c9a65ff87af13a261e2b6038f5cba0b3121badadef4945d282688b37",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/text/bmds-it-komponentenverordnung-itkv-response-003.txt",
+      "declared_sha256": "dfe1168dcb08a5877ef0d259becc29a121708c1ad35f40dbc14276a8423007ba",
+      "existed_before": true,
+      "sha256_before": "dfe1168dcb08a5877ef0d259becc29a121708c1ad35f40dbc14276a8423007ba",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "dfe1168dcb08a5877ef0d259becc29a121708c1ad35f40dbc14276a8423007ba",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/text/bmds-it-komponentenverordnung-itkv-response-004.txt",
+      "declared_sha256": "1b6fa79f16937ed7b453357f4dc2dd06daafdc8b236f28e49077a82f714ea297",
+      "existed_before": true,
+      "sha256_before": "1b6fa79f16937ed7b453357f4dc2dd06daafdc8b236f28e49077a82f714ea297",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "1b6fa79f16937ed7b453357f4dc2dd06daafdc8b236f28e49077a82f714ea297",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/text/bmds-it-komponentenverordnung-itkv-response-012.txt",
+      "declared_sha256": "cfc914c98698f56b32fcdb72820e2d5815654c147fb4f9b63db96b530dae69e3",
+      "existed_before": true,
+      "sha256_before": "cfc914c98698f56b32fcdb72820e2d5815654c147fb4f9b63db96b530dae69e3",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "cfc914c98698f56b32fcdb72820e2d5815654c147fb4f9b63db96b530dae69e3",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-social/sources/rsv-amendment-refe-20260820.pdf",
+      "declared_sha256": "17a2e54ee41f149a66c7ff59091958e0932a9e361f76f44ad356642413ad8894",
+      "existed_before": true,
+      "sha256_before": "17a2e54ee41f149a66c7ff59091958e0932a9e361f76f44ad356642413ad8894",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "17a2e54ee41f149a66c7ff59091958e0932a9e361f76f44ad356642413ad8894",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-root/coverage/sources/idnrg-regelungsentwurf-20260720.pdf",
+      "declared_sha256": "b40199901fd08e2db16993c5d14a368efb5b69aae330516d5b4e84b26937e8fa",
+      "existed_before": true,
+      "sha256_before": "b40199901fd08e2db16993c5d14a368efb5b69aae330516d5b4e84b26937e8fa",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "b40199901fd08e2db16993c5d14a368efb5b69aae330516d5b4e84b26937e8fa",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-energy/sources/wpexamen-refe-official.pdf",
+      "declared_sha256": "e719aec2fb79e41bfd54b30fb36d67eff0644cfbd74f9ee8b3cc53256f7bc5bc",
+      "existed_before": true,
+      "sha256_before": "e719aec2fb79e41bfd54b30fb36d67eff0644cfbd74f9ee8b3cc53256f7bc5bc",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "e719aec2fb79e41bfd54b30fb36d67eff0644cfbd74f9ee8b3cc53256f7bc5bc",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/root-primary-checks.json",
+      "declared_sha256": "b5cb972893d36dbbfd44496f54a504acdfdeaada18509a7c4e5e6c6ce1e6c835",
+      "existed_before": true,
+      "sha256_before": "b5cb972893d36dbbfd44496f54a504acdfdeaada18509a7c4e5e6c6ce1e6c835",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "b5cb972893d36dbbfd44496f54a504acdfdeaada18509a7c4e5e6c6ce1e6c835",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+      "declared_sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892",
+      "existed_before": true,
+      "sha256_before": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/root-adjudication-primary-checks.json",
+      "declared_sha256": "a005a04f172d8361b8ffe49dffa652760d2e02880b833e201cb065a38fe50587",
+      "existed_before": true,
+      "sha256_before": "a005a04f172d8361b8ffe49dffa652760d2e02880b833e201cb065a38fe50587",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "a005a04f172d8361b8ffe49dffa652760d2e02880b833e201cb065a38fe50587",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "declared_sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b",
+      "existed_before": true,
+      "sha256_before": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-social/sources/li-rsv2019-2022.pdf",
+      "declared_sha256": "6efcb545d1cf2cc18b09bbd2b1126dd79ffd195650e4ad638fe0cbd917b78c19",
+      "existed_before": true,
+      "sha256_before": "6efcb545d1cf2cc18b09bbd2b1126dd79ffd195650e4ad638fe0cbd917b78c19",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "6efcb545d1cf2cc18b09bbd2b1126dd79ffd195650e4ad638fe0cbd917b78c19",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "declared_sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109",
+      "existed_before": true,
+      "sha256_before": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "declared_sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35",
+      "existed_before": true,
+      "sha256_before": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/root-price-followup.json",
+      "declared_sha256": "9b86ac0fa56ff5f019e774458cf567406f77ffc8db560950ef107778eebcf0a4",
+      "existed_before": true,
+      "sha256_before": "9b86ac0fa56ff5f019e774458cf567406f77ffc8db560950ef107778eebcf0a4",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "9b86ac0fa56ff5f019e774458cf567406f77ffc8db560950ef107778eebcf0a4",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "declared_sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "existed_before": true,
+      "sha256_before": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "declared_sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "existed_before": true,
+      "sha256_before": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "declared_sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363",
+      "existed_before": true,
+      "sha256_before": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-draft.pdf",
+      "declared_sha256": "3083a6061d2f2512530d3f8f8272e564d557a3ada730660b9aa264a51780cf22",
+      "existed_before": true,
+      "sha256_before": "3083a6061d2f2512530d3f8f8272e564d557a3ada730660b9aa264a51780cf22",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "3083a6061d2f2512530d3f8f8272e564d557a3ada730660b9aa264a51780cf22",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+      "declared_sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd",
+      "existed_before": true,
+      "sha256_before": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "declared_sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "existed_before": true,
+      "sha256_before": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+      "declared_sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43",
+      "existed_before": true,
+      "sha256_before": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+      "declared_sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c",
+      "existed_before": true,
+      "sha256_before": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/root-mpk-check.json",
+      "declared_sha256": "7acd702a15f0987be9938589f4e9c7586e32bb2cf74e983a6dc343fadb49d000",
+      "existed_before": true,
+      "sha256_before": "7acd702a15f0987be9938589f4e9c7586e32bb2cf74e983a6dc343fadb49d000",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "7acd702a15f0987be9938589f4e9c7586e32bb2cf74e983a6dc343fadb49d000",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "declared_sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f",
+      "existed_before": true,
+      "sha256_before": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "declared_sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "existed_before": true,
+      "sha256_before": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "untouched_during_cleanup": true
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "declared_sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1",
+      "existed_before": true,
+      "sha256_before": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1",
+      "matched_declared_before": true,
+      "exists_after": true,
+      "sha256_after": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1",
+      "untouched_during_cleanup": true
+    }
+  ],
+  "all_protected_repository_paths_unchanged": true,
+  "left_untouched": [
+    "Every repository file except this new authored cleanup record.",
+    "C shared-law folders /private/tmp/short-c-20261025 and /private/tmp/short-it-c.",
+    "Root price PDF, shared laws and all unrelated temporary directories."
+  ],
+  "limits": [
+    "No system-wide or repository cache cleanup performed. Counts cover only the explicitly enumerated three A-owned directories.",
+    "Authored scripts/manifests remain in the temporary directories; canonical authored inventories, source notes, reviews, adjudications and audit records remain in the repository.",
+    "Removed supporting bytes can be fetched again from recorded public URLs; removed path existence is not implied by historical snapshots or original hash/read-extent notes.",
+    "Protected-path checks bind before/after values in this cleanup window, not future changes by other sessions. No main objects or generated deliverables rebuilt by this action."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "social-reviews-eichfelder-percentile",
+  "reviewer": "social_round2",
+  "reviewed_at": "2026-10-25",
+  "candidate_id": "invest2025-eichfelder-tax-r2-03",
+  "disposition": "retain_provisional_finding",
+  "recommended_status": "ai_screened",
+  "recommended_severity": "major",
+  "recommended_favours_author_request": true,
+  "scope": [
+    "Read all five official author pages; visually inspected pages 2 and 3 including continuing sentence and footnote.",
+    "Independently parsed original bulk WID country CSV, not only the supplied extract. Verified all six stated values against variable sfiinct992 and same-year top 1 values.",
+    "Read original WID metadata row for sfiinct992 and primary codes dictionary. Metadata defines fiscal income, tax units, share and percentile interval; no national-income correction substituted.",
+    "Read exact BT 21/323 Article 2 physical 6 and companion BT 21/356 cover and initial context, with author cover confirming both addressed titles."
+  ],
+  "checks": {
+    "1995": {
+      "bottom50": 25.91,
+      "top10": 31.67,
+      "top5": 21.01,
+      "top1": 8.16
+    },
+    "2017": {
+      "bottom50": 13.48,
+      "top10": 42.44,
+      "top5": 29.76,
+      "top1": 14.09
+    },
+    "series": "DE; sfiinct992; tax-unit fiscal-income shares"
+  },
+  "adversarial_checks": [
+    "Different income concepts, individual sharing rules or percentile units can produce different estimates. They do not explain all six numbers matching one series with precisely thetop 5 values assigned totop 1.",
+    "A 1/5 typographical slip is plausible and no intent follows; the next sentence nevertheless repeats upper 1 as the policy-relevant group.",
+    "The larger share is material to concentration in that specified group, not a refutation of rising concentration. In the matched series, the top 1 share also rose strongly.",
+    "Current CSV is not a June 2025 archive. Exact multi-number matching supports source identification, but the directly cited DStRarticle remains unread. Preserve that explicit source-chain inference in every public-facing account.",
+    "Source fiscal-income/national-income mismatch is not independently promoted;14.09%must never be described as the corrected share of German national income."
+  ],
+  "adjudication": "Retain provisional major/true narrowly as a percentile-label mismatch in the strongly matched primary series. Materiality is an editorial judgment:29.76%exceeds twice the same-series 14.09%top 1 share, and immediate argument targets upper 1. The policy stance has separate arguments and is not refuted.",
+  "additional_context": "Search found the same top 1 phrase in a later FESreport that cites Eichfelder 2025. This is repetition, not independent validation or an author response, and was not used as counter-evidence.",
+  "new_author_quotations": [],
+  "specialist_review": null,
+  "author_response": []
+}

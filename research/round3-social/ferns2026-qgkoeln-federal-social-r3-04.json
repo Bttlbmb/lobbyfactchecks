@@ -1,0 +1,105 @@
+{
+  "law_id": "fernunterricht-modernisierung-2026",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "confidence": {
+    "text_source_mismatch": "unresolved_after_testing_benign_reading",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "root independent AI",
+        "verdict": "Retain unresolved/minor/null after reading all author pages and primary evidence; concrete benign reading survives.",
+        "review_file": "research/round3-reviews/root-reviews-qgkoeln-federal.json",
+        "specialist": null
+      }
+    ]
+  },
+  "author_response": [],
+  "draft": {
+    "source_id": "ferns-refe-ministry-20261005",
+    "addressed_version": "17 August 2026 consultation draft",
+    "exactness": "The September author response addresses the initial consultation. The current official ministry resource serves a different draft dated5October2026 at11:52. The exact17AugustPDF has not been obtained; October text is corroboration only, not silently substituted.",
+    "version_gate": "exact_addressed_August17_text_not_archived",
+    "locator": {
+      "section": "October revision Article1 andArticle3, not certification of August wording"
+    },
+    "read_extent": "October cover, operative provisions and selected related memorandum/cost sections, not blanket all29pages."
+  },
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as an unresolved wording/source lead. Exact addressed August draft and concrete benign readings remain gates. No intent inferred.",
+      "by": "social_round3_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent root adversarial review retained unresolved/minor/null; no proved factual error promoted.",
+      "by": "social_round3_ai"
+    }
+  ],
+  "id": "ferns2026-qgkoeln-federal-social-r3-04",
+  "document_id": "qgkoeln-ferns-20260910",
+  "card": {
+    "law_is_about": "Repealing the federal FernUSG approval regime and changing funding rules for distance learning.",
+    "they_want": "Keep a single nationwide authority for pedagogical quality assessment.",
+    "they_claim": "Responsibility should remain with the federal level instead of passing to16states.",
+    "the_problem": "The ZFU is already an NRW institution acting for the states. But the author may mean preserving nationwide federal statutory standards, so a mistaken description of administrative ownership is not established."
+  },
+  "claim_quote": {
+    "original": "insgesamt beim Bund verbleiben",
+    "language": "de",
+    "translation_en": "Translation of fragment: remain with the federal level overall",
+    "locator": {
+      "pdf_page": 1,
+      "paragraph": "Final sentence of opening assessment before Zentrale Problematik heading"
+    },
+    "underline": "beim Bund verbleiben"
+  },
+  "request_quote": {
+    "original": "bei einer zentralen Stelle verbleiben",
+    "language": "de",
+    "translation_en": "Translation of fragment: remain with a central authority",
+    "locator": {
+      "pdf_page": 3,
+      "section": "Forderung der Qualitätsgemeinschaft, first bullet"
+    }
+  },
+  "counter_quote": {
+    "original": "als Einrichtung des Landes Nordrhein-Westfalen.",
+    "language": "de",
+    "translation_en": "Translation: as an institution of the state of North Rhine-Westphalia.",
+    "source_id": "bayern-fernunterricht-staatsvertrag",
+    "locator": {
+      "pdf_page": 1,
+      "section": "Article1(1); Article2(2) at physical2 assigns jurisdiction for the Länder"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Administrative ownership and nationwide legal standards are distinct. The Länder treaty establishes the ZFU as an NRW institution, makes it the authority for the Länder and gives every state a representative on its administrative committee. A single nationwide authority can therefore operate through joint state administration. If the author means the existing federal statutory framework rather than administrative ownership, describing standards as remaining at federal level can be defensible.",
+  "effect": "Unresolved. On the literal administrative reading, the claimed federal-to-state institutional transfer is misstated. That correction does not defeat the separate concern that abolishing a joint central review can leave dispersed funding offices making different assessments.",
+  "limits": "Does not establish that decentralisation is harmless, that the proposed reform is wise, or that federal law has no role. No categorical institutional accusation is promoted. Exact August draft unavailable.",
+  "context_and_alternatives": "All four author pages read; physical1 visually checked. The paper repeatedly contrasts Bund with16Länder but also acknowledges the Länder treaty and seeks bundesweite/bundeseinheitliche standards. Strongest rescue is federal statutory responsibility for uniform minimum criteria, not a claim that ZFU belongs administratively to the federal government. TreatyArticles1,2,4,14selected; federal vocational-training participation underArticle9 is separate.",
+  "materiality_explanation": "Potentially minor institutional-description error. The practical preference for one nationwide assessment remains available under the actual Länder arrangement, so a major policy effect is not shown.",
+  "direction_explanation": null,
+  "submission_source": {
+    "url": "https://www.bmbfsfj.bund.de/resource/blob/294382/e1b7e3e60df6d3459520a344c5e24046/qg-koeln-data.pdf",
+    "local_file": "research/round3-social/coverage-pdfs/12749d510e7b0e8d9c.pdf",
+    "authored_date": "2026-09-10",
+    "reported_delivery_independently_verified": false
+  },
+  "reading_depth": {
+    "author": "Full four physical pages; claim physical1 visually checked.",
+    "counter_source": "Official treatyArticles1,2,4,14andZFU organisation section selected, not full treaty legal audit."
+  },
+  "source_ids": [
+    "qgkoeln-ferns-20260910",
+    "bayern-fernunterricht-staatsvertrag",
+    "zfu-staatsvertrag",
+    "ferns-refe-ministry-20261005"
+  ]
+}

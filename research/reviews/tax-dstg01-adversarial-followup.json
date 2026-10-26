@@ -1,0 +1,75 @@
+{
+  "reviewer": "tax_consultations_ai",
+  "review_type": "fresh_adversarial_reassessment_by_originating_researcher",
+  "date": "2026-10-24",
+  "candidate_id": "jstg2026-dstg-tax01",
+  "outcome": "retain_provisional_major_true_with_narrow_effect",
+  "checks": [
+    "Re-read complete submission section III.1 across physical pages 2–3, including the European country examples, exact reporting sentence, immediate infrastructure request, three intended system functions and longer architecture horizon.",
+    "Re-read adopted Directive (EU) 2025/516, Article 5 and its substituted VAT Directive Articles 262–264, plus Article 6(5) application date; also read Article 3 and Article 6(3) for the 2028 pillar.",
+    "Re-read exact ministerial JStG draft dated 19 May 2026 10:22, including ViDA/call-off-stock/OSS changes and commencement explanations. The July 2028 dates there concern different changes; no mandatory general transaction-level intra-EU DRR commencement in 2028 was identified.",
+    "Independently reopened the Council’s final adoption announcement of 11 March 2025 and the Commission’s adopted-package timeline; searched for subsequent changes that could rescue a June 2026 general DRR deadline.",
+    "Checked the 24 September 2025 Commission implementation strategy’s indexed primary text: domestic e-invoicing/reporting can be introduced early, but new domestic systems converge to intra-EU DRR from 1 July 2030. Direct strategy PDF access returned 429.",
+    "Checked original 2022 Commission proposal COM(2022)701, where the proposed reporting timetable used 2028. This plausibly explains an outdated date but does not establish why the author used it."
+  ],
+  "benign_readings_tested": [
+    {
+      "reading": "The author meant another 2028 ViDA pillar.",
+      "assessment": "The source specifically connects the year to mandatory intra-Community electronic reporting. Platform deemed-supplier rules, single VAT registration and the special own-goods OSS scheme have separate scope; they do not establish the general near-real-time transaction reporting obligation invoked by this passage."
+    },
+    {
+      "reading": "A Member State can introduce domestic reporting before 2030.",
+      "assessment": "True, and preserved as a limitation. That option does not make EU-mandated intra-Community DRR start in 2028."
+    },
+    {
+      "reading": "The initial 2022 proposal still legitimately supplies the date.",
+      "assessment": "The response is to a May 2026 draft, and the final timetable was adopted in March 2025. The passage describes the framework as already created, without identifying the obsolete proposal or qualifying the year as historical."
+    },
+    {
+      "reading": "The national preparation request does not depend on the EU deadline.",
+      "assessment": "True. Fraud prevention, other countries’ systems and the long implementation path independently support early preparation. The correction only weakens the external timetable premise, not the overall case for action."
+    }
+  ],
+  "severity_reasoning": "Major remains an editorial judgment tied to bringing a binding external deadline forward by roughly two years. It does not imply that the request is unsound or that the whole argument collapses. If publication policy reserves major for disproving the overall request, this should be downgraded; this screening assesses material premises separately from policy merits.",
+  "direction_reasoning": "The earlier mandatory date supports the explicit call to act immediately, so true is retained even though independent reasons for early action remain.",
+  "no_new_author_quotation": true,
+  "primary_sources": [
+    {
+      "source_id": "vida-directive-ihk-mirror",
+      "locator": "Article 5, physical pages 21–26; Article 6(5), page 27; Article 3, pages 11–20."
+    },
+    {
+      "source_id": "council-vida-adoption",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/03/11/taxation-council-adopts-vat-in-the-digital-age-package/"
+    },
+    {
+      "source_id": "ec-vida-implementation-2025",
+      "url": "https://taxation-customs.ec.europa.eu/document/download/d5c72f2a-df00-473d-8f8a-5400b999e1aa_en"
+    },
+    {
+      "source_id": "vida-original-proposal-2022",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52022PC0701"
+    }
+  ],
+  "limits": "No proof of intent, no author clarification, no assessment of whether early infrastructure or any particular architecture is wise. Optional early domestic reporting and genuine 2028 changes must be retained in surrounding explanation.",
+  "final_timing_search": {
+    "date": "2026-10-24",
+    "purpose": "Additional search for a 2026 implementation change or alternative 2028 digital-reporting deadline that could rescue the June submission.",
+    "primary_sources": [
+      {
+        "url": "https://taxation-customs.ec.europa.eu/document/download/c6153542-8b34-4308-b7e4-9e65e55eb79d_en?filename=ViDA+implementation-Work+program.pdf",
+        "title": "ViDA implementation – Work programme for 2026",
+        "publication_listing": "13 May 2026",
+        "locator": "All six pages, especially separate DRR and SVR workstreams on physical pages 1–3",
+        "assessment": "Planning work for DRR specifications is distinguished from 2028 OSS/SVR implementation. No general 2028 mandatory cross-border reporting start is supplied. A planning schedule is not substituted for the enacted directive."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32025L0516",
+        "title": "Directive (EU) 2025/516",
+        "locator": "Article 5 heading; Article 6(5)",
+        "assessment": "Fresh indexed official German legal text confirms the 2030 commencement already read in the archived Official Journal copy."
+      }
+    ],
+    "outcome": "No rescuing implementation change found. Retain the narrow date mismatch and independent-preparation limits. Absence of a search result alone is not used as proof; the adopted directive supplies the affirmative evidence."
+  }
+}

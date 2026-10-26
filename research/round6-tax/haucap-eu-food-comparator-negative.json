@@ -1,0 +1,114 @@
+{
+  "id": "round6-tax-haucap-eu-food-comparator-check",
+  "record_kind": "negative_or_uncertain_research_disposition_not_issue",
+  "recorded_at": "2026-10-25T12:09:47Z",
+  "status": "research_only",
+  "admit_to_issues": false,
+  "author": "Justus Haucap",
+  "submission_date": "2025-10-12",
+  "existing_pool_id": "haucap-gastgewerbe-20251012",
+  "new_pool_unit": false,
+  "author_source": {
+    "local_file": "research/round3-root/coverage/response-resources/b8a20d5d833402c276.pdf",
+    "extracted_text": "research/round3-root/coverage/response-resources/b8a20d5d833402c276.txt",
+    "read_extent": "All six pages re-read. This is an existing full-read unit, not an additional submission.",
+    "claim_locator": {
+      "pdf_page": 5,
+      "printed_page": 5,
+      "paragraph": 17
+    },
+    "request_locator": {
+      "pdf_page": 4,
+      "paragraph": 12,
+      "additional_pages": [
+        5,
+        6
+      ]
+    },
+    "claim_paraphrase": "Twenty other EU countries allegedly do not distinguish food consumed on site, takeaway food and food from retail for VAT purposes. The following sentences argue that equal treatment removes competitive distortions and bureaucracy.",
+    "request_paraphrase": "Supports reducing restaurant-food VAT to 7%, alongside other reforms.",
+    "quote_policy": "No additional original-language author quotation is added in this research-only note; existing project quotation totals are preserved."
+  },
+  "comparison_required": {
+    "reference_date": "2025-10-12",
+    "countries": "The 26 EU members other than Germany.",
+    "channels": [
+      "Same prepared food consumed with restaurant support services",
+      "Same prepared food taken away",
+      "Comparable retail food, where the statement explicitly includes it"
+    ],
+    "exclude": [
+      "Beverages",
+      "Counts of countries merely applying a reduced restaurant rate",
+      "Comparisons of different foods such as raw ingredients and a prepared restaurant meal",
+      "General standard-rate tables",
+      "Current 2026 rules silently substituted for October 2025 rules"
+    ]
+  },
+  "primary_source_checks": [
+    {
+      "title": "European Commission VAT rates portal",
+      "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en",
+      "read_extent": "Full rate-framework page.",
+      "result": "Directs users to member-state-supplied TEDB rates, but its general framework does not supply a matched-food country count."
+    },
+    {
+      "title": "Taxes in Europe Database",
+      "url": "https://ec.europa.eu/taxation_customs/tedb/#/vat-search",
+      "access_result": "Opened the official application URL; web reader returned zero content lines. No dated October 2025 category-level export was obtained. No claim that the interactive database is universally inaccessible."
+    },
+    {
+      "title": "EC Your Europe VAT rules and rates",
+      "url": "https://europa.eu/youreurope/business/finance-and-tax/vat/vat-rules-rates/index_en.htm",
+      "read_extent": "Current general national-rate table and its category/TEDB qualification.",
+      "result": "This is not a restaurant-versus-takeaway table; the current Finnish 13.5% figure, for example, cannot be used as the 2025 rate."
+    },
+    {
+      "title": "Irish Revenue, restaurant and catering services manual",
+      "url": "https://www.revenue.ie/en/tax-professionals/tdm/value-added-tax/part03-taxable-transactions-goods-ica-services/Services/services-vat-treatment-of-restaurant-and-catering-services.pdf",
+      "retrieved_at": "2026-10-25",
+      "edition": "Last reviewed June 2026; section 7 expressly covers 1 September 2023 through 30 June 2026.",
+      "sha256": "5f234124173ba77575a085fabe123739d502e0f10cda42d051de0dc0132365f1",
+      "read_extent": "Cover; full sections 1, 2 and 4; section 7 table on physical/printed page 7. Not the complete eight-page manual.",
+      "matched_comparators": [
+        {
+          "food": "Cold sandwich",
+          "restaurant_service": "Reduced rate",
+          "takeaway": "Zero rate",
+          "assessment": "The same cold item is classified differently."
+        },
+        {
+          "food": "Hot sandwich; hot fish, chips or burger",
+          "restaurant_service": "Reduced rate",
+          "takeaway": "Reduced rate",
+          "assessment": "The same hot item is treated equally."
+        }
+      ],
+      "limits": "Later official guidance explicitly describing the relevant interval, not a frozen October 2025 snapshot. Section 7 also has an awkward generic cold-takeaway row; the named cold-sandwich row and explanatory section 4.1 are clearer. One country does not settle the count of twenty."
+    },
+    {
+      "title": "Irish Revenue archived October 2022 manual",
+      "url": "https://www.revenue.ie/en/tax-professionals/tdm/value-added-tax/part03-taxable-transactions-goods-ica-services/Services/services-vat-treatment-of-restaurant-and-catering-services-20221025085756.pdf",
+      "read_extent": "Cover and full restaurant/takeaway sections; summary table.",
+      "result": "Also distinguishes the same cold sandwich while treating hot sandwiches equally. Rates in that older edition are not substituted for 2025 rates."
+    },
+    {
+      "title": "Finnish Tax Administration VAT rates",
+      "url": "https://vero.fi/en/businesses-and-corporations/taxes-and-charges/vat/rates-of-vat/",
+      "read_extent": "Reduced-rate food/restaurant section, food-delivery examples and rate-change history.",
+      "result": "Affirmatively groups groceries, restaurant meals and meal services at the same rate and states that the rate was 14% through 31 December 2025. Supports the existence of genuine equal-treatment examples.",
+      "limits": "Current guidance with an explicit historical rate statement; not an archived October 2025 category-by-category legal reconstruction."
+    }
+  ],
+  "secondary_route_not_used_as_counterproof": {
+    "title": "HOTREC January 2025 hospitality rate table hosted by Austrian Economic Chamber",
+    "url": "https://www.wko.at/oe/tourismus-freizeitwirtschaft/gastronomie/hotrec-table-rates.pdf",
+    "access_extent": "Search-returned table and explanatory text only, not a full PDF read.",
+    "reason_not_used": "Original industry compilation combines member-association and other sources, dates January 2025, and does not establish the exact October matched-food/retail population. Its country totals are not adopted."
+  },
+  "decision": "No issue-level promotion. A practical complete, date-matched, food-matched EU comparison was not established. Examples of distinctions or equal rates, and counts of reduced restaurant rates, do not prove or disprove the precise twenty-country claim.",
+  "strongest_benign_alternative": "The author may mean ordinary freshly prepared hot meals for immediate consumption. Ireland itself gives equal treatment to that subset while distinguishing cold items. Including all food types or retail categories produces a different comparator and cannot silently replace the intended one.",
+  "remaining_route": "A dated TEDB category-level export or primary national-law matrix with an explicit, consistent prepared-food basket and channel definitions. Do not label missing verification as an error.",
+  "draft_limit": "The statement is a general restaurant-sector hearing submission, not an express line-by-line response to the 4 September tax draft. The related draft already authenticated in the parent restaurant inquiry is not represented as a document specifically cited by Haucap.",
+  "storage_note": "The Irish PDF and extraction were downloaded only to /tmp for this check. No permanent public-source mirror or collection restoration is added."
+}

@@ -1,0 +1,84 @@
+{
+  "audit_date": "2026-10-25",
+  "reviewer": "social_round2",
+  "files_reviewed": [
+    "research/build_screening_pool.py",
+    "data/screening-pool.json",
+    "data/screening-pool-summary.json",
+    "research/pool-audit-social.json",
+    "research/screening-pool-aliases.json"
+  ],
+  "extent": "Read full merger script and summary; programmatically checked all 137 social inventory rows against retained merged evidence, GgdG and suicide-bundle units, all merged PDF hash collisions involving social rows, kinds and scope qualifications, and reviewed cross-branch title/process identities for plausible aliases.",
+  "disposition": "counts_supported",
+  "counts": {
+    "merged_named_screened_units": 325,
+    "merged_depths": {
+      "full_submission": 133,
+      "selected_passages": 80,
+      "keyword_triage": 111,
+      "full_text_ocr": 1
+    },
+    "social_inventory_rows": 137,
+    "social_rows_represented": 137,
+    "social_missing": [],
+    "social_multiply_represented": [],
+    "merged_units_containing_social_rows": 137,
+    "rental_additional_anonymous_minimum": 18,
+    "overall_documented_minimum": 343
+  },
+  "dedup_checks": [
+    {
+      "item": "GgdG consultation",
+      "result": "All 65 social ZIP-response rows map to exactly 65 merged units. Thirteen root/social overlapping units merge; the SDC full read legitimately upgrades its keyword screen. Merged depths: 61 keyword, 3 selected, 1 full."
+    },
+    {
+      "item": "Suizidhilfe 2022",
+      "result": "Fifteen separately authored responses remain fifteen keyword-screened units. Schneider and Schöne-Seifert each supplied distinct bill and prevention-motion responses; shared-bundle PDF identity correctly does not collapse them."
+    },
+    {
+      "item": "Shared containers",
+      "result": "Identical PDF hashes across separate merged social units are confined to intended multi-author bundles: minimum wage, StVG, Tariftreue, NIPT and suicide hearing. No separate non-container duplicate was found in this check."
+    },
+    {
+      "item": "Other aliases",
+      "result": "No missed duplicate author/response/version identified among social rows and other merged branches. AlgorithmWatch digital-investigation, GgdG and EnEfG entries address different processes. Full Pharma response includes the earlier homeopathy section screen in one unit."
+    },
+    {
+      "item": "GAÄD versions",
+      "result": "Original and corrected versions intentionally remain two units. The source log explicitly records reading both, but exact version dates/files were not preserved. One fewer unit would apply to response families; this existing uncertainty should remain visible in the published method."
+    }
+  ],
+  "issues": [
+    {
+      "severity": "minor",
+      "type": "scope_metadata",
+      "records": [
+        "cantourage-medcang-20250801",
+        "venro-haushalt2026-20250909"
+      ],
+      "problem": "The merger unions a default federal_process from case_index rows with an explicit formal_submission_channel_unverified social flag. This can imply verified formal-process filing although that gate remains unresolved. Public_statement kind is preserved correctly.",
+      "recommended_change": "Only carry scope_status explicitly provided by source inventories; case_index records without scope should contribute no affirmative federal_process label. Preserve the formal-channel flag. This does not change numerical pool counts.",
+      "resolved": true,
+      "verification": "Re-read regenerated merged output: Cantourage and VENRO now retain only formal_submission_channel_unverified, without the redundant default federal_process flag."
+    },
+    {
+      "severity": "minor",
+      "type": "general_method_hazard_not_observed_count_error",
+      "problem": "Direct-PDF URL identity strips the entire query, which can collapse distinct versioned PDFs sharing a path if a future row uses query-only versioning. No actual social collision or count change was established.",
+      "recommended_change": "Retain version-discriminating query fields or require matching bytes/version metadata before merging query-distinguished PDF URLs."
+    }
+  ],
+  "kind_checks": "The three social public statements remain public_statement; general Amnesty hearing and BDA evaluation scope limits remain explicit. Written bundle responses remain written_submission. No social oral contribution is claimed.",
+  "rental_bound_limit": "The additional 18 is a set-level minimum derived from a logged 25-of-26 batch less seven identified members. It is not 18 named independently reconstructed records. The inventory and final answer must keep that distinction.",
+  "findings_modified": false,
+  "additional_checks": [
+    {
+      "item": "Whole-text OCR unit",
+      "result": "Independently read tax inventory and /screened/30 original log. Wenger all 12 scanned pages were read through derived English-language OCR. Including this as one full_text_ocr unit is supported; displaying 134 whole-text reads must retain that qualification rather than imply 134 visually checked originals."
+    },
+    {
+      "item": "Regenerated final summary",
+      "result": "133 full_submission + 1 full_text_ocr + 80 selected_passages + 111 named keyword_triage = 325 named screened units. Adding the separately labelled 18 anonymous rental-batch minimum gives 343, including 129 minimum keyword screens. No substantive count problem found."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-24",
+  "by": "energy_hearings_ai_screen",
+  "type": "source_text_and_locator_validation",
+  "method": "Each original-language claim, request and derived-claim quotation was matched against extracted text from the stated physical page of the primary PDF, normalising line breaks and line-end word hyphenation only. This supplements visual reading; it is not an independent substantive review.",
+  "checked_ids": [
+    "geg2023-hausgrund-a01",
+    "wassbg2024-waniczek-a01",
+    "enefg2026-bund-a01",
+    "enefg2026-vik-a01",
+    "enefg2026-uim-l01",
+    "enefg2026-hansgrohe-a01",
+    "enefg2026-algorithmwatch-l01",
+    "enefg2026-dce-a01"
+  ],
+  "results": "All claim/request quotation fragments matched the cited page; every underline is an exact substring; each submission’s combined quoted fragments are below 25 words.",
+  "scope_limit": "Does not automatically validate translations, legal reasoning, whether a counterexample is representative, or the evidence sufficiency of a finding.",
+  "dce_detail": [
+    {
+      "field": "claim_quote",
+      "pdf_page": 7,
+      "matched": true
+    },
+    {
+      "field": "request_quote",
+      "pdf_page": 8,
+      "matched": true
+    },
+    {
+      "field": "additional_request_quote",
+      "pdf_page": 8,
+      "matched": true
+    },
+    {
+      "field": "counter_quote",
+      "pdf_page": 15,
+      "matched": true
+    },
+    {
+      "field": "supplementary_counter_quote",
+      "pdf_page": 66,
+      "matched": true
+    }
+  ],
+  "dce_author_quoted_words": 23
+}

@@ -1,0 +1,96 @@
+{
+  "law_id": "behg-2026",
+  "document_id": "bt-environment-1222442",
+  "status": "ai_screened",
+  "finding_state": "candidate_pending_independent_review",
+  "severity": "minor",
+  "favours_author_request": true,
+  "request_quote": {
+    "original": "Das BEHG sollte abgeschafft werden.",
+    "language": "de",
+    "translation_en": "The BEHG should be abolished.",
+    "locator": {
+      "pdf_page": 8,
+      "printed_page": 7,
+      "section": "9. Fazit"
+    }
+  },
+  "submission_source_id": "fleischmann-behg20261005",
+  "draft": {
+    "title": "Entwurf eines Dritten Gesetzes zur Änderung des Brennstoffemissionshandelsgesetzes",
+    "source_id": "behg-root-draft",
+    "version": "BT 21/7869, dated 7 September 2026; current archived parliamentary PDF.",
+    "relevant_provision": "The proposed 2027 carbon-price corridor; the narrow research-description correction does not depend on draft wording.",
+    "authored_submission_date": "2026-10-05",
+    "delivery_date_verified": false,
+    "version_limit": "Committee cover refers to the 7 October hearing. Authored date is 5 October; actual delivery not independently authenticated."
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": []
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "Identified in systematic factual-check inventory; narrow staged record awaits explicit independent context and source review.",
+      "by": "factual_extension_root"
+    }
+  ],
+  "verification": {
+    "scope": "A narrow description of cited evidence; no finding of intent or general adjudication of energy policy."
+  },
+  "id": "behg2026-fleischmann-infrasound-threshold-fc02",
+  "card": {
+    "law_is_about": "Extending national fuel-carbon pricing through the transition to the European system.",
+    "they_want": "Abolish the national fuel-emissions trading law.",
+    "they_claim": "The cited wind-farm infrasound levels are already around the hearing or perception threshold.",
+    "the_problem": "The reported spatial levels concern around 1 Hz. The cited agency guidance requires frequency-specific comparison and does not establish a 96–101 dB perception threshold at that frequency."
+  },
+  "claim_quote": {
+    "original": "Das liegt dann bereits an der Hör-/Wahrnehmungsschwelle",
+    "language": "de",
+    "translation_en": "That is then already at the hearing/perception threshold",
+    "locator": {
+      "pdf_page": 6,
+      "printed_page": 5,
+      "section": "5. Infrasound",
+      "paragraph": "Immediately after the 90–95 dB at 1 km and+6 dB at 500 m comparison"
+    },
+    "underline": "bereits an der Hör-/Wahrnehmungsschwelle"
+  },
+  "counter_quote": {
+    "original": "Dabei muss der Pegel umso höher sein, je tiefer die Frequenz ist.",
+    "source_id": "behg-a-lfu2022",
+    "language": "de",
+    "translation_en": "The lower the frequency, the higher the level must be.",
+    "locator": {
+      "pdf_page": 5,
+      "printed_page": 5,
+      "section": "Hören, empfinden, wahrnehmen"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Compare sound levels at the same frequency and with the same acoustic measure. Mattsson’s cited maps describe a 1 Hz third-octave band. The LfU guidance gives about 103 dB for perception at 8 Hz, and says perception below 2 Hz had not been described and would require extremely high levels. It does not establish that the stated roughly 96–101 dB levels near 1 Hz meet the hearing/perception threshold. Its greater-than 120 dB military-aircraft analogy is not a measured universal 1 Hz threshold.",
+  "effect": "Qualifies the claimed perception-based basis for the wind-health comparison supporting abolition. It does not disprove the paper’s reported sound levels, researchers’ symptom reports or every possible non-auditory effect.",
+  "limits": "Hearing/perception and health harm are different propositions. Individual sensitivity and non-auditory effects remain uncertain; levels below a typical hearing threshold are not thereby shown harmless. The cited guidance discusses substantial individual variation near 20 Hz, which cannot simply be transferred quantitatively to 1 Hz. The distance maps combine measurements and modelling; no separate factual-error finding is staged from ambiguous measured-versus-modelled wording.",
+  "context_and_alternatives": [
+    "The entire infrasound passage and source sections were read, including the anecdotal symptoms and the simulated spatial maps.",
+    "The statement’s first numerical sentence names no frequency, but the cited source’s relevant maps and the closing anecdote concern around 1 Hz. The frequency-specific scope must remain explicit.",
+    "The agency guidance’s illustrative hearing-sound comparison is explicitly not a physically interchangeable comparison and supplies no exact universal threshold below 2 Hz.",
+    "The general claim that wind turbines harm health more than climate change remains broader and unestablished; this record only addresses the threshold inference."
+  ],
+  "materiality_explanation": "Minor: the cited frequency-specific evidence does not support the asserted threshold comparison. The correction is confined to that supporting technical premise and does not establish an overall health benefit or harm.",
+  "direction_explanation": "True narrowly: an asserted perceptibility threshold strengthens the author’s wind-harm premise supporting abolition; correcting the comparison narrows that support.",
+  "confidence": {
+    "text_source_mismatch": "High for the cited frequency-specific guidance; individual responses and broader health effects remain uncertain.",
+    "materiality": "editorial_judgment"
+  },
+  "source_ids": [
+    "fleischmann-behg20261005",
+    "behg-a-lfu2022",
+    "behg-a-mattsson2026",
+    "behg-root-draft"
+  ],
+  "factual_check_claim_id": "behg-a-fleischmann-34"
+}

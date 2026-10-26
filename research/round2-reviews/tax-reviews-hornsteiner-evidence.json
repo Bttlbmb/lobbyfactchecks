@@ -1,0 +1,47 @@
+{
+  "review_id": "tax-reviews-hornsteiner-evidence",
+  "reviewed_at": "2026-10-25",
+  "reviewer": "independent_tax_ai",
+  "candidate_id": "thg2026-hornsteiner-evidence-a01",
+  "outcome": "retain_provisional_finding",
+  "severity": "major",
+  "favours_author_request": true,
+  "checks": [
+    "Read all 18 physical pages of the submission, including the complete theoretical discussion, the urban-heat qualification immediately following the claim, its acknowledgement of some human contribution to rising CO2, the rejection of mainstream results, and the final policy objection.",
+    "Read the original Feldman main article, figures, acknowledgements and methods on physical pages 6–7, including measurement calibration, counterfactual fixed-CO2 calculations, CarbonTracker attribution and clear-sky selection. Visually checked original submission page 12 and article page 1.",
+    "Read the exact named BR 778/25 cover, policy rationale and measures, rather than substituting a later quota amendment. The original submission expressly disclaims discussion of individual technical implementation clauses.",
+    "Independently opened the contemporaneous primary institutional report from Berkeley Lab. The Nature publisher page failed retrieval; the full original paper was available in the coauthor institution archive."
+  ],
+  "strongest_alternatives": [
+    {
+      "alternative": "The paper measures local surface forcing rather than global temperature attribution.",
+      "assessment": "Correct and material as a limit. It nevertheless supplies empirical indications for the greenhouse warming mechanism, which suffices against a categorical assertion that no indications are known. It must not be described as a standalone proof of global warming attribution or climate sensitivity."
+    },
+    {
+      "alternative": "Model-assisted isolation and uncertain feedbacks mean a forcing measurement need not by itself quantify a temperature response.",
+      "assessment": "Correct. The paper uses observations plus radiative-transfer calculations and explicitly studies radiative energy imbalance. The candidate should retain this dependence and avoid an inference that the study alone rules out every possible compensating feedback."
+    },
+    {
+      "alternative": "The author may mean no evidence he considers scientifically convincing.",
+      "assessment": "The wider document criticizes mainstream research and funding, making this evaluative reading plausible. However, the disputed sentence is stated as a categorical account of what is known, not as a reported personal evidential threshold. No direct engagement with Feldman or a comparable measurement is offered there. This is a provisional factual-existence finding, not adjudication of every evaluative scientific disagreement."
+    },
+    {
+      "alternative": "The author acknowledges urban heat islands as anthropogenic warming.",
+      "assessment": "This expressly narrows the intended claim to greenhouse-related climate warming. The candidate already preserves that qualification and does not falsely report a denial of all local human-induced temperature changes."
+    }
+  ],
+  "materiality": "Major is reasonable for the narrow existence claim because absence of any evidence is a foundational justification for refusing the bill’s climate rationale. It is separate from, and does not settle, policy efficiency or individual quota clauses.",
+  "recommended_limits": [
+    "Do not call the source a direct global-temperature experiment.",
+    "Do not represent the final request as a verbatim demand to reject the entire bill.",
+    "Retain the possible evaluative reading and the distinction between indications and comprehensive attribution.",
+    "The source reports clear-sky results at two sites, with uncertainty and cloud-selection caveats; retain these explicitly."
+  ],
+  "files_checked": [
+    "research/round2-energy/sources/hornsteiner-thg-202602.pdf",
+    "research/round2-energy/sources/feldman-co2-forcing-2015.pdf",
+    "research/round2-energy/sources/thg-br778-25.pdf"
+  ],
+  "primary_web_check": "https://newscenter.lbl.gov/2015/02/25/co2-greenhouse-effect-increase/",
+  "quote_note": "No additional original-language fragments recorded in this review."
+}

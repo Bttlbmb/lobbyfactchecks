@@ -1,0 +1,53 @@
+# Disposable source downloads and generated caches; see AGENTS.md.
+.cache/
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Local tooling, credentials and generated publication output.
+/.venv/
+/venv/
+node_modules
+/dist/
+/tmp/
+/sources/
+.env
+.env.*
+!.env.example
+*.cookies
+*.pem
+*.key
+
+# Downloaded public sources and regenerable extractions stay local.
+# Keep authored JSON ledgers, notes, decisions and reviews in Git.
+# These rules do not remove files; full research checks still use local assets.
+/research/**/*.pdf
+/research/**/*.zip
+/research/**/*.xlsx
+/research/**/*.xls
+/research/**/*.csv
+/research/**/*.tsv
+/research/**/*.docx
+/research/**/*.gz
+/research/**/*.xml
+/research/**/*.png
+/research/**/*.jpg
+/research/**/*.jpeg
+/research/**/*.txt
+!/research/**/*log.txt
+!/research/**/*-output.txt
+/research/**/*.html
+!/research/**/report.html
+/research/**/*.download
+/research/**/*.empty
+/research/**/*.empty-response
+/research/**/*.download-failed-empty
+/research/**/*.retrieval
+/research/**/*.partial
+/research/round3-root/coverage/sources/*-browser-*.json
+/research/round3-root/coverage/sources/register-public-body.js
+/research/round4-social/sources/statcounter-chart-code.js
+
+# Legacy previews are rebuilt from the templates and data.
+/site/index.html
+/site/evidence/

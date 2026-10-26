@@ -1,0 +1,231 @@
+{
+  "id": "short-documents-20261025-completion-audit",
+  "status": "complete",
+  "as_of_utc": "2026-10-25T22:41:18.841517+00:00",
+  "research_round_protocol": "research/factual-checks/short-statements-20261025/round-protocol.json",
+  "factual_result": {
+    "status": "complete",
+    "documents": 20,
+    "physical_pdf_pages": 63,
+    "maximum_target_pages": 6,
+    "claim_assessments": 201,
+    "outcomes": {
+      "supported": 143,
+      "unresolved": 56,
+      "contradicted": 2
+    },
+    "independent_initial_claim_reviews": 197,
+    "additional_peer_omissions_assessed_by_root": 4,
+    "new_main_findings": 0,
+    "new_main_unresolved_leads": 0,
+    "existing_deadline_issue_deduplicated": "idnrg2026-kommunale-deadline-root-r3-01",
+    "incidental_commencement_day_discrepancy_not_admitted": true
+  },
+  "duration_gate": {
+    "minimum_active_research_seconds": 5400,
+    "not_before_utc": "2026-10-25T13:50:01+00:00",
+    "status": "satisfied",
+    "note": "Both the wall not-before and at least 5400 seconds of parent-goal active work were met. Paused hours excluded.",
+    "observed_parent_goal_active_seconds": 5407,
+    "certified_at_utc": "2026-10-25T22:43:00.348733+00:00"
+  },
+  "baseline_preservation": [
+    {
+      "file": "data/findings.json",
+      "baseline_file": "research/factual-checks/short-statements-20261025/baseline/findings.json",
+      "baseline_sha256": "1d0a76119a83ba58b9d93e4e01d3c8b91ca371ed7e62582d3baca0d4cdeaaf79",
+      "current_sha256": "1d0a76119a83ba58b9d93e4e01d3c8b91ca371ed7e62582d3baca0d4cdeaaf79",
+      "byte_identical": true,
+      "records": 69
+    },
+    {
+      "file": "data/unresolved-leads.json",
+      "baseline_file": "research/factual-checks/short-statements-20261025/baseline/unresolved-leads.json",
+      "baseline_sha256": "b0430096b8186c3b6c8fcfe646026af9881b660bad3614632da3f74ab49f53cc",
+      "current_sha256": "b0430096b8186c3b6c8fcfe646026af9881b660bad3614632da3f74ab49f53cc",
+      "byte_identical": true,
+      "records": 38
+    },
+    {
+      "file": "data/rejected-candidates.json",
+      "baseline_file": "research/factual-checks/short-statements-20261025/baseline/rejected-candidates.json",
+      "baseline_sha256": "b7855eb215a1a33f2102a38845581de148df9c29440db3d7d37f8972adc75487",
+      "current_sha256": "b7855eb215a1a33f2102a38845581de148df9c29440db3d7d37f8972adc75487",
+      "byte_identical": true,
+      "records": 3
+    },
+    {
+      "file": "data/documents.json",
+      "baseline_file": "research/factual-checks/short-statements-20261025/baseline/documents.json",
+      "baseline_sha256": "ba3a57cd62ed4e10524a49be8ef889ff8e84a4f1e971c47d30e70af07378ad8a",
+      "current_sha256": "ba3a57cd62ed4e10524a49be8ef889ff8e84a4f1e971c47d30e70af07378ad8a",
+      "byte_identical": true,
+      "records": 87
+    },
+    {
+      "file": "data/source-registry.json",
+      "baseline_file": "research/factual-checks/short-statements-20261025/baseline/source-registry.json",
+      "baseline_sha256": "b48a74317df92d67dbe5e70f73c41541a6a964f8eda3785aad94039b18a044e6",
+      "current_sha256": "b48a74317df92d67dbe5e70f73c41541a6a964f8eda3785aad94039b18a044e6",
+      "byte_identical": true,
+      "records": 587
+    }
+  ],
+  "reading_units": {
+    "baseline": 791,
+    "current": 791,
+    "new_units_this_round": 0,
+    "intended_existing_units_annotated_this_round": 20,
+    "total_existing_units_with_factual_annotations": 79
+  },
+  "bounded_scope": {
+    "complete_finite_sets": [
+      {
+        "name": "RSV",
+        "documents": 8,
+        "physical_pages": 20
+      },
+      {
+        "name": "IDNrG",
+        "documents": 7,
+        "physical_pages": 26
+      },
+      {
+        "name": "Accountant examination",
+        "documents": 2,
+        "physical_pages": 12
+      }
+    ],
+    "partial_actor_subset": {
+      "name": "IT components",
+      "documents": 3,
+      "physical_pages": 5,
+      "full_public_reply_count": 12,
+      "whole_process_factual_closure_claimed": false
+    },
+    "national_denominator_or_error_rate_established": false
+  },
+  "factual_freezes": [
+    {
+      "file": "research/factual-checks/short-statements-20261025/factual-freeze.json",
+      "sha256": "51a3d472ec7a811b6b5b6d648a2da603889c0a7523b4800b18030962396ef56d",
+      "all_bound_files_match": true
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/factual-freeze.json",
+      "sha256": "1465d1e1dc737799be6c0f96e2b723e3bb10099bf355f90f6d6b0a30e630f83d",
+      "all_bound_files_match": true
+    }
+  ],
+  "independent_audit_records": [
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/a-baseline-audit.json",
+      "sha256": "5366aca834544999472f6a13cafa303cc2466371c43a13f5080909dc381dd622"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/b-final-semantic-audit.json",
+      "sha256": "02f83e5f54668c09e76dc0de1d92b0ad5a1357588078fc2482cd4cba5732d8cd"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/c-coverage-code-audit.json",
+      "sha256": "e70957e378d1bf8de5dde813189306854c50a32f4526a30afdffb07958fb08f3"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/a-source-label-code-review.json",
+      "sha256": "9360cdb96b68f0096fc5a7fe4989cb29326aa57a5942c36824e42cd26054dd01"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/a-index-label-audit.json",
+      "sha256": "7193460babde807a55834a30f5f46eef07f3efd6fe9b1b9854750a0114757a0b"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/c-idnr-scope-followup.json",
+      "sha256": "cb5dabb170ba66054b62b0bfe8f3a4e8862b9b915e34a83af37eeb7f272a576a"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/c-source-time-precision-note.json",
+      "sha256": "e245fe35e500a20cc86e34341cc4c01e22e6fc6051851361ffcc5a91fe96bd3b"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/c-final-integration-audit.json",
+      "sha256": "70b3ba28c5c4784a89fb1d65233e2cfb4be9b75aa8d7b80f7876d9e03c829d3c"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/a-index-compatibility-audit.json",
+      "sha256": "7ba902e5e8018629fb16b21f2b46a06ad00a10642365b346251cc4bac73b4cfc"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/a-temp-cleanup.json",
+      "sha256": "0ac015af859f583da086a016ca2ec0fd0d122d7381161967c1e315208e98455e"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/b-temporary-source-cleanup.json",
+      "sha256": "aa89fbcfa6d553aef25ec89c46dd5b82d214f63024e104ab8a574c56cc7ab6cb"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/c-temporary-source-cleanup.json",
+      "sha256": "0afbe32eb3b0a0e5ca17978ffede4e22c5d9d842794c16914082e983294fc9fa"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/root-temporary-source-cleanup.json",
+      "sha256": "fa1038ffdd2023b0289d6c665786507d1e507f5f2789277fd284fedf84b33993"
+    }
+  ],
+  "builders_and_validation": {
+    "strict_batch_builds": "both pass",
+    "main_assembly": "pass: 69 findings, 38 unresolved leads and 3 rejected candidates",
+    "reading_builder": "pass: 791 units",
+    "bounded_builder": "pass: 14 rows; only the intended three process annotations changed",
+    "validate_deliverables": "pass: 110 records, zero errors and zero warnings",
+    "final_mechanical_audit": "pass: C final mechanical audit and final read-only metadata confirmation",
+    "overview_local_links": "pass: 812 local links independently verified",
+    "review_index_refresh": {
+      "status": "pass",
+      "all_current_review_files_present": 29,
+      "review_index_entries": 225,
+      "new_factual_findings_from_review_files": 0
+    }
+  },
+  "storage_record": "research/factual-checks/short-statements-20261025/source-retention.json",
+  "temporary_cleanup": "complete; exact inventories linked by source-retention.json",
+  "conservative_review_corrections": [
+    "Full undetermined-future-date components retained in B021/B036; both unresolved after B and C challenged earlier narrower support.",
+    "VDV first-source wording retains the reasonable primary/first-consulted interpretation, not an invented historical-priority error.",
+    "Matched September drug price pair remains unresolved despite an earlier single comparator price.",
+    "Exact MPK legal-target attribution supported, without guaranteed universal live rollout.",
+    "Copied omission provenance labels corrected; earlier root snapshots, initial inventories and original peers preserved."
+  ],
+  "limits": [
+    "All checks and cross-reviews are AI reviews; no author contact, human specialist confirmation or intent inference.",
+    "Source notes record passage-level reads and access/version limitations; a saved URL alone is not a completed check.",
+    "Supported applies to the recorded proposition. Unresolved is neither error nor confirmation."
+  ],
+  "interim_metadata_corrections": [
+    "C caught an interim audit lookup using records rather than documents for the pool; corrected annotation total from0 to verified79. No factual or pool data changed."
+  ],
+  "source_retention_sha256": "5dec18fa77e6c1d86a79a835e8387d6733a49220e43a67417a67163f56a151a1",
+  "final_mechanical_pending_items_resolved": [
+    "Review index rebuilt after final audit/cleanup records; all expected current review files present.",
+    "Interim audit annotation total corrected from0 to79 after reading actual pool documents array.",
+    "Both frozen factual assemblies still hash-match after rendering and cleanup; parent minimum active duration now certified separately."
+  ],
+  "final_independent_metadata_check": {
+    "reviewer": "c",
+    "date_utc": "2026-10-25",
+    "result": "pass after correcting interim metadata and refreshing review index",
+    "checked": "All 82 referenced file hashes match; all 29 current review files are in the 225-entry index; 812 local links resolve. The five main lists are unchanged: 791 pool units and 79 annotated responses. Cleanup removed 188 files / 65,485,472 bytes; all 63 protected paths remain exact.",
+    "record_type": "Final agent message retained in task history, no further review file created."
+  },
+  "browser_verification": {
+    "status": "pass",
+    "overview": "Visible: 20 responses, 63 pages and 201 assessments; 143 supported, 56 unresolved and 2 contradicted. The explanation of no new cases and both report links are visible.",
+    "detailed_checks": [
+      "Contradicted filter returns the two retained discrepancy assessments.",
+      "Search for short-b-036 shows corrected unresolved compound and its full scope limit.",
+      "Expanded evidence panel shows original anchor, saved check records, independent peer and root-adjudication links.",
+      "IT unresolved filter returns12claims."
+    ],
+    "delivery": "Combined report kept as user-facing in-app browser tab; original user tab preserved."
+  },
+  "completed_at_utc": "2026-10-25T22:43:00.348733+00:00"
+}

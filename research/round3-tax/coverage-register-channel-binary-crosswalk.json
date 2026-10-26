@@ -1,0 +1,32 @@
+{
+  "as_of_utc": "2026-10-25T03:43:38.804607+00:00",
+  "method": "Join the independently verified register archive to published ministry/hearing resources by identical binary SHA256. Different PDF covers or metadata may prevent a match even for the same authored response.",
+  "matched_resource_links": 1,
+  "matched_resource_links_by_channel": {
+    "Bundestag": 1
+  },
+  "matched_sg_ids": 1,
+  "matches": [
+    {
+      "resource_id": "hearing-1216340-response-003",
+      "channel": "BT-Finance",
+      "response_url": "https://www.bundestag.de/resource/blob/1221768/04-GDV.pdf",
+      "local_file": "research/round3-tax/sources/hearing-1216340-response-003.pdf",
+      "sha256": "49376cbc681f7eecbfdfc5941d26614103fe315e5c90136fa921198fcdc628f8",
+      "registry_ids": [
+        "SG2610010027"
+      ],
+      "registry_files": [
+        "research/round3-root/coverage/register-pdfs/SG2610010027.pdf"
+      ],
+      "match_basis": "byte-identical SHA256; no semantic inference",
+      "source_inventory": "research/round3-tax/coverage-bt-response-links.json"
+    }
+  ],
+  "limitations": [
+    "No match is not evidence of no submission or no same-authored version.",
+    "An exact binary match does not establish a recipient timestamp independently of the self-reported register event.",
+    "Ministry master omissions and BMF access barriers remain; this does not close the full population.",
+    "This crosswalk is source reconciliation, not a substantive claim screen."
+  ]
+}

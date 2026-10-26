@@ -1,0 +1,1131 @@
+{
+  "reviewer": "B",
+  "reviewed_file": "research/factual-checks/netzkosten-2026/agents/claims-a.json",
+  "reviewed_sha256": "00fb9eec92aac5cc6938f49f59656aea161c0c3d759218df0b96543b05223bf9",
+  "reviewed_at": "2026-10-25T10:30:00.036491+00:00",
+  "documents_reread": [
+    {
+      "document_id": "bmwe-netzkosten-2026-001",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-002",
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-003",
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-004",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-005",
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-006",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-007",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "netzkosten-a-001-01",
+      "verdict": "accept",
+      "reason": "The proposed period and €5.525bn amount, existing €6.5bn entitlement and 15% difference independently match the full operative draft and current §24c.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 1, 3–4 and 7, proposed §24d(1)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-enwg",
+          "locator": "§24c(1), header amended 23 July 2026",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-001-02",
+      "verdict": "accept",
+      "reason": "The unresolved result is appropriate: neither a representative non-household tariff nor an international price ranking identifies the steel-sector all-in cost and competitiveness threshold. Do not treat every steel plant as the unprivileged monitoring customer.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-monitoring2025",
+          "locator": "Industrial price methods and sample customers",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-br-smard-price",
+          "locator": "SMARD industrial price-model methodology",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-001-03",
+      "verdict": "accept",
+      "reason": "Reopened both contemporaneous TSO announcements: 3.12 ct/kWh in 2023, 6.43 in 2024, 6.65 in 2025 imply about +113.1% for the published average. Steel load profiles, individual tariffs and the unspecified index prevent a conservative 130%-error finding.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-br-tso2024",
+          "locator": "13 December 2023 announcement",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-br-tso2025",
+          "locator": "2025 tariff announcement",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-001-04",
+      "verdict": "revise",
+      "reason": "The approximate return to 2023 levels is supported, but add the direct 1 October 2025 TSO announcement for the 2.86 ct/kWh average. It cannot be inferred from the price-sheet cells alone without weights. The announcement explicitly compares 6.65 with 2.86; the final tariff sheet confirms the subsidy framework. Retain user-specific and approximate-level limits.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-b-ben2026",
+          "locator": "2026 final price sheet",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-b-bnetza-prices",
+          "locator": "2026 subsidy explanation",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-br-tso2024",
+          "locator": "2023 average comparison",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-br-tso2026-announcement",
+          "locator": "1 October 2025 press release, physical p1",
+          "check": "Direct contemporaneous statement of 6.65→2.86 ct/kWh average, rather than an unsupported table-cell average."
+        }
+      ],
+      "proposed_result": "supported"
+    },
+    {
+      "claim_id": "netzkosten-a-001-05",
+      "verdict": "accept",
+      "reason": "Independently read the 10 October 2025 ministerial speech: €26bn through 2029 was described, while the post-2026 split between transmission charges and the offshore levy remained politically open. An unqualified €6.5bn transmission promise is not established, but a different earlier assurance is not excluded. Unresolved is conservative.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-br-speech2025",
+          "locator": "2025 parliamentary speech, €26bn and post-2026 allocation",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-enwg",
+          "locator": "§24c",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-001-06",
+      "verdict": "accept",
+      "reason": "Read proposed §118(5b) in full. Operator website comparisons and supplier invoice pointers are present; no instantaneous equal end-user savings are implied.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 4 and 11, proposed §118(5b)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-001-07",
+      "verdict": "accept",
+      "reason": "The all-else-equal accounting premise is valid. Actual year-on-year tariffs, demand, future costs and steel-specific €50m/20% outcomes are forecasts separately and appropriately excluded.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical p. 4, §24d(5)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-002-01",
+      "verdict": "revise",
+      "reason": "Amount, duration, KTF funding and total are supported by the operative text/rationale. Replace the partial-word anchor “5,525 Milli” with the precise contiguous line-wrap-normalized “5,525 Milliarden Euro”; no substantive outcome change.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 1, 3–4 and 7, proposed §24d(1)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-enwg",
+          "locator": "§24c(1), header amended 23 July 2026",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ],
+      "proposed_result": "supported"
+    },
+    {
+      "claim_id": "netzkosten-a-002-02",
+      "verdict": "accept",
+      "reason": "All 12 draft pages were independently read: there is no permanent cost cap or financing successor beyond 2029. The assessment appropriately distinguishes this bill from other ongoing reform processes.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "All 12 physical pages, especially §§24d and 118(5b)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-002-03",
+      "verdict": "accept",
+      "reason": "The downstream cost-allocation mechanism is supported independently by StromNEV and the Consentec report. The original says the measure should benefit users broadly; no guarantee of equal or immediate relief is imputed.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 4, 8–10",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-stromnev",
+          "locator": "§§14–17",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-002-04",
+      "verdict": "accept",
+      "reason": "The operator disclosure and supplier notice duties match §118(5b). Supplier pointers should not be presented as a duty to print both full tariff calculations on every bill.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical p. 4, §118(5b)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-002-05",
+      "verdict": "accept",
+      "reason": "The immediate subsidy mechanism replaces tariff recovery with public funding. “Taxpayers” is reasonably read as public-finance shorthand; carbon proceeds and transfers are not exclusively one named tax. No engineering cost saving is asserted.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 1 and 4, financing and §24d(5)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-003-01",
+      "verdict": "accept",
+      "reason": "The 15% reduction is exactly reproducible and the three-year scope is explicit.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 1, 3–4 and 7, proposed §24d(1)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-enwg",
+          "locator": "§24c(1), header amended 23 July 2026",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-003-02",
+      "verdict": "accept",
+      "reason": "The law supports exclusion of ordinary trade/service activities but not an unqualified all-company majority without a dated, aligned company denominator. The unresolved quantifier is correctly preserved.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-b-stromstg",
+          "locator": "§§2 and 9b",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-003-03",
+      "verdict": "accept",
+      "reason": "Independently read coalition lines 955–964 and 1501–1503. A permanent-cap goal is stated and correctly distinguished from enacted law.",
+      "evidence_checks": [
+        {
+          "source_id": "shared-coalition2025",
+          "locator": "Printed p. 30, lines 955–960",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-003-04",
+      "verdict": "accept",
+      "reason": "Reopened EnWG offshore-financing rules and StromNEV lost-revenue recovery. These are financing mechanisms; exemptions and reduced rates prevent a literal equal-payment reading of “all”.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-enwg",
+          "locator": "§17f and related offshore financing",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-stromnev",
+          "locator": "§19(2), lost-revenue compensation and surcharge",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-003-05",
+      "verdict": "accept",
+      "reason": "The carbon-revenue source is independently confirmed more directly by KTFG §4(1) nos 1–2, header amended 30 September 2025. Add that source if desired. Proposed use for relief is permitted within the stated subsidy scheme, not proof of all KTF receipts or programme impacts.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-br-speech2025",
+          "locator": "Financing explanation and KTF resources",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 1 and 7",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-br-ktfg",
+          "locator": "§4(1) nos1–2 and amendment header",
+          "check": "Direct legal source for EU/national carbon-pricing revenues."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-003-06",
+      "verdict": "accept",
+      "reason": "The conditional residual-cost mechanism follows §24d(5). The author’s investment and competitiveness forecasts are not silently converted into supported observed outcomes.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical p. 4, §24d(5); rationale pp. 8–10",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-004-01",
+      "verdict": "accept",
+      "reason": "The nominal sums, difference and total match independently checked legal text and arithmetic.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 1, 3–4 and 7, proposed §24d(1)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-enwg",
+          "locator": "§24c(1), header amended 23 July 2026",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-004-02",
+      "verdict": "accept",
+      "reason": "The present 2026 website and invoice duties already exist in §118(5a); the new provision repeats them for 2027–2029. The assessment fairly treats “improvement” as evaluation rather than claiming entirely new disclosure categories.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-enwg",
+          "locator": "§118(5a)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical p. 4, proposed §118(5b)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-004-03",
+      "verdict": "accept",
+      "reason": "The original uses “Widerruf”, but full context also correctly describes tariffs adjusting after nonpayment. The draft creates a payment claim and no general discretionary withdrawal power. Unresolved preserves this legal distinction without manufacturing an error from shorthand.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 3–4 and 11, §24d(1) and (6)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-004-04",
+      "verdict": "accept",
+      "reason": "Primary monitoring and network planning establish significant investment and congestion-management spending associated with transformation. The explanation appropriately avoids attributing every cost solely to the energy transition or confusing cumulative investment with annual tariff costs.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-monitoring2025",
+          "locator": "Grid investment and congestion-management sections",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-004-05",
+      "verdict": "accept",
+      "reason": "The official industrial-price model depends on procurement products, timing and privileges. The government’s geopolitical rationale is not independent measured firm-specific attribution. Unresolved is appropriate without selecting an incompatible price interval.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-br-smard-price",
+          "locator": "SMARD industrial price-model methodology",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 1 and 6",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-004-06",
+      "verdict": "accept",
+      "reason": "The Consentec analysis independently confirms ordinary dilution and geographic variation, but no universal monotonic absolute/relative relief theorem across all voltage levels and loads. The result fairly retains uncertainty.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-stromnev",
+          "locator": "§§14–17",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical p. 9, customer factors",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-b-consentec",
+          "locator": "Printed pp12–15",
+          "check": "Checked unequal cost cascading and non-universal dilution."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-004-07",
+      "verdict": "accept",
+      "reason": "A fixed percentage tariff maps the absolute general-tariff reduction by that same percentage. The stated condition is crucial and the explanation preserves floors and alternative individual calculations.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-stromnev",
+          "locator": "§19(2)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-004-08",
+      "verdict": "accept",
+      "reason": "The full author paragraph is categorical about physical-path users but the summary says some cases. Independently read the regulatory position and FAQ 48–49: plant routes, node routes, reserve capacity and published-tariff floors differ. A zero-effect case is plausible; universal zero effect is not established. Unresolved, not an error candidate, is reasonable in context.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-b-path-costs",
+          "locator": "Printed pp. 6–9, calculation components and node-route exception",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-br-physical-faq",
+          "locator": "Questions 48–49",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-stromnev",
+          "locator": "§19(2), 10%/15%/20% floors",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-004-09",
+      "verdict": "accept",
+      "reason": "The official 2025 monitoring report foreword and investment section confirm approximately €16.5bn TSO investment in 2024. That is not annual tariff cost or maintenance alone.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-monitoring2025",
+          "locator": "Foreword and network investment section, 2024",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-004-10",
+      "verdict": "accept",
+      "reason": "Independently read IMK97 summary, methods and Table 1: €328bn transmission plus €323bn distribution yields €651bn. The author explicitly says estimated and dates the basis to 2024; different later scenarios do not refute that attributed estimate.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-b-imk97",
+          "locator": "Summary and methodology, 2024 study",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-004-11",
+      "verdict": "accept",
+      "reason": "A fixed grant ending in 2029, with a nonpayment adjustment route, is not the coalition’s permanent tariff ceiling. The narrow content comparison is supported.",
+      "evidence_checks": [
+        {
+          "source_id": "shared-coalition2025",
+          "locator": "Printed p. 30, line 959",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "All operative provisions, physical pp. 3–5",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-004-12",
+      "verdict": "accept",
+      "reason": "The official representative industrial-price model is not a prevalence study of every individually charged plant. “Significant” and the consumer population are undefined; unresolved avoids transferring unprivileged cost shares to privileged firms.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-monitoring2025",
+          "locator": "Industrial-price case and components",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-br-smard-price",
+          "locator": "SMARD price methods",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-005-01",
+      "verdict": "revise",
+      "reason": "The rounded amount and reduction are accurate. Replace the partial-word anchor “15 Pro” with the complete contiguous line-wrap-normalized “um 15 Prozent”; the current fragment is exact characters but insufficiently precise for a claim anchor.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 1, 3–4 and 7, proposed §24d(1)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-enwg",
+          "locator": "§24c(1), header amended 23 July 2026",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ],
+      "proposed_result": "supported"
+    },
+    {
+      "claim_id": "netzkosten-a-005-02",
+      "verdict": "accept",
+      "reason": "Independently downloaded and visually inspected BNetzA slide 11 and read slides9–10. Values37,67,79 correspond to 2026,2035,2045 and include onshore TSO/DSO plus offshore costs. Future bars are expressly indicative own calculations under assumptions. The assessment preserves all these material definitions.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-br-bnetza-costmodel",
+          "locator": "Physical slide 11, visually inspected",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-005-03",
+      "verdict": "accept",
+      "reason": "Independently downloaded Frontier’s original report and visually read Figure 5 on p15 plus the p16 methodology. The yellow trade/commerce line is labelled +63% from 2024 to 2045. Specific tariffs use fixed 2024 allocation shares and modelled future sector consumption; the author’s “could” is accurate.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-br-frontier2025",
+          "locator": "Physical/printed p. 15, Figure 5 and surrounding assumptions",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-005-04",
+      "verdict": "accept",
+      "reason": "The coalition promise is present; it is a package target, not a legal single-measure entitlement.",
+      "evidence_checks": [
+        {
+          "source_id": "shared-coalition2025",
+          "locator": "Printed pp. 30 and 47, lines 956–958 and 1501–1503",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-005-05",
+      "verdict": "accept",
+      "reason": "A common fulfilment baseline and cohort are absent. The missing universal tax measure alone does not quantify the net five-cent package gap. Unresolved is appropriate.",
+      "evidence_checks": [
+        {
+          "source_id": "shared-coalition2025",
+          "locator": "Energy-price package",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-b-stromstg",
+          "locator": "§§3 and 9b",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-b-bnetza-prices",
+          "locator": "2026 relief effects",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-005-06",
+      "verdict": "accept",
+      "reason": "Current §§3 and9b and the December 2025 amendment establish the continuing general rate and sector-specific relief. The original identifies households and ordinary retail rather than denying every specialised exemption.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-b-stromstg",
+          "locator": "§§3 and 9b",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-005-07",
+      "verdict": "accept",
+      "reason": "The relative programme access and total retail-sector cost incidence require a denominator and customer mix. No universal retail contribution is established by a representative commercial tariff; unresolved is appropriate.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-b-stromstg",
+          "locator": "§9b eligibility",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-monitoring2025",
+          "locator": "Commercial customer price components",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-006-01",
+      "verdict": "accept",
+      "reason": "All nominal amount and term comparisons match the draft and existing 2026 entitlement.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 1, 3–4 and 7, proposed §24d(1)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-enwg",
+          "locator": "§24c(1), header amended 23 July 2026",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-006-02",
+      "verdict": "accept",
+      "reason": "The draft’s full grant funding is expressly KTF. The source of the fund’s receipts is a separate question.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 1 and 7",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-006-03",
+      "verdict": "accept",
+      "reason": "Broad intended coverage is the strongest contextual reading. This is not equal or instantaneous relief for every individual consumer; primary distribution evidence supports that distinction.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 4, 8–10",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-006-04",
+      "verdict": "accept",
+      "reason": "Contemporaneous TSO announcements confirm the subsidy withdrawal and sharp representative-average increase. Future 2030 prices are separately forecast, not fact-checked as realised outcomes.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-br-tso2024",
+          "locator": "13 December 2023 final tariff announcement",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-br-tso2025",
+          "locator": "2025 tariff announcement",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-01",
+      "verdict": "accept",
+      "reason": "The amount, duration, funding and 15% arithmetic are independently verified.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 1, 3–4 and 7, proposed §24d(1)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-enwg",
+          "locator": "§24c(1), header amended 23 July 2026",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-02",
+      "verdict": "accept",
+      "reason": "The operating-cost incentive is a bounded conditional mechanism. It does not establish realised adoption, investment, total welfare or emissions changes.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 8–10",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-br-smard-price",
+          "locator": "SMARD price composition methods",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-03",
+      "verdict": "revise",
+      "reason": "The provisional October publication sequence is supported, but “suppliers need” is the author’s business-planning judgment rather than a fact established for every supplier by the legal timetable. Describe the factual calendar and the author’s requested reliability separately. No error in the author statement is proposed.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical p. 10, §24d(3) rationale",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-enwg",
+          "locator": "§20(1)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ],
+      "proposed_result": "supported_for_the_calendar_premise_only; author_business_need_is_evaluative"
+    },
+    {
+      "claim_id": "netzkosten-a-007-04",
+      "verdict": "accept",
+      "reason": "Statute and pre-2026 official announcement support permanence from 2026, subject to refund applications, deductible, eligible use and state-aid conditions.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-b-stromstg",
+          "locator": "§§3 and 9b",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-b-bmf2026-indexed",
+          "locator": "29 December 2025 announcement",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-05",
+      "verdict": "accept",
+      "reason": "The agreement promises a broader tax cut, and current law has not implemented it for all groups. Other parts of the five-cent package remain separate.",
+      "evidence_checks": [
+        {
+          "source_id": "shared-coalition2025",
+          "locator": "Printed pp. 30 and 47",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-b-stromstg",
+          "locator": "§9b",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-06",
+      "verdict": "accept",
+      "reason": "The tax application and annual network/supplier processes are explicit statutory tasks. No quantified administrative cost is inferred from their mere existence.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-b-stromstg",
+          "locator": "§9b(1)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 3–4, §24d(3) and §118(5b)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-07",
+      "verdict": "accept",
+      "reason": "The same statutory rate does not necessarily mean the same marginal new saving for already relieved/exempt users; business/non-business minima also differ. With future design unspecified, unresolved preserves the author’s reasonable standard-rate-consumer reading.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-b-stromstg",
+          "locator": "§§3, 9 and 9b",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-br-smard-price",
+          "locator": "Directive 2003/96/EC minimum levels, primary Commission table",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-08",
+      "verdict": "accept",
+      "reason": "Independent regulatory and Consentec explanations confirm load/volume and regional upstream-share dependence. No fixed regional ordering is assumed.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 8–9",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-stromnev",
+          "locator": "§§14–17",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-b-bnetza-prices",
+          "locator": "Regional 2026 relief discussion",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-09",
+      "verdict": "accept",
+      "reason": "The direct funding transfer does not remove gross underlying network expenditure. The later original phrase about lower overall supply costs can reasonably refer to customer bills, so it is not a contradiction about aggregate engineering costs.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical p. 4, §24d(5)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-10",
+      "verdict": "accept",
+      "reason": "The author proposes measures with cost-saving potential rather than claiming every battery or grid investment always saves money. Primary planning recognises these conditional mechanisms; siting/dispatch and investment costs still determine results.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-monitoring2025",
+          "locator": "Congestion-management and flexibility sections",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-agnes",
+          "locator": "Cost orientation, network use and flexibility rationale",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-11",
+      "verdict": "accept",
+      "reason": "The full draft explicitly assesses additional business compliance cost against continuation of 2026 rules. This is a verified description of the government’s stated counterfactual, not proof of zero recurring work.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 2 and 8",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-12",
+      "verdict": "accept",
+      "reason": "Each-year invoice pointers and DSO disclosures are explicit in §118(5b). The current wording does not dictate a specific URL syntax or technical implementation.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical p. 4, §118(5b), sentence 3; rationale p. 11",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-13",
+      "verdict": "accept",
+      "reason": "Several hundred DSOs exist and a nationwide supplier can span many network territories. That establishes the possible scale, not an exact compulsory per-supplier manual workload.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-monitoring2025",
+          "locator": "Table 21, registered electricity network operators",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        },
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "§118(5b), sentence 3",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-14",
+      "verdict": "accept",
+      "reason": "The annual task is real, but fresh annual implementation cost and incremental work relative to the government’s baseline require actual software/process data. Unresolved appropriately avoids an author/government error finding from differing cost counterfactuals.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical pp. 2, 4 and 8",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-15",
+      "verdict": "accept",
+      "reason": "Read §24d(6) and its rationale: one adjustment, qualifying payment failure, common TSO decision, six-week notice and same-date DSO option all match.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical p. 4, §24d(6); rationale p. 11",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-16",
+      "verdict": "accept",
+      "reason": "Read §41a(4) with §3 definition and §41(5). The statutory fixed-price product may contractually adjust non-supplier components and disapplies §41(5) for that clause. The assessment properly avoids a universal automatic right across all contracts.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-enwg",
+          "locator": "§41a(4) and §41(5)",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    },
+    {
+      "claim_id": "netzkosten-a-007-17",
+      "verdict": "accept",
+      "reason": "The six-week duty expressly attaches to the TSO announcement; the DSO same-date option does not itself guarantee suppliers a separate six-week final-DSO-tariff lead time. Other duties are not presumed absent.",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-draft",
+          "locator": "Physical p. 4, §24d(6), sentences 3–4",
+          "check": "Independently reopened the original primary text or equivalent separately retrieved primary copy, checked relevant methods, definitions and the complete author context."
+        }
+      ]
+    }
+  ],
+  "omissions": [
+    {
+      "document_id": "bmwe-netzkosten-2026-002",
+      "pdf_pages": [
+        1
+      ],
+      "original_excerpt": "Familienunternehmen leiden seit Jahren unter hohen Strompreisen",
+      "proposition": "Family businesses currently face high electricity prices causing international competitive disadvantages; network charges have become a growing cost component.",
+      "assessment": "The current burden/trend is a material present premise, not solely a future investment forecast. Existing A002 claims do not explicitly inventory it. Add unresolved for the undefined family-business international competitiveness comparison, and either a separate bounded supported monitoring trend or an explicit low-priority qualitative-context exclusion.",
+      "suggested_result": "unresolved_for_the_specific_population_and_competitiveness_claim",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-root-monitoring2025",
+          "locator": "Historical price components and customer-specific definitions",
+          "check": "General recent tariff increases are documented; family-business cohort and matched international all-in benchmark are not."
+        }
+      ],
+      "error_candidate": false
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-006",
+      "pdf_pages": [
+        1
+      ],
+      "original_excerpt": "aktuellen Konjunkturkrise in Industrie und Bauwirtschaft",
+      "proposition": "Industry and construction are currently in an economic crisis.",
+      "assessment": "The phrase is a present justification for retaining subsidy, but is not expressly covered by the page exclusion. Add unresolved or an explicit exclusion as an undefined evaluative crisis characterization. A single positive monthly release does not refute a longer crisis or every subindustry.",
+      "suggested_result": "unresolved_or_explicit_evaluative_context_exclusion",
+      "evidence_checks": [
+        {
+          "source_id": "netzkosten-br-destatis-june",
+          "locator": "Release dated 7 August 2026, June production and methodological notes",
+          "check": "The release has mixed monthly/yearly/sector comparisons and warns to distinguish periods. It does not establish a universal crisis threshold."
+        }
+      ],
+      "error_candidate": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "netzkosten-br-bnetza-costmodel",
+      "title": "BNetzA May 2026 presentation, indicative network-cost model",
+      "url": "https://www.bundesnetzagentur.de/DE/Beschlusskammern/GBK/GBK_Termine/Downloads/2026/05_2026/1_Bundesnetzagentur.pdf?__blob=publicationFile&v=5",
+      "retrieved_at": "2026-10-25T10:23:25.063398+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/br-bnetza-costmodel.pdf",
+      "sha256": "ac29f2f3adae2bcd8e38890d31f1edb98e021f03d10b60dccec4218925bcd291",
+      "bytes": 2555826,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Retrieved 25 October 2026. Inspect document publication or consolidated-law amendment header and methods against August 2026 authorship; current portal data are not automatically contemporaneous."
+    },
+    {
+      "id": "netzkosten-br-frontier2025",
+      "title": "Frontier/DIHK supplementary company study, 27 October 2025",
+      "url": "https://frontier-economics.uksouth01.umbraco.io/media/tgjkxpmq/frontier-dihk-plan-b-ergaenzungsstudie-unternehmen-2025-10-27.pdf",
+      "retrieved_at": "2026-10-25T10:23:20.845823+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/br-frontier2025.pdf",
+      "sha256": "dc19d59464ee22343bb06ae0ec134c5523f381af65cddc2997ca0afc043869b5",
+      "bytes": 1604899,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Retrieved 25 October 2026. Inspect document publication or consolidated-law amendment header and methods against August 2026 authorship; current portal data are not automatically contemporaneous."
+    },
+    {
+      "id": "netzkosten-br-tso2024",
+      "title": "TSO final 2024 tariff announcement, 13 December 2023",
+      "url": "https://www.amprion.net/Presse/Presse-Detailseite_61120.html",
+      "retrieved_at": "2026-10-25T10:23:21.959804+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/br-tso2024.html",
+      "sha256": "59782696c71853e4e237b2184070cb268d38033e2d8cb074a3f9491898298f10",
+      "bytes": 184817,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Retrieved 25 October 2026. Inspect document publication or consolidated-law amendment header and methods against August 2026 authorship; current portal data are not automatically contemporaneous."
+    },
+    {
+      "id": "netzkosten-br-tso2025",
+      "title": "TSO preliminary 2025 tariff announcement",
+      "url": "https://www.transnetbw.de/de/newsroom/news/uebertragungsnetzbetreiber-veroeffentlichen-vorlaeufige-netzentgelte-fuer-2025",
+      "retrieved_at": "2026-10-25T10:23:21.602807+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/br-tso2025.html",
+      "sha256": "921b0a3fc8a96ef013c14696b9d480821d2bf524b9af24a2906a08a1b9014012",
+      "bytes": 96074,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Retrieved 25 October 2026. Inspect document publication or consolidated-law amendment header and methods against August 2026 authorship; current portal data are not automatically contemporaneous."
+    },
+    {
+      "id": "netzkosten-br-speech2025",
+      "title": "Ministerial 2025 speech: 2026 subsidy and later allocation",
+      "url": "https://www.bundesregierung.de/breg-de/service/newsletter-und-abos/bulletin/bmwe-uebertragungsnetzkosten-2388734",
+      "retrieved_at": "2026-10-25T10:23:23.550900+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/br-speech2025.html",
+      "sha256": "070680dff7fc15a9e69348740e9f4c4c12a81a25311b832499a7ae6bd3029638",
+      "bytes": 116200,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Retrieved 25 October 2026. Inspect document publication or consolidated-law amendment header and methods against August 2026 authorship; current portal data are not automatically contemporaneous."
+    },
+    {
+      "id": "netzkosten-br-smard-price",
+      "title": "BNetzA industrial-price model and procurement assumptions",
+      "url": "https://www.smard.de/page/home/topic-article/211972/215546/industriestrompreise",
+      "retrieved_at": "2026-10-25T10:23:23.121293+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/br-smard-price.html",
+      "sha256": "4108f873e48dd4b7a2bc0e1689b42eafc50ffc9bc559f5e68fb2f935578ccff8",
+      "bytes": 47064,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Retrieved 25 October 2026. Inspect document publication or consolidated-law amendment header and methods against August 2026 authorship; current portal data are not automatically contemporaneous."
+    },
+    {
+      "id": "netzkosten-br-physical-faq",
+      "title": "BNetzA FAQ individual network charges June 2014",
+      "url": "https://www.bundesnetzagentur.de/DE/Beschlusskammern/BK04/BK4_71_NetzE/BK4_71_Ind_NetzE_Strom/Downloads/FAQ_Haeufig_gestellte_Fragen.pdf?__blob=publicationFile&v=1",
+      "retrieved_at": "2026-10-25T10:23:25.518085+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/br-physical-faq.pdf",
+      "sha256": "8c4788a5e42201a8d171144c3640f4113a0b7a182a3289457b36ed86aaebe97d",
+      "bytes": 821720,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Retrieved 25 October 2026. Inspect document publication or consolidated-law amendment header and methods against August 2026 authorship; current portal data are not automatically contemporaneous."
+    },
+    {
+      "id": "netzkosten-br-tso2026-announcement",
+      "title": "TSO press release 1 October 2025, provisional 2026 uniform tariffs",
+      "url": "https://www.transnetbw.de/_Resources/Persistent/a/2/b/3/a2b3679fb99a4d4c2362c70f633d7baece5ffb56/2025-10-01_4-U%CC%88NB-Pressemitteilung_vorla%CC%88ufige%20Netzentgelte%202026.pdf",
+      "retrieved_at": "2026-10-25T10:26:06.561124+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/br-tso2026-announcement.pdf",
+      "sha256": "088f6a6615e32b7775b6501d9ec276dc0542bdf9b87b0775bcfad977782ff3dc",
+      "bytes": 136258,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Retrieved 25 October 2026. Inspect document publication or consolidated-law amendment header and methods against August 2026 authorship; current portal data are not automatically contemporaneous."
+    },
+    {
+      "id": "netzkosten-br-ktfg",
+      "title": "KTF founding law consolidated text, header 30 September 2025",
+      "url": "https://www.gesetze-im-internet.de/ekfg/BJNR180700010.html",
+      "retrieved_at": "2026-10-25T10:27:17.691738+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/br-ktfg.html",
+      "sha256": "6deb4783a79c62f1d6c6706c4038d5483f0f83f2e51480b7d66383427a36a577",
+      "bytes": 18084,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Retrieved 25 October 2026. Inspect document publication or consolidated-law amendment header and methods against August 2026 authorship; current portal data are not automatically contemporaneous."
+    },
+    {
+      "id": "netzkosten-br-destatis-june",
+      "title": "Destatis production June 2026, release 7 August 2026",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_279_421.html",
+      "retrieved_at": "2026-10-25T10:27:16.961701+00:00",
+      "local_file": "research/factual-checks/netzkosten-2026/sources/br-destatis-june.html",
+      "sha256": "4f60f3b7e5910854401eac7ab8ed316f900cf44ad879fe46c630fc6fc787dc6f",
+      "bytes": 83477,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Retrieved 25 October 2026. Inspect document publication or consolidated-law amendment header and methods against August 2026 authorship; current portal data are not automatically contemporaneous."
+    }
+  ],
+  "limitations": [
+    "All seven original submissions and 23 physical pages were read completely before opening the frozen counterpart inventory. All 58 claims, supported and unresolved, were independently reviewed.",
+    "Primary-source figures in BNetzA slide 11 and Frontier Figure 5 were visually inspected. The relevant operator releases, legal paragraphs, physical-path FAQ and primary study methods were re-read.",
+    "No raw inventory, main data, code or README edits. The counterpart raw hash was rechecked.",
+    "Some primary documents are current consolidated or retrieved snapshots; stated amendment dates predate authorship, but exact historical page bytes and the dispatched draft identity remain qualified.",
+    "No new author-error candidate emerged. Existing unresolved numerical, forecast, legal-shorthand and individual-tariff outcomes are preserved.",
+    "Several raw anchors are extremely short or partial words. Exact characters alone can be insufficiently precise; the two partial-word cases are explicitly flagged for correction in integration."
+  ]
+}

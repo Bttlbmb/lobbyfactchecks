@@ -1,0 +1,33 @@
+{
+  "id": "bvte-round5-disposition",
+  "created_at_utc": "2026-10-25T08:46:54.160741+00:00",
+  "candidate_id": "tabstaendg2026-bvte-forecast-tax-r4-03",
+  "decision": "Retain unresolved lead; provenance partially resolved but no demonstrated EUR 8.4 bn error or corrected cumulative figure.",
+  "updated_record": "research/round5-tax/tabstaendg2026-bvte-forecast-tax-r4-03-update.json",
+  "primary_matrix": "research/round5-tax/bvte-primary-vintage-matrix.json",
+  "new_provenance": "The complete six-year series is visibly present in the exact cited 2014 DZV graphic; this supersedes any suggestion that the 2026 author invented the displayed series.",
+  "new_primary_findings": "Original 2002/03 budget totals and explicit 2003/04 forecast tables differ from the displayed series; final 2003 law increments also differ from the original proposal. Authenticated May 2004 total forecast 16.3 bn for 2007 exactly matches the graphic.",
+  "strongest_benign_alternative": "A mixed set of original forecast vintages may explain some or all remaining chart values, and at least one year has affirmative primary support. No contemporaneous source for the complete 14.8/15.2/16.4/17.7 series was authenticated.",
+  "reasonable_routes_exhausted_or_limited": [
+    "Exact cited republication and its graphic obtained.",
+    "All four explicitly cited amendment-stage revenue tableaux checked in prior round; original versus adopted 2003 figures checked against new BMF answer.",
+    "Named budget/financial-plan vintages before and after both reform stages compared; no universal claim that all historical estimates were searched.",
+    "BMF monthly reports and annual accounts are indexed with relevant tables, but direct live retrieval repeatedly returned 503. Search excerpts are not represented as full-page acquisition.",
+    "Cash-versus-assessment and gross/net differences remain possible for precise actual receipts; no incidental rounding discrepancy promoted. They do not by themselves supply the absent forecast vintage.",
+    "No author contact requested or made."
+  ],
+  "access_failures": [
+    {
+      "url": "https://www.bundesfinanzministerium.de/Monatsberichte/2001-2016/Inhalte/Monatsbericht-Archiv-Downloads/2002/Monatsbericht_Mai_2002.pdf?__blob=publicationFile&v=1",
+      "result": "webreader 503 and ordinarycurl 503; indexed relevant table only."
+    },
+    {
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/Oeffentliche-Finanzen/Haushalts-und-Vermoegensrechnungen/haushaltsrechnung-und-vermoegensrechnung-2002.pdf?__blob=publicationFile&v=1",
+      "result": "webreader 503; indexed section 3.4 comparison seen, not treated as archived source."
+    }
+  ],
+  "new_submission_units": 0,
+  "old_raw_and_compiled_unchanged": true,
+  "independent_review": "research/round5-reviews/energy-reviews-bvte.json",
+  "review_outcome": "Retain unresolved; no new finding. Neutral source-vintage wording accepted after independent challenge."
+}

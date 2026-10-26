@@ -1,0 +1,36 @@
+{
+  "candidate_id": "csrd2025-familienunternehmen-esef-tax-r2-12",
+  "reviewer": "social_ai_independent_review",
+  "date": "2026-10-25",
+  "disposition": "retain_provisional_minor_true_narrow_format_description",
+  "read_extent": [
+    "Independently opened the original registered twelve-page statement and read all substantive pages through its conclusion. Page 5 contains the exact claim and adjacent abolition request.",
+    "Read all four pages of the original ESMA tutorial dated 19 November 2018; visually checked page 2. Independently opened the current ESMA technical scope and requirements as corroboration.",
+    "Read the exact archived July 2025 draft at physical/printed pages 14 and 21, plus explanations on pages 132–133 and 137. No full 205-page audit claimed.",
+    "Viewed the public mirror page 5 only as visual corroboration of the relevant paragraph. Did not assume whole-document or byte identity with the registered original.",
+    "Independently opened the original Commission communication 2020/C 379/01 in German; read introduction and relevant assurance provisions. Its introduction expressly describes combined human and machine readability after adoption, so the conclusion no longer depends on the 2018 draft tutorial."
+  ],
+  "assessment": {
+    "mismatch": "The format itself has a human-readable XHTML report and embedded structured tags. The unqualified sentence characterises ESEF generally as not human-readable. That description is inconsistent with the preserved readable presentation, rather than merely a disagreement over costs.",
+    "strongest_benign_reading": "The preceding discussion concerns assurance of technical information, and the author may mean that the markup or taxonomy semantics cannot be checked through ordinary visual reading. That is a substantial contextual explanation. However, the later standalone sentence calls the format itself unreadable, compares it with PDF readability and immediately supports abolition. Retain only the narrow format-description issue; do not allege that technical assurance is easy or that no extra information requires specialised tools.",
+    "draft_and_timing": "The addressed draft distinguishes preparation in the Article 3 format from marking up the sustainability report. The memorandum recognises that the relevant sustainability tagging provision was still to be adopted. Do not imply that all sustainability tags were already mandatory in July 2025. The 2018 ESMA tutorial describes draft RTS, so the current original ESMA scope page corroborates the continuing XHTML architecture; the tutorial alone is not mislabelled as adopted law.",
+    "materiality": "Minor. Correcting readability removes an auxiliary technical premise. Independent burden, assurance, amendment and timing arguments survive, and the record does not adjudicate them.",
+    "direction": "True narrowly: describing the format as unreadable gives a stronger reason to abolish it. This does not establish that the proposed disclosure-only workflow or abolition is inappropriate.",
+    "provenance": "The original register PDF text independently establishes the wording. A failed local original download does not erase that primary read, but the mirror must remain separately identified because other paragraphs differ.",
+    "intent": "No inference."
+  },
+  "additional_primary_check": {
+    "url": "https://www.esma.europa.eu/issuer-disclosure/electronic-reporting",
+    "locator": "ESEF scope and requirements, first three bullets",
+    "retrieved_at": "2026-10-25",
+    "result": "Confirms standard-browser XHTML human readability and embedded Inline XBRL preserving that presentation. Current corroboration, not asserted to be the identical July 2025 webpage.",
+    "historical_adopted_framework": {
+      "url": "https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A52020XC1110%2801%29",
+      "locator": "Section 1 Einführung, paragraph immediately following the iXBRL taxonomy explanation",
+      "retrieved_at": "2026-10-25",
+      "result": "Confirms combined human and machine readability in the adopted ESEF framework, before the author statement. Original German text independently read."
+    }
+  },
+  "quotation_policy": "No additional author excerpts added. Existing fragments independently checked against the registered original.",
+  "specialist_review": false
+}

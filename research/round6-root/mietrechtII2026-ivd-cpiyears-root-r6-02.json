@@ -1,0 +1,97 @@
+{
+  "law_id": "mietrechtII-2026",
+  "document_id": "ivd-mietrecht-20261009",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "draft": {
+    "source_id": "mietrechtII-bt216807",
+    "version": "Government billBT21/6807,1July2026",
+    "exactness": "Author cover and heading explicitly identifyBT21/6807; quoted operative measures match that version.",
+    "read_extent": "Relevant operative pages7–8 and memorandum20–23; not full36pages."
+  },
+  "source_ids": [
+    "ivd-mietrecht-20261009",
+    "mietrechtII-bt216807",
+    "destatis-cpi2021-release005",
+    "destatis-vpi12-r6"
+  ],
+  "submission_source_id": "ivd-mietrecht-20261009",
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "energy_hearings",
+        "path": "research/round6-reviews/energy-reviews-ivd-mietrecht.json",
+        "date": "2026-10-25",
+        "disposition": "Supports narrow provisional minor/true; annual-versus-rolling-interval and0.05percentage-point illustrative reduction limits."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded for independent challenge after complete13-page original and exact draft passages; not yet admitted.",
+      "by": "root_round6_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent adversarial review supports narrow counterexample and minor materiality; admitted provisionally.",
+      "by": "root_ai_screen"
+    }
+  ],
+  "confidence": {
+    "text_source_mismatch": "high for the additional2021calendar-year counterexample; not an exhaustive rolling-interval count",
+    "materiality": "editorial_judgment"
+  },
+  "id": "mietrechtII2026-ivd-cpiyears-root-r6-02",
+  "card": {
+    "law_is_about": "Changing index rents, including halving the part of a one-year CPI rise above 3%.",
+    "they_want": "Drop the proposed index-rent restriction.",
+    "they_claim": "Only 2022 and 2023 in the last 25 years would have triggered the restriction.",
+    "the_problem": "Official CPI growth was also above 3% in 2021. Effects on individual rent adjustments depend on the rolling measurement period."
+  },
+  "claim_quote": {
+    "original": "nur zwei Jahre gab",
+    "language": "de",
+    "translation_en": "Translation of fragment: there were only two years.",
+    "locator": {
+      "pdf_page": 9,
+      "printed_page": 8,
+      "paragraph": "Third substantive paragraph, beginningGeradedeshalb; parenthesis identifies2022and2023."
+    },
+    "underline": "zwei Jahre"
+  },
+  "request_quote": {
+    "original": "Begrenzung der Indexmiete verzichtet werden.",
+    "language": "de",
+    "translation_en": "Translation of fragment: the restriction on index rents should be dispensed with.",
+    "locator": {
+      "pdf_page": 9,
+      "printed_page": 8,
+      "section": "Petitum, final sentence."
+    }
+  },
+  "counter_quote": {
+    "original": "+3,1 % im Jahresdurchschnitt 2021 gegenüber 2020 (vorläufig)",
+    "language": "de",
+    "translation_en": "Translation: +3.1%in the annual average2021compared with2020(provisional).",
+    "source_id": "destatis-cpi2021-release005",
+    "locator": {
+      "section": "PressemitteilungNr005vom6Januar2022, headline indicators"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "At minimum2021is an additional counterexample: the official annual CPI rose3.1%, corroborated by the later official historical table; several2021monthly year-on-year rates also exceeded3%. Thus the dates2022/2023are not an exhaustive set of historical years containing a one-year rise above the bill’s3%threshold. The proposed rule halves only the excess over3%and applies in designated areas; it is not a3%absolute cap.",
+  "effect": "The correction weakens the claim that the restriction would have been wholly irrelevant outside two exceptional years. Under an annual-average illustration,3.1%would imply3.05%instead, a very small difference.",
+  "limits": "Annual-average inflation is not the formula for every individual index-rent increase. The bill uses a one-year period, while contracts can have different adjustment dates and longer intervals. No exact count of affected leases, lost revenue or future inflation is established. The count error does not prove the cap desirable. The release quoted is explicitly provisional; the later official historical table corroborates the same2021figure.",
+  "materiality_explanation": "Minor: omitting at least one historical year overstates rarity, but the 2021 annual example exceeds 3% by only 0.1 percentage point. Halving that excess changes the illustrative increase from 3.1% to 3.05%; no substantial financial effect is established.",
+  "direction_explanation": "True narrowly: understating the occasions when the rule could matter supports the express request to remove it.",
+  "context_and_alternatives": [
+    "The author accurately describes the3%plus half-excess mechanism earlier and offers separate predictability,modernisation andground-rent arguments. Those survive.",
+    "Exact billphysical8and full authorpage9checked.2021is within any plausible25-year lookback fromOctober2026.",
+    "A rollingmonthtocomparison matters, so no definitive complete count is substituted from annualaverages."
+  ]
+}

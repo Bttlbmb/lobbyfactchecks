@@ -1,0 +1,131 @@
+{
+  "id": "pnog2026-wir-care-share-root-r4-01",
+  "law_id": "pnog-2026",
+  "document_id": "wir-pnog-20260901",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Restructuring care-insurance financing, benefits and support for care recipients and their relatives.",
+    "they_want": "Legally assured participation for care recipients and family caregivers in decisions at federal, state and local levels.",
+    "they_claim": "According to Destatis, civil society performs around 86% of care work in Germany.",
+    "the_problem": "The matching Destatis 86% statistic counts people cared for at home, including professional ambulatory care. It does not measure a work share. The exact source and intended shorthand remain unresolved."
+  },
+  "claim_quote": {
+    "original": "Laut Statistischem Bundesamt werden rund 86 Prozent der Pflegearbeit in Deutschland von der Zivilgesellschaft erbracht",
+    "language": "de",
+    "translation_en": "Translation: According to the Federal Statistical Office, around 86 percent of care work in Germany is provided by civil society.",
+    "locator": {
+      "pdf_page": 1,
+      "paragraph": "Second substantive paragraph, beginning Dabei gerät aus dem Fokus"
+    },
+    "underline": "86 Prozent der Pflegearbeit"
+  },
+  "counter_quote": {
+    "original": "Knapp neun von zehn Pflegebedürftigen (86 % beziehungsweise 4,9 Millionen) wurden im Dezember 2023 zu Hause versorgt.",
+    "source_id": "destatis-pflege-2023-release478",
+    "language": "de",
+    "translation_en": "Translation: Almost nine in ten people needing care (86 percent or 4.9 million) were cared for at home in December 2023.",
+    "locator": {
+      "section": "Knapp neun von zehn Pflegebedürftigen wurden zu Hause versorgt",
+      "paragraph": "first"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "request_quote": {
+    "original": "verbindlich beteiligt werden.",
+    "language": "de",
+    "translation_en": "Translation: be involved on a binding basis.",
+    "locator": {
+      "pdf_page": 2,
+      "section": "Echte Partizipation"
+    }
+  },
+  "correction": "If using the identified Destatis measure, describe86% as the rounded share of care recipients cared for at home, rather than a measured national share of work. The exact table gives4,888,882 of5,688,473 recipients,85.9437%, including1,100,672 with or through professional ambulatory services. Neither the family-only recipient group nor subtraction of the ambulatory group yields a corrected care-work share.",
+  "effect": "The identified release cannot establish the precise national work-share assertion. It still documents a large home-care population, so it supports the broad importance of family-care participation.",
+  "limits": "The author names Destatis but gives no specific release, year or table. A different statistic or loose language about home-care arrangements remains possible. No numerical share of unpaid work is established or disproven. Civil society is not operationally defined, and often does not say all care is unpaid. Family caregivers can also help people living in institutions. No intent or policy conclusion is inferred.",
+  "confidence": {
+    "text_source_mismatch": "high_for_matching_Destatis_measure; unresolved_exact_source_and_interpretation",
+    "materiality": "editorial_judgment"
+  },
+  "materiality_explanation": "Potentially minor source/measure mismatch. The broad predominance of home care and request for participation survive; no quantified change to the actual work share has been established.",
+  "direction_explanation": "Unknown: the actual work share is unestablished, so the numerical direction of a correction is unknown.",
+  "context_and_alternatives": [
+    "Read and visually inspected both complete author pages, including the explicit binding-participation request and personal-care experience.",
+    "Destatis full release distinguishes home care from professional ambulatory provision and does not count hours or tasks.",
+    "Source-discovery searches did not establish a Destatis86% work-share statistic. Absence from search is not proof that no such statistic exists.",
+    "Primary WIdO 2020 report publicity uses a different home-care time-survey framework; no replacement national work ratio is inferred from it.",
+    "Further research found earlier2025author publications describing86% in terms of recipients and home/family care, followed by broader language about system reliance. This supports a likely recipient-measure origin and a plausible shorthand interpretation; it does not prove the exact source or drafting method of the September2026letter.",
+    "The exact2023primary table and footnotes, current statistical regulation and historical quality-report context establish the recipient/location measure. The separate time-use survey is a different framework and supplies no directly matched replacement work-share ratio.",
+    "Author-hosted September2026PDF is byte-identical to the register archive, so it is not a second target submission or independent corroboration. Public source searches did not resolve the intended measure; absence is not proof of error."
+  ],
+  "draft": {
+    "source_id": "bmg-pnog-refe-20260605-context",
+    "version_date": "2026-06-05",
+    "version": "Current original ministry PDF dated 5 June 2026, 210 physical pages.",
+    "version_limit": "The register associates this open letter with the PNOG consultation, but the letter itself neither names a draft nor addresses a provision. The June 5 text is context only, not independently authenticated as the exact version sent to this author. The source-measure question does not depend on a changed legal provision."
+  },
+  "source_ids": [
+    "wir-pnog-open-letter-20260901",
+    "destatis-pflege-2023-release478",
+    "bmg-pnog-refe-20260605-context",
+    "register-sg2609240044",
+    "r5-destatis-caretypes-2023",
+    "r5-wir-pkg-20250712",
+    "r5-wir-befugnisse-20251005",
+    "r5-wir-release-20250512",
+    "r5-pflegestatv-current",
+    "r5-destatis-pflegegeld-quality2017",
+    "r5-destatis-zve2022"
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "energy_hearings AI agent",
+        "file": "research/round4-reviews/energy-reviews-wir-care-share.json",
+        "disposition": "Retain unresolved/minor/null; no major promotion."
+      },
+      {
+        "reviewer": "root independent AI",
+        "review_file": "research/round5-reviews/root-reviews-wir.json",
+        "verdict": "Retain unresolved/minor/null after additional primary-table and author-context checks."
+      },
+      {
+        "reviewer": "social_round2 independent AI",
+        "review_file": "research/round5-reviews/social-reviews-wir.json",
+        "verdict": "Retain unresolved/minor/null; literal source-measure concern conditional on exact source and intended interpretation."
+      },
+      {
+        "reviewer": "tax_consultations independent AI",
+        "review_file": "research/round5-reviews/tax-reviews-wir.json",
+        "verdict": "Retain unresolved/minor/null; exact table is a recipient measure, intended source and shorthand interpretation not settled."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as an unresolved source-measure lead; not a finding.",
+      "by": "root_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent reviewer retained unresolved minor lead; exact source and intended work-share interpretation remain open.",
+      "by": "energy_hearings_ai_review"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Additional primary table, statistical definitions and earlier author wording checked; exact source and interpretation remain unresolved. Earlier raw record preserved. No new finding.",
+      "by": "root_round5_ai"
+    }
+  ],
+  "follow_up": {
+    "dossier": "research/round5-energy/wir-care-share-disposition.json",
+    "research_priority": "Low until a specific source citation or operational definition provides a concrete reopening route.",
+    "new_target_submission_units": 0,
+    "no_author_contact": true
+  }
+}

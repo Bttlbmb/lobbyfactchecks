@@ -1,0 +1,599 @@
+{
+  "reviewer": "b",
+  "target_agent": "a",
+  "proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+  "proposal_sha256": "b8d6b2e7080415480b50a98269ed22fce800ba8421ffa107271b49033f1b6875",
+  "proposal_sources_sha256": "4293ba718116e7519b3910071a2e8d4627f9234a858ec9ec0c3b52f5fe093e57",
+  "status": "frozen_peer_review",
+  "reviewed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+  "reviews": [
+    {
+      "claim_id": "short-a-007",
+      "verdict": "accept",
+      "reason": "Independently reproduced EUR 59.71/13.9653% from the visually verified IQWiG GKV cost table and one-dose section. The ordinary rounded public benchmark is supported; exact same-day transaction/confidential rebates are appropriately excluded.",
+      "proposed_result": "supported",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-iqwig",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/87ae08139ce27708c5.pdf",
+        "sha256": "f6835f4dc31059a57b46384c5cd42451b5dd58152a600d5eb6de0e83b0e66836",
+        "physical_pages": [
+          2
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-a-008",
+      "verdict": "accept",
+      "reason": "The hypothetical whole-cohort model does not require actual uptake. Its approximate 600000-dose scale is plausible and recomputed, but intended cohort year and infant GKV share are not recovered. A correctly already distinguishes April provisional and July final births; retained U is proportionate.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-iqwig",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-destatis",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/87ae08139ce27708c5.pdf",
+        "sha256": "f6835f4dc31059a57b46384c5cd42451b5dd58152a600d5eb6de0e83b0e66836",
+        "physical_pages": [
+          2
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-a-028",
+      "verdict": "accept",
+      "reason": "Original says genuinely unclear cover, not just absent card. Frequent regional certificate requests and substitute billing do not establish the claimed eligibility frequency at prophylaxis time.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-aokplus",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-annex",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-hospital",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/bb99c89b22ea1d8154.pdf",
+        "sha256": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+        "physical_pages": [
+          3
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-a-029",
+      "verdict": "accept",
+      "reason": "Hospital instructions support a multiweek physical-card process, while insurer/substitute routes can produce proof earlier. Full Krankenversicherungsnachweis wording remains unresolved without demanding an unnecessary national distribution for mere card timing.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-hospital",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-aokplus",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-annex",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/bb99c89b22ea1d8154.pdf",
+        "sha256": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+        "physical_pages": [
+          3
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-a-030",
+      "verdict": "accept",
+      "reason": "Original predictive werden and later medicine reimbursement are stronger than a possible private route. Clause 2.1 treatment-fee repayment is not a universal medicine refund guarantee; under-18 substitute billing does not solve genuinely unconfirmed cover.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-annex",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-aokplus",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/bb99c89b22ea1d8154.pdf",
+        "sha256": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+        "physical_pages": [
+          3
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-a-031",
+      "verdict": "accept",
+      "reason": "The German abstract and US primary methods/results independently confirm incomplete/unequal uptake, but neither isolates German prepayment and unclear entitlement as the cause of frequent delay. A preserves this future conditional risk without an error finding.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-lmu",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-us-uptake",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-annex",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/bb99c89b22ea1d8154.pdf",
+        "sha256": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+        "physical_pages": [
+          3
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-a-032",
+      "verdict": "accept",
+      "reason": "Original compound links hospitalisation, ICU and RSV-related deaths. A correctly preserves a reasonable respiratory-disease denominator and supported hospital burden while retaining the broader unclear ICU/death ranking. No all-cause infant-death allegation is manufactured.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-rki-burden",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/36b41c5f7e8c878ef1.pdf",
+        "sha256": "4c939eb88da6cd6ae5c8882c32e8674b411ddad61489e00dd7b98ff2af987fd6",
+        "physical_pages": [
+          1
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-a-048",
+      "verdict": "accept",
+      "reason": "The less specific direction-of-cost assertion is supported by the contemporary public GKV assessment and does not require every confidential transaction. Original current-price wording and limitations are retained.",
+      "proposed_result": "supported",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-iqwig",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/41906598a892884b60.pdf",
+        "sha256": "b417cb7aa430874181f26c0a16b450da9246fef63094e05f5aa57077b8e1743b",
+        "physical_pages": [
+          2
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-it-a-001",
+      "verdict": "accept",
+      "reason": "The author’s joint more-than-half applications/systems and most-services denominator is not supplied by a large individual supplier or installation count. No independent aggregate denominator recovered; low-materiality background remains U without error.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-firm-history",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-access-search",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          1
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-it-a-002",
+      "verdict": "accept",
+      "reason": "Original allows a qualifying subset of experienced firms. HSH/ab-data substantiate long municipal-software experience, but a 2005 web finance backend alone does not establish the plural citizen-facing service history. Targeted follow-up yielded no adequate member-specific launch pair.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-firm-history",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          1
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-it-a-005",
+      "verdict": "accept",
+      "reason": "Concrete standards-based message/endpoints and live vendor integration support the modest contribution statement. No comparative causal trial is needed; this does not certify universal easy implementation or disprove rival frontend access barriers.",
+      "proposed_result": "supported",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-dnrw",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-faq",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          1
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-it-a-007",
+      "verdict": "accept",
+      "reason": "Immediate mandated common frontend can displace rival demand, but existing private backend participation and one prospective component do not settle the broader generally removes competing-market opportunity assertion. It is not read as a universal statutory ban.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-draft",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-faq",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-bsi",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-access-search",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          1
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-it-a-010",
+      "verdict": "accept",
+      "reason": "The ministry’s unindependently assessed all-other-products disjunction is preserved. Architecture/certificate conditions establish plausible shortcomings, not a full alternative-service product assessment, and one existing alternative would not refute the or proposition.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-draft",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-faq",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-bsi",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-access-search",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          2
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-it-a-011",
+      "verdict": "accept",
+      "reason": "Primary certificate/interface dependencies are real but do not document a named denied request and corresponding development consequence. Public specification does not prove equal practical access; restrictions alone do not prove wrongful denial.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-faq",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-bsi",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-access-search",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          2
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-it-a-012",
+      "verdict": "accept",
+      "reason": "A separate historical plural-Land complaint record is needed. Selected official technical materials and targeted search did not yield named dated complaints, so retained uncertainty is proper and not absence-as-refutation.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-faq",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-bsi",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-access-search",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          2
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-it-a-013",
+      "verdict": "accept",
+      "reason": "A working selected service does not rebut harm to competing end-to-end projects. Frequency of the alleged counteraction remains broader than the possible access dependency; no dated pattern independently recovered.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-faq",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-bsi",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-access-search",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          2
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-it-a-014",
+      "verdict": "accept",
+      "reason": "A plausible incentive effect is not the original realised massive hindrance of actual manufacturer investments. No experimental/national causal estimate is required, but named dated decisions and effects remain missing.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-draft",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-bsi",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-access-search",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          2
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-it-b-002",
+      "verdict": "accept",
+      "reason": "The original explicitly includes an existing disease that can lead to sight loss. Independently read Zi repeated-diagnosis patient count above seven million plus the clinical risk scope, with DDZ/RKI method differences acknowledged. A broad lower-bound assessment is reasonable; no overlapping-condition sum or exact blindness/2026 census is inferred.",
+      "proposed_result": "supported",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-zi",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-diabinfo",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-ddz",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-rki-diabetes",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-004.pdf",
+        "sha256": "f42d81c2a2e0f3ae8d7415732464cafa310ce95310c182943ed6ea8a3e7a59a2",
+        "physical_pages": [
+          1
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-it-c-003",
+      "verdict": "accept",
+      "reason": "Immediate original context is the MPK-backed binding eWA mandate. Dated ministry dossier and operative draft support first concrete common-component mandate on this route. A explicitly limits the contextual reading rather than asserting no earlier EfA legal footing or that the proposal was already law.",
+      "proposed_result": "supported",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-bmds",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-draft",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-012.pdf",
+        "sha256": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699",
+        "physical_pages": [
+          1
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    },
+    {
+      "claim_id": "short-it-c-007",
+      "verdict": "accept",
+      "reason": "The exact federal programme has real funding/cost experience, but the Niedersachsen source separates prior taskforce results from new federal support. Material prior nationwide contribution is not demonstrated merely by programme existence or an EUR 8300 estimate. No excessive demand for quantified experimental causality.",
+      "proposed_result": "unresolved",
+      "evidence_checks": [
+        {
+          "source_id": "uf-br-draft",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        },
+        {
+          "source_id": "uf-br-ni",
+          "check": "Independent original/primary passage check; exact read extent, identity and limits in br-primary-checks.json."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-012.pdf",
+        "sha256": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699",
+        "physical_pages": [
+          1
+        ],
+        "check": "Complete relevant original page(s) reread independently in this peer pass; full compound and ordinary contextual alternatives considered."
+      }
+    }
+  ],
+  "source_notes": {
+    "file": "research/factual-checks/unresolved-followup-20261026/sources/br-primary-checks.json",
+    "sha256": "38a7635b61fa6d5f9cf5b388467656eed341ca66f49d9963cd30311fa634d1ba"
+  },
+  "documents_reread": [
+    {
+      "original_pdf": "research/round3-social/coverage-pdfs/87ae08139ce27708c5.pdf",
+      "sha256": "f6835f4dc31059a57b46384c5cd42451b5dd58152a600d5eb6de0e83b0e66836",
+      "physical_pages": [
+        2
+      ]
+    },
+    {
+      "original_pdf": "research/round3-social/coverage-pdfs/bb99c89b22ea1d8154.pdf",
+      "sha256": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+      "physical_pages": [
+        3
+      ]
+    },
+    {
+      "original_pdf": "research/round3-social/coverage-pdfs/36b41c5f7e8c878ef1.pdf",
+      "sha256": "4c939eb88da6cd6ae5c8882c32e8674b411ddad61489e00dd7b98ff2af987fd6",
+      "physical_pages": [
+        1
+      ]
+    },
+    {
+      "original_pdf": "research/round3-social/coverage-pdfs/41906598a892884b60.pdf",
+      "sha256": "b417cb7aa430874181f26c0a16b450da9246fef63094e05f5aa57077b8e1743b",
+      "physical_pages": [
+        2
+      ]
+    },
+    {
+      "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+      "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+      "physical_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-004.pdf",
+      "sha256": "f42d81c2a2e0f3ae8d7415732464cafa310ce95310c182943ed6ea8a3e7a59a2",
+      "physical_pages": [
+        1
+      ]
+    },
+    {
+      "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-012.pdf",
+      "sha256": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699",
+      "physical_pages": [
+        1
+      ]
+    }
+  ],
+  "omissions": [],
+  "counts": {
+    "reviewed": 20,
+    "accept": 20,
+    "revise": 0,
+    "needs_more_evidence": 0,
+    "accepted_supported": 5,
+    "accepted_unresolved": 15
+  },
+  "limitations": [
+    "Follow-up covers the 20 assigned previously unresolved cases, not a new claim inventory of every prior response.",
+    "No full 74-page IQWiG, long diabetes report, full BSI corpus or full alternative-service market read claimed.",
+    "Source access limitations are retained; no missing-data, policy-disagreement, prediction or intent error is proposed.",
+    "Preliminary April/July source concern withdrawn after complete frozen entry read; no substantive correction requested."
+  ],
+  "new_error_candidates": []
+}

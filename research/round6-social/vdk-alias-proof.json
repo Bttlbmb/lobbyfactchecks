@@ -1,0 +1,44 @@
+{
+  "as_of_utc": "2026-10-25T12:10:16.197011+00:00",
+  "purpose": "Explicit authored-version alias proof; no new factual read and no new reading credit",
+  "baseline_unit_id": "versmedv7-2026-vdk",
+  "round6_resource_row_id": "round6-social-sg2610200007",
+  "author": "Sozialverband VdK Deutschland e. V.",
+  "author_date": "2026-10-12",
+  "title_identity": "Stellungnahme zum Referentenentwurf zur Änderung der Versorgungsmedizin-Verordnung",
+  "proof": [
+    {
+      "pdf_path": "research/round3-social/coverage-pdfs/047a8d2d0161c54372.pdf",
+      "pdf_exists_at_audit": true,
+      "pdf_sha256": "9d9669eabef448500b5c5c5a6c48ee51be7c8386dc029c29873619511aab1337",
+      "pdf_hash_basis": "current bytes",
+      "text_path": "research/round3-social/coverage-pdfs/047a8d2d0161c54372.txt",
+      "text_sha256": "dc062fff86e9974a2c07467eca3336d1b491b7bafaf20d0b1073cd2bb6e968fb",
+      "normalized_full_text_sha256": "8f6593003253a693eeb163a37160477d49c61023d76509989265662bfcdf086c",
+      "normalization": "remove Unicode whitespace only; no words, punctuation, numbers or case changed",
+      "non_whitespace_characters": 12751,
+      "physical_pages_from_extraction": 6
+    },
+    {
+      "pdf_path": "research/round3-root/coverage/register-pdfs/SG2610200007.pdf",
+      "pdf_exists_at_audit": false,
+      "pdf_sha256": "3c07d3c337536795532e7ad878f7480b6c2fd34a38b7ad85f5e1e7871569c483",
+      "pdf_hash_basis": "research/cache-manifest.json and register-archive-manifest.json historical verified snapshot",
+      "text_path": "research/round3-root/coverage/register-pdfs/SG2610200007.txt",
+      "text_sha256": "dc062fff86e9974a2c07467eca3336d1b491b7bafaf20d0b1073cd2bb6e968fb",
+      "normalized_full_text_sha256": "8f6593003253a693eeb163a37160477d49c61023d76509989265662bfcdf086c",
+      "normalization": "remove Unicode whitespace only; no words, punctuation, numbers or case changed",
+      "non_whitespace_characters": 12751,
+      "physical_pages_from_extraction": 6
+    }
+  ],
+  "conclusion": "Same six-page authored response/version, despite different PDF binary hashes. Complete extracted bodies are identical after whitespace-only normalization, including title, date, all figures and qualifications. Merge aliases into one documented-pool unit.",
+  "count_effect": {
+    "broad_units_before_correction": 792,
+    "broad_units_after_alias_merge": 791,
+    "round6_broad_unit_additions_before": 167,
+    "round6_broad_unit_additions_after": 166,
+    "resource_reads_unchanged": 57
+  },
+  "limits": "The evicted SG PDF was not restored. Its recorded historical hash and corresponding retained extraction are used openly. Different PDF binary hashes are not described as byte-identical. This identity audit does not reverify every substantive claim."
+}

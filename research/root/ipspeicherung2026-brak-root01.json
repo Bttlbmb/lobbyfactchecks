@@ -1,0 +1,118 @@
+{
+  "id": "ipspeicherung2026-brak-root01",
+  "law_id": "ip-speicherung-2026",
+  "document_id": "brak-ip-20260128",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "reporting_tier": "ancillary_minor_chronology_or_attribution",
+  "card": {
+    "law_is_about": "Mandatory three-month retention of IP-address assignment data and other digital investigation powers.",
+    "they_want": "Oppose indiscriminate retention and require stronger justification for the proposed powers.",
+    "they_claim": "Germany had effectively conducted no data retention for over 18 years by January 2026.",
+    "the_problem": "Actual retained data existed under the 2008 regime before the March 2010 judgment; the latest continuous gap then measured less than 16 years."
+  },
+  "claim_quote": {
+    "original": "seit de facto über 18 Jahren",
+    "language": "de",
+    "translation_en": "Translation of fragment: effectively for more than18years",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": 4,
+      "section": "Zusammenfassung/Abstract",
+      "paragraph": "third substantive paragraph, sentence beginning Die Einführung"
+    },
+    "underline": "über 18 Jahren"
+  },
+  "request_quote": {
+    "original": "gegen eine anlasslose und dauerhafte Speicherpflicht",
+    "language": "de",
+    "translation_en": "Translation of request-position fragment: against an indiscriminate and permanent retention obligation",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": 4,
+      "section": "Zusammenfassung/Abstract",
+      "paragraph": "second substantive paragraph; states the BRAK’s continuing opposition and applies its necessity objection to this proposal"
+    }
+  },
+  "counter_quote": {
+    "original": "die nach § 113a TKG gespeicherten Daten zu Strafverfolgungszwecken",
+    "language": "de",
+    "translation_en": "Translation of fragment: the data retained under section 113a TKG for criminal-prosecution purposes",
+    "source_id": "bverfg-vds-20100302-press",
+    "locator": {
+      "section": "Opening factual account, paragraph beginning Aufgrund der einstweiligen Anordnungen des Ersten Senats",
+      "paragraph_context": "Refers to interim orders19March2008and6November2008; precedes Die Beschwerdeführer"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "correction": "The court describes data already stored under the 2007 statute and the 2008 interim restrictions on their use. The regime operated before the 2 March 2010 judgment invalidated it. January 2026 is less than 16 years after that date, so a continuous absence of actual retention for over 18 years is incorrect. This does not assert uninterrupted implementation by every provider before 2010 or disregard interim use restrictions.",
+  "effect": "Slightly weakens the length-of-experience premise used to question necessity. The long subsequent period without the invalidated regime remains; no claimed change in crime clearance follows from correcting this date.",
+  "limits": "Minor chronology issue only. The statement says de facto, so this is checked against actual stored data rather than merely a statute’s existence. One possible loose reading is that no fully constitutionally valid retention scheme existed; that differs from the express claim that no retention was conducted. The correction does not establish necessity, proportionality, legality, effectiveness or appropriate duration of the 2025 draft. Its separate 90.8% clearance quotation and broader rights objections are not refuted.",
+  "materiality_explanation": "Minor: the overstatement is a little over two years in a subsidiary historical premise, and the much longer absence since 2010 still supports discussing alternatives. No substantive legal conclusion turns on 18 rather than fewer than 16 years.",
+  "direction_explanation": "True, narrowly: a longer claimed period without retention makes the stated demand for a necessity justification appear stronger. This says nothing about intention or whether the requested policy is sound.",
+  "context_checks": [
+    "Read complete 13-page response, including its distinction between indiscriminate storage, targeted preservation and later access; checked paragraphs before and after the historical claim.",
+    "Verified relevant page 4 text against ministry-hosted 28 January copy and author-hosted copy. Cover contributor lists differ; substantive claim/request agree.",
+    "Read primary court summary including explicit references to stored data and interim restrictions; do not confuse restricted disclosure with no storage.",
+    "The summary also says the draft contains no necessity explanation, while page 7 acknowledges the draft’s page 53 praxis-experience statement and argues it lacks empirical support. This concerns adequacy of justification and is not promoted as another factual error."
+  ],
+  "draft": {
+    "source_id": "ip-retention-refe-20251222",
+    "version_date": "2025-12-22",
+    "submission_date": "2026-01-28",
+    "date_note": "Draft publication date, not an inferred signed preparation date; 61 pages in the official download. Submission cover gives January 2026, exact day from ministry archive filename.",
+    "relevant_provisions": "Article 6, proposed section 176 TKG, physical PDF pages 12–13; explanatory text pages 50–54. Response explicitly cites draft pages 28/53 and the matching proposed provisions.",
+    "version_check": "The December consultation draft is compared, not later cabinet or Bundestag amendments."
+  },
+  "source_ids": [
+    "brak-ip-20260128-ministry",
+    "brak-ip-2026-07-author",
+    "ip-retention-refe-20251222",
+    "ip-retention-bmjv-dossier",
+    "bverfg-vds-20100302-press",
+    "bt16-11139-vds-2008"
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "energy_hearings_ai_agent",
+        "date": "2026-10-24",
+        "file": "research/reviews/energy-reviews-brak-ip-chronology.json",
+        "outcome": "retain_provisional_minor_true"
+      }
+    ]
+  },
+  "author_response": [],
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "First recorded as narrow provisional chronology finding after source-context and exact-draft checks; independent review requested.",
+      "by": "root_ai_screen"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Independent review retained minor/true and added contemporaneous operational corroboration from official BT 16/11139. Main court quote shortened; no additional author quotation.",
+      "by": "energy_hearings_ai_screen"
+    }
+  ],
+  "supplementary_counter_quote": {
+    "original": "In 934 dieser Verfahren mussten die um Auskunft ersuchten Telekommunikationsunternehmen auch auf nach § 113a TKG gespeicherte Daten zurückgreifen.",
+    "language": "de",
+    "translation_en": "Translation: In 934 of these proceedings, the telecommunications companies asked for information also had to draw on data stored under section 113a TKG.",
+    "source_id": "bt16-11139-vds-2008",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 3,
+      "section": "Answer to question 2, first paragraph; May–July 2008 survey"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "operational_corroboration": "The contemporaneous government answer reports actual use of section 113a data in 934 of 2,186 surveyed proceedings, and separately records partial noncompliance in answer 4 on page 5. This establishes operation rather than merely a statutory duty, without proving that retention caused any case to be solved."
+}

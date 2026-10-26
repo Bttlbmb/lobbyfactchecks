@@ -1,0 +1,344 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "author_snapshot_hashes_checked": 9,
+  "author_text_extractions": [
+    {
+      "document_id": "biostoffv2026-vbio-20260921",
+      "pdf_sha256": "01d2e3ef8b4b48499e9dd5f046867c7d2df8af6c21346c2c60356f2765cd26b2",
+      "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-vbio-20260921.txt",
+      "text_sha256": "e8f13e021cef0cf111e14f283fa70f296a06a09099b41747fa9cf32dbed22948",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "biostoffv2026-dghm-20260923",
+      "pdf_sha256": "1bfe3d44a77f2863fa1711243ae751e3057eb87122d668554b0525a61978ca61",
+      "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-dghm-20260923.txt",
+      "text_sha256": "00a9e6c37788bd276faff35f8d17896bbe720d8aba7c50fc2049beb5e6fe704a",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "pdf_sha256": "413249d93e358fac8dade25f85cc546fe7e7421291e3ce0891a4442bd15bcfa0",
+      "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-vdsi-20260926.txt",
+      "text_sha256": "777e49f70b529d00b1a745723940b27655abd9c8eaf6d96225274d1d67293ef4",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "biostoffv2026-dgb-20260928",
+      "pdf_sha256": "f572c201a9298a339c41164bb358c46975e7d8fe2c49f76e0db9c6e8f807ed4a",
+      "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-dgb-20260928.txt",
+      "text_sha256": "4f4937d078f61761b0922af011997f3a5540e10c4496e3a38c4e117a8f819905",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "biostoffv2026-dguv-20260928",
+      "pdf_sha256": "d7428217e6bfb37f030419c59d89b4b2846e450ba7a8bd2c8019b42ecb815653",
+      "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-dguv-20260928.txt",
+      "text_sha256": "0dd472f92e89c73f713fbd1b674fcf7b2101e0a59946c8bfce622dff10f8c3d3",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "biostoffv2026-dib-20260928",
+      "pdf_sha256": "37039ef362f06014849a5e8f83c7649348b29cfc4abebd5f64b1845e5df4bf8e",
+      "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-dib-20260928.txt",
+      "text_sha256": "fbb3a23a66945fdf51ad0ed3f43b08ff531fd0b34311dc9511f52ef8de0953d2",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "biostoffv2026-dkg-20260928",
+      "pdf_sha256": "102b123bf806c82e10b8f6db45798774a9b42a8cf424ab05a6b5ef9ab7178494",
+      "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-dkg-20260928.txt",
+      "text_sha256": "2c8f359185dff56366b0b58329968aa20522e81f379f34ffb7c9b54745b9411a",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "biostoffv2026-vdbw-20260928",
+      "pdf_sha256": "a4de745562bd5749511cb94ee725b4d714135b72ca7ec20f4918e292f6d483d0",
+      "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-vdbw-20260928.txt",
+      "text_sha256": "be1f1687b8a41225f1bd96376010104d334de8df70dbb7ed1c98e870cda5fd5f",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "biostoffv2026-dgaum-20260929",
+      "pdf_sha256": "fe9959645f6c4ffe1393a08de887373c2ead210a06f34124d36448ce10e3362a",
+      "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-dgaum-20260929.txt",
+      "text_sha256": "d5e808672cfe49befd9417a14cf4da545eb1f33a5c8f5a5ed26a1f316fc7025f",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    }
+  ],
+  "claims_checked": 134,
+  "reviews": [
+    {
+      "file": "research/factual-checks/biostoffv-2026/reviews/a-reviews-c.json",
+      "sha256": "24603fcf78953fc8d683879301a4494daaae1cefe5874181d68095a6da9c8213",
+      "claims_reviewed": 41,
+      "omissions": 3
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/reviews/b-reviews-a.json",
+      "sha256": "0f4484a416bb9c6b9fddc8913c1c36db297d6e280ffd9c2fc3bf53c1109070d5",
+      "claims_reviewed": 57,
+      "omissions": 0
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/reviews/c-reviews-b.json",
+      "sha256": "83a7528e5952c121818591671dfa6fccdd758a6061dabc94704b791da5b10583",
+      "claims_reviewed": 32,
+      "omissions": 1
+    }
+  ],
+  "archives": [
+    {
+      "source_id": "biostoffv-2026-root-draft",
+      "file": "research/round3-social/sources/biostoffv-refe-ministry.pdf",
+      "sha256": "2a54d457ab13d0c459659c5300302d992919a8b360f74a7833eed735a30cf24d"
+    },
+    {
+      "source_id": "biostoffv-2026-root-ministry-index",
+      "file": "research/factual-checks/biostoffv-2026/sources/root-ministry-index.html",
+      "sha256": "185b17988a3753d29d2022bb56e502f79aea593fea7f9a789f865a35bd299175"
+    },
+    {
+      "source_id": "bio-root-trba250-baua",
+      "file": "research/factual-checks/biostoffv-2026/sources/root-trba250-baua.pdf",
+      "sha256": "ad41b79b886df2cda3865e2225ec04af78b717233cad49825eea3e85543a1796"
+    },
+    {
+      "source_id": "bio-root-trba250-bgw",
+      "file": "research/factual-checks/biostoffv-2026/sources/root-trba250-bgw.pdf",
+      "sha256": "350652a2b1fdcb0ac46fb9a61f7e4fe17d98073ab39b801318d7e3351ddf9741"
+    },
+    {
+      "source_id": "bio-root-eu20191833-boe",
+      "file": "research/factual-checks/biostoffv-2026/sources/root-eu20191833-boe.html",
+      "sha256": "d89abc7554acfb827aedbb01535e60f57cf9cc582ee92e3dddd49e825f46baa5"
+    },
+    {
+      "source_id": "bio-root-who2021",
+      "file": "research/factual-checks/biostoffv-2026/sources/root-who2021.html",
+      "sha256": "d09efe431c9d7474b4d6de41b4c2ab7eaa6eb849b003d820f3e96c0c711c029f"
+    },
+    {
+      "source_id": "bio-root-who2023",
+      "file": "research/factual-checks/biostoffv-2026/sources/root-who2023.html",
+      "sha256": "9bfd5248ea0bb724075fdc45b26290991723a4af8ada43b1bdc1677cbcb82321"
+    },
+    {
+      "source_id": "biostoffv-a-bio",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-bio.pdf",
+      "sha256": "06cab492e154fa36aa224d0038cb4bbd02531a473d0f430af67950cf2f1d98df"
+    },
+    {
+      "source_id": "biostoffv-a-arbschg",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-arbschg.pdf",
+      "sha256": "9f52b0f17613d529a6a97d07fd52686e8afa0d933f198ae36a4860c4fdcf3f46"
+    },
+    {
+      "source_id": "biostoffv-a-gefstoffv",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-gefstoffv.pdf",
+      "sha256": "46daa25004a0aefd16414003e2b126f14f9b8b147b3fe2ea49eddd00354ed1fe"
+    },
+    {
+      "source_id": "biostoffv-a-betrsichv",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-betrsichv.pdf",
+      "sha256": "fc2c7d0d907091c3ee804b487042b7ae0bd97dd2d2a3e6d0c633383008e87d03"
+    },
+    {
+      "source_id": "biostoffv-a-psabv",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-psabv.pdf",
+      "sha256": "28ae87dfcc1f97fd0588c7451ff6b23869935bfc414cd342a73fff8bd8d8fe6d"
+    },
+    {
+      "source_id": "biostoffv-a-trba400",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-trba400.pdf",
+      "sha256": "c4e5a200e8ccb8f360a44615a57d2634328d6cf20b0d03200eb4779ec63b4f66"
+    },
+    {
+      "source_id": "biostoffv-a-stgb203",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-stgb203.html",
+      "sha256": "e28273ab626e1871070f7f4cdff4b12d858ebd53ea3faa7d6ac2597578e85ce1"
+    },
+    {
+      "source_id": "biostoffv-a-bgb126b",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-bgb126b.html",
+      "sha256": "42a3ec23ede8eaae79d2907ed080519d957d3a17e4e6e2107dc15392d6e8e70b"
+    },
+    {
+      "source_id": "biostoffv-a-dguv100001",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-dguv100001.pdf",
+      "sha256": "d770fdb81cb119cd654d75ed3e3d61680e49e4fd03396f2fadb389d87ffc7c24"
+    },
+    {
+      "source_id": "biostoffv-a-dguv-electronic",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-dguv-electronic.html",
+      "sha256": "c113fa23e1ea40724c9fbd5e5a7225564c86772682cb45cecb26304f5018a5b6"
+    },
+    {
+      "source_id": "biostoffv-a-eu200054",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-eu200054.html",
+      "sha256": "c1965ebf674aec796fbf40638ac813427f28349fc12f812074c4ac2743988beb"
+    },
+    {
+      "source_id": "biostoffv-a-gdpr",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-gdpr.html",
+      "sha256": "d32c8784b82b27edb354a085ee111c64d8b755fd1e27441a9c8738cb751638fd"
+    },
+    {
+      "source_id": "biostoffv-a-eu201032",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-eu201032.pdf",
+      "sha256": "ec4d852a5b62b04b3e21bc9e909b7d1b3c3362ae841ac032f30a55e85c4fd3a1"
+    },
+    {
+      "source_id": "biostoffv-a-web-zed",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-web-primary.json",
+      "sha256": "559ba671586c45ae103aa8ceb7014f5167bd02d35e577bf7a7541aed60beccff"
+    },
+    {
+      "source_id": "biostoffv-a-web-seeds",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-web-primary.json",
+      "sha256": "559ba671586c45ae103aa8ceb7014f5167bd02d35e577bf7a7541aed60beccff"
+    },
+    {
+      "source_id": "biostoffv-a-web-dualuse",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-web-primary.json",
+      "sha256": "559ba671586c45ae103aa8ceb7014f5167bd02d35e577bf7a7541aed60beccff"
+    },
+    {
+      "source_id": "biostoffv-a-web-sme",
+      "file": "research/factual-checks/biostoffv-2026/sources/a-web-primary.json",
+      "sha256": "559ba671586c45ae103aa8ceb7014f5167bd02d35e577bf7a7541aed60beccff"
+    },
+    {
+      "source_id": "bio-b-law",
+      "file": "research/factual-checks/biostoffv-2026/sources/b-law.html",
+      "sha256": "a321dcae4e033d4b812e969f3063880f0791777cfa55fc4c3e3a62695a4e0e7b"
+    },
+    {
+      "source_id": "bio-b-arbschg",
+      "file": "research/factual-checks/biostoffv-2026/sources/b-arbschg.html",
+      "sha256": "83a540461ebb22c6132d43563229b75182492ca44bfe025073a005082a3c8aec"
+    },
+    {
+      "source_id": "bio-b-gentsv",
+      "file": "research/factual-checks/biostoffv-2026/sources/b-gentsv.pdf",
+      "sha256": "7ec27a51be6a634be8af9c651f5942475b97e9f87b6f1947a5f7219876ee4b54"
+    },
+    {
+      "source_id": "bio-b-textform",
+      "file": "research/factual-checks/biostoffv-2026/sources/b-textform.html",
+      "sha256": "42a3ec23ede8eaae79d2907ed080519d957d3a17e4e6e2107dc15392d6e8e70b"
+    },
+    {
+      "source_id": "bio-b-eu-consolidated",
+      "file": "research/factual-checks/biostoffv-2026/sources/b-eu-consolidated.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_id": "bio-b-seed-study",
+      "file": "research/factual-checks/biostoffv-2026/sources/b-seed-study.pdf",
+      "sha256": "1b3a6357501175c5d1ba9c59de73377434863e601b01aeb3259ee845a15ac9b5"
+    },
+    {
+      "source_id": "bio-b-dguv-clothing",
+      "file": "research/factual-checks/biostoffv-2026/sources/b-dguv-clothing.html",
+      "sha256": "a85bcc6cbf1e1e9d83b5d3fc243abbaf48fb45a5e9c7db80c1ce762d6bd01745"
+    },
+    {
+      "source_id": "bio-b-hospital-shoes",
+      "file": "research/factual-checks/biostoffv-2026/sources/b-hospital-shoes.html",
+      "sha256": "7e315ca797157994b343847e633c56c2a0f35cf8e6acec42582db13dcb6093c4"
+    },
+    {
+      "source_id": "bio-b-current-draft",
+      "file": "research/round3-social/sources/biostoffv-refe-ministry.pdf",
+      "sha256": "2a54d457ab13d0c459659c5300302d992919a8b360f74a7833eed735a30cf24d"
+    },
+    {
+      "source_id": "biostoffv-2026-c-law",
+      "file": "research/factual-checks/biostoffv-2026/sources/c-law.pdf",
+      "sha256": "06cab492e154fa36aa224d0038cb4bbd02531a473d0f430af67950cf2f1d98df"
+    },
+    {
+      "source_id": "biostoffv-2026-c-trba250",
+      "file": "research/factual-checks/biostoffv-2026/sources/c-trba250.pdf",
+      "sha256": "ad41b79b886df2cda3865e2225ec04af78b717233cad49825eea3e85543a1796"
+    },
+    {
+      "source_id": "biostoffv-2026-c-trba400",
+      "file": "research/factual-checks/biostoffv-2026/sources/c-trba400.pdf",
+      "sha256": "c4e5a200e8ccb8f360a44615a57d2634328d6cf20b0d03200eb4779ec63b4f66"
+    },
+    {
+      "source_id": "biostoffv-2026-c-gefstoffv",
+      "file": "research/factual-checks/biostoffv-2026/sources/c-gefstoffv.pdf",
+      "sha256": "46daa25004a0aefd16414003e2b126f14f9b8b147b3fe2ea49eddd00354ed1fe"
+    },
+    {
+      "source_id": "biostoffv-2026-c-gentsv-correct",
+      "file": "research/factual-checks/biostoffv-2026/sources/c-gentsv-correct.pdf",
+      "sha256": "7ec27a51be6a634be8af9c651f5942475b97e9f87b6f1947a5f7219876ee4b54"
+    },
+    {
+      "source_id": "biostoffv-2026-c-arbmedvv",
+      "file": "research/factual-checks/biostoffv-2026/sources/c-arbmedvv.pdf",
+      "sha256": "08ab11d1ff618ea49c1c69011a0e9be5e1ea8672a451559766a4f0aafe4aaae4"
+    },
+    {
+      "source_id": "biostoffv-2026-c-stgb",
+      "file": "research/factual-checks/biostoffv-2026/sources/c-stgb.pdf",
+      "sha256": "c2e9d1a6f20b11845e3fd2b62c38b971c06f51e3ece9b5f17767d3a8a8d0f2dc"
+    },
+    {
+      "source_id": "biostoffv-2026-c-seeds-index",
+      "file": "research/factual-checks/biostoffv-2026/sources/c-technical-primary-extraction.json",
+      "sha256": "a6d3131721d67429a225043307c2e5a6190d899dea687239e02043461fe7a8c6"
+    },
+    {
+      "source_id": "biostoffv-2026-c-endotoxin-index",
+      "file": "research/factual-checks/biostoffv-2026/sources/c-technical-primary-extraction.json",
+      "sha256": "a6d3131721d67429a225043307c2e5a6190d899dea687239e02043461fe7a8c6"
+    },
+    {
+      "source_id": "biostoffv-2026-c-who-index",
+      "file": "research/factual-checks/biostoffv-2026/sources/c-bio-who-extraction.json",
+      "sha256": "44e7bf25feefbec33e8882a4946666578bdef487f9acc8947b34e8ba877068f5"
+    },
+    {
+      "source_id": "biostoffv-2026-c-dguv-training-index",
+      "file": "research/factual-checks/biostoffv-2026/sources/c-bio-training-extraction.json",
+      "sha256": "7ff9ea75f35a69e881c77352642a4f6a5def94870aead84a8dfba64306190e14"
+    },
+    {
+      "source_id": "biostoffv-2026-c-eu2000-boe",
+      "file": "research/factual-checks/biostoffv-2026/sources/c-eu2000-boe.pdf",
+      "sha256": "b14343c6cf0da77164f60ac19c47addbf0c77cc6c6a8885cb44f6b12dcdec32b"
+    },
+    {
+      "source_id": "biostoffv-ar-primary-log",
+      "file": "research/factual-checks/biostoffv-2026/sources/ar-web-primary.json",
+      "sha256": "64b9276634b0038d1f6c08771a6d7869c1a385928a7eb9c4ad7b56c3a45a4ed6"
+    },
+    {
+      "source_id": "biostoffv-br-deadline-check",
+      "file": "research/factual-checks/biostoffv-2026/sources/br-eu-deadline-check.json",
+      "sha256": "0e088d93caa3ddcdab9a68583cc442582be736d1cb547d558290e1c5065429ba"
+    },
+    {
+      "source_id": "biostoffv-2026-c-r-arbschg",
+      "file": "research/factual-checks/biostoffv-2026/sources/c-r-arbschg.pdf",
+      "sha256": "9f52b0f17613d529a6a97d07fd52686e8afa0d933f198ae36a4860c4fdcf3f46"
+    },
+    {
+      "source_id": "biostoffv-2026-c-r-seed-study",
+      "file": "research/factual-checks/biostoffv-2026/sources/c-r-seed-study.pdf",
+      "sha256": "1b3a6357501175c5d1ba9c59de73377434863e601b01aeb3259ee845a15ac9b5"
+    },
+    {
+      "source_id": "biostoffv-2026-cr-eu2019",
+      "file": "research/factual-checks/biostoffv-2026/sources/cr-eu2019.html",
+      "sha256": "d89abc7554acfb827aedbb01535e60f57cf9cc582ee92e3dddd49e825f46baa5"
+    }
+  ]
+}

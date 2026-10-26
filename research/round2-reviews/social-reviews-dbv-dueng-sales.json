@@ -1,0 +1,36 @@
+{
+  "id": "social-reviews-dbv-dueng-sales",
+  "reviewer": "social_round2",
+  "reviewed_at": "2026-10-25",
+  "candidate_id": "duengg2026-dbv-root04",
+  "disposition": "retain_provisional_finding",
+  "recommended_status": "ai_screened",
+  "recommended_severity": "minor",
+  "recommended_favours_author_request": true,
+  "scope": [
+    "Read all 11 physical pages including committee cover, with second extraction pass for authorpages 6–10; visually inspected physical 2.",
+    "Read and visually inspected complete official Agrarjahrbuch 2024 table 40 a/b physical 84, including nutrient units, column years, source and provisional footnote.",
+    "Read exact BT 21/6135 cover letter and operative Article 1 section 3(2 a), and searched/read monitoring text and section 11 arepeal in the exact draft, not the failed 2024 bill."
+  ],
+  "calculations": {
+    "named_years": "(1658.8-1039.1)/1658.8*100=37.3583313%",
+    "per_hectare_including_fallow": "(99.5-62.4)/99.5*100=37.2864%",
+    "per_hectare_excluding_fallow": "(101.4-64.3)/101.4*100=36.5878%",
+    "different_start_year_test": "(1822.8-1039.1)/1822.8*100=42.9942945%, where 1822.8 belongs to 2014/15, not 2016/17."
+  },
+  "adversarial_assessment": [
+    "The ordinary official statistic for Stickstoffduengerabsatz is nitrogen-nutrient domestic sales. That convention fits the surrounding nutrient-efficiency discussion. A product-mass series would be a different quantity and is not identified or qualified in the submission. Do not claim an uncited source was directly copied.",
+    "Rounding and the provisional marking do not explain a 5.6 percentagepoint gap. Both per-hectare definitions in the same table also fall near 37%, not 43%.",
+    "A plausible benign clerical explanation exists: a 2014/15 baseline 1822.8 produces almost exactly 43%with the 2023/24 endpoint. A primary BMEL 2022 table separately identifies that 2014/15 value and confirms 2016/17=1658.8. This does not rescue the years actually printed and no source-chain or intent inference follows.",
+    "The claim is an introductory progress statistic. The request has legal, administrative and fairness arguments too, and the corrected 37.4%fall remains large. No causal judgment about law effectiveness or water quality follows.",
+    "The adjacent 109 to 63 nitrogen-surplus fall is approximately 42%; do not conflate the two series or promote the separate target-date claim without resolving averaging labels."
+  ],
+  "new_primary_source_for_benign_explanation": {
+    "title": "BMEL 2022 statistical monthly data compilation, physical 11, MBT-0111060-0000",
+    "url": "https://www.bmel-statistik.de/fileadmin/daten/0120000-2022.pdf",
+    "retrieved_at": "2026-10-25",
+    "locator": "physical 11, Inlandsabsatz von Handelsduengern, StickstoffN/Insgesamt row,2014/15 and 2016/17 columns",
+    "retrieval": "Primary PDF accessed through web reader; no new local PDF archive claimed."
+  },
+  "conclusion": "Retain minor/true narrowly for named-year statistic. This review does not establish actual field application, causes of decline, regulatory effectiveness or desirability of the request. No new author quotation added."
+}

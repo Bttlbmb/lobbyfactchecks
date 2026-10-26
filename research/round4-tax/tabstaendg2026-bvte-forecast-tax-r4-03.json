@@ -1,0 +1,104 @@
+{
+  "id": "tabstaendg2026-bvte-forecast-tax-r4-03",
+  "law_id": "tabstaendg-2026",
+  "document_id": "bvte-tabstaendg-2026",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "major",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Increasing German tobacco taxes in annual steps from 2027.",
+    "they_want": "Moderate, predictable tobacco-tax adjustments rather than abrupt increases.",
+    "they_claim": "Historical receipts in 2002–2005 fell EUR 8.4 billion below the original ministry forecast.",
+    "the_problem": "The displayed shortfalls match the bills’ projected additional revenue, rather than an authenticated gap between total forecasts and receipts. Identified budget totals differ. The original complete forecast baseline remains unresolved."
+  },
+  "claim_quote": {
+    "original": "8,4 Mrd. €",
+    "language": "de",
+    "translation_en": "Translation: EUR 8.4 billion.",
+    "locator": {
+      "pdf_page": 5,
+      "section": "3(d), Deutschland 2002 bis 2005; first paragraph immediately above footnote 14"
+    },
+    "underline": "8,4 Mrd. €"
+  },
+  "counter_quote": {
+    "original": "Steuermehreinnahmen in Mio. Euro",
+    "source_id": "bt-15-1313",
+    "language": "de",
+    "translation_en": "Translation: Additional tax revenue in millions of euros.",
+    "locator": {
+      "pdf_page": 1,
+      "section": "D. Finanzielle Auswirkungen; revenue table heading"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "An estimate of additional revenue from a reform is a comparison with projected receipts without that reform. It is not automatically a shortfall between the forecast total and realised receipts. For 2002–2005, the final 2001 committee tableau gives tobacco increments of 1.000/1.100/1.520/1.570 billion euros; the 2003 bill adds 1.253/1.941 billion for 2004/2005. Their sum is 8.384 billion, rounding to the claimed 8.4 billion. Each annual increment also matches the submission’s printed annual shortfall after rounding. Adding those increments to the printed actuals reproduces its displayed forecast series. This is a reconstruction, not proof of the author’s method. The May 2001 current-law baseline in BT14/6801 instead gives 12.0/12.1/12.2/12.3 billion for 2002–2005. BT15/149 shows a previous 2002 tobacco total of 12.4 billion plus a separately budgeted 1.0 billion law measure, followed by a revised tobacco total of 13.35 billion with the separate measure removed. Neither identified vintage authenticates the displayed 14.8 billion 2002 forecast. No single corrected cumulative forecast miss is asserted.",
+  "effect": "If the displayed forecast series was produced from actual receipts plus the entire projected reform increments, describing its difference as a demonstrated historical forecast miss would materially overstate the evidence that tax increases failed fiscally. Establishing the original baseline could instead explain or narrow the apparent mismatch.",
+  "limits": "Unresolved: a complete original forecast series, forecast dates and the author’s calculation have not been acquired. A different authenticated vintage could explain some figures. No corrected cumulative loss, causal effect of tax increases, counterfactual receipts without reform, prediction for the current bill, or intent is established.",
+  "confidence": {
+    "text_source_mismatch": "medium_pending_original_forecast_provenance",
+    "materiality": "editorial_judgment"
+  },
+  "materiality_explanation": "Potentially major because the EUR 8.4 billion historical fiscal failure is a central quantified premise for opposing another large increase. This is the potential seriousness of the unresolved allegation, not a confirmed major finding. The six-year matching pattern is concrete evidence, but the baseline and vintage gap prevents promotion.",
+  "direction_explanation": "True conditionally: the asserted large historical revenue shortfall supports the explicit request for moderate adjustments. This describes the direction of the claim’s argumentative use; it does not establish that the factual allegation is proven or that the requested policy is wrong.",
+  "context_and_alternatives": [
+    "The submission’s physical page 6 labels its table as forecasts from bills versus unrealised revenue. Footnote 14 cites four amendment stages and an association press release, rather than one dated total-receipts forecast. The four bills contain incremental revenue tableaux.",
+    "The final 2001 tableau separates insurance tax from tobacco tax. The reconstruction uses only tobacco, avoiding that category mistake. The original October 2001 proposal has different tobacco increments and therefore does not rescue the exact final-version matching pattern.",
+    "The displayed 2006 and 2007 shortfalls of 2.1 billion each separately match the 2003 bill’s 2.123 billion increment. Those years are outside the claimed 2002–2005 cumulative figure and are not added to it.",
+    "The May 2001 financial plan precedes the terrorist attacks and subsequent amendments. Adding later increments to it is diagnostic, not a historically definitive corrected forecast.",
+    "The supplementary 2002 budget is another specific vintage. Its previous 12.4 billion tobacco line and separate 1.0 billion reform line must be considered together; treating 12.4 alone as the full initial tax-inclusive forecast would be misleading.",
+    "The republished association statement cited in footnote 14 discusses more than 10 billion in projected additional revenue through 2007, but the body read does not establish the particular total-forecast series. Repetition in industry communications is not independent authentication.",
+    "Rounding and cash-versus-assessment definitions may affect exact historical totals. Even an authenticated forecast miss would not isolate the causal role of tax changes from consumption, timing and other factors."
+  ],
+  "draft": {
+    "source_id": "bt-21-7859",
+    "version_date": "2026-09-07",
+    "version": "BT-Drs. 21/7859 and additional coalition Formulierungshilfe addressed by the 29 September 2026 submission",
+    "version_limit": "The precise additional Formulierungshilfe version remains to authenticate. The historical source-description question is independent of the current tariff details; no current-law numerical forecast is adjudicated."
+  },
+  "source_ids": [
+    "bvte-tabstaendg-2026",
+    "bt-21-7859",
+    "bt-tabak-hearing-2026",
+    "bt-14-7062",
+    "bt-14-7332",
+    "bt-15-1313",
+    "bt-15-1726",
+    "bt-15-149",
+    "bt-14-6801"
+  ],
+  "submission_source_id": "bvte-tabstaendg-2026",
+  "evidence_note": "research/round4-tax/bvte-forecast-provenance-followup.json",
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      "research/round4-reviews/root-reviews-bvte-forecast.json",
+      "research/round4-reviews/energy-reviews-bvte-forecast.json"
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as an unresolved source-description lead after tracing incremental revenue tableaux; not admitted as a finding. Earlier research-only caution retained.",
+      "by": "tax_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Two independent AI reviews retain the unresolved lead only; potential materiality and conditional argumentative direction do not constitute a confirmed error.",
+      "by": "tax_ai_screen"
+    }
+  ],
+  "request_quote": {
+    "original": "für planbare, moderate und marktverträgliche Steueranpassungen",
+    "language": "de",
+    "translation_en": "Translation: for predictable, moderate and market-compatible tax adjustments",
+    "locator": {
+      "pdf_page": 1,
+      "section": "2. Bewertung des BVTE",
+      "paragraph": "final"
+    }
+  },
+  "request_evidence_note": "Reuses the existing seven-word request quotation from tabstaendg2026-bvte-root01; this is one shared original statement, not a new quotation or author request."
+}

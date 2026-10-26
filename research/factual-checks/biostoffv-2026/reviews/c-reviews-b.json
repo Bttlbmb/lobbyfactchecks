@@ -1,0 +1,547 @@
+{
+  "reviewer": "c",
+  "reviewed_file": "research/factual-checks/biostoffv-2026/agents/claims-b.json",
+  "reviewed_sha256": "3e88b8ec4c8b23f005aa3b1c91bc4bf70219217f5762fcf748c6b90032c986d4",
+  "documents_reread": [
+    {
+      "document_id": "biostoffv2026-vbio-20260921",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "document_id": "biostoffv2026-dguv-20260928",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "document_id": "biostoffv2026-dkg-20260928",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "bio-b-vbio-01",
+      "reviewed_claim_en": "The addressed draft opens digital instruction, text-form documentation and external exposure-register use.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Current archived mechanisms corroborate the description, but cannot authenticate the August dispatch. The conservative historical outcome is appropriate.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Article 1nos3,6–8; current metadata2 October",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-02",
+      "reviewed_claim_en": "The addressed draft expands the TSE-associated-agent definition with and comparable.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Current insertion and old TSE wording match the reported difference; no exact initial draft identity follows.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Article 1no1a and rationale p11",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-03",
+      "reviewed_claim_en": "Other misfolded self-seeding protein agents can create biologically relevant hazards beyond classic TSE prions.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Independently downloadedBanerjee 2024 primary paper describes eight exceptional cadaveric-hormone recipients and seeding-related evidence. The narrow possibility is supported; ordinary occupational contagion is not inferred.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-r-seed-study",
+          "locator": "Physical pp1–2 abstract andcase context; selected discussionp4",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-04",
+      "reviewed_claim_en": "The draft supplies no criteria sufficient to identify all comparable proteopathic agents and systems.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Current rationale gives examples, not an exhaustive operational list. ABAS19/2023 provides a bounded laboratory recommendation; it does not resolve every legal-comparability application.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Currentdefinition and rationale p11",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-05",
+      "reviewed_claim_en": "The addressed scope clause applies only when occupational exposure exceeds ubiquitous background occurrence.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "The exposure-beyond-background condition appears in the later archive; uncertainty concerns exact historical wording and operational application.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Article 1no1c; rationale pp11–12",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-06",
+      "reviewed_claim_en": "The new recommended-measure wording shifts justification and documentation burden to the employer when departing from recommendations.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "The default wording changes, but existing § § 4/7 already require risk assessment and documentation. Additional practical burden cannot be inferred solely from a changed formulation.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-law",
+          "locator": "§ § 4,7,10; currentdraftnotes",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-07",
+      "reviewed_claim_en": "Annex II labels level-2 measures 1,8,9,19,21,23 and level-3 measures 15,17 as recommended.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Independently reread all Annex II rows16–18 physical pages: listed level 2 andlevel 3 recommendations match, including conditional qualifications.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-law",
+          "locator": "Physical pp16–18, Annex II rows1,8,9,15,17,19,21,23",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-08",
+      "reviewed_claim_en": "The draft burden assessment expressly addresses only Annex III number 8 for these changed recommended measures.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Context limits “only” to the changed recommended-measure burden, not the entire ordinance. Current tables name filtration plus instruction; exact earlier model remains unauthenticated.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical pp8–10",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-09",
+      "reviewed_claim_en": "Existing ArbSchG §8(2) already requires the host employer to ensure outside employers’ workers receive adequate hazard instructions.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Own ArbSchG download explicitly requires host employer assurance for other employers’ workers active in its operation. Offsite scope remains separate.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-r-arbschg",
+          "locator": "§ 8(2)",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-10",
+      "reviewed_claim_en": "The addressed draft removes the explicit oral-only instruction requirement and replaces signature/paper documentation with text form and confirmation.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Current § 14 removes oral-only form and handwritten signature, retaining suitable instruction, records and confirmation. Historical version gap remains.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Article 1no7; rationale pp13–14",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-11",
+      "reviewed_claim_en": "Statutory text form is governed by BGB §126b rather than a handwritten-signature requirement.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Own BGB § 126b requires a readable declaration, named declarant and durable medium, without handwritten signature. Not every screen/click qualifies.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-c-bgb",
+          "locator": "§ 126b",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-12",
+      "reviewed_claim_en": "GenTSV retains written/signature documentation and oral workplace instruction in higher safety levels despite BioStoffV relaxation.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Own GenTSV § 17(4) retains written/signed records; electronic instruction is specially permitted at level 1, while higher-level oral instruction is distinct.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-gentsv-correct",
+          "locator": "§ 17(4)",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-13",
+      "reviewed_claim_en": "BioStoffV and genetic-engineering instructions are frequently combined in genetically used laboratories, limiting relief while forms differ.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Concurrent legal duties support a possible constraint, but representative frequency of combined sessions and aggregate savings is not demonstrated.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-gentsv-correct",
+          "locator": "§ 17(4); BioStoffV § 14",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-14",
+      "reviewed_claim_en": "The addressed draft cross-refers to §16 notification and lets authorities require an electronic application when providing a format.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Current archive has notification cross-reference and electronic-format power; exact August text remains unknown. “Format” versus mandatory form is interpretation.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Article 1no8",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-15",
+      "reviewed_claim_en": "The EU industrial-containment level-3 HEPA measure is risk-assessment conditioned rather than an unconditional technical mandate.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Independently fetched officialBOE 2019 amendment:Annex VIrow 9 level 3 is Aconsejable, defined as normally applied unless risk assessment says otherwise. The author’s concrete-risk qualifier avoids free-choice misreading.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-cr-eu2019",
+          "locator": "ReplacementAnnex VI preliminarynote androw 9",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-16",
+      "reviewed_claim_en": "The addressed draft assumes only minor filtration-related compliance costs.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Current model describes minor filtration burden, but this is an estimate, not actual engineering costs or proof of the August model.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical pp9–10",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-17",
+      "reviewed_claim_en": "The addressed draft commences on the day after publication.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "CurrentArticle 2 uses next-day commencement. Earlier-version uncertainty is not evidence against the author.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical p5, Article 2",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-vbio-18",
+      "reviewed_claim_en": "The addressed annex adds a built-for-purpose condition at containment level 4.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "EU 2019Annex VIrow 12 attaches expressly constructed condition to controlled area at level 4; equipment versus room scope should not be silently shifted. The author asks for clarification.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-cr-eu2019",
+          "locator": "Annex VIrow 12; currentdraftAnnex IIIrow2",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-dkg-01",
+      "reviewed_claim_en": "TRBA250 recently revised its work-clothing and protective-clothing definitions.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "OwnTRBA250PDF header confirmsNovember 2025 revision and14 November correction;§ § 2.3/2.12 distinguish work and protective clothing.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-trba250",
+          "locator": "Header and § § 2.3,2.12",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-dkg-02",
+      "reviewed_claim_en": "Healthcare providers and inspection authorities still have substantial practical disputes over clothing classification and employer costs.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Definitions alone cannot establish substantial frequency or named authority disputes. Anecdotal professional experience is not presumed false.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-trba250",
+          "locator": "§ § 2.3,2.12,4.2.7",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-dkg-03",
+      "reviewed_claim_en": "Required protective equipment/clothing must be provided at employer expense.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Own ArbSchG § 3(3) forbids passing protection costs to workers; BioStoffV provision and TRBA rules support the bounded required-protection duty.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-r-arbschg",
+          "locator": "§ 3(3); BioStoffV § § 8–9",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-dkg-04",
+      "reviewed_claim_en": "A local inspection authority required a healthcare provider to supply nursing staff’s ordinary work shoes under BioStoffV.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Anonymous individual case lacks order, risk assessment and procedural facts, so its occurrence and merits remain unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-trba250",
+          "locator": "Risk/functionclassification framework only",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-dkg-05",
+      "reviewed_claim_en": "Ordinary healthcare work shoes without a protective function are not PPE/protective shoes unless the risk assessment assigns protection requirements.",
+      "reviewed_result": "unresolved",
+      "verdict": "revise",
+      "reason": "Retain unresolved for the actual usual-healthcare-shoe classification, but clarify the English proposition: shoes already stipulated to have no protective function are definitionally distinct from PPE. The author’s stronger statement about usual nursing footwear, qualified by risk assessment, is the unresolved point. Do not reject the narrow definition by demanding classification of every shoe.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-trba250",
+          "locator": "§ § 2.3,2.12,4.2.7",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "bio-b-dkg-06",
+      "reviewed_claim_en": "The addressed rationale says adding protective clothing does not change the substantive duty.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Current rationale says harmonisation, not substantive expansion, but exact earlier rationale identity is unknown.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical pp12–13",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-dkg-07",
+      "reviewed_claim_en": "The addressed §14 amendments permit digital instruction and ease documentation by removing paper/signature requirements.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Current digital/recording amendments corroborate the report; retained workplace/practical duties and version uncertainty remain explicit.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Article 1no7 and rationale p14",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-dguv-01",
+      "reviewed_claim_en": "Ubiquitous occurrence is not a sufficiently defined health reference for infectious-disease exposure.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "No universal numeric background threshold is supplied. Whether task/pathogen context makes the concept usable is a technical/legal judgment, not a demonstrated scientific falsehood.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "§ 2(7) and rationale pp11–12",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-dguv-02",
+      "reviewed_claim_en": "Occupational safety law has no definition of interfaces for this duty.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Checked central rules lack a bespoke interface definition; a claim about all occupational law would require a broader survey. Preserve the precise scope.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-r-arbschg",
+          "locator": "§ 8; BioStoffVdefinitions",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-dguv-03",
+      "reviewed_claim_en": "The addressed interface clause does not itself make clear that ambulance patient handover is intended.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Current operative wording is broad and rationale gives ambulance handover as an example. The author contests operative specificity, not the existence of any example.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Article 1no4b; rationale pp12–13",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-dguv-04",
+      "reviewed_claim_en": "For work on another undertaking’s premises, ambulance employees are covered by multi-employer hazard-instruction duties.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Own ArbSchG § 8 covers other employers’ workers on premises; TRBA250 includes rescue/transport duties. This does not resolve every offsite transfer or secrecy case.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-r-arbschg",
+          "locator": "§ 8(1)–(2); TRBA250scope",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-dguv-05",
+      "reviewed_claim_en": "The addressed amendment replaces oral instruction with sufficient and appropriate instruction, enabling digital tools.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Current replacement of oral by sufficient/appropriate is verified; historical August wording remains unverified.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Article 1no7a",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-dguv-06",
+      "reviewed_claim_en": "Adequate occupational instruction must cover the individual workplace’s hazards and measures.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Own ArbSchG § 12 requires task/workplace-specific instructions and explanations, matching the duty.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-r-arbschg",
+          "locator": "§ 12(1); TRBA250section 7",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    },
+    {
+      "claim_id": "bio-b-dguv-07",
+      "reviewed_claim_en": "Digital tools used alone usually do not cover individual workplace-specific hazards, focusing instead on general hazards.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Generic unadapted modules differ from tailored interactive digital tools. No representative actual programme evaluation proves the asserted usual failure rate.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-c-r-arbschg",
+          "locator": "§ 12 requirement, not empiricalprevalence",
+          "check": "Independent primary reading with original-page context, temporal applicability andscope review."
+        }
+      ]
+    }
+  ],
+  "omissions": [
+    {
+      "document_id": "biostoffv2026-vbio-20260921",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "original_excerpt": "aufwendige Nachrüstungen und laufende Kosten",
+      "claim_en": "Adding input/outputHEPA filtration to existing level 3biotechnology installations can require retrofit andrecurring operating inputs.",
+      "proposed_result": "supported",
+      "reason": "Thebounded engineeringinput mechanism is separate from the unknown magnitude ofsector costs orprediction that every existingplant requiresretrofit. Installation, filtermaintenance andoperation need resources if additional physicalsystems are required.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-cr-eu2019",
+          "locator": "Annex VIrow 9, new controlled-area airfiltration requirement",
+          "check": "Supports the potential technical input, not a quantified burden orautomaticuniversal retrofit mandate."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "biostoffv-2026-c-r-arbschg",
+      "title": "r-arbschg",
+      "url": "https://www.gesetze-im-internet.de/arbschg/ArbSchG.pdf",
+      "retrieved_at": "2026-10-25T11:22:34.329229+00:00",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/c-r-arbschg.pdf",
+      "final_url": "https://www.gesetze-im-internet.de/arbschg/ArbSchG.pdf",
+      "sha256": "9f52b0f17613d529a6a97d07fd52686e8afa0d933f198ae36a4860c4fdcf3f46",
+      "bytes": 108570,
+      "pdf_identity": true,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "biostoffv-2026-c-r-seed-study",
+      "title": "r-seed-study",
+      "url": "https://www.nature.com/articles/s41591-023-02729-2.pdf",
+      "retrieved_at": "2026-10-25T11:22:34.329724+00:00",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/c-r-seed-study.pdf",
+      "final_url": "https://www.nature.com/articles/s41591-023-02729-2.pdf?error=cookies_not_supported&code=892cd128-63ae-4aa2-890f-847e9149c6bf",
+      "sha256": "1b3a6357501175c5d1ba9c59de73377434863e601b01aeb3259ee845a15ac9b5",
+      "bytes": 5263458,
+      "pdf_identity": true,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "biostoffv-2026-cr-eu2019",
+      "title": "Official BOE Directive(EU)2019/1833 replacement biological-containment annexes",
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2019-81658",
+      "retrieved_at": "2026-10-25T11:23:04.758715+00:00",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/cr-eu2019.html",
+      "temporal_limit": "2019 enacted amendment, before September 2026 statements. Selected Annex V/VI text, not entire directive history.",
+      "sha256": "d89abc7554acfb827aedbb01535e60f57cf9cc582ee92e3dddd49e825f46baa5",
+      "bytes": 265676
+    }
+  ],
+  "limitations": [
+    "All12 counterpart physical pages andall 32 outcomes independently reread/reviewed; cover/contents/footer-template mistakes are incidental, not new findings.",
+    "CurrentOctober-metadata draft does not authenticate August dispatch; unresolved outcomes preserve that stronger temporal requirement. This also warrants final adjudication of supported current-draft descriptions inC’s own raw ledger, whose explicit version limits remain.",
+    "Long primary statutes/research read only necessary provisions, abstract/cases andselected discussion. No author contact, human technical/legal confirmation or intent inference.",
+    "No new error candidate from this peer review. One scope revision leaves the raw outcome unresolved; raw B unchanged."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-25",
+  "note": "These are failed responses, not evidence archives and not source-registry local_file targets.",
+  "attempts": [
+    {
+      "file": "dueng-cjeu-c54316.pdf",
+      "result": "Official EUR-Lex shell response empty; original court mirror and official web-reader text used instead."
+    },
+    {
+      "file": "dueng-cjeu-c54316-official.html",
+      "result": "Official shell response empty despite successful web-reader retrieval at exact indexed URL."
+    },
+    {
+      "file": "nitrates-evaluation-2026-part1.pdf",
+      "result": "Commission download terminated with curl18/92; PDF cross-reference invalid. Official web-reader PDF available; partial local download is not relied on."
+    },
+    {
+      "file": "cjeu-c62923.pdf",
+      "result": "Official shell response empty; official web-reader text used, no valid localPDF claimed."
+    },
+    {
+      "file": "ppwr2025-official-empty.pdf",
+      "result": "OfficialEUR-LexPDF response empty; alternateURLsrobot-challenged, WKOindexedmirrors404. OfficialCouncilfinallegislativeact validlyarchived separately; no publishedOJPDF archive claimed."
+    }
+  ]
+}

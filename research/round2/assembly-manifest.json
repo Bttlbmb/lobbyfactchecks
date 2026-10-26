@@ -1,0 +1,99 @@
+{
+  "note": "Explicitly reviewed round2inputs only. In-progress raw candidates are not automatically promoted. Manifest additions do not mark the two-hour research round complete.",
+  "inputs": [
+    "research/round2-root/mietrechtII2026-wie-root01.json",
+    "research/round2-root/mietrechtII2026-rueckmann-root02.json",
+    "research/round2-root/mietrechtII2026-dmb-root03.json",
+    "research/round2-social/grundsicherung2026-vansuntum-social01.json",
+    "research/round2-social/abortionaccess2026-1000plus-social02.json",
+    "research/round2-energy/gmodg2026-dmb-energy-poverty-a01.json",
+    "research/round2-energy/thg2026-nabu-timeline-a01.json",
+    "research/round2-tax/invest2025-meyer-tax-r2-01.json",
+    "research/round2-tax/invest2025-meyer-tax-r2-02.json",
+    "research/round2-root/duengg2026-dbv-root04.json",
+    "research/round2-tax/invest2025-eichfelder-tax-r2-03.json",
+    "research/round2-energy/thg2026-hornsteiner-evidence-a01.json",
+    "research/round2-root/duengg2026-taube-root05.json",
+    "research/round2-energy/geowg2024-muellersyhre-a01.json",
+    "research/round2-energy/geowg2024-muellersyhre-a02.json",
+    "research/round2-energy/geowg2024-muellersyhre-a03.json",
+    "research/round2-tax/stberg2026-bstbk-tax-r2-04.json",
+    "research/round2-tax/stberg2026-bstbk-tax-r2-05.json",
+    "research/round2-energy/netzpaket2026-bee-map-a01.json",
+    "research/round2-tax/altersvorsorge2026-vzbv-tax-r2-06.json",
+    "research/round2-social/abortionaccess2026-1000plus-social03.json",
+    "research/round2-social/nipt2024-eiben-social04.json",
+    "research/round2-social/apovwg2026-raddatz-social05.json",
+    "research/round2-social/apovwg2026-raddatz-social06.json",
+    "research/round2-root/wolf2026-pfannenstiel-root06.json",
+    "research/round2-tax/dac8-2025-dstg-tax-r2-07.json",
+    "research/round2-tax/dac8-2025-georg-growth-tax-r2-08.json",
+    "research/round2-tax/dac8-2025-georg-denominator-tax-r2-09.json",
+    "research/round2-energy/eeg2027-bsw-price-percent-a01.json",
+    "research/round2-energy/eeg2027-bsw-consumer-costs-a02.json",
+    "research/round2-social/aktivrente2025-brussig-social07.json",
+    "research/round2-social/medcang2025-cantourage-social08.json",
+    "research/round2-root/wolf2026-djv-root07.json",
+    "research/round2-root/wolf2026-vdl-root08.json",
+    "research/round2-tax/fruehstart2026-vzbv-allocation-tax-r2-10.json",
+    "research/round2-social/bstabg2026-pharmadeutschland-social09.json",
+    "research/round2-energy/umwrg2026-hess-decisions-a01.json",
+    "research/round2-root/verpackdg2026-plastics-timeline-root09.json",
+    "research/round2-social/rentenniveau2025-werding-social10.json",
+    "research/round2-tax/stofoeg2025-startups-taxbase-tax-r2-11.json",
+    "research/round2-energy/eeg2027-arge-ppa-a01.json",
+    "research/round2-energy/ehv2030-2026-vik-waste-costs-a01.json",
+    "research/round2-social/haushalt2026-venro-social11.json",
+    "research/round2-root/regg2025-vdv-employees-root10.json",
+    "research/round2-energy/ehv2030-2026-eon-biomass-threshold-a01.json",
+    "research/round2-tax/csrd2025-familienunternehmen-esef-tax-r2-12.json",
+    "research/round2-root/mietrechtII2026-hausgrund-index-root11.json"
+  ],
+  "source_registries": [
+    [
+      "research/round2-root/sources.json",
+      "research/round2-root"
+    ],
+    [
+      "research/round2-tax/sources.json",
+      "research/round2-tax"
+    ],
+    [
+      "research/round2-energy/source-registry.json",
+      "research/round2-energy"
+    ],
+    [
+      "research/round2-social/sources.json",
+      "research/round2-social"
+    ],
+    [
+      "research/round2-energy/bsw-source-registry.json",
+      "research/round2-energy"
+    ],
+    [
+      "research/round2-energy/hess-source-registry.json",
+      "research/round2-energy"
+    ],
+    [
+      "research/round2-energy/vik-ehv-source-registry.json",
+      "research/round2-energy"
+    ]
+  ],
+  "document_registries": [
+    "research/round2-tax/documents.json",
+    "research/round2/energy-documents.json"
+  ],
+  "review_directories": [
+    "research/round2-reviews"
+  ],
+  "submission_sources": {
+    "1000plus-abortion-20260414": "1000plus-abortion-20260414",
+    "vansuntum-grundsicherung-20260223": "grundsicherung-2026-hearing",
+    "dmb-gmodg-20260619": "dmb-gmodg-20260619",
+    "nabu-thg-20260227": "nabu-thg-20260227",
+    "meyer-investitionssofortprogramm-20250620": "meyer-investitionssofortprogramm-20250620",
+    "hornsteiner-thg-20260302": "hornsteiner-thg-20260302",
+    "bee-netzpaket-20260930": "bee-netzpaket-20260930",
+    "bsw-eeg2027-20261001": "bsw-eeg2027-20261001"
+  }
+}

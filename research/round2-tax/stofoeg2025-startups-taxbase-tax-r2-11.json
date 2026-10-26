@@ -1,0 +1,111 @@
+{
+  "id": "stofoeg2025-startups-taxbase-tax-r2-11",
+  "law_id": "standortfoerdergesetz-2025",
+  "document_id": "startups-stofoeg-20251127",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Improving financing conditions and reducing financial-market bureaucracy, with a companion motion on exit taxation.",
+    "they_want": "Defer exit tax until an actual sale or exempt shareholders of young companies.",
+    "they_claim": "Exit tax is approximately 28% of the fair value of the held stake.",
+    "the_problem": "The tax is calculated on the deemed disposal gain after acquisition costs, rather than automatically on the whole stake value."
+  },
+  "claim_quote": {
+    "original": "Wegzugsbesteuerung in Höhe von ca. 28 Prozent des gemeinen Werts der gehaltenen\nBeteiligung",
+    "language": "de",
+    "translation_en": "Translation of fragment: exit taxation amounting to approximately 28 percent of the fair value of the held stake",
+    "locator": {
+      "pdf_page": 7,
+      "section": "Änderung des Außensteuergesetzes, § 6 Abs. 1 AStG",
+      "paragraph": "First paragraph; immediately followed by arguments about founders and employees."
+    },
+    "underline": "28 Prozent des gemeinen Werts"
+  },
+  "request_quote": {
+    "original": "einer unbegrenzten Stundung der Wegzugssteuer bis zum tatsächlichen Verkauf",
+    "language": "de",
+    "translation_en": "Translation of request fragment: indefinite deferral of exit tax until the actual sale",
+    "locator": {
+      "pdf_page": 7,
+      "section": "Same subsection",
+      "paragraph": "Final paragraph; alternative is an exemption for shareholders of young companies."
+    }
+  },
+  "counter_quote": {
+    "original": "nach Abzug der Veräußerungskosten die Anschaffungskosten übersteigt.",
+    "language": "de",
+    "translation_en": "Translation of statutory fragment: exceeds the acquisition costs after deduction of disposal costs.",
+    "source_id": "esth2024-par17",
+    "locator": {
+      "section": "EStG §17(2), first sentence, official 2024 handbook statutory text"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Section 6(1) AStG deems a disposal at fair value and refers to section 17 EStG. Section 17(2) defines the gain by deducting acquisition costs; the whole fair value is not automatically the tax base. The stated roughly 28% can be close to a maximum-rate illustration where the cost basis is negligible, but the submission does not state that assumption. This finding concerns the base only, not the exact personal rate or all eligibility conditions.",
+  "effect": "For holders with a material acquisition-cost basis, describing the tax as a share of total value overstates the amount. Correcting it weakens that numerical burden rationale for the requested deferral or exemption. A dry-income liability can remain on an unrealised gain.",
+  "limits": "For successful founders whose cost basis is very small relative to current value, the approximation can be close. This review establishes no actual individual overpayment, no typical cost-basis distribution and no size of the effect on startup formation or migration. It does not show that deferral or an exemption is undesirable. No intent is inferred.",
+  "context_and_alternatives": [
+    "All nine submission pages were read and original physical page 7 was visually checked. The claim introduces a general description of shareholders with more than one percent and then applies the burden to both founders and employees; it is not presented as a worked example with stated acquisition costs.",
+    "Strongest benign reading: a simplified illustration of an appreciated founder stake at the top personal tax rate. The word approximately and the startup setting make this plausible and limit severity. They do not expressly confine the statutory description to negligible-basis stakes.",
+    "The correct 2025 companion motion describes taxation of hidden reserves and deemed disposal gains. The exact government bill does not amend section 6 AStG or section 17 EStG; the author proposes adding an extra measure to this process. No later enacted version was substituted.",
+    "The cost deduction appears in the official pre-submission 2024 tax handbook, is consistent with the 2021 reform bill and persists in the official current statute. The failed 2025 handbook and 2023 guidance retrievals are logged; no full historical legislative consolidation audit is claimed.",
+    "The current section 6 also contains residence-duration conditions, return relief and instalments. Omissions of those qualifications were not promoted as additional errors because this short subsection is not an exhaustive legal guide."
+  ],
+  "materiality_explanation": "Minor: the base is inaccurately described, but its practical numerical effect depends on an unstated cost basis and may be small for the founder cohort. The genuine possibility of tax before cash proceeds remains. No unsupported major label is assigned.",
+  "direction_explanation": "True narrowly: ignoring acquisition costs makes the potential liability appear larger and supports the explicit deferral/exemption request. Where costs are negligible, the directional effect is correspondingly small.",
+  "confidence": {
+    "text_source_mismatch": "high for statutory gain versus whole-value distinction; contextual approximation remains a plausible explanation",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Förderung privater Investitionen und des Finanzstandorts",
+    "version": "Government BT21/2507, 3 November 2025, hearing 1 December 2025; companion motion BT21/2544, 4 November 2025",
+    "source_id": "stofoeg-bt212507",
+    "submission_date": "2025-11-27",
+    "hearing_date": "2025-12-01",
+    "relevant_provision": "Government Article 28 changes EStG §6b, physical pages 60–61; no §17 EStG or §6 AStG amendment. Author page 7 requests adding the exit-tax reform; companion motion pages 1–3 concerns §6 AStG.",
+    "version_note": "Current official PDF technical metadata is December 2025, after the hearing. Parliamentary number/date and operative structure identify the government bill, not the later committee recommendation; no pre-hearing byte snapshot is claimed."
+  },
+  "submission_source_id": "startups-stofoeg-20251127",
+  "source_ids": [
+    "startups-stofoeg-20251127",
+    "stofoeg-bt212507",
+    "wegzug-motion-bt212544",
+    "stofoeg-hearing-20251201",
+    "esth2024-par17",
+    "astg-par6-current20261025",
+    "estg-par17-current20261025",
+    "atad-bt1928652"
+  ],
+  "verification": {
+    "visual": "Original author physical page 7 rendered and visually inspected. Exact base and request fragments confirmed.",
+    "quotation_budget": "Claim 14 words plus request 9 words = 23 author words. Counterquote 8 words.",
+    "historical_scope": "The exact addressed bill and companion motion are archived. The cost-basis principle is corroborated by official 2024 handbook and 2021 draft, not inferred solely from current 2026 law."
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "independent_social_ai",
+        "review_file": "research/round2-reviews/social-reviews-startup-exit-tax.json",
+        "outcome": "retain_provisional_minor_true_with_contextual_limit",
+        "scope": "A typical negligible-basis founder approximation remains a strong alternative; no actual founder liability or typical magnitude established."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full author context, exact bill and statutory tax-base comparison; independent adversarial review requested.",
+      "by": "tax_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent social AI read all nine author pages, exact bill and companion motion plus statutory base; retained minor/true narrowly and preserved the strong founder-approximation alternative.",
+      "by": "tax_ai_screen"
+    }
+  ]
+}

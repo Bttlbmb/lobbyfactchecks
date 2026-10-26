@@ -1,0 +1,38 @@
+{
+  "review_id": "energy-reviews-bitkom-begiv-20261024",
+  "candidate_id": "begiv2024-bitkom-tax08",
+  "reviewer": "energy_hearings_ai_agent",
+  "date": "2026-10-24",
+  "status": "ai_screened",
+  "review_type": "independent_adversarial_ai_review",
+  "outcome": "retain_provisional_minor_false",
+  "specialist": null,
+  "material_examined": [
+    {
+      "path": "research/tax-round2/sources/bitkom-begiv-202402.pdf",
+      "scope": "All twelve pages; original registered PDF independently opened, author page4 visually inspected. Correct26.8billion appears on page2; inconsistent23.8billion and2.87% on page4."
+    },
+    {
+      "path": "research/tax-round2/sources/nkr-annualreport-2023.pdf",
+      "scope": "Sections1.1 and6.1, especially physical11–12, graphs1–2; page11 visually inspected. Source distinguishes cumulative since2011 annual-cost change from current-period increase."
+    },
+    {
+      "path": "research/tax-round2/sources/begiv-refe-20240111.pdf",
+      "scope": "Exact102-page January ministerial draft; cover, problem/solution, E.1–E.3 and business-cost table read. Article numbering and682million align with submission rather than later March government draft."
+    }
+  ],
+  "independent_checks": [
+    "Direct register page initially failed to load; official indexed historic metadata independently retrieved and confirms dispatch29April2024 and twelve-page document. Creation timestamp is2FebruaryUTC/3FebruaryKST and is not treated as proof of dispatch.",
+    "Calculated682/23800*100=2.865546% and682/26800*100=2.544776%; difference0.320770percentage points. Ratio computation itself matches the erroneous denominator; correcting only that number lowers the displayed share.",
+    "The express request for stronger ongoing relief through digital administration and linked registers is adjacent on page4. A lower relief share reinforces that request; direction false is appropriate.",
+    "The primary NKR total is a cumulative change in recurring compliance cost since2011 across all three addressee groups, not the stock of all bureaucracy and not solely additional cost incurred in2022/23. Its current-period figure is about9.3billion in text (graph about9.4billion).",
+    "The draft682million is annual business relief; citizen and administrative relief are separate. Consequently the arithmetic illustration is not an independently valid matched economy-wide relief rate. The candidate expressly preserves this limitation.",
+    "Internal earlier correct26.8billion and unchanged qualitative small-share conclusion support minor severity. A copying/editing slip is plausible; intent is not inferable."
+  ],
+  "conclusion": "Retain narrowly as a provisional minor numerical-baseline error that cuts against the request. Do not expand it into a definitive all-bureaucracy relief calculation or manufacture a later-draft inconsistency.",
+  "sources_independently_opened": [
+    "https://www.lobbyregister.bundestag.de/media/69/9e/303894/Stellungnahme-Gutachten-SG2406140002.pdf",
+    "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2406140002/4817"
+  ],
+  "quote_policy": "No additional original quotations reproduced; candidate exact fragments independently checked against originals and page images."
+}

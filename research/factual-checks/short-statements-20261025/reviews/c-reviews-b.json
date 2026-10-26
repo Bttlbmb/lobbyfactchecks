@@ -1,0 +1,1586 @@
+{
+  "reviewer": "c",
+  "reviewed_file": "research/factual-checks/short-statements-20261025/agents/claims-b.json",
+  "reviewed_sha256": "9c073cde771461e0f87bb7b0f9850d18b5c5f50c3d4ebfb34329a082667a5274",
+  "created_at_utc": "2026-10-25T13:06:33.633397+00:00",
+  "documents_reread": [
+    {
+      "document_id": "idnrg2026-bnotk",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pdf_sha256": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+      "method": "Complete independent original text read before inventory; image-only first pages independently rendered and visually read for VDV/ZBI",
+      "fresh_pdftotext_matches_saved": true
+    },
+    {
+      "document_id": "idnrg2026-databund",
+      "pages": [
+        1,
+        2
+      ],
+      "pdf_sha256": "5bc89faa12bb4469ebc4962df2470ff2f052fb944a84f28e3b65cd9378509f2c",
+      "method": "Complete independent original text read before inventory; image-only first pages independently rendered and visually read for VDV/ZBI",
+      "fresh_pdftotext_matches_saved": true
+    },
+    {
+      "document_id": "idnrg2026-dav",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pdf_sha256": "614b10ba3b8dbc7a11728bcac2b49e6b6befab52a938e878ebccfd4dab271cbf",
+      "method": "Complete independent original text read before inventory; image-only first pages independently rendered and visually read for VDV/ZBI",
+      "fresh_pdftotext_matches_saved": true
+    },
+    {
+      "document_id": "idnrg2026-dnotv",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "pdf_sha256": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+      "method": "Complete independent original text read before inventory; image-only first pages independently rendered and visually read for VDV/ZBI",
+      "fresh_pdftotext_matches_saved": true
+    },
+    {
+      "document_id": "idnrg2026-kommunale-spitzenverbaende",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pdf_sha256": "9372c9b810d4ad0c4cfeca94d42dac477c2bdeb9e1623d8de482cc55179ac72e",
+      "method": "Complete independent original text read before inventory; image-only first pages independently rendered and visually read for VDV/ZBI",
+      "fresh_pdftotext_matches_saved": true
+    },
+    {
+      "document_id": "idnrg2026-vdv",
+      "pages": [
+        1,
+        2
+      ],
+      "pdf_sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+      "method": "Complete independent original text read before inventory; image-only first pages independently rendered and visually read for VDV/ZBI",
+      "fresh_pdftotext_matches_saved": true
+    },
+    {
+      "document_id": "idnrg2026-zbi",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "pdf_sha256": "65734c02596c9cc46940ffde4effd5bf6eed22f058b72843fe6dc218a5ebed06",
+      "method": "Complete independent original text read before inventory; image-only first pages independently rendered and visually read for VDV/ZBI",
+      "fresh_pdftotext_matches_saved": true
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "short-b-001",
+      "verdict": "accept",
+      "reason": "The operative proposal adds category 51 and internal identifier use; the quoted additional ordering attribute matches its actual scope.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-002",
+      "verdict": "accept",
+      "reason": "The proposal describes direct evidence retrieval as the intended mechanism; this does not claim measured savings or universal deployment.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-noots",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-003",
+      "verdict": "accept",
+      "reason": "Official search help independently confirms a property/parcel route without a required tax ID; it does not settle every future identity-related NOOTS function.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-search",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-004",
+      "verdict": "accept",
+      "reason": "Proposal p. 8 expressly defers matched inconsistencies; failed unique identification is separately treated.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-005",
+      "verdict": "accept",
+      "reason": "IDNrG § 2 no. 2 and § 10(6) give the general rules while preserving special correction laws. They do not require blind correction of every visible entry.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-idnrg",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-006",
+      "verdict": "accept",
+      "reason": "IDNrG § 10(4) expressly gives prompt notification and checking when there are concrete indications of erroneous/incomplete base data.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-idnrg",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-007",
+      "verdict": "accept",
+      "reason": "The identity-establishment and anti-confusion duties are verified in complete BeurkG § 10; empirical superiority is correctly kept separate.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-beurk",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-008",
+      "verdict": "accept",
+      "reason": "Neither the care duty nor the free-proof rule independently establishes a regular accuracy ranking or general evidential presumption for old notarial records.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-beurk",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-olg2019",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-idnrg",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-009",
+      "verdict": "accept",
+      "reason": "OLG paragraph 25 directly supports free proof for identity-preserving designation correction. Paragraphs 31–50 prevent extending it to rights-holder replacement.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-olg2019",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-010",
+      "verdict": "accept",
+      "reason": "Both operative amendments and p. 10 reserve further notarial reporting duties to separate future legislation.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-011",
+      "verdict": "accept",
+      "reason": "Specified tax notifications and future queries are verified; they do not establish an exhaustive legal or actual-possession rule across all notarial business.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-grestg18",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-grestg20",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-erbstg34",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-erbstdv7",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-estdv54",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-enova",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-012",
+      "verdict": "accept",
+      "reason": "Absence of a general collection duty cannot prove actual non-possession in every isolated land-charge case. The unresolved result preserves that distinction.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-grestg18",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-grestg20",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-013",
+      "verdict": "accept",
+      "reason": "Proposal p. 8 expressly budgets later inconsistency work at 5 percent/two minutes. The context may concern initial statutory review; neither a categorical omission error nor quantified unbudgeted work is established.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-idnrg",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-014",
+      "verdict": "accept",
+      "reason": "The direct operative scope is the land-register dataset and internal-use permission, not a blanket municipal software amendment.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-015",
+      "verdict": "revise",
+      "reason": "The original says the legal basis is a prerequisite for this intended identifier-based NOOTS design. Treating it as necessity for every possible parcel exchange is broader than the author claims. The contextual legal/design premise is supported; no universal technical monopoly follows.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-idnrg",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-noots",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ],
+      "proposed_result": "supported"
+    },
+    {
+      "claim_id": "short-b-016",
+      "verdict": "accept",
+      "reason": "The tax-ID key cannot be the shared key where it cannot be stored, but existing source/object IDs and property queries mean actual unambiguous assignment depends on workflow. Unresolved is appropriate for the full impossibility wording.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-search",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-idnrg",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-017",
+      "verdict": "accept",
+      "reason": "Fresh independent inspection of official July 2026 XJustiz pp. 77 and 148–149 confirms the exact identifier and structure. Existence does not prove deployment or NOOTS compatibility.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-xjustiz",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-018",
+      "verdict": "accept",
+      "reason": "GrEStG §§ 18/20 establish notice and ID-content duties for covered property transactions; existing substantive duties are separated from later transport changes.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-grestg18",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-grestg20",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-enova",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-019",
+      "verdict": "accept",
+      "reason": "Promulgated Articles 8/10 have missing-ID and specified-tax-purpose conditions and route queries through BNotK/BZSt.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-enova",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-020",
+      "verdict": "accept",
+      "reason": "Article 20(5), rather than the general 1 October rule, governs these provisions and supplies no calendar day.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-enova",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-021",
+      "verdict": "revise",
+      "reason": "The independently accessed 25 September provider circular still calls the query application forthcoming and directs continued collection from parties. This later chronology corroborates the earlier August route’s non-availability, together with contingent commencement. A complete August Gazette negative is not claimed.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-enova-availability",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-enova",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ],
+      "proposed_result": "supported"
+    },
+    {
+      "claim_id": "short-b-022",
+      "verdict": "accept",
+      "reason": "The rationale p. 11 expressly excludes visible entry and identifies internal specialist systems; proposed § 12e supplies limited purposes.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-023",
+      "verdict": "accept",
+      "reason": "Complete GBV § 15 confirms the field list with its optional/fallback conditions; the original possibly wording is preserved.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-gbv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-024",
+      "verdict": "accept",
+      "reason": "GBO § 12 and GBV §§ 43/46 support broad but conditional access, not unrestricted public publication.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-gbv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-025",
+      "verdict": "accept",
+      "reason": "The direct retrieval description is the proposal’s stated design, not a measured realised effect.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-noots",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-026",
+      "verdict": "accept",
+      "reason": "Property/parcel search is independently documented without a tax-ID field; the claim is appropriately limited to possible ordinary evidence requests.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-search",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-027",
+      "verdict": "accept",
+      "reason": "The exact no-immediate-action wording appears on proposal p. 8; subsequent running-operation discrepancies have a distinct model.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-028",
+      "verdict": "accept",
+      "reason": "IDNrG § 10(4) establishes the concrete-indication reporting/checking duty; a mismatch alone does not settle which data are wrong.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-idnrg",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-029",
+      "verdict": "accept",
+      "reason": "Complete BeurkG § 10 confirms the duty, with no inferred statistical reliability claim.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-beurk",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-030",
+      "verdict": "accept",
+      "reason": "The original is a possibility claim. Separate review and correction procedures recognise that either dataset may need correction; no universal ranking follows.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-idnrg",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-beurk",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-olg2019",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-031",
+      "verdict": "accept",
+      "reason": "Authorised retrieval and safeguards do not establish primary traffic composition or representative current reliability. No matching operational measurements were recovered.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-nrw-solum",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-032",
+      "verdict": "accept",
+      "reason": "The historical frequency and cause claim remains unproven. The unavailable activity-report download and counterpart’s transmission-failure passage do not establish repeated query-server overload.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-bnotk2007",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-033",
+      "verdict": "accept",
+      "reason": "Specific tax-purpose duties leave other deeds outside those duties; actual data availability in every deed is a different unmeasured proposition.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-grestg18",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-grestg20",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-erbstg34",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-enova",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-034",
+      "verdict": "accept",
+      "reason": "The checked provisions support specific examples, but no exhaustive all-business boundary or personal-ID inference from company-number rules is established.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-grestg18",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-grestg20",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-erbstg34",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-erbstdv7",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-estdv54",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-enova",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-035",
+      "verdict": "accept",
+      "reason": "Promulgated Articles 8/10 confirm the future bounded BNotK route and do not grant a general land-register lookup power.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-enova",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-036",
+      "verdict": "revise",
+      "reason": "The original also says the date had not yet been announced as of 7 August. Keep that historical premise, now corroborated by the provider’s still-forthcoming application in September; do not replace it solely with the weaker statutory mechanism.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-enova",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-enova-availability",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ],
+      "proposed_result": "supported",
+      "proposed_claim_en": "As of the 7 August response, the commencement date for the purpose-limited tax-ID query route was not yet determined; the Act makes it conditional on technical/organisational readiness."
+    },
+    {
+      "claim_id": "short-b-037",
+      "verdict": "accept",
+      "reason": "Proposal p. 10 explicitly reserves the potential duty to a separate legislative procedure.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-038",
+      "verdict": "accept",
+      "reason": "The operative addition concerns systematic land-register personal datasets, not cadastre as a new listed category.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-039",
+      "verdict": "accept",
+      "reason": "Proposed § 18 sentence 1 sets the principal end-2032 deadline; sentence 2 gives a separate non-owner/database-migration exception, which the short summary need not deny.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-040",
+      "verdict": "accept",
+      "reason": "Independent IDNrG header/§ 2 calculation, proposal p. 8 and BVA slide 6 all give 31 December 2028. The 31 August wording is contradicted, but this is the existing deduplicated issue, with only the four-month part affected.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-idnrg",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-bva2023",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-041",
+      "verdict": "accept",
+      "reason": "GBO § 2(2) gives the official parcel-directory role. The complementary registers have different legal content/effects.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-gbv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-042",
+      "verdict": "accept",
+      "reason": "Statutory notices, actual reciprocal interfaces and periodic transfer support continuing coordination; not instant perfect synchrony.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-gbv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-lgln",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-043",
+      "verdict": "accept",
+      "reason": "National cadastral models and owner content do not substantiate regularly the only comprehensive municipal digital source against all alternative systems.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-nrw-solum",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-044",
+      "verdict": "accept",
+      "reason": "Existing source/object references must be considered. A missing common personal key can create risks, but the claimed workflow and extra manual burden are not specified sufficiently to verify.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-lgln",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-045",
+      "verdict": "accept",
+      "reason": "Conditional official inspection and authorised automated access follow from GBO/GBV. It is not unrestricted every-purpose municipal access.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-gbv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-046",
+      "verdict": "accept",
+      "reason": "The internal-only design and statutory-purpose limit match proposed § 12e and rationale p. 11.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-047",
+      "verdict": "accept",
+      "reason": "Complete reading of the identified 11-page proposal confirms no concrete municipal interface/service rollout architecture; other project documents are outside that bounded absence claim.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-048",
+      "verdict": "accept",
+      "reason": "IDNrG § 4 separately defines identifier and address. A key does not itself supply the address required by a particular municipal task.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-idnrg",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-049",
+      "verdict": "accept",
+      "reason": "The two operative changes do not expressly command immediate municipal software changes; absence of all indirect participation/work does not follow, given § 10 cooperation and unspecified implementation.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-idnrg",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-050",
+      "verdict": "accept",
+      "reason": "The actual tables and narrative concern land-register software/IDA/search time despite Länder including municipalities aggregate labels. No separate cadastral/municipal integration model is provided.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-draft",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-051",
+      "verdict": "accept",
+      "reason": "IDNrG § 10(3)–(6) assigns the registration authority a central but conditional correction role, rather than exclusive responsibility for every data field.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-idnrg",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-052",
+      "verdict": "accept",
+      "reason": "The exact image-only anchor was independently read in the original render; GBO § 2(2) verifies the role.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-053",
+      "verdict": "accept",
+      "reason": "The image-only anchor is exact. Statutory flows and dated technical procedures confirm continuing exchange with timing/implementation differences.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-gbv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-lgln",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-054",
+      "verdict": "accept",
+      "reason": "The image-only substantially-common wording is exact. AdV p. 11 confirms national ALKIS introduction, with state choices/legacy variation, and LGLN confirms established interfaces.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-lgln",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-055",
+      "verdict": "accept",
+      "reason": "The image-only superlative is exact but not demonstrated by national models alone. Neither first nor every-administration fully available coverage was independently established.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-nrw-solum",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-056",
+      "verdict": "accept",
+      "reason": "Dated official procedures confirm defined long-existing interfaces; this is not proof of a finished future NOOTS rollout.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-lgln",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-057",
+      "verdict": "accept",
+      "reason": "A shared tax-ID link differs from existing object references. The latter prevent inferring impossibility of every precise data exchange; actual natural-person matching limitations remain workflow-dependent.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-idnrg",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-058",
+      "verdict": "accept",
+      "reason": "The named land-related engineering uses are credible, but the broad nearly-all denominator across engineering fields was not independently measured.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-vdi",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-059",
+      "verdict": "accept",
+      "reason": "The complementary official cadastral/land-register roles follow from the checked law and procedures, without transferring land-register legal effects to the cadastre.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-gbv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-060",
+      "verdict": "accept",
+      "reason": "Accept the ordinary ongoing-coordination reading in context. AdV pp. 34/53 explicitly allow asynchronous data and daily-to-weekly messages, so literal 100 percent instantaneous synchrony must not be marked supported. No error finding from this plausible terminology reading.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-gbv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-061",
+      "verdict": "accept",
+      "reason": "GBO § 126(2) and official NRW architecture independently confirm that structured cadastral parcel/owner data support land-register search and operation. This is not a reversal of authoritative ownership records.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-nrw-solum",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-062",
+      "verdict": "accept",
+      "reason": "The pre-response primary monitor shows persistent construction shortage alongside falling total vacancies. It does not verify an increasing trend in all three named employer groups; forecasts cannot fill that gap.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-vdi",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-063",
+      "verdict": "accept",
+      "reason": "The concrete notification and exchange framework supports coordinated relevant records; neither the framework nor this wording proves the tax ID is the only viable method.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-gbo",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-gbv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        },
+        {
+          "source_id": "short-cr-adv",
+          "check": "Independent primary passage inspection recorded in sources/cr-primary-checks.json"
+        }
+      ]
+    }
+  ],
+  "omissions": [
+    {
+      "omission_id": "short-cr-omission-01",
+      "document_id": "idnrg2026-kommunale-spitzenverbaende",
+      "pdf_pages": [
+        5
+      ],
+      "original_excerpt": "Hinzu kommen mögliche Aufwände für Schnittstellen",
+      "claim_en": "Integrating the identifier into cadastral and municipal systems can require interface, software, testing/migration and organisational work; the response presents these as possible unquantified inputs.",
+      "claim_type": "technical / implementation mechanism",
+      "materiality": "medium",
+      "proposed_result": "supported",
+      "reason": "Separate the conditional work-input mechanism from excluded numerical forecasts or financing preferences. Existing model/compatibility and preprocessing requirements, and the proposal’s own software-conversion model, support possible implementation work. No realised municipal amount, mandatory cost in every system, or adequacy conclusion is established.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-adv",
+          "locator": "Physical pp. 11, 24, 33–34"
+        },
+        {
+          "source_id": "short-cr-draft",
+          "locator": "Physical pp. 6–9"
+        }
+      ]
+    },
+    {
+      "omission_id": "short-cr-omission-02",
+      "document_id": "idnrg2026-vdv",
+      "pdf_pages": [
+        1
+      ],
+      "original_excerpt": "Falsche, fehlende oder veraltete Daten",
+      "claim_en": "Wrong, missing or outdated owner data delay and increase project costs or generate more administrative work in workflows relying on these data.",
+      "claim_type": "empirical / technical causal premise",
+      "materiality": "medium",
+      "proposed_result": "unresolved",
+      "reason": "The present-tense causal premise is separate from hoped-for future policy gains. AdV error/preprocessing scenarios support a conditional rework mechanism; no evidence establishes the full breadth or frequency of project delays/cost effects. Retain unresolved for the full proposition, rather than promoting a partial mechanism into universal proof.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-adv",
+          "locator": "Physical pp. 33–34; manual/error handling"
+        }
+      ],
+      "visual_anchor_check": {
+        "pdf_page": 1,
+        "excerpt": "Falsche, fehlende oder veraltete Daten",
+        "pdf_sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+        "method": "Independent direct visual reading of canonical original render",
+        "verified": true
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "short-cr-idnrg",
+      "title": "IDNrG official law, last amended 19 July 2024",
+      "url": "https://www.gesetze-im-internet.de/idnrg/BJNR059110021.html",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-gbo",
+      "title": "GBO official land-register law",
+      "url": "https://www.gesetze-im-internet.de/gbo/BJNR001390897.html",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-gbv",
+      "title": "GBV official implementing law, last amended 24 April 2025",
+      "url": "https://www.gesetze-im-internet.de/gbvfg/BJNR706370935.html",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-beurk",
+      "title": "BeurkG § 10 identity duties",
+      "url": "https://www.gesetze-im-internet.de/beurkg/__10.html",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-grestg18",
+      "title": "GrEStG § 18 notice duties",
+      "url": "https://www.gesetze-im-internet.de/grestg_1983/__18.html",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-grestg20",
+      "title": "GrEStG § 20 notice content",
+      "url": "https://www.gesetze-im-internet.de/grestg_1983/__20.html",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-erbstg34",
+      "title": "ErbStG § 34 notarial and court notices",
+      "url": "https://www.gesetze-im-internet.de/erbstg_1974/__34.html",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-erbstdv7",
+      "title": "ErbStDV § 7 inheritance notices",
+      "url": "https://www.gesetze-im-internet.de/erbstdv_1998/__7.html",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-estdv54",
+      "title": "EStDV § 54 company-deed copies",
+      "url": "https://www.gesetze-im-internet.de/estdv_1955/__54.html",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-search",
+      "title": "Berlin SolumSTAR official property/owner search help",
+      "url": "https://grundbuch.berlin.de/solumstar/help/FlurstucksSucheHelp.html",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-enova-availability",
+      "title": "BNotK Circular 6/2026, dated 25 September 2026",
+      "url": "https://www.bnotk.de/aufgaben-und-taetigkeiten/rundschreiben/details/elektronischer-notar-verwaltungs-austausch-enova-erste-verpflichtungen-ab-dem-1-oktober-2026",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-noots",
+      "title": "Official NOOTS register status and legal framework",
+      "url": "https://noots.gov.de/anschluss/status-der-register",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-nrw-solum",
+      "title": "NRW Justice official SolumSTAR architecture description",
+      "url": "https://www.justiz.nrw.de/BS/lebenslagen/Haus_und_Wohnung/Grundbuchverfahren/SolumSTAR/solum/verfahren",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-vdi",
+      "title": "VDI engineer monitor release, dated 28 January 2026",
+      "url": "https://www.vdi.de/news/detail/ingenieurarbeitsmarkt-unter-druck-zwischen-krise-und-fachkraeftemangel",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-xjustiz",
+      "title": "Official XJustiz.DABAG 3.6.2, 7 July 2026",
+      "url": "https://xjustiz.justiz.de/system/pdf/Spezifikation_XJustiz_3_6_2_Nachlieferung_DABAG_07_2026.pdf",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-adv",
+      "title": "AdV ALKIS/LEFIS/dabag interface principles, version 1.1, 10 April 2025",
+      "url": "https://www.adv-online.de/sites/default/files/documents/2026-06/20250410_Zuswirk_ALKIS-LEFIS-DABAG_V1-1_Veroeffentlichung1878.pdf",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-nas",
+      "title": "Sachsen-Anhalt cadastral interface page, attempted access",
+      "url": "https://www.geodatenportal.sachsen-anhalt.de/gfds/de/gdp-liegenschaftsbuch.html",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "short-cr-bnotk2007",
+      "title": "BNotK activity report 2007, attempted access",
+      "url": "https://www.bnotk.de/fileadmin/user_upload_bnotk/taetigkeitsberichte/2007.pdf",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "short-cr-enova",
+      "title": "Promulgated eNoVA Act, 22 June 2026, published 26 June 2026",
+      "url": "https://www.recht.bund.de/bgbl/1/2026/192/regelungstext.pdf?__blob=publicationFile&v=1",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-olg2019",
+      "title": "OLG Düsseldorf, 8 January 2019, I-3 Wx 34/17",
+      "url": "https://nrwe.justiz.nrw.de/pdfdownload/downloadEntscheidung.php?entscheidung=%2Fnrwe%2Folgs%2Fduesseldorf%2Fj2019%2F3_Wx_34_17_Beschluss_20190108.html",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-bva2023",
+      "title": "BVA presentation, 28 November 2023",
+      "url": "https://registermodernisierung.thueringen.de/fileadmin/user_upload/2023-11-28_6._Forum_RegMo_Raum_2.pdf",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-lgln",
+      "title": "LGLN ALKIS/land-register data-exchange note, 16 March 2022",
+      "url": "https://www.lgln.niedersachsen.de/download/139209/ALKIS_Datenaustausch_Grundbuch.pdf",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-cr-draft",
+      "title": "Canonical BMJV/BMDS land-register proposal",
+      "url": "https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/RefE/Regelungsentwurf_Aenderung_IDNrG.pdf?__blob=publicationFile&v=2",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "usable_as_evidence": true
+    }
+  ],
+  "visual_anchor_checks": [
+    {
+      "claim_id": "short-b-052",
+      "document_id": "idnrg2026-vdv",
+      "pdf_page": 1,
+      "excerpt": "amtliches Verzeichnis der Grundstücke",
+      "pdf_sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+      "method": "Independent direct visual reading of pdftoppm render of canonical original PDF; no OCR/transcript substitution",
+      "verified": true
+    },
+    {
+      "claim_id": "short-b-053",
+      "document_id": "idnrg2026-vdv",
+      "pdf_page": 1,
+      "excerpt": "regelmäßigen Datenaustausch",
+      "pdf_sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+      "method": "Independent direct visual reading of pdftoppm render of canonical original PDF; no OCR/transcript substitution",
+      "verified": true
+    },
+    {
+      "claim_id": "short-b-054",
+      "document_id": "idnrg2026-vdv",
+      "pdf_page": 1,
+      "excerpt": "bundesweit nahezu übereinstimmend",
+      "pdf_sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+      "method": "Independent direct visual reading of pdftoppm render of canonical original PDF; no OCR/transcript substitution",
+      "verified": true
+    },
+    {
+      "claim_id": "short-b-055",
+      "document_id": "idnrg2026-vdv",
+      "pdf_page": 1,
+      "excerpt": "die erste und digital vollumfänglich bereitgestellte",
+      "pdf_sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+      "method": "Independent direct visual reading of pdftoppm render of canonical original PDF; no OCR/transcript substitution",
+      "verified": true
+    }
+  ],
+  "anchor_validation": [
+    {
+      "claim_id": "short-b-001",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-002",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-003",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-004",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-005",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-006",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-007",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-008",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-009",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-010",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-011",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-012",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-013",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-014",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-015",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-016",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-017",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-018",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-019",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-020",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-021",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-022",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-023",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-024",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-025",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-026",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-027",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-028",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-029",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-030",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-031",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-032",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-033",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-034",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-035",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-036",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-037",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-038",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-039",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-040",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-041",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-042",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-043",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-044",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-045",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-046",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-047",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-048",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-049",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-050",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-051",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-056",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-057",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-058",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-059",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-060",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-061",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-062",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    },
+    {
+      "claim_id": "short-b-063",
+      "exact_after_layout_line_dehyphenation_and_whitespace_normalisation": true
+    }
+  ],
+  "limitations": [
+    "All seven originals and 26 physical pages were independently read before the frozen B dispositions. All 63 outcomes and page-based exclusions were audited. No new error candidate is proposed.",
+    "DATABUND is undated; printed author dates are not verified delivery dates. The archived proposal is identified by exact hash without authenticating every original dispatch.",
+    "Only relevant passages of long background laws/specifications were read; extents are explicit. No fresh long target expansion was undertaken.",
+    "Historical uptime, actual ID possession and nationwide coverage claims remain unresolved where matching evidence was unavailable. Missing evidence is not a factual error.",
+    "The existing short-b-040 deadline issue is confirmed and remains deduplicated; no new admission is proposed.",
+    "The later provider circular supports bounded retrospective corroboration; a complete August Gazette/operational-log reconstruction is not claimed.",
+    "Public downloads are temporary; retained authored notes bind original URLs, byte hashes where inspected, exact locators, scope and access failures."
+  ]
+}

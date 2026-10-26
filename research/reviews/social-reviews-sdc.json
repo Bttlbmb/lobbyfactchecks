@@ -1,0 +1,25 @@
+{
+  "reviewer": "social_digital_independent_ai",
+  "date": "2026-10-24",
+  "review_type": "independent AI source-definition and context check; not specialist review",
+  "specialist": null,
+  "id": "ggdg2026-sdc-root01",
+  "verdict": "supports narrow provisional source-description finding; minor; direction null",
+  "checks": [
+    "Read SDC’s complete first page and immediately following requests; read the JIM 2025 introduction, methods, Internet-and-Smartphone section, and German/English summaries.",
+    "Independently retrieved the original publisher PDF through web; visually inspected SDC physical PDF page 1 and JIM physical PDF page 27 / printed page 25."
+  ],
+  "source_definition": "The JIM 231-minute measure is daily smartphone screen time among 960 owners able to read their device display. The report expressly replaces its previous unspecific online-time reporting with this measure. It does not report 231 minutes of all-device internet use for all 1,200 respondents.",
+  "context_challenge": "Smartphones are a major route to online services and many listed apps need connectivity; colloquial shorthand could explain the wording. Nonetheless smartphone screen time and online duration across devices are different measured variables.",
+  "limits": "This establishes incorrect description of the cited measurement, not a different actual online-time estimate. Screen time can include offline use and online use can occur on other devices. No net numerical inflation/deflation is established.",
+  "severity_and_direction": "Minor: introductory background loses measurement and denominator qualifications; the argument for child protection remains. Null direction is appropriate because neither true all-device duration nor its difference from 231 minutes is established.",
+  "evidence": [
+    {
+      "title": "JIM 2025",
+      "url": "https://mpfs.de/app/uploads/2025/11/JIM_2025_PDF_barrierearm.pdf",
+      "locator": "Physical PDF page 5 / printed page 3; physical PDF page 27 / printed page 25, chart and surrounding prose; German/English summaries."
+    }
+  ],
+  "suggested_limit": "Avoid saying 231 minutes is false as the true online duration or that it strengthens the request. Keep the mismatch in the source label and population.",
+  "required_changes": []
+}

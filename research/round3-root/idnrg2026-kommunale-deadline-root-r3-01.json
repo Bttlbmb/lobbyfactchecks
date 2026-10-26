@@ -1,0 +1,107 @@
+{
+  "id": "idnrg2026-kommunale-deadline-root-r3-01",
+  "law_id": "idnrg-grundbuch-2026",
+  "document_id": "idnrg2026-kommunale-spitzenverbaende",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Adding land-register personal data to national register modernisation and NOOTS infrastructure.",
+    "they_want": "Shorten the proposed 2032 implementation deadline for land-register data.",
+    "they_claim": "Other registers have a31August2028implementation deadline.",
+    "the_problem": "The statutory general deadline is31December2028, as the exact draft explains. The gap is four months smaller, but remains four years."
+  },
+  "claim_quote": {
+    "original": "für die übrigen Register festgelegten Umsetzungsfrist 31. August 2028",
+    "language": "de",
+    "translation_en": "Translation of fragment: implementation deadline31August2028set for the other registers",
+    "locator": {
+      "pdf_page": 1,
+      "paragraph": "Final paragraph"
+    },
+    "underline": "31. August 2028"
+  },
+  "request_quote": {
+    "original": "Umsetzungsfrist für die Aufnahme der Identifikationsnummer in das Grundbuch verkürzt werden kann",
+    "language": "de",
+    "translation_en": "Translation of fragment: the implementation deadline for adding the identification number in the land-register system can be shortened",
+    "locator": {
+      "pdf_page": 1,
+      "paragraph": "Final paragraph, following sentence"
+    }
+  },
+  "counter_quote": {
+    "original": "also spätestens bis zum 31. Dezember 2028",
+    "language": "de",
+    "translation_en": "Translation: thus no later than31December2028",
+    "source_id": "idnrg-regelungsentwurf-20260720",
+    "locator": {
+      "pdf_page": 8,
+      "section": "B. Besonderer Teil / Zu Artikel X / Zu Nummer 1; final paragraph continuing on physical page 9"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "draft": {
+    "source_id": "idnrg-regelungsentwurf-20260720",
+    "addressed_version": "Standalone Regelungsentwurf published by the ministry on 20 July 2026; no internal version timestamp printed on the extracted title.",
+    "exactness": "The author identifies the same standalone proposal and its 2032 transition. Operative pages 2–3 and the memorandum on pages 8–11 match that proposal. A later carrier bill is not substituted.",
+    "locator": {
+      "pdf_page": 2,
+      "section": "Article X, proposed §18 IDNrG; general deadline explained on physical page 8"
+    }
+  },
+  "correction": "IDNrG §2 no.1 requires storage by the end of the fifth calendar year following commencement. Commencement on 31 August 2023 means a deadline of 31 December 2028. The exact draft expressly gives that date. The proposed deadline for land-register data remains the end of 2032.",
+  "effect": "Slightly weakens the timetable argument for earlier implementation: the gap between the general deadline and the proposed land-register deadline is four years, rather than four years and four months.",
+  "limits": "The four-year gap remains substantial. Does not establish that2032is appropriate or that the separate requests for cadastral inclusion, technical access and funding are mistaken. No intent inferred.",
+  "context_and_alternatives": "All six author pages were read, and the claim and request on page 1 were visually checked. The paper calls the date the deadline set for the other IDNrG registers, rather than an aspirational NOOTS target. Confusing a five-year anniversary with the calendar-year rule is a benign explanation. Independent review of the full author context, exact draft and original commencement notice supports the narrow minor finding.",
+  "materiality_explanation": "Minor timetable-comparison error. Correcting four months leaves a four-year gap and preserves the central argument for synchronisation. No substantial reversal is established.",
+  "direction_explanation": "The earlier stated comparator enlarges the divergence from2032and marginally strengthens the author’s explicit request to shorten it.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "energy_hearings independent AI",
+        "verdict": "Retain the narrow provisional minor finding, favouring the request, after checking the full author text, exact draft and original commencement notice.",
+        "review_file": "research/round3-reviews/energy-reviews-idnrg-municipal-deadline.json",
+        "specialist": null
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full author reading and comparison with the exact draft and primary law; excluded from compiled deliverables pending independent review.",
+      "by": "root_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent review supports the narrow provisional minor finding and its favourable direction. Admitted to the compiled issue set.",
+      "by": "root_ai_screen"
+    }
+  ],
+  "submission_source": {
+    "url": "https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/Stellungnahmen/2026/1002_Stellungnahmen_RefE_IDNrG.zip?__blob=publicationFile&v=2",
+    "local_file": "research/round3-root/coverage/package-members/2c8eae086c97d6e8b252.pdf",
+    "container_member": "Stellungnahme Städtetag.pdf",
+    "authored_date": "2026-08-07",
+    "reported_delivery_independently_verified": false
+  },
+  "reading_depth": {
+    "author": "All six physical pages.",
+    "draft": "Operative pages 2–3, memorandum pages 8–11, and cover/background page 1. The entire cost methodology was not audited.",
+    "counter_source": "Official IDNrG §2 and commencement note selected; the independent reviewer also read both pages of the original commencement notice."
+  },
+  "source_ids": [
+    "idnrg2026-kommunale-spitzenverbaende",
+    "idnrg-regelungsentwurf-20260720",
+    "idnrg-section2-current",
+    "idnrg-current-commencement",
+    "idnrg-commencement-2023-230"
+  ]
+}

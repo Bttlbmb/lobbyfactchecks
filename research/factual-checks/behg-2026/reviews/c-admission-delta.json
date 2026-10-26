@@ -1,0 +1,48 @@
+{
+  "reviewer": "claims_c",
+  "reviewed_at": "2026-10-25T10:12:43.904571+00:00",
+  "staged_file": "research/factual-checks/behg-2026/staged/behg2026-fleischmann-mortality-range-fc01.json",
+  "staged_sha256": "b8b8905fcabe7235f5008a04ef6455c61965694d044edf32c671e6e00df24ac2",
+  "admitted_file": "research/factual-checks/behg-2026/behg2026-fleischmann-mortality-range-fc01-admitted.json",
+  "admitted_sha256": "97f244841ce7b0153a7e3582d75184cf1559ee48ac0bb762671055fa2ff46909",
+  "verdict": "accept",
+  "scope": "Independent delta review against the frozen stage and C final candidate review, following the full nine-page original re-read and primary evidence checks already recorded.",
+  "changed_fields": [
+    "request_quote",
+    "history",
+    "context_checked",
+    "context_and_alternatives",
+    "review",
+    "counter_quote",
+    "verification",
+    "direction_explanation",
+    "effect",
+    "claim_quote",
+    "finding_state",
+    "favours_author_request"
+  ],
+  "checks": [
+    {
+      "aspect": "Substantive claim and correction",
+      "result": "Exact author and counter anchors, all numerical examples, minor severity, cohort definitions, correction date and limits remain unchanged. No accidental expansion to whole-population national ratios or future mortality was introduced."
+    },
+    {
+      "aspect": "Direction",
+      "result": "Setting favours_author_request to null and explicitly noting mixed deviations is a conservative improvement; it avoids the earlier qualified true-direction judgment becoming a uniform numerical-inflation claim."
+    },
+    {
+      "aspect": "Aggregate alternative",
+      "result": "The added approximately 9.58 aggregate ratio is reproducible from corrected totals 130228/13589, and is clearly distinguished from the universal country range. No ratio confidence interval is fabricated from marginal bounds."
+    },
+    {
+      "aspect": "Review and translation metadata",
+      "result": "Added review/history/provenance fields and Translation prefixes do not change the factual scope. Source quote remains untranslated English."
+    }
+  ],
+  "editorial_notes": [
+    "The two copies of the new aggregate alternative contain about9.58 without a space; use about 9.58 for display readability. This does not affect the substantive acceptance."
+  ],
+  "limitations": [
+    "No new specialist review; primary-source findings and limits are those in c-final-candidate-records.json."
+  ]
+}

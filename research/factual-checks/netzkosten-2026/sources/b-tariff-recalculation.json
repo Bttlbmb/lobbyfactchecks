@@ -1,0 +1,43 @@
+{
+  "method": "For 6000 full-load hours, annual total tariff cost per kW = capacity charge + 6000*energy-charge-in-cents/100. Hypothetical €5.525bn effect = 85% of observed €6.5bn tariff reduction at unchanged cost and allocation base. Not a tariff forecast.",
+  "profiles": {
+    "Hos": {
+      "2025_lp": 127.74,
+      "2025_ap_ct": 1.33,
+      "2026_lp": 53.06,
+      "2026_ap_ct": 0.69,
+      "nosubsidy_lp": 120.31,
+      "nosubsidy_ap_ct": 1.58,
+      "2025_total_eur_kw_year": 207.54,
+      "2026_actual_total_eur_kw_year": 94.46000000000001,
+      "2026_theoretical_total_eur_kw_year": 215.11,
+      "no_subsidy_change_pct": 3.647489640551238,
+      "2026_subsidy_reduction_pct": 56.08758309702013,
+      "new_subsidy_linear_total_eur_kw_year": 112.5575,
+      "new_subsidy_reduction_pct": 47.674445632467105
+    },
+    "HosHs": {
+      "2025_lp": 192.66,
+      "2025_ap_ct": 0.74,
+      "2026_lp": 76.7,
+      "2026_ap_ct": 0.43,
+      "nosubsidy_lp": 174.16,
+      "nosubsidy_ap_ct": 0.98,
+      "2025_total_eur_kw_year": 237.06,
+      "2026_actual_total_eur_kw_year": 102.5,
+      "2026_theoretical_total_eur_kw_year": 232.95999999999998,
+      "no_subsidy_change_pct": -1.729519952754588,
+      "2026_subsidy_reduction_pct": 56.00103021978022,
+      "new_subsidy_linear_total_eur_kw_year": 122.069,
+      "new_subsidy_reduction_pct": 47.60087568681318
+    }
+  },
+  "conditional_rounded_47_6pct_coverage": {
+    "0": 47.6,
+    "5": 45.333333333333336,
+    "10": 43.27272727272727,
+    "15": 41.39130434782609
+  },
+  "subsidy_cut_eur_billion": 0.9749999999999996,
+  "subsidy_cut_percent": 14.999999999999996
+}

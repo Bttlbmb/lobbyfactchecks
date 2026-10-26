@@ -1,0 +1,132 @@
+{
+  "id": "forg2026-financewatch-tax07",
+  "law_id": "fondsrisikobegrenzungsgesetz-2026",
+  "document_id": "financewatch-forg-20260126",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Implementing EU rules on fund leverage, liquidity management and clearing.",
+    "they_want": "Broader and more consistent safeguards for leveraged funds.",
+    "they_claim": "The Credit Suisse group collapsed in March 2024.",
+    "the_problem": "The emergency takeover was announced in March 2023; the year is wrong."
+  },
+  "claim_quote": {
+    "original": "Zusammenbruch der Credit Suisse-Gruppe im März 2024",
+    "language": "de",
+    "translation_en": "Translation: collapse of the Credit Suisse group in March 2024",
+    "locator": {
+      "pdf_page": 4,
+      "section": "B.2.a, Einsatz von Fremdkapital und Kreditderivaten (Leverage)",
+      "paragraph": "last body paragraph, final sentence"
+    },
+    "underline": "März 2024"
+  },
+  "counter_quote": {
+    "original": "19. März 2023 angekündigte Übernahme der Bank durch die UBS",
+    "language": "de",
+    "source_id": "finma-cs-report-20231219-de",
+    "locator": {
+      "pdf_page": 6,
+      "printed_page": 6,
+      "section": "2 Executive Summary",
+      "column": "left, second paragraph"
+    },
+    "retrieved_at": "2026-10-24",
+    "translation_en": "Translation of fragment: the takeover of the bank by UBS announced on 19 March 2023"
+  },
+  "request_quote": {
+    "original": "Vereinheitlichung von Definitionen und Berechnungsmethoden für Hebelfinanzierungen",
+    "language": "de",
+    "translation_en": "Translation: harmonisation of definitions and calculation methods for leverage",
+    "locator": {
+      "pdf_page": 2,
+      "section": "A. Zusammenfassung",
+      "item": "i"
+    }
+  },
+  "correction": "Replace March 2024 with March 2023 for the emergency crisis and takeover announcement. FINMA records the announcement on 19 March 2023 and legal completion on 12 June 2023.",
+  "effect": "Corrects the chronology of an ancillary historical example. The leverage-risk argument remains.",
+  "limits": "No conclusion about the sufficiency of the bill’s safeguards. This does not refute the claimed Archegos connection or imply intent; a clerical year slip is plausible. Collapse is treated as ordinary crisis shorthand, not a claim of formal bankruptcy.",
+  "materiality_explanation": "Minor: the year does not change the existence of the example, its relationship to the earlier Archegos episode, or the policy mechanism under discussion.",
+  "direction_explanation": "No demonstrated advantage to the author’s request from shifting this past event by one year; direction is null.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_digital_ai_agent",
+        "date": "2026-10-24",
+        "outcome": "retain_provisional_minor_direction_null",
+        "review_file": "research/reviews/social-reviews-financewatch-forg.json",
+        "summary": "Independently checked paragraph, request, exact bill, FINMA chronology, and potential 2024 corporate-integration alternative. Group acquisition June 2023 and bank merger May 2024 do not rescue March 2024."
+      }
+    ]
+  },
+  "author_response": [],
+  "draft": {
+    "title": "Fondsrisikobegrenzungsgesetz, government bill BT 21/3510",
+    "version_date": "2026-01-07",
+    "source_id": "forg-bt213510",
+    "submission_date": "2026-01-26",
+    "relevant_provision": "Article 1, proposed KAGB section 29a(5), PDF/printed page 20 (175%/300% leverage limits); section 30a, page 22. The error concerns historical context, not the wording of these provisions.",
+    "process_status_at_screening": "Completed; promulgated April 2026.",
+    "version_note": "The submission explicitly identifies BT 21/3510. Official downloaded PDF bears this number and cover date; file metadata shows a later technical production date. No substantive version substitution inferred."
+  },
+  "sources": [
+    {
+      "id": "financewatch-forg-20260126",
+      "title": "Christian M. Stiefmüller / Finance Watch, written FoRG hearing submission, 26 January 2026",
+      "url": "https://www.bundestag.de/resource/blob/1139472/07-Finance-W.pdf",
+      "local_file": "research/tax-round2/sources/financewatch-forg-20260126.pdf",
+      "visual_verification": [
+        "research/tax-round2/sources/financewatch-forg-p4.png",
+        "research/tax-round2/sources/financewatch-forg-p2.png"
+      ],
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "forg-hearing-20260126",
+      "title": "Bundestag official hearing dossier and submission list",
+      "url": "https://www.bundestag.de/ausschuesse/a07_finanzen/wp21_a07_Anhoerungen/1136910-1136910",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "forg-bt213510",
+      "title": "Exact addressed government bill, BT 21/3510, 7 January 2026",
+      "url": "https://dserver.bundestag.de/btd/21/035/2103510.pdf",
+      "local_file": "research/tax-round2/sources/forg-bt213510.pdf",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "finma-cs-report-20231219-de",
+      "title": "FINMA, Lessons Learned aus der CS-Krise, 19 December 2023",
+      "url": "https://www.finma.ch/de/~/media/finma/dokumente/dokumentencenter/myfinma/finma-publikationen/cs-bericht/20231219-finma-bericht-cs.pdf",
+      "local_file": "research/tax-round2/sources/finma-cs-report-20231219-de.pdf",
+      "visual_verification": "research/tax-round2/sources/finma-cs-report-p6.png",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "finma-cs-20230319",
+      "title": "FINMA contemporary takeover announcement, 19 March 2023",
+      "url": "https://www.finma.ch/de/news/2023/03/20230319-mm-cs-ubs/",
+      "retrieved_at": "2026-10-24"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "First recorded after full submission, primary chronology and addressed-draft checks; independent AI review requested.",
+      "by": "tax_consultations_ai"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Independent AI review retained minor chronology finding and null direction; later bank-merger alternative checked.",
+      "by": "social_digital_ai_agent"
+    }
+  ]
+}

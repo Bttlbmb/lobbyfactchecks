@@ -1,0 +1,109 @@
+{
+  "id": "medcang2025-cantourage-social08",
+  "law_id": "medcang-aenderung-2025",
+  "document_id": "cantourage-medcang-20250801",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Restricting remote prescribing and pharmacy shipping of medical cannabis flowers.",
+    "they_want": "Preserve full telemedical access and pharmacy shipping.",
+    "they_claim": "Around two percent of Israel's population are medical cannabis patients.",
+    "the_problem": "The linked 2020 article's two percent is an industry interviewee's assumption for two years ahead, not an observed 2025 share. The actual contemporary total and submission channel remain unresolved here."
+  },
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Änderung des Medizinal-Cannabisgesetzes",
+    "version": "BMG Referentenentwurf, Bearbeitungsstand 18 June 2025 14:24, as expressly identified in the author introduction",
+    "source_id": "medcang-refe-20250618-mirror",
+    "submission_date": "2025-08-01",
+    "date_note": "Author's publication date, not independently established receipt by BMG.",
+    "version_check": "The 18 June draft's physical 3 operative §3 restricts initial prescribing to personal contact and follow-ups to personal contact within the last four quarters, and prohibits shipping flowers. A publicly indexed Table. Media mirror was read. The official 14 July consultation copy and later BT 21/3061 were not silently substituted."
+  },
+  "claim_quote": {
+    "original": "sind rund zwei Prozent der Bevölkerung Cannabispatient:innen",
+    "language": "de",
+    "translation_en": "Translation of claim fragment: around two percent of the population are cannabis patients.",
+    "locator": {
+      "section": "Patientenzahlen im Ausland",
+      "paragraph": "First paragraph, second sentence; Israel; footnote 5"
+    },
+    "underline": "rund zwei Prozent"
+  },
+  "request_quote": {
+    "original": "Cantourage fordert den vollständigen Erhalt der telemedizinischen Versorgung",
+    "language": "de",
+    "translation_en": "Translation of request fragment: Cantourage calls for the complete preservation of telemedical care.",
+    "locator": {
+      "section": "Die Position der Cantourage Group SE und konkrete Forderungen",
+      "item": 1
+    }
+  },
+  "counter_quote": {
+    "original": "Assuming about 200,000 (personal) licenses in 2 years – about 2% of the population",
+    "language": "en",
+    "source_id": "mjbiz-israel-patients-20200923",
+    "locator": {
+      "section": "Ari Eyal, CSO, Bazelet Group",
+      "paragraph": "First quoted paragraph; published 23 September 2020"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The cited two-percent passage is explicitly a conditional industry assumption made in September 2020 for two years later. It must not be described as an observed 2025 registry measurement on the strength of that passage. This record does not establish the actual patient share in August 2025 and therefore does not count the current-share assertion as a proven numerical error.",
+  "effect": "If the contemporary share is materially lower, the international benchmark would make Germany's then below-one-percent share look less exceptional than the author suggests. That conditional effect is not an adjudicated direction finding.",
+  "limits": "An old forecast may later turn out approximately right; absence of a current measurement in the linked article does not prove the 2025 claim false. Primary Israeli monthly PDFs were located, but image-based total charts were not successfully read in this branch. Later original research and contemporaneous company filings indicate lower totals, but are not silently substituted for direct registry verification. Licence/prescription changes, missing prescription reporting, population scope and timing require resolution. Formal submission to BMG or a Lobbyregister filing has not been established; this is an author-published statement expressly addressed to the federal draft. No intent is inferred.",
+  "context_and_alternatives": [
+    "The full author statement was read. The same paragraph compares Colorado's December 2024 registered patients and Germany's below-one-percent estimate; it argues that patient penetration does not establish recreational misuse. It does not claim that the Israeli number alone proves telemedicine safe or necessary.",
+    "The linked article itself reports roughly seventy-one thousand authorised patients in August 2020, then prints several industry interview responses. The two-percent phrase occurs only in Eyal's explicitly assumed future scenario. It is primary evidence of his reported statement, not a substitute for an Israeli registry count.",
+    "The strongest benign explanations are that a forecast was used only as a rough later benchmark, a different patient definition or adult denominator was intended, or current data were known from another source. The author says total population, but none of these explanations has been eliminated sufficiently for a numerical finding.",
+    "The public BMG consultation list and Lobbyregister search did not establish this company's submission channel. A third-party compilation and trade press list are not treated as official receipt evidence."
+  ],
+  "materiality_explanation": "Potentially minor: an auxiliary international comparator, with Germany's share still potentially below Israel's and many independent access arguments. No quantified change to German patient need or clinical outcomes is derived.",
+  "direction_explanation": "Null while current-share accuracy and provenance remain unresolved; a higher benchmark could favour preserving access, but this is conditional.",
+  "confidence": {
+    "text_source_mismatch": "High that the cited two-percent passage is a forecast assumption; unresolved that the author's actual 2025 numerical assertion is false.",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "root_ai",
+        "date": "2026-10-25",
+        "review_file": "research/round2-reviews/root-reviews-cantourage-israel.json",
+        "outcome": "retain_unresolved_minor_null_scope_gate_pending",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as an unresolved lead; forecast source checked, current registry chart and channel not established.",
+      "by": "social_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent root review retained unresolved status after full author statement and cited interview read. Independent official PDF display also blank; no current patient share or formal submission channel established.",
+      "by": "root_ai_screen"
+    }
+  ],
+  "source_ids": [
+    "cantourage-medcang-20250801",
+    "mjbiz-israel-patients-20200923",
+    "medcang-refe-20250618-mirror",
+    "israel-moh-march2025",
+    "aviram-israel2025",
+    "medcang-ministry-list-root20261025"
+  ],
+  "verification": {
+    "quotation_budget": "Seven author claim words and nine request words, below 25 combined; sixteen words from the interview passage. Original wording preserved.",
+    "retrieval_limits": "Author HTML archived. The cited article and exact draft mirror were read through web text; direct downloads returned 403 and are not claimed as archived. No successful visual inspection of the Israeli registry charts is claimed."
+  },
+  "scope_gate": {
+    "status": "pending",
+    "reason": "Author-published response to exact federal draft verified; formal ministry receipt or Lobbyregister submission remains unverified. Not a confirmed official consultation filing."
+  },
+  "submission_source_id": "cantourage-medcang-20250801"
+}

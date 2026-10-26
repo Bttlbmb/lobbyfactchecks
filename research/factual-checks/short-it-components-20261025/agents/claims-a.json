@@ -1,0 +1,795 @@
+{
+  "agent": "a",
+  "batch": "short-it-components-20261025-factual-checks",
+  "status": "frozen",
+  "created_at_utc": "2026-10-25T22:13:17.977323+00:00",
+  "documents": [
+    {
+      "id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "author": "DATABUND",
+      "process": "IT components ordinance — three formal external responses",
+      "author_date": "2026-09-14",
+      "submission_date_verified": false,
+      "author_date_note": "verified_from_document_or_transmittal",
+      "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_ITKV/ITKV_Stn_DATABUND.pdf",
+      "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+      "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+      "physical_pages": 2,
+      "pilot_text": "research/factual-checks/short-it-components-20261025/text/bmds-it-komponentenverordnung-itkv-response-003.txt",
+      "reading_depth": "full_submission",
+      "actor_scope_limit": "Three formal external published responses only; eight Land replies and one association decline excluded. VITAKO author date unverified; publication is not receipt.",
+      "pages_read": [
+        1,
+        2
+      ],
+      "fully_read": true,
+      "read_before_prior_dispositions": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "short-it-a-001",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "deutlich mehr als die Hälfte aller Fachverfahren und IT-Systeme",
+      "claim_en": "Member companies develop/support more than half of relevant public-sector specialist applications and IT systems, through which most administrative services are provided.",
+      "claim_type": "empirical / technical",
+      "materiality": "low",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": false,
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-a-access-search",
+          "locator": "Search scope/access log"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "No bounded census, application/service denominator or independently matched market-share estimate was located. Count of products, installations, vendors and services would give different shares.",
+      "limits": "Promotional scope is low materiality; membership count alone cannot validate this market share. No falsehood inferred.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-a-002",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "seit mehr als 20 Jahren auch Online-Dienste",
+      "claim_en": "Member firms have over 35 years of municipal-software experience and have provided online administrative services for over 20 years.",
+      "claim_type": "empirical / technical",
+      "materiality": "low",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": false,
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-a-dataport-fv",
+          "locator": "Existing pilot-vendor list"
+        },
+        {
+          "source_id": "short-it-a-access-search",
+          "locator": "Evidence scope"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Original identifies no individual firms, dated products or historical cohort. Targeted official implementation evidence confirms existing vendors, but does not establish the joint historical age assertions for an identified plural set.",
+      "limits": "Credential premise given low priority; this is not a claim that no long-established member exists.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-a-003",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "OZG-ID 10124",
+      "claim_en": "The electronic residence-registration service is identified by OZG ID 10124.",
+      "claim_type": "technical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": "OZG ID explicitly named",
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-a-dnrw",
+          "locator": "Service identity, stand March 2026"
+        },
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical pp. 4 and 12"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Dated public operator entry and shared ministry draft independently identify the service as 10124.",
+      "limits": "No intent, specialist confirmation or actual future outcome inferred. Missing evidence is not an error.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-a-004",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "OSCI-Transport und den XÖV-Standards XMeld und XPassAusweis",
+      "claim_en": "eWA uses OSCI transport and the XMeld and XPassAusweis standards.",
+      "claim_type": "technical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": "Standards explicitly named",
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-a-dnrw",
+          "locator": "Technical interfaces"
+        },
+        {
+          "source_id": "short-it-a-dataport-fv",
+          "locator": "Specifications"
+        },
+        {
+          "source_id": "short-it-a-xpass-release25-11",
+          "locator": "Physical p. 5, section 2.4.1.1"
+        }
+      ],
+      "result": "supported",
+      "explanation": "d-NRW describes OSCI/DVDV connection; Dataport specifies XMeld for registration and XPassAusweis for document-side messages. Dated KoSIT release history independently confirms EWA-PA messages before the author.",
+      "limits": "Current operator page temporal limit retained; dated 2025 standard release corroborates the relevant document message basis.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-a-005",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "was zu einer guten Umsetzbarkeit beigetragen hat",
+      "claim_en": "Using established standards contributed to eWA’s good implementability.",
+      "claim_type": "empirical / technical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": false,
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-a-dataport-fv",
+          "locator": "Specifications, existing modules and required adaptation"
+        },
+        {
+          "source_id": "short-it-a-dnrw",
+          "locator": "Implementation stages"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Primary operator documentation corroborates the interoperability mechanism and existing integrations, but does not isolate how much the standards contributed to actual ease of implementation. Good is partly evaluative.",
+      "limits": "Not a finding that standardised interfaces provide no benefit; no comparison of unstandardised implementation is available.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-a-006",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "bei erfolgreicher Verbreitung von eWA in der Fläche",
+      "claim_en": "The draft proposes considering extension to further services after successful eWA dissemination and cost savings.",
+      "claim_type": "draft content",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": "VIII explicitly quoted",
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical p. 12, VIII Befristung/Evaluierung"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Matching quoted condition appears in the recovered draft VIII; it calls for examination, not automatic extension.",
+      "limits": "Printed 1 September 2026 shared draft matches the quotation. No actual transmission/dispatch bytes or later policy extension inferred.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-a-007",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "privaten Anbietern die Möglichkeit",
+      "claim_en": "The EfA strategy generally removes private providers’ opportunity to place competing online services for the same OZG services.",
+      "claim_type": "empirical / technical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": false,
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical p. 4, proposed section 1"
+        },
+        {
+          "source_id": "short-it-a-dataport-fv",
+          "locator": "Backend suppliers and integration"
+        },
+        {
+          "source_id": "short-it-a-ozg4",
+          "locator": "Current clause, contextual only"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "One mandated reused front end creates a plausible market-displacement concern, but no independent bounded market/competition study or supplier opportunity data establishes the general practical exclusion assertion. Backend vendors’ involvement does not prove independent front-end market access.",
+      "limits": "Read as a commercial/policy effect in context, not an invented allegation of a universal statutory ban. Current OZG has later October amendment; deviation/open-interface text not silently retrojected.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-a-008",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "die Hersteller unzumutbar hohe Anbindungsaufwände haben",
+      "claim_en": "Connecting an existing specialist application to a prescribed EfA front end can require vendor adaptation work and associated cost.",
+      "claim_type": "conditional technical mechanism",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": false,
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-a-dataport-fv",
+          "locator": "Adaptation requirements and cost paragraph"
+        },
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical pp. 10–11, integration expense basis"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Operator instructions explicitly require Fachverfahren adaptation and identify costs; shared draft separately budgets initial and recurring integration expenses.",
+      "limits": "This records only the conditional technical-cost mechanism beneath the request. Unreasonable magnitude for future poorly implemented services is a policy threshold/forecast, separately excluded.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-a-009",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "Alle anderen verfügbaren Onlinedienste im Bereich des Meldewesens",
+      "claim_en": "The alternatives section says other available registration services fail either EfA minimum criteria or some electronic residence-registration legal requirements.",
+      "claim_type": "draft content",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": "C explicitly quoted",
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical p. 2, C Alternativen"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Recovered draft C contains the two disjunctive grounds in full. Author truncates the first branch with an explicit bracketed ellipsis while addressing interface access; the full context is preserved here.",
+      "limits": "Document-content support only; it does not independently prove every competing service is legally inadequate.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-a-010",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "erfüllen nicht alle erforderlichen rechtlichen Kriterien",
+      "claim_en": "Other available registration online services fail either EfA minimum criteria or some required legal criteria for electronic residence registration.",
+      "claim_type": "legal / technical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": "Quoted draft premise",
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical p. 2, full disjunction"
+        },
+        {
+          "source_id": "short-it-a-access-search",
+          "locator": "No independent bounded product census"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "No identified full population of competing products, corresponding author-date versions or legal criterion-by-product audit was available. Government assertion alone does not establish all technical/legal alternatives.",
+      "limits": "Keep the either-EfA-or-legal disjunction: neither author nor draft should be turned into a claim that every other product necessarily fails both branches.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-a-011",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "zu notwendigen Schnittstellen verwehrt wurde",
+      "claim_en": "Federal responsible bodies denied other manufacturers necessary interface access, contributing to competing services’ failure to meet the requirements.",
+      "claim_type": "empirical / technical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": false,
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-a-bsi-tr03128-3",
+          "locator": "Physical pp. 22–23, controlled outsourcing/security"
+        },
+        {
+          "source_id": "short-it-a-pauswg20a",
+          "locator": "Sovereign certificate scope"
+        },
+        {
+          "source_id": "short-it-a-dataport-fv",
+          "locator": "Backend integration"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Pre-author BSI rules confirm controlled sovereign certificates and possible outsourced writing services; current operator docs confirm backend integration. Neither identifies the alleged rejected competing front-end applications, decision dates/reasons or causal consequences.",
+      "limits": "Private backend access is not equivalent to access needed for a competing front end. Formal public-authority certificate requirements do not disprove historical administrative denial; no error inferred.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-a-012",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "von mehreren Bundesländern beklagt",
+      "claim_en": "Several Länder complained about that interface denial in previous years.",
+      "claim_type": "empirical / technical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": false,
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-a-access-search",
+          "locator": "Official-source search scope"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "No specified dated Land complaints/decisions independently identifying this alleged denial were recovered in targeted primary searches.",
+      "limits": "Absence of recovered public complaints is an access/evidence limit, not proof no complaints occurred.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-a-013",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "komplett Ende-zu-Ende digitalisierten",
+      "claim_en": "The federal approach frequently counteracts development of completely end-to-end digital services.",
+      "claim_type": "empirical / technical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": false,
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-a-dataport-fv",
+          "locator": "Technical integration pathway"
+        },
+        {
+          "source_id": "short-it-a-access-search",
+          "locator": "No matched causal project evidence"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Technical sources show feasible end-to-end messaging and integration, but do not measure the claimed counteracting causal effect or its frequency across supplier projects.",
+      "limits": "A working Hamburg service does not refute alleged effects on competing projects; do not confuse capability with realised market outcomes.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-a-014",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "in ihren Investitionsentscheidungen massiv behindert",
+      "claim_en": "Federal conduct in recent years has massively hindered manufacturers’ investment decisions.",
+      "claim_type": "empirical / technical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": false,
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-a-access-search",
+          "locator": "No matched investment records"
+        },
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical p. 4, specific service mandate"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "No identified investment decisions, projects, counterfactual investments or matched primary company evidence was located. The assertion remains an empirical causal concern, not proven solely by mandated reuse.",
+      "limits": "Massively has no stated magnitude/denominator. No unsupported-intent or error inference.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-a-015",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "melderechtlich zuständigen Behörden",
+      "claim_en": "Document-update annex processes belong to the competent document/pass-law authorities rather than registration competence as such.",
+      "claim_type": "legal / technical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s request for technically feasible, competitive and correctly allocated eWA/EfA implementation.",
+      "cited_by_author": "II draft passage quoted",
+      "check_method": "Full two-page original read before prior dispositions/peer; primary legal and operator/technical evidence, dates, functional scope and reasonable contextual alternatives checked.",
+      "evidence": [
+        {
+          "source_id": "short-it-a-pauswv19",
+          "locator": "Complete section, pre-author January 2026 header"
+        },
+        {
+          "source_id": "short-it-a-eidkg6",
+          "locator": "Competent authorities"
+        },
+        {
+          "source_id": "short-it-a-eidkg12",
+          "locator": "Paragraph 4"
+        },
+        {
+          "source_id": "short-it-a-aufenthg78",
+          "locator": "Paragraphs 5 and 7"
+        },
+        {
+          "source_id": "short-it-a-bsi-tr03128-3",
+          "locator": "Physical pp. 22–23"
+        },
+        {
+          "source_id": "short-it-a-dataport-fv",
+          "locator": "Separate XMeld/XPassAusweis roles"
+        }
+      ],
+      "result": "supported",
+      "explanation": "PAuswV19 assigns card-address steps to identity-card authorities; eIDKG6/12/14a assigns eID-card roles. AufenthG71/78(5),(7) assigns residence-document functions to foreigner authorities or other Land-designated authorities. BSI and Dataport distinguish document and registration-side roles.",
+      "limits": "Functional/legal allocation, not a claim that no municipal body can hold both responsibilities. Section78(7) permits other Land-designated authorities; no physical-separation or mandatory office-visit claim attributed. Author corrects broad draft wording, not demonstrated service impossibility.",
+      "check_completed": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "short-it-a-dnrw",
+      "title": "d-NRW AöR eWA technical and implementation description, stand March 2026",
+      "url": "https://www.d-nrw.de/kommunalvertreter-onlinezugang/verfuegbare-leistungen/elektronische-wohnsitzanmeldung",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "4f060b8bc0d8a89666268bc0ffb7b700339ffdab82a391bf6c022d2f6a627e2f",
+      "temporal_limit": "Page states March 2026, but current HTML exact historical bytes unauthenticated. It describes operator implementation, not national market shares or privately denied access.",
+      "read_extent": "Full relevant service, identity, technical interfaces and implementation sections; no linked documents downloaded.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-a-dataport-fv",
+      "title": "Dataport eWA Fachverfahren integration documentation",
+      "url": "https://docs.osi.dataport.de/public/puboddoku/fachverfahren-ertuechtigen-525435776.html",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "42d98a5f7ac4340c4eeb83a028307f55225358fc350528ce3b22ad071db93ce8",
+      "temporal_limit": "Current undated article corroborates operation, not every historical access decision or legal adequacy of independent competing front ends. Backend integration access is distinct from access needed to build a competing service.",
+      "read_extent": "Entire short article on specifications, existing solutions and costs.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-a-xpass-release25-11",
+      "title": "KoSIT XPassAusweis release history 25.11, final 31 January 2025",
+      "url": "https://www1.osci.de/sixcms/media.php/13/ReleaseHistorie-XPassAusweis.16883.pdf",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "b6434510b8ff1e094cb7f23b26ecfb3f87ba662a496229e35c7e1ba45a607944",
+      "temporal_limit": "Only relevant release-history passages read, not full standard specification or all seven short pages.",
+      "read_extent": "Cover/version identity and physical p. 5, section 2.4.1.1.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-a-bsi-tr03128-3",
+      "title": "BSI TR-03128 part 3, version 1.3, 26 March 2026",
+      "url": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil3.pdf?__blob=publicationFile&v=6",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "8f52ca127607ed3b20d4bd78b8220ac356ac6908037189d258970bc9269aba1f",
+      "temporal_limit": "Selected passages only, not full 25-page reading. Architecture/security requirements do not show which competing applicant was denied interfaces, why or when.",
+      "read_extent": "Cover; relevant legal/role passages pp. 5–9; full operation rules pp. 22–23.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-a-ozg4",
+      "title": "OZG section 4, current official clause",
+      "url": "https://www.gesetze-im-internet.de/ozg/__4.html",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "b74a1f1ba707e0625b26c6a25ee953f0715fbe11242f89e1c14303da261d80a2",
+      "temporal_limit": "Full-law header includes 6 October 2026 amendment after 14 September author. Current clause is contextual corroboration only, not exact September consolidated proof or evidence that commercial markets remained unaffected.",
+      "read_extent": "Complete clause; current full-law header separately checked through official web extraction.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-a-pauswg7",
+      "title": "PAuswG section 7, competent authorities",
+      "url": "https://www.gesetze-im-internet.de/pauswg/__7.html",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "5bd0b810da8c1040b2efdc11d6ccc1feb221f402bb537f8317dd1e64ef06c3b4",
+      "temporal_limit": "Current single norm; dated pre-author BSI/PAuswV independently corroborate relevant functional allocation. Physical offices may perform both identity and registration roles.",
+      "read_extent": "Complete short clause.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-a-pauswg20a",
+      "title": "PAuswG section 20a, sovereign certificates",
+      "url": "https://www.gesetze-im-internet.de/pauswg/__20a.html",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "ee229735609a2f8f1b41c583aad029678dac5579ceec233bfe53f72ac2baa9e9",
+      "temporal_limit": "Public authority certificate scope does not establish actual private-provider denial or a ban on all contracted private technical work.",
+      "read_extent": "Complete short clause.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-a-pauswv19",
+      "title": "PAuswV section 19, address change",
+      "url": "https://www.gesetze-im-internet.de/pauswv/__19.html",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "dc1f3a3fafc65a558d43a32090b7e21054f4c072406d3f3a725ced4011c3ed4f",
+      "temporal_limit": "Author-date baseline is pre-response. No inference that the same municipal body cannot also be the registration authority or a contractor cannot execute technical steps.",
+      "read_extent": "Complete clause; full-law header read through official web extraction, last amended 30 January 2026.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-a-eidkg6",
+      "title": "eIDKG section 6, competent authorities",
+      "url": "https://www.gesetze-im-internet.de/eidkg/__6.html",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "27caa73be1fdd6ae05a8e1d0569fe005073f6aca6b6cb5c4aa121c3882772ae5",
+      "temporal_limit": "Function-specific, not necessarily a separate building/staff. Exact historical HTML not archived.",
+      "read_extent": "Complete short clause.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-a-eidkg12",
+      "title": "eIDKG section 12, electronic identification",
+      "url": "https://www.gesetze-im-internet.de/eidkg/__12.html",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "20da52ff2c1a4fd0e0bd6cb1d7b794485a68594e09c8e4bf745b2d0a68f58784",
+      "temporal_limit": "No universal bar on outsourcing, no exclusive physical-office inference.",
+      "read_extent": "Complete clause, especially paragraph 4.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-a-eidkg14a",
+      "title": "eIDKG section 14a, sovereign certificates",
+      "url": "https://www.gesetze-im-internet.de/eidkg/__14a.html",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "533624b5780fb70b6b5b8c23f96c7bebdb6a0579f9f03ed2cef878ee213ee384",
+      "temporal_limit": "Certificate eligibility is not a record of actual denial to identified competing developers.",
+      "read_extent": "Complete short clause.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-a-aufenthg71",
+      "title": "AufenthG section 71, foreigner-authority roles",
+      "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__71.html",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "ef1ea6632342decc3fcbf6fae6563d57905c3119600fc3ab3ec5ccfb031db73b",
+      "temporal_limit": "Land designations and specific exceptions matter; no comprehensive state-law competence survey.",
+      "read_extent": "Paragraph 1 independently read in full; related section 78(7) read separately.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-a-aufenthg78",
+      "title": "AufenthG section 78, electronic residence documents",
+      "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__78.html",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "6cf9faf257db7f935c7c1a7aff40c491cc549db2ff511e7406922483593cc38c",
+      "temporal_limit": "Supports functional document competence rather than exclusive office classification. Do not assume every designated body is organisationally separate from registration office.",
+      "read_extent": "Full relevant paragraphs 5 and 7; current full-law header via official web extraction, last amended 22 July 2026.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-a-access-search",
+      "title": "Independent primary-source search for denied interfaces, Land complaints and market effects",
+      "url": "https://www.bundestag.de/",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": null,
+      "temporal_limit": "Search/access limits are not evidence allegations are false. No author contact or inference of motive.",
+      "read_extent": "Search terms electronic Wohnsitzanmeldung, Schnittstellen, private Anbieter, Hersteller and Zugang/verwehrt; relevant returned BSI, operator and implementation material checked.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-root-draft",
+      "title": "Entwurf einer Verordnung über IT-Komponenten für die elektronische Abwicklung von Verwaltungsverfahren; official consultation draft",
+      "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/ITKV_RefE_2026-09-03_barrierefrei.pdf",
+      "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-draft.pdf",
+      "sha256": "3083a6061d2f2512530d3f8f8272e564d557a3ada730660b9aa264a51780cf22",
+      "retrieved_at": "2026-10-25",
+      "temporal_limit": "Printed1September2026,18:18; filename3September not substituted. Actual addressed version to be checked against each response. Current canonical shared original retained as report/validation dependency.",
+      "archive_type": "Shared exact canonical draft PDF",
+      "usable_as_evidence": true,
+      "retention_exception": "Existing shared canonical exact-version report/validation dependency; no duplicate source archive."
+    },
+    {
+      "id": "short-it-root-accessibility",
+      "title": "Hamburg service-specific eWA accessibility declaration, last checked22April2026",
+      "url": "https://static.hamburg.de/fhh/efa-ods/bfe-ewa.pdf",
+      "retrieved_at": "2026-10-25T13:05:40.389131+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+      "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd",
+      "temporal_limit": "The actual transaction service, distinct from marketing website, declares partial compliance after April2026 assessment, naming keyboard and screen-reader defects. This supports a statement explicitly attributed to the declaration. Retrieval after response does not prove exact September bytes unchanged or that no fixes happened.",
+      "read_extent": "Complete3physicalpages through primary indexed PDF; no independent live-service accessibility test",
+      "archive_type": "Concise authored root primary-check note,not original HTML/PDF",
+      "usable_as_evidence": true,
+      "retention_exception": "Authored research and review provenance; no full new public archives retained."
+    },
+    {
+      "id": "short-it-root-dvdv",
+      "title": "FITKO DVDV registration concept eWAPa,30January2024 revision",
+      "url": "https://docs.fitko.de/dvdv/assets/files/DVDV-Eintragungskonzept_eWAPa-3800f96a193ee4aa89a6c0839b0b089b.pdf",
+      "retrieved_at": "2026-10-25T13:05:40.389131+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+      "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd",
+      "temporal_limit": "Identifies XMeld portal communication and XPassAusweis OSCI profile. Distinct passport/identity/eID authority roles receive chip-update notifications. Open specification and integration roles do not establish historical access to every restricted chip-writing interface for competing vendors.",
+      "read_extent": "Complete4physicalpages through indexed primary PDF",
+      "archive_type": "Concise authored root primary-check note,not original HTML/PDF",
+      "usable_as_evidence": true,
+      "retention_exception": "Authored research and review provenance; no full new public archives retained."
+    },
+    {
+      "id": "short-it-root-dataport-faq",
+      "title": "Dataport eWA FAQ,Version1.2,12November2025",
+      "url": "https://docs.osi.dataport.de/public/puboddoku/files/525435630/534382054/1/1743090907863/eWA_FAQ.pdf",
+      "retrieved_at": "2026-10-25T13:05:40.389131+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+      "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd",
+      "temporal_limit": "Technical operation uses XMeld/OSCI and XPassAusweis, with separate office functions and automatic end-stage identity update. This is not proof every other provider was denied interface access. Provider describes training and rollout infrastructure; it does not quantify the counterfactual effect of subsidy or compel actual user uptake.",
+      "read_extent": "Header,selectedphysical3–7,complete22–24,selected28–32; notfull35pages",
+      "archive_type": "Concise authored root primary-check note,not original HTML/PDF",
+      "usable_as_evidence": true,
+      "retention_exception": "Authored research and review provenance; no full new public archives retained."
+    },
+    {
+      "id": "short-it-root-ozg4-current",
+      "title": "Current OZG §4,after October2026amendment",
+      "url": "https://www.gesetze-im-internet.de/ozg/__4.html",
+      "retrieved_at": "2026-10-25T13:05:40.389131+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+      "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd",
+      "temporal_limit": "Current authority covers specified IT components and preserves Länder deviation under stated suitable-portal-component conditions. Post-author amended consolidation cannot be silently substituted for September law; dated historical reconstruction required. Mandatory default need not mean abolition of all exceptions or face-to-face registration.",
+      "read_extent": "Complete§4",
+      "archive_type": "Concise authored root primary-check note,not original HTML/PDF",
+      "usable_as_evidence": true,
+      "retention_exception": "Authored research and review provenance; no full new public archives retained."
+    },
+    {
+      "id": "short-it-root-bmg",
+      "title": "Current BMG §§23a/24",
+      "url": "https://www.gesetze-im-internet.de/bmg/__23a.html",
+      "retrieved_at": "2026-10-25T13:05:40.389131+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+      "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd",
+      "temporal_limit": "Electronic registration and confirmation structure coexist with written confirmation for ordinary registrations. Exact historical clause identity must be checked separately; no end-to-end nationwide implementation or quantitative benefit inferred from statutory permission.",
+      "read_extent": "Completebothsections",
+      "archive_type": "Concise authored root primary-check note,not original HTML/PDF",
+      "usable_as_evidence": true,
+      "retention_exception": "Authored research and review provenance; no full new public archives retained."
+    }
+  ],
+  "exclusions": [
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        1
+      ],
+      "reason": "Exact membership count, address and association self-description are incidental credentials; market-share and historical capability premises separately retained. Approval of nationwide online access and high utility are values. Good service/quality and implementation requirements are expert judgements. Requiring equal quality before future expansion and avoiding unreasonable future connection work are preferences/forecasts; actual interface standards and conditional adaptation-cost mechanism separately checked."
+    },
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        2
+      ],
+      "reason": "Headings, author/date, board signature and contact layout are provenance/incidental; no delivery inferred. All substantive historical interface/Land/investment allegations and legal role descriptions retained. No normative critique converted into a factual finding."
+    }
+  ],
+  "visual_checks": [
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_pages": [
+        2
+      ],
+      "purpose": "Rendered original verifies grouped interface/investment assertions and functional-authority paragraph in full context."
+    }
+  ],
+  "limitations": [
+    "Both original physical pages independently read before prior screening outcomes or peer inventory. All 15 claim anchors checked against fresh layout text.",
+    "Finite three-formal-external-response batch only; no whole twelve-reply ITKV closure, national prevalence or new reading unit inferred.",
+    "Current OZG includes 6 October 2026 amendment after author date, so not used as unauthenticated September legal proof. Pre-author dated BSI/KoSIT/PAuswV evidence separately identified.",
+    "Shared draft printed 1 September 2026 matches the author’s three quoted passages; exact actual dispatch not verified. New supporting downloads temporary, concise check notes retained.",
+    "No author contact, intent inference or human specialist confirmation. No error candidate proposed; strong unverified market/access allegations remain unresolved."
+  ],
+  "candidate_errors": [],
+  "counts": {
+    "documents": 1,
+    "physical_pages": 2,
+    "claims": 15,
+    "results": {
+      "unresolved": 9,
+      "supported": 6
+    }
+  }
+}

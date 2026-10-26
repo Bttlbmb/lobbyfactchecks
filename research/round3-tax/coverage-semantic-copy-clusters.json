@@ -1,0 +1,25 @@
+{
+  "clusters": [
+    {
+      "id": "dk-crypto-20261015",
+      "registered_ids": [
+        "SG2610190011",
+        "SG2610150030",
+        "SG2610150023",
+        "SG2610150020",
+        "SG2610150018",
+        "SG2610150012"
+      ],
+      "author": "Die Deutsche Kreditwirtschaft",
+      "date_on_cover": "2026-10-15",
+      "reason": "Sixregistered copies have identical normalised text on pages2–8; different cover redaction/metadata, not six distinct authored positions.",
+      "body_text_normalisation": "Remove all Unicode whitespace after first formfeed, thenSHA256",
+      "body_normalised_sha256": "cc07fe27fcc818a0",
+      "hash_is_prefix": true,
+      "retain_all_recipient_events": true
+    }
+  ],
+  "limitations": [
+    "Text identity after a cover is strong duplicate evidence, not a reason to erase different actual submissions/transmittals."
+  ]
+}

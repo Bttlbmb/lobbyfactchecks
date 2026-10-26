@@ -1,0 +1,120 @@
+{
+  "law_id": "abortion-access-motion-2026",
+  "document_id": "1000plus-abortion-20260414",
+  "status": "ai_screened",
+  "draft": {
+    "title": "Versorgung bei Schwangerschaftsabbrüchen sichern",
+    "version": "BT 21/3909,28 January 2026; parliamentary motion, not an enacted bill",
+    "source_id": "abortion-motion213909",
+    "submission_date": "2026-04-14",
+    "hearing_date": "2026-04-15",
+    "relevant_provision": "MotionII requests access measures including staffing and telemedical support; the historical arithmetic is independent of later outcomes.",
+    "process_status_at_screen": "Motion considered at 15 April 2026 public hearing; exact target is the January motion, not the 2024-2025 abortion reform bill."
+  },
+  "author_response": [],
+  "id": "abortionaccess2026-1000plus-social03",
+  "finding_state": "unresolved_lead",
+  "severity": "major",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "A parliamentary motion to improve access to abortion services, including telemedical support.",
+    "they_want": "Reject the motion; the same section requests stricter regulation of existing home medication abortion.",
+    "they_claim": "Scientific studies confirm elevated psychological risks for home medication abortion.",
+    "the_problem": "The cited studies assess abortion history broadly; whether the wording wrongly implies setting-specific evidence remains unresolved."
+  },
+  "claim_quote": {
+    "original": "die häusliche medikamentöse Abtreibung mit erhöhten psychischen Risiken einhergeht",
+    "language": "de",
+    "translation_en": "Translation of claim fragment: home medication abortion is associated with elevated psychological risks",
+    "locator": {
+      "pdf_page": 10,
+      "printed_page": 10,
+      "section": "e) Ausbau telemedizinischer Betreuung und Beratung",
+      "paragraph": "First paragraph, footnote 25, continuing the section begun on page 9"
+    },
+    "underline": "häusliche medikamentöse Abtreibung"
+  },
+  "request_quote": {
+    "original": "den vorliegenden Antrag abzulehnen.",
+    "language": "de",
+    "translation_en": "Translation of request fragment: to reject the present motion.",
+    "locator": {
+      "pdf_page": 12,
+      "printed_page": 12,
+      "section": "Fazit zum vorgelegten Antrag",
+      "paragraph": "First paragraph, final clause"
+    }
+  },
+  "additional_request_evidence": {
+    "locator": {
+      "pdf_page": 10,
+      "printed_page": 10,
+      "paragraph": "Third paragraph, beginning with the stated conclusion"
+    },
+    "paraphrase": "The author expressly requests review and stricter regulation of medication abortions at home instead of expanding telemedical services. This is a paraphrase, not a quotation."
+  },
+  "counter_quote": {
+    "original": "Whether the woman reported having an elective abortion during the interval.",
+    "language": "en",
+    "source_id": "fergusson-2008",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": 445,
+      "section": "Pregnancy and abortion (15–30 years)",
+      "list_item": "(a)"
+    },
+    "retrieved_at": "2026-10-25",
+    "note": "This is the primary study’s pregnancy-outcome variable. It does not itself refute risks in any subset."
+  },
+  "correction": "The primary studies need to be described with their actual exposure and outcome scope. Fergusson uses elective-abortion history, without a home-medication comparison. Coleman synthesises broad abortion-history associations. Gissler studies external-cause mortality after pregnancy outcomes, not rates of PTSD, guilt or depressive episodes. This scope check does not establish that the claimed clinical association is false.",
+  "effect": "If readers understand the passage as claiming direct evidence that the home or medication setting adds psychological risk, that evidentiary premise for stricter regulation would be weaker. Applying general abortion evidence cautiously to a subset is an alternative interpretation.",
+  "limits": "No comparison group is specified in the author’s phrase elevated risks. Home medication abortion is a subset of abortion, so general evidence may be relevant without testing that particular method or setting. The adjacent personal accounts and other cited clinical material are distinct evidence; their absence from these studies does not refute them. No clinical safety, causal-effect or policy conclusion is established. No intent is inferred.",
+  "context_and_alternatives": [
+    "Full 12-page author submission and exact 4-page motion read; pages 9–10 describe counselling experiences and individual anonymous accounts before citing three scientific papers.",
+    "Fergusson 2008 compares pregnancy outcomes and common mental-health disorders. Its discussion supports a modest association while acknowledging residual confounding and rejecting very large-effect readings; it does not stratify by home setting or medication method.",
+    "Coleman 2011 pools depression, anxiety, substance use and suicidal behaviour associated with abortion history. It cites earlier medical-versus-surgical literature in its background, so it would be excessive to say the paper contains no reference to medication abortion. That is different from a pooled home-setting estimate.",
+    "Gissler 2005 uses linked Finnish registers for 1987–2000 and external-cause deaths. Its discussion considers common risk factors and missing background information; it does not directly measure the three psychological outcomes named in the submission.",
+    "The author may be applying a broad risk claim to a subset, rather than claiming a home-versus-clinic comparison. This unresolved benign reading prevents promotion to a finding."
+  ],
+  "materiality_explanation": "Potentially major if a setting-specific comparative evidence claim were established: the passage directly supports restricting home medication abortion and opposing telemedical expansion. This is potential materiality, not a finding that the clinical claim is false.",
+  "direction_explanation": "Null while the meaning and mismatch remain unresolved. A confirmed overstatement of setting-specific evidence would support the author’s restriction request; that conditional relationship is not a finding.",
+  "confidence": {
+    "text_source_mismatch": "unresolved: exposure and outcome scopes are documented, but the author’s intended comparison and general-to-subset inference are ambiguous",
+    "materiality": "editorial_judgment"
+  },
+  "submission_source_id": "1000plus-abortion-20260414",
+  "source_ids": [
+    "1000plus-abortion-20260414",
+    "abortion-motion213909",
+    "fergusson-2008",
+    "coleman-2011",
+    "gissler-2005"
+  ],
+  "source_registry": "research/round2-social/sources.json",
+  "verification": {
+    "visual": "Original author page 10 and Fergusson page 2 rendered and visually inspected. Coleman primary publisher PDF read for synthesis, outcomes and limits. Gissler original 5-page publisher PDF was available through the web reader; direct local download was 403, so no local PDF archive is claimed.",
+    "quotation_budget": "Together with the arithmetic record, unique quoted author words remain below 25; the page 12 request is reused rather than expanded."
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "tax_consultations_ai_agent",
+        "path": "research/round2-reviews/tax-reviews-1000plus-home-scope.json",
+        "outcome": "retain_unresolved_lead_null"
+      }
+    ]
+  },
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as unresolved source-scope lead. No false clinical-risk finding; independent adversarial review requested.",
+      "by": "social_round 2_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent tax AI review retained unresolved/null after primary evidence and benign general-to-subset reading.",
+      "by": "social_round 2_ai_screen"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "netzpaket2026-bee-map-a01",
+  "law_id": "netzanschlusspaket-2026",
+  "document_id": "bee-netzpaket-20260930",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Grid connection priorities, congestion rules and digital connection procedures.",
+    "they_want": "Require current network data and faster, uniform digital grid procedures.",
+    "they_claim": "Grey areas in a regulator map are among regions whose grid operators lag dramatically in digitalisation.",
+    "the_problem": "The map defines grey as missing data or an index that could not be calculated, rather than measured poor digitalisation."
+  },
+  "claim_quote": {
+    "original": "rote und graue Flächen. In diesen Regionen hinken die Verteilnetzbetreiber",
+    "language": "de",
+    "translation_en": "Translation of fragment: red and grey areas. In these regions the distribution-system operators lag",
+    "locator": {
+      "pdf_page": 18,
+      "printed_page": 17,
+      "section": "2.5 Digitalisierung der Netzinfrastruktur voranbringen, paragraph discussing Figure 4"
+    },
+    "underline": "graue Flächen"
+  },
+  "additional_claim_quote": {
+    "original": "dramatisch hinterher",
+    "language": "de",
+    "translation_en": "Translation of fragment: dramatically behind",
+    "locator": {
+      "pdf_page": 18,
+      "printed_page": 17,
+      "section": "Same sentence, concluding words"
+    }
+  },
+  "request_quote": {
+    "original": "müssen gesetzlich verpflichtet werden, tagesaktuelle Daten zur",
+    "language": "de",
+    "translation_en": "Translation of request fragment: must be legally required [to provide] daily data on",
+    "locator": {
+      "pdf_page": 19,
+      "printed_page": 18,
+      "section": "First paragraph, continuing request for network-utilisation, reserve and planned-expansion information"
+    }
+  },
+  "counter_quote": {
+    "original": "Grau – zu einer spezifischen Kennzahl liegen für einen Elektrizitätsverteilernetzbetreiber keine Daten vor oder die Kennzahlenwerte konnten nicht berechnet werden.",
+    "language": "de",
+    "translation_en": "Translation: Grey means that no data are available for a specific indicator for a distribution-system operator or the indicator values could not be calculated.",
+    "source_id": "bnetza-map-manual-2026",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 3,
+      "section": "Farbgebung in der Karte, grey-colour bullet"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The regulator defines grey as unavailable data or an indicator that could not be calculated. It cannot be read as an observed low digitalisation score. The manual also makes clear that the green-to-red scale is relative to values within the dataset; this supports caution about absolute judgments but is not a separate issue here.",
+  "effect": "Weakens the claim that the reproduced map demonstrates dramatic digitalisation deficits in the grey areas. The other coloured areas may still support the author’s broader concern.",
+  "limits": "This does not establish that operators in grey areas are well digitalised, that missing data are unimportant, or that the requested digitalisation and disclosure duties are unwise. It concerns an affirmative description of the map, not inference that absent evidence proves good performance. The paragraph may be intended as a collective regional summary rather than a categorical judgment about each grey operator; independent review considered that alternative but retained the narrow map-description mismatch.",
+  "context_and_alternatives": [
+    "The paragraph expressly introduces an official geographical map as evidence. It lists orange, red and grey areas together, then assigns lagging measurement, smart-meter and automated-connection performance to these regions. Figure 4 reproduces the map on the next page without a colour legend.",
+    "A broad description of regional unevenness could reasonably include both low measured performance and information gaps. The finding is limited to the more specific following claim about dramatic operational digitalisation lags in the grey areas.",
+    "Missing information itself could support disclosure requirements. That does not turn grey into a measured performance grade. The actual performance of the grey operators has not been established."
+  ],
+  "draft": {
+    "version": "Government BT 21/7866, 7 September 2026; hearing 7 October 2026 with accompanying BT 21/8299.",
+    "source_id": "netzpaket-bt217866",
+    "submission_date": "2026-09-30",
+    "version_check": "Official committee cover 2 October 2026 identifies the Netzanschlusspaket hearing and government bill. BEE repeatedly describes the revised government provisions, including 5 percent threshold, 18 percent wind/20 percent other compensation waiver and 18 month extension. The exact bill § 17 c–17 e, physical 10–11, contains monthly data updating and digital-portals duties from 2028; the author seeks stronger duties. No later adopted text substituted."
+  },
+  "materiality_explanation": "Minor: the error concerns one piece of supporting map evidence for stronger digitalisation duties. It does not invalidate the broader policy case or measured deficits elsewhere.",
+  "direction_explanation": "True for the narrow evidential use: treating unmeasured grey areas as additional measured laggards broadens the depicted operational problem supporting the request. The correction does not resolve the actual direction of unknown operators’ performance.",
+  "confidence": {
+    "text_source_mismatch": "high for grey legend; collective-summary interpretation considered in independent review",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "agent": "tax_consultations_ai_agent",
+        "date": "2026-10-25",
+        "result": "Retain narrow provisional minor finding; direction true for attributing measured deficits to grey areas, not actual operator performance.",
+        "review_file": "research/round2-reviews/tax-reviews-bee-map.json"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full submission and 10-page regulator map manual were read; independent adversarial review requested.",
+      "by": "energy_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent full-context review retained narrow minor/true finding and tested the collective-summary alternative.",
+      "by": "energy_ai_screen"
+    }
+  ],
+  "sources": [
+    {
+      "id": "bee-netzpaket-20260930",
+      "title": "BEE positionspapier 30 September 2026; Bundestag cover 2 October 2026, A-Drs 21(9)374",
+      "url": "https://www.bundestag.de/resource/blob/1222240/Stellungnahme-Bundesverband-Erneuerbare-Energie-e-V-BEE-.pdf",
+      "local_file": "research/round2-energy/sources/bee-netzpaket-202610.pdf",
+      "retrieved_at": "2026-10-25",
+      "sha256": "0f1a0c43d93ffa563acc2646a9e500dc4acb41e0e8d088d555e1c98867512c29"
+    },
+    {
+      "id": "bnetza-map-manual-2026",
+      "title": "Bundesnetzagentur: Deutschlandkarte zur Versorgungsqualität 2024, 10-page manual linked from July 2026 release",
+      "url": "https://www.bundesnetzagentur.de/DE/Beschlusskammern/1_GZ/GBK-GZ/2024/GBK-24-02-1x4_Q-Reg/Downloads/Erklaerung_Karte.html?nn=1031400",
+      "local_file": "research/round2-energy/sources/bnetza-map-manual-2026.pdf",
+      "retrieved_at": "2026-10-25",
+      "sha256": "e7a196115716fb8ac1f675eb9d2ad787a7b9776fdd4c83642a729beb59ef0626"
+    },
+    {
+      "id": "netzpaket-bt217866",
+      "title": "Government Netzanschlusspaket BT 21/7866,7 September 2026",
+      "url": "https://dserver.bundestag.de/btd/21/078/2107866.pdf",
+      "local_file": "research/round2-energy/sources/netzpaket-bt217866.pdf",
+      "retrieved_at": "2026-10-25",
+      "sha256": "28e3b58a51564713f0265854f008a9b0a94796e8ed97de211824db306644c80c"
+    }
+  ],
+  "source_ids": [
+    "bee-netzpaket-20260930",
+    "bnetza-map-manual-2026",
+    "netzpaket-bt217866"
+  ],
+  "verification": {
+    "quote_budget": "Author submission 21 words across claim fragments and request, below 25; regulator manual 24 words. No further quotations from these sources should be added without counting.",
+    "visual": "Submission physical pages 18–19 and manual physical page 3 rendered and visually read; the grey definition, footnote and surrounding request checked."
+  }
+}

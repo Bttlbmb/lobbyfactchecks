@@ -1,0 +1,140 @@
+{
+  "law_id": "geowg-2024",
+  "document_id": "muellersyhre-geowg-20241031",
+  "status": "ai_screened",
+  "request_quote": {
+    "quote_id": "muellersyhre-geowg-request",
+    "metadata_file": "research/round2-energy/source-registry.json"
+  },
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Beschleunigung der Genehmigungsverfahren von Geothermieanlagen,Wärmepumpen und Wärmespeichern sowie zur Änderung weiterer rechtlicher Rahmenbedingungen für den klimaneutralen Ausbau der Wärmeversorgung",
+    "version": "BT 20/13092,30 September 2024; companion comments/replyBT 20/13556,30 October 2024",
+    "source_id": "geowg-bt2013092",
+    "additional_source_id": "geowg-bt2013556",
+    "submission_date": "2024-10-31",
+    "date_note": "Official committee-cover date; author text has no separate date. Hearing 4 November 2024.",
+    "relevant_provision": "Geothermal heat and heat-network expansion rationale; accelerated permitting. The source claims and arithmetic are assessed against this draft, not later legislation.",
+    "process_status_at_screen": "2024 process lapsed with the 20 thBundestag; later reintroduced legislation is not substituted."
+  },
+  "submission_source_id": "muellersyhre-geowg-20241031",
+  "source_ids": [
+    "muellersyhre-geowg-20241031",
+    "geowg-bt2013092",
+    "geowg-bt2013556"
+  ],
+  "source_registry": "research/round2-energy/source-registry.json",
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_round2_independent_ai",
+        "date": "2026-10-25",
+        "disposition": "retain unresolved; affirmative alternative interpretation",
+        "review_file": "research/round2-reviews/social-reviews-muellersyhre-geowg.json"
+      }
+    ],
+    "follow_up_checks": [
+      {
+        "review_file": "research/round2-reviews/root-followup-geowg-arithmetic.json",
+        "scope": "Independent root calculation check only; not an additional full primary-source read or specialist review"
+      }
+    ]
+  },
+  "author_response": [],
+  "verification": {
+    "visual": "Full20author pages plus cover independently read; critical pages12–15/21visually checked. See review."
+  },
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full submission/exact-draft check; independent review requested.",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Downgraded following independent adverse review: actual delivery costs could be substantially above the loose 2.8%lower bound; no actual economic falsehood proved.",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent full-context review completed; disposition updated or retained conservatively.",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Root integration preserves the literal joint expectation instead of implying a universal sufficient threshold; added the near-three-percent threshold under the separately corrected comparator as another benign explanation.",
+      "by": "root_ai_screen"
+    }
+  ],
+  "id": "geowg2024-muellersyhre-a02",
+  "finding_state": "unresolved_lead",
+  "severity": "major",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Accelerating geothermal heat, heat-pump and heat-storage permits.",
+    "they_want": "Reject the whole bill.",
+    "they_claim": "Delivery costs are expected to exceed 2.8%, and the resulting monetary heat-pump ratio is below 1.",
+    "the_problem": "The stated lower bound alone is insufficient; actual higher delivery costs could still make the ratio below 1."
+  },
+  "claim_quote": {
+    "original": "deutlich kleiner als 1",
+    "language": "de",
+    "translation_en": "Translation: significantly less than 1",
+    "locator": {
+      "pdf_page": 15,
+      "printed_page": 14,
+      "section": "3.1.1 Monetärer Aufwands-/Nutzenvergleich",
+      "paragraph": "First paragraph; the claimed result follows from delivery infrastructure costing more than 2.8% of raw-energy costs."
+    },
+    "underline": "kleiner als 1"
+  },
+  "additional_claim_quote": {
+    "original": "mehr als 2,8%",
+    "language": "de",
+    "translation_en": "Translation: more than 2.8%",
+    "locator": {
+      "pdf_page": 15,
+      "printed_page": 14,
+      "section": "3.1.1 Monetärer Aufwands-/Nutzenvergleich",
+      "paragraph": "Same sentence, delivery-cost lower bound."
+    }
+  },
+  "counter_quote": {
+    "original": "1,592",
+    "language": "de",
+    "source_id": "muellersyhre-geowg-20241031",
+    "locator": {
+      "pdf_page": 14,
+      "printed_page": 13,
+      "section": "3.1.1",
+      "paragraph": "Monetary-ratio equation immediately preceding the challenged conclusion."
+    },
+    "retrieved_at": "2026-10-25",
+    "note": "Quoted input/result from the same primary submission. The contradiction is established by the explicitly labelled independent calculation below, not by a fabricated external quotation.",
+    "translation_en": "Translation of numeric entry: 1.592."
+  },
+  "calculation": {
+    "label": "Independent arithmetic check, not a quotation",
+    "author_values": {
+      "heat_cents_per_kwh": 9.5,
+      "electricity_cents_per_kwh": 33,
+      "physical_COP": 4.59,
+      "claimed_price_ratio": 0.347,
+      "claimed_monetary_ratio": 1.592
+    },
+    "using_author_reported_ratio": "1.592/1.03=1.5456 if delivery costs are 3% of raw-heat cost; still above 1. If 3% is instead a retail-price share,1.592×0.97=1.5442.",
+    "correct_price_division": "9.5/33=0.2878788;4.59×9.5/33=1.3213636. At 3% of raw-heat cost this gives 1.2828773; at 3% of retail price,1.2817227.",
+    "break_even_under_stated_prices": "Delivery must exceed 32.136% of raw-heat value, or 24.321% of retail heat price, to push 1.32136 below 1. Greater-than 2.8% alone is insufficient.",
+    "scope": "Uses the author’s hypothetical inputs only. Does not establish actual tariffs, actual delivery shares, total returns or profitability.",
+    "combined_input_correction_context": "Using the independently corrected a 03 ratio 1.0310948 gives raw-heat cost break-even about 3.10948%, or retail-share break-even about 3.0157%. These are conditional calculations within the same model, not observed costs."
+  },
+  "correction": "The quoted 2.8% lower bound does not justify the claimed below-one result. A 3% delivery-cost example satisfies it while the ratio remains above 1 under either plausible denominator, even after correcting the 9.5/33 division.",
+  "effect": "The calculation leaves the below-one conclusion unestablished from the stated lower bound; it does not prove that conclusion false.",
+  "limits": "Actual delivery costs could exceed the true break-even threshold; no actual delivery-cost share is established. Capital, maintenance and other costs can still make a project unprofitable. With both comparator defects in a 03 corrected, the ratio is only 1.03109 and the raw-heat cost break-even is about 3.109%, much closer to 2.8%; this is a further benign calculation alternative. The record therefore identifies an unestablished implication from the stated lower bound, not a proved false project result. No intent is inferred.",
+  "materiality_explanation": "Major editorial judgment: a claimed operating-cost break-even result is used repeatedly to support economic infeasibility and rejection. The independent arithmetic does not validate all input assumptions or settle project economics.",
+  "direction_explanation": "Null while unresolved. If the 2.8%statement were established as a sufficient threshold, it would favour rejection; the loose-lower-bound alternative is plausible.",
+  "confidence": {
+    "text_source_mismatch": "high that the lower bound alone is insufficient; unresolved whether it is intended as a sufficient threshold",
+    "materiality": "editorial_judgment"
+  }
+}

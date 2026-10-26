@@ -1,0 +1,108 @@
+{
+  "law_id": "fernunterricht-modernisierung-2026",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "confidence": {
+    "text_source_mismatch": "unresolved_after_testing_benign_reading",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "root independent AI",
+        "verdict": "Retain unresolved/minor/null after reading all author pages and primary evidence; concrete benign reading survives.",
+        "review_file": "research/round3-reviews/root-reviews-bdue-fees.json",
+        "specialist": null
+      }
+    ]
+  },
+  "author_response": [],
+  "draft": {
+    "source_id": "ferns-refe-ministry-20261005",
+    "addressed_version": "17 August 2026 consultation draft",
+    "exactness": "The September author response addresses the initial consultation. The current official ministry resource serves a different draft dated5October2026 at11:52. The exact17AugustPDF has not been obtained; October text is corroboration only, not silently substituted.",
+    "version_gate": "exact_addressed_August17_text_not_archived",
+    "locator": {
+      "section": "October revision Article1 andArticle3, not certification of August wording"
+    },
+    "read_extent": "October cover, operative provisions and selected related memorandum/cost sections, not blanket all29pages."
+  },
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as an unresolved wording/source lead. Exact addressed August draft and concrete benign readings remain gates. No intent inferred.",
+      "by": "social_round3_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent root adversarial review retained unresolved/minor/null; no proved factual error promoted.",
+      "by": "social_round3_ai"
+    }
+  ],
+  "id": "ferns2026-bdue-fees-social-r3-05",
+  "document_id": "bdue-ferns-20260909",
+  "card": {
+    "law_is_about": "Repealing the FernUSG approval regime and changing distance-learning funding rules.",
+    "they_want": "Abolish the FernUSG.",
+    "they_claim": "Official approval fees for one course are in the middle-to-high four-digit range.",
+    "the_problem": "Official fees depend on course price and start at1050EUR for ordinary approval, with lower rates for some cases. The author may be describing typical courses rather than a universal minimum; that empirical reading is untested."
+  },
+  "claim_quote": {
+    "original": "mittleren bis hohen vierstelligen Bereich",
+    "language": "de",
+    "translation_en": "Translation of fragment: middle-to-high four-digit range",
+    "locator": {
+      "pdf_page": 2,
+      "section": "Article1, Begründung, paragraph on single-course ZFU approval fees"
+    },
+    "underline": "mittleren bis hohen vierstelligen Bereich"
+  },
+  "request_quote": {
+    "original": "Wir begrüßen die Abschaffung des FernUSG ausdrücklich sehr.",
+    "language": "de",
+    "translation_en": "Translation: We expressly and strongly welcome abolition of the FernUSG.",
+    "locator": {
+      "pdf_page": 2,
+      "section": "Article1, opening position"
+    }
+  },
+  "counter_quote": {
+    "original": "Mindestgebühr 1.050,00 Euro",
+    "language": "de",
+    "translation_en": "Translation: minimum fee1050.00euros",
+    "source_id": "zfu-fees-20230816",
+    "locator": {
+      "pdf_page": 1,
+      "section": "Tariff13.2.1; preceding row150%of saleprice"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The original ZFU schedule dated16August2023 sets ordinary first approval at150%of the course sale price, minimum1050EUR; approval following provisional approval uses200%with the same minimum. The fee is not universally middle/high four digits. A September2,2026BayernPortal administrative description corroborates the ordinary minimum and mentions reductions for course prices below250EUR. Middle/high four-digit fees can nevertheless arise for sufficiently expensive courses.",
+  "effect": "Unresolved. A universal fee-band reading overstates lower-cost course fees, which could amplify the cost argument for repeal. A description of the usual fee on the courses the association has in mind is not refuted merely by a lower statutory minimum.",
+  "limits": "No actual BDÜ fee assessment or representative course-price dataset has been obtained. Does not prove that1050EUR is affordable for short webinars, that all webinars need approval, or that repeal is unwise. Separate documentation effort is explicitly additional in the author text and must not be conflated with the official fee.",
+  "context_and_alternatives": "All three author pages read from OCR and cleaner register text; original physical2 visually checked. The paragraph immediately mentions90-minute webinars, making lower-price examples relevant, but does not explicitly claim a legal minimum or quote the tariff. Strongest rescue is an experiential typical-fee range. Fee schedule is a pre-author original; exact addressed August draft remains unavailable.",
+  "materiality_explanation": "Potentially minor numerical range issue: lower fees weaken the scale of the burden illustration, but meaningful fixed cost and documentation effort remain. A major change to the repeal argument is not established.",
+  "direction_explanation": null,
+  "submission_source": {
+    "url": "https://www.bmbfsfj.bund.de/resource/blob/294346/936398c558d39f50ba637a731d87d836/bdue-data.pdf",
+    "local_file": "research/round3-social/coverage-pdfs/4d5aa803811a86521f.pdf",
+    "authored_date": "2026-09-09",
+    "register_id": "SG2609090008",
+    "reported_recipient_date": "2026-09-09",
+    "reported_delivery_independently_verified": false
+  },
+  "reading_depth": {
+    "author": "Full three physical pages via OCR and full cleaner SG mirror text; original physical2 visually checked.",
+    "counter_source": "Entire one-page ZFU fee schedule; selected official NRWtariff and BayernPortal2September2026cost section."
+  },
+  "source_ids": [
+    "bdue-ferns-20260909",
+    "zfu-fees-20230816",
+    "nrw-averwgebo-20230808-tariff13",
+    "bayernportal-fernzulassung-20260902",
+    "ferns-refe-ministry-20261005"
+  ]
+}

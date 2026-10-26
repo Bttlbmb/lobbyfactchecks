@@ -1,0 +1,60 @@
+{
+  "candidate_id": "pnog2026-wir-care-share-root-r4-01",
+  "not_issue_record": true,
+  "status": "ai_screened",
+  "checked_at_utc": "2026-10-25T08:44:42.823901+00:00",
+  "prior_record": "research/round4-root/pnog2026-wir-care-share-root-r4-01.json",
+  "disposition": "Retain unresolved lead; do not promote a factual or source-description error.",
+  "recommended_finding_state": "unresolved_lead",
+  "recommended_severity": "minor",
+  "recommended_favours_author_request": null,
+  "what_new_evidence_resolves": [
+    "Author provenance: foundation-hosted1September2026PDF is byte-identical to register SG2609240044. The letter itself supplies no release/year/table/footnote, so no hidden citation was missed.",
+    "Earlier author context links the number to recipients: May2025author release uses86%home-care recipients; July2025PKGresponsephysical2 likewise describes recipients in the home setting. October2025responsephysical2 uses recipient wording andphysical11 compresses it to reliance on family care. This supports a likely recipient/location origin, not proof of the actual drafting method.",
+    "Exact primary table identifies4,888,882home-care recipients of5,688,473total,85.9%rounded86%;1,100,672of the home group receive care together with or through ambulatory services. Table footnotes identify benefit categories, not hours.",
+    "The regulation independently separates recipient categories and professional staff variables. Historical2017quality report agrees but is not mislabelled2023. The separate time-use survey measures diary activities under a different framework."
+  ],
+  "arithmetic": {
+    "home_recipients": 4888882,
+    "total_recipients": 5688473,
+    "ratio_percent_unrounded": 85.94366185793622,
+    "published_percent": 85.9,
+    "rounded_whole_percent": 86,
+    "unit": "care recipients at a statistical reference date, not care hours/tasks/work value"
+  },
+  "what_remains_unresolved": [
+    "The precise Destatis source intended by the1Septemberletter is still not cited. Earlier author formulations do not uniquely authenticate which table or release was used.",
+    "Care work may be loose shorthand for caring arrangements or social reliance, rather than a claimed measured percentage of hours. No operational definition of civil society or care-work numerator/denominator is supplied.",
+    "Home recipients can have substantial unpaid help as well as professional services; institutional recipients can also receive family help. Neither exclusion nor inclusion yields a corrected national work-share estimate.",
+    "Another survey/calculation could support a similar volume share; failure to locate it is not proof it does not exist.",
+    "Exact PNOG draft addressed by the open letter remains unverified. June5draft is context only; laterJune/Octoberauthor statements do not retroactively identifySeptemberversion."
+  ],
+  "materiality": "A recipient/location statistic cannot by itself measure a work share, but the broad importance of home/family care and the binding-participation request remain. Potential source-description imprecision is minor on present evidence; no quantified policy consequence proved.",
+  "direction": "Null. The actual work-share numerator and denominator remain unknown. No direction of an actual numerical correction can be established.",
+  "policy_request_evidence": {
+    "reference": "Existing request_quote and surrounding complete physical2 in prior record; no new quotation added.",
+    "effect_limit": "Neither a source-measure correction nor unresolved status establishes that binding participation is unwise."
+  },
+  "primary_locator_summary": [
+    {
+      "source_id": "r5-destatis-caretypes-2023",
+      "locator": "Entire table, rows Insgesamt; Pflegebedürftige zu Hause versorgt; together with/through ambulatory services; footnotes1–3"
+    },
+    {
+      "source_id": "destatis-pflege-2023-release478",
+      "locator": "Heading on almost nine in ten home-care recipients; first three paragraphs; methodology"
+    },
+    {
+      "source_id": "r5-pflegestatv-current",
+      "locator": "§1 and§2(1)nos2,4;§2(2)no2, physical1–2"
+    }
+  ],
+  "no_conclusions": [
+    "No corrected national unpaid-care/work share.",
+    "No inference of intent or author method.",
+    "No adverse efficacy, economic or participation-policy conclusion.",
+    "No new issue or compiled-data mutation."
+  ],
+  "independent_review_requested": true,
+  "author_response": []
+}

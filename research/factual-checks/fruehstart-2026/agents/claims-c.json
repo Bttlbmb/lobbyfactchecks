@@ -1,0 +1,1633 @@
+{
+  "agent": "c",
+  "batch": "fruehstart-2026",
+  "created_at": "2026-10-25T11:09:47.753171+00:00",
+  "initial_inventory_frozen": true,
+  "documents": [
+    {
+      "id": "hearing-1216340-response-006",
+      "author": "Initiative Digitale Altersvorsorge; submitted for the Thomas Soltau, Smartbroker AG hearing contribution",
+      "author_date": "2026-09-25",
+      "submission_date_verified": false,
+      "url": "https://www.bundestag.de/resource/blob/1218028/07-Soltau-Thomas.pdf",
+      "local_file": "research/round3-tax/sources/hearing-1216340-response-006.pdf",
+      "sha256": "8b31335f8558f20ded06e64675fdf1fd9196f9d06f0188c2ad2865465c8632c5",
+      "physical_pages": 8,
+      "external_submission": true,
+      "depth": "full_submission",
+      "read_round": "round3-tax",
+      "evidence_log": "research/round3-tax/research-log.json",
+      "pilot_text": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-006.txt",
+      "page_scope": "Physical PDF pages, including covers and appendices where present.",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "fully_read": true,
+      "read_method": "Complete pdftotext -layout page text; selected ambiguous passages also visually inspected."
+    },
+    {
+      "id": "hearing-1216340-response-007",
+      "author": "Verbraucherzentrale Bundesverband",
+      "author_date": "2026-09-22",
+      "submission_date_verified": false,
+      "url": "https://www.bundestag.de/resource/blob/1221682/08-Verbraucherzentrale-Bundesverband-e-V-.pdf",
+      "local_file": "research/round2-tax/sources/vzbv-fruehstart-20260922.pdf",
+      "sha256": "38cf33d940ad44399222dd5a258e7fa9dde4906f110758c62cad821998092ad9",
+      "physical_pages": 11,
+      "external_submission": true,
+      "depth": "full_submission",
+      "read_round": "round2-tax",
+      "evidence_log": "research/round2-tax/research-log.json",
+      "pilot_text": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-007.txt",
+      "page_scope": "Physical PDF pages, including covers and appendices where present.",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "fully_read": true,
+      "read_method": "Complete pdftotext -layout page text; selected ambiguous passages also visually inspected."
+    }
+  ],
+  "claims": [
+    {
+      "id": "fruehstart-2026-c-001",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "Standard-Depots",
+      "claim_en": "The draft uses standard retirement depots subject to a cost cap.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§3 and rationale"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 3(1) incorporates the standard-depot certification route. It does not itself set a new cap in § 3(2); the cap derives from the incorporated future standard-depot framework.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-002",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "Physical PDF page 2,3",
+      "original_excerpt": "Zuzahlungsmöglichkeiten",
+      "claim_en": "Third parties may top up the state contributions.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§3(3), §29(2)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 3(3) permits annual additional payments up to€6,840; the prohibition on third-party tax deduction does not prohibit payment.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-003",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "Volljährigkeit",
+      "claim_en": "At18 the accumulated assets can transfer into a regular certified retirement product.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§9(2),12(2)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 12(2) allows full transfer to another certified pension contract; the adult late-contract route also permits more than the standard depot.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-004",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "35. Lebensjahres",
+      "claim_en": "The late-contract option remains available up to the 35-year age boundary.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§9(2)–(3)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 9(2)–(3) sets the 35-year boundary; timing of conclusion and quarter data receipt matters.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-005",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "keine Beratung erforderlich",
+      "claim_en": "The standard-depot proposal removes the duty to provide advice.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Article6 no1b, physicalp21"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Article 6 addsAltZertG § 1(1f) stating advice is not owed, including insurance contracts, while retaining the wishes/needs requirement.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-006",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "nicht alle Jahrgänge",
+      "claim_en": "The starting cohort design includes the six-year-old cohorts rather than all current minors.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§30; cover and rationale"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 30 phases eligibility from the 2020 cohort, followed by 2021 and subsequent six-year-old cohorts. It does not retroactively enrol all older children for grants.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-007",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "Dynamisierung",
+      "claim_en": "Third-party top-ups receive no contribution deduction, and the grant/top-up cap are not indexed.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§2(1),3(3),29(2)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 29(2) prevents parents/third parties deducting their expenditure; § § 2,3 fix amounts without an indexation mechanism. Returns are treated separately; “no tax support” is contextual shorthand for no contribution deduction.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-008",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "bereits vom Kostendeckel erfasst",
+      "claim_en": "Acquisition/distribution charges would already be captured by the standard-depot cost ceiling.",
+      "claim_type": "legal interpretation",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§3 and cost-rules incorporation"
+        },
+        {
+          "source_id": "fruehstart-2026-c-altzertg",
+          "locator": "CurrentPDF header26May2026; lacks future-effective§1c text"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The incorporated effective-cost concept may aggregate multiple cost forms, but the exact future-effective May reform definition was not independently recovered. A cost ceiling also differs from a prohibition on a particular charge.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-009",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "bestimmte Vertriebsformen",
+      "claim_en": "Banning acquisition/distribution charges effectively excludes certain distribution channels and inhibits transparent cost presentation.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§3(2)no1"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Distribution has real inputs but the claim that particular channels cannot operate within a zero-separate-charge/capped-price framework depends on business models and fee allocation. No independent empirical comparison was recovered.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-010",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "nur für die Rentenphase",
+      "claim_en": "The capital is usable only in retirement, restricting the attractiveness of top-ups; the author proposes early education withdrawals.",
+      "claim_type": "legal interpretation",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§2(4),§3(2)no3; rationalepp38–39"
+        },
+        {
+          "source_id": "fruehstart-2026-c-july-mirror",
+          "locator": "§§2(4),3(2)no3"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "September § 2(4) expressly preserves § 92a housing use and § 3(2)no3 permits cancellation of the own-contribution part. July mirror lacks these express exceptions. In context the author may describe grant assets or seek unconditional withdrawals beyond contractual cancellation. Preserve version and scope alternatives rather than infer a categorical falsehood.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-011",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF page 4",
+      "original_excerpt": "in der Praxis wenig genutzt",
+      "claim_en": "International experience shows that permitted early withdrawal is little used in practice.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [],
+      "result": "unresolved",
+      "explanation": "No country, product, period or withdrawal category is specified. International pension schemes differ materially; a comparison cannot be reproduced from this general statement.",
+      "limits": "Absence of a specified comparison is uncertainty, not proof of an error.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-012",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF page 4",
+      "original_excerpt": "der ältere Vertrag gilt",
+      "claim_en": "Where multiple contracts are submitted, chronological contract priority applies and checking occurs after quarterly submission.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§5(4),6(1),13"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 13(2) uses conclusion date, with same-day dataset order;§ 5(4) allows submission by the end of the following month and § 6 applies the central eligibility check. § 13(4) separately qualifies late submissions.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-013",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF page 4",
+      "original_excerpt": "Onboarding-Prozess",
+      "claim_en": "The later provider can complete onboarding before receiving a rejection and gets no federal reimbursement for that process.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§5–6,13"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The sequence follows conclusion→quarterly data→central check, and § 5(5) excludes procedural cost reimbursement. This is a possible mechanism, not proof every duplicate contract entails a measured “substantial” loss.",
+      "limits": "No quantified incidence or onboarding-cost estimate.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-014",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF page 4",
+      "original_excerpt": "Infrastruktur dafür sollte vorhanden sein",
+      "claim_en": "A real-time or pre-contract duplicate check should already be technically available through existing retirement-depot reporting infrastructure.",
+      "claim_type": "technical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§19 dataset standards and§5(4) transmissions"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "A statutory prompt-reporting obligation does not establish a production real-time read API, latency, provider access or duplicate-matching service. No technical specification was authenticated.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-015",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "section": "Physical PDF page 4,5",
+      "original_excerpt": "Bundesbank",
+      "claim_en": "The default solution is a collective federal investment managed by the Bundesbank, with the statutory appointment excluding another manager without legal change.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§21–24"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ § 21–24 establish collective investment, federal ownership and expressBundesbank management. Alternatives such asKENFO are policy proposals, not existing manager choice.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-016",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF page 4",
+      "original_excerpt": "privatwirtschaftlich organisierten Default-Lösung",
+      "claim_en": "Privately organised default pension arrangements function in other countries.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [],
+      "result": "unresolved",
+      "explanation": "No matched country/model or performance criterion is identified; automatic default enrolment, individual custody and government collective fallback are distinct arrangements.",
+      "limits": "No inference that such arrangements cannot work.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-017",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Physical PDF page 5",
+      "original_excerpt": "individueller Kürzungen",
+      "claim_en": "Quarterly cohort/month start-capital publication may differ from an individual’s actual entitlement because individual reductions are possible.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§10(2)–(4),26(1)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 26 publishes cohort/month amounts, while § 10(3) allows reductions for missing eligibility months. The shared display does not establish every personal payout.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-018",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Physical PDF page 5",
+      "original_excerpt": "Datennutzungsverbot",
+      "claim_en": "The purpose restriction in § 17(2), strictly interpreted, could prevent the education and account communications otherwise sought.",
+      "claim_type": "legal interpretation",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§17(2);Article6§7a(2)"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "§ 17(2) restricts data to implementation; Article 6§ 7a(2) expressly requires additional child-friendly communications. A harmonious reading can include those duties in implementation. No authoritative interpretation establishes the alleged contradiction.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-019",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Physical PDF page 5",
+      "original_excerpt": "Identifizierung des Kindes",
+      "claim_en": "Opening a child’s depot requires identification of the child and acting legal representatives.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-gwg",
+          "locator": "§§10–14;header29June2026"
+        }
+      ],
+      "result": "supported",
+      "explanation": "GwG § 10(1)no1 requires identification of the contracting party and persons acting on its behalf, with representation authority checks. Simplified due diligence changes risk-sensitive measures rather than necessarily abolishing identity checks.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-020",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Physical PDF page 5",
+      "original_excerpt": "größte Abbruchtreiber",
+      "claim_en": "Identification is the largest cause of abandonment in digital child-depot onboarding.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-gwg",
+          "locator": "§10 establishes duty, not conversion data"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "No funnel dataset, product sample, comparison of abandonment causes or period is given. The existence of an identity duty does not rank causes of abandonment.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-021",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Physical PDF page 5",
+      "original_excerpt": "minimales Geldwäscherisiko",
+      "claim_en": "The child-retirement contract has structurally minimal money-laundering risk because payments are capped and no payout is possible before 65 or except retirement.",
+      "claim_type": "legal and risk assessment",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§2(4),3(2)–(3),29"
+        },
+        {
+          "source_id": "fruehstart-2026-c-july-mirror",
+          "locator": "§§2–3"
+        },
+        {
+          "source_id": "fruehstart-2026-c-gwg",
+          "locator": "§14 risk-based simplified measures"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The grant assets are restricted and top-ups capped; however September § 2(4) preserves housing use and § 3 permits own-part cancellation. July is stricter. Child-vehicle/grant shorthand, adult transfer timing and the requestedAML classification are credible alternatives. No authoritative product-wide risk assessment establishes “minimal”.",
+      "limits": "No new error proposed; do not conflate conditional housing/cancellation options with an unconditional right to withdraw any assets at any time.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-022",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Physical PDF page 6",
+      "original_excerpt": "Ident-Abgleich",
+      "claim_en": "The draft creates a tax-ID, birthdate and residence comparison withBZSt for eligibility checking.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§5–7,16"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ § 5–7 specify data fields and automated verification;§ 16 separately permits provider tax-ID retrieval. This does not automatically replaceAML identification.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-023",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Physical PDF page 6",
+      "original_excerpt": "beider sorgeberechtigter Elternteile",
+      "claim_en": "Jointly custodial parents normally represent the child jointly; the draft has no special one-parent conclusion rule.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-bgb",
+          "locator": "§§1626,1629;header23July2026"
+        },
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Application/conclusion provisions"
+        }
+      ],
+      "result": "supported",
+      "explanation": "BGB § 1629(1) expressly requires joint representation with enumerated exceptions. The proposal does not add a general one-parent power for contract conclusion.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-024",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Physical PDF page 6",
+      "original_excerpt": "lediglich",
+      "claim_en": "The contract’s restrictions make its being merely legally beneficial uncertain.",
+      "claim_type": "legal interpretation",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-bgb",
+          "locator": "§107 and§1629"
+        },
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§3"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "BGB § 107’s legal-benefit test and representative authority are different questions; applying the test to each product’s obligations and cancellation rights needs concrete terms. The author expressly states uncertainty rather than an established defect.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-025",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "section": "Physical PDF page 6,7",
+      "original_excerpt": "durch Berichterstattung und Information",
+      "claim_en": "Both providers and collective investment must supply additional information intended to support financial education.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Article6§7a(2);§26"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Article 6§ 7a(2) requires child-friendly product/value/cost information;§ 26 requires continuing collective-value information in an educational form. It does not itself assign all independent teaching activities.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-026",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        7
+      ],
+      "section": "Physical PDF page 7",
+      "original_excerpt": "eigenständige Treffen von Entscheidungen",
+      "claim_en": "Only active engagement and independent investment decisions can produce the hoped-for financial-education effects.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-phf-index",
+          "locator": "Study scope: household associations"
+        },
+        {
+          "source_id": "fruehstart-2026-c-diw2015",
+          "locator": "Evidence and limitations of childhood financial socialisation"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "PHF associations do not establish that active private choice is necessary for every learning effect; observation, teaching and defaults can be different mechanisms. No causal study matched the exclusive proposition.",
+      "limits": "Read as a proposed educational model where appropriate, not a proved universal mechanism.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-027",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        7
+      ],
+      "section": "Physical PDF page 7",
+      "original_excerpt": "35. Lebensjahrs",
+      "claim_en": "Unclaimed collective amounts cease to be available after the 35-year boundary and return to the federal budget.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§9(3),23(4)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 9(3) ends the late-contract route and § 23(4) returns unused cohort assets after the relevant year.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-028",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "section": "Physical PDF page 7,8",
+      "original_excerpt": "Task Force Finanzbildung",
+      "claim_en": "The consultation financial-education strategy reserves permanentTaskForce seats for ministries, BaFin, Bundesbank andDRV while involving private actors only externally.",
+      "claim_type": "draft legal description",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-strategy-index",
+          "locator": "Consultation announcement"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The official 15 September announcement confirms a consultation strategy existed, but its full governance text was not recovered from the blocked landing page. Other associations’ statements are not independent primary confirmation.",
+      "limits": "Exact 7 September 2026 strategy wording and change history not authenticated.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-029",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        7
+      ],
+      "section": "Physical PDF page 7",
+      "original_excerpt": "Trennung von neutraler Bildung",
+      "claim_en": "The strategy explicitly separates neutral education from product advertising and proposes a European conflict-of-interest code.",
+      "claim_type": "draft description",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-strategy-index",
+          "locator": "Announcement only"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The full strategy’s exact measure language was not authenticated in this pass; the public announcement alone does not establish these details.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-030",
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "section": "Physical PDF page 7,8",
+      "original_excerpt": "Mit Geld und Verstand",
+      "claim_en": "The named national ambassador/outreach/platform channels omit private firms, and label eligibility for them is unclear.",
+      "claim_type": "draft description",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-strategy-index",
+          "locator": "Announcement and linked platform context"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The announcement and existing public portal do not determine all future partner eligibility; no full draft or implementing award criteria was recovered.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-031",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        3,
+        5
+      ],
+      "section": "Physical PDF page 3,5",
+      "original_excerpt": "zehn Euro pro Monat",
+      "claim_en": "Eligible children are granted€10 per month from age6 to before 18; an individual standard depot or collective fallback provides the route.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§1–3,21"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ § 1–3 and21 establish eligibility and the two routes; a private account is not a prerequisite for the collective provision. The text explains the fallback immediately after the account condition.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-032",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "einem Prozent",
+      "claim_en": "The standard-depot cost ceiling is1%, with preset risk-reducing lifecycle management.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§3(1)"
+        },
+        {
+          "source_id": "fruehstart-2026-c-altzertg",
+          "locator": "Current consolidation versus future§1c"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The September bill incorporates futureAltZertG § 1(1c); the downloaded current consolidation lacks the future-effective text. The rule is plausible but the exact ceiling/base/lifecycle opt-out conditions require the promulgated future version.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-033",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "2020 und 2021",
+      "claim_en": "The scheme starts 1 January 2027 with 2020/2021 cohorts and retrospective 2026 grants for 2020.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§30;Article8; rationalepp55–56"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 30 andArticle 8 specify commencement and the cohort transition.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-034",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "keine eigenen Beiträge",
+      "claim_en": "No personal contribution is required to receive the monthly state grant.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§1–3"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The eligibility and payment clauses impose no own-payment minimum;§ 3(2) also protects grant flow when optional own contributions cease.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-035",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        3,
+        5
+      ],
+      "section": "Physical PDF page 3,5",
+      "original_excerpt": "Begrenzung",
+      "claim_en": "After18, start capital may be transferred into certified products outside the cost-capped standard-depot category.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§9(2),12(2)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 9(2) allowsAltZertG § 1(1),(1a),(1b) products and § 12(2) permits certified transfers. The default is not a requirement to choose a more expensive product.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-036",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        3,
+        9
+      ],
+      "section": "Physical PDF page 3,9",
+      "original_excerpt": "1.440 Euro",
+      "claim_en": "Twelve full years of€10 monthly grants total€1,440; maximum€6,840 annual top-ups over12 years total about€82,000.",
+      "claim_type": "quantitative model arithmetic",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-calculations",
+          "locator": "Arithmetic"
+        },
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§2(1),3(3)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "10×12×12=1,440 and6,840×12=82,080. These are full-eligibility illustrations, not population-average received amounts.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-037",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Physical PDF page 5",
+      "original_excerpt": "Finanzkompetenz nach Bildungsstand",
+      "claim_en": "Financial literacy varies with education and social background, and parents can influence later financial capability.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-phf-index",
+          "locator": "Abstract and subgroup results"
+        },
+        {
+          "source_id": "fruehstart-2026-c-diw2015",
+          "locator": "Study methods and childhood-path analysis"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The 2021PHF analysis documents lower literacy among lower-education/income groups;DIW2015 studies childhood influences. The latter usesBangkok middle-class adults and retrospective childhood data, limiting direct German causal generalisation.",
+      "limits": "Associations and study-specific parental pathways, not deterministic inheritance or experimental proof.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-038",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "section": "Physical PDF page 5,6",
+      "original_excerpt": "Halbierung",
+      "claim_en": "Under the stated illustrative contribution and fee assumptions, high costs can roughly halve eventual retirement assets.",
+      "claim_type": "model mechanism",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-calculations",
+          "locator": "Independent scenario calculations"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Independent reasonable compounding conventions produce low-cost263,000–265,000 versus high-cost128,000–134,000, consistent with the roughly half mechanism. This is conditional arithmetic, not actual future returns or proof every expensive product halves assets.",
+      "limits": "Exact printed€264,910/€126,191 depends on fee/deposit timing not fully specified; assessed separately.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-039",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "section": "Physical PDF page 5,6",
+      "original_excerpt": "264.910 Euro",
+      "claim_en": "The precise illustrated terminal values are€264,910 and€126,191 at 67.",
+      "claim_type": "model quantitative",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-calculations",
+          "locator": "Alternative compounding conventions"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The reported inputs support approximately the scale and ratio but not a unique exact reproduction; monthly versus annual fees, front-load basis and deposit timing remain unspecified. Small convention differences do not demonstrate a material error.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-040",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Physical PDF page 6",
+      "original_excerpt": "keine individuelle Zuordnung",
+      "claim_en": "The collective fallback has no individual child subaccounts; aggregate payments use estimated cohort size minus private contracts.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§6–7,23(3); rationalephysicalp52"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 23(3) and rationale p52 use aggregate demographic estimation with no personal information for fallback children. Individual eligibility is checked later on a contract application.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-041",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Physical PDF page 6",
+      "original_excerpt": "Identifikationsnummer",
+      "claim_en": "The child’s tax identification number is required, and provider submission triggers automatedZfA/BZSt matching.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§1(2),4–7"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 1(2) requires theID,§ 5 supplies applicant fields and § § 6–7 automate central verification. The present process does not identify all collective children ex officio.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-042",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        8
+      ],
+      "section": "Physical PDF page 8",
+      "original_excerpt": "zielgruppengerechte Bildung",
+      "claim_en": "The bill requires targeted information for financial education but does not prescribe independent teaching-quality criteria or systematic intermediary training.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§26;Article6§7a(2)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 26 andArticle 6§ 7a(2) specify information duties; they do not themselves create a material accreditation rubric or teacher-training programme. This is a bounded description of this bill, not all education law.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-043",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        8
+      ],
+      "section": "Physical PDF page 8",
+      "original_excerpt": "größere Schwächen",
+      "claim_en": "TheMaterialkompass evaluation found weaker financial-education materials in the business-origin publisher group.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-material",
+          "locator": "November2025 evaluation, sample and rating distribution"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Its138 materials yield156 publisher-relevant ratings, including41 business ratings with25 good/very-good and16 satisfactory-or-worse. The finding applies to the evaluated sample and rubric, not every commercial material.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-044",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        8
+      ],
+      "section": "Physical PDF page 8",
+      "original_excerpt": "Informationen allein",
+      "claim_en": "Information alone does not strengthen financial competence.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-phf-index",
+          "locator": "Literacy/behaviour associations"
+        },
+        {
+          "source_id": "fruehstart-2026-c-material",
+          "locator": "Evaluation distinguishes knowledge and competence objectives"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Information is not identical to demonstrated durable decision competence, but the absolute causal exclusion of every information-only improvement is not established by the recovered primary studies.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-045",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        9
+      ],
+      "section": "Physical PDF page 9",
+      "original_excerpt": "2.100 Euro",
+      "claim_en": "The stated6.5% nominal return and0.3% annual cost scenario yields roughly€2,100 after12 years of grants.",
+      "claim_type": "model quantitative",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-calculations",
+          "locator": "12-year annuity calculation"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Multiplicative annual fee retention with monthly end deposits gives€2,103; rounding supports the illustration. Returns/costs are assumptions, not guarantees.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-046",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        9
+      ],
+      "section": "Physical PDF page 9",
+      "original_excerpt": "über 100.000 Euro",
+      "claim_en": "Under the same assumptions, maximally topped-up versus untopped accounts could differ by over€100,000.",
+      "claim_type": "model quantitative",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-c-calculations",
+          "locator": "Top-up annuity calculation"
+        }
+      ],
+      "result": "supported",
+      "explanation": "€570 monthly additional deposits under the same12-year illustrative model yield about€119,881 additional assets. The conditional possibility is not a predicted distribution.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-047",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        9
+      ],
+      "section": "Physical PDF page 9",
+      "original_excerpt": "steuerlich begünstigten Rahmen",
+      "claim_en": "The scheme provides tax deferral of investment returns on private top-ups, with later taxation; ordinary child depots may use allowances.",
+      "claim_type": "tax legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": true,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§29 and rationalepp55–57"
+        },
+        {
+          "source_id": "fruehstart-2026-c-altzertg",
+          "locator": "Future-effective version limit"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "§ 29 and rationale pp55–57 distinguish grant assets and non-funded own contributions, supporting deferral. Exact later own-contribution extraction taxation and ordinary-depot personal-allowance interactions require the futureEStG/AltZertG versions; current snapshots alone are insufficient for the full comparison.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-048",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        10
+      ],
+      "section": "Physical PDF page 10",
+      "original_excerpt": "Abschluss- und Vertriebskosten",
+      "claim_en": "The bill prohibits acquisition/distribution charges before 18 at conclusion and qualifying transfer; the author requests explicit top-up coverage.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§3(2)no1"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 3(2)no1 states the prohibition by contract event. Whether extra clarification is useful is a legal-policy request; the text does not establish that top-ups are certainly exempt.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-049",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "section": "Physical PDF page 10,11",
+      "original_excerpt": "Fehlbetrag",
+      "claim_en": "Wrongly paid grants are reclaimed first from the contract, with an adult shortfall assessment and a€120 de-minimis threshold.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§14, physicalp14"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§ 14(1)–(5) sets recovery, account charging, adult differential assessment and no recovery where the amount is≤€120. It does not say every market decline is independently recoverable absent wrongful grant payment.",
+      "limits": "No author contact or human specialist verification; no inference about intent.",
+      "check_completed": true
+    },
+    {
+      "id": "fruehstart-2026-c-050",
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        11
+      ],
+      "section": "Physical PDF page 11",
+      "original_excerpt": "ausschließlich global diversifiziert in Aktien",
+      "claim_en": "The addressed bill’s § 24 confines collective assets exclusively to global equities or equity funds.",
+      "claim_type": "draft legal",
+      "materiality": "medium",
+      "policy_link": "Premise for the author’s proposed design, cost, safety or legal-scope change.",
+      "cited_by_author": false,
+      "check_method": "Independent primary-source comparison, full author context and temporal/scope assessment.",
+      "evidence": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§24 physicalp17; rationalepp53–54"
+        },
+        {
+          "source_id": "fruehstart-2026-c-july-mirror",
+          "locator": "July§24(3)"
+        }
+      ],
+      "result": "overstated",
+      "explanation": "The 7 September operative § 24(3) mandates global diversification and return/security/liquidity;§ 24(4) delegates asset classes. It contains no exclusive equity restriction. July mirror § 24(3) and September explanatory equity emphasis explain the wording but do not make it a September statutory restriction.",
+      "limits": "Already-existing finding fruehstart 2026-vzbv-allocation-tax-r2-10; rechecked, not a new candidate or new admission.",
+      "check_completed": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "fruehstart-2026-root-draft",
+      "title": "Frühstartrente hearing — archived official addressed draft/context",
+      "url": "https://dserver.bundestag.de/btd/21/078/2107864.pdf",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round2-tax/sources/fruehstart-bt217864.pdf",
+      "sha256": "9d14355f8293339cd031b901c02c7be0b0f9dab1d7ca5f7edf5ce07fa834b4e7",
+      "archive_note": "Previously archived official file; hash and physical page count reverified at continuation start. Not a new original-download timestamp.",
+      "temporal_limit": "Government bill transmitted 7 September 2026, not the 21 July consultation draft or later committee text.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "fruehstart-root-ministry-july-index",
+      "title": "BMF July FrühStRG consultation landing-page attempt",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-07-21-FruehStRG/0-Gesetz.html",
+      "retrieved_at": "2026-10-25T11:00:40.555893+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/root-ministry-july-index.html",
+      "sha256": "c14a7a1137ee90b79fa43dc4924d99636fe05dcbd42b9becbd87e57e0b8e4aaa",
+      "http_status": 503,
+      "usable_as_evidence": false,
+      "temporal_limit": "Current retrieval; July draft identity and historical delivery bytes require authentication. Access error/challenge cannot support substantive claims."
+    },
+    {
+      "id": "fruehstart-2026-c-bgb",
+      "title": "bgb — primary document",
+      "url": "https://www.gesetze-im-internet.de/bgb/BGB.pdf",
+      "retrieved_at": "2026-10-25T10:57:59.344519+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/c-bgb.pdf",
+      "final_url": "https://www.gesetze-im-internet.de/bgb/BGB.pdf",
+      "sha256": "9b5a99536e7b00756e9fa5f20082bd9ad3951b37c381fc0f5d52aa5a556839eb",
+      "bytes": 2817386,
+      "pdf_identity": true,
+      "usable_as_evidence": true,
+      "temporal_limit": "Snapshot retrieved 25 October 2026; document header and historical applicability assessed in claim explanations."
+    },
+    {
+      "id": "fruehstart-2026-c-gwg",
+      "title": "gwg — primary document",
+      "url": "https://www.gesetze-im-internet.de/gwg_2017/GwG.pdf",
+      "retrieved_at": "2026-10-25T10:57:59.460130+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/c-gwg.pdf",
+      "final_url": "https://www.gesetze-im-internet.de/gwg_2017/GwG.pdf",
+      "sha256": "cfb853679a0c5bae1df8c1235278cff6959ec3c00bfdcea78bf526d843396819",
+      "bytes": 379284,
+      "pdf_identity": true,
+      "usable_as_evidence": true,
+      "temporal_limit": "Snapshot retrieved 25 October 2026; document header and historical applicability assessed in claim explanations."
+    },
+    {
+      "id": "fruehstart-2026-c-diw2015",
+      "title": "diw 2015 — primary document",
+      "url": "https://www.diw.de/documents/publikationen/73/diw_01.c.510363.de/15-28-1.pdf",
+      "retrieved_at": "2026-10-25T10:59:52.284140+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/c-diw2015.pdf",
+      "final_url": "https://www.diw.de/documents/publikationen/73/diw_01.c.510363.de/15-28-1.pdf",
+      "sha256": "59c1e10b24bfcf228ce4627cd9b25b19a55c1c0a8d6eef32f4284db44384f7b3",
+      "bytes": 155171,
+      "pdf_identity": true,
+      "usable_as_evidence": true,
+      "temporal_limit": "Snapshot retrieved 25 October 2026; document header and historical applicability assessed in claim explanations."
+    },
+    {
+      "id": "fruehstart-2026-c-altzertg",
+      "title": "altzertg — primary document",
+      "url": "https://www.gesetze-im-internet.de/altzertg/AltZertG.pdf",
+      "retrieved_at": "2026-10-25T10:59:52.284483+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/c-altzertg.pdf",
+      "final_url": "https://www.gesetze-im-internet.de/altzertg/AltZertG.pdf",
+      "sha256": "f2b42dfeb7d453a4c27a2a1c058dc656a7888e254834e929b70ca831a6bf50eb",
+      "bytes": 117574,
+      "pdf_identity": true,
+      "usable_as_evidence": true,
+      "temporal_limit": "Snapshot retrieved 25 October 2026; document header and historical applicability assessed in claim explanations."
+    },
+    {
+      "id": "fruehstart-2026-c-phf-index",
+      "title": "Bucher-Koenen etal, PHF 2021 financial literacy study, publisher extraction",
+      "url": "https://www.cambridge.org/core/journals/journal-of-financial-literacy-and-wellbeing/article/financial-literacy-stock-market-partici-pation-and-financial-wellbeing-in-germany/53124DC73CCBF43F2D7E1C4D5B87C94C",
+      "retrieved_at": "2026-10-25T11:09:47.753171+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/c-phf-primary-extraction.json",
+      "sha256": "028774e2ca54d44d89a4f901ecc19873378be223b483b8b63524b2fad43bd196",
+      "temporal_limit": "2024 published analysis of 2021 household data; primary paper extraction, originalPDF mirror was challenge content and unusable."
+    },
+    {
+      "id": "fruehstart-2026-c-material",
+      "title": "vzbv Materialkompass November 2025 evaluation",
+      "url": "https://www.verbraucherbildung.de/meldung/finanzielle-bildung-unter-der-lupe",
+      "retrieved_at": "2026-10-25T11:09:47.753171+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/c-frue-material-extraction.json",
+      "sha256": "1bb51e835d477578cf42e816b5d2ba4937491c35e366c9a3d15bed64b3178e9e",
+      "temporal_limit": "Author-origin primary evaluation, selected materials and publisher-relevant ratings; not a random market sample. Tool extraction, not originalHTML."
+    },
+    {
+      "id": "fruehstart-2026-c-calculations",
+      "title": "Independent recomputation of stated illustrative saving assumptions",
+      "url": "urn:local:fruehstart-c-calculations",
+      "retrieved_at": "2026-10-25T11:09:47.753171+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/c-calculations.json",
+      "sha256": "02634fa9e8627e2070311bcd463a674c18f5d54d93111401b6d7a179e7c71cb3",
+      "temporal_limit": "Author-stated scenarios, not a forecast or estimate of guaranteed return."
+    },
+    {
+      "id": "fruehstart-2026-c-strategy-index",
+      "title": "BMF15 September 2026 strategy consultation announcement",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Internationales_Finanzmarkt/Finanzielle-Bildung/eine-finanzbildungsstrategie-fuer-deutschland.html",
+      "retrieved_at": "2026-10-25T11:09:47.753171+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/c-frue-strategy-extraction.json",
+      "sha256": "4d1c0b41654663919445f22c59031ac1db0a3c1c47fdca45e0a3535728bfce18",
+      "temporal_limit": "Indexed official announcement; direct source503. Full consultation strategy was not recovered in this pass; no exact governance inference."
+    },
+    {
+      "id": "fruehstart-2026-c-july-mirror",
+      "title": "21 July 2026 ministry consultation draft, archived mirror",
+      "url": "https://www.sozialpolitik-aktuell.de/files/sozialpolitik-aktuell/_Politikfelder/Alter-Rente/Dokumente/2026-07_BMF_referentenentwurf-fruehstartrente.pdf",
+      "retrieved_at": "2026-10-25T11:09:47.753171+00:00",
+      "local_file": "research/round2-tax/sources/fruehstart-refe-20260721-mirror.pdf",
+      "sha256": "38418c4a3b37eb4211b7194d17b0cd8931188e3858e2449bae612a9d272e640a",
+      "temporal_limit": "Mirror provenance/initial official bytes not authenticated. Used to test earlier-version alternative, not silently substitute for 7 September Bundestag bill."
+    }
+  ],
+  "exclusions": [
+    {
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        1
+      ],
+      "reason": "Cover, contents, identity and contact details are incidental. Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        2
+      ],
+      "reason": "Cover, contents, identity and contact details are incidental. Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        3
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        4
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        5
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        6
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        7
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-006",
+      "pdf_pages": [
+        8
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        1
+      ],
+      "reason": "Cover, contents, identity and contact details are incidental. Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        2
+      ],
+      "reason": "Cover, contents, identity and contact details are incidental. Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        3
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        4
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        5
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        6
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        7
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        8
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        9
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        10
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    },
+    {
+      "document_id": "hearing-1216340-response-007",
+      "pdf_pages": [
+        11
+      ],
+      "reason": "Recommendations on governance, tax incentives, teaching independence, automatic accounts and withdrawal design are normative. Future participation, wealth inequality, marketing, competition and learning outcomes are forecasts; stated scenario arithmetic and underlying legal/empirical premises are assessed separately. The all-cohort 2040 population estimate is an explicitly tentative forecast, not a realised count."
+    }
+  ],
+  "limitations": [
+    "Finite published-response subset; authored, committee publication and delivery dates are distinct.",
+    "Supported applies to the recorded proposition. Pure preferences and outcome forecasts are excluded; material model assumptions and causal premises are assessed.",
+    "Current source bytes do not independently authenticate initial consultation dispatch. Access failure is not a factual error."
+  ]
+}

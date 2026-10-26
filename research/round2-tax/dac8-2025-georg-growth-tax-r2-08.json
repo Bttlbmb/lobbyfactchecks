@@ -1,0 +1,102 @@
+{
+  "law_id": "dac8-umsetzungsgesetz-2025",
+  "document_id": "georg-dac8-202510",
+  "status": "ai_screened",
+  "request_quote_ref": {
+    "quote_id": "georg-dac8-request",
+    "metadata_file": "data/documents.json"
+  },
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Umsetzung der Richtlinie (EU)2023/2226",
+    "version": "Government bill BT 21/1937, 1 October 2025; hearing 13 October 2025",
+    "source_id": "dac8-bt211937",
+    "submission_date": null,
+    "hearing_date": "2025-10-13",
+    "relevant_provision": "Article 1 reporting rules; government user-growth cost assumption physical page 41; memorandum physical page 38 expressly limits the bill to procedural rules.",
+    "version_check": "The submission expressly identifies BT 21/1937 on its first page. The exact original bill, not the November committee amendment or enacted legislation, was checked."
+  },
+  "submission_source_id": "georg-dac8-202510",
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_round2_ai_agent",
+        "date": "2026-10-25",
+        "review_file": "research/round2-reviews/social-reviews-georg-dac8.json",
+        "outcome": "retain_provisional_minor_true_narrowly",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full four-page submission and primary source context check; independent adversarial AI review requested.",
+      "by": "tax_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent social-agent primary-source review retained the narrow classification, preserving the shorthand reading and avoiding any new forecast or actual-compliance conclusion.",
+      "by": "tax_ai_screen"
+    }
+  ],
+  "id": "dac8-2025-georg-growth-tax-r2-08",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Reporting cryptoasset transactions to tax authorities and exchanging that information internationally.",
+    "they_want": "Review the tax incentives for crypto investors and strengthen the information available for enforcement.",
+    "they_claim": "Blockpit reports that the number of crypto holders has increased by 400% since 2021.",
+    "the_problem": "The cited report says fourfold, which means an increase of 300%, not 400%. The narrow correction does not settle the future growth forecast."
+  },
+  "claim_quote": {
+    "original": "seit 2021 um 400 % gestiegen.",
+    "language": "de",
+    "translation_en": "Translation of claim fragment: increased by 400% since 2021.",
+    "locator": {
+      "pdf_page": 1,
+      "section": "Hintergrund zum Kryptohandel in Deutschland",
+      "paragraph": "Third body paragraph, third sentence; expressly attributed to Blockpit."
+    },
+    "underline": "um 400 %"
+  },
+  "counter_quote": {
+    "original": "Anzahl hat sich seit 2021\nvervierfacht",
+    "language": "de",
+    "translation_en": "Translation: The number has quadrupled since 2021.",
+    "source_id": "blockpit-tax-study-2025-de",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": 6,
+      "section": "Krypto in Deutschland, graphic beneath 7 million users; physical 5/printed 8 repeats almost fourfold."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Four times the initial level is 400% of the initial level and an increase of 300%: (4−1)×100. An increase by 400% would instead yield five times the starting number. This corrects the mathematical restatement of Blockpit’s own fourfold description, not the independently true national growth rate.",
+  "effect": "Reduces the historical growth percentage used to challenge the government’s 5% annual assumption and motivate greater attention to crypto tax incentives. It leaves the qualitative observation of rapid growth intact.",
+  "limits": "Blockpit’s user counts are estimates and its next page mixes an historical comparison with a 2025 projection. This does not independently validate its estimates, prove any future forecast wrong, or establish that the government’s 5% annual assumption is correct. Cumulative historical growth and annual prospective growth are different measures; no corrected forecast or revenue estimate is supplied. No intent is inferred.",
+  "context_and_alternatives": [
+    "All four submission pages were read. The same paragraph explicitly describes an extrapolation, and the policy conclusion asks for review rather than treating a forecast as certain. Only the attributed historical percentage conversion is screened here.",
+    "The strongest benign explanation is the common shorthand confusion between reaching 400% of the initial value and increasing by 400%. The German preposition um and verb gestiegen express an increment, while the primary study describes quadrupling.",
+    "The primary report’s infographic, prose and methodology were checked. Its physical 5/printed 8 says almost quadrupled in four years and a possible 10% ownership share in 2025; this limits exact-year precision rather than establishing a measured new growth series.",
+    "The original government bill physical 41 assumes 5% new users each year for a compliance-cost calculation. The comparison’s different horizon is acknowledged, and the record does not mechanically replace that assumption with the source’s cumulative growth."
+  ],
+  "materiality_explanation": "Minor: a one-third overstatement of the stated percentage increase, but corrected fourfold growth is still rapid and the policy request has many independent arguments. The record does not claim that the reform position depends on this number.",
+  "direction_explanation": "True for the historical-growth rationale: a larger percentage strengthens the claim that the government understates the market’s growth and the need to reconsider crypto tax incentives.",
+  "confidence": {
+    "text_source_mismatch": "high for fourfold versus increased by 400%; no finding on true national growth",
+    "materiality": "editorial_judgment"
+  },
+  "source_ids": [
+    "georg-dac8-202510",
+    "blockpit-tax-study-2025-de",
+    "dac8-bt211937",
+    "dac8-hearing-20251013"
+  ],
+  "verification": {
+    "visual": "Author physical 1 and source physical 4–5 rendered and visually checked. The source is a 15-physical-page PDF containing facing printed pages; physical 4 contains printed 6–7.",
+    "quotation_budget": "Seven author words in this issue, eleven in the separate unresolved denominator lead, and five in shared request metadata:23 author words combined."
+  }
+}

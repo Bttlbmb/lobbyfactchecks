@@ -1,0 +1,108 @@
+{
+  "law_id": "geowg-2024",
+  "document_id": "muellersyhre-geowg-20241031",
+  "status": "ai_screened",
+  "request_quote": {
+    "quote_id": "muellersyhre-geowg-request",
+    "metadata_file": "research/round2-energy/source-registry.json"
+  },
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Beschleunigung der Genehmigungsverfahren von Geothermieanlagen,Wärmepumpen und Wärmespeichern sowie zur Änderung weiterer rechtlicher Rahmenbedingungen für den klimaneutralen Ausbau der Wärmeversorgung",
+    "version": "BT 20/13092,30 September 2024; companion comments/replyBT 20/13556,30 October 2024",
+    "source_id": "geowg-bt2013092",
+    "additional_source_id": "geowg-bt2013556",
+    "submission_date": "2024-10-31",
+    "date_note": "Official committee-cover date; author text has no separate date. Hearing 4 November 2024.",
+    "relevant_provision": "Geothermal heat and heat-network expansion rationale; accelerated permitting. The source claims and arithmetic are assessed against this draft, not later legislation.",
+    "process_status_at_screen": "2024 process lapsed with the 20 thBundestag; later reintroduced legislation is not substituted."
+  },
+  "submission_source_id": "muellersyhre-geowg-20241031",
+  "source_ids": [
+    "muellersyhre-geowg-20241031",
+    "geowg-bt2013092",
+    "geowg-bt2013556"
+  ],
+  "source_registry": "research/round2-energy/source-registry.json",
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_round2_independent_ai",
+        "date": "2026-10-25",
+        "disposition": "retain unresolved; affirmative alternative interpretation",
+        "review_file": "research/round2-reviews/social-reviews-muellersyhre-geowg.json"
+      }
+    ]
+  },
+  "author_response": [],
+  "verification": {
+    "visual": "Full20author pages plus cover independently read; critical pages12–15/21visually checked. See review."
+  },
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full submission/exact-draft check; independent review requested.",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent full-context review completed; disposition updated or retained conservatively.",
+      "by": "energy_hearings_ai_screen"
+    }
+  ],
+  "id": "geowg2024-muellersyhre-a01",
+  "finding_state": "unresolved_lead",
+  "severity": "major",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Accelerating geothermal heat, heat-pump and heat-storage permits.",
+    "they_want": "Reject the whole bill.",
+    "they_claim": "An electricity-generation calculation underpins rejection of the 10 TWh geothermal target.",
+    "the_problem": "The addressed target is heat delivered into heat networks; it is unresolved whether the author merely explores an electricity option."
+  },
+  "claim_quote": {
+    "original": "elektrisch zu produzieren",
+    "language": "de",
+    "translation_en": "Translation: to produce electrically",
+    "locator": {
+      "pdf_page": 12,
+      "printed_page": 11,
+      "section": "3. Energetische Berechnungen",
+      "paragraph": "Paragraph after the 10 TWh/year target and continuous-power figure; electricity calculation of 250 plants follows."
+    },
+    "underline": "elektrisch"
+  },
+  "additional_claim_quote": {
+    "original": "daher im Gesetzesentwurfsformular",
+    "language": "de",
+    "translation_en": "Translation of fragment: therefore in the draft-bill document",
+    "locator": {
+      "pdf_page": 12,
+      "printed_page": 11,
+      "section": "3. Energetische Berechnungen",
+      "paragraph": "Paragraph attributing a resulting emphasis on shallow geothermal heat pumps to the bill."
+    }
+  },
+  "counter_quote": {
+    "original": "die derzeitige Einspeisung in Wärmenetze aus dieser Quelle damit verzehnfacht werden",
+    "language": "de",
+    "translation_en": "Translation: thereby increase tenfold the current feed-in from this source into heat networks",
+    "source_id": "geowg-bt2013092",
+    "locator": {
+      "pdf_page": 16,
+      "printed_page": 16,
+      "section": "A. Allgemeiner Teil,I. Zielsetzung und Notwendigkeit der Regelungen",
+      "paragraph": "Geothermal campaign 10 TWh target paragraph."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The 10 TWh campaign target concerns heat-network feed-in. Failure to generate that amount of electricity from deep geothermal power plants does not establish failure of that heat target or a need to switch it to shallow heat pumps.",
+  "effect": "If the passage treats the target as electrical output, it weakens the 250-power-plant feasibility objection; the passage may instead be a hypothetical comparison of options.",
+  "limits": "The author elsewhere acknowledges direct heat from deep geothermal energy. Read as a hypothetical electricity scenario, the calculation need not misstate the target. The subsequent attributed therefore-link creates concern but is interpretive. Actual costs, geological availability and feasibility remain unproved. No intent is inferred.",
+  "materiality_explanation": "Potentially major because it concerns the energy category used in a prominent feasibility/cost objection; no proven policy-relevant misdescription is asserted pending review.",
+  "direction_explanation": "Null while unresolved; an established electrical-target misdescription would favour rejection.",
+  "confidence": {
+    "text_source_mismatch": "high for the draft heat category; unresolved author-scenario interpretation",
+    "materiality": "editorial_judgment"
+  }
+}

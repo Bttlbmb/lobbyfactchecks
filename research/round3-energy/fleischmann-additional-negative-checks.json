@@ -1,0 +1,35 @@
+{
+  "id": "fleischmann-additional-source-checks-r3",
+  "date": "2026-10-25",
+  "submission_document_id": "bt-environment-1222442",
+  "disposition": "not_promoted_as_additional_issues",
+  "mortality_check": {
+    "author_locator": {
+      "pdf_page": 6,
+      "printed_page": 5
+    },
+    "observation": "The German cold/heat comparison is roughly consistent with original Table 2. Some other country rows imply larger ratios than the preceding Europe-wide range.",
+    "scope_limit": "The citation immediately follows the German sentence. The study estimates selected urban populations aged 20 or older, not whole national populations. This is not a matched proof that the broad national assertion is false.",
+    "primary_url": "https://bura.brunel.ac.uk/bitstream/2438/27294/1/FullText.pdf",
+    "local_file": "research/round3-energy/sources/masselot2023-original-university.pdf",
+    "sha256": "348e75f1c96558b09de05981534513cb2c674e1090cb5a03fb1b874a077b71ad",
+    "read_extent": "Selected abstract/methods on physical 1–4, Table 2 on physical 6, and discussion/limitations on physical 7–10 through web. Not full statistical appendix review.",
+    "editorial_status_limit": "PubMed records a February 8, 2024 Expression of Concern (PMID 38342130, DOI 10.1016/S2542-5196(24)00022-6). Its reasons and final resolution were not verified. No inference of retraction or invalidity is made.",
+    "editorial_status_url": "https://pubmed.ncbi.nlm.nih.gov/38342130/"
+  },
+  "life_expectancy_check": {
+    "author_locator": {
+      "pdf_page": 6,
+      "printed_page": 5
+    },
+    "disposition": "not_promoted",
+    "reason": "Resident and total-population GBD estimates differ. Singapore MOH September 8, 2026 reports GBD total-population life expectancy 85.4 in 2023 and explicitly distinguishes resident estimates; Singapore resident life tables report a different value. Without a stated population, year and standardisation, comparison with German resident life tables is not a proved false five-year gap.",
+    "sources": [
+      "https://www.moh.gov.sg/newsroom/gap-between-average-and-healthy-life-expectancy-of-singapore-residents-and-trends-over-past-10-years/",
+      "https://www.singstat.gov.sg/news/complete-life-tables-for-singapore-resident-population-2024-2025",
+      "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_236_12621.html?nn=2110"
+    ],
+    "read_extent": "Selected official primary notice passages through web; not archived locally."
+  },
+  "limits": "No conclusion about whether climate change reduces future mortality or the merits of BEHG abolition. No new submission quotations added; the separate binding-targets lead remains unresolved."
+}

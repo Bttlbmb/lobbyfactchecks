@@ -1,0 +1,445 @@
+{
+  "date": "2026-10-25",
+  "method": "Selected cover, first-page and final-page metadata read in actual public PDFs; full-text identity comparisons are automated and do not imply full content reading.",
+  "adjudications": [
+    {
+      "id": "SG2609300259",
+      "registered_author": "Fresenius SE & Co. KGaA",
+      "actual_authored_author": "Deutsche Krankenhausgesellschaft (DKG)",
+      "actual_document_date": "2026-08-31",
+      "date_precision": "day",
+      "document_kind": "written_submission",
+      "actual_process": "GeDIG government bill",
+      "exact_draft_version_status": "Author cover says Stand31August2026; exact text of addressed bill still requires separate verification.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Cover title and Stand date"
+        },
+        {
+          "pdf_page": 42,
+          "location": "DKG address/contact page"
+        }
+      ],
+      "official_mirror": "research/round3-social/coverage-pdfs/f302d9134da32722d4.pdf",
+      "identity_test": {
+        "pages2_through42_extracted_text_exactly_identical": true,
+        "cover_authored_text_after_committee_overlay_removed_normalised_equal": true,
+        "all_page_visual_identity_tested": false
+      },
+      "unit_decision": "One authored DKG response version across register and committee copy; retain distinct submission/publication events and registrant metadata.",
+      "depth": "cover_and_end_metadata_plus_complete_text_identity_test"
+    },
+    {
+      "id": "SG2610220026",
+      "registered_author": "Kenvue Germany GmbH",
+      "actual_authored_author": "Kenvue Germany GmbH",
+      "actual_document_date": null,
+      "document_kind": "public_policy_paper",
+      "actual_process": "Tobacco/nicotine regulation and proposed prevention law; several policy measures",
+      "scope_state_after_pdf_metadata_check": "concrete_federal_draft_not_established_by_selected_passages",
+      "metadata_discrepancy": "Register draft field names ApoVWG; actual six-page PDF title concerns tobacco and nicotine. Do not assign the actual authored document to ApoVWG solely from registry metadata.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Title and paragraphs naming planned prevention law"
+        },
+        {
+          "pdf_page": 6,
+          "location": "Kenvue imprint"
+        }
+      ],
+      "depth": "first_and_last_page_metadata"
+    },
+    {
+      "id": "SG2610150001",
+      "registered_author": "Deutscher Pflegerat",
+      "actual_authored_author": "Deutscher Pflegerat",
+      "actual_document_date": "2026-09-25",
+      "date_precision": "day",
+      "document_kind": "workshop_written_statement",
+      "actual_process": "Nursing quality criteria in hospital Leistungsgruppen; workshop on strengthening inpatient nursing quality",
+      "scope_state_after_pdf_metadata_check": "exact_legislative_or_regulatory_process_pending",
+      "metadata_discrepancy": "Register field links GKV-BStabG, but actual cover is a workshop statement; retain as adjacent until a specific implementing law/ordinance is identified.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Workshop title and Stand25September2026"
+        },
+        {
+          "pdf_page": 12,
+          "location": "Berlin date and contact"
+        }
+      ],
+      "depth": "cover_and_end_metadata"
+    },
+    {
+      "id": "SG2610160017",
+      "registered_author": "Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS)",
+      "actual_document_date": "2026-10",
+      "date_precision": "month",
+      "document_kind": "press_release",
+      "actual_process": "Proposed abolition of Hybrid-DRG in legislative changes",
+      "scope_state_after_pdf_metadata_check": "related_federal_legislative_policy_statement_exact_amendment_pending",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Press-office contact, headline and BerlinOctober2026"
+        }
+      ],
+      "depth": "first_page_metadata"
+    },
+    {
+      "id": "SG2610190015",
+      "registered_author": "Pharma Deutschland e.V.",
+      "actual_authored_author": "Pharma Deutschland e.V.",
+      "actual_document_date": "2026-09-25",
+      "date_precision": "day",
+      "document_kind": "statutory_evaluation_response",
+      "actual_process": "Evaluation under§130b(11)SGBV of confidential reimbursement amounts",
+      "scope_state_after_pdf_metadata_check": "statutory_evaluation_related_to_completed_medical_research_act_exact_new_draft_not_established",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Title and Stand25September2026"
+        },
+        {
+          "pdf_page": 7,
+          "location": "Bonn/Berlin25September2026"
+        }
+      ],
+      "depth": "first_and_last_page_metadata"
+    },
+    {
+      "id": "SG2610140002",
+      "registered_author": "Medizinischer Fakultätentag",
+      "actual_document_date": "2026-09",
+      "date_precision": "month",
+      "document_kind": "position_paper",
+      "actual_process": "Referentenentwurf ÄApprO and MasterplanMedizinstudium2020",
+      "scope_state_after_pdf_metadata_check": "identified_federal_ordinance_draft_position_paper_exact_version_pending",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Title refers current draft; footerSeptember2026"
+        }
+      ],
+      "depth": "selected_metadata_passages"
+    },
+    {
+      "id": "SG2610080029",
+      "actual_authored_author": "Berufsverband Deutscher Psychologinnen und Psychologen (BDP)",
+      "actual_document_date": "2026-10-05",
+      "date_precision": "day",
+      "document_kind": "written_submission",
+      "actual_process": "Hochschulrechtsbereinigung,§2PsychThApprO",
+      "addressed_version_in_document": "Bill dated14August2026; primary bill version must be matched before factual findings.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Title/date block"
+        }
+      ],
+      "depth": "first_page_metadata"
+    },
+    {
+      "id": "SG2610060013",
+      "actual_authored_author": "Fakultätentag Psychologie (FTPs)",
+      "actual_document_date": "2026-10-05",
+      "date_precision": "day",
+      "document_kind": "supplementary_written_submission",
+      "actual_process": "Government bill Hochschulrechtsbereinigung BT21/8280,§2PsychThApprO",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Title says supplementary statement to government bill; date block"
+        }
+      ],
+      "scope_correction": "Register draft metadata says Referentenentwurf; actual authored document expressly addresses government bill21/8280.",
+      "depth": "first_page_metadata"
+    },
+    {
+      "id": "SG2610040002",
+      "actual_authored_author": "Fakultätentag Psychologie (FTPs)",
+      "actual_document_date": "2026-10-05",
+      "date_precision": "day",
+      "document_kind": "supplementary_written_submission",
+      "actual_process": "Government bill WissZeitVG BT21/8281",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Title says supplementary statement to government bill; date block"
+        }
+      ],
+      "depth": "first_page_metadata"
+    },
+    {
+      "id": "SG2609100011",
+      "actual_authored_author": "Bundesärztekammer",
+      "document_kind": "technical_specification_comment_email",
+      "actual_process": "gematik Proof of Patient Presence (PoPP) technical specifications",
+      "scope_state_after_pdf_metadata_check": "technical_specification_comment_federal_bill_link_pending",
+      "metadata_discrepancy": "Registered GeDIG draft field; actual email subject and opening concern gematik PoPP specification package published26January2026. Exact legislative connection needs actual further context.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Email subject and first substantive paragraph"
+        }
+      ],
+      "depth": "first_page_metadata"
+    },
+    {
+      "id": "SG2609290110",
+      "actual_authored_author": "Bundesverband der Deutschen Spirituosen-Industrie und -Importeure (BSI)",
+      "actual_document_date": "2026-07-29",
+      "date_precision": "day",
+      "document_kind": "commission_recommendation_response",
+      "actual_process": "Health-finance commission recommendation65 on alcohol/spirit-tax increases",
+      "scope_state_after_pdf_metadata_check": "commission_recommendation_response_exact_federal_draft_pending",
+      "metadata_discrepancy": "Register describes an alcohol-tax discussion draft; actual title expressly responds to health-finance commission recommendation65. Keep separate from laterBSIHaushaltsbegleitgesetz2027responseSG2610070020.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Date and response title"
+        }
+      ],
+      "depth": "first_page_metadata"
+    },
+    {
+      "id": "SG2609170013",
+      "actual_authored_author": "Pharma Deutschland",
+      "actual_document_date": "2026-08-12",
+      "date_precision": "day",
+      "document_kind": "post_legislative_policy_concept",
+      "actual_process": "Versorgungsförderung after GKV-BStabG legislative discussion",
+      "scope_state_after_pdf_metadata_check": "post_legislative_policy_concept_exact_new_draft_pending",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Concept title/date and opening legislative-history paragraph"
+        }
+      ],
+      "depth": "first_page_metadata"
+    },
+    {
+      "id": "SG2609220032",
+      "actual_authored_author": "Deutsches Aktieninstitut",
+      "actual_document_date": "2026-09-17",
+      "date_precision": "day",
+      "document_kind": "social_partner_dialogue_statement",
+      "actual_process": "Betriebliche Altersvorsorge/Altersvorsorgedepot, BMASSozialpartnerdialog",
+      "scope_state_after_pdf_metadata_check": "policy_dialogue_statement_exact_bill_link_pending",
+      "metadata_discrepancy": "Register identifies BMF private-pension reform draft; actual cover says response to BMASsocial-partner dialogue. Preserve related legislative link as pending rather than automatic exact-draft assignment.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Title and dialogue/date line"
+        }
+      ],
+      "depth": "first_page_metadata"
+    },
+    {
+      "id": "SG2609300163",
+      "actual_authored_author": "Bundesärztekammer",
+      "document_kind": "written_letter_with_attachments",
+      "actual_process": "Verordnungsentwurf zur Beschleunigung der Anerkennungsverfahren ausländischer Berufsqualifikationen in Heilberufen",
+      "scope_state_after_pdf_metadata_check": "identified_federal_ordinance_actual_title_differs_from_register",
+      "metadata_discrepancy": "Register fields name reorganisation of medical education; actual first-page subject names recognition of foreign health qualifications. Exact addressed ordinance version pending.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Addressees and subject"
+        }
+      ],
+      "depth": "first_page_metadata"
+    },
+    {
+      "id": "SG2609230014",
+      "actual_authored_author": "Bundesärztekammer",
+      "document_kind": "resolution_cover_letter_with_attachments",
+      "actual_process": "130thDeutscherÄrztetag digitalisation/AI resolutions",
+      "scope_state_after_pdf_metadata_check": "professional_resolution_transmission_exact_bill_link_pending",
+      "metadata_discrepancy": "Register draft field GeDIG; actual cover transmits professional-congress resolutions and is not labelled a response to the GeDIG text. Identical PDF alsoSG2609300152/SG2609300160.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Subject and opening paragraph"
+        }
+      ],
+      "depth": "first_page_metadata"
+    },
+    {
+      "id": "SG2609230010",
+      "actual_authored_author": "Bundesärztekammer",
+      "document_kind": "resolution_cover_letter",
+      "actual_process": "130thDeutscherÄrztetag digitalisation/AI resolutions",
+      "scope_state_after_pdf_metadata_check": "professional_resolution_transmission_exact_bill_link_pending",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Subject and opening paragraph"
+        }
+      ],
+      "depth": "first_page_metadata"
+    },
+    {
+      "id": "SG2609230013",
+      "actual_authored_author": "Bundesärztekammer",
+      "document_kind": "resolution_cover_letter",
+      "actual_process": "130thDeutscherÄrztetag digitalisation/AI resolutions",
+      "scope_state_after_pdf_metadata_check": "professional_resolution_transmission_exact_bill_link_pending",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Subject and opening paragraph"
+        }
+      ],
+      "depth": "first_page_metadata"
+    },
+    {
+      "id": "SG2609300265",
+      "actual_authored_author": "Fresenius Kabi Deutschland GmbH",
+      "actual_document_date": "2026-08-24",
+      "date_precision": "day",
+      "document_kind": "policy_letter_or_position_paper",
+      "actual_process": "Increased manufacturer rebate for parenteral nutrition; recently adopted provision",
+      "scope_state_after_pdf_metadata_check": "post_enactment_relief_request_exact_new_bill_link_pending",
+      "scope_limit": "Written letter refers to recently adopted increased manufacturer rebate; requests concerning enacted measure need exact new bill/version linkage.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Date, author and subject/opening paragraphs visually verified on rendered original"
+        }
+      ],
+      "visual_evidence": "research/round3-social/coverage-pdfs/register-date-ocr/SG2609300265-p1.png",
+      "depth": "selected_first_page_visual_metadata_not_full_content_review"
+    },
+    {
+      "id": "SG2609300200",
+      "actual_authored_author": "Bundespsychotherapeutenkammer",
+      "actual_document_date": "2026-07-29",
+      "date_precision": "day",
+      "document_kind": "policy_letter_or_position_paper",
+      "actual_process": "Congratulatory ministerial letter with broad psychotherapy reform requests",
+      "scope_state_after_pdf_metadata_check": "general_policy_letter_with_specific_legislative_background",
+      "scope_limit": "Cover congratulates new minister and names GeDIG government bill, GKV stabilisation and a parliamentary resolution as background; not automatically a matched draft response.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Date, author and subject/opening paragraphs visually verified on rendered original"
+        }
+      ],
+      "visual_evidence": "research/round3-social/coverage-pdfs/register-date-ocr/SG2609300200-p1.png",
+      "depth": "selected_first_page_visual_metadata_not_full_content_review"
+    },
+    {
+      "id": "SG2609300212",
+      "actual_authored_author": "Bundespsychotherapeutenkammer",
+      "actual_document_date": "2026-08-05",
+      "date_precision": "day",
+      "document_kind": "policy_letter_or_position_paper",
+      "actual_process": "Implementing/augmenting parliamentary psychotherapy resolution accompanying GKV stabilisation",
+      "scope_state_after_pdf_metadata_check": "parliamentary_resolution_followup_specific_implementation_bill_pending",
+      "scope_limit": "Cover explicitly addresses implementation of Entschließungsantrag and asks points to be considered in legislative implementation; preserve adjacent policy request until concrete implementing bill identified.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Date, author and subject/opening paragraphs visually verified on rendered original"
+        }
+      ],
+      "visual_evidence": "research/round3-social/coverage-pdfs/register-date-ocr/SG2609300212-p1.png",
+      "depth": "selected_first_page_visual_metadata_not_full_content_review"
+    },
+    {
+      "id": "SG2609290192",
+      "actual_authored_author": "Deutsche Reiterliche Vereinigung / Pferdesport Deutschland",
+      "actual_document_date": "2026-09-15",
+      "date_precision": "day",
+      "document_kind": "policy_letter_or_position_paper",
+      "actual_process": "Minijobs preservation in old-age security reform debate",
+      "scope_state_after_pdf_metadata_check": "commission_recommendation_related_exact_federal_bill_pending",
+      "scope_limit": "Cover refers to considerations of future minijob abolition and age-security reform; no concrete draft identified on inspected page.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Date, author and subject/opening paragraphs visually verified on rendered original"
+        }
+      ],
+      "visual_evidence": "research/round3-social/coverage-pdfs/register-date-ocr/SG2609290192-p1.png",
+      "depth": "selected_first_page_visual_metadata_not_full_content_review"
+    },
+    {
+      "id": "SG2609180009",
+      "actual_authored_author": "Mercedes-Benz",
+      "actual_document_date": "2026-08-24",
+      "date_precision": "day",
+      "document_kind": "policy_letter_or_position_paper",
+      "actual_process": "Preserve block-model partial retirement against pension-commission recommendation",
+      "scope_state_after_pdf_metadata_check": "commission_recommendation_related_exact_federal_bill_pending",
+      "scope_limit": "First page refers to23June2026commission final report and33recommendations; not automatically an addressed legislative draft.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Date, author and subject/opening paragraphs visually verified on rendered original"
+        }
+      ],
+      "visual_evidence": "research/round3-social/coverage-pdfs/register-date-ocr/SG2609180009-p1.png",
+      "depth": "selected_first_page_visual_metadata_not_full_content_review"
+    },
+    {
+      "id": "SG2609150002",
+      "actual_authored_author": "Bundesärztekammer",
+      "actual_document_date": "2026-09-09",
+      "date_precision": "day",
+      "document_kind": "policy_letter_or_position_paper",
+      "actual_process": "VAT treatment of expert/conciliation bodies at state medical chambers",
+      "scope_state_after_pdf_metadata_check": "administrative_tax_treatment_request_exact_federal_bill_pending",
+      "scope_limit": "Letter refers to Bund-Länder coordination of VAT treatment and asks exemption advocacy; no identified tax bill on first page.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Date, author and subject/opening paragraphs visually verified on rendered original"
+        }
+      ],
+      "visual_evidence": "research/round3-social/coverage-pdfs/register-date-ocr/SG2609150002-p1.png",
+      "depth": "selected_first_page_visual_metadata_not_full_content_review"
+    },
+    {
+      "id": "SG2609030012",
+      "actual_authored_author": "Südwestmetall and vbm",
+      "actual_document_date": "2026-08-10",
+      "date_precision": "day",
+      "document_kind": "policy_letter_or_position_paper",
+      "actual_process": "Cross-cutting social-policy requests and social-insurance ceilings",
+      "scope_state_after_pdf_metadata_check": "mixed_existing_and_proposed_measures_exact_versions_pending",
+      "scope_limit": "First page distinguishes already decided extraordinary health contribution ceiling increase and proposed nursing increase; do not treat five-page policy bundle as one identified draft.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Date, author and subject/opening paragraphs visually verified on rendered original"
+        }
+      ],
+      "visual_evidence": "research/round3-social/coverage-pdfs/register-date-ocr/SG2609030012-p1.png",
+      "depth": "selected_first_page_visual_metadata_not_full_content_review"
+    },
+    {
+      "id": "SG2610200011",
+      "actual_authored_author": "Deutsche Telekom, as registered; no separate author header on inspected page",
+      "actual_document_date": null,
+      "date_precision": "unknown",
+      "document_kind": "policy_letter_or_position_paper",
+      "actual_process": "Position on pension commission recommendation13 / partial-retirement block model",
+      "scope_state_after_pdf_metadata_check": "commission_recommendation_related_exact_federal_bill_pending",
+      "scope_limit": "Undated first page quotes commission recommendation13 and cites IAB24/2025; no concrete bill identified on inspected page.",
+      "evidence_locators": [
+        {
+          "pdf_page": 1,
+          "location": "Date, author and subject/opening paragraphs visually verified on rendered original"
+        }
+      ],
+      "visual_evidence": "research/round3-social/coverage-pdfs/register-date-ocr/SG2610200011-p1.png",
+      "depth": "selected_first_page_visual_metadata_not_full_content_review"
+    }
+  ],
+  "limits": "These are census and provenance classifications. No factual-error finding, document-wide content read, author motive, or exact receipt date is implied. General policy and statutory-evaluation material remain separate from statute/ordinance draft submissions."
+}

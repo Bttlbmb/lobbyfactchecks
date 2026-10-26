@@ -1,0 +1,2549 @@
+[
+  [
+    "questionName",
+    "variableName",
+    "questionType",
+    "subType",
+    "questionText",
+    "choiceValue",
+    "choiceText"
+  ],
+  [
+    "Veröffentlichung_Einverständnis",
+    "veröffentlichung_einverständnis",
+    "Closed",
+    "Single",
+    "Einverständniserklärung Veröffentlichung (Pflichtfeld)",
+    "587",
+    null
+  ],
+  [
+    "datenschutz_zustimmung",
+    "datenschutz_zustimmung",
+    "Closed",
+    "Single",
+    "datenschutz_zustimmung",
+    "587",
+    null
+  ],
+  [
+    "reg_nr1",
+    "reg_nr1",
+    "Open",
+    "String",
+    "Bitte geben Sie die Registernummer für Ihre Organisation ein (Form: R123456):",
+    "587",
+    null
+  ],
+  [
+    "organisation_art",
+    "organisation_art",
+    "Closed",
+    "Single",
+    "Art der Organisation",
+    "587",
+    null
+  ],
+  [
+    "organisation_name",
+    "organisation_name",
+    "Open",
+    "String",
+    "Name der Organisation*\n* Pflichtfeld, als Privatperson \"Privat\" eintragen.",
+    "587",
+    null
+  ],
+  [
+    "person_anrede",
+    "person_anrede",
+    "Closed",
+    "Single",
+    "Anrede der Ansprechperson\n(wird grundsätzlich nicht veröffentlicht)",
+    "587",
+    null
+  ],
+  [
+    "person_titel",
+    "person_titel",
+    "Closed",
+    "Single",
+    "Titel der Ansprechperson\n(wird grundsätzlich nicht veröffentlicht)",
+    "587",
+    null
+  ],
+  [
+    "person_nachname",
+    "person_nachname",
+    "Open",
+    "String",
+    "Nachname der Ansprechperson*\n* Pflichtfeld (wird grundsätzlich nicht veröffentlicht)",
+    "587",
+    null
+  ],
+  [
+    "person_vorname",
+    "person_vorname",
+    "Open",
+    "String",
+    "Vorname der Ansprechperson*\n* Pflichtfeld (wird grundsätzlich nicht veröffentlicht)",
+    "587",
+    null
+  ],
+  [
+    "person_email",
+    "person_email",
+    "Open",
+    "String",
+    "Alternative E-Mail-Adresse\nstandardmäßig ist bereits die E-Mail-Adresse hinterlegt, an die der Verifizierungslink geschickt wurde. Wenn Sie möchten, können Sie hier eine weitere E-Mail hinterlegen.\n(wird grundsätzlich nicht veröffentlicht)",
+    "587",
+    null
+  ],
+  [
+    "person_Telefonnummer",
+    "person_telefonnummer",
+    "Open",
+    "Double",
+    "Telefonnummer\nbitte im Format 0049 000000, ohne Klammern (wird grundsätzlich nicht veröffentlicht)",
+    "587",
+    null
+  ],
+  [
+    "organisation_anschrift",
+    "organisation_anschrift",
+    "Open",
+    "String",
+    "Anschrift\n(wird grundsätzlich nicht veröffentlicht)",
+    "587",
+    null
+  ],
+  [
+    "Auswahl_Stellungsnahme",
+    "auswahl_stellungsnahme_1",
+    "Closed",
+    "Multiple",
+    "Zu welchen Abschnitten des Gesetzentwurfs möchten Sie Stellung nehmen? ",
+    1,
+    "Abschnitt 1: Artikel 1"
+  ],
+  [
+    "Auswahl_Stellungsnahme",
+    "auswahl_stellungsnahme_2",
+    "Closed",
+    "Multiple",
+    "Zu welchen Abschnitten des Gesetzentwurfs möchten Sie Stellung nehmen? ",
+    2,
+    "Abschnitt 2: Artikel 2 "
+  ],
+  [
+    "Auswahl_Stellungsnahme",
+    "auswahl_stellungsnahme_3",
+    "Closed",
+    "Multiple",
+    "Zu welchen Abschnitten des Gesetzentwurfs möchten Sie Stellung nehmen? ",
+    3,
+    "Abschnitt 3: Sonstige Anmerkungen, über Anmerkungen zu Artikel 1 und 2 hinaus"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_1",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    1,
+    "Inhaltsübersicht"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_2",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    2,
+    "§ 1 Absatz 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_3",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    3,
+    "§ 2a Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_4",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    4,
+    "§ 2a Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_5",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    5,
+    "§ 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_6",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    6,
+    "§ 4"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_7",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    7,
+    "§ 5 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_8",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    8,
+    "§ 5 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_9",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    9,
+    "§ 5 Abs. 2a"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_10",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    10,
+    "§ 5 Abs. 5"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_11",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    11,
+    "§ 6 Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_12",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    12,
+    "§ 6 Abs. 6"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_13",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    13,
+    "§ 6 Abs. 7"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_14",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    14,
+    "§ 12 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_15",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    15,
+    "§ 12 Abs. 5"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_16",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    16,
+    "§ 14 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_17",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    17,
+    "§ 14 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_18",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    18,
+    "§ 14 Abs. 4"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_19",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    19,
+    "§ 16"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_20",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    20,
+    "§ 17 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_21",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    21,
+    "§ 17 Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_22",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    22,
+    "§ 18 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_23",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    23,
+    "§ 18 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_24",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    24,
+    "§ 18 Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_25",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    25,
+    "§ 19 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_26",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    26,
+    "§ 19 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_27",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    27,
+    "§ 20 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_28",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    28,
+    "§ 20 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_29",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    29,
+    "§ 20 Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_30",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    30,
+    "§ 21 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_31",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    31,
+    "§ 21 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_32",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    32,
+    "§ 21 Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_33",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    33,
+    "§ 21 Abs. 4"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_34",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    34,
+    "§ 22 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_35",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    35,
+    "§ 22 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_36",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    36,
+    "§ 22 Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_37",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    37,
+    "§ 22a Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_38",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    38,
+    "§ 22a Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_39",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    39,
+    "§ 22a Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_40",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    40,
+    "§ 22a Abs. 4"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_41",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    41,
+    "§ 22a Abs. 5"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_42",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    42,
+    "§ 22a Abs. 6"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_43",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    43,
+    "§ 22a Abs. 7"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_44",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    44,
+    "§ 23 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_45",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    45,
+    "§ 23 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_46",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    46,
+    "§ 23 Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_47",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    47,
+    "§ 24 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_48",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    48,
+    "§ 24 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_49",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    49,
+    "§ 25"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_50",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    50,
+    "§ 26"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_51",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    51,
+    "§ 50"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_52",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    52,
+    "§ 51 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_53",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    53,
+    "§ 51 Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_54",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    54,
+    "§ 51a"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_55",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    55,
+    "§ 51b Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_56",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    56,
+    "§ 51b Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_57",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    57,
+    "§ 51b Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_58",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    58,
+    "§ 52 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_59",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    59,
+    "§ 52 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_60",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    60,
+    "§ 52 Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_61",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    61,
+    "§ 53 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_62",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    62,
+    "§ 53 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_63",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    63,
+    "§ 54 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_64",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    64,
+    "§ 54 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_65",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    65,
+    "§ 54a Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_66",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    66,
+    "§ 54a Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_67",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    67,
+    "§ 54a Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_68",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    68,
+    "§ 54a Abs. 4"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_69",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    69,
+    "§ 54a Abs. 5"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_70",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    70,
+    "§ 54b Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_71",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    71,
+    "§ 54b Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_72",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    72,
+    "§ 54c Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_73",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    73,
+    "§ 54c Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_74",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    74,
+    "§ 55 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_75",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    75,
+    "§ 55 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_76",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    76,
+    "§ 55 Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_77",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    77,
+    "§ 55 Abs. 4"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_78",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    78,
+    "§ 55 Abs. 5"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_79",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    79,
+    "§ 55 Abs. 6"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_80",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    80,
+    "§ 57"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_81",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    81,
+    "§ 58 Abs. 1 und Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_82",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    82,
+    "§ 58 Abs. 4"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_83",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    83,
+    "§ 59"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_84",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    84,
+    "§ 60"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_85",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    85,
+    "§ 66"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_86",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    86,
+    "§ 67 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_87",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    87,
+    "§ 67 Abs. 4"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_88",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    88,
+    "§ 67 Abs. 6"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_89",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    89,
+    "§ 68 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_90",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    90,
+    "§ 68 Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_91",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    91,
+    "§ 69 Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_92",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    92,
+    "§ 69 Abs. 5"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_93",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    93,
+    "§ 69 Abs. 6"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_94",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    94,
+    "§ 69 Abs. 7"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_95",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    95,
+    "§ 70 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_96",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    96,
+    "§ 70 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_97",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    125,
+    "§ 72a Abs. 2 "
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_98",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    97,
+    "§ 81"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_99",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    98,
+    "§ 82 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_100",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    99,
+    "§ 82 Abs. 2a"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_101",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    100,
+    "§ 83a Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_102",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    101,
+    "§ 83a Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_103",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    102,
+    "§ 83a Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_104",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    103,
+    "§ 83a Abs. 4"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_105",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    104,
+    "§ 83a Abs. 5"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_106",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    105,
+    "§ 83a Abs. 6"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_107",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    106,
+    "§ 83a Abs. 7"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_108",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    107,
+    "§ 85 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_109",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    108,
+    "§ 85 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_110",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    109,
+    "§ 86"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_111",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    110,
+    "§ 87"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_112",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    111,
+    "§ 91"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_113",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    112,
+    "§ 91a Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_114",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    113,
+    "§ 91a Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_115",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    126,
+    "§ 93"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_116",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    114,
+    "§ 94"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_117",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    115,
+    "§ 95"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_118",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    116,
+    "§ 96"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_119",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    117,
+    "§ 97"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_120",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    118,
+    "§ 98"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_121",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    119,
+    "§ 102 Abs. 8"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_122",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    120,
+    "§ 102 Abs. 9"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_123",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    121,
+    "§ 105 Abs. 2"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_124",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    122,
+    "§ 105 Abs. 3"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_125",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    123,
+    "§ 106 Abs. 1"
+  ],
+  [
+    "Artikel1_AuswahlParagrahen",
+    "artikel1_auswahlparagrahen_126",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    124,
+    "§ 106 Abs. 2"
+  ],
+  [
+    "Artikel2",
+    "artikel2_1",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 2: Artikel 2 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    1,
+    "§ 17d Abs. 1"
+  ],
+  [
+    "Artikel2",
+    "artikel2_2",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 2: Artikel 2 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    2,
+    "§ 17d Abs. 2"
+  ],
+  [
+    "Artikel2",
+    "artikel2_3",
+    "Closed",
+    "Multiple",
+    "In Abschnitt 2: Artikel 2 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich)",
+    3,
+    "§ 17e"
+  ],
+  [
+    "Artikel1_P1_Inhalt",
+    "artikel1_p1_inhalt",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 Inhaltsübersicht\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "Artikel1_P1_A3",
+    "artikel1_p1_a3",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 1 Absatz 3\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_1",
+    "s_1",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 2a Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_2",
+    "s_2",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 2a Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_3",
+    "s_3",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_4",
+    "s_4",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 4 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_5",
+    "s_5",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 5 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_6",
+    "s_6",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 5 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_7",
+    "s_7",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 5 Abs. 2a \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_8",
+    "s_8",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 5 Abs. 5 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_9",
+    "s_9",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 6 Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_10",
+    "s_10",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 6 Abs. 6 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_11",
+    "s_11",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 6 Abs. 7 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_12",
+    "s_12",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 12 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_13",
+    "s_13",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 12 Abs. 5 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_14",
+    "s_14",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 14 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_15",
+    "s_15",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 14 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_16",
+    "s_16",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 14 Abs. 4 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_17",
+    "s_17",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 16 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_18",
+    "s_18",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 17 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_19",
+    "s_19",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 17 Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_20",
+    "s_20",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 18 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_21",
+    "s_21",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 18 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_22",
+    "s_22",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 18 Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_23",
+    "s_23",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 19 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_24",
+    "s_24",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 19 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_25",
+    "s_25",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 20 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_26",
+    "s_26",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 20 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_27",
+    "s_27",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 20 Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_28",
+    "s_28",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 21 Abs. 1  \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_29",
+    "s_29",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 21 Abs. 2  \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_30",
+    "s_30",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 21 Abs. 3  \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_31",
+    "s_31",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 21 Abs. 4  \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_32",
+    "s_32",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 22 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_33",
+    "s_33",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 22 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_34",
+    "s_34",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 22 Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_35",
+    "s_35",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 22a Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_36",
+    "s_36",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 22a Abs. 2\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_37",
+    "s_37",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 22a Abs. 3\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_38",
+    "s_38",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 22a Abs. 4 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_39",
+    "s_39",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 22a Abs. 5 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_40",
+    "s_40",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 22a Abs. 6 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_41",
+    "s_41",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 22a Abs. 7\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_42",
+    "s_42",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 23 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_43",
+    "s_43",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 23 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_44",
+    "s_44",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 23 Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_45",
+    "s_45",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 24 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_46",
+    "s_46",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 24 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_47",
+    "s_47",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 25 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_48",
+    "s_48",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 26 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_49",
+    "s_49",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 50 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_50",
+    "s_50",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 51 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_51",
+    "s_51",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 51 Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_52",
+    "s_52",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 51a \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_53",
+    "s_53",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 51b Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_54",
+    "s_54",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 51b Abs. 2\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_55",
+    "s_55",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 51b Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_56",
+    "s_56",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 52 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_57",
+    "s_57",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 52 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_58",
+    "s_58",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 52 Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_59",
+    "s_59",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 53 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_60",
+    "s_60",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 53 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_61",
+    "s_61",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 54 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_62",
+    "s_62",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 54 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_63",
+    "s_63",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 54a Abs. 1\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_64",
+    "s_64",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 54a Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_65",
+    "s_65",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 54a Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_66",
+    "s_66",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 54a Abs. 4 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_67",
+    "s_67",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 54a Abs. 5 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_68",
+    "s_68",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 54b Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_69",
+    "s_69",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 54b Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_70",
+    "s_70",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 54c Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_71",
+    "s_71",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 54c Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_72",
+    "s_72",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 55 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_73",
+    "s_73",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 55 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_74",
+    "s_74",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 55 Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_75",
+    "s_75",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 55 Abs. 4 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_76",
+    "s_76",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 55 Abs. 5 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_77",
+    "s_77",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 55 Abs. 6 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_78",
+    "s_78",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 57 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_79",
+    "s_79",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 58 Abs. 1 und Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_80",
+    "s_80",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 58 Abs. 4 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_81",
+    "s_81",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 59 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_82",
+    "s_82",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 60 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_83",
+    "s_83",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 66 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_84",
+    "s_84",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 67 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_85",
+    "s_85",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 67 Abs. 4 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_86",
+    "s_86",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 67 Abs. 6 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_87",
+    "s_87",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 68 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_88",
+    "s_88",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 68 Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_89",
+    "s_89",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 69 Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_90",
+    "s_90",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 69 Abs. 5 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_91",
+    "s_91",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 69 Abs. 6 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_92",
+    "s_92",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 69 Abs. 7 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_93",
+    "s_93",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 70 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_94",
+    "s_94",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 70 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_123",
+    "s_123",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 72a Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_95",
+    "s_95",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 81 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_96",
+    "s_96",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 82 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_97",
+    "s_97",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 82 Abs. 2a \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_98",
+    "s_98",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 83a Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_99",
+    "s_99",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 83a Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_100",
+    "s_100",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 83a Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_101",
+    "s_101",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 83a Abs. 4 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_102",
+    "s_102",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 83a Abs. 5 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_103",
+    "s_103",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 83a Abs. 6 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_104",
+    "s_104",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 83a Abs. 7 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_105",
+    "s_105",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 85 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_106",
+    "s_106",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 85 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_107",
+    "s_107",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 86 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_108",
+    "s_108",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 87 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_109",
+    "s_109",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 91\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_110",
+    "s_110",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 91a Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_111",
+    "s_111",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 91a Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_124",
+    "s_124",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 93\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_112",
+    "s_112",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 94 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_113",
+    "s_113",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 95 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_114",
+    "s_114",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 96 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_115",
+    "s_115",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 97\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_116",
+    "s_116",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 98 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_117",
+    "s_117",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 102 Abs. 8 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_118",
+    "s_118",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 102 Abs. 9 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_119",
+    "s_119",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 105 Abs. 2 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_120",
+    "s_120",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 105 Abs. 3 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_121",
+    "s_121",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 106 Abs. 1 \n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "s_122",
+    "s_122",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Artikel 1 § 106 Abs. 2\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "Artikel2_P17dA1",
+    "artikel2_p17da1",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Abschnitt 2: Artikel 2 § 17d Abs. 1\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "Artikel2_P17dA2",
+    "artikel2_p17da2",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Abschnitt 2: Artikel 2 § 17d Abs. 2\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "Artikel2_P17e",
+    "artikel2_p17e",
+    "Open",
+    "String",
+    "Ihre Anmerkungen zum Abschnitt 2: Artikel 2 § 17e\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "Abschnitt3",
+    "abschnitt3",
+    "Open",
+    "String",
+    "Ihre sonstigen Anmerkungen, über Anmerkungen zu Artikel 1 und 2 hinaus:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "587",
+    null
+  ],
+  [
+    "Zustimmung_Abschicken",
+    "zustimmung_abschicken",
+    "Closed",
+    "Single",
+    "Zustimmung_Abschicken",
+    "587",
+    null
+  ],
+  [
+    "email",
+    "email",
+    "Open",
+    "String",
+    "E-Mail",
+    "587",
+    null
+  ],
+  [
+    "statoverall",
+    "statoverall_1",
+    "Closed",
+    "Multiple",
+    "Gesamtstatus",
+    1,
+    "Neu"
+  ],
+  [
+    "statoverall",
+    "statoverall_2",
+    "Closed",
+    "Multiple",
+    "Gesamtstatus",
+    2,
+    "Versendet"
+  ],
+  [
+    "statoverall",
+    "statoverall_3",
+    "Closed",
+    "Multiple",
+    "Gesamtstatus",
+    3,
+    "Teilweise abgeschlossen"
+  ],
+  [
+    "statoverall",
+    "statoverall_4",
+    "Closed",
+    "Multiple",
+    "Gesamtstatus",
+    4,
+    "Abgeschlossen"
+  ],
+  [
+    "statoverall",
+    "statoverall_5",
+    "Closed",
+    "Multiple",
+    "Gesamtstatus",
+    5,
+    "Abgelehnt"
+  ],
+  [
+    "c_nrname2",
+    "c_nrname2",
+    "Open",
+    "String",
+    "Organisationsname gemäß Lobbyregister",
+    "587",
+    null
+  ]
+]

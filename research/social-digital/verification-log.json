@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "reviewer": "social_digital_ai",
+  "type": "artifact_integrity_check_not_independent_substantive_review",
+  "scope": "Ten social/digital candidate records and their local source references",
+  "results": {
+    "json_parse": "All own candidate records parse; wider research JSON parse check also passed.",
+    "original_fragments": "All ten claim fragments matched archived submission text after whitespace normalisation. Requests matched where an embedded or registry mapping was available; the shared DZV request was checked directly earlier.",
+    "counter_fragments": "Archived main counter quotations matched their sources. Two-column academic PDFs required ordinary reading-order extraction and removal of line-ending word hyphenation; no wording was altered. Some sources remain web-only and are labelled as such.",
+    "reviews": "All linked independent review files exist.",
+    "protected_fields": "Manual prose cleanup asserted unchanged originals, underlines, identifiers, URLs, filenames and hashes. A subsequently discovered misplaced DNA description was corrected by selecting source ID; this was a metadata editing error, not a source change.",
+    "archive_integrity": "All recorded local_file/ministry_local_file paths across research resolve. Referenced PDFs have PDF signatures. A final pass checked all 30 recorded local-file/SHA-256 pairs across research, including newly archived primary sources and register metadata; all matched. The register HTML is explicitly distinguished from its unavailable binary attachment.",
+    "submission_quote_budget": "Own submission-source verbatim fragments, including shared requests stored once: BÄK 25 words; HateAid 25; DZVhÄ 20; BDA 14; EGGD 20; Pharma Deutschland 15. No additional submission quotations were introduced by the final reassessment.",
+    "late_substantive_correction": "Original DSHS annual report revealed different total-volume and completed-treatment analytic bases. Earlier approximate derived share was withdrawn from active finding and superseded in independent review history; see candidate and reassessment records.",
+    "aggregate_quote_integrity": "Compared the ten own records against the compiled findings and unresolved-lead files: every claim/counter original and underline matched. Later contextual and metadata edits still require the final rebuild."
+  },
+  "limits": "This integrity check does not replace the separately recorded independent AI reviews or establish that every assertion in archived submissions was verified. No specialist review or author response is represented."
+}

@@ -1,0 +1,105 @@
+{
+  "law_id": "fernunterricht-modernisierung-2026",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "confidence": {
+    "text_source_mismatch": "unresolved_after_testing_benign_reading",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "energy_hearings independent AI",
+        "verdict": "Retain unresolved/minor/null after full author reading and selected primary brochure comparison; postal-only interpretation survives. Printed locator corrected to7.",
+        "review_file": "research/round3-reviews/energy-reviews-ferns-wuppertaler-postal.json",
+        "specialist": null
+      }
+    ]
+  },
+  "author_response": [],
+  "draft": {
+    "source_id": "ferns-refe-ministry-20261005",
+    "addressed_version": "17 August 2026 consultation draft",
+    "exactness": "The September author response addresses the initial consultation. The current official ministry resource serves a different draft dated5October2026 at11:52. The exact17AugustPDF has not been obtained; October text is corroboration only, not silently substituted.",
+    "version_gate": "exact_addressed_August17_text_not_archived",
+    "locator": {
+      "section": "October revision Article1 andArticle3, not certification of August wording"
+    },
+    "read_extent": "October cover, operative provisions and selected related memorandum/cost sections, not blanket all29pages."
+  },
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as an unresolved wording/source lead. Exact addressed August draft and concrete benign readings remain gates. No intent inferred.",
+      "by": "social_round3_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent energy adversarial review retained unresolved/minor/null; no proved factual error. Verified counter source physical7 also printed7.",
+      "by": "social_round3_ai"
+    }
+  ],
+  "id": "ferns2026-wuppertaler-postal-social-r3-06",
+  "document_id": "wuppertaler-ferns-20260910",
+  "card": {
+    "law_is_about": "Repealing the FernUSG approval regime and changing funding rules.",
+    "they_want": "Abolish the FernUSG completely.",
+    "they_claim": "Postal correspondence courses no longer exist.",
+    "the_problem": "A March2026provider brochure still sends study booklets by post, but also has digital teaching and assessment. It does not disprove a narrower statement that exclusively postal courses disappeared."
+  },
+  "claim_quote": {
+    "original": "Brief-Fernkurse gibt es nicht mehr.",
+    "language": "de",
+    "translation_en": "Translation: Postal correspondence courses no longer exist.",
+    "locator": {
+      "pdf_page": 4,
+      "paragraph": "Paragraph beginning DieZFU-Zulassungistkostenpflichtig"
+    },
+    "underline": "Brief-Fernkurse gibt es nicht mehr."
+  },
+  "request_quote": {
+    "original": "die Abschaffung des FernUSG",
+    "language": "de",
+    "translation_en": "Translation of fragment: abolition of the FernUSG",
+    "locator": {
+      "pdf_page": 8,
+      "section": "Fazit, final sentence endorsing repeal"
+    }
+  },
+  "counter_quote": {
+    "original": "Deine Studienhefte erhältst Du gebündelt per Post sowie digital über den Online-Campus.",
+    "language": "de",
+    "translation_en": "Translation: You receive your study booklets together by post and digitally through the online campus.",
+    "source_id": "ist-tourismus-202603",
+    "locator": {
+      "pdf_page": 7,
+      "printed_page": 7,
+      "section": "Studienhefte"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Physical posted study booklets remain part of at least this provider’s course offer in a brochure datedMarch2026. However, the same course has online lectures/webinars, online assessments and digital materials. Its existence disproves disappearance of postal components, but cannot by itself disprove disappearance of exclusively postal teaching.",
+  "effect": "Unresolved. A broad extinction reading removes a factual prop from the claim that the law’s original teaching format vanished. The author may instead contrast postal-only1970sformats with modern blended provision, in which case the comparison is not contradicted by this evidence.",
+  "limits": "Does not establish the market share of postal teaching, that a postal-only course still exists, that the law fits digital offerings, or that the repeal request is wrong. Do not promote mere semantic disagreement to proved factual error. The brochure carries aMarch2026copyright date and was retrieved after the Septemberauthor; its pre-author public availability has not been independently archived.",
+  "context_and_alternatives": "All eight author pages read; physical4 visually checked. The next sentence contrasts current digital formats with the original law. Primary brochure selected cover, offer, postal-delivery and digital teaching/assessment sections; it expressly supplies both modes. Exact17Augustdraft not archived.",
+  "materiality_explanation": "Potentially minor factual framing issue. Digital transformation remains real even where posted material continues. No major policy consequence established.",
+  "direction_explanation": null,
+  "submission_source": {
+    "url": "https://www.bmbfsfj.bund.de/resource/blob/294394/d52b7004754401eb8d9ac5f2847f1a04/wk-data.pdf",
+    "local_file": "research/round3-social/coverage-pdfs/e686ad0697bad70740.pdf",
+    "authored_date": "2026-09-10",
+    "reported_delivery_independently_verified": false
+  },
+  "reading_depth": {
+    "author": "Full eight physical pages; physical4 visually checked.",
+    "counter_source": "Brochure cover and physical2,7,10–11 selected; not blanket all12page factual audit."
+  },
+  "source_ids": [
+    "wuppertaler-ferns-20260910",
+    "ist-tourismus-202603",
+    "ferns-refe-ministry-20261005"
+  ]
+}

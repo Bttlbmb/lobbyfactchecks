@@ -1,0 +1,43 @@
+{
+  "review_id": "energy-reviews-pharma-20261024",
+  "date": "2026-10-24",
+  "reviewer": "energy_hearings_ai_agent",
+  "independence": "Independent adversarial review by a different AI agent; no specialist review or author contact.",
+  "candidate_id": "bstabg2026-pharmadeutschland-a01",
+  "recommendation": "downgrade_to_unresolved_lead",
+  "reason": "The formal 21-study classification contrasts with the submission’s near-unanimity wording, but does not prove the ordinary-language joint claim false. Similar costs is not identical to the absence of a cost+ classification, and the review’s underlying results include multiple perspectives and subgroups.",
+  "checks": [
+    {
+      "topic": "Submission and explicit request",
+      "result": "Read the complete homeopathy section on submission pages 5–10, including the cost-effectiveness paragraph on page 7 and request on page 8. It explicitly links the cited review to possible GKV relief and expressly requests removal of the proposed exclusion. The author’s wording includes similar, rather than strictly equal, costs."
+    },
+    {
+      "topic": "Exact addressed provision",
+      "result": "Checked the archived 16 April 2026 draft, Article 1 number 6, proposed section 11(6), physical page 9. The requested sentence is present. Retain the documented 159-page versus author-described 157-page pagination limitation."
+    },
+    {
+      "topic": "Review summary and denominator",
+      "result": "Read the primary paper’s methods, section 3.1.2 on physical page 10/printed 125, Figure 2 on physical page 22/printed 137, and the relevant study rows. Its formal summary is 14 favourable joint comparisons, one neutral and six increased-cost classifications. Fifteen of 21 is correct for that formal classification, but is not a demonstrated upper bound for the submission’s broader similar-cost wording."
+    },
+    {
+      "topic": "Adversarial statistical and perspective checks",
+      "result": "Table 2, physical page 6/printed 121, Ostermann 2021 [20], reports higher adult costs but lower child costs. Physical page 7/printed 122, Kass 2020 [22], reports significant higher costs for two conditions but a nonsignificant atopic-dermatitis difference (p = .250). Physical page 17/printed 132, Trichard 2004 [35], reports higher societal and patient costs but similar social-security costs (p = .73); I also visually inspected this row. These qualifications are particularly relevant because the submission’s following sentence concerns statutory insurance expenditure."
+    },
+    {
+      "topic": "Evidence against a wholly favourable account",
+      "result": "Other increased-cost rows are more clearly adverse: Witt 2009 [31], physical page 14/printed 129, reports significant extra costs at both six and twelve months, with similar clinical outcomes. The review’s classification contrast remains a legitimate lead. However some exceptions do not alone fix a unique numerical meaning for almost all, and cost-effectiveness itself is not equivalent to equal or lower costs."
+    },
+    {
+      "topic": "Materiality and direction",
+      "result": "If established, the overstatement would favour retaining reimbursement and minor severity would be plausible because the majority pattern and separate arguments remain. Until the wording’s scope is resolved, classify direction and severity as tentative assessments rather than treating the numerical error as proven."
+    }
+  ],
+  "required_changes": [
+    "Mark finding_state unresolved_lead.",
+    "Remove the categorical assertion that at most 15 of 21 fit the submission’s ordinary-language description.",
+    "Preserve the summary classification as the lead and include the subgroup, significance and payer-perspective qualifications."
+  ],
+  "new_quotations_reproduced": false,
+  "author_response": [],
+  "specialist": null
+}

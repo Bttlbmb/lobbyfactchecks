@@ -1,0 +1,33 @@
+{
+  "reviewer": "energy_hearings",
+  "reviewed_at": "2026-10-25",
+  "input": "research/round3-tax/coverage-cash-process-version-audit.json",
+  "scope": "Independent finite resource/package count and date-premise spot-check; not rereading all substantive positions.",
+  "checks": [
+    "All 25 register archive SHA-256 values recalculated and match; 23 distinct byte hashes confirmed.",
+    "Recomputed 17 distinct response_package_id values. Three-record joint cover/annex/redacted-cover cluster reduces by two; six-record Deutsche Kreditwirtschaft cluster reduces by five; two-record Nexi package/annex cluster reduces by one. Thus 25 minus 2 minus 5 minus 1 equals 17.",
+    "Five August 18 DK copies have identical complete whitespace-normalized extracted text. August 13 variant differs in date, redactions and an image page; inspected original second page visually and the extracted body/header, supporting retention as the same substantive position with distinct artifact/date evidence.",
+    "Independently compared Nexi adviser three-page document against physical pages 2–4 of its four-page parent package: complete whitespace-normalized text matches.",
+    "Joint cover comparison differs only at addressee/greeting/signature layout or redactions; full text diff inspected. Separate detailed annex header expressly names the same six umbrella associations and consultation.",
+    "Selected three additional chamber-response headers: WPK explicitly reports its August 13 letter to BMF; BStBK and BNotK date August 13. Three external professional chamber positions remain separate.",
+    "Exact addressed draft and companion ordinance are explicitly identified as author-hosted mirrors; later September stage remains separate, not silently substituted."
+  ],
+  "counts_supported": {
+    "register_records": 25,
+    "distinct_pdf_bytes": 23,
+    "distinct_registered_substantive_packages": 17,
+    "additional_professional_chamber_packages": 3,
+    "bounded_known_packages": 20
+  },
+  "disposition": "Supports finite count and substantive package grouping, with no required correction.",
+  "limits": [
+    "Counting substantive packages is different from counting artifacts, cover letters or delivery events; distinct dates and recipients must remain preserved inside merged packages.",
+    "Register recipient dates are author-reported rather than independently authenticated receipts. The proof correctly retains this distinction.",
+    "Full author-text coverage comes from the original reading ledger, not this metadata audit. It is not every-claim verification.",
+    "No complete BMF ministry or all-channel population is established.",
+    "No new substantive allegation inferred from metadata or date differences."
+  ],
+  "visual_evidence": [
+    "research/round3-energy/sources/dk-cash-13aug-p2.png"
+  ]
+}

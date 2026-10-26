@@ -1,0 +1,402 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "author_snapshot_hashes_checked": 3,
+  "author_text_extractions": [
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pdf_sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+      "text_file": "research/factual-checks/short-it-components-20261025/text/bmds-it-komponentenverordnung-itkv-response-003.txt",
+      "text_sha256": "dfe1168dcb08a5877ef0d259becc29a121708c1ad35f40dbc14276a8423007ba",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "pdf_sha256": "f42d81c2a2e0f3ae8d7415732464cafa310ce95310c182943ed6ea8a3e7a59a2",
+      "text_file": "research/factual-checks/short-it-components-20261025/text/bmds-it-komponentenverordnung-itkv-response-004.txt",
+      "text_sha256": "1b6fa79f16937ed7b453357f4dc2dd06daafdc8b236f28e49077a82f714ea297",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-012",
+      "pdf_sha256": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699",
+      "text_file": "research/factual-checks/short-it-components-20261025/text/bmds-it-komponentenverordnung-itkv-response-012.txt",
+      "text_sha256": "cfc914c98698f56b32fcdb72820e2d5815654c147fb4f9b63db96b530dae69e3",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    }
+  ],
+  "claims_checked": 32,
+  "reviews": [
+    {
+      "file": "research/factual-checks/short-it-components-20261025/reviews/a-reviews-c.json",
+      "sha256": "b6f3e12cfa28b99244db8fa7f88d4466763d05fd6886dae72c31890a9011a208",
+      "claims_reviewed": 11,
+      "omissions": 1
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/reviews/b-reviews-a.json",
+      "sha256": "d651248a0758da095855d0b4001cd06e605bc269a76ea18b81defaf3d05feb81",
+      "claims_reviewed": 15,
+      "omissions": 0
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/reviews/c-reviews-b.json",
+      "sha256": "86c7f724854a72c3eaeee9104a6ee1d4f506c07729c0029499f05076dfe977d1",
+      "claims_reviewed": 5,
+      "omissions": 0
+    }
+  ],
+  "archives": [
+    {
+      "source_id": "short-it-root-draft",
+      "file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-draft.pdf",
+      "sha256": "3083a6061d2f2512530d3f8f8272e564d557a3ada730660b9aa264a51780cf22"
+    },
+    {
+      "source_id": "short-it-root-accessibility",
+      "file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+      "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd"
+    },
+    {
+      "source_id": "short-it-root-dvdv",
+      "file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+      "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd"
+    },
+    {
+      "source_id": "short-it-root-dataport-faq",
+      "file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+      "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd"
+    },
+    {
+      "source_id": "short-it-root-ozg4-current",
+      "file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+      "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd"
+    },
+    {
+      "source_id": "short-it-root-bmg",
+      "file": "research/factual-checks/short-it-components-20261025/root-primary-checks.json",
+      "sha256": "864fb94e4615b88467ec43922130957d4deab0fa96241fd48d5e7c879a3921cd"
+    },
+    {
+      "source_id": "short-it-a-dnrw",
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+    },
+    {
+      "source_id": "short-it-a-dataport-fv",
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+    },
+    {
+      "source_id": "short-it-a-xpass-release25-11",
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+    },
+    {
+      "source_id": "short-it-a-bsi-tr03128-3",
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+    },
+    {
+      "source_id": "short-it-a-ozg4",
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+    },
+    {
+      "source_id": "short-it-a-pauswg7",
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+    },
+    {
+      "source_id": "short-it-a-pauswg20a",
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+    },
+    {
+      "source_id": "short-it-a-pauswv19",
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+    },
+    {
+      "source_id": "short-it-a-eidkg6",
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+    },
+    {
+      "source_id": "short-it-a-eidkg12",
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+    },
+    {
+      "source_id": "short-it-a-eidkg14a",
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+    },
+    {
+      "source_id": "short-it-a-aufenthg71",
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+    },
+    {
+      "source_id": "short-it-a-aufenthg78",
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+    },
+    {
+      "source_id": "short-it-a-access-search",
+      "file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7"
+    },
+    {
+      "source_id": "short-it-b-satzung",
+      "file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+      "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43"
+    },
+    {
+      "source_id": "short-it-b-dog-count",
+      "file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+      "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43"
+    },
+    {
+      "source_id": "short-it-b-ghs",
+      "file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+      "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43"
+    },
+    {
+      "source_id": "short-it-b-ewa-provider",
+      "file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+      "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43"
+    },
+    {
+      "source_id": "short-it-b-ewa-accessibility",
+      "file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+      "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43"
+    },
+    {
+      "source_id": "short-it-b-bitv",
+      "file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+      "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43"
+    },
+    {
+      "source_id": "short-it-c-ozg",
+      "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+      "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+    },
+    {
+      "source_id": "short-it-c-ozg2024",
+      "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+      "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+    },
+    {
+      "source_id": "short-it-c-ozg2026",
+      "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+      "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+    },
+    {
+      "source_id": "short-it-c-bmg",
+      "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+      "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+    },
+    {
+      "source_id": "short-it-c-ministry",
+      "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+      "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+    },
+    {
+      "source_id": "short-it-c-lower-saxony",
+      "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+      "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+    },
+    {
+      "source_id": "short-it-c-baykommun",
+      "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+      "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+    },
+    {
+      "source_id": "short-it-c-mpk-progress",
+      "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+      "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+    },
+    {
+      "source_id": "short-it-c-ewa-faq",
+      "file": "research/factual-checks/short-it-components-20261025/sources/c-primary-checks.json",
+      "sha256": "189f53b0be553d2421dcb699c5242bb64c5665e84092c41dfc35d7d22e971c6c"
+    },
+    {
+      "source_id": "short-it-root-mpk",
+      "file": "research/factual-checks/short-it-components-20261025/root-mpk-check.json",
+      "sha256": "7acd702a15f0987be9938589f4e9c7586e32bb2cf74e983a6dc343fadb49d000"
+    },
+    {
+      "source_id": "short-it-ar-ozg",
+      "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+    },
+    {
+      "source_id": "short-it-ar-bmg",
+      "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+    },
+    {
+      "source_id": "short-it-ar-ministry",
+      "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+    },
+    {
+      "source_id": "short-it-ar-ozg2024",
+      "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+    },
+    {
+      "source_id": "short-it-ar-ozg2026",
+      "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+    },
+    {
+      "source_id": "short-it-ar-lower-saxony",
+      "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+    },
+    {
+      "source_id": "short-it-ar-baykommun",
+      "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+    },
+    {
+      "source_id": "short-it-ar-mpk-resolution",
+      "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+    },
+    {
+      "source_id": "short-it-ar-ewa-faq",
+      "file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f"
+    },
+    {
+      "source_id": "short-it-br-draft",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-dnrw",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-dataport-fv",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-xpass",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-bsi",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-ozg4",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-pauswg7",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-pauswg20a",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-pauswv19",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-eidkg6",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-eidkg12",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-eidkg14a",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-aufenthg71",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-aufenthg78",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-history",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-br-search",
+      "file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745"
+    },
+    {
+      "source_id": "short-it-cr-satzung",
+      "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+    },
+    {
+      "source_id": "short-it-cr-bitv",
+      "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+    },
+    {
+      "source_id": "short-it-cr-whitebook",
+      "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+    },
+    {
+      "source_id": "short-it-cr-wds-method",
+      "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+    },
+    {
+      "source_id": "short-it-cr-korb2014",
+      "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+    },
+    {
+      "source_id": "short-it-cr-schuster2019",
+      "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+    },
+    {
+      "source_id": "short-it-cr-dog2025",
+      "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+    },
+    {
+      "source_id": "short-it-cr-wcag21",
+      "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+    },
+    {
+      "source_id": "short-it-cr-declaration",
+      "file": "research/factual-checks/short-it-components-20261025/sources/cr-primary-checks.json",
+      "sha256": "8c9c7cf6d3232de9cc8b8a61624c0308c76aea7ac0c06372eb16e67afd4b28c1"
+    }
+  ]
+}

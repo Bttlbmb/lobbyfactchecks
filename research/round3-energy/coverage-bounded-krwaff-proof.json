@@ -1,0 +1,33 @@
+{
+  "id": "energy-krwaff2026-known-external-reading",
+  "as_of": "2026-10-25",
+  "scope": "Two named participants and two public PDFresources in finite BMWE OpenData package: one joint external BDSV/BDLI response and one Bremen government response.",
+  "dataset_url": "https://daten.bundeswirtschaftsministerium.de/ODP/Redaktion/DE/OpenData/Stellungnahmen-KrWaff-OpenData.html",
+  "named_participants_all_kinds": 2,
+  "external_named_packages": 1,
+  "external_public_pdf_versions_fully_read": 1,
+  "external_physical_pages": 4,
+  "government_named_participants": 1,
+  "government_public_pdf_resources": 1,
+  "government_reading_depth": "metadata_only",
+  "external_document": {
+    "id": "bmwe-data-3a6ba53bcd27a25c",
+    "local_file": "research/round3-energy/sources/bmwe-datasets/3a6ba53bcd27a25c.pdf",
+    "url": "https://daten.bundeswirtschaftsministerium.de/ODP/Redaktion/DE/OpenData/Stellungnahmen-KrWaff-1-Distribution.pdf?__blob=publicationFile&v=2",
+    "sha256": "d79f82984f19c591b13c8d137de2617fbe4483dc621513f11a9151f4b7d3f4fa",
+    "author_date": "2026-08-06",
+    "submission_date_verified": false,
+    "depth": "full_submission"
+  },
+  "current_draft": {
+    "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/Gesetz/2026/20260817-refentwurf-krwaffgenv.pdf?__blob=publicationFile&v=6",
+    "local_file": "research/round3-energy/sources/krwaffgenv-refe-official.pdf",
+    "sha256": "ebe0baaa5d4f21fe5e9f1b3978a3017e224467fa0d6f742e42dfb42afbb374ed",
+    "physical_pages": 22,
+    "read_extent": "Cover and operative physical3–6, rationale7; not all22pages.",
+    "version_limit": "No internal cover timestamp. Current text includes wording the August6author proposes adding. Possible revision after submission prevents treating this artifact as the exact earlier addressed draft. No factual error inferred from that discrepancy."
+  },
+  "new_findings": 0,
+  "limits": "Finite published-resource closure, not all-channel completeness or independent verification of every legal interpretation. Joint authors count as one response package.",
+  "independent_coverage_review": "research/round3-reviews/tax-reviews-energy-small-bounded-coverage.json"
+}

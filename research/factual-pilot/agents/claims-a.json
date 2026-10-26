@@ -1,0 +1,1052 @@
+{
+  "id": "researcher-a-inventory",
+  "researcher": "a",
+  "status": "ready_for_independent_peer_review",
+  "completed_at_utc": "2026-10-25T08:56:59.517441+00:00",
+  "protocol": "research/factual-pilot/protocol.json",
+  "documents": [
+    {
+      "id": "bmwe-kltgv-2026-001",
+      "author": "Deutsche Carbon Management Initiative (DCMI)",
+      "author_date_or_month": "2026-08",
+      "submission_date_verified": false,
+      "local_file": "research/round3-energy/sources/bmwe-members/8c01fd78e04190e7fd04.pdf",
+      "sha256": "8c01fd78e04190e7fd040d67d00c152efff2705f4062d1269eb8b03c275d5847",
+      "physical_pages": 7,
+      "depth": "full_submission",
+      "log_locator": "$[66]",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "pilot_text": "research/factual-pilot/text/bmwe-kltgv-2026-001.txt",
+      "fully_read": true,
+      "read_method": "Complete page-delimited original text,then visual ambiguity checks",
+      "visual_inspection_pages": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "bmwe-kltgv-2026-002",
+      "author": "Verband Deutscher Maschinen- und Anlagenbau e. V. (VDMA)",
+      "author_date_or_month": "2026-08-07",
+      "submission_date_verified": false,
+      "local_file": "research/round3-energy/sources/bmwe-members/f59c094f95a549fabf84.pdf",
+      "sha256": "f59c094f95a549fabf84d7e9774dd2ac763284061c8164ad3769b853534c3572",
+      "physical_pages": 3,
+      "depth": "full_submission",
+      "log_locator": "$[67]",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "pilot_text": "research/factual-pilot/text/bmwe-kltgv-2026-002.txt",
+      "fully_read": true,
+      "read_method": "Complete page-delimited original text,then visual ambiguity checks",
+      "visual_inspection_pages": [
+        2
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "bmwe-kltgv-2026-001-A01",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Introduction and section1",
+      "original_excerpt": "die GasHDrLtgV weitgehend entsprechend anzuwenden",
+      "claim_en": "The draft chiefly applies the gas high-pressure pipeline framework correspondingly, including notification, expert inspection, oversight and expert-recognition duties.",
+      "claim_type": "legal_description",
+      "materiality": "high",
+      "policy_link": "Basis for requesting clearer cross-reference scope",
+      "cited_by_author": true,
+      "check_method": "Read draft operative§2, full rationale and administrative-cost duties independently.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "pp3,5–6,8–16,17"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The operative reference is broad; rationale expressly lists oversight and expert approval. Cost tables include duties under gas ordinance§§4–18.",
+      "limits": "Retained as a non-finding; draft is the archived8July2026 iteration. No other authenticated July7 iteration was available.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A02",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Section1",
+      "original_excerpt": "Nach ihrem Wortlaut könnte",
+      "claim_en": "The words construction and operation could leave the intended reach of the cross-reference unclear.",
+      "claim_type": "legal_interpretation",
+      "materiality": "medium",
+      "policy_link": "Requests express delineation of imported provisions",
+      "cited_by_author": true,
+      "check_method": "Compare ordinary wording, scheme and explicit rationale; assess strongest reasonable reading.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§2p3; rationalepp5–6,17"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "This is a plausible drafting concern rather than a demonstrably false statement. The rationale supports the broader intended reading acknowledged by DCMI itself.",
+      "limits": "No court/authority interpretation for this draft; ambiguity cannot be empirically established merely by competing readings.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A03",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Section2",
+      "original_excerpt": "die vorgesehenen Aufgaben übernehmen kann",
+      "claim_en": "Draft§3(1)2 adds a requirement that another device can take over the tasks if one device fails, beyond the gas framework wording.",
+      "claim_type": "legal_description",
+      "materiality": "high",
+      "policy_link": "Central premise for replacing mandatory redundancy",
+      "cited_by_author": true,
+      "check_method": "Read operative draft and independently compare official gas ordinance.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(1)2p3; rationale p18"
+        },
+        {
+          "source_id": "a-gashd-full",
+          "locator": "§3(4), final sentence"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Draft expressly adds functional failover to the gas ordinance requirement matching device number/type to operation and location.",
+      "limits": "DCMI repeats the draft rationale’s inaccurate§3(3) reference; the actual provision is§3(4). This incidental inherited cross-reference slip does not alter the substantive comparison.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A04",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        3,
+        6
+      ],
+      "section": "Section2 and conclusion",
+      "original_excerpt": "generellen 1:1-Redundanz",
+      "claim_en": "The failover wording effectively prescribes complete1:1 technical redundancy for every covered safety device, without exception.",
+      "claim_type": "legal_technical_interpretation",
+      "materiality": "high",
+      "policy_link": "Supports technology-neutral alternative safety measures",
+      "cited_by_author": true,
+      "check_method": "Inspect exact scope and compare pre-existing discretion for equivalent-safety exceptions.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§2,§3(1)2pp3–4"
+        },
+        {
+          "source_id": "a-gashd-full",
+          "locator": "§2(3);§3(4)"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The draft requires another device to perform failed functions, but does not expressly mandate identical paired hardware; a shared backup might meet the words. Gas§2(3) permits equivalent-safety exceptions to§§3/4, although its interplay with the special CO2 rule needs interpretation.1:1 may be industry shorthand for functional redundancy.",
+      "limits": "No definitive specialist interpretation or concrete design establishes whether broader language materially misstates applicable requirements; do not label this contradicted or overstated merely for using shorthand.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A05",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Section2",
+      "original_excerpt": "weshalb gerade bei Kohlendioxidleitungen",
+      "claim_en": "The draft does not supply a specific engineering assessment explaining why universal complete redundancy is necessary for CO2 pipelines.",
+      "claim_type": "document_content",
+      "materiality": "medium",
+      "policy_link": "Challenges adequacy of technical rationale",
+      "cited_by_author": true,
+      "check_method": "Read all19draft pages rather than only relevant citation.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "p18 rationale§3(1)2; all19pages audited"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The redundancy rationale cites the significance of the devices for safe/smooth operation; no comparative quantitative assessment of redundancy alternatives appears.",
+      "limits": "Supports only absence of that assessment in this draft, not absence of technical reasons anywhere or the proposition that failover is unnecessary.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A06",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        2,
+        3,
+        6
+      ],
+      "section": "Introduction,section2,conclusion",
+      "original_excerpt": "kann zu erheblichen zusätzlichen Investitions- und Betriebskosten führen",
+      "claim_en": "Blanket duplicate-device requirements can significantly raise capital/operating costs and delay infrastructure.",
+      "claim_type": "conditional_cost_forecast",
+      "materiality": "high",
+      "policy_link": "Requests reduced prescriptiveness",
+      "cited_by_author": false,
+      "check_method": "Check model specificity and external safety-design principles; distinguish mechanism from magnitude.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "cost estimatepp8–16; redundancy rationale p18"
+        },
+        {
+          "source_id": "a-hse-co2",
+          "locator": "ALARP and risk assessment guidance"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Additional equipment plausibly adds maintenance and other obligations, but no pipeline design, quantity, costs, baseline or sensitivity calculation is offered. Aggregate government cost estimates do not isolate blanket redundancy.",
+      "limits": "Unquantified conditional forecast; significance and delay are not established. No factual error inferred from absent modelling.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A07",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Section2",
+      "original_excerpt": "Sicherheitsfunktionen können je nach Leitungssystem auch durch andere",
+      "claim_en": "Safety functions can depending on the system be met through alternative technical, operational or organisational measures, but a blanket doubling has no demonstrated extra benefit.",
+      "claim_type": "technical_safety_premise",
+      "materiality": "high",
+      "policy_link": "Requests equivalent-safety alternatives",
+      "cited_by_author": false,
+      "check_method": "Check independent regulator engineering principles and imported exception provision; separate possibility from proof of equivalence.",
+      "evidence": [
+        {
+          "source_id": "a-hse-co2",
+          "locator": "Legislation,ALARP,ConveyingCO2; sound engineering evidence"
+        },
+        {
+          "source_id": "a-gashd-full",
+          "locator": "§2(3)"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Risk-based alternative measures and equivalent-safety derogations are recognised. This does not demonstrate equivalence of each listed measure to failover for every relevant failure scenario or absence of extra benefit from redundancy.",
+      "limits": "No specific hazard study/SIL assessment/failure probability comparison. General HSE guidance is undated and is used for engineering approach only, not Germany law or proof of universal equivalence.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A08",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        4,
+        6
+      ],
+      "section": "Section3",
+      "original_excerpt": "jeder widerrechtliche Versuch",
+      "claim_en": "Draft§3(3) adds immediate reporting of every unlawful interference attempt and includes no express materiality threshold.",
+      "claim_type": "legal_description",
+      "materiality": "high",
+      "policy_link": "Requests limiting reporting to objectively security-relevant attempts",
+      "cited_by_author": true,
+      "check_method": "Compare full gas§9 with operative addition and explanatory rationale.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(3)p4; rationalepp18–19"
+        },
+        {
+          "source_id": "a-gashd-full",
+          "locator": "§9(1)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Gas§9 reports specified accidents, damage and dangerous circumstances; the draft adds every unlawful attempt against the line/monitoring. No explicit de-minimis qualifier is included.",
+      "limits": "Whether purposive interpretation excludes plainly ineffectual attempts is unresolved. The author describes such effects as possibilities, not adjudicated law.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A09",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Section3",
+      "original_excerpt": "Bearbeitung tatsächlich",
+      "claim_en": "The broadened reporting duty could create avoidable administrative work and crowd out attention to serious incidents.",
+      "claim_type": "conditional_administrative_forecast",
+      "materiality": "medium",
+      "policy_link": "Supports a materiality threshold",
+      "cited_by_author": false,
+      "check_method": "Compare obligation/cost assumptions and identify empirical inputs needed.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(3)p4; costtables/rationalepp8–16,18–19"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The broadened category could increase reports. Neither document specifies incident frequency, handling time or staffing response, so significant burden/crowding-out cannot be confirmed.",
+      "limits": "Conditional unquantified effect; no inferred contradiction from government designation of informational costs as minor.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A10",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Section4",
+      "original_excerpt": "mehr als 16 bar",
+      "claim_en": "GasHDrLtgV ordinarily covers energy-supply gas pipelines designed for maximum permissible operating pressure above16bar.",
+      "claim_type": "legal_scope",
+      "materiality": "medium",
+      "policy_link": "Contrasts gas and CO2 application thresholds",
+      "cited_by_author": true,
+      "check_method": "Read official gas scope and amendment metadata.",
+      "evidence": [
+        {
+          "source_id": "a-gashd-full",
+          "locator": "§1(1),header last amendment13May2019"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The description accurately states gas ordinance§1(1).",
+      "limits": "Specific exceptions§1(3) also apply; author says generally and does not deny exceptions.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A11",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "section": "Section4",
+      "original_excerpt": "enthält weder einen Mindestdruck",
+      "claim_en": "Draft§1 covers CO2 pipelines under KSpTG without an express minimum pressure or explicit differentiation by length, diameter, capacity, site or hazard potential.",
+      "claim_type": "legal_scope",
+      "materiality": "high",
+      "policy_link": "Requests differentiated requirements for low-risk lines",
+      "cited_by_author": true,
+      "check_method": "Compare draft§1 and statutory definition, avoiding automatic transplantation of gas scope.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§1p3;rationale§1p17"
+        },
+        {
+          "source_id": "root-kspg",
+          "locator": "§3number6"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Draft§1 refers to functional CO2 pipeline definition without those explicit thresholds.",
+      "limits": "This does not mean all operative duties are identical for all lines; scope of corresponding gas§1 and inherited exceptions needs interpretation.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A12",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "section": "Section4 and conclusion",
+      "original_excerpt": "unabhängig vom konkreten Risikoprofil",
+      "claim_en": "The broad reference could impose high-pressure gas rules on short or low-pressure CO2 lines irrespective of their risk profile, requiring an explicit equivalent-safety departure clause.",
+      "claim_type": "legal_interpretation",
+      "materiality": "high",
+      "policy_link": "Requests proportionate low-risk rules",
+      "cited_by_author": true,
+      "check_method": "Check imported tailoring and exemption provisions as counterevidence.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§2p3"
+        },
+        {
+          "source_id": "a-gashd-full",
+          "locator": "§2(3);§3(4)final sentence;§5(5)"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "There is a defensible concern about broad scope, but imported framework already has an equivalent-safety exception and short-line procedural differentiation. The need for more explicit CO2 treatment is a legal/policy judgement.",
+      "limits": "Do not treat the proposal for an explicit opening as a categorical factual denial of existing discretion; author uses could and advocates clarification.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A13",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Section5",
+      "original_excerpt": "während des Regelbetriebs und während Förderpausen",
+      "claim_en": "Draft§3(1)1 requires equipment preventing impermissible high pressures and suddenly impermissible low pressures during regular operation and pauses to avoid two-phase flows.",
+      "claim_type": "legal_description",
+      "materiality": "high",
+      "policy_link": "Basis for questioning rigid phase-avoidance approach",
+      "cited_by_author": true,
+      "check_method": "Read operative draft, its phase rationale and emergency-duty exception.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(1)1p3,§3(2)p4;rationalep18"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Accurate description of the operative requirement.",
+      "limits": "The text is not expressly a prohibition on all two-phase states under every conceivable transient/emergency; the author’s next sentence about absolute avoidance is framed conditionally.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A14",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Section5",
+      "original_excerpt": "legt jedoch nicht näher dar",
+      "claim_en": "The draft does not detail which operating conditions make two-phase flow unmanageably risky or why specified equipment is necessary.",
+      "claim_type": "document_content",
+      "materiality": "medium",
+      "policy_link": "Requests technical re-examination",
+      "cited_by_author": true,
+      "check_method": "Read full draft and contrast general hazard explanation with a condition-specific analysis.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "p18rationale§3(1)1 and§3(2);full19pages"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The draft gives a general aim of avoiding abrupt phase changes, but no parameter-specific phase-envelope/hazard assessment.",
+      "limits": "This does not establish that two-phase flow is safe or that no external engineering basis exists.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A15",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Section5",
+      "original_excerpt": "Eine absolute Vermeidung sämtlicher Zweiphasenzustände könnte",
+      "claim_en": "Absolute avoidance of two-phase states could materially constrain design, compression, pressure holding, storage and operation under variable flows/startup/shutdown.",
+      "claim_type": "conditional_engineering_forecast",
+      "materiality": "high",
+      "policy_link": "Supports safer pressure/temperature operating-envelope alternative",
+      "cited_by_author": false,
+      "check_method": "Independent primary dynamic-flow model and experimental impurity/depressurisation check; retain method limits.",
+      "evidence": [
+        {
+          "source_id": "a-sintef-2013",
+          "locator": "pp3–5,10–11; varying-load binary-mixture simulation"
+        },
+        {
+          "source_id": "a-sintef-2021-abstract",
+          "locator": "2021experiment description and conclusions"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Independent primary work supports sensitivity of phase behaviour to composition, temperature and transients. It does not quantify impacts of this draft or show that it in fact demands avoidance in every transient.",
+      "limits": "Modelled50km binary-mixture cases stop at first bubble;2021tube tests are decompression experiments, not direct design/cost evaluation for German network.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A16",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "section": "Section6",
+      "original_excerpt": "nicht ausdrücklich in das Bußgeldregime einbezogen",
+      "claim_en": "Draft§4 selects gas ordinance offences and does not expressly enumerate the special§3CO2 requirements as separate fine offences.",
+      "claim_type": "legal_description",
+      "materiality": "medium",
+      "policy_link": "Requests clear fine-regime drafting",
+      "cited_by_author": true,
+      "check_method": "Read selected gas offence list and inspect indirect references in§§4,6,9.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§4p4;rationale p19"
+        },
+        {
+          "source_id": "a-gashd-full",
+          "locator": "§19numbers1–4,6–7;§6(1)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Draft§4 cites gas§19numbers1–4,6–7; special§3 duties are not separately enumerated by name.",
+      "limits": "Several selected offences concern unsafe operation/commissioning/reporting and may indirectly engage amended requirements. The author says not expressly, not no enforcement.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-001-A17",
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "section": "Section6",
+      "original_excerpt": "Damit bleibt unklar, welche Folgen ein Verstoß",
+      "claim_en": "Consequences of breaching special§3duties remain unclear and should be made explicit.",
+      "claim_type": "legal_interpretation",
+      "materiality": "medium",
+      "policy_link": "Requests clearer enforceability boundaries",
+      "cited_by_author": true,
+      "check_method": "Trace direct/indirect offence paths and evaluate inference conservatively.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§4p4;rationalep19"
+        },
+        {
+          "source_id": "a-gashd-full",
+          "locator": "§19;§4(1);§6(1);§9(1)"
+        },
+        {
+          "source_id": "root-kspg",
+          "locator": "§43(1)number18"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "There is no separate special-duty offence list, but potential indirect incorporation prevents treating lack of consequences as established. Author requests clarity rather than asserting categorical immunity.",
+      "limits": "Formal enforcement scope needs specialist statutory interpretation; this pilot does not claim a legal adjudication.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-002-A01",
+      "document_id": "bmwe-kltgv-2026-002",
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "section": "Section1",
+      "original_excerpt": "adressiert in erster Linie Sicherheitsanforderungen",
+      "claim_en": "The draft principally regulates construction/operation/oversight safety rather than CO2 accounting under EUETS.",
+      "claim_type": "legal_scope",
+      "materiality": "medium",
+      "policy_link": "Requests attention to EUETS compatibility",
+      "cited_by_author": true,
+      "check_method": "Read whole operative draft and rationale.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "pp3–6,17–19"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Scope is explicitly safety and corresponding gas-pipeline procedures; operative provisions introduce no detailed ETS accounting framework.",
+      "limits": "The author identifies July7draft; archived iteration is July8. This checks general subject matter without inferring a difference in draft versions.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-002-A02",
+      "document_id": "bmwe-kltgv-2026-002",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Section1",
+      "original_excerpt": "Erfassung, Messung und Bilanzierung",
+      "claim_en": "EUETS creates a need for measurable/verifiable transferred CO2 quantities, attribution/data transfer and treatment of quantity discrepancies.",
+      "claim_type": "implied_legal_technical_premise",
+      "materiality": "high",
+      "policy_link": "Supports ETS-compatible data infrastructure",
+      "cited_by_author": false,
+      "check_method": "Independent primary EUverification rule preceding author date; distinguish existing law from proposal.",
+      "evidence": [
+        {
+          "source_id": "a-ets-verification2025",
+          "locator": "Regulation2025/1192 Article1(11), replacing2018/2067Article17(4),OJp11"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The2025primary amendment expressly requires verifiers to check transfer-measurement differences, uncertainty and accounting alignment, and CO2in-transit transfers. This supports the broad compatibility premise.",
+      "limits": "Primary document search extraction available; direct EUbody retrieval challenged/empty. This is not proof every listed preferred standardised data design is mandated by ETS; VDMA proposes early consideration, not absence of all existing rules.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-002-A03",
+      "document_id": "bmwe-kltgv-2026-002",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Section2",
+      "original_excerpt": "besonderen physikalischen Eigenschaften",
+      "claim_en": "CO2has specific physical properties that can require different pipeline design/operation and fracture/material considerations from conventional natural gas.",
+      "claim_type": "technical_premise",
+      "materiality": "high",
+      "policy_link": "Supports CO2specific integrity rules",
+      "cited_by_author": false,
+      "check_method": "Cross-check dated primary research/standards publisher and independent gas-vsCO2scope.",
+      "evidence": [
+        {
+          "source_id": "a-dnv-f104",
+          "locator": "2021edition official scope:structural integrity/materials/design"
+        },
+        {
+          "source_id": "a-sintef-2021-abstract",
+          "locator": "2021experimental impurity/thermodynamic effects"
+        },
+        {
+          "source_id": "a-dnv-spitzenberger-2024",
+          "locator": "p5"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Pre-author engineering sources explicitly address CO2specific structural/phase/composition issues.",
+      "limits": "Supports general distinction; neither generic code descriptions nor tube experiments determine required safety margin for a specific project.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-002-A04",
+      "document_id": "bmwe-kltgv-2026-002",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Section2",
+      "original_excerpt": "Vermeidung und Begrenzung laufender duktiler Brüche",
+      "claim_en": "Technical rules and engineering experience demonstrate the importance of preventing/arresting running ductile fracture in CO2pipelines.",
+      "claim_type": "technical_safety_premise",
+      "materiality": "high",
+      "policy_link": "Requests fracture-arrest consideration",
+      "cited_by_author": false,
+      "check_method": "Independent pre-author DNVresearch programme and primary decompression experiments.",
+      "evidence": [
+        {
+          "source_id": "a-dnv-spitzenberger-2024",
+          "locator": "p5:running ductile fracture,full-scale tests,arrestor spacing"
+        },
+        {
+          "source_id": "a-sintef-2021-abstract",
+          "locator": "2021experiments:pressure plateau relevant to fracture assessment"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Dated2024primary presentation identifies RDF control and full-scale testing as key pipeline engineering topics; experiments demonstrate composition-sensitive decompression relevant to fracture.",
+      "limits": "This does not verify a particular unnamed European harmonised standard or assert frequent real-world running-fracture accidents. The normative recommendation for industrial-piping standards is separately excluded.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-002-A05",
+      "document_id": "bmwe-kltgv-2026-002",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Section2",
+      "original_excerpt": "Verunreinigungen sowie Druck-",
+      "claim_en": "CO2impurities and pressure/temperature conditions materially affect design, materials, safety and component durability.",
+      "claim_type": "technical_premise",
+      "materiality": "high",
+      "policy_link": "Supports quality and operating-condition requirements",
+      "cited_by_author": false,
+      "check_method": "Check primary binary-mixture simulation, tube-depressurisation experiments and independent regulator materials guidance.",
+      "evidence": [
+        {
+          "source_id": "a-sintef-2013",
+          "locator": "pp3–5,10–11"
+        },
+        {
+          "source_id": "a-sintef-2021-abstract",
+          "locator": "2021experiment abstract"
+        },
+        {
+          "source_id": "a-hse-co2",
+          "locator": "ConveyingCO2:water,impurities,materials and dynamic behaviour"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Primary work establishes mixture/temperature dependence of phase behaviour and decompression dynamics; regulator guidance identifies water/impurity/material compatibility hazards. General engineering premise is supported.",
+      "limits": "No single impurity concentration or pressure/temperature is universally unsafe; safety depends on mixture/state/material/system. No measured lifetime estimate for all components is inferred.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-002-A06",
+      "document_id": "bmwe-kltgv-2026-002",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Section2",
+      "original_excerpt": "insbesondere von Verdichter- und Pumpensystemen",
+      "claim_en": "These conditions particularly influence the service lifetime of compressor and pump components.",
+      "claim_type": "technical_specificity",
+      "materiality": "medium",
+      "policy_link": "Supports reliable CO2quality/operating conditions",
+      "cited_by_author": false,
+      "check_method": "Look for component-specific evidence and compare primary dynamic-flow model limitations.",
+      "evidence": [
+        {
+          "source_id": "a-sintef-2013",
+          "locator": "p3:introduction notes two-phase flow can cause compressor/pump problems;pp4–5simplifiedpump"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "A mechanism for compressor/pump problems is supported, but accessed evidence does not quantify or compare service-life effects in these components. The submission offers no component type, exposure regime or lifetime metric.",
+      "limits": "Unresolved specific emphasis, not a finding of falsehood. Full standards are subscription-limited; no specialist equipment review.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-002-A07",
+      "document_id": "bmwe-kltgv-2026-002",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Section2",
+      "original_excerpt": "das bereits hohe Sicherheitsniveau",
+      "claim_en": "The existing CO2transport infrastructure already has a high safety level.",
+      "claim_type": "qualitative_comparative_premise",
+      "materiality": "medium",
+      "policy_link": "Supports strengthening an established safety baseline",
+      "cited_by_author": false,
+      "check_method": "Assess operational denominator/metric and whether cited research establishes comparative safety.",
+      "evidence": [
+        {
+          "source_id": "a-dnv-spitzenberger-2024",
+          "locator": "pp4–5knowledge gaps and safety-research programme"
+        },
+        {
+          "source_id": "a-hse-co2",
+          "locator": "Introduction,uncertainties and lifecycle risk assessment"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "No geography, existing asset cohort, incident denominator or metric defines high. Sources establish hazard-management methods and knowledge gaps, not this unqualified performance assessment.",
+      "limits": "A qualitative assessment cannot be called false simply because no numerical definition was supplied. No statement that high safety is impossible.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-002-A08",
+      "document_id": "bmwe-kltgv-2026-002",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "Section3",
+      "original_excerpt": "Eine hohe Akzeptanz",
+      "claim_en": "Higher public acceptance helps planning/permitting and investment and can accelerate CO2infrastructure deployment.",
+      "claim_type": "causal_policy_premise",
+      "materiality": "medium",
+      "policy_link": "Supports transparency and early dialogue",
+      "cited_by_author": false,
+      "check_method": "Check whether testable population,intervention,comparison,outcome is specified; distinguish proposed causal mechanism from observed effect.",
+      "evidence": [
+        {
+          "source_id": "a-dnv-f104",
+          "locator": "scope excludes securing public awareness/acceptance"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "No population, timing,comparison or measured outcome is given. The general mechanism is plausible but no primary causal study for this specific proposition was identified in the technical sources checked.",
+      "limits": "Limited social-science search; claim remains a qualitative policy premise, not refuted. Completion means assessment/disposition saved, not causal proof acquired.",
+      "check_completed": true
+    },
+    {
+      "id": "bmwe-kltgv-2026-002-A09",
+      "document_id": "bmwe-kltgv-2026-002",
+      "pdf_pages": [
+        1,
+        3
+      ],
+      "section": "Introduction,section3,conclusion",
+      "original_excerpt": "wesentliche Voraussetzung",
+      "claim_en": "Developing CO2transport infrastructure is an important prerequisite for industrial transformation and meeting climate targets.",
+      "claim_type": "scenario_policy_premise",
+      "materiality": "high",
+      "policy_link": "Supports enabling transport infrastructure",
+      "cited_by_author": false,
+      "check_method": "Separate physical transport need for particular CCS/CCU pathways from universal climate-policy necessity.",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "p7:climate-neutrality evaluation premise"
+        },
+        {
+          "source_id": "a-dnv-f104",
+          "locator": "scope:transport infrastructure forCCS"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "CO2transport is physically required where captured CO2must reach separate use/storage sites. Whether German climate goals require the claimed infrastructure at the suggested scale is scenario-dependent; this submission supplies no quantified pathway/model.",
+      "limits": "Draft repeats a government policy premise but is not independent proof of universal necessity. No counterfactual national energy-system modelling undertaken; not an empirical error finding.",
+      "check_completed": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "a-dnv-f104",
+      "title": "DNV-RP-F104 official description, 2021 edition",
+      "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-f104-design-and-operation-of-carbon-dioxide-pipelines/",
+      "retrieved_at": "2026-10-25T08:51:27.261267+00:00",
+      "temporal_limit": "Publisher page retrieved 2026; edition explicitly 2021-02/amended 2021-09; substantive full standard not accessed.",
+      "local_file": "research/factual-pilot/sources/a-dnv-f104.html",
+      "sha256": "467aceeeff7793f58fad85b55247a953bf6f0584ea8e77121bcf81b1e3be8346",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 234724
+    },
+    {
+      "id": "a-dnv-spitzenberger-2024",
+      "title": "DNV Carbon Transport Panel, DOE NETL August 7 2024",
+      "url": "https://netl.doe.gov/sites/default/files/netl-file/24CM/24CM_GP_7_Spitzenberger.pdf",
+      "retrieved_at": "2026-10-25T08:51:29.058390+00:00",
+      "temporal_limit": "Slides themselves dated 7 August 2024, predating submissions.",
+      "local_file": "research/factual-pilot/sources/a-dnv-spitzenberger-2024.pdf",
+      "sha256": "43a02d70f8ce76b2683427ac366b096655a32c5914b55c0a02992137eb29cf39",
+      "content_type": "application/pdf",
+      "bytes": 428413
+    },
+    {
+      "id": "a-sintef-2021",
+      "title": "Munkejord et al. 2021 experimental impurity/depressurisation paper, author repository",
+      "url": "https://sintef.brage.unit.no/sintef-xmlui/bitstream/handle/11250/2757948/Munkejord2021doc_publisert.pdf?sequence=2",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "retrieved_at": "2026-10-25T08:51:18.096063+00:00",
+      "temporal_limit": "Publication 2021, predates submissions; controlled tube tests, not operating network causal evidence.",
+      "local_file": null,
+      "sha256": null,
+      "usable_as_evidence": false
+    },
+    {
+      "id": "a-iso-27913",
+      "title": "ISO27913:2024 official metadata/scope",
+      "url": "https://www.iso.org/standard/84840.html",
+      "error": "HTTP Error 403: Forbidden",
+      "retrieved_at": "2026-10-25T08:51:18.099112+00:00",
+      "temporal_limit": "2024-10 edition, corrected2025-09; page copyright2026, no inference of full normative content.",
+      "local_file": null,
+      "sha256": null,
+      "usable_as_evidence": false
+    },
+    {
+      "id": "a-gashd-full",
+      "title": "Official GasHDrLtgV consolidated text",
+      "url": "https://www.gesetze-im-internet.de/gashdrltgv_2011/GasHDrLtgV.pdf",
+      "retrieved_at": "2026-10-25T08:51:31.038214+00:00",
+      "temporal_limit": "Current official snapshot; last amendment metadata2019 checked separately by parent.",
+      "local_file": "research/factual-pilot/sources/a-gashd-full.pdf",
+      "sha256": "016c9981ada27d0cb62c8d576afa7634651e1a5e2e2a101c0699d7c6ff9a27fa",
+      "content_type": "application/pdf",
+      "bytes": 93286
+    },
+    {
+      "id": "a-ets-2025",
+      "title": "EU2018/2066 consolidated2025-01-01",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02018R2066-20250101",
+      "retrieved_at": "2026-10-25T08:51:31.595572+00:00",
+      "temporal_limit": "Consolidation date2025-01-01; primary legal instrument used only for preexisting CO2 accounting requirements.",
+      "local_file": null,
+      "sha256": null,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 0,
+      "error": "Empty response body; not usable evidence",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "a-sintef-2021-abstract",
+      "title": "Munkejord2021 author-institute abstract",
+      "url": "https://www.sintef.no/en/publications/publication/0198cc943242-f9b87897-ce58-4e03-ace7-d9152341db4f/",
+      "retrieved_at": "2026-10-25T08:52:24.573587+00:00",
+      "temporal_limit": "Author-institute abstract, publication2021; repository fulltext DNS unavailable.",
+      "local_file": "research/factual-pilot/sources/a-sintef-2021-abstract.html",
+      "sha256": "0523b25b4c2582bf46f582e2a2cd8291cd20da5a983f0c1be22cf13bf0876730",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 58239
+    },
+    {
+      "id": "a-sintef-2013",
+      "title": "Morin2013 Dynamic flow of CO2 in pipelines: Sensitivity to impurities",
+      "url": "https://www.sintef.no/globalassets/sintef-energi/nordiccs/d5.2.1301-dynamic-flow-of-co2-in-pipelines-sensitivity-to-impurities_web.pdf",
+      "retrieved_at": "2026-10-25T08:52:24.573999+00:00",
+      "temporal_limit": "June2013 original simulation report; model stops at bubble inception and does not simulate multiphase flow.",
+      "local_file": "research/factual-pilot/sources/a-sintef-2013.pdf",
+      "sha256": "910590195527d0d44187f2e0dfd5fd9e6b0796c056e868a1b92b085cabb0063e",
+      "content_type": "application/pdf",
+      "bytes": 813034
+    },
+    {
+      "id": "a-ets-original",
+      "title": "Commission Implementing Regulation EU2018/2066 original official OJ",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32018R2066",
+      "retrieved_at": "2026-10-25T08:52:24.574176+00:00",
+      "temporal_limit": "Original2018 OJ establishes pre-existing framework; not current consolidated law.",
+      "error": "Empty body; not evidence",
+      "local_file": null,
+      "sha256": null,
+      "usable_as_evidence": false
+    },
+    {
+      "id": "a-ets-may2025",
+      "title": "Commission Implementing Regulation EU2018/2066 consolidated2025-05-27",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A02018R2066-20250527",
+      "retrieved_at": "2026-10-25T08:52:24.574339+00:00",
+      "temporal_limit": "Dated consolidation prior to submissions; contents must be checked against PDF header.",
+      "error": "Empty body; not evidence",
+      "local_file": null,
+      "sha256": null,
+      "usable_as_evidence": false
+    },
+    {
+      "id": "a-hse-co2",
+      "title": "HSE official CO2 pipeline conveying guidance",
+      "url": "https://www.hse.gov.uk/pipelines/co2conveying-full.htm",
+      "retrieved_at": "2026-10-25T08:53:41.119499+00:00",
+      "temporal_limit": "Undated current guidance includes old standards; used for engineering principles only, not exact2026UK law.",
+      "local_file": "research/factual-pilot/sources/a-hse-co2.html",
+      "sha256": "c91848b000e100f89ea3d09cbd7342ccbdba024dd90a75493f4c04d5dcc69bf9",
+      "content_type": "text/html",
+      "bytes": 47979
+    },
+    {
+      "id": "a-corrosion-2019",
+      "title": "Morland et al. 2019 Acid reactions in hub systems consisting of separate non-reactive CO2 transport lines, publisher abstract",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1750583618305899",
+      "retrieved_at": "2026-10-25T08:53:41.462346+00:00",
+      "temporal_limit": "Original experimental paper2019; publisher abstract/preview only; no extrapolation of specific thresholds beyond tested mixtures.",
+      "error": "HTTP Error 403: Forbidden",
+      "local_file": null,
+      "sha256": null,
+      "usable_as_evidence": false
+    },
+    {
+      "id": "a-ets-verification2025",
+      "title": "EU2025/1192primary legal text,web search extraction",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202501192",
+      "retrieved_at": "2026-10-25T08:56:59.516949+00:00",
+      "local_file": "research/factual-pilot/sources/a-ets-search-extraction.json",
+      "sha256": "321c263aeca8b64575675371bd82ab1216a523c145a995b8b35f8f70f549a212",
+      "temporal_limit": "2025amendment before author date. Archived tool extraction, not original response bytes; direct requests challenged/empty.",
+      "archive_kind": "tool_extraction"
+    },
+    {
+      "id": "a-iso-tool",
+      "title": "ISO27913official metadata,web extraction",
+      "url": "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/data/standard/08/48/84840.html?browse=tc",
+      "retrieved_at": "2026-10-25T08:56:59.517219+00:00",
+      "local_file": "research/factual-pilot/sources/a-ets-iso-tool-extraction.json",
+      "sha256": "4baf29d41058341cf51d52e71ca535a981569c929cde15cdc5c6a2a8072421c3",
+      "temporal_limit": "2024edition/corrected2025,metadata only; full standard not accessed.",
+      "archive_kind": "tool_extraction"
+    }
+  ],
+  "shared_source_manifest": "research/factual-pilot/root-sources.json",
+  "exclusions": [
+    {
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        1
+      ],
+      "category": "cover",
+      "reason": "Title and month establish provenance; no material substantive assertion."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        2
+      ],
+      "category": "normative_and_forecast",
+      "reason": "Welcome for framework, clear-law desirability and urgency are value judgements; operational cost forecast retainedA06; reference-scope claimsA01–02."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "category": "proposed_text",
+      "reason": "Blue/indented amendments for operating envelope,CO2stream composition,DVGWC260and repurposing certification are proposals, not descriptions of existing law. Redundancy/safety premises retainedA03–07."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "category": "proposals_and_conditional_effects",
+      "reason": "Recommendations for reporting threshold,low-risk tailoring and opening clause are normative; factual scope and effects retainedA08–15."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "category": "proposed_enforcement_clarity",
+      "reason": "Recommendations about precise offences and essential safety violations are normative; descriptions and uncertainty retainedA16–17."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        6
+      ],
+      "category": "repetition_and_unquantified_benefits",
+      "reason": "Conclusion repeats inventoried claims. Technology-neutrality,competitiveness,urgency and uniform execution preferences are broad goals/conditional predictions; no separate measured effect or new factual premise."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-001",
+      "pdf_pages": [
+        7
+      ],
+      "category": "contact_and_self_description",
+      "reason": "Contacts,lobby number and initiative mission/membership are incidental low-priority provenance,not policy-material checks; no factual finding inferred."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-002",
+      "pdf_pages": [
+        1
+      ],
+      "category": "endorsement_and_preference",
+      "reason": "Welcome and desirability of legal clarity are opinions. Exact7Julyversion identity remains qualified. Main safety/ETS premises retainedA01–02."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-002",
+      "pdf_pages": [
+        2
+      ],
+      "category": "normative_standards_recommendation",
+      "reason": "Recommendation to use relevant harmonised European industrial-piping standards does not name a specific norm or assert all such standards apply to transmission pipelines. Normative choice not converted into false applicability claim; independent full-standard applicability remains outside proof."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-002",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "category": "policy_recommendations_and_repetition",
+      "reason": "Calls for reliable quality conditions,transparency/dialogue and final summary are recommendations; causal,safety,technical and climate premises retainedA03–09."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-002",
+      "pdf_pages": [
+        3
+      ],
+      "category": "contacts",
+      "reason": "Contacts/lobby/transparency IDs are incidental provenance,not material policy evidence."
+    }
+  ],
+  "statistics": {
+    "claims": 26,
+    "by_result": {
+      "supported": 14,
+      "unresolved": 12
+    },
+    "by_document": {
+      "bmwe-kltgv-2026-001": 17,
+      "bmwe-kltgv-2026-002": 9
+    }
+  },
+  "candidate_findings": [],
+  "limits": [
+    "No demonstrated factual error proposed from these two documents at this stage.",
+    "The inventory includes material interpretive/conditional premises as unresolved so that negative outcomes are visible.",
+    "Supported does not imply a policy recommendation is optimal.",
+    "Standards fulltexts and equipment-specific lifetime evidence remain access/precision limits.",
+    "No author contact or human specialist confirmation."
+  ]
+}

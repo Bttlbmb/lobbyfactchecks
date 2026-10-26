@@ -1,0 +1,82 @@
+{
+  "reviewer": "b",
+  "created_at_utc": "2026-10-25T11:25:00.356739+00:00",
+  "documents_reread": [
+    {
+      "document_id": "biostoffv2026-dgaum-20260929",
+      "local_file": "research/round3-social/coverage-pdfs/acfe36c057b07d7dc3.pdf",
+      "sha256": "fe9959645f6c4ffe1393a08de887373c2ead210a06f34124d36448ce10e3362a",
+      "pages": [
+        1,
+        2
+      ],
+      "method": "Read complete original two-page extracted text before staged candidate; rendered and visually inspected original physical p. 2."
+    }
+  ],
+  "candidate_reviews": [
+    {
+      "reviewed_file": "research/factual-checks/biostoffv-2026/staged/biostoffv2026-dgaum-postcovid-latency-fc01.json",
+      "reviewed_sha256": "c35e0e4ad8ba388564f53c5c8fb1e2c3f03882e1d09fbd9e6c61e50993ada339",
+      "candidate_id": "biostoffv2026-dgaum-postcovid-latency-fc01",
+      "disposition": "unresolved",
+      "recommendation": "Do not admit as an established factual-error finding. Preserve the timing concern as an unresolved lead.",
+      "actual_assertion": "The sentence states that numerous biologically caused diseases have latency periods of several decades and parenthetically names chronic viral hepatitis, post-COVID syndromes or occupational neoplasms. The examples normally inherit the latency description, making the post-COVID example questionable; it is not merely a statement that records should be retained for decades.",
+      "contextual_alternatives": [
+        "The paragraph groups heterogeneous long-term occupational consequences rather than expressly saying every case of every listed condition starts after decades. A loose collective illustration is a reasonable alternative to a precise universal medical onset assertion.",
+        "The intended recommendation is long-term standardised exposure documentation. Other diseases and the need to follow persistent illness independently support that recommendation. Correcting one example would not refute the register rationale."
+      ],
+      "evidence_checks": [
+        {
+          "source_id": "bio-root-who2021",
+          "locator": "Dated 6 October 2021 overview; definition and next sentence",
+          "finding": "Clinical condition is described at a usual three-month time point from acute COVID onset, with a symptom-duration criterion of at least two months; symptoms can continue or appear after initial recovery. The first definition explicitly remains open to new evidence. This does not establish a universal latest onset time."
+        },
+        {
+          "source_id": "bio-root-who2023",
+          "locator": "Dated 28 March 2023 Q&A: diagnosis timing, definition, duration",
+          "finding": "The page distinguishes diagnosis after the normal acute-recovery period, persistence or post-recovery onset, and uncertain individual duration. Its diagnostic minimum cannot be inverted into a maximum onset latency or a lifetime prognosis."
+        }
+      ],
+      "reasoning": "A precise claim that post-COVID typically or demonstrably first manifests only after several decades conflicts with the ordinary clinical time course and is not supported by these WHO sources. However, the author does not specify typical onset, every example, a particular cohort or an exclusive minimum latency. The WHO materials do not test decades-later sequelae and expressly allow uncertainty. Rejecting the grouped sentence as a settled falsehood would therefore require both a stronger attribution of the exact author proposition and more direct evidence than the available definition. This is a plausible wording/medical-timing concern, not sufficient for conservative error admission.",
+      "timing_distinctions": {
+        "onset_latency": "Interval from exposure/infection to development of disease; distinct from how long disease persists.",
+        "diagnostic_minimum": "Clinical criteria wait beyond ordinary acute recovery; they are neither a required symptom-free interval nor a universal maximum.",
+        "persistence": "Symptoms may continue or relapse; a long duration does not establish long symptom-free onset latency.",
+        "future_effects": "Unknown late effects cannot be disproved using a present case definition; uncertainty also does not validate an assertion that several-decade onset latency is already established."
+      },
+      "severity_if_later_confirmed": "At most minor: one example in one supporting paragraph, with no demonstrated change to the register recommendation.",
+      "favours_author_request": null,
+      "source_status": "Original source hashes verified. Existing bibliography findings are separate and were not used as proof of this medical premise.",
+      "limits": [
+        "No clinical specialist confirmation or author clarification. No intent inference.",
+        "The staged candidate is already unresolved and not admitted; this review agrees with that cautious disposition without treating the hypothesis as disproven.",
+        "No exact August draft is needed for this independent medical-premise check."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "bio-root-who2021",
+      "title": "WHO postCOVID clinical case definition2021",
+      "url": "https://www.who.int/publications/i/item/WHO-2019-nCoV-Post_COVID-19_condition-Clinical_case_definition-2021.1",
+      "retrieved_at": "2026-10-25T11:16:49.943182+00:00",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/root-who2021.html",
+      "sha256": "d09efe431c9d7474b4d6de41b4c2ab7eaa6eb849b003d820f3e96c0c711c029f",
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Current retrieval of dated2021/2023 WHO definition/guidance, preceding2026response. Usually3months is not a universal maximum latency; diagnostic minimum/persistence/futurelateeffects must be distinguished. No author response or clinical patient advice."
+    },
+    {
+      "id": "bio-root-who2023",
+      "title": "WHO28March2023postCOVID questions and answers",
+      "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-post-covid-19-condition",
+      "retrieved_at": "2026-10-25T11:16:50.657024+00:00",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/root-who2023.html",
+      "sha256": "9bfd5248ea0bb724075fdc45b26290991723a4af8ada43b1bdc1677cbcb82321",
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Current retrieval of dated2021/2023 WHO definition/guidance, preceding2026response. Usually3months is not a universal maximum latency; diagnostic minimum/persistence/futurelateeffects must be distinguished. No author response or clinical patient advice."
+    }
+  ],
+  "new_sources": []
+}

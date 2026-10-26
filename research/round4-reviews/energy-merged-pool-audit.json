@@ -1,0 +1,82 @@
+{
+  "reviewed_at_utc": "2026-10-25T06:13:09.834332+00:00",
+  "reviewer": "energy_hearings independent AI",
+  "snapshot_hashes": {
+    "data/screening-pool.json": "3a43c00300d69b0f1b52e75bdd10d5b260aad8155cdfe394d1fb4da651fe5c1f",
+    "data/screening-pool-summary.json": "004cb31e6b2465985356ed06efb8439ae5a9593e7bc96472ecf1e31e2d9e28a4",
+    "research/round4/baseline/screening-pool.json": "bbca6fb012fcd387bf6e96d0a9b938f5a9bc6ab0608187036c6c4498bbf4753e",
+    "research/build_screening_pool.py": "8e93de4f7e859f2c26fb9c591fd3dd1b851ac9d15c97107fd3b5e4a5f56c8fab"
+  },
+  "branch_ledger_hashes": {
+    "research/round4-root/pool-audit.json": "f80adf4d2c395a1d8eb74c6405ec6661772263c2d406979f413c8a61efc0e9f3",
+    "research/round4-energy/pool-audit.json": "196d7fa60ab7364726d70b6cf25d39a1c7a7ee551f95b5cc037be93ce741880f",
+    "research/round4-tax/pool-audit.json": "986baae8a5d178da12a4710a7c5f8b807d480cbc906d0bdf8aa920b848cb7eab",
+    "research/round4-social/pool-audit.json": "24d1f5b03361ed2a7738c748ba119db4ea232ba8ab785c1eb675f33ff3ed40cd"
+  },
+  "verdict": "Counts and identity supported; scope metadata correction requested before final rebuild.",
+  "reconciliation": {
+    "baseline_named_units": 565,
+    "current_named_units": 626,
+    "new_authored_units": 61,
+    "new_by_depth": {
+      "full_submission": 48,
+      "selected_passages": 10,
+      "keyword_triage": 3
+    },
+    "old_units_retained": 565,
+    "old_depth_upgrades_identified": 0,
+    "current_by_depth": {
+      "full_submission": 406,
+      "selected_passages": 91,
+      "keyword_triage": 128,
+      "full_text_ocr": 1
+    }
+  },
+  "identity_checks": [
+    "All565 baseline authored units retained by source-inventory identity. Current626 equals565plus61 new units.",
+    "The65 output groups touched by round4 include four existing units; repeat readings are not new authored submissions. No baseline depth changes identified in this snapshot.",
+    "BVTE10-page register body merges with existing16-page hearing package through the shared case-document id; its six-page appended DIW text is not falsely upgraded to full reading. Normalized-body comparison and independent visual comparison of both physical6 tables support same-body identity.",
+    "Shared14-association plastics letter merges across root and tax; K+S parent/subsidiary PDFs are byte-identical and represented once. Pilot RWE/GDA/MIBRAG repeated reads appear once each.",
+    "All exact-PDF hash repetitions across separate output rows occur in five previously documented multi-author containers. No new single-author PDF counted twice found.",
+    "All61 newly admitted rows have an actual local PDF, reading-evidence log and explicit external status. No primary-evidence-only study, law, draft or repeated independent review admitted as a new submission. The registered BDEW/PwC study is explicitly a submitted policy-position reading with legislative scope pending, not a counter-source read."
+  ],
+  "depth_and_scope": [
+    "Three newly added root rows plausibility-checked: Roche full5-page statement retains legislative-vehicle uncertainty; VATM58-page resource credits only physical27; BREKO33-page resource credits only18–19. These do not count all91resource pages as read.",
+    "Social seven-full/three-keyword extents and86full-resource pages match branch audit; historical BAG15May authored body is not redated by14October committee stamp.",
+    "Energy16full/one-selected ledger distinguishes scope-pending MIBRAG and K+S, and does not count machine extraction as full reading.",
+    "Findings61, unresolved37 and rejected1 are issue counts, distinct from626 reading units and from completed three-month coverage."
+  ],
+  "required_correction": {
+    "description": "Eleven tax rows with written_policy_position_scope_pending or written_policy_position_outside_or_unestablished_legislative_scope have no explicit scope_status, so the builder currently defaults them to federal_process. Document-kind labels retain the warning, but scope summary should also preserve pending/outside status.",
+    "count_effect": 0,
+    "notified": "Root and tax agent notified before finalisation."
+  },
+  "limits": [
+    "This is a structural/identity/declaration audit, not an independent repeat read of all626 documents or full substantive verification of every assertion.",
+    "Exact draft, authored date, register delivery and formal submission eligibility remain separate. No national coverage or error-prevalence inference follows.",
+    "Later rebuilds or added rows change file hashes and require a dated addendum; an earlier audit does not silently certify later content.",
+    "No compiled file or finding record edited by this reviewer."
+  ],
+  "followup": {
+    "checked_at_utc": "2026-10-25T06:17:02.732709+00:00",
+    "verdict": "Scope correction resolved; count and identity reconciliation remains supported.",
+    "snapshot_hashes": {
+      "data/screening-pool.json": "002c3a758d1cec15e2ff891b83f23619bb878c7366f252166bf07617093311ca",
+      "data/screening-pool-summary.json": "24985afe258e9526b3bb52f18e61ae511ccfb691b7d057138760968309370c5c",
+      "research/build_screening_pool.py": "8e93de4f7e859f2c26fb9c591fd3dd1b851ac9d15c97107fd3b5e4a5f56c8fab",
+      "research/round4-tax/pool-audit.json": "986baae8a5d178da12a4710a7c5f8b807d480cbc906d0bdf8aa920b848cb7eab"
+    },
+    "scope_correction_verified": true,
+    "corrected_policy_position_rows": 11,
+    "counts": {
+      "named_units": 626,
+      "by_depth": {
+        "full_submission": 406,
+        "selected_passages": 91,
+        "keyword_triage": 128,
+        "full_text_ocr": 1
+      }
+    },
+    "additional_identity_checks": "Compared new energy author/process families against baseline titles and source paths. GDA/DENEFF April consultation documents are distinct from new October/September responses; BEHG baseline nine does not include BAV. DGINA GeDIG baseline and new DGINA emergency-care response address different processes. No further semantic duplicate requiring a count change identified."
+  }
+}

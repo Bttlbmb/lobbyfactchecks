@@ -1,0 +1,31 @@
+{
+  "id": "targeted-material-claim-expansion",
+  "status": "lead_selection_complete",
+  "purpose": "Find promising additional cases, without estimating population error prevalence.",
+  "author_scope": "All external written submissions; no selection by ideology, organisational identity, or Lobbyregister membership alone.",
+  "date_scope": "Prioritise the 25 July–24 October 2026 collection. Older or differently scoped leads must be labelled separately.",
+  "selection_signals": [
+    "A specific checkable statistic, study conclusion, legal rule, deadline or absolute technical assertion.",
+    "The assertion supports an explicit and consequential policy request in the document.",
+    "A concrete source-scope, denominator, time-period, baseline, causal-attribution or exact-draft question can be identified.",
+    "The necessary original evidence is identifiable, making a decisive check feasible."
+  ],
+  "preferred_routes": [
+    "Follow sources underlying already documented major mismatches into distinct unread submissions.",
+    "Compare quantified fiscal, compliance-cost or market-share claims with the original tables and denominators.",
+    "Compare claims about legal requirements with the exact addressed draft and underlying authoritative instrument.",
+    "Compare categorical scientific or technical claims with the methods, population, outcome and conclusions of the cited original evidence."
+  ],
+  "deprioritisation_rules": [
+    "Do not treat an uncertain forecast, stated model assumption or policy disagreement as an error.",
+    "Do not pursue incidental citation defects solely to increase the finding count.",
+    "Read surrounding qualifications before assigning priority.",
+    "Retain plausible benign explanations and stop promotion where they cannot be resolved.",
+    "Do not reopen already exhausted interpretive leads without new primary evidence."
+  ],
+  "novelty": "Check binary identity and author/version context against the existing reading ledger. A different register record is not automatically a new submission.",
+  "independent_review": "Each branch's priority candidates receive a different AI agent's plausibility and novelty review. Selection review is not validation of a factual error.",
+  "counting": "Automated extraction or ranking adds no screened documents. Actual lead-selection passage reads are recorded separately until reconciled into the main reading ledger; no lead is added to the findings numerator.",
+  "reporting_limit": "A higher finding yield in this deliberately targeted pool would not demonstrate a higher error rate across all legislative submissions.",
+  "next_check_queue": "research/targeted-expansion/next-check-queue.json"
+}

@@ -1,0 +1,92 @@
+{
+  "status": "complete",
+  "started_at_utc": "2026-10-25T08:39:15.398863+00:00",
+  "completed_at_utc": "2026-10-25T08:51:31.162896+00:00",
+  "fixed_minimum_requested": false,
+  "purpose": "Additional primary-source research and reciprocal independent AI review of three existing unresolved leads.",
+  "result": {
+    "new_provisional_findings": 0,
+    "new_major_findings": 0,
+    "target_submissions_reassessed": 3,
+    "target_screening_pool_additions": 0,
+    "unresolved_to_rejected_after_review": 1,
+    "retained_unresolved": 2
+  },
+  "cases": [
+    {
+      "id": "tabstaendg2026-bvte-forecast-tax-r4-03",
+      "state": "unresolved_lead",
+      "potential_severity": "major",
+      "new_evidence": "Exact cited2014industry chart authenticated; original2002/03budget totals, Nov2003/May2004forecast vintages and adopted-law increments checked. One2007chart value matches a genuine total forecast; government acknowledged unmet2004additional-revenue expectations.",
+      "remaining_gate": "Identify the exact contemporaneous total-forecast vintages and compatible baseline for the2002–2005aggregate. No corrected8.4bn shortfall or causal loss established.",
+      "record": "research/round5-tax/tabstaendg2026-bvte-forecast-tax-r4-03-update.json"
+    },
+    {
+      "id": "gedig2026-svdgv-costs-social-r4-01",
+      "state": "rejected_after_review",
+      "new_evidence": "Earlier exactMaydraft/response and Augustpublic context; exact§345a integration obligations and§360cfinancing mechanism checked. Component estimate and2031financing do not establish provision for the broader2028pathway.",
+      "remaining_gate": "Reopen only with a public precise omitted-cost assertion or directly matched financing evidence. Closure does not endorse adequacy.",
+      "record": "research/round5-social/gedig2026-svdgv-costs-follow-up.json"
+    },
+    {
+      "id": "pnog2026-wir-care-share-root-r4-01",
+      "state": "unresolved_lead",
+      "potential_severity": "minor",
+      "new_evidence": "ExactDestatis table gives4,888,882home recipients /5,688,473total =85.9437%. Earlier author recipient wording and later system-reliance shorthand traced; statistical variables checked.",
+      "remaining_gate": "Precise intended citation and definition of care work/civil society. No corrected national work-share estimate established.",
+      "priority": "Low absent a specific new evidence route.",
+      "record": "research/round5-root/pnog2026-wir-care-share-update.json"
+    }
+  ],
+  "totals": {
+    "issue_records": 100,
+    "provisional_findings": 61,
+    "major": 11,
+    "minor": 50,
+    "unresolved_leads": 37,
+    "rejected_candidates": 2,
+    "documents_with_provisional_findings": 53,
+    "documents_with_major_findings": 10,
+    "broad_reading_units": 626,
+    "new_target_units_this_followup": 0
+  },
+  "coverage": {
+    "national_three_month_coverage_established": false,
+    "eligible_denominator": null,
+    "coverage_percent": null,
+    "context_reading_note": "Additional earlier/later author publications and primary evidence are logged separately; not automatically counted as new screened target submissions."
+  },
+  "review": {
+    "specialist": null,
+    "new_review_files": [
+      "research/round5-reviews/energy-reviews-bvte.json",
+      "research/round5-reviews/energy-reviews-svdgv.json",
+      "research/round5-reviews/root-reviews-bvte.json",
+      "research/round5-reviews/root-reviews-svdgv.json",
+      "research/round5-reviews/root-reviews-wir.json",
+      "research/round5-reviews/social-reviews-wir.json",
+      "research/round5-reviews/tax-reviews-wir.json"
+    ],
+    "type": "Independent AI checks; not human specialist confirmation."
+  },
+  "no_author_contact": true,
+  "author_response": [],
+  "preserved_baseline": "research/round5/baseline",
+  "assembly_manifest": "research/round5/assembly-manifest.json",
+  "verification": {
+    "all_100_records_validate": true,
+    "validation_errors": 0,
+    "validation_warnings": 0,
+    "source_quote_budget_overages": 0,
+    "unchanged_issue_records": 97,
+    "changed_issue_ids": [
+      "gedig2026-svdgv-costs-social-r4-01",
+      "pnog2026-wir-care-share-root-r4-01",
+      "tabstaendg2026-bvte-forecast-tax-r4-03"
+    ],
+    "all_61_provisional_findings_unchanged": true,
+    "all_three_original_claim_counter_request_quotes_unchanged": true,
+    "new_independent_AI_review_files": 7,
+    "specialist_review": null
+  }
+}

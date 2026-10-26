@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-25",
+  "reviewer": "tax_consultations_ai_agent",
+  "candidate_id": "abortionaccess2026-1000plus-social02",
+  "review_type": "Independent adversarial AI review; not specialist review",
+  "outcome": "retain_provisional_minor_true",
+  "checks": [
+    "Read all12 pages of the official submission and visually checked physical/printed page6, including the complete national-rate comparison and immediate inference about adequate provision.",
+    "Read the exact4-page motion BT21/3909 directly from the Bundestag primary PDF; verified January28version, telemedicine and staffing requests.",
+    "Independently inspected both archived official Destatis HTML tables, including year columns, age definition and census footnotes. Direct web re-retrieval returned403, not misrepresented as successful.",
+    "Inspected RKI2020table7.3.2.3 at physical282/printed281 in extracted text and rendered page; it reports2015 rate56.0.",
+    "Recomputed stated-figure growth as (63−56)/56×100=12.5%. The stated7-unit difference is correct;14.3% is not its percentage of56."
+  ],
+  "alternatives_tested": {
+    "rounding": "If both displayed integers alone concealed arbitrary values rounded to56 and63, a14.3% underlying increase could in principle occur. The primary historical56.0 figure materially narrows that explanation: even allowing2024 to be any value rounding to63 gives a maximum growth below13.5% when2015 rounds to56.0 at one decimal. The finding nevertheless remains arithmetic of stated figures, not an exact population-adjusted trend.",
+    "census": "The official series states2011-census-based denominators through2023 and2022-census denominators from2024. This limits exact trend comparability; it does not turn7/56 into14.3%.",
+    "timing": "The archived current Destatis from2023 table is dated28April2026, after the14April submission. It corroborates the reported2024 rate but should not be described as the exact contemporaneous webpage seen by the author. RKI2020predates the submission.",
+    "different_numerator": "The surrounding statement distinguishes counts, pregnancy shares and per10,000women. There is no stated alternative percentage calculation that would explain14.3% for this56-to63sentence."
+  },
+  "materiality_judgment": "Minor: the percentage overstates the stated rise by1.8percentage points, while its positive direction and other arguments survive.",
+  "direction_judgment": "True: the passage immediately uses these national numbers to argue that shortage is not demonstrated and obligations are met, supporting the explicit recommendation to reject the motion.",
+  "limits": "No independent conclusion about regional service adequacy, clinical risk, personal experience, counselling effectiveness, moral or legal merits. A typo or calculation slip is possible; no intent inferred. No additional original submission quotations repeated."
+}

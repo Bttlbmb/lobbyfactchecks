@@ -1,0 +1,107 @@
+{
+  "id": "csrd2025-familienunternehmen-esef-tax-r2-12",
+  "law_id": "csrd-implementation-2025",
+  "document_id": "familienunternehmen-csrd-20250721",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Introducing corporate sustainability reporting and assurance rules into German commercial law.",
+    "they_want": "Allow electronic formatting only at disclosure, and seek abolition of ESEF if possible.",
+    "they_claim": "ESEF is machine-readable but not human-readable.",
+    "the_problem": "ESEF uses human-readable XHTML, with machine-readable tags embedded in the same report."
+  },
+  "claim_quote": {
+    "original": "maschinen-, aber nicht menschenlesbares Format",
+    "language": "de",
+    "translation_en": "Translation of fragment: machine-readable, but not human-readable format",
+    "locator": {
+      "pdf_page": 5,
+      "printed_page": 5,
+      "section": "D.1 Offenlegungslösung ermöglichen",
+      "paragraph": "Third paragraph, first sentence; earlier first paragraph also describes ESEF information as exclusively machine-readable."
+    },
+    "underline": "nicht menschenlesbares"
+  },
+  "request_quote": {
+    "original": "Abschaffung des ESEF",
+    "language": "de",
+    "translation_en": "Translation of request fragment: abolition of ESEF",
+    "locator": {
+      "pdf_page": 5,
+      "printed_page": 5,
+      "paragraph": "Same third paragraph, immediately following sentence; author asks government to pursue this at European level if possible."
+    }
+  },
+  "counter_quote": {
+    "original": "sowohl vom Menschen als auch von Maschinen lesbaren Format",
+    "language": "de",
+    "translation_en": "Translation of fragment: format readable both by humans and by machines",
+    "source_id": "ec-esef-communication-20201110",
+    "locator": {
+      "section": "1. Einführung",
+      "paragraph": "Paragraph beginning Durch die Kombination, after list of main requirements; Official Journal C 379/1,10 November 2020."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Separate technical markup from the readable report. The Commission’s 2020 explanation of the adopted regulation expressly describes a format readable by both humans and machines. ESMA explains that XHTML is viewable in ordinary web browsers and inline XBRL embeds structured tags while preserving that presentation. The July 2025 draft expressly incorporates Article 3 of Regulation 2019/815 for the report format.",
+  "effect": "Removes one technical premise supporting the request to abolish the format. Readability alone does not resolve whether preparation, tagging, verification or correction costs justify a different reporting workflow.",
+  "limits": "No finding is made that ESEF preparation is simple, that tags can be verified by ordinary visual reading, that certified translations present no legal issues, or that a disclosure-only solution or abolition is inappropriate. The remaining legal and burden arguments are not adjudicated. No intent inferred. No claim is made that all sustainability tags were already mandatory inJuly 2025: the draft memorandum expressly envisages relevant tagging rules still to be adopted.",
+  "context_and_alternatives": [
+    "The original registered 12-page statement was read in full. The request follows both a technical-complexity discussion and a comparison with PDFs. Those broader burden arguments can remain valid.",
+    "Strongest benign reading: human readability refers colloquially to technical tags or code, rather than the rendered report. That could explain the criticism, but the standalone statement identifies the ESEF format generally and the preceding assertion describes the information exclusively as machine-readable.",
+    "This record groups the same format-description premise and adjacent abolition request; it does not create separate issues for repetitions in 2024 or November 2025 statements.",
+    "Official register text is the quotation authority. A public mirror supplies visual corroboration of the exact paragraph but has differences elsewhere; no complete-copy identity is asserted."
+  ],
+  "materiality_explanation": "Minor: a definite technical description undermines a specific supporting premise, but does not remove the independent arguments about timing, tagging burden, assurance or legal workflow.",
+  "direction_explanation": "True narrowly: describing the format as unreadable by people makes abolition appear more necessary. Correction weakens that rationale without deciding the request’s merits.",
+  "confidence": {
+    "text_source_mismatch": "high for rendered XHTML human readability; scope alternative explicit",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "source_id": "csrd-refe-20250710",
+    "version": "BMJV July 10,2025 consultation Referentenentwurf, official version 3 file modifiedJuly 18, before authorJuly 21. Not September government bill or 2026 amendment.",
+    "relevant_provision": "Proposed§289g sentence 1 number 1,physical/printed 14;§315e physical/printed 21; explanations 132–133 and 137 distinguish report format and tagging."
+  },
+  "source_ids": [
+    "familienunternehmen-csrd-20250721",
+    "familienunternehmen-csrd-20250721-mirror",
+    "csrd-refe-20250710",
+    "esma-esef-tutorial1-20181119",
+    "esma-electronic-reporting-current",
+    "ec-esef-communication-20201110"
+  ],
+  "submission_source_id": "familienunternehmen-csrd-20250721",
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_ai_independent_review",
+        "date": "2026-10-25",
+        "outcome": "Retain provisional minor/true, narrow format description; technical-tag alternative and provenance limits explicit.",
+        "review_file": "research/round2-reviews/social-reviews-familien-esef.json"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after original register full context and exact pre-submission draft checked; independent review requested.",
+      "by": "tax_consultations_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent social-agent full-context review retained provisional minor/true; original 2020 adopted-framework explanation independently verified.",
+      "by": "independent_ai_review"
+    }
+  ],
+  "verification": {
+    "quotation_budget": "Five claim words plus three request words=8 author words; Commission counter 10 words.",
+    "visual": "Public mirror page 5 and original ESMA tutorial physical 2 rendered and viewed. Official register screenshot request failed; quotation independently read in official PDF text.",
+    "source_registry": "research/round2-tax/sources.json",
+    "archive_limits": "Original register rawdownload returnedHTML; mirror has differences outside the relevant paragraph. Original EU regulation direct retrieval returnedbotcheck/emptyresponse, so no successful adopted-act archive claimed; historical ESMA tutorial and current official corroboration used. The original 2020 Commission communication was successfully read in official EUR-LexHTML; curl returned an empty response, so no successful local copy claimed."
+  }
+}

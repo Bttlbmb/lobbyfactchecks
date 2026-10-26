@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-25",
+  "checked_by": "energy_ai_screen",
+  "scope": "Independent recomputation of retained numerical records; these calculations do not validate source models, assumed tariffs or policy effects.",
+  "calculations": [
+    {
+      "issue_id": "eeg2027-bsw-price-percent-a01",
+      "expression": "(112.8 / 89.3 - 1) × 100",
+      "result_percent": 26.31578947368421,
+      "comparison": "The reverse reduction is (1 -89.3 /112.8) ×100 =20.83333333333333%. The source summary itself uses a contrary rounded direction, retained as a prominent limit."
+    },
+    {
+      "issue_id": "eeg2027-bsw-consumer-costs-a02",
+      "expression": "(13.1 / 10.9 -1) ×100",
+      "result_percent": 20.18348623853211,
+      "comparison": "Combined economic value (15.7 /10.9 -1) ×100 =44.03669724770642%. The correction concerns cost category; no actual customer savings demonstrated."
+    },
+    {
+      "issue_id": "geowg2024-muellersyhre-a03",
+      "expression": "9.5 /33",
+      "result": 0.2878787878787879,
+      "comparison": "Multiplying by4.59 gives1.321363636363636. Using42.29instead of33 gives1.031094821470797. This direction favours heat pumps, opposite the author’s rejection request."
+    }
+  ],
+  "no_new_findings": true
+}

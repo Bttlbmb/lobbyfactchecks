@@ -1,0 +1,499 @@
+{
+  "retrieved_at": "2026-10-24",
+  "sources": [
+    {
+      "id": "hausgrund-geg-2023",
+      "title": "Haus & Grund Deutschland, Stellungnahme zum GEG-Entwurf vom 3 April 2023, reproduced in Bundestag A-Drs. 20(25)403, 19 June 2023",
+      "url": "https://www.bundestag.de/resource/blob/954266/e967fb71bce5a0fa78e43f4ec8ea8ae7/Stellungnahme-Haus-und-Grund.pdf",
+      "type": "primary_submission",
+      "local_path": "research/energy/sources/haus-grund-geg-2023.pdf",
+      "pdf_pages": 23,
+      "relevant_pages": [
+        2,
+        7,
+        19
+      ],
+      "visual_verification": [
+        2,
+        19
+      ]
+    },
+    {
+      "id": "fraunhofer-wpsmart-2020",
+      "title": "Fraunhofer ISE: Wärmepumpen in Bestandsgebäuden, WPsmart im Bestand Abschlussbericht, Version 2.1, 23 July 2020",
+      "url": "https://www.ise.fraunhofer.de/content/dam/ise/de/downloads/pdf/Forschungsprojekte/BMWi-03ET1272A-WPsmart_im_Bestand-Schlussbericht.pdf",
+      "type": "primary_measurement_report",
+      "local_path": "research/energy/sources/fraunhofer-wpsmart-2020.pdf",
+      "pdf_pages": 258,
+      "note": "Web reader reports 147 pages, but actual PDF has 258 including individual-building appendix. Use physical PDF page 235 for ID 363.",
+      "relevant_pages": [
+        35,
+        36,
+        48,
+        49,
+        50,
+        235
+      ],
+      "visual_verification": [
+        49,
+        50,
+        235
+      ]
+    },
+    {
+      "id": "geg-draft-2023-04-03",
+      "title": "BMWK/BMWSB consultation draft, 3 April 2023, 09:06",
+      "url": "https://www.bmwsb.bund.de/SharedDocs/gesetzgebungsverfahren/Webs/BMWSB/DE/Downloads/referentenentwuerfe/gebaeudeenergiegesetz-geg.pdf?__blob=publicationFile&v=1",
+      "archive_url": "https://www.bfw-bund.de/download/169565/?tmstv=1773225480",
+      "type": "primary_draft_copy",
+      "local_path": "research/energy/sources/geg-draft-2023-04-03.pdf",
+      "note": "Ministry URL returned HTML instead of PDF; the identical-timestamp government draft was downloaded from BFW mirror. A later same-day 13:16 version is available through FragDenStaat and must not silently be substituted.",
+      "relevant_provision": "§ 71 c"
+    },
+    {
+      "id": "hausgrund-lobbyregister-2023",
+      "title": "Haus & Grund Deutschland, historical Lobbyregister entry R 000238, 9 June 2023–20 June 2024",
+      "url": "https://www.lobbyregister.bundestag.de/media/1c/4d/445029/Lobbyregister-Registereintraege-Detailansicht-R000238-2023-06-09_13-34-21.pdf",
+      "type": "official_register",
+      "note": "Search index confirms identity and dates. Attempted archive download returned an HTML error; do not treat failed local file as PDF. Current official entry: https://www.lobbyregister.bundestag.de/suche/R 000238/80076"
+    },
+    {
+      "id": "bmwk-geg-consultation-2023",
+      "title": "BMWK: Länder- und Verbändeanhörung zum GEG, 3 April 2023; published statements 25 April 2023",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/Stellungnahmen/gebaeudeenergiegesetz.html",
+      "type": "ministry_consultation_index",
+      "additional_url": "https://www.bmwk.de/Redaktion/DE/Pressemitteilungen/2023/04/20230403-bundesregierung-startet-laender-und-verbaendeanhoerung-zur-novelle-des-gebaeudeenergiegesetzes-kabinettbefassung-noch-im-april.html",
+      "note": "Index confirms April consultation and published ZIP. Hearing submission supplies the quoted original document."
+    },
+    {
+      "id": "waniczek-wassbg-2024",
+      "title": "Dr. Dipl. Ing. Helmut Waniczek, WasserstoffBG Stellungnahme, A-Drs. 20(25)673, committee cover 20 September 2024",
+      "url": "https://www.bundestag.de/resource/blob/1019672/Stellungnahme-Dr-Waniczek-20-25-673.pdf",
+      "type": "primary_submission",
+      "local_path": "research/energy/sources/waniczek-wassbg-2024.pdf",
+      "pdf_pages": 4,
+      "relevant_pages": [
+        2,
+        3,
+        4
+      ],
+      "visual_verification": [
+        4
+      ],
+      "note": "Expert submitted as an individual. No Lobbyregister identity asserted for this person."
+    },
+    {
+      "id": "wassbg-hearing-transcript-2024",
+      "title": "Bundestag Committee for Climate and Energy, transcript of 118 th meeting, 25 September 2024",
+      "url": "https://www.bundestag.de/resource/blob/1023104/Wortprotokoll_118_Sitzung_oeA_Beschleunigung_Wasserstoffhochlauf.pdf",
+      "type": "official_hearing_record",
+      "local_path": "research/energy/sources/wassbg-hearing-transcript-2024.pdf",
+      "pdf_pages": 30,
+      "relevant_pages": [
+        11,
+        12,
+        22,
+        25,
+        26,
+        29
+      ]
+    },
+    {
+      "id": "siemens-hyflexpower-2023",
+      "title": "Siemens Energy, ENGIE, Centrax: HYFLEXPOWER consortium turbine operation on 100% renewable hydrogen, 13 October 2023",
+      "url": "https://assets.siemens-energy.com/dam/012ecd41-d532-4309-8726-b09900e5c335/20231012_SE_Gemeinsame_Pressemitteilung_Hyflexpower_DE-pdf_Original%20file.pdf",
+      "type": "primary_project_operator_report",
+      "local_path": "research/energy/sources/siemens-hyflexpower-2023.pdf",
+      "pdf_pages": 4,
+      "relevant_pages": [
+        1,
+        2
+      ],
+      "note": "Operator announcement of demonstration tests, not independent proof of commercial economics."
+    },
+    {
+      "id": "nedo-hydrogen-turbine-2018",
+      "title": "NEDO, Obayashi, Kawasaki: World's First Heat and Electricity Supplied in an Urban Area Using 100% Hydrogen, 20 April 2018",
+      "url": "https://www.nedo.go.jp/english/news/AA5en_100382.html",
+      "type": "primary_public_research_project_report",
+      "note": "Reports verification tests on 19–20 April 2018 at Kobe Port Island, supplying four neighbouring facilities. Independent earlier example, not necessary to rely exclusively on 2023 demonstrator.",
+      "local_path": "research/energy/sources/nedo-hydrogen-turbine-2018.html"
+    },
+    {
+      "id": "wassbg-draft-bt2011899",
+      "title": "Government WasserstoffBG bill, BT-Drs. 20/11899, 21 June 2024",
+      "url": "https://dserver.bundestag.de/btd/20/118/2011899.pdf",
+      "type": "primary_draft",
+      "local_path": "research/energy/sources/wassbg-draft-bt2011899.pdf"
+    },
+    {
+      "id": "wassbg-hearing-page-2024",
+      "title": "Bundestag, Beschleunigungsgesetz für den Wasserstoffhochlauf beraten, hearing 25 September 2024",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2024/kw26-de-wasserstoff-1008410",
+      "type": "official_process_index"
+    },
+    {
+      "id": "uim-enefg-2026",
+      "title": "Umweltinstitut München e.V., Stellungnahme Energieeffizienzgesetz – Novelle 2026, 17 April 2026",
+      "url": "https://umweltinstitut.org/wp-content/uploads/2026/04/EnEfG2026%E2%80%93Stellungnahme-Umweltinstitut.pdf",
+      "type": "primary_submission",
+      "local_path": "research/energy/sources/uim-enefg-2026.pdf",
+      "pdf_pages": 10,
+      "relevant_pages": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "visual_verification": [
+        7
+      ],
+      "official_archive_url": "https://daten.bundeswirtschaftsministerium.de/ODP/Redaktion/DE/OpenData/1777901807000-70-121-Distribution.zip?__blob=publicationFile&v=1",
+      "official_local_path": "research/energy/sources/uim-enefg-2026-official.pdf",
+      "official_archive_comparison": "research/energy/sources/enefg-official-archive-comparison.json",
+      "provenance_note": "Extracted from official ministry ZIP; byte-identical to the previously archived mirror copy."
+    },
+    {
+      "id": "uim-enefg-lobbyregister-2026",
+      "title": "Official Lobbyregister submission SG 2604230015, UIM R 002226",
+      "url": "https://www.lobbyregister.bundestag.de/media/cd/c0/726899/Stellungnahme-Gutachten-SG2604230015.pdf",
+      "type": "official_registered_submission",
+      "note": "Web reader successfully read 10-page original matching author copy; direct shell download returned HTML, retained as failed-download evidence."
+    },
+    {
+      "id": "uim-enefg-register-process-2026",
+      "title": "Lobbyregister RV 0023925, EnEfG 2026, historical 23 April 2026 entry",
+      "url": "https://www.lobbyregister.bundestag.de/media/08/ff/726901/Lobbyregister-Regelungsvorhaben-Detailansicht-RV0023925-2026-04-23_16-38-50.pdf",
+      "type": "official_register_process",
+      "note": "Identifies exact 9 April 2026 draft and request to retain and strengthen existing requirements."
+    },
+    {
+      "id": "borderstep-datacentres-2025",
+      "title": "BMWK commissioned report: Stand und Entwicklung des Rechenzentrumsstandorts Deutschland, 17 January 2025",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Publikationen/Technologie/stand-und-entwicklung-des-rechenzentrumsstandorts-deutschland.pdf?__blob=publicationFile&v=1",
+      "type": "primary_commissioned_model_report",
+      "local_path": "research/energy/sources/bmwk-borderstep-datacentres-2025.pdf",
+      "pdf_pages": 176,
+      "relevant_pages": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "visual_verification": [
+        41
+      ]
+    },
+    {
+      "id": "enefg-draft-2026-04-09",
+      "title": "BMWE Referentenentwurf Gesetz zur Beschleunigung der Umsetzung der Energieeffizienzrichtlinie, 9 April 2026",
+      "url": "https://bundestagszusammenfasser.de/wp-content/uploads/rewp21/1131_RefE_Energieeffizienzrichtlinie_20260409.pdf",
+      "type": "primary_draft_copy",
+      "local_path": "research/energy/sources/enefg-draft-2026-04-09.pdf",
+      "pdf_pages": 79,
+      "relevant_pages": [
+        1,
+        12,
+        13,
+        14,
+        15,
+        66
+      ],
+      "visual_verification": [
+        13,
+        15
+      ],
+      "note": "Official ministry 79-page PDF verified byte-identical to earlier archived 9 April 2026 version.",
+      "official_url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/Gesetz/2026/20260504-gesetz-zur-beschleunigung-der-umsetzung-der-energieeffizienzrichtlinie.pdf?__blob=publicationFile&v=4",
+      "official_local_path": "research/energy/sources/enefg-draft-2026-04-09-official.pdf",
+      "official_sha256": "c180c39065b760a9291561149eb36c007fea041aab0bc84fcf26e40cef603034",
+      "binary_identical_to_archive_mirror": true
+    },
+    {
+      "id": "bund-enefg-2026",
+      "title": "BUND response to 9 April 2026 EnEfGdraft,17 April 2026",
+      "url": "https://bundestagszusammenfasser.de/wp-content/uploads/stellungnahmen/1131/007%20Stellungnahme%20EnEfG%202026%20-%20Bund%20f%C3%BCr%20Umwelt%20und%20Naturschutz%20Deutschland%20e.V.pdf",
+      "type": "primary_submission_copy",
+      "local_path": "research/energy/enefg-screening/007.pdf",
+      "pdf_pages": 4,
+      "relevant_pages": [
+        1,
+        3,
+        4
+      ],
+      "visual_verification": [
+        3
+      ],
+      "note": "Author original extracted from official ministry consultation ZIP; byte-identical to previously archived mirror. See comparison record.",
+      "official_archive_url": "https://daten.bundeswirtschaftsministerium.de/ODP/Redaktion/DE/OpenData/1777901807000-70-121-Distribution.zip?__blob=publicationFile&v=1",
+      "official_local_path": "research/energy/sources/bund-enefg-2026-official.pdf",
+      "official_archive_comparison": "research/energy/sources/enefg-official-archive-comparison.json",
+      "provenance_note": "Extracted from official ministry ZIP; byte-identical to the previously archived mirror copy."
+    },
+    {
+      "id": "bund-enefg-register-process-2026",
+      "title": "BUND registered process: Reduktion des Energieverbrauchs und Steigerung der Energieeffizienz",
+      "url": "https://www.lobbyregister.bundestag.de/suche/R002287/87619",
+      "type": "official_register_process",
+      "note": "Confirms BUND engagement and opposition to weakeningEnEfG. NoAprilSG attachment located; datepublication 4 May 2026 onregister is publication metadata, not statement addressed version."
+    },
+    {
+      "id": "nep-scenario-approval-2025",
+      "title": "Bundesnetzagentur 30 April 2025 GenehmigungSzenariorahmen 2037/2045 Version 2025",
+      "url": "https://www.netzentwicklungsplan.de/sites/default/files/2025-04/250430_Genehmigung_Szenariorahmen_2025_0.pdf",
+      "type": "primary_regulator_scenario_approval",
+      "relevant_pages": [
+        36,
+        37,
+        38
+      ],
+      "note": "Physical pages match printed pages. P 36 includes servers and cooling. P 37 describes additional project demand, not IT-only demand. Table 9 p 38 has 78.4/97.3/116.2 TWh in 2037 and 2045. Exact edition cited byBUND remains unspecified.",
+      "local_path": "research/energy/sources/nep-scenario-approval-2025.pdf"
+    },
+    {
+      "id": "enefg-current-law-section11",
+      "title": "Official consolidated EnEfG§ 11, pre-amendment PUElimits",
+      "url": "https://www.gesetze-im-internet.de/enefg/__11.html",
+      "type": "primary_law",
+      "note": "Read 24 October 2026:1.5 in 2027/1.3 in 2030 forpreJuly 2026 sites;1.2 fornewsites. April 9 draftreplaceswithbracketed 1.6/1.4/1.3."
+    },
+    {
+      "id": "vik-enefg-2026-register",
+      "title": "Official Lobbyregister attachment SG 2608060032, VIK R 002055",
+      "url": "https://www.lobbyregister.bundestag.de/media/2c/dc/827666/Stellungnahme-Gutachten-SG2608060032.pdf",
+      "type": "official_registered_submission",
+      "pdf_pages": 4,
+      "note": "Web reader retrieved original 4 pages with exact central claim/request. Direct shell download returnedHTML; do not treat failed local archive asPDF."
+    },
+    {
+      "id": "vik-enefg-2026-register-metadata",
+      "title": "Official metadata forVIK SG 2608060032, provided 6 August 2026, sent 16 April 2026",
+      "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2608060032/441763",
+      "type": "official_register_metadata",
+      "note": "Retrospectively associates response withBR 388/26; dispatch date and original consultation version govern comparison."
+    },
+    {
+      "id": "vik-enefg-2026-author",
+      "title": "VIK public statement 20 April 2026",
+      "url": "https://vik.de/media-release/vik-stellungnahme-zum-gesetz-zur-beschleunigung-der-umsetzung-der-energieeffizienzrichtlinie",
+      "type": "primary_author_reproduction",
+      "local_path": "research/energy/sources/vik-enefg-2026-author.html",
+      "note": "Rounds numerical figures and edits some wording compared withregisteredPDF; central category and request agree."
+    },
+    {
+      "id": "vik-enefg-2026-mirror",
+      "title": "VIK EnEfG consultation response,4 pagePDFcopy",
+      "url": "https://bundestagszusammenfasser.de/wp-content/uploads/stellungnahmen/1131/010%20Stellungnahme%20EnEfG%202026%20-%20Verband%20der%20Industriellen%20Energie-%20und%20Kraftwirtschaft%20e.V.pdf",
+      "type": "primary_submission_copy",
+      "local_path": "research/energy/sources/vik-enefg-2026-mirror.pdf",
+      "pdf_pages": 4,
+      "visual_verification": [
+        3
+      ],
+      "note": "Relevant passages independently matched against official registered PDF web reader. Whole PDF is also byte-identical to the official ministry ZIP member.",
+      "official_local_path": "research/energy/sources/vik-enefg-2026-official.pdf",
+      "official_archive_comparison": "research/energy/sources/enefg-official-archive-comparison.json"
+    },
+    {
+      "id": "ageb-jahresbericht-2020",
+      "title": "AGEB Energieverbrauch inDeutschland imJahr 2020, Stand 14 March 2021, publishedApril 2021",
+      "url": "https://ag-energiebilanzen.de/wp-content/uploads/2021/11/ageb_jahresbericht2020_20210406b_dt.pdf",
+      "type": "primary_statistics_producer_report",
+      "local_path": "research/energy/sources/ageb-jahresbericht-2020.pdf",
+      "relevant_pages": [
+        3
+      ],
+      "visual_verification": [
+        3
+      ],
+      "note": "Physical PDF 3=printed 2; opening sentence andtable 1 classify 402.1 milliontonnes asprimaryenergy; preliminaryvalues."
+    },
+    {
+      "id": "ageb-final-energy-2020",
+      "title": "AGEB infographic 07/2021: Endenergieverbrauch inDeutschland 2020",
+      "url": "https://ag-energiebilanzen.de/wp-content/uploads/2020/10/ageb_infografik_07_2020_anwendungsbilanzen_2018__003_.pdf",
+      "type": "primary_statistics_producer_report",
+      "local_path": "research/energy/sources/ageb-final-energy-2020.pdf",
+      "pdf_pages": 1,
+      "visual_verification": [
+        1
+      ],
+      "note": "URLnamecontains 2018, butactualPDFheading/data 2020 anddateSeptember 2021.8,341 PJfinalenergy."
+    },
+    {
+      "id": "eed-2023-1791",
+      "title": "Directive(EU)2023/1791, originalGermanOJtext",
+      "url": "https://eur-lex.europa.eu/eli/dir/2023/1791/oj/deu",
+      "type": "primary_EU_law",
+      "note": "Official indexedfulltext supportsArticle 4(1)–(3), recital 28 andAnnexI. Directopen/curlchallenged; no full PDF archive asserted."
+    },
+    {
+      "id": "ec-energy-efficiency-targets",
+      "title": "EuropeanCommission, DGEnergy: Energy efficiency targets",
+      "url": "https://energy.ec.europa.eu/topics/energy-efficiency/energy-efficiency-targets-directive-and-rules/energy-efficiency-targets_en",
+      "type": "primary_regulator_explanation",
+      "local_path": "research/energy/sources/ec-energy-efficiency-targets.html",
+      "note": "Opening and 2030 target section explicitly distinguishes 2020 projectionsfor 2030 fromobserved 2020 consumption."
+    },
+    {
+      "id": "enefg-existing-section4",
+      "title": "Official EnEfG§ 4 existingnationalenergytargets",
+      "url": "https://www.gesetze-im-internet.de/enefg/__4.html",
+      "type": "primary_law",
+      "note": "26.5%finalreductionversus 2008 to 1,867 TWhby 2030; retainedinaddressed 9 Aprildraft."
+    },
+    {
+      "id": "enefg-ministry-consultation-archive-2026",
+      "title": "BMWE official published consultation submissions, updated 4 May 2026",
+      "url": "https://daten.bundeswirtschaftsministerium.de/ODP/Redaktion/DE/OpenData/1777901807000-70-121-Distribution.zip?__blob=publicationFile&v=1",
+      "landing_page": "https://daten.bundeswirtschaftsministerium.de/ODP/Redaktion/DE/OpenData/1777901807000-70-OpenData.html",
+      "type": "official_primary_submission_archive",
+      "local_path": "research/energy/sources/enefg-2026-official-consultations.zip",
+      "members": 57,
+      "comparison_record": "research/energy/sources/enefg-official-archive-comparison.json",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "hansgrohe-enefg-2026",
+      "title": "Hansgrohe SE, EnEfG response, 17 April 2026",
+      "url": "https://daten.bundeswirtschaftsministerium.de/ODP/Redaktion/DE/OpenData/1777901807000-70-121-Distribution.zip?__blob=publicationFile&v=1",
+      "archive_member": "033 Stellungnahme EnEfG 2026 - Hansgrohe SE .pdf",
+      "type": "official_primary_submission",
+      "local_path": "research/energy/sources/hansgrohe-enefg-2026-official.pdf",
+      "pdf_pages": 3,
+      "relevant_pages": [
+        1,
+        2
+      ],
+      "visual_verification": [
+        1
+      ]
+    },
+    {
+      "id": "hansgrohe-enefg-register-2026",
+      "title": "Official Lobbyregister SG2607300011, Hansgrohe R005487",
+      "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2607300011/437671",
+      "attachment_url": "https://www.lobbyregister.bundestag.de/media/fc/98/826883/Stellungnahme-Gutachten-SG2607300011.pdf",
+      "metadata": "Provided 5 August 2026; three pages; dispatch field 9 April 2026; links exact ministry consultation draft. Dispatch conflicts with ministry PDF date 17 April 2026.",
+      "note": "Metadata read directly; attachment retrieval failed, so no identity assertion."
+    },
+    {
+      "id": "epbd-2024-1275-original",
+      "title": "Directive (EU) 2024/1275, original Official Journal version, Article 7",
+      "url": "https://eur-lex.europa.eu/eli/dir/2024/1275/oj/deu",
+      "type": "primary_enacted_law",
+      "note": "Official original enacted text read via indexed official full text and independently checked in a 68-page original Official Journal PDF archived from an explicitly labelled third-party EWO host, not claimed as official-host retrieval. Article 7 is physical page 23. See tax review for mirror provenance.",
+      "local_path": "research/reviews/epbd-2024-1275-original-oj-mirror.pdf"
+    },
+    {
+      "id": "ec-zero-emission-buildings",
+      "title": "European Commission, Zero-emission buildings",
+      "url": "https://energy.ec.europa.eu/topics/energy-efficiency/energy-performance-buildings/energy-performance-buildings-directive/zero-emission-buildings_en",
+      "local_path": "research/energy/sources/ec-zero-emission-buildings.html",
+      "type": "primary_regulator_explanation"
+    },
+    {
+      "id": "epbd-council-first-reading-2024",
+      "title": "Council 7532/24, 14 March 2024, Parliament first-reading outcome and text",
+      "url": "https://data.consilium.europa.eu/doc/document/ST-7532-2024-INIT/de/pdf",
+      "local_path": "research/energy/sources/epbd-council-first-reading-text-2024.pdf",
+      "type": "primary_legislative_record",
+      "note": "Corroborates 2028 date; not the final enacted Official Journal text."
+    },
+    {
+      "id": "algorithmwatch-enefg-2026",
+      "title": "AlgorithmWatch, 17 April 2026, EnEfG consultation response",
+      "url": "https://daten.bundeswirtschaftsministerium.de/ODP/Redaktion/DE/OpenData/1777901807000-70-121-Distribution.zip?__blob=publicationFile&v=1",
+      "archive_member": "014 Stellungnahme EnEfG 2026 - AW AlgorithmWatch gGmbH.pdf",
+      "local_path": "research/energy/sources/algorithmwatch-enefg-2026-official.pdf",
+      "type": "official_primary_submission",
+      "pdf_pages": 15,
+      "relevant_pages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "visual_verification": [
+        8
+      ]
+    },
+    {
+      "id": "ec-datacentres-first-report-2025",
+      "title": "European Commission/EY/AIT/Borderstep, Assessment of energy performance and sustainability of data centres in EU, first technical report, 2025",
+      "url": "https://op.europa.eu/en/publication-detail/-/publication/83be4c3e-5c79-11f0-a9d0-01aa75ed71a1/language-en",
+      "download_url": "https://op.europa.eu/o/opportal-service/download-handler?identifier=83be4c3e-5c79-11f0-a9d0-01aa75ed71a1&format=pdf&language=en&productionSystem=cellar&part=",
+      "doi": "10.2833/3168794",
+      "local_path": "research/energy/sources/ec-datacentres-first-report-2025.pdf",
+      "type": "primary_commissioned_study",
+      "pdf_pages": 98,
+      "relevant_pages": [
+        16,
+        17,
+        18,
+        45,
+        46
+      ],
+      "visual_verification": [
+        18
+      ]
+    },
+    {
+      "id": "cordis-hyflexpower-2023",
+      "title": "European Commission CORDIS, HYFLEXPOWER industrial turbine demonstration, 10 November 2023",
+      "url": "https://cordis.europa.eu/article/id/447634-gas-turbine-runs-with-100-green-hydrogen-a-world-first",
+      "local_path": "research/energy/sources/cordis-hyflexpower-2023.html",
+      "type": "primary_funder_project_record",
+      "note": "Explicitly calls the SGT-400 an industrial gas turbine, describes actual 100% hydrogen demonstration and preserves later scaling/commercialisation work.",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "bfee-enms-2022",
+      "title": "BfEE, Studie zur Wirkung von Energiemanagementsystemen,17November2022",
+      "url": "https://www.bfee-online.de/SharedDocs/Downloads/BfEE/DE/Energiedienstleistungen/studie_wirkung_enm_systeme_2022.pdf?__blob=publicationFile&v=2",
+      "local_file": "research/energy/sources/bfee-enms-2022.pdf",
+      "retrieved_at": "2026-10-24",
+      "sha256": "59703c3e35e88a93b1d7b47303b31a513fba83ece094ad62dd74c4aa1ecc1cc3",
+      "role": "Primary check of negative lead in negative-screening-audit.json; not a promoted error."
+    },
+    {
+      "id": "bt21-982-20250725",
+      "title": "Government answers25July2025, BT21/982, question60 enterprise counts",
+      "url": "https://dserver.bundestag.de/btd/21/009/2100982.pdf",
+      "local_file": "research/energy/sources/bt21-982-20250725.pdf",
+      "retrieved_at": "2026-10-24",
+      "sha256": "bbdd508d2441fdf1b79c50d16a8f4f7db5606edcf1aa1c8f7cb395b16cee3732",
+      "role": "Primary check of negative lead in negative-screening-audit.json; not a promoted error."
+    },
+    {
+      "id": "dce-enefg-20260416",
+      "title": "Data Center Excellence GmbH, EnEfG consultation response,16April2026",
+      "url": "https://daten.bundeswirtschaftsministerium.de/ODP/Redaktion/DE/OpenData/1777901807000-70-121-Distribution.zip?__blob=publicationFile&v=1",
+      "local_path": "research/energy/enefg-screening/official/057.pdf",
+      "type": "primary_submission",
+      "pdf_pages": 10,
+      "archive_member": "057 Stellungnahme EnEfG 2026 - Data Center Excellence GmbH.pdf",
+      "sha256": "127461ec4f1ba23d963b65558a591b9880e1e7b7d8526ee5f10e85b2d5f21ccd",
+      "retrieved_at": "2026-10-24",
+      "visual_verification": [
+        7,
+        8
+      ],
+      "provenance": "Unmodified member of the official BMWE consultation ZIP. No Lobbyregister attachment identity asserted."
+    },
+    {
+      "id": "correctiv-leipzig-20240326-context",
+      "title": "Correctiv, Der Wasserstoff-Bluff,26March2024",
+      "url": "https://correctiv.org/aktuelles/klimawandel/2024/03/26/der-wasserstoff-bluff-angeblich-wasserstofffaehiges-erdgas-kraftwerk-leipzig/",
+      "type": "secondary_source_cited_by_submission_context_only",
+      "local_path": "research/energy/sources/correctiv-leipzig-20240326-context.html",
+      "retrieved_at": "2026-10-24",
+      "sha256": "1a1fcbb5fe93af1f699ff720832856586660fa0aebc015ce5e14131e09c79a50",
+      "role": "Check the scope of the article actually cited by Waniczek; not primary counterevidence and no finding against Correctiv."
+    }
+  ]
+}

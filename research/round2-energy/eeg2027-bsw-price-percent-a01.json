@@ -1,0 +1,104 @@
+{
+  "law_id": "eeg-2027",
+  "document_id": "bsw-eeg2027-20261001",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "request_quote_ref": {
+    "quote_id": "bsw-eeg2027-preserve-feed-in",
+    "metadata_file": "data/documents.json"
+  },
+  "request_registry": "research/round2-energy/bsw-source-registry.json",
+  "draft": {
+    "version": "Government BT 21/7867,7 September 2026, the 29 July 2026 cabinet draft; hearing 5 October 2026.",
+    "source_id": "eeg2027-bt217867",
+    "submission_date": "2026-10-01",
+    "version_check": "Author cover expressly addresses EEG 2027 governmentbill. Exactproposed§§ 19–21 physical 22–24 and§ 25 physical 30 were read: former fixed feed-in payment is replaced by temporary payment, while small-system support is changed. No later text substituted."
+  },
+  "limits": "This checks the description of one explicitly cited scenario study, not whether the scenario is the true counterfactual.  The study holds other generation capacity fixed, omits grid-related curtailment and some wider economic effects, and says alternative investment responses could reduce the price effect. Neither correction proves that preserving feed-in support is unwise or that a specific household actually realised the modelled saving. No intent is inferred.",
+  "materiality_explanation": "Minor: an auxiliary numerical/source-description issue in a much broader submission. The cited scenario still finds substantial solar benefits and the policy conclusion does not depend on this error alone.",
+  "confidence": {
+    "text_source_mismatch": "high for detailed study figures; source-summary qualifications explicitly retained",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "agent": "tax_consultations_ai_agent",
+        "date": "2026-10-25",
+        "result": "Retain narrow provisional minor finding and stated direction; full cited study and exact relevant draft independently checked.",
+        "review_file": "research/round2-reviews/tax-reviews-bsw-enervis.json"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after reading full claim context and all 15 pages of the cited study; independent adversarial review requested.",
+      "by": "energy_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent adversarial review retained both distinct minor corrections, with opposing direction; primary-summary and national-benefit alternatives preserved.",
+      "by": "energy_ai_screen"
+    }
+  ],
+  "source_ids": [
+    "bsw-eeg2027-20261001",
+    "enervis-pv-price-20260618",
+    "eeg2027-bt217867"
+  ],
+  "source_registry": "research/round2-energy/bsw-source-registry.json",
+  "verification": {
+    "visual": "Authorphysical 15/printed 14 and studyphysical 7–8 rendered and visually checked. Request printed 15/physical 16 read in full adjacent context.",
+    "quote_budget": "Across both BSW records and shared request:22 words from author; across primary-study counterquotes 19 words. Do not add further submission quotations without counting."
+  },
+  "id": "eeg2027-bsw-price-percent-a01",
+  "favours_author_request": false,
+  "card": {
+    "law_is_about": "Renewable-electricity support and marketing rules, including small rooftop systems.",
+    "they_want": "Preserve the fixed feed-in tariff for rooftop solar.",
+    "they_claim": "The cited scenario makes 2025 electricity prices 20 percent higher without solar.",
+    "the_problem": "Its detailed figures imply about 26.3 percent higher without solar;20.8 percent is the reduction in the reverse direction."
+  },
+  "claim_quote": {
+    "original": "um durchschnittlich 20 Prozent höher gewesen wäre",
+    "language": "de",
+    "translation_en": "Translation of fragment: would have been 20 percent higher on average",
+    "locator": {
+      "pdf_page": 15,
+      "printed_page": 14,
+      "section": "Staatliche Förderung für Photovoltaik kommt Wirtschaft und allen Verbrauchern zugute, first paragraph"
+    },
+    "underline": "20 Prozent höher"
+  },
+  "counter_quote": {
+    "original": "entspricht einer Reduktion von 20,8 % durch die Erzeugung aus Photovoltaik.",
+    "language": "de",
+    "translation_en": "Translation of fragment: corresponds to a 20.8 percent reduction due to generation from photovoltaics.",
+    "source_id": "enervis-pv-price-20260618",
+    "locator": {
+      "pdf_page": 7,
+      "printed_page": 7,
+      "section": "2025 – Veränderung der Strompreise und ihrer Struktur, lower-left explanation and adjoining bar chart"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The detailed study chart gives 112.8€/MWh withoutPV and 89.3€/MWh withPV. The reverse comparison is(112.8−89.3)/89.3≈26.32 percent higher withoutPV. The 20.8 percent reduction uses 112.8 as denominator. Preserve the absolute 23.5€/MWh difference.",
+  "effect": "The printed percentage understates the modelled no-solar price increase; correction strengthens this supporting pro-solar point rather than weakening it.",
+  "direction_explanation": "False: the corrected increase is larger and therefore supports the request more strongly. This is separate from minor severity.",
+  "context_and_alternatives": [
+    "Important source qualification: the primary study’s own summary on physical 2 describes about 21 percent higher withoutPV. The submission therefore follows a source-summary formulation rather than inventing the direction. The detailed chart and reduction explanation on 7 are internally more precise.",
+    "Rounding or general shorthand can explain the 20/21 difference, but cannot make a 20.8 percent reduction identical to a 20.8 percent increase with the other baseline.",
+    "No claim is made that the counterfactual price itself was observed or that one static scenario establishes the best support policy."
+  ],
+  "calculation": {
+    "with_pv_eur_per_mwh": 89.3,
+    "without_pv_eur_per_mwh": 112.8,
+    "without_vs_with_increase_pct": 26.31578947368421,
+    "with_vs_without_reduction_pct": 20.833333333333336
+  },
+  "submission_source_id": "bsw-eeg2027-20261001"
+}

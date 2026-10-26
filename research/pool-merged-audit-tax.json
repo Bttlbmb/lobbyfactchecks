@@ -1,0 +1,70 @@
+{
+  "reviewer": "tax_consultations",
+  "review_type": "independent_screening_pool_count_identity_and_depth_audit",
+  "recorded_at": "2026-10-25T02:32:17.326456+00:00",
+  "files_reviewed": [
+    {
+      "path": "data/screening-pool.json",
+      "sha256": "beafc895cee6be7c317c0f8f0744f1dbd78b176638e3dd09d476f1711ea3ed95"
+    },
+    {
+      "path": "data/screening-pool-summary.json",
+      "sha256": "6730b4014d6483e423d4b504c27c5a40ef22e6a40d85039e05ffd0de92e3d114"
+    },
+    {
+      "path": "research/build_screening_pool.py",
+      "sha256": "d31a4bce3cbcd2f564b4b9886ee56f1007ac3972e85288bf96fb91494e0106b4"
+    },
+    {
+      "path": "research/pool-audit-tax.json",
+      "sha256": "3da24eba103da1b4a7700b64b4afe162fd6636e84267f2369632cd58d85cb817"
+    }
+  ],
+  "conclusion": "Supported as a documented targeted screening pool with explicit depth and identity limitations; no count correction identified.",
+  "checks": [
+    {
+      "check": "Counts recalculated from merged records",
+      "result": "325 included named units; 344 inventory rows overall; 19 excluded extracted-only rows. Depth totals independently match 133 full_submission, 80 selected_passages, 111 keyword_triage, 1 full_text_ocr."
+    },
+    {
+      "check": "Tax inventory reconciliation",
+      "result": "All 67 tax inventory entries map to exactly one included merged group: 55 full submissions, 11 selected-passage screens and 1 complete OCR-text read. No remaining duplicate tax responses identified."
+    },
+    {
+      "check": "Tax log traceability",
+      "result": "Every tax evidence log exists and every referenced JSON entry resolves, including parenthetical component annotations after removing their explanatory suffix. Explicit reading-extent descriptions checked for the OCR, repeated CSRD versions, BStBK package and log-only BVMW entry."
+    },
+    {
+      "check": "Identity and version decisions",
+      "result": "March 2026 vzbv register/Bundestag copies remain one document. April 2024, July 2025 and November 2025 Stiftung CSRD versions remain separate. November rereads are merged. AlgorithmWatch EnEfG is one cross-branch group; unrelated members of a shared consultation ZIP are not merged."
+    },
+    {
+      "check": "OCR classification",
+      "result": "full_text_ocr is appropriate for Wenger: the contemporaneous log explicitly records all 12 scanned pages read through derived OCR. It should remain separate from ordinary full_submission and from unread extraction. No complete visual/manual verification is implied."
+    },
+    {
+      "check": "Source-only exclusion",
+      "result": "No primary-evidence-only document identified among the 67 tax rows. The grouped EFRAG/DRSC/Danish-regulation/Council source check is excluded; the submitted BVAI article attachment is appropriately counted as submitted material, not as an additional independent press document."
+    },
+    {
+      "check": "Global alias diagnostic",
+      "result": "Normalized title, PDF URL-path, local-file and PDF-hash comparisons found no obvious unmerged duplicate response. Repeated hash/URL cases concern multi-author hearing compendia; same-title GAAD original/correction and separately addressed assisted-suicide submissions require their existing version/component distinctions."
+    },
+    {
+      "check": "Builder inspection",
+      "result": "Builder syntax parses; union keys combine issue-document IDs, standalone PDF files/hashes and PDF URL paths. Shared containers are excluded from identity keys. Current tax-only extracted_only conversion affects only the one explicitly logged complete OCR read. Source-registry items are not indiscriminately imported as screened documents."
+    },
+    {
+      "check": "Rental lower bound",
+      "result": "The recorded batch has 25 triaged of 26 archived members, with seven individually documented. Adding only the remaining minimum 18 yields 343, comprising 133 full, 80 selected, 129 keyword-triaged and 1 OCR-text unit. This is a set-level lower bound, not 18 identified extra rows."
+    }
+  ],
+  "qualifications": [
+    "No claim of representative sampling, complete verification of every assertion, or an estimated population error rate follows from these counts.",
+    "One BVMW response is log-only without a preserved submission URL/file. DGB October 2024 receipt on an official consultation channel remains unverified despite the document having been read; detailed inventory notes preserve this distinction.",
+    "The BStBK 35-page submitted package is counted once, including its joint appendix; no independent appendix dispatch has been established.",
+    "The builder removes PDF query strings when matching identity. This is acceptable for the current checked rows but future query-addressed document versions would need manual treatment.",
+    "This audit checks the inventory, evidence logs and counting logic. It does not independently reread all 325 submissions or re-adjudicate findings."
+  ],
+  "substantive_findings_modified": false
+}

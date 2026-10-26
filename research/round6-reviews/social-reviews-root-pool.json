@@ -1,0 +1,156 @@
+{
+  "reviewer": "social_ai_screen",
+  "reviewed_at_utc": "2026-10-25T11:46:29.780246+00:00",
+  "input_file": "research/round6-root/pool-audit.json",
+  "input_sha256": "e2d7b1194ed276664b0f8d9795b74325e1b3981754be200cc3eac0931e14f277",
+  "baseline_documents": 626,
+  "disposition": "supports13actual-reading rows;12new full units and one existing selected VDB version requiring merge without new unit/depth",
+  "counts": {
+    "rows": 13,
+    "full": 12,
+    "selected": 1
+  },
+  "checks": [
+    {
+      "id": "ivd-mietrecht-20261009",
+      "declared_sha256_matches_present_or_historical": true,
+      "baseline_binary_matches": [],
+      "baseline_exact_normalized_text_matches": [],
+      "extracted_physical_pages": 13,
+      "declared_pdf_pages": 13,
+      "log_pointer_exists": true
+    },
+    {
+      "id": "vzbv-didg-20260901",
+      "declared_sha256_matches_present_or_historical": true,
+      "baseline_binary_matches": [],
+      "baseline_exact_normalized_text_matches": [],
+      "extracted_physical_pages": 11,
+      "declared_pdf_pages": 11,
+      "log_pointer_exists": true
+    },
+    {
+      "id": "vdb-evaluation-364p-202609",
+      "declared_sha256_matches_present_or_historical": true,
+      "baseline_binary_matches": [
+        "vdb-waffen-evaluation-20260925"
+      ],
+      "baseline_exact_normalized_text_matches": [
+        "vdb-waffen-evaluation-20260925"
+      ],
+      "extracted_physical_pages": 364,
+      "declared_pdf_pages": 364,
+      "log_pointer_exists": true
+    },
+    {
+      "id": "lessig-uzwg-20251012",
+      "declared_sha256_matches_present_or_historical": true,
+      "baseline_binary_matches": [],
+      "baseline_exact_normalized_text_matches": [],
+      "extracted_physical_pages": 4,
+      "declared_pdf_pages": 4,
+      "log_pointer_exists": true
+    },
+    {
+      "id": "feltes-uzwg-20251012",
+      "declared_sha256_matches_present_or_historical": true,
+      "baseline_binary_matches": [],
+      "baseline_exact_normalized_text_matches": [],
+      "extracted_physical_pages": 8,
+      "declared_pdf_pages": 8,
+      "log_pointer_exists": true
+    },
+    {
+      "id": "wissel-luftsig-20260125",
+      "declared_sha256_matches_present_or_historical": true,
+      "baseline_binary_matches": [],
+      "baseline_exact_normalized_text_matches": [],
+      "extracted_physical_pages": 3,
+      "declared_pdf_pages": 3,
+      "log_pointer_exists": true
+    },
+    {
+      "id": "harrer-kritis-20251130",
+      "declared_sha256_matches_present_or_historical": true,
+      "baseline_binary_matches": [],
+      "baseline_exact_normalized_text_matches": [],
+      "extracted_physical_pages": 8,
+      "declared_pdf_pages": 8,
+      "log_pointer_exists": true
+    },
+    {
+      "id": "ccc-cybersicherheit-20261004",
+      "declared_sha256_matches_present_or_historical": true,
+      "baseline_binary_matches": [],
+      "baseline_exact_normalized_text_matches": [],
+      "extracted_physical_pages": 8,
+      "declared_pdf_pages": 8,
+      "log_pointer_exists": true
+    },
+    {
+      "id": "weichert-mdwg-20260429",
+      "declared_sha256_matches_present_or_historical": true,
+      "baseline_binary_matches": [],
+      "baseline_exact_normalized_text_matches": [],
+      "extracted_physical_pages": 6,
+      "declared_pdf_pages": 6,
+      "log_pointer_exists": true
+    },
+    {
+      "id": "langenmayr-gastgewerbe-20251002",
+      "declared_sha256_matches_present_or_historical": true,
+      "baseline_binary_matches": [],
+      "baseline_exact_normalized_text_matches": [],
+      "extracted_physical_pages": 3,
+      "declared_pdf_pages": 3,
+      "log_pointer_exists": true
+    },
+    {
+      "id": "haucap-gastgewerbe-20251012",
+      "declared_sha256_matches_present_or_historical": true,
+      "baseline_binary_matches": [],
+      "baseline_exact_normalized_text_matches": [],
+      "extracted_physical_pages": 6,
+      "declared_pdf_pages": 6,
+      "log_pointer_exists": true
+    },
+    {
+      "id": "anke-didg-20261003",
+      "declared_sha256_matches_present_or_historical": true,
+      "baseline_binary_matches": [],
+      "baseline_exact_normalized_text_matches": [],
+      "extracted_physical_pages": 10,
+      "declared_pdf_pages": 10,
+      "log_pointer_exists": true
+    },
+    {
+      "id": "haeublein-mietrecht-20261014",
+      "declared_sha256_matches_present_or_historical": true,
+      "baseline_binary_matches": [],
+      "baseline_exact_normalized_text_matches": [],
+      "extracted_physical_pages": 9,
+      "declared_pdf_pages": 9,
+      "log_pointer_exists": true
+    }
+  ],
+  "substantive_scope_review": [
+    "All declared PDF page counts match existing extracted page counts; all13source hashes match retained bytes or intentional-cache-eviction metadata. All log pointers exist.",
+    "VDB byte identity independently matches baselinevdb-waffen-evaluation-20260925. Its364pages must not receive full-read credit; stated selected pages preserve the baseline depth and do not justify a new distinct unit.",
+    "No other exact binary or whitespace-normalized full-body match was found against current baseline resource sidecars. This does not prove absence of semantically revised copies; original IVDdate/version and author/date headers are explicitly distinguished.",
+    "Langenmayr, Lessig and vzbv full-source reads are independently corroborated by this reviewer’s actual full author reads in separate reviews. For other documents this is a provenance/count/header audit, not an independent full reread.",
+    "Named academic experts remain external even when affiliated with public universities; no government consultation response is silently counted. Haucap’s general-hearing specific-legislative-vehicle gate and VDB’s evaluation gate remain appropriate. Häublein’s hearing cover is not converted into a verified authored date."
+  ],
+  "presentation_changes_already_announced_by_parent": [
+    "At this snapshot VDB and Haucap still have policy_position_paper kind; parent announced intended correction to written_submission, consistent with original formal written-hearing/evaluation channel. No reading/count change."
+  ],
+  "limits": "No census completeness, timeframe completeness or all-claims-verified assertion. Exact content/semantic source truth outside the named independent reviews was not independently reverified.",
+  "addendum": {
+    "at_utc": "2026-10-25T11:48:20.834701+00:00",
+    "input_sha256": "7b68f106f8a25627df69e69a250ce1977a950ae99d000592e85cbc9add03f662",
+    "resolved_kind_flags": {
+      "vdb-evaluation-364p-202609": "written_submission",
+      "haucap-gastgewerbe-20251012": "written_submission"
+    },
+    "assessment": "Both announced kind changes now applied as written_submission; previous presentation observations resolved. Counts and reading depth unchanged."
+  }
+}

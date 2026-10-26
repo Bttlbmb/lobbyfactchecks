@@ -1,0 +1,910 @@
+{
+  "audit_id": "social-independent-merged-reading-pool-round3",
+  "date_utc": "2026-10-25T04:46:02.477988+00:00",
+  "reviewer": "social_round2 independent review of root-built pool merge",
+  "scope": "Actual-reading inventory only, not census or all-submission completeness. Compared each of81social reading-ledger rows to merged identity/depth/evidence; inspected role fields, aliases and key cross-branch groups. Separate rental addendum checks26archive identities and19fresh keyword triages. Did not reread every baseline source or independently re-perform all author-version judgments.",
+  "input_hashes": {
+    "data/screening-pool.json": "da8f68b4bc6d4211b1c15fb74a1a3335f42cbaa3f087aea420ba22895752a682",
+    "research/round3-social/pool-audit.json": "36634e5850817420325ef4512921c92ac80d25edee334942f709fc95764c81ae"
+  },
+  "counts": {
+    "merged_total_rows_including_exclusions": 556,
+    "merged_included_named_units": 556,
+    "merged_excluded_rows": 0,
+    "own_actual_full_reads": 81,
+    "own_window_qualified_versions": 76,
+    "own_window_qualified_physical_pages": 285,
+    "own_unknown_date_versions": 3,
+    "own_historical_versions": 2,
+    "own_rows_represented_once": 81,
+    "own_full_depths_preserved": 81
+  },
+  "key_checks": [
+    {
+      "subject": "RSV",
+      "result": "Eight distinct ministry versions remain eight full reads. BÄK SG mirror is not a ninth response; G-BA row identifies impartial officeholders with public-function boundary pending."
+    },
+    {
+      "subject": "Fernunterricht",
+      "result": "31unique ministry PDFs plus4additional registered versions remain35known authored versions. Repeated VDP URL does not add a response. BDÜ/BAGSV mirrors do not add authors. September9-page and updatedOctober10-page Fernstudienanbieter versions remain distinct. Two August7 predraft correspondence versions remain public statements."
+    },
+    {
+      "subject": "Historical ÄFI",
+      "result": "One historical2022 authored submission merges social/energy cross-review and case-index aliases. It is not admitted as a2026window document."
+    },
+    {
+      "subject": "DGAUM",
+      "result": "Three citation issues map to one authored response and one full read; no extra affected authors/read units from distinct issues."
+    },
+    {
+      "subject": "ZDH and Wuppertaler",
+      "result": "Independent energy cross-reviews merge with the same social full-read versions; not extra authored responses."
+    },
+    {
+      "subject": "Census boundary",
+      "result": "All78 admitted social units have explicit full-reading evidence; no ministry/register download batch, primary research paper, exact draft or cover-OCR metadata batch was added as a screened submission."
+    }
+  ],
+  "public_function_role_checks": [
+    {
+      "id": "rsv-amendvo2026-gba",
+      "explicit_pending_role_preserved": true
+    },
+    {
+      "id": "gedig2026-iqwig-20261012",
+      "explicit_pending_role_preserved": true
+    },
+    {
+      "id": "rsv-amendvo2026-gkvsv",
+      "explicit_pending_role_preserved": true
+    },
+    {
+      "id": "rentueauthv2026-drv-20260910",
+      "explicit_pending_role_preserved": true
+    },
+    {
+      "id": "biostoffv2026-dguv-20260928",
+      "explicit_pending_role_preserved": true
+    }
+  ],
+  "rows": [
+    {
+      "own_id": "rsv-amendvo2026-aok",
+      "merged_ids": [
+        "rsv-amendvo2026-aok"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "rsv-amendvo2026-baek",
+      "merged_ids": [
+        "rsv-amendvo2026-baek"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "rsv-amendvo2026-baemi",
+      "merged_ids": [
+        "rsv-amendvo2026-baemi"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "rsv-amendvo2026-bvkj",
+      "merged_ids": [
+        "rsv-amendvo2026-bvkj"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "rsv-amendvo2026-bvoegd",
+      "merged_ids": [
+        "rsv-amendvo2026-bvoegd"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "rsv-amendvo2026-gba",
+      "merged_ids": [
+        "rsv-amendvo2026-gba"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "rsv-amendvo2026-gkvsv",
+      "merged_ids": [
+        "rsv-amendvo2026-gkvsv"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "rsv-amendvo2026-vfa",
+      "merged_ids": [
+        "rsv-amendvo2026-vfa"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "aefi-impfpflicht-20221012",
+      "merged_ids": [
+        "aefi-impfpflicht-20221012"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "dbfk-impfpflicht-20221010",
+      "merged_ids": [
+        "dbfk-impfpflicht-20221010"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "versmedv7-2026-vdk",
+      "merged_ids": [
+        "versmedv7-2026-vdk"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "versmedv7-2026-sovd",
+      "merged_ids": [
+        "versmedv7-2026-sovd"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "versmedv7-2026-gdv",
+      "merged_ids": [
+        "versmedv7-2026-gdv"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "suizidpraevg2026-gaia-undated",
+      "merged_ids": [
+        "suizidpraevg2026-gaia-undated"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "beschv9-2026-dihk",
+      "merged_ids": [
+        "beschv9-2026-dihk"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "beschv9-2026-zdh",
+      "merged_ids": [
+        "zdh-beschv9-20261015"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "beschv9-2026-dimr",
+      "merged_ids": [
+        "beschv9-2026-dimr"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "beschv9-2026-iaf",
+      "merged_ids": [
+        "beschv9-2026-iaf"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "beschv9-2026-bda",
+      "merged_ids": [
+        "beschv9-2026-bda"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "gedig2026-dfg-20261013",
+      "merged_ids": [
+        "gedig2026-dfg-20261013"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "gedig2026-tmf-20261012",
+      "merged_ids": [
+        "gedig2026-tmf-20261012"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "gedig2026-dgina-20261012",
+      "merged_ids": [
+        "gedig2026-dgina-20261012"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "gedig2026-iqwig-20261012",
+      "merged_ids": [
+        "gedig2026-iqwig-20261012"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "hochschul2026-bdp-20261005",
+      "merged_ids": [
+        "hochschul2026-bdp-20261005"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "hochschul2026-ftps-20261005",
+      "merged_ids": [
+        "hochschul2026-ftps-20261005"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "wisszeitvg2026-ftps-20261005",
+      "merged_ids": [
+        "wisszeitvg2026-ftps-20261005"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "wisszeitvg2026-hochschulkanzler-undated",
+      "merged_ids": [
+        "wisszeitvg2026-hochschulkanzler-undated"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-dihk-20260910",
+      "merged_ids": [
+        "ferns2026-dihk-20260910"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-bda-20260909",
+      "merged_ids": [
+        "ferns2026-bda-20260909"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-isdv-20260904",
+      "merged_ids": [
+        "ferns2026-isdv-20260904"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-dvv-20260904",
+      "merged_ids": [
+        "ferns2026-dvv-20260904"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-fww-20260904",
+      "merged_ids": [
+        "ferns2026-fww-20260904"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-fernstudienanbieter-20261019",
+      "merged_ids": [
+        "ferns2026-fernstudienanbieter-20261019"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-edtech-20260910",
+      "merged_ids": [
+        "ferns2026-edtech-20260910"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-didacta-20260910",
+      "merged_ids": [
+        "ferns2026-didacta-20260910"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-didacta-20261019",
+      "merged_ids": [
+        "ferns2026-didacta-20261019"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-wuppertaler-20261019",
+      "merged_ids": [
+        "ferns2026-wuppertaler-20261019"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-dbb-20261016",
+      "merged_ids": [
+        "ferns2026-dbb-20261016"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-dgwf-undated",
+      "merged_ids": [
+        "ferns2026-dgwf-undated"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-vdp-20261019",
+      "merged_ids": [
+        "ferns2026-vdp-20261019"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-bagsv-20260910",
+      "merged_ids": [
+        "ferns2026-bagsv-20260910"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-digistore-joint-undated",
+      "merged_ids": [
+        "ferns2026-digistore-joint-undated"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-bitkom-202609",
+      "merged_ids": [
+        "ferns2026-bitkom-202609"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "hochschul2026-bptk-20261005",
+      "merged_ids": [
+        "hochschul2026-bptk-20261005"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-bbb-20260910",
+      "merged_ids": [
+        "ferns2026-bbb-20260910"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-bdue-20260909",
+      "merged_ids": [
+        "ferns2026-bdue-20260909"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-bfb-202608",
+      "merged_ids": [
+        "ferns2026-bfb-202608"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-bstbk-20260904",
+      "merged_ids": [
+        "ferns2026-bstbk-20260904"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-dbb-20260908",
+      "merged_ids": [
+        "ferns2026-dbb-20260908"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-dgb-20260910",
+      "merged_ids": [
+        "ferns2026-dgb-20260910"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-dssv-20260909",
+      "merged_ids": [
+        "ferns2026-dssv-20260909"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-hrk-20260910",
+      "merged_ids": [
+        "ferns2026-hrk-20260910"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-keb-20260908",
+      "merged_ids": [
+        "ferns2026-keb-20260908"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-qgkoeln-20260910",
+      "merged_ids": [
+        "ferns2026-qgkoeln-20260910"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-vbe-20260901",
+      "merged_ids": [
+        "ferns2026-vbe-20260901"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-vph-202609",
+      "merged_ids": [
+        "ferns2026-vph-202609"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-vwa-20260908",
+      "merged_ids": [
+        "ferns2026-vwa-20260908"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-wuppertaler-20260910",
+      "merged_ids": [
+        "wuppertaler-ferns-20260910"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-zdh-20260908",
+      "merged_ids": [
+        "ferns2026-zdh-20260908"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-digistore-20260910",
+      "merged_ids": [
+        "ferns2026-digistore-20260910"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-digistore-amthor-20260807",
+      "merged_ids": [
+        "ferns2026-digistore-amthor-20260807"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-digistore-connemann-20260807",
+      "merged_ids": [
+        "ferns2026-digistore-connemann-20260807"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "ferns2026-fernstudienanbieter-20260910",
+      "merged_ids": [
+        "ferns2026-fernstudienanbieter-20260910"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "rentueauthv2026-gdv-20260826",
+      "merged_ids": [
+        "rentueauthv2026-gdv-20260826"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "rentueauthv2026-aba-20260910",
+      "merged_ids": [
+        "rentueauthv2026-aba-20260910"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "rentueauthv2026-drv-20260910",
+      "merged_ids": [
+        "rentueauthv2026-drv-20260910"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "svr2027-volkssolidaritaet-20260924",
+      "merged_ids": [
+        "svr2027-volkssolidaritaet-20260924"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "svr2027-ula-20260925",
+      "merged_ids": [
+        "svr2027-ula-20260925"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "svr2027-pkv-20260925",
+      "merged_ids": [
+        "svr2027-pkv-20260925"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "biostoffv2026-vbio-20260921",
+      "merged_ids": [
+        "biostoffv2026-vbio-20260921"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "biostoffv2026-dghm-20260923",
+      "merged_ids": [
+        "biostoffv2026-dghm-20260923"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "biostoffv2026-vdsi-20260926",
+      "merged_ids": [
+        "biostoffv2026-vdsi-20260926"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "biostoffv2026-dgb-20260928",
+      "merged_ids": [
+        "biostoffv2026-dgb-20260928"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "biostoffv2026-dguv-20260928",
+      "merged_ids": [
+        "biostoffv2026-dguv-20260928"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "biostoffv2026-dib-20260928",
+      "merged_ids": [
+        "biostoffv2026-dib-20260928"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "biostoffv2026-dkg-20260928",
+      "merged_ids": [
+        "biostoffv2026-dkg-20260928"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "biostoffv2026-vdbw-20260928",
+      "merged_ids": [
+        "biostoffv2026-vdbw-20260928"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "biostoffv2026-dgaum-20260929",
+      "merged_ids": [
+        "biostoffv2026-dgaum-20260929"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "bttgvo2026-bdo-undated",
+      "merged_ids": [
+        "bttgvo2026-bdo-undated"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "bttgvo2026-bpex-20260921",
+      "merged_ids": [
+        "bttgvo2026-bpex-20260921"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    },
+    {
+      "own_id": "bttgvo2026-dslv-20260921",
+      "merged_ids": [
+        "bttgvo2026-dslv-20260921"
+      ],
+      "source_depth": "full_submission",
+      "merged_depths": [
+        "full_submission"
+      ]
+    }
+  ],
+  "required_corrections": [],
+  "disposition": "pass_no_required_count_or_depth_correction",
+  "limits": [
+    "Authored dates or self-reported recipient dates are not independently verified receipt for every document.",
+    "Unknown-date and historical versions remain part of targeted reading pool, separately qualified; cannot populate a closed2026window denominator.",
+    "Corrected actual-reading merge is not proof that every possible submission was found or every factual proposition checked."
+  ],
+  "previous_audited_snapshot": {
+    "date_utc": "2026-10-25T04:40:26.313715+00:00",
+    "input_hashes": {
+      "data/screening-pool.json": "da8f68b4bc6d4211b1c15fb74a1a3335f42cbaa3f087aea420ba22895752a682",
+      "research/round3-social/pool-audit.json": "36634e5850817420325ef4512921c92ac80d25edee334942f709fc95764c81ae"
+    },
+    "counts": {
+      "merged_total_rows_including_exclusions": 556,
+      "merged_included_named_units": 556,
+      "merged_excluded_rows": 0,
+      "own_actual_full_reads": 81,
+      "own_window_qualified_versions": 76,
+      "own_window_qualified_physical_pages": 285,
+      "own_unknown_date_versions": 3,
+      "own_historical_versions": 2,
+      "own_rows_represented_once": 81,
+      "own_full_depths_preserved": 81
+    },
+    "disposition": "pass_no_required_count_or_depth_correction"
+  },
+  "rental_addendum": "research/round3-reviews/social-reviews-rental-pool-reconciliation.json"
+}

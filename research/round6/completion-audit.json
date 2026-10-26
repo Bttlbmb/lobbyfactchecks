@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "minimum_90_minutes_satisfied": true,
+  "completed_at_utc": "2026-10-25T12:24:51.698872+00:00",
+  "checks": {
+    "all110_issue_records_validate": true,
+    "validation_errors": 0,
+    "validation_warnings": 0,
+    "quotation_overages": 0,
+    "six_new_findings_all_ai_screened": true,
+    "six_new_findings_with_independent_reviews": true,
+    "six_new_findings_no_author_responses": true,
+    "human_specialist_review": null,
+    "reading_units": 791,
+    "new_groups": 166,
+    "baseline_groups_after_DK_alias": 625,
+    "net_increase": 165,
+    "national_coverage_established": false
+  },
+  "independent_integrity_reviews": [
+    "research/round6-reviews/energy-reviews-merged-output.json",
+    "research/round6-reviews/social-reviews-merged-output.json",
+    "research/round6-reviews/social-pool-body-alias-followup.json",
+    "research/round6-reviews/energy-reviews-vdk-alias.json"
+  ],
+  "scope_limit": "Mechanical and AI integrity checks do not certify every assertion or establish intent, national coverage or representative prevalence. Source-specific access/version/context limits remain in each case.",
+  "final_snapshot_hashes": {
+    "data/findings.json": "1d0a76119a83ba58b9d93e4e01d3c8b91ca371ed7e62582d3baca0d4cdeaaf79",
+    "data/unresolved-leads.json": "b0430096b8186c3b6c8fcfe646026af9881b660bad3614632da3f74ab49f53cc",
+    "data/rejected-candidates.json": "b7855eb215a1a33f2102a38845581de148df9c29440db3d7d37f8972adc75487",
+    "data/screening-pool.json": "a2563db0d8714dd29194b7c5aa187ba3233a364c724f2274bdafe6625dfc50e1"
+  },
+  "post_independent_pool_audit_change": "Only Langenmayr English translation spacing changed in unresolved record; source quotation, dispositions, counts, pool and six findings are unchanged.",
+  "elapsed_minutes": 90.31
+}

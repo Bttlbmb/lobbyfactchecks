@@ -1,0 +1,122 @@
+{
+  "id": "eeg2027-arge-ppa-a01",
+  "law_id": "eeg-2027",
+  "document_id": "arge-eeg2027-202608",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Renewable-electricity support and conditions for leaving the proposed two-way support scheme.",
+    "they_want": "Allow a permanent exit from support throughout a plant’s operating life.",
+    "they_claim": "The current PPA framework has a maximum duration of five years.",
+    "the_problem": "A contemporary German onshore-wind PPA runs for ten years, but the author may mean only the existing supported-plant opt-out segment."
+  },
+  "claim_quote": {
+    "original": "der aktuelle PPA Rahmen von maximal fünf Jahren",
+    "language": "de",
+    "translation_en": "Translation of fragment: the current PPA framework of a maximum of five years",
+    "locator": {
+      "pdf_page": 24,
+      "printed_page": 20,
+      "section": "§ 21 e EEG: Ausstieg aus der Förderung und Abschöpfung, second paragraph"
+    },
+    "underline": "maximal fünf Jahren"
+  },
+  "request_quote": {
+    "original": "Diese zeitliche Beschränkung sollte gestrichen werden.",
+    "language": "de",
+    "translation_en": "Translation: This time restriction should be removed.",
+    "locator": {
+      "pdf_page": 24,
+      "printed_page": 20,
+      "section": "Same section, first paragraph"
+    }
+  },
+  "counter_quote": {
+    "original": "über eine Laufzeit von zehn Jahren",
+    "language": "de",
+    "translation_en": "Translation of fragment: for a term of ten years",
+    "source_id": "statkraft-dhl-ppa-20260716",
+    "locator": {
+      "section": "Opening paragraph after bullet points"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "If the statement is meant as a maximum for the whole German PPA market, it is too broad: Statkraft announced a ten-year PPA for a new Schleswig-Holstein onshore wind farm on 16 July 2026. No proved correction is assigned to the narrower opt-out cohort without matched evidence.",
+  "effect": "Potentially weakens one supporting description of short available income commitments; this is an unresolved scope question, not an established error.",
+  "limits": "The paragraph specifically concerns existing operating EEG plants leaving support. Different PPA segments have different terms, and a new-build contract does not necessarily establish terms available to an already subsidised plant. A longer contract elsewhere also does not make permanent exit economically attractive or invalidate the request.",
+  "context_and_alternatives": [
+    "The full 32-physical-page submission was read. Earlier printed 11–12 discusses long project-financing needs and buyers’ preference for shorter commitments, providing context against treating every duration reference as a statutory limit.",
+    "The strongest benign reading limits the current framework to existing EEG plants considering opt-out. Dena/Pexapark 2025 explicitly distinguishes new-build ten-year contracts from much shorter opt-out and post-EEG contracts.",
+    "The submission is dated August 2026 and attached to the Octoberhearing. It has both cabinet and referent-draft covers, while its detailed provisions address the government approach. No exact day within August is inferred."
+  ],
+  "draft": {
+    "version": "Government cabinet draft 29 July 2026, subsequently BT 21/7867 of 7 September 2026; committee cover 16 October 2026.",
+    "source_id": "eeg2027-bt217867",
+    "version_check": "Exact proposed§ 21 e, physical 26, limits the irreversible notice to the end of the tenth calendar year after commissioning. No later law substituted."
+  },
+  "materiality_explanation": "Potential minor: one supporting market-duration statement; no established project-income or financing error.",
+  "direction_explanation": "Null while the relevant market segment remains unresolved; only a broader reading would make the correction weaken the request.",
+  "confidence": {
+    "text_source_mismatch": "high for a broader-market counterexample; unresolved for the intended opt-out cohort",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "agent": "tax_consultations_ai_agent",
+        "date": "2026-10-25",
+        "result": "Complete independent review retains unresolved/null because existing supported-plant opt-out scope is a natural reading; a new-build PPA does not establish terms for that cohort.",
+        "review_file": "research/round2-reviews/tax-reviews-arge-ppa.json"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "Recorded as unresolved after independent scope challenge; no factual error promoted.",
+      "by": "energy_ai_screen"
+    }
+  ],
+  "sources": [
+    {
+      "id": "arge-eeg2027-202608",
+      "url": "https://www.bundestag.de/resource/blob/1225184/Stellungnahme_ARGE-NETZ.pdf",
+      "local_file": "research/round2-energy/sources/arge-eeg2027-202610.pdf",
+      "sha256": "997b6e57795842434355db6ca8d660972cc4b7859fd6c37aa3ac58808748e9a8",
+      "retrieved_at": "2026-10-25"
+    },
+    {
+      "id": "statkraft-dhl-ppa-20260716",
+      "url": "https://www.statkraft.de/presse/2026/dhl-group-erweitert-energieportfolio-durch-onshore-windpartnerschaft-mit-statkraft/",
+      "retrieved_at": "2026-10-25",
+      "archive_note": "Primary operator announcement independently read through web reader."
+    },
+    {
+      "id": "dena-ppa-market2024-2025",
+      "url": "https://www.dena.de/fileadmin/dena/Publikationen/PDFs/2025/PPA_Marktanalyse_2024.pdf",
+      "retrieved_at": "2026-10-25",
+      "locator_note": "Physical 8–12 distinguish market segments; selected relevant pages read, not entire report."
+    },
+    {
+      "id": "eeg2027-bt217867",
+      "url": "https://dserver.bundestag.de/btd/21/078/2107867.pdf",
+      "local_file": "research/round2-energy/sources/eeg2027-bt217867.pdf",
+      "retrieved_at": "2026-10-25"
+    }
+  ],
+  "verification": {
+    "quote_budget": "Author 16 words total across claim and request; primary counter 7 words.",
+    "visual": "Original author physical24/printed20 rendered and visually checked; key wording and opt-out context confirmed."
+  },
+  "submission_source_id": "arge-eeg2027-202608",
+  "source_ids": [
+    "arge-eeg2027-202608",
+    "statkraft-dhl-ppa-20260716",
+    "dena-ppa-market2024-2025",
+    "eeg2027-bt217867"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "reviewer": "a",
+  "reviewed_at_utc": "2026-10-25T22:19:59.587653+00:00",
+  "scope": "Read-only audit of tiny generic factual-builder source label/count delta; no production outputs run or certified.",
+  "files": [
+    {
+      "path": "research/factual-checks/short-statements-20261025/reviews/factual-builder-before-source-labels.py",
+      "sha256": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+      "role": "Exact before snapshot"
+    },
+    {
+      "path": "research/build_factual_batch.py",
+      "sha256": "02ab08c4c8377504622742ff333346addfc00669847ca6b867e576f904e7870d",
+      "role": "Reviewed current source"
+    }
+  ],
+  "disposition": "accept",
+  "checks": [
+    {
+      "check": "Full exact diff inspected",
+      "result": "Only adds source-record and unique-local-path count fields plus explanatory count note; changes per-evidence JSON saved-file label to saved check record. Legacy archived_source_files retains its prior per-record meaning."
+    },
+    {
+      "check": "Result/coverage/admission gates",
+      "result": "No claim-result, page/peer/omission, admission, anchor, source-hash or original-snapshot validation logic changed in this delta."
+    },
+    {
+      "check": "Count implementation binding",
+      "result": "archive_checks entries carry file keys from the existing validation loop, so the set comprehension uses an existing required key. Source registry entries sharing one note file count as distinct records and one local path."
+    },
+    {
+      "check": "Disposable shared-file fixture",
+      "result": "Three source records with two referencing one JSON note yield three records and two unique file paths. JSON label saved check record and PDF archive label match expectations."
+    },
+    {
+      "check": "Unusable registry-count fixture",
+      "result": "Two top-level unusable/error records count as two even when one has both flags; nested failed attempts under a usable record are intentionally not counted. New note accurately discloses this limit."
+    },
+    {
+      "check": "Syntax and downstream callers",
+      "result": "Both versions parse. rg inspection found no dependent references in factual index/deliverables code requiring the old count to become unique; backward compatibility retained."
+    }
+  ],
+  "concerns": [],
+  "limitations": [
+    "This is a bounded delta audit, not a new full workflow or final generated-snapshot audit. Prior full workflow review remains separately recorded.",
+    "Unique file count means distinct local path strings, not unique byte content, inode or symlink target. Current canonical note paths make the intended actual count meaningful.",
+    "JSON suffix is a display heuristic; current authored check-note containers follow it. It is not a semantic certification that all future JSON files are authored notes.",
+    "Generated cached summaries/reports require the normal ordered rebuild and validation; this audit does not certify future outputs or automatic revalidation.",
+    "No code, source registry, main data, README or frozen research file was modified by this audit."
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-25",
+  "dispositions": [
+    {
+      "id": "hno-primary-services-availability",
+      "document": "SG2609300166",
+      "depth": "full_submission",
+      "pages": 14,
+      "claim_locator": {
+        "pdf_page": 7,
+        "section": "Technical services table, primary-care column"
+      },
+      "policy_request_locator": {
+        "pdf_pages": [
+          2,
+          12
+        ],
+        "description": "Preserve direct ENT specialist access in the proposed primary-care system."
+      },
+      "disposition": "not_promoted; genuine unresolved empirical and exact-draft gates",
+      "assessment": "A literal reading of the negative column conflicts with affirmative GP billing eligibility for some listed services. However, the preceding text says only very few relevant techniques are available in primary care. That can describe actual equipment/qualification/prevalence rather than legal prohibition. The billing source alone does not prove broad actual availability. No primary-care practice prevalence evidence was obtained, and no exact federal draft was identified.",
+      "primary_urls": [
+        "https://www.kvb.de/fileadmin/kvb/Mitglieder/Service/Informationsservice/Informationsmaterial/AbrechnungHonorar/KVB-Broschuere-Erlaeuterungen-HVM-2025-QZV.pdf",
+        "https://www.kvno.de/fileadmin/shared/pdf/online/honorar/rlv_qzv/qzv_freieLeistungen_20253.pdf?v=1768912303"
+      ],
+      "source_limits": "KVB same-URL search index exposed an older GP table while direct25-page PDF extraction now starts specialist pages; no local archive claimed, download timed out. Current GP QZV examples were not converted into a national prevalence estimate.",
+      "other_checks": "The original TK evaluation press release supports the author’s160m figure. The illustrative system-cost forecast is not an observed error. A possible2025/2026point-price mix is incidental and not promoted.",
+      "additional_exact_draft_gate_evidence": {
+        "source_id": "bmg-primarycare-prebill-timeline-r6",
+        "assessment": "The minister’s23September2026 statement places the planned primary-care bill in November2026. Current inputs cannot silently be checked against an unidentified later draft."
+      }
+    },
+    {
+      "id": "dgfn-worldwide2050-rank",
+      "document": "SG2608130006",
+      "depth": "full_submission",
+      "pages": 4,
+      "claim_locator": {
+        "pdf_page": 1,
+        "paragraph": "Opening disease burden paragraph"
+      },
+      "original_fragment": "für 2050 auf Platz 3 prognostiziert",
+      "translation_en": "Translation: projected to rise to third place by2050.",
+      "request_locator": {
+        "pdf_page": 2,
+        "description": "Mandatory annual kidney screening for risk groups with eGFR/UACR in GBA guidelines and primary-care regulations; pages3also request direct nephrology access."
+      },
+      "disposition": "unverified source-scope lead, not admitted as an error",
+      "assessment": "The opening sentence supplies worldwide scope. Original coauthor GBD-derived publications expressly describe third place for Western Europe/Japan; other original ERA publications distinguish fifth worldwide. This suggests a possible regional-to-global transplant. The exact cited GBD2021global death-rank table/underlying data was not directly obtained, and no exact federal primary-care draft was identified. No assertion is made that the actual future mortality forecast is false or that screening is unwise.",
+      "primary_urls": [
+        "https://doi.org/10.1016/S0140-6736(24)00685-8",
+        "https://academic.oup.com/ndt/article/41/3/418/8228479",
+        "https://academic.oup.com/ndt/article/41/4/793/8417163"
+      ],
+      "benign_alternatives": [
+        "A compressed switch to the Western European population relevant for German policy, despite the opening worldwide framing.",
+        "A different forecast/scenario or rank definition; must resolve from the exact cited underlying data before making a definitive source-description allegation."
+      ],
+      "access_limits": [
+        "Direct original Lancet DOI opening403. Original PMC page presents a browser challenge; not bypassed. Original Oxford coauthor article abstract/introduction/Figure1and context accessible.",
+        "IQTIG2025 report selected methods/databasis inspected, but patient flow/stock and GKV-only distinctions prevent a simple dialysis/transplant count correction."
+      ]
+    },
+    {
+      "id": "nicotine-youth-lifetime-use",
+      "document": "SG2609140006",
+      "disposition": "negative_checked",
+      "assessment": "Original BIÖG2025methods summary uses12–17 and30-day1.9%; original BIÖG release mirrored under institutional authorship on idw states lifetime5.5%. Approximately6% is ordinary rounding, not a denominator mismatch.",
+      "primary_url": "https://idw-online.de/de/news?id=871356&print=1",
+      "read_extent": "All six author/bundled policy-brief pages; original BIÖG methods summary and original attributed release. Not full research report."
+    },
+    {
+      "id": "ddl-suizid-draft-premises",
+      "document": "SG2608110010",
+      "disposition": "negative_or_interpretive_checked",
+      "assessment": "Exact25June draft supports no reappointment, four initial positions, identified suicide counts and absence of explicit self-help terminology. Whether advisory-board support wording legally requires its establishment is an interpretive issue; no factual error promoted. Volunteer status and no honoraria are compatible with expense reimbursement.",
+      "draft_source_id": "suizid-refe-20260625-r6"
+    },
+    {
+      "id": "rehavital-threshold-math",
+      "document": "SG2609280079",
+      "disposition": "negative_checked",
+      "assessment": "The explicitly qualified lower-bound calculation1−363.74/1000=63.626% and company-specific1−8000/200000=96% are correct. The source separates supply cases from approval submissions and disclaims national representativeness, defeating the tempting denominator allegation. Underlying actual raw source totals not independently audited.",
+      "read_extent": "All six annex pages; arithmetic check only, no all-source validation."
+    },
+    {
+      "id": "aids-budget-pt-ssf-allocation",
+      "documents": [
+        "SG2610210014",
+        "SG2610210017",
+        "SG2610210018"
+      ],
+      "disposition": "not_promoted; strong explicit allocation rescue and exact-budget-component gate",
+      "read_extent": "All five pages in these three documents; separate two-page UNAIDS letter also fully read.",
+      "assessment": "The table footnote expressly allocates the merged 2027 title 76% to private-carrier projects (PT), 24% to social-structure projects (SSF). The 2027 PT amount 176.320 equals 232.000 × 0.76 exactly. Comparing it with the old PT-only 196.400 can therefore be like-for-like. The broad title label alone does not prove a false comparison. The ten-title 2026 and 2027 totals and net difference recompute correctly.",
+      "arithmetic": {
+        "sum_2026_million_eur": 6640.972,
+        "sum_2027_million_eur": 6140.945,
+        "pt_allocation_rescue": 176.32
+      },
+      "limits": "The exact 2027 merged-title total was not independently retrieved. BMF individual-plan retrievals returned HTML/503; the specific BT21/7300 stream timed out. No estimate of corrected cuts, no error finding, no intent inference.",
+      "primary_attempt_url": "https://dserver.bundestag.de/btd/21/073/2107300.pdf"
+    }
+  ]
+}

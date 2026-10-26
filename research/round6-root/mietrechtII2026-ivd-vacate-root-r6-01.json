@@ -1,0 +1,97 @@
+{
+  "law_id": "mietrechtII-2026",
+  "document_id": "ivd-mietrecht-20261009",
+  "status": "ai_screened",
+  "finding_state": "rejected_after_review",
+  "severity": "minor",
+  "favours_author_request": null,
+  "draft": {
+    "source_id": "mietrechtII-bt216807",
+    "version": "Government billBT21/6807,1July2026",
+    "exactness": "Author cover and heading explicitly identifyBT21/6807; quoted operative measures match that version.",
+    "read_extent": "Relevant operative pages7–8 and memorandum20–23; not full36pages."
+  },
+  "source_ids": [
+    "ivd-mietrecht-20261009",
+    "mietrechtII-bt216807"
+  ],
+  "submission_source_id": "ivd-mietrecht-20261009",
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "energy_hearings",
+        "path": "research/round6-reviews/energy-reviews-ivd-mietrecht.json",
+        "date": "2026-10-25",
+        "disposition": "Follow-up agrees closure as unsupported allegation; conditional landlord-behaviour context is affirmative rescue."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded for independent challenge after complete13-page original and exact draft passages; not yet admitted.",
+      "by": "root_round6_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Rejected after independent contextual challenge: conditional forecast is not refuted by the legal distinction.",
+      "by": "root_ai_screen"
+    }
+  ],
+  "confidence": {
+    "text_source_mismatch": "pending_independent_context_review",
+    "materiality": "editorial_judgment"
+  },
+  "id": "mietrechtII2026-ivd-vacate-root-r6-01",
+  "card": {
+    "law_is_about": "Changes to temporary and furnished rentals, index rents and tenant protections.",
+    "they_want": "Remove or relax the maximum period for the temporary-use exemption.",
+    "they_claim": "The tenant must vacate the apartment after at most eight months.",
+    "the_problem": "The legal reading conflicts with the draft, but the surrounding paragraph can reasonably predict how landlords will behave. No factual error is established."
+  },
+  "claim_quote": {
+    "original": "Er muss nach maximal acht Monaten die Wohnung räumen",
+    "language": "de",
+    "translation_en": "Translation: He must vacate the apartment after at most eight months.",
+    "locator": {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "paragraph": "Second substantive paragraph, beginningDasZielwirdmöglicherweiseverfehlt."
+    },
+    "underline": "muss"
+  },
+  "request_quote": {
+    "original": "Von starren Fristen sollte abgesehen werden.",
+    "language": "de",
+    "translation_en": "Translation: Fixed deadlines should be avoided.",
+    "locator": {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "paragraph": "Third substantive paragraph."
+    }
+  },
+  "counter_quote": {
+    "original": "einen neuen den Vorgaben des sozialen Mietrechts unterliegenden unbefristeten Mietvertrag abzuschließen",
+    "language": "de",
+    "translation_en": "Translation of fragment: to conclude a new indefinite tenancy subject to ordinary tenant-protection law.",
+    "source_id": "mietrechtII-bt216807",
+    "locator": {
+      "pdf_page": 22,
+      "printed_page": 22,
+      "section": "Explanation ofArticle1no2, paragraph on extensions beyond eight months."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Exceeding the exemption period does not itself impose a statutory duty to vacate. The memorandum says the§549(2)exceptions cease to apply, including on tacit extension, and describes a new indefinite contract under ordinary tenant protections. An expired agreed fixed-term contract or a landlord declining continuation is a different reason why a particular tenant might leave.",
+  "effect": "No established correction to the author’s behavioural forecast. The draft limits an exemption from ordinary tenant protection rather than imposing mandatory vacating, but that does not refute the forecast.",
+  "limits": "Closed as an unsupported allegation after contextual review. This does not endorse the forecast or establish that landlords will terminate or continue contracts. No intent inferred.",
+  "materiality_explanation": "No error admitted. Severity remains minor as the recorded initial candidate classification, not an assessment of a proven defect.",
+  "direction_explanation": "Conditionaltrue: the asserted compulsory departure supports removing or extending the exemption limit.",
+  "context_and_alternatives": [
+    "Complete13physical pages read, including the proposed12-month exemption text and recognition of legitimate temporary demand.",
+    "Author pages4–5 acknowledge an exception, give examples of continuing temporary needs and discuss business adaptation.",
+    "Exact bill7 and memorandum21–22 checked; no wholesale tenancy ban inferred."
+  ]
+}

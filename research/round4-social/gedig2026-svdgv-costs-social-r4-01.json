@@ -1,0 +1,115 @@
+{
+  "id": "gedig2026-svdgv-costs-social-r4-01",
+  "law_id": "gedig-2026",
+  "document_id": "svdgv-gedig-20261012",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Digital health data, electronic patient records, digital triage and appointment access.",
+    "they_want": "Make the electronic patient-record entry point open to competing digital providers.",
+    "they_claim": "Costs for insurers and administration are not envisaged for this digital entry point.",
+    "the_problem": "The exact bill expressly estimates EUR 270,000 in implementation costs, but the author may mean missing actual funding or an inadequately funded complete pathway."
+  },
+  "claim_quote": {
+    "original": "Kostenaufwände für Krankenkassen und Verwaltung hierfür nicht vorgesehen sind",
+    "language": "de",
+    "translation_en": "Translation: costs for health insurers and administration are not envisaged for this.",
+    "locator": {
+      "pdf_page": 30,
+      "printed_page": 30,
+      "section": "B.4, discussion of § 345a, final sentence."
+    },
+    "underline": "nicht vorgesehen"
+  },
+  "request_quote": {
+    "original": "anbieterneutral ausgestaltet sein.",
+    "language": "de",
+    "translation_en": "Translation of fragment: be designed to be provider-neutral.",
+    "locator": {
+      "pdf_page": 30,
+      "printed_page": 30,
+      "section": "B.4, discussion of § 345a, first paragraph of justification."
+    }
+  },
+  "counter_quote": {
+    "original": "Dafür fallen Erfüllungsaufwände bei den für die ePA Verantwortlichen Sozialversicherungsträgern von gesamt 270.000 Euro an.",
+    "language": "de",
+    "translation_en": "Translation: This entails total compliance costs of EUR 270,000 for the social-insurance bodies responsible for the electronic patient record.",
+    "source_id": "gedig-government-bt218279",
+    "locator": {
+      "pdf_page": 125,
+      "printed_page": 125,
+      "section": "E. Erfüllungsaufwand, Zu 4.16. Corresponding row 4.16 on physical page 121 identifies health insurers and § 345a."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "On a literal reading as a description of the bill’s cost assessment, the statement is too broad: table 4.16 explicitly assigns insurers EUR 270,000 in one-off costs for implementing the digital-entry feature in five ePA apps, and physical page 125 explains the same amount. Row 4.17 separately treats provision of digital initial-assessment applications as a small additional burden because many insurers already provide them. These are estimates, rather than demonstrated actual costs or budget appropriations.",
+  "effect": "If the author means the bill contains no cost estimate, the correction removes that omission argument for predicting a media break. It does not show that the small estimate covers an integrated care pathway, that interoperability is adequate or that private platforms should be excluded.",
+  "limits": "A concrete alternative remains: no resources or reimbursement are actually allocated, or complete integration is inadequately costed. An Erfüllungsaufwand estimate does not itself appropriate funding. The surrounding argument concerns integration of triage, appointment platforms and telemedicine, rather than simply developing app screens. Under that reading, EUR 270,000 is not a decisive refutation. This remains unresolved. No intention inferred.",
+  "confidence": {
+    "text_source_mismatch": "high_for_existence_of_same_feature_cost_estimate_but_unresolved_for_author_meaning",
+    "materiality": "editorial_judgment"
+  },
+  "materiality_explanation": "Potentially minor: a definite absence-of-estimate description would be inaccurate, but this is one supporting implementation argument. No actual cost shortfall, platform impact or substantive policy error has been established. The EUR 270,000 estimate is not a correction to actual system-wide costs.",
+  "direction_explanation": "Unknown while meaning remains unresolved. If the literal no-cost-estimate reading is intended, the omission strengthens the request for open, provider-neutral integration. Correcting it would weaken that particular rationale.",
+  "context_and_alternatives": [
+    "All 45 author pages read, including the complete § 345a discussion on physical pages 26–31. Physical page 30 was rendered and visually checked. The author supports a digital entry point and argues that routing only through KBV systems limits competition and continuity of digital care. It proposes alternative platforms meeting § 370c requirements, open standards and interfaces.",
+    "A related paragraph on physical page 26 criticises § 360c system costs as not included while forecasting a cost in the hundreds of millions. The exact bill, on physical pages 113 and 125, contains an estimate of EUR 10 million initially and EUR 700,000 annually. The author’s higher forecast is not disproven by a lower government forecast. That paragraph may criticise underestimation rather than literal omission. It is context, rather than a separately promoted forecast error.",
+    "The funding-versus-estimation interpretation is retained. The statement that costs are not envisaged, followed by its inference to media discontinuity, is less precise than an explicit statement that the table contains zero. Do not infer that the EUR 270,000 estimate itself guarantees funded delivery."
+  ],
+  "draft": {
+    "source_id": "gedig-government-bt218279",
+    "addressed_version": "Government bill BT 21/8279, 30 September 2026, hearing on 14 October 2026.",
+    "exactness": "Author page 1 explicitly distinguishes its earlier ministry consultation on the 5 May draft from this government-bill hearing. Operative § 345a language in the author’s government column matches this bill.",
+    "locator": {
+      "pdf_page": 36,
+      "section": "Article 1 no. 57, § 345a, continued on physical pages 37–38; cost row 4.16 on physical page 121 and explanation on physical page 125."
+    },
+    "read_extent": "Selected operative and financial passages, including physical pages 113 and 120–125; not all 258 pages."
+  },
+  "submission_source": {
+    "url": "https://www.bundestag.de/resource/blob/1224358/21-14-00115-21-Spitzenverband-Digitale-Gesundheitsversorgung-Innovation-nicht-barrierefrei.pdf",
+    "local_file": "research/round3-social/coverage-pdfs/0b68365ef906bb5288.pdf",
+    "authored_date": "2026-10-12",
+    "committee_cover_date": "2026-10-13",
+    "channel": "Official Bundestag health committee written submission 21(14)115(21)."
+  },
+  "source_ids": [
+    "svdgv-gedig-20261012",
+    "gedig-government-bt218279"
+  ],
+  "reading_depth": {
+    "author": "All 45 pages; physical pages 8 and 30 visually checked.",
+    "counter_source": "Exact bill cover, selected operative provisions and relevant cost rows and explanations. Physical page 125 rendered and visually checked."
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "root independent AI",
+        "review_file": "research/round4-reviews/root-reviews-svdgv-costs.json",
+        "verdict": "Retain unresolved minor/null. Cost estimate versus actual appropriation or complete pathway integration remains a substantive rescue."
+      },
+      {
+        "reviewer": "energy_hearings independent AI",
+        "review_file": "research/round4-reviews/energy-reviews-svdgv-costs.json",
+        "verdict": "Retain unresolved minor/null: a positive cost estimate does not establish an appropriation or full integration funding."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as an unresolved cost-estimate/source-description lead, with funding-versus-estimate and whole-pathway alternatives explicit. Independent review requested; not promoted as an established error.",
+      "by": "social_round4_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent root review retained unresolved minor/null. Claim fragment expanded to include its subject; exact original excerpt checked visually, while prior Android fragments were shortened to keep the combined quotation budget below 25 words.",
+      "by": "social_round4_ai"
+    }
+  ]
+}

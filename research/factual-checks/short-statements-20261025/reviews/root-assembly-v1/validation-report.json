@@ -1,0 +1,820 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "author_snapshot_hashes_checked": 17,
+  "author_text_extractions": [
+    {
+      "document_id": "rsv-amendvo2026-aok",
+      "pdf_sha256": "f6835f4dc31059a57b46384c5cd42451b5dd58152a600d5eb6de0e83b0e66836",
+      "text_file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-aok.txt",
+      "text_sha256": "648e6537bf2528294a5dc9524e91ca9f42ec897c0767fad9849355a1dc4a8d2b",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "rsv-amendvo2026-baek",
+      "pdf_sha256": "f10263034eb8d143c31ca8e8cbd07cfc00bfd64f02616d7ab83cc5acc0a04698",
+      "text_file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-baek.txt",
+      "text_sha256": "5bafebbeb7d2350b3b357951ea768bcc9aa3e2688b68dfb91005162d4b49e32c",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "rsv-amendvo2026-baemi",
+      "pdf_sha256": "2d2c9f027900b1426b00d640e29fed3a90d2f354722a26ceb0569699f66ff949",
+      "text_file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-baemi.txt",
+      "text_sha256": "f610ab824d837607f96b773d407707a858ba9b98e227f527c8b9d3e8125ae1c5",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "rsv-amendvo2026-bvkj",
+      "pdf_sha256": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+      "text_file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-bvkj.txt",
+      "text_sha256": "f425525cfebb28a078c5ac829d299d61d8dddd234ab64c45eacde7ce6411e7b1",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "rsv-amendvo2026-bvoegd",
+      "pdf_sha256": "4c939eb88da6cd6ae5c8882c32e8674b411ddad61489e00dd7b98ff2af987fd6",
+      "text_file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-bvoegd.txt",
+      "text_sha256": "5d8272ad23b822f6b2f7d226543dbe30ac2e26da9c3f43f9b11cc82c21bc3ddd",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "rsv-amendvo2026-gba",
+      "pdf_sha256": "666233e76ca9e4369ed13ade4866e0ce00fb241504771bdf10a3121a55aa8b29",
+      "text_file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-gba.txt",
+      "text_sha256": "795eaf33597626f84b9cc3fe6c98a187b9e21f34fd20e764044607e005d6a74c",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "rsv-amendvo2026-gkvsv",
+      "pdf_sha256": "b417cb7aa430874181f26c0a16b450da9246fef63094e05f5aa57077b8e1743b",
+      "text_file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-gkvsv.txt",
+      "text_sha256": "638e220f68409c7384a6abf507e7b65605a8fead3edbf768267235fb85fd7eb3",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "rsv-amendvo2026-vfa",
+      "pdf_sha256": "d6d4ec30393881a428e4fe34e135610ec554360d9f0fc9509803683e3a60b094",
+      "text_file": "research/factual-checks/short-statements-20261025/text/rsv-amendvo2026-vfa.txt",
+      "text_sha256": "eec4727a1f9efeee4d9130e006c6abe50d90a25049ba0a048cd43fd2e8ff5c55",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "idnrg2026-bnotk",
+      "pdf_sha256": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+      "text_file": "research/factual-checks/short-statements-20261025/text/idnrg2026-bnotk.txt",
+      "text_sha256": "fe62f7da963eeaad1f7ea687922ca4c31073f536bee59f8d8b48009a3a2c19ef",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "idnrg2026-databund",
+      "pdf_sha256": "5bc89faa12bb4469ebc4962df2470ff2f052fb944a84f28e3b65cd9378509f2c",
+      "text_file": "research/factual-checks/short-statements-20261025/text/idnrg2026-databund.txt",
+      "text_sha256": "58f356c25c4895d803a495f3e9a4c183a5fbbbc78764addb96790ba6263e439e",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "idnrg2026-dav",
+      "pdf_sha256": "614b10ba3b8dbc7a11728bcac2b49e6b6befab52a938e878ebccfd4dab271cbf",
+      "text_file": "research/factual-checks/short-statements-20261025/text/idnrg2026-dav.txt",
+      "text_sha256": "a0db6c3a0e29bcba303b578d620187eb1bb109ca3c63aacaa1cf260c610270a6",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "idnrg2026-dnotv",
+      "pdf_sha256": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+      "text_file": "research/factual-checks/short-statements-20261025/text/idnrg2026-dnotv.txt",
+      "text_sha256": "11c62eaf739728f7186d98adaf3630f95530fe5c1948d984779d22db661507f7",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "idnrg2026-kommunale-spitzenverbaende",
+      "pdf_sha256": "9372c9b810d4ad0c4cfeca94d42dac477c2bdeb9e1623d8de482cc55179ac72e",
+      "text_file": "research/factual-checks/short-statements-20261025/text/idnrg2026-kommunale-spitzenverbaende.txt",
+      "text_sha256": "2f55e257c8e27a2cc8ec0c7340b38f7ff7cb10ea134daf028e81d99e73b92b19",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "idnrg2026-vdv",
+      "pdf_sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+      "text_file": "research/factual-checks/short-statements-20261025/text/idnrg2026-vdv.txt",
+      "text_sha256": "3c77c1ba5ee70b18eadd5e26e38f14d55095cfb4d1fa118a7742e991065c3ec1",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "idnrg2026-zbi",
+      "pdf_sha256": "65734c02596c9cc46940ffde4effd5bf6eed22f058b72843fe6dc218a5ebed06",
+      "text_file": "research/factual-checks/short-statements-20261025/text/idnrg2026-zbi.txt",
+      "text_sha256": "267dd99288390ab7d8f73feab5d03da89e1f1ee1c1d033183b620ca078f2d234",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-wpexamen-2026-002",
+      "pdf_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+      "text_file": "research/factual-checks/short-statements-20261025/text/bmwe-wpexamen-2026-002.txt",
+      "text_sha256": "149dc0d5fbfe136ef4241dda142688106290df2db060b678b51fbb075a8e4c84",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-wpexamen-2026-003",
+      "pdf_sha256": "91571d57ee384611cb117c6b52786dc17ba6fc161d0bab578071812a3b0531a3",
+      "text_file": "research/factual-checks/short-statements-20261025/text/bmwe-wpexamen-2026-003.txt",
+      "text_sha256": "aa92a3a5c9a65ff87af13a261e2b6038f5cba0b3121badadef4945d282688b37",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    }
+  ],
+  "claims_checked": 169,
+  "reviews": [
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/a-reviews-c.json",
+      "sha256": "c9be0ba1fdd45a912b2ab9ba6193fbef98905c0989667cb4bd0f76fc5801bc31",
+      "claims_reviewed": 44,
+      "omissions": 1
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/b-reviews-a.json",
+      "sha256": "068eeaed80f13d4bca5ecd01bbe732c72f0b2f7f367cd2df16caabfa185c643f",
+      "claims_reviewed": 59,
+      "omissions": 0
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/c-reviews-b.json",
+      "sha256": "e1147ce173c14ea2b92129f5554b28dbe0c13ac309d253d8e83254276b22170d",
+      "claims_reviewed": 63,
+      "omissions": 2
+    }
+  ],
+  "archives": [
+    {
+      "source_id": "short-root-rsv-draft",
+      "file": "research/round3-social/sources/rsv-amendment-refe-20260820.pdf",
+      "sha256": "17a2e54ee41f149a66c7ff59091958e0932a9e361f76f44ad356642413ad8894"
+    },
+    {
+      "source_id": "short-root-idnrg-draft",
+      "file": "research/round3-root/coverage/sources/idnrg-regelungsentwurf-20260720.pdf",
+      "sha256": "b40199901fd08e2db16993c5d14a368efb5b69aae330516d5b4e84b26937e8fa"
+    },
+    {
+      "source_id": "short-root-wpexam-draft",
+      "file": "research/round3-energy/sources/wpexamen-refe-official.pdf",
+      "sha256": "e719aec2fb79e41bfd54b30fb36d67eff0644cfbd74f9ee8b3cc53256f7bc5bc"
+    },
+    {
+      "source_id": "short-root-ema",
+      "file": "research/factual-checks/short-statements-20261025/root-primary-checks.json",
+      "sha256": "b5cb972893d36dbbfd44496f54a504acdfdeaada18509a7c4e5e6c6ce1e6c835"
+    },
+    {
+      "source_id": "short-root-danish-council",
+      "file": "research/factual-checks/short-statements-20261025/root-primary-checks.json",
+      "sha256": "b5cb972893d36dbbfd44496f54a504acdfdeaada18509a7c4e5e6c6ce1e6c835"
+    },
+    {
+      "source_id": "short-root-egk",
+      "file": "research/factual-checks/short-statements-20261025/root-primary-checks.json",
+      "sha256": "b5cb972893d36dbbfd44496f54a504acdfdeaada18509a7c4e5e6c6ce1e6c835"
+    },
+    {
+      "source_id": "short-root-bnotk-availability",
+      "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+      "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892"
+    },
+    {
+      "source_id": "short-root-wpo8",
+      "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+      "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892"
+    },
+    {
+      "source_id": "short-root-eu200643",
+      "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+      "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892"
+    },
+    {
+      "source_id": "short-root-eu2026470",
+      "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+      "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892"
+    },
+    {
+      "source_id": "short-root-issa5000",
+      "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+      "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892"
+    },
+    {
+      "source_id": "short-root-wipr4",
+      "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+      "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892"
+    },
+    {
+      "source_id": "short-root-rsv-guideline",
+      "file": "research/factual-checks/short-statements-20261025/root-followup-checks.json",
+      "sha256": "27d915965acf28cf1b6e4ceec7a6a069f48a80b894740fd85a0b7111bf97f892"
+    },
+    {
+      "source_id": "short-root-cai2026",
+      "file": "research/factual-checks/short-statements-20261025/root-adjudication-primary-checks.json",
+      "sha256": "a005a04f172d8361b8ffe49dffa652760d2e02880b833e201cb065a38fe50587"
+    },
+    {
+      "source_id": "short-root-hgb317",
+      "file": "research/factual-checks/short-statements-20261025/root-adjudication-primary-checks.json",
+      "sha256": "a005a04f172d8361b8ffe49dffa652760d2e02880b833e201cb065a38fe50587"
+    },
+    {
+      "source_id": "short-root-wipr7-13",
+      "file": "research/factual-checks/short-statements-20261025/root-adjudication-primary-checks.json",
+      "sha256": "a005a04f172d8361b8ffe49dffa652760d2e02880b833e201cb065a38fe50587"
+    },
+    {
+      "source_id": "short-a-sgb20i",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-ifsg2",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-ifsg20",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-sgb130e",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-sgb10",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-rsv2024",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-enflonsia",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-emaenflonsia",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-emabeyfortus",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-emasynagis",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-emaabrysvo",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-emaarexvy",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-emamresvia",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-rki2024",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-rkiratgeber2024",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-rki2025",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-rki2026",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-banz-shortage",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-egk",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-danish",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-danishdecision",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-bvkj2024",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-covidma",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-covidbanz",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-prices",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-calc",
+      "file": "research/factual-checks/short-statements-20261025/sources/a-primary-checks.json",
+      "sha256": "f8273b16f37b695df6599182f73d7ef5100d131369d510bf87a1eef37a259a1b"
+    },
+    {
+      "source_id": "short-a-li2022",
+      "file": "research/round3-social/sources/li-rsv2019-2022.pdf",
+      "sha256": "6efcb545d1cf2cc18b09bbd2b1126dd79ffd195650e4ad638fe0cbd917b78c19"
+    },
+    {
+      "source_id": "short-b-idnrg",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-gbo",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-gbv",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-beurkg",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-tax",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-enova",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-olg2019",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-bva2023",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-noots",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-berlin-search",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-xjustiz",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-adv2025",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-lgln2022",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-nas",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-nrw-solum",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-b-vdi-monitor",
+      "file": "research/factual-checks/short-statements-20261025/sources/b-primary-checks.json",
+      "sha256": "6f928b727457c378d94aacb5ec0b794d9682eaab4fdc8838c1a706d3e9f76109"
+    },
+    {
+      "source_id": "short-c-wpo",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-wiprpruefv",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-wpanrv",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-bibu",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-dihk-bibu",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-dqr-faq",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-stbdv",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-bremen-exam",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-stberg3",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-hgb",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-wpk-stat-july2026",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-wp2019act",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-wpk2019mag",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-eu200643",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-eu2026-boe",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-iaasb-summary",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-c-accreditation",
+      "file": "research/factual-checks/short-statements-20261025/sources/c-primary-checks.json",
+      "sha256": "2499375c2bd8c6d9bda68fe0c3fac685451511d2d7b47769c9a2d5f756b73e35"
+    },
+    {
+      "source_id": "short-ar-wpo",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-wiprpruefv",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-wpanrv",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-bibu",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-dihk-bibu",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-dqr-faq",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-stbdv",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-bremen-exam",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-stberg3",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-hgb",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-wpk-stat-july2026",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-wp2019act",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-wpk2019mag",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-eu200643",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-eu2026-boe",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-accreditation",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-iaasb-guide",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-eu201456",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-ar-issa5000-final",
+      "file": "research/factual-checks/short-statements-20261025/sources/ar-primary-checks.json",
+      "sha256": "d33619aedee98a706bdfab48f2a251cfc6b3582c6d8ee7dc3d3d71fead7a83e1"
+    },
+    {
+      "source_id": "short-br-rsv-draft",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-statutes",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-egk",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-enflonsia",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-danish",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-rki2024",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-rki-guide",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-rki2025",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-rki2026",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-shortage",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-guideline",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-li2022",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-ema-counts",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-bvkj-context",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-covid",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-br-price-limits",
+      "file": "research/factual-checks/short-statements-20261025/sources/br-rsv-primary-checks.json",
+      "sha256": "f9317593efc8af64ee34da809fb03a1f8b3e6b549a4f7879caaf7d56552e3363"
+    },
+    {
+      "source_id": "short-cr-idnrg",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-gbo",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-gbv",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-beurk",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-grestg18",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-grestg20",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-erbstg34",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-erbstdv7",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-estdv54",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-search",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-enova-availability",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-noots",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-nrw-solum",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-vdi",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-xjustiz",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-adv",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-nas",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-bnotk2007",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-enova",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-olg2019",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-bva2023",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-lgln",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    },
+    {
+      "source_id": "short-cr-draft",
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2"
+    }
+  ]
+}

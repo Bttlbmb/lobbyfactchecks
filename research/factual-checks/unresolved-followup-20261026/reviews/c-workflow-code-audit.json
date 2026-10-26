@@ -1,0 +1,375 @@
+{
+  "reviewer": "c",
+  "status": "complete_code_and_captured_build_audit",
+  "created_at_utc": "2026-10-26T00:46:57.842431+00:00",
+  "reviewed_file": "research/build_resolution_followup.py",
+  "reviewed_sha256": "7c95661c07a396d7bf86848e7bacb6c11468248a319a04ba204a21540daeb81f",
+  "scope": "Read-only inspection of the complete overlay validator/renderer and latest provenance fixes; isolated fixture validations and captured reproduction of the assembled current overlay. No shared code, saved outputs, old data or frozen records edited.",
+  "result": "pass",
+  "material_open_concerns": [],
+  "fixed_issues_independently_rechecked": [
+    {
+      "issue": "Decision expansion could overwrite baseline proposition/context in output rows.",
+      "resolution": "Protected output fields are rejected before row assembly; negative fixture for claim_en override rejects with no output."
+    },
+    {
+      "issue": "Report always states no new main findings while a nonzero field could previously pass.",
+      "resolution": "Only zero new_main_findings allowed; separate issue admission workflow remains necessary. Negative fixture rejects nonzero field before output."
+    },
+    {
+      "issue": "An agent initial freeze could list no proposal or duplicate an agent while only final freeze bound the proposal.",
+      "resolution": "Initial agent list must have exact length/set and each agent exactly its own proposal and primary-note paths. Omitted-proposal, duplicate-agent, missing-agent and wrong-hash fixtures all reject. Real initial hashes are independently bound by successful captured current build."
+    }
+  ],
+  "gates_reviewed": [
+    "Exact unresolved-baseline coverage and old ledger hashes; baseline claim objects preserved.",
+    "Every target original PDF bound to declared hash and preservation files verified.",
+    "Builder hash pin and required common frozen context; every frozen input remains within follow-up directory and matches bytes.",
+    "Exact one decision per baseline case; disjoint/full agent allocation and full proposal/peer coverage.",
+    "Exactly two expected initial files per unique agent; initial hashes bound to final frozen inputs.",
+    "Own and target initial freeze times precede or equal recorded peer time; peer identity, target and exact proposal SHA checked.",
+    "Root review/peer file per decision; mandatory explanation, limits, next step and evidence references.",
+    "Protected original proposition/context cannot be overridden; only supported/unresolved/contradicted statuses admitted.",
+    "Frozen evidence file, unique evidence ID and locator checks; source-note checks/records/sources formats accepted.",
+    "Only new overlay output files written; dynamic outcomes/effective totals; zero new units/main findings; HTML escaping and relative source/peer links."
+  ],
+  "fixture_tests": {
+    "reviewed_code": "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/build_resolution_followup.py",
+    "reviewed_sha256": "7c95661c07a396d7bf86848e7bacb6c11468248a319a04ba204a21540daeb81f",
+    "test_method": "Fresh isolated temporary fixture per case; all three builder output writes intercepted in memory; no live report or data writes. Fake source bytes test identity gates only, not PDF semantics.",
+    "tests": [
+      {
+        "test": "valid complete overlay",
+        "passed": true,
+        "error": null,
+        "captured_outputs": [
+          "report.html",
+          "resolution-ledger.json",
+          "summary.json"
+        ],
+        "verified": "Dynamic counts, preserved proposition/excerpt, zero units/admissions, escaped text, relative source link, baseline ledger unchanged; output writes captured only."
+      },
+      {
+        "test": "incomplete phase",
+        "passed": true,
+        "error": "Follow-up is not complete",
+        "captured_outputs": []
+      },
+      {
+        "test": "duplicate baseline claim",
+        "passed": true,
+        "error": "Baseline claim count/identity mismatch",
+        "captured_outputs": []
+      },
+      {
+        "test": "baseline claim proposition changed",
+        "passed": true,
+        "error": "Baseline claim changed: test-a",
+        "captured_outputs": []
+      },
+      {
+        "test": "historical ledger byte tamper",
+        "passed": true,
+        "error": "Historical ledger changed: /private/var/folders/q5/q0c4bpwn04g75l303k1hdg100000gn/T/resolution-builder-c-hn5678h0/old/ledger.json",
+        "captured_outputs": []
+      },
+      {
+        "test": "original PDF byte tamper",
+        "passed": true,
+        "error": "Original document changed: doc-a",
+        "captured_outputs": []
+      },
+      {
+        "test": "historical preservation tamper",
+        "passed": true,
+        "error": "Preserved historical file changed: old/preserved.txt",
+        "captured_outputs": []
+      },
+      {
+        "test": "required common frozen input missing",
+        "passed": true,
+        "error": "Unfrozen context: protocol-initial.json",
+        "captured_outputs": []
+      },
+      {
+        "test": "reviewed input byte tamper",
+        "passed": true,
+        "error": "Review input changed: research/factual-checks/test-followup/sources/checks.json",
+        "captured_outputs": []
+      },
+      {
+        "test": "builder pin changed",
+        "passed": true,
+        "error": "Follow-up builder changed",
+        "captured_outputs": []
+      },
+      {
+        "test": "missing decision",
+        "passed": true,
+        "error": "Every baseline case needs exactly one decision",
+        "captured_outputs": []
+      },
+      {
+        "test": "duplicate decision",
+        "passed": true,
+        "error": "Every baseline case needs exactly one decision",
+        "captured_outputs": []
+      },
+      {
+        "test": "incomplete adjudication",
+        "passed": true,
+        "error": "Adjudication incomplete",
+        "captured_outputs": []
+      },
+      {
+        "test": "nonzero main finding",
+        "passed": true,
+        "error": "This overlay does not admit main findings; use the separate issue review workflow",
+        "captured_outputs": []
+      },
+      {
+        "test": "duplicate allocation",
+        "passed": true,
+        "error": "Agent allocations must partition the baseline",
+        "captured_outputs": []
+      },
+      {
+        "test": "initial agent missing",
+        "passed": true,
+        "error": "Missing initial freeze",
+        "captured_outputs": []
+      },
+      {
+        "test": "initial hash changed",
+        "passed": true,
+        "error": "Initial freeze changed",
+        "captured_outputs": []
+      },
+      {
+        "test": "initial proposal omitted from own freeze",
+        "passed": true,
+        "error": "Incomplete initial freeze: a",
+        "captured_outputs": []
+      },
+      {
+        "test": "initial agent duplicated",
+        "passed": true,
+        "error": "Missing initial freeze",
+        "captured_outputs": []
+      },
+      {
+        "test": "proposal baseline hash changed",
+        "passed": true,
+        "error": "Proposal baseline changed",
+        "captured_outputs": []
+      },
+      {
+        "test": "proposal initial protocol hash changed",
+        "passed": true,
+        "error": "Initial protocol changed",
+        "captured_outputs": []
+      },
+      {
+        "test": "proposal coverage incomplete",
+        "passed": true,
+        "error": "Proposal coverage mismatch: a",
+        "captured_outputs": []
+      },
+      {
+        "test": "peer identity mismatch",
+        "passed": true,
+        "error": "Peer independence/identity mismatch",
+        "captured_outputs": []
+      },
+      {
+        "test": "peer proposal hash mismatch",
+        "passed": true,
+        "error": "Peer reviewed different proposal",
+        "captured_outputs": []
+      },
+      {
+        "test": "peer coverage incomplete",
+        "passed": true,
+        "error": "Peer coverage mismatch: b",
+        "captured_outputs": []
+      },
+      {
+        "test": "decision wrong peer reference",
+        "passed": true,
+        "error": "Wrong peer reference: test-a",
+        "captured_outputs": []
+      },
+      {
+        "test": "missing root review",
+        "passed": true,
+        "error": "No root review: test-a",
+        "captured_outputs": []
+      },
+      {
+        "test": "baseline context override",
+        "passed": true,
+        "error": "Baseline context override: test-a",
+        "captured_outputs": []
+      },
+      {
+        "test": "unknown result",
+        "passed": true,
+        "error": "Unknown result",
+        "captured_outputs": []
+      },
+      {
+        "test": "missing explanation",
+        "passed": true,
+        "error": "Missing explanation: test-a",
+        "captured_outputs": []
+      },
+      {
+        "test": "missing evidence",
+        "passed": true,
+        "error": "No evidence/check references: test-a",
+        "captured_outputs": []
+      },
+      {
+        "test": "unfrozen evidence file",
+        "passed": true,
+        "error": "Unfrozen evidence: unfrozen.json",
+        "captured_outputs": []
+      },
+      {
+        "test": "unknown evidence ID",
+        "passed": true,
+        "error": "Unknown evidence ID: test-a: unknown",
+        "captured_outputs": []
+      },
+      {
+        "test": "missing locator",
+        "passed": true,
+        "error": "No evidence locator: test-a",
+        "captured_outputs": []
+      },
+      {
+        "test": "peer predates target freeze",
+        "passed": true,
+        "error": "Peer predates initial freeze",
+        "captured_outputs": []
+      },
+      {
+        "test": "peer has no recorded time",
+        "passed": true,
+        "error": "Peer review has no recorded time",
+        "captured_outputs": []
+      },
+      {
+        "test": "source records alternate key",
+        "passed": true,
+        "error": null,
+        "captured_outputs": [
+          "report.html",
+          "resolution-ledger.json",
+          "summary.json"
+        ],
+        "verified": "Dynamic counts, preserved proposition/excerpt, zero units/admissions, escaped text, relative source link, baseline ledger unchanged; output writes captured only."
+      },
+      {
+        "test": "source sources alternate key",
+        "passed": true,
+        "error": null,
+        "captured_outputs": [
+          "report.html",
+          "resolution-ledger.json",
+          "summary.json"
+        ],
+        "verified": "Dynamic counts, preserved proposition/excerpt, zero units/admissions, escaped text, relative source link, baseline ledger unchanged; output writes captured only."
+      }
+    ],
+    "unexpected_passes": [],
+    "counts": {
+      "total": 38,
+      "passed": 38
+    }
+  },
+  "fixture_harness": {
+    "temporary_authored_file": "/private/tmp/unresolved-c-20261026/audit-builder.py",
+    "sha256": "b56a4fa6123624278349bf7ec5f2fb2cab4674ed9c990c12000dbe2796fc9283",
+    "retention": "Unique authored harness retained; fixture directories were automatically removed after each case."
+  },
+  "current_overlay_captured_reproduction": {
+    "reviewed_builder_sha256": "7c95661c07a396d7bf86848e7bacb6c11468248a319a04ba204a21540daeb81f",
+    "review_freeze_sha256": "3cd7720279b3bf398e3871531c1b1a73e058d8a19fee9de27d8f32d6c84081b3",
+    "adjudication_sha256": "bd4a067caf8d26c6dffa53c383358208e8a2d706a64b976b0bf1e1dc8f369437",
+    "initial_freezes_sha256": "bb044b2c338616d1592f5f27f71162ecef5b1be33f853c7f54f7ef908650512c",
+    "summary": {
+      "id": "unresolved-followup-20261026",
+      "status": "complete",
+      "reviewed": 56,
+      "resolved": 13,
+      "outcomes": {
+        "supported": 13,
+        "unresolved": 43
+      },
+      "baseline_assessments": 201,
+      "effective_baseline_outcomes": {
+        "supported": 156,
+        "unresolved": 43,
+        "contradicted": 2
+      },
+      "independent_peer_reviews": 56,
+      "new_reading_units": 0,
+      "new_main_findings": 0,
+      "historical_files_preserved": 135,
+      "limits": [
+        "This is a follow-up to 56 recorded assessments, not an exhaustive check of every assertion or the separate 38 main unresolved leads.",
+        "Support is scoped; unresolved remains appropriate when primary evidence cannot settle the actual claim.",
+        "The 56 cases occur in16existing short originals/53physicalpages. This is a claim follow-up, not a new exhaustive20-document batch or additional reading units.",
+        "Independent AI cross-review and root adjudication; no author contact or human specialist confirmation."
+      ]
+    },
+    "output_comparison": [
+      {
+        "file": "research/factual-checks/unresolved-followup-20261026/resolution-ledger.json",
+        "sha256": "3a3b43141888dcd4f692769fa8c0d97a0466cda57ac407524dcd7867a0ad1d65",
+        "captured_sha256": "3a3b43141888dcd4f692769fa8c0d97a0466cda57ac407524dcd7867a0ad1d65",
+        "byte_identical": true
+      },
+      {
+        "file": "research/factual-checks/unresolved-followup-20261026/summary.json",
+        "sha256": "87e6a75999a395fb5633eced97b66c7e3b85ca94eb0bf29b4a4ff7f5cf9bda4e",
+        "captured_sha256": "87e6a75999a395fb5633eced97b66c7e3b85ca94eb0bf29b4a4ff7f5cf9bda4e",
+        "byte_identical": true
+      },
+      {
+        "file": "research/factual-checks/unresolved-followup-20261026/report.html",
+        "sha256": "67e28db92d9d8a1b3c1c0b578373ed54caed223c24eac669338db428cbc03e3c",
+        "captured_sha256": "67e28db92d9d8a1b3c1c0b578373ed54caed223c24eac669338db428cbc03e3c",
+        "byte_identical": true
+      }
+    ],
+    "provenance_and_preservation": "All builder gates passed; exact old ledger, original PDF, preservation, frozen input and initial/peer hashes checked by builder; all 56 output proposition/context fields independently compared to baseline.",
+    "read_only_proof": {
+      "tracked_paths_before_and_after": 160,
+      "all_hashes_unchanged": true,
+      "saved_outputs_written": false
+    },
+    "completion_audit_present": false
+  },
+  "reporting_scope_check": {
+    "baseline_assessments": 201,
+    "reviewed": 56,
+    "resolved_supported": 13,
+    "remaining_unresolved": 43,
+    "effective_outcomes": {
+      "supported": 156,
+      "unresolved": 43,
+      "contradicted": 2
+    },
+    "independent_peer_reviews": 56,
+    "new_reading_units": 0,
+    "new_main_findings": 0,
+    "assessment": "Current report text matches the assembled scope and counts. The hard-coded previous snapshot size/date/researcher wording is appropriate to this dedicated overlay, rather than a promise of a general-purpose renderer."
+  },
+  "limits": [
+    "This code audit checks validation/rendering and current snapshot reproduction; factual sufficiency rests on separate raw proposals, full peers and root adjudication.",
+    "Completion audit/README/cleanup integration was not final when captured; separate final integration check may bind those later files.",
+    "Chronology gates verify recorded times; actual independent reading order is documented in the authored research/review logs."
+  ]
+}

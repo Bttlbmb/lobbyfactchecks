@@ -1,0 +1,980 @@
+{
+  "unit": "Distinct authored response/version; jointly authored responses count once. Oral contribution separately labelled. Mirrors and repeat checks merged. This is a targeted pool, not a representative sample.",
+  "individually_identified_screened_units": 791,
+  "by_depth": {
+    "full_submission": 554,
+    "selected_passages": 108,
+    "keyword_triage": 128,
+    "full_text_ocr": 1
+  },
+  "by_document_kind": {
+    "written_submission": 735,
+    "written_policy_position_outside_or_unestablished_legislative_scope": 3,
+    "written_policy_position_scope_pending": 23,
+    "government_consultation_response": 12,
+    "consultation_reply_declining_formal_statement": 1,
+    "public_statement": 16,
+    "oral_contribution": 1
+  },
+  "excluded_extracted_only_units": 0,
+  "issue_associated_documents": 87,
+  "documents_with_provisional_findings": 60,
+  "provisional_findings": 69,
+  "unresolved_leads": 38,
+  "rejected_candidates": 3,
+  "major_findings": 13,
+  "documents_with_major_findings": 12,
+  "case_index_only_rows": [],
+  "ambiguous_batches": [
+    {
+      "process": "MietrechtII2026 consultation",
+      "archive": "research/round2-root/mietrechtII-stellungnahmen.zip",
+      "actual_pdf_members": 26,
+      "logged_triage_count": 25,
+      "individually_documented_deeper_reads": 7,
+      "unidentified_additional_triage_minimum": 18,
+      "issue": "Count mismatch: full-batch wording but25versus26files. The19unnamedmembers remain extracted_only pending reconciliation; final combined minimum may add a set-level bound after cross-branch deduplication.",
+      "current_state": "resolved_by_fresh_named_triage_2026-10-25",
+      "current_individually_screened_members": 26,
+      "current_unidentified_additional_minimum": 0,
+      "current_proof": "research/round3-root/rental-reconciliation-proof.json"
+    }
+  ],
+  "manual_aliases": [
+    {
+      "ids": [
+        "dk-crypto-20261015",
+        "dk-kryptotax-20261015"
+      ],
+      "reason": "Identical2892-word authored body on physical2–8 in both15October cover variants; not two substantive response versions. New6October cover reread also has identical body and is excluded as a new unit. Dates and original binaries remain separately recorded.",
+      "proof": "research/round6-tax/dk-crypto-alias-proof.json",
+      "reviewed_at": "2026-10-25",
+      "review_type": "AI body-identity reconciliation, not factual claim verification"
+    },
+    {
+      "ids": [
+        "versmedv7-2026-vdk",
+        "round6-social-sg2610200007"
+      ],
+      "reason": "Identical complete six-page authored text, same12October2026author/title/date, with differing PDF binaries; a register mirror is not a new submission version.",
+      "proof": "research/round6-social/vdk-alias-proof.json",
+      "reviewed_at": "2026-10-25",
+      "review_type": "AI complete-body identity reconciliation, not a new factual claim check"
+    }
+  ],
+  "explicit_actor_status_counts": {
+    "not_reconciled_in_actor_ledger": 455,
+    "external": 324,
+    "government": 12
+  },
+  "rental_batch_individually_screened_members": 26,
+  "rental_batch_additional_unidentified_screened_minimum": 0,
+  "screened_pool_minimum_including_batch_bound": 791,
+  "tool_history_only_additional_screens_excluded": 3,
+  "minimum_by_depth_including_batch_bound": {
+    "full_submission": 554,
+    "selected_passages": 108,
+    "keyword_triage": 128,
+    "full_text_ocr": 1
+  },
+  "scope_qualifications": [
+    {
+      "id": "aids-childhealth-budget-20260923",
+      "scope_status": [
+        "federal_budget_bill_BT21_7300"
+      ]
+    },
+    {
+      "id": "aids-globalhealth-budget-20261001",
+      "scope_status": [
+        "federal_budget_bill_BT21_7300"
+      ]
+    },
+    {
+      "id": "bagsb-financialeducation-20261006",
+      "scope_status": [
+        "outside_or_unestablished"
+      ]
+    },
+    {
+      "id": "bde-eu-procurement-202609",
+      "scope_status": [
+        "outside_or_unestablished"
+      ]
+    },
+    {
+      "id": "bdew-pwc-bureaucracy-202610",
+      "scope_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "biostoffv2026-dguv-20260928",
+      "scope_status": [
+        "public_function_actor_external_eligibility_pending"
+      ]
+    },
+    {
+      "id": "bsi-healthcommission-20260729",
+      "scope_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "cantourage-medcang-20250801",
+      "scope_status": [
+        "formal_submission_channel_unverified"
+      ]
+    },
+    {
+      "id": "dai-bav-depot-20260917",
+      "scope_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "dgkjp-digital-protection-202607",
+      "scope_status": [
+        "federal_legislative_vehicle_pending"
+      ]
+    },
+    {
+      "id": "digital-zollstempel-20260911",
+      "scope_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "energy-round4-sg2606240141",
+      "scope_status": [
+        "federal_legislative_vehicle_pending"
+      ]
+    },
+    {
+      "id": "energy-round4-sg2610190007",
+      "scope_status": [
+        "federal_legislative_vehicle_pending"
+      ]
+    },
+    {
+      "id": "energy-round4-sg2610190008",
+      "scope_status": [
+        "federal_legislative_vehicle_pending"
+      ]
+    },
+    {
+      "id": "familien-inheritance-tenpoints-202601",
+      "scope_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "gdv-bav-dialog-20260917",
+      "scope_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "gedig2026-iqwig-20261012",
+      "scope_status": [
+        "public_function_actor_external_eligibility_pending"
+      ]
+    },
+    {
+      "id": "haucap-gastgewerbe-20251012",
+      "scope_status": [
+        "federal_policy_hearing_specific_legislative_link_pending"
+      ]
+    },
+    {
+      "id": "joint-promotional-gifts-2026",
+      "scope_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "parlamentwatch-assets-202609",
+      "scope_status": [
+        "pending"
+      ]
+    },
+    {
+      "id": "pool-amnesty-biometrie2020",
+      "scope_status": [
+        "general_hearing_not_tied_to_exact_draft"
+      ]
+    },
+    {
+      "id": "pool-bda-entgtransp-evaluation2023",
+      "scope_status": [
+        "evaluation_not_tied_to_exact_draft"
+      ]
+    },
+    {
+      "id": "pool-bdcan-medcang202601",
+      "scope_status": [
+        "publication_verified_channel_not_reconstructed_in_log"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2607290002",
+      "scope_status": [
+        "eu_process_no_exact_federal_vehicle"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2608130021",
+      "scope_status": [
+        "matched_federal_draft"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2608170005",
+      "scope_status": [
+        "federal_process_exact_draft_unverified"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2608200011",
+      "scope_status": [
+        "federal_process_exact_ordinance_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2608250005",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2608270010",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2608280009",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2608310011",
+      "scope_status": [
+        "federal_process_exact_draft_unverified"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2609020028",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2609240001",
+      "scope_status": [
+        "eu_process_no_exact_federal_vehicle"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2609280067",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2609300208",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2609300218",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2609300249",
+      "scope_status": [
+        "federal_process_exact_draft_unverified"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2609300308",
+      "scope_status": [
+        "federal_strategy_exact_legislative_vehicle_unestablished"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2609300367",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610010013",
+      "scope_status": [
+        "eu_process_no_exact_federal_vehicle"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610060015",
+      "scope_status": [
+        "federal_process_exact_draft_unverified"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610080006",
+      "scope_status": [
+        "federal_legislative_process",
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610080010",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610080016",
+      "scope_status": [
+        "eu_process_no_exact_federal_vehicle"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610080027",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610090004",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610120009",
+      "scope_status": [
+        "matched_federal_draft"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610120034",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610130039",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610130040",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610150016",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610150027",
+      "scope_status": [
+        "matched_federal_draft"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610160024",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610190005",
+      "scope_status": [
+        "eu_process_no_exact_federal_vehicle"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610190020",
+      "scope_status": [
+        "federal_process_exact_draft_unverified"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610200012",
+      "scope_status": [
+        "federal_process_exact_draft_unverified"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610210009",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "r6-energy-SG2610210013",
+      "scope_status": [
+        "federal_process_or_exact_vehicle_pending"
+      ]
+    },
+    {
+      "id": "rentueauthv2026-drv-20260910",
+      "scope_status": [
+        "public_function_actor_external_eligibility_pending"
+      ]
+    },
+    {
+      "id": "roche-safehearts-202607",
+      "scope_status": [
+        "federal_legislative_vehicle_pending"
+      ]
+    },
+    {
+      "id": "round4-root-plastics-joint",
+      "scope_status": [
+        "federal_legislative_vehicle_pending"
+      ]
+    },
+    {
+      "id": "round6-social-sg2608130006",
+      "scope_status": [
+        "identified_federal_policy_or_statutory_change_exact_draft_pending"
+      ]
+    },
+    {
+      "id": "round6-social-sg2608210012",
+      "scope_status": [
+        "federal_policy_proposal_exact_draft_pending"
+      ]
+    },
+    {
+      "id": "round6-social-sg2609030005",
+      "scope_status": [
+        "federal_policy_or_enacted_law_followup_public_statement_formal_submission_channel_unverified"
+      ]
+    },
+    {
+      "id": "round6-social-sg2609030007",
+      "scope_status": [
+        "eu_restriction_only_no_identified_federal_legislative_vehicle"
+      ]
+    },
+    {
+      "id": "round6-social-sg2609190004",
+      "scope_status": [
+        "nonlegislative_fee_decision_federal_legislative_vehicle_unverified"
+      ]
+    },
+    {
+      "id": "round6-social-sg2609290004",
+      "scope_status": [
+        "federal_policy_proposal_exact_draft_pending"
+      ]
+    },
+    {
+      "id": "round6-social-sg2609290126",
+      "scope_status": [
+        "identified_federal_policy_or_statutory_change_exact_draft_pending"
+      ]
+    },
+    {
+      "id": "round6-social-sg2609300166",
+      "scope_status": [
+        "identified_federal_policy_or_statutory_change_exact_draft_pending"
+      ]
+    },
+    {
+      "id": "round6-social-sg2609300201",
+      "scope_status": [
+        "identified_federal_policy_or_statutory_change_exact_draft_pending"
+      ]
+    },
+    {
+      "id": "round6-social-sg2610060032",
+      "scope_status": [
+        "identified_federal_policy_or_statutory_change_exact_draft_pending"
+      ]
+    },
+    {
+      "id": "round6-social-sg2610140002",
+      "scope_status": [
+        "identified_federal_policy_or_statutory_change_exact_draft_pending"
+      ]
+    },
+    {
+      "id": "round6-social-sg2610190014",
+      "scope_status": [
+        "identified_federal_policy_or_statutory_change_exact_draft_pending"
+      ]
+    },
+    {
+      "id": "round6-social-sg2610210019",
+      "scope_status": [
+        "UN_governance_policy_no_identified_federal_legislative_vehicle"
+      ]
+    },
+    {
+      "id": "round6-social-sg2610220026",
+      "scope_status": [
+        "identified_federal_policy_or_statutory_change_exact_draft_pending"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1099186-response-009",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1103130-response-002",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1103130-response-006",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1113286-response-003",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1127034-response-008",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1151338-response-006",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1161138-response-008",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1183612-response-002",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1183612-response-003",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1183612-response-004",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1191806-response-002",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1194566-response-001",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1194566-response-003",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1194566-response-005",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1194566-response-006",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1194566-response-010",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1217406-response-005",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-hearing-1217406-response-008",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2608050020",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2608050026",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2608060003",
+      "scope_status": [
+        "legislative_precursor_scope_pending"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2608060005",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2608060033",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2608180005",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2608200012",
+      "scope_status": [
+        "tax_administration_interpretation_no_identified_legislative_vehicle"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2608210001",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2608210002",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2608240019",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2608260002",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2608260005",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2609160004",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2609170015",
+      "scope_status": [
+        "legislative_precursor_scope_pending"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2609180019",
+      "scope_status": [
+        "legislative_precursor_scope_pending"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2609210006",
+      "scope_status": [
+        "legislative_precursor_scope_pending"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2609210007",
+      "scope_status": [
+        "legislative_precursor_scope_pending"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2609210016",
+      "scope_status": [
+        "eu_customs_administration_not_identified_german_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2609250007",
+      "scope_status": [
+        "legislative_precursor_scope_pending"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2609280075",
+      "scope_status": [
+        "eu_only_or_unestablished_german_federal_legislative_scope"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2609290179",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2609300084",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2609300186",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2609300277",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2609300287",
+      "scope_status": [
+        "federal_legislative_process",
+        "federal_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2609300355",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2610010039",
+      "scope_status": [
+        "federal_policy_request_no_exact_addressed_draft"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2610060008",
+      "scope_status": [
+        "federal_ordinance_consultation_exact_version_unverified"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2610060010",
+      "scope_status": [
+        "legislative_precursor_scope_pending"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2610060012",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2610080031",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2610130007",
+      "scope_status": [
+        "federal_policy_request_no_exact_addressed_draft"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2610130030",
+      "scope_status": [
+        "executive_strategy_no_identified_bill"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2610150010",
+      "scope_status": [
+        "federal_legislative_process"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2610190010",
+      "scope_status": [
+        "executive_strategy_no_identified_bill"
+      ]
+    },
+    {
+      "id": "round6-tax-sg2610220021",
+      "scope_status": [
+        "federal_policy_request_no_exact_addressed_draft"
+      ]
+    },
+    {
+      "id": "rsv-amendvo2026-gba",
+      "scope_status": [
+        "public_function_actor_external_eligibility_pending"
+      ]
+    },
+    {
+      "id": "rsv-amendvo2026-gkvsv",
+      "scope_status": [
+        "public_function_actor_external_eligibility_pending"
+      ]
+    },
+    {
+      "id": "vdb-waffen-evaluation-20260925",
+      "scope_status": [
+        "evaluation_exact_federal_legislative_vehicle_pending"
+      ]
+    },
+    {
+      "id": "vdv-maintenance-tax-20231205",
+      "scope_status": [
+        "outside_or_unestablished"
+      ]
+    },
+    {
+      "id": "venro-haushalt2026-20250909",
+      "scope_status": [
+        "formal_submission_channel_unverified"
+      ]
+    }
+  ],
+  "limitations": [
+    "Three additional tool-history-only screens excluded; archive-only and primary-evidence-only files excluded.",
+    "The original rental25-versus26log ambiguity is preserved historically. Fresh named keyword triage of19remaining members now documents all26 individually, so no anonymous batch bound is added to this snapshot. This does not upgrade keyword triage to full reading.",
+    "One original/corrected GAÄD response is counted as two versions, not two response families.",
+    "The depth categories describe recorded reading extent, not complete factual verification of every assertion.",
+    "The pool is deliberately targeted and unevenly examined; findings divided by this denominator do not estimate error prevalence.",
+    "Public statements and oral contributions are labelled separately in by_document_kind; some public statements lack a verified formal submission channel.",
+    "Counts include one BStBK submitted package with a joint appendix; the appendix is not counted separately."
+  ],
+  "independent_audits": [
+    "research/pool-merged-audit-energy.json",
+    "research/pool-merged-audit-social.json",
+    "research/pool-merged-audit-tax.json"
+  ],
+  "audit_note": "Branch inventories independently reconciled by multiple AI agents. See audit files for actual dispositions; no human specialist review implied.",
+  "active_round_reading_ledgers": [
+    "research/round6-root/pool-audit.json",
+    "research/round6-energy/pool-audit.json",
+    "research/round6-tax/pool-audit.json",
+    "research/round6-social/pool-audit.json"
+  ],
+  "prior_round4_reading_ledgers": [
+    "research/round4-root/pool-audit.json",
+    "research/round4-energy/pool-audit.json",
+    "research/round4-tax/pool-audit.json",
+    "research/round4-social/pool-audit.json"
+  ],
+  "previous_round_reading_ledgers": [
+    "research/round3-root/pool-audit.json",
+    "research/round3-energy/pool-audit.json",
+    "research/round3-tax/pool-audit.json",
+    "research/round3-social/pool-audit.json"
+  ],
+  "active_round_scope_limit": "These additional actual reads include earlier historical versions and depth upgrades. They are not a completed three-month cohort; see data/coverage-progress.json. The prior independent merged audits cover the baseline. Active-round audits identify their exact snapshot counts and hashes; later additions are not silently certified by an earlier snapshot review.",
+  "factual_check_pilots": [
+    {
+      "id": "kltgv-2026-factual-pilot",
+      "summary": "research/factual-pilot/summary.json",
+      "documents": 7,
+      "claims": 111,
+      "new_reading_units": 0
+    },
+    {
+      "id": "behg-2026-factual-checks",
+      "summary": "research/factual-checks/behg-2026/summary.json",
+      "documents": 9,
+      "claims": 194,
+      "new_reading_units": 0
+    },
+    {
+      "id": "netzkosten-2026-factual-checks",
+      "summary": "research/factual-checks/netzkosten-2026/summary.json",
+      "documents": 21,
+      "claims": 194,
+      "new_reading_units": 0
+    },
+    {
+      "id": "driving-2026-factual-checks",
+      "summary": "research/factual-checks/driving-2026/summary.json",
+      "documents": 6,
+      "claims": 124,
+      "new_reading_units": 0
+    },
+    {
+      "id": "fruehstart-2026-factual-checks",
+      "summary": "research/factual-checks/fruehstart-2026/summary.json",
+      "documents": 7,
+      "claims": 143,
+      "new_reading_units": 0
+    },
+    {
+      "id": "biostoffv-2026-factual-checks",
+      "summary": "research/factual-checks/biostoffv-2026/summary.json",
+      "documents": 9,
+      "claims": 134,
+      "new_reading_units": 0
+    }
+  ],
+  "previous_round_independent_audits": [
+    "research/round3-reviews/social-reviews-merged-pool.json",
+    "research/round3-reviews/tax-final-merged-pool-register-links-audit.json",
+    "research/round3-reviews/tax-final-merged-pool-snapshot-addendum.json",
+    "research/round3-reviews/tax-reviews-merged-screening-pool.json"
+  ],
+  "prior_round4_independent_audits": [
+    "research/round4-reviews/energy-final-merged-pool-addendum.json",
+    "research/round4-reviews/energy-merged-pool-audit.json"
+  ],
+  "active_round_independent_audits": [
+    "research/round6-reviews/energy-reviews-merged-output.json",
+    "research/round6-reviews/social-reviews-merged-output.json"
+  ]
+}

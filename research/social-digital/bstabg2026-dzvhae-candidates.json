@@ -1,0 +1,193 @@
+[
+  {
+    "law_id": "gkv-beitragssatzstabilisierung-2026",
+    "document_id": "dzvhae-bstabg-20260417",
+    "status": "ai_screened",
+    "finding_state": "provisional_finding",
+    "severity": "minor",
+    "request_quote": {
+      "quote_id": "dzvhae-bstabg-request",
+      "metadata_file": "source-registry.json"
+    },
+    "review": {
+      "specialist": null,
+      "independent_ai": [
+        {
+          "reviewer": "tax_consultations_independent_ai",
+          "file": "research/reviews/tax-reviews-dzvhae.json",
+          "verdict": "retain provisional minor finding; direction independently checked",
+          "specialist": null
+        }
+      ]
+    },
+    "author_response": [],
+    "confidence": {
+      "text_source_mismatch": "high",
+      "materiality": "editorial_judgment"
+    },
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "First recorded after source and context check; awaiting independent adversarial AI review.",
+        "by": "social_digital_ai"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Independent adversarial AI review retained narrow finding after full document, primary sources and exact provision checks.",
+        "by": "tax_consultations_independent_ai"
+      }
+    ],
+    "id": "bstabg2026-dzvhae-a01",
+    "favours_author_request": true,
+    "card": {
+      "law_is_about": "Stabilising statutory health insurance contributions and ending reimbursement for named complementary therapies.",
+      "they_want": "Keep homeopathic treatments reimbursable.",
+      "they_claim": "Swiss homeopathy has been a permanent insurance benefit since a 2005 HTA.",
+      "the_problem": "Medical homeopathy coverage ended in 2005, returned provisionally in 2012 and became permanent in 2017."
+    },
+    "claim_quote": {
+      "original": "Homöopathie ist seither dauerhaft GKV-Leistung.",
+      "language": "de",
+      "translation_en": "Translation: homeopathy has since been a permanent statutory insurance benefit.",
+      "locator": {
+        "pdf_page": 3,
+        "section": "Sachliche Stellungnahme",
+        "bullet": "Internationale Evidenz"
+      },
+      "underline": "seither dauerhaft"
+    },
+    "counter_quote": {
+      "original": "Damit läuft die provisorische Leistungspflicht auf den 30.6.2005 aus.",
+      "language": "de",
+      "translation_en": "Translation: the provisional obligation to reimburse therefore expires on 30 June 2005.",
+      "source_id": "swiss-edi-20050603",
+      "locator": {
+        "section": "Krankenversicherung: Fünf komplementärmedizinische Leistungen werden nicht in die Grundversicherung aufgenommen",
+        "paragraph": "first"
+      },
+      "retrieved_at": "2026-10-24"
+    },
+    "correction": "For physician-provided homeopathy, Swiss basic-insurance coverage was suspended from 1 July 2005, restored provisionally in 2012 and made permanent in 2017. It was not continuously permanent from 2005.",
+    "effect": "Weakens the claimed duration and continuity of the international reimbursement precedent.",
+    "limits": "Swiss coverage exists today. The chronology correction does not establish clinical ineffectiveness or decide German reimbursement policy. Medicinal products have separate reimbursement rules; the claim is assessed as a statement about the medical method, consistent with the submission’s treatment focus.",
+    "context_and_alternatives": "The immediately preceding clause dates a Swiss HTA to 2005 and asserts positive findings. The word seither naturally refers to that date. A conflation of current permanent status with the earlier evaluation is plausible. This finding does not adjudicate the differing 2005 HTA publications.",
+    "materiality_explanation": "Minor: the historical precedent is overstated, while current Swiss coverage and the author’s other arguments remain.",
+    "direction_explanation": "True: a longer uninterrupted reimbursement precedent strengthens the international example used to oppose removal in Germany; this is an argument-direction judgment, not intent.",
+    "sources": [
+      {
+        "id": "swiss-edi-20050603",
+        "title": "EDI announcement, 3 June 2005",
+        "url": "https://www.admin.ch/de/nsb?id=3740",
+        "local_file": "research/social-digital/swiss-edi-20050603.html",
+        "retrieved_at": "2026-10-24"
+      },
+      {
+        "id": "swiss-bag-complementary-history",
+        "title": "BAG, Ärztliche Komplementärmedizin",
+        "url": "https://www.bag.admin.ch/de/arztliche-komplementaermedizin",
+        "locator": "Vorgeschichte der Regelung der ärztlichen komplementärmedizinischen Leistungen; 2012 provisional / 2017 definitive",
+        "retrieved_at": "2026-10-24",
+        "local_file": "research/social-digital/bag-complementary-history-retrieved-20261024.html",
+        "sha256": "e18ed9918a9e5585de9bad210416a0da98a993ec6ca2f7a3df381da0fe12163c"
+      },
+      {
+        "id": "swiss-2017-explanation",
+        "title": "BAG explanatory report for 2017 KVV/KLV changes",
+        "url": "https://www.bag.admin.ch/dam/de/sd-web/PxFrkAdr3uVy/erlaeuterungen-aenderungen-kvv-klv-komplementaermedizin.pdf",
+        "local_file": "research/social-digital/swiss-complementary-2017-explanation.pdf",
+        "locator": "pages 2–4: historical medical coverage; pages 5–6: separate medicinal-product rules",
+        "retrieved_at": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "law_id": "gkv-beitragssatzstabilisierung-2026",
+    "document_id": "dzvhae-bstabg-20260417",
+    "status": "ai_screened",
+    "finding_state": "provisional_finding",
+    "severity": "minor",
+    "request_quote": {
+      "quote_id": "dzvhae-bstabg-request",
+      "metadata_file": "source-registry.json"
+    },
+    "review": {
+      "specialist": null,
+      "independent_ai": [
+        {
+          "reviewer": "tax_consultations_independent_ai",
+          "file": "research/reviews/tax-reviews-dzvhae.json",
+          "verdict": "retain provisional minor finding; direction independently checked",
+          "specialist": null
+        }
+      ]
+    },
+    "author_response": [],
+    "confidence": {
+      "text_source_mismatch": "high",
+      "materiality": "editorial_judgment"
+    },
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "First recorded after source and context check; awaiting independent adversarial AI review.",
+        "by": "social_digital_ai"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Independent adversarial AI review retained narrow finding after full document, primary sources and exact provision checks.",
+        "by": "tax_consultations_independent_ai"
+      }
+    ],
+    "id": "bstabg2026-dzvhae-a02",
+    "favours_author_request": false,
+    "card": {
+      "law_is_about": "Stabilising statutory health insurance contributions and ending reimbursement for named complementary therapies.",
+      "they_want": "Keep homeopathic treatments reimbursable.",
+      "they_claim": "About 40 million euros a year equals 0.03% of GKV expenditure.",
+      "the_problem": "Against the latest then-published annual total, it equals about 0.0114%."
+    },
+    "claim_quote": {
+      "original": "40 Mio. € p.a., 0,03% der GKV-Ausgaben",
+      "language": "de",
+      "translation_en": "Translation: 40 million euros per year, 0.03% of statutory health insurance expenditure",
+      "locator": {
+        "pdf_page": 1,
+        "section": "Zusammenfassung",
+        "paragraph": "second"
+      },
+      "underline": "0,03%"
+    },
+    "counter_quote": {
+      "original": "Ausgaben in Höhe von 352,4 Milliarden Euro",
+      "language": "de",
+      "translation_en": "Translation: expenditure amounting to 352.4 billion euros",
+      "source_id": "bmg-2025-preliminary-finances",
+      "locator": {
+        "paragraph": "beginning Den Einnahmen der gesetzlichen Krankenkassen"
+      },
+      "retrieved_at": "2026-10-24"
+    },
+    "correction": "Using the 2025 preliminary expenditure total published on 10 March 2026: 40 million / 352.4 billion × 100 = 0.01135%, approximately 0.01%. A share of 0.03% would equal about 105.7 million euros on that denominator.",
+    "effect": "Reduces the stated relative expenditure share; the small-budget argument survives and becomes numerically stronger.",
+    "limits": "This checks the stated pairing, not the actual cost of all homeopathic care or the savings after substitution. The submission gives no expenditure base-year. Recent annual totals or the 2026 projection do not make 40 million equal 0.03%. A different numerator or older denominator could explain the percentage, but then the pairing needs qualification.",
+    "materiality_explanation": "Minor: both the stated and corrected percentages are small relative to total GKV expenditure. The correction does not change the policy conclusion by itself.",
+    "direction_explanation": "False: the erroneous percentage makes the stated expense look larger, which works against the author’s small-budget rationale.",
+    "calculation": {
+      "numerator_eur": 40000000,
+      "denominator_eur": 352400000000,
+      "denominator_year": 2025,
+      "denominator_status_at_submission": "preliminary; published 10 March 2026",
+      "computed_percent": 0.0113507378
+    },
+    "sources": [
+      {
+        "id": "bmg-2025-preliminary-finances",
+        "title": "BMG, Finanzentwicklung der GKV im 1.–4. Quartal 2025, 10 March 2026",
+        "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/finanzentwicklung-gkv-2025",
+        "retrieved_at": "2026-10-24",
+        "local_file": "research/social-digital/bmg-20260310-gkv-finances.html",
+        "sha256": "de2510e1d33d7e80bc977bcb315166949400684570d76818c794f373cdfc1b46"
+      }
+    ]
+  }
+]

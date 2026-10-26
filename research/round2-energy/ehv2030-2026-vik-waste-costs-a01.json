@@ -1,0 +1,127 @@
+{
+  "id": "ehv2030-2026-vik-waste-costs-a01",
+  "law_id": "ehv2030-2026",
+  "document_id": "vik-ehv2030-20260129",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Implementing the revised German greenhouse-gas emissions trading law through detailed monitoring and administration rules.",
+    "they_want": "Exempt hazardous-waste incineration from the national carbon market or suspend that market until ETS 2 operates reliably.",
+    "they_claim": "Waste-incineration carbon costs arise exclusively in Germany.",
+    "the_problem": "Danish official guidance expressly imposes a CO₂ tax on relevant hazardous-waste incineration from 2015. That qualifies the Germany-only carbon-cost premise, while scope and net burdens still differ."
+  },
+  "claim_quote": {
+    "original": "zusätzliche Kosten ausschließlich in Deutschland.",
+    "language": "de",
+    "translation_en": "Translation of fragment: additional costs exclusively in Germany.",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": 2,
+      "section": "Wettbewerbsnachteile durch nationale Bepreisung der Abfallverbrennung",
+      "paragraph": "First bullet, second sentence; preceding sentence names waste-incineration plants generally, next sentence switches specifically to hazardous-waste plants."
+    },
+    "underline": "ausschließlich in Deutschland"
+  },
+  "request_quote": {
+    "original": "das BEHG insgesamt\nauszusetzen",
+    "language": "de",
+    "translation_en": "Translation of request fragment: suspend the BEHG as a whole",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": 2,
+      "section": "Same section, second bullet; offered as alternative to exempting hazardous-waste plants."
+    }
+  },
+  "counter_quote": {
+    "original": "farligt affald er pr. 1. januar 2015 afgiftsmæssigt sidestillet med andet affald",
+    "language": "da",
+    "translation_en": "Translation of fragment: hazardous waste is, as of 1 January 2015, treated the same as other waste for tax purposes",
+    "source_id": "dk-hazardous-tax-history-2026-1",
+    "locator": {
+      "section": "E.A.4.2.1 Regel og lovgrundlag; Historik; Farligt affald",
+      "paragraph": "First paragraph, second clause. Following paragraph expressly names the CO₂ tax payable from 1 January 2015."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Distinguish the absence of uniform EU-wide carbon pricing from the existence of national carbon costs elsewhere. The explicitly versioned Danish Tax Agency 2026-1 guidance states that relevant hazardous-waste incineration has been subject to CO₂ tax since 1 January 2015, while separately explaining its ETS exclusion. Its calculation chapter covers non-biodegradable waste used for heat/electricity, with material and use-based exemptions. Thus carbon charges on relevant hazardous incineration were not exclusive to Germany. Earlier Danish/Swedish waste-to-energy ETS evidence is corroborating background, not the sole matched-cohort counterexample.",
+  "effect": "Qualifies the premise of a uniquely German carbon-cost burden supporting removal or suspension of national pricing. It does not eliminate possible differences in coverage, rates, exemptions, compensation or competitive disadvantage.",
+  "limits": "The correction establishes foreign carbon taxation of relevant hazardous-waste incineration, not that every dedicated destruction plant is charged. Danish rules are limited by energy/heat use, non-biodegradable content and exemptions; a pure-destruction or exempt-material case may differ. No equal net cost, no quantified foreign tax payment and no absence of a German competitive burden is asserted. Dedicated hazardous sites can be outside ETS while within a separate carbon tax. Possible state compensation and the incidence of heat-related charges remain distinct from the existence of the tax. No policy-merit or intent conclusion follows.",
+  "context_and_alternatives": [
+    "Both author pages were read. The challenged sentence follows a reference to waste-incineration plants newly covered by BEHG and precedes the dedicated hazardous-waste discussion. The request offers both a targeted exemption and broad BEHG suspension.",
+    "The first independent review correctly withheld a finding because ordinary energy-recovery ETS examples might not match the implicit dedicated hazardous-waste cohort. New affirmative Danish hazardous-waste CO₂ tax guidance changes that evidentiary basis. Both assessments are retained in the review history.",
+    "An instrument-specific reading could mean only Germany has the German BEHG, or only Germany added this particular charge in 2024. That is a plausible narrower description, but the printed causal argument refers to missing European pricing and says additional costs arise exclusively in Germany. The narrow correction concerns carbon-cost uniqueness, not uniqueness of the German statutory instrument or identical implementation dates.",
+    "The Danish minister’s 2022 response separately identifies specialised hazardous-waste incineration/destruction facilities. It corroborates the dedicated cohort, but its proposed future rates and support are not treated as proof of actual paid sums, current compensation or individual net burdens.",
+    "The tax guide 2026-1 historical edition was retrieved using explicit vid220619. An earlier bare-URL local download actually selected 2026-2 although the web reader displayed 2026-1. The registry now cites the historical archive; the old file remains preserved and is not represented as pre-submission evidence.",
+    "Exact January consultation draft and ministry record were checked; later July regulation is not substituted. Future 2028 waste-sector extension in the author is treated as a proposal, not a proved timetable error.",
+    "The guide carries a historical 2026-1 edition identifier, but its webpage can automatically append later decisions, including a February 2026 case. Those later case listings are not used as pre-author evidence. The cited main historical text describes the 2015 tax rule; the HTML is not represented as a frozen January 2026 snapshot."
+  ],
+  "materiality_explanation": "Minor: a supporting international-uniqueness premise is overstated. The correction does not quantify relative costs or settle the broader competitive burden, and independent implementation objections remain.",
+  "direction_explanation": "True narrowly: exclusive German carbon costs support a targeted exemption or broad suspension. Affirmative foreign hazardous-waste carbon taxation qualifies that premise; this direction is separate from the minor materiality assessment.",
+  "confidence": {
+    "text_source_mismatch": "High for affirmative foreign hazardous-waste carbon-tax rules; energy use, exemptions and net-cost differences limit the scope of the correction.",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "source_id": "ehv2030-refe-202601",
+    "version": "January 2026 ministry Referentenentwurf; published 15 January according to contemporaneous BDEW response, official index updated 16 January and submission deadline 30 January 2026. No internal drafting timestamp asserted.",
+    "relevant_provision": "Section 4 national implementation of fuel emissions trading; challenged request also seeks amendment/suspension of underlying BEHG, rather than a claim that this draft first introduced waste pricing.",
+    "version_limit": "The current official January consultation PDF has no internal drafting timestamp. PDF metadata records creation on28January2026UTC and modification on29January; the consultation was announced on15/16January. Accessibility generation or retagging can explain this chronology, but metadata neither establishes byte identity with a15January iteration nor proves substantive revision. VIK is dated29January and E.ON identifiesJanuary. The exact operative text in the linked consultation file was checked; no pre16January frozen byte archive is claimed."
+  },
+  "source_ids": [
+    "vik-ehv2030-20260129",
+    "ehv2030-refe-202601",
+    "ehv2030-ministry-process",
+    "dk-ets-waste-2014",
+    "dk-tax-waste-2026-1",
+    "sweden-waste-government-2016",
+    "nordic-waste-incineration-2024",
+    "dk-hazardous-tax-history-2026-1",
+    "dk-minister-hazardous-20220620",
+    "ehv2030-final-20260710"
+  ],
+  "submission_source_id": "vik-ehv2030-20260129",
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "agent": "tax_consultations_ai_agent",
+        "date": "2026-10-25",
+        "result": "Initial review recommended unresolved because ETS-only foreign examples might not match dedicated hazardous waste. Superseding follow-up retains provisional/minor/true after affirmative Danish hazardous-incineration carbon-tax evidence, with strict scope and net-cost limits.",
+        "review_file": "research/round2-reviews/tax-reviews-vik-ehv-waste.json"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full author, exact consultation context and affirmative foreign official evidence read; independent adversarial review requested.",
+      "by": "energy_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Downgraded to unresolved after independent full-context and legal-cohort challenge; no factual error promoted.",
+      "by": "energy_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Promoted narrowly after new explicit Danish historical hazardous-waste CO₂ tax evidence and superseding independent review. Prior unresolved assessment preserved. Historical archive edition corrected; earlier bare-URL current copy not used as pre-submission evidence.",
+      "by": "energy_ai_screen"
+    }
+  ],
+  "verification": {
+    "visual": "Official author physical 2 rendered and visually checked.",
+    "quotation_budget": "Author claim 5 words plus request 4 words = 9 author words. Danish counter 12 words; earlier Nordic counter superseded, not repeated.",
+    "source_registry": "research/round2-energy/vik-ehv-source-registry.json",
+    "archive_limits": "Explicit historical-edition Danish guides archived with vid220619 and hashes. The webpages can append later decisions dynamically; these listings are not used as pre-author evidence, and the entire HTML is not a frozen contemporaneous snapshot. Earlier bare-URL local file selected 2026-2 and remains preserved separately. Nordic HTML was read through the web reader; direct downloads 403, so no local Nordic archive claimed. Official ministry author PDF supplies provenance."
+  },
+  "process_status_at_screen": {
+    "status": "completed",
+    "final_instrument_date": "2026-07-10",
+    "entry_into_force": "2026-07-15",
+    "source_id": "ehv2030-final-20260710",
+    "comparison_limit": "Final text is process metadata only. The claim remains compared against the January consultation draft and its recorded version limits."
+  }
+}

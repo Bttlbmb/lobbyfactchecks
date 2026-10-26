@@ -1,0 +1,1640 @@
+{
+  "id": "claims-c-initial",
+  "researcher": "C",
+  "created_at": "2026-10-25T08:58:06.788843+00:00",
+  "status": "initial_complete_awaiting_peer_review",
+  "documents": [
+    {
+      "id": "bmwe-kltgv-2026-008",
+      "author": "Carbon Management Allianz (CMA)",
+      "author_date_or_month": "2026-08-10",
+      "submission_date_verified": false,
+      "local_file": "research/round3-energy/sources/bmwe-members/357765fb0849592315bf.pdf",
+      "sha256": "357765fb0849592315bf5c6646a2d1c6897d3ef5a6b6fcb353961839895e6df6",
+      "physical_pages": 3,
+      "depth": "full_submission",
+      "log_locator": "$[70]",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "pilot_text": "research/factual-pilot/text/bmwe-kltgv-2026-008.txt"
+    },
+    {
+      "id": "bmwe-kltgv-2026-010",
+      "author": "TÜV-Verband e.V.",
+      "author_date_or_month": "2026-08-07",
+      "submission_date_verified": false,
+      "local_file": "research/round3-energy/sources/bmwe-members/548a2744055035f3ff68.pdf",
+      "sha256": "548a2744055035f3ff68e06d584d3e65a9873bb3f62205571948b4c33353e5d7",
+      "physical_pages": 6,
+      "depth": "full_submission",
+      "log_locator": "$[71]",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "pilot_text": "research/factual-pilot/text/bmwe-kltgv-2026-010.txt"
+    },
+    {
+      "id": "bmwe-kltgv-2026-011",
+      "author": "VNG AG",
+      "author_date_or_month": "2026-08-10",
+      "submission_date_verified": false,
+      "local_file": "research/round3-energy/sources/bmwe-members/510584d04f8620f4f1b0.pdf",
+      "sha256": "510584d04f8620f4f1b0a0e0453d5d2d811584c28d0daf9628cee1a1cca2438f",
+      "physical_pages": 4,
+      "depth": "full_submission",
+      "log_locator": "$[72]",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "pilot_text": "research/factual-pilot/text/bmwe-kltgv-2026-011.txt"
+    }
+  ],
+  "claims": [
+    {
+      "id": "kltgv-008-01",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Vermutungswirkung",
+      "original_excerpt": "Einhaltung der allgemein anerkannten Regeln der Technik vermutet",
+      "claim_en": "Compliance with DVGW technical rules benefits from the imported EnWG presumption.",
+      "claim_type": "legal",
+      "materiality": "high",
+      "policy_link": "Rationale for using an existing technical-safety framework.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "root-kspg",
+          "locator": "§4a(3) sentence2"
+        },
+        {
+          "source_id": "root-enwg49",
+          "locator": "§49(1)–(2)"
+        },
+        {
+          "source_id": "root-draft",
+          "locator": "rationale §2 physical17"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The statutory import and draft rationale establish the presumption for corresponding CO2-specific technical rules.",
+      "limits": "Presumption does not establish that every safety question is already fully specified.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-02",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Bekanntes Regelwerk",
+      "original_excerpt": "Die GasHDrLtgV ist seit 2011 in Kraft",
+      "claim_en": "The GasHDrLtgV has been in force since 2011.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Experience argument for corresponding application.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "heading, effective-date footnote, §20"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The regulation is dated18May2011 and its effective-date provision establishes operation in2011.",
+      "limits": "Routine familiarity and predicted time/cost savings are separate qualitative assertions, excluded below.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-03",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Abweichungen",
+      "original_excerpt": "trifft § 3 KLtgV drei gezielte Ergänzungen",
+      "claim_en": "Draft §3(1) adds pressure protection, single-failure redundancy and topographic-risk provisions.",
+      "claim_type": "draft_description",
+      "materiality": "high",
+      "policy_link": "Accepts the three additional design requirements.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(1) physical3–4"
+        }
+      ],
+      "result": "supported",
+      "explanation": "All three additions appear in the operative text.",
+      "limits": "§3 also contains operating-response and reporting changes; the paragraph is describing the three design additions, not denying those other changes. Compared with archived draft internally dated 8 July; exact identity with authors' 7 July iteration is unproved.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-04",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Abweichungen",
+      "original_excerpt": "CO2, anders als Erdgas, in Zweiphasenströmungen übergehen kann",
+      "claim_en": "CO2 pipeline conditions can produce two-phase flows.",
+      "claim_type": "technical",
+      "materiality": "high",
+      "policy_link": "Supports pressure-specific protections.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "scope1; terms3.6–3.8,3.20"
+        },
+        {
+          "source_id": "c-zenodo-depressurization",
+          "locator": "dataset description and test conditions"
+        },
+        {
+          "source_id": "c-doe-cslf2015",
+          "locator": "report CO2 transport, §4.4.1.3 dynamic phenomena"
+        },
+        {
+          "source_id": "c-depressurization-preprint",
+          "locator": "abstract p1; introduction p3–4; experimentalmethod and initialconditions"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Independent experimental data and technical definitions support CO2 phase-transition concerns.",
+      "limits": "The phrase unlike natural gas is interpreted in ordinary pipeline operating conditions; it should not be read as a universal claim that natural-gas mixtures never have multiple phases.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-05",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Abweichungen",
+      "original_excerpt": "sauerstoffverdrängenden Wirkung besondere Gefährdungspotenziale",
+      "claim_en": "Escaped CO2 poses an asphyxiation hazard, particularly where it accumulates low down.",
+      "claim_type": "technical",
+      "materiality": "high",
+      "policy_link": "Supports valley/depression safety requirements.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-usgs-co2",
+          "locator": "Carbon dioxide trapped in low-lying areas section"
+        },
+        {
+          "source_id": "root-draft",
+          "locator": "§3(1)number3"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The independent government hazard description confirms accumulation of cool dense CO2 in depressions and potentially lethal exposure.",
+      "limits": "Hazard depends on concentration, temperature, meteorology and release; no universal consequence inferred.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-06",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        1
+      ],
+      "section": "CO2-Beschaffenheit",
+      "original_excerpt": "Nebenbestandteile und Wassergehalt – ein zentraler Sicherheitsparameter",
+      "claim_en": "CO2 stream impurities and water affect corrosion, materials/integrity and phase behaviour.",
+      "claim_type": "technical",
+      "materiality": "high",
+      "policy_link": "Supports integrating composition into design and operation.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction; scope1; terms3.3–3.8"
+        },
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "contents and2025revision points14–17"
+        },
+        {
+          "source_id": "c-doe-cslf2015",
+          "locator": "report CO2 transport, §4.4.1.2 corrosion and §4.4.1.3"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Primary standard scope and technical report independently identify composition, corrosion and thermodynamic design as connected issues.",
+      "limits": "Exact permissible concentrations require stream-specific assessment, not resolved here.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-07",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Amtsblattmitteilungen",
+      "original_excerpt": "fehlen bislang die entsprechenden DVGW-Amtsblattmitteilungen",
+      "claim_en": "CO2-specific §3 requirements lack corresponding DVGW official-notice concretisation.",
+      "claim_type": "legal_technical_status",
+      "materiality": "high",
+      "policy_link": "Supports urgent additional technical rulemaking.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-dvgw-c260",
+          "locator": "publisher catalogue2022-04"
+        },
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "publisher catalogue2025-06"
+        },
+        {
+          "source_id": "root-draft",
+          "locator": "rationale§2 physical17"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "CO2-specific C260 and C463 existed before this response, but their existence does not establish whether the particular official notices or complete mapping to new §3 requirements existed. Targeted searches for DVGW/CO2/Amtsblatt/Bundesanzeiger did not authenticate a complete notice history.",
+      "limits": "No negative conclusion from unsuccessful search; no fully accessible complete C-series and official-notice register audited.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-08",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        1
+      ],
+      "section": "DVGW C260",
+      "original_excerpt": "DVGW-Arbeitsblatt C 260 für Anforderungen an CO2 und CO2-Ströme",
+      "claim_en": "DVGW C260 addresses properties/requirements of CO2 and CO2 streams.",
+      "claim_type": "technical_standard_scope",
+      "materiality": "medium",
+      "policy_link": "Justifies including the C-series in technical references.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-dvgw-c260",
+          "locator": "title and edition2022-04"
+        },
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "C260references in published change list"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The publisher catalogue confirms the title and2022edition; C463 crossreferences that stream-properties rule.",
+      "limits": "Catalogue establishes existence and topic; full licensed C260 text not obtained.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-09",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Regelungsarchitektur",
+      "original_excerpt": "Sicherheitsvorgaben für die Planung, den Bau und den Betrieb",
+      "claim_en": "The draft imports construction/operation safety and supervision, inspections and fine provisions nationwide.",
+      "claim_type": "draft_description",
+      "materiality": "high",
+      "policy_link": "Supports the proposed uniform architecture.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§2;§4; rationalephysical17–19"
+        },
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§§2–6,9,10,19"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Corresponding application imports the operating and inspection framework, while §4 establishes offence references for CO2 pipelines.",
+      "limits": "Nationwide legal uniformity does not prove identical actual administrative practice or faster approvals. Compared with archived draft internally dated 8 July; exact identity with authors' 7 July iteration is unproved.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-10",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Umwidmung",
+      "original_excerpt": "Umwidmung bestehender Leitungen in Betracht",
+      "claim_en": "Existing pipelines can in principle be repurposed for CO2 transport subject to suitability.",
+      "claim_type": "technical",
+      "materiality": "medium",
+      "policy_link": "Supports an explicit suitability inspection before repurposed service.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "scope1; TOC§11"
+        },
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "2025change point24, conversionAnnexB"
+        },
+        {
+          "source_id": "root-kspg",
+          "locator": "§4a(1) corresponding energy-law reuse provisions"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The independent standards explicitly address conversion/requalification of existing pipelines.",
+      "limits": "Does not prove any particular existing line suitable; author asks for a further safeguard.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-11",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Bundeseinheitliche Prüfverfahren",
+      "original_excerpt": "Transportleitungen sind per Definition grenzüberschreitend und durchlaufen mehrere Bundesländer",
+      "claim_en": "Transport pipelines by definition cross borders and traverse several German states.",
+      "claim_type": "legal_definition",
+      "materiality": "medium",
+      "policy_link": "Supports the claimed necessity of national harmonisation.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "root-kspg",
+          "locator": "§3number6and6a"
+        },
+        {
+          "source_id": "root-draft",
+          "locator": "§1; rationale§1"
+        }
+      ],
+      "result": "overstated",
+      "explanation": "The functional statutory definitions contain no requirement to cross a national or Land boundary. Cross-border networks are a plausible important use case, but the universal definition claim is inaccurate.",
+      "limits": "Read in strongest reasonable context as referring to major network projects, the sentence overgeneralises rather than invalidating the utility of nationwide safety rules. No intent inferred.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-12",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "Planungs- und Bauzeit",
+      "original_excerpt": "Planungs- und Bauzeiträume von mehreren Jahren",
+      "claim_en": "Large CO2 transport infrastructure commonly has multi-year planning/construction periods.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Supports urgency and permitting acceleration.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-porthos-schedule20260416",
+          "locator": "16April2026project announcement"
+        },
+        {
+          "source_id": "c-dnv-rpf104",
+          "locator": "design/construction/operation scope"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Porthos contemporaneously records construction from early2024 with startup now expected in second-half2027, confirming a concrete multi-year case before this response.",
+      "limits": "A project example supports plausibility, not a measured distribution for all pipeline sizes. Claims about every delay, jobs and investment behaviour remain forecast/general rationale.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-13",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "Europäische Anschlussfähigkeit",
+      "original_excerpt": "bislang keine harmonisierten technischen Standards für CO2-Pipelines existieren",
+      "claim_en": "No harmonised European CO2 pipeline technical standards yet exist.",
+      "claim_type": "technical_standard_status",
+      "materiality": "high",
+      "policy_link": "Supports EU standardisation and harmonisation.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-din27913",
+          "locator": "edition2026-07; ENISO27913:2025"
+        },
+        {
+          "source_id": "c-cen-workplan2026",
+          "locator": "CEN/TC474section"
+        },
+        {
+          "source_id": "c-eu-harmonised",
+          "locator": "definition of harmonised standard"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "European ENISO27913:2025 already existed and was nationally issued in July2026. However, a European standard is not necessarily a harmonised standard adopted under an EU-law request; source meaning may be the latter or complete common composition rules.",
+      "limits": "Do not equate EN adoption with EU legal harmonisation. No complete pre-August Commission mandate/OJ history authenticated; this is not accepted as a contradiction.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-14",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "Europäische Anschlussfähigkeit",
+      "original_excerpt": "orientieren sich bestehende und geplante Projekte an internationalen ISO-Normen",
+      "claim_en": "Existing/planned European projects use ISO27913 or project specifications.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Describes fragmentation as a burden on interoperable infrastructure.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-din27913",
+          "locator": "EN adoption and edition"
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction/scope"
+        },
+        {
+          "source_id": "c-cen-workplan2026",
+          "locator": "ongoing stream-quality standardisation"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "ISO27913 clearly exists and applies to the proposed projects, and further composition standardisation was ongoing. But applicability is not evidence of actual standards used across a defined project population.",
+      "limits": "No project-by-project specifications sample was authenticated. The claim is plausible, not contradicted.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-15",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        3
+      ],
+      "section": "EU-Initiative",
+      "original_excerpt": "angekündigte legislative Initiative der EU-Kommission",
+      "claim_en": "The Commission announced a CO2 transport-infrastructure/markets legislative initiative.",
+      "claim_type": "policy_status",
+      "materiality": "medium",
+      "policy_link": "Supports accelerating the announced European legislative effort.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-commission-initiative",
+          "locator": "6October2025consultationannouncement"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The Commission primary announcement explicitly describes the2026initiative and its legislative rationale.",
+      "limits": "Announcement is verified as of author date; later delivery or final contents not inferred.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-16",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        3
+      ],
+      "section": "CEN/TC474",
+      "original_excerpt": "im CEN/TC 474 in Arbeit befindlichen europäischen Normen",
+      "claim_en": "CEN/TC474 was working on European CCUS standards.",
+      "claim_type": "technical_standard_status",
+      "materiality": "medium",
+      "policy_link": "Supports building European consistency from ongoing norm development.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-cen-workplan2026",
+          "locator": "TC4742026work programme"
+        },
+        {
+          "source_id": "c-din18397-drafts",
+          "locator": "DINEN18397entry2026-08"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The standards body work programme and public draft list show continuing transport/stream-quality work before the response.",
+      "limits": "Webpages retrieved inOctober; edition/year labels establish relevant prior work.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-008-17",
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Nachhaltigkeitsaspekte",
+      "original_excerpt": "Ohne CCS und CCU ist Netto-Treibhausgasneutralität bis 2045 nicht erreichbar",
+      "claim_en": "The2022evaluation report proves that net GHG neutrality by2045 cannot be achieved without CCS/CCU.",
+      "claim_type": "research_interpretation",
+      "materiality": "high",
+      "policy_link": "Central assertion that the infrastructure is indispensable to climate targets.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-evaluation2022",
+          "locator": "printed20;101;104;114;133"
+        }
+      ],
+      "result": "overstated",
+      "explanation": "The report finds capture necessary in all six selected contemporary scenarios and strongly supports deploying it. That is scenario-based evidence, not a demonstration covering every possible2045pathway. The report also discusses natural-sink uncertainty and a2050no-CCS counterexample under optimistic assumptions.",
+      "limits": "The2050counterexample does not directly contradict2045 necessity. Result concerns the unqualified word belegt and scope of evidence; peer review required before any finding. This check assesses how the report supports the claim, not a proof about every feasible 2045 pathway; 2050 RESCUE pathways do not refute a 2045 claim.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-010-01",
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        2
+      ],
+      "section": "§2",
+      "original_excerpt": "die Bestimmungen der Gashochdruckleitungsverordnung",
+      "claim_en": "Draft §2 makes the GasHDrLtgV correspondingly applicable.",
+      "claim_type": "draft_description",
+      "materiality": "high",
+      "policy_link": "Basis for questions about adequacy of technical rules.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§2physical3"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The operative clause corresponds to the description.",
+      "limits": "Compared with archived draft internally dated 8 July; exact identity with authors' 7 July iteration is unproved.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-010-02",
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        2
+      ],
+      "section": "§2",
+      "original_excerpt": "Vermutungswirkung auf Einhaltung der Anforderungen",
+      "claim_en": "GasHDrLtgV §2 provides a presumption for DVGW-rule compliance.",
+      "claim_type": "legal",
+      "materiality": "high",
+      "policy_link": "Supports claim that precise CO2 rules matter in applying the ordinance.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§2(1)–(2)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§2(2) presumes construction/operation meet state of the art when DVGW rules are followed.",
+      "limits": "The phrasing is a compressed description; §2 also permits authorities to require more advanced successful practices.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-010-03",
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "§2 technische Regelwerke",
+      "original_excerpt": "originär für Gashochdruckleitungen",
+      "claim_en": "The traditional inherited gas-pipeline rules were developed for energetic gases and do not adequately/validly resolve all CO2-specific issues.",
+      "claim_type": "technical_adequacy",
+      "materiality": "high",
+      "policy_link": "Supports more specific DVGW rules at entry into force.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§1scope"
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction"
+        },
+        {
+          "source_id": "c-dvgw-c260",
+          "locator": "2022catalogue"
+        },
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "2025revisiondescription"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "ISO27913 independently confirms limitations of traditional gas/liquid standards. Conversely, CO2-specific DVGW C260/C463 and ENISO27913 existed. Existence and published content do not by themselves settle whether the relevant requirements are sufficiently differentiated and experimentally validated.",
+      "limits": "Do not convert an adequacy judgement into a denial that any CO2 rules exist. Full rule texts and an expert validation audit unavailable; no error established.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-010-04",
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        2
+      ],
+      "section": "§2 technische Fragestellungen",
+      "original_excerpt": "Besonderheiten von CO₂-Leitungen",
+      "claim_en": "Two-phase flows, CO2 pressure/material behaviour and stream purity/water are specific engineering issues.",
+      "claim_type": "technical",
+      "materiality": "high",
+      "policy_link": "Technical premise for requesting more detailed standards.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction; terms; TOC§§6–8"
+        },
+        {
+          "source_id": "c-doe-cslf2015",
+          "locator": "CO2transport§4.4.1.2–3"
+        },
+        {
+          "source_id": "c-zenodo-depressurization",
+          "locator": "experimentalmetadata"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Independent technical work and experimental data address these specific factors.",
+      "limits": "Does not establish the authors' claimed degree of remaining rule inadequacy, separately unresolved.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-010-05",
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        3
+      ],
+      "section": "§3(1)Nr3",
+      "original_excerpt": "geeignete technische oder organisatorische Maßnahmen",
+      "claim_en": "Draft §3(1)3 requires suitable measures in tight spaces/valleys/depressions without giving a criteria catalogue.",
+      "claim_type": "draft_description",
+      "materiality": "high",
+      "policy_link": "Supports explanatory implementation guidance.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(1)number3physical4; rationalephysical18"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The text states a general risk-minimisation duty without the proposed list of specific suitable measures.",
+      "limits": "The claimed risk of inconsistent implementation is prospective. Compared with archived draft internally dated 8 July; exact identity with authors' 7 July iteration is unproved.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-010-06",
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        4
+      ],
+      "section": "§3 neueNr4",
+      "original_excerpt": "Kohlendioxid reagiert intensiv mit auch geringen Wasseranteilen",
+      "claim_en": "CO2 with water can form carbonic acid and cause strong corrosion.",
+      "claim_type": "technical",
+      "materiality": "high",
+      "policy_link": "Supports periodic wall-thickness inspections.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-doe-cslf2015",
+          "locator": "CO2transport§4.4.1.2corrosion"
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction/internalcorrosion and TOC§6.7"
+        },
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "materialandwall-thicknessscope"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The core conditional hazard is independently supported: aqueous CO2 can be corrosive and water control is material to pipeline integrity.",
+      "limits": "The words intensiv and geringe are unquantified; low dissolved water does not universally cause severe corrosion. The author says can, not always; exact threshold depends on temperature, pressure, impurities and materials.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-010-07",
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        4
+      ],
+      "section": "§3 neueNr4",
+      "original_excerpt": "analog zur RohrFLtgV während des Betriebs",
+      "claim_en": "RohrFLtgV requires recurring external inspections during operation, ordinarily at least every two years.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Analogy for proposed recurring CO2 wall-thickness checks.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-rohrfltgv5",
+          "locator": "§5(1)number6 and finalsentence"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The rule requires inspections during operation at a minimum two-year interval, with low-hazard extension to three years possible.",
+      "limits": "RohrFLtgV does not thereby mandate the exact proposed wall-thickness programme; that is the author's new proposal.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-010-08",
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        4
+      ],
+      "section": "§3 neuerAbsatz",
+      "original_excerpt": "Wie in § 8 Abs. 3 der Rohrfernleitungsverordnung",
+      "claim_en": "RohrFLtgV §8 requires informing local emergency bodies and exercises within two years.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Analogy for proposed CO2 emergency planning duties.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-rohrfltgv8",
+          "locator": "§8(1)–(3)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "§8(3) requires information to municipalities, fire, police and assistance organisations; §8(2) sets maximum two-year exercise gaps.",
+      "limits": "The citation toparagraph3 supports the information duty; exercise rule isparagraph2. Broader formal involvement in plan drafting is not expressly required byparagraph3.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-010-09",
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "section": "§3(2)",
+      "original_excerpt": "Verzicht auf das automatische Druckabsenkungsgebot",
+      "claim_en": "Draft replaces the GasHDrLtgV emergency pressure-reduction rule with an immediate safe-state duty.",
+      "claim_type": "draft_description",
+      "materiality": "high",
+      "policy_link": "Supports tailored CO2 emergency response and examples.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(2)physical4"
+        },
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§7(1)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Draft excludes §7(1) and substitutes measures to remove danger and restore safe operation.",
+      "limits": "Compared with archived draft internally dated 8 July; exact identity with authors' 7 July iteration is unproved.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-010-10",
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        5
+      ],
+      "section": "§3(2)",
+      "original_excerpt": "Druckabsenkungen ... Zweiphasenströmungen hervorrufen",
+      "claim_en": "Depressurisation of CO2 pipelines can create two-phase flow and additional risks.",
+      "claim_type": "technical",
+      "materiality": "high",
+      "policy_link": "Supports avoiding an automatic depressurisation prescription.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-zenodo-depressurization",
+          "locator": "authors' datasetdescription and fourinitialstates"
+        },
+        {
+          "source_id": "c-doe-cslf2015",
+          "locator": "CO2transport§4.4.1.3"
+        },
+        {
+          "source_id": "c-depressurization-preprint",
+          "locator": "abstract p1; introduction p3–4; experimentalmethod and initialconditions"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Independent pipe-depressurisation experiments and technical analysis directly address flashing/two-phase phenomena.",
+      "limits": "Can does not mean that every depressurisation is unsafe; a controlled pressure release may be necessary.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-011-01",
+      "document_id": "bmwe-kltgv-2026-011",
+      "pdf_pages": [
+        2
+      ],
+      "section": "§2 Verweis",
+      "original_excerpt": "auf Vorschriften zu Errichtung und Betrieb beschränken",
+      "claim_en": "Draft §2 says construction and operation, whereas the rationale intends wider corresponding application.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Supports clarification of the extent of incorporation.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§2physical3; rationale§2physical17"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The exact construction/operation phrase and the broader intended use of the established ordinance are visible in the primary draft.",
+      "limits": "The conclusion that this is legally ambiguous is interpretation, not independently resolved as fact. Compared with archived draft internally dated 8 July; exact identity with authors' 7 July iteration is unproved.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-011-02",
+      "document_id": "bmwe-kltgv-2026-011",
+      "pdf_pages": [
+        2
+      ],
+      "section": "§2 bestehendeRegelwerke",
+      "original_excerpt": "Wesentliche Anforderungen ... werden dadurch bereits adressiert",
+      "claim_en": "Existing technical standards address CO2 composition, material selection, corrosion and pipeline integrity.",
+      "claim_type": "technical_standard_scope",
+      "materiality": "high",
+      "policy_link": "Supports using existing standards before adding bespoke requirements.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "2025contents/revisiondescription"
+        },
+        {
+          "source_id": "c-dvgw-c260",
+          "locator": "2022title"
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction/scope/TOC"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Independent standards publication records and scope statements cover these engineering topics.",
+      "limits": "Coverage of a topic is distinct from sufficiency or universal validation; full licensed texts not comprehensively audited.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-011-03",
+      "document_id": "bmwe-kltgv-2026-011",
+      "pdf_pages": [
+        2
+      ],
+      "section": "§2 Begleitstoffe",
+      "original_excerpt": "Stickoxide, Schwefeloxide und Sauerstoff",
+      "claim_en": "Water and NOx/SOx/O2 impurities can materially affect corrosion, materials and integrity.",
+      "claim_type": "technical",
+      "materiality": "high",
+      "policy_link": "Supports evidence-based stream-purity requirements.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-doe-cslf2015",
+          "locator": "CO2transport§4.4.1.2"
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction/qualityassurancescope"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The technical report discusses aqueous-phase corrosion and impurity effects; the standard explicitly treats stream quality as an integrity concern.",
+      "limits": "No single threshold applies to all mixtures; individual impurity contributions depend on the system.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-011-04",
+      "document_id": "bmwe-kltgv-2026-011",
+      "pdf_pages": [
+        2
+      ],
+      "section": "§2 Normen",
+      "original_excerpt": "DIN EN ISO 27913",
+      "claim_en": "DIN EN ISO27913 addresses CO2 pipeline transport design/construction/operation.",
+      "claim_type": "technical_standard_scope",
+      "materiality": "high",
+      "policy_link": "Supports considering this norm alongside DVGW references.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-din27913",
+          "locator": "title/edition2026-07"
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction/scope1"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The nationally adopted European norm existed inJuly2026 and its source ISO scope directly covers CO2 pipelines, including conversions.",
+      "limits": "Catalogue/preview establishes scope; no claim of mandated applicability.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-011-05",
+      "document_id": "bmwe-kltgv-2026-011",
+      "pdf_pages": [
+        2
+      ],
+      "section": "§2 Normen",
+      "original_excerpt": "sowie die DIN EN 18397",
+      "claim_en": "DIN EN18397 already addresses relevant CO2 pipeline requirements.",
+      "claim_type": "technical_standard_status",
+      "materiality": "medium",
+      "policy_link": "Supports considering additional norms for composition and integrity.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-din18397-drafts",
+          "locator": "DINEN18397entry2026-08"
+        },
+        {
+          "source_id": "c-evs-pren18397",
+          "locator": "draftstatusandscope"
+        }
+      ],
+      "result": "supported",
+      "explanation": "A German/English prEN18397 draft was issued inAugust2026, and its scope contains pipeline-composition/integrity requirements.",
+      "limits": "It is a draft, not a completed EN; its focus is composition/integrity rather than complete pipeline design. VNG proposes considering it and does not explicitly call it final, so no material factual error established.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-011-06",
+      "document_id": "bmwe-kltgv-2026-011",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "§2 Schadensmechanismen",
+      "original_excerpt": "running ductile fracture",
+      "claim_en": "CO2 pipeline conversion/design must consider running ductile fracture and brittle damage mechanisms.",
+      "claim_type": "technical",
+      "materiality": "high",
+      "policy_link": "Supports CO2-specific integrity assessment of reused lines.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction; TOC§8.1.6,§11andAnnexD"
+        },
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "revisionpoints15–17,24"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The independent standard identifies fracture arrest as a CO2-specific design issue and expressly covers requalification; published DVGW revisions address crack control.",
+      "limits": "No claim about a particular existing pipe's suitability assessed.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-011-07",
+      "document_id": "bmwe-kltgv-2026-011",
+      "pdf_pages": [
+        3
+      ],
+      "section": "§3(1)Nr1",
+      "original_excerpt": "Zusammenspiel von Druck, Temperatur und Medienzusammensetzung",
+      "claim_en": "CO2 phase state depends jointly on pressure, temperature and composition.",
+      "claim_type": "technical",
+      "materiality": "high",
+      "policy_link": "Supports defining thermodynamic safety envelopes rather than pressure alone.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "terms3.3,3.6–3.8"
+        },
+        {
+          "source_id": "c-zenodo-depressurization",
+          "locator": "pressure/temperaturetestmetadata"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The standard defines phase boundaries by composition and temperature/pressure, and independent experiments vary these initial conditions.",
+      "limits": "Whether the draft already sufficiently permits that engineering approach is a separate legal interpretation.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-011-08",
+      "document_id": "bmwe-kltgv-2026-011",
+      "pdf_pages": [
+        3
+      ],
+      "section": "§3(1)Nr1 Förderpause",
+      "original_excerpt": "nicht automatisch sicherheitskritisch",
+      "claim_en": "A phase transition during a pause is not necessarily unsafe in every system.",
+      "claim_type": "technical",
+      "materiality": "high",
+      "policy_link": "Supports a risk-based rather than absolute phase-transition requirement.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "flowassurancedefinition3.13; denseandgaseousscope"
+        },
+        {
+          "source_id": "c-doe-cslf2015",
+          "locator": "CO2transport§4.4.1.3"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Independent sources show phase behaviour and its consequences are system/state dependent, but do not directly establish an operational safe-standstill envelope for the specific proposed service.",
+      "limits": "The author proposes clarification, supplies no defined transition/pressure/temperature example; do not turn inability to validate a safe case into evidence that every transition is unsafe.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-011-09",
+      "document_id": "bmwe-kltgv-2026-011",
+      "pdf_pages": [
+        3
+      ],
+      "section": "§3(1)Nr2",
+      "original_excerpt": "Abweichung von der GasHDrLtgV",
+      "claim_en": "Draft single-failure redundancy goes beyond the literal GasHDrLtgV requirement.",
+      "claim_type": "draft_description",
+      "materiality": "high",
+      "policy_link": "Supports requesting a technical rationale and limiting additional obligations.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(1)number2"
+        },
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§3(4)finalsentence"
+        }
+      ],
+      "result": "supported",
+      "explanation": "GasHDrLtgV requires number/type adapted to operation and locality; draft adds another device performing the task upon failure.",
+      "limits": "Absence of explicit wording in the parent ordinance does not establish no redundancy duties in technical rules. Compared with archived draft internally dated 8 July; exact identity with authors' 7 July iteration is unproved.",
+      "check_completed": true
+    },
+    {
+      "id": "kltgv-011-10",
+      "document_id": "bmwe-kltgv-2026-011",
+      "pdf_pages": [
+        3
+      ],
+      "section": "§3(3) Meldepflicht",
+      "original_excerpt": "vorgesehene Ausweitung",
+      "claim_en": "Draft reporting expands beyond the GasHDrLtgV to every unlawful interference attempt.",
+      "claim_type": "draft_description",
+      "materiality": "high",
+      "policy_link": "Supports narrowing the duty to safety-relevant events.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary technical or legal evidence",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(3)physical4"
+        },
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§9(1)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The operative wording adds every unlawful attempt; the existing rule is framed around accidents/damage/dangers.",
+      "limits": "Whether purposive interpretation excludes minor non-safety cases is unresolved; VNG's burden/cost consequences are prospective. Compared with archived draft internally dated 8 July; exact identity with authors' 7 July iteration is unproved.",
+      "check_completed": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "c-iso27913-gso",
+      "url": "https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/iso-27913-2024-en.html",
+      "retrieved_at": "2026-10-25T08:52:50.959243+00:00",
+      "final_url": "https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/iso-27913-2024-en.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "local_file": "research/factual-pilot/sources/c-iso27913-gso.html",
+      "sha256": "4d5a7c989bf8530e75a5592655b5ae1e33e74c3b0c4c80b4db765db5fc0b11e0",
+      "bytes": 416644,
+      "title": "c-iso27913-gso",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-din27913",
+      "url": "https://www.dinmedia.de/de/norm/din-en-iso-27913/392763129",
+      "retrieved_at": "2026-10-25T08:52:50.959652+00:00",
+      "final_url": "https://www.dinmedia.de/de/norm/din-en-iso-27913/392763129",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "local_file": "research/factual-pilot/sources/c-din27913.html",
+      "sha256": "e663550d7e0d61487a31b8a52832120d4db021789245d02f4382fe1163d9e2c0",
+      "bytes": 182329,
+      "title": "c-din27913",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-din18397-drafts",
+      "url": "https://www.din.de/de/mitwirken/normenausschuesse/naw/entwuerfe/73380%21search-na?pageNum=0&state=H4sIAAAAAAAAAF2Ru27DMAxFf6XQ7CEp0MWbgxRBlsCo3anoQMuMrVgPl6IKuEH-vS4SP9TxHF4SpHQVEnqWLYjUBq0TcQaJ7EV6vSUCKnespwLYH1QN0mmMCrHwW6hIdbErGDj42JVIRtmHC76BCvdjykzzZSBCy3uCM0-udjKjFXUnWkE59DjjYC0Y3P7j5xV_g97GOFdbxT5HyqEZB75sEqHkY3ttqqYI1QUlH8iFfupwUoYeWDkLOip8BaTh3ktBo8d5fY9Ast051xmgLrZHG_PJMcamVKwX5f5e5UNk78Uh270-1eil-Bw9h3rIgcD4KcoENUYb3udlhLB8bkNoPOrxSpFubr_ogzOxFQIAAA",
+      "retrieved_at": "2026-10-25T08:52:50.959829+00:00",
+      "final_url": "https://www.din.de/de/mitwirken/normenausschuesse/naw/entwuerfe/73380%21search-na?pageNum=0&state=H4sIAAAAAAAAAF2Ru27DMAxFf6XQ7CEp0MWbgxRBlsCo3anoQMuMrVgPl6IKuEH-vS4SP9TxHF4SpHQVEnqWLYjUBq0TcQaJ7EV6vSUCKnespwLYH1QN0mmMCrHwW6hIdbErGDj42JVIRtmHC76BCvdjykzzZSBCy3uCM0-udjKjFXUnWkE59DjjYC0Y3P7j5xV_g97GOFdbxT5HyqEZB75sEqHkY3ttqqYI1QUlH8iFfupwUoYeWDkLOip8BaTh3ktBo8d5fY9Ast051xmgLrZHG_PJMcamVKwX5f5e5UNk78Uh270-1eil-Bw9h3rIgcD4KcoENUYb3udlhLB8bkNoPOrxSpFubr_ogzOxFQIAAA",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "local_file": "research/factual-pilot/sources/c-din18397-drafts.html",
+      "sha256": "fe39f71553e12f501b075b0d80aae21784e9cea7c24d3f46022f3822616a4b3d",
+      "bytes": 293651,
+      "title": "c-din18397-drafts",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-dvgw-c463",
+      "url": "https://shop.wvgw.de/C-463-Arbeitsblatt-06-2025/512247",
+      "retrieved_at": "2026-10-25T08:52:50.959998+00:00",
+      "final_url": "https://shop.wvgw.de/C-463-Arbeitsblatt-06-2025/512247",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "local_file": "research/factual-pilot/sources/c-dvgw-c463.html",
+      "sha256": "a0669f339e508a00fc4f3a9c457bc61d18d2716a34ddb8dc69471845eb5c522c",
+      "bytes": 519615,
+      "title": "c-dvgw-c463",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-dvgw-c260",
+      "url": "https://www.dinmedia.de/en/technical-rule/dvgw-c-260/354205870",
+      "retrieved_at": "2026-10-25T08:52:50.960138+00:00",
+      "final_url": "https://www.dinmedia.de/en/technical-rule/dvgw-c-260/354205870",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "local_file": "research/factual-pilot/sources/c-dvgw-c260.html",
+      "sha256": "15785d5ccd6bcb5c04e7658aa0e85c448575fa3d249db41e2beb7c7fb7486e93",
+      "bytes": 166885,
+      "title": "c-dvgw-c260",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-cen-workplan2026",
+      "url": "https://wp2026.cencenelec.eu/sectors-list/energy-and-utilities/",
+      "retrieved_at": "2026-10-25T08:52:52.681731+00:00",
+      "final_url": "https://wp2026.cencenelec.eu/sectors-list/energy-and-utilities/",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "local_file": "research/factual-pilot/sources/c-cen-workplan2026.html",
+      "sha256": "f33692b47e32e93ee5b7a33fded662b820835917bc7f5665d238d1eee0d35379",
+      "bytes": 85753,
+      "title": "c-cen-workplan2026",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-evaluation2022",
+      "url": "https://dserver.bundestag.de/btd/20/051/2005145.pdf",
+      "retrieved_at": "2026-10-25T08:52:53.017565+00:00",
+      "final_url": "https://dserver.bundestag.de/btd/20/051/2005145.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "local_file": "research/factual-pilot/sources/c-evaluation2022.pdf",
+      "sha256": "ec7044d05edc877db1850eaa516306a1401116ff03607c180cc0500748d1cf87",
+      "bytes": 4868072,
+      "title": "c-evaluation2022",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-rohrfltgv8",
+      "url": "https://www.gesetze-im-internet.de/rohrfltgv/__8.html",
+      "retrieved_at": "2026-10-25T08:52:53.193999+00:00",
+      "final_url": "https://www.gesetze-im-internet.de/rohrfltgv/__8.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "local_file": "research/factual-pilot/sources/c-rohrfltgv8.html",
+      "sha256": "8359005be4faedc0043edc64fc4ec8903ce6d27d661e5dcc54d0c027663e2b57",
+      "bytes": 4351,
+      "title": "c-rohrfltgv8",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-rohrfltgv5",
+      "url": "https://www.gesetze-im-internet.de/rohrfltgv/__5.html",
+      "retrieved_at": "2026-10-25T08:52:53.205897+00:00",
+      "final_url": "https://www.gesetze-im-internet.de/rohrfltgv/__5.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "local_file": "research/factual-pilot/sources/c-rohrfltgv5.html",
+      "sha256": "7fa000f02aca682934bea093010c54ba3bdc694f8cbba3dac3c080114dfb10ef",
+      "bytes": 6693,
+      "title": "c-rohrfltgv5",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-commission-initiative",
+      "url": "https://energy.ec.europa.eu/news/commission-launches-public-consultation-co2-markets-and-infrastructure-2025-10-06_en",
+      "retrieved_at": "2026-10-25T08:52:54.119077+00:00",
+      "final_url": "https://energy.ec.europa.eu/news/commission-launches-public-consultation-co2-markets-and-infrastructure-2025-10-06_en",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "local_file": "research/factual-pilot/sources/c-commission-initiative.html",
+      "sha256": "3d93086c1fcd7c17a5f5f911de81e4fb63285ef5a2124ddaae454ce4215339f9",
+      "bytes": 92863,
+      "title": "c-commission-initiative",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-porthos-schedule20260416",
+      "url": "https://www.porthosco2.nl/en/schedule-for-the-porthos-co%E2%82%82-transport-and-storage-project-revised/",
+      "retrieved_at": "2026-10-25T08:52:54.128505+00:00",
+      "final_url": "https://www.porthosco2.nl/en/schedule-for-the-porthos-co%E2%82%82-transport-and-storage-project-revised/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "local_file": "research/factual-pilot/sources/c-porthos-schedule20260416.html",
+      "sha256": "1870359db15bf5347d8a2d73ccbffe51ae3bbb76c251471dbe5ffaaa96d8c8a0",
+      "bytes": 58311,
+      "title": "c-porthos-schedule20260416",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-dnv-rpf104",
+      "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-f104-design-and-operation-of-carbon-dioxide-pipelines/",
+      "retrieved_at": "2026-10-25T08:52:55.536683+00:00",
+      "final_url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-f104-design-and-operation-of-carbon-dioxide-pipelines/",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "local_file": "research/factual-pilot/sources/c-dnv-rpf104.html",
+      "sha256": "d0d6362c5a56fce301d9eb25df5ba09ecda6982b49f3a178c04a6dba1a0e84b4",
+      "bytes": 234704,
+      "title": "c-dnv-rpf104",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-ife-water-paper",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1876610211004152",
+      "retrieved_at": "2026-10-25T08:52:55.789425+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "title": "c-ife-water-paper",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Access attempt only; not usable evidence."
+    },
+    {
+      "id": "c-usgs-co2",
+      "url": "https://www.usgs.gov/programs/VHP/volcanic-gases-can-be-harmful-health-vegetation-and-infrastructure",
+      "retrieved_at": "2026-10-25T08:52:55.975503+00:00",
+      "final_url": "https://www.usgs.gov/programs/VHP/volcanic-gases-can-be-harmful-health-vegetation-and-infrastructure",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "local_file": "research/factual-pilot/sources/c-usgs-co2.html",
+      "sha256": "1b8bb461f589dce045e87ee6cedcbcdf59f606a37b9866925bb1a83a7daae3b0",
+      "bytes": 124986,
+      "title": "c-usgs-co2",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-iso27913-official",
+      "url": "https://www.iso.org/cms/live/live/en/sites/isoorg/contents/data/standard/08/48/84840.html?browse=tc",
+      "retrieved_at": "2026-10-25T08:52:56.043212+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "title": "c-iso27913-official",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Access attempt only; not usable evidence."
+    },
+    {
+      "id": "c-evs-pren18397",
+      "url": "https://www.evs.ee/en/pren-18397",
+      "retrieved_at": "2026-10-25T08:52:56.090550+00:00",
+      "final_url": "https://www.evs.ee/en/pren-18397",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "local_file": "research/factual-pilot/sources/c-evs-pren18397.html",
+      "sha256": "60b9b940c797ef663d34cf704a03838eb0e117b504503b53475e3ce00e0e86da",
+      "bytes": 42312,
+      "title": "c-evs-pren18397",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-sintef-depressurization2024",
+      "url": "https://sintef.brage.unit.no/sintef-xmlui/bitstream/handle/11250/3103647/Log2023doc_VoR.pdf?sequence=1",
+      "retrieved_at": "2026-10-25T08:54:16.055108+00:00",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "title": "c-sintef-depressurization2024",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Access attempt only; not usable evidence."
+    },
+    {
+      "id": "c-zenodo-depressurization",
+      "url": "https://zenodo.org/records/7669536",
+      "retrieved_at": "2026-10-25T08:54:16.055501+00:00",
+      "final_url": "https://zenodo.org/records/7669536",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "local_file": "research/factual-pilot/sources/c-zenodo-depressurization.html",
+      "sha256": "d286e5406c22ef54166b090402f75141b4aea57ae5ef5078b6f78fcfefbf6fc8",
+      "bytes": 98875,
+      "title": "c-zenodo-depressurization",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-ife-water-paper-researchgate",
+      "url": "https://www.researchgate.net/publication/251711981_Corrosion_of_transport_pipelines_for_CO_2-Effect_of_water_ingress",
+      "retrieved_at": "2026-10-25T08:54:16.055676+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "title": "c-ife-water-paper-researchgate",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Access attempt only; not usable evidence."
+    },
+    {
+      "id": "c-doe-cslf2015",
+      "url": "https://hgeo.energy.gov/archives/cslf/sites/default/files/documents/riyadh2015/RiyadhMeetingDocumentsBook1115.pdf",
+      "retrieved_at": "2026-10-25T08:54:16.055820+00:00",
+      "final_url": "https://hgeo.energy.gov/archives/cslf/sites/default/files/documents/riyadh2015/RiyadhMeetingDocumentsBook1115.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "local_file": "research/factual-pilot/sources/c-doe-cslf2015.pdf",
+      "sha256": "3c35b9c1dce05c673b7d7da8fe47adecd6bddaf90b32ea7c2556525a4dc683f1",
+      "bytes": 12027215,
+      "title": "c-doe-cslf2015",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-dvgw-c260-shop",
+      "url": "https://shop.wvgw.de/C-260-Arbeitsblatt-04-2022/511255",
+      "retrieved_at": "2026-10-25T08:54:16.074857+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "title": "c-dvgw-c260-shop",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Access attempt only; not usable evidence."
+    },
+    {
+      "id": "c-pren18397-din",
+      "url": "https://www.din.de/de/mitwirken/normenausschuesse/naw/entwuerfe/73380%21search-na?state=H4sIAAAAAAAAAF2Ru27DMAxFf6XQ7CEp0MWbgxRBlsCo3anoQMuMrVgPl6IKuEH-vS4SP9TxHF4SpHQVEnqWLYjUBq0TcQaJ7EV6vSUCKnespwLYH1QN0mmMCrHwW6hIdbErGDj42JVIRtmHC76BCvdjykzzZSBCy3uCM0-udjKjFXUnWkE59DjjYC0Y3P7j5xV_g97GOFdbxT5HyqEZB75sEqHkY3ttqqYI1QUlH8iFfupwUoYeWDkLOip8BaTh3ktBo8d5fY9Ast051xmgLrZHG_PJMcamVKwX5f5e5UNk78Uh270-1eil-Bw9h3rIgcD4KcoENUYb3udlhLB8bkNoPOrxSpFubr_ogzOxFQIAAA",
+      "retrieved_at": "2026-10-25T08:54:16.106029+00:00",
+      "final_url": "https://www.din.de/de/mitwirken/normenausschuesse/naw/entwuerfe/73380%21search-na?state=H4sIAAAAAAAAAF2Ru27DMAxFf6XQ7CEp0MWbgxRBlsCo3anoQMuMrVgPl6IKuEH-vS4SP9TxHF4SpHQVEnqWLYjUBq0TcQaJ7EV6vSUCKnespwLYH1QN0mmMCrHwW6hIdbErGDj42JVIRtmHC76BCvdjykzzZSBCy3uCM0-udjKjFXUnWkE59DjjYC0Y3P7j5xV_g97GOFdbxT5HyqEZB75sEqHkY3ttqqYI1QUlH8iFfupwUoYeWDkLOip8BaTh3ktBo8d5fY9Ast051xmgLrZHG_PJMcamVKwX5f5e5UNk78Uh270-1eil-Bw9h3rIgcD4KcoENUYb3udlhLB8bkNoPOrxSpFubr_ogzOxFQIAAA",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "local_file": "research/factual-pilot/sources/c-pren18397-din.html",
+      "sha256": "b8375e94c3816144cb90a914178022a2fab40f03c9bbbd2673afe582130f3c1c",
+      "bytes": 293651,
+      "title": "c-pren18397-din",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-depressurization-preprint",
+      "url": "https://zenodo.org/records/7669536/files/depress_hrm_preprint.pdf?download=1",
+      "retrieved_at": "2026-10-25T08:54:54.483805+00:00",
+      "final_url": "https://zenodo.org/records/7669536/files/depress_hrm_preprint.pdf?download=1",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "local_file": "research/factual-pilot/sources/c-depressurization-preprint.pdf",
+      "sha256": "6e03f9dd5b383c3031e2e8543776e0bdc57a5b3190569e79d4a3726a41f3a3df",
+      "bytes": 4528653,
+      "title": "c-depressurization-preprint",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "c-eu-harmonised",
+      "url": "https://single-market-economy.ec.europa.eu/single-market/goods/european-standards/harmonised-standards_en",
+      "retrieved_at": "2026-10-25T08:55:06.521407+00:00",
+      "final_url": "https://single-market-economy.ec.europa.eu/single-market/goods/european-standards/harmonised-standards_en",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "local_file": "research/factual-pilot/sources/c-eu-harmonised.html",
+      "sha256": "7ec37cef8abc21d20dcae7b4e98abbdcd12eed5631a55d746c329df8e00ec89f",
+      "bytes": 104947,
+      "title": "c-eu-harmonised",
+      "temporal_limit": "Retrieved25October2026; publication/edition or contemporaneous article date must establish pre-author relevance. Current webpage is not a frozen August snapshot."
+    },
+    {
+      "id": "root-kspg",
+      "title": "KSpTG official consolidated text; last amendment25November2025",
+      "url": "https://www.gesetze-im-internet.de/kspg/BJNR172610012.html",
+      "resolved_url": "https://www.gesetze-im-internet.de/kspg/BJNR172610012.html",
+      "retrieved_at": "2026-10-25T08:50:59.665298+00:00",
+      "local_file": "research/factual-pilot/sources/root-kspg.html",
+      "sha256": "17be2c3c647ee3d5d2938b79c2269b44a7c01afdebbf325a3488f0524b9da5a9",
+      "temporal_limit": "Current official text reports last amendment25November2025, predating the authors. Retrieval is not a frozen August snapshot."
+    },
+    {
+      "id": "root-enwg49",
+      "title": "root-enwg49",
+      "url": "https://www.gesetze-im-internet.de/enwg_2005/__49.html",
+      "resolved_url": "https://www.gesetze-im-internet.de/enwg_2005/__49.html",
+      "retrieved_at": "2026-10-25T08:51:01.517361+00:00",
+      "local_file": "research/factual-pilot/sources/root-enwg49.html",
+      "sha256": "a6314d1e43c6dd6beceb51f504fcf73593b8e8cfe795bb48d86612f1a67d1f2d",
+      "temporal_limit": "Current consolidated single section; no authenticated August2026 edition. Cross-check the draft and KSpTG dated reference; do not use a later change as historical contradiction."
+    },
+    {
+      "id": "root-gashdrltgv",
+      "title": "GasHDrLtgV official consolidated text; last amendment13May2019",
+      "url": "https://www.gesetze-im-internet.de/gashdrltgv_2011/BJNR092800011.html",
+      "retrieved_at": "2026-10-25T08:51:41.476761+00:00",
+      "local_file": "research/factual-pilot/sources/root-gashdrltgv.html",
+      "sha256": "0e29aef7cb33f21afc7df3076a1b1f9fa626b7c3ba770acbd448b74af83bbb24",
+      "temporal_limit": "Official current text reports last amendment13May2019, predating all seven submissions. Not independently frozen July2026 bytes."
+    },
+    {
+      "id": "root-draft",
+      "title": "KLtgV official ministry draft, internal8July2026 09:33",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/Gesetz/2026/20260818-renentwurf-kohlendioxidleitungsverordnung.pdf?__blob=publicationFile&v=6",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round3-energy/sources/kltgv-refe-official.pdf",
+      "sha256": "927255e40b4443c789705a93d3440cd4dbfbb81a5c09f8e3214246082a4c30cf",
+      "temporal_limit": "VDMA and TÜV identify July7draft; no byte identity with an independently archived July7iteration. BDEW identifies July8. No draft difference is inferred solely from this date variation."
+    }
+  ],
+  "exclusions": [
+    {
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        1
+      ],
+      "excluded": "Routiniert angewendet; spart Zeit und senkt Umsetzungskosten; technical additions are sachgerecht; proposed coverage of transient states and all phases.",
+      "reason": "Broad experiential assertions without a measurable denominator, qualitative appraisal and proposed requirements; operative/technical factual premises inventoried separately."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        2
+      ],
+      "excluded": "Planbarkeit/Investitionssicherheit, public trust, every delay postpones investments, urgency of FIDs, staffing/deadlines recommendations; analogous application legally uncertain.",
+      "reason": "Predicted economic effects, normative urgency or legal-risk judgement, not established measured outcomes. Multi-year construction premise inventoried."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "excluded": "Fragmentation raises planning burden and regulatory uncertainty; economic competitiveness, value chains and jobs; future EU standards and improved interoperability.",
+      "reason": "Unquantified causal forecasts/policy rationale without project population or method. Standardisation status and announcement inventoried; no absence-of-evidence error."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-008",
+      "pdf_pages": [
+        3
+      ],
+      "excluded": "Summary repeats and demand for prompt adoption and better permitting.",
+      "reason": "Normative conclusions/repetitions merged into the corresponding claims; author contact/registration incidental."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        1
+      ],
+      "excluded": "Welcome for ordinance; similar hazard potentials; predictions of reduced bureaucracy, uniform enforcement and fast infrastructure buildout.",
+      "reason": "Qualitative comparison and prospective outcomes rather than specific measured factual claims. The described national architecture is inventoried."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "excluded": "Recommendations for CO2-specific rules and a criteria catalogue; fear of differing Land interpretations.",
+      "reason": "Proposals and prospective administrative risk; rule status/adequacy and operative wording retained as claims."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "excluded": "Red proposed wall-inspection duty every two years and emergency-information/exercise provisions; recommendation for examples of safe-state action.",
+      "reason": "Visual check confirms red text is proposed text, not a claim that draft/current law already requires it. Supporting technical/analogy premises inventoried."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        6
+      ],
+      "excluded": "Organisation mission, contact and publishing details.",
+      "reason": "Low-priority self-description unrelated to material safety/cost/feasibility argument."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-011",
+      "pdf_pages": [
+        1
+      ],
+      "excluded": "Cover and lobby-register declaration.",
+      "reason": "Administrative metadata, low materiality."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-011",
+      "pdf_pages": [
+        2
+      ],
+      "excluded": "Need for practical/proportionate rules; questions about works/transport lines, low pressure/short lines and offshore scope; request to clarify §2.",
+      "reason": "Hedged proposals and interpretive questions, not categorical denial of exceptions or offshore coverage. Exact§2description inventoried; no transformation into false factual claim."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-011",
+      "pdf_pages": [
+        3
+      ],
+      "excluded": "Redundancy can significantly raise costs; conditional international competition effects; terms not sufficiently definite; additional reporting rationale insufficient; fine scope ambiguous.",
+      "reason": "Conditional forecasts, sufficiency/clarity judgements and proposals. No numeric cost model or actual foreign-law assertion supplied. Literal differences from GasHDrLtgV inventoried."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-011",
+      "pdf_pages": [
+        4
+      ],
+      "excluded": "More than20companies and about1900staff; corporate mission and role.",
+      "reason": "Low-priority corporate self-description, not a material premise of the requested rule changes. No full-claim completeness asserted outside the pilot materiality rule."
+    }
+  ],
+  "page_audit": [
+    {
+      "document_id": "bmwe-kltgv-2026-008",
+      "physical_pages": [
+        1,
+        2,
+        3
+      ],
+      "full_text_read": true,
+      "visual_checks": []
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-010",
+      "physical_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "full_text_read": true,
+      "visual_checks": [
+        4
+      ]
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-011",
+      "physical_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "full_text_read": true,
+      "visual_checks": [
+        2
+      ]
+    }
+  ],
+  "read_notes": "All13physical author pages read before prior dispositions; original red proposal/current text distinction visually checked for TÜV4 and VNG2. No main-data edits. Research covers cited and uncited material premises, with negatives/unresolved preserved. Experimental preprint abstract/introduction and relevant report CO2transport§4.4.1.2–3 independently read. Technical sources retained with access limits.",
+  "potential_findings": [
+    "kltgv-008-11",
+    "kltgv-008-17"
+  ],
+  "main_admission": "None: candidates require independent review/materiality adjudication. No unsupported/uncertain assertion is counted as false.",
+  "stats": {
+    "documents": 3,
+    "physical_pages": 13,
+    "claims": 37,
+    "results": {
+      "supported": 30,
+      "contradicted": 0,
+      "overstated": 2,
+      "unresolved": 5,
+      "not_checked": 0
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "note": "Hashes acknowledged from independent researchers before scheduled counterpart review. Raw files remain immutable; substantive revisions go to root adjudication.",
+  "snapshots": [
+    {
+      "batch": "driving-2026",
+      "researcher": "b",
+      "file": "research/factual-checks/driving-2026/agents/claims-b.json",
+      "sha256": "b5643bfedb62882bc01995f91f8fc43145465904b0109a82841f7c322973c508",
+      "claims": 34,
+      "agent_completed_at_utc": "2026-10-25T11:04:05.559557+00:00"
+    },
+    {
+      "batch": "driving-2026",
+      "researcher": "c",
+      "file": "research/factual-checks/driving-2026/agents/claims-c.json",
+      "sha256": "d572742305298c6b45218355dc524bc8d50f26443b267ccebf8e9a2579e1ade4",
+      "claims": 42,
+      "agent_completed_at_utc": null
+    },
+    {
+      "batch": "driving-2026",
+      "researcher": "a",
+      "file": "research/factual-checks/driving-2026/agents/claims-a.json",
+      "sha256": "59cccba326f68b8e5cc6f9e5870e224e1f1db0d828df56eeffa274d35b583616",
+      "claims": 44,
+      "agent_completed_at_utc": null
+    },
+    {
+      "batch": "fruehstart-2026",
+      "researcher": "b",
+      "file": "research/factual-checks/fruehstart-2026/agents/claims-b.json",
+      "sha256": "10302346e1404781e7a307d7a8d124d6e7cc45f3201c7dbd1b10984b041f1f6e",
+      "claims": 49,
+      "agent_completed_at_utc": "2026-10-25T11:10:03.727320+00:00"
+    },
+    {
+      "batch": "fruehstart-2026",
+      "researcher": "c",
+      "file": "research/factual-checks/fruehstart-2026/agents/claims-c.json",
+      "sha256": "5ddd9106eed62e461a99fd154a99b1af0522ad86b2015dfd9e2ae3f0e6b44554",
+      "claims": 50,
+      "agent_completed_at_utc": null,
+      "superseded_unconfirmed_observation_sha256": "be01191237a5ba369c91f748dcb64e8d806845d734e144086168318de778b6cb",
+      "note": "Root first observed this file before agent freeze confirmation; the earlier observation was not a frozen inventory. Confirmed freeze is the agent-reported5ddd hash, before counterpart review."
+    },
+    {
+      "batch": "biostoffv-2026",
+      "researcher": "c",
+      "file": "research/factual-checks/biostoffv-2026/agents/claims-c.json",
+      "sha256": "a544e22b0a180eb809194c1e3a09a6b87c13673628c8f967a4fc6149a5b7b644",
+      "claims": 41,
+      "agent_completed_at_utc": null
+    },
+    {
+      "batch": "biostoffv-2026",
+      "researcher": "b",
+      "file": "research/factual-checks/biostoffv-2026/agents/claims-b.json",
+      "sha256": "3e88b8ec4c8b23f005aa3b1c91bc4bf70219217f5762fcf748c6b90032c986d4",
+      "claims": 32,
+      "agent_completed_at_utc": "2026-10-25T11:15:02.181118+00:00"
+    },
+    {
+      "batch": "fruehstart-2026",
+      "researcher": "a",
+      "file": "research/factual-checks/fruehstart-2026/agents/claims-a.json",
+      "sha256": "e5b3656339ade07d2b5f801313024b109a4c2b312e76aef8bc0ebcd5a2fd6b95",
+      "claims": 41,
+      "agent_completed_at_utc": null
+    },
+    {
+      "batch": "biostoffv-2026",
+      "researcher": "a",
+      "file": "research/factual-checks/biostoffv-2026/agents/claims-a.json",
+      "sha256": "b4f2701d6cbe84ae148f50f7f033f6fc018e4053edab70018b30bbfa52721f91",
+      "claims": 57,
+      "agent_completed_at_utc": null
+    }
+  ]
+}

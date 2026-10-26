@@ -1,0 +1,105 @@
+{
+  "as_of_utc": "2026-10-25T04:56:18.136862+00:00",
+  "branch": "social/health/labour/family/science round3",
+  "substantive_case_disposition": {
+    "provisional_findings": [
+      "biostoffv2026-dgaum-liebers-social-r3-09",
+      "biostoffv2026-dgaum-citation-social-r3-07",
+      "biostoffv2026-dgaum-sinclair-social-r3-08"
+    ],
+    "unresolved_leads": [
+      "ferns2026-qgkoeln-federal-social-r3-04",
+      "ferns2026-wuppertaler-postal-social-r3-06",
+      "ferns2026-bdue-fees-social-r3-05",
+      "impfpflicht2022-aefi-social-r3-01",
+      "hochschul2026-bdp-ects-social-r3-03",
+      "beschv9-2026-zdh-population-social-r3-02"
+    ],
+    "provisional_severity": "Three minor bibliographic identity errors, all direction null, in one DGAUM response. No new major provisional finding.",
+    "all_cases_status": "ai_screened",
+    "actual_independent_reviews_linked": true,
+    "specialist_reviews": null,
+    "author_responses": []
+  },
+  "actual_reading": {
+    "full_submission_reads": 81,
+    "within_current_window_full_submission_versions": 76,
+    "historical_full_submission_versions_finished": 2,
+    "current_window_full_read_pages": 285,
+    "date_unverified_full_submission_versions": 3,
+    "date_unverified_full_read_pages": 5,
+    "current_window_basis": "Authored date/month and/or self-reported recipient delivery inside interval; exact delivery not independently verified for everyrow. One undatedHochschulkanzlerpaper admitted by reported31Julyrecipientdate with draft-versiongate.",
+    "authored_version_kinds": {
+      "written_submission": 78,
+      "public_statement": 3
+    }
+  },
+  "reading_ledger": "research/round3-social/pool-audit.json",
+  "reading_log": "research/round3-social/research-log.json",
+  "all_channel_coverage_state": "NOT_COMPLETE",
+  "coverage_snapshot": "research/round3-social/coverage-closure-snapshot.json",
+  "bounded_reading_protocols": [
+    {
+      "path": "research/round3-social/coverage-rsv-proof.json",
+      "known_versions": 8,
+      "independent_review": "research/round3-reviews/root-reviews-rsv-coverage.json"
+    },
+    {
+      "path": "research/round3-social/coverage-ferns-proof.json",
+      "known_versions": 35,
+      "independent_review": "research/round3-reviews/energy-reviews-social-ferns-coverage.json"
+    },
+    {
+      "path": "research/round3-social/coverage-biostoff-proof.json",
+      "known_ministry_versions": 9,
+      "independent_review": "research/round3-reviews/energy-reviews-social-biostoff-census.json"
+    }
+  ],
+  "census_counts": {
+    "BMG_process_pages": 220,
+    "BMAS_process_pages": 396,
+    "BMAS_http200": 395,
+    "family_process_pages": 65,
+    "BMFTR_authoritative_index": "access gap",
+    "committee_entries": {
+      "health": 26,
+      "labour": 13,
+      "family": 15,
+      "research": 15
+    },
+    "potential_window_PDFs_collected_not_blanket_reviewed": 394,
+    "collected_PDFs_with_actual_full_read_rows": 62,
+    "metadata_only_family_committee_response_PDFs_checked": 9,
+    "selected_date_role_metadata_page_fragments": 19
+  },
+  "unclosed_gates": [
+    "BMFTR authoritative process/consultation index unavailable; alternate public-web retry403 and no ordinary browser surface.",
+    "Exact August17Fernunterricht consultation draft unavailable; current ministry resource is October5revision.",
+    "Exact August24/31BioStoffV dispatch file unavailable; current ministry PDF undated with technicalOctober2metadata.",
+    "Complete July25–October24submission-date universe not established across ministries, committees and Lobbyregister.",
+    "Some authored dates and self-reported recipient events remain distinct from independently verified receipt; unknown-date versions retained.",
+    "DRV/DGUV/G-BA/IQWiG/GKV-SV public-function actor boundary explicitly pending external-denominator adjudication."
+  ],
+  "pool_audits": [
+    "research/round3-reviews/social-reviews-merged-pool.json",
+    "research/round3-reviews/social-reviews-rental-pool-reconciliation.json"
+  ],
+  "source_registry": "research/round3-social/sources.json",
+  "assembly_manifest": "research/round3/assembly-manifest.json",
+  "scope_notes": [
+    "All external written stakeholders allowed; registration separately tagged.",
+    "Three DGAUM issues count one affected authored document.",
+    "No census archive, primary paper, draft, metadata-only OCR or repeated cross-review counts as a new screened submission.",
+    "Wuppertaler foreign-provider scope branch retained as a non-promoted negative audit after primary regulator guideline and independent challenge."
+  ],
+  "additional_metadata_audit": "research/round3-social/coverage-family-hearing-date-role-audit.json",
+  "global_crosswalk_independent_audit": "research/round3-reviews/social-reviews-global-register-crosswalk.json",
+  "global_crosswalk_audit_result": {
+    "binary_register_rows_reverified": 25,
+    "text_candidate_groups_verified": 58,
+    "candidate_PDF_paths_freshly_reextracted": 135,
+    "local_pdf_discovery_gap": "Identified by social audit, corrected by root, corrected rerun independently verified.",
+    "reading_or_eligibility_admission": false
+  },
+  "raw_record_preservation": "Final raw JSON files contain subsequent independent-review links, quote-budget corrections and draft-locator fixes. Exploratory write_* scripts are historical working aids and must not be rerun to overwrite final records."
+}

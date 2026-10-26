@@ -1,0 +1,122 @@
+{
+  "id": "fruehstart2026-dai-doubletax-tax-r6-01",
+  "law_id": "fruehstartrentengesetz-2026",
+  "document_id": "dai-fruehstart-20260731",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "major",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "A public pension starting balance for children, with optional privately financed top-ups.",
+    "they_want": "Additional tax support for private top-ups, drawing on foreign junior-investment schemes.",
+    "they_claim": "Private contributions from net income are taxed again at payout, making those contributions doubly taxed.",
+    "the_problem": "The addressed draft distinguishes unfunded private contributions from the state-funded balance. Its memorandum expressly retains taxation of the income component for unfunded contributions, rather than taxing the contributed principal again."
+  },
+  "claim_quote": {
+    "original": "die Beiträge Dritter doppelt besteuert",
+    "language": "de",
+    "translation_en": "Translation of claim fragment: third-party contributions are taxed twice.",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": 4,
+      "section": "Attraktive steuerliche Förderung für Zusatzbeiträge",
+      "paragraph": "Paragraph beginning Laut dem Referentenentwurf; sentence linking net-income contributions and payout taxation."
+    },
+    "underline": "doppelt besteuert"
+  },
+  "request_quote": {
+    "original": "steuerliche Förderung",
+    "language": "de",
+    "translation_en": "Translation of request fragment: tax support.",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": 4,
+      "section": "Attraktive steuerliche Förderung für Zusatzbeiträge",
+      "paragraph": "Last sentence requests support oriented towards the preceding French, British and US examples."
+    }
+  },
+  "counter_quote": {
+    "original": "Grundsätzlich erfolgt eine Ertragsanteilsbesteuerung.",
+    "language": "de",
+    "translation_en": "Translation: As a rule, taxation of the income component applies.",
+    "source_id": "fruehstart-refe-20260721-mirror",
+    "locator": {
+      "pdf_page": 61,
+      "printed_page": 61,
+      "section": "Memorandum on Article 2, amendment of section 22 number 5 EStG; paragraph on payments based on unfunded contributions."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The July consultation draft does not put all private top-ups in the fully taxed state-funded category. Proposed section 29(2) distinguishes the state-funded balance from private contributions and permits private tax support only under the existing conditions of section 10a or Chapter XI EStG. Article 2 extends section 22 number 5 sentence 1 to the state-funded Frühstartrente; it retains sentence 2 for payments based on unfunded contributions. The memorandum explicitly requires allocation where funded and unfunded contributions coexist. Depending on the payout form, sentence 2 taxes the annuity income share or the difference between the payment and the contributions, with further cross-references. It therefore does not automatically tax the unfunded contributed principal again.",
+  "effect": "Removing a supposed second tax on private principal weakens this specific rationale for additional contribution tax support. A policy case for deductions, higher grants or tax-free investment returns may still exist.",
+  "limits": "No future individual tax liability, tax rate or effective return is calculated. Parents genuinely cannot deduct their contributions under this draft, and subsequent investment income can still be taxed. State grants and the returns attributable to them are a different, funded category. The finding does not establish that the proposed tax support is undesirable or that foreign schemes are comparable in all respects. It infers no intent.",
+  "context_and_alternatives": [
+    "All six author pages were read. The paragraph first identifies private top-ups of EUR 6,840 per year, their financing from net salary and the absence of a deduction. It then expressly says those third-party contributions are taxed both during contribution and payout, before requesting foreign-model tax support.",
+    "A strong benign reading is economic shorthand: earnings used for investment have already borne income tax, and subsequent returns also face tax. That describes a tax disadvantage without a second tax on principal. However, the explicit link between the contributions themselves and both phases makes the narrower principal-versus-return distinction relevant.",
+    "The taxpayer may be a parent during contribution and the child during payout. That does not turn taxation of investment returns into full taxation of the same unfunded principal; no family-level double-tax calculation is asserted here.",
+    "The memorandum initially describes deferred taxation in general terms, which could explain the author wording. Its following paragraphs expressly distinguish funded and unfunded contributions and apportion mixed accounts.",
+    "The consultation text is the archived 21 July 2026, 15:48 version, obtained from a university-maintained mirror. The author dated 31 July expressly addresses a Referentenentwurf and reproduces its EUR 6,840 limit and age-25 fallback, distinguishing it from the later government version. No author-transmitted draft copy or byte-identical official ministry download is claimed. The BMF landing page returned HTTP 503 in this round.",
+    "The live official section 22 number 5 was independently checked on 25 October. It corroborates the incorporated baseline rule but is not represented as a frozen July webpage or as the future enacted Frühstart law.",
+    "A later related government-stage statement, dated 26 August 2026 and separately registered as SG2608260005, repeats the claim and explicitly contrasts ordinary securities saving, which taxes returns, with purported taxation of the full payout here. All six later pages were read. This strengthens the interpretation of the ongoing argument as concerning principal, but does not replace the July text, supply a response to this screening, or establish intent."
+  ],
+  "materiality_explanation": "Major, provisionally: full second taxation of contributed principal would be substantially more restrictive than taxation confined to investment income, and this is the central factual premise in the dedicated tax-support subsection. The record concerns that premise, not all four policy requests in the submission; independent review may reassess severity.",
+  "direction_explanation": "True narrowly: portraying private principal as fully taxed again makes the proposed top-up arrangement appear less attractive and supports the explicit request for additional tax support. Direction is separate from the editorial materiality assessment.",
+  "confidence": {
+    "text_source_mismatch": "high for unfunded principal versus the expressly retained income-component rules; interpretation of the author shorthand is the main qualification",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "source_id": "fruehstart-refe-20260721-mirror",
+    "title": "Referentenentwurf eines Gesetzes zur Einführung einer Frühstartrente",
+    "version": "Bearbeitungsstand 21.07.2026 15:48",
+    "version_date": "2026-07-21",
+    "relevant_provision": "Article 1 sections 2(4), 3(3), 29(2); Article 2 section 22 number 5 amendment; memorandum physical pages 60–61.",
+    "exact_version_evidence": "Author cover dated 31 July expressly identifies the consultation draft; its top-up limit and age-25 fallback match the July version, before the August cabinet version. Mirror provenance and absence of an author-transmitted copy remain explicit.",
+    "read_extent": "Selected complete physical pages 1, 4–5, 7–8, 17–19, 21, 50, 60–61 and 64–65; not a full 65-page read."
+  },
+  "document_metadata": {
+    "author": "Deutsches Aktieninstitut e.V.",
+    "author_date": "2026-07-31",
+    "register_id": "SG2608050020",
+    "recipient_dates_self_reported": [
+      "2026-07-31",
+      "2026-08-05"
+    ],
+    "delivery_independently_verified": false,
+    "physical_pages": 6,
+    "full_submission_read": true,
+    "visual_check": "research/round6-tax/previews/dai-fruehstart-p4.png"
+  },
+  "submission_source_id": "dai-fruehstart-20260731",
+  "source_ids": [
+    "dai-fruehstart-20260731",
+    "fruehstart-refe-20260721-mirror",
+    "estg22-current20261025",
+    "dai-fruehstart-20260826-context"
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      "research/round6-reviews/social-reviews-dai-doubletax.json",
+      "research/round6-reviews/root-reviews-dai-doubletax.json"
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full six-page original, exact consultation operative provisions and memorandum, live official baseline tax rule and visual checks; independent review requested.",
+      "by": "tax_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent social AI read all six original pages, relevant exact July draft and official tax rule; retained narrowly major/true, preserving the economic-double-tax shorthand alternative.",
+      "by": "tax_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Later 26 August related submission independently read in full and by the social reviewer at physical 4. It repeats the premise with an explicit returns-versus-full-payout contrast; recorded as context, not an author response or duplicate issue.",
+      "by": "tax_ai_screen"
+    }
+  ]
+}

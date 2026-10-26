@@ -1,0 +1,3076 @@
+{
+  "batch": "behg-2026",
+  "researcher": "A",
+  "status": "frozen_initial_inventory",
+  "created_at": "2026-10-25T09:49:42.659752+00:00",
+  "documents": [
+    {
+      "id": "bt-environment-1222374",
+      "url": "https://www.bundestag.de/resource/blob/1222374/Stellungnahme-Soellner.pdf",
+      "local_file": "research/round3-energy/sources/submissions/bt-environment-1222374.pdf",
+      "sha256": "0e5c9b510ccf175368134f3eb360150d6f3f397d27b0b8d9329f5ff22ec62d24",
+      "physical_pages": 10,
+      "depth": "full_submission",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "log_locator": "$[44]",
+      "external_submission": true,
+      "author": "Fritz Söllner",
+      "date_or_version": "2026-10-08",
+      "pilot_text": "research/factual-checks/behg-2026/text/bt-environment-1222374.txt",
+      "page_scope": "Physical PDF pages including covers and appendices; not all are authored prose.",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "read_extent": "All physical pages, including cover and bibliography, read before prior targeted dispositions.",
+      "visual_checks": [],
+      "authorship_limit": "Author letter is dated 8 October, committee cover 5 October and hearing 7 October; actual delivery and version sequence not established."
+    },
+    {
+      "id": "bt-environment-1222442",
+      "url": "https://www.bundestag.de/resource/blob/1222442/Stellungnahme-Fleischmann.pdf",
+      "local_file": "research/round3-energy/sources/submissions/bt-environment-1222442.pdf",
+      "sha256": "16171e921a88ff950fb5cf7e4ac9587dd4bd148590c3642d7dfbf5771413e475",
+      "physical_pages": 9,
+      "depth": "full_submission",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "log_locator": "$[45]",
+      "external_submission": true,
+      "author": "Bernd Fleischmann",
+      "date_or_version": "2026-10-05",
+      "pilot_text": "research/factual-checks/behg-2026/text/bt-environment-1222442.txt",
+      "page_scope": "Physical PDF pages including covers and appendices; not all are authored prose.",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "read_extent": "All physical pages, including cover and bibliography, read before prior targeted dispositions.",
+      "visual_checks": [
+        5,
+        6
+      ],
+      "authorship_limit": "Author letter dated 5 October; committee cover 7 October marked E(neu). No earlier version is inferred."
+    }
+  ],
+  "claims": [
+    {
+      "id": "behg-a-soellner-01",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "1. Global perspective",
+      "original_excerpt": "das einzige Instrument",
+      "claim_en": "A uniform comprehensive carbon price is the only instrument that can reduce greenhouse gases effectively and cost efficiently.",
+      "claim_type": "economic_theorem",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [],
+      "result": "unresolved",
+      "explanation": "Uniform marginal prices equalise marginal abatement costs under standard assumptions. The exclusivity claim depends on information, market failures, transaction costs and the meaning of efficiency; it is presented as economic theory rather than a measured universal result.",
+      "limits": [
+        "No numerical welfare comparison or full set of assumptions is specified. A policy preference is not classified as a factual error."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-02",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        3
+      ],
+      "section": "1. Global perspective",
+      "original_excerpt": "globalen negativen externen",
+      "claim_en": "Greenhouse gas emissions create a global negative externality; the location of CO2 emissions does not determine their global concentration effect.",
+      "claim_type": "physical_mechanism",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-ipcc-ar6-ch5",
+          "locator": "Chapter 5, carbon budgets and well-mixed greenhouse gases",
+          "summary": "Global cumulative CO2 emissions relate to global warming."
+        }
+      ],
+      "result": "supported",
+      "explanation": "For long-lived well-mixed CO2, global cumulative net emissions determine concentration and warming regardless of national origin. This supports the global externality premise, without proving that any particular national measure has no effect.",
+      "limits": [
+        "Short-lived climate forcers and regional impacts have additional spatial structure. The author explicitly emphasises CO2 and composition."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-03",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        3
+      ],
+      "section": "1. Global perspective",
+      "original_excerpt": "5,8%, wovon auf Deutschland 1,2",
+      "claim_en": "In 2025 the EU represented 5.8% of global greenhouse gas emissions, Germany 1.2 percentage points and the rest of the EU 4.6.",
+      "claim_type": "quantitative",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "JRC 2026, pp. 10–11",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-edgar2026",
+          "locator": "2025 country table; definition excludes LULUCF",
+          "summary": "Direct arithmetic from official totals."
+        }
+      ],
+      "result": "supported",
+      "explanation": "EDGAR reports EU27 3,127.15 Mt and Germany 660.44 Mt against 54,149.20 Mt globally: 5.78%, 1.22% and 4.56%, respectively. These round to the quoted figures.",
+      "limits": [
+        "EDGAR inventory scope excludes land use, land-use change and forestry; figures describe annual emissions rather than cumulative responsibility."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-04",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "section": "1. Global perspective",
+      "original_excerpt": "emissionsintensive Industrien",
+      "claim_en": "Uneven carbon constraints can cause industry relocation or lower world fossil fuel prices and raise emissions elsewhere.",
+      "claim_type": "economic_mechanism",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "Pritzl and Söllner 2021; Ockenfels and Schmidt 2019",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "Rationale and carbon leakage provisions",
+          "summary": "Bill recognises leakage concerns but does not quantify global offsets."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "These are recognised possible leakage and market-response mechanisms, and the author uses possibility language in introducing them. Their scale, timing and net effect require a counterfactual model; neither the existence of trade nor simple emissions shares quantifies them.",
+      "limits": [
+        "No claim of a measured leakage rate is substantiated here. No empirical result that all domestic reductions are offset has been verified."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-05",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        4,
+        9
+      ],
+      "section": "1. Global perspective and conclusion",
+      "original_excerpt": "keinen nachhaltigen Effekt",
+      "claim_en": "Any individual national or regional emissions reduction effort has no sustained climate effect without international coordination.",
+      "claim_type": "causal_generalisation",
+      "materiality": "high",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "Ockenfels and Schmidt 2019",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-ipcc-ar6-ch5",
+          "locator": "Carbon budgets and cumulative CO2",
+          "summary": "Net cumulative emissions have physical climate effects."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "This broad claim goes beyond the possible leakage mechanisms. Global net reductions affect cumulative greenhouse gas concentrations, but the actual additionality, leakage, cooperation incentives and meaning of sustained or perceptible effect are not specified. No quantified counterfactual supports the universal assertion.",
+      "limits": [
+        "The surrounding recommendation to abandon mitigation is a policy judgement. Missing quantification does not itself prove this causal claim false."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-06",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        4
+      ],
+      "section": "2. Bill description",
+      "original_excerpt": "Mit dem Brennstoffemissionshandelsgesetz",
+      "claim_en": "Germany introduced the national upstream fuel emissions system in 2021, mainly for heat and transport outside ETS1, with fossil waste incineration included from 2024.",
+      "claim_type": "legal_scope",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-law",
+          "locator": "§§2–3, 10 and Annexes",
+          "summary": "Fuel suppliers, scope and statutory starting periods."
+        }
+      ],
+      "result": "supported",
+      "explanation": "BEHG §§2–3 and Annexes regulate responsible fuel suppliers and fuel emissions; §10 begins fixed prices in 2021. The transitional provisions and waste-incineration treatment support the 2024 extension. This is a general scope description with exemptions, not a claim that all emissions in those sectors are covered.",
+      "limits": [
+        "Current consolidation was retrieved on 25 October 2026; header identifies amendment of 27 February 2025, preceding authorship."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-07",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        4
+      ],
+      "section": "2. Bill description",
+      "original_excerpt": "von € 25 im Jahr 2021 auf € 55",
+      "claim_en": "BEHG certificate prices rose from €25 in 2021 to €55 in 2025; 2026 uses an auction corridor of €55–65 per tonne.",
+      "claim_type": "legal_quantitative",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-law",
+          "locator": "§10(2)",
+          "summary": "Statutory fixed-price and auction schedule."
+        }
+      ],
+      "result": "supported",
+      "explanation": "BEHG §10(2) contains the quoted fixed prices and the 2026 corridor. This check verifies the legal schedule, rather than inferring every realised transaction price.",
+      "limits": [
+        "Separate excess and subsequent-purchase rules are addressed below."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-08",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "section": "2. Bill description",
+      "original_excerpt": "auf den 1. Januar 2028 verschoben",
+      "claim_en": "ETS2 was postponed from the planned 2027 start to 2028, requiring an additional BEHG transition year.",
+      "claim_type": "legal_timing",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "Regulation (EU) 2026/667, Article 2",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-eu2026667-boe",
+          "locator": "Article 2",
+          "summary": "Official Spanish gazette reproduction of EU act."
+        },
+        {
+          "source_id": "behg-root-draft",
+          "locator": "Physical pp. 1 and 7; rationale",
+          "summary": "Transition-year explanation and operative amendment."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Article 2 of Regulation (EU) 2026/667 defers the applicable trading provisions by one year. The government bill uses that postponement as the reason to extend the national price corridor.",
+      "limits": [
+        "The empty EUR-Lex download in the shared registry is not used. Administrative monitoring duties and surrender dates must be distinguished from trading start."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-09",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        5
+      ],
+      "section": "2. Bill description",
+      "original_excerpt": "vorletzten vorangegangenen",
+      "claim_en": "Without the proposed amendment, 2027 certificates would use the volume-weighted ETS1 auction average from the penultimate preceding quarter.",
+      "claim_type": "legal_price_rule",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "BEHG §10(3), point 5",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-law",
+          "locator": "§10(3), point 5",
+          "summary": "Existing fallback formulation."
+        },
+        {
+          "source_id": "behg-root-draft",
+          "locator": "Physical p. 7, Article 1",
+          "summary": "Proposed replacement for the transition year."
+        }
+      ],
+      "result": "supported",
+      "explanation": "BEHG §10(3), point 5 contains this fallback and ties it to TEHG auctions. The bill proposes replacing that consequence for 2027.",
+      "limits": [
+        "No realised future price is inferred from the formula."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-10",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Footnote 4",
+      "original_excerpt": "€ 75,95",
+      "claim_en": "The volume-weighted German ETS1 auction price was €75.95 in Q1 2026.",
+      "claim_type": "quantitative",
+      "materiality": "low",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "DEHSt 2026, p. 5",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-dehstq1",
+          "locator": "Printed p. 5, summary of auction results",
+          "summary": "Official auction report explicitly states €75.95."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The original DEHSt Q1 report gives the volume-weighted average of €75.95 for German auctions.",
+      "limits": [
+        "This quarter does not determine the eventual 2027 fallback values."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-11",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        5
+      ],
+      "section": "2. Bill description",
+      "original_excerpt": "auch im Jahr 2027 beibehalten",
+      "claim_en": "Article 1 proposes extending the €55–65 corridor to 2027.",
+      "claim_type": "draft_scope",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "BT 21/7869",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "Physical p. 7, amendment of BEHG §10",
+          "summary": "Operative price-corridor extension."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The operative bill extends the corridor schedule through 2027. The author distinguishes this proposal from the existing fallback.",
+      "limits": [
+        "This is not confirmation of later enactment or future clearing prices."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-12",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        5
+      ],
+      "section": "2. Bill description",
+      "original_excerpt": "auf 10% der",
+      "claim_en": "The bill reduces non-surrender payments to the relevant fixed price or corridor maximum, with a discretionary 10% novelty-related reduction.",
+      "claim_type": "draft_sanctions",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "BT 21/7869, printed p. 6",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-law",
+          "locator": "§21 and cross-reference to TEHG",
+          "summary": "Existing payment rule."
+        },
+        {
+          "source_id": "behg-root-draft",
+          "locator": "Physical pp. 7–8, Article 1 amendment of §21",
+          "summary": "Proposed amounts and novelty clause."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The bill replaces the double-fixed-price amount and relevant TEHG inflation-adjusted benchmark with the fixed price or €65 corridor maximum. It permits the novelty reduction during the first two surrender years for the relevant emissions, subject to conditions.",
+      "limits": [
+        "The author summarises rather than enumerates all timing and discretion conditions; this is not an unconditional right to a 90% reduction."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-13",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        5,
+        7
+      ],
+      "section": "2 and 3.1. Volume and price rules",
+      "original_excerpt": "2027: 234,4 Millionen",
+      "claim_en": "The bill sets regular volumes of 252.4m certificates for 2026 and 234.4m for 2027, compared with 260.1m for 2025; excess prices are €68/73 and subsequent-purchase prices €70/75.",
+      "claim_type": "draft_quantitative",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "BT 21/7869; BEHV new version §§14–15, 44",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "Physical pp. 9–11, BEHV §§14–15 and §44",
+          "summary": "Direct comparison of operative numbers."
+        },
+        {
+          "source_id": "behg-root-behv",
+          "locator": "§44",
+          "summary": "Existing regular-volume schedule."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The operative BEHV amendments provide these volumes and year-specific excess and subsequent-purchase prices. They distinguish regular auction volume from extra certificates.",
+      "limits": [
+        "These are legal quantities and prices, not verified realised demand."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-14",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        5
+      ],
+      "section": "2. Bill description",
+      "original_excerpt": "jahresbezogenen Fristverlängerungsanträge",
+      "claim_en": "Article 3 removes repeated annual storage deadline extension applications under the double-accounting regulation.",
+      "claim_type": "draft_administration",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "BT 21/7869, printed p. 21",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "Physical pp. 12–13, Article 3; rationale printed p. 21",
+          "summary": "Proposed storage-time simplification."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The operative amendment and its rationale replace the yearly application structure for stored fuel quantities and expressly describe the eliminated annual procedure.",
+      "limits": [
+        "The predicted savings are the bill’s ex ante expectation; actual realised bureaucracy savings have not been measured."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-15",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "section": "3.1. Price and volume steering",
+      "original_excerpt": "nicht € 65, sondern € 68 bzw. € 73",
+      "claim_en": "Because excess certificates are available above €65, €68 and €73 are effective excess-purchase ceilings rather than the corridor’s auction maximum.",
+      "claim_type": "legal_economic_interpretation",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "BEHV §14, proposed version",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "Physical pp. 9–11, BEHV §14",
+          "summary": "Separate excess-certificate mechanism."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The legislation permits additional purchases at the separate excess prices. Thus the author correctly identifies an additional cost outside the €55–65 auction corridor, while the legally defined corridor itself remains €55–65.",
+      "limits": [
+        "The later assertion that demand must reach these amounts is a forecast and is excluded. This does not mean every purchaser pays the excess price."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-16",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        7
+      ],
+      "section": "3.1. Auction outcome",
+      "original_excerpt": "nur Gebote in Höhe dieser Preisobergrenze",
+      "claim_en": "All successful bids in 2026 auction rounds so far were at the €65 ceiling.",
+      "claim_type": "observed_market",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "VIK, 14 July 2026",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-law",
+          "locator": "§10(2)",
+          "summary": "Auction ceiling only, not realised bids."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The legal ceiling is confirmed, but a complete dated primary auction-results series establishing all rounds before the letter date was not recovered. The cited VIK record is dated 14 July, which does not by itself establish later rounds.",
+      "limits": [
+        "No error is inferred from source access or a missing complete auction series. Author letter, committee cover and hearing dates conflict."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-17",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        7
+      ],
+      "section": "3.1. ESR flexibilities",
+      "original_excerpt": "Ankauf von Emissionszertifikaten",
+      "claim_en": "BEHG excess emissions can be balanced by buying emission allocations from other Member States or using earlier over-fulfilment, rather than automatically reducing next-year quantities.",
+      "claim_type": "legal_flexibility",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "BEHG §5",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-law",
+          "locator": "§§4–5",
+          "summary": "Annual quantities and flexibility/procurement provisions."
+        }
+      ],
+      "result": "supported",
+      "explanation": "BEHG §5 provides the government’s use of ESR flexibilities and procurement when national quantities are insufficient. The claim concerns compliance accounting, not creation of an exemption from the EU-wide ESR obligation.",
+      "limits": [
+        "Transfers use annual emission allocations and applicable ESR limits; they are distinct from ETS1 auction allowances."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-18",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "section": "3.2. Administrative costs",
+      "original_excerpt": "Überwachungsplan",
+      "claim_en": "BEHG requires monitoring plans, annual fuel-emission reports and verification by accredited bodies.",
+      "claim_type": "legal_administration",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "BEHG §§6–7, 15",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-law",
+          "locator": "§§6–7, 15",
+          "summary": "Monitoring, reporting and verifier requirements."
+        }
+      ],
+      "result": "supported",
+      "explanation": "BEHG §§6–7 and §15 establish the described general duties. Statutory and implementing exemptions apply, so the general description is not read as denying all simplified procedures.",
+      "limits": [
+        "Does not quantify the actual present cost of compliance."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-19",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        8
+      ],
+      "section": "3.2. Administrative costs",
+      "original_excerpt": "auf € 31 Millionen geschätzt",
+      "claim_en": "In 2019 the government estimated annual business compliance costs at €31m and administration costs at €4.4m.",
+      "claim_type": "historical_quantitative",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "BT 19/14949, pp. 2–3",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-bill2019",
+          "locator": "Physical pp. 2–3, E.2–E.3",
+          "summary": "Original government bill cost estimates."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The original 2019 bill’s sections E.2 and E.3 give €31m annual compliance cost for business and €4.4m administration. These are ex ante estimates, as the author states.",
+      "limits": [
+        "The author’s speculation that this is a present lower bound is excluded as an unquantified forecast."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-20",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        8
+      ],
+      "section": "3.3. Competition",
+      "original_excerpt": "mit Ausnahme von Österreich",
+      "claim_en": "Except Austria, no other EU Member State has an equivalent national fuel emissions-trading system.",
+      "claim_type": "comparative_policy",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-law",
+          "locator": "§§2–3, 10",
+          "summary": "Definition of the German instrument used for comparison."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "An equivalent national upstream trading system is narrower than a carbon tax, and the passage should not be read as claiming other Member States have no carbon prices. A complete contemporaneous all-Member-State instrument comparison was not authenticated.",
+      "limits": [
+        "Other national carbon taxes are not counterexamples to the stated trading-system category."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-21",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        8
+      ],
+      "section": "3.3. BECV relief",
+      "original_excerpt": "Antragsverfahren",
+      "claim_en": "BECV relief is partial and requires management systems, specified economic climate investments and verification.",
+      "claim_type": "legal_relief",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "BECV §§10–12",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-becv",
+          "locator": "§§8–12",
+          "summary": "Relief calculation and counter-performance conditions."
+        }
+      ],
+      "result": "supported",
+      "explanation": "BECV §§8–12 establish compensation factors and the described management, investment and verification framework. Simplified management options and exceptions for economically unavailable investments qualify the summary but do not negate its general rule.",
+      "limits": [
+        "BECV consolidation date must remain tied to its header. This does not establish the amount of any particular firm’s residual competitive disadvantage."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-22",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        8
+      ],
+      "section": "3.3. ETS2 relief",
+      "original_excerpt": "keine solchen Entlastungsmaßnahmen",
+      "claim_en": "ETS2 has no BECV-equivalent industrial carbon-leakage compensation scheme.",
+      "claim_type": "legal_relief",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "ETS2 transition rationale",
+          "summary": "Does not itself create an industrial BECV replacement."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The comparison is specifically to BECV-style industrial assistance, not to all household or microenterprise support. The social-climate support framework cannot alone refute it, but a complete contemporaneous EU/state-aid implementation check was not completed.",
+      "limits": [
+        "Do not turn the statement into a claim that ETS2 has no support measures of any kind."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-23",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "section": "3.3. Household incidence",
+      "original_excerpt": "relativ stärker als reichere Haushalte",
+      "claim_en": "Before compensation, fuel-carbon-price increases impose a larger relative burden on poorer households on average.",
+      "claim_type": "distributional",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "Kaestner et al. 2024, p. 191",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-diw2025",
+          "locator": "Methods and distributional results, 2025 report",
+          "summary": "Primary household microsimulation supports the general unrebated incidence mechanism."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The independent DIW household study models direct fuel-price incidence using household microdata and finds regressive average burdens. Compensation design, heating fuel, mobility needs and within-income heterogeneity matter.",
+      "limits": [
+        "The exact Kaestner p. 191 full text was not recovered. This check does not establish that every poorer household is more burdened, or quantify all indirect goods-price effects."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-soellner-24",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        9
+      ],
+      "section": "3.4. Cost efficiency",
+      "original_excerpt": "nur zu etwa 25% ausgeschöpft",
+      "claim_en": "Rickels et al. estimate that separating ETS1 from the additional trading system realises only about one quarter of the potential efficiency gains.",
+      "claim_type": "model_estimate",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing or changing national and European carbon pricing.",
+      "cited_by_author": "Rickels et al. 2024",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-rickels2024",
+          "locator": "Author-institute abstract and methods",
+          "summary": "DART model, 2030 counterfactual and conditional efficiency comparison."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The authors’ institute record describes a DART general-equilibrium model to 2030 and reports approximately one-quarter gains under the two-system structure, relative to integration. The author expressly presents it as an estimate.",
+      "limits": [
+        "Conditional on use of ESR flexibilities and absence of extensive price controls; not an unconditional measured saving in 2026 or a universal percentage."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-01",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        2
+      ],
+      "section": "1. International targets",
+      "original_excerpt": "keine völkerrechtlich verbindlichen Emissions-Reduktionsziele",
+      "claim_en": "Paris did not impose internationally binding country-specific emissions attainment targets; countries set and can adjust their NDCs.",
+      "claim_type": "international_law",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-methods-web",
+          "locator": "UNFCCC NDC overview, lines 40–54",
+          "summary": "Procedural obligations, nationally determined objectives and adjustments."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The treaty has binding procedural obligations to prepare, communicate and maintain NDCs and pursue mitigation; country-specific attainment is nationally determined rather than a binding allocated outcome. The author refers to emissions-reduction targets, not to the treaty being entirely nonbinding.",
+      "limits": [
+        "Article 4.11 describes adjustment with a view to enhancing ambition; the phrase can change is not read as an explicit right to weaken targets at will."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-02",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        2
+      ],
+      "section": "1. ESR targets",
+      "original_excerpt": "auf -50 % verschärft",
+      "claim_en": "Germany’s ESR target for 2030 changed from −38% to −50% relative to 2005 in Regulation (EU) 2023/857 of 19 April 2023.",
+      "claim_type": "legal_quantitative",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-primary-web",
+          "locator": "EUR-Lex 2023/857, title and Annex",
+          "summary": "Official act and German target columns."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The official regulation identifies the date and Annex I lists Germany’s previous −38% and amended −50% targets. These concern ESR emissions rather than the entire economy.",
+      "limits": [
+        "Formal act date is distinct from negotiations, agreement and entry into force. The author’s four-day juxtaposition is calendar arithmetic, not proof of a policy response to reactor closure."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-03",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        2
+      ],
+      "section": "1. Nuclear closure",
+      "original_excerpt": "Am 15. April 2023",
+      "claim_en": "Germany’s final three nuclear plants closed on 15 April 2023.",
+      "claim_type": "historical",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-primary-web",
+          "locator": "Official BMWE announcement and BASE status report",
+          "summary": "Emsland, Isar 2 and Neckarwestheim 2 closure."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The official federal nuclear-safety status report and government announcement confirm the closure date and the three plants.",
+      "limits": [
+        "Low direct operating emissions do not mean zero full life-cycle emissions. The author uses practically no greenhouse gases."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-04",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        2
+      ],
+      "section": "1. Nuclear and accounting",
+      "original_excerpt": "einen emissionserhöhenden Effekt",
+      "claim_en": "Closing the last reactors increased emissions, with imported-electricity generation emissions omitted from Germany’s national budget.",
+      "claim_type": "causal_accounting",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-edgar2026",
+          "locator": "Inventory territorial emissions definitions",
+          "summary": "Production-location inventory convention."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Territorial inventories assign electricity-production emissions to the producing country. The claimed net increase due to closure requires a counterfactual dispatch and import mix, rather than a comparison of observed national totals. No such primary counterfactual was established here.",
+      "limits": [
+        "The accounting fact is narrower than the unquantified causal conclusion. No finding is proposed from declining observed German emissions alone."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-05",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        2
+      ],
+      "section": "1. Binding targets",
+      "original_excerpt": "nur die EU sich selbst",
+      "claim_en": "Apart from Norway and Iceland, only the EU has imposed binding emission reductions on itself and its members.",
+      "claim_type": "comparative_law",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-uk-act1",
+          "locator": "Section 1",
+          "summary": "Statutory duty concerning the net UK carbon account."
+        },
+        {
+          "source_id": "behg-a-uk-carbonbudgets",
+          "locator": "Legal framework and carbon budgets",
+          "summary": "UK domestic binding targets and five-year budgets."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "A literal worldwide claim is too broad: UK Climate Change Act §1 imposes a binding 2050 target, and carbon budgets are binding in domestic law. However, the preceding contrast between international Paris targets and the EU’s cross-border ESR allocations permits a narrower reading about enforceable supranational allocation among countries.",
+      "limits": [
+        "Domestic versus international binding force is not clearly defined in the submission. Retained unresolved, with the UK counterexample documented rather than admitted as an unqualified error."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-06",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        2
+      ],
+      "section": "1. Climate neutrality dates",
+      "original_excerpt": "bis 2050 klimaneutral sein",
+      "claim_en": "EU law targets climate neutrality by 2050 and Germany by 2045.",
+      "claim_type": "legal_timing",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-root-ksg",
+          "locator": "§3(2)",
+          "summary": "German 2045 net greenhouse gas neutrality."
+        },
+        {
+          "source_id": "behg-root-draft",
+          "locator": "Climate objectives in rationale",
+          "summary": "EU climate-law framework."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The German KSG provides the 2045 net greenhouse-gas-neutrality target. The government bill states the EU 2050 neutrality framework; these are defined net targets rather than zero gross emissions.",
+      "limits": [
+        "The EU target concerns the Union collectively."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-07",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "1. Historical emissions tables",
+      "original_excerpt": "Daten für beide Tabellen",
+      "claim_en": "The tables describe 2015 and 2025 total and per-capita GHG emissions, excluding land-use change, for Germany, EU27, USA, China, India and the world.",
+      "claim_type": "quantitative",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "EDGAR 2026 and UNEP 2025",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-edgar2026",
+          "locator": "Country emissions table, 2015 and 2025; scope definition",
+          "summary": "Official totals and annual shares recomputed."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "EDGAR confirms the broad magnitudes and 2025 shares, including Germany 1.22%, EU27 5.78%, China 29.51% and India 8.33%. Some displayed 2015/2025 totals and percentage changes do not reproduce exactly from the current table; UNEP and EDGAR vintages, population series and rounding are not specified enough to settle every cell.",
+      "limits": [
+        "All values are explicitly approximate/rounded in footnote 1. Small revision and rounding differences are not promoted as material errors. Forecast columns are excluded separately."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-08",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        3
+      ],
+      "section": "1. Per-capita comparison",
+      "original_excerpt": "40 % über Deutschland",
+      "claim_en": "China’s 2025 per-capita GHG emissions are roughly 40% above Germany and almost 60% above the EU average.",
+      "claim_type": "quantitative",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "EDGAR 2026 and UNEP 2025",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-edgar2026",
+          "locator": "2025 per-capita comparison and country totals",
+          "summary": "Official inventory and arithmetic check."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Using the displayed rounded values, 11.1/8.0−1=38.75% and 11.1/7.1−1=56.34%, which reasonably support the approximate wording. The broad ranking matches EDGAR.",
+      "limits": [
+        "Per-capita annual emissions exclude LULUCF and do not measure cumulative responsibility or economic intensity."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-09",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        3
+      ],
+      "section": "1. China technologies",
+      "original_excerpt": "China ist mittlerweile",
+      "claim_en": "China leads worldwide in most key technologies.",
+      "claim_type": "technology_comparison",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "Der Standard 2025, referring to ASPI",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [],
+      "result": "unresolved",
+      "explanation": "The cited news title describes leading research in 66 of 74 selected technologies. That is a bibliometric research metric rather than a complete measure of industrial capability, deployment or all key technologies. The full ASPI primary methodology was not accessible.",
+      "limits": [
+        "An ordinary research-leadership reading remains possible. Missing primary access is not proof that the statement is false."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-10",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        3
+      ],
+      "section": "1. Emissions comparison",
+      "original_excerpt": "genauso hoch",
+      "claim_en": "China’s 2015–2025 emissions increase is approximately as large as current annual EU emissions.",
+      "claim_type": "quantitative",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "EDGAR 2026 and UNEP 2025",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-edgar2026",
+          "locator": "2015 and 2025 totals",
+          "summary": "Independent arithmetic using the official table."
+        }
+      ],
+      "result": "supported",
+      "explanation": "EDGAR gives China’s increase as 15,981.00−13,064.40=2,916.60 Mt and 2025 EU27 emissions as 3,127.15 Mt. With approximate values, the roughly 7% difference is compatible with the author’s coarse comparison.",
+      "limits": [
+        "This comparison does not establish the net effect of EU mitigation."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-11",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        4
+      ],
+      "section": "2. Regional warming",
+      "original_excerpt": "starke regionale",
+      "claim_en": "Regional differences in warming demonstrate that globally distributed greenhouse gases cannot alone explain temperature changes.",
+      "claim_type": "physical_inference",
+      "materiality": "high",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-ipcc-ar6-ch4",
+          "locator": "Regional temperature patterns and land–ocean contrast",
+          "summary": "Greenhouse forcing has spatially heterogeneous responses."
+        },
+        {
+          "source_id": "behg-a-ipcc-ar6-ch3",
+          "locator": "Attribution methods",
+          "summary": "Separates forcing, variability and response patterns."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Regional warming differs because of circulation, land–ocean contrast, feedbacks and local forcings as well as internal variability. Uniform concentration does not entail uniform temperature response, but the weaker claim that other factors also affect regional temperatures is correct. The wording does not quantify the separate contributions.",
+      "limits": [
+        "Do not substitute the false proposition that greenhouse gases must cause spatially uniform warming for the author’s actual claim."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-12",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        4
+      ],
+      "section": "2. Historical temperature and CO2",
+      "original_excerpt": "von 1910 bis 1945",
+      "claim_en": "Germany warmed about 1°C and the globe 0.5°C in 1910–1945; early warming was mostly natural; since about 1980 Germany warmed 2°C and the globe 0.8°C.",
+      "claim_type": "historical_attribution",
+      "materiality": "high",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "DWD; NASA GISS; Spencer 2026; CO2 record",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-dwd-temp",
+          "locator": "Annual German area means",
+          "summary": "Official observations with substantial interannual variation."
+        },
+        {
+          "source_id": "behg-a-ipcc-ar6-ch3",
+          "locator": "Historical detection and attribution",
+          "summary": "Attribution requires multiple forcings and internal variability."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The sign of long-term warming and regional differences is established, but these rounded interval changes lack an endpoint, smoothing and temperature-series definition. DWD raw annual endpoints vary substantially; a single-year comparison would not fairly test the likely smoothed claim. Mostly natural attribution additionally needs a multi-forcing attribution analysis.",
+      "limits": [
+        "NASA direct data download failed; the Spencer citation does not identify an exact version or interval. No finding is based on mixing annual endpoints with a trend."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-13",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        4
+      ],
+      "section": "2. CO2 forcing and no-feedback response",
+      "original_excerpt": "3 W/m²",
+      "claim_en": "Doubling atmospheric CO2 produces about 3 W/m² forcing at these latitudes and about 1°C warming without feedbacks.",
+      "claim_type": "model_physics",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "van Wijngaarden and Happer 2023",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-happer2023",
+          "locator": "Midlatitude profiles and CO2 doubling calculations",
+          "summary": "Conditional radiative-transfer preprint."
+        },
+        {
+          "source_id": "behg-a-ipcc-ar6-ch7",
+          "locator": "Planck response and effective radiative forcing definitions",
+          "summary": "Forcing and temperature response are distinct quantities."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The original van Wijngaarden–Happer preprint treats latitude-dependent radiative-transfer calculations and obtains a roughly 3 W/m² midlatitude forcing under specified atmospheric profiles. Converting that into a temperature change requires a defined response and equilibrium assumptions; the cited calculation is not a complete regional temperature attribution.",
+      "limits": [
+        "Preprint, clear-sky/cloud and atmospheric-profile assumptions must be preserved. This is not a claim about observed total equilibrium sensitivity."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-14",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "section": "2. CO2 since 1980",
+      "original_excerpt": "0,7 W/m²",
+      "claim_en": "A 25% CO2 rise since 1980 adds 0.7 W/m² and 0.3°C, so feedbacks cannot explain the remaining German warming.",
+      "claim_type": "quantitative_attribution",
+      "materiality": "high",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "van Wijngaarden and Happer 2023; CO2 record",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-noaa-co2",
+          "locator": "Annual Mauna Loa means, 1980 to 2025",
+          "summary": "Approximate concentration change."
+        },
+        {
+          "source_id": "behg-a-happer2023",
+          "locator": "Radiative-transfer calculation",
+          "summary": "Defines a particular model, not total observed regional warming."
+        },
+        {
+          "source_id": "behg-a-ipcc-ar6-ch7",
+          "locator": "Forcing and feedback framework",
+          "summary": "Distinguishes forcing, response and feedback."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The CO2 rise is broadly consistent with NOAA’s annual record, but the specified forcing basis and temperature-response calculation are absent. Using a constant 3 W/m² per doubling logarithmic rule would give about 0.97 W/m² for +25%, not 0.7, while effective forcing and regional assumptions may differ. This discrepancy alone does not establish a uniquely correct regional attribution.",
+      "limits": [
+        "No precise endpoint or complete derivation is supplied. Feedback rejection is assessed separately."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-15",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "section": "2. Sulphur and aerosols",
+      "original_excerpt": "um 94 % reduziert",
+      "claim_en": "SO2 emissions fell 94% in the EU since 1980 and by half worldwide; their reduction is a major cause of recent warming.",
+      "claim_type": "quantitative_attribution",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "OWID SO2; Kalisoras et al. 2024",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-kalisoras2024",
+          "locator": "§4.3, regional aerosol histories",
+          "summary": "Modelled decline of negative aerosol forcing over Europe."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Declining European sulphate aerosol loading and reduced negative forcing are supported by the primary aerosol study. The exact 94%/half inventory values, endpoint and inventory version were not authenticated, and their temperature contribution requires attribution rather than emissions percentages alone.",
+      "limits": [
+        "SO2 is a precursor of sulphate particles, which the next paragraph explicitly explains; that shorthand is not classified as a separate material error."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-16",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        5
+      ],
+      "section": "2. Shipping and aerosol mechanism",
+      "original_excerpt": "Schwefelreduktion im Schiffsdiesel",
+      "claim_en": "The 2020 marine-fuel sulphur reduction lowered sulphate aerosol formation and its cooling effects on shipping routes; sulphate scatters sunlight and affects clouds.",
+      "claim_type": "regulatory_physical",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "Jin 2018; Kalisoras et al. 2024",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-imo2020",
+          "locator": "IMO 2020 sulphur limits and emission-control areas",
+          "summary": "Official regulation explanation."
+        },
+        {
+          "source_id": "behg-a-kalisoras2024",
+          "locator": "Aerosol-radiation and aerosol-cloud interaction methods",
+          "summary": "Physical cooling mechanisms."
+        }
+      ],
+      "result": "supported",
+      "explanation": "IMO’s 2020 regulation lowered the global sulphur limit from 3.5% to 0.5%, while emission-control areas had a prior 0.1% limit. The aerosol paper supports sulphate scattering and cloud-mediated negative forcing; removing part of it is warming under comparable conditions.",
+      "limits": [
+        "The exact regional temperature change is not established by this qualitative mechanism. Jin 2018 predates the regulation and is not treated as an observation of its later effects."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-17",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        5
+      ],
+      "section": "2. Other aerosols and wildfire",
+      "original_excerpt": "seit Jahrzehnten global rückläufig",
+      "claim_en": "Wildfire emissions have declined globally for decades; their aerosols have effects similar to sulphate.",
+      "claim_type": "environmental_trend",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "OWID Wildfires",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-kalisoras2024",
+          "locator": "Separate black-carbon, organic-carbon and sulphate forcing components",
+          "summary": "Aerosol type and interactions affect net sign."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Burned area, fire emissions and aerosol forcing are different metrics. The cited general wildfire page does not identify a frozen emissions series or precise period in the statement. Biomass-burning particles include both cooling and absorbing components, so a uniform cooling sign cannot be assumed from the source category alone.",
+      "limits": [
+        "No primary long-run fire-emissions dataset was authenticated; no error is inferred merely from that access limit."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-18",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        5
+      ],
+      "section": "2. Fires and volcanoes",
+      "original_excerpt": "keine größeren Vulkanausbrüche",
+      "claim_en": "European wildfires are predominantly human-caused, and no major eruptions occurred after Pinatubo apart from Hunga Tonga.",
+      "claim_type": "environmental_history",
+      "materiality": "low",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "OWID Wildfires",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [],
+      "result": "unresolved",
+      "explanation": "Predominantly human ignition is a plausible regional premise, but the statement supplies no cause dataset, geographic coverage or period. Major volcanic eruption is undefined: VEI, stratospheric sulphur injection and climate forcing rank events differently.",
+      "limits": [
+        "No categorical refutation is proposed by naming a large eruption under an unstated alternative metric. These are ancillary to the main aerosol attribution."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-19",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        5
+      ],
+      "section": "2. Sunshine",
+      "original_excerpt": "um mehr als 20 %",
+      "claim_en": "German annual sunshine duration has risen by more than 20% since 1980.",
+      "claim_type": "observed_quantitative",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-dwd-sun",
+          "locator": "Germany annual area means, 1980 and 2025",
+          "summary": "Primary weather-service raw observations."
+        }
+      ],
+      "result": "supported",
+      "explanation": "DWD annual German means are 1,443.9 hours in 1980 and 1,914.0 in 2025, an endpoint increase of 32.6%. That supports the literal annual-duration comparison.",
+      "limits": [
+        "Endpoint comparisons are sensitive to weather; decadal-average growth is lower, and sunshine duration alone does not isolate an aerosol contribution."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-20",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        5
+      ],
+      "section": "2. Regional aerosol attribution",
+      "original_excerpt": "7 W/m²",
+      "claim_en": "Kalisoras et al. provide a roughly 7 W/m² aerosol-reduction forcing for Central Europe, sufficient without feedbacks to explain over 2°C and nearly all observed German warming.",
+      "claim_type": "model_attribution",
+      "materiality": "high",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "Kalisoras et al. 2024",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-kalisoras2024",
+          "locator": "Physical pp. 19–21, Figure 9, Table 5 and §4.3",
+          "summary": "Annual curves, averaged windows and ERF experiment."
+        },
+        {
+          "source_id": "behg-a-kalisoras-supplement",
+          "locator": "Table S6",
+          "summary": "Later-window table is global, not a WCE temperature attribution."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Table 5 reports WCE ensemble forcing −7.12 W/m² for 1965–1984 and −3.02 for 1995–2014, a +4.10 change, not +7 between those averaged windows. However, Figure 9 has single-year troughs near −9 and later values near −2 to −3, allowing a rough peak-to-endpoint comparison closer to 7. The paper estimates aerosol ERF with prescribed sea-surface-temperature experiments; it does not attribute nearly all observed German warming via a no-feedback conversion.",
+      "limits": [
+        "The author supplies no forcing comparison period. Model spread, forcing efficacy, climate response and land–ocean coupling prevent a simple unique numerical correction. Retained unresolved rather than a definite 7-versus-4.10 error."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-21",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        5,
+        7,
+        8
+      ],
+      "section": "2 and 7. Feedback rejection",
+      "original_excerpt": "durch Messungen widerlegt",
+      "claim_en": "Measurements refute positive feedbacks underlying projections above 0.5°C future warming and CO2-doubling responses above 1°C.",
+      "claim_type": "scientific_generalisation",
+      "materiality": "high",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "Lindzen and Choi 2009",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-methods-web",
+          "locator": "Dessler, Zhang and Yang 2008, abstract",
+          "summary": "Satellite humidity and surface-temperature variations imply positive water-vapour feedback."
+        },
+        {
+          "source_id": "behg-a-dessler2013pmc",
+          "locator": "Abstract and observational analysis",
+          "summary": "Observations support positive stratospheric water-vapour feedback."
+        },
+        {
+          "source_id": "behg-a-lindzen2011",
+          "locator": "Discussion of 2009 analysis and later methodological criticism",
+          "summary": "Authors acknowledge methodological corrections while defending their interpretation."
+        },
+        {
+          "source_id": "behg-a-ipcc-ar6-ch7",
+          "locator": "§§7.4.2 and 7.5",
+          "summary": "Assessment combines distinct feedback and sensitivity constraints."
+        }
+      ],
+      "result": "overstated",
+      "explanation": "The cited 2009 tropical-radiation analysis is not a universal observational falsification. Independent AIRS humidity research finds an observationally inferred positive water-vapour feedback, and the 2013 open primary study finds a positive stratospheric water-vapour feedback. These do not determine every feedback or exact ECS, but they conflict with treating positive feedbacks as collectively disproven by measurements. AR6 assesses multiple observational, process and palaeoclimate lines rather than model agreement alone.",
+      "limits": [
+        "Natural variability, short observation windows and radiative-transfer calculations entail uncertainties. This finding does not assert that every projection is accurate or settle ECS with one short study."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-22",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        5,
+        8
+      ],
+      "section": "3. Plant responses",
+      "original_excerpt": "Pflanzen benötigen weniger Wasser",
+      "claim_en": "Elevated CO2 can stimulate plant growth and improve leaf water-use efficiency through reduced stomatal opening.",
+      "claim_type": "biological_mechanism",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "CSIRO; IPCC CO2 fertilisation",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-csiro2013",
+          "locator": "Research summary, 1982–2010 arid-region foliage analysis",
+          "summary": "CO2 fertilisation and reduced water loss."
+        },
+        {
+          "source_id": "behg-a-ipcc-ar6-ch5",
+          "locator": "CO2 fertilisation and terrestrial carbon sinks",
+          "summary": "Conditional biological response."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The primary CSIRO research summary reports CO2-related foliage increases in arid regions and describes improved water-use efficiency. AR6 also recognises CO2 fertilisation and water-use effects, with nutrient, heat, water and ecosystem limitations.",
+      "limits": [
+        "Does not imply all plants, ecosystems or crop yields improve under every warming and water regime, or establish a net policy benefit."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-23",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        5
+      ],
+      "section": "3. Greening",
+      "original_excerpt": "Wüsten schrumpfen",
+      "claim_en": "NASA and CSIRO established global greening and shrinking deserts due to CO2 fertilisation and warming-related rainfall.",
+      "claim_type": "environmental_attribution",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "CSIRO",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-csiro2013",
+          "locator": "Study coverage and vegetation metric",
+          "summary": "Arid-region foliage, not a global desert boundary census."
+        },
+        {
+          "source_id": "behg-a-ipcc-ar6-ch5",
+          "locator": "Terrestrial carbon sinks and limitations",
+          "summary": "Broader evidence for CO2 fertilisation."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "CSIRO reports an approximately 11% increase in foliage cover in selected warm arid environments during 1982–2010 and isolates a CO2 contribution. Greening is not a direct measurement of desert-area boundaries, and the cited work does not by itself establish the stronger global rainfall-and-desert assertion. An ordinary shorthand reading of shrinking deserts as increased arid-region foliage is plausible.",
+      "limits": [
+        "Do not classify metaphorical shrinking as a demonstrated false desert-area statistic."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-24",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "section": "4. Onshore wind warming",
+      "original_excerpt": "Temperaturerhöhung von 0,4 °C",
+      "claim_en": "Wind turbines can warm nighttime land surfaces through mixing; Guazhou measurements show about 0.4°C and Smith et al. reported up to 1.9°C at night.",
+      "claim_type": "observed_microclimate",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "Chang et al. 2016; Smith et al. 2013",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-chang2016pdf",
+          "locator": "Abstract, seasonal nighttime land-surface results and methods",
+          "summary": "MODIS surface-temperature analysis around Guazhou."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Chang’s satellite study supports nighttime land-surface warming at Guazhou, with seasonal mean effects around 0.4–0.5°C. The exact Smith 1.9°C result could not be independently read because the publisher returned a browser challenge. A satellite skin-temperature anomaly and a near-ground air-temperature observation should not be merged into national annual-mean warming.",
+      "limits": [
+        "The supported Guazhou subclaim is retained explicitly; the combined numerical/source claim remains unresolved. Soil drying is assessed separately."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-25",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "section": "4. Wind and soil drying",
+      "original_excerpt": "Verdunstung",
+      "claim_en": "Turbine-induced warming increases evaporation and dries soils, as shown by the cited US and China observations.",
+      "claim_type": "causal_environmental",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "Smith et al. 2013; Chang et al. 2016",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-chang2016pdf",
+          "locator": "Observation variables and remote-sensing method",
+          "summary": "Does not directly measure the asserted soil-water balance."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Mixing can change near-surface energy and moisture exchange, but the accessible Chang study observes land-surface temperature rather than directly measuring a universal soil-moisture loss. Hydrological responses depend on humidity, vegetation, weather and time of day. The US full text was unavailable.",
+      "limits": [
+        "Lack of a direct moisture measurement is not proof that drying cannot occur. No national-area extrapolation is established."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-26",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "section": "4. Wind model",
+      "original_excerpt": "10 % des Energiebedarfs",
+      "claim_en": "Wang and Prinn model wind installations supplying 10% of global energy in 2100 and find local temperature changes of order 1°C.",
+      "claim_type": "conditional_model",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "Wang and Prinn 2010",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-wangprinn2010",
+          "locator": "Abstract and model scenarios",
+          "summary": "Conditional land and ocean wind-perturbation experiments."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The original model explicitly assumes that large future energy contribution and obtains land warming exceeding 1°C near installations; offshore cases can cool by more than 1°C. This is a hypothetical parameterised modelling result, as the author identifies it.",
+      "limits": [
+        "The source cautions that parameterisation and model validation matter. It does not establish that the same change will occur over large German areas."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-27",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "section": "4. Offshore comparison",
+      "original_excerpt": "ähnliche Größenordnungen",
+      "claim_en": "Hereon found offshore wind-induced changes of similar order to projected mean climate changes.",
+      "claim_type": "model_scope",
+      "materiality": "high",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "Hereon 2022",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-hereon2022",
+          "locator": "Institutional summary and quoted comparison",
+          "summary": "Discusses North Sea water dynamics."
+        },
+        {
+          "source_id": "behg-a-hereon-original",
+          "locator": "Original study, model design and conclusions",
+          "summary": "Wake-driven hydrodynamic effects and regional stratification."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The quoted institutional statement is real, but the underlying study concerns North Sea hydrodynamics, currents, stratification and mixing. The similarity is metric-dependent; it is not a measurement of German atmospheric warming or a direct comparison of total greenhouse climate damage with wind impacts.",
+      "limits": [
+        "The author’s wording climate changes can encompass ocean changes. The later conclusion of stronger overall climate change is an unsupported comparison, not uniquely falsified by the quote alone."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-28",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "section": "5. Heat vulnerability",
+      "original_excerpt": "Niemand stirbt an Hitze",
+      "claim_en": "People behaving adaptively do not die from heat unless they have certain illnesses and inadequate care.",
+      "claim_type": "health_generalisation",
+      "materiality": "high",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-who-heat",
+          "locator": "Risk factors, heatstroke and prevention",
+          "summary": "Heat can directly threaten health, including exposed otherwise healthy people."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "WHO identifies heatstroke and risks to workers, athletes and other exposed people as well as chronic illness and vulnerable groups. Behaviour and cooling reduce risk, but adapted behaviour is not operationally defined here. This universal claim cannot be cleanly tested without a specific exposure and adaptation definition.",
+      "limits": [
+        "No categorical finding is based on supplying a different definition of adapted behaviour."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-29",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "section": "5. Singapore comparison",
+      "original_excerpt": "fünf Jahre höher",
+      "claim_en": "Singapore has universal public-building/care-facility air conditioning, life expectancy five years above Germany and mean temperature 17°C higher.",
+      "claim_type": "comparative_health",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-singlife2026",
+          "locator": "3 June 2026 life-table release",
+          "summary": "Resident life expectancy and sex-specific values."
+        },
+        {
+          "source_id": "behg-a-destatislife2025",
+          "locator": "22 July 2025 release, 2024 estimates",
+          "summary": "German sex-specific annual life expectancy."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Official Singapore data available by June 2026 report 2025 resident life expectancy 83.9 years and revised 2024 83.7; German 2024 sex-specific estimates are 78.9 for men and 83.5 for women. Comparable sex-specific gaps are around 2–3 years, not five. But the author gives no cohort or reference year, and the universal building coverage and climate-average comparison were not independently authenticated.",
+      "limits": [
+        "A mixed-year or male-only comparison can change the gap. No claim that air conditioning causes all longevity differences is attributed to the author. No finding admitted on an unspecified comparison."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-30",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "section": "5. Cold and heat mortality",
+      "original_excerpt": "allen europäischen Ländern",
+      "claim_en": "All European countries have five to fifteen times more cold-related than heat-related deaths.",
+      "claim_type": "quantitative_scope",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "Masselot et al. 2023",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-masselot-corrected",
+          "locator": "Physical p. 6, Table 2; methods pp. 2–4",
+          "summary": "Country-level urban mortality estimates and study population."
+        }
+      ],
+      "result": "overstated",
+      "explanation": "The primary Table 2 does not support the universal range even within its own urban sample: Denmark 884 cold versus 28 heat deaths is about 31.6; Finland 1,452 versus 45 is about 32.3; UK 28,342 versus 488 is about 58.1; Croatia 1,142 versus 293 is about 3.9. The study estimates adults aged 20+ in 854 urban areas across 30 countries during 2000–2019, not every European population.",
+      "limits": [
+        "The study was corrected on 2 July 2024 after an age-85+ analysis-code error. The corrected table is used here. These are modelled temperature-attributable deaths with uncertainty, not death-certificate counts of direct exposure. The scope correction does not reverse the aggregate result that estimated cold burden was larger."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-31",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "section": "5. German mortality",
+      "original_excerpt": "etwa sechsmal so viele",
+      "claim_en": "Germany has about six times as many cold-related as heat-related deaths.",
+      "claim_type": "quantitative_scope",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "Masselot et al. 2023",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-masselot-corrected",
+          "locator": "Physical p. 6, Table 2, Germany row",
+          "summary": "Approximate urban ratio, ages 20+, 2000–2019."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The corrected study’s German urban estimate is 12,108 versus 2,015 deaths, a ratio of about 6.01, directly supporting about six for the studied adult urban population. The statement does not specify that population and is framed nationally.",
+      "limits": [
+        "Retained unresolved as an unqualified nationwide claim, not silently converted to support for a narrower urban cohort. The subsequent future net-death projection is separate."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-32",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "section": "5. Modern turbine noise",
+      "original_excerpt": "wesentlich höher",
+      "claim_en": "Modern large wind turbines and multiple-turbine arrays can produce more infrasound than older individual turbines.",
+      "claim_type": "acoustic_comparison",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "Mattsson et al. 2026",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-mattsson2026",
+          "locator": "Methods, measurements and conclusion, physical pp. 2, 9–15",
+          "summary": "Specific modern installations and 1 Hz-band comparisons."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The original Mattsson study reports higher low-frequency levels for its measured modern installations than earlier smaller-turbine reports, and models multiple-source interference and atmospheric propagation. It supports a possibility and selected-comparison claim.",
+      "limits": [
+        "Does not prove every modern turbine is louder at every receiver or that all older health analyses are irrelevant. Those broader evaluations are not an empirical universal result."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-33",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "section": "5. Infrasound distance levels",
+      "original_excerpt": "20 km Entfernung 105 dB",
+      "claim_en": "Measurements showed 90–95 dB at about 1 km under 5.6 m/s hub wind and 105 dB at 20 km under roughly 10 m/s.",
+      "claim_type": "measurement_model_scope",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "Mattsson et al. 2026",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-mattsson2026",
+          "locator": "Physical p. 11, Figures 12–14, captions and Table 3; §7",
+          "summary": "Measured calibration values distinguished from simulated spatial levels."
+        }
+      ],
+      "result": "overstated",
+      "explanation": "The original article combines receiver measurements with simulated 1 Hz third-octave-band maps. Figure 14’s extensive 9.9 m/s field is explicitly a simulation calibrated with a nearby 115 dB measurement; it is not a microphone measurement at 20 km. Figure 12 likewise shows a simulated map calibrated with two receivers. The numbers can approximately describe those maps, but presenting the distance field as a measured result removes a material modelling qualification.",
+      "limits": [
+        "The source does contain large simulated long-distance levels; this finding does not claim that such levels are physically impossible or reject model validation wholesale. The first sentence says measurements; subsequent wording could be read more broadly as study results, so peer context review is required."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-34",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "section": "5. Perception threshold",
+      "original_excerpt": "Hör-/Wahrnehmungsschwelle",
+      "claim_en": "The reported roughly 1 Hz infrasound levels near 96–101 dB at 500 m are already around human hearing/perception threshold.",
+      "claim_type": "acoustic_threshold",
+      "materiality": "high",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "LfU 2022; Mattsson et al. 2026",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-lfu2022",
+          "locator": "Physical p. 5, perception-threshold explanation",
+          "summary": "Frequency-specific threshold and below-2-Hz qualification."
+        },
+        {
+          "source_id": "behg-a-mattsson2026",
+          "locator": "§7 and figure captions, 1 Hz third-octave band",
+          "summary": "Frequency of the reported spatial levels."
+        }
+      ],
+      "result": "overstated",
+      "explanation": "The cited LfU source explains that threshold depends strongly on frequency: it gives about 103 dB at 8 Hz and notes that below 2 Hz perception requires extremely high levels, greater than about 120 dB in its explanatory comparison. The Mattsson maps and anecdote concern around 1 Hz, so the submission cannot apply a generic infrasound threshold to these levels.",
+      "limits": [
+        "Individual sensitivity and non-auditory response uncertainties remain. This does not prove zero health effects below a hearing threshold. The spherical-spreading +6 dB shortcut is not treated as a verified universal receiver prediction."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-35",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "section": "5. Aircraft comparison",
+      "original_excerpt": "startenden Flugzeugs",
+      "claim_en": "105 dB at about 1 Hz from wind turbines is comparable to a departing aircraft at 100 m.",
+      "claim_type": "acoustic_comparison",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": false,
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-lfu2022",
+          "locator": "Frequency dependence of perception and caution about audible comparisons",
+          "summary": "Equal dB numbers are not equal perceived loudness across frequencies."
+        },
+        {
+          "source_id": "behg-a-mattsson2026",
+          "locator": "1 Hz-band measurement method",
+          "summary": "Defines only the turbine frequency band."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "A pressure level can share a decibel number across spectra while audibility and health meaning differ greatly. The submission supplies no aircraft measurement band, weighting, duration or source. Thus neither an equivalent perceived exposure nor a precise like-for-like pressure comparison can be established.",
+      "limits": [
+        "No specific aircraft threshold or alternative number is invented. The rhetorical comparison is not treated as proof of equal physiological harm."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-36",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "section": "5. Authors’ self-report",
+      "original_excerpt": "zwei von uns",
+      "claim_en": "Two authors reported sleep problems and migraine after at least four hours near 95 dB around 1 Hz.",
+      "claim_type": "source_report",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "Mattsson et al. 2026",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-mattsson2026",
+          "locator": "Physical p. 2, introduction",
+          "summary": "Original anecdotal self-report."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The original article contains this author self-report, so the narrow statement that the researchers reported these experiences is accurate.",
+      "limits": [
+        "This is not a blinded controlled exposure study or proof of causation, incidence or population risk. No clinical generalisation is marked supported."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-37",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        7
+      ],
+      "section": "6. Adaptation scenarios",
+      "original_excerpt": "15. Perzentil",
+      "claim_en": "KWRA 2021 used RCP8.5, generally its 15th percentile as the optimistic case and 85th as pessimistic, for precautionary planning.",
+      "claim_type": "study_methods",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "KWRA 2021",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-bt6872",
+          "locator": "Government explanation of KWRA methods",
+          "summary": "High-scenario ensemble and percentile approach."
+        },
+        {
+          "source_id": "behg-a-kwra-methods-web",
+          "locator": "UBA methods, printed p. 22, extracted primary text",
+          "summary": "Usual 15th/85th percentile cases and precaution rationale."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The official government answer explains the KWRA high-scenario ensemble approach, and the UBA methods extraction explicitly describes those percentiles and precautionary selection. Some drought/low-water metrics reverse which percentile is favourable.",
+      "limits": [
+        "Does not establish that every adaptation law, plan or current strategy relies exclusively on RCP8.5. The wording has been read in its historical KWRA context."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-38",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        7
+      ],
+      "section": "6. Scenario feasibility",
+      "original_excerpt": "das Zehnfache erhöhen müsste",
+      "claim_en": "RCP8.5 required about tenfold coal growth by 2100 and was physically impossible because recoverable fossil resources are insufficient.",
+      "claim_type": "scenario_feasibility",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "Höök et al. 2010; Riahi et al. 2011; Hausfather 2020",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-vvuuren2026",
+          "locator": "Scenario range, design rationale and high scenario",
+          "summary": "Distinguishes plausibility and scenario design from physical certainty."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The existence of resource-constraint criticism does not establish that all high-emissions pathways are physically impossible. No authenticated complete primary coal/resource accounting and scenario version was recovered for the exact tenfold comparison. The newer ScenarioMIP design considers a lower high pathway and explicitly discusses plausibility, without proving the old scenario impossible.",
+      "limits": [
+        "RCP pathways are conditional scenarios, not probabilities or unconditional forecasts. No error is inferred solely from a scenario becoming less likely."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-39",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        7
+      ],
+      "section": "6. Government statements",
+      "original_excerpt": "Am 3. Juli 2026",
+      "claim_en": "Government answers in May and July 2026 described renewables making the extreme scenario obsolete and planned the 2028/29 risk analysis around SSP3-7.0.",
+      "claim_type": "document_content",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "BT 21/6164; BT 21/6872",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-bt6164",
+          "locator": "Reply concerning RCP8.5, published 29 May 2026",
+          "summary": "Original government statement."
+        },
+        {
+          "source_id": "behg-a-bt6872",
+          "locator": "Answer concerning federal risk analysis 2028/2029",
+          "summary": "Original SSP3-7.0 statement."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Both statements appear in the original government answers. The May document is published 29 May and conveys an answer dated 27 May, so calling it the 29 May answer is ordinary publication-date shorthand. The July text itself links SSP3-7.0 to the CMIP7 scenario set.",
+      "limits": [
+        "The author does not become responsible for the government’s scenario naming inconsistency when quoting it accurately."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-40",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "section": "6 and 7. New scenarios",
+      "original_excerpt": "nicht mehr SSP",
+      "claim_en": "The new CMIP7 scenarios use labels from Very Low to High; Medium corresponds to unchanged emissions and the present emissions path.",
+      "claim_type": "scenario_definitions",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "van Vuuren et al. 2026; Pielke 2026",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-vvuuren2026",
+          "locator": "Table 1; §§3.3 and 3.6; Figure 1",
+          "summary": "Scenario names, current-policy definition and preliminary trajectories."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The new names and Very Low mid-century net-zero CO2 design are confirmed. Medium is defined by continuation of policies frozen at the scenario starting point, not a mathematical condition of constant emissions. Its resulting trajectory may be broadly stable over parts of the century, so unchanged emissions may be loose shorthand; the present path cannot uniquely determine future policy and technology.",
+      "limits": [
+        "This is a scenario definition, not a forecast that Medium must occur. No categorical error admitted from a loose baseline description alone."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-41",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "section": "7. Climate sensitivity",
+      "original_excerpt": "zwischen 1 °C und 6 °C",
+      "claim_en": "AR5 gave outer sensitivity bounds near 1–6°C with about 85% probability; AR6 narrowed assessed sensitivity although CMIP6 models span a wider range.",
+      "claim_type": "assessment_quantitative",
+      "materiality": "medium",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "IPCC AR5 2013 and AR6 2021",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-ipcc-ar5-spm",
+          "locator": "Equilibrium climate sensitivity assessment",
+          "summary": "Tail language and likely interval."
+        },
+        {
+          "source_id": "behg-a-ipcc-ar6-ch7",
+          "locator": "§7.5, sensitivity assessment and model comparison",
+          "summary": "Multiple independent constraints and raw model spread."
+        }
+      ],
+      "result": "supported",
+      "explanation": "AR5 judged equilibrium sensitivity extremely unlikely below 1°C and very unlikely above 6°C, consistent with the author’s approximate 5%/10% tail summary. Its likely interval was 1.5–4.5°C. AR6’s narrower assessed range combines several evidence lines, while raw CMIP6 model spread is wider.",
+      "limits": [
+        "The author’s statement that this makes no sense is an opinion. Assessed ranges and unweighted model ensembles are different objects; the supported record does not endorse that inference."
+      ],
+      "check_completed": true
+    },
+    {
+      "id": "behg-a-fleischmann-42",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        8
+      ],
+      "section": "7. German temperature benefit",
+      "original_excerpt": "0,86 % von 1,3 °C",
+      "claim_en": "Germany’s net-zero policy can reduce temperature by at most about 0.01°C, computed as its 0.86 percentage-point future annual emissions share reduction times a 1.3°C global scenario gap.",
+      "claim_type": "attribution_method",
+      "materiality": "high",
+      "policy_link": "Premise for abolishing the BEHG and comparing mitigation with adaptation and wind energy.",
+      "cited_by_author": "van Vuuren et al. 2026; author’s own arithmetic",
+      "check_method": [
+        "Full original document reading",
+        "Independent primary evidence, source definitions and contextual interpretation"
+      ],
+      "evidence": [
+        {
+          "source_id": "behg-a-vvuuren2026",
+          "locator": "Figure 1 and stated preliminary scenario construction",
+          "summary": "Conditional global trajectories, not national attribution."
+        },
+        {
+          "source_id": "behg-a-ipcc-ar6-ch5",
+          "locator": "Cumulative CO2 and carbon budgets",
+          "summary": "Temperature attribution requires cumulative emissions and gas-specific response."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The arithmetic is 0.0086×1.3=0.01118°C. But the calculation mixes a projected annual all-GHG share with a global multi-gas, cumulative-emissions and policy counterfactual. The van Vuuren figure uses preliminary global scenario trajectories; it does not establish a German-policy upper bound, regional temperature response or absence of hydrological effects.",
+      "limits": [
+        "This is a conditional future counterfactual, not an observed false temperature. Missing model detail is not sufficient to assign a unique corrected number."
+      ],
+      "check_completed": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "behg-a-edgar2026",
+      "title": "EDGAR 2026 official report and country table",
+      "url": "https://edgar.jrc.ec.europa.eu/report_2026",
+      "retrieved_at": "2026-10-25T09:28:00.760691+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-edgar2026.html",
+      "sha256": "abeaa00f8e80aeedb6fc63b438302b294a5e214aa272d87efdcba790728b077d",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 250897,
+      "content_type": "text/html; charset=UTF-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-ipcc-ar6-ch7",
+      "title": "IPCC AR6 WGI Chapter 7, feedbacks and sensitivity",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/",
+      "retrieved_at": "2026-10-25T09:28:00.761152+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-ipcc-ar6-ch7.html",
+      "sha256": "d2391a9175bf941fe543439e6fe3802b9c570af3750de1ff6ef166ad4e537b53",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 2045113,
+      "content_type": "text/html; charset=UTF-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-ipcc-ar6-ch3",
+      "title": "IPCC AR6 WGI Chapter 3, human influence",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-3/",
+      "retrieved_at": "2026-10-25T09:28:00.761322+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-ipcc-ar6-ch3.html",
+      "sha256": "85e3b52cb32b5d8d6c23ad1cd4c6915ffd9a079ad6959b4423c850f624032554",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 1572492,
+      "content_type": "text/html; charset=UTF-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-ipcc-ar6-ch5",
+      "title": "IPCC AR6 WGI Chapter 5, carbon cycles",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5/",
+      "retrieved_at": "2026-10-25T09:28:00.761494+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-ipcc-ar6-ch5.html",
+      "sha256": "8b10255b7d55384ae90934661406fad29537a31c28658a450be9127010086240",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 2193305,
+      "content_type": "text/html; charset=UTF-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-ipcc-ar6-ch4",
+      "title": "IPCC AR6 WGI Chapter 4, future projections",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-4/",
+      "retrieved_at": "2026-10-25T09:28:01.168606+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-ipcc-ar6-ch4.html",
+      "sha256": "40ca5258665f1a69ec5f120a4acd0f8d3cfbb15c4b66450fb1fe20e979b3363d",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 1593880,
+      "content_type": "text/html; charset=UTF-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-ipcc-ar5-spm",
+      "title": "IPCC AR5 WGI SPM original",
+      "url": "https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_SPM_FINAL.pdf",
+      "retrieved_at": "2026-10-25T09:28:01.568764+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-ipcc-ar5-spm.pdf",
+      "sha256": "92c996def24060809394bc65885b1227b4ca53adf34d1165b5c23161c4fa4ac4",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 2297508,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-kalisoras2024",
+      "title": "Kalisoras et al. 2024 aerosol effective radiative forcing",
+      "url": "https://acp.copernicus.org/articles/24/7837/2024/acp-24-7837-2024.pdf",
+      "retrieved_at": "2026-10-25T09:28:01.607903+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-kalisoras2024.pdf",
+      "sha256": "293c0ebbcf99173746a2c47467146e639be6f0e1255c7a77ce6263be71de9888",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 21280535,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-vvuuren2026",
+      "title": "van Vuuren et al. 2026 ScenarioMIP–CMIP7",
+      "url": "https://gmd.copernicus.org/articles/19/2627/2026/gmd-19-2627-2026.pdf",
+      "retrieved_at": "2026-10-25T09:28:02.030340+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-vvuuren2026.pdf",
+      "sha256": "da9b08cc7ed4255b7d8594e6e2b75dd688341e2cb7d20567bfbf0d208d6f68a7",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 5554599,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-csiro2013",
+      "title": "CSIRO original research summary of greening",
+      "url": "https://www.csiro.au/en/news/All/News/2013/July/Deserts-greening-from-rising-CO2",
+      "retrieved_at": "2026-10-25T09:28:02.248963+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-csiro2013.html",
+      "sha256": "d3a3d9cfde9b954269c54cf8a3616f24f605e04c458426e4f260069f7c1a38c8",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 116785,
+      "content_type": "text/html; charset=utf-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-hereon2022",
+      "title": "Hereon authors institutional research explanation",
+      "url": "https://www.hereon.de/communication_media/news/104924/index.php.de",
+      "retrieved_at": "2026-10-25T09:28:03.412908+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-hereon2022.html",
+      "sha256": "22aa363a8557a94c68ce1546c62533f78a4b27809a29a8735b37ef63966df3a2",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 222692,
+      "content_type": "text/html; charset=UTF-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-wangprinn2010",
+      "title": "Wang and Prinn 2010 original windfarm simulations",
+      "url": "https://acp.copernicus.org/articles/10/2053/2010/acp-10-2053-2010.pdf",
+      "retrieved_at": "2026-10-25T09:28:05.631724+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-wangprinn2010.pdf",
+      "sha256": "500c845db62f537f129d71a49d31b3de3a17e890c20aac169a5aad00f9223232",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 4740058,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-chang2016",
+      "title": "Chang et al. 2016 original windfarm land-surface-temperature study",
+      "url": "https://www.mdpi.com/2072-4292/8/10/790",
+      "retrieved_at": "2026-10-25T09:28:05.872092+00:00",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "error": "HTTP Error 403: Forbidden",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "behg-a-smith2013",
+      "title": "Smith et al. 2013 original observational windfarm study",
+      "url": "https://iopscience.iop.org/article/10.1088/1748-9326/8/3/034006",
+      "retrieved_at": "2026-10-25T09:28:05.932131+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-smith2013.html",
+      "sha256": "f803a54b14cfbdc8ae3985d8a101ee08a7c92e8cd249cbf61adf4e009e2bda8c",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 14371,
+      "content_type": "text/html; charset=UTF-8",
+      "usable_as_evidence": false,
+      "access_status": "Browser challenge; content inspected and not used as original source text."
+    },
+    {
+      "id": "behg-a-rickels2024",
+      "title": "Rickels et al. 2024 author-institute record and methods",
+      "url": "https://www.ifw-kiel.de/de/publikationen/moegliche-effizienzgewinne-durch-die-einfuehrung-eines-laenderuebergreifenden-emissionshandels-fuer-den-gebaeude-und-strassenverkehrssektor-in-der-europaeischen-union-32188/",
+      "retrieved_at": "2026-10-25T09:28:07.925028+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-rickels2024.html",
+      "sha256": "a3d08ce5bc754136d1636ce7ce77082c0a9cb7038d9dbf2b05a0818ca4fbace6",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 121091,
+      "content_type": "text/html; charset=utf-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-bill2019",
+      "title": "Original 2019 BEHG government bill",
+      "url": "https://dserver.bundestag.de/btd/19/149/1914949.pdf",
+      "retrieved_at": "2026-10-25T09:28:13.251257+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-bill2019.pdf",
+      "sha256": "ace34110723572fe8d242bbbe89fbeb48b1e0dac54256659b8ebf2cad322d05f",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 509577,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-bt6164",
+      "title": "Government answer published 29 May 2026",
+      "url": "https://dserver.bundestag.de/btd/21/061/2106164.pdf",
+      "retrieved_at": "2026-10-25T09:28:15.615751+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-bt6164.pdf",
+      "sha256": "584fd06c8c2f8348f740c5da6e1718dc5c3428c588ea2009b2936427a94260e9",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 1209849,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-bt6872",
+      "title": "Government answer of 3 July 2026",
+      "url": "https://dserver.bundestag.de/btd/21/068/2106872.pdf",
+      "retrieved_at": "2026-10-25T09:28:18.420129+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-bt6872.pdf",
+      "sha256": "edf4aa3228ddd593a40a45f531e963077b561b878ee113314f73d8e71e8e0bec",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 372183,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-lfu2022",
+      "title": "Bavarian LfU 2022 infrasound and wind turbine health",
+      "url": "https://www.lfu.bayern.de/buerger/doc/uw_117_windkraftanlagen_infraschall_gesundheit.pdf",
+      "retrieved_at": "2026-10-25T09:28:20.409479+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-lfu2022.pdf",
+      "sha256": "5351c2eedcaba230045d2166b893e5c826a9167c9e8b33e4309810ca38214590",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 3487426,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-who-heat",
+      "title": "WHO heat-and-health evidence fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health",
+      "retrieved_at": "2026-10-25T09:28:20.421691+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-who-heat.html",
+      "sha256": "d8a6e1a593917108e22799921d4a1b222ef6b9ff68aaf507d3602460de3ba063",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 120193,
+      "content_type": "text/html; charset=utf-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-imo2020",
+      "title": "IMO sulphur 2020 official introduction",
+      "url": "https://www.imo.org/en/MediaCentre/HotTopics/Pages/Sulphur-2020.aspx",
+      "retrieved_at": "2026-10-25T09:28:20.683492+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-imo2020.html",
+      "sha256": "c6c9b4bdf398af75b07ea37abdae97717ad1fcc70fb91230ca43c1141bf8caef",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 77430,
+      "content_type": "text/html; charset=utf-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-unfccc-paris",
+      "title": "Paris Agreement official treaty",
+      "url": "https://unfccc.int/sites/default/files/english_paris_agreement.pdf",
+      "retrieved_at": "2026-10-25T09:28:22.405173+00:00",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "error": "NotPDF:text/html",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "behg-a-aspi2025",
+      "title": "ASPI Critical Technology Tracker 2025 primary method/result",
+      "url": "https://www.aspi.org.au/report/aspis-critical-technology-tracker-the-global-race-for-future-power/",
+      "retrieved_at": "2026-10-25T09:28:23.181492+00:00",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "error": "HTTP Error 403: Forbidden",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "behg-a-lindzen2009",
+      "title": "Lindzen and Choi 2009 original article",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2009GL039628",
+      "retrieved_at": "2026-10-25T09:28:23.335173+00:00",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "error": "HTTP Error 403: Forbidden",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "behg-a-happer2023",
+      "title": "van Wijngaarden and Happer 2023 original preprint",
+      "url": "https://arxiv.org/pdf/2303.00808",
+      "retrieved_at": "2026-10-25T09:28:23.368464+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-happer2023.pdf",
+      "sha256": "2c77050398e505fff8612ffa864965930528ebfd1641f105d4ff29d87f92e977",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 1260902,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-nasa-giss",
+      "title": "NASA GISS direct global temperature data",
+      "url": "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.txt",
+      "retrieved_at": "2026-10-25T09:28:23.399336+00:00",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "error": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "behg-a-noaa-co2",
+      "title": "NOAA annual atmospheric CO2 record",
+      "url": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_annmean_mlo.txt",
+      "retrieved_at": "2026-10-25T09:28:23.844463+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-noaa-co2.txt",
+      "sha256": "42acfe30569dd7134bda3ac3eb74e347a55b5133c3926557410e1b4ec4423f7f",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 3696,
+      "content_type": "text/plain; charset=UTF-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-masselot2023",
+      "title": "Masselot et al. 2023 original article,existing university archive",
+      "url": "https://doi.org/10.1016/S2542-5196(23)00023-2",
+      "retrieved_at": "2026-10-25T09:29:06.081281+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-masselot2023.pdf",
+      "sha256": "348e75f1c96558b09de05981534513cb2c674e1090cb5a03fb1b874a077b71ad",
+      "temporal_limit": "Re-used preserved primary publication bytes; online publication in 2023/2025 predates authorship. Original local archive: research/round3-energy/sources/masselot2023-original-university.pdf",
+      "archive_kind": "reused_primary_archive",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-mattsson2026",
+      "title": "Mattsson et al. 2026 original article,existing archived original",
+      "url": "https://doi.org/10.1016/j.apacoust.2025.111156",
+      "retrieved_at": "2026-10-25T09:29:06.252329+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-mattsson2026.pdf",
+      "sha256": "68a38aa64eab6980a9faa8ca54beab9669473e6b27d77abd998a9b4839e08063",
+      "temporal_limit": "Re-used preserved primary publication bytes; online publication in 2023/2025 predates authorship. Original local archive: research/round3-energy/sources/mattsson-infrasound-2026.pdf",
+      "archive_kind": "reused_primary_archive",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-uk-carbonbudgets",
+      "title": "UK government binding carbon budgets explanation",
+      "url": "https://www.gov.uk/guidance/carbon-budgets",
+      "retrieved_at": "2026-10-25T09:31:42.618216+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-uk-carbonbudgets.html",
+      "sha256": "e36ee2c70d96b9cc20f1867b08bbe98f380e785b1f639af65b6c62e6af006a90",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 89424,
+      "content_type": "text/html; charset=utf-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-uk-act1",
+      "title": "UK Climate Change Act section 1",
+      "url": "https://www.legislation.gov.uk/ukpga/2008/27/section/1",
+      "retrieved_at": "2026-10-25T09:31:42.618695+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-uk-act1.html",
+      "sha256": "e7dd066d80a19f5e48d7e3ab759d32d318a42c7b955a1603ab2f30e28968e29c",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 38828,
+      "content_type": "text/html;charset=utf-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-dehstq1",
+      "title": "DEHSt EU ETS1 German auctions, Q1 2026",
+      "url": "https://www.dehst.de/SharedDocs/downloads/DE/versteigerung/2026/2026_Bericht_Q1.pdf?__blob=publicationFile&v=3",
+      "retrieved_at": "2026-10-25T09:31:42.618860+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-dehstq1.pdf",
+      "sha256": "1635a0008952c1e34c883bbb8cf8af01e69ea0053a87d503e384098298f3c446",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 863976,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-dwd-sun",
+      "title": "DWD raw annual German sunshine area means",
+      "url": "https://opendata.dwd.de/climate_environment/CDC/regional_averages_DE/annual/sunshine_duration/regional_averages_sd_year.txt",
+      "retrieved_at": "2026-10-25T09:31:42.619005+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-dwd-sun.txt",
+      "sha256": "83512a930198078c7d57261da013d67e7cb8d24c9f300416deae6d30cce6b690",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 12762,
+      "content_type": "text/plain",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-dwd-temp",
+      "title": "DWD raw annual German temperature area means",
+      "url": "https://opendata.dwd.de/climate_environment/CDC/regional_averages_DE/annual/air_temperature_mean/regional_averages_tm_year.txt",
+      "retrieved_at": "2026-10-25T09:31:43.183888+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-dwd-temp.txt",
+      "sha256": "f36ed3486289e517ff30765815c4c2397697c9abda8279cc4a200a3c55b5164d",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 26777,
+      "content_type": "text/plain",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-singlife2026",
+      "title": "Singapore statistics, 3 June 2026 resident life tables",
+      "url": "https://www.singstat.gov.sg/find-data/explore-data-themes/population/death-and-life-expectancy/latest-news-data",
+      "retrieved_at": "2026-10-25T09:31:43.510262+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-singlife2026.html",
+      "sha256": "4df38c8218935ac9facb427fb3f6cdec962519bbee520358f824d831f8ba5d73",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 384897,
+      "content_type": "text/html",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-destatislife2025",
+      "title": "Destatis, 22 July 2025 official 2024 life expectancy",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_266_12621.html",
+      "retrieved_at": "2026-10-25T09:31:43.734266+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-destatislife2025.html",
+      "sha256": "cc9c37bd5f0ac336690cbe26b690a8e112bf791a461f03570a5d1529705a3fb8",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 78630,
+      "content_type": "text/html;charset=utf-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-kaestner2023",
+      "title": "Authors primary report on incidence of carbon prices",
+      "url": "https://www.econstor.eu/bitstream/10419/281197/1/1878477064.pdf",
+      "retrieved_at": "2026-10-25T09:31:44.251541+00:00",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "error": "NotPDF:text/html; charset=utf-8",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "behg-a-paris-unfccc",
+      "title": "Paris Agreement official treaty 2015",
+      "url": "https://unfccc.int/sites/default/files/resource/parisagreement_publication.pdf",
+      "retrieved_at": "2026-10-25T09:31:44.364311+00:00",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "error": "NotPDF:text/html",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "behg-a-gettelman2008",
+      "title": "Gettelman and Fu 2008 AIRS feedback measurements original",
+      "url": "https://journals.ametsoc.org/view/journals/clim/21/13/2007jcli2142.1.xml",
+      "retrieved_at": "2026-10-25T09:31:45.401105+00:00",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "error": "HTTP Error 403: Forbidden",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "behg-a-dessler2013",
+      "title": "Dessler et al. 2013 stratospheric water vapour feedback original",
+      "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.1310344110",
+      "retrieved_at": "2026-10-25T09:31:45.438041+00:00",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "error": "HTTP Error 403: Forbidden",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "behg-a-kwra2021",
+      "title": "UBA 2021 climate impact risk analysis summary",
+      "url": "https://www.umweltbundesamt.de/sites/default/files/medien/479/publikationen/kwra2021_teilbericht_zusammenfassung_bf_211027_0.pdf",
+      "retrieved_at": "2026-10-25T09:31:45.477730+00:00",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "error": "HTTP Error 404: Not Found",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "behg-a-chang2016pdf",
+      "title": "Chang et al. 2016original remote-sensing wind farm study",
+      "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-08-00790/article_deploy/remotesensing-08-00790.pdf",
+      "retrieved_at": "2026-10-25T09:31:45.689223+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-chang2016pdf.pdf",
+      "sha256": "7052fc6f4b43ab70d6da31834fff4033b814f2134bf6fe175655cafc110e454c",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 4709111,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-kalisoras-supplement",
+      "title": "Kalisoras et al. 2024 supplementary original figures",
+      "url": "https://acp.copernicus.org/articles/24/7837/2024/acp-24-7837-2024-supplement.pdf",
+      "retrieved_at": "2026-10-25T09:39:29.552601+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-kalisoras-supplement.pdf",
+      "sha256": "4c19b55670142700f483584f2dbebcce60c4bc387b4625a5e0291e4e8d10053d",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 60637062,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-dessler2013pmc",
+      "title": "Dessler et al. 2013 original open article",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3831493/",
+      "retrieved_at": "2026-10-25T09:39:29.553010+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-dessler2013pmc.html",
+      "sha256": "401de01690803c87c1b984c1ec8b1dbf3d6b21c05654184f3e7b3820c0582a06",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 154681,
+      "content_type": "text/html; charset=utf-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-lindzen2011",
+      "title": "Lindzen and Choi 2011 original article, Harvard course copy",
+      "url": "https://courses.seas.harvard.edu/climate/eli/Courses/global-change-debates/Sources/Iris-effect/5-Lindzen-Choi-2011.pdf",
+      "retrieved_at": "2026-10-25T09:39:29.553183+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-lindzen2011.pdf",
+      "sha256": "2d00c3a94a287939d107e7b5d379c1e2674592dd266b748ad5538389270b5c40",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 1595226,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-kwra2021base",
+      "title": "UBA 2021 climate impact risk analysis original methods",
+      "url": "https://www.umweltbundesamt.de/sites/default/files/medien/479/publikationen/kwra2021_teilbericht_1_grundlagen_bf_211027_0.pdf",
+      "retrieved_at": "2026-10-25T09:39:29.553323+00:00",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "error": "HTTP Error 404: Not Found",
+      "usable_as_evidence": false
+    },
+    {
+      "id": "behg-a-hereon-original",
+      "title": "Christiansen et al. 2022 original North Sea hydrodynamic study",
+      "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2022.818501/full",
+      "retrieved_at": "2026-10-25T09:39:30.242213+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-hereon-original.html",
+      "sha256": "3bf36c9bee21048912da750a3759c83ec808a221ca35d93778118b7cafdedb23",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 907500,
+      "content_type": "text/html;charset=utf-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-unfccc-overview",
+      "title": "UNFCCC official Paris Agreement legal overview",
+      "url": "https://unfccc.int/process-and-meetings/the-paris-agreement",
+      "retrieved_at": "2026-10-25T09:39:31.021585+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-unfccc-overview.html",
+      "sha256": "624b8716d660d625527610f047967902032729ad580d518037b1b3ad74e2483f",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 838,
+      "content_type": "text/html",
+      "usable_as_evidence": false,
+      "access_status": "Browser challenge; content inspected and not used as original source text."
+    },
+    {
+      "id": "behg-a-diw2025",
+      "title": "DIW original household carbon price incidence study 2025",
+      "url": "https://www.diw.de/de/diw_01.c.967000.de/publikationen/wochenberichte/2025_27_2/regionalisiertes_klimageld_entlastet_haushalte_in_laendlichen_raeumen__problem_der_haertefaelle_bleibt.html",
+      "retrieved_at": "2026-10-25T09:39:31.825005+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-diw2025.html",
+      "sha256": "13bb3f0d3d75cab163894479760ca58ac25bf078a1400810cbc055109840f748",
+      "temporal_limit": "Publication/period must predate authorship; current retrieval is not frozen historical bytes.",
+      "bytes": 177536,
+      "content_type": "text/html; charset=utf-8",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-masselot-corrected",
+      "title": "Masselot et al. 2023, corrected 2 July 2024",
+      "url": "https://doi.org/10.1016/S2542-5196(23)00023-2",
+      "retrieved_at": "2026-10-25T09:49:37.573445+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-masselot-corrected.pdf",
+      "sha256": "b82e4db1746f0dd0022494ffd59d7660c9ca5a1fb322b08b6592a93f74f39a21",
+      "temporal_limit": "Correction published 2 July 2024 before authorship. Independently re-read corrected Table 2 and correction notice; preserved earlier uncorrected archive separately.",
+      "archive_kind": "reused_primary_archive",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-masselot-correction",
+      "title": "Masselot et al. correction notice, 2 July 2024",
+      "url": "https://www.ag-myresearch.com/uploads/1/3/8/6/13864925/2023_masselot_lancetplanhealth_correction.pdf",
+      "retrieved_at": "2026-10-25T09:49:37.574526+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-masselot-correction.pdf",
+      "sha256": "f92809d0f34b49bf01e9f154c420baf41697d3aad00ad3ccce9ec3b09729432a",
+      "temporal_limit": "Correction published 2 July 2024 before authorship. Independently re-read corrected Table 2 and correction notice; preserved earlier uncorrected archive separately.",
+      "archive_kind": "reused_primary_archive",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-primary-web",
+      "title": "Primary web-tool extraction: ESR target law and nuclear closure",
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/857/oj/eng",
+      "retrieved_at": "2026-10-25T09:49:42.659752+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-primary-web-extraction.json",
+      "sha256": "11a996a81d05122e5b6f0b7cbc39d236566b64a165811eaadf5f4253fef2c2d1",
+      "temporal_limit": "Retrieved 25 October 2026. Legal instruments and 2008 publication predate authorship; current web snapshots are not historical page bytes.",
+      "archive_kind": "web_tool_extraction",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-methods-web",
+      "title": "Primary web-tool extraction: UNFCCC NDC duties and Dessler 2008 observational abstract",
+      "url": "https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs",
+      "retrieved_at": "2026-10-25T09:49:42.659752+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-methods-web-extraction.json",
+      "sha256": "601c6f7720f7e224f3a9d5d5990b3c51e446847031d6d3297a89713ab8c527f6",
+      "temporal_limit": "Retrieved 25 October 2026. Legal instruments and 2008 publication predate authorship; current web snapshots are not historical page bytes.",
+      "archive_kind": "web_tool_extraction",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-a-kwra-methods-web",
+      "title": "UBA 2021 methods, labelled primary web extraction",
+      "url": "https://www.umweltbundesamt.de/sites/default/files/medien/479/publikationen/kwra2021_teilbericht_1_grundlagen_bf_211027_0.pdf",
+      "retrieved_at": "2026-10-25T09:49:42.659752+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/a-kwra-methods-web.json",
+      "sha256": "d99dcb926313f8eadba58d49d3cdbf07a5bfc00188e73eda5862087272e026a5",
+      "temporal_limit": "Primary 2021 report predates authorship; no original PDF bytes recovered.",
+      "archive_kind": "web_tool_extraction",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-root-law",
+      "title": "behg-root-law",
+      "url": "https://www.gesetze-im-internet.de/behg/BJNR272800019.html",
+      "retrieved_at": "2026-10-25T09:28:27.432964+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/behg-root-law.html",
+      "sha256": "ca0ef4cae5948b172cea2912ce85e80a9ffe85b33aaca0f56827df15b6677988",
+      "content_type": "text/html",
+      "resolved_url": "https://www.gesetze-im-internet.de/behg/BJNR272800019.html",
+      "temporal_limit": "Current retrieval; check amendment/effective-date and relevant provision before historical use."
+    },
+    {
+      "id": "behg-root-behv",
+      "title": "behg-root-behv",
+      "url": "https://www.gesetze-im-internet.de/behv/BJNR302600020.html",
+      "retrieved_at": "2026-10-25T09:28:29.371406+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/behg-root-behv.html",
+      "sha256": "a69f7b4b7fca2ed10a5d0d69f85b3d197403d4a9733ae6cec169f4e4b4995db9",
+      "content_type": "text/html",
+      "resolved_url": "https://www.gesetze-im-internet.de/behv/BJNR302600020.html",
+      "temporal_limit": "Current retrieval; check amendment/effective-date and relevant provision before historical use."
+    },
+    {
+      "id": "behg-root-ksg",
+      "title": "behg-root-ksg",
+      "url": "https://www.gesetze-im-internet.de/ksg/BJNR251310019.html",
+      "retrieved_at": "2026-10-25T09:28:33.836961+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/behg-root-ksg.html",
+      "sha256": "d1ae57867220028f6953e0049334ed1c3d4422333ddb7452bdae98722c0dd8ef",
+      "content_type": "text/html",
+      "resolved_url": "https://www.gesetze-im-internet.de/ksg/BJNR251310019.html",
+      "temporal_limit": "Current retrieval; check amendment/effective-date and relevant provision before historical use."
+    },
+    {
+      "id": "behg-root-draft",
+      "title": "Government BEHG amendment bill BT21/7869,7September2026",
+      "url": "https://dserver.bundestag.de/btd/21/078/2107869.pdf",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round3-energy/sources/bt217869-behg.pdf",
+      "sha256": "cb48c3954e4777e343788a5f243483a4b431cd4622f0f38728cc9c5b7ca53de3",
+      "temporal_limit": "Archived committee government bill. Julyreferentenversionnotauthenticated; original authored dates and committee covers remain separate."
+    },
+    {
+      "id": "behg-root-becv",
+      "title": "BECV full text",
+      "url": "https://www.gesetze-im-internet.de/becv/BJNR312900021.html",
+      "retrieved_at": "2026-10-25T09:32:46.957603+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/behg-root-becv.html",
+      "sha256": "2f21b1265835c8d88c06e2db229f455ae3718a66e26c2cb3a0d236714e3e547d",
+      "temporal_limit": "Retrieved25October2026. Current consolidated text requires header/amendment comparison before use for October authored claims; Spanish official journal reproduces March2026 act.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-root-eu2026667-boe",
+      "title": "EU2026/667 official Spanish gazette reproduction",
+      "url": "https://www.boe.es/doue/2026/667/L00001-00008.pdf",
+      "retrieved_at": "2026-10-25T09:32:50.917124+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/behg-root-eu2026667-boe.pdf",
+      "sha256": "52cf183a478d211f5aa8ac62f77431b2e8d8923d4b55aa60df1acb4e4cc17367",
+      "temporal_limit": "Retrieved25October2026. Current consolidated text requires header/amendment comparison before use for October authored claims; Spanish official journal reproduces March2026 act.",
+      "usable_as_evidence": true
+    }
+  ],
+  "exclusions": [
+    {
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        1
+      ],
+      "category": "cover",
+      "reason": "Committee title, hearing and document identifiers; provenance retained separately."
+    },
+    {
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        2
+      ],
+      "category": "assumptions_and_preferences",
+      "reason": "Author explicitly assumes climate costs and need for policy; unspecified scientific doubts in footnote 1 are not a precise independently testable result."
+    },
+    {
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "category": "policy_preferences",
+      "reason": "Global coordination, free-rider policy conclusions, adaptation-first recommendation and abandonment requests are normative; their factual premises are inventoried."
+    },
+    {
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        5
+      ],
+      "category": "forecasts",
+      "reason": "Future ETS1 fallback price probably above the corridor and expected administrative benefits are ex ante forecasts, not observed outcomes."
+    },
+    {
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "category": "conditional_theory_and_forecasts",
+      "reason": "Conditional supply/demand diagrams, inevitable excess-demand prediction, competition and consumption forecasts are not recorded as observed market facts; operative price/volume rules and claimed past auction results are inventoried."
+    },
+    {
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        8
+      ],
+      "category": "unquantified_predictions",
+      "reason": "Current cost lower-bound speculation, future relocation/deindustrialisation, competitiveness and welfare rhetoric are unquantified predictions; legal relief and average unrebated incidence are inventoried."
+    },
+    {
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        9
+      ],
+      "category": "policy_conclusions",
+      "reason": "Abolition recommendation, extremely expensive symbolic policy and governmental-motivation language are evaluations; duplicated numerical premises are merged."
+    },
+    {
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        10
+      ],
+      "category": "references",
+      "reason": "Bibliographic entries read and used as leads; no new independent policy assertion."
+    },
+    {
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        1
+      ],
+      "category": "cover",
+      "reason": "Committee title, hearing and provenance only."
+    },
+    {
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        2
+      ],
+      "category": "normative_framing",
+      "reason": "Claims that targets are sensible or unlucky, and the political nature of the chosen warming limit, are evaluative; target legal force and dates are inventoried. Self-description as scientifically recognised is not a discrete scientific proposition."
+    },
+    {
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        3
+      ],
+      "category": "forecasts_and_rhetoric",
+      "reason": "2030/2035/2045 projections are explicitly conditional and uncertain; predicted emissions offsets and future shares are forecasts. China negotiating skill and deserving a status are rhetorical evaluations."
+    },
+    {
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "category": "preferences_and_context",
+      "reason": "Policy significance of greening and adequacy of its consideration are opinions. Greenhouse enrichment practice and history of discovery are low-priority contextual details; material fertilisation mechanism is inventoried."
+    },
+    {
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "category": "forecasts_and_policy_evaluations",
+      "reason": "Germany-wide future wind warming, stronger overall climate damage and future net mortality reduction are predictions without common counterfactuals; measured/modelled premises are inventoried. Air-conditioning negligence, old studies being irrelevant and the heading comparing overall health danger are evaluations."
+    },
+    {
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        7
+      ],
+      "category": "normative_and_forecast",
+      "reason": "Questions about following science, welfare precaution and future scenario likelihood are evaluations; study methods and government quotations are inventoried. EEG public-interest wording is a legal policy designation, not a clinical guarantee."
+    },
+    {
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        8
+      ],
+      "category": "policy_conclusion_and_repetition",
+      "reason": "BEHG abolition, planned-economy labels, pollutant rhetoric and a political speech quotation are normative/rhetorical; exact speech provenance is incidental to the factual rationale. Future national temperature and wind conclusions are conditional forecasts; their calculation method is inventoried. Footnote definitions of RCP and CMIP are background terminology consistent with primary scenario description."
+    },
+    {
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        9
+      ],
+      "category": "references",
+      "reason": "Bibliography fully read; no new standalone material assertion."
+    }
+  ],
+  "method_notes": [
+    "All 19 allocated physical pages were read before consulting earlier targeted findings.",
+    "Primary checks extend beyond directly cited sources. This inventory retains supported and unresolved results, not an error-only selection.",
+    "Critical original Fleischmann pages 5–6 and Kalisoras Figure 9/Table 5 and Mattsson pp. 11–15 were visually checked.",
+    "Candidate outcomes are proposed for independent review, not automatically admitted to main data.",
+    "Pure forecasts and policy evaluations are listed in exclusions; their independently testable underlying methods or premises are inventoried."
+  ],
+  "limitations": [
+    "No author contact or human specialist confirmation.",
+    "Some primary pages were inaccessible; challenges and failed downloads are explicitly marked unusable.",
+    "Source titles are metadata; excerpts are exact short contiguous anchors, with only PDF line-wrap whitespace normalisation for validation.",
+    "The Söllner cover/letter/hearing date conflict limits assertions about actual submission timing."
+  ]
+}

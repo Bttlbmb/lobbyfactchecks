@@ -1,0 +1,154 @@
+{
+  "id": "enefg2026-vik-a01",
+  "law_id": "enefg-2026",
+  "document_id": "vik-enefg-2026-sg2608060032",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "major",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "A pending revision of German energy-efficiency duties and implementation of the EU Energy Efficiency Directive.",
+    "they_want": "Delete or weaken the national energy-efficiency targets in § 4 EnEfG.",
+    "they_claim": "Germany used about 3,273 TWh of final energy in 2020; reducing it 11.7% gives an EU-consistent 2030 level around 2,890 TWh, making the German 1,867 TWh target excessively strict.",
+    "the_problem": "The 2020 quantity is primary energy, not final energy. The 11.7% EU target also uses modelled 2030 consumption from the 2020 reference scenario, not observed pandemic-year consumption. The derived comparison is invalid."
+  },
+  "claim_quote": {
+    "original": "Der Deutsche Endenergieverbrauch lag 2020 bei 402 Mio. t. SKE, bzw. rund 3272.682 TWh.",
+    "language": "de",
+    "translation_en": "Translation: German final energy consumption in 2020 was 402 million tonnes of coal equivalent, or about 3,272.682 TWh.",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 3,
+      "section": "2. § 4 Energieeffizienzziele",
+      "paragraph": "second paragraph on page 3"
+    },
+    "underline": "Endenergieverbrauch"
+  },
+  "derived_claim_quote": {
+    "original": "2889.778 TWh bis 2030",
+    "language": "de",
+    "translation_en": "Translation: 2,889.778 TWh by 2030",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 3,
+      "section": "2. § 4 Energieeffizienzziele",
+      "paragraph": "same paragraph, bold result"
+    }
+  },
+  "request_quote": {
+    "original": "Dieser Abschnitt sollte ersatzlos gestrichen",
+    "language": "de",
+    "translation_en": "Translation of request fragment: This section should be deleted without replacement",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": 2,
+      "section": "2. § 4 Energieeffizienzziele",
+      "paragraph": "first bullet on § 4(1–4)"
+    },
+    "context": "The complete sentence alternatively asks for weakening to EED requirements. Both alternatives are grounded in the same comparison."
+  },
+  "counter_quote": {
+    "original": "Der Primärenergieverbrauch in Deutschland betrug im Jahr 2020 insgesamt 11.784 PJ oder 402,1 Mio. t SKE",
+    "language": "de",
+    "translation_en": "Translation: Primary energy consumption in Germany in 2020 totalled 11,784 PJ or 402.1 million tonnes of coal equivalent",
+    "source_id": "ageb-jahresbericht-2020",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "section": "Primärenergieverbrauch insgesamt",
+      "paragraph": "opening sentence, two-column reading order"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "supplementary_counter_quote": {
+    "original": "2020 – gesamt 8.341 Petajoule (PJ)",
+    "language": "de",
+    "translation_en": "Translation: 2020 — total 8,341 petajoules (PJ)",
+    "source_id": "ageb-final-energy-2020",
+    "locator": {
+      "pdf_page": 1,
+      "section": "Endenergieverbrauch in Deutschland",
+      "paragraph": "subtitle"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "baseline_counter_quote": {
+    "original": "compared to the 2020 projections for energy use in 2030",
+    "language": "en",
+    "source_id": "ec-energy-efficiency-targets",
+    "locator": {
+      "section": "Energy efficiency targets",
+      "paragraph": "opening sentence"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "correction": "The approximately 402 million-tonne figure matches the statistics producer's 2020 primary-energy total, whose 2021 report gives 402.1 million tonnes/11,784 PJ. Its final-energy infographic instead gives 8,341 PJ, about 2,317 TWh. Category definitions and subsequent revisions may change the precise final figure, not convert the primary total into final energy. Separately, EED Article 4 and recital 28 apply 11.7% to modelled 2030 use in the 2020 reference scenario at EU level. National indicative contributions must account for the directive's criteria; multiplying observed German 2020 use by 0.883 does not produce Germany's EU minimum.",
+  "effect": "Removes the numerical basis for claiming a 2,890 TWh EU comparator against the 1,867 TWh German target. The primary/final mislabelling inflates the starting final-energy quantity by roughly 40%, while the reference-year substitution independently prevents the calculation from establishing the asserted EU comparator.",
+  "limits": "This does not prove the German target is feasible, economically optimal or legally mandatory at exactly 1,867 TWh. It does not establish motive. The statement correctly mentions the 2020 reference scenario on page 2; the error arises when the next page substitutes a pandemic-year consumption figure. Simply replacing the starting quantity with actual 2020 final energy and multiplying 0.883 would still not calculate the correct EU-based national contribution. The EED contains a binding collective final-energy target, an indicative primary-energy target and national indicative contributions; do not portray the 11.7% as an identical binding reduction imposed on every state.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "materiality": "Major: the mixed-category, mixed-baseline calculation supplies a much looser numerical comparator for the explicit request to remove or weaken § 4. The magnitude and direct argument linkage, rather than disagreement with the requested policy, determine severity.",
+  "direction_reasoning": "A larger alleged EU-consistent allowance strengthens the author's claim that Germany imposed an excessive extra burden, supporting deletion or weakening. Correcting the calculation weakens that argument without resolving the policy choice.",
+  "draft": {
+    "title": "Gesetz zur Beschleunigung der Umsetzung der Energieeffizienzrichtlinie",
+    "version_date": "2026-04-09",
+    "source_id": "enefg-draft-2026-04-09",
+    "dispatch_date": "2026-04-16",
+    "author_publication_date": "2026-04-20",
+    "version_reasoning": "Official register says sent 16 April 2026; ministry consultation archive associates the response with the 9 April draft. Author page publishes 20 April. The source PDF has an obsolete 2025 election header but its title, provisions and dispatch concern this 2026 consultation. The 9 April 79-page draft retains existing § 4 targets and alters § 5; compare that version and existing § 4, not the later June cabinet bill BR 388/26 linked retrospectively in August register metadata."
+  },
+  "context_checks": [
+    "Read all 4 PDF pages and the author's full public 20 April 2026 web reproduction. Relevant numbers/request agree, but webpage rounds numbers and edits wording: no claim of full identity.",
+    "Official Lobbyregister 4-page attachment independently read through web reader, including exact 402/3272.682/2889.778 passages and page 2 request. Relevant passages match archived consultation mirror PDF.",
+    "Rendered and visually inspected original page 3; AGEB annual physical PDF page 3 (printed 2); final-energy infographic page 1.",
+    "The AGEB 2021 primary table matches approximately 402 million tonnes directly. No cited source is asserted where the submission supplies none. The statistical source match establishes a category error; it is not an allegation about where the author copied a number.",
+    "Read EED Article 4(1)–(3), recital 28 and Commission explanation. The 2020 reference model forecasts 2030; page 2 of submission itself identifies reference scenario, which is preserved as context.",
+    "One issue records the invalid 2,890 TWh numerical comparator with two underlying baseline errors, avoiding counting the same argument twice."
+  ],
+  "source_ids": [
+    "vik-enefg-2026-register",
+    "vik-enefg-2026-register-metadata",
+    "vik-enefg-2026-author",
+    "vik-enefg-2026-mirror",
+    "ageb-jahresbericht-2020",
+    "ageb-final-energy-2020",
+    "eed-2023-1791",
+    "ec-energy-efficiency-targets",
+    "enefg-draft-2026-04-09",
+    "enefg-existing-section4",
+    "enefg-ministry-consultation-archive-2026"
+  ],
+  "provenance": "Official registered PDF read successfully by web reader; direct shell download returnedHTML and is labelled failed. Full PDF archived from consultation mirror and visually inspected. Author's public webpage independently reproduces central claim and request but with rounded figures and editorial differences. No assertion of byte identity. Primary submission extracted from the official BMWE consultation ZIP and verified byte-identical to the archived mirror PDF; see research/energy/sources/enefg-official-archive-comparison.json.",
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "tax_consultations_ai_agent",
+        "date": "2026-10-24",
+        "file": "research/reviews/tax-reviews-energy.json",
+        "status": "provisional_finding_retained"
+      },
+      {
+        "reviewer": "root_ai_agent",
+        "date": "2026-10-24",
+        "file": "research/reviews/root-reviews-vik.json",
+        "status": "provisional_finding_retained"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "first recorded; pending independent adversarial AI review",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Official ministry ZIP copy verified byte-identical to archived submission; provenance strengthened. Independent review references updated.",
+      "by": "energy_hearings_ai_screen"
+    }
+  ]
+}

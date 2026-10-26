@@ -1,0 +1,134 @@
+{
+  "id": "luftvst2026-bdi-tax04",
+  "law_id": "luftverkehrsteuer-aenderung-2026",
+  "document_id": "bdi-luftvst-20260317",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Reducing German air passenger tax from July 2026.",
+    "they_want": "Restore the ETS-linked annual tax abatement mechanism.",
+    "they_claim": "The cited 2019 tax amendment entered force on 1 April 2024.",
+    "the_problem": "It entered force on 1 April 2020; this is a chronology error."
+  },
+  "claim_quote": {
+    "original": "bereits zum Zeitpunkt des Inkrafttretens am 1. April 2024",
+    "language": "de",
+    "translation_en": "Translation: already at the time of entry into force on 1 April 2024",
+    "locator": {
+      "pdf_page": 2,
+      "section": "Standort durch Senkung der Luftverkehrsteuer stärken",
+      "paragraph": "second"
+    },
+    "underline": "1. April 2024"
+  },
+  "counter_quote": {
+    "original": "Am 1. April 2020 ist das Gesetz zur Änderung des Luftverkehrsteuergesetzes (BGBl. 2019 I S. 2492) in Kraft getreten.",
+    "language": "de",
+    "source_id": "breg-finanzplan-2020-bt1922601",
+    "locator": {
+      "pdf_page": 63,
+      "printed_page": 63,
+      "section": "Luftverkehrsteuer",
+      "column": "right, first paragraph"
+    },
+    "retrieved_at": "2026-10-24",
+    "translation_en": "Translation: The Act amending the Air Passenger Tax Act (Federal Law Gazette 2019 I, page 2492) entered into force on 1 April 2020."
+  },
+  "request_quote": {
+    "original": "wieder in § 11 Absatz 2 LuftVStG aufgenommen werden",
+    "language": "de",
+    "translation_en": "Translation of request fragment: be reintroduced in section 11(2) of the Air Passenger Tax Act",
+    "locator": {
+      "pdf_page": 3,
+      "paragraph": "second, sentence beginning In Verbindung"
+    }
+  },
+  "correction": "Replace 2024 with 2020. The official government report confirms both commencement and contemporaneous abatement.",
+  "effect": "Corrects the history. It does not materially weaken the request for reinstatement.",
+  "limits": "The adjacent argument that statutory rates were reduced through the previous abatement mechanism remains supported. A clerical year error is a plausible explanation. No intent inferred.",
+  "materiality_explanation": "Minor: a wrong historical year leaves the described mechanism and comparison of statutory versus effective rates intact.",
+  "direction_explanation": "No demonstrated favourable argumentative effect; direction is null.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_digital_ai_agent",
+        "date": "2026-10-24",
+        "outcome": "retain_provisional_minor_direction_null",
+        "review_file": "research/reviews/social-reviews-bdi-airtax.json",
+        "summary": "Independently re-read the full submission, exact draft and official BT 19/22601. Confirmed the year error; the adjacent mechanism argument survives and the raw registered-PDF provenance limitation remains."
+      }
+    ]
+  },
+  "author_response": [],
+  "draft": {
+    "title": "Referentenentwurf eines Zweiten Gesetzes zur Änderung des Luftverkehrsteuergesetzes",
+    "version_date": "2026-02-26",
+    "version_time": "16:25",
+    "source_id": "luftvst-refe-20260226",
+    "submission_date": "2026-03-17",
+    "relevant_provision": "Article 1, proposed section 11(1), PDF page 3; unchanged historical law is the subject of the erroneous date.",
+    "process_status_at_screening": "Completed: Bundestag passed 21 May 2026; Bundesrat second passage 12 June 2026; Act of 18 June promulgated in BGBl. I 2026 no. 182 on 24 June, effective 1 July 2026."
+  },
+  "provenance_limit": "The full response was read from the consultation archive. The BMF indexed original reproduces the same paragraph. Official Lobbyregister SG2606160054 identifies a five-page BDI submission dispatched on 17 March 2026; the raw registered PDF returned redirects or cache misses and has not been compared byte-for-byte.",
+  "sources": [
+    {
+      "id": "bdi-luftvst-20260317",
+      "title": "BDI submission,17 March 2026",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_III/21_Legislaturperiode/2026-03-18-2-Luftverkehrsteuer-G/Stellungnahme-BDI.pdf?__blob=publicationFile&v=2",
+      "mirror_url": "https://bundestagszusammenfasser.de/wp-content/uploads/stellungnahmen/1176/Stellungnahme-BDI.pdf",
+      "local_file": "research/tax-round2/sources/bdi-luftvst-20260317.pdf",
+      "visual_verification": "research/tax-round2/sources/bdi-luftvst-p2.png",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "bdi-luftvst-register",
+      "title": "Official Lobbyregister SG2606160054",
+      "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606160054/379279",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/eb/34/765154/Stellungnahme-Gutachten-SG2606160054.pdf",
+      "retrieved_at": "2026-10-24",
+      "access": "Metadata read directly; raw PDF cache miss/redirect returned HTML."
+    },
+    {
+      "id": "breg-finanzplan-2020-bt1922601",
+      "title": "Government financial plan 2020–2024, BT 19/22601",
+      "url": "https://dserver.bundestag.de/btd/19/226/1922601.pdf",
+      "local_file": "research/tax-round2/sources/bt1922601-finance-plan-2020.pdf",
+      "visual_verification": "research/tax-round2/sources/bt1922601-p63.png",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "luftvst-refe-20260226",
+      "title": "Exact ministry draft,26 February 2026 16:25",
+      "url": "https://bundestagszusammenfasser.de/wp-content/uploads/rewp21/1176_luftverkehrsgesetz.pdf",
+      "local_file": "research/tax-round2/sources/luftvst-refe-20260226-1625.pdf",
+      "retrieved_at": "2026-10-24",
+      "note": "Original BMF consultation dossier 503; nine-page archival mirror bears exact working-version timestamp."
+    },
+    {
+      "id": "luftvst2026-dip-process",
+      "title": "Official DIP legislative-process record, Zweites Gesetz zur Änderung des Luftverkehrsteuergesetzes",
+      "url": "https://dip.bundestag.de/vorgang/-/333599",
+      "retrieved_at": "2026-10-24",
+      "role": "Confirms completed-process metadata; not substituted for the 26 February consultation draft."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "First recorded after full-context and exact-draft screening; pending independent AI review",
+      "by": "tax_consultations_ai"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Independent AI review retained minor chronology finding and null direction",
+      "by": "social_digital_ai_agent"
+    }
+  ]
+}

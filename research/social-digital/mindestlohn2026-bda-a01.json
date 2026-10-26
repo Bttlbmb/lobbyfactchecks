@@ -1,0 +1,126 @@
+{
+  "id": "mindestlohn2026-bda-a01",
+  "law_id": "mindestlohn-reform-antraege-2025",
+  "document_id": "bda-mindestlohn-20260112",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Two Bundestag motions seeking a 15 euro minimum wage and changes to the adjustment process.",
+    "they_want": "Reject statutory changes to the minimum-wage reference value and adjustment process.",
+    "they_claim": "BT 21/346 is attributed to Die Linke and 21/347 to the Greens.",
+    "the_problem": "The authorship is reversed: 21/346 is the Greens’ motion and 21/347 Die Linke’s."
+  },
+  "claim_quote": {
+    "original": "Fraktion DIE LINKE, Drucksache 21/346 und Fraktion BÜNDIS 90/DIE GRÜNEN, Drucksache 21/347",
+    "language": "de",
+    "translation_en": "Translation: Die Linke parliamentary group, paper 21/346 and Alliance 90/The Greens parliamentary group, paper 21/347",
+    "locator": {
+      "pdf_page": 5,
+      "printed_page": 5,
+      "section": "submission subtitle; repeated in running footers and section headings"
+    },
+    "underline": "DIE LINKE, Drucksache 21/346"
+  },
+  "counter_quote": {
+    "original": "BÜNDNIS 90/DIE GRÜNEN",
+    "language": "de",
+    "translation_en": "Translation: Alliance 90/The Greens",
+    "source_id": "bt21-346",
+    "locator": {
+      "pdf_page": 1,
+      "section": "authorship block below BT-Drucksache 21/346 header"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "request_quote": {
+    "original": "ist abzulehnen.",
+    "language": "de",
+    "translation_en": "Translation of request fragment: is to be rejected.",
+    "locator": {
+      "pdf_page": 5,
+      "section": "I. Introduction of a new statutory 60% median reference value",
+      "paragraph": "first sentence"
+    }
+  },
+  "correction": "Swap the paper numbers attached to the party names. Official 21/346 and 21/347 headers and their complete motions establish the authorship.",
+  "effect": "Corrects attribution and navigation; no substantive economic or legal argument is shown to change.",
+  "limits": "Both motions were jointly considered, and the BDA correctly identifies the substantive proposal items it addresses. A repeated clerical transposition is plausible. No favourable argumentative effect or intent is inferred.",
+  "materiality_explanation": "Minor: bibliographic misattribution can misdirect a reader, but the addressed policy proposals remain recognisable.",
+  "direction_explanation": "Null: no demonstrated support for the author’s request from reversing the party labels.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      "research/reviews/energy-reviews-bda-mindestlohn.json"
+    ]
+  },
+  "author_response": [],
+  "draft": {
+    "type": "parliamentary motions requesting legislative amendment",
+    "versions": [
+      {
+        "id": "bt21-346",
+        "date": "2025-06-03",
+        "author": "Fraktion BÜNDNIS 90/DIE GRÜNEN",
+        "relevant_provisions": "II(a): 60% median floor; II(b): forecasts; II(c): annual adjustment; II(d): conciliation"
+      },
+      {
+        "id": "bt21-347",
+        "date": "2025-06-03",
+        "author": "Fraktion Die Linke",
+        "relevant_provisions": "II(1): 60% median floor; II(2): conditional 15 euro law"
+      }
+    ],
+    "hearing_date": "2026-01-12",
+    "submission_date_limit": "Cover in official bundle dates 18 December 2025; BDA first page dates 12 January 2026 and subsequent running headers 18 December 2025. No exact dispatch date inferred."
+  },
+  "sources": [
+    {
+      "id": "bda-mindestlohn-20260112",
+      "title": "BDA submission in official written-hearing bundle 21(11)71",
+      "url": "https://www.bundestag.de/resource/blob/1135780/21-11-71-Materialzusammenstellung.pdf",
+      "local_file": "research/social-digital/mindestlohn-hearing-20260112.pdf",
+      "locator": "BDA section physical PDF 4–7; substantive text physical 5–7",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "bt21-346",
+      "title": "Greens motion, 3 June 2025",
+      "url": "https://dserver.bundestag.de/btd/21/003/2100346.pdf",
+      "locator": "header and authorship page 1; request II page 2",
+      "retrieved_at": "2026-10-24",
+      "local_file": "research/social-digital/mindestlohn-bt21346-20250603.pdf",
+      "sha256": "ce3d45853b3d3f2a2c50ddae150144581fb18f74d98bc13c0e45c97c14e3135a"
+    },
+    {
+      "id": "bt21-347",
+      "title": "Die Linke motion, 3 June 2025",
+      "url": "https://dserver.bundestag.de/btd/21/003/2100347.pdf",
+      "locator": "header and authorship page 1; request II pages 1–2",
+      "retrieved_at": "2026-10-24",
+      "local_file": "research/social-digital/mindestlohn-bt21347-20250603.pdf",
+      "sha256": "5e027c73b843ebd3eca41edd3165feceb3d549b29733d35df628fbc3395a386a"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "First recorded after full BDAsection and both exact parliamentary motions checked; awaiting independent AI review.",
+      "by": "social_digital_ai"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Independent AI review retained narrow minor bibliographic issue; correct committee cover and substantive item attribution recorded prominently.",
+      "by": "social_digital_ai"
+    }
+  ],
+  "context_and_alternatives": [
+    "The committee-added cover on physical PDF page 4 gives the correct party–paper mapping. The error occurs in the BDA-authored subtitle on page 5, repeated headers and section headings.",
+    "The substantive proposal items are assigned to the correct parties despite the swapped paper numbers. A repeated clerical transposition is plausible."
+  ]
+}

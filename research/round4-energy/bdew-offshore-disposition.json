@@ -1,0 +1,58 @@
+{
+  "id": "bdew-offshore-auction-payments-round4-disposition",
+  "not_issue_record": true,
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead_not_promoted",
+  "date": "2026-10-25",
+  "document_id": "bdew-windseeg-20261007-SG2610150017",
+  "submission_source": {
+    "sg_id": "SG2610150017",
+    "title": "Wichtigste BDEW-Positionen zum WindSeeG-Gesetzesentwurf",
+    "local_file": "research/round3-root/coverage/register-pdfs/SG2610150017.pdf",
+    "url": "https://www.lobbyregister.bundestag.de/media/8f/7b/861748/Stellungnahme-Gutachten-SG2610150017.pdf",
+    "document_date": null,
+    "register_reported_delivery_date": "2026-10-07",
+    "upload_date": "2026-10-15"
+  },
+  "read_extent": "All seven author pages read as extracted text. Exact government bill cover and physical pages 16–18 and 22–23 independently read. Full substantive BNetzA auction-result press releases of 12 July 2023 and 21 June 2024 read.",
+  "claim": {
+    "original": "durchschnittlichen Geboten von 750 Mio. € pro GW",
+    "language": "de",
+    "translation_en": "Translation: average bids of EUR 750 million per GW.",
+    "locator": {
+      "pdf_page": 2,
+      "section": "Section 1, electricity-cost argument"
+    }
+  },
+  "request": {
+    "description": "Single-stage awards directly through two-way contracts for difference, with additional PPA flexibility.",
+    "locator": {
+      "pdf_page": 2,
+      "section": "BDEW-Alternativvorschlag"
+    }
+  },
+  "check": "The official 2023 non-centrally surveyed awards total EUR 12.6 billion for 7 GW; the corresponding 2024 awards total EUR 3.0225 billion for 2.5 GW. These nominal winning-payment figures do not reproduce EUR 750 million per GW. But they do not uniquely identify the author’s unspecified average: all bids versus winning awards, included auction cohorts, weighting and discounting are not stated.",
+  "benign_alternatives": [
+    "Both official press releases explain that 90% of payment is spread over twenty annual instalments from completion. Discounted economic burden can be materially lower than the nominal award sum; capital costs and refinancing are the author’s immediate context. No unique discounted correction is asserted.",
+    "The term bids may include unsuccessful bids rather than only award payments. No underlying distribution or explicit averaging method is identified.",
+    "An indexed central-auction total is not a substitute for identifying the author’s denominator. Missing methodology is not proof of error."
+  ],
+  "draft": {
+    "source_id": "windseeg-government-bt218238",
+    "addressed_version": "Government WindSeeG bill BT 21/8238, 28 September 2026, is the closest matching parliamentary version.",
+    "exactness_limit": "The author identifies the government bill and sections 20 and 54c, and the two-stage design matches this version, but does not print a Bundestag number or draft date. Exact version identity is therefore not asserted as independently proved.",
+    "local_file": "research/round4-energy/sources/windseeg-bt218238.pdf",
+    "url": "https://dserver.bundestag.de/btd/21/082/2108238.pdf"
+  },
+  "secondary_screen": {
+    "claim_locator": {
+      "pdf_page": 2,
+      "section": "International attractiveness paragraph"
+    },
+    "disposition": "Not promoted. The statement about all other relevant European markets having indexed single-stage CfDs is broad, but comparison with a future German auction framework and an implicit fixed-bottom market scope gives substantive alternatives. Dutch 2026 subsidies versus planned 2027 CfDs and Norwegian floating investment aid are not treated as conclusive matched counterexamples."
+  },
+  "severity_if_established": "minor",
+  "favours_author_request": null,
+  "limits": "No actual financing burden, auction attractiveness, electricity-price effect, policy merits or author intent is established. No issue record created.",
+  "independent_review": "research/round4-reviews/tax-reviews-bdew-offshore.json"
+}

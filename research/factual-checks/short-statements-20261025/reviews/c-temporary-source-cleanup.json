@@ -1,0 +1,638 @@
+{
+  "id": "short-documents-20261025-c-temporary-source-cleanup",
+  "reviewer": "c",
+  "completed_at_utc": "2026-10-25T22:36:42.073188+00:00",
+  "authorization": "AGENTS.md source-storage policy and parent confirmation that all C source-byte follow-ups are complete.",
+  "scope": "Only direct files in the two known C-owned task temporary folders. No other agent temporary folder, repository source, authored note, script, manifest, review or provenance record was deleted.",
+  "final_integration_audit": {
+    "file": "research/factual-checks/short-statements-20261025/reviews/c-final-integration-audit.json",
+    "sha256": "70b3ba28c5c4784a89fb1d65233e2cfb4be9b75aa8d7b80f7876d9e03c829d3c"
+  },
+  "source_retention_manifest": {
+    "file": "research/factual-checks/short-statements-20261025/source-retention.json",
+    "sha256": "923a7b96cf17dc4c54d4fbf9ed6a358e8d993a9c0718b4556393133498203189",
+    "unique_protected_paths_checked_before_and_after": 63,
+    "all_hashes_unchanged": true
+  },
+  "removed": [
+    {
+      "file": "/private/tmp/short-c-20261025/accreditation.html",
+      "sha256": "ab3e4dac761e05f13a1d16d2e68bb8591acfb36e9319824a4613a113d28cf85c",
+      "bytes": 129121
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/bbig.pdf",
+      "sha256": "9c3b7f6fd65f55f42e71b1a6c3520e1e2d78da24d1ec6e716a4768f872644e86",
+      "bytes": 301362
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/bbig.txt",
+      "sha256": "ea491f9ca6420f7546a1b493c52e3c41e56dcb7923109d8daaf3432911f08572",
+      "bytes": 196062
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/bibu.pdf",
+      "sha256": "ec60480eb85b4ff69037eeb04555c298072a1ab1a573f70d4c2bb342c497fd30",
+      "bytes": 90519
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/bibu.txt",
+      "sha256": "4a7cee57ac0f914c89176724588eb649fe999778902b4f0dbf7e5eb1f27f4d06",
+      "bytes": 37607
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/bremen-exam.html",
+      "sha256": "94d13df744abc9c96ac19f5f602a47a680f992464c9c92d04145334aa493edaf",
+      "bytes": 191811
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-adv.pdf",
+      "sha256": "ca4cdb7c00ef49c4dacbfd80d67979cb22ba3c7e64ab836753c13ff648ecfefc",
+      "bytes": 2197165
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-adv.txt",
+      "sha256": "09594966cdb98ac47bb96789f649a83b56f9a99575eaa581b042c5ff05e4d978",
+      "bytes": 249571
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-beurk.html",
+      "sha256": "0dce39bf4ad82ce7ab38d3ef6bc9e2f6c109f7b737550c393d2c85573e951147",
+      "bytes": 4008
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-beurk.txt",
+      "sha256": "36714fc1fd143fe9757e3a34b4c341a1f883f64be4f9ac6ba5b76f8597677beb",
+      "bytes": 887
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-bva2023.txt",
+      "sha256": "a4708084abdce5c8d1e0e13ec3e03318991571d489ca901232585ffe5e8715cf",
+      "bytes": 12658
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-enova-availability.html",
+      "sha256": "9b1858cc38d6cb4e70c43ee8cb5bee5530bebe314d0108644c0493384682b287",
+      "bytes": 92100
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-enova-availability.txt",
+      "sha256": "4515ed7e4a37b255806288b732b1ea18af86f34da93488ef77ec2ac4ced6d08a",
+      "bytes": 49701
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-enova.txt",
+      "sha256": "fbece946935da4e7de3c01cb633ce00306820834e5e763096cd274a31bbf7e1e",
+      "bytes": 52544
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-erbstdv7.html",
+      "sha256": "bcb8da17d5ce779687862d6fe682f60667740945651a0c1481a79af721a67eca",
+      "bytes": 9681
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-erbstdv7.txt",
+      "sha256": "f4c158cc35168c9d7331753dd034d98206e5b56994c17c6219854be3d0b84db5",
+      "bytes": 4029
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-erbstg34.html",
+      "sha256": "67c2d1ce6e6fe2db3e0c8df4b2e0e8da185036e0208f3259f30695c4b92199c2",
+      "bytes": 5067
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-erbstg34.txt",
+      "sha256": "f362844e80b5b83e765b76ab25ac355fa87f1cfad7adb7809fe963cccb6eab68",
+      "bytes": 1367
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-estdv54.html",
+      "sha256": "bdb13316dae9cd8001872267be1b047a6c08e71d3a029e780980ec0dba8d79cd",
+      "bytes": 5648
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-estdv54.txt",
+      "sha256": "2f38251094c481dd2070f49fb33074b3ff25059bac906fc9e7610929b9506596",
+      "bytes": 2139
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-gbo.html",
+      "sha256": "c4b795cc36151972277411c6bb250cd741bb486f03babc0421bfa4ba1ba4d44b",
+      "bytes": 212445
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-gbo.txt",
+      "sha256": "72259015e4d13e073e64cb715f1913dc47aa8bebdbcd1d2d0c52d624a5595648",
+      "bytes": 127524
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-gbv.html",
+      "sha256": "3c25100b66c5aed602cd448fd97167f4b73790310d13c364c67a2f33ec1d47a7",
+      "bytes": 218577
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-gbv.txt",
+      "sha256": "f31e41e329e044e7f912d9e7cb31322084fee237eca405f36e6ce0bd6bf4b6eb",
+      "bytes": 129501
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-grestg18.html",
+      "sha256": "d809a17b6e56310bd506049c0891bb8c7f16238292435ee06198b37bf68c0536",
+      "bytes": 7198
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-grestg18.txt",
+      "sha256": "de0e7c0945839c282a768b3674d3b081c9ccdcffe588ab44fac6c11d4b02fcb2",
+      "bytes": 3231
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-grestg20.html",
+      "sha256": "1ff1359e651f3fa05640f8b17605717b9ce2a9b0645eb264f88e195abef2c1c3",
+      "bytes": 6921
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-grestg20.txt",
+      "sha256": "8740bd9cbfd6082ade58754afec8c875fbc7da21ad41f0922d6efbdbbe95b58a",
+      "bytes": 2515
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-idnrg.html",
+      "sha256": "15e29c7862b9666bdacf7dc985a6d54a89107e7b28ba84675ac565f2fd39282d",
+      "bytes": 49004
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-idnrg.txt",
+      "sha256": "88625d2083634f35620c102ba4e1009c2f1823679d1fa636cadce3f2aa516dee",
+      "bytes": 27641
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-noots.html",
+      "sha256": "981f5d82e51a0888f565a77b28d6897583923f55f97c835c2d4e354ce578ccec",
+      "bytes": 126610
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-noots.txt",
+      "sha256": "5778945f4f334f42364a20494022cc3a00de462f80f4a372c6fdc67e745830ac",
+      "bytes": 19646
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-nrw-solum.html",
+      "sha256": "8eb8358de478484f9ce347ab8182868a8825690c7ab5647368fc42dc13db6f61",
+      "bytes": 183255
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-nrw-solum.txt",
+      "sha256": "78d624392166befcba7ba29f05c7ee696aa7c803168dd61d5feffdfa41b65ac7",
+      "bytes": 22222
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-olg2019.txt",
+      "sha256": "30248f09d187a5b24dec96f69b477ee0fa816bcf654afecfc27739ea110c411f",
+      "bytes": 32381
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-search.html",
+      "sha256": "8a8f781bb7d6773adb7815112c1b82b69e7713b9816f18d626e319d8bc6b116e",
+      "bytes": 6156
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-search.txt",
+      "sha256": "30c8f087c283a8d1e1968073f6f477a2ef85e6799a485b4cd80372e4c3934f87",
+      "bytes": 3608
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-vdi.html",
+      "sha256": "1d7796851ed4f1d37744de168fc920b8d1b5a0415fe924c93247143f77a9343e",
+      "bytes": 440027
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-vdi.txt",
+      "sha256": "3bf556934c3a6c6b7d5f488545408daee3950aba49eba441ea5ce5e87babb5a1",
+      "bytes": 37578
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-xjustiz.pdf",
+      "sha256": "292b9541ce0b9b84000405b9153ebacda7f9289cc0d5d7c8455ac7927ecc064a",
+      "bytes": 4481504
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/cr-xjustiz.txt",
+      "sha256": "ed6da5d72552f72d09d806aeac374e6632a95af73aaa11f37220c4af79f9ac66",
+      "bytes": 1038947
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/dihk-bibu.pdf",
+      "sha256": "b92dd6f9c454e28499392feeebf559bdd8a3261a192f84f034472ceb6503ec69",
+      "bytes": 106297
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/dihk-bibu.txt",
+      "sha256": "c3e88fb1b8c8b0dec27639151bfb9b58377567b1f9c122f223bb2e7584596508",
+      "bytes": 25222
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/dqr-faq.html",
+      "sha256": "949a7eced666ddc237942a512d92dbb21cd5e0ab668508b3b1f4c3b1bb73ef03",
+      "bytes": 52469
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/dqr-faq.txt",
+      "sha256": "913904fb6bf16d518e031884eef4ec2aea54bf89b5e637c86464dd369f655c84",
+      "bytes": 5949
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/eu200643-consolidated.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/eu200643.html",
+      "sha256": "5518d65c5ece89754ad49dbcce0035887238c42cc64b28cf2bf72bdcb26820b5",
+      "bytes": 137798
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/eu200643.txt",
+      "sha256": "89afb500ae1d806f977692bf52271efb8f5af9e6d85affc970481bc117154315",
+      "bytes": 109844
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/eu2026-boe.html",
+      "sha256": "357eb38120f45ac840c3d2d14239949bec73774ce4c99cb85f07a669cc5c5e50",
+      "bytes": 287365
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/eu2026-boe.txt",
+      "sha256": "b95ba835c032d31aa3a1f5e077b23caa6c424766c7570d6f0f5e21f4f9f13ab3",
+      "bytes": 166125
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/eu2026.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/hgb.pdf",
+      "sha256": "30dd1fc834d186097de827e80c3ebda61a63967996066525701658c3871acc09",
+      "bytes": 1137022
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/hgb.txt",
+      "sha256": "25916f1075bcffdf2d78671c4cb56b6393c978ea64c868505931146e3793692d",
+      "bytes": 923739
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/iaasb-summary.html",
+      "sha256": "71be191f5a044b99cd221357ffbaf680acc56599ba689f7c3dbba3c9e799f80e",
+      "bytes": 42900
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/idnrg2026-vdv-p1.png",
+      "sha256": "88338ab106e174c9a7632de22a680ba04d7cb878c8b068a90ef55fbaec4d446b",
+      "bytes": 963304
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/idnrg2026-zbi-p1.png",
+      "sha256": "e43d39158a002d6b6a09484947ecc9e84dbffc20261a7295b9359fa15c66d58a",
+      "bytes": 579239
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/stbdv.pdf",
+      "sha256": "ca5e29edaa78e107e69280dd1c5fb635a9bd2e685c5a20b259bd949fe10dcc26",
+      "bytes": 115565
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/stbdv.txt",
+      "sha256": "0454e3ec1569f6f2d91b436e832aea6125dd1e6be636b8402cc8d18905cbbe03",
+      "bytes": 54776
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/stberg3.html",
+      "sha256": "91f7a70fae9b6403c0989b8ce424e56196041bd8c04755bb345b44e397debf8f",
+      "bytes": 4790
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/vitako-1.png",
+      "sha256": "bc4bf1d6938d40083ae017c7661446e77028b2b60ff6a22be60fae3fb1ec8d3b",
+      "bytes": 288862
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/vitako-2.png",
+      "sha256": "9c62e46383370ae2391b5aa86ad3fbc02f052ab6283774632da42371ee7a8490",
+      "bytes": 112541
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/wiprpruefv.pdf",
+      "sha256": "3ea1af865e5cc6528933bae744e8084b1bd02efd8a7422f91b2109196b01d205",
+      "bytes": 104614
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/wiprpruefv.txt",
+      "sha256": "bd13b0a82dadd9554507c10e82a4efd2b9a82ec6b9f7dcde43cd856f41a956e7",
+      "bytes": 50214
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/wp2019act.pdf",
+      "sha256": "b42f32230241c27802a37193a9e59a3c289de5a7328e49a1fa8fb1348fcaf349",
+      "bytes": 49686
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/wp2019act.txt",
+      "sha256": "aa708437df01b6334b0f32bce9888a3deddab4d9b032f860d135ea2535fb002b",
+      "bytes": 30331
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/wpanrv.pdf",
+      "sha256": "30be806b2d4f73a2c70d06dbbc11cbb99d20ff73d5e0a2ed1ae28418324de46e",
+      "bytes": 70080
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/wpanrv.txt",
+      "sha256": "c771e4a4555ca529a2a666d6546f079e6d119158a7de4ad8c1edee0b2371b138",
+      "bytes": 17527
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/wpexam-draft.txt",
+      "sha256": "b4c845619afe2df5b7b9ddfb027d284bd6772dfddab4807a1c70a7615ef700a8",
+      "bytes": 91263
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/wpk-stat-july2026.pdf",
+      "sha256": "476e2ea484d5ea3f8c259798a6cf81748a6dd107c9798bd7a879c52b599f5e41",
+      "bytes": 3316644
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/wpk-stat-july2026.txt",
+      "sha256": "eada90c7376e85669efab4e8b84e29fa5cd607ba91b3d42ed973dda02876ce26",
+      "bytes": 24617
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/wpk2019-p16.png",
+      "sha256": "dd79c2e224e6229bd71fa9d58942d4bba66e3220b8083707623d00956016c360",
+      "bytes": 492204
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/wpk2019mag.pdf",
+      "sha256": "934a2c0bd8897c2215780b40f7403611988f38f1f28c6c2c31b818d51c4a2b4f",
+      "bytes": 5207289
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/wpk2019mag.txt",
+      "sha256": "5ef4b5526a0f9a9258eacb88811264fc954b66edfabb2fafe36b8a3727f0ae5b",
+      "bytes": 393815
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/wpo.pdf",
+      "sha256": "438e41ccc5b833d904a2d3dc4b288f014e2acba374ebd3a3cf3a842956221c3e",
+      "bytes": 440449
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/wpo.txt",
+      "sha256": "30d5f14e5b7ae2cd00ee587a0d28e9e7d4aaf59d84af7af7cf3d54afa175f70b",
+      "bytes": 321696
+    },
+    {
+      "file": "/private/tmp/short-it-c/c-baykommun.html",
+      "sha256": "12d0d147e5c3acb061f1fa339e39d154744401b199d0a2d2aed87f7826e9508f",
+      "bytes": 198389
+    },
+    {
+      "file": "/private/tmp/short-it-c/c-baykommun.txt",
+      "sha256": "b6b281c4d3c256dc12d47dd842add4611035da6c86ec5ca872e853b72cd21471",
+      "bytes": 41414
+    },
+    {
+      "file": "/private/tmp/short-it-c/c-bmg.html",
+      "sha256": "bbe06f207028e7dec7cb7fb24e3cc591438ecb9d02a2e640299839150786b5d6",
+      "bytes": 188943
+    },
+    {
+      "file": "/private/tmp/short-it-c/c-lower-saxony.html",
+      "sha256": "8643f491a84bf8789115551b97ae3cec534584ecc137aa2b8d78fef51780e0a2",
+      "bytes": 53045
+    },
+    {
+      "file": "/private/tmp/short-it-c/c-lower-saxony.txt",
+      "sha256": "73d4d7ceda23001486803bc98a15ec4fa037a701196fbcd2cd50cccd3536c8b6",
+      "bytes": 11377
+    },
+    {
+      "file": "/private/tmp/short-it-c/c-ministry.html",
+      "sha256": "e4c99b1ae52ebab322e5861cd7fdf4bf4c8a8d13e34ed1239bc3ae66e018676b",
+      "bytes": 176082
+    },
+    {
+      "file": "/private/tmp/short-it-c/c-ministry.txt",
+      "sha256": "c86fb5a3883c1ca5cc1abeb92f524c80ef884d4e460fdc197509cc2e036bccb5",
+      "bytes": 3254
+    },
+    {
+      "file": "/private/tmp/short-it-c/c-ozg.html",
+      "sha256": "696a42455753ddf7737b5b139e89858ec07830a1c6a76b82c8f23932314257a9",
+      "bytes": 59444
+    },
+    {
+      "file": "/private/tmp/short-it-c/c-ozg2024.pdf",
+      "sha256": "aa017004168a11338fc45438054b3d59b087e41e8bc2135dfaece94eb10993b4",
+      "bytes": 445197
+    },
+    {
+      "file": "/private/tmp/short-it-c/c-ozg2024.txt",
+      "sha256": "fb3d58057f019101fdf672a90e4486f85efc56da797dad01273f90575adfc753",
+      "bytes": 76235
+    },
+    {
+      "file": "/private/tmp/short-it-c/c-ozg2026.pdf",
+      "sha256": "dc408b7d21a8b92420ce20ccc05889dbc4385d45a672c1ece73c3e4ea7adf4d9",
+      "bytes": 304447
+    },
+    {
+      "file": "/private/tmp/short-it-c/c-ozg2026.txt",
+      "sha256": "613a068226e24380b24e2db9f7d9d84963a39b02ed5130ceba4866a8de94f387",
+      "bytes": 34711
+    },
+    {
+      "file": "/private/tmp/short-it-c/cr-bitv.html",
+      "sha256": "7b50da2f9447edf42c66d210e12c90990647582b5adb13e95d3aaec101c3c893",
+      "bytes": 36808
+    },
+    {
+      "file": "/private/tmp/short-it-c/cr-ghs.html",
+      "sha256": "ba694742733b7af0b7a47cf5b319c1fc29fde058b81bc7769b2b1c52340b00b5",
+      "bytes": 5590
+    },
+    {
+      "file": "/private/tmp/short-it-c/cr-mpk.pdf",
+      "sha256": "31598ee6694f9855c6b4c53ac80f567a4c0afb6701909e92acc73687246c55f6",
+      "bytes": 93312
+    },
+    {
+      "file": "/private/tmp/short-it-c/cr-satzung.html",
+      "sha256": "a42fa996f56f81357759c766f0e40d6be3e54e5ea67a822812e480d7f87b3531",
+      "bytes": 288785
+    },
+    {
+      "file": "/private/tmp/short-it-c/cr-whitebook.pdf",
+      "sha256": "2b6674ffb4d79f04d3ccd51253087954c0e6df8bc61c1bf16f9d3ce23bb73fdb",
+      "bytes": 2752437
+    },
+    {
+      "file": "/private/tmp/short-it-c/dbsv-1.png",
+      "sha256": "481f610a1d185dbb05c439528369e2d40731c65c29b278f4f883c1b8e7070d09",
+      "bytes": 249218
+    }
+  ],
+  "removed_file_count": 93,
+  "removed_bytes": 31552462,
+  "preserved_authored_scripts_manifests_and_audit_outputs": [
+    {
+      "file": "/private/tmp/short-c-20261025/audit-coverage.py",
+      "sha256": "657dba8745e6f8de1e296f65118a5bc85eab8792bfc65be58327ce507049b605",
+      "bytes": 8790
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/build-inventory.py",
+      "sha256": "9fdfc939984a00b0757e1afa2287befb57c4a663a892c2ad3ca345864fd14319",
+      "bytes": 43348
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/build-peer.py",
+      "sha256": "389474d616f4aca2323d869d9a5fbfaf15e350ccb4819f2892859bf91ae1aa5d",
+      "bytes": 30684
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/fetch-context-manifest.json",
+      "sha256": "847b8d636597cd85091415338de424a6c252c21e119a8068ae681c05e2f364f8",
+      "bytes": 2020
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/fetch-context.py",
+      "sha256": "1ffe664a7026db722fff488f88b9eb0ad97830d82897fcc9575fff85ee7d4603",
+      "bytes": 758
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/fetch-eu-manifest.json",
+      "sha256": "8be48c3d4c54e9fc8267103114f9dbf0032b5fb1abb7ed20a48647dfa955e37d",
+      "bytes": 936
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/fetch-eu.py",
+      "sha256": "5de762e00918fa3ab1dde1ffc3a4d0233f148c4dacc50d7920eaef5926e7b5c8",
+      "bytes": 514
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/fetch-extra-manifest.json",
+      "sha256": "6637e505f16eb884b97448fe4240c0a590729089192129ebcba9e6324f6fcfbc",
+      "bytes": 2613
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/fetch-extra.py",
+      "sha256": "4494c37daff750bc63b27762562cb0d7cfa97ad976446e51b6e368c0c7f081c4",
+      "bytes": 904
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/fetch-manifest.json",
+      "sha256": "8f8dd000aa6f3bc1d5399801b7765e1fe022643b566d90ca2ab6a10ff7e6711f",
+      "bytes": 4430
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/fetch-peer-manifest.json",
+      "sha256": "443d77c60e0b800cdae4774ab888e877ed71599e58a938e5d174a270c8cf8be8",
+      "bytes": 6947
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/fetch-peer.py",
+      "sha256": "bb4ac06ea82f88595ca974d8136e8e80ac3516770f8e7136a5fc8234bcf72427",
+      "bytes": 1671
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/fetch-tech-manifest.json",
+      "sha256": "2eae3275f658a885207e77662228d21bf3e04a9ad958a5943080488cc992d855",
+      "bytes": 1358
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/fetch-tech.py",
+      "sha256": "78943f77fa44227eac592939c4008d68f7ce4f6239e8edced75c55cda379cac3",
+      "bytes": 1156
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/fetch.py",
+      "sha256": "d8c17c2ad1edf294f8c8a98800864d1dc7cb995f7719e9f55fd55b5e5c1933d4",
+      "bytes": 1790
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/integration-audit.py",
+      "sha256": "1ac7fe98e3b9493f003a05a0c7a9c20e45c02f0420a33306fb190008a42bdf58",
+      "bytes": 17188
+    },
+    {
+      "file": "/private/tmp/short-c-20261025/integration-result.json",
+      "sha256": "8dd51ae30038d72867bb34e2134ce7cf9a21d874bfb6094c891609ead75437b8",
+      "bytes": 84279
+    },
+    {
+      "file": "/private/tmp/short-it-c/build-inventory.py",
+      "sha256": "420d69a950430e0e2989a62477d0cfda965181bac7d3ba4074667002e9f14f6d",
+      "bytes": 18020
+    },
+    {
+      "file": "/private/tmp/short-it-c/build-peer.py",
+      "sha256": "98120ac83ea1bdabb707a90d0b23d03bb09a1b14478e139d51c4a04204a3659c",
+      "bytes": 12853
+    },
+    {
+      "file": "/private/tmp/short-it-c/fetch-peer.py",
+      "sha256": "013aa1d3d1416f66d264798b2ce4fc67066851ef0b95508ff3d38aa164f09e56",
+      "bytes": 1438
+    },
+    {
+      "file": "/private/tmp/short-it-c/fetch.py",
+      "sha256": "339d5b4d7d08cc8dc64b4ca6f1f08fe1fad4b7b9dddca99c53d5325836283a2d",
+      "bytes": 1684
+    },
+    {
+      "file": "/private/tmp/short-it-c/manifest.json",
+      "sha256": "fa42df04bcf5b4a75ae9bae9bcaac8525d9b9883e5e218f576f5e0f9ebe46fea",
+      "bytes": 3924
+    },
+    {
+      "file": "/private/tmp/short-it-c/peer-manifest.json",
+      "sha256": "492763e02a84b58d525d3c26fe2b6458dad77db444959cfa6009f42d0ef83edf",
+      "bytes": 2735
+    }
+  ],
+  "preserved_file_count": 23,
+  "preserved_bytes": 250040,
+  "dependency_checks": [
+    "Both strict factual-batch builders passed with captured writes before cleanup.",
+    "Every retained source local_file and all 63 protected canonical repository paths were verified and remain unchanged.",
+    "Removed source-byte references in authored notes are historical temporary provenance, with source URLs, read extents and SHA256 identities retained; none is a current report/build/validation local_file dependency."
+  ],
+  "remaining_regenerable_public_files_in_task_folders": [],
+  "post_cleanup_captured_verification": [
+    {
+      "script": "research/build_factual_batch.py",
+      "args": [
+        "research/factual-checks/short-statements-20261025"
+      ],
+      "exit_code": 0,
+      "writes_captured": 5,
+      "live_writes": 0
+    },
+    {
+      "script": "research/build_factual_batch.py",
+      "args": [
+        "research/factual-checks/short-it-components-20261025"
+      ],
+      "exit_code": 0,
+      "writes_captured": 5,
+      "live_writes": 0
+    },
+    {
+      "script": "research/validate_deliverables.py",
+      "args": [],
+      "exit_code": 0,
+      "writes_captured": 1,
+      "live_writes": 0
+    }
+  ]
+}

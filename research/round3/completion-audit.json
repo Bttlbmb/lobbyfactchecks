@@ -1,0 +1,90 @@
+{
+  "id": "round3-research-completion-audit",
+  "round_status": "completed",
+  "objective": "Spend another 2.5 hours on research, prioritising an auditable three-month coverage census.",
+  "started_at_utc": "2026-10-25T02:41:17+00:00",
+  "updated_at_utc": "2026-10-25T05:11:51.594941+00:00",
+  "ended_at_utc": "2026-10-25T05:11:51.594941+00:00",
+  "minimum_duration_seconds": 9000,
+  "elapsed_seconds": 9034.594941,
+  "minimum_duration_satisfied": true,
+  "coverage_status": "not_complete",
+  "national_eligible_submission_denominator": null,
+  "national_coverage_percentage": null,
+  "population_error_rate": null,
+  "counts": {
+    "provisional_findings": 58,
+    "major_findings": 11,
+    "minor_findings": 47,
+    "documents_with_major_findings": 10,
+    "documents_with_provisional_findings": 50,
+    "unresolved_leads": 35,
+    "rejected_candidates": 1,
+    "all_issue_records": 94,
+    "issue_associated_documents": 76,
+    "named_broad_reading_units": 565,
+    "reading_depths": {
+      "full_submission": 358,
+      "selected_passages": 81,
+      "keyword_triage": 125,
+      "full_text_ocr": 1
+    },
+    "government_or_Land_replies_in_broad_pool": 12,
+    "anonymous_batch_bound": 0
+  },
+  "new_since_round2_baseline": {
+    "major_findings": 0,
+    "minor_findings": 6,
+    "documents_with_new_minor_findings": 4,
+    "unresolved_leads": 9,
+    "note": "Three separate minor bibliographic entries concern one DGAUM response. Unresolved leads are not findings or severe-error numerator."
+  },
+  "integrity_checks": {
+    "all_status_ai_screened": true,
+    "all_specialist_reviews_null": true,
+    "no_recorded_author_responses": true,
+    "every_provisional_has_saved_independent_AI_review": true
+  },
+  "coverage_deliverables": [
+    "research/round3/coverage-protocol.json",
+    "data/coverage-progress.json",
+    "data/bounded-coverage.json",
+    "research/round3-root/coverage/register-window-records.json",
+    "research/round3-root/coverage/register-archive-manifest.json",
+    "research/round3-root/coverage/global-register-archive-crosswalk.json",
+    "research/round3-root/coverage/global-register-text-mirror-candidates.json",
+    "research/round3-root/coverage/register-positive-reading-links.json"
+  ],
+  "review_limits": "AI source, context and count checks only. No human specialist confirmation, author response or intent inference. Full-reading labels do not certify every assertion.",
+  "unfinished_gates": [
+    "BMF and BMFTR live access and some ministry master omissions.",
+    "Exact initial draft versions for some consultation rounds.",
+    "Document-level scope, delivery-date and authored-version reconciliation across all three channels.",
+    "Public-body author-role boundaries and withheld/inaccessible contributions.",
+    "Full substantive screening of the remaining eligible population, which is not yet counted."
+  ],
+  "started_branch_dispositions": "All substantive branches finished their started checks and saved stable handoffs. Final merged-pool semantic snapshot addendum confirms only three committee-cover wording corrections and an audit-reference addition; no count, role, reading-depth or delivery-verification change.",
+  "final_independent_audits": [
+    "research/round3-reviews/tax-final-merged-pool-register-links-audit.json",
+    "research/round3-energy/final-integrity-audit.json",
+    "research/round3-tax/final-state-audit.json",
+    "research/round3-social/handoff.json",
+    "research/round3-reviews/tax-final-merged-pool-snapshot-addendum.json"
+  ],
+  "final_validation": {
+    "records": 94,
+    "errors": [],
+    "warnings": [],
+    "quote_sources": 173,
+    "sources_over_25_words": []
+  },
+  "final_output_hashes": {
+    "data/findings.json": "4fdc231b19006874cdffb335b00f77bac86a92e745394dd100e9cf4b871c613c",
+    "data/unresolved-leads.json": "b1416460d4bfbe42ea1188e39c7b89a6e67c116438cd84a26d8673b7d9c4cb0e",
+    "data/rejected-candidates.json": "39903ad033ff68a6f96d23179c952630aa83bc24f8bcd86d87134ba8dd0d31a3",
+    "data/screening-pool.json": "bbca6fb012fcd387bf6e96d0a9b938f5a9bc6ab0608187036c6c4498bbf4753e",
+    "data/screening-pool-summary.json": "799351dca445802adfe04b70077c893254b5315a5aeb188a6c5d14ee890273e6",
+    "data/coverage-progress.json": "8a133b92b2c374cf064d207ed58decd7775e09d1c163aefc577ad159bbe8f196",
+    "data/bounded-coverage.json": "2aa8cae537fb4b8a6e7c274d2e4f1925d051d34f65ed8bc11bfdc28477e4861d"
+  }
+}

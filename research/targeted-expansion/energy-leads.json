@@ -1,0 +1,275 @@
+{
+  "created_at_utc": "2026-10-25T05:21:27.896563+00:00",
+  "purpose": "Short risk-based lead selection from archived but substantively unread submissions. These are unverified research candidates, not findings or issue records.",
+  "selection_rule": "Named quantitative source attribution, definite regulatory timetable or categorical technical/legal source description linked to an explicit policy request; no author/ideology targeting.",
+  "lead_count": 1,
+  "pool_policy": "No compiled reading-pool, issue count or finding manifest changed. Initial read extent is recorded here solely for reproducible selection.",
+  "leads": [
+    {
+      "register_id": "SG2610190007",
+      "registered_author": "MIBRAG GmbH",
+      "selection_status": "unverified_lead_for_future_evaluation",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/88/ba/863060/Stellungnahme-Gutachten-SG2610190007.pdf",
+      "register_detail_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610190007/511753",
+      "local_file": "research/round3-root/coverage/register-pdfs/SG2610190007.pdf",
+      "text_file": "research/round3-root/coverage/register-pdfs/SG2610190007.txt",
+      "sha256": "893b5f809d8ba6c6cfeba113de750d81409aed17cea44ec570787c13bc8df1e0",
+      "recipient_events_self_reported": [
+        {
+          "date": "19.10.2026",
+          "recipients": "19.10.2026 Bundestag: Mitglieder des Bundestages [alle SG dorthin]",
+          "links": [
+            {
+              "text": "[alle SG dorthin]",
+              "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundestag%7CMitglieder+des+Bundestages%5D=true&sort=FIRSTPUBLICATION_DESC"
+            }
+          ]
+        }
+      ],
+      "novelty_check": "No identical PDF hash found in compiled reading pool or any research *pool*.json inventory; archive/extraction is not treated as prior reading. Substantive/mirror deduplication remains to be completed.",
+      "id": "energy-selection-mibrag-reserve-scope",
+      "title": "MIBRAG: EU strategic-reserve provision applied to German network-reserve return",
+      "process": "Federal proposal for market return of network-reserve power stations; exact legislative vehicle/draft remains a scope gate",
+      "claim_quote": {
+        "original": "nicht von der Elektrizitätsbinnenmarktverordnung gedeckt",
+        "language": "de",
+        "translation_en": "Translation: not covered by the Electricity Market Regulation.",
+        "locator": {
+          "pdf_page": 1,
+          "section": "Fazit, first sentence"
+        }
+      },
+      "request_quote": {
+        "original": "ist daher abzulehnen.",
+        "language": "de",
+        "translation_en": "Translation: should therefore be rejected.",
+        "locator": {
+          "pdf_page": 1,
+          "section": "Fazit, final sentence on reserve-plant market return to reduce price peaks"
+        }
+      },
+      "context": "The one-page statement expressly concerns Steinkohle plants from the Netzreserve, quotes Regulation 2019/943 Article 22(2)(a),(d),(e) on a capacity mechanism designed as a strategic reserve, and distinguishes the 2022/2023 gas-security emergency. It objects to the proposal as legally unsupported and competitively harmful.",
+      "why_worth_checking": "The legal conclusion centrally supports outright rejection and depends on whether German network-reserve installations and the proposed return mechanism fall within the quoted strategic-capacity-reserve category. A category mismatch would be distinct from a disagreement about competitive effects.",
+      "plausible_benign_explanation": "The actual proposed mechanism may legally constitute a strategic capacity reserve, or additional provisions/state-aid conditions may impose the same restriction. Network-reserve and capacity-reserve labels alone cannot resolve the EU-law classification. The submission may be a general policy paper outside an identifiable legislative consultation.",
+      "next_primary_evidence": [
+        {
+          "source": "Official federal market-return proposal and exact StromVKG/EnWG amendment text, if any",
+          "task": "First establish the legislative-process gate and exact version; reject from issue consideration if it is only a general political proposal."
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2019/943/oj/deu",
+          "task": "Read complete definitions and Articles 21–22 with amendment/version history."
+        },
+        {
+          "source": "Official Netzreserveverordnung, EnWG section 13d and relevant Commission state-aid decision",
+          "task": "Determine the actual reserve category and its market-participation conditions; do not infer a legal error from terminology alone."
+        }
+      ],
+      "initial_depth": {
+        "submission": "Entire one-page original read and visually inspected.",
+        "primary_sources": "Not independently checked in this selection pass."
+      },
+      "preview": "research/targeted-expansion/energy-previews/mibrag-p1.png",
+      "priority": "low_conditional_scope_gate"
+    }
+  ],
+  "selection_exclusions": [
+    {
+      "id": "SG2610230019",
+      "reason": "No substantive extractable text; not selected or treated as read."
+    },
+    {
+      "id": "SG2610210016",
+      "reason": "BP auction-volume claims overlap an already checked primary-results theme; avoid counting routine similar numbers as a fresh promising case without a specific discrepancy."
+    },
+    {
+      "id": "SG2610150027",
+      "reason": "Alterric timeline/effect claims have clear conditional/planning-context explanations; not shortlisted as likely error merely because criticism is forceful."
+    }
+  ],
+  "independent_review": "research/targeted-expansion/energy-leads-review.json",
+  "deprioritised_after_primary_check": [
+    {
+      "register_id": "SG2610130043",
+      "registered_author": "German Datacenter Association e. V.",
+      "selection_status": "deprioritised_after_affirmative_primary_source_rescue",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/98/97/860847/Stellungnahme-Gutachten-SG2610130043.pdf",
+      "register_detail_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610130043/507851",
+      "local_file": "research/round3-root/coverage/register-pdfs/SG2610130043.pdf",
+      "text_file": "research/round3-root/coverage/register-pdfs/SG2610130043.txt",
+      "sha256": "1a91eba9ceafb39ece498cefb110e6db0024f20ac6599375b84f0bd9b9eaf127",
+      "recipient_events_self_reported": [
+        {
+          "date": "07.10.2026",
+          "recipients": "07.10.2026 Bundestag: Fraktionen/Gruppen [alle SG dorthin] ; Gremien [alle SG dorthin] ; Mitglieder des Bundestages [alle SG dorthin] ; Bundesregierung: Bundesministerium für Digitalisierung und Staatsmodernisierung (BMDS) [alle SG dorthin] ; Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit (BMUKN) [alle SG dorthin] ; Bundesministerium für Wirtschaft und Energie (BMWE) [alle SG dorthin]",
+          "links": [
+            {
+              "text": "[alle SG dorthin]",
+              "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundestag%7CFraktionen%2FGruppen%5D=true&sort=FIRSTPUBLICATION_DESC"
+            },
+            {
+              "text": "[alle SG dorthin]",
+              "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundestag%7CGremien%5D=true&sort=FIRSTPUBLICATION_DESC"
+            },
+            {
+              "text": "[alle SG dorthin]",
+              "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundestag%7CMitglieder+des+Bundestages%5D=true&sort=FIRSTPUBLICATION_DESC"
+            },
+            {
+              "text": "[alle SG dorthin]",
+              "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundesregierung%7CBundesministerium+f%C3%BCr+Digitalisierung+und+Staatsmodernisierung+%28BMDS%29%5D=true&sort=FIRSTPUBLICATION_DESC"
+            },
+            {
+              "text": "[alle SG dorthin]",
+              "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundesregierung%7CBundesministerium+f%C3%BCr+Umwelt%2C+Klimaschutz%2C+Naturschutz+und+nukleare+Sicherheit+%28BMUKN%29%5D=true&sort=FIRSTPUBLICATION_DESC"
+            },
+            {
+              "text": "[alle SG dorthin]",
+              "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundesregierung%7CBundesministerium+f%C3%BCr+Wirtschaft+und+Energie+%28BMWE%29%5D=true&sort=FIRSTPUBLICATION_DESC"
+            }
+          ]
+        }
+      ],
+      "novelty_check": "No identical PDF hash found in compiled reading pool or any research *pool*.json inventory; archive/extraction is not treated as prior reading. Substantive/mirror deduplication remains to be completed.",
+      "id": "energy-selection-gda-ashrae-loadpoints",
+      "title": "GDA: foreign technical-standard description supporting load-dependent PUE compliance",
+      "process": "EnEfG/EED implementation, government bill BT 21/8027; author October 5, 2026 post-hearing elaboration",
+      "claim_quote": {
+        "original": "bei 25, 50, 75 und 100 Prozent der IT-Auslegungslast.",
+        "language": "de",
+        "translation_en": "Translation: at 25, 50, 75 and 100 percent of the IT design load.",
+        "locator": {
+          "pdf_page": 2,
+          "printed_page": 2,
+          "section": "I, Internationale Einordnung; sentence about ASHRAE Standard 90.4."
+        }
+      },
+      "request_quote": {
+        "original": "einen zweiten Erfüllungsweg",
+        "language": "de",
+        "translation_en": "Translation: a second compliance route.",
+        "locator": {
+          "pdf_page": 1,
+          "section": "I, Auslastungsabhängige PUE-Höchstwerte"
+        }
+      },
+      "context": "The full response acknowledges that PUE is an energy ratio and that lower PUE need not reduce absolute consumption. It proposes a verified design/load curve, operating checks and remediation, keeps the fixed-limit route, and alternatively asks for 1.3 instead of 1.2. Its claim that ASHRAE 90.4 assesses both mechanical and electrical infrastructure at four stated IT load points is a specific source description, not merely an opinion about PUE.",
+      "why_worth_checking": "The asserted international precedent directly supports a new compliance route. Check the particular ASHRAE edition, whether electrical and mechanical metrics have identical load points and whether a component-efficiency standard is comparable to the proposed PUE curve. This is a technical source-scope check, not a claim that load-dependent regulation is unwise.",
+      "plausible_benign_explanation": "The four load points may be correct for the relevant edition or rating paths; compressed wording may reasonably summarise different component tests. Singapore Green Mark may independently support the proposal even if ASHRAE differs.",
+      "next_primary_evidence": [
+        {
+          "source": "Original ASHRAE Standard 90.4 edition operative at October 2026 and official addenda",
+          "task": "Compare the mechanical/electrical compliance and partial-load tables. Identify any paid-access limitation rather than infer an error."
+        },
+        {
+          "source": "Singapore BCA/IMDA Green Mark for Data Centres 2024/2026 official criteria",
+          "task": "Independently test the second expressly cited international precedent."
+        },
+        {
+          "url": "https://dserver.bundestag.de/btd/21/080/2108027.pdf",
+          "task": "Confirm exact proposed PUE requirements and alternative routes in the addressed bill."
+        }
+      ],
+      "initial_depth": {
+        "submission": "All four extracted author pages read; physical page 2 claim and nearby alternatives visually inspected.",
+        "primary_sources": "Not independently checked in this selection pass."
+      },
+      "preview": "research/targeted-expansion/energy-previews/gda-p2.png",
+      "primary_rescue": {
+        "reviewer": "root independent initial primary-source discovery",
+        "explanation": "The official ASHRAE Store description for 90.4-2022 affirmatively describes 25/50/75/100 percent design-load electrical-component breakpoints bringing electrical and mechanical metrics into alignment. This substantially supports the GDA summary; edition-access uncertainty is not evidence of an error. No concrete contrary mismatch established.",
+        "urls": [
+          "https://store.accuristech.com/ashrae/standards/ashrae-90-4-2022?product_id=2524333",
+          "https://www.ashrae.org/file%20library/technical%20resources/standards%20and%20guidelines/standards%20addenda/90_4_2022_b_20250930.pdf"
+        ],
+        "read_limit": "Primary rescue reported by root; energy agent has not read the entire paid standard or addendum."
+      }
+    },
+    {
+      "register_id": "SG2610230021",
+      "registered_author": "RWE",
+      "selection_status": "deprioritised_after_affirmative_primary_source_match",
+      "pdf_url": "https://www.lobbyregister.bundestag.de/media/15/a4/864858/Stellungnahme-Gutachten-SG2610230021.pdf",
+      "register_detail_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610230021/516207",
+      "local_file": "research/round3-root/coverage/register-pdfs/SG2610230021.pdf",
+      "text_file": "research/round3-root/coverage/register-pdfs/SG2610230021.txt",
+      "sha256": "a9447d2df431815919d239f3a6b32d3650cc8d041adeab6dc451d51962823236",
+      "recipient_events_self_reported": [
+        {
+          "date": "20.10.2026",
+          "recipients": "20.10.2026 Bundestag: Mitglieder des Bundestages [alle SG dorthin]",
+          "links": [
+            {
+              "text": "[alle SG dorthin]",
+              "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundestag%7CMitglieder+des+Bundestages%5D=true&sort=FIRSTPUBLICATION_DESC"
+            }
+          ]
+        }
+      ],
+      "novelty_check": "No identical PDF hash found in compiled reading pool or any research *pool*.json inventory; archive/extraction is not treated as prior reading. Substantive/mirror deduplication remains to be completed.",
+      "id": "energy-selection-rwe-prognos-pv",
+      "title": "RWE-registered joint company appeal: PV bid cap and Prognos cost attribution",
+      "process": "EEG 2027, expressly BT 21/7867, Article 1 number 53 / section 37b; also Netzanschlusspaket and AgNes",
+      "claim_quote": {
+        "original": "Die Stromgestehungskosten wachsen um bis zu 30 Prozent an",
+        "language": "de",
+        "translation_en": "Translation: The levelised costs of electricity rise by up to 30 percent.",
+        "locator": {
+          "pdf_page": 3,
+          "paragraph": "Second main paragraph, explicitly introducing the Prognos study results."
+        }
+      },
+      "request_quote": {
+        "original": "mindestens 7 ct/kWh",
+        "language": "de",
+        "translation_en": "Translation: at least 7 ct/kWh.",
+        "locator": {
+          "pdf_page": 3,
+          "paragraph": "Same paragraph, proposed new starting bid cap effective January 1, 2027; operative amendment follows."
+        }
+      },
+      "context": "The submission expressly treats regulatory measures as planned and reports cumulative effects from several studies. It links the selected Prognos figures to a demand to raise the 2027 PV auction cap from 5.9 to at least 7 ct/kWh. The page also assigns new AgNes capacity charges to January 1, 2027, a separately checkable timetable premise. No error has been established.",
+      "why_worth_checking": "A named, publicly linked model supports a concrete statutory monetary request. Check whether the stated 30 percent increase and 1.3–1.5 ct/kWh excess describe LCOE, required bids, the same PV cohort and a cumulative scenario actually modelled together. Distinguish source-description errors from disputed assumptions.",
+      "plausible_benign_explanation": "The source may match exactly; a high-cost cumulative scenario or bid/LCOE distinction could explain apparently different headline numbers. Planned regulatory dates may be scenario assumptions rather than a representation of adopted law.",
+      "next_primary_evidence": [
+        {
+          "url": "https://www.bdew.de/media/documents/Vorwort_und_Kurzbericht.pdf",
+          "task": "Read the full September 2026 Prognos report, scenario definitions, figure units and PV tables; compare exact stated figures."
+        },
+        {
+          "url": "https://dserver.bundestag.de/btd/21/078/2107867.pdf",
+          "task": "Check the exact addressed government bill, section 37b and commencement provisions."
+        },
+        {
+          "source": "BNetzA AgNes official consultation decisions and implementation timetable",
+          "task": "Verify whether January 1, 2027 is adopted, proposed or merely assumed; no result presumed."
+        }
+      ],
+      "initial_depth": {
+        "submission": "All three physical pages read for lead selection: page 1 redacted email visually inspected, pages 2–3 complete substantive text read; physical page 3 claim/request visually inspected.",
+        "primary_sources": "Not independently checked in this selection pass."
+      },
+      "preview": "research/targeted-expansion/energy-previews/rwe-p3.png",
+      "displayed_sent_header": {
+        "date": "2026-10-20",
+        "time": "13:09",
+        "pdf_page": 1,
+        "limit": "Displayed exported email header, not independently authenticated recipient/server delivery. Recipient and sender fields redacted."
+      },
+      "primary_rescue": {
+        "reviewer": "root independent original-Prognos passage check",
+        "explanation": "Original BDEW/Prognos source physical page2 expressly reports PV increases up to30percent; physical38 (printed34) gives ground-mounted PV South55.6 to72.2EUR/MWh, and physical39–40 imply13.2/14.5EUR/MWh above the59EUR/MWh cap. The submission’s30percent and1.3–1.5ct/kWh figures are positively supported.",
+        "source_url": "https://www.bdew.de/media/documents/Vorwort_und_Kurzbericht.pdf",
+        "read_limit": "Root read relevant original source passages. Energy agent did not independently read all52source pages."
+      },
+      "remaining_low_priority_question": {
+        "question": "AgNes timing, if a different exact operative schedule can be shown.",
+        "primary_url": "https://bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260806_Agnes.html",
+        "initial_primary_observation": "Official August6notice describes replacement of StromNEV from2029 and2027follow-up decisions.",
+        "strong_benign_explanation": "The author describes costs to be priced into projects fromJanuary2027, not unambiguously charges paid then. Future2029charges can rationally enter2027auction bids. This is not yet a timetable error and is not an active priority."
+      }
+    }
+  ],
+  "selection_result": "No high-priority energy allegation survived this short pass. One low-priority legal-scope candidate remains conditional on establishing its exact federal legislative vehicle. Two initially concrete source-attribution candidates were affirmatively rescued by primary evidence.",
+  "updated_at_utc": "2026-10-25T05:24:46.215974+00:00"
+}

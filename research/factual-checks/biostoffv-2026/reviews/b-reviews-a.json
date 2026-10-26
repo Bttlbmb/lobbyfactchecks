@@ -1,0 +1,1086 @@
+{
+  "reviewer": "B",
+  "batch": "biostoffv-2026",
+  "reviewed_file": "research/factual-checks/biostoffv-2026/agents/claims-a.json",
+  "reviewed_sha256": "b4f2701d6cbe84ae148f50f7f033f6fc018e4053edab70018b30bbfa52721f91",
+  "created_at_utc": "2026-10-25T11:57:02.599100+00:00",
+  "documents_reread": [
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "original_pdf": "research/round3-social/coverage-pdfs/87c3856e1e36057be1.pdf",
+      "sha256": "413249d93e358fac8dade25f85cc546fe7e7421291e3ce0891a4442bd15bcfa0",
+      "method": "All 14 original extracted pages independently reread before A dispositions; original physical page 11 additionally rendered and visually inspected for the ambiguous HEPA/annex/commencement context. All claims and exclusions then reviewed independently."
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "biostoffv-a-001",
+      "verdict": "accept",
+      "reason": "Independently reread the operative Article 9 duties in the official EU text. They require adequate training adapted to new risks and periodic repetition, but do not prescribe an exclusive attendance or oral medium. This does not validate every digital implementation.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-eu200054",
+          "locator": "Article 9(1)–(2)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-002",
+      "verdict": "accept",
+      "reason": "Section 12 ArbSchG requires sufficient and appropriate workplace/task-related explanations and instructions reflecting hazards. Its medium-neutral wording supports the stated premise; task-specific suitability remains essential.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-arbschg",
+          "locator": "Section 12(1)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-003",
+      "verdict": "accept",
+      "reason": "The DGUV electronic-instruction guidance expressly identifies flexible use, multimedia, language options and documentation capabilities. These are conditional capabilities, not measured superiority or realised savings.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-dguv-electronic",
+          "locator": "Benefits and conditions of electronically supported instruction",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-004",
+      "verdict": "accept",
+      "reason": "DGUV Regel 100-001 section 2.3 and PSA-BV section 3 independently support questions, safe implementation and necessary practical training. Asynchronous material alone cannot supply an indispensable practical component; remote interaction or supplementary digital theory is not categorically excluded.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-dguv100001",
+          "locator": "Section 2.3, printed pages 25–27",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "biostoffv-a-psabv",
+          "locator": "Section 3(1)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-005",
+      "verdict": "accept",
+      "reason": "Read with the complete author paragraph, this is a conditional statement about practical needs and suitable theoretical repetition. BioStoffV section 14 and DGUV guidance do not equate protection level alone with the teaching method. The existing oral requirement is preserved: digital theory need not replace the whole required instruction.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-bio",
+          "locator": "Section 14(1)–(2)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "biostoffv-a-dguv-electronic",
+          "locator": "Requirements and limitations",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-006",
+      "verdict": "accept",
+      "reason": "The June 2025 imprint and section 2.3 were independently reopened. Questions must be possible, understanding and safe implementation checked, and mere distribution of materials does not suffice. No general digital-versus-presence causal ranking follows.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-dguv100001",
+          "locator": "June 2025 imprint and section 2.3, printed pages 25–27",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-007",
+      "verdict": "accept",
+      "reason": "The last sentences of current section 14(2) expressly include general occupational-medical consultation. The author’s additional dialog safeguards are recommendations, not established failures of all existing instruction.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-bio",
+          "locator": "Section 14(2), final sentences",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-008",
+      "verdict": "accept",
+      "reason": "BGB section 126b requires a readable declaration identifying the declarant on a durable medium, rather than a qualified electronic signature. This bounded legal distinction supports the claim; authentication reliability is a separate implementation question.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-bgb126b",
+          "locator": "Section 126b, complete clause",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-009",
+      "verdict": "accept",
+      "reason": "The later official amendment does replace the current signature-based confirmation with text-form documentation and confirmation. It cannot authenticate the exact August version addressed by VDSI, so unresolved is warranted.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical page 4, amendment to section 14(3)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-010",
+      "verdict": "accept",
+      "reason": "A present HTTP 403 and the absence of a recovered dated capture cannot establish non-publication as of September. The historical negative remains unresolved; the failed source is explicitly unusable.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-asga",
+          "locator": "Failed direct access, HTTP 403",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-011",
+      "verdict": "accept",
+      "reason": "The inspected draft rationale and DGUV guidance do not establish universal educational superiority. A bounded read cannot prove a negative across all research or recover the exact August rationale, so retaining unresolved is appropriately conservative.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical page 14, explanation of section 14",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "biostoffv-a-dguv-electronic",
+          "locator": "Benefits and limitations",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-012",
+      "verdict": "accept",
+      "reason": "Current section 4(2) distinguishes a minimum biennial check from updating where required, and requires recording an unchanged assessment. VDSI expressly preserves that distinction; it does not claim every review entails a complete new assessment.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-bio",
+          "locator": "Section 4(2)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-013",
+      "verdict": "accept",
+      "reason": "The later amendment leaves section 4 unchanged, but exact August bytes are unavailable. Current law alone does not authenticate a historical proposal; unresolved preserves that limit.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Operative amendment, physical pages 2–6",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-014",
+      "verdict": "accept",
+      "reason": "Article 3(2) requires regular reassessment and reassessment on relevant change, without a fixed two-year maximum. The comparison is about the EU minimum, not a claim that national periodic checks are prohibited.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-eu200054",
+          "locator": "Article 3(2)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-015",
+      "verdict": "accept",
+      "reason": "Independently reopened GefStoffV section 6(10), BetrSichV section 3(7) and ArbSchG section 3(1). Their general assessment-review duties do not impose the BioStoffV biennial maximum. Separate equipment inspection deadlines do not contradict this carefully delimited comparison.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-gefstoffv",
+          "locator": "Section 6(10)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "biostoffv-a-betrsichv",
+          "locator": "Section 3(7)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "biostoffv-a-arbschg",
+          "locator": "Section 3(1)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-016",
+      "verdict": "accept",
+      "reason": "The law proves that reviews occur, but not how often unchanged establishments incur unproductive formal repetition or its prevention effect. VDSI supplies no representative matched burden/outcome evidence. The frequency-and-benefit assertion remains unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-bio",
+          "locator": "Section 4(2)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-017",
+      "verdict": "accept",
+      "reason": "Current BioStoffV and TRBA 400 distinguish targetedness, exposure, protection-level assignment and actual hazards. Non-targeted work is not synonymous with low risk; no particular workplace is thereby classified as high risk.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-bio",
+          "locator": "Sections 2(8), 4 and 6",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "biostoffv-a-trba400",
+          "locator": "Sections 2.6–2.10 and risk-assessment scheme",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-018",
+      "verdict": "accept",
+      "reason": "BioStoffV section 8(4) and GefStoffV section 7 require the hierarchy of protective measures and suitable PPE for residual risks. The burdensome-use restriction does not authorise unprotected work. The author’s complementary reading is supported.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-bio",
+          "locator": "Section 8(4) numbers 1–4",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "biostoffv-a-gefstoffv",
+          "locator": "Section 7(3)–(5)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-019",
+      "verdict": "accept",
+      "reason": "Both current provisions contain the restriction on burdensome PPE as a permanent measure. The proposed drafting choices are distinct from the existing duty.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-bio",
+          "locator": "Section 8(4)4",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "biostoffv-a-gefstoffv",
+          "locator": "Section 7(5)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-020",
+      "verdict": "accept",
+      "reason": "The accessible later operative amendment contains the different conjunctions identified by VDSI. The legal classification of protective clothing is separately verified, but August-version identity remains unverified; no wording error is promoted.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical page 4, amendments to sections 8 and 9",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-021",
+      "verdict": "accept",
+      "reason": "PSA-BV section 1 defines PPE by protective purpose and expressly excludes ordinary clothing without a specific protective function. Not every item called work clothing is necessarily PPE, and burden remains equipment/task dependent.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-psabv",
+          "locator": "Section 1(2) and (3) number 1",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-022",
+      "verdict": "accept",
+      "reason": "Current section 20(1)7 includes use as a permanent measure, read with section 8(4)4. The legal background supports this claim; the proposal’s intended terminology is a separate historical-version question.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-bio",
+          "locator": "Section 20(1)7 read with section 8(4)4",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-023",
+      "verdict": "accept",
+      "reason": "Independently read Annex clauses 2 and 3 of Directive 2010/32/EU. Covered places include other locations where healthcare is performed under employer direction and supervision, supporting ambulance and mobile-care inclusion rather than a fixed-building-only scope.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-eu201032",
+          "locator": "Annex, clauses 2 and 3",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-024",
+      "verdict": "accept",
+      "reason": "TRBA 250 scope expressly includes ambulance and ambulatory care; section 4.2.5 gives risk-dependent safety-device and sharps-container requirements, including rescue-service tasks. These are concrete portable technical counterexamples. The evidence does not make every possible containment technology mandatory in every mobile setting.",
+      "evidence_checks": [
+        {
+          "source_id": "bio-root-trba250-baua",
+          "locator": "Scope sections 1 and 4.2.5, printed pages 2–3 and 22–25",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "biostoffv-a-eu201032",
+          "locator": "Annex clauses 2, 3 and 6",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-025",
+      "verdict": "accept",
+      "reason": "The later definition and rationale reproduce the workplace-related wording and discussion of equivalent substitutes. Existing section 8 duties remain relevant, preventing an inference that all mobile technical-protection duties disappear. Exact August wording remains unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical page 3, section 2(15), and physical page 12 rationale",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-026",
+      "verdict": "accept",
+      "reason": "The later proposed assurance sentence is close to ArbSchG section 8(2), while current section 8(1) separately continues mutual information and coordination duties. This is a version-sensitive drafting comparison, not proof that no coordination law exists.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical page 4, new section 8(8), and physical page 13 rationale",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-027",
+      "verdict": "accept",
+      "reason": "The final sentence of GDPR Article 6(1) expressly limits reliance on point (f) for processing by public authorities performing their tasks. This does not imply every processing operation by every public-sector actor has the same legal classification.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-gdpr",
+          "locator": "Article 6(1), final sentence",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-028",
+      "verdict": "accept",
+      "reason": "Independently read Article 9(1)–(3) with Article 6. Health-data processing requires an applicable exception with its conditions, safeguards and legal basis, rather than an undifferentiated reference to paragraph 2. No single ground is ruled in or out for all workplace cases.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-gdpr",
+          "locator": "Articles 9(1)–(3) and 6",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-029",
+      "verdict": "accept",
+      "reason": "Article 4(15), recital 35 and Article 9 use a broad concept of identifiable health information. Disease-specific restrictions or precautions can permit an inference in some circumstances; neither VDSI nor the inventory claims that every generic protection instruction reveals a diagnosis.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-gdpr",
+          "locator": "Article 4(15), recital 35 and Article 9",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-030",
+      "verdict": "accept",
+      "reason": "The later draft does not expressly repeal section 203 or state a general secrecy override. However, legal authorisation can matter and the August provision is unauthenticated. The full proposal-specific conclusion properly remains unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical page 4, new section 8(8)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-031",
+      "verdict": "accept",
+      "reason": "GefStoffV section 10a(3) refers to paragraph 2 duties; paragraph 1 separately imposes the employer exposure-register duty. VDSI’s loose register terminology does not erase that operative distinction and is not a material separate error.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-gefstoffv",
+          "locator": "Section 10a(1)–(4)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-032",
+      "verdict": "accept",
+      "reason": "The later proposed section 7(5) refers to all paragraph 3 duties and its rationale mentions dispensing with own register maintenance. That corroborates the textual concern without proving total loss of responsibility for inaccurate supplied data; August identity is unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical page 4, section 7(5), and physical page 12 rationale",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-033",
+      "verdict": "accept",
+      "reason": "Current DGUV material establishes a chemical-law orientation. It cannot prove the absence of an operational BioStoffV service as of the authored date; an inaccessible checklist is not evidence of that historical negative. Unresolved is retained.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-web-zed",
+          "locator": "DGUV current ZED page and indexed February 2026 checklist",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical pages 12–13",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-034",
+      "verdict": "accept",
+      "reason": "Article 11 expressly sets a normal retention rule and specified long-term-risk categories potentially extending retention to 40 years. The author does not apply 40 years to all biological-agent records.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-eu200054",
+          "locator": "Article 11(1)–(2)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-035",
+      "verdict": "accept",
+      "reason": "Independently read the original Banerjee et al. 2024 paper’s abstract and case-series context, beyond A’s abstract record. It reports exceptional cadaver-derived growth-hormone exposure and a non-TSE seeding/transmission mechanism, with no suggestion of everyday transmission. This supports considering a precautionary mechanism, not a measured routine laboratory incidence or blanket contagiousness claim.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-web-seeds",
+          "locator": "Banerjee et al. 2024 primary abstract",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "bio-b-seed-study",
+          "locator": "Physical pages 1–2, abstract and case-series setting; original Nature Medicine study",
+          "review_action": "Independently read full relevant primary-paper context beyond the initial abstract evidence."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-036",
+      "verdict": "accept",
+      "reason": "The later operative phrase and rationale do contemplate non-TSE aggregates beyond the existing TSE wording. Precise legal scope, the effects catalogue and August version remain interpretive/unauthenticated; no unsupported error is inferred.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical page 3, section 2(1), and physical page 11 rationale",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-037",
+      "verdict": "accept",
+      "reason": "TRBA 400 defines exposure as contact of employees with biological agents during their work; occurrence alone is a different condition. The distinction is supported without proving that the proposed wording excludes a specified occupation.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-trba400",
+          "locator": "Sections 2.6 and 2.10",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "biostoffv-a-bio",
+          "locator": "Section 2(7)–(8)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-038",
+      "verdict": "accept",
+      "reason": "Article 3 expressly addresses activities where workers are or may be exposed because of their work. This is the correct bounded EU scope premise, not a declaration that every ubiquitous organism creates a material occupational risk.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-eu200054",
+          "locator": "Article 3(1)–(2)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-039",
+      "verdict": "accept",
+      "reason": "The later amendment contains the beyond-ubiquitous-occurrence language. Its effect on particular occupational categories requires interpretation and exposure context, and the exact August version is unavailable. Possible exclusions are not established outcomes.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical page 3, section 2(7)2, and physical page 12 rationale",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-040",
+      "verdict": "accept",
+      "reason": "The revised EU annex footnote says recommended measures should in principle apply unless the risk assessment indicates otherwise. The inventory preserves both the default and exception and does not convert the recommendation into an unconditional obligation.",
+      "evidence_checks": [
+        {
+          "source_id": "bio-root-eu20191833-boe",
+          "locator": "Annexes replacing Directive 2000/54 Annexes V and VI, recommendation footnote",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-041",
+      "verdict": "accept",
+      "reason": "Current sections 15 and 16 separately establish the RG3** permission exemption and activity-specific notification duties. This does not mean every conceivable RG3** activity has the same notification requirement.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-bio",
+          "locator": "Sections 15(1) and 16(1)–(4)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-042",
+      "verdict": "accept",
+      "reason": "The later operative text changes section 15 rather than section 16, while its rationale mentions both procedures. Existing permission applications already allow electronic form and general submission rules may matter. This remains a historical drafting comparison, not a proven ban on electronic notifications.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Operative physical pages 2–6 and rationale physical page 14",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-043",
+      "verdict": "accept",
+      "reason": "Read the complete replacement Annex VI industrial table and its heading. The purpose-built condition attaches to the controlled area; Annex V is the separate laboratory table. The grammatical/table interpretation is supported without adopting every policy consequence.",
+      "evidence_checks": [
+        {
+          "source_id": "bio-root-eu20191833-boe",
+          "locator": "Replacement Annex VI, industrial table, controlled area row 12",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-044",
+      "verdict": "accept",
+      "reason": "The industrial Annex VI air-filtration row is no/recommended/yes for levels 2/3/4, including incoming and outgoing air. The recommended-measure risk-assessment exception remains part of the comparison.",
+      "evidence_checks": [
+        {
+          "source_id": "bio-root-eu20191833-boe",
+          "locator": "Replacement Annex VI, industrial table, incoming/outgoing air row 9",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-045",
+      "verdict": "revise",
+      "reason": "The original act and the later 2020 amendment confirm the general 20 November 2021 deadline. Add the explicit earlier 24 November 2020 exception for Annex V/VI changes insofar as they concern SARS-CoV-2. The author’s general deadline remains supported, and both dates were past in September 2026; this is a scope qualification, not an error finding.",
+      "evidence_checks": [
+        {
+          "source_id": "bio-root-eu20191833-boe",
+          "locator": "Article 2(1)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "biostoffv-br-deadline-check",
+          "locator": "Directive (EU) 2020/739 Article 2 amending 2019/1833 Article 2(1)",
+          "review_action": "Fresh independent official-primary check of later amendment and specific SARS-CoV-2 exception."
+        }
+      ],
+      "proposed_result": "supported"
+    },
+    {
+      "claim_id": "biostoffv-a-046",
+      "verdict": "accept",
+      "reason": "The later impact text treats the item as minor without a full installation-stock, retrofit or recurring operating-cost computation. This is not evidence that actual aggregate costs must be large, and the addressed August model remains unauthenticated.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical pages 9–10, section E on fulfilment costs",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-047",
+      "verdict": "accept",
+      "reason": "Independently compared the national laboratory Annex II row and revised EU Annex V row. The national general airborne-transmission condition is absent from the corresponding EU table row. Annex III RG3** risk-based derogations remain important, and VDSI asks for a compliance check rather than declaring categorical national non-compliance.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-bio",
+          "locator": "Annex II number 5, physical page 17",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "bio-root-eu20191833-boe",
+          "locator": "Replacement Annex V, laboratory table, air-filtering row 4 and Annex III introductory item 8",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-048",
+      "verdict": "accept",
+      "reason": "The accessible later Article 2 provides next-day commencement. No authenticated August text is available; transition preferences are normative rather than factual failures.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical page 5, Article 2",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-049",
+      "verdict": "accept",
+      "reason": "Current BioStoffV section 3(2) expressly permits application from the technical EU update’s entry into force and requires it after the implementation deadline. This verifies the existing classification-reference distinction, not every possible future successor instrument.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-bio",
+          "locator": "Section 3(2)",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-050",
+      "verdict": "accept",
+      "reason": "The official EU instrument’s title and legal form are Regulation (EU) 2021/821. This narrow distinction is correct; the proposed dynamic-reference effects are assessed separately.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-web-dualuse",
+          "locator": "Official EU instrument title and legal-form metadata",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-051",
+      "verdict": "accept",
+      "reason": "The later rationale broadly mentions successor rules, but universal automatic inclusion of any future differently numbered act depends on the actual statute and future legal framework. VDSI’s concern is interpretive and August-version sensitive, so unresolved is appropriate.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical page 15, explanation of dual-use reference",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-052",
+      "verdict": "accept",
+      "reason": "BioStoffV has a broader scope than laboratories, but generic SME prevalence does not establish the affected establishments, incremental burdens or adequacy of this model. Neither a matched denominator nor an authenticated August model resolves the critique.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical page 11, SME test",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        },
+        {
+          "source_id": "biostoffv-a-web-sme",
+          "locator": "Official business/healthcare table discovery",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-053",
+      "verdict": "accept",
+      "reason": "The later model contains 20-minute savings assumptions and laboratory employee counts; current section 14 applies more broadly. This checks a model’s stated assumptions rather than realised savings, and preserves the historical-version limitation.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical pages 8–10 cost model",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-054",
+      "verdict": "accept",
+      "reason": "The later model explicitly includes one-off licence/module acquisition expenditure. VDSI’s criticism concerns separately unpriced recurring maintenance, questions, practical instruction, verification and other process costs; it does not deny all licensing expenditure. Incremental burden and August-model identity remain unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical pages 8–10, costs, and physical pages 12–14 rationale",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-055",
+      "verdict": "accept",
+      "reason": "The later memorandum expressly dispenses with evaluation, corroborating but not authenticating the August description. The requested future evaluation dates are policy preferences rather than observed outcomes.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical page 11, evaluation section",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-056",
+      "verdict": "accept",
+      "reason": "The later operative requirement is legally defined text form, while the rationale says the employer is free as to the form of documentation. A charitable reading is freedom of medium within text form rather than a literal claim that no legal form applies. Together with missing August bytes, that prevents an error finding; unresolved should retain this contextual alternative.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-2026-root-draft",
+          "locator": "Physical page 4, section 14(3), and physical page 14 rationale",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "biostoffv-a-057",
+      "verdict": "accept",
+      "reason": "Independently read section 203, including professional groups and relevant authorisation qualifications. It protects entrusted secrets against unauthorised disclosure, not against every legally authorised or consented protective-information disclosure.",
+      "evidence_checks": [
+        {
+          "source_id": "biostoffv-a-stgb203",
+          "locator": "Section 203(1) and relevant authorisation qualifications",
+          "review_action": "Independently reopened the relevant operative provision, technical guidance, study context or explicitly failed-access record; qualifications are stated in the reason."
+        }
+      ]
+    }
+  ],
+  "omissions": [],
+  "sources": [
+    {
+      "id": "biostoffv-br-deadline-check",
+      "title": "Directive (EU) 2020/739, Article 2 amending Directive (EU) 2019/1833 Article 2(1)",
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2020-80871",
+      "retrieved_at": "2026-10-25T11:57:02.599100+00:00",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/br-eu-deadline-check.json",
+      "sha256": "0e088d93caa3ddcdab9a68583cc442582be736d1cb547d558290e1c5065429ba",
+      "usable_as_evidence": true,
+      "archive_type": "Authored primary-law research note; indexed official act independently read, not an original HTML/PDF archive",
+      "temporal_limit": "Both operative dates predate the September 2026 response. This does not establish German compliance or authenticate the addressed August draft.",
+      "retention_reason": "Small authored research decision retained to make the precise additional peer qualification reproducible; no full public source download retained."
+    }
+  ],
+  "limitations": [
+    "The exact addressed 24 August 2026 draft/synopsis/readable version was not authenticated. The currently accessible official draft has later technical metadata and is corroboration, not proof of historical wording. Historical draft-dependent outcomes remain unresolved.",
+    "Full original VDSI response and every inventoried claim/exclusion were reviewed. Long evidence guidance and research were read at the relevant stated passages, not screened as new complete target documents.",
+    "Current-law and technical-guidance edition dates were checked against the authored date. Current website retrieval does not establish past absence of publications or service capability.",
+    "The small additional deadline note is an authored record of a fresh official-primary check, not a saved original act. Existing frozen source snapshots were reused rather than duplicated; current report/build and exact-version review dependencies are preserved under AGENTS.md.",
+    "No finding is inferred from policy disagreement, missing access, a plausible forecast, unquantified cost concerns or intent. No new candidate error or material omitted claim was established."
+  ],
+  "reopened_evidence_snapshots": [
+    {
+      "source_id": "biostoffv-a-bio",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-bio.pdf",
+      "sha256": "06cab492e154fa36aa224d0038cb4bbd02531a473d0f430af67950cf2f1d98df",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-arbschg",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-arbschg.pdf",
+      "sha256": "9f52b0f17613d529a6a97d07fd52686e8afa0d933f198ae36a4860c4fdcf3f46",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-gefstoffv",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-gefstoffv.pdf",
+      "sha256": "46daa25004a0aefd16414003e2b126f14f9b8b147b3fe2ea49eddd00354ed1fe",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-betrsichv",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-betrsichv.pdf",
+      "sha256": "fc2c7d0d907091c3ee804b487042b7ae0bd97dd2d2a3e6d0c633383008e87d03",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-psabv",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-psabv.pdf",
+      "sha256": "28ae87dfcc1f97fd0588c7451ff6b23869935bfc414cd342a73fff8bd8d8fe6d",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-trba400",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-trba400.pdf",
+      "sha256": "c4e5a200e8ccb8f360a44615a57d2634328d6cf20b0d03200eb4779ec63b4f66",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-stgb203",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-stgb203.html",
+      "sha256": "e28273ab626e1871070f7f4cdff4b12d858ebd53ea3faa7d6ac2597578e85ce1",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-bgb126b",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-bgb126b.html",
+      "sha256": "42a3ec23ede8eaae79d2907ed080519d957d3a17e4e6e2107dc15392d6e8e70b",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-dguv100001",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-dguv100001.pdf",
+      "sha256": "d770fdb81cb119cd654d75ed3e3d61680e49e4fd03396f2fadb389d87ffc7c24",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-dguv-electronic",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-dguv-electronic.html",
+      "sha256": "c113fa23e1ea40724c9fbd5e5a7225564c86772682cb45cecb26304f5018a5b6",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-zed-checklist",
+      "usable_as_evidence": false,
+      "review_extent": "Explicit failed-access record independently checked; no archive or substantive proof asserted.",
+      "access_failure": "<HTTPError 404: ''>"
+    },
+    {
+      "source_id": "biostoffv-a-asga",
+      "usable_as_evidence": false,
+      "review_extent": "Explicit failed-access record independently checked; no archive or substantive proof asserted.",
+      "access_failure": "<HTTPError 403: 'Forbidden'>"
+    },
+    {
+      "source_id": "biostoffv-a-eu200054",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-eu200054.html",
+      "sha256": "c1965ebf674aec796fbf40638ac813427f28349fc12f812074c4ac2743988beb",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-gdpr",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-gdpr.html",
+      "sha256": "d32c8784b82b27edb354a085ee111c64d8b755fd1e27441a9c8738cb751638fd",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-eu201032",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-eu201032.pdf",
+      "sha256": "ec4d852a5b62b04b3e21bc9e909b7d1b3c3362ae841ac032f30a55e85c4fd3a1",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-2026-root-draft",
+      "local_file": "research/round3-social/sources/biostoffv-refe-ministry.pdf",
+      "sha256": "2a54d457ab13d0c459659c5300302d992919a8b360f74a7833eed735a30cf24d",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "bio-root-trba250-baua",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/root-trba250-baua.pdf",
+      "sha256": "ad41b79b886df2cda3865e2225ec04af78b717233cad49825eea3e85543a1796",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "bio-root-eu20191833-boe",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/root-eu20191833-boe.html",
+      "sha256": "d89abc7554acfb827aedbb01535e60f57cf9cc582ee92e3dddd49e825f46baa5",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-web-zed",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-web-primary.json",
+      "sha256": "559ba671586c45ae103aa8ceb7014f5167bd02d35e577bf7a7541aed60beccff",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-web-seeds",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-web-primary.json",
+      "sha256": "559ba671586c45ae103aa8ceb7014f5167bd02d35e577bf7a7541aed60beccff",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-web-dualuse",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-web-primary.json",
+      "sha256": "559ba671586c45ae103aa8ceb7014f5167bd02d35e577bf7a7541aed60beccff",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "biostoffv-a-web-sme",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/a-web-primary.json",
+      "sha256": "559ba671586c45ae103aa8ceb7014f5167bd02d35e577bf7a7541aed60beccff",
+      "usable_as_evidence": true,
+      "review_extent": "Relevant cited provisions/sections or source discovery and access-limit metadata; not a claim to have read every page of long guidance."
+    },
+    {
+      "source_id": "bio-root-trba250-baua",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/root-trba250-baua.pdf",
+      "sha256": "ad41b79b886df2cda3865e2225ec04af78b717233cad49825eea3e85543a1796",
+      "usable_as_evidence": true,
+      "review_extent": "Header, scope, section 4.2.5 and 4.2.6–4.2.7, relevant instruction passages; not all 2025 guidance pages."
+    },
+    {
+      "source_id": "bio-root-eu20191833-boe",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/root-eu20191833-boe.html",
+      "sha256": "d89abc7554acfb827aedbb01535e60f57cf9cc582ee92e3dddd49e825f46baa5",
+      "usable_as_evidence": true,
+      "review_extent": "Article 2 and complete relevant replacement Annex V/VI tables and Annex III derogation context."
+    },
+    {
+      "source_id": "bio-b-seed-study",
+      "local_file": "research/factual-checks/biostoffv-2026/sources/b-seed-study.pdf",
+      "sha256": "1b3a6357501175c5d1ba9c59de73377434863e601b01aeb3259ee845a15ac9b5",
+      "usable_as_evidence": true,
+      "review_extent": "Original abstract and first case-series context, physical pages 1–2; relevant methods were also read during the independent initial inventory."
+    }
+  ],
+  "page_omission_audit": [
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "page": 1,
+      "finding": "Read full cover. Authored date and addressed August draft are provenance; delivery and exact draft bytes are not inferred."
+    },
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "page": 2,
+      "finding": "Read all overview requests. Material developed premises are covered below; requested standards and protection priorities are preferences."
+    },
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "page": 3,
+      "finding": "Training media, legal adequacy and task-dependent limits are covered by 001–005; future suitability and design requests are not realised outcomes."
+    },
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "page": 4,
+      "finding": "Practical training, DGUV requirements and medical consultation are covered by 004–007; proposed legal safeguards do not independently assert measured failures."
+    },
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "page": 5,
+      "finding": "Confirmation, publication status, effectiveness, review intervals and hazard categories are covered by 008–017; four-year interval and authentication design are proposals."
+    },
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "page": 6,
+      "finding": "PPE hierarchy, definitions, existing restriction and sanctions are covered by 018–022; preferred wording and rest periods are recommendations."
+    },
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "page": 7,
+      "finding": "Mobile healthcare, portable technical controls and employer coordination are covered by 023–026; proposed equivalent-control architecture is normative."
+    },
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "page": 8,
+      "finding": "Data protection, secrecy, register duties and ZED service status are covered by 027–033 and 057. Current legal bases are kept separate from historical drafting and service claims."
+    },
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "page": 9,
+      "finding": "Retention, protein seeds, scope/exposure distinctions and ubiquitous thresholds are covered by 034–039; ABAS assessment requests and possible future exclusions are not established effects."
+    },
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "page": 10,
+      "finding": "Recommended measures and authorisation/notification distinctions are covered by 040–042. Portal design, free access, accessibility and interoperability are requested features, not proven current failures."
+    },
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "page": 11,
+      "finding": "Annex identity, area versus apparatus, HEPA rows, deadlines, burden estimates and commencement are covered by 043–048. Staggered implementation is a policy preference; isolated rows do not prove general non-compliance."
+    },
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "page": 12,
+      "finding": "Dynamic references, instrument type, SME denominators, cost-model scope and recurring costs/evaluation are covered by 049–055. Draft assumptions are not observed savings."
+    },
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "page": 13,
+      "finding": "Defined form versus rationale is covered by 056 with the charitable medium-choice interpretation. Minor typo and citation cleanup, preferred drafting and conclusion are incidental or normative."
+    },
+    {
+      "document_id": "biostoffv2026-vdsi-20260926",
+      "page": 14,
+      "finding": "Read full bibliography, contact block and organisational description. Bibliographic listings are not evidence that a substantive proposition is correct; no independent material premise omitted."
+    }
+  ],
+  "mechanical_checks": {
+    "raw_sha256_matches_frozen": true,
+    "claims_reviewed": 57,
+    "all_57_anchors_match_page_scoped_normalized_original": true,
+    "all_20_archived_initial_source_hashes_match": true,
+    "initial_source_metadata_records_audited": 22,
+    "explicit_failed_sources": 2,
+    "review_claim_ids_exact_initial_set": true,
+    "all_original_pages_audited": 14
+  },
+  "summary": {
+    "claims_reviewed": 57,
+    "accepted": 56,
+    "revisions": 1,
+    "needs_more_evidence": 0,
+    "proposed_result_changes": 0,
+    "initial_results": {
+      "supported": 35,
+      "unresolved": 22
+    },
+    "new_error_candidates": 0,
+    "material_omissions": 0,
+    "revision_summary": "045: retain supported general deadline; add earlier SARS-CoV-2-specific deadline. 056 acceptance explicitly preserves the charitable freedom-of-medium interpretation."
+  }
+}

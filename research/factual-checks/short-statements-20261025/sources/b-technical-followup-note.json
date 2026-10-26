@@ -1,0 +1,34 @@
+{
+  "researcher": "b",
+  "created_at_utc": "2026-10-25T22:08:40.114359+00:00",
+  "artifact_type": "Concise authored independent check notes; not original HTML or new archive",
+  "sources": [
+    {
+      "id": "short-bf-noots-ida",
+      "title": "Official NOOTS IDA knowledge guide",
+      "url": "https://info.noots.gov.de/anschluss/systeme-komponenten-und-tools/identitaetsdatenabruf",
+      "retrieved_at": "2026-10-25T22:08:40.114359+00:00",
+      "read_extent": "Entire substantive guide and questions; no linked annexes",
+      "check_performed": "Guide expressly describes IDNr as essential for unambiguous cross-register exchange in this architecture. Distinct IDA and NOOTS components, minimum initial name/birth/address data, permitted recipients and no-unique-match responses were checked. It does not prove every possible property exchange needs a tax ID.",
+      "temporal_limit": "Current page has no authenticated pre-author version date; architectural corroboration, not historical rollout proof."
+    },
+    {
+      "id": "short-bf-bva-api",
+      "title": "BVA IDA developer guide, overview dated 20 April 2026",
+      "url": "https://bva.usercontent.opencode.de/IDA/Entwicklerleitfaden/02_identitaetsdatenabruf_ida/",
+      "retrieved_at": "2026-10-25T22:08:40.114359+00:00",
+      "read_extent": "Complete overview and date; selected API architecture/authentication and initial-query structure sections only",
+      "check_performed": "BVA explains authorised registers retrieve IDNr and basis data through a proxy using BZSt primary data; specialist-system connection is a prerequisite. API uses authenticated authorised requests and can identify initially from other person data.",
+      "temporal_limit": "Overview carries 20 April 2026 date. The complete specification and every municipal implementation were not audited."
+    },
+    {
+      "id": "short-bf-databund-context",
+      "title": "Independent repeated full DATABUND original context check",
+      "url": "https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/Stellungnahmen/2026/1002_Stellungnahmen_RefE_IDNrG.zip?__blob=publicationFile&v=2",
+      "retrieved_at": "2026-10-25T22:08:40.114359+00:00",
+      "read_extent": "Complete two-page original reread, especially paragraph beginning Insbesondere unterstützt",
+      "check_performed": "The essential-prerequisite sentence refers to the intended NOOTS/Once-Only design and legal basis for using IDNr. It does not assert every conceivable property-data exchange is technically impossible without tax IDs. The subsequent specialist-system no-unique-assignment assertion is stronger and separately retained.",
+      "temporal_limit": "Author date unverified within the 2026 published set. Re-read of an existing target adds no reading unit."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "sbgg2023-eggd-a01",
+  "law_id": "sbgg-2023",
+  "document_id": "eggd-sbgg-2023",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "major",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Simplifying changes to legal gender entries and first names.",
+    "they_want": "Reject the government bill.",
+    "they_claim": "Social followed by medical transition does not improve long-term mental health; Wong 2019 is cited as an example.",
+    "the_problem": "The cited childhood comparison leaves long-term effects unclear; this does not refute the broader claim."
+  },
+  "claim_quote": {
+    "original": "jedoch keineswegs langfristig zu einer besseren psychischen Gesundheit der Betroffenen",
+    "language": "de",
+    "translation_en": "Translation: however, by no means leads to better mental health for those concerned in the long term",
+    "locator": {
+      "pdf_page": 6,
+      "section": "2. Der Entwurf des SBGG gefährdet Kinder und Jugendliche",
+      "paragraph": "opening continuation from previous page; citation 10"
+    },
+    "underline": "keineswegs langfristig"
+  },
+  "request_quote": {
+    "original": "lehnen wir das geplante sog. Selbstbestimmungsgesetz (im Folgenden: “SBGG”) ab.",
+    "language": "de",
+    "translation_en": "Translation: we reject the planned so-called Self-Determination Act (hereafter: SBGG).",
+    "locator": {
+      "pdf_page": 2,
+      "section": "Wer wir sind und warum wir uns gegen dieses Vorhaben stellen",
+      "paragraph": "first"
+    }
+  },
+  "counter_quote": {
+    "original": "The long-term implications of childhood SGT for psychological well-being are also unclear.",
+    "language": "en",
+    "source_id": "wong-2019-social-transition",
+    "locator": {
+      "pdf_page": 10,
+      "printed_page": 250,
+      "section": "Limitations and Future Directions",
+      "paragraph": "second, beginning The long-term implications"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "correction": "The cited study does not assess long-term outcomes of combined social and medical transition. It compares parent-reported childhood psychosocial measures across three published samples. Its limitations expressly leave long-term social-transition effects unresolved and say the comparison cannot determine whether transition itself alleviates distress.",
+  "effect": "The identified citation does not establish the broad long-term assertion. Whether the assertion is factually false remains unresolved.",
+  "limits": "The submission gives the study as an example and does not expressly say it measured long-term combined treatment. An inadequate or inconclusive citation is not proof that the broader claim is false. No treatment benefit or harm, intent, or conclusion about the bill’s merits is established.",
+  "materiality_explanation": "Potentially major if the categorical claim were shown false: it supports the child-protection rationale for rejecting the bill. This classification concerns potential argument materiality; a proven error has not been established.",
+  "direction_explanation": "Conditional: if the categorical claim were shown false, its overstatement would favour the stated rejection request. The claim has not been established wrong; no intent is inferred.",
+  "confidence": {
+    "text_source_mismatch": "citation_scope_mismatch_high; factual_error_unresolved",
+    "materiality": "editorial_judgment"
+  },
+  "context_checked": [
+    "The claim sentence starts on PDF page 5 with social followed by medical transition and continues at the top of page 6, ending with footnote 10 to Wong 2019.",
+    "The next paragraph expressly acknowledges that the bill itself does not regulate medical interventions. The finding does not accuse the submission of missing that distinction.",
+    "The primary paper found little difference by transition status; this is compatible with lack of demonstrated benefit in that comparison. It is not equivalent to establishing no long-term improvement after combined treatment.",
+    "The phrase introducing the citation presents it as an example, not necessarily the only evidence the author had in mind. Other citations in the preceding paragraph concern persistence of gender identity rather than this study’s long-term treatment findings."
+  ],
+  "draft": {
+    "source_id": "bt-20-9049-sbgg",
+    "title": "Entwurf eines Gesetzes über die Selbstbestimmung in Bezug auf den Geschlechtseintrag und zur Änderung weiterer Vorschriften",
+    "version": "BT-Drs. 20/9049, 1 November 2023; Cabinet draft 23 August 2023",
+    "submission_date": "2023-11-20",
+    "hearing_date": "2023-11-28",
+    "process_status": "completed; enacted 2024",
+    "comparison": "The claim is an empirical-source description, not a draft-law interpretation. Exact addressed draft section 1(2) leaves medical measures outside this Act; section 3 governs declarations by minors."
+  },
+  "sources": [
+    {
+      "id": "eggd-sbgg-2023",
+      "title": "EGGD unsolicited submission, Ausschussdrucksache 20(13)77 dd",
+      "author": "Europäische Gesellschaft für Geschlechtergerechtigkeit e.V.",
+      "date": "2023-11-20",
+      "url": "https://www.bundestag.de/resource/blob/978632/20-13-77dd.pdf",
+      "local_file": "research/social-digital/eggd-sbgg-2023.pdf",
+      "retrieved_at": "2026-10-24",
+      "sha256": "719b2c24bd159306057c204bd345968adebd4b344645b8a920fed3cb31b8f0b2"
+    },
+    {
+      "id": "wong-2019-social-transition",
+      "title": "Childhood Social Gender Transition and Psychosocial Well-Being: A Comparison to Cisgender Gender-Variant Children",
+      "author": "Wong, van der Miesen, Li, MacMullin & VanderLaan",
+      "date": "2019",
+      "doi": "10.1037/cpp0000295",
+      "url": "https://www.wongwangivy.com/_files/ugd/3fc67f_d35df51bb16942e69d34addb0570b3e8.pdf",
+      "provenance": "Full published paper directly linked from first author’s lab publications page; bibliographic details agree with publisher.",
+      "author_publication_page": "https://www.wongwangivy.com/projects-and-publications",
+      "publisher_url": "https://journals.sagepub.com/doi/10.1037/cpp0000295",
+      "local_file": "research/social-digital/wong-2019-social-transition.pdf",
+      "retrieved_at": "2026-10-24",
+      "sha256": "54f1e3af54233b30cdd98e92d51801469e5b1c146699e8bc28eae2873fc05385"
+    },
+    {
+      "id": "bt-20-9049-sbgg",
+      "title": "Government SBGG draft BT-Drs 20/9049",
+      "date": "2023-11-01",
+      "url": "https://dserver.bundestag.de/btd/20/090/2009049.pdf",
+      "local_file": "research/social-digital/bt-20-9049-sbgg.pdf",
+      "retrieved_at": "2026-10-24",
+      "sha256": "931398a5d597efeb6ec40bc57a494feda49b1875d4d1a9d74c99cfaf70eb4527"
+    },
+    {
+      "id": "bt-sbgg-hearing-2023",
+      "title": "Official hearing dossier; SBGG 28 November 2023",
+      "url": "https://www.bundestag.de/webarchiv/Ausschuesse/ausschuesse20/a13_familie/Anhoerungen/973786-973786",
+      "retrieved_at": "2026-10-24",
+      "provenance": "Lists 20(13)77 dd as unsolicited submission; do not describe EGGD as an invited expert."
+    }
+  ],
+  "lobbyregister_check": {
+    "result": "not_established",
+    "note": "Exact-name and acronym web searches found no authenticated matching entry; direct search-page retrieval failed. Do not infer absence from register or noncompliance. Attribution relies on official Bundestag cover sheet."
+  },
+  "verification": {
+    "visual": "Submission PDF pages 5–6 and primary paper PDF page 10 rendered and visually inspected on 24 October 2026."
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "energy_hearings",
+        "file": "research/reviews/energy-reviews-eggd.json",
+        "assessment_at_review": "retain provisional finding",
+        "subsequent_disposition": "downgraded after stricter missing-evidence review"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "first recorded",
+      "by": "social_digital_ai_screen"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "downgraded to unresolved lead after root challenge and social_digital reconsideration: insufficient citation does not establish broad assertion false; earlier energy AI review retained for audit",
+      "by": "social_digital_ai_screen"
+    }
+  ],
+  "resolution_needed": "Affirmative contradictory primary evidence for the exact broad claim, or an explicit false description of this study’s design or findings beyond the inference currently identified. Do not promote solely because the citation is insufficient."
+}

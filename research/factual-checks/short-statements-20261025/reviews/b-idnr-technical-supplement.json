@@ -1,0 +1,87 @@
+{
+  "reviewer": "b",
+  "reviewed_file": "research/factual-checks/short-statements-20261025/agents/claims-b.json",
+  "reviewed_sha256": "9c073cde771461e0f87bb7b0f9850d18b5c5f50c3d4ebfb34329a082667a5274",
+  "created_at_utc": "2026-10-25T22:08:40.114359+00:00",
+  "claim_reviews": [
+    {
+      "claim_id": "short-b-015",
+      "verdict": "revise",
+      "proposed_result": "supported",
+      "reason": "The raw inventory tests universal technical necessity too strongly. In its full context the author describes an essential legal/architectural prerequisite for this intended IDNr-based NOOTS exchange. Official architecture and the exact draft corroborate that premise; existing object-based exchange is not a contradiction.",
+      "evidence_checks": [
+        {
+          "source_id": "short-bf-noots-ida",
+          "locator": "Registerübergreifender Datenaustausch and connection questions"
+        },
+        {
+          "source_id": "short-bf-bva-api",
+          "locator": "Overview and date"
+        },
+        {
+          "source_id": "short-bf-databund-context",
+          "locator": "Original physical page 1"
+        },
+        {
+          "source_id": "short-root-idnrg-draft",
+          "locator": "Physical pages 2–3,7 and11: intended identifier legal basis"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-016",
+      "verdict": "accept",
+      "proposed_result": "unresolved",
+      "reason": "The categorical absence of unique assignment in all specialist systems is stronger. The intended common key is obstructed, but evidence does not establish every workflow or exclude transient matching/other identifiers. No error inferred from that gap.",
+      "evidence_checks": [
+        {
+          "source_id": "short-bf-bva-api",
+          "locator": "Initial name/birth/address request and returned unique identity"
+        },
+        {
+          "source_id": "short-bf-databund-context",
+          "locator": "Original physical page 1"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "short-bf-noots-ida",
+      "title": "Official NOOTS IDA knowledge guide",
+      "url": "https://info.noots.gov.de/anschluss/systeme-komponenten-und-tools/identitaetsdatenabruf",
+      "retrieved_at": "2026-10-25T22:08:40.114359+00:00",
+      "temporal_limit": "Current page has no authenticated pre-author version date; architectural corroboration, not historical rollout proof.",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/b-technical-followup-note.json",
+      "sha256": "2bf20a2e3fec547273be35c96ecbf32d29cbdb89dc7a35d2cf80536138618bee",
+      "archive_type": "Concise authored check note, not original source bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-bf-bva-api",
+      "title": "BVA IDA developer guide, overview dated 20 April 2026",
+      "url": "https://bva.usercontent.opencode.de/IDA/Entwicklerleitfaden/02_identitaetsdatenabruf_ida/",
+      "retrieved_at": "2026-10-25T22:08:40.114359+00:00",
+      "temporal_limit": "Overview carries 20 April 2026 date. The complete specification and every municipal implementation were not audited.",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/b-technical-followup-note.json",
+      "sha256": "2bf20a2e3fec547273be35c96ecbf32d29cbdb89dc7a35d2cf80536138618bee",
+      "archive_type": "Concise authored check note, not original source bytes",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-bf-databund-context",
+      "title": "Independent repeated full DATABUND original context check",
+      "url": "https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/Stellungnahmen/2026/1002_Stellungnahmen_RefE_IDNrG.zip?__blob=publicationFile&v=2",
+      "retrieved_at": "2026-10-25T22:08:40.114359+00:00",
+      "temporal_limit": "Author date unverified within the 2026 published set. Re-read of an existing target adds no reading unit.",
+      "local_file": "research/factual-checks/short-statements-20261025/sources/b-technical-followup-note.json",
+      "sha256": "2bf20a2e3fec547273be35c96ecbf32d29cbdb89dc7a35d2cf80536138618bee",
+      "archive_type": "Concise authored check note, not original source bytes",
+      "usable_as_evidence": true
+    }
+  ],
+  "limitations": [
+    "Raw initial inventory and scheduled peer remain unchanged. Root and C must independently adjudicate this contextual correction.",
+    "No universal claim that current municipal software can or cannot operate is supported; only intended legal/architectural prerequisite is upgraded."
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "agent": "B",
+  "created_at": "2026-10-25T12:42:36.651341+00:00",
+  "storage_policy": "Concise authored check records retained; fetched original bytes are temporary under /tmp/idnrg-b and are removed after counterpart access where needed. Canonical proposal/original submissions reused.",
+  "checks": [
+    {
+      "id": "short-b-idnrg",
+      "title": "IDNrG, official consolidated law",
+      "url": "https://www.gesetze-im-internet.de/idnrg/BJNR059110021.html",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Header; sections 1–4, 6–10, 14, 17; complete register annex",
+      "actual_read_extent": "Read header and complete relevant operative sections and annex, not merely search excerpts.",
+      "check_result": "Last amendment 19 July 2024, statute in force 31 August 2023. Section 2 no. 1 is end of fifth following calendar year: 31 December 2028. Sections 2/10 preserve special correction laws; section 6 permits identifier and non-identifier match routes; failed unique match returns no data.",
+      "short_excerpt": "bis spätestens zum Ablauf des fünften auf das Inkrafttreten dieses Gesetzes folgenden Kalenderjahres",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF",
+      "temporary_fetched_bytes": {
+        "retrieved_at": "2026-10-25T12:27:48.982141+00:00",
+        "http_status": 200,
+        "sha256": "15e29c7862b9666bdacf7dc985a6d54a89107e7b28ba84675ac565f2fd39282d",
+        "bytes": 49004,
+        "signature": "<!DOCTYP"
+      }
+    },
+    {
+      "id": "short-b-gbo",
+      "title": "GBO, official land-register legal framework",
+      "url": "https://www.gesetze-im-internet.de/gbo/BJNR001390897.html",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Sections 2, 12, 29, 55, 126, 127, 133",
+      "actual_read_extent": "Read these complete sections and header; check June 2026 amendment against promulgated eNoVA Article 3.",
+      "check_result": "Current header includes amendment 22 June 2026. eNoVA adds section 29(4) from 1 October; do not apply that new paragraph to August responses. The relevant sections 2, 12, 55, 126/127/133 and section 29(1)–(3) are unaffected. Access is conditional, not universally open; automated retrieval needs authorisation and technical/data-protection safeguards.",
+      "short_excerpt": "Die Grundstücke werden im Grundbuch nach den in den Ländern eingerichteten amtlichen Verzeichnissen benannt",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF",
+      "temporary_fetched_bytes": {
+        "retrieved_at": "2026-10-25T12:27:50.380416+00:00",
+        "http_status": 200,
+        "sha256": "c4b795cc36151972277411c6bb250cd741bb486f03babc0421bfa4ba1ba4d44b",
+        "bytes": 212445,
+        "signature": "<!DOCTYP"
+      }
+    },
+    {
+      "id": "short-b-gbv",
+      "title": "GBV, official identification, access and cadastral-exchange rules",
+      "url": "https://www.gesetze-im-internet.de/gbvfg/BJNR706370935.html",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Sections 15, 43, 46, 86 and header",
+      "actual_read_extent": "Read complete four sections and amendment header.",
+      "check_result": "Last amended 24 April 2025, before responses. Section 15 specifies names/birth date/conditional degrees/former names and residence fallback. Sections 43/46/86 provide authority access and reciprocal digital exchange.",
+      "short_excerpt": "Beauftragte inländischer öffentlicher Behörden sind befugt, das Grundbuch einzusehen",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF",
+      "temporary_fetched_bytes": {
+        "retrieved_at": "2026-10-25T12:27:57.026801+00:00",
+        "http_status": 200,
+        "sha256": "3c25100b66c5aed602cd448fd97167f4b73790310d13c364c67a2f33ec1d47a7",
+        "bytes": 218577,
+        "signature": "<!DOCTYP"
+      }
+    },
+    {
+      "id": "short-b-beurkg",
+      "title": "BeurkG, identity-establishment duty",
+      "url": "https://www.gesetze-im-internet.de/beurkg/BJNR015130969.html",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Section 10 and header",
+      "actual_read_extent": "Read complete section 10 and header.",
+      "check_result": "Last amended 10 December 2025. Duties to establish identity and describe the person precisely do not empirically prove that all old notarial records are more current than tax/register data.",
+      "short_excerpt": "Der Notar soll sich Gewissheit über die Person der Beteiligten verschaffen.",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF",
+      "temporary_fetched_bytes": {
+        "retrieved_at": "2026-10-25T12:27:59.340852+00:00",
+        "http_status": 200,
+        "sha256": "c28f2b7b4111a6381e6577779a6ebea44f30a4f56ef1ded7b870904e21a7c04e",
+        "bytes": 152296,
+        "signature": "<!DOCTYP"
+      }
+    },
+    {
+      "id": "short-b-tax",
+      "title": "Notarial tax notifications and required identifiers",
+      "url": "https://www.gesetze-im-internet.de/grestg_1983/__20.html",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "GrEStG sections 18/20; ErbStG section 34; ErbStDV sections 7/8; EStDV section 54",
+      "actual_read_extent": "Read all listed single provisions. GrEStG section 20 fetched successfully after web-tool timeout; ErbStDV operative sections read through official web extraction.",
+      "check_result": "GrEStG section 20 requires the tax ID in property-transaction notifications. Future eNoVA transmission method differs from August law. EStDV section 54 concerns corporate deeds and company tax numbers and alone does not establish a universal duty to collect every natural party tax ID. No broad exhaustive rule is inferred.",
+      "short_excerpt": "die Identifikationsnummer gemäß § 139b der Abgabenordnung",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF",
+      "temporary_fetched_bytes": {
+        "retrieved_at": "2026-10-25T12:33:05.312548+00:00",
+        "http_status": 200,
+        "sha256": "1ff1359e651f3fa05640f8b17605717b9ce2a9b0645eb264f88e195abef2c1c3",
+        "bytes": 6921,
+        "signature": "<!DOCTYP"
+      }
+    },
+    {
+      "id": "short-b-enova",
+      "title": "Promulgated eNoVA legislation, BGBl. 2026 I No. 192",
+      "url": "https://www.recht.bund.de/bgbl/1/2026/192/regelungstext.pdf?__blob=publicationFile&v=1",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Physical pages 6–10, 13–14; Articles 3, 6–11, 20",
+      "actual_read_extent": "Validated actual PDF signature and 14-page identity; read relevant amendment and complete commencement provisions.",
+      "check_result": "Act executed 22 June, published 26 June 2026. Articles 8/10 establish purpose-limited machine tax-ID enquiries through BNotK when missing. Article 20(5) makes Articles 8–11 etc contingent on technical/organisational readiness and a BMF announcement. Publication is not commencement; no exact as-of-August announcement log recovered.",
+      "short_excerpt": "Das Bundesministerium der Finanzen gibt den jeweiligen Tag des Inkrafttretens im Bundesgesetzblatt bekannt.",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF",
+      "temporary_fetched_bytes": {
+        "retrieved_at": "2026-10-25T12:28:04.292762+00:00",
+        "http_status": 200,
+        "sha256": "15fcf268bd8ec91b2c27933d163d5ffbad40ac7dc6af37ba6a70300b112d0ce2",
+        "bytes": 333585,
+        "signature": "%PDF-1.7"
+      }
+    },
+    {
+      "id": "short-b-olg2019",
+      "title": "OLG Düsseldorf, 8 January 2019, 3 Wx 34/17",
+      "url": "https://nrwe.justiz.nrw.de/pdfdownload/downloadEntscheidung.php?entscheidung=%2Fnrwe%2Folgs%2Fduesseldorf%2Fj2019%2F3_Wx_34_17_Beschluss_20190108.html",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Paragraphs 25, 31–39; case context paragraphs 3–14",
+      "actual_read_extent": "Read case setting and complete relevant identity-correction reasoning; direct HTML failed but actual court PDF retrieved and identity checked.",
+      "check_result": "Primary judicial decision predates responses. Correction of designation leaving identity unchanged may proceed ex officio with free proof; changing the right/owner is distinct and requires established clarity. The particular church-owner application was rejected; not a tax-ID case.",
+      "short_excerpt": "Nachweis in der Form des § 29 GBO nicht erforderlich, sondern der Freibeweis zulässig",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF",
+      "temporary_fetched_bytes": {
+        "retrieved_at": "2026-10-25T12:33:09.349884+00:00",
+        "http_status": 200,
+        "sha256": "78223da84a40944de901d27ca53abfdec9279045082c2692d2a75661ceeb5b35",
+        "bytes": 33175,
+        "signature": "%PDF-1.7"
+      }
+    },
+    {
+      "id": "short-b-bva2023",
+      "title": "BVA presentation: IDA milestones, 28 November 2023",
+      "url": "https://registermodernisierung.thueringen.de/fileadmin/user_upload/2023-11-28_6._Forum_RegMo_Raum_2.pdf",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Physical/printed page 6",
+      "actual_read_extent": "Read dated official BVA slide 6 and identity/header, not entire background presentation.",
+      "check_result": "Contemporaneous pre-response milestone gives 31.08.2023 entry into force and 31.12.2028 register implementation. Corroborates calendar-year reading independently of a current website.",
+      "short_excerpt": "31.12.2028",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF",
+      "temporary_fetched_bytes": {
+        "retrieved_at": "2026-10-25T12:33:06.260210+00:00",
+        "http_status": 200,
+        "sha256": "c321ed67f8ce4d2b060df5d1eaf540df586f581ba3546a110a1ef3d6cbffb22a",
+        "bytes": 694271,
+        "signature": "%PDF-1.4"
+      }
+    },
+    {
+      "id": "short-b-noots",
+      "title": "Official NOOTS register-status and legal-basis guidance",
+      "url": "https://noots.gov.de/anschluss/status-der-register",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Rechtsgrundlagen für den Anschluss: IDA, DSC and NOOTS",
+      "actual_read_extent": "Read all three legal-basis subsections; register catalogue used only to identify scope.",
+      "check_result": "Current retrieval explicitly gives 31 December 2028 for ID storage. NOOTS connection is a separate obligation with technical commencement/transition conditions. Current status is not a reconstruction of every August implementation detail.",
+      "short_excerpt": "",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF"
+    },
+    {
+      "id": "short-b-berlin-search",
+      "title": "Berlin official SolumSTAR property and owner search help",
+      "url": "https://grundbuch.berlin.de/solumstar/help/FlurstucksSucheHelp.html",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Complete search help: court, Gemarkung, Flur, parcel numerator/denominator, ownership type and unit number",
+      "actual_read_extent": "Read complete help and required-field qualifications.",
+      "check_result": "Demonstrates property-based record search without a tax ID. Identifying a parcel may still return several rights/unit records and needs precise context. Does not prove a complete final NOOTS service can dispense with identifiers in every function.",
+      "short_excerpt": "",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF"
+    },
+    {
+      "id": "short-b-xjustiz",
+      "title": "BLK XJustiz.DABAG 3.6.2, July 2026 supplement",
+      "url": "https://xjustiz.justiz.de/system/pdf/Spezifikation_XJustiz_3_6_2_Nachlieferung_DABAG_07_2026.pdf",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Cover dated 7 July 2026; section 3.3.1 physical p.77; section 3.5.2 physical pp.148–149 (printed 146–147)",
+      "actual_read_extent": "Read these relevant primary technical passages and standard release listing. This 535-page background specification was not read as a complete screening target or retained locally.",
+      "check_result": "Exact message nachricht.dabag.grundbuchauszug.2900002 exists before authored August context. Its existence is not proof of NOOTS integration, every vendor implementation or appropriate reuse without adaptation.",
+      "short_excerpt": "nachricht.dabag.grundbuchauszug.2900002",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF"
+    },
+    {
+      "id": "short-b-adv2025",
+      "title": "AdV: interaction of dabag, ALKIS and LEFIS, version 1.1",
+      "url": "https://www.adv-online.de/sites/default/files/documents/2026-06/20250410_Zuswirk_ALKIS-LEFIS-DABAG_V1-1_Veroeffentlichung1878.pdf",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Dated 10 April 2025; printed/physical pp.14–17, 24–25, 39, 45–47",
+      "actual_read_extent": "Read complete relevant paragraphs on legal roles, current/future exchange, object reference IDs, owner/address flows and model relationships; not all 76 pages.",
+      "check_result": "Pre-response technical framework: ongoing reciprocal exchange is real; object/source IDs reference person objects even without a natural-person tax-ID key. Object ID uniqueness is not identical to guaranteed global natural-person identity. Owner data principally flow dabag to ALKIS, with reverse cases/initial imports. Does not prove all Länder are synchronised without latency or every field always identical.",
+      "short_excerpt": "Die Datenmodelle der beteiligten Systeme müssen nicht identisch sein.",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF"
+    },
+    {
+      "id": "short-b-lgln2022",
+      "title": "LGLN: ALKIS data exchange with land registers",
+      "url": "https://www.lgln.niedersachsen.de/download/139209/ALKIS_Datenaustausch_Grundbuch.pdf",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Dated 16 March 2022, physical pp.1–5, especially pp.3–4",
+      "actual_read_extent": "Read complete five-page official technical note.",
+      "check_result": "Documents pre-existing digital reciprocal interfaces and conversion of legacy formats to NAS. Its 2022 expectation of future dabag rollout is a forecast, not a verified 2026 rollout date.",
+      "short_excerpt": "",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF"
+    },
+    {
+      "id": "short-b-nas",
+      "title": "Sachsen-Anhalt official cadastral data products",
+      "url": "https://www.geodatenportal.sachsen-anhalt.de/gfds/de/gdp-liegenschaftsbuch.html",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Complete substantive page; outputs and exchange",
+      "actual_read_extent": "Read product definitions, ownership details and NAS paragraph.",
+      "check_result": "Current official example confirms object-oriented ALKIS datasets and nationally standard NAS exchange. It does not establish that the cadastre is literally the only comprehensive digital data source in every municipal administration or that all current Länder share every implementation detail.",
+      "short_excerpt": "",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF"
+    },
+    {
+      "id": "short-b-nrw-solum",
+      "title": "NRW Justice: SolumSTAR procedure description",
+      "url": "https://www.justiz.nrw.de/BS/lebenslagen/Haus_und_Wohnung/Grundbuchverfahren/SolumSTAR/solum/verfahren",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Electronic cadastral connection and structured parcel/owner search data",
+      "actual_read_extent": "Read indexed official substantive paragraphs; direct full page fetch timed out.",
+      "check_result": "Official description corroborates that cadastral structured person/parcel data support land-register search. It is not a measured nationwide availability/stress-testing report and cannot establish no outages.",
+      "short_excerpt": "eine strukturierte Datenbasis für die Recherche nach Grundbüchern",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF"
+    },
+    {
+      "id": "short-b-vdi-monitor",
+      "title": "VDI/IW engineer labour-market analysis, Q3 2025 release",
+      "url": "https://www.vdi.de/news/detail/ingenieurarbeitsmarkt-unter-druck-zwischen-krise-und-fachkraeftemangel",
+      "retrieved_at": "2026-10-25T12:42:36.651341+00:00",
+      "locator": "Dated 28 January 2026; shortage ratio definitions and sector trends",
+      "actual_read_extent": "Read complete primary publisher summary and definitions; not a new whole-report screening target.",
+      "check_result": "Pre-response primary monitor reports persistent construction-engineering shortage but falling total vacancies and sector variation. It cannot settle an unspecified increasing shortage in technical administrations, planning authorities and engineering offices simultaneously; long-run projections are separate from realised trends.",
+      "short_excerpt": "",
+      "usable_as_evidence": true,
+      "record_type": "authored primary-source check note; not original fetched HTML/PDF"
+    }
+  ],
+  "failed_accesses": [
+    {
+      "url": "https://www.xjustiz.de",
+      "result": "Web tool timed out; correct official host xjustiz.justiz.de successfully read."
+    },
+    {
+      "url": "https://nrwe.justiz.nrw.de/nrwe/olgs/duesseldorf/j2019/3_Wx_34_17_Beschluss_20190108.html",
+      "result": "Direct HTML unavailable in web tool; actual official PDF successfully retrieved and checked."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/grestg_1983/__20.html",
+      "result": "Web tool timed out twice; temporary direct official HTML successfully retrieved and read."
+    }
+  ]
+}

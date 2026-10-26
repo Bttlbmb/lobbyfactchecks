@@ -1,0 +1,37 @@
+{
+  "researcher": "social_round2",
+  "date": "2026-10-25",
+  "completed_at_utc": "2026-10-25T01:38:00Z",
+  "scope": "Read all eleven raw issue records in this branch. Compared the substantive fields of all eleven compiled records against raw records; only normalised review structures differed except for root’s readability edits to Werding. Read the complete compiled Werding record separately and checked those edits. Prior primary-source reads and independent-review extents remain as recorded; this final pass does not claim a fresh full reread of every PDF.",
+  "substantive_result": "No new material overclaim found. Exact addressed versions, original-context qualifications, explicit requests, separate severity and direction reasoning, scope gates and actual review links were retained. Werding remains ancillary/minor/null; unresolved clinical or source-scope leads remain unresolved. Cantourage and VENRO formal-channel gates remain pending.",
+  "targeted_raw_fixes": [
+    {
+      "record": "abortionaccess2026-1000plus-social02",
+      "field": "additional_counter_quote.translation_en",
+      "change": "Added an explicitly labelled English translation of the numeric 63,0 counterquote."
+    },
+    {
+      "record": "grundsicherung2026-vansuntum-social01",
+      "field": "draft.submission_date and draft.hearing_date",
+      "change": "Set the unverified submission date to null and placed the known 23 February date in hearing_date; existing note already said no exact dispatch or signature date was inferred."
+    },
+    {
+      "record": "grundsicherung2026-vansuntum-social01",
+      "field": "verification.visual",
+      "change": "Removed stale independent-review-pending wording; both completed reviews remain linked."
+    },
+    {
+      "record": "bstabg2026-pharmadeutschland-social09",
+      "field": "correction",
+      "change": "Restored the precise legal reference Section 139e(4), correcting an isolated spacing artifact in explanatory prose."
+    }
+  ],
+  "integrity": "No original quotation, identifier, source URL, source path, locator or compiled data file was changed. No global replacement or formatting pass was used. All eleven raw records have explicit ai_screened status and independent review files that exist.",
+  "needs_parent_refresh": "Parent should propagate the four targeted raw changes into compiled records during final rebuild.",
+  "archive_integrity_check": {
+    "source_entries": 63,
+    "missing_registered_archives": 0,
+    "sha256_mismatches": 0,
+    "note": "All branch JSON files parsed. Removed the unverified incomplete BT21/600 download; failure remains documented and no archive is claimed."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "regg2025-vdv-employees-root10",
+  "law_id": "regg-eleventh-amendment-2025",
+  "document_id": "vdv-regg-20251001",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Continuing federal funding for the Deutschlandticket in 2026.",
+    "they_want": "Remove the expiry of the discounted Deutschlandticket Job offer.",
+    "they_claim": "48 million people are employed subject to social-insurance contributions.",
+    "the_problem": "The official figures available before the submission put that category at about 34.77 million, rather than 48 million."
+  },
+  "claim_quote": {
+    "original": "48 Millionen sozialversicherungspflichtig Beschäftigten Bürgerinnen und Bürger",
+    "language": "de",
+    "translation_en": "Translation of fragment: 48 million citizens employed subject to social-insurance contributions",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": 4,
+      "section": "Deutschlandticket Job",
+      "paragraph": "Final sentence"
+    },
+    "underline": "48 Millionen"
+  },
+  "request_quote": {
+    "original": "zeitlich zu entfristen",
+    "language": "de",
+    "translation_en": "Translation of request fragment: remove the time limit",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": 4,
+      "section": "Deutschlandticket Job",
+      "paragraph": "Second sentence, referring to discounted Deutschlandticket Job"
+    }
+  },
+  "counter_quote": {
+    "original": "34.768.800",
+    "language": "de",
+    "translation_en": "Translation of number: 34,768,800",
+    "source_id": "ba-labour-september2025",
+    "locator": {
+      "pdf_page": 48,
+      "printed_page": 3,
+      "section": "Statistical appendix, table 2.1 Beschäftigte nach Geschlecht und Beschäftigungsarten",
+      "row": "Sozialversicherungspflichtig Beschäftigte, Insgesamt",
+      "column": "31. Juli 2025",
+      "note": "Footnote 1: rounded two-month estimate extrapolated to six-month result; not a final census"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The BA September 2025 report, published on 30 September before the 1 October submission, estimated 34,768,800 employees subject to social-insurance contributions in July 2025. This is about 13.2 million below the claimed 48 million. Its broader all-employed category was 45.95 million in August, which is a different population; the case does not identify where the author obtained 48 million.",
+  "effect": "Reduces the stated size of the named employee target group supporting continuation of the discounted job ticket. It does not proportionally reduce actual or prospective ticket sales.",
+  "limits": "Minor category/size correction only. The job ticket may also be available to workers outside the stated social-insurance category; 34.77 million is not a demonstrated cap on eligibility or demand. The BA estimate was provisional and lagged the submission by two months. A typographical error or loose shorthand for a broader working population is plausible. No financial-impact calculation or policy rejection follows, and no intent is inferred.",
+  "materiality_explanation": "Minor: the count substantially overstates the specifically named category, but is an auxiliary scale argument, not a calculated uptake, budget, or benefit estimate. The large remaining group and independent planning-certainty reasons still support discussion of the request.",
+  "direction_explanation": "True for the stated argument: a larger employee target group strengthens the scale rationale for removing the job-ticket expiry. This does not establish that actual eligible users or policy benefits were overstated by the same amount.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "context_and_alternatives": [
+    "Read all four pages of the official written submission. The count immediately follows the job-ticket expiry-removal request; other paragraphs separately discuss general funding, administration, and apprentices.",
+    "The official hearing page identifies this statement with 6 October 2025 and BT21/1495. The body is dated 1 October 2025; the committee stamp has an inconsistent 2026 year, treated as an administrative header error, not an additional author finding.",
+    "Read exact draft cover and operative pages 5–7: funding is extended for 2026. The job-ticket continuation is a requested accompanying policy, not falsely described as already enacted by that draft.",
+    "The BA total is a people count at workplace, not a count of all jobs. Its 7.66 million marginally paid workers includes 3.47 million secondary jobs, so adding all marginal jobs to social-insurance employees would double-count people and still not validate the stated category.",
+    "Searched the full 27-page oral transcript for the number and job-ticket qualifications; read targeted VDV opening and job-ticket discussion on pages 6 and 16. The witness gives independent planning-certainty and employer-demand reasons. No oral repetition or explicit correction of 48 million was found; this is not an author response to this screen.",
+    "Original written page 4 and BA table physical48/printed3 visually inspected."
+  ],
+  "draft": {
+    "id": "regg-bt211495",
+    "source_id": "regg-bt211495",
+    "version": "BT-Drs.21/1495, 8 September 2025, government draft of the Eleventh Amendment to the Regionalisation Act, addressed in the 6 October hearing",
+    "relevant_provisions": "Article1 section9(2) and new subsections3a/7a, physical5–6; commencement physical7"
+  },
+  "submission_source_id": "vdv-regg-20251001",
+  "source_ids": [
+    "vdv-regg-20251001",
+    "regg-bt211495",
+    "regg-hearing-20251006",
+    "ba-labour-september2025",
+    "ba-labour-press-20250930",
+    "regg-protocol-20251006"
+  ],
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_round2_ai",
+        "date": "2026-10-25",
+        "review_file": "research/round2-reviews/social-reviews-vdv-employment.json",
+        "outcome": "retain_provisional_minor_true"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after original submission, addressed draft, contemporaneous official employment figures and targeted oral context checked; independent review requested.",
+      "by": "root_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent social AI review retained narrow minor/true category-size correction after original written statement, contemporaneous BA evidence and exact draft checked.",
+      "by": "root_ai_screen"
+    }
+  ]
+}

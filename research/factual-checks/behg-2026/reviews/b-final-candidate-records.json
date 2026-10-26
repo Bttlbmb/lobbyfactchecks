@@ -1,0 +1,147 @@
+{
+  "reviewer": "B",
+  "reviewed_at": "2026-10-25T10:07:06.079479+00:00",
+  "status": "pass_for_the_two_narrow_minor_records_with_existing_limits",
+  "documents_reread": [
+    {
+      "document_id": "bt-environment-1222442",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "visual_pages": [
+        6
+      ]
+    }
+  ],
+  "basis": "Independent complete-document peer review plus a separate final-record review of exact quotations, corrected primary versions, methods, frequency scope and context. No main dataset edits.",
+  "candidate_reviews": [
+    {
+      "candidate_id": "behg2026-fleischmann-mortality-range-fc01",
+      "reviewed_file": "research/factual-checks/behg-2026/staged/behg2026-fleischmann-mortality-range-fc01.json",
+      "reviewed_sha256": "b8b8905fcabe7235f5008a04ef6455c61965694d044edf32c671e6e00df24ac2",
+      "disposition": "accept_as_narrow_minor_overstatement",
+      "finding_scope": "The universal five-to-fifteen description overstates the corrected cited study. No independent claim is made about true nationwide mortality ratios in every European country.",
+      "exact_text_check": {
+        "result": "pass",
+        "detail": "The contiguous German quotation appears in the original physical page 6, printed page 5. The separate sentence about Germany being approximately six to one is preserved as a distinct outcome. The abolition request appears on physical page 8, printed page 7."
+      },
+      "primary_evidence_checks": [
+        {
+          "source_id": "behg-a-masselot-corrected",
+          "local_file": "research/factual-checks/behg-2026/sources/a-masselot-corrected.pdf",
+          "sha256": "b82e4db1746f0dd0022494ffd59d7660c9ca5a1fb322b08b6592a93f74f39a21",
+          "locator": "Physical page 6, printed e276, corrected Table 2; methods and abstract",
+          "result": "pass",
+          "detail": "Independently read the corrected article and visually inspected Table 2. Country-grouped estimates cover adults aged 20 and older in 854 urban areas, 2000–2019. Denmark 884/28=31.57; Finland 1452/45=32.27; UK 28342/488=58.08; Croatia 1142/293=3.90; Germany 12108/2015=6.01. The recorded ratios and cohort limitations are accurate."
+        },
+        {
+          "source_id": "behg-br-masselot-correction",
+          "local_file": "research/factual-checks/behg-2026/sources/br-masselot-correction.pdf",
+          "sha256": "f92809d0f34b49bf01e9f154c420baf41697d3aad00ad3ccce9ec3b09729432a",
+          "locator": "Correction notice, effective 2 July 2024",
+          "result": "pass",
+          "detail": "The corrected version predates authorship. The age 85+ code error affected impact measures; the record correctly uses the corrected table, not the superseded original totals."
+        }
+      ],
+      "alternative_interpretations_considered": [
+        "The author may intend a rough general comparison rather than a precise range, but the wording explicitly says all European countries and the cited corrected table gives large counterexamples to the claimed range.",
+        "The study estimates urban temperature-attributable excess mortality rather than enumerating direct heatstroke or hypothermia deaths; the record states this limitation.",
+        "Ratio estimates have uncertainty. No ratio confidence interval is constructed by dividing marginal confidence limits, and the finding concerns the published point-estimate description.",
+        "The larger aggregate cold burden and the approximately six-to-one German cohort calculation remain intact; neither establishes the future net effect of warming."
+      ],
+      "severity_review": "Minor is proportionate: a supporting universal quantitative premise is corrected without deciding the abolition request or reversing the aggregate burden comparison.",
+      "direction_review": "The premise downplays relative heat risk in the author’s argument for abolition. True is reasonable as an editorial direction judgment, with the existing narrow explanation.",
+      "required_changes": [],
+      "confidence": "High for the cited-table mismatch; actual national population ratios are outside this finding."
+    },
+    {
+      "candidate_id": "behg2026-fleischmann-infrasound-threshold-fc02",
+      "reviewed_file": "research/factual-checks/behg-2026/staged/behg2026-fleischmann-infrasound-threshold-fc02.json",
+      "reviewed_sha256": "2eb4d3bb725c79cd201449dd65e046fb3b3699956dfbfdbc46d580de537d6f8a",
+      "disposition": "accept_only_as_narrow_frequency_specific_evidence_overstatement",
+      "finding_scope": "The cited evidence does not warrant presenting the stated approximately 96–101 dB, approximately 1 Hz levels as already at the hearing/perception threshold. This acceptance is not a finding that no individual can perceive these exposures, nor that such exposure is harmless.",
+      "exact_text_check": {
+        "result": "pass_with_explicit_scope_limit",
+        "detail": "The short German quote is exact on physical page 6, printed page 5, immediately following the 90–95 dB at 1 km and 6 dB higher at 500 m sentences. The first numerical sentence itself gives no frequency. The relevant Mattsson spatial maps and closing symptom anecdote concern about 1 Hz; the record explicitly acknowledges that contextual inference."
+      },
+      "primary_evidence_checks": [
+        {
+          "source_id": "behg-a-lfu2022",
+          "local_file": "research/factual-checks/behg-2026/sources/a-lfu2022.pdf",
+          "sha256": "5351c2eedcaba230045d2166b893e5c826a9167c9e8b33e4309810ca38214590",
+          "locator": "Physical page 5, Hören, empfinden, wahrnehmen; health limitations on following page",
+          "result": "pass",
+          "detail": "Independently re-read and visually inspected the guidance. It makes threshold comparison frequency dependent, gives about 103 dB at 8 Hz, and states that perception below 2 Hz had not been described and would require extremely high levels. Its military-aircraft illustration is not a measured universal 1 Hz threshold. The record accurately avoids converting that illustration into an exact 1 Hz cutoff."
+        },
+        {
+          "source_id": "behg-a-mattsson2026",
+          "local_file": "research/factual-checks/behg-2026/sources/a-mattsson2026.pdf",
+          "sha256": "68a38aa64eab6980a9faa8ca54beab9669473e6b27d77abd998a9b4839e08063",
+          "locator": "Sections 6–7, especially simulated 1 Hz third-octave maps, physical pages 8–15",
+          "result": "pass",
+          "detail": "The relevant distance maps show one-third-octave sound pressure levels centred around 1 Hz, calibrated using closer field measurements. A frequency-matched acoustic measure is required. This record does not turn the ambiguous 20 km wording into a separate measurement-versus-model finding."
+        },
+        {
+          "source_id": "behg-br-moller2004",
+          "local_file": "research/factual-checks/behg-2026/sources/br-moller2004.pdf",
+          "sha256": "2165a678b934c7a3bd68961dcfa5b0f270b6811d1e840efb123c00e244303f12",
+          "locator": "Printed pages 46–49, Figures 9–12 and discussion; printed pages 54–55 conclusion",
+          "result": "contextual_cross_check_not_new_numeric_threshold",
+          "detail": "Independently read the research review and visually inspected the normal-threshold curves. It supports sharply reduced typical hearing sensitivity at lower infrasonic frequencies, while expressly noting few and differing investigations below 5 Hz, exceptional sensitivity, and uncertainty for non-sinusoidal sounds. It proposes a curve approximately down to 2 Hz, not a definitive universal 1 Hz threshold. Therefore it does not justify either an exact replacement threshold or exclusion of individual effects."
+        }
+      ],
+      "alternative_interpretations_considered": [
+        "If the author intended a different frequency or an overall broadband sound level, the supplied numerical comparison is insufficiently specified. The record must retain the explicit approximately 1 Hz contextual scope rather than silently treating the first sentence as frequency-labelled.",
+        "Individual sensitivity and pulsed or non-sinusoidal sound can complicate comparison with a typical pure-tone threshold. The record preserves that uncertainty.",
+        "The finding is stronger than the bare absence of a citation: the cited guidance affirmatively requires a frequency-dependent comparison and discusses much lower hearing sensitivity at the relevant lower frequencies. Nevertheless, its defensible conclusion is overstatement of the cited support, not proof that the author’s threshold statement is false for every person or exposure.",
+        "Hearing/perception thresholds and adverse health effects are different questions. Neither the guidance nor this review establishes harmlessness or resolves the reported symptoms."
+      ],
+      "severity_review": "Minor is proportionate only for the narrow supporting technical premise. No separate health-harm, overall energy-policy, or measured-versus-modelled error should be inferred.",
+      "direction_review": "True is reasonable as an editorial direction judgment: asserted perceptibility strengthens the wind-harm premise used in the abolition argument. Existing limits prevent a claim that the correction proves an overall health benefit.",
+      "required_changes": [],
+      "guardrails_for_admission": [
+        "Retain the current narrow language that the cited guidance does not establish the threshold comparison.",
+        "Do not relabel this as an independently measured universal 1 Hz threshold contradiction.",
+        "Preserve the individual-response, frequency-context and no-harmlessness qualifications in the rendered record."
+      ],
+      "confidence": "High for the frequency-specific mismatch with the cited guidance; limited for universal perception or health conclusions, which are not admitted."
+    }
+  ],
+  "sources_added_after_raw_peer_review": [
+    {
+      "id": "behg-br-moller2004",
+      "title": "Møller and Pedersen 2004 hearing thresholds review, original paper copy",
+      "url": "https://docs.wind-watch.org/Moller-Pedersen-Hearing-at-Low-and-Infrasonic-Frequencies-2004.pdf",
+      "retrieved_at": "2026-10-25T10:02:53.085874+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/br-moller2004.pdf",
+      "sha256": "2165a678b934c7a3bd68961dcfa5b0f270b6811d1e840efb123c00e244303f12",
+      "usable_as_evidence": true,
+      "temporal_limit": "Original 2004 scientific review hosted on a third-party archive; publication metadata and graphs require inspection. Before October 2026 authorship."
+    },
+    {
+      "id": "behg-br-moller2004-aau",
+      "title": "Møller and Pedersen (2004), university-hosted final published article",
+      "url": "https://vbn.aau.dk/files/89856984/Moeller_and_Pedersen_2004.pdf",
+      "retrieved_at": "2026-10-25T10:06:03.693446+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/br-moller2004-aau.pdf",
+      "sha256": "e3e38729bdbc94058498ff166c20ced7623f278c83056eccb67b33ee2af3bc17",
+      "bytes": 5628,
+      "http_status": 403,
+      "usable_as_evidence": false,
+      "temporal_limit": "Published in 2004, before the October 2026 submission. University-hosted published article; threshold uncertainty and exceptional sensitivity must be retained."
+    }
+  ],
+  "limitations": [
+    "The supplementary Møller article was read from a third-party archive of the original article; publication identity was corroborated by Aalborg University’s research portal and PubMed. Direct university PDF retrieval returned a 403 challenge and is marked unusable, not substantive evidence.",
+    "The threshold finding remains a narrow misdescription/overstatement of frequency-specific cited support. Unsupported broader health claims are not promoted as errors.",
+    "Neither record establishes author intent, authenticates delivery date, or constitutes specialist review."
+  ]
+}

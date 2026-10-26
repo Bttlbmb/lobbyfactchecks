@@ -1,0 +1,33 @@
+{
+  "archive_type": "authored_primary_check_log_with_short_targeted_excerpts_not_original_HTML_or_PDF",
+  "retrieved_at": "2026-10-25T11:44:49.786713+00:00",
+  "retention_rationale": "Small authored independent peer access/check record. Full raw web output and unrelated discovery results discarded; exact primary snapshots already shared where needed.",
+  "checks": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32910236/",
+      "title": "Liebers, Brüning and Raulf, Occupational endotoxin exposure and health effects, 2020",
+      "method": "Fresh primary indexed abstract read in full. Direct browser open returned only HHS footer, so do not treat that response as full original HTML.",
+      "finding": "Review of the preceding decade, mainly MEDLINE. Sampling/exposure heterogeneity prevents a global threshold. It expressly leaves assessment of other mixture components open and notes a lack of health-outcome intervention studies. It cannot settle a significant synergistic effect on chronic respiratory and skin disease.",
+      "short_exact_excerpt": "the question remains open on how to evaluate and record the additional effects of the other components."
+    },
+    {
+      "url": "https://www.baua.de/DE/Die-BAuA/Aufgaben/Geschaeftsfuehrung-von-Ausschuessen/ABAS/pdf/TSE-Laboratorien.pdf?__blob=publicationFile&v=3",
+      "title": "ABAS resolution 19/2023, TSE agents and proteopathic seeds",
+      "method": "Direct web tool and direct public HTTP requests both HTTP 403; official indexed title/reference page recovered. Targeted official-domain scope queries did not recover more text.",
+      "finding": "Existence and title corroborated. Full scope was not independently recovered in this peer pass; no reliance on secondary reprints or claim of full PDF inspection.",
+      "usable_as_original_source": false
+    },
+    {
+      "url": "https://www.who.int/en/news-room/fact-sheets/detail/hepatitis-B/",
+      "title": "WHO Hepatitis B fact sheet, 28 July 2026",
+      "method": "Fresh primary search extraction read; only relevant qualitative mechanism used.",
+      "finding": "Chronic hepatitis B can lead to cirrhosis and liver cancer. This corroborates the long-term disease rationale, but supplies no exact latency distribution and does not by itself verify the grouped decades claim."
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK614979/",
+      "title": "WHO 2024 hepatitis B guidelines, background, primary official text",
+      "method": "Fresh primary indexed passage checked.",
+      "finding": "The guidelines describe effects of infant vaccination on end-stage liver disease and cancer taking 20–40 years. This supports a long-term natural-history context, not a numerical occupational incidence estimate or proof of post-COVID latency."
+    }
+  ]
+}

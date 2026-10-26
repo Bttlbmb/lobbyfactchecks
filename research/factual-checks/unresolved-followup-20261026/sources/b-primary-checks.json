@@ -1,0 +1,447 @@
+{
+  "researcher": "b",
+  "checked_at_utc": "2026-10-26T00:32:02.674626+00:00",
+  "purpose": "Targeted follow-up of 19 unresolved IDNrG assessments; authored primary check notes, not public-source archives.",
+  "checks": [
+    {
+      "id": "follow-b-draft",
+      "title": "Addressed IDNrG land-register draft",
+      "url": "https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/RefE/Regelungsentwurf_Aenderung_IDNrG.pdf?__blob=publicationFile&v=2",
+      "identity": "Canonical 11-page Regelungsentwurf; PDF creation 20 July 2026; existing historical repository copy",
+      "retrieved_at": "2026-10-26T00:32:02.674626+00:00",
+      "read_extent": "Physical 1–3 and 6–11 fully re-read in this follow-up; not a new full 11-page read. Operative changes, cost model, implementation and special rationale.",
+      "results": [
+        "Adds land-register datasets to IDNrG and restricts storage/use in land-register specialist systems. No express municipal specialist-software change.",
+        "Initial matching failures require no further action; inconsistent matched data are retained additionally with immediate effort treated as negligible. Ongoing inconsistencies are separately modelled at 5% of 2.4 million changes, two minutes each.",
+        "The net annual time saving is 4.8 million minus 240,000 minutes, or 76,000 hours; at EUR 43.20 this is EUR 3,283,200. One-off implementation estimate EUR 4 million."
+      ],
+      "limits": [
+        "These are design assumptions and model estimates, not measured future outcomes. Generic IDNrG quality procedures may produce indirect work. Whether additional statutory initial reporting/review is fully priced is not established by the arithmetic."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": "b40199901fd08e2db16993c5d14a368efb5b69aae330516d5b4e84b26937e8fa",
+      "canonical_file": "research/round3-root/coverage/sources/idnrg-regelungsentwurf-20260720.pdf"
+    },
+    {
+      "id": "follow-b-adv",
+      "title": "AdV principles for dabag, ALKIS and LEFIS interfaces",
+      "url": "https://www.adv-online.de/sites/default/files/documents/2026-06/20250410_Zuswirk_ALKIS-LEFIS-DABAG_V1-1_Veroeffentlichung1878.pdf",
+      "identity": "Version 1.1, 10 April 2025; 76 physical pages; URL directory dated June 2026",
+      "retrieved_at": "2026-10-26T00:19:00.715263+00:00",
+      "read_extent": "Selected physical 11, 14–17, 24, 29–30, 33–35, 39 and 45–47; not the complete 76-page document. Physical 24 and 33–35/45–47 independently revisited before freeze.",
+      "results": [
+        "Existing systems exchange structured data. The planned dabag model uses source/object IDs, including references to person objects; these are not a demonstrated lifelong natural-person tax-ID key.",
+        "Asynchronous/historical records require preprocessing; failed automated successor searches can require manual intervention. Person-to-person links are maintained in ALKIS preprocessing; ownership data include person and address objects, with opportunities to reduce redundancies and use newer addresses."
+      ],
+      "limits": [
+        "A specification is not proof of nationwide implementation or measured error frequency. The explicit failed-successor example concerns parcel history; it corroborates a rework mechanism, not a measured owner-error project-delay effect. No equivalence between an object reference and unique identification of the same natural person across all registers is inferred."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": "ca4cdb7c00ef49c4dacbfd80d67979cb22ba3c7e64ab836753c13ff648ecfefc",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/adv.pdf",
+      "pdf_signature_verified": true
+    },
+    {
+      "id": "follow-b-enova",
+      "title": "Promulgated eNoVA Act",
+      "url": "https://www.recht.bund.de/bgbl/1/2026/192/regelungstext.pdf?__blob=publicationFile&v=1",
+      "identity": "Act of 22 June 2026, BGBl. 2026 I No. 192, promulgated 26 June 2026; 14 pages",
+      "retrieved_at": "2026-10-26T00:19:00.715784+00:00",
+      "read_extent": "Physical 8–9 (including Articles 8 and 10) and 14 Article 20(5); cover/identity. No full 14-page read claimed.",
+      "results": [
+        "Articles 8 and 10 create tax-purpose enquiry routes when required IDs are not already otherwise known. Article 20(5) conditions commencement on respective technical and organisational readiness and requires BMF to announce the respective date in the Federal Gazette."
+      ],
+      "limits": [
+        "The promulgated conditional clause does not independently reconstruct the complete later announcement history or establish that no date had been determined by 7 August. October availability and an August undetermined date are different propositions."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": "15fcf268bd8ec91b2c27933d163d5ffbad40ac7dc6af37ba6a70300b112d0ce2",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/enova.pdf",
+      "pdf_signature_verified": true
+    },
+    {
+      "id": "follow-b-bt5806",
+      "title": "Bundestag committee report on eNoVA",
+      "url": "https://dserver.bundestag.de/btd/21/058/2105806.pdf",
+      "identity": "BT 21/5806, 6 May 2026; 20 physical pages",
+      "retrieved_at": "2026-10-26T00:26:47.777742+00:00",
+      "read_extent": "Identity physical 1; relevant operative query wording physical 6; complete explanations for new Articles 8/10 physical 17 and commencement explanation physical 18. Other sections not fully read.",
+      "results": [
+        "The rationale expressly recognises cases in which clients have not supplied the tax ID; the new query is designed to enable the required transmission in those cases. The same rationale distinguishes property, deceased, donor and acquirer purposes.",
+        "The commencement explanation says technical connection work is still required and ties the query provisions to readiness."
+      ],
+      "limits": [
+        "Pre-author primary legislative recognition of missing IDs supports non-universal possession, not a measured frequency of missing IDs, not universal ignorance in isolated land charges, and not the August announcement history."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": "42222d54d2bf7a56487ce7ae640d88cd72a935c470ee1bae9280bde22d87a15e",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/bt5806.pdf",
+      "pdf_signature_verified": true
+    },
+    {
+      "id": "follow-b-br644",
+      "title": "Bundesrat committee recommendations on eNoVA",
+      "url": "https://dserver.bundestag.de/brd/2025/0644-1-25.pdf",
+      "identity": "BR 644/1/25 dated 5 December 2025 for the 19 December sitting; nine physical pages",
+      "retrieved_at": "2026-10-26T00:26:50.056891+00:00",
+      "read_extent": "Identity physical 1 and complete proposed tax-ID enquiry amendment/rationale physical 7; adjacent implementation explanation physical 8. No full nine-page read.",
+      "results": [
+        "The proposed inheritance notification route expressly anticipates parties failing to provide IDs despite a request. This is contemporaneous recognition of the missing-ID problem, before the final June 2026 Act."
+      ],
+      "limits": [
+        "Recommendation rather than an already operative duty. It supplies no observed prevalence and is not an independent record of every deed transaction."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": "f9335e55e5c4eaec3e853b1740582744717a3afd4f399d875c487adbd4299f40",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/br644.pdf",
+      "pdf_signature_verified": true
+    },
+    {
+      "id": "follow-b-taxduties",
+      "title": "Primary tax-notification clauses",
+      "url": "https://www.gesetze-im-internet.de/grestg_1983/__18.html",
+      "identity": "Current individual statutory clauses retrieved 26 October 2026; contemporary exact future-query provisions checked against June Act separately",
+      "retrieved_at": "2026-10-26T00:32:02.674626+00:00",
+      "read_extent": "Complete relevant individual clauses: GrEStG 18 and 20, ErbStG 34, ErbStDV 7, EStDV 54. Not all tax legislation or amendment history.",
+      "results": [
+        "The obligations are transaction/purpose-specific, not a universal tax-ID field for every conceivable notarial deed. ErbStDV distinguishes mandatory deceased details from some details required only insofar as known.",
+        "EStDV 54 concerns corporation-related instruments and company tax numbers; it does not by itself establish a general natural-party tax-ID duty. Current GrEStG 18 contains electronic-filing changes and is not silently treated as the August procedural version."
+      ],
+      "limits": [
+        "No exhaustive audit of every statutory basis across all notarial services. Current consolidation has post-response procedural changes; only scoped content is corroborative, with June promulgated text providing dated evidence for query design."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": null,
+      "hash_limit": "Browser primary-text read only; no original byte hash observed.",
+      "additional_urls": [
+        "https://www.gesetze-im-internet.de/grestg_1983/__20.html",
+        "https://www.gesetze-im-internet.de/erbstg_1974/__34.html",
+        "https://www.gesetze-im-internet.de/erbstdv_1998/__7.html",
+        "https://www.gesetze-im-internet.de/estdv_1955/__54.html"
+      ]
+    },
+    {
+      "id": "follow-b-identitylaw",
+      "title": "Notarial identification and public-document proof rules",
+      "url": "https://www.gesetze-im-internet.de/beurkg/__10.html",
+      "identity": "Current BeurkG 10 and ZPO 415/418 individual clauses",
+      "retrieved_at": "2026-10-26T00:32:02.674626+00:00",
+      "read_extent": "Complete three short individual clauses; no full statute/commentary or matching case-law survey.",
+      "results": [
+        "BeurkG 10 requires careful personal identification and recording its basis or doubts; it does not universally prescribe a tax ID. ZPO 415 and 418 distinguish proof of recorded proceedings/facts, permit contrary proof, and condition facts outside own perception."
+      ],
+      "limits": [
+        "These rules do not by themselves establish a regular evidential preference for older land-register data over later base data. No matching primary decision establishing the author’s proposed regular first appearance was recovered."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": null,
+      "hash_limit": "Browser primary-text read only; no original byte hash observed.",
+      "additional_urls": [
+        "https://www.gesetze-im-internet.de/zpo/__415.html",
+        "https://www.gesetze-im-internet.de/zpo/__418.html"
+      ]
+    },
+    {
+      "id": "follow-b-ao139b",
+      "title": "AO tax-ID processing limits",
+      "url": "https://www.gesetze-im-internet.de/ao_1977/__139b.html",
+      "identity": "Current AO 139b individual clause",
+      "retrieved_at": "2026-10-26T00:19:00.716110+00:00",
+      "read_extent": "Selected paragraphs 1–5, especially paragraph 2, substantively read. No full AO or historical amendment audit.",
+      "results": [
+        "For other bodies, paragraph 2 permits processing without consent only for required tax communications or express legal authority. It is not a universal prohibition on any voluntary collection or proof that the notary actually lacks an ID."
+      ],
+      "limits": [
+        "Current corroboration only; no exhaustive pre-August notarial-duty map. Distinguish legal duty, permission and actual possession."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": "600db78f9ff553e15a0d3e75809dbdd694792b40010945fbdbd7323f1bad1d3a",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/ao139b.html",
+      "pdf_signature_verified": null
+    },
+    {
+      "id": "follow-b-ao154",
+      "title": "AO account identification obligations",
+      "url": "https://www.gesetze-im-internet.de/ao_1977/__154.html",
+      "identity": "Current AO 154 individual clause",
+      "retrieved_at": "2026-10-26T00:19:02.166534+00:00",
+      "read_extent": "Complete individual clause, especially paragraphs 2, 2a and 2b.",
+      "results": [
+        "Identity obligations apply to custody/account contexts; the tax-ID collection in paragraph 2a is specified for credit institutions and relevant persons. These channels should not automatically be collapsed into the three cited notarial tax-notification duties."
+      ],
+      "limits": [
+        "Does not establish a universal notarial tax-ID duty or that every notary collects IDs for every escrow transaction. Current version, not full August history."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": "b8e25814d4199d04217ad85488a42fd6d35768267a6bb4cbe4aeeb6e6ec304f9",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/ao154.html",
+      "pdf_signature_verified": null
+    },
+    {
+      "id": "follow-b-gwg11",
+      "title": "GwG natural-person identification fields",
+      "url": "https://www.gesetze-im-internet.de/gwg_2017/__11.html",
+      "identity": "Current GwG 11 individual clause",
+      "retrieved_at": "2026-10-26T00:19:03.318091+00:00",
+      "read_extent": "Complete short clause; natural-person fields and identification reuse exceptions.",
+      "results": [
+        "The standard natural-person fields include names, birthplace/date, nationality and address, rather than a universal tax-ID requirement. Existing identification can be reused subject to doubt-related conditions."
+      ],
+      "limits": [
+        "No exhaustive GwG/BeurkG tax-duty survey or empirical possession rate. Current clause is corroborative, not authenticated August HTML."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": "b84851fb7de55ea1906ac710a944f5bbade5bd99cdabe863605519061b625fcb",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/gwg11.html",
+      "pdf_signature_verified": null
+    },
+    {
+      "id": "follow-b-notary-taxguide",
+      "title": "Thuringia official notarial tax guide",
+      "url": "https://finanzen.thueringen.de/fileadmin/user_upload/Finanzaemter/merkblatt_notare_final.pdf",
+      "identity": "Thuringia Finance Ministry, May 2020, 18 pages",
+      "retrieved_at": "2026-10-26T00:19:00.715956+00:00",
+      "read_extent": "Identity and selected property-notification sections 3.1, 3.1.2, 4.2 and corresponding tax-ID field discussion; not a complete guide read.",
+      "results": [
+        "The official guidance differentiates notifiable instruments from exceptions, including specified pre-emption-right grants, and explains purpose-related ID details."
+      ],
+      "limits": [
+        "2020 paper procedure cannot be substituted for 2026 electronic law. One listed exception does not prove that all other tax-reporting purposes are absent in every variant. Supporting context only."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": "1147330a5f08a3981e598d5e5e8860455ebff604e9ed67aa78f4292b036fa9d3",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/tax-merkblatt.pdf",
+      "pdf_signature_verified": true
+    },
+    {
+      "id": "follow-b-notary-faq",
+      "title": "BNotK XNotar missing-ID workflow",
+      "url": "https://onlinehilfe.bnotk.de/einrichtungen/notarnet/xnotar/wichtige-versionsinformationen/faq.html",
+      "identity": "Current operator FAQ, not authenticated August 2026 snapshot",
+      "retrieved_at": "2026-10-26T00:19:03.638871+00:00",
+      "read_extent": "Only substantive missing-Steuer-ID/Steuernummer section and adjacent company-number discussion; not the entire help site.",
+      "results": [
+        "The operator explicitly allows a reason for missing IDs and later supplementation when IDs become known. This supports ordinary non-universal possession, including distinctions between an individual tax ID and a company number."
+      ],
+      "limits": [
+        "Undated/current material around October 2026 eNoVA; later corroboration, not historical August frequency evidence."
+      ],
+      "source_type": "primary operator documentation",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": "dcb2930c896316dff9a13c3fa04c3662cabf25ffe859207e718c90955c3c66b9",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/bnotk-faq.html",
+      "pdf_signature_verified": null
+    },
+    {
+      "id": "follow-b-notary-supplement",
+      "title": "BNotK XNotar ID supplementation instruction",
+      "url": "https://onlinehilfe.bnotk.de/einrichtungen/notarnet/xnotar/modul-enova/neuen-vorgang-anlegen/vollzugsschritte-erfassen/veraeusserungsanzeigen-grestg/ergaenzen-veraeusserungsanzeige-ergaenzen.html",
+      "identity": "Current operator instruction; page states availability from 1 October 2026",
+      "retrieved_at": "2026-10-26T00:19:03.811854+00:00",
+      "read_extent": "Short supplementation instruction, availability notice and Steuer-ID(s) nachreichen passage.",
+      "results": [
+        "An explicit supplementary workflow exists for adding IDs after an initial disposal notification."
+      ],
+      "limits": [
+        "Post-author feature documentation, not proof of exactly how many August deeds lacked IDs."
+      ],
+      "source_type": "primary operator documentation",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": "876eca7eaf1e8bcd51f021d874fdd93a07b30b3015a23b95abd1604f7d988331",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/bnotk-complement.html",
+      "pdf_signature_verified": null
+    },
+    {
+      "id": "follow-b-groundcharge-form",
+      "title": "Practitioner ground-charge questionnaire",
+      "url": "https://www.schmitz-notar.de/fileadmin/downloads/Frageboegen__neu_/Fragebogen_Grundschuld.pdf",
+      "identity": "Undated three-page notarial questionnaire, current download",
+      "retrieved_at": "2026-10-26T00:19:04.469661+00:00",
+      "read_extent": "All three pages; title, owner/debtor tax-ID fields, and inconsistent purchase-contract footer.",
+      "results": [
+        "A practitioner form for preparing a land charge asks for tax IDs of owners and separate debtors. This demonstrates a possible collection workflow beyond a simplistic no-duty-means-never-known assumption."
+      ],
+      "limits": [
+        "No completed transaction, publication date, historical August identity or representative rate; inconsistent footer weakens use as precise operational evidence. Not used as a contradiction finding."
+      ],
+      "source_type": "primary practitioner form",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": "aaa156ddc25610f53fe1c857de1361254781af4e3f7389ad65227692594eff01",
+      "temporary_file": "/private/tmp/unresolved-b-20261026/grondcharge-form.pdf",
+      "pdf_signature_verified": true
+    },
+    {
+      "id": "follow-b-commencement-search",
+      "title": "Targeted BMF commencement-history search",
+      "url": "https://www.recht.bund.de/",
+      "identity": "Search on 26 October 2026 for respective Article 20(5) commencement announcements",
+      "retrieved_at": "2026-10-26T00:32:02.674626+00:00",
+      "read_extent": "Targeted Gazette, BMF/BZSt and exact-phrase web searches; opened June Act and current clauses; Gazette home returned 403. No complete Gazette index or archive reconstructed.",
+      "results": [
+        "No authenticated announcement settling whether the date had already been determined by the August responses was recovered. The June condition and September provider discussion corroborate future implementation but do not close that historical gap."
+      ],
+      "limits": [
+        "Failure to recover a notice is not proof none existed, nor an author error. No bulk Gazette retrieval."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": null,
+      "hash_limit": "Browser primary-text read only; no original byte hash observed.",
+      "failed_access": true,
+      "failure_scope": "recht.bund.de home browser 403 and incomplete announcement-history reconstruction",
+      "queries": [
+        "\"Bekanntmachung\" \"Artikel 20 Absatz 5\" \"2026\"",
+        "\"Bekanntmachung\" \"steuerlichen Anzeigen der Notare\"",
+        "site:recht.bund.de Notare Identifikationsnummer Bekanntmachung",
+        "site:bundesfinanzministerium.de eNoVA Identifikationsnummer Inkrafttreten"
+      ]
+    },
+    {
+      "id": "follow-b-bnotk-circular",
+      "title": "BNotK eNoVA circular 6/2026",
+      "url": "https://www.bnotk.de/aufgaben-und-taetigkeiten/rundschreiben/details/elektronischer-notar-verwaltungs-austausch-enova-erste-verpflichtungen-ab-dem-1-oktober-2026",
+      "identity": "BNotK operator circular dated 25 September 2026",
+      "retrieved_at": "2026-10-26T00:32:02.674626+00:00",
+      "read_extent": "Header and complete relevant B/E sections. Not every linked source or product page.",
+      "results": [
+        "Section E describes a forthcoming enquiry application; the inheritance filing start discussed in B must not be equated with every distinct query commencement."
+      ],
+      "limits": [
+        "Later non-availability is not sufficient evidence that no future date had been announced earlier. Same professional system as author; not an independent BMF history."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": null,
+      "hash_limit": "Browser primary-text read only; no original byte hash observed."
+    },
+    {
+      "id": "follow-b-register-history",
+      "title": "2014 Bundestag testimony on register operation",
+      "url": "https://www.bundestag.de/resource/blob/348234/eae00d6ca06342335c2eabd0cdb6dd92/wortprotokoll.pdf",
+      "identity": "Justice committee hearing 18/31, 5 November 2014; Carsten Schmidt, NRW Justice Ministry IT",
+      "retrieved_at": "2026-10-26T00:32:02.674626+00:00",
+      "read_extent": "Identity physical 8; complete relevant answer physical 16–17 independently browser-read. No full 125-page hearing read.",
+      "results": [
+        "Operator testimony describes the portal from 2007, 4–20 million monthly accesses through 2014, and actual financial-crisis peak performance problems addressed by adding servers."
+      ],
+      "limits": [
+        "Corroborates early overload/performance problems, not the frequency of outages or the full other-technical-causes proposition. No current outage extrapolation."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": "169ce722745e2224f3a5fdbc0065f58fb7d5c2db4c900497a5986400dc9678ad",
+      "observed_hash_method": "Root shared temporary PDF; exact bytes hashed independently before freeze.",
+      "temporary_file": "/private/tmp/unresolved-followup-root/bt2014-register-hearing.pdf"
+    },
+    {
+      "id": "follow-b-register-2007",
+      "title": "BNotK 2007 electronic commercial-register circular",
+      "url": "https://www.bnotk.de/aufgaben-und-taetigkeiten/rundschreiben/details/elektronischer-handelsregisterverkehr",
+      "identity": "Circular 24/2007, 8 August 2007",
+      "retrieved_at": "2026-10-26T00:32:02.674626+00:00",
+      "read_extent": "Complete short substantive circular.",
+      "results": [
+        "Warns of expected late-August filing volume and EGVP load and urges preventive action; includes a state reply not expecting problems."
+      ],
+      "limits": [
+        "Forecast about filing transport, not an observed retrieval-outage series. Does not settle early outage frequency."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": null,
+      "hash_limit": "Browser primary-text read only; no original byte hash observed."
+    },
+    {
+      "id": "follow-b-cadastre-bonn",
+      "title": "Bonn official cadastre description",
+      "url": "https://www.bonn.de/themen-entdecken/planen-bauen/liegenschaftskataster.php",
+      "identity": "Current undated municipal service description",
+      "retrieved_at": "2026-10-26T00:32:02.674626+00:00",
+      "read_extent": "Complete short substantive service description, excluding navigation.",
+      "results": [
+        "Describes all city parcels/buildings, digital ALKIS parcel/owner information and uses in public administration/planning."
+      ],
+      "limits": [
+        "One municipality, current not authenticated August bytes. Does not establish generally-only nationwide alternatives or comprehensive delivery to every administrative level."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": null,
+      "hash_limit": "Browser primary-text read only; no original byte hash observed."
+    },
+    {
+      "id": "follow-b-cadastre-bkg",
+      "title": "BKG federal parcel product release",
+      "url": "https://www.bkg.bund.de/SharedDocs/Produktinformationen/BKG/DE/P-2025/250422_FS-DE.html",
+      "identity": "BKG product notice, 22 April 2025; underlying parcel data December 2024",
+      "retrieved_at": "2026-10-26T00:32:02.674626+00:00",
+      "read_extent": "Complete short substantive product release.",
+      "results": [
+        "Distinguishes the approximately 65-million-parcel national context from the FS-DE product, which explicitly excludes Bavaria and is a federal-user derivative."
+      ],
+      "limits": [
+        "Product scope is not a direct counterexample to underlying cadastral coverage, and parcel geometry alone does not establish full owner-data availability."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": null,
+      "hash_limit": "Browser primary-text read only; no original byte hash observed."
+    },
+    {
+      "id": "follow-b-cadastre-st",
+      "title": "Sachsen-Anhalt ALKIS web services",
+      "url": "https://www.lvermgeo.sachsen-anhalt.de/de/gdp-alkis-geowebdienste.html",
+      "identity": "Current undated official service description",
+      "retrieved_at": "2026-10-26T00:32:02.674626+00:00",
+      "read_extent": "Substantive WMS/WFS owner-data and access-scope section, browser lines 918–931; not all navigation content.",
+      "results": [
+        "Includes owner information and an initial statewide-user limit for the NAS-WFS, with authorisation and future spatially limited access."
+      ],
+      "limits": [
+        "A particular service/access route is not the entire cadastre or a proven August nationwide access failure. Not used to label author wording false."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": null,
+      "hash_limit": "Browser primary-text read only; no original byte hash observed."
+    },
+    {
+      "id": "follow-b-engineermonitor",
+      "title": "VDI/IW engineer monitor publication index",
+      "url": "https://www.vdi.de/themen/nachwuchs-ausbildung-arbeitsmarkt/vdi/iw-ingenieurmonitor",
+      "identity": "Current VDI primary publication page; Q4 2025 release listed 28 July 2026",
+      "retrieved_at": "2026-10-26T00:32:02.674626+00:00",
+      "read_extent": "Dated listing and complete substantive summary; no new full monitor-PDF read. Earlier pre-response monitor remains part of baseline.",
+      "results": [
+        "Primary summary distinguishes structural shortages in specific disciplines and longer-term demographic concerns from short-term demand variation."
+      ],
+      "limits": [
+        "Does not measure an increasing observed shortage across technical administrations, planning authorities and engineering offices as separate employer groups. No claim based on an unread full study or third-party headline."
+      ],
+      "source_type": "primary",
+      "retention": "Concise authored check note retained; new public downloads/extractions/renders are temporary until root and peer checks finish.",
+      "observed_sha256": null,
+      "hash_limit": "Browser primary-text read only; no original byte hash observed."
+    }
+  ],
+  "limitations": [
+    "Only actual read extents stated; no full 76-page AdV, 125-page hearing, full statute corpus or whole-site read claimed.",
+    "Individual current statutory/service pages have temporal qualifications; exact pre-author eNoVA law and May 2026 rationale provide dated legal evidence.",
+    "Blocked Gazette entry and incomplete history cannot prove notice absence. New proposals are for independent peer/root adjudication, not changes to the old ledger."
+  ],
+  "temporary_manifest_files": [
+    "/private/tmp/unresolved-b-20261026/manifest.json",
+    "/private/tmp/unresolved-b-20261026/manifest-supplement.json"
+  ]
+}

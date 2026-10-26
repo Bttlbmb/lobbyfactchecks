@@ -1,0 +1,663 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "author_snapshot_hashes_checked": 21,
+  "author_text_extractions": [
+    {
+      "document_id": "bmwe-netzkosten-2026-001",
+      "pdf_sha256": "8ca7c81d348638c3300a30f68f2419f5aa0e36d74ffa3084ae395ba5cec95b55",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-001.txt",
+      "text_sha256": "79cc5e8b98d752d7dde4fb7d9a1c7298610ca88996d1edff9fb97f5315e14fa5",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-002",
+      "pdf_sha256": "1e0aaa1083ee112c39e2ed380c2f1279ec577c6e5d0e75fdd99e76d3c26141f3",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-002.txt",
+      "text_sha256": "355df41b8bdab6589f116a0de5c4cb80c2b2ebb3cb77ace6efe647104696a75d",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-003",
+      "pdf_sha256": "5e62695c1b4b8a47d3d5ed94369e01961c133d3d3e7a154c4438f35489db7380",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-003.txt",
+      "text_sha256": "bc534e23f99f7e9f72a4b394887d1afd4a96354676760349e4252b3eeb86b271",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-004",
+      "pdf_sha256": "dfa4dee9a8b3d0343694027e38dc9e25f4b3cbe46b408131a02556039b1385a1",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-004.txt",
+      "text_sha256": "faf5b9b275acb4c5e29c2e45492fcda08b465717a78613fd3090d2a7dc5d97fb",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-005",
+      "pdf_sha256": "98b453ec03caa87a273f7270549d6bb8991daa6370b0553133f24c53b972f670",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-005.txt",
+      "text_sha256": "89d1a5e9f7a8c9af1dd6c56a59cafe78761b322e39cc4b52d927d403ca04f494",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-006",
+      "pdf_sha256": "6fcec758a5867312830dbb7f00ebc1c07c4992f3ccd7bb32952c4f0d73ce3daa",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-006.txt",
+      "text_sha256": "a0e6d152f0f0fe7b5e97fcc1ec3ba4ef7daf6bcc0f0dad0c2de30821a02ff843",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-007",
+      "pdf_sha256": "8f45c1daeb123c8d32b08a9c544af3179ce65b6c7792cd36992772c24f27d4ae",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-007.txt",
+      "text_sha256": "9b5adb757fc031094bb4c6cec488d8aede73b4f64692a360554f46f81dbda569",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-008",
+      "pdf_sha256": "2808b19a5bb1843ca1442c055382dcd7cd0bde8d4044111f6fab88fd55d14034",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-008.txt",
+      "text_sha256": "39771a94280e7c286d6fb325369fc3902a466aca3ea88e1e034a5f505e4a08ec",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-009",
+      "pdf_sha256": "762898b5a24d4ec118b289511cf6c9d4db3fe2cec9d8b98cd78621ee09cb45d9",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-009.txt",
+      "text_sha256": "51f896fadbc839dc077fb7aef2fe04b58f6c709b0d961df1d20c0629667dabac",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-010",
+      "pdf_sha256": "fcccacc0cbc14c644a7fbbb644d122cdefe745e160fb1f238402d844275be01d",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-010.txt",
+      "text_sha256": "6e41f0ed1cc1240189dea334fcab4ffbb98029797289a1ce2dde4491593b8119",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-011",
+      "pdf_sha256": "8fbc73dc6dd02de58d3d8b7880514fa80ed4c1a659cb7a99367b7759611a509a",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-011.txt",
+      "text_sha256": "cd553b9189ac999fccc0b4cfa37fcf2410d45411cec0d41f2f1237d5400e8155",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-012",
+      "pdf_sha256": "ef4258c47c5c63706a570e68f474987d3dca96136ddb6a0f00eae4c36d584067",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-012.txt",
+      "text_sha256": "09c7a5309f392d331eed47ce201add75400ab8bfb541cec7ad081673cdd2c38d",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-013",
+      "pdf_sha256": "46904b8b054e72305d5f121ec6702b1f0ca8ae19aea34b93dd255480237461a1",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-013.txt",
+      "text_sha256": "b0859e7ab9fe2a3d312e7dd049335f3d7058dd094016125e748c43a27719e93b",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-014",
+      "pdf_sha256": "1437a31bae6be165c81b7af78a92769444d3677d7b714b8b94c29bf4c86afb7b",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-014.txt",
+      "text_sha256": "ccd85490122e30458c9bf6b15da12e5aeffb37f0e31b5f083bcf4fbb674de0c1",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-015",
+      "pdf_sha256": "7df082cca4e3972165d73737f754f5a6e9a960fea64594624711e9a1ca6a27ff",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-015.txt",
+      "text_sha256": "998edcb933087586a69ac8610d38b2d7838eb5bece3e53a9e23788799a1bbee1",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-016",
+      "pdf_sha256": "722bb8be9a031cc7474fd1f6f7ccd55abb156138c8df43b1edb5524414faafbb",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-016.txt",
+      "text_sha256": "85acd15fefdd5b14f208758ca001187db32561e1dc452ed6adee2b24d5557a7d",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-017",
+      "pdf_sha256": "6fdc7ef6aba69b473fda9b655c5b3491212180d3681a45e8a7ca37c5cc4b4fc1",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-017.txt",
+      "text_sha256": "21f6d24e717fa0c27bfaacecf44dc7b743e9b456006734b7b0b6e01191da9351",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-018",
+      "pdf_sha256": "168908c1dee545d6d0c23cc9d9f969b747e402369c407fb308f3b18f833f3f97",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-018.txt",
+      "text_sha256": "0540e77f28706611ef349dde094cf9ab4078783aba25523bf9cf71c453b4c348",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-019",
+      "pdf_sha256": "a04793fd3dc3aede452ae073410694b8e2d3920c48c1d4c3d57bcb1dc065ee64",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-019.txt",
+      "text_sha256": "0ea131898d5047066f98e8ca7827a8aa0f73eb0f8ad1457b89220fc652f6dbcf",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-020",
+      "pdf_sha256": "b2814f63c746b5b300f8006f5e310ec543d686e3c9c31a783083385f95c1245d",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-020.txt",
+      "text_sha256": "7783207a3d85e303531d448e44afd28396060ce53566a373b437be3c90474d48",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bmwe-netzkosten-2026-023",
+      "pdf_sha256": "0660a8e9fdf55fc1262ed3df6ad23bac3b9135c8fdb069ab62d0897fc92df2db",
+      "text_file": "research/factual-checks/netzkosten-2026/text/bmwe-netzkosten-2026-023.txt",
+      "text_sha256": "a9b2ccdca105c77dd350e731f35a9c9334db22654be984c6a8c837ccedd92811",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    }
+  ],
+  "claims_checked": 194,
+  "reviews": [
+    {
+      "file": "research/factual-checks/netzkosten-2026/reviews/a-reviews-c.json",
+      "sha256": "419571578210a8b244df72e6ffbc6eb6f18616028a85a35145ce583d36f048bd",
+      "claims_reviewed": 60,
+      "omissions": 2
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/reviews/b-reviews-a.json",
+      "sha256": "06e9b7345b722a488912b314bbb8ffcef4e699d9255b03a788ea7d2541605808",
+      "claims_reviewed": 58,
+      "omissions": 2
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/reviews/c-reviews-b.json",
+      "sha256": "c555af867717e23b1cb4d3ba6c64577581adce2ac6963701af15cc5095c81077",
+      "claims_reviewed": 70,
+      "omissions": 2
+    }
+  ],
+  "archives": [
+    {
+      "source_id": "netzkosten-root-draft",
+      "file": "research/round3-energy/sources/netzkosten-refe-official-current.pdf",
+      "sha256": "ebf3b4ee6a7ab05635d5d1624e6808d09fa0c78feae4268f141038af8a55a76c"
+    },
+    {
+      "source_id": "netzkosten-root-enwg",
+      "file": "research/factual-checks/netzkosten-2026/sources/netzkosten-root-enwg.html",
+      "sha256": "7a66f9c9b112c8363b65063e94617cf2bf154433f1953ef3862cf6f1b8bddf4b"
+    },
+    {
+      "source_id": "netzkosten-root-stromnev",
+      "file": "research/factual-checks/netzkosten-2026/sources/netzkosten-root-stromnev.html",
+      "sha256": "5fb5c7f44c53eaf0c3fafd0ec3b3a029c2fe26cc3e53be1ea035038618010e52"
+    },
+    {
+      "source_id": "netzkosten-root-monitoring2025",
+      "file": "research/factual-checks/netzkosten-2026/sources/netzkosten-root-monitoring2025.pdf",
+      "sha256": "29695eeb24c6b6d247ba86adba0f8df54039ef4cbb9380cc466f8c37f921297a"
+    },
+    {
+      "source_id": "shared-coalition2025",
+      "file": "research/factual-checks/sources/coalition2025.pdf",
+      "sha256": "c0633240e8bbe34d1998cf3ebb916f9adba370936682cad033ffb75d5520a89d"
+    },
+    {
+      "source_id": "netzkosten-root-agnes",
+      "file": "research/factual-checks/netzkosten-2026/sources/netzkosten-root-agnes.pdf",
+      "sha256": "2fce8a8bd50b5d5f8af3cddf9dafc57de40d7dea0f7c66b3aa528cb7120e6da5"
+    },
+    {
+      "source_id": "netzkosten-root-uenb-framework",
+      "file": "research/factual-checks/netzkosten-2026/sources/netzkosten-root-uenb-framework.pdf",
+      "sha256": "cb3935dd70fbb364e2c2cc7d0b88d682e521ee2be5332cc6a8f63e4fdf6f3b71"
+    },
+    {
+      "source_id": "netzkosten-a-stromstg",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-stromstg.html",
+      "sha256": "9172204a3447c44585e228540c65ffd9f7969d52492c6adf9e389c6046c0a77d"
+    },
+    {
+      "source_id": "netzkosten-a-physical-faq",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-physical-faq.pdf",
+      "sha256": "8c4788a5e42201a8d171144c3640f4113a0b7a182a3289457b36ed86aaebe97d"
+    },
+    {
+      "source_id": "netzkosten-a-physical-position",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-physical-position.pdf",
+      "sha256": "2d2ff5dc0bd4f40863d845b0c9c9d79e247a0be8a96d60be1e4a410cae97a7e6"
+    },
+    {
+      "source_id": "netzkosten-a-frontier2025",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-frontier2025.pdf",
+      "sha256": "dc19d59464ee22343bb06ae0ec134c5523f381af65cddc2997ca0afc043869b5"
+    },
+    {
+      "source_id": "netzkosten-a-imk98",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-imk98.pdf",
+      "sha256": "8d30fe64b794ab01f257b2acdff5b87ca055ee68be5937aafc83a121ea75dcc5"
+    },
+    {
+      "source_id": "netzkosten-a-speech2025",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-speech2025.html",
+      "sha256": "961d43ccfd3fd19bb5cd16bf8e6ae8e9980fa2adc3746c88894b4d61d338c440"
+    },
+    {
+      "source_id": "netzkosten-a-tso2024",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-tso2024.html",
+      "sha256": "1c50cb477985bd5339490e265b2e94d17ce851589ca9b0e00842d2c740fc182f"
+    },
+    {
+      "source_id": "netzkosten-a-tso2025",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-tso2025.html",
+      "sha256": "921b0a3fc8a96ef013c14696b9d480821d2bf524b9af24a2906a08a1b9014012"
+    },
+    {
+      "source_id": "netzkosten-a-tso2026",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-tso2026.pdf",
+      "sha256": "b901093d6800b224b30597cae9d48e08dd3cfbd9e33cfa662ff8ecf3bf9e7fcf"
+    },
+    {
+      "source_id": "netzkosten-a-bnetza-benefit",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-bnetza-benefit.html",
+      "sha256": "25b93ae2506d52aebd5a833e672173c04b262e69ffbe85735fc60976fb86fe47"
+    },
+    {
+      "source_id": "netzkosten-a-government-tax2026",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-government-tax2026.html",
+      "sha256": "0083419688e4f672ec087994071d723833116043dfd4d5be88d318e07fbe6fcf"
+    },
+    {
+      "source_id": "netzkosten-a-bnetza-costmodel",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-bnetza-costmodel.pdf",
+      "sha256": "ac29f2f3adae2bcd8e38890d31f1edb98e021f03d10b60dccec4218925bcd291"
+    },
+    {
+      "source_id": "netzkosten-a-imk97",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-imk97.pdf",
+      "sha256": "16777a9cf16663e69fdaaa8b99357d46a32275514bdb1676c15577266a02a6e7"
+    },
+    {
+      "source_id": "netzkosten-a-smard-price",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-smard-price.html",
+      "sha256": "3634c7aad24fa5a405a5432bc1ff2396231a4435c934be06c611d50fd8d6d9e6"
+    },
+    {
+      "source_id": "netzkosten-a-smard-netfees",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-smard-netfees.html",
+      "sha256": "990c22de31201604f1a646e0e4ae845857cdd5e4352a31a1d0ded67572069007"
+    },
+    {
+      "source_id": "netzkosten-a-primary1",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-primary1.json",
+      "sha256": "aa3b8da3b8d851e92db2cc6757fb82c0c73963f551342e07a534eb03f3451b6b"
+    },
+    {
+      "source_id": "netzkosten-a-primary2",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-primary2.json",
+      "sha256": "3ee287df5bc433044270d19f25b5b70d8061e8892ed9cdc69de0636dcd85f627"
+    },
+    {
+      "source_id": "netzkosten-a-primary3",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-primary3.json",
+      "sha256": "8c9a577d25a35a867dc674369cd57d976508581d7a70e12ab0c1d01830e58fb8"
+    },
+    {
+      "source_id": "netzkosten-a-primary4",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-primary4.json",
+      "sha256": "5075005a7ccfbb9c0bd8fa431a26a15a3a27b87ac5d99199e871592a925f96d5"
+    },
+    {
+      "source_id": "netzkosten-a-primary5",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-primary5.json",
+      "sha256": "bfc6b90ed332d0d94584a898bb8051875171738f0fcec72904e478638b685337"
+    },
+    {
+      "source_id": "netzkosten-a-primary6",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-primary6.json",
+      "sha256": "fad3922d326506bb3e316e4501ae5dddd0358863bbf15e30431c48202ce6c7c6"
+    },
+    {
+      "source_id": "netzkosten-a-primary7",
+      "file": "research/factual-checks/netzkosten-2026/sources/a-primary7.json",
+      "sha256": "0eab39f18a81e218b57da9904b6f0581bf2d8565387f06e8ba5b65a8de39379b"
+    },
+    {
+      "source_id": "netzkosten-b-50hz2025",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-50hz2025.pdf",
+      "sha256": "964dfa2a4b55fca55a0513d6fa40dfeed8754a51a0207777bc84d23222347726"
+    },
+    {
+      "source_id": "netzkosten-b-agnes-aug6",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-agnes-aug6.html",
+      "sha256": "643a94c62ec69c15cb32560fdad0ceafffc3f47dccebff8852dc2ef0e0664112"
+    },
+    {
+      "source_id": "netzkosten-b-ben2026",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-ben2026.pdf",
+      "sha256": "b901093d6800b224b30597cae9d48e08dd3cfbd9e33cfa662ff8ecf3bf9e7fcf"
+    },
+    {
+      "source_id": "netzkosten-b-ben2026-theoretical",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-ben2026-theoretical.pdf",
+      "sha256": "1949fbdb1d2d7f1e5f09751dd7b8357d3bb3f2fab54284af5351135ece1831a6"
+    },
+    {
+      "source_id": "netzkosten-b-bmf2026-indexed",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-bmf2026-indexed.json",
+      "sha256": "1b9486ca290551c69e10e4bfca7a3b01565c138462462cd35239c1992d417031"
+    },
+    {
+      "source_id": "netzkosten-b-bnetza-prices",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-bnetza-prices.html",
+      "sha256": "70a99b2423db4509bc271f7a0ba07fe28a92786d7a5d543f93d34d67462fff0f"
+    },
+    {
+      "source_id": "netzkosten-b-cabinet-eeg",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-cabinet-eeg.html",
+      "sha256": "5948fed9c3eda6a5a7f688e683de5c1e6650e4b170afa98bf0616fd667d5f973"
+    },
+    {
+      "source_id": "netzkosten-b-consentec",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-consentec.pdf",
+      "sha256": "7caefdb7ac894b27f318bd4d3c6889de713f558cabb0624553139bfccfffff87"
+    },
+    {
+      "source_id": "netzkosten-b-ee-distribution",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-ee-distribution.html",
+      "sha256": "7663cb72b18f664b5869a235ba8c07285b80bd61eb894f1d19b88256ae775824"
+    },
+    {
+      "source_id": "netzkosten-b-g115",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-g115.html",
+      "sha256": "c99859793b2e0363c3aa860090d64deae0d053ff7da27f4652c156a01a22c176"
+    },
+    {
+      "source_id": "netzkosten-b-imk97",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-imk97.pdf",
+      "sha256": "94b4271fd7f3e30a4ae24a0d602b270e1440e6945993a4db12982ae892d88e11"
+    },
+    {
+      "source_id": "netzkosten-b-imk98",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-imk98.pdf",
+      "sha256": "8d30fe64b794ab01f257b2acdff5b87ca055ee68be5937aafc83a121ea75dcc5"
+    },
+    {
+      "source_id": "netzkosten-b-ktf-july6-indexed",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-ktf-july6-indexed.json",
+      "sha256": "df1c946aad64d2e4eacdce65c8fd1e40541fdd3e01ca244bfd023cd294dd7ed1"
+    },
+    {
+      "source_id": "netzkosten-b-monitor2025",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-monitor2025.pdf",
+      "sha256": "8fb8cf48d1058d4a21cf7621d9da40ba965fdcd259e9e1f27b5d7811f14e6100"
+    },
+    {
+      "source_id": "netzkosten-b-nep2025-v2",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-nep2025-v2.pdf",
+      "sha256": "9d0804594c65800665351e78f5112e91c515bb9539319bb920cf0295543a347a"
+    },
+    {
+      "source_id": "netzkosten-b-path-costs",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-path-costs.pdf",
+      "sha256": "2d2ff5dc0bd4f40863d845b0c9c9d79e247a0be8a96d60be1e4a410cae97a7e6"
+    },
+    {
+      "source_id": "netzkosten-b-stromstg",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-stromstg.html",
+      "sha256": "9172204a3447c44585e228540c65ffd9f7969d52492c6adf9e389c6046c0a77d"
+    },
+    {
+      "source_id": "netzkosten-b-tariff-recalculation",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-tariff-recalculation.json",
+      "sha256": "98592e6fa11af6199c0b2fe4da9a5cca593bcb6d94d428140cb9a7b28279d759"
+    },
+    {
+      "source_id": "netzkosten-b-zoll-classification",
+      "file": "research/factual-checks/netzkosten-2026/sources/b-zoll-classification.html",
+      "sha256": "b375bb447fbc33de6d8145b0ed72df616f83e3c93e84e29a3d19b69d725d50cf"
+    },
+    {
+      "source_id": "netzkosten-c-stromvkg-actual",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-stromvkg-actual.html",
+      "sha256": "8f6d6e5bc1fb3cf681add64319d200488d5c765f42fadd85e87f8cac154fa3a0"
+    },
+    {
+      "source_id": "netzkosten-c-geldernlevies",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-geldernlevies.html",
+      "sha256": "bbafd5605b2a51cfcb9e9568e25dcccd99db49dcabc02152d4663e62a2403fc3"
+    },
+    {
+      "source_id": "netzkosten-c-strausberg2026",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-strausberg2026.pdf",
+      "sha256": "9e23812b2f0176f797e96705ba97dcd2ec125c51baf2ba4a4297af948a11f853"
+    },
+    {
+      "source_id": "netzkosten-c-eeg2022",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-eeg2022.pdf",
+      "sha256": "9289462512bd83e5332490a7661f016158840350cb5b946cc1fff25fcc8d62e3"
+    },
+    {
+      "source_id": "netzkosten-c-budget-ktf2027",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-budget-ktf2027.html",
+      "sha256": "4a7882ebe8970733c2856f248558d0f8eeaf14170378bcd47ceca9565e46737f"
+    },
+    {
+      "source_id": "netzkosten-c-bdew082026",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-bdew082026.pdf",
+      "sha256": "bafc11f5ff69ef61a9c8a0189d65ad1c5977616dcfc3f06b2c00323733a8f5ce"
+    },
+    {
+      "source_id": "netzkosten-c-agnes-announcement",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-agnes-announcement.html",
+      "sha256": "643a94c62ec69c15cb32560fdad0ceafffc3f47dccebff8852dc2ef0e0664112"
+    },
+    {
+      "source_id": "netzkosten-c-eu-energyactions",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-eu-energyactions.html",
+      "sha256": "4f08b33594b4404ca14aa743691b46ac4f2d3ae331d1814f52402357eb6b65b5"
+    },
+    {
+      "source_id": "netzkosten-c-vzbv-study2026",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-vzbv-study2026.pdf",
+      "sha256": "133aa63d168d001271fc145544cef6425038484df6e0d757dc196c61d3d0c944"
+    },
+    {
+      "source_id": "netzkosten-c-consentec2025",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-consentec2025.pdf",
+      "sha256": "7caefdb7ac894b27f318bd4d3c6889de713f558cabb0624553139bfccfffff87"
+    },
+    {
+      "source_id": "netzkosten-c-bdew-prices",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-bdew-prices.html",
+      "sha256": "44d256d0ecd56a15a610d308a93b3d0f3656b628da2484d2fce6eb12af81a0a3"
+    },
+    {
+      "source_id": "netzkosten-c-stromstg",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-stromstg.html",
+      "sha256": "9172204a3447c44585e228540c65ffd9f7969d52492c6adf9e389c6046c0a77d"
+    },
+    {
+      "source_id": "netzkosten-c-monopoly2026",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-monopoly2026.pdf",
+      "sha256": "9d53dda2daf7965eef3e7f0a2b250b164b3887afdd0d2bf174647112d2417255"
+    },
+    {
+      "source_id": "netzkosten-c-government100",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-government100.html",
+      "sha256": "e84e899ffc2d99fc0f440f07b96ebbd5261324b52b1c928964b2589d25bad732"
+    },
+    {
+      "source_id": "netzkosten-c-industryprice-web",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-industryprice-web-extract.json",
+      "sha256": "868ffb9ced7215f47458548c1724dbfa5b7994e5bafe4c65b3bdd66e2b268cec"
+    },
+    {
+      "source_id": "netzkosten-c-com600-web",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-com600-agnes-web-extract.json",
+      "sha256": "7f3ec6423659e8ea7397c4f29424119cc1fc2d9f9e3e71f011d079e70247ffe9"
+    },
+    {
+      "source_id": "netzkosten-c-verivox-web",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-verivox-web-extract.json",
+      "sha256": "ce3bf3090b1ede4248fbd7d39b442627ddf52e3965c9a5bdadb9b23fa69c2778"
+    },
+    {
+      "source_id": "netzkosten-c-taxminimum-web",
+      "file": "research/factual-checks/netzkosten-2026/sources/c-taxminimum-web-extract.json",
+      "sha256": "24a3969d5f77a97447ddce642e2624f50a9b60735017a0ac50b10f4524209aa9"
+    },
+    {
+      "source_id": "netzkosten-ar-eurostat20260505",
+      "file": "research/factual-checks/netzkosten-2026/sources/ar-eurostat20260505.html",
+      "sha256": "3f52c4c14e1a9c088ca6fa60c90e297fc3966fb6710302e464a46283851ec469"
+    },
+    {
+      "source_id": "netzkosten-ar-industrial20260416",
+      "file": "research/factual-checks/netzkosten-2026/sources/ar-industrial20260416.html",
+      "sha256": "4824c8784c55b9af1881b200f6be1089f840c3514b0be623638c636bbde95ad8"
+    },
+    {
+      "source_id": "netzkosten-ar-webchecks",
+      "file": "research/factual-checks/netzkosten-2026/sources/ar-webchecks.json",
+      "sha256": "a521dd223c5ee11d6309d39aa079e9c1eb8cbae757931f9e6f77bd65a5b2839c"
+    },
+    {
+      "source_id": "netzkosten-br-bnetza-costmodel",
+      "file": "research/factual-checks/netzkosten-2026/sources/br-bnetza-costmodel.pdf",
+      "sha256": "ac29f2f3adae2bcd8e38890d31f1edb98e021f03d10b60dccec4218925bcd291"
+    },
+    {
+      "source_id": "netzkosten-br-frontier2025",
+      "file": "research/factual-checks/netzkosten-2026/sources/br-frontier2025.pdf",
+      "sha256": "dc19d59464ee22343bb06ae0ec134c5523f381af65cddc2997ca0afc043869b5"
+    },
+    {
+      "source_id": "netzkosten-br-tso2024",
+      "file": "research/factual-checks/netzkosten-2026/sources/br-tso2024.html",
+      "sha256": "59782696c71853e4e237b2184070cb268d38033e2d8cb074a3f9491898298f10"
+    },
+    {
+      "source_id": "netzkosten-br-tso2025",
+      "file": "research/factual-checks/netzkosten-2026/sources/br-tso2025.html",
+      "sha256": "921b0a3fc8a96ef013c14696b9d480821d2bf524b9af24a2906a08a1b9014012"
+    },
+    {
+      "source_id": "netzkosten-br-speech2025",
+      "file": "research/factual-checks/netzkosten-2026/sources/br-speech2025.html",
+      "sha256": "070680dff7fc15a9e69348740e9f4c4c12a81a25311b832499a7ae6bd3029638"
+    },
+    {
+      "source_id": "netzkosten-br-smard-price",
+      "file": "research/factual-checks/netzkosten-2026/sources/br-smard-price.html",
+      "sha256": "4108f873e48dd4b7a2bc0e1689b42eafc50ffc9bc559f5e68fb2f935578ccff8"
+    },
+    {
+      "source_id": "netzkosten-br-physical-faq",
+      "file": "research/factual-checks/netzkosten-2026/sources/br-physical-faq.pdf",
+      "sha256": "8c4788a5e42201a8d171144c3640f4113a0b7a182a3289457b36ed86aaebe97d"
+    },
+    {
+      "source_id": "netzkosten-br-tso2026-announcement",
+      "file": "research/factual-checks/netzkosten-2026/sources/br-tso2026-announcement.pdf",
+      "sha256": "088f6a6615e32b7775b6501d9ec276dc0542bdf9b87b0775bcfad977782ff3dc"
+    },
+    {
+      "source_id": "netzkosten-br-ktfg",
+      "file": "research/factual-checks/netzkosten-2026/sources/br-ktfg.html",
+      "sha256": "6deb4783a79c62f1d6c6706c4038d5483f0f83f2e51480b7d66383427a36a577"
+    },
+    {
+      "source_id": "netzkosten-br-destatis-june",
+      "file": "research/factual-checks/netzkosten-2026/sources/br-destatis-june.html",
+      "sha256": "4f60f3b7e5910854401eac7ab8ed316f900cf44ad879fe46c630fc6fc787dc6f"
+    },
+    {
+      "source_id": "netzkosten-cr-imk97",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-imk97.pdf",
+      "sha256": "94b4271fd7f3e30a4ae24a0d602b270e1440e6945993a4db12982ae892d88e11"
+    },
+    {
+      "source_id": "netzkosten-cr-imk98",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-imk98.pdf",
+      "sha256": "8d30fe64b794ab01f257b2acdff5b87ca055ee68be5937aafc83a121ea75dcc5"
+    },
+    {
+      "source_id": "netzkosten-cr-g115",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-g115.html",
+      "sha256": "c99859793b2e0363c3aa860090d64deae0d053ff7da27f4652c156a01a22c176"
+    },
+    {
+      "source_id": "netzkosten-cr-stromstg",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-stromstg.html",
+      "sha256": "9172204a3447c44585e228540c65ffd9f7969d52492c6adf9e389c6046c0a77d"
+    },
+    {
+      "source_id": "netzkosten-cr-ben2026",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-ben2026.pdf",
+      "sha256": "b901093d6800b224b30597cae9d48e08dd3cfbd9e33cfa662ff8ecf3bf9e7fcf"
+    },
+    {
+      "source_id": "netzkosten-cr-ben2026-theoretical",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-ben2026-theoretical.pdf",
+      "sha256": "1949fbdb1d2d7f1e5f09751dd7b8357d3bb3f2fab54284af5351135ece1831a6"
+    },
+    {
+      "source_id": "netzkosten-cr-50hz2025",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-50hz2025.pdf",
+      "sha256": "964dfa2a4b55fca55a0513d6fa40dfeed8754a51a0207777bc84d23222347726"
+    },
+    {
+      "source_id": "netzkosten-cr-bmf2026-index",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-bmf2026-search-extraction.json",
+      "sha256": "5319380934fbe44b6f1f9c174b00b97ba0a82ac9f0b8cc120a700ea46b839954"
+    },
+    {
+      "source_id": "netzkosten-cr-bt2161",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-bt2161.pdf",
+      "sha256": "1b9db5c3452d22df14515428d2ca8fec52701015d1e1c246f64d31b3fba8f678"
+    },
+    {
+      "source_id": "netzkosten-cr-bet-monitor2025",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-bet-monitor2025.pdf",
+      "sha256": "64b5bd21241a1fbb136c5809d31dfc0aa5b030c4584164055cecf1bee258db1e"
+    },
+    {
+      "source_id": "netzkosten-cr-nep2025-v2",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-nep2025-v2.pdf",
+      "sha256": "9d0804594c65800665351e78f5112e91c515bb9539319bb920cf0295543a347a"
+    },
+    {
+      "source_id": "netzkosten-cr-path-costs",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-path-costs.pdf",
+      "sha256": "2d2ff5dc0bd4f40863d845b0c9c9d79e247a0be8a96d60be1e4a410cae97a7e6"
+    },
+    {
+      "source_id": "netzkosten-cr-ee-distribution",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-ee-distribution.html",
+      "sha256": "7663cb72b18f664b5869a235ba8c07285b80bd61eb894f1d19b88256ae775824"
+    },
+    {
+      "source_id": "netzkosten-cr-eeg-cabinet",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-eeg-cabinet.html",
+      "sha256": "32b53cf218f01e4a1b67e057aa3fee92539e4d6237b43a25565f86dc242bf8ba"
+    },
+    {
+      "source_id": "netzkosten-cr-ffe-glass2025",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-ffe-glass2025.pdf",
+      "sha256": "6f842bed580777865a80d876154b1845288407f9a598c7dca3d867c51a34299f"
+    },
+    {
+      "source_id": "netzkosten-cr-ffe-glass-page",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-ffe-glass-page.html",
+      "sha256": "48897843bca3e7023ff1c49aef5d1f27593ba92a9eb13d0e6cbb33b224f39e5e"
+    },
+    {
+      "source_id": "netzkosten-cr-igbce-recalculation",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-igbce-recalculation.json",
+      "sha256": "75e2dfed81343f5cef52fd9b7704fa733c0d90844a8d6deab03dc508ab5d380b"
+    },
+    {
+      "source_id": "netzkosten-cr-ktf-july6-index",
+      "file": "research/factual-checks/netzkosten-2026/sources/cr-ktf-july6-search-extraction.json",
+      "sha256": "444a5beead389de23f0a01a53ea0d68a50f3d2b255add941d64b0da4911d6369"
+    }
+  ]
+}

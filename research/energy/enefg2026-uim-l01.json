@@ -1,0 +1,113 @@
+{
+  "id": "enefg2026-uim-l01",
+  "law_id": "enefg-2026",
+  "document_id": "uim-enefg-2026",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "major",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "A pending 2026 bill transposing the EU Energy Efficiency Directive and relaxing some German efficiency duties.",
+    "they_want": "Preserve the existing PUE efficiency limits for new and existing datacentres.",
+    "they_claim": "Borderstep projects average PUE of 1.4 in 2026 and 1.2 in 2030 for existing datacentres, so only a few inefficient sites would face the existing limits.",
+    "the_problem": "The cited model covers the evolving German fleet, including new sites, and does not establish how many pre-July-2026 sites exceed the limits. Scope and distribution need clarification; no error is yet established."
+  },
+  "claim_quote": {
+    "original": "erreichen bestehende Rechenzentren bereits 2026 im Schnitt einen PUE von 1,4",
+    "language": "de",
+    "translation_en": "Translation: existing datacentres already achieve an average PUE of 1.4 in 2026",
+    "locator": {
+      "pdf_page": 7,
+      "printed_page": 7,
+      "section": "4. Energieeffiziente Rechenzentren",
+      "paragraph": "second bullet"
+    },
+    "underline": "bestehende Rechenzentren"
+  },
+  "counter_quote": {
+    "original": "Auswirkungen der EnEfG-Regelung auf neue Colocation-Rechenzentren und bestehende Rechenzentren",
+    "source_id": "borderstep-datacentres-2025",
+    "locator": {
+      "pdf_page": 41,
+      "printed_page": 41,
+      "section": "Wirkungseffekt des EnEfG",
+      "paragraph": "paragraph below Figure 15"
+    },
+    "retrieved_at": "2026-10-24",
+    "language": "de",
+    "translation_en": "Translation: effects of the EnEfG provision on new colocation datacentres and existing datacentres"
+  },
+  "request_quote": {
+    "original": "Die PUE-Werte müssen auf den bestehenden Werten erhalten bleiben.",
+    "language": "de",
+    "translation_en": "Translation: The PUE values must remain at their existing levels.",
+    "locator": {
+      "pdf_page": 7,
+      "printed_page": 7,
+      "section": "4. Energieeffiziente Rechenzentren",
+      "paragraph": "first bullet"
+    }
+  },
+  "effect": "If the alleged scope transfer is confirmed, it would weaken the numerical justification that strict limits burden only a few inefficient incumbent sites. A fleet average cannot by itself identify the share exceeding a threshold.",
+  "limits": "This is a lead, not a proven error. The author may use existing datacentres to mean the fleet existing in each forecast year. The study explicitly includes improvements in incumbent facilities as well as new colocation sites. Its 2030 value is 1.25, which may reasonably be approximated as 1.2; rounding alone is not treated as an error. The statement acknowledges modelling on page 6, so it is not simply misreporting forecast values as measurements. Missing cohort or distribution evidence does not prove the incumbent average or only-few assertion false. No conclusion about desirability or feasibility of PUE regulation follows.",
+  "confidence": {
+    "text_source_mismatch": "low",
+    "materiality": "editorial_judgment"
+  },
+  "materiality": "Potentially major if confirmed because the claim directly addresses the burden of the existing-site limits in the exact draft. Severity is contingent on resolving scope, independently of its favourable direction.",
+  "direction_reasoning": "The disputed reading supports retaining stricter incumbent-site standards by presenting the affected population as small.",
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "tax_consultations_ai_agent",
+        "date": "2026-10-24",
+        "file": "research/reviews/tax-reviews-energy.json",
+        "status": "unresolved_lead_retained"
+      }
+    ]
+  },
+  "author_response": [],
+  "draft": {
+    "title": "Gesetz zur Beschleunigung der Umsetzung der Energieeffizienzrichtlinie",
+    "version_date": "2026-04-09",
+    "source_id": "enefg-draft-2026-04-09",
+    "addressed_provisions": [
+      "Article 1, proposed § 11(1)–(2) EnEfG"
+    ],
+    "comparison": "Exact 9 April 2026 ministry draft, 79 pages, cover date verified. Page 13 changes pre-July-2026 facilities to [1.6] in July 2027 and [1.4] in July 2030; new facilities [1.3]. Brackets preserved. Do not substitute June cabinet bill BT 21/8027."
+  },
+  "context_checks": [
+    "Read full pages 6–8 of submission and rendered page 7.",
+    "Read model scope and qualifications on primary report pages 40–44; rendered page 41. Model uses evolving IT equipment sales and stock, includes new facilities and smaller IT installations.",
+    "Report page 41 gives 1.46 in 2024 to 1.25 in 2030 with EnEfG versus 1.35 without; the stronger improvement arises in new colocation and incumbent sites.",
+    "A mean does not establish the count or proportion above 1.3 or 1.5. This is a limitation of support, not affirmative proof of a false proportion."
+  ],
+  "source_ids": [
+    "uim-enefg-2026",
+    "uim-enefg-lobbyregister-2026",
+    "uim-enefg-register-process-2026",
+    "borderstep-datacentres-2025",
+    "enefg-draft-2026-04-09",
+    "enefg-ministry-consultation-archive-2026"
+  ],
+  "process_status_at_screening": "Pending Bundestag committee stage as at 24 October 2026; a later government version BT 21/8027 was heard 5 October 2026. This lead concerns the earlier April consultation draft only.",
+  "open_questions": [
+    "Does the model have a separate incumbent-site cohort supporting the claimed average?",
+    "Is existing datacentres intended to refer to a fixed pre-July-2026 cohort or the changing fleet?",
+    "What share of incumbent facilities would actually exceed each limit, by site count rather than capacity-weighted average?"
+  ],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "first recorded as unresolved lead; not a finding of error",
+      "by": "ai_screen"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Official ministry ZIP copy verified byte-identical to archived submission; provenance strengthened. Independent review references updated.",
+      "by": "energy_hearings_ai_screen"
+    }
+  ],
+  "provenance": " Primary submission extracted from the official BMWE consultation ZIP and verified byte-identical to the archived mirror PDF; see research/energy/sources/enefg-official-archive-comparison.json."
+}

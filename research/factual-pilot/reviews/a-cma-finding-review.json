@@ -1,0 +1,68 @@
+{
+  "reviewer": "A",
+  "reviewed_at_utc": "2026-10-25T09:04:07.148392+00:00",
+  "issue_id": "kltgv2026-cma-border-pilot01",
+  "reviewed_file": "research/factual-pilot/kltgv2026-cma-border-pilot01.json",
+  "reviewed_sha256": "1da67df99ea51de16013b2ac0d420e92d2d0d7c686fe3814f542ae79d36f530b",
+  "disposition": "retain",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "checks": {
+    "author_pages_reread": [
+      1,
+      2,
+      3
+    ],
+    "claim_page": 2,
+    "request_page": 3,
+    "claim_quote_exact": true,
+    "request_quote_exact": true,
+    "visual_review": [
+      "/private/tmp/kltgv-ar-cma-2.png",
+      "/private/tmp/kltgv-ar-cma-3.png"
+    ],
+    "sources": [
+      {
+        "source_id": "pilot-cma-kltgv-20260810",
+        "local_file": "research/round3-energy/sources/bmwe-members/357765fb0849592315bf.pdf",
+        "sha256": "357765fb0849592315bf5c6646a2d1c6897d3ef5a6b6fcb353961839895e6df6",
+        "hash_matches": true
+      },
+      {
+        "source_id": "pilot-kspg-definitions",
+        "local_file": "research/factual-pilot/sources/root-kspg.html",
+        "sha256": "17be2c3c647ee3d5d2938b79c2269b44a7c01afdebbf325a3488f0524b9da5a9",
+        "hash_matches": true
+      },
+      {
+        "source_id": "pilot-kltgv-refe",
+        "local_file": "research/round3-energy/sources/kltgv-refe-official.pdf",
+        "sha256": "927255e40b4443c789705a93d3440cd4dbfbb81a5c09f8e3214246082a4c30cf",
+        "hash_matches": true
+      }
+    ],
+    "statute_locator": "KSpTG section3 numbers6 and6a; official text last amended25November2025",
+    "draft_locator": "section1 physical3; rationale physical17"
+  },
+  "assessment": "Retain the narrow correction as a minor provisional finding. The relevant functional CO2 pipeline and network definitions contain no national or Land-border condition. CMA’s express by-definition clause makes a universal premise in support of nationwide inspection uniformity. The candidate accurately preserves the reasonable alternative that CMA informally meant an interregional backbone, and does not claim this invalidates nationwide safety regulation.",
+  "materiality": "A supporting premise for national uniformity is inaccurate; correcting it narrows the scope of that argument. No numerical safety/cost conclusion changes and the case for common connected-network rules remains. Minor is proportionate; do not promote this as a central refutation.",
+  "direction": {
+    "favours_author_request": true,
+    "reason": "Universal multi-Land routing strengthens the request for nationwide procedures. This is a narrow direction judgement, not proof that CMA benefits economically from the inaccurate wording."
+  },
+  "quotes_and_context": {
+    "claim_original": "Transportleitungen sind per Definition grenzüberschreitend und durchlaufen mehrere Bundesländer",
+    "claim_locator": "CMA physical/printed2,paragraph beginning Positiv hervorzuheben",
+    "counter_original": "dem Transport des Kohlendioxidstroms dienende Leitungen",
+    "counter_locator": "KSpTG section3 number6",
+    "request_original": "die Kohlendioxidleitungsverordnung ohne weitere\nVerzögerung verabschiedet.",
+    "request_locator": "CMA physical/printed3,final paragraph"
+  },
+  "limitations": [
+    "The phrase transport pipelines may informally mean an intended interregional backbone; the candidate explicitly preserves that interpretation.",
+    "Official legal text retrieved now is not frozen August bytes; its amendment header predates authorship.",
+    "Draft July7/July8 identity is unproved, but this statutory-definition correction does not depend on that variation.",
+    "No author contact, intent allegation or specialist legal confirmation."
+  ],
+  "recommended_changes": []
+}

@@ -1,0 +1,112 @@
+{
+  "audit_date": "2026-10-25",
+  "reviewer": "independent energy research agent",
+  "review_type": "screening-pool denominator and merge audit; no findings edited",
+  "inputs": [
+    "data/screening-pool.json",
+    "data/screening-pool-summary.json",
+    "research/build_screening_pool.py",
+    "research/pool-audit-root.json",
+    "research/pool-audit-energy.json",
+    "research/pool-audit-tax.json",
+    "research/pool-audit-social.json"
+  ],
+  "disposition": "No required count correction identified. Support 325 individually identified screened units plus an additional unidentified rental-batch minimum of18, giving at least343.",
+  "recomputed": {
+    "individually_identified_screened_units": 325,
+    "by_depth": {
+      "full_submission": 133,
+      "selected_passages": 80,
+      "keyword_triage": 111,
+      "full_text_ocr": 1
+    },
+    "excluded_extracted_only_units": 19,
+    "rental_batch_individually_screened_members": 7,
+    "rental_batch_additional_minimum": 18,
+    "screened_pool_minimum": 343
+  },
+  "checks": [
+    {
+      "topic": "Energy reconciliation",
+      "result": "All64 energy-origin records survive as64 distinct merged units:31 full_submission,22 selected_passages,11 keyword_triage. EnEfG20explicit triage entries plus3 other actually screened documents remain separate; the57-member archive is not counted as57 reads. Repeated round2 screen IDs and two BSW issues are not extra documents."
+    },
+    {
+      "topic": "Crossbranch duplicates",
+      "result": "Inspected multibranch groups, shared URLs, PDF basenames and multiple-issue associations. No merged unit has more than one distinct related_issue_document_id. Normalized extracted-text hash check across264 existing nonshared individual PDF files produced226 nonempty hashes and no identical-text match linking different included merged units. This is an exact-text check, not a proof against every near-duplicate or differently paginated reprint."
+    },
+    {
+      "topic": "Shared bundles and archives",
+      "result": "Shared ministry ZIP URLs are not identity keys. Separate authors sharing StVG, minimum-wage, Tariftreue, NIPT and suicide-assistance bundles remain separate authored units; no bundle-level collapse observed. Four-TSO EnEfG response is one joint document."
+    },
+    {
+      "topic": "Wenger OCR depth",
+      "locator": "research/build_screening_pool.py:10; research/pool-audit-tax.json document tax-screened-ekkehard-wenger-standortfordergesetz-november-2025; research/round2-tax/research-log.json /screened/30",
+      "result": "Separately labelled full_text_ocr is supported by explicit all12-page derived-OCR reading. It is not included among133 full_submission reads and no full visual verification is implied."
+    },
+    {
+      "topic": "Rental lower bound",
+      "locator": "research/round2-root/screening-log.json [0] and [1–8]; research/build_screening_pool.py:63–71",
+      "result": "Log says25 documents triaged but archive has26 PDFs. Seven deeper-read authored documents each byte-match distinct members of that exact ZIP. At most seven already-counted documents can absorb those25 logged screens, so18 additional is a valid lower bound even if one of the seven were the unrecorded26th. Exact additional membership remains unresolved; do not present343 as an exact corpus count."
+    },
+    {
+      "topic": "Depth scope",
+      "result": "Energy full/selected/keyword categories match branch inventory and saved logs; rental gif plus annex remains selected because annex not fully assessed. Original/corrected GAÄD versions and written/oral wolf contributions are explicitly distinct units, not accidental repeats."
+    }
+  ],
+  "rental_member_byte_checks": [
+    {
+      "id": "root-miete-2026-03-06 Stellungnahme+Anlage gif - Steffen Sebastian",
+      "archive_member": "2026-03-06 Stellungnahme+Anlage gif - Steffen Sebastian.pdf",
+      "byte_match": true
+    },
+    {
+      "id": "root-miete-20260306 Stellungnahme IVD zum Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete",
+      "archive_member": "20260306 Stellungnahme IVD zum Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+      "byte_match": true
+    },
+    {
+      "id": "root-miete-260306_BFW_Stellungnahme_Mietrecht",
+      "archive_member": "260306_BFW_Stellungnahme_Mietrecht.pdf",
+      "byte_match": true
+    },
+    {
+      "id": "root-miete-Haus & Grund Deutschland - Stellungnahme zur Änderung des Rechtes der Wohn- und Geschäftsraummiete",
+      "archive_member": "Haus & Grund Deutschland - Stellungnahme zur Änderung des Rechtes der Wohn- und Geschäftsraummiete.pdf",
+      "byte_match": true
+    },
+    {
+      "id": "root-miete-Stellungnahme DMB ÄnderungsG  Wohn- und Geschäftsraummiete",
+      "archive_member": "Stellungnahme DMB ÄnderungsG  Wohn- und Geschäftsraummiete.pdf",
+      "byte_match": true
+    },
+    {
+      "id": "root-miete-Stellungnahme WiE zu RefE Mietrecht II - 26-03-06",
+      "archive_member": "Stellungnahme WiE zu RefE Mietrecht II - 26-03-06.pdf",
+      "byte_match": true
+    },
+    {
+      "id": "root-miete-ZIA_Stellungnahme_RefE_Änderung des Rechts der Wohn- und Geschäftsraummiete",
+      "archive_member": "ZIA_Stellungnahme_RefE_Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+      "byte_match": true
+    }
+  ],
+  "nonblocking_maintenance_notes": [
+    {
+      "locator": "research/build_screening_pool.py:10",
+      "note": "Current OCR conversion is defensible for the sole tax extracted_only row, but a future extracted-only tax download would also be automatically promoted. Restrict to an explicit logged OCR-read flag or this specific ID before adding later inventories."
+    },
+    {
+      "locator": "research/build_screening_pool.py:60",
+      "note": "Merged rows omit date_or_version and energy scope_note even when branch inventories supply them. Retaining these would make exact-version and partial-read provenance easier to inspect; branch files and log pointers currently preserve them, so no current count correction follows."
+    },
+    {
+      "locator": "research/build_screening_pool.py:37",
+      "note": "Query strings are stripped from direct PDF URLs. No observed current conflicting-version collapse, but future query-versioned PDFs should require byte or explicit version checking before union."
+    }
+  ],
+  "limits": [
+    "Audit targets the existing merge and its documentary support, not a new claim-by-claim review of325 submissions.",
+    "No findings, unresolved leads, source quotations or author-response records changed.",
+    "No unsupported estimate of prevalence follows from this targeted, uneven-depth pool."
+  ]
+}

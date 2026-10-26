@@ -1,0 +1,71 @@
+{
+  "reviewer": "root",
+  "checked_at_utc": "2026-10-25T13:05:40.389131+00:00",
+  "originals_read": [
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-012",
+      "pages": [
+        1,
+        2
+      ]
+    }
+  ],
+  "draft_read_extent": "Selected substantive draft pages, with complete operativep4,reasonp12 and visually read costtablesp8–9; generalcontextp1–7/10–11. Duplicate hidden text layer disclosed; no saved cleaned extraction as original.",
+  "checks": [
+    {
+      "id": "short-it-root-accessibility",
+      "title": "Hamburg service-specific eWA accessibility declaration, last checked22April2026",
+      "url": "https://static.hamburg.de/fhh/efa-ods/bfe-ewa.pdf",
+      "read_extent": "Complete3physicalpages through primary indexed PDF; no independent live-service accessibility test",
+      "check": "The actual transaction service, distinct from marketing website, declares partial compliance after April2026 assessment, naming keyboard and screen-reader defects. This supports a statement explicitly attributed to the declaration. Retrieval after response does not prove exact September bytes unchanged or that no fixes happened."
+    },
+    {
+      "id": "short-it-root-dvdv",
+      "title": "FITKO DVDV registration concept eWAPa,30January2024 revision",
+      "url": "https://docs.fitko.de/dvdv/assets/files/DVDV-Eintragungskonzept_eWAPa-3800f96a193ee4aa89a6c0839b0b089b.pdf",
+      "read_extent": "Complete4physicalpages through indexed primary PDF",
+      "check": "Identifies XMeld portal communication and XPassAusweis OSCI profile. Distinct passport/identity/eID authority roles receive chip-update notifications. Open specification and integration roles do not establish historical access to every restricted chip-writing interface for competing vendors."
+    },
+    {
+      "id": "short-it-root-dataport-faq",
+      "title": "Dataport eWA FAQ,Version1.2,12November2025",
+      "url": "https://docs.osi.dataport.de/public/puboddoku/files/525435630/534382054/1/1743090907863/eWA_FAQ.pdf",
+      "read_extent": "Header,selectedphysical3–7,complete22–24,selected28–32; notfull35pages",
+      "check": "Technical operation uses XMeld/OSCI and XPassAusweis, with separate office functions and automatic end-stage identity update. This is not proof every other provider was denied interface access. Provider describes training and rollout infrastructure; it does not quantify the counterfactual effect of subsidy or compel actual user uptake."
+    },
+    {
+      "id": "short-it-root-ozg4-current",
+      "title": "Current OZG §4,after October2026amendment",
+      "url": "https://www.gesetze-im-internet.de/ozg/__4.html",
+      "read_extent": "Complete§4",
+      "check": "Current authority covers specified IT components and preserves Länder deviation under stated suitable-portal-component conditions. Post-author amended consolidation cannot be silently substituted for September law; dated historical reconstruction required. Mandatory default need not mean abolition of all exceptions or face-to-face registration."
+    },
+    {
+      "id": "short-it-root-bmg",
+      "title": "Current BMG §§23a/24",
+      "url": "https://www.gesetze-im-internet.de/bmg/__23a.html",
+      "additional_urls": [
+        "https://www.gesetze-im-internet.de/bmg/__24.html"
+      ],
+      "read_extent": "Completebothsections",
+      "check": "Electronic registration and confirmation structure coexist with written confirmation for ordinary registrations. Exact historical clause identity must be checked separately; no end-to-end nationwide implementation or quantitative benefit inferred from statutory permission."
+    }
+  ],
+  "limits": [
+    "Root checks supplement independently frozen researchers and peers.",
+    "No author contact, no independent live-service test, no entire public collections stored."
+  ]
+}

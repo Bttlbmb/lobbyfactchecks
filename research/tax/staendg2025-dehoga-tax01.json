@@ -1,0 +1,169 @@
+{
+  "id": "staendg2025-dehoga-tax01",
+  "law_id": "steueraenderungsgesetz-2025",
+  "document_id": "dehoga-staendg-2025-bt",
+  "status": "ai_screened",
+  "finding_state": "rejected_after_review",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Tax changes including a permanent 7% VAT rate for restaurant food.",
+    "they_want": "Uniform 7% VAT on food, including catering.",
+    "they_claim": "Adding two standing tables automatically makes catered food subject to standard VAT.",
+    "the_problem": "Initial counterevidence may not apply to mobile catering; a BFH ruling expressly addresses two supplied standing tables."
+  },
+  "claim_quote": {
+    "original": "Dann unterliegt automatisch der ganze Umsatz dem vollen Steuersatz.",
+    "language": "de",
+    "translation_en": "Translation: Then the entire turnover is automatically subject to the full tax rate.",
+    "locator": {
+      "pdf_page": 10,
+      "printed_page": 10,
+      "section": "IV. Beseitigung von Abgrenzungsschwierigkeiten",
+      "paragraph": "Paragraph beginning Die steuerlichen Vorgaben; immediately after two standing tables are supplied"
+    },
+    "underline": "automatisch der ganze Umsatz"
+  },
+  "request_quote": {
+    "original": "Sieben Prozent Mehrwertsteuer auf alle Speisen.",
+    "language": "de",
+    "translation_en": "Translation: Seven percent VAT on all food.",
+    "locator": {
+      "pdf_page": 11,
+      "printed_page": 11,
+      "section": "IV, concluding paragraph"
+    }
+  },
+  "counter_quote": {
+    "original": "nicht zu berücksichtigen ist daher die bloße Bereitstellung behelfsmäßiger Verzehrvorrichtungen, wie z. B. Verzehrtheken ohne Sitzgelegenheit oder Stehtische.",
+    "source_id": "bmf-usth2024-3-6",
+    "locator": {
+      "section": "UStAE 3.6 Absatz 4 Satz 10"
+    },
+    "retrieved_at": "2026-10-24",
+    "language": "de",
+    "translation_en": "Translation: merely providing makeshift eating facilities, such as counters without seating or standing tables, is therefore not to be taken into account."
+  },
+  "correction": "No error established. BFH XI R 6/08 treated party-service food plus two supplied standing tables as standard-rate services, distinguishing delivery and return labour from merely providing tables at a snack stand. The 2022 UStAE wording preserves the personnel-effort distinction.",
+  "effect": "The proposed criticism cannot presently weaken the DEHOGA argument; source context may support its example.",
+  "limits": "The 2011 ruling concerns earlier tax years and later EU/administrative rules require context, but no evidence was found that the relevant mobile-catering distinction had been displaced by November 2025. The bare-handbook counterquotation was insufficient.",
+  "materiality_explanation": "Potentially minor if a misstatement were established, but source context currently supports the author. Do not count as a demonstrated error.",
+  "confidence": {
+    "text_source_mismatch": "not_established_after_adversarial_review",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_digital_independent_ai",
+        "date": "2026-10-24",
+        "review_file": "research/reviews/social-reviews-dehoga.json",
+        "outcome": "counter_context_supports_rejection",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "first recorded; original source page visually verified; pending independent AI review",
+      "by": "tax_consultations_ai"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Downgraded after independent AI challenge found directly relevant mobile-catering ruling; no proven error remains",
+      "by": "tax_consultations_ai"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Rejected after adversarial primary court evidence supports the author example; no concrete outstanding factual question",
+      "by": "tax_consultations_ai"
+    }
+  ],
+  "context_checked": "Independent reviewer identified BFH XI R 6/08, 23 November 2011, reasons II.3(a)(aa), involving exactly two tables, and II.3(b)(bb), distinguishing delivery and return personnel effort. I independently re-read the full ruling; the original counterevidence had been read too broadly.",
+  "draft": {
+    "title": "Government bill Steueränderungsgesetz 2025, BT 21/1974",
+    "version_date": "2025-10-06",
+    "submission_date": "2025-11-06",
+    "hearing_date": "2025-11-10",
+    "source_id": "staendg2025-bt211974",
+    "relevant_provision": "Article 4 number 2, proposed § 12(2) number 15 UStG, PDF page 11. The standing-table example describes pre-reform law in 2025, not the rate after 1 January 2026.",
+    "process_status_at_screen": "Completed; Bundestag passed 4 December 2025, Bundesrat 19 December 2025, published 23 December 2025."
+  },
+  "sources": [
+    {
+      "id": "dehoga-staendg2025",
+      "title": "DEHOGA submission to Bundestag Finance Committee,6 November 2025",
+      "url": "https://www.bundestag.de/resource/blob/1123096/05-DEHOGA.pdf",
+      "local_file": "research/tax/dehoga-staendg2025-bt.pdf",
+      "retrieved_at": "2026-10-24",
+      "visual_verification": "research/tax/dehoga-staendg2025-p10.png"
+    },
+    {
+      "id": "staendg2025-hearing",
+      "title": "Official hearing dossier,10 November 2025",
+      "url": "https://www.bundestag.de/ausschuesse/a07_finanzen/wp21_a07_Anhoerungen/1113288-1113288",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "staendg2025-bt211974",
+      "title": "Government bill BT 21/1974,6 October 2025",
+      "url": "https://dserver.bundestag.de/btd/21/019/2101974.pdf",
+      "local_file": "research/tax/staendg2025-bt211974.pdf",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "bmf-usth2024-3-6",
+      "title": "Official VAT Handbook 2024, UStAE 3.6",
+      "url": "https://ao.bundesfinanzministerium.de/usth/2024/A-Umsatzsteuergesetz/I-Steuergegenstand-und-Geltungsbereich/Paragraf-3/inhalt.html",
+      "retrieved_at": "2026-10-24",
+      "locator": {
+        "section": "UStAE 3.6(4), sentence 10; (7), Examples 1 and 2"
+      },
+      "access": "Full relevant official text available in indexed search; direct access 503. Pre-submission 2024 version confirmed."
+    },
+    {
+      "id": "bmf-2022-3-6-amendment",
+      "title": "BMF 20 December 2022, UStAE editorial and case law amendments",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Anwendungserlass/2022-12-20-Umsatzsteuer-einarbeitung-rechtsprechung-redaktionelle-aenderungen.pdf?__blob=publicationFile&v=1",
+      "retrieved_at": "2026-10-24",
+      "locator": {
+        "pdf_page": 3,
+        "section": "7.a.bb"
+      },
+      "access": "Indexed primary PDF text independently supplies sentence 10; direct download 503."
+    },
+    {
+      "id": "bmf-ustae2025",
+      "title": "Consolidated UStAE,19 December 2025",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Anwendungserlass/Umsatzsteuer-Anwendungserlass-31-12-2025.pdf?__blob=publicationFile&v=2",
+      "retrieved_at": "2026-10-24",
+      "locator": {
+        "pdf_page": 96,
+        "section": "UStAE 3.6(4)sentence 10"
+      },
+      "note": "Later corroboration only, not substituted for the pre-submission 2024 version. Same standing-table rule."
+    },
+    {
+      "id": "dehoga-register",
+      "title": "DEHOGA Lobbyregister identity",
+      "registration_number": "R 001044",
+      "url": "https://www.lobbyregister.bundestag.de/suche/R001044",
+      "retrieved_at": "2026-10-24",
+      "note": "Number printed on submission cover; external detail check pending."
+    },
+    {
+      "id": "bfh-partyservice-2011",
+      "title": "BFH XI R 6/08,23 November 2011",
+      "url": "https://www.bundesfinanzhof.de/de/entscheidung/entscheidungen-online/detail/STRE201210014/",
+      "retrieved_at": "2026-10-24",
+      "locator": {
+        "section": "ReasonsII.3(a)(aa) andII.3(b)(bb)"
+      },
+      "note": "Adversarial primary evidence may directly support DEHOGA example.19% vs 7% application in 2025 must not be inferred solely from static snack-stand examples."
+    }
+  ],
+  "direction_explanation": "No error is established after review. The retained historical screening field does not count this rejected issue as evidence favourable to the author’s request."
+}

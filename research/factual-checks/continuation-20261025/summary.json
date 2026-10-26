@@ -1,0 +1,75 @@
+{
+  "id": "factual-check-continuation-20261025",
+  "status": "complete",
+  "built_at_utc": "2026-10-25T12:02:55.446607+00:00",
+  "started_at_utc": "2026-10-25T10:53:03.957106+00:00",
+  "batches": [
+    {
+      "batch": "driving-2026",
+      "title": "Driving-instruction reform hearing",
+      "documents": 6,
+      "pdf_pages": 31,
+      "claims": 124,
+      "outcomes": {
+        "supported": 73,
+        "unresolved": 51
+      },
+      "initial_peer_reviews": 120,
+      "main_issue_admissions": [],
+      "report": "research/factual-checks/driving-2026/report.html",
+      "ledger": "research/factual-checks/driving-2026/claim-ledger.json"
+    },
+    {
+      "batch": "fruehstart-2026",
+      "title": "Frühstartrente hearing",
+      "documents": 7,
+      "pdf_pages": 50,
+      "claims": 143,
+      "outcomes": {
+        "supported": 98,
+        "unresolved": 44,
+        "overstated": 1
+      },
+      "initial_peer_reviews": 140,
+      "main_issue_admissions": [],
+      "report": "research/factual-checks/fruehstart-2026/report.html",
+      "ledger": "research/factual-checks/fruehstart-2026/claim-ledger.json"
+    },
+    {
+      "batch": "biostoffv-2026",
+      "title": "BioStoffV amendment",
+      "documents": 9,
+      "pdf_pages": 39,
+      "claims": 134,
+      "outcomes": {
+        "supported": 60,
+        "unresolved": 74
+      },
+      "initial_peer_reviews": 130,
+      "main_issue_admissions": [],
+      "report": "research/factual-checks/biostoffv-2026/report.html",
+      "ledger": "research/factual-checks/biostoffv-2026/claim-ledger.json"
+    }
+  ],
+  "documents": 22,
+  "pdf_pages": 120,
+  "claims": 401,
+  "outcomes": {
+    "supported": 231,
+    "unresolved": 169,
+    "overstated": 1
+  },
+  "initial_peer_reviews": 390,
+  "main_issue_admissions": [],
+  "new_reading_units": 0,
+  "limits": [
+    "21 clearly external responses plus one DGUV reply whose external boundary remains unresolved; 22 published PDFs assessed without a national denominator.",
+    "Finite, previously examined response sets; not a representative sample or national denominator.",
+    "Physical PDF pages include committee covers where present.",
+    "Supported concerns the recorded proposition; unresolved is neither a finding nor confirmation.",
+    "Every initial assessment received an independent AI peer review. Root adjudicated challenges and omissions.",
+    "The inventories target material testable premises; they do not certify every factual assertion.",
+    "No author contact or human specialist confirmation."
+  ],
+  "report_note": "This pass prioritised short expert and association statements: 20 of 22 targets are eight pages or fewer. No new error finding was admitted. The one overstatement rechecks an existing finding and is not counted again."
+}

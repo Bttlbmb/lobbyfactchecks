@@ -1,0 +1,109 @@
+{
+  "id": "staendg2025-langenmayr-incidence-root-r6-03",
+  "law_id": "staendg-2025",
+  "document_id": "langenmayr-gastgewerbe-20251002",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Reducing VAT on restaurant meals and making other tax changes.",
+    "they_want": "Reject the VAT cut as a way to support restaurants in economically weak areas.",
+    "they_claim": "About 80% of relief from France’s 2009 restaurant VAT cut stayed with owners.",
+    "the_problem": "The cited French price evidence does not identify that owner share. A related incidence study gives a different estimate, but its caveats do not rule out 80%; the author may be making its own inference."
+  },
+  "claim_quote": {
+    "original": "Etwa 80 Prozent der Entlastung verblieb bei den Eigentümern.",
+    "language": "de",
+    "translation_en": "Translation: About 80 percent of the relief remained with the owners.",
+    "locator": {
+      "pdf_page": 2,
+      "paragraph": "Paragraph beginning Wie stark die Steuersenkung; final sentence of French-reform paragraph."
+    },
+    "underline": "80 Prozent"
+  },
+  "request_quote": {
+    "original": "nicht zielführend ist, um Gastronomie in strukturschwachen Gebieten zu fördern.",
+    "language": "de",
+    "translation_en": "Translation: not effective for supporting restaurants in structurally weak areas.",
+    "locator": {
+      "pdf_page": 3,
+      "paragraph": "Concluding paragraph beginning Zusammenfassend."
+    }
+  },
+  "counter_quote": {
+    "original": "we estimate\nthat 55.7 percent of the VAT cut went to sit-down restaurant owners.",
+    "language": "en",
+    "source_id": "benzarti-carloni-aea-manuscript-r6",
+    "locator": {
+      "pdf_page": 19,
+      "section": "VI.B Results, Long-Run Incidence, final sentence"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "If the sentence is intended as a description of the cited study’s allocation estimate, distinguish the total non-consumer side from owner gains. The 2020 JPE paper analyses price, profit and markup asymmetries; its French subsection specifically studies price patterns. The related 2019 four-group analysis estimates owners at 57.7%, 62.4% and 55.7% after 6, 18 and 30 months, with workers and suppliers receiving separate shares. These are study estimates and stated lower-bound interpretations, not a correction establishing the actual owner share.",
+  "effect": "Not an admitted error. A demonstrated allocation misdescription would weaken the particular owner-concentration argument; it would not overturn low consumer pass-through, owners being the largest beneficiaries, or the critique of untargeted sector support.",
+  "limits": "The2019study expressly warns it may underestimate owner gains; no claim actual80%is statistically ruled out. This is a potential misdescription of what cited research establishes, not a refutation of an uncertain economic estimate or forecast for Germany. The author may have used owners loosely for the broader producer side; that reading would not accurately distinguish workers and suppliers but is preserved. No intent inferred.",
+  "materiality_explanation": "Potentially minor if established: a sizeable allocation difference concerns a supporting distributional argument while the main limited-pass-through and targeting arguments survive. No materiality claim establishes that an error exists.",
+  "direction_explanation": "True narrowly if the source-description finding is admitted: concentrating80%in owners strengthens the objection to this form of support.",
+  "confidence": {
+    "text_source_mismatch": "unresolved: own residual inference versus literal source attribution; lower-bound caveat prevents actual80%refutation",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "version": "Referentenentwurf Steueränderungsgesetz2025,4September2025,09:21; expressly named on author1.",
+    "relevant_provision": "Permanent7%VAT on restaurant meals from1January2026, beverages excluded.",
+    "version_limit": "Original official location authenticated by contemporary DStV hyperlink but current retrieval404. Exact dated37-page ministry draft recovered from Beck mirror; not an author-transmitted copy or byte-verified historical official download.",
+    "source_id": "staendg2025-refe-20250904-r6",
+    "read_extent": "Root and independent tax reviewer read complete cover1, operativeArticle4physical7, rationale31 and commencement explanation37."
+  },
+  "submission_source_id": "langenmayr-gastgewerbe-20251002-r6",
+  "source_ids": [
+    "langenmayr-gastgewerbe-20251002-r6",
+    "benzarti2020-jpe-r6",
+    "benzarti-carloni-aea-manuscript-r6",
+    "benzarti-carloni-aea-published-abstract-r6",
+    "staendg2025-refe-20250904-r6"
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "tax_consultations",
+        "path": "research/round6-reviews/tax-reviews-langenmayr-incidence.json",
+        "date": "2026-10-25",
+        "disposition": "Supports narrow provisional minor/true as source-description mismatch; excludes actual80percent upper-bound allegation. Root threshold adjudication pending."
+      },
+      {
+        "reviewer": "social_round2",
+        "path": "research/round6-reviews/social-reviews-langenmayr-incidence.json",
+        "date": "2026-10-25",
+        "disposition": "Recommends unresolved: attribution ambiguous, lower-bound caveat does not exclude80%, missing support alone is insufficient."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as unresolved pending exact draft retrieval and independent challenge; no actual80percent upper-bound allegation.",
+      "by": "root_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Exact dated draft recovered and independently checked. Peer supports narrow source-description finding, but root retains unresolved pending whether wording attributes80percent to study or offers its own uncertain residual inference.",
+      "by": "root_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Third independent challenge and root adjudication retain unresolved lead, not an error count. Both differing AI assessments preserved.",
+      "by": "root_ai_screen"
+    }
+  ],
+  "verification": {
+    "full_submission_read": true,
+    "author_physical_pages": 3,
+    "primary_read_extent": "2020JPE complete physical1–4 and23–25, targeted full-document owner/France term search;2019AEA-hosted manuscript full2–3,17–19 and abstract; not full manuscripts.",
+    "source_storage": "Working downloads in disposable cache where possible. Retain exact original response and primary excerpts only if admitted as an active validation/review dependency."
+  }
+}

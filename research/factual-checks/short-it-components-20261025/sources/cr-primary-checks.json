@@ -1,0 +1,143 @@
+{
+  "reviewer": "c",
+  "created_at_utc": "2026-10-25T22:19:39.853313+00:00",
+  "reviewed_file": "research/factual-checks/short-it-components-20261025/agents/claims-b.json",
+  "reviewed_sha256": "3efb0d75c363fa9525f8424f57793875d5cdfab906ffddfd6c9f9eb479d1a5f7",
+  "checks": [
+    {
+      "id": "short-it-cr-satzung",
+      "title": "DBSV statutes, June 2022 version",
+      "url": "https://www.dbsv.org/satzung-dbsv.html",
+      "retrieved_at": "2026-10-25T22:17:20.472083+00:00",
+      "read_extent": "Header; § 2(2)–(5), § 4 membership context",
+      "check_result": "Broad constituency includes blindness/visual impairment, disease that can lead to impairment or blindness, and additional disabilities. Interests are not identical to member numbers.",
+      "limits": "The organisation’s own rules are primary evidence of its remit, not independent epidemiological evidence.",
+      "archive_type": "Authored concise primary-check note, not original source bytes",
+      "usable_as_evidence": true,
+      "temporary_source_metadata": {
+        "id": "cr-satzung",
+        "url": "https://www.dbsv.org/satzung-dbsv.html",
+        "final_url": "https://www.dbsv.org/satzung-dbsv.html",
+        "retrieved_at": "2026-10-25T22:17:20.472083+00:00",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "sha256": "a42fa996f56f81357759c766f0e40d6be3e54e5ea67a822812e480d7f87b3531",
+        "bytes": 288785,
+        "pdf_magic": false
+      }
+    },
+    {
+      "id": "short-it-cr-bitv",
+      "title": "Official BITV 2.0, last amended 24 October 2023",
+      "url": "https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html",
+      "retrieved_at": "2026-10-25T22:17:19.055999+00:00",
+      "read_extent": "Header; complete §§ 1–4, 7",
+      "check_result": "Scope, perceivable/operable/understandable/robust standards and declaration requirements verified. Declaration must specify compatibility and assessment method; it is updated yearly or on material change.",
+      "limits": "Federal regulation is not silently equated with every Länder implementing rule. Existing duties do not make a request for an explicit ordinance reference erroneous.",
+      "archive_type": "Authored concise primary-check note, not original source bytes",
+      "usable_as_evidence": true,
+      "temporary_source_metadata": {
+        "id": "cr-bitv",
+        "url": "https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html",
+        "final_url": "https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html",
+        "retrieved_at": "2026-10-25T22:17:19.055999+00:00",
+        "http_status": 200,
+        "content_type": "text/html",
+        "sha256": "7b50da2f9447edf42c66d210e12c90990647582b5adb13e95d3aaec101c3c893",
+        "bytes": 36808,
+        "pdf_magic": false
+      }
+    },
+    {
+      "id": "short-it-cr-whitebook",
+      "title": "DOG Whitebook 2023",
+      "url": "https://dog.org/wp-content/uploads/sites/11/2023/09/DOG-Weissbuch-2023-1.pdf",
+      "retrieved_at": "2026-10-25T22:17:21.548643+00:00",
+      "read_extent": "Physical pp. 12–13 (printed 10–11), relevant AMD methods/table; reference entries 8–12 on physical p. 59",
+      "check_result": "2017 extrapolations give 6,981,000 early and 488,000 late AMD, including early disease without current subjective visual impairment. Age bounds, sampling years and classification differences are explicit.",
+      "limits": "Only relevant passages of the 72-page background book read. This supports a historical model scale, not an independently enumerated composite September 2026 unique-person count; overlapping disorders must not be added.",
+      "archive_type": "Authored concise primary-check note, not original source bytes",
+      "usable_as_evidence": true,
+      "temporary_source_metadata": {
+        "id": "cr-whitebook",
+        "url": "https://dog.org/wp-content/uploads/sites/11/2023/09/DOG-Weissbuch-2023-1.pdf",
+        "final_url": "https://dog.org/wp-content/uploads/sites/11/2023/09/DOG-Weissbuch-2023-1.pdf",
+        "retrieved_at": "2026-10-25T22:17:21.548643+00:00",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "sha256": "2b6674ffb4d79f04d3ccd51253087954c0e6df8bc61c1bf16f9d3ce23bb73fdb",
+        "bytes": 2752437,
+        "pdf_magic": true
+      }
+    },
+    {
+      "id": "short-it-cr-wds-method",
+      "title": "Woche des Sehens / original model authors: German eye-disease estimates",
+      "url": "https://www.woche-des-sehens.de/infothek/zahlen-und-fakten/augenkrankheiten-zahlen-fuer-deutschland/",
+      "redirect_url": "https://www.woche-des-sehens.de/augenkrankheiten-zahlen-deutschland/",
+      "retrieved_at": "2026-10-25T22:19:39.853313+00:00",
+      "read_extent": "Complete substantive counts, methods, definitions, sources and author/date sections via official web-tool extraction",
+      "check_result": "Original authors describe 2017 population extrapolation using age-specific international/meta-analytic data calibrated against regional GHS findings; stage definitions vary and early disease counts can include no present impairment.",
+      "limits": "Direct current route returned 404, but the historical original route yielded indexed primary content. Published October 2018, updated September 2020; DBSV coauthor means model provenance, not independent confirmation of the 2026 statement. No original-byte hash claimed for extraction.",
+      "archive_type": "Authored concise primary-check note from tool extraction",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-cr-korb2014",
+      "title": "Korb et al., primary GHS AMD study, 2014",
+      "url": "https://link.springer.com/article/10.1007/s00417-014-2591-9",
+      "retrieved_at": "2026-10-25T22:19:39.853313+00:00",
+      "read_extent": "Publisher metadata and complete accessible abstract: background, methods, results and conclusions",
+      "check_result": "A regional single-centre population cohort aged 35–74; 4,340 photographs independently graded by two ophthalmologists; 11.9 percent early and 0.2 percent late AMD. Sample and age limits differ from national disease-at-risk constituency.",
+      "limits": "Full body is subscription-restricted and was not read. PubMed web/shell returned an empty/challenge-like response and is not affirmative evidence; publisher abstract supplies the actual completed check.",
+      "archive_type": "Authored concise primary-check note from tool extraction",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-cr-schuster2019",
+      "title": "Schuster et al., Ophthalmology 2019—where do we stand?",
+      "url": "https://link.springer.com/article/10.1007/s00347-019-0894-2",
+      "retrieved_at": "2026-10-25T22:19:39.853313+00:00",
+      "read_extent": "Publisher metadata, accessible German/English abstract and references 8–10, 25",
+      "check_result": "Identifies limited German population data and changing age structure; citation 25 points to the original extrapolation authors and definitions.",
+      "limits": "Full text subscription-restricted; not presented as a complete independent recalculation of every model step or a current national census.",
+      "archive_type": "Authored concise primary-check note from tool extraction",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-cr-dog2025",
+      "title": "DOG September 2025 primary clinical-society statement",
+      "url": "https://dog.org/wp-content/uploads/sites/11/2025/09/DOG-PM-Kongress_AMD_und-Katarakt_September_2025_F.pdf",
+      "retrieved_at": "2026-10-25T22:19:39.853313+00:00",
+      "read_extent": "Physical p. 1, header and prevalence paragraph",
+      "check_result": "Roughly seven million AMD cases are described across disease forms; cataract can coexist, so disease counts are not simply additive.",
+      "limits": "A broad rounded clinical estimate supports plausibility, not a deduplicated exact September 2026 threshold or blindness-only denominator.",
+      "archive_type": "Authored concise primary-check note from tool extraction",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-cr-wcag21",
+      "title": "W3C WCAG 2.1, recommendation dated 6 May 2025",
+      "url": "https://www.w3.org/TR/2025/REC-WCAG21-20250506/",
+      "retrieved_at": "2026-10-25T22:19:39.853313+00:00",
+      "read_extent": "Header/status; success criteria 2.1.1 Keyboard and 3.3.2 Labels or Instructions",
+      "check_result": "Required keyboard operation and accessible input instructions substantiate the technical nature of the declaration’s keyboard/label defects.",
+      "limits": "Selected normative criteria only, not entire standard or fresh live-service testing. Legal conformity also depends on applicable harmonised standards and implementing rules; WCAG alone is not a complete all-Länder legal audit.",
+      "archive_type": "Authored concise primary-check note from tool extraction",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-cr-declaration",
+      "title": "Hamburg eWA transaction-service accessibility declaration",
+      "url": "https://static.hamburg.de/fhh/efa-ods/bfe-ewa.pdf",
+      "retrieved_at": "2026-10-25T22:19:39.853313+00:00",
+      "source_sha256": "0066c4dba36cfc8c17bbf8b6a370560890589812c61e6bf227cee8bda2235db7",
+      "read_extent": "All three original physical pages independently read from verified temporary original PDF",
+      "check_result": "Covers actual serviceportal EWA entry, not merely marketing site. April 2026 assessment and 22 April review state partial compatibility; keyboard controls, screen-reader labels/structure and PDF tagging defects are concrete. Planned repairs are not completed compliance.",
+      "limits": "Provider declaration supports the explicitly attributed claim. No independent September immutable capture, current live retest or claim all blind users cannot use any feature. Original temporary PDF supplied by B was independently read; no duplicate full archive retained.",
+      "archive_type": "Authored concise primary-check note",
+      "usable_as_evidence": true
+    }
+  ],
+  "storage_policy": "Concise authored source checks retained. New public downloads are temporary and removed only after counterpart/root follow-up. No copied full source archive."
+}

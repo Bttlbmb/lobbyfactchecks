@@ -1,0 +1,1886 @@
+{
+  "id": "unresolved-followup-20261026-root-adjudication",
+  "status": "complete",
+  "completed_at_utc": "2026-10-26T00:45:24.342701+00:00",
+  "reviewer": "root",
+  "decisions": [
+    {
+      "claim_id": "short-a-007",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "supported",
+      "result": "supported",
+      "resolution_basis": "new_primary_evidence_and_reassessed_price_precision",
+      "explanation": "The independent IQWi G assessment published on 1 September records GKV costs of EUR 487.27 and EUR 427.56 for the once-per-season doses and expressly validates their Lauer price basis. The difference is EUR 59.71, or 13.965% of nirsevimab, which supports the respondent’s rounded EUR 60 and 14% comparison. A normal public-price comparison need not establish each insurer’s confidential transaction cost. This resolves the earlier missing matched public pair; it does not assert that an exact 3 September database snapshot was recovered.",
+      "limits": "Observed prices are the 1 June launch and 15 May comparator listings, appraised on 25 August and published on 1 September. No intervening price-change record was identified. IQWi G labels these GKV costs but does not itself detail the rebate calculation in table footnotes. Confidential rebates and hospital acquisition prices remain outside the claim’s ordinary public benchmark.",
+      "resolution_blocker": null,
+      "next_step": "Resolved at the stated scope. Reopen if genuinely different dated evidence or a broader proposition is assessed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-iqwig",
+          "locator": "Physical 67–70, II 2.1–II 2.4/table 3; physical 69 visually verified",
+          "summary": "Two validated GKV cost values and once-per-season consumption reproduce both rounded assertions."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/root-primary-checks.json",
+          "source_id": "follow-root-iqwig-prices",
+          "locator": "Physical67–70,table3; publication1September; complete AOK original",
+          "summary": "Root independent source/context check; read extent and limitations retained in saved note."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "accept_scoped_resolution",
+      "root_review": "Root independently reproduced EUR59.71/13.9653% from the public GKV table published before the author. Support the ordinary rounded comparison; no same-day confidential transaction audit claimed."
+    },
+    {
+      "claim_id": "short-a-008",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "partial_new_evidence_and_reassessed_model_standard",
+      "explanation": "The new price pair removes the price-gap access problem. EUR 36 million divided by the rounded EUR 60 implies about 600, 000 doses; at the exact EUR 59.71 gap, 600, 000 doses cost EUR 35.826 million. A reasonable historical illustration is 677, 117 births in 2024 times the dossier’s 89.11% overall GKV proxy: about 603, 578 infants and EUR 36.04 million. The newer 2025 births with that proxy yield about 583, 000 and EUR 34.8 million. This makes the stated scale plausible, but does not recover the intended cohort year, infant insurance share or scenario inputs. Actual uptake is not required for this expressly hypothetical full-cohort model.",
+      "limits": "No numerical-error finding: the cohort and figures may be deliberately rounded. IQWi G’s secondary-prophylaxis subgroup must not replace a universal cohort, and its overall GKV share is only a proxy for newborns.",
+      "resolution_blocker": "The intended cohort and rounding convention remain unspecified.",
+      "next_step": "Resolve if a dated public AOK calculation or infant-specific cohort definition becomes available; otherwise preserve as plausible but unaudited model, without requesting actual uptake data.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-iqwig",
+          "locator": "Physical 61–66 and 67–70",
+          "summary": "Price gap verified; birth projection and overall GKV proxy are explicitly uncertain and subgroup-specific."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-destatis",
+          "locator": "Release 146, 28 April 2026 birth totals",
+          "summary": "Checks reasonable annual birth scale without pretending it is AOK’s recovered model."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction. The original A evidence already correctly separates April provisional from July final figures. Peer B independently checked the July table; its frozen supplemental identity label inherits the April release title although its URL/locator identify the July table. That duplicate display citation is omitted here to avoid mislabelling; the full independent peer/source record remains linked and preserved."
+    },
+    {
+      "claim_id": "short-a-028",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "new_primary_process_evidence_retains_frequency_gap",
+      "explanation": "AOK PLUS independently describes frequent newborn treatment-certificate requests, and provider guidance confirms a post-birth paperwork process. These observations concern missing documentation. The July 2026 substitute procedure still requires the insurer and confirmation that cover exists. They neither refute genuinely unclear entitlement nor establish that such entitlement uncertainty is frequent at RSV prophylaxis time.",
+      "limits": "Missing card, missing formal proof and legally unclear eligibility are different states. No national or sufficiently defined clinical frequency was recovered.",
+      "resolution_blocker": "No dated primary denominator for genuinely unresolved eligibility at prophylaxis time.",
+      "next_step": "An existing published insurer or clinic process audit distinguishing entitlement from documentation could settle this; do not repeat general card-delay searches.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-aok-plus",
+          "locator": "Physical 7 newborn subsection",
+          "summary": "Frequent requests for interim documentation, not a frequency of undecided entitlement."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-annex",
+          "locator": "Physical 5–7, clauses 2.1–2.9",
+          "summary": "Under-18 fallback requires insurance information and confirmation of existing cover."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-hospital",
+          "locator": "Physical 13",
+          "summary": "Ordinary card production involves post-birth documents and interim treatment."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-a-029",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "new_primary_process_evidence_with_precise_remaining_scope",
+      "explanation": "The birth-hospital guidance expects about two weeks from returned documents to receipt of the child’s card, after the earlier notification and birth-certificate steps. That supports the plausibility of several weeks in the ordinary card process. AOK PLUS also reports frequent certificate requests. However, an alternative valid proof or substitute procedure may precede the physical card, so these sources do not fully establish the actual stronger proposition that insurance proof often takes several weeks.",
+      "limits": "No error follows from the gap. Nor is a precise national delay distribution required to recognise ordinary multiweek card production; the unresolved part is proof rather than card timing.",
+      "resolution_blocker": "No source establishes time to every valid form of proof rather than physical card.",
+      "next_step": "Resolve only with an existing dated insurer service/process publication measuring proof issuance, or qualify the record as card-delay evidence rather than silently changing the original word.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-hospital",
+          "locator": "Physical 13 insurance instructions",
+          "summary": "Two weeks after paperwork for card, with interim doctor visits explicitly allowed."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-aok-plus",
+          "locator": "Physical 7",
+          "summary": "Frequent requests for an interim treatment certificate."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-annex",
+          "locator": "Physical 6–7",
+          "summary": "Existing substitute proof route and electronic certificate alternative."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-a-030",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "methodological_reassessment_of_conditional_practice_prediction",
+      "explanation": "The conditional cashflow route is coherent: if neither entitlement nor the confirmation needed for substitute billing can be established, the contract permits treatment without proof and prescriptions marked accordingly. This is useful support for the described risk; it is not a legal requirement that all practices prescribe privately. Nor does treatment-fee reimbursement by quarter end establish medicine reimbursement in every later case. The original future practice statement remains a conditional prediction rather than an observed uptake result.",
+      "limits": "No practice-frequency estimate is demanded for the mechanism itself. Its unresolved components are the predicted practice response and later medicine reimbursement, not the existence of a possible private route.",
+      "resolution_blocker": "Primary procedure establishes possibility, not all predicted responses and reimbursement outcomes.",
+      "next_step": "An already published practice/insurer implementation audit could resolve the actual response; absent that, retain conditional forecast uncertainty without treating it as factual error.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-annex",
+          "locator": "Physical 5–7, especially 2.1 and 2.5–2.7",
+          "summary": "Possible private route, conditional child substitute procedure and limited treatment-fee refund rule."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-aok-plus",
+          "locator": "Physical 7",
+          "summary": "Actual interim billing route exists when statutory cover can be confirmed."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-a-031",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_uptake_check",
+      "explanation": "The German Munich study documents actual first-season implementation and substantial but incomplete uptake, without testing the proposed private-prepayment mechanism or its social frequency. A US multi-practice study finds social and insurance associations but explicitly says the reasons are unclear. These findings support the plausibility of an equity concern, not the German causal prediction that disadvantaged children will often miss timely prophylaxis because parents cannot prepay.",
+      "limits": "Foreign health financing, observational association, parent acceptance and German insurance paperwork are not interchangeable. No negative finding is made about a future risk.",
+      "resolution_blocker": "No German primary evidence isolates the claimed timing mechanism or supports “often”.",
+      "next_step": "Use a future existing German uptake analysis only if it measures insurance clarification, prepayment and socioeconomic timing together; do not infer this cause from overall incomplete uptake.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-lmu",
+          "locator": "Published 5 February 2026 abstract, Munich birth cohort",
+          "summary": "Actual German uptake, not a test of this mechanism."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-us-uptake",
+          "locator": "2025 primary results/discussion",
+          "summary": "Associations with public insurance and deprivation; causes unresolved and country differs."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-annex",
+          "locator": "Physical 5–7",
+          "summary": "Alternative billing may mitigate missing-card cases but does not dispose of genuinely unclear eligibility."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-a-032",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "reassessed_reasonable_denominator_without_compound_weakening",
+      "explanation": "The charitable respiratory-disease denominator is medically natural in context, and RKI supports the leading lower-respiratory hospitalisation burden. It is therefore inappropriate to manufacture an all-cause comparison including birth admissions or prematurity merely to find an error. Nevertheless, the respondent joins hospitalisation, ICU treatment and RSV-related deaths in a single leading-cause assertion. The recovered primary guide does not independently establish the ICU ranking or explain the death-ranking denominator, so the entire compound is not resolved by its supported hospitalisation fragment.",
+      "limits": "No contradiction or severity finding. This is an imprecise compound ranking with a well-supported clinical burden, not a claim that RSV causes most all-cause infant deaths.",
+      "resolution_blocker": "ICU comparison population and death-ranking meaning remain insufficiently defined.",
+      "next_step": "If a dated primary nationwide respiratory ICU comparison is recovered, reassess that fragment; retain the full compound unresolved unless all material parts are addressed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-rki-burden",
+          "locator": "Vorkommen and update-history paragraphs",
+          "summary": "Supports respiratory illness/hospital admission ranking, not a complete national ICU/death ranking."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-a-048",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "supported",
+      "result": "supported",
+      "resolution_basis": "new_primary_evidence_and_reassessed_price_precision",
+      "explanation": "IQWi G’s assessment published two days before the GKV response validates public GKV costs of EUR 487.27 for clesrovimab versus EUR 427.56 for nirsevimab. The response’s simpler direction-of-cost claim is supported on that ordinary public benchmark. Requiring proof of every confidential insurer rebate or an immutable same-day database printout would exceed this modest proposition.",
+      "limits": "Listing dates are 1 June and 15 May 2026, assessed 25 August. Exact 3 September transaction prices and confidential agreements were not recovered; do not describe the pair as those.",
+      "resolution_blocker": null,
+      "next_step": "Resolved at the stated scope. Reopen if genuinely different dated evidence or a broader proposition is assessed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-iqwig",
+          "locator": "Physical 67–70, II 2.2 andtable 3",
+          "summary": "Validated comparable first-season GKV cost pair supports higher cost direction."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/root-primary-checks.json",
+          "source_id": "follow-root-iqwig-prices",
+          "locator": "Physical67–70,table3; complete GKV original",
+          "summary": "Root independent source/context check; read extent and limitations retained in saved note."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "accept_scoped_resolution",
+      "root_review": "Root independently checked the same dated GKV benchmark and complete original. The modest higher-price direction is supported with the recorded price-date limits."
+    },
+    {
+      "claim_id": "short-it-a-001",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "scoped_no_further_broad_search",
+      "explanation": "The target is an aggregate market-share and service-coverage statement. Individual large suppliers and successful municipal products cannot supply the missing denominator or remove overlap. The targeted pass did not recover an independent definition or count of the relevant specialist applications, installations, IT systems and services. A broad website inventory would not solve the denominator and is not justified.",
+      "limits": "Promotional institutional background with low materiality; no contrary finding from lack of independent data.",
+      "resolution_blocker": "Undefined market universe, counting unit and overlapping service coverage.",
+      "next_step": "An existing independent procurement or supplier census with explicit units could resolve this; otherwise close this research pass with unresolved background context.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-firm-history",
+          "locator": "HSH anniversary and ab-data company history",
+          "summary": "Confirms substantial and long-standing suppliers, not aggregate share or the service denominator."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-it-a-002",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "new_primary_history_partial_support",
+      "explanation": "The HSH anniversary dates the company to February 1991, and ab-data documents municipal software since the early 1980 s and a web transition from 2005. These support long software experience. But web-based municipal finance software is not automatically an online citizen administrative service, and no dated pre-September 2006 service launch for the relevant plural firms was recovered. The compound historical claim therefore remains unresolved.",
+      "limits": "It would be unreasonable to demand that every member firm is over 35 years old; the original permits a qualifying subset. Even on that reasonable reading, the online-service duration remains unverified.",
+      "resolution_blocker": "Dated launch evidence for the online administrative services, not merely firm age or web backend technology.",
+      "next_step": "Reassess if a pre-September 2006 municipal launch notice or supplier product announcement is recovered for the qualifying firms; no member-wide crawl needed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-firm-history",
+          "locator": "February 2026 HSH anniversary; ab-data history sections",
+          "summary": "Over 35-year software experience corroborated, but the twenty-year citizen-facing service component is not."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-it-a-005",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "supported",
+      "result": "supported",
+      "resolution_basis": "methodological_reassessment_with_replicated_primary_mechanism",
+      "explanation": "The original makes a modest unquantified contribution claim. Dataport specifies the actual shared XMeld/OSCI/DVDV and XPassAusweis exchanges, while d-NRW documents maintained communication endpoints and integration with separate vendors’ systems. Those are concrete mechanisms through which existing standards enabled implementation. A comparative causal effect size or a world without standards is unnecessary to support the ordinary technical contribution, and the earlier demand exceeded the proposition.",
+      "limits": "This does not certify that integration is universally easy, that standards alone caused success or that their contribution has been measured numerically. Successful backend integration does not disprove other frontends’ alleged denied access.",
+      "resolution_blocker": null,
+      "next_step": "Resolved at the stated scope. Reopen if genuinely different dated evidence or a broader proposition is assessed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-faq",
+          "locator": "Physical 17 and 22",
+          "summary": "Actual standard message exchanges connect the eWA workflow and four vendor products."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-dnrw",
+          "locator": "Technical information, stand 03/2026",
+          "summary": "Existing OSCI/DVDV communication and vendor integration document the enabling mechanism."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/root-primary-checks.json",
+          "source_id": "follow-root-ewa-standards",
+          "locator": "FAQphysical17/22 and d-NRW technical/checklist section",
+          "summary": "Root independent source/context check; read extent and limitations retained in saved note."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "accept_scoped_resolution",
+      "root_review": "Root read actual vendor integration and standard message/end-point sections. Accept the unquantified enabling contribution, without certifying universal rollout ease or denying rival access problems."
+    },
+    {
+      "claim_id": "short-it-a-007",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "methodological_reassessment_retains_broad_market_scope",
+      "explanation": "The mandatory common-component strategy can displace demand for rival frontends, a credible commercial mechanism. However, actual backend/private-supplier participation remains possible and the strategy is not a general statutory prohibition on private products. The original says the strategy generally removes the opportunity to place competing online services for the same OZG services. A particular mandatory component and a plausible crowding-out mechanism do not independently establish that broad market-wide effect.",
+      "limits": "No need to interpret this as a universal legal ban or demand a numerical causal estimate. It remains a broad empirical/commercial claim, distinct from the supported existence of a chosen default frontend.",
+      "resolution_blocker": "No dated evidence establishes the stated general exclusion from same-service frontend markets.",
+      "next_step": "An existing procurement/competition analysis of comparable frontend opportunities could resolve this; do not use backend contracts as a rebuttal to the actual frontend claim.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-it-draft",
+          "locator": "Physical 4–5",
+          "summary": "Concrete mandatory eWA proposal, not a universal private-provider exclusion."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-dnrw",
+          "locator": "Vendor/interface information",
+          "summary": "Private backend integration can coexist with one selected common frontend."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-it-a-010",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "rechecked_product_disjunction_scope",
+      "explanation": "The ministry draft repeats the disjunction that all other available services miss either Ef A minimum requirements or legal requirements. Dataport and BSI describe the full workflow and certificate conditions, making such shortcomings possible. Neither is a product-by-product assessment of the entire alternative-service set, so repeating the proposer’s statement does not independently resolve it.",
+      "limits": "Preserve the logical “or”: it would be wrong to demand or assert that every alternative fails both categories. No alternative’s mere existence refutes the disjunction.",
+      "resolution_blocker": "No published complete alternative-product compliance assessment recovered.",
+      "next_step": "Resolve if the ministry’s existing assessment matrix or named product certification decisions are public; no purchase, vendor contact or speculative testing required.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-it-draft",
+          "locator": "Physical 2 Alternatives",
+          "summary": "Government source of the quoted disjunction."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-faq",
+          "locator": "Physical 17, 22, 32",
+          "summary": "Actual chip-writing and integration requirements, not all-alternative compliance decisions."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-bsi",
+          "locator": "Physical 13, 22–23",
+          "summary": "Certification/outsourcing conditions without complete market assessment."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-it-a-011",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_access_conditions_vs_historical_events",
+      "explanation": "The operator FAQ confirms that eWA has a sovereign chip-writing certificate and an implemented central writing component. BSI specifies approval and outsourcing requirements. These show a real access dependency, but do not record a federal refusal to another manufacturer or prove that a particular refusal caused a competing service’s failure. The targeted historical query pass did not recover such an event record.",
+      "limits": "Public technical documentation is not proof that access was practically open to every frontend. Conversely, certificate restrictions do not by themselves prove wrongful denial. No adverse factual finding.",
+      "resolution_blocker": "No named dated request/refusal and no corresponding implementation impact record.",
+      "next_step": "A public historical access request/decision or Land parliamentary answer identifying the incident could resolve it; stop repeated broad searches without such a lead.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-faq",
+          "locator": "Physical 17",
+          "summary": "Identifies sovereign certificate and eWA chip-writing integration."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-bsi",
+          "locator": "Physical 13, 22–23",
+          "summary": "Actual authority/security conditions, not rejected applications."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-it-a-012",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_historical_primary_search_no_event_record",
+      "explanation": "The pass specifically sought Land parliamentary, Bundesrat and central-writing-service records of the alleged complaints. It recovered architecture and implementation material but no dated primary complaint from named Länder. A technical dependency or a supplier’s own report does not establish that several Länder complained about denial in the previous years.",
+      "limits": "No claim that no complaints occurred. Restricted/private correspondence could exist; absence from targeted public results is not evidence of falsity.",
+      "resolution_blocker": "No named Land, date, complaint document or official response recovered.",
+      "next_step": "Resolve upon a public named Land objection/answer; otherwise retain with this concrete blocker rather than repeat generic rollout searches.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-bsi",
+          "locator": "Physical 13, 22–23",
+          "summary": "Conditions documented, historical complaints not addressed."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-faq",
+          "locator": "Physical 17",
+          "summary": "Operator account of the component, not records of Land objections."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-it-a-013",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "reassessed_causal_scope_no_quantification_requirement",
+      "explanation": "The operator demonstrates a working end-to-end service, which does not refute the respondent’s allegation about competing developments. BSI and the workflow show that access can be a dependency. Yet the claimed frequent counteraction by the federal approach remains broader than the possible mechanism: no dated series of affected competing projects was recovered.",
+      "limits": "No numerical causal effect estimate is necessary. A documented pattern of interrupted or limited projects would suffice; neither a single successful service nor a plausible dependency supplies that pattern.",
+      "resolution_blocker": "No independently documented repeated affected-development pattern.",
+      "next_step": "Use an existing dated project audit or official complaint response if identified; retain qualitative uncertainty otherwise.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-faq",
+          "locator": "Physical 17, 22, 32",
+          "summary": "Existing end-to-end architecture and vendor interfaces, without evidence of the alleged competing-project pattern."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-bsi",
+          "locator": "Physical 13, 22–23",
+          "summary": "Access dependency rather than a causal series."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-it-a-014",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "reassessed_material_qualitative_effect_scope",
+      "explanation": "Approval dependencies and a mandatory shared frontend can affect investment incentives. The respondent, however, says federal conduct in recent years massively hindered manufacturers’ investment decisions. No identified investments, decisions, dates or independent documented effects were recovered. This is a material qualitative-impact assertion, not merely the existence of an incentive mechanism.",
+      "limits": "A numerical national estimate or experimental counterfactual is not demanded. First-party project records plus independently dated government decisions could support the qualitative effect, but are absent from this targeted pass.",
+      "resolution_blocker": "No dated actual investment decisions linked to the alleged federal conduct.",
+      "next_step": "Resolve only with existing public project/decision records, not a generic market-structure argument or further company-history searches.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-it-draft",
+          "locator": "Physical 4–5",
+          "summary": "Prospective mandatory shared frontend is a plausible incentive change, not evidence of the alleged past decisions."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-bsi",
+          "locator": "Physical 22–23",
+          "summary": "Approval conditions may be relevant but do not document actual investment outcomes."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-it-b-002",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "supported",
+      "result": "supported",
+      "resolution_basis": "new_primary_lower_bound_and_reassessment_of_required_denominator",
+      "explanation": "The actual group includes people whose existing disease can lead to sight loss, not only people already blind or visually impaired. The primary Zi release reports 7.03 million unique GKV patients treated for type 2 diabetes in 2023 under a repeated confirmed-diagnosis definition. Research-institution clinical information explains that diabetes can damage the retina and lead to sight loss, and recommends screening before retinal disease is known. That single within-country disease group supplies a defensible lower bound exceeding seven million. Reconstructing a de-duplicated union of every eye-disease category is unnecessary and would exceed the proposition.",
+      "limits": "This supports the broad represented risk group, not seven million blind people or certain future sight loss. Zi routine coding, DDZ broader estimates and RKI GEDA self-report use different ascertainment, dates and populations: RKI gives 6.05 m 2022 while DDZ reports≥9.1 m. No exact uncontested 2026 census or addition of overlapping groups is claimed. The narrow Zi excess above 7 m is routine-diagnosis evidence, not individually validated clinical cases.",
+      "resolution_blocker": null,
+      "next_step": "Resolved at the stated scope. Reopen if genuinely different dated evidence or a broader proposition is assessed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-zi",
+          "locator": "Primary authored release on IDW, lines 81–112, especially 88 and 99",
+          "summary": "7.03 m GKV patients, nationwide claims, repeated confirmed diagnoses; count and method independently read."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-diabinfo",
+          "locator": "Opening risk explanation and screening advice; stand 30 December 2022",
+          "summary": "Diabetes is an existing disease that can cause sight loss even before eye symptoms appear."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-ddz",
+          "locator": "Physical 8–11",
+          "summary": "Corroborating larger estimated scale, with estimate methodology retained."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-rki-diabetes",
+          "locator": "17 September 2025 indexed abstract methods/results",
+          "summary": "Conflicting smaller survey-based baseline acknowledged; not silently merged with claims counts."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/root-primary-checks.json",
+          "source_id": "follow-root-dbsv-lowerbound",
+          "locator": "Zi authored release result/methods; original broad disease-risk category",
+          "summary": "Root independent source/context check; read extent and limitations retained in saved note."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "accept_scoped_resolution",
+      "root_review": "Root read Zi original-authored release and methods, the broad DBSV category, and diabetes sight-loss mechanism. A repeated-diagnosis within-GKV lower bound suffices; no union sum, blindness count or exact2026census inferred."
+    },
+    {
+      "claim_id": "short-it-c-003",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "supported",
+      "result": "supported",
+      "resolution_basis": "methodological_reassessment_of_contextual_first_claim",
+      "explanation": "The immediately proposed measure is a concrete mandatory Ef A component. BMDS’s dated 7 September dossier explicitly calls eWA the first IT component prescribed by this §4 OZG ordinance route. In that context, “legally secured for the first time” reasonably means the first concrete binding common-component mandate. Prior authorising legislation, Ef A funding rules and cooperation contracts do not contradict this claim. The earlier demand to establish absence of every earlier legal Ef A arrangement was excessive for the contextual proposition.",
+      "limits": "This is an explicit contextual resolution, not a new proof that Ef A never had legal footing. A detached stronger “no previous Ef A law or contract ever existed” reading would remain unsupported. The proposal was still a proposal at author time.",
+      "resolution_blocker": null,
+      "next_step": "Resolved at the stated scope. Reopen if genuinely different dated evidence or a broader proposition is assessed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-bmds",
+          "locator": "7 September 2026 substantive introduction",
+          "summary": "Primary dated ministry says first component on the concrete mandatory ordinance route."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-it-draft",
+          "locator": "Physical 4–5",
+          "summary": "Operative eWA mandate and first-component rationale, distinct from existing§4 authority."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/root-primary-checks.json",
+          "source_id": "follow-root-it-first",
+          "locator": "Dated BMDS introductory first-component paragraph",
+          "summary": "Root independent source/context check; read extent and limitations retained in saved note."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "accept_scoped_resolution",
+      "root_review": "Root read the dated ministry first-component paragraph and immediate VITAKO context. Accept first concrete mandatory component on this route, preserving proposal status and earlier legal foundations."
+    },
+    {
+      "claim_id": "short-it-c-007",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-a.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "reassessed_contribution_standard_with_remaining_programme_scope",
+      "explanation": "The primary sources document real enabling mechanisms: the federal programme pays connection costs and provides organisation, and the draft’s observed programme experience informs an EUR 8300 connection-cost estimate. Niedersachsen documents an improving taskforce process and a new federal support agreement. It is unreasonable to demand a measured national causal effect size for “materially supported”. Nevertheless, the available dated evidence does not identify the extent of completed eWA connections financed by this exact programme before the statement. A different Land rollout programme or prospective funding terms cannot silently settle that prior-rollout claim.",
+      "limits": "No implication that the programme contributed nothing. Its existence and mechanism are supported; the remaining issue is material prior scope and programme identity, not experimental causal identification. VITAKO is undated, so the consultation period is the temporal ceiling rather than an invented exact day.",
+      "resolution_blocker": "No dated completed funded-connection result for the exact federal programme establishes material prior contribution.",
+      "next_step": "A dated public implementation statement linking completed eWA connections to this programme could resolve the modest qualitative contribution; no numerical causal experiment is required.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-it-draft",
+          "locator": "Physical 11 programme and cost paragraphs",
+          "summary": "Observed connection-cost experience and voluntary federal mechanism; no count attributable to the programme."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+          "source_id": "uf-a-ni",
+          "locator": "10 April 2026 agreement and previous taskforce paragraphs",
+          "summary": "Actual state process improvement distinguished from prospective expanded federal support."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-008",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted primary legal recheck; evidential scope remains open",
+      "explanation": "The author says dürfte regelmäßig and offers a legal evidential inference, not a measured all-case superiority claim. BeurkG 10 and ZPO proof provisions support taking notarial identification seriously, but do not alone establish a regular first-appearance preference for old land-register details over more recent base data. The age and source of the conflicting entry matter.",
+      "limits": "No general automatic presumption is attributed to the author; no error inferred from lack of a matching decision.",
+      "resolution_blocker": "No matching primary decision or rule establishes the proposed regular preference.",
+      "next_step": "A directly applicable correction/identity decision or official guidance could settle the legal inference; no need for a national error-rate survey.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-identitylaw",
+          "locator": "BeurkG 10; ZPO 415/418",
+          "summary": "Care duty and proof rules rechecked; no direct regular old-data preference found."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-011",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "scope recheck; full only proposition retained",
+      "explanation": "The cited property/inheritance duties and June Act verify important collection and bounded future-query cases. They do not establish an exhaustive only rule for every notarial business relationship. Collection permission, a duty to seek an ID and actual possession are distinct. EStDV 54 refers to company tax numbers and cannot itself establish a universal natural-party rule.",
+      "limits": "No extra universal duty is asserted. Voluntary collection or bank-account rules are possibilities requiring precise scope, not demonstrated contradictions.",
+      "resolution_blocker": "Exhaustiveness across the author’s actual notarial-business scope remains unproven.",
+      "next_step": "A bounded complete statutory-duty map could resolve the only clause; do not demand possession statistics for a legal rule.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-taxduties",
+          "locator": "GrEStG 18/20, ErbStG 34, ErbStDV 7, EStDV 54",
+          "summary": "Checked purpose-specific duties."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-enova",
+          "locator": "Articles 8/10",
+          "summary": "Future query only where specified ID required and not otherwise known."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-ao139b",
+          "locator": "Paragraph 2",
+          "summary": "Duty/permission/consent distinction."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-ao154",
+          "locator": "Paragraphs 2–2b",
+          "summary": "Separate account context not collapsed into tax-notification rule."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-012",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "overstrong prior universal reading corrected, but actual possession proposition remains open",
+      "explanation": "Standalone land charges do not trigger a universal natural-party tax-ID duty in the checked provisions. That is different from establishing that the notary will be unaware of IDs outside the cited cases: prior business or a voluntary questionnaire can supply them. The ordinary reading permits case variation, but a scoped primary basis for actual non-possession in this particular example was not recovered.",
+      "limits": "No every-deed frequency survey is demanded. The undated practitioner form is not a completed transaction or August counterexample, and no falsehood is proposed.",
+      "resolution_blocker": "Specific actual possession scope for isolated land charges is not established.",
+      "next_step": "A dated primary workflow or concrete official case with missing IDs in such a transaction could suffice; a nationwide survey is unnecessary.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-taxduties",
+          "locator": "Purpose-specific clauses",
+          "summary": "No universal standalone-land-charge ID field established."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-groundcharge-form",
+          "locator": "Three-page form",
+          "summary": "Tax IDs are requested in a possible land-charge workflow; undated and imperfect footer."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-notary-faq",
+          "locator": "Missing-ID instruction",
+          "summary": "Missing IDs are possible generally, not a specific isolated-land-charge rate."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-013",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "cost model rechecked; contextual legal-assumption gap retained",
+      "explanation": "The strongest contextual reading concerns initial statutory inconsistency reporting/review, not denial of all priced inconsistencies. The draft treats initial matched conflicts as low-burden additional storage with no immediate action, while separately pricing ongoing conflicts at 5% and two minutes. That supports the author’s concern about an initial-process assumption, but does not establish that the full statutory extra work is both required in each such case and excluded from all initial implementation estimates.",
+      "limits": "No error from missing line items, no realised-cost inference, and no claim that the model contains zero inconsistency costs. Additional workload magnitude is not the sole blocker; the legal/process scope is.",
+      "resolution_blocker": "Unresolved legal interaction and initial-model allocation, not simply absence of measured future cost.",
+      "next_step": "Targeted official costing assumptions or specific initial 10(4) reporting guidance would resolve this more directly than a broad cost survey.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-draft",
+          "locator": "Physical 6–8",
+          "summary": "Recomputed ongoing arithmetic and read initial versus ongoing process assumptions."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-016",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "technical alternatives checked; stronger compound not silently narrowed",
+      "explanation": "A missing shared tax-ID key blocks matching by that same key. It does not establish that unambiguous assignment cannot occur in a municipal workflow at all: the AdV model includes source/object references, parcel relations and existing electronic exchanges. Whether those references cover the natural-person identity problem depends on the actual workflow.",
+      "limits": "Object IDs are not presumed equivalent to a lifelong natural-person ID. A charitable same-key reading is plausible but the recorded claim uses the broader assignment formulation.",
+      "resolution_blocker": "No specified municipal identity workflow or mapping establishes the full impossibility claim.",
+      "next_step": "A concrete data model/use case could separate a missing common person key from otherwise valid object assignment.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-adv",
+          "locator": "Physical 24, 29–30, 45",
+          "summary": "Object/source references, ownership objects and preprocessing scope independently checked."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-draft",
+          "locator": "Physical 2–3/11",
+          "summary": "New storage/use scope checked."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-021",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted historical announcement search failed to close full compound",
+      "explanation": "The June Act authenticates the conditional readiness rule and BMF announcement requirement. The May committee explanation and September provider circular corroborate preparation and later non-availability. They do not establish independently whether a future date had already been determined/announced at the August response. Targeted exact-phrase Gazette/BMF/BZSt searches recovered no matching notice, but the Gazette browser entry was blocked and no complete historical index was reconstructed.",
+      "limits": "Non-availability is not substituted for undetermined commencement; no notice absence or author error inferred.",
+      "resolution_blocker": "Exact relevant August announcement/determination history remains unauthenticated.",
+      "next_step": "An authenticated relevant BMF notice or contemporaneous official no-date status could resolve; do not bulk-download the Gazette.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-enova",
+          "locator": "Physical 9/14, Articles 8/10 and 20(5)",
+          "summary": "Exact promulgated trigger checked."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-bt5806",
+          "locator": "Physical 18",
+          "summary": "Technical connection work explained in May."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-bnotk-circular",
+          "locator": "25 September sections B/E",
+          "summary": "Later forthcoming route with distinct filing dates."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-commencement-search",
+          "locator": "Targeted searches and 403 access",
+          "summary": "No complete August history recovered."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-031",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "technical specification is not an operational load series",
+      "explanation": "Existing exchanges and legal safeguards confirm functioning services, not that traffic is primarily notarial or representative systems are generally robust for that traffic. No suitable contemporary primary workload/availability series was recovered in this targeted pass.",
+      "limits": "No error from lack of performance data. Historic commercial-register problems do not prove current land-register fragility.",
+      "resolution_blocker": "Current load composition and operational reliability remain unmeasured.",
+      "next_step": "A relevant operator availability/load report would help; further generic law or current isolated outages would not.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-adv",
+          "locator": "Physical 11, 14–17",
+          "summary": "Existing systems and exchanges checked; no notarial traffic share or availability rate."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-032",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "new contemporary primary operator testimony partly resolves historical premise",
+      "explanation": "The 2014 hearing now establishes actual early portal performance problems at high access peaks, with extra servers required. This is stronger than modern outage notices. It does not establish the full häufig outages proposition or the other technical causes; the 2007 circular is a load forecast rather than an incident series.",
+      "limits": "Retain the author’s especially early years framing. Performance degradation is not automatically total outage, and no precise frequency threshold is invented.",
+      "resolution_blocker": "Frequency and full outage/cause scope still not demonstrated.",
+      "next_step": "A contemporary operator incident series or equivalent official qualitative recurrent-outage account could settle the remaining breadth.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-register-history",
+          "locator": "Physical 8, 16–17",
+          "summary": "Identity and complete operator response independently read."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-register-2007",
+          "locator": "Complete short circular",
+          "summary": "Contemporary anticipated filing load, not observed retrieval outages."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-033",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "supported",
+      "result": "supported",
+      "resolution_basis": "new pre-author primary rationale plus correction of excessive proof demand",
+      "explanation": "The claim is existential: IDs are not available at every deed, not a claim about a particular national missing-ID rate. BT 21/5806 expressly recognises clients not supplying IDs and explains the query route for those cases. The June Act likewise conditions enquiries on IDs not already otherwise known. Identification law does not universally require a tax ID. These are adequate primary support for non-universal possession without a nationwide survey.",
+      "limits": "Support does not extend to universal ignorance outside tax-reporting transactions, typical frequency, or the distinct exhaustive collection-duty proposition B034. Later operator missing-ID workflows corroborate but are not used alone to prove August practice.",
+      "resolution_blocker": null,
+      "next_step": "Resolved at the stated scope. Reopen if genuinely different dated evidence or a broader proposition is assessed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-bt5806",
+          "locator": "Physical 6 and 17",
+          "summary": "Pre-author missing-ID circumstances explicitly recognised."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-enova",
+          "locator": "Physical 9, Articles 8/10",
+          "summary": "Not already otherwise known condition."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-identitylaw",
+          "locator": "BeurkG 10",
+          "summary": "No universal tax-ID field."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-notary-faq",
+          "locator": "Missing-ID workflow",
+          "summary": "Later corroboration only."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/root-primary-checks.json",
+          "source_id": "follow-root-notary-missing-id",
+          "locator": "BT21/5806physical17 and original DNotV3–4",
+          "summary": "Root independent source/context check; read extent and limitations retained in saved note."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "accept_scoped_resolution",
+      "root_review": "Root independently read pre-author BT21/5806physical17 and the original non-universal wording. Explicit missing-ID cases settle existence without needing a national frequency measure."
+    },
+    {
+      "claim_id": "short-b-034",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "full only-duty scope retained separately from resolved non-possession",
+      "explanation": "Purpose-limited notification and query routes are well supported, and B033 can be resolved. Their existence is not an exhaustive legal account of all occasions on which a notary must collect an ID. Permission and actual prior possession cannot resolve that separate only clause.",
+      "limits": "No requirement for a possession survey to establish a legal duty. No invented universal duty outside the cited provisions.",
+      "resolution_blocker": "Exhaustive scope across notarial business remains unsettled.",
+      "next_step": "A bounded complete statutory-duty review could settle this; no empirical frequency denominator needed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-taxduties",
+          "locator": "Complete relevant clauses",
+          "summary": "Specific duties confirmed, no all-business map."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-enova",
+          "locator": "Articles 8/10",
+          "summary": "Bounded query route confirmed."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-ao139b",
+          "locator": "Paragraph 2",
+          "summary": "Other-law and consent distinction."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-ao154",
+          "locator": "Paragraphs 2–2b",
+          "summary": "Separate account context noted without assuming automatic notarial coverage."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-036",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted historical announcement search failed to close full compound",
+      "explanation": "The June Act authenticates the conditional readiness rule and BMF announcement requirement. The May committee explanation and September provider circular corroborate preparation and later non-availability. They do not establish independently whether a future date had already been determined/announced at the August response. Targeted exact-phrase Gazette/BMF/BZSt searches recovered no matching notice, but the Gazette browser entry was blocked and no complete historical index was reconstructed.",
+      "limits": "Non-availability is not substituted for undetermined commencement; no notice absence or author error inferred.",
+      "resolution_blocker": "Exact relevant August announcement/determination history remains unauthenticated.",
+      "next_step": "An authenticated relevant BMF notice or contemporaneous official no-date status could resolve; do not bulk-download the Gazette.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-enova",
+          "locator": "Physical 9/14, Articles 8/10 and 20(5)",
+          "summary": "Exact promulgated trigger checked."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-bt5806",
+          "locator": "Physical 18",
+          "summary": "Technical connection work explained in May."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-bnotk-circular",
+          "locator": "25 September sections B/E",
+          "summary": "Later forthcoming route with distinct filing dates."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-commencement-search",
+          "locator": "Targeted searches and 403 access",
+          "summary": "No complete August history recovered."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-043",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "ownership/source denominator checked; uniqueness not established",
+      "explanation": "Official sources support broad digital parcel/owner coverage and municipal uses. The word regelmäßig allows variation, but the only comprehensive source claim still requires understanding alternative municipal property, tax and planning datasets and whether they are derivatives of the same cadastre. This targeted pass did not establish that denominator.",
+      "limits": "BKG’s Bavaria exclusion is a derivative product scope, not proof the underlying cadastre lacks Bavaria. Restricted web-service access is not a general absence of lawful municipal data.",
+      "resolution_blocker": "Generally-only denominator not established across the stated municipal context.",
+      "next_step": "A primary comparative municipal data architecture or usage survey would be more useful than additional generic ALKIS descriptions.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-cadastre-bonn",
+          "locator": "Substantive service description",
+          "summary": "Full city digital parcel/owner source."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-cadastre-bkg",
+          "locator": "22 April 2025 product description",
+          "summary": "Derivative scope separated from underlying cadastre."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-cadastre-st",
+          "locator": "Owner WMS/WFS section",
+          "summary": "Service-specific access context."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-044",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "person-key risk distinguished from existing reference exchange",
+      "explanation": "The author’s intended natural-person key can be lost if the cadastre cannot hold it; source/object references are not a substitute for that same unique person key. However, the full statement says matching will continue through names/birth dates/addresses with manual work and duplication/misassignment risk. Existing object links, ownership objects and preprocessing mean that the actual additional manual person-matching scope under the future design is not established simply by lack of the ID.",
+      "limits": "A risk need not be quantified to be real, but no specific municipal natural-person matching workflow was authenticated. Do not read the author as claiming all present transfer is manual.",
+      "resolution_blocker": "Full mechanism in the stated future architecture remains incompletely specified.",
+      "next_step": "A concrete person-matching design could resolve whether named-attribute matching/manual checks remain necessary rather than merely possible.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-adv",
+          "locator": "Physical 24, 35, 45",
+          "summary": "Object references, person links and owner preprocessing rechecked."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-draft",
+          "locator": "Physical 2–3/11",
+          "summary": "Land-register-only immediate scope."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-049",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "supported",
+      "result": "supported",
+      "resolution_basis": "actual contextual qualification corrects an overly broad burden test",
+      "explanation": "The operative proposal adds land-register datasets and purpose-limited storage/use, with the immediate implementation process at the land-register/BVA/BZSt level. The author says zunächst and voraussichtlich and expressly discusses later municipal integration costs and possible quality-clarification work on the next page. Thus the proposition concerns no immediate direct municipal specialist-system amendment/routine participation, not a guarantee of no indirect municipal task. The exact draft supports that scoped immediate description.",
+      "limits": "No prediction that municipalities will never incur cost or handle a discrepancy. General IDNrG quality cooperation is compatible with the author’s express caveat; proposed later cadastre integration is separate.",
+      "resolution_blocker": null,
+      "next_step": "Resolved at the stated scope. Reopen if genuinely different dated evidence or a broader proposition is assessed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-draft",
+          "locator": "Physical 1–3 and 6–11",
+          "summary": "Operative and implementation scope independently checked against qualified author wording."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/root-primary-checks.json",
+          "source_id": "follow-root-idnrg-draft",
+          "locator": "Draftphysical3–11; originalmunicipal4–5",
+          "summary": "Root independent source/context check; read extent and limitations retained in saved note."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "accept_scoped_resolution",
+      "root_review": "Root read operative proposal/cost sections and full originalpages4–5. Accept initially/expected direct-system scope; later indirect municipal clarification and integration burdens remain possible."
+    },
+    {
+      "claim_id": "short-b-055",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "reasonable primary-source reading retained; actual delivery breadth remains open",
+      "explanation": "The author’s erste is reasonably primary or first-consulted, not historically first-ever. ALKIS standards and the Bonn service corroborate established digital owner/parcel information; they do not independently establish comprehensive actual digital provision across the federal, Land and municipal uses described. The new BKG/service examples clarify product and access limits without proving the author false.",
+      "limits": "No chronological error, exclusivity claim or guaranteed all-office uptime is imputed. Current undated local pages cannot authenticate August nationwide delivery.",
+      "resolution_blocker": "Comprehensive actual delivery/use breadth remains unverified; not merely the word erste.",
+      "next_step": "A relevant cross-administration service/coverage account could resolve; unrelated alternative sources would not refute the primary-source reading.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-adv",
+          "locator": "Physical 11/45",
+          "summary": "Established digital cadastral/ownership exchanges."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-cadastre-bonn",
+          "locator": "Full substantive description",
+          "summary": "One-city coverage."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-cadastre-bkg",
+          "locator": "Product description",
+          "summary": "Federal derivative limit, not underlying-cadastre counterexample."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-cadastre-st",
+          "locator": "WMS/WFS scope",
+          "summary": "One access route limitation only."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-057",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "supported",
+      "result": "supported",
+      "resolution_basis": "conditional technical scope resolved; explicit person-key reading retained",
+      "explanation": "The actual phrase is uniqueness of the Personen-ID at the interface, in a conditional where the land register holds the identifier but the cadastre may not store it. Under that condition the same tax-ID value cannot remain the shared persistent natural-person key in the destination. Existing object/source IDs maintain references but are not established as the same lifelong natural-person identifier. This supports the conditional loss of that common person-ID link.",
+      "limits": "This is an explicit contextual interpretation, not a finding that every transfer or person assignment becomes impossible. It does not establish how many matching failures result, forbid other valid mappings, or resolve broader B016/B044 formulations.",
+      "resolution_blocker": null,
+      "next_step": "Resolved at the stated scope. Reopen if genuinely different dated evidence or a broader proposition is assessed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-draft",
+          "locator": "Physical 2–3/11",
+          "summary": "New tax-ID storage confined to land-register specialist systems."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-adv",
+          "locator": "Physical 24/29–30/45",
+          "summary": "Existing object/source IDs distinguished from a common natural-person key."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/root-primary-checks.json",
+          "source_id": "follow-root-idnrg-draft",
+          "locator": "Draftphysical2–3/11 and originalVDV2",
+          "summary": "Root independent source/context check; read extent and limitations retained in saved note."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "accept_scoped_resolution",
+      "root_review": "Root read original conditional common-person-ID wording and draft scope. Accept loss of that shared key at the destination; the identifier itself stays unique and other object/person mappings may remain valid."
+    },
+    {
+      "claim_id": "short-b-058",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "contextual denominator retained; no speculative counterexample finding",
+      "explanation": "The surrounding examples concern land, infrastructure, construction and permitting, so nearly all engineering tasks should not be casually read as a literal claim about every engineering discipline. Even in that charitable planning-oriented context, this pass recovered no representative denominator for nahezu alle. The AdV model establishes importance for land workflows rather than the stated share of tasks.",
+      "limits": "No author error is inferred from unrelated engineering examples, no measured percentage invented, and no need for a study of all possible disciplines if the context is narrower.",
+      "resolution_blocker": "Actual contextual near-universality remains unestablished.",
+      "next_step": "A scoped primary task/use survey could settle; another generic geodata-benefit brochure would not.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-adv",
+          "locator": "Physical 11/14–17/45",
+          "summary": "Land-data role supported; task-share denominator absent."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-b-062",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "trend, sector and realised-versus-forecast distinctions retained",
+      "explanation": "A pre-author July 2026 VDI release concerns Q4 2025 and supports persistent structural shortages in particular disciplines. It does not establish an increasing observed shortage in each of technical administrations, planning authorities and engineering offices. Aggregate short-term demand variation and long-term demographic concerns can coexist.",
+      "limits": "Do not turn falling aggregate vacancies into proof no shortage or call a long-term forecast a current trend. The latest full monitor was not newly read in this pass.",
+      "resolution_blocker": "No matching employer-category/time-window trend evidence.",
+      "next_step": "A primary employer-specific staffing time series could resolve; general engineer-market headlines cannot.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-engineermonitor",
+          "locator": "Dated Q4 2025 listing and substantive primary summary",
+          "summary": "Relevant publication timing and scope checked."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-root-003",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-b.json",
+      "initial_proposed_result": "supported",
+      "result": "supported",
+      "resolution_basis": "proof-demand correction for an ordinary conditional rework mechanism",
+      "explanation": "The author identifies data-dependent workflows and says bad/missing/outdated owner data delay or increase project costs OR cause more administrative work. No frequency, cost amount or every-defect/every-project assertion appears. AdV documents additional preprocessing, ownership redundancy/address handling and manual intervention when reference updating fails. That independently supports the ordinary mechanism that consequential data defects can cause extra work. A national frequency survey is an excessive requirement for this unquantified mechanism.",
+      "limits": "Support is for the ordinary causal risk/rework mechanism, not measured prevalence, every bad entry affecting every project, a quantified project-cost saving, or proof that the proposed reform delivers future benefits. The most explicit failed-successor example is parcel data; owner-specific redundancy/current-address preprocessing supplies relevant ownership context.",
+      "resolution_blocker": null,
+      "next_step": "Resolved at the stated scope. Reopen if genuinely different dated evidence or a broader proposition is assessed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/b-primary-checks.json",
+          "source_id": "follow-b-adv",
+          "locator": "Physical 33–35 and 45",
+          "summary": "Error handling/manual intervention plus ownership preprocessing independently read."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/root-primary-checks.json",
+          "source_id": "follow-root-adv-rework",
+          "locator": "AdVphysical33–35/45; originalVDV1visually",
+          "summary": "Root independent source/context check; read extent and limitations retained in saved note."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/c-reviews-b.json",
+      "peer_verdict": "accept",
+      "root_decision": "accept_scoped_resolution",
+      "root_review": "Root visually read originalpage1 and independently read AdV33–35/45. Accept ordinary unquantified correction/rework mechanism. Parcel-successor manual intervention is only analogy; owner name-relation/address preprocessing supplies the owner-specific technical link. No measured owner-project delay/cost claim is certified."
+    },
+    {
+      "claim_id": "short-c-004",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent.",
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-draft",
+          "locator": "Operative pp. 4–5 Article 1 no. 3",
+          "summary": "Subject/depth changes and corporate-governance deletion match the October draft."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "summary": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "summary": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "summary": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-c-006",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "Relevant experience is a technically plausible requirement for independently reviewing restructuring concepts, but the full claim describes who typically performs that work. Current professional/examination law establishes competence and scope, not the distribution of actual assignments. The targeted BGH source would address required expert perspective, not independently prove the staffing pattern; full official access also failed. Retain unresolved without a contrary finding.",
+      "limits": "Typical is read as an ordinary practice assertion, not a universal prohibition on newly qualified practitioners. No representative-survey requirement is invented, but no independent assignment-based or sufficiently direct practice evidence was recovered.",
+      "resolution_blocker": "No independent source directly establishes the typical experience profile of practitioners independently reviewing restructuring concepts.",
+      "next_step": "A public practice/engagement study, professional-body staffing evidence or equivalent direct practice account could resolve; generic competence norms alone should not substitute.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-law",
+          "locator": "Section 4(2)2(c)",
+          "summary": "Restructuring-concept review is a current examined subject; no actual staffing distribution."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-public-access-limits",
+          "locator": "BGH official PDF access attempts",
+          "summary": "Required expert-perspective lead does not establish typical staffing; full original unavailable."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-c-008",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent.",
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-draft",
+          "locator": "Operative p. 5 Article 1 no. 4",
+          "summary": "Up to two years on application for evidenced listed family/protection periods matches."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "summary": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "summary": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "summary": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-c-010",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent.",
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-draft",
+          "locator": "Operative p. 5 Article 1 no. 5(b)",
+          "summary": "One BWL paper versus current two matches."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "summary": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "summary": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "summary": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-c-011",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent.",
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-draft",
+          "locator": "Operative p. 5 Article 1 no. 5(a)",
+          "summary": "Four-hour non-tax modules with tax four to six matches."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "summary": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "summary": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "summary": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-c-012",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The draft rationale expressly asserts that more than four hours is unnecessary, and the proposal would schedule four hours for non-tax papers. That verifies the ministry’s rationale and design, not the full claim that four hours reliably suffices. No directly matched assessment-validity or professional examination evidence was recovered to settle that technical adequacy claim. Retain unresolved; this is not a finding that longer examinations are necessary.",
+      "limits": "No universal randomised experiment is required as the only possible evidence. An appropriate professional validation or assessment-method study could support the claim; mere proposal attribution does not independently settle adequacy.",
+      "resolution_blocker": "Independent adequacy/diagnostic-validity evidence for the actual non-tax contents and proposed four-hour design is unavailable.",
+      "next_step": "Inspect a public examination-method validation or official assessment study if released; do not count the rationale repeating the proposition as independent empirical verification.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-draft",
+          "locator": "Physical p. 24, rationale to written duration",
+          "summary": "Rationale says four hours suffices but gives no matched diagnostic-validity test."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-law",
+          "locator": "Sections 4, 7(1)–(2)",
+          "summary": "Current contents and four-to-six-hour framework establish legal baseline only."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-c-017",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The original paragraph acknowledges that modularisation spread the examinations over time and made planning easier, then asserts a substantially greater burden from the oral components. The current rules corroborate the component structure; draft p. 15 estimates future direct oral minutes saved, while WPK describes reform proposals. Neither is a matched 2019 before/after assessment of the substantial causal burden asserted. Retain unresolved, without pretending that all dimensions must worsen to support it.",
+      "limits": "The author does not claim every candidate is worse off or all stress/workload measures rise. Additional assessment occasions plausibly impose organisational burden, while optional timing flexibility remains relevant to the stated substantial causal magnitude.",
+      "resolution_blocker": "No directly matched before/after evidence settling substantial extra burden from the oral modularisation was recovered.",
+      "next_step": "A public candidate survey with clear dates, design and burden definition, or comparable administrative scheduling/preparation evidence, could settle; raw component count alone is not substituted for full magnitude.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-law",
+          "locator": "Sections 5 and 15",
+          "summary": "Confirms module structure and oral-section duration, not overall burden."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-draft",
+          "locator": "Physical p. 15 and rationale pp. 25–26",
+          "summary": "Quantifies proposed future direct oral minutes saved and gives design rationale, not 2019 causal burden measurement."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-wpk-preproposal",
+          "locator": "2025 reform list",
+          "summary": "Independent chamber had proposed oral relief; not a candidate burden study."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-c-018",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The complete original paragraph concerns examiner practice by written grade. Sections 14–18 govern oral questioning and grades but provide no observed question counts or time allocation by written grade. Targeted public searches did not recover examiner logs or a direct independent practice account. Formal oral duties cannot disprove actual selective attention, so the claim remains unresolved.",
+      "limits": "No intent inference or accusation of noncompliance. One anecdote or statutory expectation would not settle a general seldom/focus practice claim.",
+      "resolution_blocker": "Direct independent evidence on actual oral question allocation by prior written grade is unavailable.",
+      "next_step": "Public examination evaluations or anonymised documented examiner-practice data could resolve. Do not seek private candidate records or contact authors.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-law",
+          "locator": "Complete sections 14–18",
+          "summary": "No grade-stratified actual questioning data or frequency established."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-c-020",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent.",
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-draft",
+          "locator": "Operative pp. 5–6 Article 1 no. 6",
+          "summary": "Non-core oral waiver at written grade 4.00 matches, preserving poor-grade oral route."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "summary": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "summary": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "summary": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-c-021",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent.",
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-draft",
+          "locator": "Operative p. 6 Article 1 nos. 8 and 12",
+          "summary": "Supplementary core route deletion and transition match."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "summary": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "summary": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "summary": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-c-023",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "supported",
+      "result": "supported",
+      "resolution_basis": "new_primary_evidence_and_explicit_methodological_reassessment",
+      "explanation": "In the original sustainability-assurance paragraph, this is an ordinary qualitative statement that nonfinancial developments commonly have later financial effects, not a numerical prevalence claim about every nonfinancial event. Independent EFRAG IG1 explicitly describes the dimensions as often intertwined, most material impacts developing financial risks/opportunities over time, and delayed cost/income mechanisms. The connectivity paper separately explains crystallisation in later reporting periods. This evidence supports the actual qualitative proposition; the prior demand for a measured universal frequency was stronger than its contextual wording.",
+      "limits": "Support is for the qualitative relationship in reporting, preserving often rather than replacing it with merely possible. Neither source supplies a statistical population frequency, ensures every event becomes financial, nor establishes audit-method identity or one-paper examination sufficiency. EFRAG IG1 is non-authoritative and scoped to ESRS/large CSRD reporting entities.",
+      "resolution_blocker": null,
+      "next_step": "Resolved at the stated scope. Reopen if genuinely different dated evidence or a broader proposition is assessed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-ig1",
+          "locator": "Disclaimer p. 2; pp. 10–14, paras. 33–39 and p. 14 box",
+          "summary": "Independent reporting guidance directly describes common and later financial consequences, with exceptions."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-connectivity",
+          "locator": "Physical pp. 82–83, paras. 5.39–5.42",
+          "summary": "Explains later financial recognition/crystallisation of qualitative/nonfinancial matters."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/root-primary-checks.json",
+          "source_id": "follow-root-efrag-intertemporal",
+          "locator": "EFRAGIG1complete10–14 and originalIDW4",
+          "summary": "Root independent source/context check; read extent and limitations retained in saved note."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "accept_scoped_resolution",
+      "root_review": "Root independently read EFRAGIG1disclaimer and10–14, visually inspected14, and read IDW4. Accept ordinary common intertemporal reporting relationship; risks/opportunities are not guaranteed realised effects for every event."
+    },
+    {
+      "claim_id": "short-c-025",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent. The sustainability-exam text is conditional on separate future CSRD/WPO changes, not already-operative law.",
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-draft",
+          "locator": "Operative p. 6 Article 1 no. 10 and footnote 1",
+          "summary": "Future conditional sustainability examination one four-hour paper and 4.00 oral waiver match."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "summary": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "summary": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "summary": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-c-026",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent.",
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-draft",
+          "locator": "Operative p. 7 Article 2 no. 3; rationale pp. 29–30",
+          "summary": "Institutional section 13b confirmation eight years matches."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "summary": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "summary": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "summary": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-c-028",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "unresolved",
+      "result": "unresolved",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "Re-read law and October rationale confirm a continuing ability to refuse credit when curriculum changes destroy equivalence. But the full recorded compound also asserts cessation and preservation of competence. Current section 9(6) is a conditional refusal provision, not automatic cancellation after any material change; a fair reading makes materiality relative to equivalence. The exact September version remains unavailable, and the safeguard alone does not establish empirical unchanged competence. Retain unresolved rather than manufacture a wording error.",
+      "limits": "The author’s reasonable equivalence-related reading is retained. No error arises solely because the short phrase says credit ceases rather than spelling out the administrative refusal process.",
+      "resolution_blocker": "Exact addressed text and the full safeguard/competence-effect compound are not independently settled.",
+      "next_step": "A recovered September text could settle its legal component; retain the separate scope of any quality-preservation inference instead of silently dropping it.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-wpanrv",
+          "locator": "Section 9(6)",
+          "summary": "Refusal can be justified where redesign removes equivalence."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-draft",
+          "locator": "Physical p. 7 and pp. 29–30",
+          "summary": "Retains renumbered section 9(4) safeguard and states its quality rationale."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-version-probes",
+          "locator": "Version recovery result",
+          "summary": "No dated September original recovered."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "retain_unresolved",
+      "root_review": "Root assessed the frozen proposal, recorded original proposition, source-check records and independent peer reasons. Retain unresolved for the full stated scope; partial corroboration or failure to find a source is not a contradiction."
+    },
+    {
+      "claim_id": "short-c-031",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "supported",
+      "result": "supported",
+      "resolution_basis": "new_independent_primary_judicial_evidence_and_methodological_reassessment",
+      "explanation": "IDW p. 6 says work with professional pronouncements is standard in practice, then proposes their use as examination aids. It does not assert every publication is consulted in every assignment or that such use is a universal statutory duty. Independent BayObLG paragraphs 36–38 expressly recognise IDW pronouncements as accepted and commonly used, while distinguishing their lack of legal-norm status. Together with the professional examination catalogue this supports the ordinary standard-practice proposition. The prior survey demand across all assignments overstated the target.",
+      "limits": "The court’s case concerns valuation; it does not establish a measured profession-wide usage percentage, obligation to follow every IDW view, or that current examination aids already permit these publications. Those stronger propositions are not assessed as supported.",
+      "resolution_blocker": null,
+      "next_step": "Resolved at the stated scope. Reopen if genuinely different dated evidence or a broader proposition is assessed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-bayoblg",
+          "locator": "Header and paras. 32–39, especially 37–38",
+          "summary": "Independent judicial account expressly treats IDW pronouncements as accepted/common, without binding norm status."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-law",
+          "locator": "Section 4(2)2(a), (4)",
+          "summary": "Professional standards and business valuation are examined professional subject matter."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/root-primary-checks.json",
+          "source_id": "follow-root-wpk-auditpractice",
+          "locator": "WPKcomplete substantive2020answer; originalIDW6",
+          "summary": "Root independent source/context check; read extent and limitations retained in saved note."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/ar-primary-checks.json",
+          "source_id": "uf-ar-c-wpk2020",
+          "locator": "Complete substantive WPK2020answer",
+          "summary": "Independent peer recovered audit-specific practice corroboration beyond valuation."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "accept_scoped_resolution",
+      "root_review": "Root read court34–39 and full WPK2020substantiveanswer plus IDW6. Audit-specific WPK corroboration supplements valuation-only court scope. Accept ordinary professional use, not universal legal duty or every-publication usage."
+    },
+    {
+      "claim_id": "short-c-032",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "supported",
+      "result": "supported",
+      "resolution_basis": "primary_publication_chronology_and_author_specific_methodological_reassessment",
+      "explanation": "BVBC’s 13 October letter does not identify a 23 September version. Its credit-scope description is directly corroborated by the ministry’s public October proposal, which predates that letter, and independently by WPO section 13b’s university-only statutory credit boundary. Article 2 supplies institutional higher-education relief, without a vocational-examination credit category. Requiring authentication of IDW’s separately named September dispatch was an inapplicable additional condition for this BVBC proposition.",
+      "limits": "No September dispatch bytes have been authenticated and no claim of their exact identity is made. Support applies to BVBC’s undated proposal reference and described features, not proof of delivery, enactment or achieved competence. Eight-year institutional confirmation differs from the existing individual degree-age limit.",
+      "resolution_blocker": null,
+      "next_step": "Resolved at the stated scope. Reopen if genuinely different dated evidence or a broader proposition is assessed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-wpo",
+          "locator": "Section 13b and delegated authority",
+          "summary": "University-education credit route is the independent statutory scope; no vocational category."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-draft",
+          "locator": "Physical p. 7 Article 2; pp. 29–30",
+          "summary": "Operative relief and rationale concern university programmes/confirmations."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "7 October publication listing and consultation chronology",
+          "summary": "Current public proposal precedes BVBC 13 October letter."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/root-primary-checks.json",
+          "source_id": "follow-root-wpexam-october-scope",
+          "locator": "Octoberproposal7/29–30,WPO13b,BVBC2/4",
+          "summary": "Root independent source/context check; read extent and limitations retained in saved note."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "accept_scoped_resolution",
+      "root_review": "Root independently read current Article2/rationale29–30,WPO13b and BVBC2/4. BVBC has no September qualifier. Accept the public October proposal description and higher-education credit boundary, without excluding other professional-entry routes."
+    },
+    {
+      "claim_id": "short-c-042",
+      "initial_proposal_file": "research/factual-checks/unresolved-followup-20261026/agents/resolutions-c.json",
+      "initial_proposed_result": "supported",
+      "result": "supported",
+      "resolution_basis": "primary_publication_chronology_and_author_specific_methodological_reassessment",
+      "explanation": "BVBC’s 13 October letter does not name a September draft date. The public ministry proposal created on 6 October/published 7 October expressly gives institutional confirmations eight years in Article 2 no. 3, with matching rationale pp. 29–30. The actual proposition is a description of that proposal, not a claim about exact September dispatch bytes. The previous version-only obstacle improperly imported IDW’s separately dated referent; support this BVBC description on direct pre-letter official proposal evidence.",
+      "limits": "No September dispatch bytes have been authenticated and no claim of their exact identity is made. Support applies to BVBC’s undated proposal reference and described features, not proof of delivery, enactment or achieved competence. Eight-year institutional confirmation differs from the existing individual degree-age limit.",
+      "resolution_blocker": null,
+      "next_step": "Resolved at the stated scope. Reopen if genuinely different dated evidence or a broader proposition is assessed.",
+      "evidence": [
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-draft",
+          "locator": "Physical p. 7 Article 2 no. 3 and pp. 29–30",
+          "summary": "Express eight-year institutional confirmation validity."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "7 October draft publication listing",
+          "summary": "Published proposal chronology precedes BVBC 13 October letter."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+          "source_id": "uf-c-wpanrv",
+          "locator": "Sections 8 and 9(2)",
+          "summary": "Current institutional confirmation and individual degree-age limit are distinct."
+        },
+        {
+          "source_file": "research/factual-checks/unresolved-followup-20261026/root-primary-checks.json",
+          "source_id": "follow-root-wpexam-october-scope",
+          "locator": "Octoberproposal7/29–30 and BVBC4",
+          "summary": "Root independent source/context check; read extent and limitations retained in saved note."
+        }
+      ],
+      "peer_review_file": "research/factual-checks/unresolved-followup-20261026/reviews/a-reviews-c.json",
+      "peer_verdict": "accept",
+      "root_decision": "accept_scoped_resolution",
+      "root_review": "Root independently read Article2no3 and29–30 plus BVBC4. Accept eight-year institutional confirmation description in pre-letter October public proposal; retain distinction from individual degree age and unverified September attachment."
+    }
+  ],
+  "new_main_findings": 0,
+  "new_error_candidates": [],
+  "review_method": "Three frozen initial investigations; rotated independent original-context/primary-source review of all56; root read every proposal and peer reason and independently checked every proposed resolution.",
+  "preservation": "Prior completed ledgers/reviews/reports remain byte-identical; this is a separate overlay.",
+  "limits": [
+    "AI review only; no author contact or human specialist confirmation.",
+    "Support is scoped; no representative error rate, universal causal guarantee or author-intent inference."
+  ]
+}

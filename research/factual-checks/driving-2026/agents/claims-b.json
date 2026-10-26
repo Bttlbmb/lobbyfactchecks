@@ -1,0 +1,1317 @@
+{
+  "researcher": "b",
+  "batch": "driving-2026",
+  "status": "initial_inventory_frozen",
+  "completed_at_utc": "2026-10-25T11:04:05.559557+00:00",
+  "documents": [
+    {
+      "id": "bt-transport-1221870",
+      "author": "ADAC",
+      "url": "https://www.bundestag.de/resource/blob/1221870/Stellungnahme-Chiellino-ADAC.pdf",
+      "local_file": "research/round3-energy/sources/submissions/bt-transport-1221870.pdf",
+      "sha256": "760b5ab2bcaf251758d1aac024fb9a1543979d54fe81a957e2784807bd6023df",
+      "physical_author_pages_read": 3,
+      "depth": "full_submission",
+      "author_date": "2026-10-01",
+      "committee_cover_date": "2026-10-01",
+      "submission_date_verified": false,
+      "screen_id": "r3-fahrlehrer-1221870",
+      "physical_pages": 3,
+      "pilot_text": "research/factual-checks/driving-2026/text/bt-transport-1221870.txt",
+      "page_scope": "Physical PDF pages, including covers and appendices where present.",
+      "external_submission": true,
+      "pages_read": [
+        1,
+        2,
+        3
+      ],
+      "fully_read": true,
+      "read_order": "All original pages read before consulting earlier targeted dispositions or counterpart inventory.",
+      "visual_checks": [
+        2
+      ]
+    },
+    {
+      "id": "bt-transport-1222032",
+      "author": "Bundesvereinigung der Fahrlehrerverbände",
+      "url": "https://www.bundestag.de/resource/blob/1222032/Stellungnahme-Kopp-BVF.pdf",
+      "local_file": "research/round3-energy/sources/submissions/bt-transport-1222032.pdf",
+      "sha256": "9d49f58323d6b0d151bfa3bf126a1d98dda226b38e3cf93ebb28c8552d923465",
+      "physical_author_pages_read": 5,
+      "depth": "full_submission",
+      "author_date": "2026-10-01",
+      "committee_cover_date": "2026-10-01",
+      "submission_date_verified": false,
+      "screen_id": "r3-fahrlehrer-1222032",
+      "physical_pages": 5,
+      "pilot_text": "research/factual-checks/driving-2026/text/bt-transport-1222032.txt",
+      "page_scope": "Physical PDF pages, including covers and appendices where present.",
+      "external_submission": true,
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fully_read": true,
+      "read_order": "All original pages read before consulting earlier targeted dispositions or counterpart inventory.",
+      "visual_checks": [
+        5
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "driving-b-adac-01",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "auch außerhalb der Fahrschule",
+      "claim_en": "The bill permits supervised pre-test driving practice outside driving school.",
+      "claim_type": "draft_description",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-draft",
+          "locator": "Proposed StVG §2d, experimentation and implementing permissions"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The bill creates an authorised experimentation route for supervised practice before full licensing, with statutory safeguards and implementing conditions.",
+      "limits": "This is a proposed route and not an unrestricted existing parental permission.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-02",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "fehlen mehr als 10.000 Fahrlehrende",
+      "claim_en": "MOVING estimates a shortage exceeding 10,000 driving instructors.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": true,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-moving2025",
+          "locator": "Physical page 3; footnote 8, MOVING 2025 survey N=400"
+        }
+      ],
+      "result": "supported",
+      "explanation": "MOVING reports an estimated 10,926 vacancies from its January 2025 industry survey. This supports the explicitly attributed estimate.",
+      "limits": "A survey extrapolation is not an official census of unique vacancies or proof of the exact shortage in October 2026.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-03",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "rund 35.000 aktiven Fahrlehrenden",
+      "claim_en": "Germany has about 35,000 active driving instructors.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": true,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-moving-shortage",
+          "locator": "Physical pages 9–10, age cut-offs, active estimate and retirement scenario"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The primary analysis distinguishes licence holders, those under retirement-age cut-offs and a modelled active estimate near 32,000. It does not authenticate a matching current 35,000 active-person denominator.",
+      "limits": "Licence possession, age-based scenarios and actual occupational activity must not be conflated. Approximation or a newer industry estimate remains possible.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-04",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Durchschnittsalter von rund 55 Jahren",
+      "claim_en": "The active instructor workforce averages about 55 years of age.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": true,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-moving-shortage",
+          "locator": "Physical page 6; age statistics and forecast for 2025"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The source reports an age around 54 for licence holders and forecasts over 55 in 2025. That is not an observed October 2026 mean for the active workforce.",
+      "limits": "The approximate value is plausible, but population and forecast/observation scope remain unresolved.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-05",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "von 48 Prozent auf 21 Prozent",
+      "claim_en": "The share reporting class-B costs below €2,500 fell from 48% to 21% across earlier and recent acquisition cohorts in the 2023 ADAC survey.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": true,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-adac-survey-chart",
+          "locator": "Physical page 21 / printed 19, chart; three-to-four-year versus six-month-or-less licence tenure"
+        },
+        {
+          "source_id": "driving-b-survey",
+          "locator": "Survey sample N=1,100 and acquisition-cohort comparison"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The chart reproduces both percentages for the stated older and recent acquisition cohorts.",
+      "limits": "Retrospective survey comparison, not a longitudinal price index or all German applicants; the word halved is approximate.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-06",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "von 10 Prozent auf 22",
+      "claim_en": "The €3,500–4,500 cost band grew from 10% to 22% in the same survey cohort comparison.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": true,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-adac-survey-chart",
+          "locator": "Physical page 21 / printed 19, cost chart"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The original chart displays 10% and 22% for that band.",
+      "limits": "Survey bands use boundary conventions; this does not establish exact unrounded market shares.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-07",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "inzwischen mit 3400 Euro",
+      "claim_en": "The transport ministry gives average class-B licence costs of about €3,400.",
+      "claim_type": "attributed_statistic",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-web-primary",
+          "locator": "BMV dated 16 October 2025, physical page 1"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The ministry explicitly publishes that approximate figure.",
+      "limits": "Support concerns the ministry attribution, not an independently reproduced October 2026 national price mean.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-08",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "bis zu sieben Monaten",
+      "claim_en": "In the 2023 survey, 59% completed training within seven months.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": true,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-survey",
+          "locator": "Paragraph on training time: nearly 60% needed more than six months"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The original release describes the opposite duration tail: nearly 60% required more than six months. The exact full duration distribution was not authenticated, so it does not support the within-seven-month formulation.",
+      "limits": "Seven months overlaps both descriptions. Without full categories, an apparent tail reversal is not promoted to a demonstrated numerical error. Visually checked original physical page 2.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-09",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "75 Prozent der Befragten",
+      "claim_en": "75% needed at most 30 ordinary driving lessons plus 12 special lessons before passing.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": true,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-survey",
+          "locator": "Reported categories: 42% up to 20 extra lessons, 32% up to 30; 12 special lessons"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The primary release gives 42% plus 32%, totalling 74% in the reported categories, approximately three quarters. It does not reproduce the exact 75% or provide unrounded counts.",
+      "limits": "Rounding and a harmless three-quarters approximation are credible. No error finding from a one-point difference.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-10",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Eine Einsparung der laufenden Ausgaben",
+      "claim_en": "If any mandatory in-person theory remains, savings in ongoing driving-school premises costs are impossible at that point.",
+      "claim_type": "economic_mechanism",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-web-primary",
+          "locator": "BMV premises-removal proposal; no school-level fixed/variable cost evaluation"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Keeping some premises can preserve fixed costs, but the source does not quantify room sharing, reduced capacity, timetable or variable operating costs. The categorical no-saving premise is not independently established.",
+      "limits": "The phrase at that point may narrowly mean complete removal of premises costs rather than all operating savings; no overstatement admitted.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-11",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "alle Anforderungen aus dem Theorieunterricht",
+      "claim_en": "Passing the theory examination demonstrates fulfilment of all theory-training requirements and a comparable starting point across learning formats.",
+      "claim_type": "educational_inference",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-fev",
+          "locator": "§16 theory examination; Annex 7"
+        },
+        {
+          "source_id": "driving-b-fahrschausbo",
+          "locator": "§1 aims, §4 theory instruction and §6 completion"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The law establishes a common examination of specified knowledge, while the educational aims include attitudes, self-assessment and conduct. Passing alone does not empirically demonstrate full educational equivalence between all learning formats.",
+      "limits": "A narrower legal point about meeting the common examination requirement is supported; the complete pedagogical-equivalence proposition remains unestablished.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-12",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "ausschließlich in zugelassenen",
+      "claim_en": "Ordinary German class-B learner instruction is currently tied to authorised driving schools.",
+      "claim_type": "current_law",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-fev",
+          "locator": "§§16–17 training completion requirements; §21 application"
+        },
+        {
+          "source_id": "driving-b-fahrschausbo",
+          "locator": "§§1–6, instructor-led training and completion"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The ordinary first-acquisition route requires professional training and completion attestations.",
+      "limits": "Read in ordinary civilian class-B context. Special service licences, recognition/conversion exceptions and private practice off public roads are not asserted to be absent.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-13",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Frankreich, Österreich oder der Schweiz",
+      "claim_en": "France, Austria and Switzerland allow conditional pre-test practice with lay companions, with school attendance only partly obligatory or absent.",
+      "claim_type": "comparative_law",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-web-primary",
+          "locator": "Austrian FSG-VBV §§2–7"
+        },
+        {
+          "source_id": "driving-b-france-aac",
+          "locator": "Guide page 1, professional initial training plus accompanied driving"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Primary French and Austrian sources support a mixed professional/lay route, not a complete school exemption in those countries. The Swiss operative text was search-indexed but current direct/reader retrieval returned only a JavaScript shell.",
+      "limits": "The original disjunctive some-or-none school requirement is plausible and not refuted; complete named-country verification remains limited. No conclusion from the inaccessible Swiss shell.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-14",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Bis zu 3000 km",
+      "claim_en": "Foreign accompanied-driving curricula provide up to 3,000 km of parental pre-test practice.",
+      "claim_type": "comparative_training_rule",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-web-primary",
+          "locator": "Austrian §5 minimum 3,000 km"
+        },
+        {
+          "source_id": "driving-b-france-aac",
+          "locator": "AAC route requires at least 3,000 km"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The primary examples specify at least 3,000 km, rather than an upper cap. The author may use up to colloquially to illustrate the scale, but the precise curriculum quantity statement is not established.",
+      "limits": "No finding is inferred from an illustrative minimum/maximum shorthand without clearer intended scope.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-15",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "zwischen 500 und 700 km",
+      "claim_en": "German learners average 500–700 km of practice by the test.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-adac-bf17",
+          "locator": "Context compares around 500 school km with 1,400 accompanied km"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "An ADAC account supplies a similar school-distance estimate, but the sampled cohort, estimator and current national representativeness are not disclosed in the checked passage.",
+      "limits": "A statement repeated by the same issuer does not independently establish this national mean.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-16",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "auf bis zu 2000 km",
+      "claim_en": "BF17 increases total practice before first unaccompanied driving to about 2,000 km.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-adac-bf17",
+          "locator": "Survey account: average 1,400 accompanied km plus around 500 school km"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The older survey account is roughly consistent with the illustrative total, but it does not authenticate an October 2026 cohort or a universal maximum.",
+      "limits": "Approximate historical corroboration retained; a cap, national current mean and dose distribution are distinct.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-17",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "liegt aktuell bei rund 25%",
+      "claim_en": "Currently around 25% obtain their licence before age 18, compared with over 40% twelve years earlier.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-web-foreign",
+          "locator": "DVR 2014 BF17 context identifies a different quarter statistic: full twelve-month accompanied phase"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "No matched official series with a stated denominator and reference years was authenticated. A quarter using the full accompanying period is a different metric from obtaining a licence before 18.",
+      "limits": "Do not silently substitute BF17 practical first-test shares, all new licences, youth population shares or full-phase participants for one another.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-18",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "signifikant abgenommen",
+      "claim_en": "Average experience at the start of unaccompanied driving has significantly fallen, caused by longer training duration.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-survey",
+          "locator": "2023 retrospective time report"
+        },
+        {
+          "source_id": "driving-b-web-foreign",
+          "locator": "DVR historical BF17 timing context"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The checked sources do not provide a matched longitudinal mileage distribution or identify training duration as the causal explanation for the asserted current decline.",
+      "limits": "Significant may be colloquial rather than a statistical test. Plausibility and association are not a demonstrated causal estimate.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-19",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Zusätzliche Kosten für die Versicherung",
+      "claim_en": "Additional insurance costs of pre-test lay practice would also arise in BF17 and are effectively brought forward rather than newly created.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [],
+      "result": "unresolved",
+      "explanation": "Actual premiums depend on insurer, contract, driver age and timing. No matched quote or policy model establishes equivalence between pre-test and post-test coverage.",
+      "limits": "A plausible cost-timing argument, not proof of a universally identical premium; future aggregate savings excluded.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-20",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "das Unfallrisiko nicht ansteigt",
+      "claim_en": "Foreign experience shows accident risk does not rise when training-process requirements are removed.",
+      "claim_type": "empirical",
+      "materiality": "high",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-web-primary",
+          "locator": "Foreign training rules do not estimate accident effects"
+        },
+        {
+          "source_id": "driving-b-web-foreign",
+          "locator": "DVR reports supervised-practice benefits, not arbitrary requirement removals"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Legal descriptions and evidence favouring additional protected practice do not establish a general causal no-risk result for removing unspecified requirements across countries.",
+      "limits": "Reforms alter multiple components and groups. No policy disagreement or extrapolation uncertainty is promoted to an error.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-21",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "je mehr Fahrpraxis",
+      "claim_en": "BF17 evaluation shows that more protected practice produces a larger later safety benefit.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": true,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-web-foreign",
+          "locator": "DVR 22 April 2024 references BASt dose/safety relation; underlying BASt access denied"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The institutional account reports this relationship, but the underlying evaluated cohorts, adjustment and dose estimates could not be independently re-read because the BASt report retrieval was blocked.",
+      "limits": "The direction is strongly corroborated, but this check does not independently certify the complete empirical/causal proposition. It does not support the broader removal-of-requirements claim.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-adac-22",
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "weniger als 50 Prozent",
+      "claim_en": "Austrian experience suggests fewer than half initially choose lay practice outside school.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-web-foreign",
+          "locator": "Statistics Austria 26 August 2026: L17 33,324 / 90,171 B licences, about 37%; method page 3"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The official series supports a recent L17 share below half, but not the initial adoption period or all lay-practice routes including regular dual training.",
+      "limits": "A current L17 share cannot be silently relabelled as initial uptake of every outside-school route; predicted German uptake is separately excluded.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-bvf-01",
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "fachkundige Erstberatung",
+      "claim_en": "Driving schools currently provide expert initial advice, accompany training and coordinate examination preparation.",
+      "claim_type": "current_practice",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-fahrschausbo",
+          "locator": "§§3–6 training duties and readiness assessment"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The training/attestation duties corroborate core coordination functions. The source does not quantify universal initial counselling practice or the claimed administrative savings.",
+      "limits": "A reasonable description of usual practice, not established for every school or evidence that all functions move to authorities if school binding changes.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-bvf-02",
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "§ 21 Absatz 1 Satz 3 Nummer 2",
+      "claim_en": "Current FeV §21 requires the application to name the training school.",
+      "claim_type": "current_law",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": true,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-fev",
+          "locator": "§21(1), sentence 3, point 2; header amended 12 August 2026"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The named application requirement appears in the operative current text.",
+      "limits": "This verifies the present requirement, not the desirability of retaining it.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-bvf-03",
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Bedenken der kommunalen Spitzenverbände",
+      "claim_en": "The bill records municipal-association concerns about authority burdens from changed school binding.",
+      "claim_type": "attributed_process_claim",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-draft",
+          "locator": "Government bill municipal/administrative discussion"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The complete author context identifies this as the bill’s recorded concern. This independent check has not authenticated the exact municipal submission or the complete referenced passage.",
+      "limits": "The projected staffing/cost effect is a forecast; absence of authenticated source is not evidence of false attribution.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-bvf-04",
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "mindestens zwei Wochen",
+      "claim_en": "FeV §18(1) ordinarily requires at least two weeks before repeating a failed test.",
+      "claim_type": "current_law",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": true,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-fev",
+          "locator": "§18(1), general repetition period and cheating distinction"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The current provision states an appropriate interval ordinarily not less than two weeks.",
+      "limits": "Special cheating provisions and exceptions remain distinct; no immediate retest entitlement is inferred.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-bvf-05",
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "mehr als Regelwissen",
+      "claim_en": "Theory instruction aims to develop responsible behaviour, self-assessment, hazard awareness and consideration as well as rule knowledge.",
+      "claim_type": "educational_legal_aim",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-fahrschausbo",
+          "locator": "§1 goals; theory curriculum in Annex 1"
+        }
+      ],
+      "result": "supported",
+      "explanation": "These elements are explicit statutory educational aims.",
+      "limits": "Support concerns the mandated aims, not proof that any format achieves them equally.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-bvf-06",
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Überland-, Autobahn- und Nachtfahrten",
+      "claim_en": "Special instruction covers rural/interurban, motorway and night driving.",
+      "claim_type": "current_training_rule",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-fahrschausbo",
+          "locator": "§5(3), Annex 4"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The prescribed categories match the description.",
+      "limits": "Their existence does not quantify an independent marginal safety effect of every mandatory lesson.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-bvf-07",
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "generelle Senkung der praktischen Ausbildungskosten",
+      "claim_en": "Removing fixed special-lesson minima alone does not establish a general reduction in practical training costs because individual competence still determines required training.",
+      "claim_type": "conditional_cost_mechanism",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-fahrschausbo",
+          "locator": "§6 competence/readiness requirement"
+        },
+        {
+          "source_id": "driving-b-draft",
+          "locator": "Reform retains training/exam competence requirements"
+        }
+      ],
+      "result": "supported",
+      "explanation": "A minimum is a floor; removing the floor does not mathematically determine each learner’s actual quantity or price. The existing competence/readiness condition remains a separate constraint.",
+      "limits": "Conditional logical claim only, not an estimate that costs will never fall or a certification of a future reform outcome.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-bvf-08",
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Zusammensetzung der jeweiligen Bewerbergruppe",
+      "claim_en": "Pass rates also depend on learner characteristics, language, anxiety and interruptions rather than school quality alone.",
+      "claim_type": "measurement_interpretation",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-fahrschausbo",
+          "locator": "Individual readiness and training requirements; no causal decomposition"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Composition can affect an unadjusted rate, but this check has not independently reconstructed primary data identifying all listed effects or their magnitude.",
+      "limits": "A warning against interpreting raw rates as isolated causal quality measures is reasonable; no quantified causal finding is manufactured.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-bvf-09",
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Einzelpreise ermöglichen",
+      "claim_en": "Individual service prices do not determine the eventual total cost without the learner’s quantities and service mix.",
+      "claim_type": "cost_accounting",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-web-primary",
+          "locator": "BMV physical pages 2–3, multiple cost components"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Total cost depends on both unit prices and quantities across components. Individual unit prices alone cannot determine the learner-specific total.",
+      "limits": "This does not show that transparent unit prices are useless for comparison.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-bvf-10",
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Erhebung, Pflege und Kontrolle",
+      "claim_en": "The proposed transparency register requires collection, maintenance and checking of data.",
+      "claim_type": "draft_administrative_mechanism",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-draft",
+          "locator": "FahrlG §32 publication/data duties and register provisions §§59ff"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The bill explicitly creates submission/update and register-management functions.",
+      "limits": "Actual net administrative costs, commercial-platform effects and cost pass-through are future empirical questions excluded from certification.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-bvf-11",
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "nächtliche Fahrbeschränkungen",
+      "claim_en": "Finland introduced stricter age-exception criteria and night driving restrictions for 17-year-olds in 2026.",
+      "claim_type": "foreign_law",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-traficom-reform",
+          "locator": "Changes effective 29 May 2026: exception criteria and 00:00–05:00 restriction"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Traficom’s primary account confirms both changes and their commencement.",
+      "limits": "Targeted measures are not proof that an earlier reform was generally reversed or caused a particular accident trend.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-b-bvf-12",
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        5
+      ],
+      "section": "Authored statement on cited physical pages",
+      "original_excerpt": "Zum 1. Oktober 2026",
+      "claim_en": "Finland expanded mandatory risk-recognition training on 1 October 2026.",
+      "claim_type": "foreign_training_rule",
+      "materiality": "medium",
+      "policy_link": "Premise for the proposed affordability, learning-format, supervision or safety safeguards in driving-instruction reform.",
+      "cited_by_author": false,
+      "check_method": [
+        "Read all original pages before earlier dispositions",
+        "Independent primary legal, survey, statistical and study-scope checks; explicit access and time limitations"
+      ],
+      "evidence": [
+        {
+          "source_id": "driving-b-traficom-oct",
+          "locator": "11 June 2026, updated 23 June; 8 to 12 hours from 1 October"
+        }
+      ],
+      "result": "supported",
+      "explanation": "The primary notice confirms the exact date and expansion, applied according to driving-test date.",
+      "limits": "Additional simulator rules and transitional credit are not conflated with a blanket ban on digital instruction.",
+      "check_completed": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "driving-b-survey",
+      "title": "ADAC original survey release, 7 November 2023",
+      "url": "https://presse.adac.de/meldungen/adac-ev/verkehr/gute-noten-fuer-die-fahrschulen-aber-der-weg-zum-fuehrerschein-ist-weit-und-teuer.html",
+      "retrieved_at": "2026-10-25T10:56:47.658011+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 200,
+      "resolved_url": "https://presse.adac.de/meldungen/adac-ev/verkehr/gute-noten-fuer-die-fahrschulen-aber-der-weg-zum-fuehrerschein-ist-weit-und-teuer.html",
+      "content_type": "text/html; charset=UTF-8",
+      "local_file": "research/factual-checks/driving-2026/sources/b-survey.html",
+      "sha256": "33c85f772fd6954b87f5aba77d6ac51bffff4ae390c567162418296ce41f1e1a",
+      "bytes": 48436,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-b-adac-survey-chart",
+      "title": "ADAC mobility policy paper 2025–2029, original 2023 survey chart",
+      "url": "https://assets.adac.de/image/upload/v1737626958/ADAC-eV/KOR/Text/PDF/ADAC_Impulse_2025-2029_-_Langfassung_x1c0hl.pdf",
+      "retrieved_at": "2026-10-25T10:56:47.658454+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 200,
+      "resolved_url": "https://assets.adac.de/image/upload/v1737626958/ADAC-eV/KOR/Text/PDF/ADAC_Impulse_2025-2029_-_Langfassung_x1c0hl.pdf",
+      "content_type": "application/pdf",
+      "local_file": "research/factual-checks/driving-2026/sources/b-adac-survey-chart.pdf",
+      "sha256": "230ca5966f1fcfc477ac01d34b1ff70cd74998309c96acaa34ae3ca3ff5ad7d6",
+      "bytes": 3027932,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-b-moving-shortage",
+      "title": "MOVING driving-instructor shortage analysis, 2024",
+      "url": "https://www.moving-roadsafety.com/wp-content/uploads/2024/06/Final_MOVING_-Fahrlehrermangel_Analyse-Versand.pdf",
+      "retrieved_at": "2026-10-25T10:56:47.658651+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 200,
+      "resolved_url": "https://www.moving-roadsafety.com/wp-content/uploads/2024/06/Final_MOVING_-Fahrlehrermangel_Analyse-Versand.pdf",
+      "content_type": "application/pdf",
+      "local_file": "research/factual-checks/driving-2026/sources/b-moving-shortage.pdf",
+      "sha256": "9214e999a831983df01d8c34346b642b8687e9fc092771db2ca8a03ef083748d",
+      "bytes": 965313,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-b-moving2025",
+      "title": "MOVING industry outlook 2025, January survey N=400",
+      "url": "https://www.moving-roadsafety.com/wp-content/uploads/2025/03/Final_Branchenaussichten-2025.pdf",
+      "retrieved_at": "2026-10-25T10:56:47.658824+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 200,
+      "resolved_url": "https://www.moving-roadsafety.com/wp-content/uploads/2025/03/Final_Branchenaussichten-2025.pdf",
+      "content_type": "application/pdf",
+      "local_file": "research/factual-checks/driving-2026/sources/b-moving2025.pdf",
+      "sha256": "cabc7a9da4349509eb24cb4a956a018a601c7a5c59e2e00865186584586aee4f",
+      "bytes": 722994,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-b-bmv-costs",
+      "title": "bmv-costs",
+      "url": "https://www.bmv.de/SharedDocs/DE/Anlage/K/presse/bezahlbarer-fuehrerschein-eckpunkte.pdf?__blob=publicationFile",
+      "retrieved_at": "2026-10-25T10:56:47.658976+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "usable_as_evidence": false,
+      "error": "[Errno 54] Connection reset by peer"
+    },
+    {
+      "id": "driving-b-traficom-oct",
+      "title": "Traficom, training changes effective 1 October 2026",
+      "url": "https://www.traficom.fi/en/news/planning-obtain-driving-licence-take-note-these-changes-entering-force-october",
+      "retrieved_at": "2026-10-25T10:56:47.659119+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 200,
+      "resolved_url": "https://www.traficom.fi/en/news/planning-obtain-driving-licence-take-note-these-changes-entering-force-october",
+      "content_type": "text/html; charset=utf-8",
+      "local_file": "research/factual-checks/driving-2026/sources/b-traficom-oct.html",
+      "sha256": "08a5add9a1297fbb49338dc9da1d6a2436ea1bfd5d1238a3de4a8ee01eadc92c",
+      "bytes": 460893,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-b-traficom-reform",
+      "title": "Traficom, Driving Licence Act reform 2026",
+      "url": "https://www.traficom.fi/en/drivers-and-vehicles/driving-licenses/driving-licence-act-reform-what-will-change",
+      "retrieved_at": "2026-10-25T10:56:48.643734+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 200,
+      "resolved_url": "https://www.traficom.fi/en/drivers-and-vehicles/driving-licenses/driving-licence-act-reform-what-will-change",
+      "content_type": "text/html; charset=utf-8",
+      "local_file": "research/factual-checks/driving-2026/sources/b-traficom-reform.html",
+      "sha256": "ab93c2675188b793bd81dcbf98a50533b05484262239ac27b89f8c38fc8d15ff",
+      "bytes": 469898,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-b-austria-l17",
+      "title": "austria-l17",
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10012898",
+      "retrieved_at": "2026-10-25T10:56:48.930956+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "usable_as_evidence": false,
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
+    },
+    {
+      "id": "driving-b-france-aac",
+      "title": "French road-safety authority, accompanied driving guide, June 2024",
+      "url": "https://www.securite-routiere.gouv.fr/sites/default/files/2024-06/depliant_conduite_accompagnee.pdf",
+      "retrieved_at": "2026-10-25T10:56:50.085731+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 200,
+      "resolved_url": "https://www.securite-routiere.gouv.fr/sites/default/files/2024-06/depliant_conduite_accompagnee.pdf",
+      "content_type": "application/pdf",
+      "local_file": "research/factual-checks/driving-2026/sources/b-france-aac.pdf",
+      "sha256": "2f01ffc7b3ee1d7779afaacfd7c37ee3ec4b17988f7f2190182a9699047e951c",
+      "bytes": 4686914,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-b-swiss-svg",
+      "title": "swiss-svg",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/679_705_685",
+      "retrieved_at": "2026-10-25T10:56:50.122665+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 200,
+      "resolved_url": "https://www.fedlex.admin.ch/eli/cc/1959/679_705_685",
+      "content_type": "text/html;charset=UTF-8",
+      "local_file": "research/factual-checks/driving-2026/sources/b-swiss-svg.html",
+      "sha256": "39d0c4d52bf6c1140a7d5b1848e1a625375891aecc22869089e1361f1fd8b3be",
+      "bytes": 77151,
+      "usable_as_evidence": false,
+      "error": "JavaScript shell only; downloaded HTML has no operative Article 15 text. Do not use as statutory evidence."
+    },
+    {
+      "id": "driving-b-adac-bf17",
+      "title": "adac-bf17",
+      "url": "https://www.adac.de/verkehr/rund-um-den-fuehrerschein/erwerb/begleitetes-fahren/",
+      "retrieved_at": "2026-10-25T10:56:50.239941+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 200,
+      "resolved_url": "https://www.adac.de/verkehr/rund-um-den-fuehrerschein/erwerb/begleitetes-fahren/",
+      "content_type": "text/html; charset=utf-8",
+      "local_file": "research/factual-checks/driving-2026/sources/b-adac-bf17.html",
+      "sha256": "cedf0def7db60c69273e16bce7f8ec4391e49889c56f414629a99d626fccf87f",
+      "bytes": 464233,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-b-bast-m218",
+      "title": "bast-m218",
+      "url": "https://bast.opus.hbz-nrw.de/files/544/M218.pdf",
+      "retrieved_at": "2026-10-25T10:56:50.604315+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "usable_as_evidence": false,
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "driving-b-fev",
+      "title": "Fahrerlaubnis-Verordnung consolidated text, amended 12 August 2026",
+      "url": "https://www.gesetze-im-internet.de/fev_2010/BJNR198000010.html",
+      "retrieved_at": "2026-10-25T10:56:51.651637+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 200,
+      "resolved_url": "https://www.gesetze-im-internet.de/fev_2010/BJNR198000010.html",
+      "content_type": "text/html",
+      "local_file": "research/factual-checks/driving-2026/sources/b-fev.html",
+      "sha256": "16e502c3cd50531d7021724d1584b1e1a6ea896a59ae8986936f53c5c517c91e",
+      "bytes": 1042626,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-b-fahrschausbo",
+      "title": "Fahrschüler-Ausbildungsordnung consolidated text",
+      "url": "https://www.gesetze-im-internet.de/fahrschausbo_2012/BJNR131800012.html",
+      "retrieved_at": "2026-10-25T10:56:52.285912+00:00",
+      "temporal_limit": "Current public retrieval; dated publication, cohort and historical legal applicability must be checked against 1 October 2026. No recipient-delivery authentication.",
+      "http_status": 200,
+      "resolved_url": "https://www.gesetze-im-internet.de/fahrschausbo_2012/BJNR131800012.html",
+      "content_type": "text/html",
+      "local_file": "research/factual-checks/driving-2026/sources/b-fahrschausbo.html",
+      "sha256": "c29f2fd309b2b662fd9c3ab725a2cc43e871810cf5451a78f16392924e98f40c",
+      "bytes": 223648,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-b-draft",
+      "title": "Government bill BT 21/7404, 29 July 2026",
+      "url": "https://dserver.bundestag.de/btd/21/074/2107404.pdf",
+      "retrieved_at": "2026-10-25T11:04:05.557675+00:00",
+      "local_file": "research/round3-energy/sources/bt217404-fahrlehrgesetz.pdf",
+      "sha256": "bb8fc57510906f3ec95f751abed4e7402d21c4a2442f0266204918645ca59866",
+      "temporal_limit": "Exact archived parliamentary bill; descriptions concern this bill, not enacted outcomes or an unverified earlier consultation version.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-b-web-primary",
+      "title": "BMV and Austrian law: labelled web extraction",
+      "url": "https://www.bmv.de/SharedDocs/DE/Anlage/K/presse/bezahlbarer-fuehrerschein-eckpunkte.pdf?__blob=publicationFile",
+      "retrieved_at": "2026-10-25T11:04:05.558961+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/b-primary-web-extraction.json",
+      "sha256": "05e7a667af40e26713d1bdec9b1092c4e506ece1a5676ca3cb3d7f32e7ec53f8",
+      "temporal_limit": "Tool extraction, not original bytes. BMV 16 October 2025 and Austrian law amended 2024 predate authorship. BASt challenge within the archive supplies no evidence.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-b-web-foreign",
+      "title": "Statistics Austria and safety-source access checks: labelled web extraction",
+      "url": "https://www.statistik.at/fileadmin/announcement/2026/08/20260826Fuehrerscheine2025.pdf",
+      "retrieved_at": "2026-10-25T11:04:05.559197+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/b-foreign-and-safety-web-extraction.json",
+      "sha256": "30e10ddbb420cf7ec48af8187529b8499ed0cfa46eace91a274e59ff7ec61c08",
+      "temporal_limit": "Statistics Austria release 26 August 2026 is primary. DVR is secondary reporting of BASt and is not treated as the original experiment. Fedlex JavaScript challenge supplies no operative evidence.",
+      "usable_as_evidence": true
+    }
+  ],
+  "exclusions": [
+    {
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        1
+      ],
+      "reason": "Association mission, contact/register identifiers and thanks are incidental provenance. Mobility value and reform goals are normative. Regional supply imbalance is a conditional possibility, not a measured national distribution."
+    },
+    {
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        2
+      ],
+      "reason": "Predicted flexibility, varied experts, approval, greater practice, future savings and lower accident risk are explicitly opportunities/forecasts. No observed savings or universal pedagogical equivalence is inferred; their present legal and cost premises are inventoried."
+    },
+    {
+      "document_id": "bt-transport-1221870",
+      "pdf_pages": [
+        3
+      ],
+      "reason": "Up-to-one-third future saving, predicted initial German uptake and nationwide introduction/evaluation recommendations are forecasts or policy preferences; Austrian empirical premise is retained separately. Contact block is incidental."
+    },
+    {
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        1
+      ],
+      "reason": "Introductory institutional history, nearly-three-decades framing, thanks, quality priorities and reform openness are incidental or normative; no material quantitative historical estimate is used."
+    },
+    {
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "reason": "Desired school binding, six 90-minute presence units, proposed topic list and digital competence documentation are recommendations. Forecasted authority staffing/cost changes and avoided repeats are not observed outcomes. Presence’s asserted special pedagogical role is framed as the association’s judgment, without a specific comparative experimental result."
+    },
+    {
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        4
+      ],
+      "reason": "Predicted selection pressure, commercial portal ranking effects and rural closures/access costs are conditional policy risks, not observed consequences. The cost-accounting and raw-rate premises are separately retained."
+    },
+    {
+      "document_id": "bt-transport-1222032",
+      "pdf_pages": [
+        5
+      ],
+      "reason": "Evaluation, competence safeguards, timing recommendations and constructive participation are normative. The final Finland text expressly rejects interpreting targeted amendments as a blanket reform reversal; no contrary claim is invented."
+    }
+  ],
+  "limits": [
+    "Conservative independent initial check, not a human specialist review or author contact.",
+    "All eight assigned physical pages read; no counterpart inventory or prior issue disposition used for extraction.",
+    "Unresolved access, denominator and causal questions are not error findings. Pure forecasts and preferences are page-based exclusions."
+  ]
+}

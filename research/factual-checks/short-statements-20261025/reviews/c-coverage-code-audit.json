@@ -1,0 +1,140 @@
+{
+  "reviewer": "c",
+  "completed_at_utc": "2026-10-25T12:47:58.697041+00:00",
+  "status": "pass",
+  "audit_scope": "Read-only mixed-process bounded-coverage delta; no live builders or data writes. Current groups remain an in-progress research batch, not completed by these fixtures.",
+  "reviewed_code": {
+    "file": "research/build_bounded_coverage.py",
+    "sha256": "3f889b7351172df0eb48cc7e2adbb0ebc96f826ef9e7d3b5b3ef0b9be4682884",
+    "full_file_read": true,
+    "ast_valid": true
+  },
+  "previous_code": {
+    "file": "research/factual-checks/short-statements-20261025/reviews/bounded-builder-before.py",
+    "sha256": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+    "matching_prior_audited_builder_sha256": true
+  },
+  "method": "Compile prior/current code with canonical __file__ so both resolve the same repo root; run with Path.write_text captured in memory, read-only virtual pilot/protocol/summary/ledger fixtures and suppressed mkdir. Only this authored audit record saved.",
+  "default_regression": {
+    "old_equals_new_except_as_of_utc": true,
+    "new_equals_saved_except_as_of_utc": true,
+    "existing_single_process_branch_text_unchanged": true,
+    "proof_rows": 14,
+    "only_captured_destination": "data/bounded-coverage.json"
+  },
+  "mixed_positive_fixture": {
+    "fixture_only": true,
+    "all_17_document_ids_partitioned": true,
+    "processes": [
+      {
+        "process": "RSV ordinance amendment",
+        "documents": 8,
+        "claims": 15,
+        "outcomes": {
+          "supported": 8,
+          "unresolved": 7
+        },
+        "passed": true
+      },
+      {
+        "process": "Land-register IDNrG proposal",
+        "documents": 7,
+        "claims": 15,
+        "outcomes": {
+          "supported": 8,
+          "unresolved": 7
+        },
+        "passed": true
+      },
+      {
+        "process": "Accountant-examination ordinance",
+        "documents": 2,
+        "claims": 3,
+        "outcomes": {
+          "unresolved": 2,
+          "supported": 1
+        },
+        "passed": true
+      }
+    ],
+    "untouched_other_process_rows": 11,
+    "all_other_rows_identical": true,
+    "whole_summary_total_not_copied_to_each_group": true,
+    "unrelated_fixture_claim_not_counted": true,
+    "no_national_or_every_assertion_closure_inferred": true
+  },
+  "negative_tests": [
+    {
+      "label": "duplicate document across groups",
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Coverage groups must partition the complete batch document set"
+      },
+      "captured_writes": 0
+    },
+    {
+      "label": "missing protocol document",
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Coverage groups must partition the complete batch document set"
+      },
+      "captured_writes": 0
+    },
+    {
+      "label": "duplicate declared processes",
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Coverage groups must identify distinct processes"
+      },
+      "captured_writes": 0
+    },
+    {
+      "label": "wrong proof path",
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Coverage group must match its complete bounded reading proof"
+      },
+      "captured_writes": 0
+    },
+    {
+      "label": "partition preserved but wrong per-proof count",
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Coverage group must match its complete bounded reading proof"
+      },
+      "captured_writes": 0
+    },
+    {
+      "label": "unknown process",
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Coverage group must match its complete bounded reading proof"
+      },
+      "captured_writes": 0
+    }
+  ],
+  "incomplete_mixed_summary_no_annotation": true,
+  "writes_captured_only": true,
+  "original_watch_hashes": {
+    "data/bounded-coverage.json": "5cc2ffa0c8de6f65f6cfc75e04dace8a9ef3725652b2744e42034dff521622dc",
+    "data/factual-check-pilots.json": "410dac70bb7ef5d125c775ece8798a14f74902dc538a51d324aec0ddc5f34a53",
+    "research/factual-checks/short-statements-20261025/protocol.json": "bb9b859c3cd161364f0d69967a81770c27152239a3c80d2dcb51e357c61b9842",
+    "research/factual-checks/short-statements-20261025/agents/claims-c.json": "35588c685450176ed1b2a7319cefee2b5700206c3cccd20a3e3fdecc768a7dda",
+    "research/factual-checks/short-statements-20261025/agents/claims-b.json": "9c073cde771461e0f87bb7b0f9850d18b5c5f50c3d4ebfb34329a082667a5274",
+    "research/build_bounded_coverage.py": "3f889b7351172df0eb48cc7e2adbb0ebc96f826ef9e7d3b5b3ef0b9be4682884",
+    "research/factual-checks/short-statements-20261025/reviews/bounded-builder-before.py": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb"
+  },
+  "all_watched_files_unchanged": true,
+  "concerns": [],
+  "limits": [
+    "Fixture success does not certify completed research or every source claim.",
+    "The bounded builder consumes already validated batch ledgers; unknown claim-document identities are a strict-batch validation responsibility, not broadened in this delta.",
+    "Default and per-group reading proofs retain their existing actor/date/population qualifications."
+  ]
+}

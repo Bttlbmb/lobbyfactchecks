@@ -1,0 +1,166 @@
+{
+  "reviewer": "social_round2 independent inventory/assembly audit",
+  "date": "2026-10-25",
+  "snapshot_sha256": {
+    "data/findings.json": "206f2623c14daf6b548c7c1e007fc19b04841aac7505876fab85ba148f9069f2",
+    "data/unresolved-leads.json": "e631cf930dac228cb82b0dadb71944495795e8c5d4262842291eb5548e05ef8c",
+    "data/screening-pool.json": "3a43c00300d69b0f1b52e75bdd10d5b260aad8155cdfe394d1fb4da651fe5c1f"
+  },
+  "actual_read_extent": "Read both compiled SVDGV records in full and compared every raw field; checked ten round-four pool entries, actual files/hash identities already independently checked by energy. This is not a new independent factual review of the author or a full audit of all pooled documents.",
+  "compiled_case_checks": [
+    {
+      "id": "gedig2026-svdgv-ceilings-social-r4-02",
+      "compiled_file": "data/findings.json",
+      "all_raw_fields_preserved": true,
+      "differing_raw_keys": [],
+      "state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true
+    },
+    {
+      "id": "gedig2026-svdgv-costs-social-r4-01",
+      "compiled_file": "data/unresolved-leads.json",
+      "all_raw_fields_preserved": true,
+      "differing_raw_keys": [],
+      "state": "unresolved_lead",
+      "severity": "minor",
+      "favours_author_request": null
+    }
+  ],
+  "pool_checks": [
+    {
+      "inventory_id": "svdgv-gedig-20261012",
+      "merged_ids": [
+        "svdgv-gedig-20261012"
+      ],
+      "one_merged_row": true,
+      "expected_depth": "full_submission",
+      "actual_depth": "full_submission",
+      "external_submission": true,
+      "authored_date_recorded": true,
+      "raw_date_status": "authored_within_window_delivery_unverified"
+    },
+    {
+      "inventory_id": "dgina-notfall-20260907",
+      "merged_ids": [
+        "dgina-notfall-20260907"
+      ],
+      "one_merged_row": true,
+      "expected_depth": "full_submission",
+      "actual_depth": "full_submission",
+      "external_submission": true,
+      "authored_date_recorded": true,
+      "raw_date_status": "authored_within_window_delivery_unverified"
+    },
+    {
+      "inventory_id": "divi-notfall-cabinet20260422",
+      "merged_ids": [
+        "divi-notfall-cabinet20260422"
+      ],
+      "one_merged_row": true,
+      "expected_depth": "full_submission",
+      "actual_depth": "full_submission",
+      "external_submission": true,
+      "authored_date_recorded": true,
+      "raw_date_status": "authored_date_unverified_committee_cover_20260907"
+    },
+    {
+      "inventory_id": "dgiin-notfall-bt216808",
+      "merged_ids": [
+        "dgiin-notfall-bt216808"
+      ],
+      "one_merged_row": true,
+      "expected_depth": "full_submission",
+      "actual_depth": "full_submission",
+      "external_submission": true,
+      "authored_date_recorded": true,
+      "raw_date_status": "authored_date_unverified"
+    },
+    {
+      "inventory_id": "joint-notfall-quality-cabinet20260422",
+      "merged_ids": [
+        "joint-notfall-quality-cabinet20260422"
+      ],
+      "one_merged_row": true,
+      "expected_depth": "full_submission",
+      "actual_depth": "full_submission",
+      "external_submission": true,
+      "authored_date_recorded": true,
+      "raw_date_status": "authored_date_unverified_committee_cover_20260907"
+    },
+    {
+      "inventory_id": "bag-selbsthilfe-gedig-20260515",
+      "merged_ids": [
+        "bag-selbsthilfe-gedig-20260515"
+      ],
+      "one_merged_row": true,
+      "expected_depth": "full_submission",
+      "actual_depth": "full_submission",
+      "external_submission": true,
+      "authored_date_recorded": true,
+      "raw_date_status": "authored_outside_window_delivery_unverified"
+    },
+    {
+      "inventory_id": "vzbv-gedig-20261012",
+      "merged_ids": [
+        "vzbv-gedig-20261012"
+      ],
+      "one_merged_row": true,
+      "expected_depth": "keyword_triage",
+      "actual_depth": "keyword_triage",
+      "external_submission": true,
+      "authored_date_recorded": true,
+      "raw_date_status": "authored_within_window_delivery_unverified"
+    },
+    {
+      "inventory_id": "rennert-gedig-20261012",
+      "merged_ids": [
+        "rennert-gedig-20261012"
+      ],
+      "one_merged_row": true,
+      "expected_depth": "keyword_triage",
+      "actual_depth": "keyword_triage",
+      "external_submission": true,
+      "authored_date_recorded": true,
+      "raw_date_status": "authored_within_window_delivery_unverified"
+    },
+    {
+      "inventory_id": "dgrn-notfall-20260904",
+      "merged_ids": [
+        "dgrn-notfall-20260904"
+      ],
+      "one_merged_row": true,
+      "expected_depth": "keyword_triage",
+      "actual_depth": "keyword_triage",
+      "external_submission": true,
+      "authored_date_recorded": true,
+      "raw_date_status": "authored_within_window_delivery_unverified"
+    },
+    {
+      "inventory_id": "dbrd-notfall-20260907",
+      "merged_ids": [
+        "dbrd-notfall-20260907"
+      ],
+      "one_merged_row": true,
+      "expected_depth": "full_submission",
+      "actual_depth": "full_submission",
+      "external_submission": true,
+      "authored_date_recorded": true,
+      "raw_date_status": "authored_within_window_delivery_unverified"
+    }
+  ],
+  "verdict": "No count-changing or substantive case-assembly defect identified in the reviewed snapshot. All ten own rows appear once with seven full and three keyword depths and external stakeholder flags; both raw case dispositions and qualifications preserved.",
+  "date_qualification_note": "The merged pool retains authored dates (not delivery dates) via evidence rows. BAG remains dated 15 May, while the detailed outside-window/delivery-unverified status remains in the linked own inventory and ledger rather than a dedicated merged field. Do not use global pool membership as July–October eligibility. DIVI/joint/DGIIN authored-date uncertainty likewise remains in linked raw ledgers.",
+  "source_access_note": "GKV framework/report sources remain web-read originals without fabricated local PDF archives. Exact draft actual file is 258 pages.",
+  "quote_audit_reference": "research/round4-social/final-audit.json",
+  "no_compiled_files_edited": true,
+  "post_locator_refinement_addendum": {
+    "checked_at_utc": "2026-10-25T06:18:50.860296+00:00",
+    "compiled_findings_sha256": "052f434c7b4a4db09b9cf837e78513acccd12061864e40ff01107167f5334b6f",
+    "compiled_source_registry_sha256": "76b2ea010c375a07b43907bd3be158a023e95b02b5516cf295ce5c86b0d682c5",
+    "all_ceiling_raw_fields_match_rebuilt_record": true,
+    "request_locator_is_visual_physical16": true,
+    "source_registry_checks": "Six SVDGV author/draft/framework/report/implementation/statutory sources have correct identities and explicit actual archive versus web-only status. Exact bill declares 258 pages.",
+    "minor_source_metadata_bug_reported": "Pre-existing gkv-diga-report2025.scope_note said physical13/printed2 for the admission distinction. Original primary web PDF independently rechecked: zero-based page12 is physical13, printed1. Root informed to correct only this metadata note; new ceiling passages physical23–25 unaffected."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "reviewer": "energy_hearings",
+  "reviewed_at": "2026-10-25",
+  "candidate_id": "idnrg2026-kommunale-deadline-root-r3-01",
+  "disposition": "retain_provisional_finding",
+  "recommended_severity": "minor",
+  "recommended_favours_author_request": true,
+  "reading_extent": {
+    "submission": "All six physical and printed author pages, including the complete opening timetable paragraph and conclusion.",
+    "addressed_draft": "July 20 regulation proposal: cover, operative pages 2–3, explanatory page 8; not the whole draft.",
+    "primary_law": "Official current IDNrG § 2 no. 1, RegMoG Article 22, and both pages of the original 2023 I no. 230 commencement notice."
+  },
+  "assessment": "The cited August 31, 2028 deadline is a narrow factual timetable error. The statute requires the end of the fifth calendar year following commencement, not five calendar anniversaries. The official notice brings § 2 into force on August 31, 2023, yielding December 31, 2028. The exact addressed draft expressly uses that December date.",
+  "benign_alternatives_tested": [
+    {
+      "alternative": "Five years after commencement on August 31, 2023.",
+      "result": "This explains a possible anniversary calculation but conflicts with the express calendar-year rule; no intent is inferred."
+    },
+    {
+      "alternative": "A separate NOOTS operational or political target.",
+      "result": "The author expressly describes the deadline fixed for the other registers and later invokes the deadlines provided by IDNrG. The full statement provides no separately identified NOOTS deadline. Targeted exact-date searches did not supply an affirmative rescue, but the finding rests on the statute and exact draft rather than search absence."
+    }
+  ],
+  "materiality": "Four months are added to the apparent mismatch with the ground-register end-2032 deadline. This slightly strengthens the explicit request to examine shortening that deadline, but an approximately four-year gap remains after correction. It does not undermine the broader synchronisation or cadastral integration rationale.",
+  "limits": "No claim that acceleration is undesirable, that all registers are otherwise ready, or that the author acted intentionally. Source dates are not evidence of actual delivery.",
+  "sources": [
+    {
+      "id": "idnrg-section2-official",
+      "url": "https://www.gesetze-im-internet.de/idnrg/__2.html",
+      "access": "web full section read"
+    },
+    {
+      "id": "regmog-article22-official",
+      "url": "https://www.gesetze-im-internet.de/regmog/art_22.html",
+      "access": "web full article read"
+    },
+    {
+      "id": "idnrg-commencement-2023-230",
+      "url": "https://www.recht.bund.de/bgbl/1/2023/230/regelungstext.pdf?__blob=publicationFile&v=2",
+      "local_file": "research/round3-energy/sources/idnrg-commencement-20230831.pdf",
+      "sha256": "4deb35a23ec27895b06dbf47070908a0eb2bc858bd4a1fcc7ca0cacaeb9026f6",
+      "access": "Original two-page PDF downloaded and all text read; web reader inaccessible."
+    }
+  ],
+  "source_quote_policy": "No submission quotations repeated in this review."
+}

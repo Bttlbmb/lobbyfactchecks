@@ -1,0 +1,454 @@
+{
+  "reviewer": "root_ai_screen",
+  "date": "2026-10-24",
+  "review_type": "Manual reading-order resolution for mechanically unmatched PDF excerpts; not a factual endorsement or specialist review",
+  "checks": [
+    {
+      "issue_id": "enefg2026-vik-a01",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "ageb-jahresbericht-2020",
+      "pdf_page": 3,
+      "evidence": "research/energy/sources/ageb-jahresbericht-2020-p3.png",
+      "reason": "Opening sentence continues from left column first two lines to right column first line; read by columns, not across rows. Lead researcher visually inspected the exact complete sentence."
+    },
+    {
+      "issue_id": "ggdg2026-sdc-root01",
+      "field": "additional_counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "jim-2025",
+      "pdf_page": 5,
+      "evidence": "research/root/jim-2025-p5.png",
+      "reason": "Exact two-line margin note; extraction interleaves it with the main column. Visually inspected by lead researcher."
+    },
+    {
+      "issue_id": "luftvst2026-bdi-tax04",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "breg-finanzplan-2020-bt1922601",
+      "pdf_page": 63,
+      "evidence": "research/tax-round2/sources/bt1922601-p63.png",
+      "reason": "Exact opening sentence of right column; extraction interleaves left-column fiscal discussion. Lead researcher visually inspected."
+    },
+    {
+      "issue_id": "wassbg2024-waniczek-a01",
+      "field": "additional_request_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "wassbg-hearing-transcript-2024",
+      "pdf_page": 26,
+      "evidence": "research/root/wassbg-transcript-p26.png",
+      "reason": "Exact words continue over three lines in the left column; visual inspection confirms the extraction interleaves the other column."
+    },
+    {
+      "issue_id": "jstg2026-bdst-tax01",
+      "field": "claim_quote",
+      "result": "verified_visual_table_cell",
+      "source_id": "bdst-jstg2026",
+      "pdf_page": 16,
+      "evidence": "research/tax/bdst-jstg2026-p16.png",
+      "reason": "Exact two-line value in childcare row/current-value column; extraction interleaves adjacent cells. Lead researcher visually inspected. The issue remains unresolved on interpretation."
+    },
+    {
+      "issue_id": "sbgg2023-eggd-a01",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "wong-2019-social-transition",
+      "pdf_page": 10,
+      "evidence": "research/root/wong-2019-p10.png",
+      "reason": "Exact sentence at bottom of right column; unclear is split at a line ending. Visually inspected. The substantive allegation remains unresolved."
+    },
+    {
+      "issue_id": "bstabg2026-pharmadeutschland-a01",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "ostermann2024-cost-review",
+      "pdf_page": 10,
+      "evidence": "research/root/ostermann-2024-p10.png",
+      "reason": "Exact cost-category sentence in right column on printed page125; left-column prose interleaves in extraction. Visually inspected; subgroup and statistical-significance context keeps allegation unresolved."
+    },
+    {
+      "issue_id": "stefeg2024-dgb-tax05",
+      "field": "counter_quote",
+      "result": "verified_visual_table_cell",
+      "source_id": "bt-20-12783",
+      "pdf_page": 8,
+      "evidence": "research/root/bt2012783-p8.png",
+      "reason": "Exact two-line child-allowance change in the left table cell, visually inspected. Record remains unresolved because submission provenance of the precise October edition has not been established."
+    },
+    {
+      "issue_id": "forg2026-financewatch-tax07",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "finma-cs-report-20231219-de",
+      "pdf_page": 6,
+      "evidence": "research/tax-round2/sources/finma-cs-report-p6.png",
+      "reason": "Exact phrase in second paragraph of the left column; right-column text interleaves in extraction. Lead researcher visually inspected and read surrounding March/June2023chronology."
+    },
+    {
+      "issue_id": "begiv2024-bitkom-tax08",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "nkr-annualreport-2023",
+      "pdf_page": 11,
+      "evidence": "research/tax-round2/sources/nkr-annualreport-p11.png",
+      "reason": "Exact cost-increase fragment in the opening paragraph of the right column, ending with gestiegen on the next line. Lead researcher visually inspected; graph distinguishes total26.8billion and business14.5billion, consistent with the record’s comparator caveat."
+    },
+    {
+      "issue_id": "gmodg2026-dmb-energy-poverty-a01",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "iw-energiearmut-55-2022",
+      "pdf_page": 3,
+      "evidence": "research/round2-energy/sources/iw-energy-poverty-p3.png",
+      "reason": "Exact sentence in left column,including original klettere; extraction interleaves right-column text. Root visually inspected fullpage2026-10-25.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "grundsicherung2026-vansuntum-social01",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "bertelsmann-jobsuche-2025",
+      "pdf_page": 13,
+      "evidence": "research/round2-root/rendered/survey13.png",
+      "reason": "Exact question definition in left column. Erwerbstätigkeit wraps across a line while opposite-column text interleaves; root visually inspected fullpage2026-10-25.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "grundsicherung2026-vansuntum-social01",
+      "field": "request_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "grundsicherung-2026-hearing",
+      "pdf_page": 169,
+      "evidence": "research/round2-root/rendered/vansuntum169.png",
+      "reason": "Original request fragment visually confirmed. The text extraction loses the fl ligature in verpflichtenden; no wording has been reconstructed beyond the visible original.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "invest2025-meyer-tax-r2-02",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "uba-ee-2024-march2025",
+      "pdf_page": 14,
+      "evidence": "research/round2-root/rendered/uba-ee14.png",
+      "reason": "Exact sentence spans three lines in left column; extraction interleaves right-column energy-consumption prose. Root visually inspected the complete sentence and surrounding distinction between all electric vehicles and BEVs.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "invest2025-eichfelder-tax-r2-03",
+      "field": "claim_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "eichfelder-investitionssofortprogramm-20250623",
+      "pdf_page": 2,
+      "continues_on_pdf_page": 3,
+      "evidence": "research/round2-tax/sources/eichfelder-p2.png",
+      "additional_evidence": "research/round2-tax/sources/eichfelder-p3.png",
+      "reason": "Root visually inspected both original pages. The quotation crosses the page break; the printed page numeral interrupts extracted text. Exact percentile and both values are visible, with29.76%at the top of page3.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "thg2026-hornsteiner-evidence-a01",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "feldman-co2-forcing-2015",
+      "pdf_page": 1,
+      "evidence": "research/round2-energy/sources/feldman-p1.png",
+      "reason": "Root visually checked the complete abstract. The exact fragment runs across three lines in the left column; extraction interleaves the right column. The model-assisted,local-surface-forcing scope remains explicit.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "geowg2024-muellersyhre-a03",
+      "field": "claim_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "muellersyhre-geowg-20241031",
+      "pdf_page": 14,
+      "evidence": "research/round2-energy/sources/geowg-ocr/page-14.png",
+      "reason": "Root visually inspected the original rendered page and exact fragment. The original PDF text extraction is incomplete; OCR was used only for navigation. The image, not reconstructed OCR wording, verifies the quotation. Unresolved dispositions remain unresolved.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "geowg2024-muellersyhre-a03",
+      "field": "additional_counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "muellersyhre-geowg-20241031",
+      "pdf_page": 14,
+      "evidence": "research/round2-energy/sources/geowg-ocr/page-14.png",
+      "reason": "Root visually inspected the original rendered page and exact fragment. The original PDF text extraction is incomplete; OCR was used only for navigation. The image, not reconstructed OCR wording, verifies the quotation. Unresolved dispositions remain unresolved.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "geowg2024-muellersyhre-a01",
+      "field": "claim_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "muellersyhre-geowg-20241031",
+      "pdf_page": 12,
+      "evidence": "research/round2-energy/sources/geowg-ocr/page-12.png",
+      "reason": "Root visually inspected the original rendered page and exact fragment. The original PDF text extraction is incomplete; OCR was used only for navigation. The image, not reconstructed OCR wording, verifies the quotation. Unresolved dispositions remain unresolved.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "geowg2024-muellersyhre-a01",
+      "field": "additional_claim_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "muellersyhre-geowg-20241031",
+      "pdf_page": 12,
+      "evidence": "research/round2-energy/sources/geowg-ocr/page-12.png",
+      "reason": "Root visually inspected the original rendered page and exact fragment. The original PDF text extraction is incomplete; OCR was used only for navigation. The image, not reconstructed OCR wording, verifies the quotation. Unresolved dispositions remain unresolved.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "geowg2024-muellersyhre-a02",
+      "field": "claim_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "muellersyhre-geowg-20241031",
+      "pdf_page": 15,
+      "evidence": "research/round2-energy/sources/geowg-ocr/page-15.png",
+      "reason": "Root visually inspected the original rendered page and exact fragment. The original PDF text extraction is incomplete; OCR was used only for navigation. The image, not reconstructed OCR wording, verifies the quotation. Unresolved dispositions remain unresolved.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "geowg2024-muellersyhre-a02",
+      "field": "additional_claim_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "muellersyhre-geowg-20241031",
+      "pdf_page": 15,
+      "evidence": "research/round2-energy/sources/geowg-ocr/page-15.png",
+      "reason": "Root visually inspected the original rendered page and exact fragment. The original PDF text extraction is incomplete; OCR was used only for navigation. The image, not reconstructed OCR wording, verifies the quotation. Unresolved dispositions remain unresolved.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "muellersyhre-geowg-20241031",
+      "field": "shared_request_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "muellersyhre-geowg-20241031",
+      "pdf_page": 21,
+      "evidence": "research/round2-energy/sources/geowg-ocr/page-21.png",
+      "reason": "Root visually inspected the original rendered page and exact fragment. The original PDF text extraction is incomplete; OCR was used only for navigation. The image, not reconstructed OCR wording, verifies the quotation. Unresolved dispositions remain unresolved.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "stberg2026-bstbk-tax-r2-04",
+      "field": "claim_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "bstbk-stberg-20260408",
+      "pdf_page": 33,
+      "evidence": "research/round2-tax/sources/bstbk-p33.png",
+      "reason": "Root visually checked the exact photovoltaic claim and its named BFH citation. Trägerkonstruktionen is divided by a discretionary line-break hyphen; the quotation joins that word without changing the original wording.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "netzpaket2026-bee-map-a01",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "bnetza-map-manual-2026",
+      "pdf_page": 3,
+      "evidence": "research/round2-energy/sources/bnetza-map-manual-p3.png",
+      "reason": "Exact grey-definition bullet spans three lines and divides long compound words. Root read the full page including the relative-colour explanation and footnote; original wording verified.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "abortionaccess2026-1000plus-social03",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "fergusson-2008",
+      "pdf_page": 2,
+      "evidence": "research/round2-root/rendered/fergusson2.png",
+      "reason": "Exact complete item(a)in left column; opposite-column covariate text interleaves in extraction. Root read exposure definition and adjacent outcome categories. The clinical/source-scope allegation remains unresolved.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "nipt2024-eiben-social04",
+      "field": "claim_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "eiben-nipt-2024",
+      "pdf_page": 2,
+      "evidence": "research/round2-root/rendered/eiben2.png",
+      "reason": "Exact inference sentence in right column; offensichtlich divides at a discretionary line break. Root read the complete paragraph and subsequent denominator explanation.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "nipt2024-eiben-social04",
+      "field": "request_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "eiben-nipt-2024",
+      "pdf_page": 3,
+      "evidence": "research/round2-root/rendered/eiben3.png",
+      "reason": "Exact fragment in concluding paragraph in left column. Right-column references interleave; full context expressly welcomes monitoring and qualifies its design.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "nipt2024-eiben-social04",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "nipt-debate20165",
+      "pdf_page": 60,
+      "evidence": "research/round2-root/rendered/nipt-debate60.png",
+      "reason": "Exact conditional probability fragment in left column near bottom, immediately following the quoted concern. Root read the surrounding speech; no inference about private understanding.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "dac8-2025-dstg-tax-r2-07",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "irs-ci-annual2021",
+      "pdf_page": 8,
+      "evidence": "research/round2-tax/sources/irs2021-p8.png",
+      "reason": "Exact sentence continues in the right-hand continuation column; the multi-column extraction interleaves other cases. Root visually inspected date and the annual infographic.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "dac8-2025-dstg-tax-r2-07",
+      "field": "additional_counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "tigta-digital-assets-20240710",
+      "pdf_page": 2,
+      "evidence": "research/round2-tax/sources/tigta2024-p2.png",
+      "reason": "Exact highlights fragment is in the right column; left-column text interleaves in extraction. Root visually inspected the original and read the expanded detailed section physical18.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "dac8-2025-georg-growth-tax-r2-08",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "blockpit-tax-study-2025-de",
+      "pdf_page": 4,
+      "evidence": "research/round2-tax/sources/blockpit-study-p4.png",
+      "reason": "The exact two-line infographic caption beneath the7million figure is on printed6; facing pages and other cells interleave in extraction. Root visually checked.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "eeg2027-bsw-price-percent-a01",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "enervis-pv-price-20260618",
+      "pdf_page": 7,
+      "evidence": "research/round2-energy/sources/enervis-pv-price-p7.png",
+      "reason": "Exact lower-left explanation accompanies112.8/89.3price bars. Multi-column extraction interleaves neighbouring explanations. Root visually checked.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "eeg2027-bsw-consumer-costs-a02",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "enervis-pv-price-20260618",
+      "pdf_page": 8,
+      "evidence": "research/round2-energy/sources/enervis-pv-price-p8.png",
+      "reason": "Exact first bullet in methodology right column; chart text interleaves in extraction. Root visually checked component bars13.1and2.6as well as the wording.",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "wolf2026-vdl-root08",
+      "field": "claim_quote",
+      "source_id": "wolf-hearing-protocol-20260223",
+      "pdf_page": 9,
+      "evidence": "research/round2-root/rendered/wolf-protocol9.png",
+      "reason": "Original first sentence in the right column; opposite-column speech interleaves. Exact fragment visually inspected.",
+      "result": "verified_visual_reading_order",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "wolf2026-vdl-root08",
+      "field": "request_quote",
+      "source_id": "wolf-hearing-protocol-20260223",
+      "pdf_page": 9,
+      "evidence": "research/round2-root/rendered/wolf-protocol9.png",
+      "reason": "Original removal request in right column; opposite-column speech interleaves. Exact fragment visually inspected.",
+      "result": "verified_visual_reading_order",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "wolf2026-vdl-root08",
+      "field": "counter_quote",
+      "source_id": "dbbw-damage2024",
+      "pdf_page": 10,
+      "evidence": "research/round2-root/rendered/wolf-damage10.png",
+      "reason": "Original lower figure3legend shows sheep/goats79%of attacks; upper figure2shows91%of harmed animals. Image labels absent in text extraction; both original charts visually inspected.",
+      "result": "verified_visual_reading_order",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "haushalt2026-venro-social11",
+      "field": "claim_quote",
+      "source_id": "venro-haushalt2026-20250909",
+      "pdf_page": 12,
+      "evidence": "research/round2-root/rendered/venro2026-p12.png",
+      "reason": "Exact excerpt visually inspected in right-column Gavi paragraph; columns and line-break hyphenation disrupt extraction order.",
+      "result": "verified_visual_reading_order",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "haushalt2026-venro-social11",
+      "field": "request_quote",
+      "source_id": "venro-haushalt2026-20250909",
+      "pdf_page": 12,
+      "evidence": "research/round2-root/rendered/venro2026-p12.png",
+      "reason": "Exact excerpt visually inspected in right-column Gavi paragraph; columns and line-break hyphenation disrupt extraction order.",
+      "result": "verified_visual_reading_order",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "ehv2030-2026-eon-biomass-threshold-a01",
+      "field": "claim_quote",
+      "source_id": "eon-ehv2030-202601",
+      "pdf_page": 1,
+      "evidence": "research/round2-energy/sources/eon-ehv-p1.png",
+      "reason": "Exact fragment visually checked in left column; interleaving right-column text disrupts extraction.",
+      "result": "verified_visual_reading_order",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "ehv2030-2026-eon-biomass-threshold-a01",
+      "field": "counter_quote",
+      "source_id": "ec-gd3-biomass-20250926",
+      "pdf_page": 26,
+      "evidence": "research/round2-energy/sources/ec-gd3-p26.png",
+      "reason": "Exact70%/80% dates visually checked in Table1 middle cohort/at-least10MW cell; line-break hyphenation and adjacent columns disrupt extraction.",
+      "result": "verified_visual_reading_order",
+      "date": "2026-10-25"
+    },
+    {
+      "issue_id": "impfpflicht2022-aefi-social-r3-01",
+      "field": "counter_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "lyngse-omicron-20220923",
+      "pdf_page": 4,
+      "date": "2026-10-25",
+      "reviewer": "root_independent_ai",
+      "evidence": "research/round3-reviews/rendered/lyngse-p4.png",
+      "reason": "Exact short clause spans the top right column with a typographic vac-/cination line break; layout extraction interleaves the left table column. Root visually inspected the full page. This quotation check does not turn the unresolved methodological lead into an established error."
+    },
+    {
+      "issue_id": "ferns2026-bdue-fees-social-r3-05",
+      "field": "claim_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "bdue-ferns-20260909",
+      "pdf_page": 2,
+      "date": "2026-10-25",
+      "reviewer": "root_independent_ai",
+      "evidence": "research/round3-reviews/rendered/bdue-p2.png",
+      "reason": "RootvisuallyinspectedoriginalministryPDFpage2. Shortfee-range and expressrepealrequest fragments confirmed. The ministrycopy is a scan; cleanerregistermirror independently read. Thisexactnesscheckdoesnotpromoteunresolvedtypical-feelead."
+    },
+    {
+      "issue_id": "ferns2026-bdue-fees-social-r3-05",
+      "field": "request_quote",
+      "result": "verified_visual_reading_order",
+      "source_id": "bdue-ferns-20260909",
+      "pdf_page": 2,
+      "date": "2026-10-25",
+      "reviewer": "root_independent_ai",
+      "evidence": "research/round3-reviews/rendered/bdue-p2.png",
+      "reason": "RootvisuallyinspectedoriginalministryPDFpage2. Shortfee-range and expressrepealrequest fragments confirmed. The ministrycopy is a scan; cleanerregistermirror independently read. Thisexactnesscheckdoesnotpromoteunresolvedtypical-feelead."
+    },
+    {
+      "issue_id": "pnog2026-wir-care-share-root-r4-01",
+      "field": "claim_quote",
+      "result": "verified_visual_ligature_extraction",
+      "source_id": "wir-pnog-open-letter-20260901",
+      "pdf_page": 1,
+      "evidence": "research/round4-root/sources/wir-letter-1.png",
+      "review_date": "2026-10-25",
+      "reviewer": "root_ai_screen",
+      "reason": "Original page image visually re-read. Text extraction detaches fl ligatures throughout the page, including Pflegearbeit; original short excerpt and its surrounding often-unpaid qualification confirmed visually. This does not resolve the substantive allegation."
+    }
+  ],
+  "last_updated": "2026-10-25"
+}

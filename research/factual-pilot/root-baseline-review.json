@@ -1,0 +1,137 @@
+{
+  "id": "root-independent-draft-and-coverage-baseline",
+  "reviewer": "root",
+  "as_of_utc": "2026-10-25T08:53:15.450251+00:00",
+  "coverage": {
+    "author_files": 7,
+    "physical_author_pages": 35,
+    "government_contributors_excluded": 6,
+    "hash_checks": "All seven match archived proof",
+    "participant_list": "root-participants",
+    "new_screening_units": 0
+  },
+  "draft": {
+    "source_id": "root-draft",
+    "physical_pages": 19,
+    "fully_read": true,
+    "operative_pages": [
+      3,
+      4
+    ],
+    "rationale_pages": [
+      17,
+      18,
+      19
+    ],
+    "cost_pages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "version_limit": "VDMA and TÜV identify July7draft; no byte identity with an independently archived July7iteration. BDEW identifies July8. No draft difference is inferred solely from this date variation."
+  },
+  "observations": [
+    {
+      "id": "root-scope",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§1 p3; rationale§1 p17"
+        },
+        {
+          "source_id": "root-kspg",
+          "locator": "§3number6; §2(2)"
+        }
+      ],
+      "assessment": "Scope follows functional CO2 pipeline definition. No cross-border or multiple-Land condition appears. Territorial operation includes EEZ/continental shelf. Draft§1 has no express16bar threshold; corresponding use of GasHDrLtgV§1 needs legal interpretation, not automatic inheritance or denial."
+    },
+    {
+      "id": "root-presumption",
+      "evidence": [
+        {
+          "source_id": "root-kspg",
+          "locator": "§4a(3) sentence2"
+        },
+        {
+          "source_id": "root-enwg49",
+          "locator": "§49(1)–(2)"
+        },
+        {
+          "source_id": "root-draft",
+          "locator": "p5; p17 rationale§2"
+        }
+      ],
+      "assessment": "KSpTG imports EnWG technical-safety/general recognised-rules provisions; DVGW compliance gives a presumption. Draftp17 expressly intends corresponding CO2 rules. A claim that no public full text was found is not evidence that no appropriate rules exist."
+    },
+    {
+      "id": "root-exceptions",
+      "evidence": [
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§2(3); §5(5)"
+        }
+      ],
+      "assessment": "Inherited framework expressly permits equivalent-safety exceptions to§§3/4 and has a short-line procedure exemption under1000m. Proposals seeking clearer CO2-specific differentiation can remain reasonable; do not transform a hedged proposal into denial of these provisions."
+    },
+    {
+      "id": "root-redundancy",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(1)number2 p3–4; rationale p18"
+        },
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§3(4)final sentence"
+        }
+      ],
+      "assessment": "Draft adds functional single-failure redundancy. It does not prescribe identical paired hardware in those words. Calling it1:1 redundancy may be shorthand/interpretation rather than demonstrated factual misdescription. Draft rationale itself mistakenly labels the corresponding GasHDrLtgV sentence§3(3), while operative provision is§3(4). This is a draft cross-reference issue, not an author finding."
+    },
+    {
+      "id": "root-reporting",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(3)p4; rationale p18–19"
+        },
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§9(1)"
+        }
+      ],
+      "assessment": "Draft adds all unlawful interference attempts to existing accident/damage/danger reporting. No express de-minimis qualifier in added wording. Whether purposive interpretation narrows the requirement is unresolved, not disproved by general security rationale."
+    },
+    {
+      "id": "root-phases",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(1)number1 p3; §3(2)p4; rationale p18"
+        }
+      ],
+      "assessment": "Draft adds prevention of impermissible low pressure for regular operation/pauses and replaces automatic gas-pipeline emergency pressure response with danger-removal/safe-state duty. Detailed engineering of safe phase envelopes is external technical evidence, not settled by draft wording."
+    },
+    {
+      "id": "root-costs",
+      "evidence": [
+        {
+          "source_id": "root-draft",
+          "locator": "p2 and costtable pp8–16"
+        }
+      ],
+      "assessment": "Draft gives aggregate estimates and assumptions rather than observed infrastructure costs. Author criticisms of absent phase/dimension differentiation are model-method critiques. No cost premise promoted as observed fact merely because government model prints a number."
+    }
+  ],
+  "limits": [
+    "No independent July7 draft archive authenticated.",
+    "Current ministry dataset retrieval returns browser-verification challenge; use preserved participant list and archived proof for frozen cohort.",
+    "Official law snapshots downloaded today; amendment header, not frozen-byte history, establishes pre-author currency for KSpTG and GasHDrLtgV.",
+    "No national denominator or prevalence estimate."
+  ]
+}

@@ -1,0 +1,979 @@
+{
+  "reviewer": "c",
+  "status": "frozen_initial_resolution_proposals",
+  "created_at_utc": "2026-10-26T00:29:21.022956+00:00",
+  "baseline_claims_file": "research/factual-checks/unresolved-followup-20261026/baseline-claims.json",
+  "baseline_claims_sha256": "a64d950a61112fb0a888edea57ca8bc0f78392f66df118506a27a4406fd328cb",
+  "baseline_ledgers": [
+    {
+      "ledger": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+      "sha256": "761cc33b4f63980d13b4d28a60adc0ed6f43b8e4751ac9dda3181aacbcd8c5ac"
+    },
+    {
+      "ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "sha256": "7853bb5d363924107763e75341bcdb48bbfe0ede9fcd881f69d7cef509e4aeca"
+    }
+  ],
+  "documents_reread": [
+    {
+      "document_id": "bmwe-wpexamen-2026-002",
+      "local_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+      "sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+      "physical_pages": 6,
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "read_method": "Full original pdftotext-layout reread including surrounding paragraphs; exact original context already visually verified in preceding completed batch; no new PDF added."
+    },
+    {
+      "document_id": "bmwe-wpexamen-2026-003",
+      "local_file": "research/round3-energy/sources/bmwe-members/91571d57ee384611cb11.pdf",
+      "sha256": "91571d57ee384611cb117c6b52786dc17ba6fc161d0bab578071812a3b0531a3",
+      "physical_pages": 6,
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "read_method": "Full original pdftotext-layout reread including surrounding paragraphs; exact original context already visually verified in preceding completed batch; no new PDF added."
+    }
+  ],
+  "resolutions": [
+    {
+      "claim_id": "short-c-004",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "recorded_claim": "The addressed draft removes methodological corporate-governance content from BWL/VWL and narrows some subject/depth requirements.",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-draft",
+          "locator": "Operative pp. 4–5 Article 1 no. 3",
+          "check_result": "Subject/depth changes and corporate-governance deletion match the October draft."
+        },
+        {
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "check_result": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "check_result": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "check_result": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          2
+        ],
+        "original_excerpt": "der Corporate Governance",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error."
+    },
+    {
+      "claim_id": "short-c-006",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "recorded_claim": "Independent review of restructuring concepts is typically performed by practitioners with relevant practical experience.",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "Relevant experience is a technically plausible requirement for independently reviewing restructuring concepts, but the full claim describes who typically performs that work. Current professional/examination law establishes competence and scope, not the distribution of actual assignments. The targeted BGH source would address required expert perspective, not independently prove the staffing pattern; full official access also failed. Retain unresolved without a contrary finding.",
+      "limits": "Typical is read as an ordinary practice assertion, not a universal prohibition on newly qualified practitioners. No representative-survey requirement is invented, but no independent assignment-based or sufficiently direct practice evidence was recovered.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-law",
+          "locator": "Section 4(2)2(c)",
+          "check_result": "Restructuring-concept review is a current examined subject; no actual staffing distribution."
+        },
+        {
+          "source_id": "uf-c-public-access-limits",
+          "locator": "BGH official PDF access attempts",
+          "check_result": "Required expert-perspective lead does not establish typical staffing; full original unavailable."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          2
+        ],
+        "original_excerpt": "typischerweise von Berufsträgern",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": "No independent source directly establishes the typical experience profile of practitioners independently reviewing restructuring concepts.",
+      "next_step": "A public practice/engagement study, professional-body staffing evidence or equivalent direct practice account could resolve; generic competence norms alone should not substitute."
+    },
+    {
+      "claim_id": "short-c-008",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "recorded_claim": "The addressed draft allows the six-year module-registration period to be extended on application by up to two years for evidenced specified family/protection periods.",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-draft",
+          "locator": "Operative p. 5 Article 1 no. 4",
+          "check_result": "Up to two years on application for evidenced listed family/protection periods matches."
+        },
+        {
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "check_result": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "check_result": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "check_result": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          2
+        ],
+        "original_excerpt": "um bis zu zwei Jahre verlängert",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error."
+    },
+    {
+      "claim_id": "short-c-010",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "recorded_claim": "The addressed draft reduces BWL/VWL written papers from two to one.",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-draft",
+          "locator": "Operative p. 5 Article 1 no. 5(b)",
+          "check_result": "One BWL paper versus current two matches."
+        },
+        {
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "check_result": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "check_result": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "check_result": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          2,
+          3
+        ],
+        "original_excerpt": "von zwei auf eine Aufsichtsarbeit",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error."
+    },
+    {
+      "claim_id": "short-c-011",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "recorded_claim": "The addressed draft fixes four hours in the three non-tax modules while leaving tax papers at four to six.",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-draft",
+          "locator": "Operative p. 5 Article 1 no. 5(a)",
+          "check_result": "Four-hour non-tax modules with tax four to six matches."
+        },
+        {
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "check_result": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "check_result": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "check_result": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          3
+        ],
+        "original_excerpt": "Begrenzung der Bearbeitungszeit auf vier Zeitstunden",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error."
+    },
+    {
+      "claim_id": "short-c-012",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "recorded_claim": "More than four hours is unnecessary to reliably establish the knowledge and skills required by the examination.",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The draft rationale expressly asserts that more than four hours is unnecessary, and the proposal would schedule four hours for non-tax papers. That verifies the ministry’s rationale and design, not the full claim that four hours reliably suffices. No directly matched assessment-validity or professional examination evidence was recovered to settle that technical adequacy claim. Retain unresolved; this is not a finding that longer examinations are necessary.",
+      "limits": "No universal randomised experiment is required as the only possible evidence. An appropriate professional validation or assessment-method study could support the claim; mere proposal attribution does not independently settle adequacy.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-draft",
+          "locator": "Physical p. 24, rationale to written duration",
+          "check_result": "Rationale says four hours suffices but gives no matched diagnostic-validity test."
+        },
+        {
+          "source_id": "uf-c-law",
+          "locator": "Sections 4, 7(1)–(2)",
+          "check_result": "Current contents and four-to-six-hour framework establish legal baseline only."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          3
+        ],
+        "original_excerpt": "zuverlässige Feststellung",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": "Independent adequacy/diagnostic-validity evidence for the actual non-tax contents and proposed four-hour design is unavailable.",
+      "next_step": "Inspect a public examination-method validation or official assessment study if released; do not count the rationale repeating the proposition as independent empirical verification."
+    },
+    {
+      "claim_id": "short-c-017",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "recorded_claim": "The additional oral components caused a substantially higher burden for candidates.",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The original paragraph acknowledges that modularisation spread the examinations over time and made planning easier, then asserts a substantially greater burden from the oral components. The current rules corroborate the component structure; draft p. 15 estimates future direct oral minutes saved, while WPK describes reform proposals. Neither is a matched 2019 before/after assessment of the substantial causal burden asserted. Retain unresolved, without pretending that all dimensions must worsen to support it.",
+      "limits": "The author does not claim every candidate is worse off or all stress/workload measures rise. Additional assessment occasions plausibly impose organisational burden, while optional timing flexibility remains relevant to the stated substantial causal magnitude.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-law",
+          "locator": "Sections 5 and 15",
+          "check_result": "Confirms module structure and oral-section duration, not overall burden."
+        },
+        {
+          "source_id": "uf-c-draft",
+          "locator": "Physical p. 15 and rationale pp. 25–26",
+          "check_result": "Quantifies proposed future direct oral minutes saved and gives design rationale, not 2019 causal burden measurement."
+        },
+        {
+          "source_id": "uf-c-wpk-preproposal",
+          "locator": "2025 reform list",
+          "check_result": "Independent chamber had proposed oral relief; not a candidate burden study."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          4
+        ],
+        "original_excerpt": "deutlich höheren Belastung geführt",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": "No directly matched before/after evidence settling substantial extra burden from the oral modularisation was recovered.",
+      "next_step": "A public candidate survey with clear dates, design and burden definition, or comparable administrative scheduling/preparation evidence, could settle; raw component count alone is not substituted for full magnitude."
+    },
+    {
+      "claim_id": "short-c-018",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "recorded_claim": "Candidates with good written grades were previously seldom questioned orally, as examiners focused on candidates needing improvement.",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The complete original paragraph concerns examiner practice by written grade. Sections 14–18 govern oral questioning and grades but provide no observed question counts or time allocation by written grade. Targeted public searches did not recover examiner logs or a direct independent practice account. Formal oral duties cannot disprove actual selective attention, so the claim remains unresolved.",
+      "limits": "No intent inference or accusation of noncompliance. One anecdote or statutory expectation would not settle a general seldom/focus practice claim.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-law",
+          "locator": "Complete sections 14–18",
+          "check_result": "No grade-stratified actual questioning data or frequency established."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          4
+        ],
+        "original_excerpt": "nur selten gefragt",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": "Direct independent evidence on actual oral question allocation by prior written grade is unavailable.",
+      "next_step": "Public examination evaluations or anonymised documented examiner-practice data could resolve. Do not seek private candidate records or contact authors."
+    },
+    {
+      "claim_id": "short-c-020",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "recorded_claim": "The addressed draft leaves only the core oral component obligatory when non-core written grades reach at least 4.00.",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-draft",
+          "locator": "Operative pp. 5–6 Article 1 no. 6",
+          "check_result": "Non-core oral waiver at written grade 4.00 matches, preserving poor-grade oral route."
+        },
+        {
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "check_result": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "check_result": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "check_result": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          4
+        ],
+        "original_excerpt": "eine obligatorische mündliche Prüfung",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error."
+    },
+    {
+      "claim_id": "short-c-021",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "recorded_claim": "The addressed draft abolishes the special supplementary core examination.",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-draft",
+          "locator": "Operative p. 6 Article 1 nos. 8 and 12",
+          "check_result": "Supplementary core route deletion and transition match."
+        },
+        {
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "check_result": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "check_result": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "check_result": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          4
+        ],
+        "original_excerpt": "Streichung der Ergänzungsprüfung",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error."
+    },
+    {
+      "claim_id": "short-c-023",
+      "baseline_result": "unresolved",
+      "proposed_result": "supported",
+      "recorded_claim": "Nonfinancial developments often later have financial effects on the reporting company.",
+      "resolution_basis": "new_primary_evidence_and_explicit_methodological_reassessment",
+      "explanation": "In the original sustainability-assurance paragraph, this is an ordinary qualitative statement that nonfinancial developments commonly have later financial effects, not a numerical prevalence claim about every nonfinancial event. Independent EFRAG IG1 explicitly describes the dimensions as often intertwined, most material impacts developing financial risks/opportunities over time, and delayed cost/income mechanisms. The connectivity paper separately explains crystallisation in later reporting periods. This evidence supports the actual qualitative proposition; the prior demand for a measured universal frequency was stronger than its contextual wording.",
+      "limits": "Support is for the qualitative relationship in reporting, preserving often rather than replacing it with merely possible. Neither source supplies a statistical population frequency, ensures every event becomes financial, nor establishes audit-method identity or one-paper examination sufficiency. EFRAG IG1 is non-authoritative and scoped to ESRS/large CSRD reporting entities.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-ig1",
+          "locator": "Disclaimer p. 2; pp. 10–14, paras. 33–39 and p. 14 box",
+          "check_result": "Independent reporting guidance directly describes common and later financial consequences, with exceptions."
+        },
+        {
+          "source_id": "uf-c-connectivity",
+          "locator": "Physical pp. 82–83, paras. 5.39–5.42",
+          "check_result": "Explains later financial recognition/crystallisation of qualitative/nonfinancial matters."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          4
+        ],
+        "original_excerpt": "finanzielle Auswirkungen",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": null,
+      "next_step": "Scheduled independent peer should verify ordinary contextual scope and guidance qualifications before root adjudication."
+    },
+    {
+      "claim_id": "short-c-025",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "recorded_claim": "The addressed future sustainability-exam proposal reduces papers from two to one four-hour paper and waives oral examination at grade 4.00.",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent. The sustainability-exam text is conditional on separate future CSRD/WPO changes, not already-operative law.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-draft",
+          "locator": "Operative p. 6 Article 1 no. 10 and footnote 1",
+          "check_result": "Future conditional sustainability examination one four-hour paper and 4.00 oral waiver match."
+        },
+        {
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "check_result": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "check_result": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "check_result": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          5
+        ],
+        "original_excerpt": "von zwei auf eine zu verringern",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error."
+    },
+    {
+      "claim_id": "short-c-026",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "recorded_claim": "The addressed proposal gives institutional section 13b equivalence confirmations an eight-year validity period.",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "The operative description is positively corroborated by the current official proposal. The original IDW letter nevertheless explicitly makes the 23 September version its referent. Targeted version-URL and dated primary-page recovery did not independently establish that attachment’s exact relevant wording. Current PDF creation on 6 October may be accessibility conversion; it proves neither a substantive change nor continuity. Retain unresolved for this explicitly version-bound claim, with no mismatch finding.",
+      "limits": "No requirement that every historical source be cryptographically dispatched is imposed generally. Here the claim expressly has a dated referent and all recovered original bytes postdate that referent. Corroborating matching October text is retained as evidence rather than treated as absent.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-draft",
+          "locator": "Operative p. 7 Article 2 no. 3; rationale pp. 29–30",
+          "check_result": "Institutional section 13b confirmation eight years matches."
+        },
+        {
+          "source_id": "uf-c-version-probes",
+          "locator": "All three version-parameter responses and metadata",
+          "check_result": "All are the identical current October bytes; no September artifact recovered."
+        },
+        {
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "Consultation/publication date context",
+          "check_result": "Consultation launch 23 September and public October artifact are distinct."
+        },
+        {
+          "source_id": "uf-c-idw-release",
+          "locator": "15 October substantive release",
+          "check_result": "IDW calls this the October-published proposal but its linked letter explicitly names the 23 September version."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          5
+        ],
+        "original_excerpt": "auf acht Jahre",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": "Authenticated 23 September relevant text or a reliable primary record explicitly linking unchanged relevant content between the September and October versions remains unavailable.",
+      "next_step": "A dated public September attachment or contemporaneous primary mirror could settle it. Bounded exact-title/date, official version-number and dated WPK/IDW checks are complete; do not repeat inaccessible routes or infer error."
+    },
+    {
+      "claim_id": "short-c-028",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "recorded_claim": "Credit continues to cease after material curriculum changes, preserving examination competence.",
+      "resolution_basis": "targeted_primary_followup_no_complete_resolution",
+      "explanation": "Re-read law and October rationale confirm a continuing ability to refuse credit when curriculum changes destroy equivalence. But the full recorded compound also asserts cessation and preservation of competence. Current section 9(6) is a conditional refusal provision, not automatic cancellation after any material change; a fair reading makes materiality relative to equivalence. The exact September version remains unavailable, and the safeguard alone does not establish empirical unchanged competence. Retain unresolved rather than manufacture a wording error.",
+      "limits": "The author’s reasonable equivalence-related reading is retained. No error arises solely because the short phrase says credit ceases rather than spelling out the administrative refusal process.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-wpanrv",
+          "locator": "Section 9(6)",
+          "check_result": "Refusal can be justified where redesign removes equivalence."
+        },
+        {
+          "source_id": "uf-c-draft",
+          "locator": "Physical p. 7 and pp. 29–30",
+          "check_result": "Retains renumbered section 9(4) safeguard and states its quality rationale."
+        },
+        {
+          "source_id": "uf-c-version-probes",
+          "locator": "Version recovery result",
+          "check_result": "No dated September original recovered."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          5
+        ],
+        "original_excerpt": "wesentlichen Änderungen des Curriculums",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": "Exact addressed text and the full safeguard/competence-effect compound are not independently settled.",
+      "next_step": "A recovered September text could settle its legal component; retain the separate scope of any quality-preservation inference instead of silently dropping it."
+    },
+    {
+      "claim_id": "short-c-031",
+      "baseline_result": "unresolved",
+      "proposed_result": "supported",
+      "recorded_claim": "Working with professional pronouncements is standard audit practice.",
+      "resolution_basis": "new_independent_primary_judicial_evidence_and_methodological_reassessment",
+      "explanation": "IDW p. 6 says work with professional pronouncements is standard in practice, then proposes their use as examination aids. It does not assert every publication is consulted in every assignment or that such use is a universal statutory duty. Independent BayObLG paragraphs 36–38 expressly recognise IDW pronouncements as accepted and commonly used, while distinguishing their lack of legal-norm status. Together with the professional examination catalogue this supports the ordinary standard-practice proposition. The prior survey demand across all assignments overstated the target.",
+      "limits": "The court’s case concerns valuation; it does not establish a measured profession-wide usage percentage, obligation to follow every IDW view, or that current examination aids already permit these publications. Those stronger propositions are not assessed as supported.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-bayoblg",
+          "locator": "Header and paras. 32–39, especially 37–38",
+          "check_result": "Independent judicial account expressly treats IDW pronouncements as accepted/common, without binding norm status."
+        },
+        {
+          "source_id": "uf-c-law",
+          "locator": "Section 4(2)2(a), (4)",
+          "check_result": "Professional standards and business valuation are examined professional subject matter."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "original_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+        "original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+        "pages": [
+          6
+        ],
+        "original_excerpt": "in der Praxis die Arbeit",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": null,
+      "next_step": "Scheduled peer should independently re-read the court’s scope and the original open-book paragraph."
+    },
+    {
+      "claim_id": "short-c-032",
+      "baseline_result": "unresolved",
+      "proposed_result": "supported",
+      "recorded_claim": "The addressed credit relief concerns university education and leaves advanced vocational qualifications outside its credit categories.",
+      "resolution_basis": "primary_publication_chronology_and_author_specific_methodological_reassessment",
+      "explanation": "BVBC’s 13 October letter does not identify a 23 September version. Its credit-scope description is directly corroborated by the ministry’s public October proposal, which predates that letter, and independently by WPO section 13b’s university-only statutory credit boundary. Article 2 supplies institutional higher-education relief, without a vocational-examination credit category. Requiring authentication of IDW’s separately named September dispatch was an inapplicable additional condition for this BVBC proposition.",
+      "limits": "No September dispatch bytes have been authenticated and no claim of their exact identity is made. Support applies to BVBC’s undated proposal reference and described features, not proof of delivery, enactment or achieved competence. Eight-year institutional confirmation differs from the existing individual degree-age limit.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-wpo",
+          "locator": "Section 13b and delegated authority",
+          "check_result": "University-education credit route is the independent statutory scope; no vocational category."
+        },
+        {
+          "source_id": "uf-c-draft",
+          "locator": "Physical p. 7 Article 2; pp. 29–30",
+          "check_result": "Operative relief and rationale concern university programmes/confirmations."
+        },
+        {
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "7 October publication listing and consultation chronology",
+          "check_result": "Current public proposal precedes BVBC 13 October letter."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-003",
+        "original_file": "research/round3-energy/sources/bmwe-members/91571d57ee384611cb11.pdf",
+        "original_sha256": "91571d57ee384611cb117c6b52786dc17ba6fc161d0bab578071812a3b0531a3",
+        "pages": [
+          2
+        ],
+        "original_excerpt": "an Hochschulausbildungen an.",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": null,
+      "next_step": "Independent peer should test that the BVBC letter has no September qualifier and that scope remains the actual proposal description, rather than requiring another author’s date."
+    },
+    {
+      "claim_id": "short-c-042",
+      "baseline_result": "unresolved",
+      "proposed_result": "supported",
+      "recorded_claim": "The addressed proposal extends section 8 institutional equivalence-confirmation validity to eight years.",
+      "resolution_basis": "primary_publication_chronology_and_author_specific_methodological_reassessment",
+      "explanation": "BVBC’s 13 October letter does not name a September draft date. The public ministry proposal created on 6 October/published 7 October expressly gives institutional confirmations eight years in Article 2 no. 3, with matching rationale pp. 29–30. The actual proposition is a description of that proposal, not a claim about exact September dispatch bytes. The previous version-only obstacle improperly imported IDW’s separately dated referent; support this BVBC description on direct pre-letter official proposal evidence.",
+      "limits": "No September dispatch bytes have been authenticated and no claim of their exact identity is made. Support applies to BVBC’s undated proposal reference and described features, not proof of delivery, enactment or achieved competence. Eight-year institutional confirmation differs from the existing individual degree-age limit.",
+      "new_evidence": [
+        {
+          "source_id": "uf-c-draft",
+          "locator": "Physical p. 7 Article 2 no. 3 and pp. 29–30",
+          "check_result": "Express eight-year institutional confirmation validity."
+        },
+        {
+          "source_id": "uf-c-ministry-dossier",
+          "locator": "7 October draft publication listing",
+          "check_result": "Published proposal chronology precedes BVBC 13 October letter."
+        },
+        {
+          "source_id": "uf-c-wpanrv",
+          "locator": "Sections 8 and 9(2)",
+          "check_result": "Current institutional confirmation and individual degree-age limit are distinct."
+        }
+      ],
+      "author_context_checked": {
+        "document_id": "bmwe-wpexamen-2026-003",
+        "original_file": "research/round3-energy/sources/bmwe-members/91571d57ee384611cb11.pdf",
+        "original_sha256": "91571d57ee384611cb117c6b52786dc17ba6fc161d0bab578071812a3b0531a3",
+        "pages": [
+          4
+        ],
+        "original_excerpt": "auf acht Jahre",
+        "full_letter_pages_reread": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "claim_preserved": true
+      },
+      "resolution_blocker": null,
+      "next_step": "Independent peer should test that the BVBC letter has no September qualifier and that scope remains the actual proposal description, rather than requiring another author’s date."
+    }
+  ],
+  "sources": [
+    {
+      "id": "uf-c-draft",
+      "title": "BMWE examination-reform draft, current published artifact",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/Gesetz/2026/20261007-refentwurf-wirtschaftsprueferexamen.pdf?__blob=publicationFile&v=4",
+      "local_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+      "sha256": "333add58022bde7a378baa41b8340f1e9656bd55e23be7f69022e302e892109c",
+      "archive_type": "Authored concise primary-check note, not original background document",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-version-probes",
+      "title": "Targeted ministry version-number recovery test",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/Gesetz/2026/20261007-refentwurf-wirtschaftsprueferexamen.pdf?__blob=publicationFile&v=1",
+      "local_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+      "sha256": "333add58022bde7a378baa41b8340f1e9656bd55e23be7f69022e302e892109c",
+      "archive_type": "Authored concise primary-check note, not original background document",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-ministry-dossier",
+      "title": "BMWE consultation dossier and publication chronology",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Artikel/Service/Gesetzesvorhaben/2026/20261007-verordnung-wirtschaftsprueferexamen.html",
+      "local_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+      "sha256": "333add58022bde7a378baa41b8340f1e9656bd55e23be7f69022e302e892109c",
+      "archive_type": "Authored concise primary-check note, not original background document",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-idw-release",
+      "title": "IDW release describing its examination-reform response",
+      "url": "https://www.idw.de/news/idw-begruesst-reform-des-wirtschaftsprueferexamens.html",
+      "local_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+      "sha256": "333add58022bde7a378baa41b8340f1e9656bd55e23be7f69022e302e892109c",
+      "archive_type": "Authored concise primary-check note, not original background document",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-wpk-preproposal",
+      "title": "WPK report on 28 November 2025 board-of-advisers meeting",
+      "url": "https://www.wpk.de/neu/bericht-ueber-die-sitzung-am-28-november-2025/",
+      "local_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+      "sha256": "333add58022bde7a378baa41b8340f1e9656bd55e23be7f69022e302e892109c",
+      "archive_type": "Authored concise primary-check note, not original background document",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-law",
+      "title": "Current examination regulation baseline",
+      "url": "https://www.gesetze-im-internet.de/wiprpr_fv/WiPrPr%C3%BCfV.pdf",
+      "local_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+      "sha256": "333add58022bde7a378baa41b8340f1e9656bd55e23be7f69022e302e892109c",
+      "archive_type": "Authored concise primary-check note, not original background document",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-wpanrv",
+      "title": "Current examination-credit regulation baseline",
+      "url": "https://www.gesetze-im-internet.de/wpanrv/WPAnrV.pdf",
+      "local_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+      "sha256": "333add58022bde7a378baa41b8340f1e9656bd55e23be7f69022e302e892109c",
+      "archive_type": "Authored concise primary-check note, not original background document",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-wpo",
+      "title": "WPO statutory boundary for university exam credit",
+      "url": "https://www.gesetze-im-internet.de/wipro/WPO.pdf",
+      "local_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+      "sha256": "333add58022bde7a378baa41b8340f1e9656bd55e23be7f69022e302e892109c",
+      "archive_type": "Authored concise primary-check note, not original background document",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-bayoblg",
+      "title": "BayObLG order 8 August 2025, 101 W 116/24",
+      "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2025-N-20079",
+      "local_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+      "sha256": "333add58022bde7a378baa41b8340f1e9656bd55e23be7f69022e302e892109c",
+      "archive_type": "Authored concise primary-check note, not original background document",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-ig1",
+      "title": "EFRAG IG 1 materiality-assessment implementation guidance",
+      "url": "https://www.efrag.org/sites/default/files/sites/webpublishing/SiteAssets/IG%201%20Materiality%20Assessment_final.pdf",
+      "local_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+      "sha256": "333add58022bde7a378baa41b8340f1e9656bd55e23be7f69022e302e892109c",
+      "archive_type": "Authored concise primary-check note, not original background document",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-connectivity",
+      "title": "EFRAG discussion paper on financial/sustainability reporting connectivity",
+      "url": "https://www.efrag.org/sites/default/files/media/document/2026-02/EFRAG%20Discussion%20Paper%20Connectivity%20of%20financial%20and%20sustainability%20reporting.pdf",
+      "local_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+      "sha256": "333add58022bde7a378baa41b8340f1e9656bd55e23be7f69022e302e892109c",
+      "archive_type": "Authored concise primary-check note, not original background document",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-public-access-limits",
+      "title": "Targeted additional primary access checks",
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2018-6-14&Gericht=bgh&anz=15&nr=87053&pos=10",
+      "local_file": "research/factual-checks/unresolved-followup-20261026/sources/c-primary-checks.json",
+      "sha256": "333add58022bde7a378baa41b8340f1e9656bd55e23be7f69022e302e892109c",
+      "archive_type": "Authored concise primary-check note, not original background document",
+      "usable_as_evidence": false
+    }
+  ],
+  "summary": {
+    "assigned_cases": 17,
+    "proposed_results": {
+      "unresolved": 13,
+      "supported": 4
+    },
+    "changed_claim_ids": [
+      "short-c-023",
+      "short-c-031",
+      "short-c-032",
+      "short-c-042"
+    ],
+    "new_error_candidates": 0,
+    "new_reading_units": 0
+  },
+  "methodological_changes": [
+    "C023 and C031 retain ordinary qualitative contextual wording, rather than imposing numerical population claims the authors did not make.",
+    "BVBC C032/C042 are assessed against its own undated draft reference and pre-letter public proposal; IDW’s explicit September reference is not transferred to another author.",
+    "Eight IDW dated-version cases remain unresolved; a technical PDF creation date is neither proof of substantive change nor proof of unchanged content."
+  ],
+  "limits": [
+    "Proposals await scheduled independent peer and root adjudication; prior completed files are unchanged.",
+    "No missing-evidence error, author intent inference, paid source access, author contact or new national denominator.",
+    "All current sources are passage-level checks with explicit scope; longer supporting documents were not treated as additional full-read targets."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "enefg2026-hansgrohe-a01",
+  "law_id": "enefg-2026",
+  "document_id": "hansgrohe-enefg-2026",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "An ongoing bill revising energy-efficiency obligations, including annual savings by public bodies.",
+    "they_want": "Explicitly recognise efficient hot-water fixtures as a public-sector energy-saving contribution.",
+    "they_claim": "The EU requires new publicly owned buildings to be zero-emission from 1 January 2027.",
+    "the_problem": "The enacted directive sets 1 January 2028; the submission advances that deadline by one year."
+  },
+  "claim_quote": {
+    "original": "ab dem 1. Januar 2027 den Standard von Null-Emissions-Gebäuden erfüllen müssen",
+    "language": "de",
+    "translation_en": "Translation: must meet the standard of zero-emission buildings from 1 January 2027",
+    "locator": {
+      "pdf_page": 1,
+      "section": "2. Warmwassereffizienz als anrechenbarer Einsparhebel (§ 6 EnEfG neu)",
+      "paragraph": "second, sentence beginning Die EU-Gebäudeenergierichtlinie"
+    },
+    "underline": "1. Januar 2027"
+  },
+  "counter_quote": {
+    "original": "ab dem 1. Januar 2028 neue Gebäude, die sich im Eigentum von öffentlichen Einrichtungen befinden",
+    "language": "de",
+    "translation_en": "Translation: from 1 January 2028 new buildings owned by public bodies",
+    "source_id": "epbd-2024-1275-original",
+    "locator": {
+      "article": "7(1)(a)",
+      "heading": "Neue Gebäude",
+      "pdf_page": 23,
+      "pdf_page_source": "Original 68-page Official Journal PDF, archived from explicitly labelled third-party mirror by independent reviewer."
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "request_quote": {
+    "original": "als anrechenbaren Einsparbeitrag ausdrücklich anzuerkennen",
+    "language": "de",
+    "translation_en": "Translation of request fragment: expressly recognise as an eligible saving contribution",
+    "locator": {
+      "pdf_page": 2,
+      "section": "2. Warmwassereffizienz als anrechenbarer Einsparhebel (§ 6 EnEfG neu)",
+      "paragraph": "first, sentence beginning Hansgrohe empfiehlt; object is Warmwassereffizienz"
+    }
+  },
+  "correction": "Replace the claimed EU deadline with 1 January 2028. Article 7(1)(a) of the original adopted Directive (EU) 2024/1275 applies the zero-emission requirement to new buildings owned by public bodies from that date; other new buildings follow in 2030. This was already the adopted timetable when the 17 April 2026 submission was written.",
+  "effect": "Makes the cited regulatory development one year less immediate, weakening a timing reason for adding explicit hot-water-efficiency recognition.",
+  "limits": "Does not establish that recognising hot-water savings is unnecessary, that efficient fixtures fail to save energy, or that the underlying building-efficiency trend is false. The submission separately invokes existing savings potential and procurement clarity. The directive also permits specified exemptions, and national rules can be earlier or more stringent; the disputed sentence expressly attributes the 2027 date to the EU directive, rather than identifying an earlier German rule. A date slip is a plausible explanation, without any inference of intent.",
+  "materiality": "Minor: one year changes the immediacy of an auxiliary regulatory reason, while the explicit request and independent savings arguments remain. This is not a claim about the size of realised savings.",
+  "direction_reasoning": "The earlier deadline makes imminent public-building efficiency requirements appear more urgent, supporting the requested express recognition. This direction is assessed independently of the low materiality.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "title": "Gesetz zur Beschleunigung der Umsetzung der Energieeffizienzrichtlinie",
+    "version_date": "2026-04-09",
+    "submission_date": "2026-04-17",
+    "source_id": "enefg-draft-2026-04-09",
+    "relevant_provisions": "Proposed section 6(1) and (3)–(4), physical pages 8–9, annual public-body savings and calculation of individual measures. The author identifies this exact draft on its first page; ministry 79-page PDF is byte-identical to archived version.",
+    "version_limit": "Register metadata lists dispatch on 9 April 2026, whereas the ministry-authored PDF itself is dated 17 April 2026. Do not infer a specific dispatch date from that conflict. Publication/registration in July–August does not substitute a later June Cabinet draft.",
+    "process_status_at_screening": "Ongoing parliamentary committee process; BT 21/8027, first reading 24 September 2026."
+  },
+  "context_checks": [
+    "Read all three pages and visually inspected page 1. The author explicitly names EPBD Directive (EU) 2024/1275 and immediately links higher building efficiency to the need to close a perceived hot-water gap before enactment.",
+    "Checked the original directive’s Article 7(1)(a) via official indexed full text, rather than relying on the later consolidated version alone. The Commission’s official zero-emission-building explanation independently confirms the same 2028 date.",
+    "Archived Council document 7532/24 records the Parliament’s March 2024 first-reading text and also shows 2028. It is corroboration, not mislabelled as the final Official Journal text.",
+    "Possible confusion with other EPBD deadlines, such as solar deployment by end-2026 or a January-2027 life-cycle roadmap, does not change the expressly described zero-emission-building obligation.",
+    "The April German energy-efficiency draft does not create the alleged January-2027 EPBD zero-emission standard; the disputed factual attribution concerns an already enacted EU text."
+  ],
+  "source_ids": [
+    "hansgrohe-enefg-2026",
+    "hansgrohe-enefg-register-2026",
+    "epbd-2024-1275-original",
+    "ec-zero-emission-buildings",
+    "epbd-council-first-reading-2024",
+    "enefg-draft-2026-04-09",
+    "enefg-ministry-consultation-archive-2026"
+  ],
+  "provenance": "Primary three-page Hansgrohe submission extracted as official BMWE ZIP member 033; no mirror-only attribution. Official Lobbyregister SG2607300011 and R005487 link the same named request and three-page response to the exact ministry draft. The register PDF attachment could not be retrieved; no byte-identity claim is made between that attachment and the ministry member.",
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "tax_consultations_ai_agent",
+        "date": "2026-10-24",
+        "file": "research/reviews/tax-reviews-energy.json",
+        "status": "provisional_finding_retained"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "First recorded after full submission, exact addressed draft, original EU provision and Commission explanation checked; pending independent review.",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Independent tax agent retained minor/true after full original context, primary EPBD original and alternative-deadline checks; archived original Official Journal text mirror adds local countertext.",
+      "by": "energy_hearings_ai_screen"
+    }
+  ]
+}

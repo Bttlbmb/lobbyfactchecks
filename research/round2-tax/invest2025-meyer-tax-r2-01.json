@@ -1,0 +1,99 @@
+{
+  "law_id": "investitionssofortprogramm-2025",
+  "document_id": "meyer-investitionssofortprogramm-20250620",
+  "status": "ai_screened",
+  "request_quote_ref": {
+    "quote_id": "meyer-investitionssofortprogramm-request",
+    "metadata_file": "data/documents.json"
+  },
+  "draft": {
+    "title": "Entwurf eines Gesetzes für ein steuerliches Investitionssofortprogramm zur Stärkung des Wirtschaftsstandorts Deutschland",
+    "version_date": "2025-06-03",
+    "source_id": "investitionssofortprogramm-bt2100323",
+    "submission_date": "2025-06-20",
+    "hearing_date": "2025-06-23",
+    "relevant_provision": "Article 1 number 1, proposed §6(1) number4 EStG, physical/printed page 5; special electric-vehicle depreciation in Article 1 number 2(b), same page.",
+    "version_check": "The author expressly identifies BT 21/323. No later amendment or enacted version is substituted.",
+    "bill_initiator": "CDU/CSU and SPD parliamentary groups; Fraktionsgesetzentwurf, not the separately introduced government bill."
+  },
+  "source_registry": "research/round2-tax/sources.json",
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_round2_ai_agent",
+        "date": "2026-10-25",
+        "outcome": "retain_provisional_minor_false",
+        "review_file": "research/round2-reviews/social-reviews-meyer-invest.json",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "id": "invest2025-meyer-tax-r2-01",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": false,
+  "card": {
+    "law_is_about": "Tax changes intended to encourage business investment, including preferential treatment of electric business cars.",
+    "they_want": "Oppose the specific preferential treatment of electric business cars.",
+    "they_claim": "The qualifying vehicle-price ceiling rises from €75,000 to €100,000.",
+    "the_problem": "The exact addressed draft raises it from €70,000, so the expansion is €30,000 rather than €25,000."
+  },
+  "claim_quote": {
+    "original": "von 75.000 auf 100.000 Euro",
+    "language": "de",
+    "translation_en": "Translation of fragment: from 75,000 to 100,000 euros",
+    "locator": {
+      "pdf_page": 5,
+      "printed_page": 5,
+      "section": "2(c)",
+      "paragraph": "first, final sentence"
+    },
+    "underline": "75.000"
+  },
+  "counter_quote": {
+    "original": "die Angabe „70 000 Euro“ durch die Angabe „100 000 Euro“ ersetzt.",
+    "language": "de",
+    "translation_en": "Translation of fragment: the figure 70,000 euros is replaced by the figure 100,000 euros.",
+    "source_id": "investitionssofortprogramm-bt2100323",
+    "locator": {
+      "pdf_page": 5,
+      "printed_page": 5,
+      "section": "Article 1 number 1"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The existing qualifying gross-list-price ceiling is €70,000. The explicitly addressed bill raises it to €100,000. The nominal expansion is therefore €30,000, not the €25,000 implied by the submission’s baseline. The separate 75% first-year depreciation rule is a different provision.",
+  "effect": "The correction makes the price-ceiling expansion larger; it does not undermine the author’s criticism of preferential treatment.",
+  "limits": "No conclusion about take-up, tax revenue, consumer behaviour or the desirability of the measure. A clerical number slip is plausible; no intent is inferred. The criticism of luxury consumption and other policy premises remain.",
+  "materiality_explanation": "Minor: the existing threshold is misstated by €5,000, but the proposed €100,000 endpoint is correct and the overall criticism remains. This is separate from its direction.",
+  "direction_explanation": "False: the wrong higher baseline makes the proposed expansion smaller, cutting against the author’s criticism of extending the preference.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "context_checks": [
+    "Read all 13 submission pages and visually checked pages 5–6.",
+    "Checked the exact operative bill and independently located the official DRV archive of pre-submission §6 EStG.",
+    "The paragraph separately correctly reports the 75% depreciation rate. That may be a benign explanation for the nearby 75,000 figure but is not evidence of why it occurred."
+  ],
+  "source_ids": [
+    "meyer-investitionssofortprogramm-20250620",
+    "investitionssofortprogramm-bt2100323",
+    "investitionssofortprogramm-hearing-20250623",
+    "drv-estg6-20240328"
+  ],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after complete source and exact-draft check; independent AI review requested.",
+      "by": "tax_consultations_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent social-agent review retained the recorded classification after full source, exact bill and comparator checks.",
+      "by": "tax_consultations_ai_screen"
+    }
+  ]
+}

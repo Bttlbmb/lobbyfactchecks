@@ -1,0 +1,528 @@
+{
+  "reviewer": "c",
+  "audit_type": "Bounded read-only index-routing/code-delta audit",
+  "completed_at_utc": "2026-10-25T11:29:47.188290+00:00",
+  "status": "pass_for_current_configs_with_nonblocking_alias_hardening_concern",
+  "reviewed_code": {
+    "file": "research/build_factual_index.py",
+    "sha256": "27a33a59fbaa9fbedbbf1487c95ef62654ce8672547e829ebf7917008fef85da",
+    "prior_sha256": "cff442042e234b1ae47d804b1f84d459ed5849e9c303671132dcc3f089c1bcc8",
+    "syntax": "AST parsed; full current file read"
+  },
+  "method": "runpy execution with Path.write_text intercepted in memory, Path.mkdir suppressed, read-only virtual configuration/summary fixtures and captured stdout. No builder output written to saved reports/data. Only this audit record is saved.",
+  "default_capture": {
+    "summary_equal_except_built_at_utc": true,
+    "captured_counts": {
+      "documents": 30,
+      "pdf_pages": 131,
+      "claims": 388,
+      "outcomes": {
+        "unresolved": 119,
+        "supported": 268,
+        "overstated": 1
+      },
+      "initial_peer_reviews": 378,
+      "main_issue_admissions": [
+        "behg2026-fleischmann-mortality-range-fc01"
+      ]
+    },
+    "html_diff": "--- frozen saved report\n+++ captured current report\n@@ -4,7 +4,7 @@\n h1{font-size:38px;line-height:1.2}a{color:#075e87}table{width:100%;border-collapse:collapse;font-size:15px}td,th{padding:12px;text-align:left;border-bottom:1px solid #cbd8da}.meta{font-size:14px;color:#50636b}.scroll{overflow:auto}\n @media(max-width:600px){body{margin:25px auto}h1{font-size:30px}}\n </style><main><p class=\"meta\">Systematic factual checks · Independent AI research and cross-review</p>\n-<h1>Expanded factual checks</h1><p>30 previously examined responses, 131 physical PDF pages and 388 claim assessments across two complete archived public sets.</p>\n+<h1>Expanded factual checks</h1><p>30 previously examined response PDFs, 131 physical PDF pages and 388 claim assessments across 2 bounded archived public sets.</p>\n <p><strong>119 unresolved · 268 supported · 1 overstated</strong></p>\n <p>The checks examine material factual premises using primary evidence beyond each author's own citations. The reports retain supported claims, unresolved questions, excluded policy judgements and negative checks. Potential errors receive separate contextual and temporal review before entering the main findings.</p>\n <div class=\"scroll\"><table><thead><tr><th>Response set</th><th>Documents</th><th>PDF pages</th><th>Assessments</th><th>Outcomes</th></tr></thead><tbody><tr><td><a href='behg-2026/report.html'>BEHG amendment hearing</a></td><td>9</td><td>60</td><td>194</td><td>70 unresolved, 123 supported, 1 overstated</td></tr><tr><td><a href='netzkosten-2026/report.html'>Transmission-network cost subsidy 2027–2029</a></td><td>21</td><td>71</td><td>194</td><td>145 supported, 49 unresolved</td></tr></tbody></table></div>\n",
+    "html_difference_assessment": "Only introduction wording and dynamic batch-count phrasing changed; counts, outcome text and links remain equal. Frozen historical HTML was not overwritten."
+  },
+  "alternate_capture": {
+    "fixture_only": true,
+    "reason": "Continuation phase is still in_progress while root adjudicates; synthetic complete summaries test routing/counts without certifying future completion.",
+    "config_path": "research/factual-checks/continuation-20261025/protocol.json",
+    "output_directory": "research/factual-checks/continuation-20261025",
+    "write_paths": [
+      "research/factual-checks/continuation-20261025/summary.json",
+      "research/factual-checks/continuation-20261025/report.html"
+    ],
+    "counts": {
+      "id": "factual-check-continuation-20261025",
+      "status": "complete",
+      "built_at_utc": "2026-10-25T11:29:47.171446+00:00",
+      "started_at_utc": "2026-10-25T10:53:03.957106+00:00",
+      "batches": [
+        {
+          "batch": "driving-2026",
+          "title": "Driving-instruction reform hearing",
+          "documents": 6,
+          "pdf_pages": 31,
+          "claims": 7,
+          "outcomes": {
+            "supported": 4,
+            "unresolved": 3
+          },
+          "initial_peer_reviews": 6,
+          "main_issue_admissions": [],
+          "report": "research/factual-checks/driving-2026/report.html",
+          "ledger": "research/factual-checks/driving-2026/claim-ledger.json"
+        },
+        {
+          "batch": "fruehstart-2026",
+          "title": "Frühstartrente hearing",
+          "documents": 7,
+          "pdf_pages": 50,
+          "claims": 11,
+          "outcomes": {
+            "supported": 6,
+            "unresolved": 4,
+            "overstated": 1
+          },
+          "initial_peer_reviews": 10,
+          "main_issue_admissions": [
+            "fixture-admission"
+          ],
+          "report": "research/factual-checks/fruehstart-2026/report.html",
+          "ledger": "research/factual-checks/fruehstart-2026/claim-ledger.json"
+        },
+        {
+          "batch": "biostoffv-2026",
+          "title": "BioStoffV amendment",
+          "documents": 9,
+          "pdf_pages": 39,
+          "claims": 13,
+          "outcomes": {
+            "supported": 8,
+            "unresolved": 4,
+            "overstated": 1
+          },
+          "initial_peer_reviews": 12,
+          "main_issue_admissions": [],
+          "report": "research/factual-checks/biostoffv-2026/report.html",
+          "ledger": "research/factual-checks/biostoffv-2026/claim-ledger.json"
+        }
+      ],
+      "documents": 22,
+      "pdf_pages": 120,
+      "claims": 31,
+      "outcomes": {
+        "supported": 18,
+        "unresolved": 11,
+        "overstated": 2
+      },
+      "initial_peer_reviews": 28,
+      "main_issue_admissions": [
+        "fixture-admission"
+      ],
+      "new_reading_units": 0,
+      "limits": [
+        "21 clearly external responses plus one DGUV reply whose external boundary remains unresolved; 22 published PDFs assessed without a national denominator.",
+        "Finite, previously examined response sets; not a representative sample or national denominator.",
+        "Physical PDF pages include committee covers where present.",
+        "Supported concerns the recorded proposition; unresolved is neither a finding nor confirmation.",
+        "Every initial assessment received an independent AI peer review. Root adjudicated challenges and omissions.",
+        "The inventories target material testable premises; they do not certify every factual assertion.",
+        "No author contact or human specialist confirmation."
+      ]
+    },
+    "all_writes_within_continuation": true,
+    "hrefs": [
+      "../driving-2026/report.html",
+      "../fruehstart-2026/report.html",
+      "../biostoffv-2026/report.html",
+      "summary.json",
+      "completion-audit.json",
+      "protocol.json",
+      "../../../README.md"
+    ],
+    "resolved_link_targets": [
+      "research/factual-checks/driving-2026/report.html",
+      "research/factual-checks/fruehstart-2026/report.html",
+      "research/factual-checks/biostoffv-2026/report.html",
+      "research/factual-checks/continuation-20261025/summary.json",
+      "research/factual-checks/continuation-20261025/completion-audit.json",
+      "research/factual-checks/continuation-20261025/protocol.json",
+      "README.md"
+    ],
+    "link_targets_match_expected": true,
+    "dynamic_counts_pass": true
+  },
+  "negative_tests": [
+    {
+      "name": "reject incomplete phase",
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Factual-check phase is not complete"
+      },
+      "write_count": 0
+    },
+    {
+      "name": "reject duplicate literal batches",
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Configure a nonempty list of distinct batches"
+      },
+      "write_count": 0
+    },
+    {
+      "name": "reject empty batch list",
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Configure a nonempty list of distinct batches"
+      },
+      "write_count": 0
+    },
+    {
+      "name": "reject incomplete constituent batch",
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Incomplete batch: behg-2026"
+      },
+      "write_count": 0
+    }
+  ],
+  "alias_probe": {
+    "rejected": false,
+    "error": null,
+    "captured_write_count": 2,
+    "resolved_directories_equal": true,
+    "double_counted_documents": 18
+  },
+  "unchanged_generic_builders": [
+    {
+      "file": "research/build_factual_batch.py",
+      "current_sha256": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+      "completion_audit_sha256": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+      "workflow_audit_sha256": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+      "matching_hashes": true,
+      "prior_audit_reusable_for_unchanged_code": true
+    },
+    {
+      "file": "research/build_screening_pool.py",
+      "current_sha256": "029e797dda52b11c6ce38ac5a1884cece3593319a9427664a6089603b5c05b82",
+      "completion_audit_sha256": "029e797dda52b11c6ce38ac5a1884cece3593319a9427664a6089603b5c05b82",
+      "workflow_audit_sha256": "029e797dda52b11c6ce38ac5a1884cece3593319a9427664a6089603b5c05b82",
+      "matching_hashes": true,
+      "prior_audit_reusable_for_unchanged_code": true
+    },
+    {
+      "file": "research/build_bounded_coverage.py",
+      "current_sha256": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+      "completion_audit_sha256": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+      "workflow_audit_sha256": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+      "matching_hashes": true,
+      "prior_audit_reusable_for_unchanged_code": true
+    },
+    {
+      "file": "research/build_deliverables.py",
+      "current_sha256": "7e2410529c722c581d57c766d49805dc932d294170251a24a7f3f635248573c1",
+      "completion_audit_sha256": "7e2410529c722c581d57c766d49805dc932d294170251a24a7f3f635248573c1",
+      "workflow_audit_sha256": "7e2410529c722c581d57c766d49805dc932d294170251a24a7f3f635248573c1",
+      "matching_hashes": true,
+      "prior_audit_reusable_for_unchanged_code": true
+    }
+  ],
+  "prior_workflow_audit": {
+    "file": "research/factual-checks/reviews/a-workflow-code-audit.json",
+    "sha256": "7a027252f810edb0634c4cfb1d32128630a703e1eab1a05141de2128b15fe125",
+    "matches_completion_snapshot": true,
+    "reuse_limit": "Earlier findings apply only to unchanged exact-hash builder code; no previous code audit is reused for the changed index or future outputs."
+  },
+  "historical_artifacts": [
+    {
+      "file": "research/factual-checks/extension-protocol.json",
+      "previous_sha256": "7026254a7c187eee4a119b8298c6476f97ef7a3deb91068398427c19798a6e14",
+      "current_sha256": "7026254a7c187eee4a119b8298c6476f97ef7a3deb91068398427c19798a6e14",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/summary.json",
+      "previous_sha256": "de6bd4968b6cde99fbe0de1ea545baa09aafbfbf630f39c3273bcaa94df0f5ba",
+      "current_sha256": "de6bd4968b6cde99fbe0de1ea545baa09aafbfbf630f39c3273bcaa94df0f5ba",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/report.html",
+      "previous_sha256": "0cc58cfe69b9b7857ab77daa2512755b5f7cc2d9ebfa032beedb6ac35f8b089a",
+      "current_sha256": "0cc58cfe69b9b7857ab77daa2512755b5f7cc2d9ebfa032beedb6ac35f8b089a",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/protocol.json",
+      "previous_sha256": "ce20ffa07e951c5a0ac0dea93c1c68ce2468a09d3469cedeed7dce3218cca27b",
+      "current_sha256": "ce20ffa07e951c5a0ac0dea93c1c68ce2468a09d3469cedeed7dce3218cca27b",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/root-sources.json",
+      "previous_sha256": "c6e4b6bf5242b7b2135aa28f3b42277d02af824c25c8a540e55f1663edb00657",
+      "current_sha256": "c6e4b6bf5242b7b2135aa28f3b42277d02af824c25c8a540e55f1663edb00657",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/adjudication.json",
+      "previous_sha256": "97f7727c9058be6d8647a43a43b1f0656b7ab836646fd121e1ed7161face8105",
+      "current_sha256": "97f7727c9058be6d8647a43a43b1f0656b7ab836646fd121e1ed7161face8105",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/summary.json",
+      "previous_sha256": "d542bbbc22bf517d574f4a8623b14dee24a2a8a663715c70e94a0aea6ae9f319",
+      "current_sha256": "d542bbbc22bf517d574f4a8623b14dee24a2a8a663715c70e94a0aea6ae9f319",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/claim-ledger.json",
+      "previous_sha256": "f4e857b045534e417193e99ccac8e19f288d6fde0c96644ea8f1ac28989add3d",
+      "current_sha256": "f4e857b045534e417193e99ccac8e19f288d6fde0c96644ea8f1ac28989add3d",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/validation-report.json",
+      "previous_sha256": "530dd8826816390998fc6db68c58fbde5f0c77932b6eb3c32460660f8b00d359",
+      "current_sha256": "530dd8826816390998fc6db68c58fbde5f0c77932b6eb3c32460660f8b00d359",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/report.html",
+      "previous_sha256": "616140a9310f5b7deb33f578cccabdb80732e7fca52f990992be3afa3274da98",
+      "current_sha256": "616140a9310f5b7deb33f578cccabdb80732e7fca52f990992be3afa3274da98",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/assembly-manifest.json",
+      "previous_sha256": "f52b5fdf2c02dcbccf80d4c7ccf9f84d1dc0a809b41b714f026067aee0578645",
+      "current_sha256": "f52b5fdf2c02dcbccf80d4c7ccf9f84d1dc0a809b41b714f026067aee0578645",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/agents/claims-a.json",
+      "previous_sha256": "abd47189df88c00ba1e936d77189f40a885c5da06cdcd50181ea21031df5e14f",
+      "current_sha256": "abd47189df88c00ba1e936d77189f40a885c5da06cdcd50181ea21031df5e14f",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/agents/claims-b.json",
+      "previous_sha256": "035bc94a7749daa5aae0c5f34500340d48cfd439193eede79f0b61b1c62d5f99",
+      "current_sha256": "035bc94a7749daa5aae0c5f34500340d48cfd439193eede79f0b61b1c62d5f99",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/agents/claims-c.json",
+      "previous_sha256": "539e99778009c011610291190a95ddbe88986155f54d9e31166688e5299cb453",
+      "current_sha256": "539e99778009c011610291190a95ddbe88986155f54d9e31166688e5299cb453",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/reviews/a-reviews-c.json",
+      "previous_sha256": "6bd11b545c53c68782d85e20017513814d680ad948749e485d85b7d1ac73e27a",
+      "current_sha256": "6bd11b545c53c68782d85e20017513814d680ad948749e485d85b7d1ac73e27a",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/reviews/b-final-candidate-records.json",
+      "previous_sha256": "672c6463dd4b01cadc1d032daddbb709e46cfba5c3ac8c720fc15a5622a1b17f",
+      "current_sha256": "672c6463dd4b01cadc1d032daddbb709e46cfba5c3ac8c720fc15a5622a1b17f",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/reviews/b-reviews-a.json",
+      "previous_sha256": "08b070e393651f7bf369806240e15f30a2a38bf58549968f7e1cdcbd65d191ed",
+      "current_sha256": "08b070e393651f7bf369806240e15f30a2a38bf58549968f7e1cdcbd65d191ed",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/reviews/c-admission-delta.json",
+      "previous_sha256": "baf1e542cfc4504cb50bffeffbe3893b8a1500905067105ea570a857ea25a35d",
+      "current_sha256": "baf1e542cfc4504cb50bffeffbe3893b8a1500905067105ea570a857ea25a35d",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/reviews/c-final-candidate-records.json",
+      "previous_sha256": "3fbb26b9fc5b46db11ac669b58981f391754d9143be50ddfd2c758656f72c737",
+      "current_sha256": "3fbb26b9fc5b46db11ac669b58981f391754d9143be50ddfd2c758656f72c737",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/reviews/c-reviews-b.json",
+      "previous_sha256": "d9599120d88708351308318c0abb7cbbad891f13e274a5da7d08c4b6ae666d54",
+      "current_sha256": "d9599120d88708351308318c0abb7cbbad891f13e274a5da7d08c4b6ae666d54",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/staged/behg2026-fleischmann-infrasound-threshold-fc02.json",
+      "previous_sha256": "2eb4d3bb725c79cd201449dd65e046fb3b3699956dfbfdbc46d580de537d6f8a",
+      "current_sha256": "2eb4d3bb725c79cd201449dd65e046fb3b3699956dfbfdbc46d580de537d6f8a",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/staged/behg2026-fleischmann-mortality-range-fc01.json",
+      "previous_sha256": "b8b8905fcabe7235f5008a04ef6455c61965694d044edf32c671e6e00df24ac2",
+      "current_sha256": "b8b8905fcabe7235f5008a04ef6455c61965694d044edf32c671e6e00df24ac2",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/behg-2026/behg2026-fleischmann-mortality-range-fc01-admitted.json",
+      "previous_sha256": "5d4c57ae2c366ede7a5bb90a3b8c8a0091842fc94b5209791b1ef8f9a9e4717a",
+      "current_sha256": "5d4c57ae2c366ede7a5bb90a3b8c8a0091842fc94b5209791b1ef8f9a9e4717a",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/protocol.json",
+      "previous_sha256": "2582de6c786a9f1f1f136483ed06415bc7128b78e0c6efac847366040a2040a1",
+      "current_sha256": "2582de6c786a9f1f1f136483ed06415bc7128b78e0c6efac847366040a2040a1",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/root-sources.json",
+      "previous_sha256": "97ecf93c0c856184d5d049452cc57a8e0c23264ab8fdafac9b7e36b6d7772a40",
+      "current_sha256": "97ecf93c0c856184d5d049452cc57a8e0c23264ab8fdafac9b7e36b6d7772a40",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/adjudication.json",
+      "previous_sha256": "5b981bb8291e8e250916176c22044522fc685d0e260dd5f4a9a1232b5dd9bfd4",
+      "current_sha256": "5b981bb8291e8e250916176c22044522fc685d0e260dd5f4a9a1232b5dd9bfd4",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/summary.json",
+      "previous_sha256": "0ddf382eb1589098aa9251d81d6529732a76358dd6859c8c05d0aa285b005d78",
+      "current_sha256": "0ddf382eb1589098aa9251d81d6529732a76358dd6859c8c05d0aa285b005d78",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/claim-ledger.json",
+      "previous_sha256": "5bc0cce7e172ca08f42dad2ec7a561d1453e6c288de672560c90e92391f5920f",
+      "current_sha256": "5bc0cce7e172ca08f42dad2ec7a561d1453e6c288de672560c90e92391f5920f",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/validation-report.json",
+      "previous_sha256": "4f8ce8817f64863eb193b58d468cc2bc553d0d6a7e31ebf050ab10efc777d272",
+      "current_sha256": "4f8ce8817f64863eb193b58d468cc2bc553d0d6a7e31ebf050ab10efc777d272",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/report.html",
+      "previous_sha256": "94cca75a2fac0f55f1381a59554bb1114d8d1e2bcd3d8853549bc944c7cec80d",
+      "current_sha256": "94cca75a2fac0f55f1381a59554bb1114d8d1e2bcd3d8853549bc944c7cec80d",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/assembly-manifest.json",
+      "previous_sha256": "51adb5c299674bba96b3153c4ad56d3fc1675f820bbc61e1e21c59203a43ea93",
+      "current_sha256": "51adb5c299674bba96b3153c4ad56d3fc1675f820bbc61e1e21c59203a43ea93",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/agents/claims-a.json",
+      "previous_sha256": "00fb9eec92aac5cc6938f49f59656aea161c0c3d759218df0b96543b05223bf9",
+      "current_sha256": "00fb9eec92aac5cc6938f49f59656aea161c0c3d759218df0b96543b05223bf9",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/agents/claims-b.json",
+      "previous_sha256": "fa6b6b61054a33ce4aa3ea3437da238427fb5848e73fc855245ee2510b2778ca",
+      "current_sha256": "fa6b6b61054a33ce4aa3ea3437da238427fb5848e73fc855245ee2510b2778ca",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/agents/claims-c.json",
+      "previous_sha256": "343ad90ab5e07a80111aab8df350cb94f8a80a506797debea12f5e6f9daa6a44",
+      "current_sha256": "343ad90ab5e07a80111aab8df350cb94f8a80a506797debea12f5e6f9daa6a44",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/reviews/a-bkm-final-candidate.json",
+      "previous_sha256": "6bd5f54d81c46d582a8ab4769482a261b4b1cbd3692459dfc1c514e743e905e4",
+      "current_sha256": "6bd5f54d81c46d582a8ab4769482a261b4b1cbd3692459dfc1c514e743e905e4",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/reviews/a-reviews-c.json",
+      "previous_sha256": "419571578210a8b244df72e6ffbc6eb6f18616028a85a35145ce583d36f048bd",
+      "current_sha256": "419571578210a8b244df72e6ffbc6eb6f18616028a85a35145ce583d36f048bd",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/reviews/b-reviews-a.json",
+      "previous_sha256": "06e9b7345b722a488912b314bbb8ffcef4e699d9255b03a788ea7d2541605808",
+      "current_sha256": "06e9b7345b722a488912b314bbb8ffcef4e699d9255b03a788ea7d2541605808",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/reviews/c-reviews-b.json",
+      "previous_sha256": "c555af867717e23b1cb4d3ba6c64577581adce2ac6963701af15cc5095c81077",
+      "current_sha256": "c555af867717e23b1cb4d3ba6c64577581adce2ac6963701af15cc5095c81077",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-checks/netzkosten-2026/staged/netzkosten2026-bkm-craft-tax-fc01.json",
+      "previous_sha256": "2d3d20fbea433cf4ed2e210dbb7e513b9fe16048a6cd9b811ee25dabaf51d2ed",
+      "current_sha256": "2d3d20fbea433cf4ed2e210dbb7e513b9fe16048a6cd9b811ee25dabaf51d2ed",
+      "unchanged": true
+    }
+  ],
+  "pilot_artifacts": [
+    {
+      "file": "research/factual-pilot/claim-ledger.json",
+      "previous_sha256": "cf0fd598fefda230bd445a43e7763c83b95a8d8e5f6953adab9352e6046cc6b3",
+      "current_sha256": "cf0fd598fefda230bd445a43e7763c83b95a8d8e5f6953adab9352e6046cc6b3",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-pilot/adjudication.json",
+      "previous_sha256": "275100d1d3c9b6c42d350218c232d4271f29a9aeb44e887f5a9be662e85985a9",
+      "current_sha256": "275100d1d3c9b6c42d350218c232d4271f29a9aeb44e887f5a9be662e85985a9",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-pilot/report.html",
+      "previous_sha256": "74779659e29be573b5fc2718f36f0bb1d866c2cd29104baa6ebac7ffdcdb7471",
+      "current_sha256": "74779659e29be573b5fc2718f36f0bb1d866c2cd29104baa6ebac7ffdcdb7471",
+      "unchanged": true
+    },
+    {
+      "file": "research/factual-pilot/kltgv2026-cma-border-pilot01-admitted.json",
+      "previous_sha256": "72783f70f9ed3976f81ffe677b282733ded0c59e3c22f56f44022ca7cf9e71d1",
+      "current_sha256": "72783f70f9ed3976f81ffe677b282733ded0c59e3c22f56f44022ca7cf9e71d1",
+      "unchanged": true
+    }
+  ],
+  "files_unchanged_during_capture": true,
+  "preexisting_nonhistorical_snapshot_differences": [
+    {
+      "file": "README.md",
+      "prior_sha256": "dd364171e862ed6af85c78febcca35493cdbb6549955d233fb11ff9e8aa3f932",
+      "current_sha256": "c1048a0ef3d683ecfca0e8925f2ac8f42eb512184b2be2a86c2ec7c8da14a462"
+    },
+    {
+      "file": "data/validation-report.json",
+      "prior_sha256": "1367f7976aba4552d3c7d9867a145449b05da92d319259b3022b668a9afb0a71",
+      "current_sha256": "f4d23e09dd3b0a9e6c286c4a8c792f11f1c2674f315a75f89fc6c899d03d4492"
+    },
+    {
+      "file": "research/build_factual_index.py",
+      "prior_sha256": "cff442042e234b1ae47d804b1f84d459ed5849e9c303671132dcc3f089c1bcc8",
+      "current_sha256": "27a33a59fbaa9fbedbbf1487c95ef62654ce8672547e829ebf7917008fef85da"
+    }
+  ],
+  "concerns": [
+    {
+      "severity": "low",
+      "scope": "generic configuration hardening; not the current canonical batch lists",
+      "finding": "The distinctness gate rejects repeated strings, but path aliases can name the same batch twice.",
+      "evidence": {
+        "rejected": false,
+        "error": null,
+        "captured_write_count": 2,
+        "resolved_directories_equal": true,
+        "double_counted_documents": 18
+      },
+      "recommendation": "Compare resolved batch-directory identities, or restrict batch names to canonical immediate-child names, if arbitrary configurations will be accepted."
+    }
+  ],
+  "limitations": [
+    "No builders ran against live output destinations; captured execution is structural verification, not final integration certification.",
+    "Index consumes cached completed batch summaries; independent ordered rebuild and final snapshot review remain necessary.",
+    "No Git repository was present, so provenance comparison uses frozen audit hashes rather than a Git diff.",
+    "Completion-audit link in the continuation folder is tested for correct routing; final target existence/completeness will be checked after root writes the completion audit."
+  ]
+}

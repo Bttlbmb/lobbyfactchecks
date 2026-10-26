@@ -1,0 +1,802 @@
+{
+  "reviewer": "c",
+  "reviewed_file": "research/factual-checks/fruehstart-2026/agents/claims-b.json",
+  "reviewed_sha256": "10302346e1404781e7a307d7a8d124d6e7cc45f3201c7dbd1b10984b041f1f6e",
+  "documents_reread": [
+    {
+      "document_id": "hearing-1216340-response-002",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "document_id": "hearing-1216340-response-003",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "frueh-b-dk-01",
+      "reviewed_claim_en": "The bill permits private top-ups and transfer into other retirement products after adulthood.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The operative top-up and adult-transfer routes match, with annual limit and certified-contract conditions.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ § 3(3),12(2)",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-02",
+      "reviewed_claim_en": "The proposal is designed to start on 1 January 2027.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Article 8 specifies1 January 2027; a planned date is not proof all systems are ready.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Article 8;§ 30",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-03",
+      "reviewed_claim_en": "The standard depot has an effective-cost cap applicable to the proposed Frühstartrente product.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Independently accessedBMF22 September account confirms the1% effective-cost ceiling. Earlier1.5% proposal and future-effective consolidation remain distinct.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-cr-pension-capital-primary",
+          "locator": "Standard-depot description;§ 2a rationale also inBT21/7864p39",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-04",
+      "reviewed_claim_en": "Before age 18 the bill prohibits acquisition/distribution charges at contract conclusion and qualifying capital transfer.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The before 18 fee prohibition is explicit for conclusion/transfer; no all-cost-zero inference.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 3(2)no1",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-05",
+      "reviewed_claim_en": "The term acquisition and distribution costs lacks a clear legal definition.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Named cost categories exist but the border of particular recurring payments requires interpretation. No error from legal-clarity disagreement.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 3(2)no1 and rationale pp39–40",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-06",
+      "reviewed_claim_en": "Administration and product costs remain possible notwithstanding the acquisition/distribution-cost ban.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Specific acquisition/distribution ban does not abolish capped administration and investment costs.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 3 and rationale p39",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-07",
+      "reviewed_claim_en": "Ongoing holding commissions can be classified as product costs rather than prohibited distribution costs.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "The word Bestandsprovision does not conclusively determine substance, recipient or fee category. Unresolved is proportionate.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 3(2)no1",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-08",
+      "reviewed_claim_en": "Charging voluntary private top-ups would not reduce state subsidy amounts.",
+      "reviewed_result": "unresolved",
+      "verdict": "revise",
+      "reason": "Keep unresolved for the full contextual economic assertion, but make the scope clear: a fee allocated only to own payments need not lower the nominal€10 grant. The text does not assert zero effect on all returns or assets, so do not introduce that stronger proposition as a reason to reject the nominal point.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ § 2–3 and rationale pp39–40",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "frueh-b-dk-09",
+      "reviewed_claim_en": "The government rationale aims to let provider groups offer standard depots that cover their costs.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Independently located the earlier government rationale at physical p92, which expressly aims to allow cost-covering products. This is intent, not guaranteed profitability; footnote pagination is incidental.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-cr-pav",
+          "locator": "Physical p92,§ 2a(2) rationale",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-10",
+      "reviewed_claim_en": "Providers must collect and transmit tax ID, date of birth and first residence, including at late contract conclusion between adulthood and 35.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Provider ID, birthdate and first-residence fields, including late-contract data, are explicit.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 5(3)–(4)",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-11",
+      "reviewed_claim_en": "Eligibility residence is checked from registered-residence data; a late contract requires checking childhood eligibility rather than just current adult residence.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Registered childhood eligibility governs start-capital entitlement. Current address alone cannot establish that history.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ § 6–7,10; rationale p38",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-12",
+      "reviewed_claim_en": "The provider-collected current adult address contributes nothing to establishing historic eligibility.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "The historical-residence observation is supported, but a categorical zero-use claim for identity matching or administration requires a complete data model. Author qualifier grundsätzlich retained.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ § 5–7",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-13",
+      "reviewed_claim_en": "The bill builds a BZSt-linked tax-ID/date/residence verification infrastructure for grant eligibility.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Automated BZSt comparison is provided; an eligibility API is not automatically a compliant AML identity service.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ § 5–7,16",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-14",
+      "reviewed_claim_en": "Providers need legally valid authority to contract for a minor.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Own BGB download § 1629 confirms joint representation and exceptions; valid authority matters, without a universal paper-document rule.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-c-bgb",
+          "locator": "§ 1629(1)",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-15",
+      "reviewed_claim_en": "The draft requires providers to register a recalled amount with the central body before remittance.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Recovery amount registration and remittance are express process steps; their necessity is a policy question.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 14(3), rationale p48",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-16",
+      "reviewed_claim_en": "The second rationale paragraph under §15 deals substantively with §14 rather than death repayment.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "The second § 15 rationale paragraph concerns foreign relocation and § 95EStG, not simply § 14 wrongful-grant recovery. The editorial concern is fair but its precise mapping remains unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Physical p48, second paragraph under § 15",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-17",
+      "reviewed_claim_en": "Initial grant eligibility is restricted to the cohort turning six in 2026 or on 31 December 2025 and then successive six-year-old cohorts.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The starting cohorts and successive six-year-old inclusion follow § 30, including age-counting boundary.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 30(1)",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-18",
+      "reviewed_claim_en": "From the proposed start, other six-to-seventeen-year-olds may open a standard depot funded by their own contributions without the grant.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "§ 3(4) permits six-to-seventeen-year-olds outside eligible grant cohorts to open own-funded contracts; newborn access is a requested extension.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 3(4)",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-19",
+      "reviewed_claim_en": "The draft adds child-targeted, easily understood annual information.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Additional annual information for funded minors is explicit. Target-appropriate versus age-appropriate is an interpretive preference.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Article 6§ 7a(2)",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-20",
+      "reviewed_claim_en": "The draft assigns collective-asset management to the Bundesbank.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The named collective manager is Bundesbank; alternative management requires changing this design.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 24(1)",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-21",
+      "reviewed_claim_en": "The bill’s business-burden table assumes zero one-off burden from introducing or adjusting digital processes.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The business-burden table indeed shows0.0 for introducing/adapting digital processes, alongside nonzero total burden. Model descriptions are not actual provider costs.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Physical p4, E.2",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-dk-22",
+      "reviewed_claim_en": "The bill understates providers’ actual implementation and follow-up costs.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "New duties imply technical work, but no matched net-cost estimate proves actual understatement. Maintain model-versus-outcome distinction.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ § 5–17 andE.2",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-01",
+      "reviewed_claim_en": "Starting earlier increases compounded assets for a fixed positive net return and otherwise equal contributions.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Earlier positive retained returns compound longer under otherwise equal inputs. This is conditional arithmetic, not a guaranteed future performance claim.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Long-horizon rationale",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-02",
+      "reviewed_claim_en": "If no individual contract is opened, the federal collective route preserves access to support for every eligible child, with retrieval until 35.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Collective fallback and retrieval until the 35 boundary are explicit; federal ownership, contract conditions and no return guarantee remain material qualifications.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ § 9–10,21–24,27",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-03",
+      "reviewed_claim_en": "The occasion-based advisory duties discussed here are VVG duties for insurers/intermediaries rather than a general obligation on every pure-investment provider.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Independently downloaded VVG § § 6,61 are insurance-specific occasion-based advice duties; other financial-sector conduct duties are not equivalent to no regulation.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-c-r-vvg",
+          "locator": "§ § 6,61",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-04",
+      "reviewed_claim_en": "Grant products are limited to certified standard depots with cost restrictions and an electronic-conclusion option.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "§ 3 incorporates standard depots; current BMF account corroborates two funds and ceiling. Earlierbillp89 explains electronic-conclusion option rather than exclusive digital distribution.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-cr-pension-capital-primary",
+          "locator": "BMF22 September account; BT21/4088p89",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-05",
+      "reviewed_claim_en": "The bill expressly names VVG §§6 and 61 in the standard-depot no-advice exception, including intermediaries.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Both VVG § 6 and § 61 are named in the proposed exemption, preserving wishes/needs consistency.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Article 6§ 1(1f)",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-06",
+      "reviewed_claim_en": "The no-advice exception is correctly implemented under EU law.",
+      "reviewed_result": "unresolved",
+      "verdict": "revise",
+      "reason": "Keep unresolved on complete EU compatibility. Independently recovered IDD text expressly contemplates sales without advice, but still imposes wishes/needs and potentially investment-product appropriateness duties. Replace complete source-access gap with this partial legal corroboration; it is not a full compliance opinion.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-cr-idd-and-geography",
+          "locator": "IDDArt 20 and 30, recitals45/48",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "frueh-b-gdv-07",
+      "reviewed_claim_en": "The bill announces a review of synergies with the statutory capital pension and public private-pension offer.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The bill’s general rationale announces synergy consideration; that is not operative creation of a combined institution.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "General rationale, synergy discussion",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-08",
+      "reviewed_claim_en": "The investment vehicle envisaged for the statutory capital pension does not yet exist.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "A future statutory capital-pension vehicle is distinct from existing public funds. No exhaustive contemporaneous institutional census was recovered, so no contradiction inferred.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Synergy-review context",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-09",
+      "reviewed_claim_en": "Life insurers must calculate adequate premiums so they can meet obligations and form sufficient reserves.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Own VAG § 138(1) confirms actuarial adequacy and sufficient reserves. It does not mandate profitability of every marginal service or prove the requested price level.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-c-r-vag",
+          "locator": "§ 138(1), header25 September 2026",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-10",
+      "reviewed_claim_en": "The proposed monthly state contribution is €10.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The state grant amount is expressly€10 per eligible month.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 2(1)",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-11",
+      "reviewed_claim_en": "The standard depot is restricted to two provider-selected funds with risk constraints.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Independent BMF account confirms two provider-selected funds; earlierbillp89 describes lower/higher risk components. No universal risk-adjusted return conclusion follows.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-cr-pension-capital-primary",
+          "locator": "BMF22 September account; BT21/4088p89",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-12",
+      "reviewed_claim_en": "Insurer secured assets provide a pooled long-term portfolio with diversified investment categories.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Own VAG § § 124–125 permits multiple categories and requires prudent diversification/liability matching. Structural capability is supported, not optimal actual portfolio quality.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-c-r-vag",
+          "locator": "§ § 124–125",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-13",
+      "reviewed_claim_en": "During life-cycling, secured assets achieve higher returns at equivalent safety than a pure bond portfolio.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "A matching bond-only risk/return benchmark with valuation, guarantees, illiquidity and fees is absent. Permitted diversification is not proof of performance dominance.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-c-r-vag",
+          "locator": "§ § 124–125 framework",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-14",
+      "reviewed_claim_en": "Insurers can finance transformation investments in forms and volumes that public funds and ETFs cannot provide.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Actual transaction forms, volumes and fund regimes are unspecified. BaFin notes insurers themselves use infrastructure funds; that does not by itself resolve the stronger public-fund/ETF scale claim.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-c-r-vag",
+          "locator": "§ § 124–125; portfolio-form distinction",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-15",
+      "reviewed_claim_en": "Insurers invest 70% of their secured assets in Europe, unlike most market ETFs/funds.",
+      "reviewed_result": "unresolved",
+      "verdict": "revise",
+      "reason": "A primaryGDV 2025 account was located: roughly70% of all insurer/reinsurer investment assets are in the Eurozone. This is corroboration for the broad regional orientation, but differs from secured assets, Europe and the majority-of-funds comparator. Keep full proposition unresolved and record the denominator/geography distinction.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-cr-pension-capital-primary",
+          "locator": "GDV 2025EUwork-programme statement",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "frueh-b-gdv-16",
+      "reviewed_claim_en": "Insurers can formally offer a standard depot but the two-fund restriction prevents direct use of their full secured-asset portfolio.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Eligible insurer provider status plus a fund-limited standard product supports the formal-versus-direct secured-assets distinction. It does not verify an individual product launch.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 3; future standard-design incorporation",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-17",
+      "reviewed_claim_en": "The government bill adds protection against attachment alongside non-pledging and non-sale restrictions for the grant and its returns.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The September operative text adds nonattachment for grant assets and returns; this is distinct from own contributions.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 2(4)",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-18",
+      "reviewed_claim_en": "Private contributions and their returns can be withdrawn and their separate contract part cancelled.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "September § 3(2)3 and rationale p39–40 support own-contribution withdrawal/cancellation subject to contract rules. “Anytime” is not necessarily immediate, fee-free cashout.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 3(2)no3; rationale pp39–40",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-19",
+      "reviewed_claim_en": "The provider is generally authorised to apply at contract conclusion, and the grant is paid for only one qualifying contract at a time.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Provider authorisation and single-contract rule are explicit, with timely objection and priority qualifications.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ § 5(2),13",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-20",
+      "reviewed_claim_en": "The bill contains no automatic ex-tunc civil nullity rule when a grant application is rejected.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The procedural rejection rules contain no automatic ex-tunc civil invalidity clause. Ordinary contractual/civil-law remedies remain distinct.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ § 5–6,13",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-21",
+      "reviewed_claim_en": "The new annual child-targeted information repeats topics already covered by annual capital/return/cost reporting.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Annual reporting overlaps in subject matter; the additional paragraph targets readability and minor recipients. Overlap is not identical legal obligation.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Article 6§ 7a(1)–(2)",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-22",
+      "reviewed_claim_en": "The term target-group-appropriate has no normative specification and causes legal uncertainty.",
+      "reviewed_result": "unresolved",
+      "verdict": "accept",
+      "reason": "Open-textured target-appropriate language has contextual explanation but no exhaustive rubric. Its legal certainty is interpretive rather than a straightforward error.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 7a(2) and rationale",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-23",
+      "reviewed_claim_en": "The draft provides quarterly payment and a one-time application rather than annual reapplication.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Quarterly payout and one-time application are explicit, distinct from monthly entitlement.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ § 5(2),8(1)",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-24",
+      "reviewed_claim_en": "The draft waives recovery when the recoverable amount does not exceed €120.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Recovery is waived for amounts≤€120; the author’s request to raise this threshold is separate.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 14(5)",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-25",
+      "reviewed_claim_en": "Providers may obtain the child’s tax ID electronically at contract conclusion.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Provider machine retrieval ofID is expressly permitted with data matching; not a permission for unrelated reuse.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 16(2)–(3)",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-26",
+      "reviewed_claim_en": "On death before 18 the grant is repaid; grant returns, private payments and their returns can be inherited.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "The death repayment clause and rationale identify inheritable returns/own payments. Rationale already recognises losses can reduce actual remittance; no false absence-of-rule inference.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 15 andphysical p48",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    },
+    {
+      "claim_id": "frueh-b-gdv-27",
+      "reviewed_claim_en": "The bill expressly disapplies VVG §168(1) to prevent its ordinary life-policy cancellation rule overriding the restricted grant-contract part.",
+      "reviewed_result": "supported",
+      "verdict": "accept",
+      "reason": "Own VVG § 168(1) permits cancellation effective at current period end; the bill expressly disapplies it for restricted grant assets. No instantaneous payout claim follows.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-c-r-vvg",
+          "locator": "§ 168(1); draft § 3(2)no3",
+          "check": "Independently read matched primary provision or clearly labelled extraction; context, date and exact claim scope assessed."
+        }
+      ]
+    }
+  ],
+  "omissions": [
+    {
+      "document_id": "hearing-1216340-response-003",
+      "pdf_pages": [
+        4
+      ],
+      "original_excerpt": "Weitaus zeitaufwändiger",
+      "claim_en": "Creating the individual-account administration is much more time-consuming than creating the envisaged investment vehicle.",
+      "proposed_result": "unresolved",
+      "reason": "A specific comparative implementation premise supports avoiding institutional dependency; no matched project-plan oractual effort estimate establishes the comparison. Pure future delay forecasts remain excluded.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Synergy andimplementation context",
+          "check": "Thebill does not establish the comparative effort estimate."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "fruehstart-2026-c-r-vag",
+      "title": "r-vag",
+      "url": "https://www.gesetze-im-internet.de/vag_2016/VAG.pdf",
+      "retrieved_at": "2026-10-25T11:19:02.824934+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/c-r-vag.pdf",
+      "final_url": "https://www.gesetze-im-internet.de/vag_2016/VAG.pdf",
+      "sha256": "3754af571db75c47e2c4f3517de7278565cbb88235a44c335150c066a7e36ad4",
+      "bytes": 1064119,
+      "pdf_identity": true,
+      "usable_as_evidence": true,
+      "temporal_limit": "Independently downloaded and inspected selected provisions only. VAG header25 September 2026, documentary-processing caveat; VVG ordinary cancellation/advice rules distinguished from the future product."
+    },
+    {
+      "id": "fruehstart-2026-c-r-vvg",
+      "title": "r-vvg",
+      "url": "https://www.gesetze-im-internet.de/vvg_2008/VVG.pdf",
+      "retrieved_at": "2026-10-25T11:19:02.825443+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/c-r-vvg.pdf",
+      "final_url": "https://www.gesetze-im-internet.de/vvg_2008/VVG.pdf",
+      "sha256": "9f5d10f2e819f06038945f8b51383c71d800efce7b61297e270bc1ed1e5cff50",
+      "bytes": 402043,
+      "pdf_identity": true,
+      "usable_as_evidence": true,
+      "temporal_limit": "Independently downloaded and inspected selected provisions only. VAG header25 September 2026, documentary-processing caveat; VVG ordinary cancellation/advice rules distinguished from the future product."
+    },
+    {
+      "id": "fruehstart-2026-cr-pension-capital-primary",
+      "title": "BMF22 September 2026 account and GDV industry-investment account",
+      "url": "https://www.bundesfinanzministerium.de/Monatsberichte/Ausgabe/2026/09/Inhalte/Kapitel-2-Analysen/2-1-fruehstartrente.html",
+      "retrieved_at": "2026-10-25T11:21:40.956934+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/cr-pension-capital-primary-extraction.json",
+      "sha256": "4d94272f3abdd9d4cf64883e58eee46b958d1b2e221e7b01315692284f71707c",
+      "temporal_limit": "Labelled tool extraction, not originalHTML; exact populations and applicable version retained."
+    },
+    {
+      "id": "fruehstart-2026-cr-idd-and-geography",
+      "title": "EU insurance-distribution and GDV geographical-allocation primary extraction",
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016L0097",
+      "retrieved_at": "2026-10-25T11:21:40.957183+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/cr-idd-and-geography-extraction.json",
+      "sha256": "d237a121ca56d92dcbfc97e368619d65ea39bf3057391a94ea9959853f62baaa",
+      "temporal_limit": "Labelled tool extraction, not originalHTML; exact populations and applicable version retained."
+    },
+    {
+      "id": "fruehstart-2026-cr-pav",
+      "title": "Earlier private-pension government bill BT21/4088, selected provisions and rationale",
+      "url": "https://dserver.bundestag.de/btd/21/040/2104088.pdf",
+      "retrieved_at": "2026-10-25T11:21:40.957366+00:00",
+      "local_file": "research/round2-tax/sources/altersvorsorge-bt214088.pdf",
+      "sha256": "3e54fb86e17e901a1aea8d620a24bcc204989f51c7cde3e56fb5c9c535c18825",
+      "temporal_limit": "Earlier proposal; 1.5% ceiling is not substituted for final1%. Read only selected standard-depot clauses/rationale, especiallypp89 and92."
+    }
+  ],
+  "limitations": [
+    "All15 counterpart physical pages reread before checking all 49 claims; covers/contents excluded as incidental. Recommendations andstated future benefits remain distinct from factual premises.",
+    "Long statutes andbills read only relevant provisions and rationale, not claimed fully read. No author contact, human legal opinion or intent inference.",
+    "No new factual-error candidate. Three revisions improve economic/legal/evidence scope while retaining outcomes. Raw B unchanged."
+  ]
+}

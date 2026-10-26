@@ -1,0 +1,117 @@
+{
+  "id": "thg2026-nabu-timeline-a01",
+  "law_id": "thg-quote-2026",
+  "document_id": "nabu-thg-20260227",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Increasing the greenhouse-gas reduction quota for transport fuels and implementing RED III.",
+    "they_want": "Lower the quota and prevent further increases.",
+    "they_claim": "The bill reaches 59% in 2045.",
+    "the_problem": "It starts in 2040; however, the same 59% also applies in 2045, so an error depends on reading the sentence as an endpoint claim."
+  },
+  "claim_quote": {
+    "original": "bis auf 59 Prozent im Jahr 2045",
+    "language": "de",
+    "translation_en": "Translation: up to 59 percent in 2045",
+    "locator": {
+      "pdf_page": 7,
+      "printed_page": 6,
+      "section": "THG-Quotenhöhe und Anpassungsmechanismus",
+      "paragraph": "First paragraph, first sentence."
+    },
+    "underline": "im Jahr 2045"
+  },
+  "request_quote": {
+    "original": "nach unten korrigiert werden",
+    "language": "de",
+    "translation_en": "Translation of request fragment: be corrected downward",
+    "locator": {
+      "pdf_page": 7,
+      "printed_page": 6,
+      "section": "THG-Quotenhöhe und Anpassungsmechanismus",
+      "paragraph": "Same paragraph, sentence explicitly concerning the quota level."
+    }
+  },
+  "counter_quote": {
+    "original": "ab dem Kalenderjahr 2040 59 Prozent.",
+    "language": "de",
+    "translation_en": "Translation: from calendar year 2040,59 percent.",
+    "source_id": "thg-bt214083",
+    "locator": {
+      "pdf_page": 9,
+      "printed_page": 9,
+      "section": "Article 1 number 7(b), proposed BImSchG§ 37 a(4)sentence 2 number 20"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The government bill specifies 59% from 2040. A continuing 59% requirement in 2045 would also follow from that open-ended wording, but the paragraph presents 2045 as the endpoint of the increase; the bill completes that increase in 2040.",
+  "effect": "If read as the first attainment year, correction would show the criticised quota arriving sooner. That endpoint reading remains unresolved.",
+  "limits": "The 59% level is correct. This appears compatible with an isolated date slip and does not refute the author’s concerns about feedstocks, fraud or the appropriate quota. No intent is inferred. A literal reading that 59% also applies in 2045 is true; the mismatch is the stated timing of the increase.",
+  "materiality_explanation": "Minor editorial judgment: a five-year endpoint error in one supporting description. Other sections correctly give 2040 dates for separate advanced-fuel targets, and the policy case does not depend on this date.",
+  "direction_explanation": "Null: no proved error. If the endpoint interpretation were established, the later date would understate ambition and direction would be false.",
+  "confidence": {
+    "text_source_mismatch": "high for the 2040 legal start date; unresolved whether the author asserts first attainment in 2045",
+    "materiality": "editorial_judgment"
+  },
+  "context_checked": [
+    "Read all nine submission pages, including recommendations and the full quota-timing paragraph.",
+    "Checked the exact government bill named on the cover and its quota schedule, rather than the subsequently amended 65% law."
+  ],
+  "draft": {
+    "title": "Entwurf eines Zweiten Gesetzes zur Weiterentwicklung der Treibhausgasminderungs-Quote",
+    "version": "BT 21/4083,11 February 2026",
+    "source_id": "thg-bt214083",
+    "relevant_provision": "Article 1 number 7(b), BImSchG§ 37 a(4),59% from calendar 2040",
+    "submission_date": "2026-02-27",
+    "date_note": "Author title page 27 February; committee cover 2 March 2026;4 March hearing.",
+    "process_status_at_screen": "Completed; exact government bill addressed, not the April committee version/enacted law."
+  },
+  "sources": [
+    {
+      "id": "nabu-thg-20260227",
+      "title": "NABU submission, A-Drs 21(16)107-C,27 February 2026",
+      "url": "https://www.bundestag.de/resource/blob/1151028/Stellungnahme-NABU.pdf",
+      "local_file": "research/round2-energy/sources/nabu-thg-20260227.pdf",
+      "sha256": "bdcbe3815823043eecffd06fb5957fcdd221597d435000845e5b813f73416026",
+      "retrieved_at": "2026-10-25"
+    },
+    {
+      "id": "thg-bt214083",
+      "title": "Government THG-quota billBT 21/4083,11 February 2026",
+      "url": "https://dserver.bundestag.de/btd/21/040/2104083.pdf",
+      "local_file": "research/round2-energy/sources/thg-bt214083.pdf",
+      "sha256": "a63c33e7120f394f184829aabdb34b5d0222eca0441a30e004263872a3bd1b98",
+      "retrieved_at": "2026-10-25"
+    }
+  ],
+  "verification": {
+    "visual": "Submission p 7 and draft p 9 visually checked; independent review completed."
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "tax_consultations_independent_ai",
+        "date": "2026-10-25",
+        "disposition": "downgrade to unresolved; the open-ended schedule makes the 2045 statement literally true",
+        "review_file": "research/round2-reviews/tax-reviews-nabu-thg-timeline.json"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as a minor timetable-description issue; pending independent review.",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Downgraded after independent review: 59% also applies in 2045; no express first/only wording establishes a wrong endpoint.",
+      "by": "energy_hearings_ai_screen"
+    }
+  ]
+}

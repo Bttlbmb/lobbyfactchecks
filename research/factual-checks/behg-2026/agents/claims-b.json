@@ -1,0 +1,1658 @@
+{
+  "reviewer": "B",
+  "batch": "behg-2026",
+  "frozen_at_utc": "2026-10-25T09:39:27.619788+00:00",
+  "reading_method": "All 18 physical PDF pages were read fully in page-delimited text before any prior targeted dispositions. Visual inspection covered BDEW physical pages 13–14 and BVF physical page 3. BDEW physical page 14 was re-rendered at 2600 px to distinguish underlined additions from struck deletions. Prior dispositions were not used to select claims.",
+  "documents": [
+    {
+      "id": "bt-environment-1222134",
+      "url": "https://www.bundestag.de/resource/blob/1222134/Stellungnahme-BVF.pdf",
+      "local_file": "research/round3-energy/sources/submissions/bt-environment-1222134.pdf",
+      "sha256": "16b6ea68dc0808ad8c41deb0ea3c6caf6c585dcebe6724cc24f7582fa737ab97",
+      "physical_pages": 4,
+      "depth": "full_submission",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "log_locator": "$[10]",
+      "external_submission": true,
+      "author": "Bundesverband Feuerverzinken",
+      "date_or_version": "July2026 authoredstatement reproducedwith2October2026 committee cover",
+      "pilot_text": "research/factual-checks/behg-2026/text/bt-environment-1222134.txt",
+      "page_scope": "Physical PDF pages including covers and appendices; not all are authored prose.",
+      "fully_read": true,
+      "pages_read": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "bt-environment-1222444",
+      "url": "https://www.bundestag.de/resource/blob/1222444/Stellungnahme-BDEW.pdf",
+      "local_file": "research/round3-energy/sources/submissions/bt-environment-1222444.pdf",
+      "sha256": "1c80062f21df64813daa4742f1e6c969f534affe60327cd6232f67e0a5e76d5e",
+      "physical_pages": 14,
+      "depth": "full_submission",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "log_locator": "$[42]",
+      "external_submission": true,
+      "author": "BDEW",
+      "date_or_version": "2026-09-25",
+      "pilot_text": "research/factual-checks/behg-2026/text/bt-environment-1222444.txt",
+      "page_scope": "Physical PDF pages including covers and appendices; not all are authored prose.",
+      "fully_read": true,
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "behg-b-01",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        4
+      ],
+      "section": "1 Introduction",
+      "original_excerpt": "am 12. August 2026",
+      "claim_en": "The government adopted the amendment bill on 12 August 2026 and forwarded it to Parliament and Bundesrat.",
+      "claim_type": "legislative event",
+      "materiality": "medium",
+      "policy_link": "Identifies the proposal and claimed timing.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "cover and introduction"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Archived BT21/7869 confirms the government bill forwarded to Parliament, dated 7 September 2026, but this alone does not establish the cabinet adoption date 12 August or the two forwarding events.",
+      "limits": "Independent cabinet minute/press announcement not authenticated; no contradiction inferred.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-02",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        4,
+        6,
+        10,
+        12
+      ],
+      "section": "1; 2; 3.2",
+      "original_excerpt": "Korridor von 55 bis 65 €",
+      "claim_en": "The bill extends the 2026 €55–65 auction corridor to 2027.",
+      "claim_type": "draft legal scope",
+      "materiality": "high",
+      "policy_link": "Central position on stabilising 2027 prices.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 7 Art 1 § 10(2); physical 9 Art 2"
+        },
+        {
+          "source_id": "behg-root-behv",
+          "locator": "§ 3(3),§ 12"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Operative bill extends the corridor to both years; current BEHV already provides the 2026 auction corridor.",
+      "limits": "Auction corridor is distinct from surplus and late purchase prices.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-03",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        4,
+        13
+      ],
+      "section": "1; 3.3",
+      "original_excerpt": "eingelagerten Brennstoffmengen",
+      "claim_en": "Article 2 changes auction rules and Article 3 introduces treatment of fuel stored for later EU-ETS use.",
+      "claim_type": "draft legal scope",
+      "materiality": "medium",
+      "policy_link": "Frames the package needing consequential changes.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 9–13 Articles 2 and 3; § 6(2) BEDV"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Both operative articles contain the described rules, including use-evidence requirements for stored fuel.",
+      "limits": "No claim that all provisions are exclusively those topics.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-04",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        4
+      ],
+      "section": "1 Introduction",
+      "original_excerpt": "Fortführung des Festpreissystems",
+      "claim_en": "In 2025 the legislature declined continuation of fixed prices because of constitutional concerns and introduced the 2026 corridor.",
+      "claim_type": "legal history and attributed rationale",
+      "materiality": "medium",
+      "policy_link": "Supports avoiding another billing-system change.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-law",
+          "locator": "§ 10(2), header 27 February 2025"
+        },
+        {
+          "source_id": "behg-root-behv",
+          "locator": "§ 3; header 11 September 2025"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Current law establishes 2026 auctions and later indexed sales but not the full attributed 2025 decision/rationale. The corridor predates 2025 in earlier BEHG design, while 2025 legislation/ordinance implemented the transition; contextual wording could mean that decision rather than first invention.",
+      "limits": "Do not promote a literal chronology disagreement without authentic 2025 legislative rationale and fair reading.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-05",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        4
+      ],
+      "section": "1 Introduction",
+      "original_excerpt": "mengengewichteten und nachlaufenden ETS-1-Preis",
+      "claim_en": "Absent the amendment, 2027 certificates would be sold at a fixed quarterly price based on earlier volume-weighted ETS1 auctions, following 2026 auctions and earlier fixed prices.",
+      "claim_type": "current legal design",
+      "materiality": "high",
+      "policy_link": "Avoids fixed→auction→indexed-sale operational transition.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-behv",
+          "locator": "§ 3(3),§ 16,§ 17"
+        },
+        {
+          "source_id": "behg-root-law",
+          "locator": "§ 10(3)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "BEHV § 17 specifies 2027 sales from Q3 at the penultimate quarter’s weighted ETS1 auction average in the delayed-start case. This is a set sale price in each period rather than a fresh nEHS auction.",
+      "limits": "Market-indexed sale is not an invariant multi-year fixed price; author uses fixed-system comparison operationally.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-06",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        4,
+        10
+      ],
+      "section": "1; 3.2.2",
+      "original_excerpt": "Kundenvereinbarungen liegen häufig",
+      "claim_en": "Many 2026 supply contracts could not include legally clear pass-through of prices above the corridor and frequently refer only to corridor/auction prices; 2027 contracting is already affected.",
+      "claim_type": "commercial practice",
+      "materiality": "medium",
+      "policy_link": "Motivates keeping extra purchase prices unchanged.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-behv",
+          "locator": "§ 14–15 price rules"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Legal rules confirm the potential gap between auction and extra-purchase prices. They do not reveal the distribution or wording of private supply contracts.",
+      "limits": "No representative primary contract sample or member survey authenticated; later harms remain predictions.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-07",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        5
+      ],
+      "section": "1 Introduction",
+      "original_excerpt": "11 Versteigerungen",
+      "claim_en": "July–September 2026 had 11 nEHS auctions.",
+      "claim_type": "quantitative retrospective",
+      "materiality": "medium",
+      "policy_link": "Evidence used to criticise auction design.",
+      "cited_by_author": true,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-auction-csv",
+          "locator": "all 11 datedrows, 1 July–9 September 2026"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Direct EEX CSV has exactly 11 auction rows in the stated period.",
+      "limits": "As of 25 September 2026; no later auctions included.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-08",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        5
+      ],
+      "section": "1 Introduction",
+      "original_excerpt": "192,1 Mio. nationale Emissionszertifikate",
+      "claim_en": "Those auctions allocated about 192.1 million certificates for about €12.5 billion.",
+      "claim_type": "quantitative retrospective",
+      "materiality": "medium",
+      "policy_link": "Size/cost of auction mechanism.",
+      "cited_by_author": true,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-auction-csv",
+          "locator": "allocated-volume and revenue columns"
+        },
+        {
+          "source_id": "behg-b-auction-calculation",
+          "locator": "allocated and revenue totals"
+        },
+        {
+          "source_id": "behg-b-eex-calendar-april",
+          "locator": "finalannounced 192085240 quantity"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Independent totals 192084807 certificates and €12485512455 round to 192.1 million and €12.5 billion. The planned quantity differs by 433 unallocated units, immaterial at stated precision.",
+      "limits": "Allocated quantity used rather than announced total.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-09",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        5
+      ],
+      "section": "1 Introduction",
+      "original_excerpt": "65 Euro pro nEZ",
+      "claim_en": "Each auction cleared at €65, the corridor maximum.",
+      "claim_type": "quantitative retrospective",
+      "materiality": "medium",
+      "policy_link": "Basis for de-facto fixed-price criticism.",
+      "cited_by_author": true,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-auction-csv",
+          "locator": "clearing-price column, all 11 rows"
+        },
+        {
+          "source_id": "behg-root-behv",
+          "locator": "§ 12 price corridor"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Every EEX row shows €65.00.",
+      "limits": "Uniform clearing prices do not prove all submitted bids were €65.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-10",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        5
+      ],
+      "section": "1 Introduction",
+      "original_excerpt": "rund 5,2 Milliarden nEZ",
+      "claim_en": "Valid bid volume was about 5.2 billion certificates.",
+      "claim_type": "quantitative retrospective",
+      "materiality": "medium",
+      "policy_link": "Measures competition for allocation.",
+      "cited_by_author": true,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-auction-csv",
+          "locator": "total-bid-volume column"
+        },
+        {
+          "source_id": "behg-b-auction-calculation",
+          "locator": "valid_bid_volume"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Sum of published bid quantities is 5181694753, rounding to 5.2 billion.",
+      "limits": "CSV published total bid volume; independent rejected-bid microdata unavailable.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-11",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        5
+      ],
+      "section": "1 Introduction",
+      "original_excerpt": "Zuteilungsrate von gerade einmal",
+      "claim_en": "The period was approximately 27 times oversubscribed, equivalent to a 3.7% allocation rate.",
+      "claim_type": "quantitative ratio and definition",
+      "materiality": "medium",
+      "policy_link": "Claim of intense rationing.",
+      "cited_by_author": true,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-auction-csv",
+          "locator": "bid and actual-allocated columns"
+        },
+        {
+          "source_id": "behg-b-auction-calculation",
+          "locator": "aggregate ratios and denominator note"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Aggregate bids divided by actual allocation is 26.976; allocation/bids is 3.707%. Paired inverse figures make the aggregate denominator clear.",
+      "limits": "Arithmetic mean of individual auction ratios is 30.85 and initial-offer denominator differs; author period-wide formulation reasonably uses the aggregate/weighted measure.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-12",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        5
+      ],
+      "section": "1 Introduction",
+      "original_excerpt": "109 Bietern",
+      "claim_en": "Mean participation was 109 bidders per auction.",
+      "claim_type": "quantitative retrospective",
+      "materiality": "medium",
+      "policy_link": "Participation context for concentration claim.",
+      "cited_by_author": true,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-auction-csv",
+          "locator": "total-number-of-bidders column"
+        },
+        {
+          "source_id": "behg-b-auction-calculation",
+          "locator": "mean_bidders"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Published total bidder counts sum to 1199 across 11 auctions: mean 109 exactly.",
+      "limits": "Mean participants, not distinct persons across the period.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-13",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        5
+      ],
+      "section": "1 Introduction",
+      "original_excerpt": "zehn volumenmäßig größten Bieter",
+      "claim_en": "DEHSt July 2026 report finds the ten largest bidders accounted for approximately 48% of volume.",
+      "claim_type": "quantitative concentration",
+      "materiality": "medium",
+      "policy_link": "Supports concern about concentrated allocation.",
+      "cited_by_author": true,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-auction-csv",
+          "locator": "aggregate auction data, no firm/account shares"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The original DEHSt July report was sought but could not be authenticated/accessed. EEX CSV lacks bidder-level identities/shares and cannot reproduce 48%.",
+      "limits": "Correct quotation from an unavailable report is not independent confirmation or disproof.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-14",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        5
+      ],
+      "section": "1 Introduction",
+      "original_excerpt": "Anteil erworbener Mengen",
+      "claim_en": "July auction deliveries were approximately 36% to trading accounts and 64% to compliance accounts.",
+      "claim_type": "quantitative account classification",
+      "materiality": "medium",
+      "policy_link": "Supports limiting 2027 delivery to compliance accounts.",
+      "cited_by_author": true,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-auction-csv",
+          "locator": "aggregate columns, no destination-account split"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Original DEHSt report inaccessible. EEX totals do not identify delivery-account type, so the claimed split cannot be independently reproduced.",
+      "limits": "No contradiction inferred from access failure.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-15",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        5,
+        10
+      ],
+      "section": "1; 3.2.2",
+      "original_excerpt": "die doppelte Menge in der Auktion",
+      "claim_en": "All July auctions triggered the €65 double-volume/pro-rata mechanism; the rules permit this when upper-price demand exceeds twice the scheduled volume.",
+      "claim_type": "auction rule and retrospective application",
+      "materiality": "medium",
+      "policy_link": "Explains rationing and bidding incentive.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-behv",
+          "locator": "§ 12(4),§ 11(2)"
+        },
+        {
+          "source_id": "behg-b-auction-csv",
+          "locator": "July allocated quantities and €65 clearing prices"
+        }
+      ],
+      "result": "supported",
+      "explanation": "BEHV § 12(4) provides doubled volume with proportional allocation and deduction from remaining annual quantity. July CSV allocations consistently around 21.3415 m, twice the scheduled 10.6707 m.",
+      "limits": "Statement that bids sufficient to cover all offered certificates were at €65 is supported by clearing price; not proof that every submitted bid used €65. Later terminal auctions have special exceptions; author saysJuly.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-16",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        5,
+        6,
+        11
+      ],
+      "section": "1; 2; 3.2.2",
+      "original_excerpt": "strukturell kleinere und mittlere Marktteilnehmer",
+      "claim_en": "The auction design structurally disadvantages smaller/municipal participants relative to financially strong firms with greater liquidity.",
+      "claim_type": "empirical distributional mechanism",
+      "materiality": "high",
+      "policy_link": "Central critique of auction access and collateral burden.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-ecc-circular16",
+          "locator": "physical 2–3 PAMA/DCP maximum bid collateral"
+        },
+        {
+          "source_id": "behg-root-behv",
+          "locator": "§ 12(4) pro-rata and account bid limits"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Primary rules establish that larger intended bids require greater pre-financing and receive proportionally larger allocations at a common rationing rate. They do not establish actual firm size, credit constraints, counterfactual access or net disadvantage across firms.",
+      "limits": "Plausible mechanism retained; normative label discrimination and forecasts not factual errors. No representative primary firm-level outcome study found.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-17",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "section": "1; 2",
+      "original_excerpt": "erheblichen administrativen und finanziellen Aufwand",
+      "claim_en": "Auction operation imposes substantial administrative and financing costs on all participants and ultimately increases consumer costs.",
+      "claim_type": "empirical cost claim",
+      "materiality": "medium",
+      "policy_link": "Motivates simplifying auction design.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-ecc-circular16",
+          "locator": "physical 2–4 clearing, collateral, forms, fees"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Circular establishes forms, payment steps and exchange/clearing fees, so participation has operational requirements. It does not quantify substantial burden for all participants or downstream consumer pass-through.",
+      "limits": "Magnitude/universality and consumer incidence remain unverified; author judgments about usefulness excluded.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-18",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "section": "2 Summary",
+      "original_excerpt": "Reduzierung der Gebotsmengenobergrenze",
+      "claim_en": "Draft BEHV § 12(1a) limits each compliance account’s bids to 20% of an auction’s offered volume and restricts delivery to compliance accounts.",
+      "claim_type": "draft legal scope",
+      "materiality": "high",
+      "policy_link": "Welcomed safeguards for smaller issuers.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 9 Art 2 number 6 § 12(1a)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Operative provision expressly contains both conditions.",
+      "limits": "Does not guarantee improved small-firm outcomes; reduction is relative to current 50% rule per account.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-19",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        7
+      ],
+      "section": "2 Summary",
+      "original_excerpt": "reduziert so die zu hinterlegenden Sicherheiten",
+      "claim_en": "Reducing permitted bid volume reduces the maximum collateral required for those bids.",
+      "claim_type": "conditional financial mechanism",
+      "materiality": "medium",
+      "policy_link": "Benefit of bid cap.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-ecc-circular16",
+          "locator": "physical 2 PAMA equals financial pre-trade limit; physical 3 DCP collateral equalsmaximum bid value"
+        },
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 9 § 12(1a)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Collateral/pre-trade limit is tied to intended bid value; lower maximum allowable quantity therefore lowers maximum financing capacity needed for a capped bid.",
+      "limits": "Conditional mechanical implication, not evidence every participant’s realised cost falls.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-20",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        7
+      ],
+      "section": "2 Summary",
+      "original_excerpt": "Sicherheiten einige Tage bei der EEX",
+      "claim_en": "Auction collateral is retained for several days before being returned.",
+      "claim_type": "clearing operation",
+      "materiality": "medium",
+      "policy_link": "Motivates faster transfers.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-ecc-circular16",
+          "locator": "physical 2 D−1 or D early margin toD+1payment; physical 3 DCPdebitD−1/returnD+1"
+        }
+      ],
+      "result": "supported",
+      "explanation": "DCP cash is debited D−1 and unused collateral returned D+1; NCM setting D−2 can produce margin settled D−1 and released after auction, payment D+1. This supports a multi-day financing interval.",
+      "limits": "ECC is the clearinghouse rather than EEX itself; exchange shorthand is immaterial here. Business days, membership and alternatives vary; not a claim of unexplained extra retention.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-21",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        7,
+        9
+      ],
+      "section": "2; 3.2.1",
+      "original_excerpt": "40 Mio. Emissionszertifikate",
+      "claim_en": "Draft 2027 auction volume deducts a presumed 2026 additional requirement of 40 million certificates based on government projections.",
+      "claim_type": "draft quantitative legal scope",
+      "materiality": "high",
+      "policy_link": "Core objection to reducing 2027 auction supply.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 9 § 11(1a); physical 21 explanationnumber 5"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Operative deduction is 40 million; rationale cites 2025 projection data for 2026 and explains verified 2026 data only available 2028.",
+      "limits": "This checks the proposal and basis stated, not the forecast’s eventual accuracy.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-22",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        9
+      ],
+      "section": "3.2.1",
+      "original_excerpt": "über Flexibilitätsmöglichkeiten ausgeglichen werden",
+      "claim_en": "National fuel-trading target shortfalls must be reconciled using EU-effort-sharing flexibility mechanisms, potentially costing Germany as responsible member state.",
+      "claim_type": "current legal mechanism",
+      "materiality": "medium",
+      "policy_link": "Government rationale for higher-price surplus.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-law",
+          "locator": "§ 4 and § 5"
+        },
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 21 rationale § 11"
+        }
+      ],
+      "result": "supported",
+      "explanation": "BEHG § 5 requires use of EU flexibility instruments/additional allocations when qualifying emissions exceed the budget, with Germany bearing the obligation. Draft explains that cost rationale.",
+      "limits": "National auction oversubscription is not itself an ESR emission shortfall; actual future purchase cost is not established.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-23",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        7,
+        9,
+        10,
+        11
+      ],
+      "section": "2; 3.2.1–2",
+      "original_excerpt": "Überschusspreis von 68 Euro",
+      "claim_en": "2026 surplus and subsequent late purchase prices are €68 and €70, while the bill raises the corresponding 2027 vintage prices by €5 to €73 and €75.",
+      "claim_type": "current/draft quantitative legal scope",
+      "materiality": "high",
+      "policy_link": "Central request to retain existing extras.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-behv",
+          "locator": "§ 14–15"
+        },
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 10 § 14 and § 15"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Current and proposed operative prices match the statement, with 2027 vintage late purchase available until 31 August 2028.",
+      "limits": "These are different sales phases, not all 2027 payments nor the regular auction ceiling.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-24",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        9
+      ],
+      "section": "3.2.1",
+      "original_excerpt": "ohne dass diese Emissionen das für 2027 zulässige Budget überschreiten",
+      "claim_en": "Deducting 2026 additional demand reduces 2027 corridor supply, so some 2027 demand can face surplus prices even without exceeding the 2027 annual emission budget.",
+      "claim_type": "conditional budget arithmetic",
+      "materiality": "high",
+      "policy_link": "Argues against cross-year deduction.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 9 § 11(1a); physical 10 § 14; physical 11 § 44"
+        },
+        {
+          "source_id": "behg-root-behv",
+          "locator": "§ 45 increase quantities"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Auction quantity is annual budget plus relevant increases minus 40 m, so a demand level between that reduced auction supply and the annual budget can require surplus purchase.",
+      "limits": "Conditional possibility, not a claim that the same physical emissions are charged twice or all 40 million will actually fall in 2027 surplus; annual increases and demand matter.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-25",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        10
+      ],
+      "section": "3.2.2",
+      "original_excerpt": "strategisches Bieterverhalten verhindert",
+      "claim_en": "Government rationale says higher surplus prices protect auctions from strategic bidding/demand shifts.",
+      "claim_type": "attributed legislative rationale",
+      "materiality": "medium",
+      "policy_link": "BDEW disputes mechanism.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 21 rationale § 14; physical 22 § 15"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Draft expressly gives avoidance of strategic bidding and temporal demand shifts as reasons for price premiums.",
+      "limits": "Checks what government says, not whether that objective is achieved.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-26",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        10,
+        11,
+        12
+      ],
+      "section": "3.2.2; 3.2.4",
+      "original_excerpt": "möglichst früh große Mengen",
+      "claim_en": "Higher later prices create an incentive to bid earlier for €65 certificates, potentially for onward resale; greater price gaps strengthen that incentive.",
+      "claim_type": "conditional economic mechanism",
+      "materiality": "medium",
+      "policy_link": "Critiques premium-price design.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-behv",
+          "locator": "§ 12(4),§ 14–15; register transfer rules"
+        },
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 10 prices; physical 21 rationale recognises temporal demand effects"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "A lower early price and transferable certificates create a potential gross saving. But allocation probabilities, finance costs, vintage restrictions and resale demand affect net strategy; primary rules do not establish claimed strength or actual behaviour.",
+      "limits": "Potential resale is legally possible but no inference of manipulation/intent or actual small-firm harm.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-27",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        7,
+        11
+      ],
+      "section": "2; 3.2.2",
+      "original_excerpt": "Begrenzung der Nachkaufmenge auf 10 Prozent",
+      "claim_en": "Late purchase for 2026/2027 vintages is capped at 10% of certificates acquired in the preceding year.",
+      "claim_type": "legal quantitative limit",
+      "materiality": "medium",
+      "policy_link": "Supports eliminating cap and freezing prices.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-behv",
+          "locator": "§ 15"
+        },
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 10 § 15 second sentence"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Current and proposed § 15 provide the 10% limit.",
+      "limits": "Acquisition and compliance-account calculation details matter; not 10% of emissions in the abstract.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-28",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        7,
+        11
+      ],
+      "section": "2; 3.2.3",
+      "original_excerpt": "noch keine Nachkaufregelung",
+      "claim_en": "Draft lacks a dedicated extra-purchase route after 31 August 2028 for corrections to 2027 or earlier emission reports.",
+      "claim_type": "draft legal omission",
+      "materiality": "high",
+      "policy_link": "Motivates proposed § 15 number 3.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 10 § 15 and § 16; entireArt 2"
+        },
+        {
+          "source_id": "behg-root-law",
+          "locator": "§ 8 abgabepflicht"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Specified late-sale authorisation ends 31 August 2028. New § 16 sales from 2028 are for relevant later vintages; no dedicated correction route for old reporting years is added.",
+      "limits": "Does not assert no possible secondary acquisition or no later administrative/legal remedy whatsoever; narrow claim is lack of a dedicated Nachkaufregelung.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-29",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        11
+      ],
+      "section": "3.2.3",
+      "original_excerpt": "Jahresenergiesteueranmeldung",
+      "claim_en": "Later corrections to annual energy-tax declarations can require correction of earlier emission reports and additional certificate surrender.",
+      "claim_type": "legal reporting mechanism",
+      "materiality": "medium",
+      "policy_link": "Explains need for late correction route.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-law",
+          "locator": "§ 2(2),§ 7,§ 8"
+        },
+        {
+          "source_id": "behg-b-ebev2030",
+          "locator": "§ 6 fuel quantities;§ 13 reporting"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Fuel-tax-triggered scope and reporting/surrender duties make later corrected fuel quantities capable of changing historical obligations.",
+      "limits": "Conditional possibility, not measured frequency or quantified liability.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-30",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        7,
+        12
+      ],
+      "section": "2; 3.2.4",
+      "original_excerpt": "auch für das Jahr 2026 eingesetzt",
+      "claim_en": "2027 vintage certificates can cover 2026 emissions and can cost at most €65 in 2027 auction, below €68/70 for 2026 extra phases.",
+      "claim_type": "draft legal scope and price comparison",
+      "materiality": "high",
+      "policy_link": "Supports banning cross-vintage use.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 10 § 29,§ 14–15; physical 7 corridor"
+        },
+        {
+          "source_id": "behg-root-law",
+          "locator": "§ 9"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Draft § 29 expressly allows 2027 vintage for emissions of 2027 or earlier years, within that vintage’s validity. Price comparison follows operative amounts.",
+      "limits": "Only usable while 2027 vintage valid and subject to surrender deadlines; direction often called borrowing rather than banking, terminology immaterial to core comparison.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-31",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        7,
+        12
+      ],
+      "section": "2; 3.2.5",
+      "original_excerpt": "Jahre 2028 bis 2030",
+      "claim_en": "Draft reduces 2028–30 national annual quantities by the emission share leaving BEHG scope from 2028.",
+      "claim_type": "draft legal scope",
+      "materiality": "medium",
+      "policy_link": "Reference period objection.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 11 § 44(4)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Operative provision states both years and scope adjustment.",
+      "limits": "The contribution of any particular residual sector is not fixed here.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-32",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        12
+      ],
+      "section": "3.2.5",
+      "original_excerpt": "Referenzzeitraum 2016 – 2018",
+      "claim_en": "Original annual quantities relied on average 2016–18 shares and inventory-based definitions/data.",
+      "claim_type": "legal methodological history",
+      "materiality": "medium",
+      "policy_link": "Recommends replacing reference years with 2024–26 reports.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-behv",
+          "locator": "§ 44(1),§ 44(2)"
+        },
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 22 rationale § 44"
+        }
+      ],
+      "result": "supported",
+      "explanation": "BEHV § 44(1) explicitly fixes 2016–18 mean ratios for national fuel emissions within German non-ETS emissions; draft rationale multiplies ESR quantities by these shares.",
+      "limits": "Does not mean every future inventory parameter is frozen forever; updated national totals can still change.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-33",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        12
+      ],
+      "section": "3.2.5",
+      "original_excerpt": "Emissionen seit 2024",
+      "claim_en": "Waste incinerator emissions have been reported in nEHS since 2024 using standard factors, and this differs substantially from national inventory methodology.",
+      "claim_type": "reporting methods comparison",
+      "materiality": "high",
+      "policy_link": "Central argument for changing residual-emission reference data.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-law",
+          "locator": "§ 7(2) waste start 2024"
+        },
+        {
+          "source_id": "behg-b-ebev2030",
+          "locator": "§ 5(2),§ 7(4),§ 12; Annex 2 Part 5"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Law confirms waste reporting starts 2024 and permits standard factors, with individual-factor/measurement alternatives. The current NID original could not be retrieved, so magnitude and systematic direction of method differences and actual uptake are not established.",
+      "limits": "Author does not expressly claim standard values are compulsory/exclusive; do not manufacture that stronger assertion. Failed NID retrieval recorded.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-34",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        7,
+        13
+      ],
+      "section": "2; 3.4.1",
+      "original_excerpt": "für die Kostenaufteilung maßgeblichen CO2-Preis",
+      "claim_en": "CO2 cost-allocation law’s 2027 price reference differs from the bill’s proposed 2027 auction/yearly weighted compensation and 2028 quarterly-indexed rules.",
+      "claim_type": "current/draft legal coherence",
+      "materiality": "high",
+      "policy_link": "Motivates consequential CO2KostAufGamendment.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-co2cost-html",
+          "locator": "§ 4(1)–(2)"
+        },
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 10 § 16(3); physical 12 BEDV § 7"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Current § 4 uses 2026 corridor mean and from 2027 previous July–November auction average. Draft introduces 2027 corridor and 2028 quarterly-indexed sales and uses annual weighted 2027 auctions for BEDV compensation; BDEW accurately identifies differing reference formulations.",
+      "limits": "Whether harmonising every reference is legally necessary or the proposed formula is best is normative; not treated as proven constitutional incoherence.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-35",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        7,
+        14
+      ],
+      "section": "2; 3.4.2",
+      "original_excerpt": "monatlicher Brennstofflieferverträge ab Januar 2027",
+      "claim_en": "Applicable CO2 price information is required for monthly fuel invoices beginning January 2027.",
+      "claim_type": "legal billing mechanism",
+      "materiality": "medium",
+      "policy_link": "Urgency of timely price publication.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-co2cost-html",
+          "locator": "§ 3(1)2,§ 3(3),§ 4(2)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Supplier invoices must show the CO2 cost component using the applicable certificate price. Current § 4 also requires relevant national prices published before the calendar year.",
+      "limits": "Does not independently prove all suppliers bill monthly or require the author’s preferred four-week lead time.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-36",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        14
+      ],
+      "section": "3.4.2",
+      "original_excerpt": "31. März des folgenden Kalenderjahres",
+      "claim_en": "Current § 4(3) requires UBA publication of the relevant EU allowance average by 31 March of the year following the reporting year.",
+      "claim_type": "current legal deadline",
+      "materiality": "medium",
+      "policy_link": "Request earlier publication for Januarybilling.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-co2cost-html",
+          "locator": "§ 4(3)"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Current consolidated provision states 31 March after the reporting year.",
+      "limits": "Do not silently reinterpret author’s proposed advance publication as already required; normative request excluded.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-37",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        14
+      ],
+      "section": "3.4.2",
+      "original_excerpt": "auf das im Jahr 2025 neugefasste TEHG",
+      "claim_en": "CO2KostAufG § 3(4)4b still refers to old TEHG § 8 and needs its auction cross-reference updated to 2025 TEHG § 10.",
+      "claim_type": "current legal cross-reference and proposed correction",
+      "materiality": "medium",
+      "policy_link": "Supports consequential technical amendment.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-co2cost-html",
+          "locator": "§ 3(4)4b"
+        },
+        {
+          "source_id": "behg-b-tehg2025",
+          "locator": "header 27 February 2025;§ 8 validity/transfer;§ 10 auction"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Visual high-resolution inspection of physical 14 shows added § 10 underlined and old § 8 struck out. Current CO2 cost text retains § 8; 2025 TEHG § 10 is the auction provision. The requested correction has the right direction.",
+      "limits": "pdftotext linearises both added/deleted text and can reverse interpretation; visually verified using sources/b-bdew14-hi.png. No erroneous reversal finding.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-38",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        8
+      ],
+      "section": "3.1.1",
+      "original_excerpt": "17. Juli 2026",
+      "claim_en": "Commission 17 July 2026 ETS1 reform proposal phases in non-hazardous waste incinerators with capacity 3 tonnes/hour or more during 2031–34.",
+      "claim_type": "EUdraft scope/timing",
+      "materiality": "high",
+      "policy_link": "Basis for ending national waste obligations withEU coverage.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-ets1-indexed",
+          "locator": "scope and Article 12 a extraction"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Primary indexed proposal corroborates date/phase-in but says capacity exceeding 3 t/h rather than inclusive 3 or more. Direct authoritative original text could not be authenticated, so the exact threshold is not promoted as an error from indexed extraction alone.",
+      "limits": "Narrow equality boundary; bulk proposed coverage/timing corroborated. National opt-outs/exceptions remain in proposal; no adopted inclusion guaranteed.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-39",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        8
+      ],
+      "section": "3.1.1",
+      "original_excerpt": "nach Absatz 2 Nummer 1 BEHG",
+      "claim_en": "Existing BEHG § 24(2)1 contains waste-related transition authority which the bill removes.",
+      "claim_type": "current/draft legal scope",
+      "materiality": "medium",
+      "policy_link": "Request preserve authority pendingEU waste reform.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-law",
+          "locator": "§ 24(2)1"
+        },
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 8 § 24(2); physical 20 rationale"
+        }
+      ],
+      "result": "supported",
+      "explanation": "Existing authority and bill’s deletion of its numbered waste-specific element match the description.",
+      "limits": "Does not settle whether preserving it is necessary; draft cites TEHG § 52 as its reason.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-40",
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        9
+      ],
+      "section": "3.1.1",
+      "original_excerpt": "quartalsweisen Anbindung an das ETS2-Preissignal",
+      "claim_en": "The referenced earlier ministerial draft links residual national waste pricing quarterly to the ETS2 price signal.",
+      "claim_type": "earlier draft legal scope",
+      "materiality": "high",
+      "policy_link": "BDEWfavoursfixed 65 instead of indexing.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 7 § 10(3)4; physical 10 § 16(3)"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Archived later government bill links quarterly sales to TEHG auctions and rationale identifies ETS1 context. BDEW specifically says Referentenentwurf, whose exact earlier text was not authenticated; cannot substitute later version to prove contradiction.",
+      "limits": "Potential ETS1/ETS2 label difference remains version-sensitive and must be revisited only with authentic cited ministerial draft.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-41",
+      "document_id": "bt-environment-1222134",
+      "pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "section": "Introduction; referent draft; closing",
+      "original_excerpt": "Verschiebung des EU-ETS2 auf 2028",
+      "claim_en": "ETS2 carbon pricing has been postponed to 2028.",
+      "claim_type": "EUlegal timing",
+      "materiality": "high",
+      "policy_link": "Rationale for extended national transition and protection.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-eu2026667-boe",
+          "locator": "physical 7 Article 2"
+        },
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 14, 19 rationale"
+        }
+      ],
+      "result": "supported",
+      "explanation": "March 2026 EU Regulation 2026/667 Article 2 shifts the relevant ETS2 start to 2028, before the July-authored statement.",
+      "limits": "2028 pricing start is distinct from earlier reporting/permit obligations; July cover not treated as October reintroduction.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-42",
+      "document_id": "bt-environment-1222134",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "Notwendige Schritte; referent draft",
+      "original_excerpt": "Preiskorridor von 55 bis 65 Euro",
+      "claim_en": "The July ministerial draft stabilises 2027 national carbon pricing in a €55–65 corridor pursuant to the coalition decision.",
+      "claim_type": "earlier draft legal scope",
+      "materiality": "high",
+      "policy_link": "Welcomes extension.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 7 operativecorridor; physical 14 coalition 12 May 2026 rationale"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Later government bill corroborates corridor and coalition intent, but exact July ministerial version not authenticated.",
+      "limits": "Agreement with later text is partial corroboration, not proof of earlier draft identity.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-43",
+      "document_id": "bt-environment-1222134",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Zum vorliegenden Referentenentwurf",
+      "original_excerpt": "Überschussmengenpreises von 68 Euro auf 73 Euro",
+      "claim_en": "The July ministerial draft raises surplus price 68→73 and late purchase price 70→75 for 2027.",
+      "claim_type": "earlier draft quantitative scope",
+      "materiality": "high",
+      "policy_link": "Core request remove premium increases.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-behv",
+          "locator": "§ 14–15 current 68/70"
+        },
+        {
+          "source_id": "behg-root-draft",
+          "locator": "physical 10 latergovernment 73/75"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Existing prices and later government proposal match amounts, but the referenced July ministerial draft remains unauthenticated.",
+      "limits": "Do not claim July text false or fully verified from later version.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-44",
+      "document_id": "bt-environment-1222134",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "Introduction; referent draft",
+      "original_excerpt": "einseitiger Standortnachteil",
+      "claim_en": "Extended German national pricing creates a unilateral competitive disadvantage for German industrial SMEs before ETS2.",
+      "claim_type": "comparative competitive effect",
+      "materiality": "high",
+      "policy_link": "Supports urgent sector protection.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-root-law",
+          "locator": "§ 2 scope and § 10 pricing"
+        },
+        {
+          "source_id": "behg-root-eu2026667-boe",
+          "locator": "Article 2"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "German national pricing and delayed common ETS2 are established, but that does not establish burdens are unilateral after accounting for other national carbon/energy taxes, reliefs and firm-specific exposure.",
+      "limits": "No EU-wide comparable primary burden assessment authenticated; advocacy scope interpreted fairly, not as literal assertion every other country has zero environmental charges.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-45",
+      "document_id": "bt-environment-1222134",
+      "pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "section": "Notwendige Schritte; referent draft",
+      "original_excerpt": "nicht für die BECV-Kompensation beihilfefähig",
+      "claim_en": "Hot-dip galvanising sector (PRODCOM 25.61.11.30) is not currently eligible for BECV compensation.",
+      "claim_type": "sector eligibility",
+      "materiality": "high",
+      "policy_link": "Central request for sector listing.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-becv-law",
+          "locator": "Annex Tables 1–2;§§ 4–7 and 18–23"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The code is absent from the original statutory annex, but eligibility can arise through later administrative sector recognition. June 2026 list/authentic implementing notice could not be accessed, so absence from annex alone is insufficient to prove exhaustive current exclusion.",
+      "limits": "Secondary IHK reproduction suggests other metal-treatment codes were added, but it is not primary proof of this sector’s current status. No contrary eligibility evidence found.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-46",
+      "document_id": "bt-environment-1222134",
+      "pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "section": "Notwendige Schritte; referent draft",
+      "original_excerpt": "erheblichen Carbon-Leakage-Risiko",
+      "claim_en": "The hot-dip galvanising industry is demonstrably exposed to substantial carbon-leakage risk.",
+      "claim_type": "sector-specific empirical risk",
+      "materiality": "high",
+      "policy_link": "Claim of need for aid eligibility.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-becv-law",
+          "locator": "§§ 20–21 quantitative and qualitative recognition tests"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "BECV identifies relevant recognition criteria but does not itself assess the unlisted sector. No independent sector-specific quantitative/qualitative primary assessment establishing substantial risk was authenticated.",
+      "limits": "Risk may exist; absence of accessible evidence is not refutation. Distinguish exposure risk from evidence of actual production relocation.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-47",
+      "document_id": "bt-environment-1222134",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Zum vorliegenden Referentenentwurf",
+      "original_excerpt": "Planungs- und Absicherungsmöglichkeiten",
+      "claim_en": "Industrial SMEs often have fewer planning and hedging options than large firms.",
+      "claim_type": "comparative commercial capacity",
+      "materiality": "medium",
+      "policy_link": "Supports avoiding premium-price exposure.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-ecc-circular16",
+          "locator": "physical 2–3 clearing access/limits, indirectcontextonly"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Primary clearing rules establish financing/operational arrangements but do not compare the industrial sector’s firm-size groups or hedging opportunities.",
+      "limits": "Not all BVF members necessarily direct auction participants; no representative primary survey or financing data retrieved.",
+      "check_completed": true
+    },
+    {
+      "id": "behg-b-48",
+      "document_id": "bt-environment-1222134",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Closing rationale",
+      "original_excerpt": "erschwert Investitionen in die Transformation",
+      "claim_en": "Lack of BECV eligibility disadvantages galvanising versus other affected industries and hinders investment in climate-neutral production.",
+      "claim_type": "comparative investment effect",
+      "materiality": "high",
+      "policy_link": "Urgency of granting sector aid.",
+      "cited_by_author": false,
+      "check_method": "Full submission reading; independent primary-source/legal comparison; calculations and visual markup inspection where relevant. Access failures are recorded in sources/b-access-log.json.",
+      "evidence": [
+        {
+          "source_id": "behg-b-becv-law",
+          "locator": "§§ 8–11 aidcalculation/investmentcountermeasures"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Aid structure shows eligible firms can receive compensation conditional on measures, but does not quantify galvanisers’ net competitive or investment effects versus an appropriate comparator. Underlying current exclusion remains unresolved.",
+      "limits": "No observed investment, cost-incidence or matched-sector primary dataset authenticated; prediction that listing will improve future certainty excluded.",
+      "check_completed": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "behg-b-eex-nehs",
+      "url": "https://www.eex.com/en/markets/environmentals/german-nehs",
+      "retrieved_at": "2026-10-25T09:27:50.844530+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/b-eex-nehs.html",
+      "sha256": "681a3016ef72a27b00eccebb34cf527101ffd0bba2f3888496e034faf5e17264",
+      "title": "EEX German nEHS market and auction rules",
+      "temporal_limit": "Retrieved 25 October 2026. Dated 2026 auction rows/circular/calendar precede BDEW25 September 2026. Live EEX explanatory content may have changed; claims of then-current rules independently checked against BEHV11 September 2025. BECV administrative extensions require separate verification; TEHG header 27 February 2025 and EBeV header 21 December 2022 show no later changes."
+    },
+    {
+      "id": "behg-b-eex-data",
+      "url": "https://www.eex.com/en/markets/environmentals/german-nehs/german-nehs-data",
+      "retrieved_at": "2026-10-25T09:27:50.845043+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/b-eex-data.html",
+      "sha256": "ba96a94b326a8c5e34b217b22d29ed030281dcabe17799974faa7a5371f07303",
+      "title": "EEX German nEHS data page linking official CSV",
+      "temporal_limit": "Retrieved 25 October 2026. Dated 2026 auction rows/circular/calendar precede BDEW25 September 2026. Live EEX explanatory content may have changed; claims of then-current rules independently checked against BEHV11 September 2025. BECV administrative extensions require separate verification; TEHG header 27 February 2025 and EBeV header 21 December 2022 show no later changes."
+    },
+    {
+      "id": "behg-b-ecc-circular16",
+      "url": "https://www.ecc.de/fileadmin/Global/News/ECC/ECC_Circulars/2026/20260311_ECC_Clearing_Circular_No._16_NEHS_Auction_2026.pdf",
+      "retrieved_at": "2026-10-25T09:27:50.845220+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/b-ecc-circular16.pdf",
+      "sha256": "4525022a2ca3f79545c686aab58b9d31c7fca382aa6df110393b105ce19c8c99",
+      "title": "ECC Clearing Circular 16/2026, 11 March 2026",
+      "temporal_limit": "Retrieved 25 October 2026. Dated 2026 auction rows/circular/calendar precede BDEW25 September 2026. Live EEX explanatory content may have changed; claims of then-current rules independently checked against BEHV11 September 2025. BECV administrative extensions require separate verification; TEHG header 27 February 2025 and EBeV header 21 December 2022 show no later changes."
+    },
+    {
+      "id": "behg-b-becv-law",
+      "url": "https://www.gesetze-im-internet.de/becv/BJNR312900021.html",
+      "retrieved_at": "2026-10-25T09:27:50.845382+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/b-becv-law.html",
+      "sha256": "2f21b1265835c8d88c06e2db229f455ae3718a66e26c2cb3a0d236714e3e547d",
+      "title": "BECV consolidated full text and annex",
+      "temporal_limit": "Retrieved 25 October 2026. Dated 2026 auction rows/circular/calendar precede BDEW25 September 2026. Live EEX explanatory content may have changed; claims of then-current rules independently checked against BEHV11 September 2025. BECV administrative extensions require separate verification; TEHG header 27 February 2025 and EBeV header 21 December 2022 show no later changes."
+    },
+    {
+      "id": "behg-b-eex-calendar-april",
+      "url": "https://www.eex.com/fileadmin/Global/News/EEX/EEX_Customer_Information/2026/20260428_CI-nEHS_Auction_Calendar_2026.pdf",
+      "retrieved_at": "2026-10-25T09:27:50.845582+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/b-eex-calendar-april.pdf",
+      "sha256": "a99ed904e14871ea42682829254f9381ae88609f74ac4b29662760e536ccb765",
+      "title": "EEX final 2026 auction quantity notice, 28 April 2026",
+      "temporal_limit": "Retrieved 25 October 2026. Dated 2026 auction rows/circular/calendar precede BDEW25 September 2026. Live EEX explanatory content may have changed; claims of then-current rules independently checked against BEHV11 September 2025. BECV administrative extensions require separate verification; TEHG header 27 February 2025 and EBeV header 21 December 2022 show no later changes."
+    },
+    {
+      "id": "behg-b-auction-csv",
+      "url": "https://public.eex-group.com/eex/nehs-reporting/nEHS_Auction_Reporting.csv",
+      "retrieved_at": "2026-10-25T09:30:56.956825+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/b-auction.csv",
+      "sha256": "5c171c0092dbba7932bd063916bc9e5119da9946ebd0d3e1666a477367c20114",
+      "title": "EEX original nEHS auction reporting CSV, July–September 2026",
+      "temporal_limit": "Retrieved 25 October 2026. Dated 2026 auction rows/circular/calendar precede BDEW25 September 2026. Live EEX explanatory content may have changed; claims of then-current rules independently checked against BEHV11 September 2025. BECV administrative extensions require separate verification; TEHG header 27 February 2025 and EBeV header 21 December 2022 show no later changes."
+    },
+    {
+      "id": "behg-b-tehg2025",
+      "url": "https://www.gesetze-im-internet.de/tehg_2025/BJNR0460B0025.html",
+      "retrieved_at": "2026-10-25T09:33:16.822626+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/b-tehg2025.html",
+      "sha256": "9b523cffa835654346cd0b89cf8c9f506d17230c2e66c91d53c41e0474ce7181",
+      "title": "TEHG2025 consolidated full text",
+      "temporal_limit": "Retrieved 25 October 2026. Dated 2026 auction rows/circular/calendar precede BDEW25 September 2026. Live EEX explanatory content may have changed; claims of then-current rules independently checked against BEHV11 September 2025. BECV administrative extensions require separate verification; TEHG header 27 February 2025 and EBeV header 21 December 2022 show no later changes."
+    },
+    {
+      "id": "behg-b-ebev2030",
+      "url": "https://www.gesetze-im-internet.de/ebev_2030/BJNR286800022.html",
+      "retrieved_at": "2026-10-25T09:33:17.754014+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/b-ebev2030.html",
+      "sha256": "8ce7c3a419466e66b0ef0eba74dacac99b433489c4c9ec8f82db2d4930f2cb19",
+      "title": "EBeV2030 full text and waste calculation annexes",
+      "temporal_limit": "Retrieved 25 October 2026. Dated 2026 auction rows/circular/calendar precede BDEW25 September 2026. Live EEX explanatory content may have changed; claims of then-current rules independently checked against BEHV11 September 2025. BECV administrative extensions require separate verification; TEHG header 27 February 2025 and EBeV header 21 December 2022 show no later changes."
+    },
+    {
+      "id": "behg-b-ets1-indexed",
+      "title": "Tool extraction of indexed COM(2026)616 proposal",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52026PC0616",
+      "retrieved_at": "2026-10-25T09:39:27.619788+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/b-ets1-indexed-extract.json",
+      "sha256": "9c794f12bd2cbd52e6f59c62c3446e5248b600e231431f321754490819f06233",
+      "temporal_limit": "Indexed search extraction only, not original publisher archive; direct access blocked. Used as partial corroboration, not definitive threshold adjudication."
+    },
+    {
+      "id": "behg-b-auction-calculation",
+      "title": "Independent recomputation from EEX auction CSV",
+      "url": "https://public.eex-group.com/eex/nehs-reporting/nEHS_Auction_Reporting.csv",
+      "retrieved_at": "2026-10-25T09:39:27.619788+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/b-auction-recomputation.json",
+      "sha256": "9ea8d38f21d3b3c9b50fa16d0491f9effb8d4bce90de33af66faf64693b3ddc5",
+      "temporal_limit": "Researcher calculation as of retrieval; exact CSV hash separately archived."
+    },
+    {
+      "id": "behg-root-law",
+      "title": "behg-root-law",
+      "url": "https://www.gesetze-im-internet.de/behg/BJNR272800019.html",
+      "retrieved_at": "2026-10-25T09:28:27.432964+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/behg-root-law.html",
+      "sha256": "ca0ef4cae5948b172cea2912ce85e80a9ffe85b33aaca0f56827df15b6677988",
+      "content_type": "text/html",
+      "resolved_url": "https://www.gesetze-im-internet.de/behg/BJNR272800019.html",
+      "temporal_limit": "Current retrieval; check amendment/effective-date and relevant provision before historical use."
+    },
+    {
+      "id": "behg-root-behv",
+      "title": "behg-root-behv",
+      "url": "https://www.gesetze-im-internet.de/behv/BJNR302600020.html",
+      "retrieved_at": "2026-10-25T09:28:29.371406+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/behg-root-behv.html",
+      "sha256": "a69f7b4b7fca2ed10a5d0d69f85b3d197403d4a9733ae6cec169f4e4b4995db9",
+      "content_type": "text/html",
+      "resolved_url": "https://www.gesetze-im-internet.de/behv/BJNR302600020.html",
+      "temporal_limit": "Current retrieval; check amendment/effective-date and relevant provision before historical use."
+    },
+    {
+      "id": "behg-root-draft",
+      "title": "Government BEHG amendment bill BT21/7869, 7 September 2026",
+      "url": "https://dserver.bundestag.de/btd/21/078/2107869.pdf",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round3-energy/sources/bt217869-behg.pdf",
+      "sha256": "cb48c3954e4777e343788a5f243483a4b431cd4622f0f38728cc9c5b7ca53de3",
+      "temporal_limit": "Archived committee government bill. Julyreferentenversionnotauthenticated; original authored dates and committee covers remain separate."
+    },
+    {
+      "id": "behg-root-co2cost-html",
+      "title": "CO2KostAufG full current HTML",
+      "url": "https://www.gesetze-im-internet.de/co2kostaufg/BJNR215400022.html",
+      "retrieved_at": "2026-10-25T09:32:47.894730+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/behg-root-co2cost-html.html",
+      "sha256": "9651080852f4d71b4bf2930617d4faec3bf85190d41683d24997716aa7c61c43",
+      "temporal_limit": "Retrieved 25 October 2026. Current consolidated text requires header/amendment comparison before use for October authored claims; Spanish official journal reproduces March 2026 act.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "behg-root-eu2026667-boe",
+      "title": "EU2026/667 official Spanish gazette reproduction",
+      "url": "https://www.boe.es/doue/2026/667/L00001-00008.pdf",
+      "retrieved_at": "2026-10-25T09:32:50.917124+00:00",
+      "local_file": "research/factual-checks/behg-2026/sources/behg-root-eu2026667-boe.pdf",
+      "sha256": "52cf183a478d211f5aa8ac62f77431b2e8d8923d4b55aa60df1acb4e4cc17367",
+      "temporal_limit": "Retrieved 25 October 2026. Current consolidated text requires header/amendment comparison before use for October authored claims; Spanish official journal reproduces March 2026 act.",
+      "usable_as_evidence": true
+    }
+  ],
+  "exclusions": [
+    {
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        1
+      ],
+      "reason": "Committee cover: hearing identifier, date and transmission boilerplate. Dates are preserved as separate metadata; this page contains no authored policy claim."
+    },
+    {
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        2
+      ],
+      "reason": "Title, authored date, membership and register boilerplate are incidental organisation descriptions. They do not materially establish policy cost, need or legal scope."
+    },
+    {
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        3
+      ],
+      "reason": "Contents only."
+    },
+    {
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        4
+      ],
+      "reason": "Welcoming the corridor, regretting timing, predicting earliest passage in November and expected administrative savings are preferences or forecasts. Specific legal, history and contract premises were inventoried."
+    },
+    {
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        5,
+        6,
+        7
+      ],
+      "reason": "Labels such as genuine market, suboptimal, ad absurdum and discrimination express judgments. Proposals to broaden the corridor or replace auctions with fixed prices are preferences. Quantitative, distributional and operational factual premises were retained; improved future outcomes for small firms were not assumed."
+    },
+    {
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        8,
+        9
+      ],
+      "reason": "Proposed section 24(3), requests for a fixed waste price and claims of preferable or minimal administration are policy choices or counterfactual forecasts. Future waste-market distortion and disproportionate 2027 scarcity were excluded; present legal premises were inventoried."
+    },
+    {
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        10,
+        11,
+        12
+      ],
+      "reason": "Recommendations to freeze premiums, remove the cap, ban cross-vintage use and change reference years are preferences. Forecasts of strategic buying, future losses and waste being by far the largest residual share were excluded. Conditional/current mechanisms and commercial practice claims were inventoried."
+    },
+    {
+      "document_id": "bt-environment-1222444",
+      "pdf_pages": [
+        13,
+        14
+      ],
+      "reason": "The absence of BEDV comments, proposed CO2KostAufG redlines and choices of future fixed/weighted prices and publication lead time are proposals. Existing references, deadlines and invoice premises were checked separately; markup was inspected visually."
+    },
+    {
+      "document_id": "bt-environment-1222134",
+      "pdf_pages": [
+        1
+      ],
+      "reason": "Committee cover only. It does not establish that the July text was newly delivered or adopted in October."
+    },
+    {
+      "document_id": "bt-environment-1222134",
+      "pdf_pages": [
+        2
+      ],
+      "reason": "Affirmations of pricing and technology neutrality, ideal market benefits, a fair level playing field and redistribution, and requests to list the sector or remove extra charges are a policy framework and preferences. Current timing, eligibility and competitive premises were inventoried. The PRODCOM label is incidental sector identity."
+    },
+    {
+      "document_id": "bt-environment-1222134",
+      "pdf_pages": [
+        3
+      ],
+      "reason": "Welcome, expected planning certainty and competitiveness benefits, and consistency with a relief goal are judgments or predictions. Numerical draft prices, comparative planning/hedging capacity and sector risk/eligibility were inventoried separately."
+    },
+    {
+      "document_id": "bt-environment-1222134",
+      "pdf_pages": [
+        4
+      ],
+      "reason": "Requests for listing before ETS2, predictions that listing will provide certainty or prevent leakage, and the rhetorical claim Only so are advocacy and forecasts. The specific claimed existing investment disadvantage was inventoried. Contact details were excluded."
+    }
+  ],
+  "coverage": {
+    "documents": 2,
+    "physical_pages_read": 18,
+    "claim_count": 48,
+    "results": {
+      "unresolved": 18,
+      "supported": 30
+    },
+    "all_assigned_pages_audited": true
+  },
+  "limitations": [
+    "BDEW was authored 25 September 2026; its committee cover is dated 5 October 2026. BVF was authored July 2026; its cover is dated 2 October 2026. No October reintroduction is inferred.",
+    "The exact July ministerial draft was not authenticated. Later BT21/7869 provides only partial corroboration for BVF version-specific claims.",
+    "The DEHSt July concentration report, later BECV recognition notice and authentic EU proposal/NID originals were inaccessible. Explicit unresolved outcomes are retained.",
+    "No human specialist confirmation or author contact. No finding is inferred from lack of evidence, policy disagreement, forecasts or alleged intent.",
+    "The raw inventory is frozen before independent peer review. Subsequent corrections and adjudications must be saved outside this file."
+  ]
+}

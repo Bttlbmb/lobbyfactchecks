@@ -1,0 +1,143 @@
+{
+  "id": "gmodg2026-dmb-energy-poverty-a01",
+  "law_id": "gmodg-2026",
+  "document_id": "dmb-gmodg-20260619",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Revising building-energy and heating rules, including tenant cost allocation.",
+    "they_want": "A technology-neutral heating-cost cap and stronger tenant protection.",
+    "they_claim": "The population share meeting a low/lower-middle-income energy-poverty definition rose from 14.5% to 25.2%.",
+    "the_problem": "Those figures belong to the cited study’s broader measure without that income restriction."
+  },
+  "claim_quote": {
+    "original": "Haushalten mit geringem und niedrigem mittlerem Einkommen",
+    "language": "de",
+    "translation_en": "Translation: households with low and lower-middle income",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "section": "I. Einleitung",
+      "paragraph": "Last body paragraph; explanatory definition between dashes, followed by 14.5% in 2021 and 25.2% inMay 2022; footnote 6."
+    },
+    "underline": "mit geringem und niedrigem mittlerem Einkommen"
+  },
+  "additional_claim_quote": {
+    "original": "von 14,5 Prozent in 2021 auf 25,2 Prozent im Mai 2022",
+    "language": "de",
+    "translation_en": "Translation: from 14.5 percent in 2021 to 25.2 percent inMay 2022",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "section": "I. Einleitung",
+      "paragraph": "Same sentence as claim_quote."
+    }
+  },
+  "request_quote": {
+    "original": "technologieneutraler Heizkostendeckel",
+    "language": "de",
+    "translation_en": "Translation of request fragment: technology-neutral heating-cost cap",
+    "locator": {
+      "pdf_page": 14,
+      "printed_page": 13,
+      "section": "IV. Forderungen",
+      "paragraph": "First demand; introduced by the association’s express demand heading."
+    }
+  },
+  "counter_quote": {
+    "original": "2021 stieg die Quote leicht auf 11,3 %, ehe sie im aktuellen Jahr auf 16,8 % klettere.",
+    "language": "de",
+    "translation_en": "Translation: In 2021 the rate rose slightly to 11.3%, before climbing to 16.8% in the current year.",
+    "source_id": "iw-energiearmut-55-2022",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 3,
+      "section": "Betroffenheit von Energiearmut",
+      "paragraph": "Left column, paragraph explicitly discussing the third definition."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Keep the measures separate: IW definition 1 uses energy spending above 10% of net household income, without an income restriction; definition 3 adds relative poverty/lower-middle income. Its overall population shares are 11.3%/16.8%, rather than definition 1’s 14.5%/25.2%. These are modelled 2021/2022 estimates without relief packages; the body uses persons, while the headline says households. Neither is a within-low-income-group incidence rate.",
+  "effect": "The narrower-income vulnerability statistic is overstated relative to the cited measure, weakening this introductory support for the requested cost protection.",
+  "limits": "The study finds increasing risk under every definition. The issue does not establish current hardship, the correct household-weighted rate, or whether a heating-cost cap is desirable. A benign reading takes the income phrase as a broad description of especially vulnerable groups; its placement as an explanatory definition makes that less natural. No intent is inferred.",
+  "materiality_explanation": "Minor editorial judgment: a substantial difference in the cited subgroup measure, but an introductory supporting statistic rather than a cost estimate or central mechanism of the proposed cap.",
+  "direction_explanation": "Using the broader, higher share for the narrower vulnerable group strengthens the protection argument. This direction is separate from severity.",
+  "confidence": {
+    "text_source_mismatch": "high for the two measures; the strength of the definitional reading is interpretive",
+    "materiality": "editorial_judgment"
+  },
+  "context_checked": [
+    "Read all 16 submission pages, including neighbouring income statistics, acknowledged tenant-protection provisions, detailed criticism and final requests.",
+    "Read the complete three-page IW brief, including its lack of a universal definition, separate measures, modelling and interpretation limits.",
+    "Checked the exact government bill named on the submission, rather than the later enacted law."
+  ],
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Änderung des Gebäudeenergiegesetzes, zur Änderung des Gebäude-Elektromobilitätsinfrastruktur-Gesetzes und zur Änderung weiterer Vorschriften im Wärmebereich",
+    "version": "BT 21/6278,8 June 2026",
+    "source_id": "gmodg-bt216278",
+    "relevant_provision": "Heating replacement options and stepped renewable-fuel shares; tenant cost sharing in proposed CO 2 KostAufG§ 5 a. The challenged historical statistic does not depend on amendments.",
+    "submission_date": "2026-06-19",
+    "process_status_at_screen": "Completed; this record assesses the government bill addressed in the 22 June hearing, not the July enacted version.",
+    "additional_addressed_motions": [
+      "BT 21/6006",
+      "BT 21/6019",
+      "BT 21/3910"
+    ]
+  },
+  "sources": [
+    {
+      "id": "dmb-gmodg-20260619",
+      "title": "Deutscher Mieterbund submission, A-Drs 21(9)288,19 June 2026",
+      "url": "https://www.bundestag.de/resource/blob/1190984/Stellungnahme_DMB.pdf",
+      "local_file": "research/round2-energy/sources/dmb-gmodg-202606.pdf",
+      "sha256": "3a1d2b0515a5b4bfcd94dff150ba41f090aeeb40e8809af0240519fb3a9863a3",
+      "retrieved_at": "2026-10-25"
+    },
+    {
+      "id": "iw-energiearmut-55-2022",
+      "title": "Ralph Henger/Maximilian Stockhausen,Gefahr der Energiearmut wächst,IW-Kurzbericht 55/2022,3 July 2022",
+      "url": "https://www.iwkoeln.de/fileadmin/user_upload/Studien/Kurzberichte/PDF/2022/IW-Kurzbericht_2022-Energiearmut.pdf",
+      "local_file": "research/round2-energy/sources/iw-energiearmut-2022.pdf",
+      "sha256": "33fa0870c83bd0963054988482458d2125d6e89e514c4659cae3b36ce4d5a7c1",
+      "retrieved_at": "2026-10-25"
+    },
+    {
+      "id": "gmodg-bt216278",
+      "title": "Government bill BT 21/6278,8 June 2026",
+      "url": "https://dserver.bundestag.de/btd/21/062/2106278.pdf",
+      "local_file": "research/round2-energy/sources/gmodg-bt216278.pdf",
+      "sha256": "7f0f381e427a9e760fe7e374110381e5f897220145f6be9a601c89954d5818ef",
+      "retrieved_at": "2026-10-25"
+    }
+  ],
+  "verification": {
+    "visual": "Submission physical page  3 and IW page  3 rendered and visually read; exact definition and figures confirmed. Request physical page  14 checked by page extraction.",
+    "independent_ai": "Completed; see independent review file."
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_round2_independent_ai",
+        "date": "2026-10-25",
+        "disposition": "retain minor/true with explicit population-denominator and modelling limits",
+        "review_file": "research/round2-reviews/social-reviews-dmb-energy-poverty.json"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as a provisional source-definition mismatch, pending independent review.",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent full-source review retained minor/true; clarified overall-population denominator and source household/person wording.",
+      "by": "energy_hearings_ai_screen"
+    }
+  ]
+}

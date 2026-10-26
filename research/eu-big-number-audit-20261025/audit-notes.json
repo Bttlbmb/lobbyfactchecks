@@ -1,0 +1,196 @@
+{
+  "title": "Recent EU large-number claims: source audit and novelty screening",
+  "date": "2026-10-25",
+  "scope": "Targeted research into EU cost and benefit estimates published in the preceding twelve months. This is not a complete census or a specialist audit.",
+  "integration": "Separate research notes only; existing project findings and issue counts were not changed.",
+  "review": {
+    "ai_researcher": "Codex",
+    "independent_review": null,
+    "specialist_review": null,
+    "author_contact": false
+  },
+  "sources": {
+    "wallet": {
+      "title": "SWD(2025) 837 final, European Business Wallets",
+      "document_date": "2025-11-19",
+      "url": "https://data.consilium.europa.eu/doc/document/ST-15701-2025-ADD-2/en/pdf",
+      "archive": "sources/wallet-swd837.pdf",
+      "sha256": "07a3c700627073a3557240b2319c0ae0f09af2a786e5c3703ea7931be342c79b",
+      "relevant_locator": "Printed page 49, footnote 119 (PDF page 51 in the Council copy); Table 14 on printed page 51 (PDF page 53)."
+    },
+    "eppo": {
+      "title": "2024 Annual Report: EPPO leading the charge against EU fraud",
+      "document_date": "2025-03-03",
+      "url": "https://www.eppo.europa.eu/media/news/2024-annual-report-eppo-leading-charge-against-eu-fraud-2025-03-03_en",
+      "archive": "sources/eppo-2024-announcement.html"
+    },
+    "dac": {
+      "title": "SWD(2026) 165 final, DAC recast impact assessment",
+      "document_date": "2026-06-24",
+      "url": "https://taxation-customs.ec.europa.eu/document/download/aec17175-75b0-47b7-9c3e-56e7af08b0e2_en?filename=Impact+Assessment_DAC_Proposal+for+a+Council+Directive+-+Taxation.pdf",
+      "archive": "sources/dac-ia2026.pdf",
+      "sha256": "fc42665feae589ba0bb4102029c2381796b5466253dcc0e674e2f3f9f9b009d5",
+      "relevant_locator": "Section 6.1, printed pages 32-35; Annex 4, printed pages 87-90 (PDF pages 88-91)."
+    },
+    "tax_announcement": {
+      "title": "European Commission proposes landmark tax simplification package to streamline compliance and boost competitiveness",
+      "document_date": "2026-06-24",
+      "url": "https://taxation-customs.ec.europa.eu/news/european-commission-proposes-landmark-tax-simplification-package-streamline-compliance-and-boost-2026-06-24_en",
+      "archive": "sources/tax-package-announcement.html"
+    }
+  },
+  "shortlist": [
+    {
+      "id": "wallet-fraud-baseline",
+      "disposition": "documented_baseline_question_not_established_error",
+      "headline_angle": "The Business Wallet study uses an EPPO active-investigation damage total to support a EUR 4.96 billion prevention benefit without an explicit period or demonstrated prevention link.",
+      "observations": [
+        "The SWD includes a EUR 4.96 billion fraud-reduction estimate and footnote 119 identifies EUR 24.8 billion as its baseline, describing it as estimated 2024 fraud damage.",
+        "The linked EPPO release identifies EUR 24.8 billion as estimated damage attached to 2,666 active investigations at the end of 2024.",
+        "The same EPPO release separately identifies 1,504 investigations opened in 2024, with EUR 13.07 billion estimated damage. Neither is a measure of fraud committed during 2024 or wallet-preventable losses.",
+        "The benefit equals 20 percent of EUR 24.8 billion. This arithmetic correspondence is verified; the precise basis for the prevention factor is not independently validated."
+      ],
+      "calculation": {
+        "expression": "24.8e9 * 0.2",
+        "result_eur": 4960000000
+      },
+      "limits": [
+        "The footnote could be read as referring to an estimate reported in 2024, rather than losses incurred during 2024. The SWD does not explicitly assign an annual period to the fraud benefit. A proven annual stock-versus-flow error is therefore not established.",
+        "The underlying cases can cover different offence periods; an end-year investigation inventory does not supply an annual fraud-loss series.",
+        "An active-investigation damage total alone does not establish annual losses or the portion of losses preventable through business wallets.",
+        "The source mismatch does not establish a corrected fraud-prevention benefit, the direction of the overall estimation error, or absence of wallet benefits.",
+        "The published fraud-benefit sentence and table do not expressly specify a benefit period. Do not assert that this figure was explicitly labelled annual without additional supporting evidence.",
+        "This is a separate indirect-benefit calculation, not proof that the public EUR 150 billion direct-savings headline is false.",
+        "No intent or misconduct is inferred."
+      ],
+      "visual_check": "PDF page 51 rendered and inspected, including full context and footnote 119.",
+      "next_reporting_question": "What annual loss series, applicable fraud categories and evidence of prevention effectiveness support the EUR 4.96 billion figure?",
+      "novelty_assessment": "No independent coverage of this specific baseline and prevention-link question found in the recorded targeted searches. This is not proof of universal novelty."
+    },
+    {
+      "id": "dac7-goods-services-population",
+      "disposition": "documented_methodological_reporting_angle_correct_total_unresolved",
+      "headline_angle": "The EUR 678 million platform-reporting saving uses a mixed goods-and-services population for a goods-only threshold reform.",
+      "observations": [
+        "The public Commission announcement says the reform removes reporting for more than 10 million sellers and delivers EUR 678 million savings for platforms.",
+        "Annex 4 estimates a total population of 71 million people selling goods or services via platforms, using a Swedish survey benchmark adjusted for internet usage across EU country groups.",
+        "An assumed 19 percent reportable share implies approximately 13.5 million reportable sellers.",
+        "The study states that it cannot isolate the share engaged in goods sales, although the threshold amendment applies to goods. It discusses French goods/services value shares but does not establish an EU goods-seller headcount.",
+        "For the preferred option, a 16 percentage point increase in the exempt share is applied to the whole 71 million population, producing approximately 11.3 million fewer reportable sellers.",
+        "Multiplication by EUR 60 per seller yields the EUR 678 million central cost estimate.",
+        "The per-seller cost is derived from assumed total DAC7 reporting costs: 52,000 platforms times EUR 50,000 system cost times a 30 percent allocation to DAC7, divided by the modelled reportable seller population and rounded.",
+        "The assessment explicitly warns that its estimates may be upper-bound approximations. It also provides EUR 40/60/80 per-seller sensitivity scenarios."
+      ],
+      "calculations": [
+        {
+          "expression": "52000 * 50000 * 0.30",
+          "result_eur": 780000000
+        },
+        {
+          "expression": "780e6 / 13.5e6",
+          "result_eur_per_seller_unrounded": 57.77777777777778
+        },
+        {
+          "expression": "11.3e6 * 60",
+          "result_eur": 678000000
+        }
+      ],
+      "limits": [
+        "This is a documented population-scope and uncertainty problem, not a verified corrected savings amount.",
+        "Do not apply a French 50/50 split in monetary value as though it were an EU split in seller counts.",
+        "Do not treat a platform's average allocated reporting cost as demonstrated avoidable marginal cost; fixed and variable costs need further evidence.",
+        "The model's 13.5 million sellers differ from the approximately 5 million reported in 2024 cited in Annex 4. That contrast alone does not disprove the model, because coverage and measurement differences remain unresolved.",
+        "The Commission discloses the limitation in the full assessment; do not describe it as concealed there.",
+        "The RSB already criticised unclear assumptions in a draft. This does not independently confirm the final-version goods/services issue."
+      ],
+      "visual_check": "PDF pages 89-91 rendered and visually inspected, including the population caveat, the goods/services limitation, the diagram and the preferred-option calculation.",
+      "next_reporting_question": "What goods-only population and avoidable cost per seller would support the announced savings?",
+      "novelty_assessment": "No independent coverage of the specific mixed-population calculation found in targeted English, German and French queries. General criticism of the package is already public."
+    },
+    {
+      "id": "wallet-indirect-benefits-total",
+      "disposition": "verified_internal_numerical_inconsistency_materiality_limited",
+      "headline_angle": "The wallet support document states EUR 26.81 billion indirect benefits while its accompanying table lists components totalling EUR 23.42 billion.",
+      "source": "wallet",
+      "locator": "Printed page 51, Table 14; PDF page 53 in the Council copy.",
+      "observations": [
+        "The narrative reports EUR 26.81 billion.",
+        "The four quantified line items are EUR 0.45 billion, EUR 4.96 billion, EUR 1.35 billion and EUR 16.66 billion.",
+        "These sum to EUR 23.42 billion, which is also the table total.",
+        "The difference from the narrative is EUR 3.39 billion."
+      ],
+      "calculation": {
+        "expression": "26.81 - (0.45 + 4.96 + 1.35 + 16.66)",
+        "difference_eur_billion": 3.39
+      },
+      "limits": [
+        "An editorial or stale-summary error is a plausible explanation.",
+        "The correct table is on the same page; do not imply every presentation of the total is wrong.",
+        "This inconsistency does not establish that a separate headline direct-savings estimate is wrong.",
+        "The indirect-benefit section is separate from the main direct cost-benefit analysis."
+      ],
+      "visual_check": "Page rendered; inspection recorded on final verification.",
+      "novelty_assessment": "Exact-number and error-focused searches returned the original documents and mirrors, but no independent discussion of the discrepancy."
+    }
+  ],
+  "excluded_or_deprioritised": [
+    {
+      "id": "wallet-headline-disagreement",
+      "reason": "The differences among EUR 150 billion, EUR 160 billion and the support document's adoption scenarios have already been discussed by a wallet vendor's explainer.",
+      "prior_coverage_url": "https://www.europeanbusinesswallet.com/savings-estimates",
+      "prior_coverage_archive": "sources/prior-art-wallet-headlines.html"
+    },
+    {
+      "id": "eudr-cost-reductions",
+      "reason": "The EUR 8.1 billion to EUR 2.0 billion estimate and 95 percent reductions assumed for two operator groups were discussed by IISD on 15 October 2026.",
+      "prior_coverage_url": "https://www.iisd.org/articles/deep-dive/european-union-deforestation-regulation-uneven-impact",
+      "access_note": "Read through web tool; direct archive request returned 403."
+    },
+    {
+      "id": "tax-relief-versus-paperwork",
+      "reason": "The split of the EUR 7.9 billion headline into around EUR 3.3 billion compliance savings and EUR 4.6 billion financial/tax relief, and the 2037 implementation date for withholding changes, were already discussed by Ropes & Gray on 30 July 2026. The precise EUR 3.767 billion unclaimed-relief component and 10 percent assumption remain possible narrower follow-ups, not credited as a new broad story.",
+      "prior_coverage_url": "https://www.ropesgray.com/en/insights/viewpoints/2026/07/102neb2/eu-tax-reform-and-private-capital-something-for-everyone"
+    }
+  ],
+  "unresolved_secondary_leads": [
+    {
+      "id": "wallet-new-firms",
+      "observation": "Printed page 49 multiplies a 2.09 percent entrepreneurship-density change by the 32.7 million enterprise stock to describe around 680,000 new firms annually. The precise outcome variable in the cited academic paper and correct conversion remain unverified because full publisher text was inaccessible. No established error credited."
+    },
+    {
+      "id": "wallet-trust-benefit",
+      "observation": "Printed page 50 relates EUR 509 GDP per capita to EUR 16.66 billion aggregate impact. EUR 509 times 32,721,957 enterprises reproduces approximately EUR 16.66 billion, suggesting a possible unit mismatch. This is an inference; the support-study calculation has not been obtained."
+    },
+    {
+      "id": "eudr-environmental-benefits",
+      "observation": "The May 2026 review converts a historic deforestation footprint into avoided impacts and expressly assumes domestic commodity-related deforestation is fully halted. This requires further policy-effectiveness, displacement and valuation analysis before a criticism can be established."
+    }
+  ],
+  "novelty_search": {
+    "run_date": "2026-10-25",
+    "method": "General web searches for exact amounts, source institutions, suspected mismatches and multilingual equivalents; selected searches excluded official-document domains. Search results are not exhaustive of paywalled, unindexed, broadcast or other-language reporting.",
+    "representative_queries": [
+      "\"Business Wallet\" \"24.8\"",
+      "\"Business Wallet\" \"4.96\"",
+      "\"business wallets\" \"fraud\" \"ongoing investigations\"",
+      "\"European Business Wallets\" fraud EPPO -site:eur-lex.europa.eu -site:data.consilium.europa.eu -site:ec.europa.eu -site:eu.dk -site:parlament.gv.at",
+      "\"Unternehmenswallet\" \"Betrug\" \"4,96\"",
+      "\"portefeuilles\" \"24,8\" fraude",
+      "\"DAC7\" \"678 million\" \"Sweden\"",
+      "\"DAC7\" \"678\" \"services\"",
+      "\"DAC7\" \"savings\" \"upper-bound\"",
+      "\"DAC7\" \"Einsparungen\" \"Dienstleistungen\" \"678\"",
+      "\"DAC7\" \"économies\" \"678\" \"services\"",
+      "\"DAC7\" savings \"goods and services\" -site:eur-lex.europa.eu -site:eu.dk",
+      "\"DAC7\" \"678 million\" criticism",
+      "\"EUDR\" \"75%\" \"95%\" costs",
+      "\"taxation omnibus\" \"2037\" \"savings\"",
+      "\"tax simplification\" \"unclaimed\" \"2026\"",
+      "\"business wallets\" \"26.81\" \"23.42\"",
+      "\"business wallets\" \"3.39\"",
+      "\"European Business Wallets\" \"indirect benefits\" error",
+      "\"SWD(2025) 837\" \"mistake\""
+    ],
+    "result": "Three shortlisted points across two EU packages: one verified internal numerical inconsistency and two documented methodological questions. No independent prior discussion of those specific points located. Three broader candidate stories excluded or deprioritised because prior discussion was found. Universal novelty is not established."
+  }
+}

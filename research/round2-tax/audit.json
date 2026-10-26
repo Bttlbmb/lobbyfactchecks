@@ -1,0 +1,143 @@
+{
+  "audit_type": "Tax branch pre-handoff consistency check",
+  "checked_at_utc": "2026-10-25 01:46 UTC",
+  "round_earliest_completion_utc": "2026-10-25 02:01:28 UTC",
+  "round_remains_active": true,
+  "records": [
+    {
+      "id": "fruehstart2026-vzbv-allocation-tax-r2-10",
+      "path": "research/round2-tax/fruehstart2026-vzbv-allocation-tax-r2-10.json",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": false,
+      "review_files": [
+        "research/round2-reviews/energy-reviews-vzbv-fruehstart.json"
+      ]
+    },
+    {
+      "id": "dac8-2025-dstg-tax-r2-07",
+      "path": "research/round2-tax/dac8-2025-dstg-tax-r2-07.json",
+      "finding_state": "provisional_finding",
+      "severity": "major",
+      "favours_author_request": true,
+      "review_files": [
+        "research/round2-reviews/root-reviews-dstg-dac8.json"
+      ]
+    },
+    {
+      "id": "stberg2026-bstbk-tax-r2-05",
+      "path": "research/round2-tax/stberg2026-bstbk-tax-r2-05.json",
+      "finding_state": "unresolved_lead",
+      "severity": "minor",
+      "favours_author_request": null,
+      "review_files": [
+        "research/round2-reviews/energy-reviews-bstbk-stberg.json"
+      ]
+    },
+    {
+      "id": "stberg2026-bstbk-tax-r2-04",
+      "path": "research/round2-tax/stberg2026-bstbk-tax-r2-04.json",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "review_files": [
+        "research/round2-reviews/energy-reviews-bstbk-stberg.json"
+      ]
+    },
+    {
+      "id": "invest2025-meyer-tax-r2-02",
+      "path": "research/round2-tax/invest2025-meyer-tax-r2-02.json",
+      "finding_state": "unresolved_lead",
+      "severity": "minor",
+      "favours_author_request": null,
+      "review_files": [
+        "research/round2-reviews/social-reviews-meyer-invest.json"
+      ]
+    },
+    {
+      "id": "altersvorsorge2026-vzbv-tax-r2-06",
+      "path": "research/round2-tax/altersvorsorge2026-vzbv-tax-r2-06.json",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "review_files": [
+        "research/round2-reviews/social-reviews-vzbv-contract-order.json"
+      ]
+    },
+    {
+      "id": "invest2025-meyer-tax-r2-01",
+      "path": "research/round2-tax/invest2025-meyer-tax-r2-01.json",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": false,
+      "review_files": [
+        "research/round2-reviews/social-reviews-meyer-invest.json"
+      ]
+    },
+    {
+      "id": "dac8-2025-georg-denominator-tax-r2-09",
+      "path": "research/round2-tax/dac8-2025-georg-denominator-tax-r2-09.json",
+      "finding_state": "unresolved_lead",
+      "severity": "minor",
+      "favours_author_request": null,
+      "review_files": [
+        "research/round2-reviews/social-reviews-georg-dac8.json"
+      ]
+    },
+    {
+      "id": "invest2025-eichfelder-tax-r2-03",
+      "path": "research/round2-tax/invest2025-eichfelder-tax-r2-03.json",
+      "finding_state": "provisional_finding",
+      "severity": "major",
+      "favours_author_request": true,
+      "review_files": [
+        "research/round2-reviews/social-reviews-eichfelder-percentile.json"
+      ]
+    },
+    {
+      "id": "dac8-2025-georg-growth-tax-r2-08",
+      "path": "research/round2-tax/dac8-2025-georg-growth-tax-r2-08.json",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "review_files": [
+        "research/round2-reviews/social-reviews-georg-dac8.json"
+      ]
+    },
+    {
+      "id": "stofoeg2025-startups-taxbase-tax-r2-11",
+      "path": "research/round2-tax/stofoeg2025-startups-taxbase-tax-r2-11.json",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "review_files": [
+        "research/round2-reviews/social-reviews-startup-exit-tax.json"
+      ]
+    },
+    {
+      "id": "csrd2025-familienunternehmen-esef-tax-r2-12",
+      "path": "research/round2-tax/csrd2025-familienunternehmen-esef-tax-r2-12.json",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "review_files": [
+        "research/round2-reviews/social-reviews-familien-esef.json"
+      ]
+    }
+  ],
+  "counts": {
+    "provisional_findings": 9,
+    "unresolved_leads": 3,
+    "major_provisional": 2,
+    "records_with_independent_review": 12,
+    "source_registry_entries": 51
+  },
+  "mechanical_archive_problems": [],
+  "limits": [
+    "This is a mechanical file/reference audit, not proof of factual correctness. Independent source reviews remain the substantive evidence.",
+    "The research log has41entries, including primary checks and repeated contextual versions; that is not asserted to be41unique submissions.",
+    "Original registered ESEF statement and Commission2020communication remain primary web reads with failed local retrieval. Separately labelled public mirror only supplies visual corroboration, not identical-copy authentication.",
+    "WID current-vintage source-chain inference, Startup negligible-cost approximation, BStBK insolvency-scope ambiguity and all other candidate-specific qualifications remain in the individual records."
+  ],
+  "pending_team_followup": "Energy agent is completing the already-started VIK hazardous-waste carbon-tax source chain. My original unresolved review and superseding narrow provisional assessment are both preserved in tax-reviews-vik-ehv-waste.json; final raw version must preserve energy-use, exemption and net-cost limits."
+}

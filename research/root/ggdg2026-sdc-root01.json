@@ -1,0 +1,128 @@
+{
+  "id": "ggdg2026-sdc-root01",
+  "law_id": "gesetz-digitale-gewalt-2026",
+  "document_id": "sdc-ggdg-20260522",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Civil and criminal protection against digital violence.",
+    "they_want": "Involve young people and adapt the law to minors’ needs.",
+    "they_claim": "The cited study measured 231 minutes online daily.",
+    "the_problem": "The measure is smartphone screen time for a defined respondent subset."
+  },
+  "claim_quote": {
+    "original": "waren die befragten jungen Menschen 231 Minuten täglich online.",
+    "language": "de",
+    "translation_en": "Translation: the young people surveyed were online for 231 minutes daily.",
+    "locator": {
+      "pdf_page": 1,
+      "printed_page": 1,
+      "section": "1.2 Mediennutzung von Jugendlichen",
+      "paragraph": 1
+    },
+    "underline": "231 Minuten täglich online."
+  },
+  "request_quote": {
+    "original": "auch junge Menschen an der Erarbeitung des Gesetzes zu beteiligen",
+    "language": "de",
+    "translation_en": "Translation of request fragment: also involve young people in developing the law",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 3,
+      "section": "2.1 Allgemeine Bewertung",
+      "paragraph": 1
+    }
+  },
+  "counter_quote": {
+    "original": "die tägliche Bildschirmzeit am Smartphone bei 231 Minuten",
+    "language": "de",
+    "translation_en": "Translation: daily screen time on the smartphone at 231 minutes",
+    "source_id": "jim-2025",
+    "locator": {
+      "pdf_page": 27,
+      "printed_page": 25,
+      "section": "7. Internet und Smartphone",
+      "paragraph": 2
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "additional_counter_quote": {
+    "original": "Auf die Angabe der Onlinezeit wird in der JIM-Studie fortan verzichtet",
+    "language": "de",
+    "translation_en": "Translation: The JIM study will henceforth omit reporting online time",
+    "source_id": "jim-2025",
+    "locator": {
+      "pdf_page": 5,
+      "printed_page": 3,
+      "section": "1. Einführung und Methode",
+      "position": "left margin"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "correction": "JIM 2025 reports smartphone screen time, read from the device by respondents able to do so (n=960), rather than total time online across devices. Its methods section explicitly says it stopped reporting unspecific online time. The numeral 231 matches; the measured variable and sample need to be described accurately.",
+  "effect": "Corrects what the cited usage figure measures. It cannot quantify the total time minors were online or their exposure to digital violence.",
+  "limits": "Does not establish that actual total online time was above or below 231 minutes: smartphones can be used offline and the internet can be used on other devices. It does not rebut the submission’s separately sourced harassment figures or the case for child-sensitive procedures.",
+  "materiality_explanation": "Minor: the number is transcribed correctly, while its label and population are broadened. The general case for responding to minors’ needs survives.",
+  "direction_explanation": "Unknown: the correction does not tell us whether the described online exposure is overstated or understated. Direction is null, although the usage context accompanies explicit requests.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "context_and_alternatives": [
+    "Read the full seven-page submission. The relevant paragraph begins with JIM 2025 and its endnote4 identifies the precise study. It also mentions computer/laptop ownership; no qualification restricts online time to smartphone screen time.",
+    "The study summary describes the smartphone as a central device for online applications, which may explain shorthand. Its methods and measure definitions nevertheless distinguish the two variables.",
+    "No inference about actual harm from the usage duration is made."
+  ],
+  "draft": {
+    "source_id": "ggdg-refe-20260417",
+    "version": "BMJV RefE, Bearbeitungsstand16.04.2026 14:37, published17April2026",
+    "submission_date": "2026-05-22",
+    "version_evidence": "Submission opening states consultation letter17April2026. Compare the April draft, not the later Cabinet text.",
+    "relevant_provisions": "Article1 procedural protections and disclosure rules; factual study description is independent of later amendments."
+  },
+  "sources": [
+    {
+      "id": "sdc-ggdg-20260522",
+      "title": "Stiftung Digitale Chancen: Stellungnahme zum Referentenentwurf,22May2026",
+      "url": "https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/Stellungnahmen/2026/0603_Stellungnahmen_RefE_Gesetz_gegen_digitale_Gewalt.zip?__blob=publicationFile&v=2",
+      "archive_member": "SDC_Stellungnahme_RefE_Gesetz_digitale_Gewalt.pdf",
+      "local_file": "research/root/ggdg-screen/SDC_Stellungnahme_RefE_Gesetz_digitale_Gewalt.pdf",
+      "retrieved_at": "2026-10-24",
+      "sha256": "14eb8ffe95fcbfe1c350bf5edf6604115a256e670b9d6dd38aee6534596351d5"
+    },
+    {
+      "id": "jim-2025",
+      "title": "JIM-Studie2025: Jugend, Information, Medien",
+      "author": "Medienpädagogischer Forschungsverbund Südwest",
+      "url": "https://mpfs.de/app/uploads/2025/11/JIM_2025_PDF_barrierearm.pdf",
+      "local_file": "research/root/jim-2025.pdf",
+      "retrieved_at": "2026-10-24",
+      "sha256": "958150a94d90a30e1bf89283ac78d4ab46db6d39a38f06f55189ff48593bf2fd"
+    },
+    {
+      "id": "ggdg-refe-20260417",
+      "title": "Official BMJV draft published17April2026",
+      "url": "https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/RefE/RefE_GgdG.pdf?__blob=publicationFile&v=2",
+      "local_file": "research/social-digital/ggdg-refe-20260417.pdf",
+      "retrieved_at": "2026-10-24",
+      "sha256": "7198ef00ab9bd250041199fca98a1681bad34f63292cc4a67466377e0ab6d88f"
+    }
+  ],
+  "verification": {
+    "visual": "Submission p1 and JIM PDFp27/printed25 rendered and visually inspected by root; methods PDFp5/printed3 checked in full extracted text."
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": []
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "first recorded; pending independent AI review",
+      "by": "root_ai_screen"
+    }
+  ]
+}

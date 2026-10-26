@@ -1,0 +1,205 @@
+{
+  "status": "complete",
+  "completed_at_utc": "2026-10-25T10:38:48.451297+00:00",
+  "started_at_utc": "2026-10-25T09:26:03.345919+00:00",
+  "requested_standard": "conservative; multiple independent researchers cross-review complete counterpart originals and inventories",
+  "batch_results": [
+    {
+      "batch": "behg-2026",
+      "title": "BEHG amendment hearing",
+      "documents": 9,
+      "pdf_pages": 60,
+      "claims": 194,
+      "outcomes": {
+        "unresolved": 70,
+        "supported": 123,
+        "overstated": 1
+      },
+      "initial_peer_reviews": 190,
+      "main_issue_admissions": [
+        "behg2026-fleischmann-mortality-range-fc01"
+      ],
+      "report": "research/factual-checks/behg-2026/report.html",
+      "ledger": "research/factual-checks/behg-2026/claim-ledger.json"
+    },
+    {
+      "batch": "netzkosten-2026",
+      "title": "Transmission-network cost subsidy 2027–2029",
+      "documents": 21,
+      "pdf_pages": 71,
+      "claims": 194,
+      "outcomes": {
+        "supported": 145,
+        "unresolved": 49
+      },
+      "initial_peer_reviews": 188,
+      "main_issue_admissions": [],
+      "report": "research/factual-checks/netzkosten-2026/report.html",
+      "ledger": "research/factual-checks/netzkosten-2026/claim-ledger.json"
+    }
+  ],
+  "totals": {
+    "documents": 30,
+    "pdf_pages": 131,
+    "claims": 388,
+    "outcomes": {
+      "unresolved": 119,
+      "supported": 268,
+      "overstated": 1
+    },
+    "initial_peer_reviews": 378,
+    "main_issue_admissions": [
+      "behg2026-fleischmann-mortality-range-fc01"
+    ],
+    "new_reading_units": 0
+  },
+  "peer_omission_entries_resolved": 11,
+  "additional_claims_independently_adjudicated_by_root": 10,
+  "main_issue_delta": {
+    "findings": {
+      "before": 62,
+      "after": 63,
+      "added": [
+        "behg2026-fleischmann-mortality-range-fc01"
+      ],
+      "removed": [],
+      "changed_existing": []
+    },
+    "unresolved-leads": {
+      "before": 37,
+      "after": 37,
+      "added": [],
+      "removed": [],
+      "changed_existing": []
+    },
+    "rejected-candidates": {
+      "before": 2,
+      "after": 2,
+      "added": [],
+      "removed": [],
+      "changed_existing": []
+    }
+  },
+  "reading_pool": {
+    "before": 626,
+    "after": 626,
+    "canonical_ids_equal": true,
+    "non_annotation_entry_changes": [
+      "bt-environment-1222442"
+    ],
+    "permitted_link_update": "Only the existing Fleischmann case-index evidence log gains the one newly admitted issue path; all original evidence references and reading/scope fields remain unchanged.",
+    "annotations_by_batch": {
+      "kltgv-2026-factual-pilot": 7,
+      "netzkosten-2026-factual-checks": 21,
+      "behg-2026-factual-checks": 9
+    },
+    "old_pilot_annotations_unchanged": true,
+    "depths_unchanged": true
+  },
+  "mechanical_validation": {
+    "main_records": 102,
+    "main_errors": [],
+    "batch_validation": {
+      "behg-2026": true,
+      "netzkosten-2026": true
+    },
+    "original_pdfs_and_page_counts": 30,
+    "fresh_original_text_extractions_compared": 30,
+    "explicit_admission_manifest_only": true
+  },
+  "decisive_non_admissions": [
+    {
+      "claim": "behg-a-fleischmann-34",
+      "reason": "Fresh third review preserved frequency/complete-exposure and sensitivity alternatives; no universal1Hz threshold is invented."
+    },
+    {
+      "claim": "netzkosten-b-008-07",
+      "reason": "Fresh third review found reasonable non-producing-crafts reading despite clear statutory eligibility for producing/construction crafts."
+    },
+    {
+      "claim": "behg-a-fleischmann-21",
+      "reason": "Contrary aggregate-feedback assessment documented; component water-vapour evidence does not alone establish the complete net-feedback proposition."
+    },
+    {
+      "claim": "behg-a-fleischmann-33",
+      "reason": "Measured-versus-modelled distinction retained, but original distant result wording is ambiguous."
+    }
+  ],
+  "independent_workflow_code_audit": "research/factual-checks/reviews/a-workflow-code-audit.json",
+  "independent_integration_audit": "research/factual-checks/reviews/b-final-integration-audit.json",
+  "audit_scope_note": "The independent audit file records the exact later reviewed snapshot. This root audit does not pre-certify that review. Rebuild downstream cached artifacts in order after any source or adjudication change.",
+  "limits": [
+    "Finite, previously examined response sets; not a representative sample or national denominator.",
+    "Physical PDF pages include committee covers where present.",
+    "Supported concerns the recorded proposition; unresolved is neither a finding nor confirmation.",
+    "Every initial assessment received an independent AI peer review. Root adjudicated challenges and omissions.",
+    "The inventories target material testable premises; they do not certify every factual assertion.",
+    "No author contact or human specialist confirmation.",
+    "The only admitted correction concerns the cited corrected urban study, not actual complete national-population mortality ratios; mixed deviations make policy direction unknown.",
+    "Legal/draft descriptions remain tied to identified versions. Authorship, cover, hearing and actual delivery are distinct; no national eligibility denominator is established."
+  ],
+  "snapshot_sha256": {
+    "README.md": "dd364171e862ed6af85c78febcca35493cdbb6549955d233fb11ff9e8aa3f932",
+    "data/factual-check-pilots.json": "5170c352103d0c26d0cfe9c0bf56e119df34cc1078ee83cae6d3aaefed690dca",
+    "data/findings.json": "6cc56589d5891f7f7ad4a76c1fad5848aff1351cf7bc9061c53a035960c34342",
+    "data/unresolved-leads.json": "cd72dfb597c0a9295ca6f58d068fa1a83ae10614548ffda8790da9b115e8d8a4",
+    "data/rejected-candidates.json": "670e715e9940077649d5daef8b15663a9611c9646babc270fc67414c29f5eec3",
+    "data/source-registry.json": "2da51a7cae5eabfb8c3a8ec5e93432b4b86b49ab120ccf88729806d9f744b5fd",
+    "data/documents.json": "c3c6b47d8c70125482fa53a4dca185679f1c402bef13403155d5cceed6e19294",
+    "data/review-index.json": "cbde313a06b0bbe396307c9e1bc9417be00ccf433ef6d72e4db520ee0cadefe6",
+    "data/screening-pool.json": "11ac3480bbf72c468b88fb62b643ee0689f195d25d95964520cacb5413d71d61",
+    "data/screening-pool-summary.json": "01a6ab96919be346731b98fc31bc7baac46db16edfc2a5bbf1bc2b401f88a132",
+    "data/bounded-coverage.json": "3c32b9568aac06697ab00c7bfce66ebdaa6fd9d620b928260918286f8d1fdff2",
+    "data/validation-report.json": "1367f7976aba4552d3c7d9867a145449b05da92d319259b3022b668a9afb0a71",
+    "research/build_factual_batch.py": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+    "research/build_factual_index.py": "cff442042e234b1ae47d804b1f84d459ed5849e9c303671132dcc3f089c1bcc8",
+    "research/build_screening_pool.py": "029e797dda52b11c6ce38ac5a1884cece3593319a9427664a6089603b5c05b82",
+    "research/build_bounded_coverage.py": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+    "research/build_deliverables.py": "7e2410529c722c581d57c766d49805dc932d294170251a24a7f3f635248573c1",
+    "site/labels.py": "c6bb40b8472d7bbd459300986c5b29673ab9b6ad247f418fb6c6e95e6dd0adef",
+    "site/index.html": "0ebc721b0606666635719e0c2ce81dae1f6c8d73357dbd25f2b0d0fbd4936b4f",
+    "site/evidence/behg2026-fleischmann-mortality-range-fc01.html": "fd0d96ce8db14b00b139baaaa0700c6b1fee316f3c1f3134234df7418cf1a091",
+    "research/factual-checks/extension-protocol.json": "7026254a7c187eee4a119b8298c6476f97ef7a3deb91068398427c19798a6e14",
+    "research/factual-checks/summary.json": "de6bd4968b6cde99fbe0de1ea545baa09aafbfbf630f39c3273bcaa94df0f5ba",
+    "research/factual-checks/report.html": "0cc58cfe69b9b7857ab77daa2512755b5f7cc2d9ebfa032beedb6ac35f8b089a",
+    "research/factual-checks/root-working-audit.json": "8e1137698873cbe5b11fe33fcb138e719c473ce0b698b9e4220ae06119015fa8",
+    "research/factual-checks/reviews/a-workflow-code-audit.json": "7a027252f810edb0634c4cfb1d32128630a703e1eab1a05141de2128b15fe125",
+    "research/factual-checks/behg-2026/protocol.json": "ce20ffa07e951c5a0ac0dea93c1c68ce2468a09d3469cedeed7dce3218cca27b",
+    "research/factual-checks/behg-2026/root-sources.json": "c6e4b6bf5242b7b2135aa28f3b42277d02af824c25c8a540e55f1663edb00657",
+    "research/factual-checks/behg-2026/adjudication.json": "97f7727c9058be6d8647a43a43b1f0656b7ab836646fd121e1ed7161face8105",
+    "research/factual-checks/behg-2026/summary.json": "d542bbbc22bf517d574f4a8623b14dee24a2a8a663715c70e94a0aea6ae9f319",
+    "research/factual-checks/behg-2026/claim-ledger.json": "f4e857b045534e417193e99ccac8e19f288d6fde0c96644ea8f1ac28989add3d",
+    "research/factual-checks/behg-2026/validation-report.json": "530dd8826816390998fc6db68c58fbde5f0c77932b6eb3c32460660f8b00d359",
+    "research/factual-checks/behg-2026/report.html": "616140a9310f5b7deb33f578cccabdb80732e7fca52f990992be3afa3274da98",
+    "research/factual-checks/behg-2026/assembly-manifest.json": "f52b5fdf2c02dcbccf80d4c7ccf9f84d1dc0a809b41b714f026067aee0578645",
+    "research/factual-checks/behg-2026/agents/claims-a.json": "abd47189df88c00ba1e936d77189f40a885c5da06cdcd50181ea21031df5e14f",
+    "research/factual-checks/behg-2026/agents/claims-b.json": "035bc94a7749daa5aae0c5f34500340d48cfd439193eede79f0b61b1c62d5f99",
+    "research/factual-checks/behg-2026/agents/claims-c.json": "539e99778009c011610291190a95ddbe88986155f54d9e31166688e5299cb453",
+    "research/factual-checks/behg-2026/reviews/a-reviews-c.json": "6bd11b545c53c68782d85e20017513814d680ad948749e485d85b7d1ac73e27a",
+    "research/factual-checks/behg-2026/reviews/b-final-candidate-records.json": "672c6463dd4b01cadc1d032daddbb709e46cfba5c3ac8c720fc15a5622a1b17f",
+    "research/factual-checks/behg-2026/reviews/b-reviews-a.json": "08b070e393651f7bf369806240e15f30a2a38bf58549968f7e1cdcbd65d191ed",
+    "research/factual-checks/behg-2026/reviews/c-admission-delta.json": "baf1e542cfc4504cb50bffeffbe3893b8a1500905067105ea570a857ea25a35d",
+    "research/factual-checks/behg-2026/reviews/c-final-candidate-records.json": "3fbb26b9fc5b46db11ac669b58981f391754d9143be50ddfd2c758656f72c737",
+    "research/factual-checks/behg-2026/reviews/c-reviews-b.json": "d9599120d88708351308318c0abb7cbbad891f13e274a5da7d08c4b6ae666d54",
+    "research/factual-checks/behg-2026/staged/behg2026-fleischmann-infrasound-threshold-fc02.json": "2eb4d3bb725c79cd201449dd65e046fb3b3699956dfbfdbc46d580de537d6f8a",
+    "research/factual-checks/behg-2026/staged/behg2026-fleischmann-mortality-range-fc01.json": "b8b8905fcabe7235f5008a04ef6455c61965694d044edf32c671e6e00df24ac2",
+    "research/factual-checks/behg-2026/behg2026-fleischmann-mortality-range-fc01-admitted.json": "5d4c57ae2c366ede7a5bb90a3b8c8a0091842fc94b5209791b1ef8f9a9e4717a",
+    "research/factual-checks/netzkosten-2026/protocol.json": "2582de6c786a9f1f1f136483ed06415bc7128b78e0c6efac847366040a2040a1",
+    "research/factual-checks/netzkosten-2026/root-sources.json": "97ecf93c0c856184d5d049452cc57a8e0c23264ab8fdafac9b7e36b6d7772a40",
+    "research/factual-checks/netzkosten-2026/adjudication.json": "5b981bb8291e8e250916176c22044522fc685d0e260dd5f4a9a1232b5dd9bfd4",
+    "research/factual-checks/netzkosten-2026/summary.json": "0ddf382eb1589098aa9251d81d6529732a76358dd6859c8c05d0aa285b005d78",
+    "research/factual-checks/netzkosten-2026/claim-ledger.json": "5bc0cce7e172ca08f42dad2ec7a561d1453e6c288de672560c90e92391f5920f",
+    "research/factual-checks/netzkosten-2026/validation-report.json": "4f8ce8817f64863eb193b58d468cc2bc553d0d6a7e31ebf050ab10efc777d272",
+    "research/factual-checks/netzkosten-2026/report.html": "94cca75a2fac0f55f1381a59554bb1114d8d1e2bcd3d8853549bc944c7cec80d",
+    "research/factual-checks/netzkosten-2026/assembly-manifest.json": "51adb5c299674bba96b3153c4ad56d3fc1675f820bbc61e1e21c59203a43ea93",
+    "research/factual-checks/netzkosten-2026/agents/claims-a.json": "00fb9eec92aac5cc6938f49f59656aea161c0c3d759218df0b96543b05223bf9",
+    "research/factual-checks/netzkosten-2026/agents/claims-b.json": "fa6b6b61054a33ce4aa3ea3437da238427fb5848e73fc855245ee2510b2778ca",
+    "research/factual-checks/netzkosten-2026/agents/claims-c.json": "343ad90ab5e07a80111aab8df350cb94f8a80a506797debea12f5e6f9daa6a44",
+    "research/factual-checks/netzkosten-2026/reviews/a-bkm-final-candidate.json": "6bd5f54d81c46d582a8ab4769482a261b4b1cbd3692459dfc1c514e743e905e4",
+    "research/factual-checks/netzkosten-2026/reviews/a-reviews-c.json": "419571578210a8b244df72e6ffbc6eb6f18616028a85a35145ce583d36f048bd",
+    "research/factual-checks/netzkosten-2026/reviews/b-reviews-a.json": "06e9b7345b722a488912b314bbb8ffcef4e699d9255b03a788ea7d2541605808",
+    "research/factual-checks/netzkosten-2026/reviews/c-reviews-b.json": "c555af867717e23b1cb4d3ba6c64577581adce2ac6963701af15cc5095c81077",
+    "research/factual-checks/netzkosten-2026/staged/netzkosten2026-bkm-craft-tax-fc01.json": "2d3d20fbea433cf4ed2e210dbb7e513b9fe16048a6cd9b811ee25dabaf51d2ed",
+    "research/factual-checks/browser-qa.json": "505ae6794a3f324485f1c1f47a2968210acd8caa4d88fa7fa8a59bda42e971a2"
+  }
+}

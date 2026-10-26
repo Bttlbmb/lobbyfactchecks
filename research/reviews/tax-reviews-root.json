@@ -1,0 +1,57 @@
+{
+  "reviewer": "tax_consultations_ai",
+  "reviewed_at_utc": "2026-10-24T09:17:25.935181+00:00",
+  "review_type": "independent AI source, calculation and context review",
+  "specialist_review": false,
+  "reviews": [
+    {
+      "id": "tabstaendg2026-bvte-root01",
+      "recommendation": "retain_provisional_finding",
+      "checks": {
+        "visual": "Independently inspected original submission page6 render: elasticity entries2006=0.5 and2007=0.8 have no minus signs; prior entries have minus signs.",
+        "arithmetic": "Recomputed from original table levels:2006=-0.5401485719505068,2007=-0.8309325534810946. Both signs negative.",
+        "convention_alternative": "An absolute-value convention cannot explain only the final two unsigned cells while earlier row entries are signed.",
+        "materiality": "Minor is suitable: this corrects displayed signs, does not validate causal elasticity estimates or establish impact on the model. Direction null is prudent.",
+        "request": "Checked first-page explicit request for moderate, predictable adjustments.",
+        "draft": "Checked cover of BT21/7859 and both submissions; additional Formulierungshilfe is explicitly addressed. Missing exact additional text does not affect historical arithmetic, but remains a limitation."
+      },
+      "required_changes": []
+    },
+    {
+      "id": "tabstaendg2026-vdr-root01",
+      "recommendation": "retain_provisional_with_explicit_source_identification_limit",
+      "checks": {
+        "visual": "Inspected full VdR page2 image and neighbouring text, plus complete6-page text and final request. Claim says black market, while later pages distinguish legal foreign purchases, grey and black markets.",
+        "primary_counterevidence": "Independently reopened Hamburg repository HWWI report and downloaded academic EconStor copy. Rendered and inspected EconStor p5 (printed2) andp7 (printed4). Mixed legal/illegal imports and2008 split12.6bn legal/10.3bn illegal are confirmed.",
+        "source_identity_inference": "VdR paragraph does not locally cite HWWI. The parallel BVTE historical paragraph uses non-German-taxed20% and explicitly cites HWWI1-27/1-28 and DZV. A14September2026 PMI interview likewise distinguishes illicit-market growth from cross-border volume doubling above20%; useful corroboration of series identification, not independent evidence of illicit prevalence.",
+        "alternative_explanations": "Could be shorthand or an unidentified alternative estimate. Therefore evidence supports a provisional source-category mismatch, not a categorical assertion that no historical illicit-share estimate ever exceeded20%.",
+        "materiality_direction": "Major defensible because lawful foreign purchases are materially different from criminal trade; the stronger criminal framing supports requested moderate increases. Legal purchases may still affect receipts.",
+        "period_limit": "HWWI describes2005=16% to2008~20%; those data alone do not establish doubling over2002–2005/2007. Do not present this period mismatch as a separately proved numerical error.",
+        "draft": "Historical statement independent of exact tariff revision; Formulierungshilfe authentication limit must remain."
+      },
+      "required_changes": [
+        "Keep source-identification inference prominent and do not imply that VdR explicitly cited HWWI in the disputed paragraph.",
+        "Update source archive information: primary HWWI report successfully retrieved fromEconStor; one repository cover page changes physical pagination. EconStorPDFp5=HamburgPDFp4=printedp2; EconStorPDFp7=HamburgPDFp6=printedp4."
+      ],
+      "optional_changes": [
+        "Consider phrase: the matching non-domestic series cannot be read as a black-market share, rather than an unqualified claim that the true historical black market was definitively below20%."
+      ]
+    }
+  ],
+  "additional_archived_source": {
+    "url": "https://www.econstor.eu/bitstream/10419/47708/1/663642469.pdf",
+    "local_file": "research/root/hwwi-2010-1-28-econstor.pdf",
+    "local_text": "research/root/hwwi-2010-1-28-econstor.txt",
+    "rendered_pages": [
+      "research/reviews/hwwi-econstor-p5.png",
+      "research/reviews/hwwi-econstor-p7.png"
+    ],
+    "note": "Academic repository adds one cover page; same author/title/study text and table confirmed. PDF creation metadata reflects repository cover generation on retrieval, not a new study publication."
+  },
+  "supplementary_source_identification": {
+    "url": "https://www.pmi.com/markets/germany/de/presse/warum-hoehere-tabaksteuern-weniger-einnahmen-bringen",
+    "date": "2026-09-14",
+    "locator": "Question2 and source note2",
+    "role": "Contemporary industry explanation distinguishing black market from cross-border20%; supplementary identification only."
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "begiv2024-bitkom-tax08",
+  "law_id": "buerokratieentlastungsgesetz-iv-2024",
+  "document_id": "bitkom-begiv-2024",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": false,
+  "card": {
+    "law_is_about": "Reducing paperwork, record-retention duties and formal requirements.",
+    "they_want": "More extensive relief through digital administration and connected registers.",
+    "they_claim": "The €682 million proposal reduces a €23.8 billion burden by 2.87%.",
+    "the_problem": "The cited NKR measure is €26.8 billion; the same division gives about 2.54%."
+  },
+  "claim_quote": {
+    "original": "23,8 Mrd. Euro im Berichtszeitraum 2022/2023",
+    "language": "de",
+    "translation_en": "Translation: €23.8 billion in the 2022/2023 reporting period",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": 4,
+      "section": "Das Bürokratieentlastungsgesetz IV-E – Digitalisierung konsequent mitdenken",
+      "paragraph": "first body paragraph"
+    },
+    "underline": "23,8 Mrd. Euro"
+  },
+  "additional_claim_quotes": [
+    {
+      "original": "Verringerung um rund 2,87 Prozent",
+      "language": "de",
+      "translation_en": "Translation: reduction of around 2.87 percent",
+      "locator": {
+        "pdf_page": 4,
+        "printed_page": 4,
+        "paragraph": "same paragraph as denominator"
+      }
+    }
+  ],
+  "counter_quote": {
+    "original": "um rund 9,3 Mrd. Euro auf insgesamt rund 26,8 Mrd. Euro gestiegen.",
+    "language": "de",
+    "translation_en": "Translation of fragment: increased by around €9.3 billion to a total of around €26.8 billion.",
+    "source_id": "nkr-annualreport-2023",
+    "locator": {
+      "pdf_page": 11,
+      "printed_page": 11,
+      "section": "1.1 Erfüllungsaufwand steigt stark an, Bürokratiekosten weitestgehend stabil",
+      "column": "right, first paragraph; Figure 1 below defines cumulative series since 2011"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "request_quote": {
+    "original": "durchdigitalisierte Verwaltung und vernetzte Register",
+    "language": "de",
+    "translation_en": "Translation: fully digitised administration and interconnected registers",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": 4,
+      "paragraph": "second main paragraph, sentence beginning Wichtige Hebel"
+    }
+  },
+  "correction": "The NKR reports €26.8 billion for its cumulative change in recurring compliance costs since 2011, including a €9.3 billion increase in 2022/23. The submission itself correctly gives €26.8 billion on page 2. Holding its €682 million numerator and chosen NKR comparator fixed yields 682/26,800 × 100 = 2.5448%, rather than 2.8655%.",
+  "effect": "The corrected share is smaller, which reinforces rather than weakens the author’s complaint that the package offers limited relief.",
+  "limits": "This repairs the stated numerical baseline and resulting fraction only. The NKR series is a cumulative change since 2011, not all existing bureaucracy costs. The draft’s €682 million is business relief, while the comparator includes all three addressee groups. No complete comparable economy-wide relief rate or actual realised saving is established. A copying or editing slip is plausible; no intent inferred.",
+  "materiality_explanation": "Minor: a roughly 0.32 percentage-point difference leaves the overall small-share argument intact, and the correct baseline appears earlier in the same document.",
+  "direction_explanation": "False: the error makes the draft look more effective relative to the chosen baseline, cutting against the stated request for stronger relief.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "energy_hearings_ai",
+        "date": "2026-10-24",
+        "outcome": "retain_provisional_minor_false",
+        "review_file": "research/reviews/energy-reviews-bitkom-begiv.json",
+        "summary": "Independently read all 12 pages, official registered copy, NKR source and exact initial draft. Confirmed narrow numerical mismatch and opposite direction; preserved cumulative-series and addressee-scope caveats."
+      }
+    ]
+  },
+  "author_response": [],
+  "draft": {
+    "title": "Initial ministerial draft of Viertes Bürokratieentlastungsgesetz",
+    "version_date": "2024-01-11",
+    "source_id": "begiv-refe-20240111",
+    "submission_date": "2024-04-29",
+    "submission_date_note": "The PDF is undated; author file metadata shows production on 2 February 2024. Official register metadata records dispatch of this 12-page document on 29 April 2024. Its title, opening January reference, article numbering and €682 million figure address the initial consultation draft.",
+    "relevant_provision": "Draft page 3, E.2, €682 million annual business relief; proposed tax and commercial retention changes and digital form requirements underpin the request.",
+    "version_check": "Original ministry 102-page draft retrieved; metadata production 10 January 2024, official publication announcement 11 January. Later parliamentary association BT 20/11306 does not change the explicitly addressed early draft. The larger relief figure in the March government version is not used to manufacture a contradiction."
+  },
+  "sources": [
+    {
+      "id": "bitkom-begiv-2024",
+      "title": "Bitkom, BEG IV consultation response, undated February 2024 author copy",
+      "url": "https://www.lobbyregister.bundestag.de/media/69/9e/303894/Stellungnahme-Gutachten-SG2406140002.pdf",
+      "author_original": "https://www.bitkom.org/sites/main/files/2024-02/bitkom-stellungnahme-buerokratieentlastungsgesetz.pdf",
+      "local_file": "research/tax-round2/sources/bitkom-begiv-202402.pdf",
+      "visual_verification": "research/tax-round2/sources/bitkom-begiv-p4.png",
+      "retrieved_at": "2026-10-24",
+      "note": "Full registered PDF read in web reader; local PDF downloaded directly from author. Same passages independently visible in both copies; no raw-register byte equivalence claimed."
+    },
+    {
+      "id": "bitkom-begiv-register",
+      "title": "Official Lobbyregister SG2406140002 metadata",
+      "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2406140002/4817",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "nkr-annualreport-2023",
+      "title": "Nationaler Normenkontrollrat, Jahresbericht 2023",
+      "url": "https://www.bmjv.de/SharedDocs/Publikationen/DE/Fachpublikationen/2023_NKR_Jahresbericht.pdf?__blob=publicationFile&v=1",
+      "local_file": "research/tax-round2/sources/nkr-annualreport-2023.pdf",
+      "visual_verification": "research/tax-round2/sources/nkr-annualreport-p11.png",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "begiv-refe-20240111",
+      "title": "Exact initial BEG IV ministerial draft, published 11 January 2024",
+      "url": "https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/RefE/RefE_BEG_IV.pdf?__blob=publicationFile&v=6",
+      "local_file": "research/tax-round2/sources/begiv-refe-20240111.pdf",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "begiv-publication-20240111",
+      "title": "Official publication announcement, 11 January 2024",
+      "url": "https://www.bmj.de/SharedDocs/Pressemitteilungen/DE/2024/0111_BEG_IV.html",
+      "retrieved_at": "2026-10-24"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "First recorded after full submission, primary report and initial-draft checks; independent AI review requested.",
+      "by": "tax_consultations_ai"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Independent adversarial AI review retained minor numerical finding and direction false; timing, source definitions and matched-denominator limits checked.",
+      "by": "energy_hearings_ai"
+    }
+  ]
+}

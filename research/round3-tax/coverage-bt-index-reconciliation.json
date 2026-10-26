@@ -1,0 +1,85 @@
+{
+  "window": {
+    "from": "2026-07-25",
+    "through": "2026-10-24",
+    "eligibility_basis": "Submission/transmittal/document date, not hearing or publication date; unverified dates are retained."
+  },
+  "hearing_masters": [
+    {
+      "committee": "Finance",
+      "declared_hits": 21,
+      "enumerated_pages": 21
+    },
+    {
+      "committee": "Budget",
+      "declared_hits": 3,
+      "enumerated_pages": 3
+    },
+    {
+      "committee": "Economy",
+      "declared_hits": 26,
+      "enumerated_pages": 26
+    }
+  ],
+  "hearing_response_link_count": 313,
+  "hearing_response_access": {
+    "retrieved": 247,
+    "reused_existing_archive": 66
+  },
+  "additional_publication_index_responses": [
+    {
+      "index_publication_date_raw": "5. Oktober 2026",
+      "index_publication_date": "2026-10-05",
+      "title": "21(9)375 Stellungnahme des Bundesverband der Deutschen Energie e. V. (BDI)",
+      "url": "https://www.bundestag.de/resource/blob/1222310/Stellungnahme_BDI_eV.pdf",
+      "document_type": "Stellungnahme",
+      "index_source": "research/round3-energy/sources/committee-pages/bt-energy-0040.html",
+      "index_row": 7,
+      "date_basis": "index_publication_date_only; author document date not yet verified",
+      "depth": "metadata_only",
+      "screened_substantively": false,
+      "window_state": "publication_in_window_author_date_unverified",
+      "channel": "bt-energy",
+      "id": "bt-energy-1222310",
+      "local_file": "research/round3-energy/sources/submissions/bt-energy-1222310.pdf",
+      "status": 200,
+      "bytes": 206212,
+      "sha256": "3c98c9ea2b01cf108f18750b011da42112b34d486987b6b6508b45fad7965828",
+      "final_url": "https://www.bundestag.de/resource/blob/1222310/Stellungnahme_BDI_eV.pdf",
+      "text_file": "research/round3-energy/sources/submissions/bt-energy-1222310.txt",
+      "extracted_pages": 7,
+      "date_candidates_first_two_pages": [
+        {
+          "match": "05.10.2026",
+          "context": "che 21(9)375                                                     05.10.2026     Stellungnahme Bundesverband der Deutschen Energie e. V. (BDI"
+        },
+        {
+          "match": "16.09.2026",
+          "context": "gieeffizienzrichtlinie Kommentierung Bundestags-Drs. 21/8027 vom 16.09.2026                                                                 "
+        },
+        {
+          "match": "2. Oktober 2026",
+          "context": "                                                                 2. Oktober 2026   Rückführung auf EU-Recht überzeugend gestalten  Die Einschätzu"
+        },
+        {
+          "match": "24.09.2026",
+          "context": "er Energieeffizienzrichtlinie („Energieeffizienzgesetz“), das am 24.09.2026 zur ersten Lesung im Deutschen Bundestag war, ist grundsätzlich "
+        }
+      ],
+      "bt_draft_references_first_two_pages": [
+        "21/8027",
+        "21/8111",
+        "21/8139"
+      ]
+    }
+  ],
+  "general_document_publication_index_file": "research/round3-tax/coverage-bt-document-publication-index.json",
+  "limitations": [
+    "Current21stterm hearing master pages fully paginated; earlier-term hearing archives not enumerated by this branch.",
+    "Finance/Budget publication APIs checked through the first page crossing below25July publication date; publication boundary is only a discovery control, not eligibility date.",
+    "Upcoming November hearing pages have no statements yet displayed, butOctober statements already published through the register remain eligible.",
+    "Budget API displayed agendas, while hearing pages supplied10responses. Economy API supplied oneBDIEnEfGresponse missing from hearing page.",
+    "Publication-only metadata and extracted PDFs are not labelled full substantive screening.",
+    "Deduplication by URL alone is not enough to merge mirrors or materially distinct versions."
+  ]
+}

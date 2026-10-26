@@ -1,0 +1,65 @@
+{
+  "reviewer": "c",
+  "created_at_utc": "2026-10-25T22:27:38.139850+00:00",
+  "reviewed_file": "research/factual-checks/short-statements-20261025/agents/claims-b.json",
+  "reviewed_sha256": "9c073cde771461e0f87bb7b0f9850d18b5c5f50c3d4ebfb34329a082667a5274",
+  "prior_peer_file": "research/factual-checks/short-statements-20261025/reviews/c-reviews-b.json",
+  "prior_peer_sha256": "e1147ce173c14ea2b92129f5554b28dbe0c13ac309d253d8e83254276b22170d",
+  "method": "Fresh full-context reread of DAV physical p. 2 and DNotV physical pp. 3–4; independently reconsidered the exact scope of previously read eNoVA Article 20(5) and September provider circular section E. No raw or prior peer modified.",
+  "claim_reviews": [
+    {
+      "claim_id": "short-b-021",
+      "verdict": "revise",
+      "proposed_result": "unresolved",
+      "reason": "The recorded compound says non-availability because the start date remained undetermined. The provider’s September forthcoming-app statement corroborates earlier non-availability but does not exclude an already announced future start date. Retain unresolved for the full compound or explicitly split the bounded non-availability inference from a separately unresolved undetermined-date component. My prior recommendation supported a weaker part and overreached on the date component.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-enova",
+          "locator": "Article 20(5)"
+        },
+        {
+          "source_id": "short-cr-enova-availability",
+          "locator": "Section E"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-036",
+      "verdict": "revise",
+      "proposed_result": "unresolved",
+      "reason": "The author’s actual statement is that commencement had not yet been determined. Statutory contingent readiness is supported; the stronger as-of-date assertion lacks a complete contemporaneous announcement reconstruction. The later forthcoming-app statement alone cannot establish an unannounced future date.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-enova",
+          "locator": "Article 20(5)"
+        },
+        {
+          "source_id": "short-cr-enova-availability",
+          "locator": "Section E"
+        }
+      ]
+    },
+    {
+      "claim_id": "short-b-055",
+      "verdict": "accept",
+      "proposed_result": "unresolved",
+      "reason": "Preserve the fair reading of erste Datenquelle as a primary/first-consulted source, not necessarily a strict historical first-ever claim. Comprehensive digital availability across the stated administrations remains unverified; no chronological error or finding is established.",
+      "evidence_checks": [
+        {
+          "source_id": "short-cr-adv",
+          "locator": "Selected model, exchange and asynchronous-data provisions"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+      "sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+      "note": "Previously completed independent primary checks; this follow-up corrects inferential scope, not source identity."
+    }
+  ],
+  "limitations": [
+    "No new factual-error candidate or main admission. This is a correction to my review inference. Root must adjudicate explicitly; prior frozen records remain unchanged."
+  ]
+}

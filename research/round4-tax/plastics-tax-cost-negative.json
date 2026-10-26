@@ -1,0 +1,45 @@
+{
+  "id": "plastics-tax-cost-scope-round4-negative",
+  "record_type": "research_disposition_not_issue",
+  "status": "ai_screened",
+  "document_id": "joint-plasticstax-20260731",
+  "register_id": "SG2610060025",
+  "created_at_utc": "2026-10-25T05:39:58.840170+00:00",
+  "disposition": "Not promoted after original study supports the numbers and comparator scope.",
+  "submission_read_extent": "All three original pages read, including signatory page and adjoining qualifications.",
+  "primary_read_extent": "Original UBA87/2025 physical/printed pages129–132 read, including complete administrative-cost section7.1.5.4. Study302pages not fully read. Related parliamentary resolution BT21/6398 pages1–4 read via official web reader; no full136-page read.",
+  "claim_reference": "research/targeted-expansion/tax-leads.json, SG2610060025. No repeated original quotation.",
+  "primary_results": [
+    {
+      "source_id": "uba87-2025-packaging",
+      "locator": {
+        "pdf_page": 130,
+        "printed_page": 130,
+        "section": "7.1.5.4 Vollzugsaufwand"
+      },
+      "result": "The original study itself states that 1.2 million German companies put packaging on the market and the number using plastic packaging should be only slightly lower. It assumes 1.5 gross person-days annually, estimates 7,100 FTE, and uses EUR 49,200 gross salary plus 20 percent employer costs to produce approximately EUR 420 million. The association fairly identifies the cost estimate as a general-packaging-tax comparator and repeats the study’s near-equal affected-population qualification."
+    },
+    {
+      "source_id": "uba87-2025-packaging",
+      "locator": {
+        "pdf_page": 130,
+        "section": "7.1.5.4 Vollzugsaufwand"
+      },
+      "result": "The study additionally lists audit, tax-adviser and auditor costs. Its generic model also contemplates de minimis exceptions, so the final bill’s design could change the affected population and cost. The association’s separate 1,000 customs-posts claim is expressly conditional on 500,000 taxpayers, rather than presented as the staffing implication of 1.2 million firms."
+    }
+  ],
+  "conclusion": "The source-scope suspicion is affirmatively weakened. This is a disclosed policy comparison, not a demonstrable misquotation or a simple numerical error. No actual prospective administrative cost is certified.",
+  "limits": [
+    "Exact July 31 national tax proposal not obtained; the statement is not automatically mapped to the later October formulation aid or the packaging-law implementation bill.",
+    "Primary study’s 2021 underlying firm-count estimate is unpublished; not independently replicated.",
+    "The conditional 1,000 customs-post estimate and unrelated recycling figures were not independently verified.",
+    "No inference about intent, tax wisdom or net benefits."
+  ],
+  "source_registry": "research/round4-tax/sources.json",
+  "review": {
+    "specialist": null,
+    "ai_reviews": [],
+    "independent_ai_review": "research/round4-root/plastics-cost-disposition.json"
+  },
+  "author_response": []
+}

@@ -1,0 +1,69 @@
+{
+  "reviewed_at_utc": "2026-10-25T06:29:11.624728+00:00",
+  "reviewer": "energy_hearings independent AI",
+  "review_type": "Final snapshot addendum to energy-merged-pool-audit.json",
+  "snapshot_hashes": {
+    "data/findings.json": "052f434c7b4a4db09b9cf837e78513acccd12061864e40ff01107167f5334b6f",
+    "data/unresolved-leads.json": "3a00167f5b132748afdb06a7dbb117d83429bd76d6824c0a73cbac3db19f108c",
+    "data/rejected-candidates.json": "39903ad033ff68a6f96d23179c952630aa83bc24f8bcd86d87134ba8dd0d31a3",
+    "data/screening-pool.json": "937accfb93967dc75f53deb4a8f7d0b5b074d14e332c8712296c5207f4c73f0c",
+    "data/screening-pool-summary.json": "9de45296f3ac0ded8fed38bcf2d25c209b19d933cecdc9015c2a2151d5874e02",
+    "data/source-registry.json": "4d7f90dd3691c10fc14f03e495924fc763be7b095f2b89820fd9e7245ab0f2ac",
+    "data/review-index.json": "c929293e0dab5d1a95201372149462e91e3a61ac4208b3572f9e49c6806c2d10",
+    "data/validation-report.json": "4963c5ad73e4f4a2cfd7f66ef9bb2436666a030c7c14de7fed586d9cce17f41d",
+    "data/quotation-audit.json": "392e2d4b35d6df42476f18af733e4c716af9605f014c50afdd73683ea96425e2",
+    "research/build_screening_pool.py": "8e93de4f7e859f2c26fb9c591fd3dd1b851ac9d15c97107fd3b5e4a5f56c8fab",
+    "research/round4-reviews/root-reviews-bvte-forecast.json": "2b806c9f6a2d68ba25edb6bdc8aec45ec0d39f8a8338e705072464ad8eb84ce5",
+    "research/round4-reviews/energy-reviews-bvte-forecast.json": "7b9ca51bf3c73eb39433bd0e8d83fc00518d0cf2ec35efecd7e36da3ee645f96"
+  },
+  "counts": {
+    "provisional_findings": 61,
+    "major_provisional_findings": 11,
+    "unresolved_leads": 38,
+    "rejected_candidates": 1,
+    "total_issue_records": 100,
+    "named_reading_units": 626,
+    "source_registry_entries": 530,
+    "source_registry_entries_with_existing_local_archive": 426
+  },
+  "late_bvte_check": {
+    "candidate_id": "tabstaendg2026-bvte-forecast-tax-r4-03",
+    "location": "data/unresolved-leads.json only",
+    "finding_state": "unresolved_lead",
+    "severity": "major",
+    "qualification": "Potential materiality of an unresolved allegation only; no new confirmed or provisional major finding. True direction is conditional argumentative use, not proof of an error.",
+    "independent_reviews_indexed": [
+      "research/round4-reviews/root-reviews-bvte-forecast.json",
+      "research/round4-reviews/energy-reviews-bvte-forecast.json"
+    ],
+    "pool_effect": 0,
+    "existing_pool_unit": "root-tabak-BVTE",
+    "pool_depth": "selected_passages",
+    "identity_note": "Existing ten-page authored register body and sixteen-page hearing package remain one authored unit; appended six-page DIW material not credited as fully read."
+  },
+  "pool_reconciliation": {
+    "baseline_units_retained": 565,
+    "new_units": 61,
+    "baseline_depth_changes": 0,
+    "current_depths": {
+      "full_submission": 406,
+      "selected_passages": 91,
+      "keyword_triage": 128,
+      "full_text_ocr": 1
+    },
+    "all_four_round4_branch_ledger_hashes_unchanged_from_prior_audit": true,
+    "scope_qualifications": "Eight pending and three outside-or-unestablished policy-position rows preserve explicit scope status.",
+    "snapshot_note": "Current pool byte hash differs from the 06:17 snapshot. The existing root-tabak-BVTE case_index screening_evidence now explicitly includes research/round4-tax/tabstaendg2026-bvte-forecast-tax-r4-03.json alongside research/root/candidates.json. I inspected that same single unit, unchanged selected-passages depth, same local files and related document ID. All four branch ledger hashes remain unchanged; baseline identities/depths and overall counts independently reconciled. No byte identity is claimed."
+  },
+  "metadata_correction_check": {
+    "source_id": "gkv-diga-report2025",
+    "observed_scope_note": "Original statutory report, physical 13/printed 1 admission distinction, plus foreword/executive summary read through web. Direct download timed out; not archived. Not claiming full 81 page report read.",
+    "qualification": "Corrected historical metadata physical13/printed1 is recorded; no new full-report reading, archived copy, issue quotation or disposition is claimed by this addendum."
+  },
+  "limits": [
+    "Structural and identity audit, not an independent reread of all626 authored units or all530 sources.",
+    "426 counts source-registry entries with existing local files, not unique archived files or all research archives.",
+    "Later rebuilds may alter hashes; this addendum certifies only the recorded snapshot.",
+    "No compiled data or substantive records edited by this reviewer."
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "author_snapshot_hashes_checked": 7,
+  "claims_checked": 111,
+  "reviews": [
+    {
+      "file": "research/factual-pilot/reviews/a-reviews-c.json",
+      "sha256": "33037df22cd0d0e26a94695f6f4bd194b6016227440251d060ace95f1c5547fb",
+      "claims_reviewed": 37,
+      "omissions": 1
+    },
+    {
+      "file": "research/factual-pilot/reviews/b-reviews-a.json",
+      "sha256": "358cb63ab4d48553e4e719d83edc4433db27bc1eb39fcb80b21337f966aa8418",
+      "claims_reviewed": 26,
+      "omissions": 2
+    },
+    {
+      "file": "research/factual-pilot/reviews/c-reviews-b.json",
+      "sha256": "49393edc6d807e3b678b2eb87aa74cc032d8376d41caf2fb94c17fa4e0db44e2",
+      "claims_reviewed": 45,
+      "omissions": 2
+    }
+  ],
+  "archives": [
+    {
+      "source_id": "root-kspg",
+      "file": "research/factual-pilot/sources/root-kspg.html",
+      "sha256": "17be2c3c647ee3d5d2938b79c2269b44a7c01afdebbf325a3488f0524b9da5a9"
+    },
+    {
+      "source_id": "root-enwg49",
+      "file": "research/factual-pilot/sources/root-enwg49.html",
+      "sha256": "a6314d1e43c6dd6beceb51f504fcf73593b8e8cfe795bb48d86612f1a67d1f2d"
+    },
+    {
+      "source_id": "root-gashdrltgv-index",
+      "file": "research/factual-pilot/sources/root-gashdrltgv-index.html",
+      "sha256": "b0c82bbb1a580d3943076681c4420eee5f352ba9d3bd86701ba8433907399241"
+    },
+    {
+      "source_id": "root-kltgv-dataset",
+      "file": "research/factual-pilot/sources/root-kltgv-dataset.html",
+      "sha256": "306e836d3582cbc4b2b932926c53cbcd1caa80a018151a25614514cb0dc5e725"
+    },
+    {
+      "source_id": "root-gashdrltgv",
+      "file": "research/factual-pilot/sources/root-gashdrltgv.html",
+      "sha256": "0e29aef7cb33f21afc7df3076a1b1f9fa626b7c3ba770acbd448b74af83bbb24"
+    },
+    {
+      "source_id": "root-draft",
+      "file": "research/round3-energy/sources/kltgv-refe-official.pdf",
+      "sha256": "927255e40b4443c789705a93d3440cd4dbfbb81a5c09f8e3214246082a4c30cf"
+    },
+    {
+      "source_id": "root-participants",
+      "file": "research/round3-energy/sources/bmwe-datasets/929dbaf7ccee9afe.pdf",
+      "sha256": "e4fc9f92be1c67c5c7ec98a958ee9576281d934c90302d7216f49b7b4df58f86"
+    },
+    {
+      "source_id": "a-dnv-f104",
+      "file": "research/factual-pilot/sources/a-dnv-f104.html",
+      "sha256": "467aceeeff7793f58fad85b55247a953bf6f0584ea8e77121bcf81b1e3be8346"
+    },
+    {
+      "source_id": "a-dnv-spitzenberger-2024",
+      "file": "research/factual-pilot/sources/a-dnv-spitzenberger-2024.pdf",
+      "sha256": "43a02d70f8ce76b2683427ac366b096655a32c5914b55c0a02992137eb29cf39"
+    },
+    {
+      "source_id": "a-gashd-full",
+      "file": "research/factual-pilot/sources/a-gashd-full.pdf",
+      "sha256": "016c9981ada27d0cb62c8d576afa7634651e1a5e2e2a101c0699d7c6ff9a27fa"
+    },
+    {
+      "source_id": "a-sintef-2021-abstract",
+      "file": "research/factual-pilot/sources/a-sintef-2021-abstract.html",
+      "sha256": "0523b25b4c2582bf46f582e2a2cd8291cd20da5a983f0c1be22cf13bf0876730"
+    },
+    {
+      "source_id": "a-sintef-2013",
+      "file": "research/factual-pilot/sources/a-sintef-2013.pdf",
+      "sha256": "910590195527d0d44187f2e0dfd5fd9e6b0796c056e868a1b92b085cabb0063e"
+    },
+    {
+      "source_id": "a-hse-co2",
+      "file": "research/factual-pilot/sources/a-hse-co2.html",
+      "sha256": "c91848b000e100f89ea3d09cbd7342ccbdba024dd90a75493f4c04d5dcc69bf9"
+    },
+    {
+      "source_id": "a-ets-verification2025",
+      "file": "research/factual-pilot/sources/a-ets-search-extraction.json",
+      "sha256": "321c263aeca8b64575675371bd82ab1216a523c145a995b8b35f8f70f549a212"
+    },
+    {
+      "source_id": "a-iso-tool",
+      "file": "research/factual-pilot/sources/a-ets-iso-tool-extraction.json",
+      "sha256": "4baf29d41058341cf51d52e71ca535a981569c929cde15cdc5c6a2a8072421c3"
+    },
+    {
+      "source_id": "b-c466-shop",
+      "file": "research/factual-pilot/sources/b-c466-shop.html",
+      "sha256": "ccf00084c2910a3535cd3bd432e291d840374880f27573caa53c0749b352aefc"
+    },
+    {
+      "source_id": "b-gw100",
+      "file": "research/factual-pilot/sources/b-gw100.pdf",
+      "sha256": "ed72d7df53ba3b5f25a04f7140ff3c7cdd313c597a9e4180a7f05c9c95878c7c"
+    },
+    {
+      "source_id": "b-captrans-full",
+      "file": "research/factual-pilot/sources/b-captrans-full.pdf",
+      "sha256": "baa533a467ae2d94cc45a16bfc61373b38adde64db0a8e684487ed5a044ec551"
+    },
+    {
+      "source_id": "b-en18397",
+      "file": "research/factual-pilot/sources/b-en18397.html",
+      "sha256": "ea2dea1f1963d6d8fc8e57d6aa558ed16e8d8ec84b9d2642afc55b666ef2b6d7"
+    },
+    {
+      "source_id": "b-c463-shop",
+      "file": "research/factual-pilot/sources/b-c463-shop.html",
+      "sha256": "a0669f339e508a00fc4f3a9c457bc61d18d2716a34ddb8dc69471845eb5c522c"
+    },
+    {
+      "source_id": "b-g466-shop",
+      "file": "research/factual-pilot/sources/b-g466-shop.html",
+      "sha256": "8751a9e0d94960c5f9b945f4546a4c3a78e9f71bec2946512b6e6fa55fdaf1f8"
+    },
+    {
+      "source_id": "b-c491-shop",
+      "file": "research/factual-pilot/sources/b-c491-shop.html",
+      "sha256": "6092f2f0623be67d77162f7c75ff18aaf78350c865d25f8d1c77bce124fd29c3"
+    },
+    {
+      "source_id": "b-hse-co2",
+      "file": "research/factual-pilot/sources/b-hse-co2.html",
+      "sha256": "c91848b000e100f89ea3d09cbd7342ccbdba024dd90a75493f4c04d5dcc69bf9"
+    },
+    {
+      "source_id": "b-netl-cost",
+      "file": "research/factual-pilot/sources/b-netl-cost.pdf",
+      "sha256": "3a8ede8f767354787a146c917d7a7c0997c9f73d0bb33f237185993d24e4eaa0"
+    },
+    {
+      "source_id": "b-dbi-captrans",
+      "file": "research/factual-pilot/sources/b-dbi-captrans.pdf",
+      "sha256": "ce587abb287cff72c74fcc9a8ae27940d956b2030f7c6d2766626c90985b9862"
+    },
+    {
+      "source_id": "b-satartia-hse",
+      "file": "research/factual-pilot/sources/b-satartia-hse-response.html",
+      "sha256": "0fd52f44fa430919160bb108785527611df758fb3f6a3748b49758826ef62e17"
+    },
+    {
+      "source_id": "b-ggvseb",
+      "file": "research/factual-pilot/sources/b-ggvseb.html",
+      "sha256": "338cedb462885d2aaa5486ac76ec643a1f585f6457d2214ab27e8f816c894f42"
+    },
+    {
+      "source_id": "b-satartia-primary-search",
+      "file": "research/factual-pilot/sources/b-satartia-primary-search.json",
+      "sha256": "384f9d58cf3278944f9362b841f7e2110fbc7f3b989bacb2c47be51d064c1d9c"
+    },
+    {
+      "source_id": "c-iso27913-gso",
+      "file": "research/factual-pilot/sources/c-iso27913-gso.html",
+      "sha256": "4d5a7c989bf8530e75a5592655b5ae1e33e74c3b0c4c80b4db765db5fc0b11e0"
+    },
+    {
+      "source_id": "c-din27913",
+      "file": "research/factual-pilot/sources/c-din27913.html",
+      "sha256": "e663550d7e0d61487a31b8a52832120d4db021789245d02f4382fe1163d9e2c0"
+    },
+    {
+      "source_id": "c-dnv-rpf104",
+      "file": "research/factual-pilot/sources/c-dnv-rpf104.html",
+      "sha256": "d0d6362c5a56fce301d9eb25df5ba09ecda6982b49f3a178c04a6dba1a0e84b4"
+    },
+    {
+      "source_id": "c-din18397-drafts",
+      "file": "research/factual-pilot/sources/c-din18397-drafts.html",
+      "sha256": "fe39f71553e12f501b075b0d80aae21784e9cea7c24d3f46022f3822616a4b3d"
+    },
+    {
+      "source_id": "c-dvgw-c463",
+      "file": "research/factual-pilot/sources/c-dvgw-c463.html",
+      "sha256": "a0669f339e508a00fc4f3a9c457bc61d18d2716a34ddb8dc69471845eb5c522c"
+    },
+    {
+      "source_id": "c-dvgw-c260",
+      "file": "research/factual-pilot/sources/c-dvgw-c260.html",
+      "sha256": "15785d5ccd6bcb5c04e7658aa0e85c448575fa3d249db41e2beb7c7fb7486e93"
+    },
+    {
+      "source_id": "c-cen-workplan2026",
+      "file": "research/factual-pilot/sources/c-cen-workplan2026.html",
+      "sha256": "f33692b47e32e93ee5b7a33fded662b820835917bc7f5665d238d1eee0d35379"
+    },
+    {
+      "source_id": "c-evaluation2022",
+      "file": "research/factual-pilot/sources/c-evaluation2022.pdf",
+      "sha256": "ec7044d05edc877db1850eaa516306a1401116ff03607c180cc0500748d1cf87"
+    },
+    {
+      "source_id": "c-rohrfltgv8",
+      "file": "research/factual-pilot/sources/c-rohrfltgv8.html",
+      "sha256": "8359005be4faedc0043edc64fc4ec8903ce6d27d661e5dcc54d0c027663e2b57"
+    },
+    {
+      "source_id": "c-rohrfltgv5",
+      "file": "research/factual-pilot/sources/c-rohrfltgv5.html",
+      "sha256": "7fa000f02aca682934bea093010c54ba3bdc694f8cbba3dac3c080114dfb10ef"
+    },
+    {
+      "source_id": "c-commission-initiative",
+      "file": "research/factual-pilot/sources/c-commission-initiative.html",
+      "sha256": "3d93086c1fcd7c17a5f5f911de81e4fb63285ef5a2124ddaae454ce4215339f9"
+    },
+    {
+      "source_id": "c-porthos-schedule20260416",
+      "file": "research/factual-pilot/sources/c-porthos-schedule20260416.html",
+      "sha256": "1870359db15bf5347d8a2d73ccbffe51ae3bbb76c251471dbe5ffaaa96d8c8a0"
+    },
+    {
+      "source_id": "c-usgs-co2",
+      "file": "research/factual-pilot/sources/c-usgs-co2.html",
+      "sha256": "1b8bb461f589dce045e87ee6cedcbcdf59f606a37b9866925bb1a83a7daae3b0"
+    },
+    {
+      "source_id": "c-evs-pren18397",
+      "file": "research/factual-pilot/sources/c-evs-pren18397.html",
+      "sha256": "60b9b940c797ef663d34cf704a03838eb0e117b504503b53475e3ce00e0e86da"
+    },
+    {
+      "source_id": "c-zenodo-depressurization",
+      "file": "research/factual-pilot/sources/c-zenodo-depressurization.html",
+      "sha256": "d286e5406c22ef54166b090402f75141b4aea57ae5ef5078b6f78fcfefbf6fc8"
+    },
+    {
+      "source_id": "c-doe-cslf2015",
+      "file": "research/factual-pilot/sources/c-doe-cslf2015.pdf",
+      "sha256": "3c35b9c1dce05c673b7d7da8fe47adecd6bddaf90b32ea7c2556525a4dc683f1"
+    },
+    {
+      "source_id": "c-pren18397-din",
+      "file": "research/factual-pilot/sources/c-pren18397-din.html",
+      "sha256": "b8375e94c3816144cb90a914178022a2fab40f03c9bbbd2673afe582130f3c1c"
+    },
+    {
+      "source_id": "c-depressurization-preprint",
+      "file": "research/factual-pilot/sources/c-depressurization-preprint.pdf",
+      "sha256": "6e03f9dd5b383c3031e2e8543776e0bdc57a5b3190569e79d4a3726a41f3a3df"
+    },
+    {
+      "source_id": "c-eu-harmonised",
+      "file": "research/factual-pilot/sources/c-eu-harmonised.html",
+      "sha256": "7ec37cef8abc21d20dcae7b4e98abbdcd12eed5631a55d746c329df8e00ec89f"
+    },
+    {
+      "source_id": "br-social-uk2014",
+      "file": "research/factual-pilot/sources/br-social-uk2014.pdf",
+      "sha256": "3600d5045cf61f6b20f73731106d8243336c8b5efe4dc67aaeabde1b197dc8b0"
+    },
+    {
+      "source_id": "br-social-germany2017-web",
+      "file": "research/factual-pilot/sources/br-social-germany2017-web.json",
+      "sha256": "d24015213d80bc444a61fd48bd4c37e5d63eb8a3c8c731ecc78d4835b9415acc"
+    },
+    {
+      "source_id": "cr-c466-preview",
+      "file": "research/factual-pilot/sources/cr-c466-preview.pdf",
+      "sha256": "fb3e147f521ec4e13017602d9a5909a8daa55275778a0ae5f9cf0d4227498271"
+    },
+    {
+      "source_id": "cr-c491-preview",
+      "file": "research/factual-pilot/sources/cr-c491-preview.pdf",
+      "sha256": "e825aac18911f9dddf0a122cd53a9768b202feb6d0ceba3062967e8f3366efc2"
+    },
+    {
+      "source_id": "cr-satartia-primary-search",
+      "file": "research/factual-pilot/sources/cr-satartia-primary-search.json",
+      "sha256": "e28a2b4f3363869861a90f8eef0f726b1fce8c47b5336db56522e796bec5c127"
+    },
+    {
+      "source_id": "cr-satartia-web-extraction",
+      "file": "research/factual-pilot/sources/cr-satartia-web-extraction.json",
+      "sha256": "181fb4d94de93e87534db5f3fd039d39373ff7d586e08b4f28cbe1f168874639"
+    }
+  ]
+}

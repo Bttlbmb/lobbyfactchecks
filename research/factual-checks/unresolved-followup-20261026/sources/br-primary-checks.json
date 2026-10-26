@@ -1,0 +1,409 @@
+{
+  "reviewer": "b",
+  "target_agent": "a",
+  "checked_at_utc": "2026-10-26T00:42:26.779998+00:00",
+  "proposal_sha256": "b8d6b2e7080415480b50a98269ed22fce800ba8421ffa107271b49033f1b6875",
+  "sources": [
+    {
+      "id": "uf-br-iqwig",
+      "url": "https://www.iqwig.de/download/a26-67_clesrovimab_nutzenbewertung-35a-sgb-v_v1-0.pdf",
+      "identity": "IQWi G A 26-67, Clesrovimab dossier assessment",
+      "version": "Version 1.0, 25 August 2026; publication 1 September 2026",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Physical 61–70 complete, including cohort assumptions/limitations and cost/dose sections; physical 69 table 3 independently rendered and visually inspected. Not a complete 74-page read.",
+      "results": [
+        "The assessed public GKV drug costs are EUR 487.27 and EUR 427.56 for one first-season dose; extra required services are zero in the table. Difference EUR 59.71 and 13.9652914%.",
+        "Cost section validates first Clesrovimab listing 1 June and comparator listings 15 May; assessment 25 August. The table remains manufacturer data independently appraised, not confidential contracting data.",
+        "Manufacturer whole-birth projection 616086 and overall GKV proxy 89.11% are distinct from the restricted secondary-prophylaxis target; IQWiG describes uncertainties, including double counting in subgroup additions."
+      ],
+      "limits": [
+        "Price support is the contemporary public benchmark, not an authenticated 3 September transaction snapshot or every negotiated rebate. A cohort proxy does not become the author’s recovered calculation."
+      ],
+      "observed_sha256": "8498d09fe428ddb7e0f32acf926ac3289e37d148270ae83f13be57e618e2229d",
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "source_file_reused": "/private/tmp/unresolved-followup-root/iqwig-a26-67.pdf",
+      "hash_method": "Original shared bytes independently hashed; PDF signature checked where relevant.",
+      "independent_visual_render": "/private/tmp/unresolved-b-20261026/br-iqwig-p69.png"
+    },
+    {
+      "id": "uf-br-annex",
+      "url": "https://www.kbv.de/documents/infothek/rechtsquellen/bundesmantelvertrag/anlage-04a-elektronische-gesundheitskarte/04a-elektronische-gesundheitskarte.pdf",
+      "identity": "KBV/GKV-Spitzenverband BMV-Ä Annex 4 a",
+      "version": "Stand 1 July 2026; same original hash as prior round",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Identity page 1; complete relevant clauses physical 5–7, especially 2.1 and 2.5–2.9.",
+      "results": [
+        "The July 2026 agreement allows under-18 substitute billing without a card/electronic substitute certificate, but requires insurer data and confirmation of existing cover.",
+        "Private treatment remuneration after ten days is repayable with valid proof by quarter end. This is not a blanket rule assuring later reimbursement of a privately purchased medicine."
+      ],
+      "limits": [
+        "Proof, physical card and actual eligibility differ. No entitlement is inferred merely from newborn status or an available fallback process."
+      ],
+      "observed_sha256": "8809137028e4d04f4b0f881ec2bdd07541a26999fba2e7e55bf6c4cf8ab14a82",
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "source_file_reused": "/private/tmp/unresolved-a-20261026/egk-annex.pdf",
+      "hash_method": "Original shared bytes independently hashed; PDF signature checked where relevant."
+    },
+    {
+      "id": "uf-br-aokplus",
+      "url": "https://www.aok.de/gp/fileadmin/user_upload/Arzt_Praxis/Publikationen/VM_Newsletter_sac_04_2025.pdf",
+      "identity": "AOK PLUS Versorgungsmanagement newsletter, Sachsen",
+      "version": "October 2025",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Identity/October 2025 issue page 1; complete newborn billing subsection physical 7.",
+      "results": [
+        "Insurer reports frequent requests for newborn treatment certificates and explains a substitute procedure with parent confirmation."
+      ],
+      "limits": [
+        "Regional insurer documentation requests do not establish a national frequency of genuinely undecided entitlement or time to any valid proof. The source’s under-three-month description is not substituted for the broader July 2026 under-18 agreement."
+      ],
+      "observed_sha256": "863d2b04843feca6d1128fe886730179a95203077929882125015f646093bf66",
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "source_file_reused": "/private/tmp/unresolved-a-20261026/aok-plus-2025.pdf",
+      "hash_method": "Original shared bytes independently hashed; PDF signature checked where relevant."
+    },
+    {
+      "id": "uf-br-hospital",
+      "url": "https://www.ev-klinikum-schaumburg.de/fileadmin/Agaplesion_ekk-schaumburg/download/fachabteilungen/geburtshilfe/KSL_Borschuere_Kleines__grosses_Wunder_Schwangerschaft_und_Geburt_Stand_Juli_2020.pdf",
+      "identity": "Agaplesion Ev. Klinikum Schaumburg birth information brochure",
+      "version": "July 2020",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Cover identity and complete insurance subsection physical 13; not a complete brochure read.",
+      "results": [
+        "Ordinary sequence is birth notification, forms/birth certificate, then approximately two weeks to physical card; treatment can precede the card."
+      ],
+      "limits": [
+        "July 2020 guidance, not a 2026 measured insurer delay distribution. Card-production time is not time to every valid insurance proof."
+      ],
+      "observed_sha256": "7b8189cb3b9867b87274b416355f6acfb38839af0f2ca7cf99cefa06b5fafc1e",
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "source_file_reused": "/private/tmp/unresolved-a-20261026/insurance-hospital-2020.pdf",
+      "hash_method": "Original shared bytes independently hashed; PDF signature checked where relevant."
+    },
+    {
+      "id": "uf-br-rki-burden",
+      "url": "https://www.rki.de/DE/Aktuelles/Publikationen/RKI-Ratgeber/Ratgeber/Ratgeber_RSV.html",
+      "identity": "RKI RSV infection guide",
+      "version": "Full revision January 2024; prevention updates 2024–2026",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Independently read indexed primary Vorkommen and update-history paragraphs; direct open returned 403.",
+      "results": [
+        "Supports leading lower-respiratory illness and associated hospitalisation burden in older infants/young children."
+      ],
+      "limits": [
+        "Does not establish the entire ICU/death compound ranking. Current prevention update September 2026 is later than the author; no all-cause infant-mortality claim manufactured."
+      ],
+      "observed_sha256": null,
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "hash_limit": "Primary browser text/index read only; no original-byte hash claimed.",
+      "failed_access": true,
+      "access_limit": "Direct primary open 403; primary indexed substantive text used only for stated narrow passages."
+    },
+    {
+      "id": "uf-br-lmu",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42343912/",
+      "identity": "Schouten et al., RSV Prophylaxis in Neonates: Implementation and Parental Acceptance during the First RSV Season in Germany; DOI 10.1055/a-2776-6900",
+      "version": "Published online 5 February 2026",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Complete primary PubMed abstract, publication date, authors/affiliations and study-cohort definition; no full article read.",
+      "results": [
+        "Single Munich birth-hospital cohort, 1030 neonates born 11 November 2024–31 January 2025. Uptake 76% nirsevimab and 6% maternal vaccination; associations with parity/age."
+      ],
+      "limits": [
+        "Does not test German prepayment/unclear-insurance social timing mechanism. Incomplete uptake alone is not evidence of that cause."
+      ],
+      "observed_sha256": null,
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "hash_limit": "Primary browser text/index read only; no original-byte hash claimed."
+    },
+    {
+      "id": "uf-br-us-uptake",
+      "url": "https://doi.org/10.1542/peds.2025-070790",
+      "identity": "Disparities in Nirsevimab Uptake Across a Pediatric Primary Care Network, Pediatrics 156(2), 2025",
+      "version": "2025, 156(2), e 2025070790",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Indexed primary publisher study design/setting, results table and discussion/limitations. Direct DOI open redirected to inaccessible login. No downloaded full PDF claimed.",
+      "results": [
+        "US cohort 7208 infants across 32 CHOP practices; 35% uptake, lower receipt associated with public insurance and low child opportunity.",
+        "Authors explicitly say causes of disparities unclear; multiple unmeasured acceptance/access/prescribing factors are possible."
+      ],
+      "limits": [
+        "Observational US associations cannot establish a German private-prepayment mechanism or its frequency."
+      ],
+      "observed_sha256": null,
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "hash_limit": "Primary browser text/index read only; no original-byte hash claimed.",
+      "failed_access": true,
+      "access_limit": "Direct DOI login redirect; publisher-indexed substantive passages read."
+    },
+    {
+      "id": "uf-br-destatis",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Geburten/Tabellen/lebendgeborene-gestorbene.html",
+      "identity": "Destatis press release 146",
+      "version": "28 April 2026",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Official indexed birth table, including 2025/2024 rows and Stand 1 July 2026; official births landing text. Direct table/release open returned 403.",
+      "results": [
+        "Final counts 654241 in 2025 and 677117 in 2024. April release’s 654300 provisional count is separately recorded by A and not replaced silently.",
+        "Independent arithmetic: 600000 ×59.71 =35826000; 677117 ×0.8911 ×59.71 ≈36040000; 654241 ×same factors ≈34820000."
+      ],
+      "limits": [
+        "These are sensitivity illustrations, not AOK’s recovered model or an infant-specific GKV share. Full-cohort hypothesis requires no observed uptake."
+      ],
+      "observed_sha256": null,
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "hash_limit": "Primary browser text/index read only; no original-byte hash claimed.",
+      "failed_access": true,
+      "access_limit": "Direct table/release 403; identified primary indexed table read.",
+      "additional_url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Geburten/_inhalt.html",
+      "review_correction": "My preliminary concern about A conflating April and July was withdrawn after reading the full frozen source entry: it already distinguishes provisional 654300 and later final 654241. No A record repair requested."
+    },
+    {
+      "id": "uf-br-dnrw",
+      "url": "https://www.d-nrw.de/kommunalvertreter-onlinezugang/verfuegbare-leistungen/elektronische-wohnsitzanmeldung",
+      "identity": "d-NRW AöR eWA implementation information",
+      "version": "Stand 03/2026",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Complete substantive service description, connection/test checklist and technical/integration sections, plus Stand 03/2026 label; navigation excluded.",
+      "results": [
+        "OSCI/DVDV and centrally maintained communication endpoints, integration with vendor specialist systems, and trial/live process are concretely specified."
+      ],
+      "limits": [
+        "Supplies an implementation mechanism supporting a modest standards contribution, not measured causal size or proof competing frontends had equal access."
+      ],
+      "observed_sha256": "4f060b8bc0d8a89666268bc0ffb7b700339ffdab82a391bf6c022d2f6a627e2f",
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "source_file_reused": "/private/tmp/unresolved-a-20261026/dnrw-ewa.html",
+      "hash_method": "Original shared bytes independently hashed; PDF signature checked where relevant."
+    },
+    {
+      "id": "uf-br-faq",
+      "url": "https://docs.osi.dataport.de/public/puboddoku/files/525435630/534382054/1/1743090907863/eWA_FAQ.pdf",
+      "identity": "Dataport/Hamburg eWA FAQ",
+      "version": "12 November 2025",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Version identity physical 1; complete selected chip-writing sections physical 17–18, interfaces/vendor list physical 22, security/responsibility discussion physical 32.",
+      "results": [
+        "The shared component has a sovereign writing certificate; online chip updating connects via the central writer/AusweisApp.",
+        "XMeld/OSCI/DVDV and XPassAusweis are used; four vendor products listed. Frontend and municipal backend responsibilities differ."
+      ],
+      "limits": [
+        "A working selected service is not evidence every alternative fails, no manufacturer was denied access, no Länder complained, or no investment was hindered."
+      ],
+      "observed_sha256": "c77daab8adcdf4b2a88f33a09669e869bd126e3aee43502522bcb7f92e301d5e",
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "source_file_reused": "/private/tmp/unresolved-a-20261026/dataport-faq.pdf",
+      "hash_method": "Original shared bytes independently hashed; PDF signature checked where relevant."
+    },
+    {
+      "id": "uf-br-bsi",
+      "url": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil3.pdf?__blob=publicationFile&v=6",
+      "identity": "BSI TR 03128 Teil 3",
+      "version": "Version 1.3, 26 March 2026",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Identity physical 1; complete workflow/certificate section physical 13 and operation/outsourcing conditions physical 22–23.",
+      "results": [
+        "ZSD and eWA work together; operation requires a certified ISMS and sovereign certificate. ZSD operational outsourcing requires BSI coordination."
+      ],
+      "limits": [
+        "Approval/security dependencies are not records of denied requests or proof of unlawful discrimination; do not infer that every alternative frontend can access an existing backend."
+      ],
+      "observed_sha256": "8f52ca127607ed3b20d4bd78b8220ac356ac6908037189d258970bc9269aba1f",
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "source_file_reused": "/private/tmp/unresolved-a-20261026/bsi-zsd.pdf",
+      "hash_method": "Original shared bytes independently hashed; PDF signature checked where relevant."
+    },
+    {
+      "id": "uf-br-bmds",
+      "url": "https://bmds.bund.de/service/gesetzgebungsverfahren/it-komponentenverordnung-itkv",
+      "identity": "BMDS consultation dossier IT-Komponentenverordnung",
+      "version": "Published 7 September 2026",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Dated 7 September introductory dossier paragraphs in shared original HTML; complete substantive introduction.",
+      "results": [
+        "Ministry explicitly describes eWA as first concrete component prescribed by this OZG ordinance route and discusses MPK 25 June decision."
+      ],
+      "limits": [
+        "Primary proposer statement supports the contextual first-concrete-mandate claim, not a historical assertion that EfA never had legal authorisation/contracts. Draft rather than enacted law."
+      ],
+      "observed_sha256": "e4c99b1ae52ebab322e5861cd7fdf4bf4c8a8d13e34ed1239bc3ae66e018676b",
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "source_file_reused": "/private/tmp/unresolved-a-20261026/bmds-itkv.html",
+      "hash_method": "Original shared bytes independently hashed; PDF signature checked where relevant."
+    },
+    {
+      "id": "uf-br-ni",
+      "url": "https://www.stk.niedersachsen.de/startseite/presseinformationen/flachendeckender-rollout-von-funf-fokusleistungen-nun-auch-in-niedersachsen-vereinbarungen-mit-dem-bund-uber-finanzielle-unterstutzung-251035.html",
+      "identity": "Niedersachsen Staatskanzlei BMDS rollout agreement release",
+      "version": "10 April 2026; page updated 21 May 2026",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Complete substantive 10 April 2026 release, beginning and concluding quotations; creation/update labels. Navigation excluded.",
+      "results": [
+        "Existing taskforce had removed hurdles and increased services monthly; new federal financing/organisational support and five-service end-2026 target are described separately."
+      ],
+      "limits": [
+        "A new Land agreement and prior general taskforce activity do not directly establish how materially the exact federal programme carried the prior nationwide eWA rollout."
+      ],
+      "observed_sha256": "ef614ca1517dd361a7dd2b4bfa67b91c2dd2b2a098eb701b8419bcbc0f19faee",
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "source_file_reused": "/private/tmp/unresolved-a-20261026/niedersachsen-rollout.html",
+      "hash_method": "Original shared bytes independently hashed; PDF signature checked where relevant."
+    },
+    {
+      "id": "uf-br-draft",
+      "url": "https://bmds.bund.de/service/gesetzgebungsverfahren/it-komponentenverordnung-itkv",
+      "identity": "Canonical ITKV draft",
+      "version": "Bearbeitungsstand 1 September 2026 18:18",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Physical 4–5 and 11, operative rule/first-component rationale and funding/cost paragraphs. Text has duplicated layers; both read consistently, no guessed repair.",
+      "results": [
+        "Specific eWA mandate based on OZG 4; conditional voluntary rollout funding exists. EUR 8300 per remaining authority estimate uses programme experience."
+      ],
+      "limits": [
+        "No product-by-product alternative assessment or quantified prior programme contribution. Existing programme cost experience is useful evidence but does not identify breadth of completed funded connections."
+      ],
+      "observed_sha256": "3083a6061d2f2512530d3f8f8272e564d557a3ada730660b9aa264a51780cf22",
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "source_file_reused": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-draft.pdf",
+      "hash_method": "Original shared bytes independently hashed; PDF signature checked where relevant."
+    },
+    {
+      "id": "uf-br-zi",
+      "url": "https://idw-online.de/de/news?id=839229&print=1",
+      "identity": "Zi/Versorgungsatlas authored release by Daniel Wosnitzka, primary author republication on IDW; study DOI 10.20364/VA-24.02",
+      "version": "5 September 2024, 13:40",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Complete substantive primary authored release on IDW, date, results and methods paragraphs (lines 81–112).",
+      "results": [
+        "7.03 million GKV patients treated for type 2 diabetes in 2023; nationwide ambulatory billing and confirmed diagnosis in at least two quarters. It is a patient count, not addition of overlapping eye disorders."
+      ],
+      "limits": [
+        "A dated routine-diagnosis population, not individually validated exact 2026 census. Broad disease-can-cause-sight-loss group is the actual author scope, not blindness prevalence."
+      ],
+      "observed_sha256": null,
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "hash_limit": "Primary browser text/index read only; no original-byte hash claimed."
+    },
+    {
+      "id": "uf-br-ddz",
+      "url": "https://www.diabetesde.org/system/files/document/Gesundheitsbericht%202025_final_0.pdf",
+      "identity": "DDZ authors Seidel-Jacobs, Tönnies, Rathmann, Epidemiologie des Diabetes in Deutschland, Gesundheitsbericht Diabetes 2025",
+      "version": "Health report 2025, published 2024",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Complete physical 8–11 epidemiology chapter; no full long-report read.",
+      "results": [
+        "DDZ authors report at least 9.1 million type 2 patients and discuss claims/survey estimates, age and type distinctions."
+      ],
+      "limits": [
+        "Estimate, not exact census; no addition of overlapping eye conditions. RKI survey-based estimate differs and must be acknowledged rather than overwritten."
+      ],
+      "observed_sha256": "a1596077e8e89f9a78ceeb6b057dc8ad6c530c8e047d8656fbce6edaa49c40ed",
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "source_file_reused": "/private/tmp/unresolved-a-20261026/diabetes-ddg-report.pdf",
+      "hash_method": "Original shared bytes independently hashed; PDF signature checked where relevant."
+    },
+    {
+      "id": "uf-br-diabinfo",
+      "url": "https://www.diabinfo.de/leben/folgeerkrankungen/augen.html",
+      "identity": "DZD/Helmholtz/DDZ diabinfo scientific patient information, diabetic eye disease",
+      "version": "Clinical text Stand 30 December 2022",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Substantive opening mechanisms and screening/risk sections; research-institution authorship and clinical-text date context. No full-site read.",
+      "results": [
+        "Diabetes can damage retinal vessels and lead to blindness; screening is recommended before symptoms/known retinal damage."
+      ],
+      "limits": [
+        "Does not claim every diabetic has retinal disease or will lose sight. It does support inclusion in a disease-that-can-cause-sight-loss category."
+      ],
+      "observed_sha256": "40fd5a79044e058f359b7d05125875a282dae8a64f5af7a4a4b0e1624c1350bd",
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "source_file_reused": "/private/tmp/unresolved-a-20261026/diabetes-diabinfo.html",
+      "hash_method": "Original shared bytes independently hashed; PDF signature checked where relevant."
+    },
+    {
+      "id": "uf-br-rki-diabetes",
+      "url": "https://edoc.rki.de/handle/176904/12975?locale-attribute=en&show=full",
+      "identity": "RKI Jo HM diabetes projections",
+      "version": "17 September 2025",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Complete primary RKI repository abstract and publication metadata, independently recovered via edoc route; no full 16-page article read.",
+      "results": [
+        "GEDA 2022 diagnosed prevalence with routine-data type proportions yields 6.05 million 2022 type 2 cases, distinct from nationwide repeated-coded-diagnosis claims population."
+      ],
+      "limits": [
+        "Different ascertainment/date/population cautions against treating any estimate as uncontested exact census; it does not uniquely invalidate routine patient counts."
+      ],
+      "observed_sha256": null,
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "hash_limit": "Primary browser text/index read only; no original-byte hash claimed."
+    },
+    {
+      "id": "uf-br-firm-history",
+      "url": "https://www.hsh-berlin.com/modules.php?NewsYearMonth=202602&cid=3&name=HSH_News",
+      "identity": "HSH primary 35-year anniversary and ab-data primary company history",
+      "version": "HSH February 2026; ab-data current history",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Complete HSH February 2026 35th-anniversary entry; ab-data substantive company chronology. Targeted dated online-service search found no member-specific pre-September-2006 launch pair.",
+      "results": [
+        "HSH dates founding to 19 February 1991. ab-data reports early-1980s municipal software and a web finance transition from 2005."
+      ],
+      "limits": [
+        "Age of qualifying subset is supported, not every firm. A web finance backend is not automatically citizen-facing online administrative service; unrelated non-mapped provider histories do not close that compound."
+      ],
+      "observed_sha256": null,
+      "source_type": "primary",
+      "retention": "Concise independent authored note retained. Reused canonical or A/root temporary public bytes; no duplicate public-source download.",
+      "hash_limit": "Primary browser text/index read only; no original-byte hash claimed.",
+      "additional_url": "https://ab-data.de/"
+    },
+    {
+      "id": "uf-br-access-search",
+      "url": "https://www.bsi.bund.de/",
+      "identity": "Targeted independent historical access/market check",
+      "accessed_at_utc": "2026-10-26T00:42:26.779998+00:00",
+      "read_extent": "Exact-phrase eWA denial, ZSD access/Landtag and manufacturer-interface/complaint searches, plus primary technical evidence above. No bulk review of all Länder replies.",
+      "results": [
+        "No identified dated federal denial, named multi-Land complaint or investment-event chain recovered. A KISA indexed FAQ lead mentions a competing product missing chip updates, but direct PDF returned 404; not used as product-market proof."
+      ],
+      "limits": [
+        "No inference no denial/complaint occurred. Selected service success is not a refutation of competing-service barriers. No complete alternative-product census or market-share denominator recovered."
+      ],
+      "observed_sha256": null,
+      "queries": [
+        "\"elektronische Wohnsitzanmeldung\" \"verwehrt\"",
+        "\"Zentraler Schreibdienst\" \"Zugang\" Landtag",
+        "\"elektronische Wohnsitzanmeldung\" Hersteller Schnittstellen Bundesländer Beschwerde"
+      ],
+      "failed_access": [
+        {
+          "url": "https://www.kisa.it/de/datei/anzeigen/id/88758%2C3%2C1/faq_ewa.pdf",
+          "result": "404 direct PDF open; indexed lead not adopted as substantive evidence."
+        }
+      ],
+      "retention": "Authored search scope/limits only; no broad website archive."
+    }
+  ],
+  "limits": [
+    "Exact read extents above; primary evidence reused rather than redownloaded.",
+    "All 20 original target contexts independently reread, not all documents/pages of the previous completed batches again.",
+    "No original source byte hash is invented for indexed/browser-only primary text."
+  ]
+}

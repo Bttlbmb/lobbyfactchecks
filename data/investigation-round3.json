@@ -1,0 +1,44 @@
+{
+  "round": 3,
+  "status": "completed",
+  "objective": "Spend another 2.5 hours on research, prioritising an auditable three-month coverage census.",
+  "started_at_utc": "2026-10-25T02:41:17+00:00",
+  "completed_at_utc": "2026-10-25T05:11:51.594941+00:00",
+  "minimum_duration_seconds": 9000,
+  "duration_seconds": 9034.594941,
+  "minimum_duration_satisfied": true,
+  "coverage_complete": false,
+  "national_eligible_submission_denominator": null,
+  "national_coverage_percentage": null,
+  "population_error_rate": null,
+  "current_compiled_counts": {
+    "provisional_findings": 58,
+    "major_findings": 11,
+    "minor_findings": 47,
+    "documents_with_major_findings": 10,
+    "documents_with_provisional_findings": 50,
+    "unresolved_leads": 35,
+    "rejected_candidates": 1,
+    "all_issue_records": 94,
+    "issue_associated_documents": 76,
+    "named_broad_reading_units": 565,
+    "reading_depths": {
+      "full_submission": 358,
+      "selected_passages": 81,
+      "keyword_triage": 125,
+      "full_text_ocr": 1
+    },
+    "government_or_Land_replies_in_broad_pool": 12,
+    "anonymous_batch_bound": 0
+  },
+  "incremental_results": {
+    "major_findings": 0,
+    "minor_findings": 6,
+    "documents_with_new_minor_findings": 4,
+    "unresolved_leads": 9,
+    "note": "Three separate minor bibliographic entries concern one DGAUM response. Unresolved leads are not findings or severe-error numerator."
+  },
+  "completion_audit": "research/round3/completion-audit.json",
+  "assembly_manifest": "research/round3/assembly-manifest.json",
+  "review_limits": "AI source, context and count checks only. No human specialist confirmation, author response or intent inference. Full-reading labels do not certify every assertion."
+}

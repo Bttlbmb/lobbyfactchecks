@@ -1,0 +1,58 @@
+{
+  "review_id": "energy-reviews-tax-coverage-r3",
+  "date": "2026-10-25",
+  "reviewer": "independent AI energy_hearings",
+  "scope": "Bounded Finance/Budget/Economy hearing index and response-link reconciliation, plus selected date/version boundaries. Not full substantive review of313 submissions.",
+  "files_reviewed": [
+    "research/round3-tax/coverage-bt-response-links.json",
+    "research/round3-tax/coverage-bt-index-reconciliation.json",
+    "research/round3-tax/coverage-bt-document-publication-index.json",
+    "research/round3-tax/hearing-page-jobs.json",
+    "research/round3-tax/hearing-loader-jobs-results.json",
+    "research/round3-tax/hearing-pagination-jobs-results.json"
+  ],
+  "independent_checks": [
+    {
+      "check": "All archived hearing-index loader and pagination anchors reparsed independently",
+      "result": {
+        "observed_hearing_urls": 50,
+        "hearing_page_jobs": 50,
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "check": "Reparsed the Stellungnahmen aside sections of all44 archived hearing pages having responses",
+      "result": "Exactly313 distinct official response PDF URLs, equal to inventory. Other six indexed hearing pages have no listed written response yet; no phantom response count."
+    },
+    {
+      "check": "Recomputed all313 local PDF SHA-256 hashes",
+      "result": "No mismatch with recorded source hash."
+    },
+    {
+      "check": "Reconciled independent energy publication API with Economy hearing responses",
+      "result": "53 API statements,52 exact URL matches, one API-only BDI1222310. Confirms hearing-list-only coverage would miss a published response."
+    },
+    {
+      "check": "Visually inspected BDI/BDA21(9)403 physical1–2",
+      "result": "12October2026 committee cover and22April2026 authored statement are separate metadata. Publisher name differs from actual BDI identity; no author factual allegation inferred."
+    },
+    {
+      "check": "Visually inspected DGB21(9)370 physical2–3 and text boundary",
+      "result": "2October2026 new author cover expressly incorporates22July2026 prior statement. This is a new package with an older annex, not evidence all pages were newly authored inOctober. Preserve both draft-stage contexts."
+    }
+  ],
+  "disposition": "Supports bounded enumeration and conservative date/version separation. No required count correction.",
+  "limits": [
+    "Committee printing/publication dates alone do not prove precise recipient delivery.",
+    "Machine-extracted dates on older covers remain candidates until manual attribution.",
+    "Downloaded/fulltext-extracted does not mean substantively screened.",
+    "Current website snapshot cannot prove every item was already public by24October or capture unpublished responses."
+  ],
+  "visual_archives": [
+    "research/round3-energy/sources/tax-review-bdi403-1.png",
+    "research/round3-energy/sources/tax-review-bdi403-2.png",
+    "research/round3-energy/sources/tax-review-dgb370-02.png",
+    "research/round3-energy/sources/tax-review-dgb370-03.png"
+  ]
+}

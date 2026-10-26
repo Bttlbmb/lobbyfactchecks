@@ -1,0 +1,123 @@
+{
+  "id": "invest2025-eichfelder-tax-r2-03",
+  "law_id": "investitionssofortprogramm-2025",
+  "document_id": "eichfelder-investitionssofortprogramm-20250623",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "major",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Business-investment tax incentives and staged corporation-tax reductions; the same hearing also considered a motion to remove tax privileges.",
+    "they_want": "Restrict tax privileges for the upper income group and reject the proposed permanent rate cuts.",
+    "they_claim": "The top 1% income share rose from 21.0% in 1995 to 29.76% in 2017.",
+    "the_problem": "Those figures match the top 5% in the primary fiscal-income dataset; its top 1% shares are 8.16% and 14.09%."
+  },
+  "claim_quote": {
+    "original": "Anteil der oberen 1% von 21,0% auf\n29,76% zu.",
+    "language": "de",
+    "translation_en": "Translation: share of the top 1% from 21.0% to 29.76%.",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": 2,
+      "continues_on_pdf_page": 3,
+      "section": "Final paragraph on page 2, continuing at the top of page 3; footnote 3 cites Eichfelder (2025)."
+    },
+    "underline": "oberen 1%"
+  },
+  "request_quote": {
+    "original": "Einschränkung von steuerlichen Privilegien der Oberschicht",
+    "language": "de",
+    "translation_en": "Translation of request fragment: restriction of tax privileges for the upper class",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 3,
+      "paragraph": "Third paragraph, second sentence."
+    }
+  },
+  "counter_quote": {
+    "original": "DE;sfiinct992;p95p100;2017;0.2976;992;t;3",
+    "language": "und",
+    "source_id": "wid-country-data-DE-20261025",
+    "locator": {
+      "section": "CSV record: country DE, variable sfiinct992, percentile p95p100, year 2017",
+      "columns": [
+        "country",
+        "variable",
+        "percentile",
+        "year",
+        "value",
+        "age",
+        "pop",
+        "data_quality"
+      ]
+    },
+    "retrieved_at": "2026-10-25",
+    "translation_en": "Translation of data record: German series sfiinct992; top5% (p95p100);2017; share0.2976 (29.76%); remaining technical codes unchanged."
+  },
+  "correction": "The primary WID fiscal-income series reproduces all four adjacent bottom-half and top-decile figures exactly. In that same series, the 1995 and 2017 shares for the top 5% are 21.01% and 29.76%; the top 1% shares are 8.16% and 14.09%. The quoted 21.0% is consistent with rounding 21.01%. The series uses tax units and fiscal income, rather than national income. The correction therefore identifies the group attached to these figures; it does not present 14.09% as a corrected national-income estimate.",
+  "effect": "Removes a substantial overstatement of the concentration attributed specifically to the top 1%, which the following sentence uses to support its account of tax policy favouring that group.",
+  "limits": "The same primary series still shows an increase in top-income concentration. This does not establish the causal effect of past tax changes, the distribution of gains from this bill, the merits of restricting tax privileges, or the author’s intent. The directly cited DStR article was unavailable beyond its public bibliographic page; identification of the underlying WID series is an inference from the six matching values and exact years, not a claim to have read that article.",
+  "context_and_alternatives": [
+    "Read all five submission pages. The author supports depreciation incentives, opposes permanent corporation-tax cuts, and advances separate investment-efficiency and tax-treatment arguments.",
+    "The immediately following sentence expressly draws a conclusion about the upper 1%, so the percentile label affects a stated argument rather than merely a detached table heading.",
+    "A typographical 1%/5% slip is plausible but does not change the group represented by the figures. No intent is inferred.",
+    "Alternative estimates can use different income concepts and population units. Such variation does not explain why all six displayed values match one fiscal-income series while the top-group label differs. Nevertheless, the unavailable directly cited article is a source-chain limitation.",
+    "The current primary country data was retrieved in October 2026. The relevant 1995/2017 observations match the submission’s numbers; no claim is made that the downloaded file is an archived June 2025 release."
+  ],
+  "materiality_explanation": "Major editorial judgment: 29.76% is more than twice the same-series top-1% share of 14.09%, and the text immediately invokes the upper 1% to support the requested restriction. The underlying rise and other arguments remain, so the whole policy position is not refuted.",
+  "direction_explanation": "True: attributing the larger top-5% share to the top 1% makes concentration in the group explicitly criticized appear greater, supporting the requested restriction.",
+  "confidence": {
+    "text_source_mismatch": "high for the matched primary series; underlying source-chain attribution inferred because the directly cited article was unavailable",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "title": "Gesetz für ein steuerliches Investitionssofortprogramm zur Stärkung des Wirtschaftsstandorts Deutschland; accompanying motion on tax justice",
+    "version": "BT 21/323 and BT 21/356, both dated 3 June 2025, addressed at the hearing of 23 June 2025",
+    "source_id": "investitionssofortprogramm-bt2100323",
+    "additional_source_id": "green-tax-motion-bt2100356",
+    "submission_date": "2025-06-23",
+    "bill_initiator": "CDU/CSU and SPD parliamentary groups; accompanying motion by Bündnis 90/Die Grünen",
+    "relevant_provision": "Bill Article 2 corporation-tax rate schedule from 2028; motion requests removal of tax privileges.",
+    "version_check": "Submission cover identifies the exact bill and motion by title; official hearing dossier links both. The bill and motion were read in their 3 June versions, rather than the later amended law."
+  },
+  "source_ids": [
+    "eichfelder-investitionssofortprogramm-20250623",
+    "wid-country-data-DE-20261025",
+    "wid-country-metadata-DE-20261025",
+    "wid-codes-dictionary",
+    "eichfelder-dstr2025-publicpage",
+    "investitionssofortprogramm-bt2100323",
+    "green-tax-motion-bt2100356",
+    "investitionssofortprogramm-hearing-20250623"
+  ],
+  "submission_source_id": "eichfelder-investitionssofortprogramm-20250623",
+  "verification": {
+    "visual": "Original pages 2–3 rendered and visually read. Exact CSV records extracted by country, variable, percentile and year; original bulk file retained unchanged.",
+    "reproducible_extract": "research/round2-tax/sources/wid-eichfelder-comparison.csv"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_round2_ai_agent",
+        "date": "2026-10-25",
+        "outcome": "retain_provisional_major_true_narrowly",
+        "review_file": "research/round2-reviews/social-reviews-eichfelder-percentile.json",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full submission and primary country-data comparison; independent adversarial review requested.",
+      "by": "tax_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent social-agent review retained the narrow percentile finding after full submission, raw primary-data and exact-draft checks; direct-source access and income-concept limits preserved.",
+      "by": "tax_ai_screen"
+    }
+  ]
+}

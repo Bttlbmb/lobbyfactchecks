@@ -1,0 +1,108 @@
+{
+  "id": "tkg2026-dk-fraud-source-tax-r3-04",
+  "law_id": "tkg-aenderung-2026",
+  "document_id": "dk-tkg-spoofing-20260728",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Telecom-network reform; this supplementary proposal seeks stronger protection against fraudulent calls.",
+    "they_want": "Obligatory telecom authentication and fraud-detection measures.",
+    "they_claim": "About EUR 4 billion of 2025 European damage arose from social-engineering attacks, citing the EBA/ECB 2025 report.",
+    "the_problem": "The named report measures 2022-2024, and its approximately EUR 4 billion headline covers all payment fraud. Attribution to social engineering remains unresolved."
+  },
+  "claim_quote": {
+    "original": "im Jahr 2025 europaweit ca. vier Milliarden Euro an Schäden",
+    "language": "de",
+    "translation_en": "Translation: in 2025 across Europe approximately four billion euros in damage",
+    "locator": {
+      "pdf_page": 2,
+      "section": "Was ist Anrufer-ID-Spoofing, first paragraph"
+    },
+    "underline": "im Jahr 2025"
+  },
+  "request_quote": {
+    "original": "moderne Authentifizierungs- und Erkennungsverfahren flächendeckend einzusetzen",
+    "language": "de",
+    "translation_en": "Translation: to deploy modern authentication and detection procedures comprehensively",
+    "locator": {
+      "pdf_page": 3,
+      "section": "Moderne Authentifizierungsmechanismen vorschreiben, final paragraph"
+    },
+    "context": "The surrounding sentence asks that telecom providers be obliged and legally enabled to deploy these procedures."
+  },
+  "counter_quote": {
+    "original": "The total value of fraudulent payment transactions reported by the industry across the European Economic Area (EEA) amounted to EUR 4.2 billion in 2024.",
+    "language": "en",
+    "source_id": "eba-ecb-payment-fraud2025",
+    "locator": {
+      "pdf_page": 10,
+      "section": "2. Levels of payment fraud, first sentence"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "effect": "The report cannot establish a 2025 loss measurement. Its headline does not itself quantify losses caused by spoofing or social engineering.",
+  "limits": "This does not prove that actual 2025 losses were lower, or that telecom authentication is unnecessary. Social engineering can also obtain credentials used later by a fraudster, so the narrower payer-manipulation category is not a complete counter-total. The response acknowledges existing legal protections. No intent inferred.",
+  "correction": "Cite the report as 2024 reported payment-fraud data and distinguish transaction value from booked losses. Keep the claimed social-engineering share open pending a source that measures the broader attack mechanism.",
+  "source_context": {
+    "read_extent": "All three author pages. Primary report cover, pages 6-10, 19-22, 34 and 47-49, with adjacent category and data-quality qualifications; not the full 49-page report. Author page 2 and report page 10 visually checked.",
+    "report_definition_limit": "Page 34 separately reports booked losses and their bearing parties; those can occur in a different period from the fraudulent payment. Thus the headline transaction value cannot automatically be called final net damage.",
+    "source_inference": "The submission expressly names EBA/ECB 2025 Report on Payment Fraud. The exact EUR 4.2 billion headline is a plausible basis for its rounded four-billion claim, not an authenticated reconstruction of the author’s calculation."
+  },
+  "draft": {
+    "source_id": null,
+    "version": "No specific pending draft edition named. The document addresses the TKG after its March 2026 amendment and proposes added fraud protection.",
+    "addressed_process_evidence": "Register RV0019443 links the response to proposals for fraud prevention in the TKG reform; body pages 2-3 ground the supplementary request.",
+    "limit": "Do not substitute the later September Bundestag bill for an author-addressed exact draft or claim a wrong description of its operative provisions. Exact pending-version link remains unresolved."
+  },
+  "submission_metadata": {
+    "author": "Die Deutsche Kreditwirtschaft, BVR-led joint position",
+    "author_date": "2026-07-28",
+    "registered_ids": [
+      "SG2610010034",
+      "SG2609300146",
+      "SG2609300069",
+      "SG2609290201",
+      "SG2609290175"
+    ],
+    "register_metadata_source": "register-sg2609290201-metadata",
+    "reported_dispatch_date": "2026-08-20",
+    "date_qualification": "Register self-reports sending to Bundestag, BMF and BMDS on 20 August; this is distinct from 28 July author date and September publication. No independent recipient receipt.",
+    "copy_evidence": "All five PDF text extracts have identical whole-document hashes after whitespace removal; covers and body constitute one authored version."
+  },
+  "sources": [
+    "dk-tkg-spoofing-20260728",
+    "eba-ecb-payment-fraud2025",
+    "register-sg2609290201-metadata"
+  ],
+  "confidence": {
+    "text_source_mismatch": "high for measurement year; unresolved for causal share",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "root AI agent",
+        "file": "research/round3-reviews/root-reviews-dk-payment-fraud.json",
+        "outcome": "Keep unresolved minor/null; broader social-engineering mechanisms and booked-loss definitions prevent a proved aggregate causal error."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as an unresolved source-scope lead; no major finding asserted",
+      "by": "ai_screen"
+    }
+  ],
+  "materiality_explanation": "The chronology mismatch alone is minor. A proved attribution of the whole aggregate to an addressable attack type could matter more, but that broader inference is not established.",
+  "direction_explanation": null,
+  "materiality_analysis": {
+    "explanation": "The chronology mismatch alone is minor. A proved attribution of the whole aggregate to an addressable attack type could matter more, but that broader inference is not established.",
+    "direction_explanation": "Unknown: the headline scale supports reform rhetoric, but the effect of the one-year correction on the requested legal duties is unclear.",
+    "strongest_alternative": "The report publication year may have been copied accidentally, and social engineering may describe a broader causal route than payer manipulation. Rounded booked losses also approach EUR 4 billion."
+  }
+}

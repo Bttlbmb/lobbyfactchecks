@@ -1,0 +1,277 @@
+{
+  "audit_id": "tax-final-round4-issue-audit",
+  "audited_at_utc": "2026-10-25T06:11:41.761259+00:00",
+  "auditor": "independent_tax_AI",
+  "scope": "Structural and conservative semantic audit of five admitted round-four records and their actual linked reviews. This is not a new full primary fact-check of the social/root cases.",
+  "snapshots": {
+    "research/round4/assembly-manifest.json": {
+      "sha256": "6eea551c3766b4a34b1decdf0f0f194860b90c00af9d361958d7c653cc9d9cd6",
+      "bytes": 1439
+    },
+    "data/findings.json": {
+      "sha256": "206f2623c14daf6b548c7c1e007fc19b04841aac7505876fab85ba148f9069f2",
+      "bytes": 447004
+    },
+    "data/unresolved-leads.json": {
+      "sha256": "e631cf930dac228cb82b0dadb71944495795e8c5d4262842291eb5548e05ef8c",
+      "bytes": 251711
+    },
+    "data/rejected-candidates.json": {
+      "sha256": "39903ad033ff68a6f96d23179c952630aa83bc24f8bcd86d87134ba8dd0d31a3",
+      "bytes": 5676
+    },
+    "data/source-registry.json": {
+      "sha256": "724b3b8ffaae11806ab45df2bf96a4a555b03d9564b55be3c2e4816fa4c87ab7",
+      "bytes": 272729
+    },
+    "data/documents.json": {
+      "sha256": "87ce057a07d0728210377fef225141647700aad9dfbf1f387f86ea843a18041f",
+      "bytes": 82946
+    },
+    "data/review-index.json": {
+      "sha256": "ab8de53385343e3ffcf09d904636f7bdf824a9cd7f0d95dfa1cd662aa1ebf4e8",
+      "bytes": 15186
+    },
+    "data/validation-report.json": {
+      "sha256": "aa5a9ec71c1cf907e70b267b4ecccbd84996c95859c54e7b653cfcd0391aff5e",
+      "bytes": 201342
+    }
+  },
+  "global_counts": {
+    "findings": 61,
+    "unresolved": 37,
+    "rejected": 1
+  },
+  "round4_counts": {
+    "provisional_finding": 3,
+    "unresolved_lead": 2
+  },
+  "round4_severity_counts": {
+    "minor": 5
+  },
+  "records": [
+    {
+      "id": "schuberdg2026-agsbv-costsum-tax-r4-01",
+      "raw_file": "research/round4-tax/schuberdg2026-agsbv-costsum-tax-r4-01.json",
+      "collection": "findings",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": null,
+      "source_ids": [
+        "agsbv-financing-20260825",
+        "bt-21-2774",
+        "bt-schuberdg-proceedings"
+      ],
+      "review_files": [
+        "research/round4-reviews/social-reviews-agsbv-costsum.json"
+      ]
+    },
+    {
+      "id": "estreform2027-dstv-anlagen-tax-r4-02",
+      "raw_file": "research/round4-tax/estreform2027-dstv-anlagen-tax-r4-02.json",
+      "collection": "findings",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "source_ids": [
+        "ao150-current-20261025",
+        "bt-21-8235",
+        "dstv-est-reform-20261021",
+        "elster-2025-unrestricted-n",
+        "fa-edaten-leaflet2020",
+        "fa-nuernberg-edaten"
+      ],
+      "review_files": [
+        "research/round4-reviews/social-reviews-dstv-anlagen.json"
+      ]
+    },
+    {
+      "id": "gedig2026-svdgv-ceilings-social-r4-02",
+      "raw_file": "research/round4-social/gedig2026-svdgv-ceilings-social-r4-02.json",
+      "collection": "findings",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "source_ids": [
+        "gedig-government-bt218279",
+        "gii-sgb5-134-current",
+        "gkv-diga-ceilings-20261005",
+        "gkv-diga-report2025",
+        "gkv-framework-20240228",
+        "svdgv-gedig-20261012"
+      ],
+      "review_files": [
+        "research/round4-reviews/root-reviews-svdgv-ceilings.json",
+        "research/round4-reviews/energy-reviews-svdgv-ceilings.json"
+      ]
+    },
+    {
+      "id": "gedig2026-svdgv-costs-social-r4-01",
+      "raw_file": "research/round4-social/gedig2026-svdgv-costs-social-r4-01.json",
+      "collection": "unresolved-leads",
+      "finding_state": "unresolved_lead",
+      "severity": "minor",
+      "favours_author_request": null,
+      "source_ids": [
+        "gedig-government-bt218279",
+        "svdgv-gedig-20261012"
+      ],
+      "review_files": [
+        "research/round4-reviews/root-reviews-svdgv-costs.json",
+        "research/round4-reviews/energy-reviews-svdgv-costs.json"
+      ]
+    },
+    {
+      "id": "pnog2026-wir-care-share-root-r4-01",
+      "raw_file": "research/round4-root/pnog2026-wir-care-share-root-r4-01.json",
+      "collection": "unresolved-leads",
+      "finding_state": "unresolved_lead",
+      "severity": "minor",
+      "favours_author_request": null,
+      "source_ids": [
+        "bmg-pnog-refe-20260605-context",
+        "destatis-pflege-2023-release478",
+        "register-sg2609240044",
+        "wir-pnog-open-letter-20260901"
+      ],
+      "review_files": [
+        "research/round4-reviews/energy-reviews-wir-care-share.json"
+      ]
+    }
+  ],
+  "source_link_check": {
+    "referenced_unique_sources": 19,
+    "all_resolve": true,
+    "local_archive_checks": [
+      {
+        "source_id": "agsbv-financing-20260825",
+        "local_file": "research/round3-root/coverage/register-pdfs/SG2608270005.pdf",
+        "actual_sha256": "0570cde1cb9f1e0eb49cef805f4a4320c3f85a752697d65ca37ab88f61fd6a3e",
+        "registered_sha256": "0570cde1cb9f1e0eb49cef805f4a4320c3f85a752697d65ca37ab88f61fd6a3e",
+        "registered_hash_matches": true
+      },
+      {
+        "source_id": "ao150-current-20261025",
+        "local_file": "research/round4-tax/sources/ao-section150-current.html",
+        "actual_sha256": "77bda66fb49291f4343c30b20f678198555618a578d3c81699e9df9cf113398a",
+        "registered_sha256": "77bda66fb49291f4343c30b20f678198555618a578d3c81699e9df9cf113398a",
+        "registered_hash_matches": true
+      },
+      {
+        "source_id": "bmg-pnog-refe-20260605-context",
+        "local_file": "research/round4-root/sources/pnog-refe-current.pdf",
+        "actual_sha256": "a69c1a9ffc41b54aeb0d7419196672086a5f990200f1292a42764be859d5ae41",
+        "registered_sha256": "a69c1a9ffc41b54aeb0d7419196672086a5f990200f1292a42764be859d5ae41",
+        "registered_hash_matches": true
+      },
+      {
+        "source_id": "bt-21-2774",
+        "local_file": "research/round4-tax/sources/bt-21-2774.pdf",
+        "actual_sha256": "61f4c50c13a41537e12bc45bfa10be97e55bf59836e00628c76f5f2da1cd9b83",
+        "registered_sha256": "61f4c50c13a41537e12bc45bfa10be97e55bf59836e00628c76f5f2da1cd9b83",
+        "registered_hash_matches": true
+      },
+      {
+        "source_id": "bt-21-8235",
+        "local_file": "research/round4-tax/sources/bt-21-8235.pdf",
+        "actual_sha256": "dd3fe0d262298431b620d65800d47c7f3cf89ff7db8f16aaafc8f507568584b6",
+        "registered_sha256": "dd3fe0d262298431b620d65800d47c7f3cf89ff7db8f16aaafc8f507568584b6",
+        "registered_hash_matches": true
+      },
+      {
+        "source_id": "destatis-pflege-2023-release478",
+        "local_file": "research/round4-root/sources/destatis-care-2023.html",
+        "actual_sha256": "afe90b14b17d05de5094c6444e6a1008fe81375b84108afc52e8d98502c092ea",
+        "registered_sha256": "afe90b14b17d05de5094c6444e6a1008fe81375b84108afc52e8d98502c092ea",
+        "registered_hash_matches": true
+      },
+      {
+        "source_id": "dstv-est-reform-20261021",
+        "local_file": "research/round3-root/coverage/register-pdfs/SG2610210010.pdf",
+        "actual_sha256": "4023be606499d783a6a04468f9a01fdceba39d5af309ce44f0c38db5db8fb18b",
+        "registered_sha256": "4023be606499d783a6a04468f9a01fdceba39d5af309ce44f0c38db5db8fb18b",
+        "registered_hash_matches": true
+      },
+      {
+        "source_id": "elster-2025-unrestricted-n",
+        "local_file": "research/round4-tax/sources/elster-2025-unrestricted.html",
+        "actual_sha256": "8f804e35d35eea087d55853a7d691864ebac4d8ab8168d44c47f4a3eb776c2f2",
+        "registered_sha256": "8f804e35d35eea087d55853a7d691864ebac4d8ab8168d44c47f4a3eb776c2f2",
+        "registered_hash_matches": true
+      },
+      {
+        "source_id": "fa-edaten-leaflet2020",
+        "local_file": "research/round4-tax/sources/infoblatt-edaten2020.pdf",
+        "actual_sha256": "8b88378dc7aebfd2009ade84084079f0a5d455bcc88406c965044e0565630847",
+        "registered_sha256": "8b88378dc7aebfd2009ade84084079f0a5d455bcc88406c965044e0565630847",
+        "registered_hash_matches": true
+      },
+      {
+        "source_id": "fa-nuernberg-edaten",
+        "local_file": "research/round4-tax/sources/fa-nuernberg-edaten.html",
+        "actual_sha256": "786b852e3c7b3da85ab88b4d3879580a31ae42b01cf73e2fe8292d99410c703f",
+        "registered_sha256": "786b852e3c7b3da85ab88b4d3879580a31ae42b01cf73e2fe8292d99410c703f",
+        "registered_hash_matches": true
+      },
+      {
+        "source_id": "gedig-government-bt218279",
+        "local_file": "research/round4-social/sources/gedig-government-bt218279.pdf",
+        "actual_sha256": "ab1994341abf774c4a7981a84eb21b0dec485300d594c0a4d693fa129086ad57",
+        "registered_sha256": "ab1994341abf774c4a7981a84eb21b0dec485300d594c0a4d693fa129086ad57",
+        "registered_hash_matches": true
+      },
+      {
+        "source_id": "register-sg2609240044",
+        "local_file": "research/round3-root/coverage/register-window-records.json",
+        "actual_sha256": "44a2dd3086bf663b5de696f52d14d6e18731eb63755889b49341d2568807a597",
+        "registered_sha256": "44a2dd3086bf663b5de696f52d14d6e18731eb63755889b49341d2568807a597",
+        "registered_hash_matches": true
+      },
+      {
+        "source_id": "svdgv-gedig-20261012",
+        "local_file": "research/round3-social/coverage-pdfs/0b68365ef906bb5288.pdf",
+        "actual_sha256": "6b059e094166bdeff14fda8ebdb07f8eb50329f2e4422d6cfbe3e90176866516",
+        "registered_sha256": "6b059e094166bdeff14fda8ebdb07f8eb50329f2e4422d6cfbe3e90176866516",
+        "registered_hash_matches": true
+      },
+      {
+        "source_id": "wir-pnog-open-letter-20260901",
+        "local_file": "research/round3-root/coverage/register-pdfs/SG2609240044.pdf",
+        "actual_sha256": "af5af3345ba05117d534abfedd2fb76f39c831edeed9383b0af240f1bb7d238f",
+        "registered_sha256": "af5af3345ba05117d534abfedd2fb76f39c831edeed9383b0af240f1bb7d238f",
+        "registered_hash_matches": true
+      }
+    ],
+    "sources_without_local_file": [
+      "bt-schuberdg-proceedings",
+      "gii-sgb5-134-current",
+      "gkv-diga-ceilings-20261005",
+      "gkv-diga-report2025",
+      "gkv-framework-20240228"
+    ],
+    "web_only_note": "An absent local archive is explicitly disclosed in the relevant cases; link resolution is not successful retrieval or factual validation."
+  },
+  "arithmetic_recheck": {
+    "displayed_component_sum": 129430,
+    "reported_model_total": 412695500,
+    "conditional_model_total": 438490500,
+    "conditional_difference": 25795000,
+    "relative_difference_percent": 6.250371036272506,
+    "interpretation": "Only conditional holding printed inputs and model parameters fixed. Operating-cost input typo could reproduce the total; real national funding need and new government expenditure remain unestablished."
+  },
+  "semantic_assessment": [
+    "All five retain ai_screened; three provisional minor findings and two unresolved minor leads, no major finding added.",
+    "AG SBV direction remains null: cheaper apparent model and smaller funding request point in competing directions. Input-typo, minimum and unknown additional-public-spending limits survive compilation.",
+    "DStV true direction applies only to its categorical attachment-obligation rationale; future2027 form design and the 1.3million government estimate are not certified.",
+    "DiGA ceilings true direction is narrow to the universal immediate-ceiling rebuttal supporting agreement over reporting parameters. Ordinary initial exemptions are not described as universal entitlements; fallback and general-framework alternatives survive.",
+    "DiGA costs stays unresolved/null because cost estimates are distinct from appropriations or adequate integration funding. No higher forecast is disproven by a lower government estimate.",
+    "Care-work share stays unresolved/null because the matched Destatis recipient-location series is not a uniquely identified work-share source. No corrected national work ratio or unsupported direction is supplied."
+  ],
+  "errors": [],
+  "result": "pass",
+  "limits": [
+    "Mechanical source, document and review links do not prove factual truth.",
+    "I independently checked the two tax originals and primary evidence; other-case semantic audit rests on compiled/raw records and genuine linked reviews, not an asserted new full read of all their source materials.",
+    "Snapshot-specific; a later rebuild requires a separate addendum if relevant files change."
+  ]
+}

@@ -1,0 +1,594 @@
+{
+  "status": "actual_reading_ledger_delta_not_prevalence",
+  "baseline": 565,
+  "current": 626,
+  "newly_admitted_units": 61,
+  "newly_admitted_by_depth": {
+    "full_submission": 48,
+    "selected_passages": 10,
+    "keyword_triage": 3
+  },
+  "pilot_units_initially_read_immediately_before_hour": 8,
+  "pilot_ids": [
+    "bagsb-insverwalter-20261023",
+    "bsi-alcoholtax-20260907",
+    "bve-eudr-20260727",
+    "energy-round4-sg2610130043",
+    "energy-round4-sg2610190007",
+    "energy-round4-sg2610230021",
+    "round4-root-plastics-joint",
+    "svdgv-gedig-20261012"
+  ],
+  "round4_touched_deduplicated_units": 65,
+  "existing_baseline_repeat_units": [
+    "dstv-estref2027-20261021",
+    "dstv-jstg2026-20261020",
+    "idst-crypto-20261005",
+    "root-tabak-BVTE"
+  ],
+  "new_units": [
+    {
+      "id": "agsbv-schuberdg-financing-20260825",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "aids-childhealth-budget-20260923",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "aids-globalhealth-budget-20261001",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "bag-selbsthilfe-gedig-20260515",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "bagsb-financialeducation-20261006",
+      "depth": "full_submission",
+      "document_kind": "written_policy_position_outside_or_unestablished_legislative_scope",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "bagsb-insverwalter-20261023",
+      "depth": "selected_passages",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": true
+    },
+    {
+      "id": "bde-eu-procurement-202609",
+      "depth": "selected_passages",
+      "document_kind": "written_policy_position_outside_or_unestablished_legislative_scope",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "bdew-pwc-bureaucracy-202610",
+      "depth": "selected_passages",
+      "document_kind": "written_policy_position_scope_pending",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "bdst-est-reform-20260821",
+      "depth": "selected_passages",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "breko-tkg-202608",
+      "depth": "selected_passages",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "bsi-alcoholtax-20260907",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": true
+    },
+    {
+      "id": "bsi-healthcommission-20260729",
+      "depth": "full_submission",
+      "document_kind": "written_policy_position_scope_pending",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "bve-eudr-20260727",
+      "depth": "selected_passages",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": true
+    },
+    {
+      "id": "bvte-krwg-20260807",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "bwd-zollfinanzgerechtigkeit-20261020",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "dai-bav-depot-20260917",
+      "depth": "full_submission",
+      "document_kind": "written_policy_position_scope_pending",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "dbrd-notfall-20260907",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "dgiin-notfall-bt216808",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "dgina-notfall-20260907",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "dgkjp-digital-protection-202607",
+      "depth": "selected_passages",
+      "document_kind": "public_statement",
+      "scope_status": [
+        "federal_legislative_vehicle_pending"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "dgrn-notfall-20260904",
+      "depth": "keyword_triage",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "digital-zollstempel-20260911",
+      "depth": "full_submission",
+      "document_kind": "written_policy_position_scope_pending",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "divi-notfall-cabinet20260422",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "dk-kryptotax-20261015",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "dk-schuberdg-finance-20261012",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "drv-est-reform-20260818",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2606240141",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_legislative_vehicle_pending"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2608170009",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2609250044",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2609300204",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2610050029",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2610090006",
+      "depth": "selected_passages",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2610130041",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2610130043",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": true
+    },
+    {
+      "id": "energy-round4-sg2610150002",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2610150003",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2610150017",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2610190007",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_legislative_vehicle_pending"
+      ],
+      "pilot": true
+    },
+    {
+      "id": "energy-round4-sg2610190008",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_legislative_vehicle_pending"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2610200013",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2610210026",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2610230007",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "energy-round4-sg2610230021",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": true
+    },
+    {
+      "id": "familien-inheritance-tenpoints-202601",
+      "depth": "full_submission",
+      "document_kind": "written_policy_position_scope_pending",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "gdv-bav-dialog-20260917",
+      "depth": "full_submission",
+      "document_kind": "written_policy_position_scope_pending",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "idw-est-reform-20260820",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "joint-notfall-quality-cabinet20260422",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "joint-plastics-procedure-20261002",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "joint-promotional-gifts-2026",
+      "depth": "full_submission",
+      "document_kind": "written_policy_position_scope_pending",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "joint-tax-autumn-20261007",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "parlamentwatch-assets-202609",
+      "depth": "full_submission",
+      "document_kind": "written_policy_position_scope_pending",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "rennert-gedig-20261012",
+      "depth": "keyword_triage",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "roche-safehearts-202607",
+      "depth": "full_submission",
+      "document_kind": "public_statement",
+      "scope_status": [
+        "federal_legislative_vehicle_pending"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "round4-root-plastics-joint",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_legislative_vehicle_pending"
+      ],
+      "pilot": true
+    },
+    {
+      "id": "svdgv-gedig-20261012",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": true
+    },
+    {
+      "id": "vatm-tkg-202609",
+      "depth": "selected_passages",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "vdb-waffen-evaluation-20260925",
+      "depth": "selected_passages",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "evaluation_exact_federal_legislative_vehicle_pending"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "vdeh-krwg-20260630",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "vdv-maintenance-tax-20231205",
+      "depth": "full_submission",
+      "document_kind": "written_policy_position_outside_or_unestablished_legislative_scope",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "vzbv-gedig-20261012",
+      "depth": "keyword_triage",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    },
+    {
+      "id": "wir-pnog-20260901",
+      "depth": "full_submission",
+      "document_kind": "written_submission",
+      "scope_status": [
+        "federal_process"
+      ],
+      "pilot": false
+    }
+  ],
+  "limits": [
+    "All reading units are not eligible in-window external legislative submissions. Source scope, author date and self-reported delivery remain qualified.",
+    "Pilot and repeated checks do not become new reads merely because admitted now.",
+    "Full reading means the published author text/package was read, not every assertion independently verified.",
+    "No population error-rate inference.",
+    "Branch ledgers report the remaining53 new admissions as round4 reads, but date-only entries do not independently prove an exact first-read timestamp for every row. The timed-hour work should not be quantified as61 first screens."
+  ],
+  "other_new_admissions_reported_in_round4_logs": 53,
+  "other_new_admissions_by_depth": {
+    "full_submission": 42,
+    "selected_passages": 8,
+    "keyword_triage": 3
+  },
+  "independent_pilot_audit": "research/round4-reviews/social-reviews-pilot-hour-counts.json"
+}

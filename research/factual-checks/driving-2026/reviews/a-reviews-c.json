@@ -1,0 +1,794 @@
+{
+  "reviewer": "a",
+  "reviewed_file": "research/factual-checks/driving-2026/agents/claims-c.json",
+  "reviewed_sha256": "d572742305298c6b45218355dc524bc8d50f26443b267ccebf8e9a2579e1ade4",
+  "created_at_utc": "2026-10-25T11:14:46.654957+00:00",
+  "documents_reread": [
+    {
+      "document_id": "bt-transport-1222030",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "document_id": "bt-transport-1222076",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "driving-2026-c-001",
+      "verdict": "accept",
+      "reason": "Destatis primary release independently located: the stated 2021–2024 price changes match. An index of service prices is not total individual expenditure.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-prices",
+          "locator": "2025 release: +5.8% in 2024, +7.6% in 2023, +10.8% in 2022, +9.6% in 2021",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-002",
+      "verdict": "accept",
+      "reason": "No defined worldwide training-quality ranking. Domestic competence regulation cannot establish an international superlative; unresolved is appropriate.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fahrlg",
+          "locator": "§§7–8; domestic training requirements",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-003",
+      "verdict": "accept",
+      "reason": "Experience-based observation about safe experienced drivers is not a representative test result. No counterexample establishes it false.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "§16 and Annex7 part1",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-004",
+      "verdict": "accept",
+      "reason": "Bill retains responsible-management references in §§20,29–32 while deleting room/material proof. Broad future-risk wording prevents a categorical repeal error.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Article3 amendments to §§18,20 and related provisions",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-005",
+      "verdict": "accept",
+      "reason": "June ordinance §§3–4, Annex 1 and FeV assessment support flexible training with retained competence assessment; exact September ordinance version remains qualified.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-modernisierung",
+          "locator": "special-driving schedules and FeV Annex7 amendment",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        },
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "§17",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-006",
+      "verdict": "accept",
+      "reason": "Independently read M 348 summary, competence mapping and conclusion: basic control sequences can be prepared in simulation; no complete transfer claim.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-bast348",
+          "locator": "Summary pp3–4 and chapter4 content analysis",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-007",
+      "verdict": "accept",
+      "reason": "M 348 explicitly identifies repeatable rare scenarios and protected training. Capability is supported without a measured crash benefit.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-bast348",
+          "locator": "Summary p3; chapter4",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-008",
+      "verdict": "accept",
+      "reason": "M 348 supports partial competence learning but not full substitution. Context could mean full real-road competence, so preserve unresolved exclusive wording.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-bast348",
+          "locator": "Summary pp3–4, chapter4 competence-transfer limitations",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-009",
+      "verdict": "accept",
+      "reason": "M 348 market tables give net acquisition prices about €15,400–31,101 for some car devices and technical/operational inputs. Marginal purchase can burden a small school; no universal affordability estimate implied.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-bast348",
+          "locator": "chapters1,3 and economic assessment",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-010",
+      "verdict": "accept",
+      "reason": "M 348 reports selected study savings, not a sustained nationwide total-cost design. Author explicitly scopes absence by personal knowledge; unresolved rather than contradicted.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-bast348",
+          "locator": "Summary; literature discussion around p46; conclusions",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-011",
+      "verdict": "revise",
+      "reason": "Rules can be knowingly violated, but prevalence and causal comparison require matched empirical evidence. Use the actual anchor wissentlich missachtet rather than ambiguous bewusst embedded in other words.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "Annex7: competence and knowledge assessment",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-012",
+      "verdict": "accept",
+      "reason": "The original contrasts all online teaching with personal exchange. M 330 and the independent DMV trial do not establish modality-exclusive attitude formation; retain unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-bast348",
+          "locator": "Scope: simulator use, not an experimental comparison of all online theory formats",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-013",
+      "verdict": "accept",
+      "reason": "Official cost models corroborate lesson/unit fees and inputs, but not an audited universal national ranking or school-cost shares. Preserve unresolved stronger cost-driver ranking.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Cover E.2 and compliance-cost section",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        },
+        {
+          "source_id": "driving-2026-c-modernisierung",
+          "locator": "Compliance cost assumptions",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-014",
+      "verdict": "accept",
+      "reason": "Current FeV Annex 7 table independently read: B total 55/road 30 minutes. Author means total time.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "Annex7 no2.3, header12 August2026",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-015",
+      "verdict": "accept",
+      "reason": "Current law alone does not authenticate historical 45 minutes or equivalent safety. The preferred 45 minutes is evaluative; absence of an archival comparison is not error.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "Annex7 current table",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-016",
+      "verdict": "accept",
+      "reason": "Current FahrschAusbO §5 a has minimum 10 manual units and a 15-minute competence drive. Prevalence of schools treating the minimum as sufficient for everyone remains unmeasured.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "§17a(3)–(4)",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-017",
+      "verdict": "accept",
+      "reason": "FeV §17 a distinguishes the manual-test route from the class B certificate/B 197 route. Other classes/exemptions and time scope must remain qualified.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "§17a(1)–(4)",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-018",
+      "verdict": "accept",
+      "reason": "FeV §17 a permits an automatic truck exam without a restriction where a qualifying prior manual test exists. Frequency many and universal unrestricted entitlement are not established.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "§17a(1) sentence2",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-019",
+      "verdict": "accept",
+      "reason": "Fleet cost depends on baseline manual/automatic mix, utilisation and sharing. Legal permission does not prove every school must purchase an additional vehicle.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "§17a",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        },
+        {
+          "source_id": "driving-2026-c-bast348",
+          "locator": "Vehicle versus simulator cost inputs",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-020",
+      "verdict": "revise",
+      "reason": "FahrlG §§1(4),7–9 and own FahrlAusbV §1 support phased institutional/placement training and exams. Correct narrative unsalaried to unselbstständig/non-independent; the law does not prohibit paying trainees.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fahrlg",
+          "locator": "§1(4), §§7–8",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-021",
+      "verdict": "revise",
+      "reason": "June BR 365/26 FahrPraxAnlV Annex 2 at physical 34 explicitly specifies one theoretical induction unit; cost model physical 63 treats it as 45 minutes. This resolves the duration in the recovered pre-author ordinance.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "new StVG§ 2e(5) delegated requirements",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        },
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrPraxAnlV Annex 2 physical 34 and cost model physical 63",
+          "check": "One45-minute induction unit; additional eligibility, initial learner training and observation safeguards not denied."
+        }
+      ],
+      "proposed_result": "supported"
+    },
+    {
+      "claim_id": "driving-2026-c-022",
+      "verdict": "accept",
+      "reason": "Ordinary private cars lack the professional dual controls specified for training/test cars. This physical intervention difference is supported, without proving no other lay safety guidance exists.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "Annex7 examination vehicles and additional controls",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        },
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "§ 2e pilot and safety conditions",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-023",
+      "verdict": "accept",
+      "reason": "Bill new §2 e expressly derogates from ordinary licensing and §21 treatment. Grundsätzlich preserves existing exceptions; no universal risk outcome inferred.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "new StVG§ 2e(1), explanatory rationale",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-024",
+      "verdict": "accept",
+      "reason": "Pass rate is cohort-dependent and does not alone identify a school treatment effect. Selection-risk prediction is appropriately separate from this inference limitation.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Fahrschulregister and published quality/price data provisions",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-025",
+      "verdict": "accept",
+      "reason": "FahrlG §51 independently read: official monitoring covers compliance and pedagogical quality. No proof of uniformly effective enforcement implied.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fahrlg",
+          "locator": "§51",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-026",
+      "verdict": "accept",
+      "reason": "Industry shortage estimate lacks a reproducible vacancy/replacement denominator. Qualification statute is context only, not numeric evidence; unresolved appropriate.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-bkrfqg",
+          "locator": "Scope of professional-driver qualifications; not a shortage denominator",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-027",
+      "verdict": "accept",
+      "reason": "June ordinance §3 permits presence, synchronous, asynchronous and mixed formats; school not required to offer every format. No compulsory fully digital pathway.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-modernisierung",
+          "locator": "New FahrschAusbVO theoretical-training provisions",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        },
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "General rationale digital-training enabling legislation",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-028",
+      "verdict": "accept",
+      "reason": "Bill physical 21 deletes only room/material wording within §18(1)no 6. The author immediately specifies that scope, so not a claim whole numbered provision disappears.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Article3 no14, physicalp21",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-029",
+      "verdict": "accept",
+      "reason": "BKrFQG §9 independently read with 23 February 2026 header: separate recognition and suitable-room requirements persist; digital continuing training is separately controlled.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-bkrfqg",
+          "locator": "§9, header23 February 2026",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-030",
+      "verdict": "revise",
+      "reason": "Existing FahrlG §2(2) already has the six-month/60-unit alternatives. Bill physical 18 restates them; rationale physical 64 calls it legal definition and clearer structure. Broader CE access relief is not established by that citation.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Article3 no3; FahrlG§2(2)",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "driving-2026-c-031",
+      "verdict": "accept",
+      "reason": "Bill Article 2 amended KfSachvG explicitly introduces official Fahrerlaubnisprüfer and qualifications. Capacity outcome is a forecast, not part of the supported legal proposition.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Article2, amendedKfSachvG§§1–2",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-032",
+      "verdict": "accept",
+      "reason": "Official capacity rationale is consistent but is not a current matched dataset of frequent professional-driver job-entry delays. Unresolved appropriate.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Examiner reform rationale",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-033",
+      "verdict": "accept",
+      "reason": "Bill §§20,22,31 independently checked: cooperation, application documents and suitable-form training records support the specific described changes.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Article3 amended§§20,22,31 and explanatory section",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-034",
+      "verdict": "accept",
+      "reason": "Bill E.2/table gives annual business relief €73.526 million. It is a regulatory forecast, not realised saving; rounded attributed model description is supported.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Cover physicalp2 E.2",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-035",
+      "verdict": "accept",
+      "reason": "New StVG §2 e is class B-specific. No C/CE extension of this pre-test pilot in the operative provision.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Article1 new§ 2e, physicalpp7–9",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-036",
+      "verdict": "accept",
+      "reason": "June BR 365/26 FeV amendment and rationale physical 72/107 confirm C → CE theory-test abolition. Related ordinance, not primary bill alone.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-modernisierung",
+          "locator": "FeV§16 amendment; summary near beginning",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-037",
+      "verdict": "accept",
+      "reason": "Current FeV Annex 7:85 total/50 road minutes for cited truck classes; June proposed table physical 44:70/45. Author correctly compares total duration.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "Annex7 total duration",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        },
+        {
+          "source_id": "driving-2026-c-modernisierung",
+          "locator": "AmendedAnnex7 table",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-038",
+      "verdict": "accept",
+      "reason": "Official EU 2022/2561 Annex I 2.2 independently read: minimum theory 4 h and practical 90+30 min. No explicit merged-exam guarantee established; absence of a prohibition alone does not settle the full administrative design.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-modernisierung",
+          "locator": "Scope and explanatory EU references",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        },
+        {
+          "source_id": "driving-root-eu20222561-boe",
+          "locator": "Annex I2.1,2.2,3,4",
+          "check": "Official Spanish EU text; operative curriculum and exam minima read. Not a national implementation or complete current consolidated text."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-039",
+      "verdict": "revise",
+      "reason": "Official BOE EU 2022/2561 Annex I 2.1 paragraph 4,3 and 4 independently read: ICT permission extends to accelerated initial qualification; continuing e-learning maximum 12 h and quality/identity/control safeguards.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-eu-index",
+          "locator": "Annex I2.1paragraph 4,3 and4",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        },
+        {
+          "source_id": "driving-2026-c-bkrfqg",
+          "locator": "§9(3)",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        },
+        {
+          "source_id": "driving-root-eu20222561-boe",
+          "locator": "Annex I2.1,2.2,3,4",
+          "check": "Official Spanish EU text; operative curriculum and exam minima read. Not a national implementation or complete current consolidated text."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-040",
+      "verdict": "accept",
+      "reason": "Current FeV §10(2) independently read with §10(1)no 7 b: MPU requirement applies to the described earlyC/CE route. Not a claim all under 21 routes are identical.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "§10(1)no7 and(2)",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-041",
+      "verdict": "accept",
+      "reason": "FeV §10 and BKrFQG §2 support the regulated vocational route below 21; restrictions and qualification stages preserved.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-fev",
+          "locator": "§10(1)no7b",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        },
+        {
+          "source_id": "driving-2026-c-bkrfqg",
+          "locator": "§2(1)",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-2026-c-042",
+      "verdict": "revise",
+      "reason": "Official EU 2025/2205 Art 17(2) permits national C 1/C 1 E/C accompanied entitlement at 17 with CPC and code 98.02. Arts 27/29 establish amendment and implementation dates. It is a future national option, not current unrestricted German CE entitlement.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-c-modernisierung",
+          "locator": "EU2025/2205 referenced legal framework",
+          "check": "Independently compared with original author context and relevant primary text; source access/method limits retained."
+        },
+        {
+          "source_id": "driving-root-eu20252205-boe",
+          "locator": "Articles 17,27,29",
+          "check": "C1/C1E/C and CPC; article17 applied from 26November 2028; general rules apply26November 2029. Not CE."
+        }
+      ],
+      "proposed_result": "supported"
+    }
+  ],
+  "omissions": [
+    {
+      "document_id": "bt-transport-1222030",
+      "pdf_pages": [
+        2
+      ],
+      "original_excerpt": "Prüfungsanforderungen nicht abgesenkt werden",
+      "claim_en": "The reform does not lower the vehicle-examination directive and associated competence requirements.",
+      "proposed_result": "unresolved",
+      "reason": "C005 verifies retained assessment but not the stronger unchanged-requirements wording. Test time does change, while substantive competence standards may remain. A matching full directive comparison was not recovered; no error proposed.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FeV Annex7 physical44 and practical quality criteria"
+        }
+      ]
+    },
+    {
+      "document_id": "bt-transport-1222030",
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "original_excerpt": "zusätzlichem Verwaltungsaufwand",
+      "claim_en": "The new lay-practice and reporting procedures add administrative tasks even though other duties are removed.",
+      "proposed_result": "supported",
+      "reason": "Supported procedural mechanism: applications, induction, participation records and price-change reporting require work. Magnitude erheblich and overall net burden remain policy/model judgements.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "New StVG§ 2e and FahrlG§ 32; E.2 cost model"
+        },
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrPraxAnlV§§2–8"
+        }
+      ]
+    },
+    {
+      "document_id": "bt-transport-1222030",
+      "pdf_pages": [
+        6
+      ],
+      "original_excerpt": "gestufte Inkrafttreten",
+      "claim_en": "The package has staged commencement dates.",
+      "proposed_result": "supported",
+      "reason": "Bill Article 4 has1July 2027 and26November 2029 dates; June ordinance Article 10 has multiple commencement dates. Need for clearer transitions is a policy recommendation.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Article 4 physical 39"
+        },
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "Article 10 physical 53"
+        }
+      ]
+    },
+    {
+      "document_id": "bt-transport-1222076",
+      "pdf_pages": [
+        2
+      ],
+      "original_excerpt": "im Schichtbetrieb arbeiten",
+      "claim_en": "Flexible digital learning can ease attendance constraints for workers, shift workers or learners far from schools.",
+      "proposed_result": "supported",
+      "reason": "Conditional mechanism: asynchronous access removes specified travel/scheduling constraints; not proof of actual participation or universal low barrier. Own M330 discusses flexible place/time and learner self-regulation.",
+      "evidence": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Sections4.2.3–4.2.4 printed 130–134"
+        },
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrschAusbV§3 physical 10"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "driving-2026-root-br365",
+      "title": "Bundesrat365/26, Fahrschulmodernisierungs-Verordnung,10June2026",
+      "url": "https://dserver.bundestag.de/brd/2026/0365-26.pdf",
+      "retrieved_at": "2026-10-25T10:58:32.127255+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/root-br365.pdf",
+      "sha256": "e2891fc67c5afa333d35cc19c3212198b8b6252ca2963c0cf096504ced5544cc",
+      "http_status": 200,
+      "resolved_url": "https://dserver.bundestag.de/brd/2026/0365-26.pdf",
+      "content_type": "application/pdf",
+      "usable_as_evidence": true,
+      "temporal_limit": "Official June10 parliamentary ordinance draft retrieved25October2026, preceding September/October responses. Operative FahrPraxAnlV §§3–8 at physical28–30; distinguish May4 ministry draft and any later amendments. Exact recipient-delivery bytes not authenticated.",
+      "physical_pages": 120
+    },
+    {
+      "id": "driving-root-eu20222561-boe",
+      "title": "Official Spanish gazette EU directive reproduction DOUE-L-2022-81951",
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2022-81951",
+      "retrieved_at": "2026-10-25T11:11:40.228637+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/root-eu20222561-boe.html",
+      "sha256": "f6a551312e06ea01339b2cc9aa19049dd6c2747d272f97a4d20da1f208b7a04a",
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Original EUact, not national German implementation. Check operative article, optional vs mandatory wording and transposition/application dates.2025/2205 later amends2022/2561; original2022text is not full current consolidation."
+    },
+    {
+      "id": "driving-root-eu20252205-boe",
+      "title": "Official Spanish gazette EU directive reproduction DOUE-L-2025-81638",
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2025-81638",
+      "retrieved_at": "2026-10-25T11:11:43.115096+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/root-eu20252205-boe.html",
+      "sha256": "dd8c03a74e44d2ec30ca13789c4ed7f7a29ee3285b246671695f1e7a7161431a",
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Original EUact, not national German implementation. Check operative article, optional vs mandatory wording and transposition/application dates.2025/2205 later amends2022/2561; original2022text is not full current consolidation."
+    },
+    {
+      "id": "driving-ar-eu2025",
+      "title": "ar-eu2025 official EU text",
+      "url": "https://www.boe.es/doue/2025/2205/L00001-00095.pdf",
+      "retrieved_at": "2026-10-25T11:12:01.744289+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/ar-eu2025.pdf",
+      "sha256": "6d1ed80b16a3e0446c8f6a2f0dc9ac487627da5224602ca435328a887722b333",
+      "bytes": 3441873,
+      "usable_as_evidence": true,
+      "content_validation": "Actual text inspected separately; challenge or empty responses are not usable.",
+      "temporal_limit": "EU act published 5November2025; Article17 requires national implementation from 26November 2028. Targeted operative text read; not all 95 pages."
+    },
+    {
+      "id": "driving-ar-eu2022",
+      "title": "ar-eu2022 official EU text",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L2561",
+      "retrieved_at": "2026-10-25T11:12:06.312042+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/ar-eu2022.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "usable_as_evidence": false,
+      "content_validation": "Actual text inspected separately; challenge or empty responses are not usable."
+    },
+    {
+      "id": "driving-a-m330",
+      "title": "BASt M330: Ausbildungs- und Evaluationskonzept, 2022",
+      "url": "https://www.nw-verlag.de/media/nwdownload/M%20330%20Gesamtversion%20BF.pdf",
+      "retrieved_at": "2026-10-25T10:56:41.547372+00:00",
+      "temporal_limit": "Retrieved 25 October 2026. Authored responses dated 30 September; source date, methods and legal header require validation. Current snapshots do not prove earlier page bytes.",
+      "local_file": "research/factual-checks/driving-2026/sources/a-m330.pdf",
+      "sha256": "db3d7f9dc8d643b7004a4df42ed3efd934d75378be3843d6effe471dac8a4153",
+      "http_status": 200,
+      "bytes": 34813371,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true,
+      "content_validation": "Actual readable primary text inspected: legal title/header and cited provisions, or report cover/methods/cited results. Not merely HTTP 200 or PDF signature.",
+      "read_extent": "Targeted passages and methods supporting cited claims; long reports are evidence only, not full reading-unit targets."
+    },
+    {
+      "id": "driving-a-dmv-home-study",
+      "title": "California DMV randomized home-study evaluation, April 2003",
+      "url": "https://www.dmv.ca.gov/portal/uploads/2020/04/S1-203.pdf",
+      "retrieved_at": "2026-10-25T11:00:58.191157+00:00",
+      "temporal_limit": "Research predates September 2026. Different jurisdiction/period and outcome methods limit transfer to current German reform.",
+      "local_file": "research/factual-checks/driving-2026/sources/a-dmv-home-study.pdf",
+      "sha256": "540a79cec3762fcbc7ac08942a61805efa7bf04a2b3e30f827e9c15422ccdaa2",
+      "bytes": 536490,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "content_validation": "Actual readable primary text inspected: legal title/header and cited provisions, or report cover/methods/cited results. Not merely HTTP 200 or PDF signature.",
+      "read_extent": "Targeted passages and methods supporting cited claims; long reports are evidence only, not full reading-unit targets."
+    },
+    {
+      "id": "driving-ar-web-primary",
+      "title": "Independent primary search results and failed EUR-Lex opens",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2025/PD25_15_p002.html",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/factual-checks/driving-2026/sources/ar-web-extraction.json",
+      "sha256": "78be9f6adc47ceb6ea684c3ab510ab893823af36a591304240d7f794f6e35291",
+      "temporal_limit": "Tool extraction, not original HTML. Direct EUR-Lex bot challenges and empty download excluded as usable legal evidence."
+    }
+  ],
+  "visual_checks": [
+    {
+      "document_id": "bt-transport-1222030",
+      "pages": [
+        5
+      ],
+      "method": "Poppler PNG read for45-minute induction, dual pedals and public-road practice context."
+    }
+  ],
+  "limitations": [
+    "All 42 inventory outcomes and all 14 original pages independently reviewed. No raw inventory edits; no candidate error proposed.",
+    "Long primary reports and directives checked only in relevant operative/method passages. New short-response targets only; no hundreds-page screening expansion.",
+    "Exact September ordinance identity and delivery remain unverified; May ministry and June BR365 versions distinguished.",
+    "Current-law headers and official EU publication/implementation dates considered. No author contact or human specialist verification."
+  ]
+}

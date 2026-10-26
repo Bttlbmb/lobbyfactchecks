@@ -1,0 +1,35 @@
+{
+  "review_id": "energy-reviews-aefi-household-r3",
+  "candidate_id": "impfpflicht2022-aefi-social-r3-01",
+  "date": "2026-10-25",
+  "reviewer": "energy_hearings independent AI",
+  "recommendation": "Downgrade to unresolved_lead; do not label the present evidence a proved factual/source-description error. Potential materiality remains major if a categorical misattribution is independently established; direction of the challenged argument is true.",
+  "read_extent": {
+    "submission": "Selected passages: physical1,19–24,34, including complete household-transmission discussion and explicit final request. Not all34 pages independently read.",
+    "primary_paper": "All substantive main-paper introduction/results/discussion/methods read in local seven-page PDF and independently opened official Nature article; references/end matter also inspected.",
+    "supplement": "Selected causal-assumptions section2, S8/S9 descriptive context, age tableS10 and robustness S18–S20, plus relevant introductory context. Not all supplement pages read.",
+    "parliamentary_version": "Submission cover identifiers plus motion covers and operative sectionII in original20/1507 and20/2567 inspected; no later replacement version substituted."
+  },
+  "source_checks": {
+    "verified": "The cited crude primary-case table and adjusted model are different estimands. MainTable2 reports pooled primary-case booster OR0.80(0.69–0.92) and its discussion describes some protection, with unknown duration and acknowledged confounding. The pooling follows a non-significant variant interaction, not an Omicron-only causal experiment.",
+    "locators": [
+      "Author physical20 methodological preface; physical23 first paragraph and displayedS8; physical24 summary; physical34 final request",
+      "Main paper physical3 Table2/results; physical4 discussion; physical5 methods; supplement physical8 causal assumptions and physical12 S8; printed29S18"
+    ],
+    "primary_url": "https://www.nature.com/articles/s41467-022-33328-3"
+  },
+  "strongest_adverse_test": "Author physical20 expressly adopts differences in absolute household SARs as the effectiveness measure. Physical23 accurately introduces the descriptive rates, then makes its own inferential step. It does not expressly claim that the paper authors reached the adjusted no-protection conclusion. Calling the omission of another analysis a source-description error would require an interpretive attribution not established by the quoted sentence.",
+  "reasoning": "The categorical inference is statistically under-supported: crude equality cannot identify no vaccine effect when groups differ. But that defect is not equivalent to proving the actual Omicron risk claim false, and an adjusted observational association does not establish a definitive causal counterclaim. The user explicitly excludes missing evidence and policy/methodological disagreement as proven errors. Retain an unresolved source-use/inference lead with this boundary, rather than a provisional major finding based solely on omitted adjustment.",
+  "what_review_does_not_establish": [
+    "No clinical efficacy, current transmission rate or causal effect is estimated here.",
+    "No conclusion about mandate necessity, proportionality or patient-protection magnitude.",
+    "No intent inferred and no author response invented."
+  ],
+  "confidence": {
+    "table_and_model_distinction": "high",
+    "affirmative_source_misattribution": "unresolved",
+    "materiality_if_error_established": "editorial_judgment"
+  },
+  "specialist": null,
+  "history_note": "This is an additional adversarial assessment; earlier root/supporting reviews should remain in history even if disposition changes."
+}

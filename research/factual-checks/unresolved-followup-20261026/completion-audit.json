@@ -1,0 +1,137 @@
+{
+  "id": "unresolved-followup-20261026-completion-audit",
+  "status": "complete",
+  "completed_at_utc": "2026-10-26T00:54:25.535673+00:00",
+  "result": {
+    "reviewed_unresolved_assessments": 56,
+    "now_supported": 13,
+    "still_unresolved": 43,
+    "effective_previous201_outcomes": {
+      "supported": 156,
+      "unresolved": 43,
+      "contradicted": 2
+    },
+    "new_main_findings": 0,
+    "new_main_unresolved_leads": 0
+  },
+  "scope": {
+    "affected_original_documents": 16,
+    "affected_original_physical_pages": 53,
+    "new_full_batch_or_national_coverage_claimed": false,
+    "separate_main_unresolved_list": 38
+  },
+  "reviews": {
+    "initial_frozen_investigators": 3,
+    "independent_peer_case_reviews": 56,
+    "root_case_adjudications": 56,
+    "independent_code_audit": {
+      "file": "research/factual-checks/unresolved-followup-20261026/reviews/c-workflow-code-audit.json",
+      "sha256": "0604e71ff07b012c23af9c9bbd828c0d2e8713ba3d9ee80cec3b5bcff6dc658b",
+      "fixture_tests_passed": 38
+    },
+    "independent_final_integration_audit": "research/factual-checks/unresolved-followup-20261026/reviews/b-final-integration-audit.json"
+  },
+  "preservation": {
+    "historical_metadata_text_reports_and_data_files_verified_unchanged": 135,
+    "manifest": "research/factual-checks/unresolved-followup-20261026/preservation-baseline.json",
+    "original_pdf_hashes_verified": 16,
+    "review_input_files_verified": 20,
+    "reading_units": 791,
+    "existing_units_with_previous_factual_annotations": 79,
+    "new_reading_units": 0,
+    "main_list_counts": {
+      "findings.json": 69,
+      "unresolved-leads.json": 38,
+      "rejected-candidates.json": 3,
+      "documents.json": 87,
+      "source-registry.json": 587
+    }
+  },
+  "validation": {
+    "overlay_builder": "pass after temporary source cleanup",
+    "builder_sha256": "7c95661c07a396d7bf86848e7bacb6c11468248a319a04ba204a21540daeb81f",
+    "main_validator": {
+      "file": "data/validation-report.json",
+      "sha256": "2cd795a21e5e4cf3c8675258325fe3d6ecc74d12e41d655275770f7dbf40476e",
+      "records": 110,
+      "errors": 0,
+      "warnings": 0
+    },
+    "post_cleanup_read_only_validation": "research/factual-checks/unresolved-followup-20261026/reviews/a-temporary-source-cleanup.json",
+    "html_local_link_targets": 215,
+    "missing_local_link_targets": [],
+    "browser_observation": "Final localhost report reload shows56cards:13supported43unresolved; introduction/scope and top viewport visually checked. No browser mutation of research data."
+  },
+  "storage": {
+    "new_retained_public_background_downloads_in_repository": 0,
+    "cleanup_inventories": [
+      {
+        "reviewer": "a",
+        "file": "research/factual-checks/unresolved-followup-20261026/reviews/a-temporary-source-cleanup.json",
+        "sha256": "02ca6a2fcbcd9149d2fd2fa65066a63d405fa8b2e1e39326cc388f317ac5471d",
+        "removed_files": 35,
+        "removed_bytes": 13931008
+      },
+      {
+        "reviewer": "b",
+        "file": "research/factual-checks/unresolved-followup-20261026/reviews/b-temporary-source-cleanup.json",
+        "sha256": "4653371c0115ff96810f9cf0ee0d253bdb0f748c1bbf59d007ba9f47e8bcdd8e",
+        "removed_files": 17,
+        "removed_bytes": 6564817
+      },
+      {
+        "reviewer": "c",
+        "file": "research/factual-checks/unresolved-followup-20261026/reviews/c-temporary-source-cleanup.json",
+        "sha256": "7685088cb3a8842306868efb9044cee32b1e1c4887791fb89dd46edaa179e056",
+        "removed_files": 27,
+        "removed_bytes": 15320659
+      },
+      {
+        "reviewer": "root",
+        "file": "research/factual-checks/unresolved-followup-20261026/reviews/root-temporary-source-cleanup.json",
+        "sha256": "97ccc29036699e63a6c06a7dfa31a26d23892e216cdc7743216e6cf3831a2c8b",
+        "removed_files": 8,
+        "removed_bytes": 9376927
+      }
+    ],
+    "total_regenerable_source_files_removed": 87,
+    "total_regenerable_source_bytes_removed": 45193411,
+    "preserved": "All authored research, unresolved decisions, peer/code records, manifests and existing canonical report/strict-validation dependencies. Background source bytes temporary; URL/version/hash/read extent/access limits remain in authored check records."
+  },
+  "output_hashes": [
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/protocol.json",
+      "sha256": "132be3015bdb77e1cef1b72244fb56f41feb2d515e21ff7967de6377ecba434e"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/adjudication.json",
+      "sha256": "5bf1d168f6b613b1d4adf767e525944d7a442e8bf6b7a44044c00f94ae9c0cc0"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/review-freeze.json",
+      "sha256": "7772e1de45c9b15b2490cddd523d01c21c586e7e933be08da37aa919ddaf8754"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/resolution-ledger.json",
+      "sha256": "d323ce6bead85a2d0bf2cda6a3996e4ae15d4f66c4940d6d88099c96a4afcb9f"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/summary.json",
+      "sha256": "c66ac6066e425001f61252453a8ea46243c8892bf663d1c2814479fe13993e2d"
+    },
+    {
+      "file": "research/factual-checks/unresolved-followup-20261026/report.html",
+      "sha256": "e5ab9cc947b81107b2eac133027543f5d6c4c243799b530cb95910e15295bdaa"
+    }
+  ],
+  "documentation": {
+    "file": "README.md",
+    "sha256": "bee93b5f476176281787888f5ebcfd95eea765881f2e38a556352fc6b7b3317b"
+  },
+  "limits": [
+    "This is a follow-up to 56 recorded assessments, not an exhaustive check of every assertion or the separate 38 main unresolved leads.",
+    "Support is scoped; unresolved remains appropriate when primary evidence cannot settle the actual claim.",
+    "The 56 cases occur in 16 existing short originals / 53 physical pages. This is a claim follow-up, not a new exhaustive 20-document batch or additional reading units.",
+    "Independent AI cross-review and root adjudication; no author contact or human specialist confirmation."
+  ]
+}

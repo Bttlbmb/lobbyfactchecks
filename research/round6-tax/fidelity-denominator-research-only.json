@@ -1,0 +1,61 @@
+{
+  "record_kind": "research_disposition_not_admitted_issue",
+  "id": "fidelity-bav-uk-denominator-research-r6",
+  "scope_status": "legislative_precursor_scope_pending",
+  "admit_to_findings_or_leads": false,
+  "recorded_at": "2026-10-25T11:22:57.963166+00:00",
+  "author": "Fidelity International",
+  "author_date": "2026-09-17",
+  "source_original_id": "SG2609170015",
+  "source_url": "https://www.lobbyregister.bundestag.de/media/52/76/843028/Stellungnahme-Gutachten-SG2609170015.pdf",
+  "source_file": "research/round3-root/coverage/register-pdfs/SG2609170015.pdf",
+  "read_extent": "All four original pages. DWP full substantive release and methods context sections, original ODS table1_1 and definitions/rounding notes read.",
+  "claim_quote": {
+    "original": "2025 sparten 90\nProzent der dafür berechtigten Beschäftigten in eine betriebliche Vorsorge gegenüber ca. 47%\nbei Einführung in 2012.",
+    "language": "de",
+    "translation_en": "Translation: In2025,90percent of eligible employees saved in workplace pensions, compared with about47percent when introduced in2012.",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": 2,
+      "section": "Von der Möglichkeit zur tatsächlichen Teilnahme"
+    }
+  },
+  "request_quote": {
+    "original": "automatische Einbeziehung mit Opt-out",
+    "language": "de",
+    "translation_en": "Translation: automatic inclusion with opt-out.",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": 4,
+      "section": "Four proposed cornerstones for a concrete statutory proposal"
+    }
+  },
+  "primary_reconstruction": {
+    "source_edition": "DWP workplace pension participation2009–2025, published30July2026",
+    "sheet": "1_1",
+    "rows": {
+      "8": "Eligible-employees year header",
+      "11": "Overall eligible2012=55%;2025=90%",
+      "16": "All-employees year header",
+      "19": "Overall all2012=47%;2025=82%"
+    },
+    "matched_increase_percentage_points": 35,
+    "mixed_increase_percentage_points": 43,
+    "definition": "Eligible employees meet automatic-enrolment age and earnings criteria; all employees includes the noneligible group. Both are Great Britain estimates based on ASHE.",
+    "read_limit": "This verifies the denominator mismatch, not a causal effect of auto-enrolment or German reform benefits."
+  },
+  "disposition": "Do not admit as an issue at present. The factual denominator mismatch is supported, but the source addresses a Sozialpartnerdialog and asks for a future statutory proposal. No specific German federal legislative vehicle or addressed draft has been authenticated. The work is retained as a scope-pending research note.",
+  "strongest_benign_reading": "A compact summary of the broad increase in workplace pension participation, combining two commonly published but differently scoped measures. A genuine large increase remains in either matched series; rounding or the word approximately does not bridge the population distinction.",
+  "materiality_if_eligible": "Potential minor: the mixed comparison overstates a broad rise by eight percentage points, while the matched35point increase still strongly supports the general descriptive example.",
+  "direction_if_eligible": "The exaggerated rise supports the request for automatic inclusion, but no causal attribution or optimum is established.",
+  "primary_sources": [
+    "dwp-pensions2025-r6",
+    "dwp-pensions2025-methods-r6",
+    "dwp-pensions2025-tables-r6"
+  ],
+  "window": "Printed author date17September2026 lies within preferred window; register recipient events are self-reported and not independently verified.",
+  "review": {
+    "specialist": null,
+    "ai_reviews": []
+  }
+}

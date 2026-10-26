@@ -1,0 +1,104 @@
+{
+  "id": "wolf2026-djv-root07",
+  "law_id": "wolf-bjagdg-2026",
+  "document_id": "djv-wolf-20260216",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "major",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Adding the wolf to federal hunting law and providing management and removal rules.",
+    "they_want": "Permit population management through shooting young wolves and removing problem wolves.",
+    "they_claim": "A cohort harvest of up to40% can regulate the population, immediately citing a study’s approximately40% juvenile mortality threshold.",
+    "the_problem": "The study’s threshold describes annual mortality from all causes, rather than an additional harvest allowance. Whether the proposed plans implicitly deduct other deaths remains unresolved."
+  },
+  "claim_quote": {
+    "original": "indem bis zu 40% der Jungwölfe eines Jahrgangs erlegt werden.",
+    "language": "de",
+    "translation_en": "Translation: by shooting up to40% of the young wolves in a cohort.",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "section": "I.1 Bestandsmanagement",
+      "paragraph": "First paragraph; the next sentence cites the study’s mortality threshold."
+    },
+    "underline": "bis zu 40%"
+  },
+  "request_quote": {
+    "original": "bestandsregulierenden Eingriff in die Jugendklasse",
+    "language": "de",
+    "translation_en": "Translation of request fragment: population-regulating intervention in the juvenile age class",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": 1,
+      "section": "I. Künftiges Wolfsmanagement in Deutschland",
+      "paragraph": "First paragraph"
+    }
+  },
+  "counter_quote": {
+    "original": "durchschnittlichen jährlichen Mortalität von ca. 40 % bei Juvenilen und Subadulten",
+    "language": "de",
+    "translation_en": "Translation of fragment: average annual mortality of approximately40% among juveniles and subadults",
+    "source_id": "bfn715-wolf-pva-2024",
+    "locator": {
+      "pdf_page": 51,
+      "printed_page": 49,
+      "section": "6.5 Ergebnisse der Modellprojektionen",
+      "paragraph": "Second paragraph"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The cited scenario changes survival probabilities and evaluates annual mortality across causes. Its approximately40% juvenile/subadult threshold is not a measured allowance for additional hunting. The original study uses different age classes and starting ages and highlights adult survival, other combined pressures, and delayed population responses. It does not directly simulate the specific proposed cohort harvest.",
+  "effect": "If the passage is read as a40% shooting allowance on top of other mortality, its study citation does not establish that allowance. A properly adjusted and monitored harvest could remain within a total-mortality bound; no concrete hunting plan or population outcome is adjudicated.",
+  "limits": "Unresolved: the author says up to, calls for shooting plans and monitoring of all deaths, and retains the favourable-conservation objective. These features may imply an allowance adjusted for other mortality rather than an extra40%. The study is a model with conditional scenarios, not a proven forecast of the effect of the proposed law. No intent, inevitable decline, fixed sustainable quota or need for a hunting ban is inferred.",
+  "context_and_alternatives": [
+    "Read all10physical submission pages. Physical3 expressly calls for monitoring individuals, traffic deaths, harvested animals and exchange with neighbouring populations; physical8–9 retain conservation and continuous monitoring. Those qualifications are essential and prevent promotion to a proved numerical error.",
+    "Read primary study summary physical7, model/scenario sections physical46–51, and relevant results/discussion physical53–62. Did not claim a full88-page study review. The baseline uses annual survival around0.75 in the young classes and0.87 in adults; the critical scenario reduces survival across classes. Combining baseline mortality and a hypothetical harvest requires specifying timing and whether mortality is additive or compensatory. No simple addition or alternative quota is asserted.",
+    "The exact addressed bill is BT21/3546,12January2026; proposed section22d(2) ties regular hunting to favourable status and management plans. The record concerns the author’s study-based numerical rationale, not a statutory40% quota, which the draft does not set.",
+    "Additional same-hearing oral qualification: official protocol physical11 records the DJV president specifying40%of the increase, expressly emphasising the increase, with expected moderate population growth. This may narrow or differ from the written cohort formulation and further weighs against alleging an unconditional extra40%harvest. No alternative sustainable quota follows."
+  ],
+  "materiality_explanation": "Potentially major if total annual mortality has been converted into an additional shooting allowance: it would affect the quantitative ecological support for the explicit management request. That interpretation is unresolved and severity does not certify a demonstrated error.",
+  "direction_explanation": "Null: a mistaken additional-harvest reading would favour the request, but whether the passage actually makes that claim rather than proposing an adjusted upper limit is unresolved.",
+  "confidence": {
+    "text_source_mismatch": "unresolved_interpretation; distinction_between_total_mortality_and_harvest_high",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "id": "wolf-bt213546",
+    "version": "BT21/3546,12January2026, expressly addressed in the16February submission",
+    "source_id": "wolf-bt213546",
+    "relevant_provision": "Proposed section22d(2),physical9, conservation status and management plan; no statutory40% quota."
+  },
+  "submission_source_id": "djv-wolf-20260216",
+  "source_ids": [
+    "djv-wolf-20260216",
+    "bfn715-wolf-pva-2024",
+    "wolf-bt213546",
+    "wolf-bundestag-process-2026",
+    "wolf-hearing-protocol-20260223"
+  ],
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "energy_hearings_ai",
+        "review_file": "research/round2-reviews/energy-reviews-djv-mortality.json",
+        "date": "2026-10-25",
+        "outcome": "retain_unresolved_null"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as unresolved interpretation after full submission and selected original-study methods/results context read; independent review requested.",
+      "by": "root_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent energy AI review retained unresolved/null after testing adjusted-upper-limit rescue and original model context.",
+      "by": "root_ai_screen"
+    }
+  ]
+}

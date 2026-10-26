@@ -1,0 +1,107 @@
+{
+  "law_id": "apovwg-2026",
+  "document_id": "raddatz-apovwg-20260302",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Weiterentwicklung der Apothekenversorgung (ApoVWG)",
+    "version": "Government bill BT 21/4084,11 February 2026, including Bundesrat response and government reply",
+    "source_id": "apovwg-bt214084",
+    "submission_date": "2026-03-02",
+    "hearing_date": "2026-03-04",
+    "relevant_provision": "Pharmacy reform and accompanying remuneration debate. The bill itself does not enact the requested fixed-fee increase; Bundesrat general request 30(a) on physicalpage 85 requests€9.50 and government reply discusses the accompanying ordinance. Later enacted rates are not used as the submission-date baseline."
+  },
+  "request_quote": {
+    "original": "Erhöhung des Fixums",
+    "language": "de",
+    "translation_en": "Translation: Increase the fixed fee",
+    "locator": {
+      "pdf_page": 34,
+      "printed_page": 34,
+      "section": "D. Executive Summary",
+      "list_item": "Wichtigste Maßnahmen, first item"
+    }
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "tax_consultations_ai_agent",
+        "path": "research/round2-reviews/tax-reviews-raddatz-apovwg.json",
+        "outcome": "retain_provisional_minor_true"
+      }
+    ]
+  },
+  "author_response": [],
+  "submission_source_id": "raddatz-apovwg-20260302",
+  "source_registry": "research/round2-social/sources.json",
+  "id": "apovwg2026-raddatz-social05",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Reforming pharmacy services, operating rules and the basis for remuneration.",
+    "they_want": "Raise the fixed pharmacy fee and adjust it automatically each year.",
+    "they_claim": "The momentum of pharmacy closures increases every year.",
+    "the_problem": "Both gross closures and the net loss slowed in 2025, although the number of pharmacies kept falling."
+  },
+  "claim_quote": {
+    "original": "Die Dynamisierung der Schließungen nimmt jährlich zu und nicht etwa ab.",
+    "language": "de",
+    "translation_en": "Translation: The momentum of closures increases every year and does not decrease.",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": 4,
+      "section": "A. Status Quo",
+      "paragraph": "Paragraph beginning Im Jahr 2013, after the 2025 stock figure; source references in footnote 4"
+    },
+    "underline": "nimmt jährlich zu"
+  },
+  "counter_quote": {
+    "original": "Selbst wenn sich das Apothekensterben im vergangenen Jahr leicht abgeschwächt hat",
+    "language": "de",
+    "translation_en": "Translation of source fragment: Even though the decline of pharmacies slowed slightly in the past year",
+    "source_id": "abda-closures-20260113",
+    "locator": {
+      "section": "2025: Apothekenzahl sinkt auf 16.601 Betriebsstätten",
+      "paragraph": "Second paragraph, quotation of ABDA president Thomas Preis"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "ABDA’s pre-submission data report 578 gross closures and 48 openings in 2024(net loss 530), versus 502 closures and 62 openings in 2025(net loss 440). Closures fell 13.1 percent and the net annual loss fell 17.0 percent. The 2025 decline continued, but did not accelerate every year through the endpoint the author names.",
+  "effect": "Weakens the claim of uninterrupted annual acceleration used to intensify the urgency of the request for higher fees. It leaves the continuing large loss of pharmacy sites intact.",
+  "limits": "One slower year does not show that the longer-run decline has ended, that access is adequate everywhere, or that remuneration causes or would prevent closures. Cumulative losses still increased. No intent is inferred.",
+  "context_and_alternatives": [
+    "Full 34-page submission read. The author uses 2013, July 2024 andend 2025 stock figures, expressly acknowledges that current national supply is generally assured, and later argues for a structural response.",
+    "The exact ABDA 13 January 2026 release is linked in the author’s footnote 4 and explicitly states that 2025 slowed. Its opening paragraph supplies 502 closures,62 openings and 440 net loss. The earlier primary ABDA 2025 yearbook tablephysical/printed 8 supplies 2024 gross and net data.",
+    "A colloquial longer-term acceleration reading is plausible and the absolute stock continues to fall. The narrow issue is the categorical annually-increasing statement, not the long-run direction.",
+    "Gross versus net definitions do not rescue the printed annual claim: both slowed in 2025. Cumulative closed sites are a stock, not an annually accelerating closure flow."
+  ],
+  "materiality_explanation": "Minor: the sentence overstates the latest pace but the underlying sustained decline remains large. It is an auxiliary urgency claim rather than a demonstration of the size or effectiveness of a fee increase.",
+  "direction_explanation": "True: uninterrupted acceleration strengthens the stated urgency for raising and indexing fees; correction weakens that particular rhetorical premise.",
+  "confidence": {
+    "text_source_mismatch": "high for the literal every-year claim; longer-run rhetorical reading acknowledged",
+    "materiality": "editorial_judgment"
+  },
+  "source_ids": [
+    "raddatz-apovwg-20260302",
+    "apovwg-bt214084",
+    "abda-closures-20260113",
+    "abda-zdf-2025"
+  ],
+  "verification": {
+    "visual": "Original author physical 4 and ABDA 2025 yearbook physical 8 rendered and visually inspected. ABDA 2026 release read in full.",
+    "quotation_budget": "Unique Raddatz quoted text across the closure and fee records totals 24 words, including the shared 3-word request."
+  },
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as narrow provisional minor finding; independent tax AI review requested.",
+      "by": "social_round 2_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent tax AI review retained narrow finding after complete submission and primary context; benign alternatives and direction preserved.",
+      "by": "social_round 2_ai_screen"
+    }
+  ]
+}

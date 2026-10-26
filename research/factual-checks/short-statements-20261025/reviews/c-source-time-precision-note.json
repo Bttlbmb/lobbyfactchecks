@@ -1,0 +1,14 @@
+{
+  "reviewer": "c",
+  "created_at_utc": "2026-10-25T22:22:03.800350+00:00",
+  "source_note_file": "research/factual-checks/short-statements-20261025/sources/cr-primary-checks.json",
+  "source_note_sha256": "d0b8f3f5152bbbc948ac0f649f2f066217492de27d3a72e27b2ea4a54f0148d2",
+  "correction": {
+    "source_id": "short-cr-lgln",
+    "field": "retrieved_at",
+    "frozen_value": "2026-10-25T12:52:00+00:00",
+    "verified_precision": "2026-10-25",
+    "reason": "The frozen minute marker records the review session, not a tool/server-supplied exact retrieval time. Access date, official URL and completed five-page extraction read remain verified."
+  },
+  "effect": "Metadata precision only; no source identity, factual outcome or frozen inventory/review is modified."
+}

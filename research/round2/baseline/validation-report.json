@@ -1,0 +1,1368 @@
+{
+  "checked_at_utc": "2026-10-24T10:56:25.338162+00:00",
+  "result": "pass_with_disclosed_manual_checks",
+  "record_count": 32,
+  "errors": [],
+  "warnings": [],
+  "schema": "data/issue.schema.json, JSON Schema Draft2020-12; validated with jsonschema",
+  "quote_checks": [
+    {
+      "issue_id": "begiv2024-bitkom-tax08",
+      "field": "claim_quote",
+      "source_id": "bitkom-begiv-2024",
+      "pdf_page": 4,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "begiv2024-bitkom-tax08",
+      "field": "counter_quote",
+      "source_id": "nkr-annualreport-2023",
+      "pdf_page": 11,
+      "result": "verified_visual_reading_order",
+      "automated_result": "visual_reading_order_or_exactness_review_required",
+      "manual_review_file": "research/reviews/manual-quote-checks.json",
+      "evidence": "research/tax-round2/sources/nkr-annualreport-p11.png",
+      "reason": "Exact cost-increase fragment in the opening paragraph of the right column, ending with gestiegen on the next line. Lead researcher visually inspected; graph distinguishes total26.8billion and business14.5billion, consistent with the record’s comparator caveat."
+    },
+    {
+      "issue_id": "begiv2024-bitkom-tax08",
+      "field": "additional_claim_quotes[0]",
+      "source_id": "bitkom-begiv-2024",
+      "pdf_page": 4,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "begiv2024-bitkom-tax08",
+      "field": "request_quote",
+      "source_id": "bitkom-begiv-2024",
+      "pdf_page": 4,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "bstabg2026-dzvhae-a01",
+      "field": "claim_quote",
+      "source_id": "dzvhae-bstabg-20260417",
+      "pdf_page": 3,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "bstabg2026-dzvhae-a01",
+      "field": "counter_quote",
+      "source_id": "swiss-edi-20050603",
+      "pdf_page": null,
+      "result": "exact_archived_html_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "bstabg2026-dzvhae-a02",
+      "field": "claim_quote",
+      "source_id": "dzvhae-bstabg-20260417",
+      "pdf_page": 1,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "bstabg2026-dzvhae-a02",
+      "field": "counter_quote",
+      "source_id": "bmg-2025-preliminary-finances",
+      "pdf_page": null,
+      "result": "exact_archived_html_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "cannkg2018-baek-a01",
+      "field": "claim_quote",
+      "source_id": "baek-cannkg-2018",
+      "pdf_page": 5,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "cannkg2018-baek-a01",
+      "field": "counter_quote",
+      "source_id": "dbdd-treatment-2017",
+      "pdf_page": 15,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "cannkg2018-baek-a02",
+      "field": "claim_quote",
+      "source_id": "baek-cannkg-2018",
+      "pdf_page": 7,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "cannkg2018-baek-a02",
+      "field": "counter_quote",
+      "source_id": "rmhidta-impact-2015",
+      "pdf_page": 24,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "cannkg2018-baek-a02",
+      "field": "supplementary_counter_quotes[0]",
+      "source_id": "colorado-early-findings-2016",
+      "pdf_page": 33,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "cannkg2018-baek-a03",
+      "field": "claim_quote",
+      "source_id": "baek-cannkg-2018",
+      "pdf_page": 7,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "cannkg2018-baek-a03",
+      "field": "counter_quote",
+      "source_id": "colorado-early-findings-2016",
+      "pdf_page": 17,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-dce-a01",
+      "field": "claim_quote",
+      "source_id": "dce-enefg-20260416",
+      "pdf_page": 7,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-dce-a01",
+      "field": "counter_quote",
+      "source_id": "enefg-draft-2026-04-09",
+      "pdf_page": 15,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-dce-a01",
+      "field": "request_quote",
+      "source_id": "dce-enefg-20260416",
+      "pdf_page": 8,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-dce-a01",
+      "field": "supplementary_counter_quote",
+      "source_id": "enefg-draft-2026-04-09",
+      "pdf_page": 66,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-dce-a01",
+      "field": "additional_request_quote",
+      "source_id": "dce-enefg-20260416",
+      "pdf_page": 8,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-hansgrohe-a01",
+      "field": "claim_quote",
+      "source_id": "hansgrohe-enefg-2026",
+      "pdf_page": 1,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-hansgrohe-a01",
+      "field": "counter_quote",
+      "source_id": "epbd-2024-1275-original",
+      "pdf_page": 23,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-hansgrohe-a01",
+      "field": "request_quote",
+      "source_id": "hansgrohe-enefg-2026",
+      "pdf_page": 2,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-vik-a01",
+      "field": "claim_quote",
+      "source_id": "vik-enefg-2026-mirror",
+      "pdf_page": 3,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-vik-a01",
+      "field": "counter_quote",
+      "source_id": "ageb-jahresbericht-2020",
+      "pdf_page": 3,
+      "result": "verified_visual_reading_order",
+      "automated_result": "visual_reading_order_or_exactness_review_required",
+      "manual_review_file": "research/reviews/manual-quote-checks.json",
+      "evidence": "research/energy/sources/ageb-jahresbericht-2020-p3.png",
+      "reason": "Opening sentence continues from left column first two lines to right column first line; read by columns, not across rows. Lead researcher visually inspected the exact complete sentence."
+    },
+    {
+      "issue_id": "enefg2026-vik-a01",
+      "field": "derived_claim_quote",
+      "source_id": "vik-enefg-2026-mirror",
+      "pdf_page": 3,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-vik-a01",
+      "field": "request_quote",
+      "source_id": "vik-enefg-2026-mirror",
+      "pdf_page": 2,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-vik-a01",
+      "field": "supplementary_counter_quote",
+      "source_id": "ageb-final-energy-2020",
+      "pdf_page": 1,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-vik-a01",
+      "field": "baseline_counter_quote",
+      "source_id": "ec-energy-efficiency-targets",
+      "pdf_page": null,
+      "result": "exact_archived_html_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "forg2026-financewatch-tax07",
+      "field": "claim_quote",
+      "source_id": "financewatch-forg-20260126",
+      "pdf_page": 4,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "forg2026-financewatch-tax07",
+      "field": "counter_quote",
+      "source_id": "finma-cs-report-20231219-de",
+      "pdf_page": 6,
+      "result": "verified_visual_reading_order",
+      "automated_result": "visual_reading_order_or_exactness_review_required",
+      "manual_review_file": "research/reviews/manual-quote-checks.json",
+      "evidence": "research/tax-round2/sources/finma-cs-report-p6.png",
+      "reason": "Exact phrase in second paragraph of the left column; right-column text interleaves in extraction. Lead researcher visually inspected and read surrounding March/June2023chronology."
+    },
+    {
+      "issue_id": "forg2026-financewatch-tax07",
+      "field": "request_quote",
+      "source_id": "financewatch-forg-20260126",
+      "pdf_page": 2,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "geg2023-hausgrund-a01",
+      "field": "claim_quote",
+      "source_id": "hausgrund-geg-2023",
+      "pdf_page": 2,
+      "result": "exact_text_after_line_end_hyphen_normalisation"
+    },
+    {
+      "issue_id": "geg2023-hausgrund-a01",
+      "field": "counter_quote",
+      "source_id": "fraunhofer-wpsmart-2020",
+      "pdf_page": 235,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "geg2023-hausgrund-a01",
+      "field": "request_quote",
+      "source_id": "hausgrund-geg-2023",
+      "pdf_page": 19,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "ggdg2026-hateaid-a01",
+      "field": "claim_quote",
+      "source_id": "hateaid-ggdg-20260522",
+      "pdf_page": 6,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "ggdg2026-hateaid-a01",
+      "field": "counter_quote",
+      "source_id": "council-5556-2025-sim",
+      "pdf_page": 2,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "ggdg2026-hateaid-a01",
+      "field": "request_quote",
+      "source_id": "hateaid-ggdg-20260522",
+      "pdf_page": 6,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "ggdg2026-hateaid-a01",
+      "field": "supplementary_counter_quote",
+      "source_id": "traficom-porting",
+      "pdf_page": null,
+      "result": "exact_archived_html_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "ggdg2026-sdc-root01",
+      "field": "claim_quote",
+      "source_id": "sdc-ggdg-20260522",
+      "pdf_page": 1,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "ggdg2026-sdc-root01",
+      "field": "counter_quote",
+      "source_id": "jim-2025",
+      "pdf_page": 27,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "ggdg2026-sdc-root01",
+      "field": "request_quote",
+      "source_id": "sdc-ggdg-20260522",
+      "pdf_page": 3,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "ggdg2026-sdc-root01",
+      "field": "additional_counter_quote",
+      "source_id": "jim-2025",
+      "pdf_page": 5,
+      "result": "verified_visual_reading_order",
+      "automated_result": "visual_reading_order_or_exactness_review_required",
+      "manual_review_file": "research/reviews/manual-quote-checks.json",
+      "evidence": "research/root/jim-2025-p5.png",
+      "reason": "Exact two-line margin note; extraction interleaves it with the main column. Visually inspected by lead researcher."
+    },
+    {
+      "issue_id": "ipspeicherung2026-brak-root01",
+      "field": "claim_quote",
+      "source_id": "brak-ip-20260128-ministry",
+      "pdf_page": 4,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "ipspeicherung2026-brak-root01",
+      "field": "counter_quote",
+      "source_id": "bverfg-vds-20100302-press",
+      "pdf_page": null,
+      "result": "exact_archived_html_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "ipspeicherung2026-brak-root01",
+      "field": "request_quote",
+      "source_id": "brak-ip-20260128-ministry",
+      "pdf_page": 4,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "ipspeicherung2026-brak-root01",
+      "field": "supplementary_counter_quote",
+      "source_id": "bt16-11139-vds-2008",
+      "pdf_page": 3,
+      "result": "exact_text_after_line_end_hyphen_normalisation"
+    },
+    {
+      "issue_id": "jstg2026-dstg-tax01",
+      "field": "claim_quote",
+      "source_id": "dstg-jstg2026-author",
+      "pdf_page": 2,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "jstg2026-dstg-tax01",
+      "field": "counter_quote",
+      "source_id": "ec-vida-timeline",
+      "pdf_page": null,
+      "result": "exact_archived_html_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "jstg2026-dstg-tax01",
+      "field": "request_quote",
+      "source_id": "dstg-jstg2026-author",
+      "pdf_page": 2,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "jstg2026-dstg-tax02",
+      "field": "claim_quote",
+      "source_id": "dstg-jstg2026-author",
+      "pdf_page": 4,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "jstg2026-dstg-tax02",
+      "field": "counter_quote",
+      "source_id": "ai-act2024-1689",
+      "pdf_page": null,
+      "result": "manual_or_web_check_required",
+      "reason": "No archived page-addressable PDF; consult the source access note and independent AI review."
+    },
+    {
+      "issue_id": "jstg2026-dstg-tax02",
+      "field": "request_quote",
+      "source_id": "dstg-jstg2026-author",
+      "pdf_page": 5,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "jstg2026-dstg-tax02",
+      "field": "additional_claim_quotes[0]",
+      "source_id": "dstg-jstg2026-author",
+      "pdf_page": 4,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "luftvst2026-bdi-tax04",
+      "field": "claim_quote",
+      "source_id": "bdi-luftvst-20260317",
+      "pdf_page": 2,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "luftvst2026-bdi-tax04",
+      "field": "counter_quote",
+      "source_id": "breg-finanzplan-2020-bt1922601",
+      "pdf_page": 63,
+      "result": "verified_visual_reading_order",
+      "automated_result": "visual_reading_order_or_exactness_review_required",
+      "manual_review_file": "research/reviews/manual-quote-checks.json",
+      "evidence": "research/tax-round2/sources/bt1922601-p63.png",
+      "reason": "Exact opening sentence of right column; extraction interleaves left-column fiscal discussion. Lead researcher visually inspected."
+    },
+    {
+      "issue_id": "luftvst2026-bdi-tax04",
+      "field": "request_quote",
+      "source_id": "bdi-luftvst-20260317",
+      "pdf_page": 3,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "mindestlohn2026-bda-a01",
+      "field": "claim_quote",
+      "source_id": "bda-mindestlohn-20260112",
+      "pdf_page": 5,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "mindestlohn2026-bda-a01",
+      "field": "counter_quote",
+      "source_id": "bt21-346",
+      "pdf_page": 1,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "mindestlohn2026-bda-a01",
+      "field": "request_quote",
+      "source_id": "bda-mindestlohn-20260112",
+      "pdf_page": 5,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "tabstaendg2026-bvte-root01",
+      "field": "claim_quote",
+      "source_id": "bvte-tabstaendg-2026",
+      "pdf_page": 6,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "tabstaendg2026-bvte-root01",
+      "field": "counter_quote",
+      "source_id": "bvte-tabstaendg-2026",
+      "pdf_page": 6,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "tabstaendg2026-bvte-root01",
+      "field": "additional_claim_quotes[0]",
+      "source_id": "bvte-tabstaendg-2026",
+      "pdf_page": 6,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "tabstaendg2026-bvte-root01",
+      "field": "request_quote",
+      "source_id": "bvte-tabstaendg-2026",
+      "pdf_page": 1,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "wassbg2024-waniczek-a01",
+      "field": "claim_quote",
+      "source_id": "waniczek-wassbg-2024",
+      "pdf_page": 4,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "wassbg2024-waniczek-a01",
+      "field": "counter_quote",
+      "source_id": "siemens-hyflexpower-2023",
+      "pdf_page": 1,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "wassbg2024-waniczek-a01",
+      "field": "request_quote",
+      "source_id": "waniczek-wassbg-2024",
+      "pdf_page": 4,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "wassbg2024-waniczek-a01",
+      "field": "additional_request_quote",
+      "source_id": "wassbg-hearing-transcript-2024",
+      "pdf_page": 26,
+      "result": "verified_visual_reading_order",
+      "automated_result": "visual_reading_order_or_exactness_review_required",
+      "manual_review_file": "research/reviews/manual-quote-checks.json",
+      "evidence": "research/root/wassbg-transcript-p26.png",
+      "reason": "Exact words continue over three lines in the left column; visual inspection confirms the extraction interleaves the other column."
+    },
+    {
+      "issue_id": "bstabg2026-pharmadeutschland-a01",
+      "field": "claim_quote",
+      "source_id": "pharmadeutschland-bstabg-20260420",
+      "pdf_page": 7,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "bstabg2026-pharmadeutschland-a01",
+      "field": "counter_quote",
+      "source_id": "ostermann2024-cost-review",
+      "pdf_page": 10,
+      "result": "verified_visual_reading_order",
+      "automated_result": "visual_reading_order_or_exactness_review_required",
+      "manual_review_file": "research/reviews/manual-quote-checks.json",
+      "evidence": "research/root/ostermann-2024-p10.png",
+      "reason": "Exact cost-category sentence in right column on printed page125; left-column prose interleaves in extraction. Visually inspected; subgroup and statistical-significance context keeps allegation unresolved."
+    },
+    {
+      "issue_id": "bstabg2026-pharmadeutschland-a01",
+      "field": "request_quote",
+      "source_id": "pharmadeutschland-bstabg-20260420",
+      "pdf_page": 8,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-algorithmwatch-l01",
+      "field": "claim_quote",
+      "source_id": "algorithmwatch-enefg-2026",
+      "pdf_page": 8,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-algorithmwatch-l01",
+      "field": "counter_quote",
+      "source_id": "ec-datacentres-first-report-2025",
+      "pdf_page": 18,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-algorithmwatch-l01",
+      "field": "request_quote",
+      "source_id": "algorithmwatch-enefg-2026",
+      "pdf_page": 8,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-bund-a01",
+      "field": "claim_quote",
+      "source_id": "bund-enefg-2026",
+      "pdf_page": 3,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-bund-a01",
+      "field": "counter_quote",
+      "source_id": "enefg-draft-2026-04-09",
+      "pdf_page": 6,
+      "result": "exact_text_after_line_end_hyphen_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-bund-a01",
+      "field": "request_quote",
+      "source_id": "bund-enefg-2026",
+      "pdf_page": 1,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-uim-l01",
+      "field": "claim_quote",
+      "source_id": "uim-enefg-2026",
+      "pdf_page": 7,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-uim-l01",
+      "field": "counter_quote",
+      "source_id": "borderstep-datacentres-2025",
+      "pdf_page": 41,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "enefg2026-uim-l01",
+      "field": "request_quote",
+      "source_id": "uim-enefg-2026",
+      "pdf_page": 7,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "ggdg2026-hateaid-a02",
+      "field": "claim_quote",
+      "source_id": "hateaid-ggdg-20260522",
+      "pdf_page": 14,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "ggdg2026-hateaid-a02",
+      "field": "counter_quote",
+      "source_id": "securityhero-state-deepfakes-2023",
+      "pdf_page": null,
+      "result": "exact_archived_html_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "ggdg2026-hateaid-a02",
+      "field": "request_quote",
+      "source_id": "hateaid-ggdg-20260522",
+      "pdf_page": 14,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "jstg2026-bdst-tax01",
+      "field": "claim_quote",
+      "source_id": "bdst-jstg2026",
+      "pdf_page": 16,
+      "result": "verified_visual_table_cell",
+      "automated_result": "visual_reading_order_or_exactness_review_required",
+      "manual_review_file": "research/reviews/manual-quote-checks.json",
+      "evidence": "research/tax/bdst-jstg2026-p16.png",
+      "reason": "Exact two-line value in childcare row/current-value column; extraction interleaves adjacent cells. Lead researcher visually inspected. The issue remains unresolved on interpretation."
+    },
+    {
+      "issue_id": "jstg2026-bdst-tax01",
+      "field": "counter_quote",
+      "source_id": "estg10",
+      "pdf_page": null,
+      "result": "manual_or_web_check_required",
+      "reason": "No archived page-addressable PDF; consult the source access note and independent AI review."
+    },
+    {
+      "issue_id": "jstg2026-bdst-tax01",
+      "field": "request_quote",
+      "source_id": "bdst-jstg2026",
+      "pdf_page": 16,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "jstg2026-dstg-tax03",
+      "field": "claim_quote",
+      "source_id": "dstg-jstg2026-author",
+      "pdf_page": 5,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "jstg2026-dstg-tax03",
+      "field": "counter_quote",
+      "source_id": "jstg2026-refe",
+      "pdf_page": 130,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "jstgII2024-dgb-tax06",
+      "field": "claim_quote",
+      "source_id": "dgb-jstgII-20240719",
+      "pdf_page": 8,
+      "result": "exact_text_after_line_end_hyphen_normalisation"
+    },
+    {
+      "issue_id": "jstgII2024-dgb-tax06",
+      "field": "counter_quote",
+      "source_id": "bfh-vr6017-2019",
+      "pdf_page": 7,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "jstgII2024-dgb-tax06",
+      "field": "request_quote",
+      "source_id": "dgb-jstgII-20240719",
+      "pdf_page": 8,
+      "result": "exact_text_after_line_end_hyphen_normalisation"
+    },
+    {
+      "issue_id": "sbgg2023-eggd-a01",
+      "field": "claim_quote",
+      "source_id": "eggd-sbgg-2023",
+      "pdf_page": 6,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "sbgg2023-eggd-a01",
+      "field": "counter_quote",
+      "source_id": "wong-2019-social-transition",
+      "pdf_page": 10,
+      "result": "verified_visual_reading_order",
+      "automated_result": "visual_reading_order_or_exactness_review_required",
+      "manual_review_file": "research/reviews/manual-quote-checks.json",
+      "evidence": "research/root/wong-2019-p10.png",
+      "reason": "Exact sentence at bottom of right column; unclear is split at a line ending. Visually inspected. The substantive allegation remains unresolved."
+    },
+    {
+      "issue_id": "sbgg2023-eggd-a01",
+      "field": "request_quote",
+      "source_id": "eggd-sbgg-2023",
+      "pdf_page": 2,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "stefeg2024-dgb-tax05",
+      "field": "claim_quote",
+      "source_id": "dgb-stefeg-20241001",
+      "pdf_page": 2,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "stefeg2024-dgb-tax05",
+      "field": "counter_quote",
+      "source_id": "bt-20-12783",
+      "pdf_page": 8,
+      "result": "verified_visual_table_cell",
+      "automated_result": "visual_reading_order_or_exactness_review_required",
+      "manual_review_file": "research/reviews/manual-quote-checks.json",
+      "evidence": "research/root/bt2012783-p8.png",
+      "reason": "Exact two-line child-allowance change in the left table cell, visually inspected. Record remains unresolved because submission provenance of the precise October edition has not been established."
+    },
+    {
+      "issue_id": "stefeg2024-dgb-tax05",
+      "field": "context_quote",
+      "source_id": "dgb-stefeg-20241001",
+      "pdf_page": 2,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "stefeg2024-dgb-tax05",
+      "field": "request_quote",
+      "source_id": "dgb-stefeg-20241001",
+      "pdf_page": 3,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "tabstaendg2026-vdr-root01",
+      "field": "claim_quote",
+      "source_id": "vdr-tabstaendg-2026",
+      "pdf_page": 2,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "tabstaendg2026-vdr-root01",
+      "field": "counter_quote",
+      "source_id": "hwwi-2010-1-28",
+      "pdf_page": 5,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "tabstaendg2026-vdr-root01",
+      "field": "request_quote",
+      "source_id": "vdr-tabstaendg-2026",
+      "pdf_page": 6,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "staendg2025-dehoga-tax01",
+      "field": "claim_quote",
+      "source_id": "dehoga-staendg2025",
+      "pdf_page": 10,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "staendg2025-dehoga-tax01",
+      "field": "counter_quote",
+      "source_id": "bmf-usth2024-3-6",
+      "pdf_page": null,
+      "result": "manual_or_web_check_required",
+      "reason": "No archived page-addressable PDF; consult the source access note and independent AI review."
+    },
+    {
+      "issue_id": "staendg2025-dehoga-tax01",
+      "field": "request_quote",
+      "source_id": "dehoga-staendg2025",
+      "pdf_page": 11,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "baek-cannkg-2018",
+      "field": "shared_request_quote",
+      "source_id": "baek-cannkg-2018",
+      "pdf_page": 6,
+      "result": "exact_text_after_whitespace_normalisation"
+    },
+    {
+      "issue_id": "dzvhae-bstabg-20260417",
+      "field": "shared_request_quote",
+      "source_id": "dzvhae-bstabg-20260417",
+      "pdf_page": 4,
+      "result": "exact_text_after_whitespace_normalisation"
+    }
+  ],
+  "archive_checks": [
+    {
+      "source_id": "ageb-final-energy-2020",
+      "local_file": "research/energy/sources/ageb-final-energy-2020.pdf",
+      "sha256": "77bff4d50b3778f7c7d7af5bd5ae29dba59f65ac2a28396762d28ecdfaee36bb",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "ageb-jahresbericht-2020",
+      "local_file": "research/energy/sources/ageb-jahresbericht-2020.pdf",
+      "sha256": "2e047d7faf277fc5fff15d3c6146f0ca55cd3c8562afa4a428094083fffb269f",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "ai-act-council-adopted-2024-de",
+      "local_file": "research/root/ai-act-adopted-council-2024-de.pdf",
+      "sha256": "fa96f13318e77a4d71328267f2e1b29d2220af248dbf7e05efc7ddef662fba1d",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "algorithmwatch-enefg-2026",
+      "local_file": "research/energy/sources/algorithmwatch-enefg-2026-official.pdf",
+      "sha256": "4ff2dabc18c6d35561d1baf115fcdb1586eacd213d9cd9691fbb403b513798e5",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "baek-cannkg-2018",
+      "local_file": "research/social-digital/baek-2018-cannkg.pdf",
+      "sha256": "7c6c82f6d95ab3730d96823e268cc78176a8aa71e7e80cae488cadb2af08f0a2",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bda-mindestlohn-20260112",
+      "local_file": "research/social-digital/mindestlohn-hearing-20260112.pdf",
+      "sha256": "9c3881ab7e188466b29ab1e0e239f349a31cc99bf16c1da1d6741737f603ce53",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bdi-luftvst-20260317",
+      "local_file": "research/tax-round2/sources/bdi-luftvst-20260317.pdf",
+      "sha256": "b4b0792d53e56f6e8190c102cedac5430b7980c9e64f277245b047ac29174c41",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bdst-jstg2026",
+      "local_file": "research/tax/bdst-jstg2026-mirror.pdf",
+      "sha256": "ca2b41d78aa4fda08c3300f90d720261b6ae4f2c854e1e55ee88408583dcbcba",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "begiv-refe-20240111",
+      "local_file": "research/tax-round2/sources/begiv-refe-20240111.pdf",
+      "sha256": "c0e506c2b9033ace847f6d2e84c776f005644ca4b2ad90766771eefa2e73ddf1",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bfee-enms-2022",
+      "local_file": "research/energy/sources/bfee-enms-2022.pdf",
+      "sha256": "59703c3e35e88a93b1d7b47303b31a513fba83ece094ad62dd74c4aa1ecc1cc3",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bfh-vr1420-2020",
+      "local_file": "research/tax-round2/sources/bfh-vr1420-attac-mirror.pdf",
+      "sha256": "fd2361d16f63367014536352000f2c5928654a65e1a33e4f608d875c9bbc8dc5",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bfh-vr6017-2019",
+      "local_file": "research/tax-round2/sources/bfh-vr6017-official.pdf",
+      "sha256": "a8fa70f3fb25b6c5167840935f37a68da49339914b4ccf57bc3482dbd526da69",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bitkom-begiv-2024",
+      "local_file": "research/tax-round2/sources/bitkom-begiv-202402.pdf",
+      "sha256": "f85356e051b033708a531df5d9d355f7ec2a8330345b0234ad7a8f738a89b1ae",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bmg-2025-preliminary-finances",
+      "local_file": "research/social-digital/bmg-20260310-gkv-finances.html",
+      "sha256": "de2510e1d33d7e80bc977bcb315166949400684570d76818c794f373cdfc1b46",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "borderstep-datacentres-2025",
+      "local_file": "research/energy/sources/bmwk-borderstep-datacentres-2025.pdf",
+      "sha256": "d57759e7137f413cfc5b49cb9b93f6447a4222ff04434f0e579510533eebef70",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "brak-ip-2026-07-author",
+      "local_file": "research/root/brak-ip-2026-07.pdf",
+      "sha256": "648369b3da77acf2cfde4dfcf448aac5b576996851cf3fe4a398dab853169ef7",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "brak-ip-20260128-ministry",
+      "local_file": "research/root/brak-ip-ministry-202601.pdf",
+      "sha256": "5a790310a349b173350ef72a37dd9a96d66b4d27d8d0f9d351fae44dea17e09e",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "breg-finanzplan-2020-bt1922601",
+      "local_file": "research/tax-round2/sources/bt1922601-finance-plan-2020.pdf",
+      "sha256": "898c2ee0c641daf678d19ba754853c9e0ceeab19eb6960fc1b7cdfae2123d02a",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bstabg-refe-20260416",
+      "local_file": "research/social-digital/bstabg-refe-20260416.pdf",
+      "sha256": "7225e9dd674f736ed879fdfe37d007b6f979530512c73e7d152b63a58f31f950",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bt-19-819",
+      "local_file": "research/social-digital/bt-19-819-cannkg-draft.pdf",
+      "sha256": "5c9954a0503b2c2e5df2d6ec498174dbdf65622c5fb0a94151154e2c720b5fac",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bt-20-12783",
+      "local_file": "research/tax-round2/sources/bt2012783-existenzminimum2024.pdf",
+      "sha256": "d101fbb8b5c659b87a7a155c88a472e61c9c2680c570eb379a704a9ddde3eb95",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bt-20-9049-sbgg",
+      "local_file": "research/social-digital/bt-20-9049-sbgg.pdf",
+      "sha256": "931398a5d597efeb6ec40bc57a494feda49b1875d4d1a9d74c99cfaf70eb4527",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bt-21-7859",
+      "local_file": "research/root/bt-21-7859-tabak-draft.pdf",
+      "sha256": "1c48a41e7772b40048267c5bef63697422e1fc0183d7e81075208cf6ff0599ba",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bt16-11139-vds-2008",
+      "local_file": "research/reviews/bt16-11139-vds-2008.pdf",
+      "sha256": "f95773f962fad8c11e01061c715c4fc6ff77143fd459e4d1d2f4c6bb0a042acc",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bt21-346",
+      "local_file": "research/social-digital/mindestlohn-bt21346-20250603.pdf",
+      "sha256": "ce3d45853b3d3f2a2c50ddae150144581fb18f74d98bc13c0e45c97c14e3135a",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bt21-347",
+      "local_file": "research/social-digital/mindestlohn-bt21347-20250603.pdf",
+      "sha256": "5e027c73b843ebd3eca41edd3165feceb3d549b29733d35df628fbc3395a386a",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bt21-982-20250725",
+      "local_file": "research/energy/sources/bt21-982-20250725.pdf",
+      "sha256": "bbdd508d2441fdf1b79c50d16a8f4f7db5606edcf1aa1c8f7cb395b16cee3732",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bund-enefg-2026",
+      "local_file": "research/energy/enefg-screening/007.pdf",
+      "sha256": "be5f3460ee10b1bf02fc587305ef8cc92771c76e85f5ea7e3054f4ee371186ab",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bverfg-vds-20100302-press",
+      "local_file": "research/root/bverfg-vds-20100302-press.html",
+      "sha256": "67e82b986b4b4681d449f3f5bc07930dc47442570ca61b10ae17c5bb5197efad",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "bvte-tabstaendg-2026",
+      "local_file": "research/root/bvte-tabstaendg-2026.pdf",
+      "sha256": "c43c3c0eb7f2b713c2b1a9920c04c13314e744d890ac7a3123abf7c311d886b0",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "colorado-early-findings-2016",
+      "local_file": "research/social-digital/colorado-2016-early-findings.pdf",
+      "sha256": "11fbaf6d0d13b97f20d642da09374f5463019b15b255b340dad331cfafc014db",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "cordis-hyflexpower-2023",
+      "local_file": "research/energy/sources/cordis-hyflexpower-2023.html",
+      "sha256": "b2605641f30075d6afbc0d2d0b67acb92fc6bbed2489e07e026629a454530bf6",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "correctiv-leipzig-20240326-context",
+      "local_file": "research/energy/sources/correctiv-leipzig-20240326-context.html",
+      "sha256": "1a1fcbb5fe93af1f699ff720832856586660fa0aebc015ce5e14131e09c79a50",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "council-5556-2025-sim",
+      "local_file": "research/social-digital/council-5556-2025-sim.pdf",
+      "sha256": "ce8403ab2a2e7501dc05e08b72cb99bfe1e3a540fe2034361a0fae7c6bb5e8dd",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "dbdd-treatment-2017",
+      "local_file": "research/social-digital/dbdd-reitox-2017-treatment.pdf",
+      "sha256": "439ae1edca4916a9b50b7b7e3ac01e5546462acf34ff4b4ebe51ce7f3ee2d30b",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "dce-enefg-20260416",
+      "local_file": "research/energy/enefg-screening/official/057.pdf",
+      "sha256": "127461ec4f1ba23d963b65558a591b9880e1e7b7d8526ee5f10e85b2d5f21ccd",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "dehoga-staendg2025",
+      "local_file": "research/tax/dehoga-staendg2025-bt.pdf",
+      "sha256": "1ffe76b8aaed4bb62c5d7d29b74488355bfc31bf1316005d729234ebd58d59ee",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "dgb-jstgII-20240719",
+      "local_file": "research/tax-round2/sources/dgb-jstgII-refe-20240719.pdf",
+      "sha256": "b429c7c8acfe9a4f82ac5c8908cea76e6e5b9371b340f727bbca316855615361",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "dgb-related-july-response",
+      "local_file": "research/tax-round2/sources/dgb-jstgII-refe-20240719.pdf",
+      "sha256": "b429c7c8acfe9a4f82ac5c8908cea76e6e5b9371b340f727bbca316855615361",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "dgb-stefeg-20241001",
+      "local_file": "research/tax-round2/sources/dgb-stefeg-20241001.pdf",
+      "sha256": "c05efc16683e0d57357a6e636068ad17ea7430780bf99c643f8d6426085fbe90",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "dna-prepaid",
+      "local_file": "research/social-digital/dna-prepaid-retrieved-20261024.html",
+      "sha256": "bc3ed7f6d1228c6dfce04da76056d7fb118d7777012b688ca7aba634d6c2b45c",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "dshs-annual-2016",
+      "local_file": "research/social-digital/dshs-annual-report-2016.pdf",
+      "sha256": "601829844f7834809622ed271e0262a3ca1f89e01b442847fb2d256103e2f1fd",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "dstg-jstg2026-author",
+      "local_file": "research/tax/dstg-jstg2026-author-original.pdf",
+      "sha256": "1a0cc4c0debf91b59befc77937432f406625efe47958d922a8e2d416b3e5e819",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "dzvhae-bstabg-20260417",
+      "local_file": "research/social-digital/dzvhae-bstabg-20260420.pdf",
+      "sha256": "42e50223002edc6ebdbc1c1446d18c87af3dcee25279e9378ea19c9fceda94d4",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "ec-datacentres-first-report-2025",
+      "local_file": "research/energy/sources/ec-datacentres-first-report-2025.pdf",
+      "sha256": "01f9a742ec43999911a47897104fe183011617f4210b16c01608618b119816f6",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "ec-energy-efficiency-targets",
+      "local_file": "research/energy/sources/ec-energy-efficiency-targets.html",
+      "sha256": "852fa1d7ff12313b4751f8c2204c634b424c8e2a788b67c60d58b64fb0919272",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "ec-vida-timeline",
+      "local_file": "research/root/ec-vida-timeline-20261024.html",
+      "sha256": "d4b450ec4e69533858861c83b6b6711ab47fb4b92bbd6159db9c68f103699398",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "ec-zero-emission-buildings",
+      "local_file": "research/energy/sources/ec-zero-emission-buildings.html",
+      "sha256": "454c1606683d2645b3b68d23f1359d0ee3d68c35607223bb704a0698639ba9ac",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "eggd-sbgg-2023",
+      "local_file": "research/social-digital/eggd-sbgg-2023.pdf",
+      "sha256": "719b2c24bd159306057c204bd345968adebd4b344645b8a920fed3cb31b8f0b2",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "elisa-prepaid-terms",
+      "local_file": "research/social-digital/elisa-prepaid-terms.pdf",
+      "sha256": "bb1a4e8bf804e21e8babf2a7ff2a22ddbf6791ad0f116cfee9da56c3b280b802",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "enefg-draft-2026-04-09",
+      "local_file": "research/energy/sources/enefg-draft-2026-04-09.pdf",
+      "sha256": "c180c39065b760a9291561149eb36c007fea041aab0bc84fcf26e40cef603034",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "enefg-ministry-consultation-archive-2026",
+      "local_file": "research/energy/sources/enefg-2026-official-consultations.zip",
+      "sha256": "30ff6fc03e80ebaba0c7d6ac224464e0778af236d2fbfa330c1ae296ac589e34",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "epbd-2024-1275-original",
+      "local_file": "research/reviews/epbd-2024-1275-original-oj-mirror.pdf",
+      "sha256": "99f9976be81bf1b464bca89c98bc2516afbf93612ee534ac28675a181e024108",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "epbd-council-first-reading-2024",
+      "local_file": "research/energy/sources/epbd-council-first-reading-text-2024.pdf",
+      "sha256": "f96576568deae095ff7e201d272dd98120871d51beeb78bbcac0a1d1145abce9",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "financewatch-forg-20260126",
+      "local_file": "research/tax-round2/sources/financewatch-forg-20260126.pdf",
+      "sha256": "80dd6615671a929b8f50da03539a3440f68fbdadab54f6bc54f97d0449e18aaf",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "finma-cs-report-20231219-de",
+      "local_file": "research/tax-round2/sources/finma-cs-report-20231219-de.pdf",
+      "sha256": "0f23f3512f1d19d26212cae1521b05955cbc8a53a55894e45fef7057bfbaefd6",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "forg-bt213510",
+      "local_file": "research/tax-round2/sources/forg-bt213510.pdf",
+      "sha256": "1a3418af0fd7a4f0335fbe57cac9943d8d72a8cceba1005764181339b81ee74b",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "fraunhofer-wpsmart-2020",
+      "local_file": "research/energy/sources/fraunhofer-wpsmart-2020.pdf",
+      "sha256": "2761029ea6402bb5a71a6455c938cdd981357526c5323bc616ec944576109941",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "geg-draft-2023-04-03",
+      "local_file": "research/energy/sources/geg-draft-2023-04-03.pdf",
+      "sha256": "908fae7038e6f46845816be2caa63010f5b9bccf335bccbe039b0fec4393095d",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "ggdg-refe-20260417",
+      "local_file": "research/social-digital/ggdg-refe-20260417.pdf",
+      "sha256": "7198ef00ab9bd250041199fca98a1681bad34f63292cc4a67466377e0ab6d88f",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "hansgrohe-enefg-2026",
+      "local_file": "research/energy/sources/hansgrohe-enefg-2026-official.pdf",
+      "sha256": "69081efd00a3f22fecd5d099567e0a92764cfbb782004d89fe5dd9befb253260",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "hateaid-ggdg-20260522",
+      "local_file": "research/social-digital/hateaid-ggdg-20260522.pdf",
+      "sha256": "dcdced7d0fd9aadf3ae647ab72d50e4ecaebf7231266b51ebe8933d0c2657728",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "hateaid-ggdg-ministry",
+      "local_file": "research/social-digital/hateaid-ggdg-2026-ministry.pdf",
+      "sha256": "6a0061aac0e20b26821524dcaf49b37992949539e3b14d7cf8df3f4a01359e87",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "hateaid-ggdg-register",
+      "local_file": "research/social-digital/hateaid-lobbyregister-metadata-20261024.html",
+      "sha256": "d6e5b02ad21ea1a83a4885aa2514aa2c713fb56ac430aafbc5ccf414bbab1d37",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "hausgrund-geg-2023",
+      "local_file": "research/energy/sources/haus-grund-geg-2023.pdf",
+      "sha256": "b89bc6c85b41038800edcce65d21dbeafed0f3a98a91e326dde9a57cf69d07d5",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "hwwi-2010-1-28",
+      "local_file": "research/root/hwwi-2010-1-28-econstor.pdf",
+      "sha256": "ee46aeb98d2dd5c5aa042d7a64459d59994067f24a63852eb9b5398f1bce59fc",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "ip-retention-bmjv-dossier",
+      "local_file": "research/root/ip-speicherung-dossier.html",
+      "sha256": "034ddfdf10afd6f27e90a7fc892b4b2c294a71fb7ec82f204f26844e1a2bbe21",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "ip-retention-refe-20251222",
+      "local_file": "research/root/ip-speicherung-refe-202512.pdf",
+      "sha256": "5e106991a7d49fb5389c4fa0e21a254922d3526d346e37eca3e452930f53cd9b",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "jim-2025",
+      "local_file": "research/root/jim-2025.pdf",
+      "sha256": "958150a94d90a30e1bf89283ac78d4ab46db6d39a38f06f55189ff48593bf2fd",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "jstg2026-refe",
+      "local_file": "research/tax/jstg2026-refe-20260519-mirror.pdf",
+      "sha256": "f91cb50a846d32f0e463631fc2e17169e3d2c5c4fe51b8480dd40c3deb27ed85",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "jstgII-refe-20240710-1056",
+      "local_file": "research/tax-round2/sources/jstgII2024-refe-20240710-1056.pdf",
+      "sha256": "1bb07f5dcb5b9616d7f42116179bf3fcefa6f664462e2f1d0598f449cf3f861a",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "luftvst-refe-20260226",
+      "local_file": "research/tax-round2/sources/luftvst-refe-20260226-1625.pdf",
+      "sha256": "80f4d8bc15c79b5347d788fe76a7029751b8f9cb1fbf946d6902dfe03c0b686d",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "nedo-hydrogen-turbine-2018",
+      "local_file": "research/energy/sources/nedo-hydrogen-turbine-2018.html",
+      "sha256": "ca183d3ed6e4ab17ae64f2cbe15159e69bb8a26a930403b87572f4fb035cfcff",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "nep-scenario-approval-2025",
+      "local_file": "research/energy/sources/nep-scenario-approval-2025.pdf",
+      "sha256": "ff1feac651f76d0687bec4a2ecde678eab05d72cda884252fa14b1c43031b083",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "nkr-annualreport-2023",
+      "local_file": "research/tax-round2/sources/nkr-annualreport-2023.pdf",
+      "sha256": "73313521746d3a87abbef180232330d13525c1415231a1c32ea3540623a18191",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "ostermann2024-cost-review",
+      "local_file": "research/social-digital/ostermann-2024-cost-review.pdf",
+      "sha256": "9b41dd7bb9a80bda65eccaaf154d7c424ebf923d2d734f52d5878351b89d8805",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "pharmadeutschland-bstabg-20260420",
+      "local_file": "research/social-digital/pharmadeutschland-bstabg-20260420.pdf",
+      "sha256": "58320cf52e4321f18cc4b9071ec0ec4084a21ad14efae53cb415fcd00e2f0f6e",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "rmhidta-impact-2015",
+      "local_file": "research/social-digital/rmhidta-2015-impact.pdf",
+      "sha256": "83558042df4f53f61de3f1d3462fd1efa69cb6057a5f8479f79108d8324bd818",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "sdc-ggdg-20260522",
+      "local_file": "research/root/ggdg-screen/SDC_Stellungnahme_RefE_Gesetz_digitale_Gewalt.pdf",
+      "sha256": "14eb8ffe95fcbfe1c350bf5edf6604115a256e670b9d6dd38aee6534596351d5",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "securityhero-state-deepfakes-2023",
+      "local_file": "research/social-digital/securityhero-2023-deepfakes.html",
+      "sha256": "993df7bd3ee233cf8145666d5075a10575e233937117d0b858fe2c966e32fdd5",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "siemens-hyflexpower-2023",
+      "local_file": "research/energy/sources/siemens-hyflexpower-2023.pdf",
+      "sha256": "ce52f46fa1a713e82d37094e8c43be06535c7e59e02de54987d2cffa04ccddb0",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "staendg2025-bt211974",
+      "local_file": "research/tax/staendg2025-bt211974.pdf",
+      "sha256": "ecc323d2f7e05d3fd4a32c90a006e4e036b8c0465cfe79629590d6c94b2a2db5",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "swiss-2017-explanation",
+      "local_file": "research/social-digital/swiss-complementary-2017-explanation.pdf",
+      "sha256": "417f575181438b32008fe5ccb6436deb2d8646ed51c85983c942a173b5b8870e",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "swiss-bag-complementary-history",
+      "local_file": "research/social-digital/bag-complementary-history-retrieved-20261024.html",
+      "sha256": "e18ed9918a9e5585de9bad210416a0da98a993ec6ca2f7a3df381da0fe12163c",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "swiss-edi-20050603",
+      "local_file": "research/social-digital/swiss-edi-20050603.html",
+      "sha256": "45941f9ba6f209a8bf3a92e553768dce5f8eb9743467e278175ff6d0deaa629a",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "traficom-porting",
+      "local_file": "research/social-digital/traficom-porting-retrieved-20261024.html",
+      "sha256": "f4570a1b98868b61e99c12a8f4141c8c4cf74d0a307ee1168607b1958fb13278",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "uim-enefg-2026",
+      "local_file": "research/energy/sources/uim-enefg-2026.pdf",
+      "sha256": "69af384e616a77d420c8ecc41ff3f99f3cdc49f1e3a6d65d2099f888d0d46809",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "vdr-tabstaendg-2026",
+      "local_file": "research/root/vdr-tabstaendg-2026.pdf",
+      "sha256": "1eb0537f58218d33ccdf6a6f639b8b84dd5ff999071c02ec4c502b67beeb222e",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "vida-directive-ihk-mirror",
+      "local_file": "research/tax/eu-2025-516-vida-de-ihk-mirror.pdf",
+      "sha256": "3d8787516d151740e19c10b85080c63cdac6437e3845048e190b2665435a2cd2",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "vik-enefg-2026-author",
+      "local_file": "research/energy/sources/vik-enefg-2026-author.html",
+      "sha256": "e747c3f4dff2c6ff4509865cf1969688cec639eed7bd1b100c31be869f8c85b6",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "vik-enefg-2026-mirror",
+      "local_file": "research/energy/sources/vik-enefg-2026-mirror.pdf",
+      "sha256": "c4b4881cfaba35b1a4e3b6f3ece63d00bd8ba054b472b0bf3628db72e0fb9794",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "waniczek-wassbg-2024",
+      "local_file": "research/energy/sources/waniczek-wassbg-2024.pdf",
+      "sha256": "2a8657180e474024b683fbd3fb734dcca2b8faf340b974da18a8241bbf3841f0",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "wassbg-draft-bt2011899",
+      "local_file": "research/energy/sources/wassbg-draft-bt2011899.pdf",
+      "sha256": "79dc4ce9725c03f62e480fd7037a293162c2051975ed4e9387a64e4255af22ee",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "wassbg-hearing-transcript-2024",
+      "local_file": "research/energy/sources/wassbg-hearing-transcript-2024.pdf",
+      "sha256": "835d180c835ea9314aee73e29bb58626ffc65ce953a053aae406c27dbd7fdf6a",
+      "result": "exists_hash_matches"
+    },
+    {
+      "source_id": "wong-2019-social-transition",
+      "local_file": "research/social-digital/wong-2019-social-transition.pdf",
+      "sha256": "54f1e3af54233b30cdd98e92d51801469e5b1c146699e8bc28eae2873fc05385",
+      "result": "exists_hash_matches"
+    }
+  ],
+  "limits": "Mechanical validation is not a specialist factual review. PDF text reading order, source access limitations and substantive alternative explanations require the recorded AI reviews and adjudications. No automated result establishes truth or author intent."
+}

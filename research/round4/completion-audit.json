@@ -1,0 +1,74 @@
+{
+  "status": "completed",
+  "started_at_utc": "2026-10-25T05:32:40+00:00",
+  "completed_at_utc": "2026-10-25T06:32:46.868420+00:00",
+  "elapsed_seconds": 3606.86842,
+  "minimum_duration_seconds": 3600,
+  "minimum_satisfied": true,
+  "counts": {
+    "provisional_findings": 61,
+    "major_findings": 11,
+    "minor_findings": 50,
+    "documents_with_provisional_findings": 53,
+    "documents_with_major_findings": 10,
+    "unresolved_leads": 38,
+    "rejected_candidates": 1,
+    "all_issue_records": 100,
+    "issue_associated_documents": 80,
+    "named_broad_reading_units": 626,
+    "reading_depths": {
+      "full_submission": 406,
+      "selected_passages": 91,
+      "keyword_triage": 128,
+      "full_text_ocr": 1
+    },
+    "source_entries": 530,
+    "source_entries_with_local_archives": 426
+  },
+  "validation": {
+    "issue_records": 100,
+    "errors": 0,
+    "warnings": 0,
+    "quotation_sources": 182,
+    "sources_over25words": 0
+  },
+  "case_inputs": [
+    "research/round4-tax/schuberdg2026-agsbv-costsum-tax-r4-01.json",
+    "research/round4-tax/estreform2027-dstv-anlagen-tax-r4-02.json",
+    "research/round4-social/gedig2026-svdgv-ceilings-social-r4-02.json",
+    "research/round4-social/gedig2026-svdgv-costs-social-r4-01.json",
+    "research/round4-root/pnog2026-wir-care-share-root-r4-01.json",
+    "research/round4-tax/tabstaendg2026-bvte-forecast-tax-r4-03.json"
+  ],
+  "ai_team": [
+    "root",
+    "social_round2",
+    "tax_consultations",
+    "energy_hearings"
+  ],
+  "source_and_review_paths_checked": true,
+  "baseline_preservation": "research/round4/baseline-preservation-audit.json",
+  "reading_count_reconciliation": "research/round4/reading-delta.json",
+  "independent_snapshot": "research/round4-reviews/energy-final-merged-pool-addendum.json",
+  "earlier_audit_snapshot_limits": "Earlier round4 audits authenticate their own snapshots. The final addendum includes the late unresolved BVTE case and records the added case-index evidence path without a new document. Audit-file indexes may be refreshed subsequently without changing case dispositions, counts or identities.",
+  "negative_and_open_outcomes": "research/round4/targeted-outcomes.json",
+  "national_coverage_established": false,
+  "human_specialist": null,
+  "author_contact_or_response_recorded": false,
+  "intent_inferred": false,
+  "sha256": {
+    "data/findings.json": "052f434c7b4a4db09b9cf837e78513acccd12061864e40ff01107167f5334b6f",
+    "data/unresolved-leads.json": "3a00167f5b132748afdb06a7dbb117d83429bd76d6824c0a73cbac3db19f108c",
+    "data/rejected-candidates.json": "39903ad033ff68a6f96d23179c952630aa83bc24f8bcd86d87134ba8dd0d31a3",
+    "data/source-registry.json": "4d7f90dd3691c10fc14f03e495924fc763be7b095f2b89820fd9e7245ab0f2ac",
+    "data/documents.json": "87ce057a07d0728210377fef225141647700aad9dfbf1f387f86ea843a18041f",
+    "data/screening-pool.json": "937accfb93967dc75f53deb4a8f7d0b5b074d14e332c8712296c5207f4c73f0c",
+    "data/screening-pool-summary.json": "8748b08bff6790b700ca66bfee07b04b355e23b79d50ec3faadc9fd7df510cf4",
+    "data/review-index.json": "0fda26f2aecea540f596704ebc0aeb7cdcb3f23e753053c21e4139aa57f06173",
+    "data/validation-report.json": "4c1cddb9f877caaa3e497da1f02e96da79287bd6593c9af00bf788518b950356",
+    "data/quotation-audit.json": "392e2d4b35d6df42476f18af733e4c716af9605f014c50afdd73683ea96425e2",
+    "data/coverage-progress.json": "19e4d43cbb38b5c6b04ca8bf3eee89c2ba05488856ef8bb4363e64cdacf66f83",
+    "data/bounded-coverage.json": "6f9186234ece7f91f5a41d92ec43a2be710c29a58d1b1602ebb1a36784080426",
+    "research/round4/assembly-manifest.json": "b883901872ef5137f963fd56e9f19f5ca734f8c959f365a3f5d912280fa0c2da"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "gedig2026-svdgv-ceilings-social-r4-02",
+  "law_id": "gedig-2026",
+  "document_id": "svdgv-gedig-20261012",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Digital health data, electronic patient records and access to digital care.",
+    "they_want": "Require manufacturer associations to agree on the statistical reporting parameters for DiGA.",
+    "they_claim": "Every digital health application has a reimbursement ceiling from its first day in the official directory.",
+    "the_problem": "The framework contains an express initial 2,000-code exemption under its ordinary group rules and separate category exceptions; ceilings do not constrain every DiGA from day one."
+  },
+  "claim_quote": {
+    "original": "jede DiGA ab dem ersten Tag",
+    "language": "de",
+    "translation_en": "Translation of fragment: every DiGA from the first day.",
+    "locator": {
+      "pdf_page": 16,
+      "printed_page": 16,
+      "section": "A.7, justification concerning § 33a(6), second paragraph; the sentence continues with listing in the directory and legally defined ceilings."
+    },
+    "underline": "ab dem ersten Tag"
+  },
+  "request_quote": {
+    "original": "im Einvernehmen",
+    "language": "de",
+    "translation_en": "Translation of fragment: by mutual agreement.",
+    "locator": {
+      "pdf_page": 16,
+      "printed_page": 16,
+      "section": "A.7, final justification paragraph requesting agreement with manufacturer associations on statistical data contents."
+    }
+  },
+  "counter_quote": {
+    "original": "gelten keine Höchstbeträge",
+    "language": "de",
+    "translation_en": "Translation: no maximum amounts apply.",
+    "source_id": "gkv-framework-20240228",
+    "locator": {
+      "pdf_page": 11,
+      "printed_page": 11,
+      "section": "§ 3d(1), first sentence, continuing onto physical/printed page 12: exemption where no more than 2,000 codes are redeemed in the first year."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The first-day claim is too broad if it means a binding ceiling constrains every DiGA from its first reimbursed sale. Under the framework’s ordinary group rules, § 3d expressly exempts up to 2,000 redeemed codes per DiGA ID in the first year. This is not a universal exemption for every route: the fallback-group treatment differs. The GKV implementation page, last updated 5 October 2026 before this submission, repeats the initial exemption. The framework also contains defined category exceptions. A legal ceiling framework exists, but that does not establish an effective ceiling for every application from day one.",
+  "effect": "This weakens the specific factual rebuttal used to call the GKV report misleading and to support manufacturer agreement over reporting definitions. It leaves the separate arguments about balanced reporting and practical data collection open.",
+  "limits": "The strongest benign reading is shorthand for the applicability of the general framework and group assignment from listing, rather than a claim that every sale is immediately capped. The association correctly identifies a legally mandated, jointly negotiated framework. Nevertheless its universal first-day wording is used to rebut first-year pricing discretion without acknowledging the express initial exemption. This narrow issue does not establish that the GKV report is unbiased, that every manufacturer can charge any amount indefinitely, that a particular price was lawful or unlawful, or that the reporting proposal is unwise. No intent inferred.",
+  "context_and_alternatives": [
+    "All 45 author pages were read. Physical page 16 was rendered and visually checked; pages 15–16 contain the complete request and justification. The association welcomes ending the annual report, challenges its tone and asks for shared determination of statistical parameters.",
+    "The actual 2025 GKV report, published 1 April 2026, uses unilateral-pricing language in its executive summary, but its complete ceiling section on physical pages 23–25 explicitly describes the framework, the initial exemption and other exceptions. Do not portray the entire report as denying the existence of ceilings, or treat the policy disagreement over its language as the error.",
+    "Framework group assignment can operate retrospectively from listing under § 3b(5), while § 3d separately exempts initial quantities. This is the concrete framework-versus-effective-cap alternative.",
+    "Current § 134(5) contains a mandatory fallback-group ceiling provision. It still makes ceilings dependent on utilisation. The pre-submission October 2026 implementation explanation explicitly retains the 2,000-code exemption. No conclusion about every old fallback-group clause remaining unchanged is needed."
+  ],
+  "materiality_explanation": "Minor: the scope error concerns one specific rebuttal in a broader request about reporting governance. No aggregate price effect or patient impact is established. Materiality is independent of its direction.",
+  "direction_explanation": "True narrowly: presenting universal immediate ceilings makes the GKV report’s pricing criticism appear less defensible and supports the author’s request for manufacturer agreement on reporting definitions. Correcting the exemption weakens that particular rationale.",
+  "confidence": {
+    "text_source_mismatch": "high for the express initial exemption; provisional editorial assessment of the author’s universal wording",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "source_id": "gedig-government-bt218279",
+    "addressed_version": "Government bill BT 21/8279, 30 September 2026.",
+    "exactness": "The author expressly identifies the government hearing and distinguishes its earlier 5 May ministry response. The government-column § 33a(6) wording matches operative physical page 12. This case concerns a description of the existing pricing framework used to justify an amendment to reporting rules.",
+    "locator": {
+      "pdf_page": 12,
+      "section": "Article 1 no. 4(c), replacement § 33a(6) and (7)."
+    },
+    "read_extent": "Relevant operative and financial passages only; no full 258-page bill read."
+  },
+  "submission_source": {
+    "url": "https://www.bundestag.de/resource/blob/1224358/21-14-00115-21-Spitzenverband-Digitale-Gesundheitsversorgung-Innovation-nicht-barrierefrei.pdf",
+    "local_file": "research/round3-social/coverage-pdfs/0b68365ef906bb5288.pdf",
+    "authored_date": "2026-10-12",
+    "committee_cover_date": "2026-10-13",
+    "channel": "Official Bundestag health committee submission 21(14)115(21)."
+  },
+  "source_ids": [
+    "svdgv-gedig-20261012",
+    "gedig-government-bt218279",
+    "gkv-framework-20240228",
+    "gkv-diga-ceilings-20261005",
+    "gkv-diga-report2025",
+    "gii-sgb5-134-current"
+  ],
+  "reading_depth": {
+    "author": "All 45 pages; physical page 16 visually checked.",
+    "counter_sources": "Framework cover and selected physical pages 4–6 and 10–15; official implementation page relevant sections and update date; current § 134 in full; GKV report selected executive-summary and pricing/framework passages, especially physical pages 6 and 23–25. No full 39-page framework or 81-page report appraisal."
+  },
+  "source_access_limit": "Original framework and report read through the web tool. Direct local GKV-host downloads timed out; do not claim successful local PDF archives unless a later verified file is added.",
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "root independent AI",
+        "review_file": "research/round4-reviews/root-reviews-svdgv-ceilings.json",
+        "verdict": "Retain narrow provisional minor/true. Preserve framework-versus-effective-cap rescue and distinguish ordinary initial exemption from fallback-group treatment."
+      },
+      {
+        "reviewer": "energy_hearings independent AI",
+        "review_file": "research/round4-reviews/energy-reviews-svdgv-ceilings.json",
+        "verdict": "Retain narrow provisional minor/true. Initial exemption applies to ordinary groups; fallback differs. General-framework and group-assignment reading remains the strongest benign alternative."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded provisionally after complete author read, original visual check and primary framework/implementation checks. Framework-versus-effective-cap alternative retained; independent reviews requested.",
+      "by": "social_round4_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent root review retained the narrow provisional finding. Correction clarified that the initial 2,000-code exemption is not a universal entitlement for every application; fallback-group treatment differs.",
+      "by": "social_round4_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Request locator moved to the identical two-word fragment in the visually verified final paragraph on physical/printed page 16, avoiding column-extraction ambiguity on page 15. Text and substantive disposition unchanged.",
+      "by": "social_round4_ai"
+    }
+  ]
+}

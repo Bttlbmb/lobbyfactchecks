@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-25",
+  "reviewer": "root_ai_screen",
+  "reviewed_issue_ids": [
+    "geowg2024-muellersyhre-a02",
+    "geowg2024-muellersyhre-a03"
+  ],
+  "purpose": "Final arithmetic and direction check after combined-input qualification was added; not a new source review or a finding about observed profitability.",
+  "input_basis": "Use only the already recorded hypothetical COP4.59 and heat-price9.5ct with independently documented household-electricity42.29ct; no industrial-tariff equivalence asserted.",
+  "calculated": {
+    "corrected_ratio": "1.031094821470796878694726886",
+    "with_delivery_3percent_of_raw": "1.001062933466793086111385326",
+    "with_delivery_3percent_of_retail": "1.000161976826672972333885079",
+    "raw_cost_break_even_percent": "3.109482147079687869472688600",
+    "retail_share_break_even_percent": "3.015709207659672055956885700"
+  },
+  "assessment": "The exact combined correction still leaves a3%delivery-cost example just above one under both denominator conventions. But delivery only needs to be slightly above3%to reverse that result, and the stated greater-than2.8%lower bound does not determine it. Keep a02 unresolved/null. The a03 input/arithmetic errors improve the model for heat pumps, so their direction remains false for the author’s request to reject the bill.",
+  "limits": "No validation of the COP, heat-price benchmark, actual delivery costs, capital costs or commercial viability; this calculation does not turn a forecast into a proven error.",
+  "new_original_quotations": false
+}

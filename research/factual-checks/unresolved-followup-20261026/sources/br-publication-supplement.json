@@ -1,0 +1,27 @@
+{
+  "reviewer": "b",
+  "checked_at_utc": "2026-10-26T00:43:17.355391+00:00",
+  "supplements_frozen_review": "research/factual-checks/unresolved-followup-20261026/reviews/b-reviews-a.json",
+  "review_sha256": "3633ad130f3e11e5572ef8189a84ac465564d4eb8bc038ba4593076705703742",
+  "checks": [
+    {
+      "id": "uf-br-iqwig-publication",
+      "url": "https://www.iqwig.de/projekte/a26-67.html",
+      "identity": "Official IQWiG A26-67 project page",
+      "read_extent": "Complete short substantive project page, including report-document publication labels, lines 2–51.",
+      "results": "Dossier assessment and summary both explicitly labelled Veröffentlicht am 01.09.2026, before 3 September author responses. This independently authenticates publication timing, separate from PDF version 25 August.",
+      "observed_sha256": null,
+      "limits": "Primary browser-text read; no original-byte hash or exact same-day price database history claimed."
+    },
+    {
+      "id": "uf-br-diabinfo-date",
+      "url": "https://www.diabinfo.de/leben/folgeerkrankungen/augen.html",
+      "identity": "Shared research-institution clinical information HTML",
+      "read_extent": "Source-list tail and clinical-text Stand label, separate from current related-news dates.",
+      "results": "Explicit Stand: 30.12.2022 verified; not merely the adjacent cited-source last-access date.",
+      "observed_sha256": "40fd5a79044e058f359b7d05125875a282dae8a64f5af7a4a4b0e1624c1350bd",
+      "limits": "Clinical risk category, not an individual future outcome or diabetes census."
+    }
+  ],
+  "retention": "Authored date check only; no new public-source download. Frozen peer and initial source notes unchanged."
+}

@@ -1,0 +1,102 @@
+{
+  "id": "idnrg-ground-register-known-public-packet",
+  "as_of": "2026-10-25",
+  "status": "known_official_ministry_packet_full_author_reading_complete",
+  "population_scope": "All7authorPDFsinsideofficial2October2026ministryresponseZIP for20July2026ruleproposal. Not all actual submissions or final national window population.",
+  "source_process_url": "https://www.bmjv.de/SharedDocs/Gesetzgebungsverfahren/DE/2026_Aenderung_IDNrG_Grundbuecher.html",
+  "response_container_url": "https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/Stellungnahmen/2026/1002_Stellungnahmen_RefE_IDNrG.zip?__blob=publicationFile&v=2",
+  "response_container_sha256": "09f9d7505996d8dc695c9902f691648f907fb878e8315c598afefe68194d18ab",
+  "members": [
+    {
+      "name": "Stellungnahme BNotK.pdf",
+      "local_file": "research/round3-root/coverage/package-members/70dc62e0c15287deba79.pdf",
+      "sha256": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+      "pages": 5,
+      "reading": "full_author_text_read"
+    },
+    {
+      "name": "Stellungnahme DATABUND.pdf",
+      "local_file": "research/round3-root/coverage/package-members/e988e94152724ca18e6c.pdf",
+      "sha256": "5bc89faa12bb4469ebc4962df2470ff2f052fb944a84f28e3b65cd9378509f2c",
+      "pages": 2,
+      "reading": "full_author_text_read"
+    },
+    {
+      "name": "Stellungnahme DAV.pdf",
+      "local_file": "research/round3-root/coverage/package-members/4ad8dc289a29234a308d.pdf",
+      "sha256": "614b10ba3b8dbc7a11728bcac2b49e6b6befab52a938e878ebccfd4dab271cbf",
+      "pages": 4,
+      "reading": "full_author_text_read"
+    },
+    {
+      "name": "Stellungnahme DNotV.pdf",
+      "local_file": "research/round3-root/coverage/package-members/9128f71fd4c3fff3b58f.pdf",
+      "sha256": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+      "pages": 4,
+      "reading": "full_author_text_read"
+    },
+    {
+      "name": "Stellungnahme Städtetag.pdf",
+      "local_file": "research/round3-root/coverage/package-members/2c8eae086c97d6e8b252.pdf",
+      "sha256": "9372c9b810d4ad0c4cfeca94d42dac477c2bdeb9e1623d8de482cc55179ac72e",
+      "pages": 6,
+      "reading": "full_author_text_read"
+    },
+    {
+      "name": "Stellungnahme VDV.pdf",
+      "local_file": "research/round3-root/coverage/package-members/e2ba6f91a069b805bd8e.pdf",
+      "sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+      "pages": 2,
+      "reading": "full_author_text_read"
+    },
+    {
+      "name": "Stellungnahme ZBI.pdf",
+      "local_file": "research/round3-root/coverage/package-members/b559f95b62c7fa35bbf0.pdf",
+      "sha256": "65734c02596c9cc46940ffde4effd5bf6eed22f058b72843fe6dc218a5ebed06",
+      "pages": 3,
+      "reading": "full_author_text_read"
+    }
+  ],
+  "authored_versions": 7,
+  "author_physical_pages": 26,
+  "printed_author_dates": {
+    "day_or_month_in_window": 6,
+    "not_printed": 1
+  },
+  "delivery_dates": {
+    "register_reported_in_window_DAV": 1,
+    "independently_authenticated_receipt": 0,
+    "others_not_verified": 6
+  },
+  "register_crosscheck": {
+    "central_window_text_search": "IDNrG|Identifikationsnummerngesetz over1558extractedPDFs; onlytwohits, not proofallscanned/incompletelyextractedcopiesabsent",
+    "same_authored_response": "DAVpacketbodyequalsSG2608110005afterwhitespacenormalisation",
+    "other_hit": "SG2609010017isABVRegisterzensusresponse, unrelatedproposalandnotaddedtoIDNrGpacket",
+    "limits": "Negativekeywordmatchisnotcompletecrosschannelclosure; scansandparaphrasescanbemissed."
+  },
+  "actor_scope": "Sixprofessionalbodies/associationsandonejointmunicipalumbrellaposition; jointauthorshiponce. Publicselfgovernmentfunctionsnotlabelledprivatecompanies.",
+  "draft": {
+    "local_file": "research/round3-root/coverage/sources/idnrg-regelungsentwurf-20260720.pdf",
+    "sha256": "b40199901fd08e2db16993c5d14a368efb5b69aae330516d5b4e84b26937e8fa",
+    "extent": "Operative2–3,memorandum8–11andbackground1;notcompletecostmethodaudit"
+  },
+  "targeted_primary_checks": [
+    {
+      "claim": "DATABUNDmessageidentifier",
+      "result": "AffirmativelyconfirmedbyofficialXJustiz3.6.2DABAGmoduleandJuly2026specification§3.5.2physical148–149. Noerror.",
+      "url": "https://xjustiz.justiz.de/system/pdf/Spezifikation_XJustiz_3_6_2_Nachlieferung_DABAG_07_2026.pdf"
+    },
+    {
+      "claim": "Municipalumbrella31August2028generaldeadline",
+      "result": "Narrowminorprovisionalerror. Correct31December2028;energyindependentreviewconfirms.",
+      "issue_id": "idnrg2026-kommunale-deadline-root-r3-01"
+    }
+  ],
+  "reading_ledger": "research/round3-root/screening-log.json",
+  "limits": [
+    "Allauthorpagesread,includingVDVandZBIfirstpagesvisuallybecauseextractionomitscannedcovers.",
+    "Fullreadingdoesnotcertifyeveryassertionorfuturetechnicaleffect.",
+    "Notallseparatelegal/technicalreferencesineveryresponseindependentlyaudited.",
+    "Nooverallthree-channelcompletecoverageorprevalenceclaim."
+  ]
+}

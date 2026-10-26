@@ -1,0 +1,89 @@
+{
+  "id": "biostoffv2026-dgaum-postcovid-latency-fc01",
+  "law_id": "biostoffv-2026",
+  "document_id": "biostoffv2026-dgaum-20260929",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "candidate_status": "not_admitted_pending_fresh_contextual_review",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Modernising safety rules for occupational exposure to biological agents.",
+    "they_want": "Support long-term central exposure records for occupational epidemiology and recognition of occupational disease.",
+    "they_claim": "A list including postCOVID syndromes is used as an example of diseases with several-decade latency.",
+    "the_problem": "Possible conflation of typical onset latency with persistence or future sequelae; the grouped reading and evidential reach require independent review."
+  },
+  "claim_quote": {
+    "original": "weisen Latenzzeiten von mehreren Jahrzehnten auf.",
+    "language": "de",
+    "translation_en": "have latency periods of several decades.",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": 2,
+      "section": "4. Epidemiologischer Mehrwert zentraler Expositionsregister",
+      "paragraph": "The immediately preceding parenthesis lists chronic viral hepatitis, postCOVID syndromes and occupational neoplasms."
+    }
+  },
+  "request_quote": {
+    "original": "ausdrücklich unterstützt.",
+    "language": "de",
+    "translation_en": "expressly supported.",
+    "locator": {
+      "pdf_page": 2,
+      "section": "4, support for ZED data transmission"
+    }
+  },
+  "counter_quote": {
+    "original": "usually 3 months",
+    "language": "en",
+    "translation_en": "usually3months",
+    "source_id": "bio-root-who2021",
+    "locator": {
+      "section": "Overview, clinical case definition"
+    }
+  },
+  "correction": "WHO2021 describes the postCOVID clinical condition as usually occurring around3months from acute COVID onset, with symptoms lasting at least2months; symptoms can persist or start after initial recovery. This does not supply a universal maximum onset latency or rule out unknown futurelateeffects. Long-term persistence and some other diseases’ delayed sequelae are separate.",
+  "effect": "If the sentence explicitly assigns established several-decade onset latency to postCOVID itself, that example appears overstated. Long-term registers remain justified by other diseases and by follow-up needs.",
+  "limits": "The sentence begins Zahlreiche and groups heterogeneous conditions; it may be loose shorthand for varied long-term occupational risks rather than a claim that every example has established several-decade onset latency. WHO’s usual3months is not a universal maximum, and its diagnostic minimum must not be misreported as one. Futurelateeffects are uncertain. No author response, human specialist confirmation or intent inference.",
+  "context_and_alternatives": [
+    "The entire two-page original was independently read by researcher C and root; root visually inspected physicalp2.",
+    "The wider paragraph supports standardized long-term documentation. Correcting the postCOVID example would not refute that rationale or chronic-infection/neoplasm latency.",
+    "C040 initially recommends narrow overstatement; root is testing whether grouped wording and the source’s nonexclusive definition prevent a sufficiently clear author-error finding.",
+    "Existing three bibliographic findings in this response are already admitted and are not new; they cannot substitute for evidence on this medical premise."
+  ],
+  "materiality_explanation": "At most minor: a single illustrative timing example in a supporting paragraph. No correction to the need for long-term exposure records, or to the entire draft, is established.",
+  "direction_explanation": "Undetermined pending whether an actual error is established; no overall policy-direction claim.",
+  "confidence": {
+    "text_source_mismatch": "under_review",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "source_id": "biostoffv-2026-root-draft",
+    "version_limits": "Current undated officialPDF has2October2026technicalmetadata; originaladdresses31Augustdispatch/Augustdraft. Candidate tests an independent medical assertion, not a textual difference between draftversions."
+  },
+  "submission_source_id": "biostoffv2026-dgaum-20260929",
+  "source_ids": [
+    "biostoffv2026-dgaum-20260929",
+    "bio-root-who2021",
+    "bio-root-who2023"
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": []
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "Initial C040 overstatement hypothesis staged by root with fair alternatives; not admitted. Fresh independent contextual review requested.",
+      "by": "root"
+    }
+  ],
+  "verification": {
+    "original_pdf": "research/round3-social/coverage-pdfs/acfe36c057b07d7dc3.pdf",
+    "original_sha256": "fe9959645f6c4ffe1393a08de887373c2ead210a06f34124d36448ce10e3362a",
+    "root_visual_check": "Physicalp2 rendered from originalPDF and inspected.",
+    "evidence_extent": "WHO2021clinicaldefinition overview and2023Q&A read independently; no universal maximum latency inferred."
+  },
+  "factual_check_claim_id": "biostoffv-2026-c-040"
+}

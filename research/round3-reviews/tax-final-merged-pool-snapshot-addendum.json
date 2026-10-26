@@ -1,0 +1,152 @@
+{
+  "id": "tax-final-merged-pool-snapshot-addendum",
+  "reviewed_at_utc": "2026-10-25T05:11:34.935359+00:00",
+  "reviewer": "tax_consultations AI agent",
+  "prior_audit": "research/round3-reviews/tax-final-merged-pool-register-links-audit.json",
+  "prior_audit_sha256": "b7d80eaf9f143b5aae5d13afb96841fd1f1c37d7803b2546be7d5540262cc934",
+  "prior_audit_preserved": true,
+  "current_snapshot_files": [
+    {
+      "file": "data/screening-pool.json",
+      "sha256": "bbca6fb012fcd387bf6e96d0a9b938f5a9bc6ab0608187036c6c4498bbf4753e"
+    },
+    {
+      "file": "data/screening-pool-summary.json",
+      "sha256": "799351dca445802adfe04b70077c893254b5315a5aeb188a6c5d14ee890273e6"
+    },
+    {
+      "file": "research/round3-root/coverage/register-positive-reading-links.json",
+      "sha256": "6acdc8a0d92f2ca864d7a6192314cbbcf4a6dec4383f356bc4a5f0478129fdb7"
+    },
+    {
+      "file": "research/build_screening_pool.py",
+      "sha256": "28fc356d4b20df6dbe12a88042b39bf57ee62b384c17b9c6239be9351af4dd58"
+    },
+    {
+      "file": "research/round3-root/coverage/crosswalk_register_reading.py",
+      "sha256": "02d35038a593767bb384556a2761dc835566618a342a2a610b4211433cd9ec52"
+    },
+    {
+      "file": "research/round3-root/coverage/register-archive-manifest.json",
+      "sha256": "39bd16f75dcbbe1c230efd2d9f94f93c6040ab9ab3d4443c8df414b4e01d165f"
+    }
+  ],
+  "authenticated_delta": {
+    "method": "Reverse only the three identified evidence-label substitutions in memory and serialize with the existing stable JSON format. The resulting entire pool hash exactly equals the prior audited pool hash. Likewise remove only the new audit-reference entry from summary and authenticate its entire previous hash. Original files were not mutated.",
+    "three_labels": [
+      {
+        "reading_unit_id": "bwp-behg-20261002",
+        "evidence_id": "bwp-behg-20261002",
+        "field": "screening_evidence.date_or_version",
+        "previous": "2October2026 authoredtext;6Octobercommittee receipt",
+        "current": "2October2026 authoredtext;6Octobercommittee cover",
+        "depth": "full_submission",
+        "document_kind": "written_submission",
+        "external_submission": null,
+        "window_qualifiers": {
+          "window_start": "2026-07-25",
+          "window_end": "2026-10-24",
+          "status": "window_relevant_author_or_cover_date_delivery_unverified",
+          "verified_delivery_date": null,
+          "limit": "Author/version and committee-print dates are separate. No exact sent date inferred from a hearing or publication date."
+        }
+      },
+      {
+        "reading_unit_id": "ewe-behg-20261006",
+        "evidence_id": "ewe-behg-20261006",
+        "field": "screening_evidence.date_or_version",
+        "previous": "6October2026 committee receipt; authored text refers7October hearing",
+        "current": "6October2026 committee cover; authored text refers7October hearing",
+        "depth": "full_submission",
+        "document_kind": "written_submission",
+        "external_submission": null,
+        "window_qualifiers": {
+          "window_start": "2026-07-25",
+          "window_end": "2026-10-24",
+          "status": "window_relevant_author_or_cover_date_delivery_unverified",
+          "verified_delivery_date": null,
+          "limit": "Author/version and committee-print dates are separate. No exact sent date inferred from a hearing or publication date."
+        }
+      },
+      {
+        "reading_unit_id": "foes-behg-20261006",
+        "evidence_id": "foes-behg-20261006",
+        "field": "screening_evidence.date_or_version",
+        "previous": "6October2026committee receipt;writtenfor7Octoberhearing",
+        "current": "6October2026committee cover;writtenfor7Octoberhearing",
+        "depth": "full_submission",
+        "document_kind": "written_submission",
+        "external_submission": null,
+        "window_qualifiers": {
+          "window_start": "2026-07-25",
+          "window_end": "2026-10-24",
+          "status": "window_relevant_author_or_cover_date_delivery_unverified",
+          "verified_delivery_date": null,
+          "limit": "Author/version and committee-print dates are separate. No exact sent date inferred from a hearing or publication date."
+        }
+      }
+    ],
+    "reconstructed_prior_pool_sha256": "5dc09ba66d1e3de9d689417779e60bcede1d3ff1b9ece9f7fa952fd9f957161f",
+    "matches_prior_audited_pool": true,
+    "summary_added_reference": [
+      {
+        "field": "active_round_independent_audits",
+        "entry": "research/round3-reviews/tax-final-merged-pool-register-links-audit.json"
+      }
+    ],
+    "reconstructed_prior_summary_sha256": "26ccb2cf84b0d57d409452ed4ebcfed177e6e1d995f42f61752c430f4aba0f5a",
+    "matches_prior_audited_summary": true,
+    "reconstructed_prior_energy_ledger_sha256": "feae2ea9de83b8b206b133fa0e41b2c720f5577413b3f8068ddd9ccda40ec119",
+    "matches_prior_audited_energy_ledger": true
+  },
+  "current_recounts": {
+    "named_included_units": 565,
+    "by_depth": {
+      "full_submission": 358,
+      "selected_passages": 81,
+      "keyword_triage": 125,
+      "full_text_ocr": 1
+    },
+    "by_document_kind": {
+      "written_submission": 545,
+      "government_consultation_response": 12,
+      "consultation_reply_declining_formal_statement": 1,
+      "public_statement": 6,
+      "oral_contribution": 1
+    },
+    "actor_states": {
+      "unreconciled": 457,
+      "external": 96,
+      "government": 12
+    },
+    "counts_depth_kinds_match_prior_audit": true,
+    "actor_states_match_prior_audit": true,
+    "summary_matches_current_recounts": true,
+    "no_delivery_credit_gained": true,
+    "rental_named_members": 26,
+    "rental_anonymous_addition": 0
+  },
+  "unchanged_audited_inputs": {
+    "research/round3-root/coverage/register-positive-reading-links.json": true,
+    "research/build_screening_pool.py": true,
+    "research/round3-root/coverage/crosswalk_register_reading.py": true,
+    "research/round3-root/coverage/register-archive-manifest.json": true
+  },
+  "other_round3_ledgers": [
+    {
+      "branch": "root",
+      "hash_unchanged": true
+    },
+    {
+      "branch": "tax",
+      "hash_unchanged": true
+    },
+    {
+      "branch": "social",
+      "hash_unchanged": true
+    }
+  ],
+  "register_link_carry_forward": "Positive-link output, producer, archive manifest and pool builder hashes equal the prior audit. The 49 positive SG links and 48 full-author-reading links remain covered by that unchanged byte-identity audit; no second rehash of all 1558 PDFs was needed.",
+  "limits": "This addendum checks the final structural snapshot and conservative date-label correction only. It does not add substantive reads, authenticate delivery, or change national-cohort completeness.",
+  "disposition": "Final revised snapshot passes. Only three committee-receipt labels changed to committee-cover labels, and summary gained the prior audit reference. Counts, roles, depths and all delivery-unverified qualifiers are unchanged; no delivery credit gained."
+}

@@ -1,0 +1,42 @@
+{
+  "reviewer": "independent_tax_ai",
+  "reviewed_at": "2026-10-25T11:15:50.003911+00:00",
+  "candidate_ids": [
+    "krwg2026-itad-recycling-method-energy-r6-01",
+    "krwg2026-itad-prevention-target-energy-r6-02"
+  ],
+  "input_hashes": {
+    "research/round6-energy/krwg2026-itad-recycling-method-energy-r6-01.json": "d401e5c3ab4be501275791dba2b7c46ae5eb2e3a92a1c3d38105856bb95f15c3",
+    "research/round6-energy/krwg2026-itad-prevention-target-energy-r6-02.json": "5c3c694b487c46cf1ca9c30477e5709eb8d29052b67af53a7dd3e34e89b0f893"
+  },
+  "scope": "Independent adversarial reading and selected primary-source checks; no author contact or new quotation.",
+  "read_extent": {
+    "submission": "All 24 physical pages, including full sections 2.3–2.4, 3.5 and the surrounding policy requests. A truncated final line on physical18 was separately re-read.",
+    "draft": "Complete physical pages 2,5–6,27–28, covering rationale, intensity definition, both prevention targets and explanations. Not the full 38-page draft.",
+    "eurostat_article": "Complete substantive eight-page article text including old/new rule discussion and presentational caveats.",
+    "spreadsheet": "Independently parsed original OOXML without relying on candidate arithmetic: Figure6 headers rows51–52, Germany row65 L65=46.360313083469023, N65=68.676040473479972; Figure5 row64 corroborates new-rule series.",
+    "law": "Original2019/1004 Article7 in full and adjacent reporting provisions; no claim to have re-read the complete decision.",
+    "destatis": "Current main article read in full; it affirmatively repeats already-met2035 wording.",
+    "visual": "Original physical20 rendered page visually checked."
+  },
+  "outcomes": [
+    {
+      "candidate_id": "krwg2026-itad-recycling-method-energy-r6-01",
+      "verdict": "retain_provisional_finding",
+      "severity": "major",
+      "favours_author_request": true,
+      "assessment": "The original expressly uses the statistical69percent series as the WFD compliance basis after listing2025/2030/2035 targets. This is stronger than its qualified attainment inference or legitimate questions about definitions. The Eurostat comparison and legal reporting distinction affirmatively identify a different target measure rather than merely missing evidence. The narrow error reverses the numerical premise of a substantial draft-reassessment argument.",
+      "strongest_alternative": "The author faithfully follows a current official Destatis explanation, including its target-attainment conclusion; an older indexed version closely matches the submitted numbers. Preserve this affirmative source rescue prominently. It explains the error and precludes alleging invented data, but cannot reconcile the explicit69percent compliance-basis claim with Eurostat’s legal reporting series.",
+      "limits": "No conclusion that all measures are needed, that the old2020 target was missed, that2025 actual compliance is known, or that2035will be missed. Independent pre-author frozen-download evidence remains limited; spreadsheet/article metadata are not a time-machine archive. The exact26June attachment bytes remain unproved after July modification."
+    },
+    {
+      "candidate_id": "krwg2026-itad-prevention-target-energy-r6-02",
+      "verdict": "retain_provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "assessment": "The author clearly distinguishes40percent intensity earlier, quotes the true20percent municipal rule immediately before, then calls40percent a municipal-volume reduction while requesting adjustment. A local reference/copy slip is the strongest rescue and justifies minor. The numerical misdescription still makes that particular feasibility objection sound stronger.",
+      "limits": "The correct operative text is already on the same page, so do not imply the whole submission misunderstands the targets or that its feasibility objections are disproved."
+    }
+  ],
+  "independence_note": "Read local original and primary artifacts and independently reconstructed spreadsheet cells. Did not rely only on the proposing agent summary. No additional author quotations introduced."
+}

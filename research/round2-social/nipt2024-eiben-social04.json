@@ -1,0 +1,106 @@
+{
+  "id": "nipt2024-eiben-social04",
+  "law_id": "nipt-monitoring-motion-2024",
+  "document_id": "eiben-nipt-2024",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "A motion for monitoring public insurance coverage of non-invasive prenatal testing and establishing an interdisciplinary advisory body.",
+    "they_want": "Welcome monitoring, but shape its aims and design around the current factual position.",
+    "they_claim": "Quoted parliamentary and newspaper statements indicate a misunderstanding of positive predictive value.",
+    "the_problem": "The quoted MP immediately specified the conditional denominator correctly. Whether the submission alleges her misunderstanding, rather than criticising the framing, remains unresolved."
+  },
+  "draft": {
+    "title": "Kassenzulassung des nichtinvasiven Pränataltests – Monitoring der Konsequenzen und Einrichtung eines Gremiums",
+    "version": "BT 20/10515, 28 February 2024, parliamentary motion",
+    "source_id": "nipt-motion2010515",
+    "hearing_date": "2024-10-09",
+    "submission_note": "The official hearing attachment reproduces a four-page journal article and bears a committee receipt stamp of 21 October 2024. No pre-hearing submission date is inferred.",
+    "relevant_provision": "MotionII.1–3 requests monitoring, an interdisciplinary body and reporting to Parliament."
+  },
+  "claim_quote": {
+    "original": "All diese Aussagen deuten offensichtlich auf eine Fehlinterpretation des positiv-prädiktiven Wertes des NIPT hin.",
+    "language": "de",
+    "translation_en": "Translation: All these statements clearly indicate a misinterpretation of the positive predictive value of NIPT.",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": 190,
+      "section": "Falsch verstandene Statistik",
+      "paragraph": "First paragraph, last sentence, right column"
+    },
+    "underline": "All diese Aussagen"
+  },
+  "request_quote": {
+    "original": "müssen sich aber am aktuellen Sachstand",
+    "language": "de",
+    "translation_en": "Translation of request fragment: must, however, be guided by the current factual position",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 191,
+      "section": "Abschließende Bemerkungen",
+      "paragraph": "First paragraph, sentence about the aims and design of an evaluation"
+    }
+  },
+  "counter_quote": {
+    "original": "die Wahrscheinlichkeit bei 52 Prozent, dass ein positives Ergebnis falsch ist.",
+    "language": "de",
+    "translation_en": "Translation of speech fragment: the probability is 52 percent that a positive result is wrong.",
+    "source_id": "nipt-debate20165",
+    "locator": {
+      "pdf_page": 60,
+      "printed_page": 21214,
+      "speaker": "Corinna Rüffer",
+      "column": "left, near bottom",
+      "paragraph": "Immediately following the high false-positive-rate sentence quoted by Eiben et al.; example of a 20-year-old pregnant woman"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Rüffer’s complete speech explicitly conditions the 52 percent on a positive result, rather than treating it as a share of every test. The submission’s own later explanation of positive predictive value is compatible with that denominator. This does not establish what she or the other speakers privately understood.",
+  "effect": "An allegation that the parliamentary concerns depend on confusing all tests with positive tests would be weaker for this quoted speech. Whether this is the authors’ exact allegation remains unresolved; they may principally reject the framing of rare overall false-positive outcomes as worrying.",
+  "limits": "The claim uses an inference, deuten, and the later text expressly offers the authors’ judgment about whether the frequency is worrying. Concern among test-positive patients and frequency among all tested patients can coexist. The Welt article has not been independently read, so its full context is not adjudicated. No clinical test-performance, screening-appropriateness or policy conclusion follows. No intent is inferred.",
+  "context_and_alternatives": [
+    "Full four-page author article and four-page exact motion read. Author welcomes monitoring rather than asking for rejection of the motion.",
+    "The author quotes two MPs and a newspaper, then explains the distinction between positive-test results and all results. Rüffer’s conditional example immediately follows the excerpt the author selected; Kappert-Gonther interjects agreement. Her own later speech explains that positive results require invasive diagnostic clarification.",
+    "The general term rate is potentially ambiguous without a denominator, but the adjacent sentence supplies it. A complaint about the rhetorical impression of the first sentence is different from a factual allegation that the speaker confused denominators.",
+    "The original Lu 2024 primary study, including its age-specific tables, supports the author’s approximate young-women positive predictive value and rarity figures. No separate numerical test-performance issue is promoted.",
+    "Lu 2024 is expressly retrospective, whereas the author calls it prospective. Prospective data collection within a retrospective analysis is a possible benign reading; no separate finding is asserted."
+  ],
+  "materiality_explanation": "Potentially minor source-description issue: this is an auxiliary criticism of the premises for an evaluation which the author nevertheless expressly supports. It does not determine the proposed monitoring or committee design.",
+  "direction_explanation": "Null while the interpretive issue remains unresolved. A confirmed overstatement would support the author’s request to reshape the evaluation around what they describe as the current factual position.",
+  "confidence": {
+    "text_source_mismatch": "unresolved: the primary speech’s denominator is clear, but the exact object of the author’s criticism remains open",
+    "materiality": "editorial_judgment"
+  },
+  "submission_source_id": "eiben-nipt-2024",
+  "source_ids": [
+    "eiben-nipt-2024",
+    "nipt-motion2010515",
+    "nipt-debate20165",
+    "lu-2024-nipt"
+  ],
+  "source_registry": "research/round2-social/sources.json",
+  "verification": {
+    "visual": "Original author physicalpage 2 and primary parliamentary physicalpage 60 rendered and visually inspected.",
+    "quotation_budget": "Unique quoted author text is 21 words; primary parliamentary counterquote is 12 words."
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "energy_hearings_ai_agent",
+        "path": "research/round2-reviews/energy-reviews-eiben-nipt.json",
+        "outcome": "retain_unresolved_lead_minor_null"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as unresolved source-description lead; alternative framing interpretation prevents promotion. Independent energy AI review requested.",
+      "by": "social_round 2_ai_screen"
+    }
+  ]
+}

@@ -1,0 +1,3255 @@
+{
+  "reviewer": "c",
+  "audit_type": "Independent final read-only integration audit of the short-statement factual-check continuation",
+  "status": "pass_with_disclosed_concurrent_external_changes",
+  "started_at_utc": "2026-10-25T12:08:20.586811+00:00",
+  "completed_at_utc": "2026-10-25T12:14:19.037356+00:00",
+  "guidance": {
+    "file": "AGENTS.md",
+    "sha256": "afc424e3078be78ba27980adf1d49665e61310fb066cf597891679d1c1e1ae1c",
+    "read_before_audit": true,
+    "storage_policy_applied": "No downloads, source restoration, bulk source retention or live builder writes. Retained source exceptions and derivative-cleanup provenance checked."
+  },
+  "scope": {
+    "batches": [
+      "driving-2026",
+      "fruehstart-2026",
+      "biostoffv-2026"
+    ],
+    "documents": 22,
+    "physical_pdf_pages": 120,
+    "assessments": 401,
+    "outcomes": {
+      "supported": 231,
+      "unresolved": 169,
+      "overstated": 1
+    },
+    "initial_claims_individually_peer_reviewed": 390,
+    "root_omission_assessments": 11,
+    "main_issue_admissions": [],
+    "new_reading_units": 0,
+    "population_limit": "21 clearly external responses plus one DGUV reply whose external boundary remains unresolved; 22 published PDFs assessed without a national denominator."
+  },
+  "method": "Full short index and relevant generic assembly/annotation/bounded-output code inspected; current generic code AST parsed and independently executed through runpy with Path.write_text intercepted in memory and mkdir suppressed. All three strict batch rebuilds validated fresh pdftotext extraction, PDF pages/hashes, original anchors, schema, sources, every initial/peer/challenge/omission mapping, final candidate records and manifest gates. Saved JSON reproduced except generated timestamps; all batch and continuation HTML reports reproduced exactly. Default historical index JSON reproduced except timestamp and its previously audited introductory phrasing delta. Only this final audit record was written in the project.",
+  "reviewed_code": [
+    {
+      "file": "research/build_factual_batch.py",
+      "sha256": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+      "syntax_valid": true
+    },
+    {
+      "file": "research/build_factual_index.py",
+      "sha256": "2b8c9c4d667c06461f28c128a27f975947c07af9a7e23edda32c64fab572ea3d",
+      "syntax_valid": true
+    },
+    {
+      "file": "research/build_screening_pool.py",
+      "sha256": "92d95bb87225ffa9e355097008d1a7c6fe9775c52a98a3970c478603d52e7310",
+      "syntax_valid": true
+    },
+    {
+      "file": "research/build_bounded_coverage.py",
+      "sha256": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+      "syntax_valid": true
+    },
+    {
+      "file": "research/build_deliverables.py",
+      "sha256": "b1ac1179178f75b8fd9d40146bc553aaaac3bd91ef3ab433268578d2c198eaf2",
+      "syntax_valid": true
+    },
+    {
+      "file": "research/validate_deliverables.py",
+      "sha256": "850cdecab575d632006df09de4c6b29e9e416f242e33f45ddb5d095eda4edf57",
+      "syntax_valid": true
+    }
+  ],
+  "reviewed_code_limit": "Prior workflow findings reused only for the unchanged factual-batch and bounded builders at matching hashes. Changed deliverable/pool builders and latest index were freshly inspected/captured; no substantive Round6 finding or reading claim is certified.",
+  "checks": [
+    {
+      "check": "driving-2026 strict captured rebuild",
+      "passed": true,
+      "error": null
+    },
+    {
+      "check": "driving-2026 outputs reproduce",
+      "passed": true,
+      "files": [
+        {
+          "file": "research/factual-checks/driving-2026/validation-report.json",
+          "matches_except_generated_timestamps": true,
+          "saved_sha256": "67edf3faeae684d295f8ab6d013494153da9fc42dd7eb8d774fa9d345bce2acd",
+          "captured_sha256": "67edf3faeae684d295f8ab6d013494153da9fc42dd7eb8d774fa9d345bce2acd"
+        },
+        {
+          "file": "research/factual-checks/driving-2026/claim-ledger.json",
+          "matches_except_generated_timestamps": true,
+          "saved_sha256": "a829431eb7d36c37ccd551e73c12059e50e7289efd668de87caccb69b8f23800",
+          "captured_sha256": "b9c87c2a8618ad3fec748542846ae03c25377a1c16d78b59ec2b25d11b8f8d8f"
+        },
+        {
+          "file": "research/factual-checks/driving-2026/summary.json",
+          "matches_except_generated_timestamps": true,
+          "saved_sha256": "67c3a3b518f0906bae6604e0316f5dc447cb861fe69dcd8d28b181ce696f6368",
+          "captured_sha256": "0de4622fb5518e233926614b2797b311c460eb9c82a10f669223b506c5954f21"
+        },
+        {
+          "file": "research/factual-checks/driving-2026/report.html",
+          "matches_except_generated_timestamps": true,
+          "saved_sha256": "9c9c6f92e1ed7292361b6fca18a723afb3bc7c6cf2e15cde91171be9de2469fa",
+          "captured_sha256": "9c9c6f92e1ed7292361b6fca18a723afb3bc7c6cf2e15cde91171be9de2469fa"
+        }
+      ]
+    },
+    {
+      "check": "driving-2026 validator no errors",
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "check": "driving-2026 every peer and challenge bound",
+      "passed": true,
+      "peer_files": [
+        {
+          "file": "research/factual-checks/driving-2026/reviews/a-reviews-c.json",
+          "sha256": "fd1bc85cdd6d5a5c0168594ce282186b0960f40edab806a314551b86886d183b",
+          "claims": 42,
+          "challenges": 6,
+          "target_hash_and_full_claim_page_binding": true
+        },
+        {
+          "file": "research/factual-checks/driving-2026/reviews/b-reviews-a.json",
+          "sha256": "3f9c4dbb2b4ec93077d09a3d95d3497871f62f67ae4f17024eea7879fe74e240",
+          "claims": 44,
+          "challenges": 3,
+          "target_hash_and_full_claim_page_binding": true
+        },
+        {
+          "file": "research/factual-checks/driving-2026/reviews/c-reviews-b.json",
+          "sha256": "87f3ce5b2beca3843295357f13fb6770cd0e2051efc591b3e3b0bbfe76d8f3e5",
+          "claims": 34,
+          "challenges": 5,
+          "target_hash_and_full_claim_page_binding": true
+        }
+      ]
+    },
+    {
+      "check": "driving-2026 every omission bound",
+      "passed": true,
+      "omissions": [
+        {
+          "file": "research/factual-checks/driving-2026/reviews/a-reviews-c.json",
+          "omission_index": 0,
+          "binding_complete": true,
+          "resolution": {
+            "review_file": "research/factual-checks/driving-2026/reviews/a-reviews-c.json",
+            "omission_index": 0,
+            "claim_ids": [
+              "driving-root-001"
+            ],
+            "disposition": "added_claim"
+          }
+        },
+        {
+          "file": "research/factual-checks/driving-2026/reviews/a-reviews-c.json",
+          "omission_index": 1,
+          "binding_complete": true,
+          "resolution": {
+            "review_file": "research/factual-checks/driving-2026/reviews/a-reviews-c.json",
+            "omission_index": 1,
+            "claim_ids": [
+              "driving-root-002"
+            ],
+            "disposition": "added_claim"
+          }
+        },
+        {
+          "file": "research/factual-checks/driving-2026/reviews/a-reviews-c.json",
+          "omission_index": 2,
+          "binding_complete": true,
+          "resolution": {
+            "review_file": "research/factual-checks/driving-2026/reviews/a-reviews-c.json",
+            "omission_index": 2,
+            "claim_ids": [
+              "driving-root-003"
+            ],
+            "disposition": "added_claim"
+          }
+        },
+        {
+          "file": "research/factual-checks/driving-2026/reviews/a-reviews-c.json",
+          "omission_index": 3,
+          "binding_complete": true,
+          "resolution": {
+            "review_file": "research/factual-checks/driving-2026/reviews/a-reviews-c.json",
+            "omission_index": 3,
+            "claim_ids": [
+              "driving-root-004"
+            ],
+            "disposition": "added_claim"
+          }
+        }
+      ]
+    },
+    {
+      "check": "fruehstart-2026 strict captured rebuild",
+      "passed": true,
+      "error": null
+    },
+    {
+      "check": "fruehstart-2026 outputs reproduce",
+      "passed": true,
+      "files": [
+        {
+          "file": "research/factual-checks/fruehstart-2026/validation-report.json",
+          "matches_except_generated_timestamps": true,
+          "saved_sha256": "197f49db037fd942ce36b9a2a8df4582b5eb91db55e0a7daae41b4168d08e375",
+          "captured_sha256": "197f49db037fd942ce36b9a2a8df4582b5eb91db55e0a7daae41b4168d08e375"
+        },
+        {
+          "file": "research/factual-checks/fruehstart-2026/claim-ledger.json",
+          "matches_except_generated_timestamps": true,
+          "saved_sha256": "4055eaf77060f12dd46402d6a80cba47939e3876a285cc975038cc538aaeda84",
+          "captured_sha256": "0fc8fde45404847f4100664eb0249a7b3ea083b7c054dbdcaee42678e77c3e31"
+        },
+        {
+          "file": "research/factual-checks/fruehstart-2026/summary.json",
+          "matches_except_generated_timestamps": true,
+          "saved_sha256": "b2f31f5f719e28858ce3ca6c05b837542eda25563fbbc3f6629b2b4cc00d8253",
+          "captured_sha256": "eabebdffc6290ecf9626f9a110fb95819ee0a47beee35fab3b2a7da2de2cecc0"
+        },
+        {
+          "file": "research/factual-checks/fruehstart-2026/report.html",
+          "matches_except_generated_timestamps": true,
+          "saved_sha256": "40de3123964b52e7d43e8297ed477f1026940b9766725cae8e0de9c200844f03",
+          "captured_sha256": "40de3123964b52e7d43e8297ed477f1026940b9766725cae8e0de9c200844f03"
+        }
+      ]
+    },
+    {
+      "check": "fruehstart-2026 validator no errors",
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "check": "fruehstart-2026 every peer and challenge bound",
+      "passed": true,
+      "peer_files": [
+        {
+          "file": "research/factual-checks/fruehstart-2026/reviews/a-reviews-c.json",
+          "sha256": "ba59887a742e020ecf3f3855b2da06d85c62860fe933956d3fc77c02ac9c913a",
+          "claims": 50,
+          "challenges": 0,
+          "target_hash_and_full_claim_page_binding": true
+        },
+        {
+          "file": "research/factual-checks/fruehstart-2026/reviews/b-reviews-a.json",
+          "sha256": "36fd78db3fab974d5526817436f3b9d5f1ff6d639b8621602c9fd9c5ee7c8827",
+          "claims": 41,
+          "challenges": 3,
+          "target_hash_and_full_claim_page_binding": true
+        },
+        {
+          "file": "research/factual-checks/fruehstart-2026/reviews/c-reviews-b.json",
+          "sha256": "5383cec3d6a35e223656e23f7c976512c078a53aa5b8a851d93341355768ee3e",
+          "claims": 49,
+          "challenges": 3,
+          "target_hash_and_full_claim_page_binding": true
+        }
+      ]
+    },
+    {
+      "check": "fruehstart-2026 every omission bound",
+      "passed": true,
+      "omissions": [
+        {
+          "file": "research/factual-checks/fruehstart-2026/reviews/a-reviews-c.json",
+          "omission_index": 0,
+          "binding_complete": true,
+          "resolution": {
+            "review_file": "research/factual-checks/fruehstart-2026/reviews/a-reviews-c.json",
+            "omission_index": 0,
+            "claim_ids": [
+              "fruehstart-root-001"
+            ],
+            "disposition": "added_claim"
+          }
+        },
+        {
+          "file": "research/factual-checks/fruehstart-2026/reviews/a-reviews-c.json",
+          "omission_index": 1,
+          "binding_complete": true,
+          "resolution": {
+            "review_file": "research/factual-checks/fruehstart-2026/reviews/a-reviews-c.json",
+            "omission_index": 1,
+            "claim_ids": [
+              "fruehstart-root-002"
+            ],
+            "disposition": "added_claim"
+          }
+        },
+        {
+          "file": "research/factual-checks/fruehstart-2026/reviews/c-reviews-b.json",
+          "omission_index": 0,
+          "binding_complete": true,
+          "resolution": {
+            "review_file": "research/factual-checks/fruehstart-2026/reviews/c-reviews-b.json",
+            "omission_index": 0,
+            "claim_ids": [
+              "fruehstart-root-003"
+            ],
+            "disposition": "added_claim"
+          }
+        }
+      ]
+    },
+    {
+      "check": "biostoffv-2026 strict captured rebuild",
+      "passed": true,
+      "error": null
+    },
+    {
+      "check": "biostoffv-2026 outputs reproduce",
+      "passed": true,
+      "files": [
+        {
+          "file": "research/factual-checks/biostoffv-2026/validation-report.json",
+          "matches_except_generated_timestamps": true,
+          "saved_sha256": "222425afced912082f78edd37ebc3cb4ab6f0af745248ad990d98398b729094b",
+          "captured_sha256": "222425afced912082f78edd37ebc3cb4ab6f0af745248ad990d98398b729094b"
+        },
+        {
+          "file": "research/factual-checks/biostoffv-2026/claim-ledger.json",
+          "matches_except_generated_timestamps": true,
+          "saved_sha256": "2fdd6f0d18246abc6bf674c1af0da5d0b8cccdc322269435572cbb8c889cafd3",
+          "captured_sha256": "fd9d9f5fd7844d6dc909d54d38b7fa865feb9745d6825c39f2abcdab8cc15c6b"
+        },
+        {
+          "file": "research/factual-checks/biostoffv-2026/summary.json",
+          "matches_except_generated_timestamps": true,
+          "saved_sha256": "5235d5eef5140f6be68431b9e83de7dfea6a6883a835d36ee614606bdf20d61c",
+          "captured_sha256": "da305493d8dc2816a78ab2b2f857fec5f5d1bf6fba2e65dbf1d4c7bc591a2d05"
+        },
+        {
+          "file": "research/factual-checks/biostoffv-2026/report.html",
+          "matches_except_generated_timestamps": true,
+          "saved_sha256": "03cc08528f2055e3982d628e4f6433a67480c8427164f461565caab48d75a154",
+          "captured_sha256": "03cc08528f2055e3982d628e4f6433a67480c8427164f461565caab48d75a154"
+        }
+      ]
+    },
+    {
+      "check": "biostoffv-2026 validator no errors",
+      "passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "check": "biostoffv-2026 every peer and challenge bound",
+      "passed": true,
+      "peer_files": [
+        {
+          "file": "research/factual-checks/biostoffv-2026/reviews/a-reviews-c.json",
+          "sha256": "24603fcf78953fc8d683879301a4494daaae1cefe5874181d68095a6da9c8213",
+          "claims": 41,
+          "challenges": 21,
+          "target_hash_and_full_claim_page_binding": true
+        },
+        {
+          "file": "research/factual-checks/biostoffv-2026/reviews/b-reviews-a.json",
+          "sha256": "0f4484a416bb9c6b9fddc8913c1c36db297d6e280ffd9c2fc3bf53c1109070d5",
+          "claims": 57,
+          "challenges": 1,
+          "target_hash_and_full_claim_page_binding": true
+        },
+        {
+          "file": "research/factual-checks/biostoffv-2026/reviews/c-reviews-b.json",
+          "sha256": "83a7528e5952c121818591671dfa6fccdd758a6061dabc94704b791da5b10583",
+          "claims": 32,
+          "challenges": 1,
+          "target_hash_and_full_claim_page_binding": true
+        }
+      ]
+    },
+    {
+      "check": "biostoffv-2026 every omission bound",
+      "passed": true,
+      "omissions": [
+        {
+          "file": "research/factual-checks/biostoffv-2026/reviews/a-reviews-c.json",
+          "omission_index": 0,
+          "binding_complete": true,
+          "resolution": {
+            "review_file": "research/factual-checks/biostoffv-2026/reviews/a-reviews-c.json",
+            "omission_index": 0,
+            "claim_ids": [
+              "biostoffv-root-001"
+            ],
+            "disposition": "added_claim"
+          }
+        },
+        {
+          "file": "research/factual-checks/biostoffv-2026/reviews/a-reviews-c.json",
+          "omission_index": 1,
+          "binding_complete": true,
+          "resolution": {
+            "review_file": "research/factual-checks/biostoffv-2026/reviews/a-reviews-c.json",
+            "omission_index": 1,
+            "claim_ids": [
+              "biostoffv-root-002"
+            ],
+            "disposition": "added_claim"
+          }
+        },
+        {
+          "file": "research/factual-checks/biostoffv-2026/reviews/a-reviews-c.json",
+          "omission_index": 2,
+          "binding_complete": true,
+          "resolution": {
+            "review_file": "research/factual-checks/biostoffv-2026/reviews/a-reviews-c.json",
+            "omission_index": 2,
+            "claim_ids": [
+              "biostoffv-root-003"
+            ],
+            "disposition": "added_claim"
+          }
+        },
+        {
+          "file": "research/factual-checks/biostoffv-2026/reviews/c-reviews-b.json",
+          "omission_index": 0,
+          "binding_complete": true,
+          "resolution": {
+            "review_file": "research/factual-checks/biostoffv-2026/reviews/c-reviews-b.json",
+            "omission_index": 0,
+            "claim_ids": [
+              "biostoffv-root-004"
+            ],
+            "disposition": "added_claim"
+          }
+        }
+      ]
+    },
+    {
+      "check": "continuation exact expected counts",
+      "passed": true,
+      "documents": 22,
+      "pages": 120,
+      "claims": 401,
+      "outcomes": {
+        "supported": 231,
+        "unresolved": 169,
+        "overstated": 1
+      },
+      "initial_peer_reviews": 390,
+      "omissions": 11
+    },
+    {
+      "check": "all nine initial freezes preserved",
+      "passed": true,
+      "inventories": [
+        {
+          "file": "research/factual-checks/driving-2026/agents/claims-b.json",
+          "sha256": "b5643bfedb62882bc01995f91f8fc43145465904b0109a82841f7c322973c508",
+          "matches_freeze": true,
+          "claims_match": true
+        },
+        {
+          "file": "research/factual-checks/driving-2026/agents/claims-c.json",
+          "sha256": "d572742305298c6b45218355dc524bc8d50f26443b267ccebf8e9a2579e1ade4",
+          "matches_freeze": true,
+          "claims_match": true
+        },
+        {
+          "file": "research/factual-checks/driving-2026/agents/claims-a.json",
+          "sha256": "59cccba326f68b8e5cc6f9e5870e224e1f1db0d828df56eeffa274d35b583616",
+          "matches_freeze": true,
+          "claims_match": true
+        },
+        {
+          "file": "research/factual-checks/fruehstart-2026/agents/claims-b.json",
+          "sha256": "10302346e1404781e7a307d7a8d124d6e7cc45f3201c7dbd1b10984b041f1f6e",
+          "matches_freeze": true,
+          "claims_match": true
+        },
+        {
+          "file": "research/factual-checks/fruehstart-2026/agents/claims-c.json",
+          "sha256": "5ddd9106eed62e461a99fd154a99b1af0522ad86b2015dfd9e2ae3f0e6b44554",
+          "matches_freeze": true,
+          "claims_match": true
+        },
+        {
+          "file": "research/factual-checks/biostoffv-2026/agents/claims-c.json",
+          "sha256": "a544e22b0a180eb809194c1e3a09a6b87c13673628c8f967a4fc6149a5b7b644",
+          "matches_freeze": true,
+          "claims_match": true
+        },
+        {
+          "file": "research/factual-checks/biostoffv-2026/agents/claims-b.json",
+          "sha256": "3e88b8ec4c8b23f005aa3b1c91bc4bf70219217f5762fcf748c6b90032c986d4",
+          "matches_freeze": true,
+          "claims_match": true
+        },
+        {
+          "file": "research/factual-checks/fruehstart-2026/agents/claims-a.json",
+          "sha256": "e5b3656339ade07d2b5f801313024b109a4c2b312e76aef8bc0ebcd5a2fd6b95",
+          "matches_freeze": true,
+          "claims_match": true
+        },
+        {
+          "file": "research/factual-checks/biostoffv-2026/agents/claims-a.json",
+          "sha256": "b4f2701d6cbe84ae148f50f7f033f6fc018e4053edab70018b30bbfa52721f91",
+          "matches_freeze": true,
+          "claims_match": true
+        }
+      ]
+    },
+    {
+      "check": "Driving B source normalisation preserves substantive review",
+      "passed": true,
+      "snapshot": {
+        "kind": "Source registry field normalization only",
+        "original_snapshot": "research/factual-checks/driving-2026/reviews/snapshots/b-reviews-a-v1.json",
+        "original_sha256": "9c2798556ad74cf9f404b49719ddd380defdf71d80be510f8891dc4f0a93b205",
+        "changes": "source_id to id; retrieved_at_utc to retrieved_at; title and temporal_limit supplied. All substantive review outcomes, reasons, evidence checks and other content preserved."
+      }
+    },
+    {
+      "check": "all explicit audit/source/review/staged hash pairs",
+      "passed": true,
+      "pairs_checked": 861,
+      "mismatches": []
+    },
+    {
+      "check": "medical candidate remains unresolved and non-admitted",
+      "passed": true,
+      "final_claim": "biostoffv-2026-c-040",
+      "candidate_dispositions": [
+        "unresolved"
+      ]
+    },
+    {
+      "check": "failed future-law PDF attempt stays unusable",
+      "passed": true,
+      "failed_sources": [
+        "fruehstart-br-priips2023"
+      ]
+    },
+    {
+      "check": "only overstatement is an existing finding recheck",
+      "passed": true,
+      "claim_ids": [
+        "fruehstart-2026-c-050"
+      ]
+    },
+    {
+      "check": "source-retention covers every local ledger source",
+      "passed": true,
+      "source_records": 149,
+      "local_ledger_sources": 149,
+      "missing": []
+    },
+    {
+      "check": "derivative cleanup preserves strict dependencies and originals",
+      "passed": true,
+      "files": 97,
+      "bytes": 16599915,
+      "manifest_sha256": "8f42ae01f31a9bec23e70c107f404e3999497b8a40c840ece7cb0f73f27226a5"
+    },
+    {
+      "check": "default index summary reproduced",
+      "passed": true,
+      "captured_write_paths": [
+        "research/factual-checks/summary.json",
+        "research/factual-checks/report.html"
+      ]
+    },
+    {
+      "check": "default HTML preserves prior content except previously audited intro wording",
+      "passed": true,
+      "summary_note_absent": true
+    },
+    {
+      "check": "continuation index summary reproduced",
+      "passed": true,
+      "captured_write_paths": [
+        "research/factual-checks/continuation-20261025/summary.json",
+        "research/factual-checks/continuation-20261025/report.html"
+      ]
+    },
+    {
+      "check": "continuation index HTML exactly reproduced",
+      "passed": true
+    },
+    {
+      "check": "optional report note is escaped",
+      "passed": true
+    },
+    {
+      "check": "index rejects duplicate aliases",
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Batches must identify distinct direct child directories"
+      }
+    },
+    {
+      "check": "index rejects outside traversal",
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Batches must identify distinct direct child directories"
+      }
+    },
+    {
+      "check": "index rejects nested child",
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Batches must identify distinct direct child directories"
+      }
+    },
+    {
+      "check": "index canonical absolute child",
+      "passed": true
+    },
+    {
+      "check": "index canonical dot alias",
+      "passed": true
+    },
+    {
+      "check": "research/build_deliverables.py captured current reproduction",
+      "passed": true,
+      "details": {
+        "code": "research/build_deliverables.py",
+        "sha256": "b1ac1179178f75b8fd9d40146bc553aaaac3bd91ef3ab433268578d2c198eaf2",
+        "error": null,
+        "outputs": [
+          {
+            "file": "data/findings.json",
+            "matches_current": true
+          },
+          {
+            "file": "data/unresolved-leads.json",
+            "matches_current": true
+          },
+          {
+            "file": "data/rejected-candidates.json",
+            "matches_current": true
+          },
+          {
+            "file": "data/source-registry.json",
+            "matches_current": true
+          },
+          {
+            "file": "data/documents.json",
+            "matches_current": true
+          },
+          {
+            "file": "data/review-index.json",
+            "matches_current": true
+          }
+        ]
+      }
+    },
+    {
+      "check": "research/build_screening_pool.py captured current reproduction",
+      "passed": true,
+      "details": {
+        "code": "research/build_screening_pool.py",
+        "sha256": "92d95bb87225ffa9e355097008d1a7c6fe9775c52a98a3970c478603d52e7310",
+        "error": null,
+        "outputs": [
+          {
+            "file": "data/screening-pool.json",
+            "matches_current": true
+          },
+          {
+            "file": "data/screening-pool-summary.json",
+            "matches_current": true
+          }
+        ]
+      }
+    },
+    {
+      "check": "research/build_bounded_coverage.py captured current reproduction",
+      "passed": true,
+      "details": {
+        "code": "research/build_bounded_coverage.py",
+        "sha256": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+        "error": null,
+        "outputs": [
+          {
+            "file": "data/bounded-coverage.json",
+            "matches_current": true
+          }
+        ]
+      }
+    },
+    {
+      "check": "current shared main validator zero errors",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "record_count": 110,
+      "result": "pass_with_disclosed_manual_checks"
+    },
+    {
+      "check": "findings.json baseline objects preserved",
+      "passed": true,
+      "records": 63,
+      "added_externally": [
+        "fruehstart2026-dai-doubletax-tax-r6-01",
+        "izg2026-biesemann-seaports-energy-r6-03",
+        "krwg2026-itad-prevention-target-energy-r6-02",
+        "krwg2026-itad-recycling-method-energy-r6-01",
+        "mietrechtII2026-ivd-cpiyears-root-r6-02",
+        "suizidpraevg2026-marburger-costs-social-r6-01"
+      ]
+    },
+    {
+      "check": "rejected-candidates.json baseline objects preserved",
+      "passed": true,
+      "records": 2,
+      "added_externally": [
+        "mietrechtII2026-ivd-vacate-root-r6-01"
+      ]
+    },
+    {
+      "check": "old three pilot entries unchanged",
+      "passed": true,
+      "total_pilot_entries": 6
+    },
+    {
+      "check": "old 37 annotations unchanged",
+      "passed": true
+    },
+    {
+      "check": "59 existing records annotated",
+      "passed": true,
+      "by_batch": {
+        "biostoffv-2026-factual-checks": 9,
+        "kltgv-2026-factual-pilot": 7,
+        "netzkosten-2026-factual-checks": 21,
+        "behg-2026-factual-checks": 9,
+        "driving-2026-factual-checks": 6,
+        "fruehstart-2026-factual-checks": 7
+      }
+    },
+    {
+      "check": "all new annotations match exact existing claims/outcomes",
+      "passed": true,
+      "documents": [
+        {
+          "batch": "driving-2026",
+          "document_id": "bt-transport-1221858",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "driving-2026",
+          "document_id": "bt-transport-1221860",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "driving-2026",
+          "document_id": "bt-transport-1221870",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "driving-2026",
+          "document_id": "bt-transport-1222032",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "driving-2026",
+          "document_id": "bt-transport-1222030",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "driving-2026",
+          "document_id": "bt-transport-1222076",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "fruehstart-2026",
+          "document_id": "hearing-1216340-response-001",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "fruehstart-2026",
+          "document_id": "hearing-1216340-response-002",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "fruehstart-2026",
+          "document_id": "hearing-1216340-response-003",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "fruehstart-2026",
+          "document_id": "hearing-1216340-response-004",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "fruehstart-2026",
+          "document_id": "hearing-1216340-response-005",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "fruehstart-2026",
+          "document_id": "hearing-1216340-response-006",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "fruehstart-2026",
+          "document_id": "hearing-1216340-response-007",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "biostoffv-2026",
+          "document_id": "biostoffv2026-vbio-20260921",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "biostoffv-2026",
+          "document_id": "biostoffv2026-dghm-20260923",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "biostoffv-2026",
+          "document_id": "biostoffv2026-vdsi-20260926",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "biostoffv-2026",
+          "document_id": "biostoffv2026-dgb-20260928",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "biostoffv-2026",
+          "document_id": "biostoffv2026-dguv-20260928",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "biostoffv-2026",
+          "document_id": "biostoffv2026-dib-20260928",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "biostoffv-2026",
+          "document_id": "biostoffv2026-dkg-20260928",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "biostoffv-2026",
+          "document_id": "biostoffv2026-vdbw-20260928",
+          "unique_existing_record_and_exact_assessments": true
+        },
+        {
+          "batch": "biostoffv-2026",
+          "document_id": "biostoffv2026-dgaum-20260929",
+          "unique_existing_record_and_exact_assessments": true
+        }
+      ]
+    },
+    {
+      "check": "old source identity values preserved",
+      "passed": true,
+      "metadata_differences": [
+        {
+          "id": "fruehstart-refe-20260721-mirror",
+          "old_keys_changed": [],
+          "added_keys": [
+            "read_extent",
+            "retention_exception"
+          ]
+        }
+      ]
+    },
+    {
+      "check": "research/factual-checks/continuation-20261025/report.html local links",
+      "passed": true,
+      "local_links": 7,
+      "bad": []
+    },
+    {
+      "check": "research/factual-checks/driving-2026/report.html local links",
+      "passed": true,
+      "local_links": 429,
+      "bad": []
+    },
+    {
+      "check": "research/factual-checks/fruehstart-2026/report.html local links",
+      "passed": true,
+      "local_links": 478,
+      "bad": []
+    },
+    {
+      "check": "research/factual-checks/biostoffv-2026/report.html local links",
+      "passed": true,
+      "local_links": 498,
+      "bad": []
+    },
+    {
+      "check": "README continuation scope/counts/links",
+      "passed": true,
+      "bad_links": [],
+      "own_pending_link": "research/factual-checks/continuation-20261025/reviews/c-final-integration-audit.json"
+    },
+    {
+      "check": "all frozen continuation snapshot files still match root freeze",
+      "passed": true,
+      "mismatches": []
+    },
+    {
+      "check": "all claimed historical artifacts unchanged",
+      "passed": true,
+      "checked": 46,
+      "mismatches": []
+    },
+    {
+      "check": "target artifacts unchanged during audit",
+      "passed": true,
+      "changes": [],
+      "watched_files": 270
+    },
+    {
+      "check": "corrected baseline statement",
+      "passed": true,
+      "exact_objects": 101,
+      "quote_only_external_exception": 1,
+      "unchanged_dispositions": 102
+    },
+    {
+      "check": "README/root audit corrected and bound",
+      "passed": true,
+      "README_sha256": "650933e21fafe3c1c9da25d6fa9764059448b87e5eadab1d41f5c46974ad2630",
+      "completion_audit_sha256": "d4188ff9853a98565f1ab54abadca6a180c310d1a450ae7c9b067246d0c22de6"
+    },
+    {
+      "check": "latest global pool captured reproduction",
+      "passed": true,
+      "code_sha256": "92d95bb87225ffa9e355097008d1a7c6fe9775c52a98a3970c478603d52e7310",
+      "outputs": {
+        "data/screening-pool.json": true,
+        "data/screening-pool-summary.json": true
+      },
+      "current_included": 791
+    },
+    {
+      "check": "latest 59 annotations and all 22 new document bindings",
+      "passed": true,
+      "old_annotations_preserved": 37,
+      "new_annotations": 22
+    },
+    {
+      "check": "all reviewed explicit hash-pair inputs remain bound",
+      "passed": true,
+      "record_occurrences": 861,
+      "distinct_file_hash_pairs": 186
+    }
+  ],
+  "batch_validation_and_reproduction": [
+    {
+      "batch": "driving-2026",
+      "counts": {
+        "documents": 6,
+        "pdf_pages": 31,
+        "claims": 124,
+        "outcomes": {
+          "supported": 73,
+          "unresolved": 51
+        },
+        "independent_peer_claim_reviews": 120,
+        "additional_claims_independently_adjudicated_by_root": 4
+      },
+      "original_pdf_checks": [
+        {
+          "document_id": "bt-transport-1221858",
+          "pdf_sha256": "5d84d8435c2d8d9eb7e491eae08bc72c776981fa1f77df44f7e30a2813389098",
+          "text_file": "research/factual-checks/driving-2026/text/bt-transport-1221858.txt",
+          "text_sha256": "9eebded63c457848dfa3ee8782e951f36b3cb904d59e5ba0c7cddbf1fa9c9447",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "bt-transport-1221860",
+          "pdf_sha256": "409cab6bc2f766e746de6340764572dbb03f45f42792401baaedc5384b199481",
+          "text_file": "research/factual-checks/driving-2026/text/bt-transport-1221860.txt",
+          "text_sha256": "149a58d7f5474248776814dc1a9ed4bbb17c6d779079497883f74388fa181491",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "bt-transport-1221870",
+          "pdf_sha256": "760b5ab2bcaf251758d1aac024fb9a1543979d54fe81a957e2784807bd6023df",
+          "text_file": "research/factual-checks/driving-2026/text/bt-transport-1221870.txt",
+          "text_sha256": "6bb8287141bd84684f0be2c4f90ebb0c02ee535db6fd0751a009e23a02c458d5",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "bt-transport-1222032",
+          "pdf_sha256": "9d49f58323d6b0d151bfa3bf126a1d98dda226b38e3cf93ebb28c8552d923465",
+          "text_file": "research/factual-checks/driving-2026/text/bt-transport-1222032.txt",
+          "text_sha256": "933b84512fcb90b88986ecb08cc13c1b9da2d49be14d222cb94e4b8dd43d3555",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "bt-transport-1222030",
+          "pdf_sha256": "7fefa549db7aba4522ee008705db3e444a9084e01280e3d00352563fbe74628d",
+          "text_file": "research/factual-checks/driving-2026/text/bt-transport-1222030.txt",
+          "text_sha256": "4248f668b2e22e2f9df60746912df95465dbd42bc06e03c62cd262f3f5bc915d",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "bt-transport-1222076",
+          "pdf_sha256": "d947537b9e1291706114f17118d120b4380494fac9fbd0868c69d973d897d774",
+          "text_file": "research/factual-checks/driving-2026/text/bt-transport-1222076.txt",
+          "text_sha256": "85530feaca4bd70a224fab428aab6871d7093da391131c5bde9ae3c62b269a84",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        }
+      ],
+      "captured_writes": [
+        "research/factual-checks/driving-2026/validation-report.json",
+        "research/factual-checks/driving-2026/claim-ledger.json",
+        "research/factual-checks/driving-2026/summary.json",
+        "data/factual-check-pilots.json",
+        "research/factual-checks/driving-2026/report.html"
+      ],
+      "source_archive_records_checked": 53
+    },
+    {
+      "batch": "fruehstart-2026",
+      "counts": {
+        "documents": 7,
+        "pdf_pages": 50,
+        "claims": 143,
+        "outcomes": {
+          "supported": 98,
+          "unresolved": 44,
+          "overstated": 1
+        },
+        "independent_peer_claim_reviews": 140,
+        "additional_claims_independently_adjudicated_by_root": 3
+      },
+      "original_pdf_checks": [
+        {
+          "document_id": "hearing-1216340-response-001",
+          "pdf_sha256": "bc804d7e98aee2df21c28a87a9459b7b72fc008d1096bf98e1e6947df637ea16",
+          "text_file": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-001.txt",
+          "text_sha256": "5304a50a82865d6abd15b44b024121c65a3bd9d7e0fe416e70e4911076424b7f",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "hearing-1216340-response-002",
+          "pdf_sha256": "28fb73692a54915cd7b0b9a118c97b59421b5328d35a1df8c5e15ab6c8e4407b",
+          "text_file": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-002.txt",
+          "text_sha256": "ef7042e3e7d01b8742d8a60dba0972ee478c68bfed4ebeb517413317039c7ace",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "hearing-1216340-response-003",
+          "pdf_sha256": "49376cbc681f7eecbfdfc5941d26614103fe315e5c90136fa921198fcdc628f8",
+          "text_file": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-003.txt",
+          "text_sha256": "5ec4a0169ae1babe397c0d74bfe3df4e0bc479acd5233fcfdd2c0d1e11291f81",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "hearing-1216340-response-004",
+          "pdf_sha256": "68e87ae61c90ab6c697bae8294d750e87edecb083b2d521016c2b54e8a203463",
+          "text_file": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-004.txt",
+          "text_sha256": "c5f1ce32e3ef90ac5ea6ecdc5f5db6deb18e4a80674018d0b169d17981dd393a",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "hearing-1216340-response-005",
+          "pdf_sha256": "47eb4565c0935ec79cc66c654382536653756876beffbd134ca5c0c4583e6299",
+          "text_file": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-005.txt",
+          "text_sha256": "61ccdbc635d46bb718f4d919d2c86f621fdcb1aaa99d26c8ef5638874e28e612",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "hearing-1216340-response-006",
+          "pdf_sha256": "8b31335f8558f20ded06e64675fdf1fd9196f9d06f0188c2ad2865465c8632c5",
+          "text_file": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-006.txt",
+          "text_sha256": "75dd9a618dea016d1dbff93648f2ec6cd53917b00df91794c3ff7fc2cede9519",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "hearing-1216340-response-007",
+          "pdf_sha256": "38cf33d940ad44399222dd5a258e7fa9dde4906f110758c62cad821998092ad9",
+          "text_file": "research/factual-checks/fruehstart-2026/text/hearing-1216340-response-007.txt",
+          "text_sha256": "2b6ef701e68e50d3eb2969a3dfc3910385f5b69a19aad4b9610cc8b1450173ca",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        }
+      ],
+      "captured_writes": [
+        "research/factual-checks/fruehstart-2026/validation-report.json",
+        "research/factual-checks/fruehstart-2026/claim-ledger.json",
+        "research/factual-checks/fruehstart-2026/summary.json",
+        "data/factual-check-pilots.json",
+        "research/factual-checks/fruehstart-2026/report.html"
+      ],
+      "source_archive_records_checked": 46
+    },
+    {
+      "batch": "biostoffv-2026",
+      "counts": {
+        "documents": 9,
+        "pdf_pages": 39,
+        "claims": 134,
+        "outcomes": {
+          "supported": 60,
+          "unresolved": 74
+        },
+        "independent_peer_claim_reviews": 130,
+        "additional_claims_independently_adjudicated_by_root": 4
+      },
+      "original_pdf_checks": [
+        {
+          "document_id": "biostoffv2026-vbio-20260921",
+          "pdf_sha256": "01d2e3ef8b4b48499e9dd5f046867c7d2df8af6c21346c2c60356f2765cd26b2",
+          "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-vbio-20260921.txt",
+          "text_sha256": "e8f13e021cef0cf111e14f283fa70f296a06a09099b41747fa9cf32dbed22948",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "biostoffv2026-dghm-20260923",
+          "pdf_sha256": "1bfe3d44a77f2863fa1711243ae751e3057eb87122d668554b0525a61978ca61",
+          "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-dghm-20260923.txt",
+          "text_sha256": "00a9e6c37788bd276faff35f8d17896bbe720d8aba7c50fc2049beb5e6fe704a",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "biostoffv2026-vdsi-20260926",
+          "pdf_sha256": "413249d93e358fac8dade25f85cc546fe7e7421291e3ce0891a4442bd15bcfa0",
+          "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-vdsi-20260926.txt",
+          "text_sha256": "777e49f70b529d00b1a745723940b27655abd9c8eaf6d96225274d1d67293ef4",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "biostoffv2026-dgb-20260928",
+          "pdf_sha256": "f572c201a9298a339c41164bb358c46975e7d8fe2c49f76e0db9c6e8f807ed4a",
+          "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-dgb-20260928.txt",
+          "text_sha256": "4f4937d078f61761b0922af011997f3a5540e10c4496e3a38c4e117a8f819905",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "biostoffv2026-dguv-20260928",
+          "pdf_sha256": "d7428217e6bfb37f030419c59d89b4b2846e450ba7a8bd2c8019b42ecb815653",
+          "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-dguv-20260928.txt",
+          "text_sha256": "0dd472f92e89c73f713fbd1b674fcf7b2101e0a59946c8bfce622dff10f8c3d3",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "biostoffv2026-dib-20260928",
+          "pdf_sha256": "37039ef362f06014849a5e8f83c7649348b29cfc4abebd5f64b1845e5df4bf8e",
+          "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-dib-20260928.txt",
+          "text_sha256": "fbb3a23a66945fdf51ad0ed3f43b08ff531fd0b34311dc9511f52ef8de0953d2",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "biostoffv2026-dkg-20260928",
+          "pdf_sha256": "102b123bf806c82e10b8f6db45798774a9b42a8cf424ab05a6b5ef9ab7178494",
+          "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-dkg-20260928.txt",
+          "text_sha256": "2c8f359185dff56366b0b58329968aa20522e81f379f34ffb7c9b54745b9411a",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "biostoffv2026-vdbw-20260928",
+          "pdf_sha256": "a4de745562bd5749511cb94ee725b4d714135b72ca7ec20f4918e292f6d483d0",
+          "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-vdbw-20260928.txt",
+          "text_sha256": "be1f1687b8a41225f1bd96376010104d334de8df70dbb7ed1c98e870cda5fd5f",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        },
+        {
+          "document_id": "biostoffv2026-dgaum-20260929",
+          "pdf_sha256": "fe9959645f6c4ffe1393a08de887373c2ead210a06f34124d36448ce10e3362a",
+          "text_file": "research/factual-checks/biostoffv-2026/text/biostoffv2026-dgaum-20260929.txt",
+          "text_sha256": "d5e808672cfe49befd9417a14cf4da545eb1f33a5c8f5a5ed26a1f316fc7025f",
+          "method": "Exact comparison with fresh pdftotext -layout extraction"
+        }
+      ],
+      "captured_writes": [
+        "research/factual-checks/biostoffv-2026/validation-report.json",
+        "research/factual-checks/biostoffv-2026/claim-ledger.json",
+        "research/factual-checks/biostoffv-2026/summary.json",
+        "data/factual-check-pilots.json",
+        "research/factual-checks/biostoffv-2026/report.html"
+      ],
+      "source_archive_records_checked": 50
+    }
+  ],
+  "initial_and_review_binding_summary": {
+    "initial_inventory_files": 9,
+    "peer_files": 9,
+    "initial_claims": 390,
+    "all_full_original_pages_recorded": true,
+    "all_nonaccept_challenges_have_root_reasons": true,
+    "all_11_omissions_map_to_added_claims_and_explicit_root_review": true,
+    "all_9_freezes_match": true,
+    "Driving_peer_schema_normalization": "Original review snapshot remains hash-bound; removing source-registry metadata and the explicit schema_repair note leaves all substantive content identical.",
+    "Fruehstart_initial_observation": "Confirmed C freeze is preserved; earlier unconfirmed work-in-progress observation is explicitly superseded in initial-freezes.json."
+  },
+  "source_and_candidate_hash_binding": {
+    "explicit_hash_pair_occurrences_checked": 861,
+    "distinct_file_hash_pairs": 186,
+    "all_match": true,
+    "source_archive_records_checked": 149,
+    "retention_records": 149,
+    "future_law_failed_PDF": "Zero-byte failed access preserved and unusable; substantive source uses the separately identified official act and labelled indexed methodology.",
+    "medical_candidate": "DGAUM post-COVID latency candidate remains unresolved in the staged snapshot, independent final review and final ledger. Diagnosis minimum is not a universal onset maximum; grouped author context and future-effect uncertainty retained.",
+    "existing_overstatement": "Only the pre-existing vzbv allocation finding is rechecked; no duplicate admission.",
+    "identities": [
+      {
+        "file": "research/factual-checks/biostoffv-2026/agents/claims-a.json",
+        "sha256": "b4f2701d6cbe84ae148f50f7f033f6fc018e4053edab70018b30bbfa52721f91",
+        "record_occurrences": 3,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/agents/claims-b.json",
+        "sha256": "3e88b8ec4c8b23f005aa3b1c91bc4bf70219217f5762fcf748c6b90032c986d4",
+        "record_occurrences": 3,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/agents/claims-c.json",
+        "sha256": "a544e22b0a180eb809194c1e3a09a6b87c13673628c8f967a4fc6149a5b7b644",
+        "record_occurrences": 3,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/reviews/a-reviews-c.json",
+        "sha256": "24603fcf78953fc8d683879301a4494daaae1cefe5874181d68095a6da9c8213",
+        "record_occurrences": 2,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/reviews/b-final-candidate-records.json",
+        "sha256": "81dcb7f718cf3f7100ee3dcaab765c7456f65bb896294509fd406ef84878072d",
+        "record_occurrences": 1,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/reviews/b-reviews-a.json",
+        "sha256": "0f4484a416bb9c6b9fddc8913c1c36db297d6e280ffd9c2fc3bf53c1109070d5",
+        "record_occurrences": 2,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/reviews/c-reviews-b.json",
+        "sha256": "83a7528e5952c121818591671dfa6fccdd758a6061dabc94704b791da5b10583",
+        "record_occurrences": 2,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/a-arbschg.pdf",
+        "sha256": "9f52b0f17613d529a6a97d07fd52686e8afa0d933f198ae36a4860c4fdcf3f46",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/a-betrsichv.pdf",
+        "sha256": "fc2c7d0d907091c3ee804b487042b7ae0bd97dd2d2a3e6d0c633383008e87d03",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/a-bgb126b.html",
+        "sha256": "42a3ec23ede8eaae79d2907ed080519d957d3a17e4e6e2107dc15392d6e8e70b",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/a-bio.pdf",
+        "sha256": "06cab492e154fa36aa224d0038cb4bbd02531a473d0f430af67950cf2f1d98df",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/a-dguv-electronic.html",
+        "sha256": "c113fa23e1ea40724c9fbd5e5a7225564c86772682cb45cecb26304f5018a5b6",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/a-dguv100001.pdf",
+        "sha256": "d770fdb81cb119cd654d75ed3e3d61680e49e4fd03396f2fadb389d87ffc7c24",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/a-eu200054.html",
+        "sha256": "c1965ebf674aec796fbf40638ac813427f28349fc12f812074c4ac2743988beb",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/a-eu201032.pdf",
+        "sha256": "ec4d852a5b62b04b3e21bc9e909b7d1b3c3362ae841ac032f30a55e85c4fd3a1",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/a-gdpr.html",
+        "sha256": "d32c8784b82b27edb354a085ee111c64d8b755fd1e27441a9c8738cb751638fd",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/a-gefstoffv.pdf",
+        "sha256": "46daa25004a0aefd16414003e2b126f14f9b8b147b3fe2ea49eddd00354ed1fe",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/a-psabv.pdf",
+        "sha256": "28ae87dfcc1f97fd0588c7451ff6b23869935bfc414cd342a73fff8bd8d8fe6d",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/a-stgb203.html",
+        "sha256": "e28273ab626e1871070f7f4cdff4b12d858ebd53ea3faa7d6ac2597578e85ce1",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/a-trba400.pdf",
+        "sha256": "c4e5a200e8ccb8f360a44615a57d2634328d6cf20b0d03200eb4779ec63b4f66",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/a-web-primary.json",
+        "sha256": "559ba671586c45ae103aa8ceb7014f5167bd02d35e577bf7a7541aed60beccff",
+        "record_occurrences": 24,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/ar-web-primary.json",
+        "sha256": "64b9276634b0038d1f6c08771a6d7869c1a385928a7eb9c4ad7b56c3a45a4ed6",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/b-arbschg.html",
+        "sha256": "83a540461ebb22c6132d43563229b75182492ca44bfe025073a005082a3c8aec",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/b-dguv-clothing.html",
+        "sha256": "a85bcc6cbf1e1e9d83b5d3fc243abbaf48fb45a5e9c7db80c1ce762d6bd01745",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/b-eu-consolidated.html",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/b-gentsv.pdf",
+        "sha256": "7ec27a51be6a634be8af9c651f5942475b97e9f87b6f1947a5f7219876ee4b54",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/b-hospital-shoes.html",
+        "sha256": "7e315ca797157994b343847e633c56c2a0f35cf8e6acec42582db13dcb6093c4",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/b-law.html",
+        "sha256": "a321dcae4e033d4b812e969f3063880f0791777cfa55fc4c3e3a62695a4e0e7b",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/b-seed-study.pdf",
+        "sha256": "1b3a6357501175c5d1ba9c59de73377434863e601b01aeb3259ee845a15ac9b5",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/b-textform.html",
+        "sha256": "42a3ec23ede8eaae79d2907ed080519d957d3a17e4e6e2107dc15392d6e8e70b",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/br-eu-deadline-check.json",
+        "sha256": "0e088d93caa3ddcdab9a68583cc442582be736d1cb547d558290e1c5065429ba",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/c-arbmedvv.pdf",
+        "sha256": "08ab11d1ff618ea49c1c69011a0e9be5e1ea8672a451559766a4f0aafe4aaae4",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/c-bio-training-extraction.json",
+        "sha256": "7ff9ea75f35a69e881c77352642a4f6a5def94870aead84a8dfba64306190e14",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/c-bio-who-extraction.json",
+        "sha256": "44e7bf25feefbec33e8882a4946666578bdef487f9acc8947b34e8ba877068f5",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/c-eu2000-boe.pdf",
+        "sha256": "b14343c6cf0da77164f60ac19c47addbf0c77cc6c6a8885cb44f6b12dcdec32b",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/c-gefstoffv.pdf",
+        "sha256": "46daa25004a0aefd16414003e2b126f14f9b8b147b3fe2ea49eddd00354ed1fe",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/c-gentsv-correct.pdf",
+        "sha256": "7ec27a51be6a634be8af9c651f5942475b97e9f87b6f1947a5f7219876ee4b54",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/c-law.pdf",
+        "sha256": "06cab492e154fa36aa224d0038cb4bbd02531a473d0f430af67950cf2f1d98df",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/c-r-arbschg.pdf",
+        "sha256": "9f52b0f17613d529a6a97d07fd52686e8afa0d933f198ae36a4860c4fdcf3f46",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/c-r-seed-study.pdf",
+        "sha256": "1b3a6357501175c5d1ba9c59de73377434863e601b01aeb3259ee845a15ac9b5",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/c-stgb.pdf",
+        "sha256": "c2e9d1a6f20b11845e3fd2b62c38b971c06f51e3ece9b5f17767d3a8a8d0f2dc",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/c-technical-primary-extraction.json",
+        "sha256": "a6d3131721d67429a225043307c2e5a6190d899dea687239e02043461fe7a8c6",
+        "record_occurrences": 8,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/c-trba250.pdf",
+        "sha256": "ad41b79b886df2cda3865e2225ec04af78b717233cad49825eea3e85543a1796",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/c-trba400.pdf",
+        "sha256": "c4e5a200e8ccb8f360a44615a57d2634328d6cf20b0d03200eb4779ec63b4f66",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/cr-eu2019.html",
+        "sha256": "d89abc7554acfb827aedbb01535e60f57cf9cc582ee92e3dddd49e825f46baa5",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/root-eu20191833-boe.html",
+        "sha256": "d89abc7554acfb827aedbb01535e60f57cf9cc582ee92e3dddd49e825f46baa5",
+        "record_occurrences": 10,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/root-ministry-index.html",
+        "sha256": "185b17988a3753d29d2022bb56e502f79aea593fea7f9a789f865a35bd299175",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/root-trba250-baua.pdf",
+        "sha256": "ad41b79b886df2cda3865e2225ec04af78b717233cad49825eea3e85543a1796",
+        "record_occurrences": 10,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/root-trba250-bgw.pdf",
+        "sha256": "350652a2b1fdcb0ac46fb9a61f7e4fe17d98073ab39b801318d7e3351ddf9741",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/root-who2021.html",
+        "sha256": "d09efe431c9d7474b4d6de41b4c2ab7eaa6eb849b003d820f3e96c0c711c029f",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/sources/root-who2023.html",
+        "sha256": "9bfd5248ea0bb724075fdc45b26290991723a4af8ada43b1bdc1677cbcb82321",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/biostoffv-2026/staged/biostoffv2026-dgaum-postcovid-latency-fc01.json",
+        "sha256": "c35e0e4ad8ba388564f53c5c8fb1e2c3f03882e1d09fbd9e6c61e50993ada339",
+        "record_occurrences": 1,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/agents/claims-a.json",
+        "sha256": "59cccba326f68b8e5cc6f9e5870e224e1f1db0d828df56eeffa274d35b583616",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/agents/claims-b.json",
+        "sha256": "b5643bfedb62882bc01995f91f8fc43145465904b0109a82841f7c322973c508",
+        "record_occurrences": 3,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/agents/claims-c.json",
+        "sha256": "d572742305298c6b45218355dc524bc8d50f26443b267ccebf8e9a2579e1ade4",
+        "record_occurrences": 3,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/reviews/a-reviews-c.json",
+        "sha256": "fd1bc85cdd6d5a5c0168594ce282186b0960f40edab806a314551b86886d183b",
+        "record_occurrences": 2,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/reviews/b-reviews-a.json",
+        "sha256": "3f9c4dbb2b4ec93077d09a3d95d3497871f62f67ae4f17024eea7879fe74e240",
+        "record_occurrences": 2,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/reviews/c-reviews-b.json",
+        "sha256": "87f3ce5b2beca3843295357f13fb6770cd0e2051efc591b3e3b0bbfe76d8f3e5",
+        "record_occurrences": 2,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/reviews/snapshots/b-reviews-a-v1.json",
+        "sha256": "9c2798556ad74cf9f404b49719ddd380defdf71d80be510f8891dc4f0a93b205",
+        "record_occurrences": 1,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/a-ace-forsa.pdf",
+        "sha256": "0a407a83d9dcd6b3d7ba482e9f17321423be929efb184f9ab0086b1d0da7b6f7",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/a-ace-poll.html",
+        "sha256": "e0d6c95091ad1c05aa2222d8471430f25fb667a4ed2f11941f3d55b870e273e6",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/a-bf17-evaluation.html",
+        "sha256": "2a4652b9be87caaffcf57a37204802f49bbd2143c52b23a1398ec2ab28cae5c9",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/a-dmv-home-study.pdf",
+        "sha256": "540a79cec3762fcbc7ac08942a61805efa7bf04a2b3e30f827e9c15422ccdaa2",
+        "record_occurrences": 7,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/a-eckpunkte.pdf",
+        "sha256": "c792010f06632e5a20777f063a4b10f795018f44f7a7f67dbae147516d5c0def",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/a-fahrlausbv-current.html",
+        "sha256": "6be259b30f01aa5e9891fd6fe3e383ab770b7350f4ea6d1759bce06a3c419dd2",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/a-fahrschausbo.html",
+        "sha256": "c29f2fd309b2b662fd9c3ab725a2cc43e871810cf5451a78f16392924e98f40c",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/a-fev.html",
+        "sha256": "16e502c3cd50531d7021724d1584b1e1a6ea896a59ae8986936f53c5c517c91e",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/a-m330.pdf",
+        "sha256": "db3d7f9dc8d643b7004a4df42ed3efd934d75378be3843d6effe471dac8a4153",
+        "record_occurrences": 7,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/a-m348-moving.pdf",
+        "sha256": "718e3a4bcd2d1fe49cf740a0741d083f322f0144d54d8b3ea8de730eaa5ca48f",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/ar-eu2022.html",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/ar-eu2025.pdf",
+        "sha256": "6d1ed80b16a3e0446c8f6a2f0dc9ac487627da5224602ca435328a887722b333",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/ar-web-extraction.json",
+        "sha256": "78be9f6adc47ceb6ea684c3ab510ab893823af36a591304240d7f794f6e35291",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/b-adac-bf17.html",
+        "sha256": "cedf0def7db60c69273e16bce7f8ec4391e49889c56f414629a99d626fccf87f",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/b-adac-survey-chart.pdf",
+        "sha256": "230ca5966f1fcfc477ac01d34b1ff70cd74998309c96acaa34ae3ca3ff5ad7d6",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/b-fahrschausbo.html",
+        "sha256": "c29f2fd309b2b662fd9c3ab725a2cc43e871810cf5451a78f16392924e98f40c",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/b-fev.html",
+        "sha256": "16e502c3cd50531d7021724d1584b1e1a6ea896a59ae8986936f53c5c517c91e",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/b-foreign-and-safety-web-extraction.json",
+        "sha256": "30e10ddbb420cf7ec48af8187529b8499ed0cfa46eace91a274e59ff7ec61c08",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/b-france-aac.pdf",
+        "sha256": "2f01ffc7b3ee1d7779afaacfd7c37ee3ec4b17988f7f2190182a9699047e951c",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/b-moving-shortage.pdf",
+        "sha256": "9214e999a831983df01d8c34346b642b8687e9fc092771db2ca8a03ef083748d",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/b-moving2025.pdf",
+        "sha256": "cabc7a9da4349509eb24cb4a956a018a601c7a5c59e2e00865186584586aee4f",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/b-primary-web-extraction.json",
+        "sha256": "05e7a667af40e26713d1bdec9b1092c4e506ece1a5676ca3cb3d7f32e7ec53f8",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/b-survey.html",
+        "sha256": "33c85f772fd6954b87f5aba77d6ac51bffff4ae390c567162418296ce41f1e1a",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/b-swiss-svg.html",
+        "sha256": "39d0c4d52bf6c1140a7d5b1848e1a625375891aecc22869089e1361f1fd8b3be",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/b-traficom-oct.html",
+        "sha256": "08a5add9a1297fbb49338dc9da1d6a2436ea1bfd5d1238a3de4a8ee01eadc92c",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/b-traficom-reform.html",
+        "sha256": "ab93c2675188b793bd81dcbf98a50533b05484262239ac27b89f8c38fc8d15ff",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/br-bf17-ministry.html",
+        "sha256": "6ee6b8d99279163edc16f91febc0eee7a18f8bae50014ac17cfe99166a252c20",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/br-bmv-presentation.html",
+        "sha256": "efc76517a1be5b28ce4e84776e9206a88bba4f92e1bcef7edcfb51761398f88c",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/c-bast348.pdf",
+        "sha256": "718e3a4bcd2d1fe49cf740a0741d083f322f0144d54d8b3ea8de730eaa5ca48f",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/c-bkrfqg.pdf",
+        "sha256": "4e10a9a341cb5698b7c429d7e355311392275930e62926ea267ccfc91f88aac7",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/c-driving-prices-extraction.json",
+        "sha256": "e1f41c8eb518d30d649935b914ef512960082e88f19f7e6bf27ed590b24040ce",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/c-eu-extraction.json",
+        "sha256": "39b6e9dd3f4d6b00f21c2be209f65b5014422d4a4ccaa7fadb1ed27827fd6cf0",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/c-fahrlg.pdf",
+        "sha256": "d0fd190ead3627ed9d1ce253f1fbd077e1559a8c49db4e679d21b1fd6c205db5",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/c-fev.pdf",
+        "sha256": "a74dd860e6af6a54cb646ec01c4925546fad13c1bbfc712d71423dcb9c85a01e",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/c-modernisierung.pdf",
+        "sha256": "97e49788fe467669fd3df3a7048d8b733707bf787aeafe97e0c0a98e68daf77e",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/cr-bf17-study-extraction.json",
+        "sha256": "7befde0b8a56d2457a4f6656c33d6ecbe6f18bb152e9b81e4deee72e0b9ef7b7",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/cr-fahrschausbo.html",
+        "sha256": "c29f2fd309b2b662fd9c3ab725a2cc43e871810cf5451a78f16392924e98f40c",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/cr-foreign-extraction.json",
+        "sha256": "f1dbd8475ab691adf47509daf1fb5dfbc7a7bfd7d8351b3d2d1a9a32cd53b1dd",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/cr-france-aac.pdf",
+        "sha256": "2f01ffc7b3ee1d7779afaacfd7c37ee3ec4b17988f7f2190182a9699047e951c",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/cr-moving-shortage.pdf",
+        "sha256": "9214e999a831983df01d8c34346b642b8687e9fc092771db2ca8a03ef083748d",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/cr-moving2025.pdf",
+        "sha256": "cabc7a9da4349509eb24cb4a956a018a601c7a5c59e2e00865186584586aee4f",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/cr-survey.html",
+        "sha256": "5588950ee7410516d5c66eeaf8654e30e99e9af7382724ff3cec5cb537611b7c",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/cr-traficom-oct.html",
+        "sha256": "463e4aaf08b8eb333239dff7ee00e6016df4b60ed4ef67da48ef887f92393b0c",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/cr-traficom-reform.html",
+        "sha256": "ab93c2675188b793bd81dcbf98a50533b05484262239ac27b89f8c38fc8d15ff",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/root-adac-cost-chart.jpg",
+        "sha256": "248f5f55640ff592ac7a69b371bcac77491db9a6971c3ee398fa2a4ace6ef0f3",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/root-adac-hours-chart.jpg",
+        "sha256": "35854cbcf2dad7d06ac99420ad7496935140cfee1b85c0be1ee1204ab4b103a8",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/root-br365.pdf",
+        "sha256": "e2891fc67c5afa333d35cc19c3212198b8b6252ca2963c0cf096504ced5544cc",
+        "record_occurrences": 10,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/root-eu20222561-boe.html",
+        "sha256": "f6a551312e06ea01339b2cc9aa19049dd6c2747d272f97a4d20da1f208b7a04a",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/root-eu20252205-boe.html",
+        "sha256": "dd8c03a74e44d2ec30ca13789c4ed7f7a29ee3285b246671695f1e7a7161431a",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/root-ministry-ordinance.pdf",
+        "sha256": "97e49788fe467669fd3df3a7048d8b733707bf787aeafe97e0c0a98e68daf77e",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/driving-2026/sources/root-ministry-statute.pdf",
+        "sha256": "6b0d6599bd14809927cfced4974387482f0415d99d820ef75bdea54375244c02",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/agents/claims-a.json",
+        "sha256": "e5b3656339ade07d2b5f801313024b109a4c2b312e76aef8bc0ebcd5a2fd6b95",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/agents/claims-b.json",
+        "sha256": "10302346e1404781e7a307d7a8d124d6e7cc45f3201c7dbd1b10984b041f1f6e",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/agents/claims-c.json",
+        "sha256": "5ddd9106eed62e461a99fd154a99b1af0522ad86b2015dfd9e2ae3f0e6b44554",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/reviews/a-reviews-c.json",
+        "sha256": "ba59887a742e020ecf3f3855b2da06d85c62860fe933956d3fc77c02ac9c913a",
+        "record_occurrences": 3,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/reviews/b-future-law-supplement.json",
+        "sha256": "fe6b219107e373400815e7c35a52f18e20b5ef79b8025851f24684d8aa3205eb",
+        "record_occurrences": 1,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/reviews/b-reviews-a.json",
+        "sha256": "36fd78db3fab974d5526817436f3b9d5f1ff6d639b8621602c9fd9c5ee7c8827",
+        "record_occurrences": 2,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/reviews/c-reviews-b.json",
+        "sha256": "5383cec3d6a35e223656e23f7c976512c078a53aa5b8a851d93341355768ee3e",
+        "record_occurrences": 2,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/a-ampudia2014.pdf",
+        "sha256": "a103948501a0203f3bb89035fb27c0d9bcd58bc9f21e1bd509231566e4a045b2",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/a-bonfig2026.html",
+        "sha256": "a4d684bda5fd98665aee1d0163e5ee3d4571aa9b5c5909805e1767091384625e",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/a-bpb.html",
+        "sha256": "37c3c39c27204c5405a0b24ca3277e083b934afea8bfef08d7e7efc4d282a418",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/a-buntins2024.pdf",
+        "sha256": "b706634c758440c9784d3fcf5d3c68f64c071053ed0bc9c264a02526672debbd",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/a-financial2026-full.html",
+        "sha256": "b2e93fc9bd0c2ce42c13317c0e01f714dd87ed694487e18cc8148297c420d286",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/a-financial2026.html",
+        "sha256": "185d58386adce2ab83fa48b1e1b13c6ff074784d133bf0b59e2b9a35f4dce0a6",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/a-kmk2025.pdf",
+        "sha256": "604ccd3b665e91fa67cfe6cb186ad253c2869e010e6aebee31c729361d25df74",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/a-mn2009.pdf",
+        "sha256": "d1e62cd9cc16a3f3cb69a304351427b83964d0f9b8d8fdf5ddcf7e5ac69a734b",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/a-safe121.pdf",
+        "sha256": "b40c7b815a506e00f7009e32f9ec237227f6ee1b2869170720a2094323788e92",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/a-vzbv2014.pdf",
+        "sha256": "7c4c8e1ac7dcdfef36c7c42513e37c7935d4070fd2fdbfa6371dce6f912d67f4",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/a-vzbv2025.html",
+        "sha256": "711c8f0fbdadbef115fd6ae322c7b97954d9945cdb78fc6eb7543f27bcd420d1",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/a-web-primary.json",
+        "sha256": "d6b0d153889470167c312e5399eed020baa8e48d88eca6ab7651548292b75997",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/ar-calculation.json",
+        "sha256": "6aa040cfe6b1c936afa5a443f592e7a3b08fa240384dff3d77dc3289e14ac678",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/b-altzertg.pdf",
+        "sha256": "f2b42dfeb7d453a4c27a2a1c058dc656a7888e254834e929b70ca831a6bf50eb",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/b-bgb1629.html",
+        "sha256": "d8c632d1cf4227dcc557dd01c7c705b4fed540fd3ea2424c83c966e9444e4d88",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/b-bmf-and-idd-web-extraction.json",
+        "sha256": "0b42fa5dc9ae963f3786df49ae8c1b2c10624115bf02e1832784e4218bf559c2",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/b-idd.html",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/b-pension-primary-search.json",
+        "sha256": "dac3ed42079ba3368e000fba8862729445a9bea8dbd13a9d214dc5fe9e499fb2",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/b-vag.pdf",
+        "sha256": "3754af571db75c47e2c4f3517de7278565cbb88235a44c335150c066a7e36ad4",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/b-vvg.pdf",
+        "sha256": "9f5d10f2e819f06038945f8b51383c71d800efce7b61297e270bc1ed1e5cff50",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/br-li2026.html",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/br-nber2011.pdf",
+        "sha256": "b0d12a771d0ce76a9c353d3ddc3b0476ef776a2f7654596d15b14946177682b1",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/br-pisa2024.pdf",
+        "sha256": "19ccbc12662a10081b0cab4687ff629fb8c836eda56160a5865f5886165dc391",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/br-priips-web-extraction.json",
+        "sha256": "790eaba62db5e5a76c8d676f19bfa3b0da5f0049d980de4fed8ee0d31027ffa7",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/br-priips2023.failed.html",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/br-priips2023.pdf",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "record_occurrences": 1,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/br-primary-web-extraction.json",
+        "sha256": "9eff9b582a748f611aeb676a2c86a9b2cffb52cc65b536a37b9ab5ea04919fea",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/c-altzertg.pdf",
+        "sha256": "f2b42dfeb7d453a4c27a2a1c058dc656a7888e254834e929b70ca831a6bf50eb",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/c-bgb.pdf",
+        "sha256": "9b5a99536e7b00756e9fa5f20082bd9ad3951b37c381fc0f5d52aa5a556839eb",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/c-calculations.json",
+        "sha256": "02634fa9e8627e2070311bcd463a674c18f5d54d93111401b6d7a179e7c71cb3",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/c-diw2015.pdf",
+        "sha256": "59c1e10b24bfcf228ce4627cd9b25b19a55c1c0a8d6eef32f4284db44384f7b3",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/c-frue-material-extraction.json",
+        "sha256": "1bb51e835d477578cf42e816b5d2ba4937491c35e366c9a3d15bed64b3178e9e",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/c-frue-strategy-extraction.json",
+        "sha256": "4d1c0b41654663919445f22c59031ac1db0a3c1c47fdca45e0a3535728bfce18",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/c-gwg.pdf",
+        "sha256": "cfb853679a0c5bae1df8c1235278cff6959ec3c00bfdcea78bf526d843396819",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/c-phf-primary-extraction.json",
+        "sha256": "028774e2ca54d44d89a4f901ecc19873378be223b483b8b63524b2fad43bd196",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/c-r-vag.pdf",
+        "sha256": "3754af571db75c47e2c4f3517de7278565cbb88235a44c335150c066a7e36ad4",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/c-r-vvg.pdf",
+        "sha256": "9f5d10f2e819f06038945f8b51383c71d800efce7b61297e270bc1ed1e5cff50",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/cr-idd-and-geography-extraction.json",
+        "sha256": "d237a121ca56d92dcbfc97e368619d65ea39bf3057391a94ea9959853f62baaa",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/cr-pension-capital-primary-extraction.json",
+        "sha256": "4d94272f3abdd9d4cf64883e58eee46b958d1b2e221e7b01315692284f71707c",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/root-altreform-landing.html",
+        "sha256": "227dad6973aec0adecfa4b610516386f5fb3acf699a7f96701a0593ac14486fe",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/root-altreform2026.pdf",
+        "sha256": "88e8bedbc87566c0943433e767a1f2b42d3089adade3235e38f2acf153dc04ce",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/factual-checks/fruehstart-2026/sources/root-ministry-july-index.html",
+        "sha256": "c14a7a1137ee90b79fa43dc4924d99636fe05dcbd42b9becbd87e57e0b8e4aaa",
+        "record_occurrences": 6,
+        "matches": true
+      },
+      {
+        "file": "research/round2-tax/sources/altersvorsorge-bt214088.pdf",
+        "sha256": "3e54fb86e17e901a1aea8d620a24bcc204989f51c7cde3e56fb5c9c535c18825",
+        "record_occurrences": 8,
+        "matches": true
+      },
+      {
+        "file": "research/round2-tax/sources/fruehstart-bt217864.pdf",
+        "sha256": "9d14355f8293339cd031b901c02c7be0b0f9dab1d7ca5f7edf5ce07fa834b4e7",
+        "record_occurrences": 11,
+        "matches": true
+      },
+      {
+        "file": "research/round2-tax/sources/fruehstart-refe-20260721-mirror.pdf",
+        "sha256": "38418c4a3b37eb4211b7194d17b0cd8931188e3858e2449bae612a9d272e640a",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round2-tax/sources/vzbv-fruehstart-20260922.pdf",
+        "sha256": "38cf33d940ad44399222dd5a258e7fa9dde4906f110758c62cad821998092ad9",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-energy/sources/bt217404-fahrlehrgesetz.pdf",
+        "sha256": "bb8fc57510906f3ec95f751abed4e7402d21c4a2442f0266204918645ca59866",
+        "record_occurrences": 11,
+        "matches": true
+      },
+      {
+        "file": "research/round3-energy/sources/submissions/bt-transport-1221858.pdf",
+        "sha256": "5d84d8435c2d8d9eb7e491eae08bc72c776981fa1f77df44f7e30a2813389098",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-energy/sources/submissions/bt-transport-1221860.pdf",
+        "sha256": "409cab6bc2f766e746de6340764572dbb03f45f42792401baaedc5384b199481",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-energy/sources/submissions/bt-transport-1221870.pdf",
+        "sha256": "760b5ab2bcaf251758d1aac024fb9a1543979d54fe81a957e2784807bd6023df",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-energy/sources/submissions/bt-transport-1222030.pdf",
+        "sha256": "7fefa549db7aba4522ee008705db3e444a9084e01280e3d00352563fbe74628d",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-energy/sources/submissions/bt-transport-1222032.pdf",
+        "sha256": "9d49f58323d6b0d151bfa3bf126a1d98dda226b38e3cf93ebb28c8552d923465",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-energy/sources/submissions/bt-transport-1222076.pdf",
+        "sha256": "d947537b9e1291706114f17118d120b4380494fac9fbd0868c69d973d897d774",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-social/coverage-pdfs/06e000102bb4b7e1a2.pdf",
+        "sha256": "102b123bf806c82e10b8f6db45798774a9b42a8cf424ab05a6b5ef9ab7178494",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-social/coverage-pdfs/07ef9dc80fc35febf9.pdf",
+        "sha256": "f572c201a9298a339c41164bb358c46975e7d8fe2c49f76e0db9c6e8f807ed4a",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-social/coverage-pdfs/2bd1f93cc97c723d46.pdf",
+        "sha256": "d7428217e6bfb37f030419c59d89b4b2846e450ba7a8bd2c8019b42ecb815653",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-social/coverage-pdfs/3918b9ebc9b7f1a3e9.pdf",
+        "sha256": "a4de745562bd5749511cb94ee725b4d714135b72ca7ec20f4918e292f6d483d0",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-social/coverage-pdfs/7fb70239292d60fce5.pdf",
+        "sha256": "1bfe3d44a77f2863fa1711243ae751e3057eb87122d668554b0525a61978ca61",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-social/coverage-pdfs/87c3856e1e36057be1.pdf",
+        "sha256": "413249d93e358fac8dade25f85cc546fe7e7421291e3ce0891a4442bd15bcfa0",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-social/coverage-pdfs/acfe36c057b07d7dc3.pdf",
+        "sha256": "fe9959645f6c4ffe1393a08de887373c2ead210a06f34124d36448ce10e3362a",
+        "record_occurrences": 5,
+        "matches": true
+      },
+      {
+        "file": "research/round3-social/coverage-pdfs/b5952eeb9269880efe.pdf",
+        "sha256": "01d2e3ef8b4b48499e9dd5f046867c7d2df8af6c21346c2c60356f2765cd26b2",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-social/coverage-pdfs/e0bee55b4e0915be93.pdf",
+        "sha256": "37039ef362f06014849a5e8f83c7649348b29cfc4abebd5f64b1845e5df4bf8e",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-social/sources/biostoffv-refe-ministry.pdf",
+        "sha256": "2a54d457ab13d0c459659c5300302d992919a8b360f74a7833eed735a30cf24d",
+        "record_occurrences": 13,
+        "matches": true
+      },
+      {
+        "file": "research/round3-tax/sources/hearing-1216340-response-001.pdf",
+        "sha256": "bc804d7e98aee2df21c28a87a9459b7b72fc008d1096bf98e1e6947df637ea16",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-tax/sources/hearing-1216340-response-002.pdf",
+        "sha256": "28fb73692a54915cd7b0b9a118c97b59421b5328d35a1df8c5e15ab6c8e4407b",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-tax/sources/hearing-1216340-response-003.pdf",
+        "sha256": "49376cbc681f7eecbfdfc5941d26614103fe315e5c90136fa921198fcdc628f8",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-tax/sources/hearing-1216340-response-004.pdf",
+        "sha256": "68e87ae61c90ab6c697bae8294d750e87edecb083b2d521016c2b54e8a203463",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-tax/sources/hearing-1216340-response-005.pdf",
+        "sha256": "47eb4565c0935ec79cc66c654382536653756876beffbd134ca5c0c4583e6299",
+        "record_occurrences": 4,
+        "matches": true
+      },
+      {
+        "file": "research/round3-tax/sources/hearing-1216340-response-006.pdf",
+        "sha256": "8b31335f8558f20ded06e64675fdf1fd9196f9d06f0188c2ad2865465c8632c5",
+        "record_occurrences": 4,
+        "matches": true
+      }
+    ]
+  },
+  "index_delta": {
+    "file": "research/build_factual_index.py",
+    "sha256": "2b8c9c4d667c06461f28c128a27f975947c07af9a7e23edda32c64fab572ea3d",
+    "previous_path_audit_sha256": "9098f726e8fb13395ae73cc90cfd9ffa3c9e47772ee0dca009012ed103325785",
+    "new_optional_report_note": "Stored/rendered only when configured; HTML-escaped. Captured script/ampersand/quote fixture confirms escaping. Absent in the historical default config, preserving default data and existing text aside from the previously audited introductory phrasing.",
+    "identity_and_routing": "Duplicate resolved aliases, outside traversal and nested batch paths rejected with zero captured writes. Single absolute/dot direct-child paths produce canonical report/ledger links. Real continuation config captures only continuation summary.json/report.html."
+  },
+  "generic_reproductions": [
+    {
+      "code": "research/build_deliverables.py",
+      "sha256": "b1ac1179178f75b8fd9d40146bc553aaaac3bd91ef3ab433268578d2c198eaf2",
+      "error": null,
+      "outputs": [
+        {
+          "file": "data/findings.json",
+          "matches_current": true
+        },
+        {
+          "file": "data/unresolved-leads.json",
+          "matches_current": true
+        },
+        {
+          "file": "data/rejected-candidates.json",
+          "matches_current": true
+        },
+        {
+          "file": "data/source-registry.json",
+          "matches_current": true
+        },
+        {
+          "file": "data/documents.json",
+          "matches_current": true
+        },
+        {
+          "file": "data/review-index.json",
+          "matches_current": true
+        }
+      ]
+    },
+    {
+      "code": "research/build_screening_pool.py",
+      "sha256": "92d95bb87225ffa9e355097008d1a7c6fe9775c52a98a3970c478603d52e7310",
+      "error": null,
+      "outputs": [
+        {
+          "file": "data/screening-pool.json",
+          "matches_current": true
+        },
+        {
+          "file": "data/screening-pool-summary.json",
+          "matches_current": true
+        }
+      ]
+    },
+    {
+      "code": "research/build_bounded_coverage.py",
+      "sha256": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+      "error": null,
+      "outputs": [
+        {
+          "file": "data/bounded-coverage.json",
+          "matches_current": true
+        }
+      ]
+    }
+  ],
+  "main_validator": {
+    "check": "current shared main validator zero errors",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "record_count": 110,
+    "result": "pass_with_disclosed_manual_checks",
+    "observation_at_utc": "2026-10-25T12:08:31.615244+00:00",
+    "scope": "Fresh captured validator run against the then-shared 110 issue objects; later pool/README changes are separately disclosed and not silently treated as the same snapshot."
+  },
+  "local_report_links": [
+    {
+      "file": "research/factual-checks/continuation-20261025/report.html",
+      "local_links": 7,
+      "bad": []
+    },
+    {
+      "file": "research/factual-checks/driving-2026/report.html",
+      "local_links": 429,
+      "bad": []
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/report.html",
+      "local_links": 478,
+      "bad": []
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/report.html",
+      "local_links": 498,
+      "bad": []
+    }
+  ],
+  "README": {
+    "file": "README.md",
+    "sha256": "650933e21fafe3c1c9da25d6fa9764059448b87e5eadab1d41f5c46974ad2630",
+    "continuation_scope_and_links_checked": true,
+    "corrected_root_snapshot_sha256": "ac9b733bb872dda30714763f18d9001e379dbb99f5b719f581d95f13ae127b14",
+    "whole_file_is_shared_with_active_Round6": true
+  },
+  "main_baseline": {
+    "starting_objects": 102,
+    "exact_objects_preserved": 101,
+    "all_factual_dispositions_preserved": 102,
+    "changed_by_this_continuation": [],
+    "explicit_external_quote_exception": {
+      "issue_id": "behg2026-fleischmann-binding-targets-energy-r3-01",
+      "changed_fields": [
+        "claim_quote",
+        "history",
+        "quote_context",
+        "research_record"
+      ],
+      "all_other_values_identical": true,
+      "new_quote_is_substring": true,
+      "locator_identical": true,
+      "prior_history_is_prefix": true,
+      "original_research_file": "research/round3-energy/behg2026-fleischmann-binding-targets-energy-r3-01.json",
+      "current_explicit_round6_record": "research/round6/fleischmann-binding-targets-quote-only.json",
+      "current_record_sha256": "26bdf4aa61c83a9307788b9b2659c3ca5fe4ebc311419f863d72b8ae4c2e7382",
+      "disposition_unchanged": true,
+      "attribution": "Separate Round6 quotation-budget maintenance; this continuation makes no issue reassessment."
+    },
+    "external_additions": [
+      {
+        "file": "data/findings.json",
+        "baseline_records": 63,
+        "current_records": 69,
+        "unchanged_baseline": 63,
+        "changed_or_missing": [],
+        "added_externally": [
+          "fruehstart2026-dai-doubletax-tax-r6-01",
+          "izg2026-biesemann-seaports-energy-r6-03",
+          "krwg2026-itad-prevention-target-energy-r6-02",
+          "krwg2026-itad-recycling-method-energy-r6-01",
+          "mietrechtII2026-ivd-cpiyears-root-r6-02",
+          "suizidpraevg2026-marburger-costs-social-r6-01"
+        ]
+      },
+      {
+        "file": "data/unresolved-leads.json",
+        "baseline_records": 37,
+        "current_records": 38,
+        "unchanged_baseline": 36,
+        "changed_or_missing": [
+          "behg2026-fleischmann-binding-targets-energy-r3-01"
+        ],
+        "added_externally": [
+          "staendg2025-langenmayr-incidence-root-r6-03"
+        ],
+        "classification_of_changed_record": "Separate Round6 quote-only maintenance, not this continuation."
+      },
+      {
+        "file": "data/rejected-candidates.json",
+        "baseline_records": 2,
+        "current_records": 3,
+        "unchanged_baseline": 2,
+        "changed_or_missing": [],
+        "added_externally": [
+          "mietrechtII2026-ivd-vacate-root-r6-01"
+        ]
+      }
+    ],
+    "note": "The initial comparison caught one exact-object exception. Root corrected its README and completion audit; this audit does not silently claim exact preservation of all 102 objects."
+  },
+  "pool_and_pilots": {
+    "old_pilot_entries_exactly_preserved": 3,
+    "old_annotations_exactly_preserved": 37,
+    "total_annotated_records": 59,
+    "annotation_counts": {
+      "biostoffv-2026-factual-checks": 9,
+      "kltgv-2026-factual-pilot": 7,
+      "netzkosten-2026-factual-checks": 21,
+      "behg-2026-factual-checks": 9,
+      "driving-2026-factual-checks": 6,
+      "fruehstart-2026-factual-checks": 7
+    },
+    "new_annotations_all_exactly_match_22_existing_records_and_claims": true,
+    "root_completion_pool_snapshot": 792,
+    "later_reviewed_pool_included": 791,
+    "missing_baseline_aliases": [
+      "dk-kryptotax-20261015"
+    ],
+    "external_non_annotation_baseline_deltas": [
+      {
+        "id": "aids-childhealth-budget-20260923",
+        "changed_fields": [
+          "actor_role_evidence",
+          "branches",
+          "local_files",
+          "scope_status",
+          "screening_evidence",
+          "source_inventory_ids",
+          "urls"
+        ]
+      },
+      {
+        "id": "aids-globalhealth-budget-20261001",
+        "changed_fields": [
+          "actor_role_evidence",
+          "branches",
+          "local_files",
+          "scope_status",
+          "screening_evidence",
+          "source_inventory_ids",
+          "urls"
+        ]
+      },
+      {
+        "id": "bt-environment-1222442",
+        "changed_fields": [
+          "screening_evidence"
+        ]
+      },
+      {
+        "id": "dk-crypto-20261015",
+        "changed_fields": [
+          "actor_role_evidence",
+          "branches",
+          "local_files",
+          "screening_evidence",
+          "source_inventory_ids",
+          "urls"
+        ]
+      },
+      {
+        "id": "vdb-waffen-evaluation-20260925",
+        "changed_fields": [
+          "actor_role_evidence",
+          "branches",
+          "local_files",
+          "screening_evidence",
+          "source_inventory_ids"
+        ]
+      },
+      {
+        "id": "versmedv7-2026-vdk",
+        "changed_fields": [
+          "actor_role_evidence",
+          "branches",
+          "external_submission",
+          "local_files",
+          "screening_evidence",
+          "source_inventory_ids",
+          "urls"
+        ]
+      }
+    ],
+    "later_external_change": "Separate Round6 activity reduced the shared pool from 792 to 791 and also changed versmedv7-2026-vdk screening provenance after the root snapshot. Own 59 annotations and three batch outputs remain stable.",
+    "pool_capture_input_hashes": {
+      "data/findings.json": "1d0a76119a83ba58b9d93e4e01d3c8b91ca371ed7e62582d3baca0d4cdeaaf79",
+      "data/unresolved-leads.json": "b0430096b8186c3b6c8fcfe646026af9881b660bad3614632da3f74ab49f53cc",
+      "data/rejected-candidates.json": "b7855eb215a1a33f2102a38845581de148df9c29440db3d7d37f8972adc75487",
+      "data/source-registry.json": "b48a74317df92d67dbe5e70f73c41541a6a964f8eda3785aad94039b18a044e6",
+      "data/factual-check-pilots.json": "410dac70bb7ef5d125c775ece8798a14f74902dc538a51d324aec0ddc5f34a53",
+      "research/screening-pool-aliases.json": "7db475434105870323ede5368f8f25bd3974d75fd335de9181919022223a2ea6"
+    },
+    "alias_proof": {
+      "file": "research/round6-tax/dk-crypto-alias-proof.json",
+      "sha256": "785e3675a9dd7457dc8336e9d4131b78a24739a5c21c01da9f58cb359bf3f2ce",
+      "scope": "Provenance attribution only, not independent certification of separate Round6 substantive research."
+    },
+    "old_source_metadata": "All previous source-registry values are identical; the July draft mirror only gained read_extent/retention_exception keys."
+  },
+  "storage_cleanup": {
+    "file": "research/factual-checks/continuation-20261025/derivative-cleanup.json",
+    "sha256": "8f42ae01f31a9bec23e70c107f404e3999497b8a40c840ece7cb0f73f27226a5",
+    "removed_derivatives": 97,
+    "removed_bytes": 16599915,
+    "all_retained_original_hashes_match": true,
+    "no_current_source_archive_author_text_or_report_dependency_removed": true,
+    "strict_rebuilds_pass_after_cleanup": true
+  },
+  "resolved_integration_observations": {
+    "initial_failed_checks": [
+      {
+        "check": "unresolved-leads.json baseline objects preserved",
+        "passed": false,
+        "records": 37,
+        "added_externally": [
+          "staendg2025-langenmayr-incidence-root-r6-03"
+        ]
+      },
+      {
+        "check": "all 102 starting issue objects preserved",
+        "passed": false
+      },
+      {
+        "check": "pool changes attributed separately",
+        "passed": false,
+        "missing_alias": [
+          "dk-kryptotax-20261015"
+        ],
+        "external_changes": [
+          {
+            "id": "aids-childhealth-budget-20260923",
+            "changed_fields": [
+              "screening_evidence",
+              "urls",
+              "local_files",
+              "actor_role_evidence",
+              "branches",
+              "source_inventory_ids",
+              "scope_status"
+            ]
+          },
+          {
+            "id": "aids-globalhealth-budget-20261001",
+            "changed_fields": [
+              "screening_evidence",
+              "urls",
+              "local_files",
+              "actor_role_evidence",
+              "branches",
+              "source_inventory_ids",
+              "scope_status"
+            ]
+          },
+          {
+            "id": "bt-environment-1222442",
+            "changed_fields": [
+              "screening_evidence"
+            ]
+          },
+          {
+            "id": "dk-crypto-20261015",
+            "changed_fields": [
+              "screening_evidence",
+              "urls",
+              "local_files",
+              "actor_role_evidence",
+              "branches",
+              "source_inventory_ids"
+            ]
+          },
+          {
+            "id": "vdb-waffen-evaluation-20260925",
+            "changed_fields": [
+              "screening_evidence",
+              "local_files",
+              "actor_role_evidence",
+              "branches",
+              "source_inventory_ids"
+            ]
+          }
+        ],
+        "current_included": 792,
+        "alias_proof": {
+          "file": "research/round6-tax/dk-crypto-alias-proof.json",
+          "sha256": "785e3675a9dd7457dc8336e9d4131b78a24739a5c21c01da9f58cb359bf3f2ce",
+          "scope": "Attribution/provenance inspected only; this audit does not substantively certify separate Round6 readings or decisions."
+        }
+      }
+    ],
+    "resolution": "One Round6 quote-only baseline exception and its pool evidence-path delta were independently identified, precisely compared and explicitly attributed in corrected README/root audit. Later pool metadata/count changes remain externally scoped. No continuation assessment or report needed alteration.",
+    "root_corrected_freeze": {
+      "file": "research/factual-checks/continuation-20261025/completion-audit.json",
+      "sha256": "d4188ff9853a98565f1ab54abadca6a180c310d1a450ae7c9b067246d0c22de6"
+    }
+  },
+  "exact_corrected_root_freeze_comparison": [
+    {
+      "file": "AGENTS.md",
+      "frozen_sha256": "afc424e3078be78ba27980adf1d49665e61310fb066cf597891679d1c1e1ae1c",
+      "reviewed_sha256": "afc424e3078be78ba27980adf1d49665e61310fb066cf597891679d1c1e1ae1c",
+      "matches": true
+    },
+    {
+      "file": "README.md",
+      "frozen_sha256": "ac9b733bb872dda30714763f18d9001e379dbb99f5b719f581d95f13ae127b14",
+      "reviewed_sha256": "650933e21fafe3c1c9da25d6fa9764059448b87e5eadab1d41f5c46974ad2630",
+      "matches": false
+    },
+    {
+      "file": "data/bounded-coverage.json",
+      "frozen_sha256": "5cc2ffa0c8de6f65f6cfc75e04dace8a9ef3725652b2744e42034dff521622dc",
+      "reviewed_sha256": "5cc2ffa0c8de6f65f6cfc75e04dace8a9ef3725652b2744e42034dff521622dc",
+      "matches": true
+    },
+    {
+      "file": "data/documents.json",
+      "frozen_sha256": "ba3a57cd62ed4e10524a49be8ef889ff8e84a4f1e971c47d30e70af07378ad8a",
+      "reviewed_sha256": "ba3a57cd62ed4e10524a49be8ef889ff8e84a4f1e971c47d30e70af07378ad8a",
+      "matches": true
+    },
+    {
+      "file": "data/factual-check-pilots.json",
+      "frozen_sha256": "410dac70bb7ef5d125c775ece8798a14f74902dc538a51d324aec0ddc5f34a53",
+      "reviewed_sha256": "410dac70bb7ef5d125c775ece8798a14f74902dc538a51d324aec0ddc5f34a53",
+      "matches": true
+    },
+    {
+      "file": "data/findings.json",
+      "frozen_sha256": "1d0a76119a83ba58b9d93e4e01d3c8b91ca371ed7e62582d3baca0d4cdeaaf79",
+      "reviewed_sha256": "1d0a76119a83ba58b9d93e4e01d3c8b91ca371ed7e62582d3baca0d4cdeaaf79",
+      "matches": true
+    },
+    {
+      "file": "data/rejected-candidates.json",
+      "frozen_sha256": "b7855eb215a1a33f2102a38845581de148df9c29440db3d7d37f8972adc75487",
+      "reviewed_sha256": "b7855eb215a1a33f2102a38845581de148df9c29440db3d7d37f8972adc75487",
+      "matches": true
+    },
+    {
+      "file": "data/review-index.json",
+      "frozen_sha256": "76777ba1efb1f2c91da55f4e42b67229bd250e7cbced59b3c33886c188563540",
+      "reviewed_sha256": "76777ba1efb1f2c91da55f4e42b67229bd250e7cbced59b3c33886c188563540",
+      "matches": true
+    },
+    {
+      "file": "data/screening-pool-summary.json",
+      "frozen_sha256": "a740ed726390a3810ea92271387e5cbf4fbf936861638da35a73d983f1668154",
+      "reviewed_sha256": "389bbe47f8a4fd8cd0cbc712655570f599e8ca5d30ab19a126a12b11055d8e78",
+      "matches": false
+    },
+    {
+      "file": "data/screening-pool.json",
+      "frozen_sha256": "c20701143fcc0537d8de1e2c54804bfeadfcf72eed78584b960e03022a86a4c2",
+      "reviewed_sha256": "a2563db0d8714dd29194b7c5aa187ba3233a364c724f2274bdafe6625dfc50e1",
+      "matches": false
+    },
+    {
+      "file": "data/source-registry.json",
+      "frozen_sha256": "b48a74317df92d67dbe5e70f73c41541a6a964f8eda3785aad94039b18a044e6",
+      "reviewed_sha256": "b48a74317df92d67dbe5e70f73c41541a6a964f8eda3785aad94039b18a044e6",
+      "matches": true
+    },
+    {
+      "file": "data/unresolved-leads.json",
+      "frozen_sha256": "b0430096b8186c3b6c8fcfe646026af9881b660bad3614632da3f74ab49f53cc",
+      "reviewed_sha256": "b0430096b8186c3b6c8fcfe646026af9881b660bad3614632da3f74ab49f53cc",
+      "matches": true
+    },
+    {
+      "file": "data/validation-report.json",
+      "frozen_sha256": "d03c30bad609d14e2070d28d46f114d0bd9397dda2e6eb9a8dd6ad3857e68d1d",
+      "reviewed_sha256": "d03c30bad609d14e2070d28d46f114d0bd9397dda2e6eb9a8dd6ad3857e68d1d",
+      "matches": true
+    },
+    {
+      "file": "research/build_bounded_coverage.py",
+      "frozen_sha256": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+      "reviewed_sha256": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+      "matches": true
+    },
+    {
+      "file": "research/build_deliverables.py",
+      "frozen_sha256": "b1ac1179178f75b8fd9d40146bc553aaaac3bd91ef3ab433268578d2c198eaf2",
+      "reviewed_sha256": "b1ac1179178f75b8fd9d40146bc553aaaac3bd91ef3ab433268578d2c198eaf2",
+      "matches": true
+    },
+    {
+      "file": "research/build_factual_batch.py",
+      "frozen_sha256": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+      "reviewed_sha256": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+      "matches": true
+    },
+    {
+      "file": "research/build_factual_index.py",
+      "frozen_sha256": "2b8c9c4d667c06461f28c128a27f975947c07af9a7e23edda32c64fab572ea3d",
+      "reviewed_sha256": "2b8c9c4d667c06461f28c128a27f975947c07af9a7e23edda32c64fab572ea3d",
+      "matches": true
+    },
+    {
+      "file": "research/build_screening_pool.py",
+      "frozen_sha256": "92d95bb87225ffa9e355097008d1a7c6fe9775c52a98a3970c478603d52e7310",
+      "reviewed_sha256": "92d95bb87225ffa9e355097008d1a7c6fe9775c52a98a3970c478603d52e7310",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/adjudication.json",
+      "frozen_sha256": "53ed7391950254a9d74f6fbaa00d9dbc76650d981493039bbcb9857ecf7e0f3a",
+      "reviewed_sha256": "53ed7391950254a9d74f6fbaa00d9dbc76650d981493039bbcb9857ecf7e0f3a",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/agents/claims-a.json",
+      "frozen_sha256": "b4f2701d6cbe84ae148f50f7f033f6fc018e4053edab70018b30bbfa52721f91",
+      "reviewed_sha256": "b4f2701d6cbe84ae148f50f7f033f6fc018e4053edab70018b30bbfa52721f91",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/agents/claims-b.json",
+      "frozen_sha256": "3e88b8ec4c8b23f005aa3b1c91bc4bf70219217f5762fcf748c6b90032c986d4",
+      "reviewed_sha256": "3e88b8ec4c8b23f005aa3b1c91bc4bf70219217f5762fcf748c6b90032c986d4",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/agents/claims-c.json",
+      "frozen_sha256": "a544e22b0a180eb809194c1e3a09a6b87c13673628c8f967a4fc6149a5b7b644",
+      "reviewed_sha256": "a544e22b0a180eb809194c1e3a09a6b87c13673628c8f967a4fc6149a5b7b644",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/assembly-manifest.json",
+      "frozen_sha256": "b96f3179d7d22ffeb347af128e6575130c0a2f0ae1baad29891057d09d1011e0",
+      "reviewed_sha256": "b96f3179d7d22ffeb347af128e6575130c0a2f0ae1baad29891057d09d1011e0",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/claim-ledger.json",
+      "frozen_sha256": "2fdd6f0d18246abc6bf674c1af0da5d0b8cccdc322269435572cbb8c889cafd3",
+      "reviewed_sha256": "2fdd6f0d18246abc6bf674c1af0da5d0b8cccdc322269435572cbb8c889cafd3",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/protocol.json",
+      "frozen_sha256": "50bcaa59c02eac42891cbeecb254872ad3d726d6eb3587fd48f4dd43604fdc45",
+      "reviewed_sha256": "50bcaa59c02eac42891cbeecb254872ad3d726d6eb3587fd48f4dd43604fdc45",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/report.html",
+      "frozen_sha256": "03cc08528f2055e3982d628e4f6433a67480c8427164f461565caab48d75a154",
+      "reviewed_sha256": "03cc08528f2055e3982d628e4f6433a67480c8427164f461565caab48d75a154",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/reviews/a-reviews-c.json",
+      "frozen_sha256": "24603fcf78953fc8d683879301a4494daaae1cefe5874181d68095a6da9c8213",
+      "reviewed_sha256": "24603fcf78953fc8d683879301a4494daaae1cefe5874181d68095a6da9c8213",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/reviews/b-final-candidate-records.json",
+      "frozen_sha256": "81dcb7f718cf3f7100ee3dcaab765c7456f65bb896294509fd406ef84878072d",
+      "reviewed_sha256": "81dcb7f718cf3f7100ee3dcaab765c7456f65bb896294509fd406ef84878072d",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/reviews/b-reviews-a.json",
+      "frozen_sha256": "0f4484a416bb9c6b9fddc8913c1c36db297d6e280ffd9c2fc3bf53c1109070d5",
+      "reviewed_sha256": "0f4484a416bb9c6b9fddc8913c1c36db297d6e280ffd9c2fc3bf53c1109070d5",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/reviews/c-reviews-b.json",
+      "frozen_sha256": "83a7528e5952c121818591671dfa6fccdd758a6061dabc94704b791da5b10583",
+      "reviewed_sha256": "83a7528e5952c121818591671dfa6fccdd758a6061dabc94704b791da5b10583",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/root-sources.json",
+      "frozen_sha256": "b2e9bd3f59b75cc62175e4259775336c6c24aafba6bd56c1ba6755c90d3b0b3c",
+      "reviewed_sha256": "b2e9bd3f59b75cc62175e4259775336c6c24aafba6bd56c1ba6755c90d3b0b3c",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/staged/biostoffv2026-dgaum-postcovid-latency-fc01.json",
+      "frozen_sha256": "c35e0e4ad8ba388564f53c5c8fb1e2c3f03882e1d09fbd9e6c61e50993ada339",
+      "reviewed_sha256": "c35e0e4ad8ba388564f53c5c8fb1e2c3f03882e1d09fbd9e6c61e50993ada339",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/summary.json",
+      "frozen_sha256": "5235d5eef5140f6be68431b9e83de7dfea6a6883a835d36ee614606bdf20d61c",
+      "reviewed_sha256": "5235d5eef5140f6be68431b9e83de7dfea6a6883a835d36ee614606bdf20d61c",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/biostoffv-2026/validation-report.json",
+      "frozen_sha256": "222425afced912082f78edd37ebc3cb4ab6f0af745248ad990d98398b729094b",
+      "reviewed_sha256": "222425afced912082f78edd37ebc3cb4ab6f0af745248ad990d98398b729094b",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/derivative-cleanup.json",
+      "frozen_sha256": "8f42ae01f31a9bec23e70c107f404e3999497b8a40c840ece7cb0f73f27226a5",
+      "reviewed_sha256": "8f42ae01f31a9bec23e70c107f404e3999497b8a40c840ece7cb0f73f27226a5",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/initial-freezes.json",
+      "frozen_sha256": "c53db9a21b6e98c965b7734a0445fcc76bc0fdd00578b19a9e354f2202be1fed",
+      "reviewed_sha256": "c53db9a21b6e98c965b7734a0445fcc76bc0fdd00578b19a9e354f2202be1fed",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/protocol.json",
+      "frozen_sha256": "8f1303913bf9872374b2bbdd4dedcc6cd6a17c78ae9e0656d6ed655e23ed9a4f",
+      "reviewed_sha256": "8f1303913bf9872374b2bbdd4dedcc6cd6a17c78ae9e0656d6ed655e23ed9a4f",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/report.html",
+      "frozen_sha256": "103bdd14bb945a0ae74d6e3ba3dab1a66fe02a114f92a2c78db1093377d5585e",
+      "reviewed_sha256": "103bdd14bb945a0ae74d6e3ba3dab1a66fe02a114f92a2c78db1093377d5585e",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/reviews/c-index-code-audit-final.json",
+      "frozen_sha256": "191326efad5e42ff01ccde84e125d983bc566104991a7f20c7781be5268b5040",
+      "reviewed_sha256": "191326efad5e42ff01ccde84e125d983bc566104991a7f20c7781be5268b5040",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/reviews/c-index-code-audit-path-addendum.json",
+      "frozen_sha256": "bbdf1308afbc82aec7affa0cbf4b1a75e5f6b92935d5ea6d335b9e402988cb28",
+      "reviewed_sha256": "bbdf1308afbc82aec7affa0cbf4b1a75e5f6b92935d5ea6d335b9e402988cb28",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/reviews/c-index-code-audit.json",
+      "frozen_sha256": "2ae9c52f9dbecb31fabe816358f821d3134e70caf3e66b5ffe72ab10b0bc1d79",
+      "reviewed_sha256": "2ae9c52f9dbecb31fabe816358f821d3134e70caf3e66b5ffe72ab10b0bc1d79",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/root-research-log.json",
+      "frozen_sha256": "f0431c460acff887eb2b539bb90bfd030abc9ac760402a8c33c20e65c966728a",
+      "reviewed_sha256": "f0431c460acff887eb2b539bb90bfd030abc9ac760402a8c33c20e65c966728a",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/source-retention.json",
+      "frozen_sha256": "90e153992b3ff60db6cc4d840b089aa33798296331320bb637e709d3c3f9e0e7",
+      "reviewed_sha256": "90e153992b3ff60db6cc4d840b089aa33798296331320bb637e709d3c3f9e0e7",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/summary.json",
+      "frozen_sha256": "c61e3a4bcac16312af38e25487deb477e421cfdbe238b223e34fe06b935f535e",
+      "reviewed_sha256": "c61e3a4bcac16312af38e25487deb477e421cfdbe238b223e34fe06b935f535e",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/adjudication.json",
+      "frozen_sha256": "2b925d6bf3f08f794b06190f27337eaf22eccbd74fba54bb2c7759a248bde237",
+      "reviewed_sha256": "2b925d6bf3f08f794b06190f27337eaf22eccbd74fba54bb2c7759a248bde237",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/agents/claims-a.json",
+      "frozen_sha256": "59cccba326f68b8e5cc6f9e5870e224e1f1db0d828df56eeffa274d35b583616",
+      "reviewed_sha256": "59cccba326f68b8e5cc6f9e5870e224e1f1db0d828df56eeffa274d35b583616",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/agents/claims-b.json",
+      "frozen_sha256": "b5643bfedb62882bc01995f91f8fc43145465904b0109a82841f7c322973c508",
+      "reviewed_sha256": "b5643bfedb62882bc01995f91f8fc43145465904b0109a82841f7c322973c508",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/agents/claims-c.json",
+      "frozen_sha256": "d572742305298c6b45218355dc524bc8d50f26443b267ccebf8e9a2579e1ade4",
+      "reviewed_sha256": "d572742305298c6b45218355dc524bc8d50f26443b267ccebf8e9a2579e1ade4",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/assembly-manifest.json",
+      "frozen_sha256": "0dac12782233afe0e0a09d27415fcdd9b8b4f36899aeebb7aa3437e9fb7d5a20",
+      "reviewed_sha256": "0dac12782233afe0e0a09d27415fcdd9b8b4f36899aeebb7aa3437e9fb7d5a20",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/claim-ledger.json",
+      "frozen_sha256": "a829431eb7d36c37ccd551e73c12059e50e7289efd668de87caccb69b8f23800",
+      "reviewed_sha256": "a829431eb7d36c37ccd551e73c12059e50e7289efd668de87caccb69b8f23800",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/protocol.json",
+      "frozen_sha256": "8aa34180d5227ed4bb2c9e2ea171b9cb8949d6a44dc5b3c6422e593acd2832bf",
+      "reviewed_sha256": "8aa34180d5227ed4bb2c9e2ea171b9cb8949d6a44dc5b3c6422e593acd2832bf",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/report.html",
+      "frozen_sha256": "9c9c6f92e1ed7292361b6fca18a723afb3bc7c6cf2e15cde91171be9de2469fa",
+      "reviewed_sha256": "9c9c6f92e1ed7292361b6fca18a723afb3bc7c6cf2e15cde91171be9de2469fa",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/reviews/a-reviews-c.json",
+      "frozen_sha256": "fd1bc85cdd6d5a5c0168594ce282186b0960f40edab806a314551b86886d183b",
+      "reviewed_sha256": "fd1bc85cdd6d5a5c0168594ce282186b0960f40edab806a314551b86886d183b",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/reviews/b-reviews-a.json",
+      "frozen_sha256": "3f9c4dbb2b4ec93077d09a3d95d3497871f62f67ae4f17024eea7879fe74e240",
+      "reviewed_sha256": "3f9c4dbb2b4ec93077d09a3d95d3497871f62f67ae4f17024eea7879fe74e240",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/reviews/c-reviews-b.json",
+      "frozen_sha256": "87f3ce5b2beca3843295357f13fb6770cd0e2051efc591b3e3b0bbfe76d8f3e5",
+      "reviewed_sha256": "87f3ce5b2beca3843295357f13fb6770cd0e2051efc591b3e3b0bbfe76d8f3e5",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/reviews/snapshots/b-reviews-a-v1.json",
+      "frozen_sha256": "9c2798556ad74cf9f404b49719ddd380defdf71d80be510f8891dc4f0a93b205",
+      "reviewed_sha256": "9c2798556ad74cf9f404b49719ddd380defdf71d80be510f8891dc4f0a93b205",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/root-sources.json",
+      "frozen_sha256": "5a568ea012928bce9632835dd7b458aaeaa5c071ff116b7661761c1c0a22147a",
+      "reviewed_sha256": "5a568ea012928bce9632835dd7b458aaeaa5c071ff116b7661761c1c0a22147a",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/summary.json",
+      "frozen_sha256": "67c3a3b518f0906bae6604e0316f5dc447cb861fe69dcd8d28b181ce696f6368",
+      "reviewed_sha256": "67c3a3b518f0906bae6604e0316f5dc447cb861fe69dcd8d28b181ce696f6368",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/driving-2026/validation-report.json",
+      "frozen_sha256": "67edf3faeae684d295f8ab6d013494153da9fc42dd7eb8d774fa9d345bce2acd",
+      "reviewed_sha256": "67edf3faeae684d295f8ab6d013494153da9fc42dd7eb8d774fa9d345bce2acd",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/adjudication.json",
+      "frozen_sha256": "0875fa12a658e3c85e77252734692a443a1a11dc91d9ec05d979d95205f93fed",
+      "reviewed_sha256": "0875fa12a658e3c85e77252734692a443a1a11dc91d9ec05d979d95205f93fed",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/agents/claims-a.json",
+      "frozen_sha256": "e5b3656339ade07d2b5f801313024b109a4c2b312e76aef8bc0ebcd5a2fd6b95",
+      "reviewed_sha256": "e5b3656339ade07d2b5f801313024b109a4c2b312e76aef8bc0ebcd5a2fd6b95",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/agents/claims-b.json",
+      "frozen_sha256": "10302346e1404781e7a307d7a8d124d6e7cc45f3201c7dbd1b10984b041f1f6e",
+      "reviewed_sha256": "10302346e1404781e7a307d7a8d124d6e7cc45f3201c7dbd1b10984b041f1f6e",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/agents/claims-c.json",
+      "frozen_sha256": "5ddd9106eed62e461a99fd154a99b1af0522ad86b2015dfd9e2ae3f0e6b44554",
+      "reviewed_sha256": "5ddd9106eed62e461a99fd154a99b1af0522ad86b2015dfd9e2ae3f0e6b44554",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/assembly-manifest.json",
+      "frozen_sha256": "2c620aeb0df1cbc1cfbe1d4fd5e983b35100b92827186af0f057a3be3c9c9cfd",
+      "reviewed_sha256": "2c620aeb0df1cbc1cfbe1d4fd5e983b35100b92827186af0f057a3be3c9c9cfd",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/claim-ledger.json",
+      "frozen_sha256": "4055eaf77060f12dd46402d6a80cba47939e3876a285cc975038cc538aaeda84",
+      "reviewed_sha256": "4055eaf77060f12dd46402d6a80cba47939e3876a285cc975038cc538aaeda84",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/protocol.json",
+      "frozen_sha256": "c61d43ee7b3198c30da7bd7c3af01e27a2ea21fe7022091e9b9b1bfc88723d69",
+      "reviewed_sha256": "c61d43ee7b3198c30da7bd7c3af01e27a2ea21fe7022091e9b9b1bfc88723d69",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/report.html",
+      "frozen_sha256": "40de3123964b52e7d43e8297ed477f1026940b9766725cae8e0de9c200844f03",
+      "reviewed_sha256": "40de3123964b52e7d43e8297ed477f1026940b9766725cae8e0de9c200844f03",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/reviews/a-reviews-c.json",
+      "frozen_sha256": "ba59887a742e020ecf3f3855b2da06d85c62860fe933956d3fc77c02ac9c913a",
+      "reviewed_sha256": "ba59887a742e020ecf3f3855b2da06d85c62860fe933956d3fc77c02ac9c913a",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/reviews/b-future-law-supplement.json",
+      "frozen_sha256": "fe6b219107e373400815e7c35a52f18e20b5ef79b8025851f24684d8aa3205eb",
+      "reviewed_sha256": "fe6b219107e373400815e7c35a52f18e20b5ef79b8025851f24684d8aa3205eb",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/reviews/b-reviews-a.json",
+      "frozen_sha256": "36fd78db3fab974d5526817436f3b9d5f1ff6d639b8621602c9fd9c5ee7c8827",
+      "reviewed_sha256": "36fd78db3fab974d5526817436f3b9d5f1ff6d639b8621602c9fd9c5ee7c8827",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/reviews/c-reviews-b.json",
+      "frozen_sha256": "5383cec3d6a35e223656e23f7c976512c078a53aa5b8a851d93341355768ee3e",
+      "reviewed_sha256": "5383cec3d6a35e223656e23f7c976512c078a53aa5b8a851d93341355768ee3e",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/root-sources.json",
+      "frozen_sha256": "d013e08da8b118ec8b057eb979618eff6aedb4349732d50bde1ebc68cb03d51c",
+      "reviewed_sha256": "d013e08da8b118ec8b057eb979618eff6aedb4349732d50bde1ebc68cb03d51c",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/summary.json",
+      "frozen_sha256": "b2f31f5f719e28858ce3ca6c05b837542eda25563fbbc3f6629b2b4cc00d8253",
+      "reviewed_sha256": "b2f31f5f719e28858ce3ca6c05b837542eda25563fbbc3f6629b2b4cc00d8253",
+      "matches": true
+    },
+    {
+      "file": "research/factual-checks/fruehstart-2026/validation-report.json",
+      "frozen_sha256": "197f49db037fd942ce36b9a2a8df4582b5eb91db55e0a7daae41b4168d08e375",
+      "reviewed_sha256": "197f49db037fd942ce36b9a2a8df4582b5eb91db55e0a7daae41b4168d08e375",
+      "matches": true
+    },
+    {
+      "file": "research/validate_deliverables.py",
+      "frozen_sha256": "850cdecab575d632006df09de4c6b29e9e416f242e33f45ddb5d095eda4edf57",
+      "reviewed_sha256": "850cdecab575d632006df09de4c6b29e9e416f242e33f45ddb5d095eda4edf57",
+      "matches": true
+    },
+    {
+      "file": "site/build.py",
+      "frozen_sha256": "4d6ed390bcdb2fd15c3303d9b8ec4757a5c95a44665aeb53c06416f9761ef6fd",
+      "reviewed_sha256": "4d6ed390bcdb2fd15c3303d9b8ec4757a5c95a44665aeb53c06416f9761ef6fd",
+      "matches": true
+    },
+    {
+      "file": "site/build_evidence.py",
+      "frozen_sha256": "8d74efa041cde8a33386987c1440f18ab529c08747eba29ca7a205b135e1c37f",
+      "reviewed_sha256": "8d74efa041cde8a33386987c1440f18ab529c08747eba29ca7a205b135e1c37f",
+      "matches": true
+    },
+    {
+      "file": "site/index.html",
+      "frozen_sha256": "181fe1c261ae8cccdfc2c36c6ad57d5f071c38dbd97d67c4095d859043b2edb6",
+      "reviewed_sha256": "181fe1c261ae8cccdfc2c36c6ad57d5f071c38dbd97d67c4095d859043b2edb6",
+      "matches": true
+    },
+    {
+      "file": "site/labels.py",
+      "frozen_sha256": "c6bb40b8472d7bbd459300986c5b29673ab9b6ad247f418fb6c6e95e6dd0adef",
+      "reviewed_sha256": "c6bb40b8472d7bbd459300986c5b29673ab9b6ad247f418fb6c6e95e6dd0adef",
+      "matches": true
+    }
+  ],
+  "historical_artifact_preservation": {
+    "files_checked": 46,
+    "all_match_prior_snapshot": true,
+    "prior_audit_file": "research/factual-checks/completion-audit.json",
+    "prior_audit_sha256": "a7bfe36997f842350fb2fe950054eb49d267cfc4c75fca435598cfc3d7fb933d",
+    "additional_original_pilot_artifacts": [
+      {
+        "file": "research/factual-pilot/claim-ledger.json",
+        "sha256": "cf0fd598fefda230bd445a43e7763c83b95a8d8e5f6953adab9352e6046cc6b3",
+        "matches": true
+      },
+      {
+        "file": "research/factual-pilot/adjudication.json",
+        "sha256": "275100d1d3c9b6c42d350218c232d4271f29a9aeb44e887f5a9be662e85985a9",
+        "matches": true
+      },
+      {
+        "file": "research/factual-pilot/report.html",
+        "sha256": "74779659e29be573b5fc2718f36f0bb1d866c2cd29104baa6ebac7ffdcdb7471",
+        "matches": true
+      },
+      {
+        "file": "research/factual-pilot/kltgv2026-cma-border-pilot01-admitted.json",
+        "sha256": "72783f70f9ed3976f81ffe677b282733ded0c59e3c22f56f44022ca7cf9e71d1",
+        "matches": true
+      }
+    ]
+  },
+  "baseline_files": [
+    {
+      "file": "research/factual-checks/continuation-20261025/baseline/bounded-coverage.json",
+      "sha256": "3c32b9568aac06697ab00c7bfce66ebdaa6fd9d620b928260918286f8d1fdff2"
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/baseline/documents.json",
+      "sha256": "c3c6b47d8c70125482fa53a4dca185679f1c402bef13403155d5cceed6e19294"
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/baseline/factual-check-pilots.json",
+      "sha256": "5170c352103d0c26d0cfe9c0bf56e119df34cc1078ee83cae6d3aaefed690dca"
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/baseline/findings.json",
+      "sha256": "6cc56589d5891f7f7ad4a76c1fad5848aff1351cf7bc9061c53a035960c34342"
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/baseline/rejected-candidates.json",
+      "sha256": "670e715e9940077649d5daef8b15663a9611c9646babc270fc67414c29f5eec3"
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/baseline/screening-pool-summary.json",
+      "sha256": "01a6ab96919be346731b98fc31bc7baac46db16edfc2a5bbf1bc2b401f88a132"
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/baseline/screening-pool.json",
+      "sha256": "11ac3480bbf72c468b88fb62b643ee0689f195d25d95964520cacb5413d71d61"
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/baseline/source-registry.json",
+      "sha256": "2da51a7cae5eabfb8c3a8ec5e93432b4b86b49ab120ccf88729806d9f744b5fd"
+    },
+    {
+      "file": "research/factual-checks/continuation-20261025/baseline/unresolved-leads.json",
+      "sha256": "cd72dfb597c0a9295ca6f58d068fa1a83ae10614548ffda8790da9b115e8d8a4"
+    }
+  ],
+  "point_in_time_global_hashes": {
+    "README.md": "650933e21fafe3c1c9da25d6fa9764059448b87e5eadab1d41f5c46974ad2630",
+    "data/findings.json": "1d0a76119a83ba58b9d93e4e01d3c8b91ca371ed7e62582d3baca0d4cdeaaf79",
+    "data/unresolved-leads.json": "b0430096b8186c3b6c8fcfe646026af9881b660bad3614632da3f74ab49f53cc",
+    "data/rejected-candidates.json": "b7855eb215a1a33f2102a38845581de148df9c29440db3d7d37f8972adc75487",
+    "data/source-registry.json": "b48a74317df92d67dbe5e70f73c41541a6a964f8eda3785aad94039b18a044e6",
+    "data/documents.json": "ba3a57cd62ed4e10524a49be8ef889ff8e84a4f1e971c47d30e70af07378ad8a",
+    "data/factual-check-pilots.json": "410dac70bb7ef5d125c775ece8798a14f74902dc538a51d324aec0ddc5f34a53",
+    "data/screening-pool.json": "a2563db0d8714dd29194b7c5aa187ba3233a364c724f2274bdafe6625dfc50e1",
+    "data/screening-pool-summary.json": "389bbe47f8a4fd8cd0cbc712655570f599e8ca5d30ab19a126a12b11055d8e78",
+    "data/bounded-coverage.json": "5cc2ffa0c8de6f65f6cfc75e04dace8a9ef3725652b2744e42034dff521622dc",
+    "data/validation-report.json": "d03c30bad609d14e2070d28d46f114d0bd9397dda2e6eb9a8dd6ad3857e68d1d",
+    "research/build_factual_batch.py": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+    "research/build_factual_index.py": "2b8c9c4d667c06461f28c128a27f975947c07af9a7e23edda32c64fab572ea3d",
+    "research/build_screening_pool.py": "92d95bb87225ffa9e355097008d1a7c6fe9775c52a98a3970c478603d52e7310",
+    "research/build_bounded_coverage.py": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+    "research/build_deliverables.py": "b1ac1179178f75b8fd9d40146bc553aaaac3bd91ef3ab433268578d2c198eaf2",
+    "research/validate_deliverables.py": "850cdecab575d632006df09de4c6b29e9e416f242e33f45ddb5d095eda4edf57"
+  },
+  "concerns": [],
+  "limitations": [
+    "This is mechanical/provenance and integration review plus selected contextual adjudication review; it does not independently repeat all 401 primary-source research checks or claim every author assertion is captured.",
+    "All 22 original PDFs were freshly extracted for byte/page/text/anchor validation here; this audit does not claim another full human-style reading of 120 pages. Independent initial and counterpart full reads remain bound in their own records.",
+    "Shared Round6 builders/data/pool remain active. Current global hashes describe only this reviewed moment; subsequent external changes are not silently certified. Stable continuation files match the corrected root freeze.",
+    "No human clinical/legal specialist confirmation, author contact, representative national denominator, author-intent inference or coverage-rate estimate.",
+    "Source/archive hashes establish exact identity of checked snapshots, not independent proof of every source proposition.",
+    "The final audit cannot include its own hash; the parent will record the returned final hash."
+  ]
+}

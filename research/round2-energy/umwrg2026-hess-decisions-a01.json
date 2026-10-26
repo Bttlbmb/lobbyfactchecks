@@ -1,0 +1,105 @@
+{
+  "id": "umwrg2026-hess-decisions-a01",
+  "law_id": "umwrg-2026",
+  "document_id": "hess-umwrg-202603",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Revising environmental legal remedies, including examples of abusive late objections.",
+    "they_want": "Delete the proposed non-participation example of abuse and retain the current open clause.",
+    "they_claim": "Both identified Stuttgart decisions denied abusiveness.",
+    "the_problem": "One decision left that question undecided and dismissed the application on its merits. The other did reject abuse."
+  },
+  "claim_quote": {
+    "original": "in beiden Fällen wurde eine Missbräuchlichkeit verneint.",
+    "language": "de",
+    "translation_en": "Translation: in both cases abusiveness was denied.",
+    "locator": {
+      "pdf_page": 5,
+      "printed_page": 4,
+      "section": "A.IV. Kein Missbrauch: § 5 UmwRG ohne jeden Anwendungsfall"
+    },
+    "underline": "in beiden Fällen"
+  },
+  "request_quote": {
+    "original": "§ 5 Satz 2 Nr. 2 UmwRG-E ist ersatzlos zu streichen.",
+    "language": "de",
+    "translation_en": "Translation: Section 5 sentence 2 number 2 of the draft UmwRG should be deleted without replacement.",
+    "locator": {
+      "pdf_page": 15,
+      "printed_page": 14,
+      "section": "C.IV. Konstruktiver Vorschlag"
+    }
+  },
+  "counter_quote": {
+    "original": "Letztlich bedarf es aber keiner Entscheidung, wie rechtlich zu bewerten ist",
+    "language": "de",
+    "translation_en": "Translation of opening fragment: Ultimately, however, no decision is needed on how to assess legally",
+    "source_id": "vg-stuttgart-2k6423-20230112",
+    "locator": {
+      "paragraph": 30,
+      "section": "Reasons; followed by paragraph 31 dismissing the application as unfounded"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The 12 January 2023 decision left the legal assessment of the association’s prior non-participation undecided; it rejected interim relief on the substantive merits. The 12 October 2023 decision rejected abuse because prior knowledge had not been established. The cited UBA report itself distinguishes an undecided assessment from a rejection, although its first/second ordering does not match the chronological order of its footnote.",
+  "effect": "Weakens the small empirical claim that both tested cases affirmatively cleared the associations of abusiveness. It does not alter the reported count of cases in which the abuse clause actually excluded an objection.",
+  "limits": "The unresolved judgment does not establish that abuse occurred. Neither this correction nor the two cases proves widespread abuse, the desirability or legality of the proposed expansion, or the absence of other reasons to retain the existing clause. No intent is inferred.",
+  "context_and_alternatives": [
+    "Read the full empirical opening and complete relevant legal/request section, plus adjacent legal and concluding context; selected additional pages of the 31-page author document. Not claiming every line of every page was reviewed.",
+    "The strongest benign reading is that neither case resulted in an abuse finding. That broader outcome statement is correct and remains central to the author’s argument; the narrower wording affirmatively says abuse was denied in both.",
+    "The author also argues that the proposed clause conflicts with EU law and creates a form of preclusion. Those legal policy assessments are not adjudicated here.",
+    "The UBA report is primary evidence of its own research and was coauthored by the submitting expert; the original decisions were checked independently rather than assuming the research summary infallible. Original judgment text was retrieved from an openly accessible mirror after the official state link failed."
+  ],
+  "materiality_explanation": "Minor: an affirmative rejection has been substituted for one undecided question, but no objection was excluded for abuse in either case. The broader no-application result and independent legal objections remain.",
+  "direction_explanation": "True narrowly: saying both decisions affirmatively rejected abuse gives somewhat stronger empirical support to the explicit request against expanding the clause. This is separate from the low materiality.",
+  "confidence": {
+    "text_source_mismatch": "high for denied versus expressly undecided; broader no-abuse-finding outcome remains correct",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "id": "umwrg-bt214146",
+    "version": "BT 21/4146,16 February 2026, expressly addressed in author introduction",
+    "relevant_provision": "Article 1 number 5, proposed § 5 sentence 2 number 2, physical 12.",
+    "source_id": "umwrg-bt214146"
+  },
+  "submission_source_id": "hess-umwrg-202603",
+  "source_ids": [
+    "hess-umwrg-202603",
+    "uba-rechtsschutz37-2025",
+    "vg-stuttgart-2k6423-20230112",
+    "vg-stuttgart-2k4527-20231012",
+    "umwrg-bt214146"
+  ],
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "tax_consultations",
+        "path": "research/round2-reviews/tax-reviews-hess-stuttgart.json",
+        "date": "2026-10-25",
+        "disposition": "retain provisional minor/true narrowly; broader no-abuse-finding outcome remains correct"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after original cited study and both original court contexts checked; independent review requested.",
+      "by": "energy_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent adversarial tax review retained narrow minor/true court-outcome description; original claim/request visuals confirmed.",
+      "by": "energy_ai_screen"
+    }
+  ],
+  "verification": {
+    "quotation_budget": "Eight author claim words plus sixteen request tokens when numeric tokens are counted=24 or fewer words; no additional author quotations permitted. Original judgment fragment 13 words.",
+    "source_registry": "research/round2-energy/hess-source-registry.json",
+    "visual": "Author physical5/printed4 claim and physical15/printed14 request rendered and visually checked; exact short quotations confirmed."
+  }
+}

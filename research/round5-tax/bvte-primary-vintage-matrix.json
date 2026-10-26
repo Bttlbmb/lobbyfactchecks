@@ -1,0 +1,86 @@
+{
+  "created_at_utc": "2026-10-25T08:46:54.160741+00:00",
+  "unit": "billion euros unless otherwise stated",
+  "comparability_rule": "Separate ex-ante total forecasts, marginal effects against a no-reform baseline, adopted versus proposed versions, and realised cash/assessment receipts. Do not combine different vintages into one corrected cumulative miss.",
+  "rows": [
+    {
+      "source_id": "bt-14-6801",
+      "date": "2001-08-17",
+      "forecast_vintage": "May 2001 current law, before counter-terrorism amendments",
+      "locator": "physical 63–64, section 1.4.2.2 and Table 9",
+      "values_bn_eur": {
+        "2002": 12.0,
+        "2003": 12.1,
+        "2004": 12.2,
+        "2005": 12.3
+      },
+      "status": "Previously archived/read in round 4; not newly fetched."
+    },
+    {
+      "source_id": "bt-15-149",
+      "date": "2002-11-22",
+      "forecast_vintage": "Previous 2002 budget versus supplementary 2002 budget",
+      "locator": "physical 60–61, chapter 6001, rows 03202/03212",
+      "values_bn_eur": {
+        "previous_2002_tobacco_line": 12.4,
+        "previous_2002_separate_reform_line": 1.0,
+        "previous_2002_combined": 13.4,
+        "revised_2002_tobacco_line": 13.35,
+        "revised_2002_separate_reform_line": 0.0
+      },
+      "qualification": "The separate pending-law entry must be combined with the old tobacco line. Comparing 12.4 alone with 14.8 would omit budgeted reform receipts."
+    },
+    {
+      "source_id": "bt-1409751-finanzplan",
+      "date": "2002-08-16",
+      "forecast_vintage": "May 2002 current-law tax estimate",
+      "locator": "physical 68 Table 9",
+      "values_bn_eur": {
+        "2002": 13.1,
+        "2003": 13.5,
+        "2004": 13.8,
+        "2005": 13.9,
+        "2006": 14.0
+      },
+      "status": "Previously archived/read by parent and tax reviewer; later than original 2001 proposal."
+    },
+    {
+      "source_id": "bt-15-1925",
+      "date": "2003-10-30",
+      "forecast_vintage": "Previous 2003 budget versus supplementary 2003 budget",
+      "locator": "physical 59 chapter 6001 row 03202; surrounding measures group physical 59–60",
+      "values_bn_eur": {
+        "previous_2003": 14.2,
+        "revised_2003": 14.6
+      },
+      "qualification": "No separately pending tobacco-tax measure appears in the adjacent measures group. This is an identified original budget, not a claim that all ministry estimates used this number."
+    },
+    {
+      "source_id": "bt-15-4104",
+      "date": "2004-11-02",
+      "forecast_vintage": "Express BMF comparison of November 2003 and May 2004 tax estimates",
+      "locator": "physical 3 question 3/table",
+      "values_bn_eur": {
+        "November2003_for_2003": 14.6,
+        "November2003_for_2004": 14.6,
+        "May2004_for_2004": 14.5,
+        "May2004_for_2005": 15.8
+      },
+      "qualification": "November 2003 forecast precedes the final December 2003 amendment; it must not be assumed to contain the final marginal effects."
+    },
+    {
+      "source_id": "bt-15-3661",
+      "date": "2004-08-13",
+      "forecast_vintage": "May 2004 current-law tax estimate, incorporating the final December 2003 reform",
+      "locator": "physical 62–63 section 4.2.2 and Table 8",
+      "values_bn_eur": {
+        "2004": 14.5,
+        "2005": 15.8,
+        "2006": 16.4,
+        "2007": 16.3,
+        "2008": 16.2
+      },
+      "qualification": "The 2007 value 16.3 exactly matches the industry chart. Therefore the annual-gap/increment identity is not proof that every chart forecast is false or retrospectively synthesised."
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Errors in statements to German lawmakers · Claim Monitor</title>
+<meta name="description" content="Statements to Bundestag committees and ministries, checked against the sources they cite.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0}
+:root{--ink:#14181F;--muted:#566070;--line:#E3E6EB;--soft:#F5F6F8;--blue:#1F4FA3;--amber:#A84A00;--amberbg:#FFF1E5}
+.pg{font-family:Inter,system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.5}
+.serif{font-family:Newsreader,Georgia,serif}
+a{color:var(--blue)}a:hover{color:#163a7a}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.hd{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line)}
+.hd-in{max-width:1120px;margin:0 auto;padding:4px 32px;display:flex;flex-wrap:wrap;gap:0 24px;justify-content:space-between;align-items:center}
+.hd a{color:var(--ink);text-decoration:none;font-size:14px;font-weight:500;display:inline-flex;align-items:center;min-height:44px}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;font-size:13px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 32px}
+.h2{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin:0}
+
+
+.tools{background:#fff;display:flex;flex-wrap:wrap;gap:8px 24px;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:1px solid var(--ink)}
+.seg{display:flex;flex-wrap:wrap;gap:8px}
+.seg button{min-height:44px;padding:0 16px;border:1px solid var(--line);background:#fff;color:var(--ink);font:500 14px Inter,system-ui,sans-serif;cursor:pointer}
+.seg button:hover{background:var(--soft)}
+.seg button[aria-pressed="true"]{border:2px solid var(--ink);padding:0 15px;font-weight:600}
+.count{font-size:13px;color:var(--muted);margin:0}
+
+.dayhd{position:sticky;top:53px;z-index:3;background:#fff;display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:14px 0 10px;border-bottom:1px solid var(--line)}
+.dayhd .n{font-size:13px;color:var(--muted)}
+article.rc{scroll-margin-top:110px;display:grid;grid-template-columns:230px minmax(0,1fr);column-gap:48px;padding:28px 0;border-top:1px solid var(--line);align-items:start}
+.dayhd+article.rc{border-top:0}
+.meta{min-width:0}
+.pagehead{padding:20px 0 4px}
+.pagehead p{margin:0;font-size:15px;line-height:1.5;color:var(--muted);max-width:52em}
+.lawlabel{margin:0 0 4px;font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+article.rc>.fhead{grid-column:1/-1;margin-bottom:6px}
+.fh{margin:0;font:600 20px/1.3 Inter,system-ui,sans-serif;letter-spacing:-.01em}
+.about{margin:4px 0 8px;font-size:13px;line-height:1.45}
+.by{display:block;font-size:13px;color:var(--muted)}
+.by.sib{color:var(--ink);margin:6px 0 2px}
+.tag{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+#findings[data-view="minor"] .tag.sev{display:none}   /* every row in this view is minor, so the label would repeat */
+.tag::before{content:"";width:10px;height:10px;border:2px solid var(--muted);box-sizing:border-box}
+.rows{display:grid;gap:18px;max-width:700px;margin:0}
+.r{display:grid;grid-template-columns:120px minmax(0,1fr);gap:0 20px}
+.r dt{font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding-top:5px}
+.r dd{margin:0;font-size:15px}
+.r.said dd,.r.real dd{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:20px;line-height:1.35;padding-left:14px;border-left:3px solid}
+.r.said dd{color:var(--amber);border-color:var(--amber)}
+.r.real dd{border-color:var(--ink)}
+.more{display:inline-flex;align-items:center;min-height:44px;margin-top:8px;font-size:14px;font-weight:500;color:var(--blue)}
+.showmore{margin:28px 0 0}
+.showmore button{min-height:44px;padding:0 18px;border:1px solid var(--ink);background:#fff;color:var(--ink);font:500 14px Inter,system-ui,sans-serif;cursor:pointer}
+.showmore button:hover{background:var(--soft)}
+.empty{padding:40px 0;color:var(--muted)}
+footer{margin-top:56px;padding:24px 0 48px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+footer p{margin:0 0 6px;max-width:760px}
+@media (max-width:960px){
+ article.rc{grid-template-columns:minmax(0,1fr);row-gap:14px}
+ article.rc>.fhead{margin-bottom:0}
+}
+@media (max-width:760px){
+ .hd-in,.wrap{padding-left:20px;padding-right:20px}
+ .tools,.dayhd{position:static}
+}
+@media (max-width:640px){
+ .r{grid-template-columns:minmax(0,1fr);gap:2px}
+}
+</style>
+</head>
+<body>
+<div class="pg">
+<header class="hd"><div class="hd-in"><a href="index.html" class="serif" style="font-size:20px;font-weight:600">Claim Monitor</a><nav aria-label="Main"><a href="about.html">About &amp; data</a></nav></div></header>
+<main class="wrap" id="findings">
+<h1 class="vh">Errors in statements to German lawmakers</h1>
+<header class="pagehead"><p>Statements to Bundestag committees and ministries, checked against the sources they cite.</p></header>
+<div class="tools">
+<div class="seg" role="group" aria-label="Filter findings">
+<button type="button" data-f="fav" aria-pressed="false">Major errors that favour the request</button>
+<button type="button" data-f="major" aria-pressed="true">Major errors</button>
+<button type="button" data-f="minor" aria-pressed="false">Minor errors</button>
+</div>
+<p class="count" id="count" aria-live="polite">{{COUNT}}</p>
+</div>
+{{BODY}}
+<p class="showmore"><button type="button" id="showmore" hidden>Show more findings</button></p>
+<p class="empty" id="empty" hidden>No findings match this filter.</p>
+<footer><p>These {{NALL}} findings are provisional AI screening results. No human specialist confirmation is recorded. The targeted sample does not establish national coverage or an error rate, and no intent is inferred. <a href="about.html">Read the method, limitations and research data.</a></p><p>Findings are grouped by the date the statement was submitted, newest first. Where only the hearing date is known, they are grouped by that date. Within a date, major errors come first. Findings with no recorded date come last.</p></footer>
+</main>
+</div>
+<script>
+(function(){
+ var LIMIT=10,expanded=false,view='major';
+ var main=document.getElementById('findings'),btns=document.querySelectorAll('.seg button'),arts=[].slice.call(document.querySelectorAll('article.rc')),days=[].slice.call(document.querySelectorAll('[data-day]'));
+ var more=document.getElementById('showmore'),count=document.getElementById('count');
+ var noun=function(n){return n===1?' finding':' findings'};
+ function apply(f){
+  view=f;main.dataset.view=f;
+  btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.f===f?'true':'false')});
+  var match=arts.filter(function(a){return f==='minor'?a.dataset.sev==='minor':a.dataset.sev==='major'&&(f==='major'||a.dataset.fav==='true')});
+  var limit=(f==='minor'&&!expanded&&match.length>LIMIT)?LIMIT:match.length;
+  arts.forEach(function(a){a.hidden=true});
+  match.slice(0,limit).forEach(function(a){a.hidden=false});
+  days.forEach(function(d){
+   var total=match.filter(function(a){return d.contains(a)}).length,shown=d.querySelectorAll('article.rc:not([hidden])').length;
+   d.hidden=shown===0;
+   d.querySelector('.n').textContent=(shown<total?shown+' of '+total:total)+noun(total);
+  });
+  document.getElementById('empty').hidden=match.length>0;
+  count.textContent=(limit<match.length?'Showing '+limit+' of '+match.length:match.length)+noun(match.length);
+  more.hidden=!(limit<match.length);
+  more.textContent='Show '+(match.length-limit)+' more'+noun(match.length-limit);
+ }
+ btns.forEach(function(b){b.addEventListener('click',function(){apply(b.dataset.f)})});
+ more.addEventListener('click',function(){
+  var first=arts.filter(function(a){return a.dataset.sev==='minor'})[LIMIT];
+  expanded=true;apply(view);
+  if(first){var h=first.querySelector('.fh');h.setAttribute('tabindex','-1');h.focus()}   // keep keyboard focus where the new findings begin
+ });
+ function showLinkedFinding(){
+  var id;try{id=decodeURIComponent(location.hash.slice(1))}catch(e){return}
+  var target=document.getElementById(id);
+  if(!target||!target.matches('article.rc'))return;
+  expanded=true;apply(target.dataset.sev==='minor'?'minor':'major');
+  target.scrollIntoView();
+ }
+ apply('major');showLinkedFinding();
+ window.addEventListener('hashchange',showLinkedFinding);
+})();
+</script>
+</body>
+</html>

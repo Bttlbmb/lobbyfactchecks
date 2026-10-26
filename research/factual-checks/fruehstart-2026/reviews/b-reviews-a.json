@@ -1,0 +1,881 @@
+{
+  "reviewer": "b",
+  "batch": "fruehstart-2026",
+  "reviewed_file": "research/factual-checks/fruehstart-2026/agents/claims-a.json",
+  "reviewed_sha256": "e5b3656339ade07d2b5f801313024b109a4c2b312e76aef8bc0ebcd5a2fd6b95",
+  "created_at_utc": "2026-10-25T11:32:12.778186+00:00",
+  "documents_reread": [
+    {
+      "document_id": "hearing-1216340-response-001",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "method": "Complete original extracted author pages including bibliography reread before reviewing A dispositions."
+    },
+    {
+      "document_id": "hearing-1216340-response-004",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "method": "Complete original extracted author pages including bibliography reread before reviewing A dispositions."
+    },
+    {
+      "document_id": "hearing-1216340-response-005",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "method": "Complete original extracted author pages including bibliography reread before reviewing A dispositions."
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "fruehstart-a-bonfig-01",
+      "verdict": "accept",
+      "reason": "Addressed September bill cover, § 1 and rationale explicitly link start capital and financial education. This supports the stated objective, not a measured educational effect.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Cover A/B; § 1 and rationale",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-02",
+      "verdict": "accept",
+      "reason": "Independent official BMF search extraction and Bundesbank launch account corroborate March 2023. Direct BMF HTML access returned 503 and is explicitly unusable; no content inferred from the failed body.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "BMF release 6 December 2023, background",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-03",
+      "verdict": "accept",
+      "reason": "Independently read BMK recommendation physical pp. 2–3 and 6–7: knowledge, reflection, action and judgement are dimensions. This establishes a recognised framework, not a unique empirical definition of education.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-kmk2025",
+          "locator": "2025 recommendation, preamble and education objectives",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "OECD/INFE 2023 survey description",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-04",
+      "verdict": "accept",
+      "reason": "Independently reopened § 26 physical p. 17 and rationale p. 54: ongoing collective-performance information in target-appropriate form is explicit. Information availability and educational effect remain different propositions.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 26, physical p. 17; rationale physical p. 54",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-05",
+      "verdict": "accept",
+      "reason": "Rationale physical p. 54 explicitly says materials can form a basis for classroom treatment. It does not mandate using any private provider material in schools.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Rationale to § 26, physical p. 54",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-06",
+      "verdict": "accept",
+      "reason": "BMK 2025 physical pp. 6–7 expressly identifies non-indoctrination, controversy and pupil orientation. Whether a given product-information policy satisfies them is an educational judgement.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-kmk2025",
+          "locator": "Sections 4–5, physical pp. 6–7",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "bpb official explanatory text",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-07",
+      "verdict": "accept",
+      "reason": "Original researcher-hosted Buntins PDF directly describes internet/Google use. Methods pp. 7–10 show 1,693 completes from 1,960 starts, NRW/Gymnasium and interest-selection limits. Archive is a December 2023 version with the same title/authors, not the exact cited January 2024 DOI; it independently supports the practice claim but not exact citation metadata or Neumann’s motivations.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-buntins2024",
+          "locator": "Methods §§ 3.1–3.3 and results § 4.1",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-08",
+      "verdict": "accept",
+      "reason": "University author page confirms the project/publication, not a reproducible internet-search corpus. The separate Materialkompass sample cannot disprove an internet-supply or findability ranking. Unresolved is appropriate.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-bonfig2026",
+          "locator": "University project description and publication list",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-a-vzbv2025",
+          "locator": "2025 Materialkompass sample",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-09",
+      "verdict": "accept",
+      "reason": "The BMK recommendation is an interstate framework implemented through state school systems. Supported at this general level, without representing all 16 detailed partner/advertising rules as independently surveyed.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-kmk2025",
+          "locator": "2025 recommendation and implementation framework",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-10",
+      "verdict": "accept",
+      "reason": "Original BMK cover dates the revision 5 June 2025 and physical p. 6 explicitly ties outside offers to the educational mandate. This is a recommendation framework, not a new nationwide statute.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-kmk2025",
+          "locator": "Cover date and section 4, physical p. 6",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-11",
+      "verdict": "accept",
+      "reason": "Independently read 2014 original methods pp. 4–6 and conclusions p. 16. Attributed disproportionate interest-led/one-sided findings match 453 selected ratings from 2011–2013. Authors explicitly warn against generalising sample publisher proportions to the whole market or actual classroom use.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-vzbv2014",
+          "locator": "Methods physical pp. 4–5; sample limit p. 6; results p. 16",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-12",
+      "verdict": "accept",
+      "reason": "Original 2025 issuer analysis distinguishes 138 reviews from 156 publisher-relevant ratings. The industry group has 41, including 4 very good, 21 good and 5 poor. Reported controversy/competence weaknesses match; this is a selected rubric-based review, not a random sector-quality census.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-vzbv2025",
+          "locator": "November 2025 analysis and publisher comparison",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-13",
+      "verdict": "accept",
+      "reason": "The claim groups several cross-curricular subjects and implies a comparative prevalence. Regional, school-specific out-of-field evidence does not establish one current nationwide rate for that group. Unresolved retains the legitimate concern.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "Porsch 2016 original study indexed text",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-a-kmk2025",
+          "locator": "Cross-curricular implementation",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-14",
+      "verdict": "accept",
+      "reason": "BMK standards and voluntary selected Materialkompass review are compatible with the author’s concern, but do not establish universal absence of any independent prior review across all states and formats. Unresolved is conservative.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-kmk2025",
+          "locator": "Sections 4–6",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-a-vzbv2025",
+          "locator": "Review programme description",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-15",
+      "verdict": "accept",
+      "reason": "Operative § 31 physical p. 19 and detailed rationale p. 56 explicitly cover uptake, budget, distribution, transfers and information effects. Social/economic groups already appear; the author’s request is for stronger/different attention, not a clear denial of their inclusion.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 31 physical p. 19; rationale physical p. 56",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-16",
+      "verdict": "accept",
+      "reason": "OECD primary publication and independent central-bank comparison describe a high adult score, 76/100. This is the participating adult financial-literacy measure, distinct from PISA school participation or every German subgroup.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "OECD 2023/2024 publications and OeNB original 2024 comparison",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-17",
+      "verdict": "revise",
+      "reason": "Own PHF calculations in the original 2026 article corroborate the education/gender/age differences. Correct the method description: 3,984 financial respondents answered interest/inflation; the analysis retains only one randomly assigned diversification-question wording, leaving 1,981 for that question/all-three outcome (footnote 5). The percentages themselves agree.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-financial2026-full",
+          "locator": "PHF 2023 methods and Figure 2",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ],
+      "proposed_result": "supported"
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-18",
+      "verdict": "accept",
+      "reason": "The exact gross-income/net-wealth knowledge correlations from the original 2017 PHF analysis were not independently recovered. Consistent wider literature does not authenticate its precise definition/sample, and missing access is not evidence of error.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-financial2026-full",
+          "locator": "Discussion of financial knowledge/wealth and prior German studies",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-a-safe121",
+          "locator": "Introduction",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-19",
+      "verdict": "accept",
+      "reason": "Newly archived original NBER 17110 (June 2011) directly checks the planning association beyond the cited 2026 review: SAVE 2009, 1,059 knowledge respondents; planning is asked of non-retired households (677, regression 647). Physical pp. 15–16 report positive planning/knowledge association. No policy treatment or universal causal effect is inferred.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-financial2026-full",
+          "locator": "Section Finanzwissen fördert Altersvorsorgeplanung",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-br-nber2011",
+          "locator": "Physical pp. 5–6,15–16",
+          "review_action": "Original sample definition, planning question and association independently read."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-20",
+      "verdict": "accept",
+      "reason": "Fresh original PISA in Focus 126 physical p. 3 lists participating economies without Germany. Statement correctly concerns the optional financial-literacy domain, not Germany’s participation in PISA generally.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "OECD PISA in Focus 126, country list and figures",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-br-pisa2024",
+          "locator": "Physical pp. 2–4",
+          "review_action": "Original country list, ESCS denominator and score-level comparison read."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-21",
+      "verdict": "accept",
+      "reason": "Fresh primary PISA brief physical pp. 2–4 gives 87 points versus a 75-point level width, using national top/bottom ESCS quarters. The 87-point average is specifically across OECD countries/economies, not every national gap or all 20 participants. Approximate one-level phrasing is reasonable with that scope.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "OECD PISA in Focus 126, physical pp. 2–4",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-br-pisa2024",
+          "locator": "Physical pp. 2–4",
+          "review_action": "Original country list, ESCS denominator and score-level comparison read."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-22",
+      "verdict": "revise",
+      "reason": "The recovered primary publisher abstract corroborates emphasis on pupils, young adults and well-off women, fewer other target groups and information delivery. It does not independently substantiate the full poorer-groups and limited-systemic-perspective compound or its coding. Full PDF retrieval failed. Preserve supported abstract components, but the full proposition remains unresolved rather than silently weakening it.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "Aprea/Suna 2024 primary publisher abstract",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-23",
+      "verdict": "accept",
+      "reason": "Independently reopened § 3(3), § 29 and rationale physical pp. 55–56. €6,840 annual private cap and tax-free accumulation are explicit; later payout taxation remains distinct and is acknowledged.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 3(3) physical p. 9 and rationale EStG physical p. 56",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-hantke-01",
+      "verdict": "accept",
+      "reason": "Completed age six and eligibility/cohort conditions are explicit in §§ 1–2/30. The ordinary age-six policy description does not mean unrestricted coverage of all children.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§ 1–2 and cover",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-hantke-02",
+      "verdict": "accept",
+      "reason": "§ 26 and rationale p. 54 match the continuing accessible information and possible school use; the author’s educational sufficiency standard is a separate argument.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 26 physical p. 17; rationale physical p. 54",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-hantke-03",
+      "verdict": "accept",
+      "reason": "Original 2009 US author version and 2014 ECB paper independently support adult lifetime-return/participation associations. ECB uses over 58,000 households in 11 countries and constructed market experiences. Neither is a child-account intervention; exact cited final versions remain distinct.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-mn2009",
+          "locator": "2009 author working version, abstract, methods and identification",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-a-ampudia2014",
+          "locator": "2014 ECB working version, abstract and methods pp. 4–6",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-hantke-04",
+      "verdict": "accept",
+      "reason": "The populations/estimands are adult household decisions. Extrapolation to children is indirect, without implying that children cannot learn from experience.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-mn2009",
+          "locator": "SCF adult household population and outcomes",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-a-ampudia2014",
+          "locator": "HFCS respondent/method",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-hantke-05",
+      "verdict": "accept",
+      "reason": "Rationale to § 24 physical p. 53 expressly connects high equity/equity-fund proportions with risk/return/volatility learning. It is explanatory rationale, not a fixed operative equity mandate.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "Rationale to § 24, physical p. 53",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-hantke-06",
+      "verdict": "accept",
+      "reason": "Full bill’s education provisions supply general accessible information and possible classroom use, not a state-by-state curriculum or concrete staged teaching progression. This bounded textual observation does not establish no external consultation or curriculum work.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 26 and rationale, physical pp. 17, 54; education-related references checked",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-a-kmk2025",
+          "locator": "2025 implementation recommendation",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-malmendier-01",
+      "verdict": "accept",
+      "reason": "SAFE discussion is directionally consistent, but complete retirement wealth, indirect equity, statutory pension claims, comparator countries and forgone-return counterfactual are unspecified. Retain unresolved rather than converting disagreement over allocation into error.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-safe121",
+          "locator": "Introduction and asset-class discussion, printed pp. 3–6",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-a-ampudia2014",
+          "locator": "Euro-area household comparison",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-malmendier-02",
+      "verdict": "accept",
+      "reason": "Could-benefit is an expected conditional proposition; an all-income welfare comparison also depends on debt, liquidity, risk preferences and other pension resources. Neither guaranteed realised returns nor universal domination is shown. Unresolved is appropriate.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-safe121",
+          "locator": "Asset-allocation rationale and cost illustration",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-malmendier-03",
+      "verdict": "accept",
+      "reason": "Original 2009 US abstract/methods support persistent experience associations over decades, with recent experiences weighted more and controls for age/year/household traits. This is adult observational evidence, not a controlled early-childhood financial-education effect.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-mn2009",
+          "locator": "Abstract and identification; US adult SCF 1964–2004",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-a-ampudia2014",
+          "locator": "2014 ECB paper, nontechnical summary and methods",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-malmendier-04",
+      "verdict": "revise",
+      "reason": "ECB primary paper independently includes Germany in pooled 11-country estimates. Separate Li et al. German replication is identified through bibliographic/abstract records, but direct primary publisher returned empty/inaccessible and no full model was recovered. The combined Europe-plus-specific-Germany proposition should remain unresolved pending direct primary confirmation; pooled inclusion alone is not equivalent.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-ampudia2014",
+          "locator": "Methods and findings",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "Li/Malmendier/Schaffranka/Schwarz 2026 publisher bibliographic abstract",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "fruehstart-a-malmendier-05",
+      "verdict": "accept",
+      "reason": "§§ 21–23 independently establish the eligible-cohort fallback if no individual contract is chosen. Automatic collective coverage is not the same as each child owning an individually titled default account.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§ 1–2, 21–23",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-malmendier-06",
+      "verdict": "accept",
+      "reason": "The bill establishes this particular child-cohort default. Neither the authors’ white paper repeating first-time wording nor the bill proves a universal historical first across occupational/private retirement systems. Retain unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-safe121",
+          "locator": "Executive summary",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 21",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-malmendier-07",
+      "verdict": "accept",
+      "reason": "The statement gives no matched country/programme/counterfactual. Existing default literature and an INNOFIB hypothetical parent-choice survey do not independently establish the entire low-income cross-country pattern. Retain unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-safe121",
+          "locator": "Introduction, default discussion",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-a-ampudia2014",
+          "locator": "Household risk/participation analysis",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-malmendier-08",
+      "verdict": "accept",
+      "reason": "Historical equity premiums and long-horizon recommendations depend on the risk measure, liquidity, preferences and horizon. Expected optimal return is not a guarantee or universal variance result. The bill itself permits losses; that does not falsify the author’s expected-return framing.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-safe121",
+          "locator": "Asset-class discussion, printed pp. 4–6",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 27 and rationale",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-malmendier-09",
+      "verdict": "accept",
+      "reason": "§ 24(3) requires global diversification and general return/safety/liquidity principles, but no fixed equity portfolio. § 24(4) assigns guidelines to BMF with Chancellery and Bundesbank agreement. The contextual equity-specific omission is supported, not a claim no safeguards exist.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 24(3)–(4), physical p. 17",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-malmendier-10",
+      "verdict": "accept",
+      "reason": "Read the entire paragraph: objection concerns active engagement and direct regularly delivered personal information, despite the bill’s public cohort/performance information. Absence of educational experience is not proven, and a particular login design is not authenticated. Unresolved avoids a false legal contradiction.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§ 26 and rationale physical p. 54",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-malmendier-11",
+      "verdict": "accept",
+      "reason": "SAFE pp. 15–16 and institutional examples illustrate differentiated roles, not a theorem that every successful system always has exactly these bodies. Undefined well-functioning criteria and functional rather than formal similarity warrant unresolved, not an error from institutional differences.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-a-safe121",
+          "locator": "Governance discussion, printed pp. 15–17",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        },
+        {
+          "source_id": "fruehstart-a-web-primary",
+          "locator": "NBIM official governance structure and NEST official principles",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "fruehstart-a-malmendier-12",
+      "verdict": "accept",
+      "reason": "Age-35 late-transfer limit and active individual choice are supported. Existing individual contracts do not universally terminate/re-form at 18. The statement may refer to the transition choice; the resulting future saving interruption is a forecast. Unresolved whole proposition is fair.",
+      "evidence_checks": [
+        {
+          "source_id": "fruehstart-2026-root-draft",
+          "locator": "§§ 3, 9, 21–23 and rationale",
+          "review_action": "Independently reopened relevant primary text, original methods/results or authenticated access limits; qualifications stated in reason."
+        }
+      ]
+    }
+  ],
+  "omissions": [],
+  "sources": [
+    {
+      "id": "fruehstart-br-nber2011",
+      "title": "Bucher-Koenen and Lusardi: Financial Literacy and Retirement Planning in Germany, June 2011",
+      "url": "https://www.nber.org/system/files/working_papers/w17110/w17110.pdf",
+      "retrieved_at": "2026-10-25T11:28:19.722454+00:00",
+      "temporal_limit": "Original dated publication precedes October 2026 response; this is a current retrieval, not a historical site snapshot.",
+      "http_status": 200,
+      "local_file": "research/factual-checks/fruehstart-2026/sources/br-nber2011.pdf",
+      "sha256": "b0d12a771d0ce76a9c353d3ddc3b0476ef776a2f7654596d15b14946177682b1",
+      "bytes": 138240,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "fruehstart-br-pisa2024",
+      "title": "OECD PISA in Focus 126, June 2024",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/shaping-students-financial-literacy_197a8f87/c3f3dc74-en.pdf",
+      "retrieved_at": "2026-10-25T11:28:19.722873+00:00",
+      "temporal_limit": "Original dated publication precedes October 2026 response; this is a current retrieval, not a historical site snapshot.",
+      "http_status": 200,
+      "local_file": "research/factual-checks/fruehstart-2026/sources/br-pisa2024.pdf",
+      "sha256": "19ccbc12662a10081b0cab4687ff629fb8c836eda56160a5865f5886165dc391",
+      "bytes": 566147,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "fruehstart-br-bmf2023",
+      "title": "BMF and BMBF financial-education initiative, 23 March 2023",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Pressemitteilungen/Finanzpolitik/2023/03/2023-03-23-initiative-finanzielle-bildung.html",
+      "retrieved_at": "2026-10-25T11:28:19.723047+00:00",
+      "temporal_limit": "Original dated publication precedes October 2026 response; this is a current retrieval, not a historical site snapshot.",
+      "usable_as_evidence": false,
+      "failed_access": true,
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
+    },
+    {
+      "id": "fruehstart-br-li2026",
+      "title": "Li et al. 2026 primary publisher access attempt",
+      "url": "https://www.degruyterbrill.com/document/doi/10.1515/pwp-2026-0028/html",
+      "retrieved_at": "2026-10-25T11:28:19.723204+00:00",
+      "temporal_limit": "Original dated publication precedes October 2026 response; this is a current retrieval, not a historical site snapshot.",
+      "http_status": 202,
+      "local_file": "research/factual-checks/fruehstart-2026/sources/br-li2026.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "usable_as_evidence": false,
+      "failed_access": true,
+      "error": "Not validated original source content."
+    },
+    {
+      "id": "fruehstart-br-aprea2024",
+      "title": "Aprea and Suna 2024 study primary PDF access attempt",
+      "url": "https://zfoeb.de/2024_13/2024-13_238_335_aprea.pdf",
+      "retrieved_at": "2026-10-25T11:28:19.723358+00:00",
+      "temporal_limit": "Original dated publication precedes October 2026 response; this is a current retrieval, not a historical site snapshot.",
+      "usable_as_evidence": false,
+      "failed_access": true,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "id": "fruehstart-br-aprea-abstract",
+      "title": "Aprea and Suna 2024 primary publisher abstract",
+      "url": "https://zfoeb.de/artikel/view/100",
+      "retrieved_at": "2026-10-25T11:28:19.723490+00:00",
+      "temporal_limit": "Original dated publication precedes October 2026 response; this is a current retrieval, not a historical site snapshot.",
+      "usable_as_evidence": false,
+      "failed_access": true,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "id": "fruehstart-br-web-primary",
+      "title": "Independent primary publisher web extraction and failed ministry/publisher access attempts",
+      "url": "https://zfoeb.de/artikel/view/100",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/br-primary-web-extraction.json",
+      "sha256": "9eff9b582a748f611aeb676a2c86a9b2cffb52cc65b536a37b9ab5ea04919fea",
+      "temporal_limit": "Tool extraction, not original HTML/PDF. Primary 2024 abstract independently reopened; failed BMF and German replication attempts explicitly not evidence.",
+      "usable_as_evidence": true
+    }
+  ],
+  "limitations": [
+    "All 41 initial outcomes and all 16 original physical pages were reviewed. No error candidate proposed. Forecasts and educational frameworks were not promoted to factual findings.",
+    "Long research sources are evidence only. Targeted extents: Buntins original pp. 1, 7–11; 2014 Materialkompass pp. 4–6,16; BMK pp. 1–3,6–7; US experience paper abstract/methods; ECB abstract and physical pp. 4–7; SAFE physical pp. 4–6,16–18; NBER 17110 physical pp. 1–2,5–6,15–16; PISA 126 physical pp. 2–4.",
+    "Current retrievals establish dated publication contents, not historic web snapshots. Failed or empty requests are not usable evidence. Original 2023 Buntins version and 2009/2014 experience working versions are distinguished from exact cited versions.",
+    "Financial models and expected welfare gains are not realised facts. No intent inference and no source-access gap treated as error."
+  ],
+  "reopened_evidence_snapshots": [
+    {
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-kmk2025.pdf",
+      "sha256": "604ccd3b665e91fa67cfe6cb186ad253c2869e010e6aebee31c729361d25df74"
+    },
+    {
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-vzbv2014.pdf",
+      "sha256": "7c4c8e1ac7dcdfef36c7c42513e37c7935d4070fd2fdbfa6371dce6f912d67f4"
+    },
+    {
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-vzbv2025.html",
+      "sha256": "711c8f0fbdadbef115fd6ae322c7b97954d9945cdb78fc6eb7543f27bcd420d1"
+    },
+    {
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-buntins2024.pdf",
+      "sha256": "b706634c758440c9784d3fcf5d3c68f64c071053ed0bc9c264a02526672debbd"
+    },
+    {
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-mn2009.pdf",
+      "sha256": "d1e62cd9cc16a3f3cb69a304351427b83964d0f9b8d8fdf5ddcf7e5ac69a734b"
+    },
+    {
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-ampudia2014.pdf",
+      "sha256": "a103948501a0203f3bb89035fb27c0d9bcd58bc9f21e1bd509231566e4a045b2"
+    },
+    {
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-safe121.pdf",
+      "sha256": "b40c7b815a506e00f7009e32f9ec237227f6ee1b2869170720a2094323788e92"
+    },
+    {
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-financial2026-full.html",
+      "sha256": "b2e93fc9bd0c2ce42c13317c0e01f714dd87ed694487e18cc8148297c420d286"
+    },
+    {
+      "local_file": "research/factual-checks/fruehstart-2026/sources/a-web-primary.json",
+      "sha256": "d6b0d153889470167c312e5399eed020baa8e48d88eca6ab7651548292b75997"
+    }
+  ],
+  "page_omission_audit": [
+    {
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        1
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        2
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        3
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        4
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        5
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-001",
+      "pdf_pages": [
+        6
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        1
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        2
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        3
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        4
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        5
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-004",
+      "pdf_pages": [
+        6
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        1
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        2
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        3
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    },
+    {
+      "document_id": "hearing-1216340-response-005",
+      "pdf_pages": [
+        4
+      ],
+      "conclusion": "No additional material factual omission identified; contextual research activity/exact definition provenance and motivation subclauses are expressly qualified in claims/limits, while educational prescriptions, future effects and bibliography-only matter remain exclusions."
+    }
+  ],
+  "summary": {
+    "all_claims_reviewed": 41,
+    "accept": 38,
+    "revise": 3,
+    "new_error_candidates": 0,
+    "additional_material_omissions": 0
+  }
+}

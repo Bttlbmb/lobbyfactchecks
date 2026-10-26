@@ -1,0 +1,107 @@
+{
+  "id": "tax-independent-behg-bounded-coverage-review",
+  "reviewed_at_utc": "2026-10-25T04:38:08.557793+00:00",
+  "reviewer": "tax_consultations AI agent",
+  "input_file": "research/round3-energy/coverage-bounded-behg-proof.json",
+  "input_sha256": "192e0210d09a7c8b737fc8137a0e7de7656ea1c75c0001648375b595bd884300",
+  "scope": "Independent URL-set, archive hash, PDF page-count and ledger-reference audit only. This review does not claim a second substantive reading of the 60 author pages.",
+  "results": {
+    "official_page_hash_matches": true,
+    "reparsed_response_urls": 9,
+    "listed_response_urls": 9,
+    "url_sets_match": true,
+    "documents": [
+      {
+        "id": "bt-environment-1222134",
+        "sha256_matches": true,
+        "pages": 4,
+        "pages_match": true,
+        "ledger_entry_id": "bvf-behg-202607-reproduced202610",
+        "ledger_depth": "full_submission",
+        "ledger_local_file_matches": true
+      },
+      {
+        "id": "bt-environment-1222372",
+        "sha256_matches": true,
+        "pages": 5,
+        "pages_match": true,
+        "ledger_entry_id": "bt-environment-1222372",
+        "ledger_depth": "full_submission",
+        "ledger_local_file_matches": true
+      },
+      {
+        "id": "bt-environment-1222374",
+        "sha256_matches": true,
+        "pages": 10,
+        "pages_match": true,
+        "ledger_entry_id": "bt-environment-1222374",
+        "ledger_depth": "full_submission",
+        "ledger_local_file_matches": true
+      },
+      {
+        "id": "bt-environment-1222444",
+        "sha256_matches": true,
+        "pages": 14,
+        "pages_match": true,
+        "ledger_entry_id": "bt-environment-1222444",
+        "ledger_depth": "full_submission",
+        "ledger_local_file_matches": true
+      },
+      {
+        "id": "bt-environment-1222442",
+        "sha256_matches": true,
+        "pages": 9,
+        "pages_match": true,
+        "ledger_entry_id": "bt-environment-1222442",
+        "ledger_depth": "full_submission",
+        "ledger_local_file_matches": true
+      },
+      {
+        "id": "bt-environment-1222672",
+        "sha256_matches": true,
+        "pages": 6,
+        "pages_match": true,
+        "ledger_entry_id": "bwp-behg-20261002",
+        "ledger_depth": "full_submission",
+        "ledger_local_file_matches": true
+      },
+      {
+        "id": "bt-environment-1222674",
+        "sha256_matches": true,
+        "pages": 4,
+        "pages_match": true,
+        "ledger_entry_id": "vci-behg-20261005",
+        "ledger_depth": "full_submission",
+        "ledger_local_file_matches": true
+      },
+      {
+        "id": "bt-environment-1222756",
+        "sha256_matches": true,
+        "pages": 4,
+        "pages_match": true,
+        "ledger_entry_id": "ewe-behg-20261006",
+        "ledger_depth": "full_submission",
+        "ledger_local_file_matches": true
+      },
+      {
+        "id": "bt-environment-1222878",
+        "sha256_matches": true,
+        "pages": 4,
+        "pages_match": true,
+        "ledger_entry_id": "foes-behg-20261006",
+        "ledger_depth": "full_submission",
+        "ledger_local_file_matches": true
+      }
+    ],
+    "physical_pages_sum": 60,
+    "external_rows": 9,
+    "unique_hashes": 9
+  },
+  "date_and_scope_qualifications": [
+    "Nine academics, associations and company responses are external written submissions; municipal umbrella participation is not a government ministry reply.",
+    "Soellner has an 8 October author date following a 5 October cover and 7 October hearing; this contradiction is retained and actual transmission is not inferred.",
+    "The Feuerverzinken July-month text reproduced under an October cover is not treated as independently verified October delivery.",
+    "The nine-response official-page population is a bounded published subcorpus, not the entire legislative process or all three channels."
+  ],
+  "verdict": "Count and archive premises supported; preserve the stated delivery-date and whole-process completeness limits."
+}

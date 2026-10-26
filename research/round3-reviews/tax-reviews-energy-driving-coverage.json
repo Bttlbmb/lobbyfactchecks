@@ -1,0 +1,49 @@
+{
+  "id": "tax-review-energy-driving-instruction-coverage",
+  "reviewed_at_utc": "2026-10-25T04:23:20.195304+00:00",
+  "reviewed_file": "research/round3-energy/coverage-bounded-driving-instruction-proof.json",
+  "reviewer": "tax_consultations",
+  "scope": "Bounded page-link/hash/actor-role/date-context audit, not a full reread of all31author pages.",
+  "enumeration": {
+    "reparsed_response_urls": 7,
+    "missing_from_proof": [],
+    "extra_in_proof": [],
+    "page_hash_matches": true
+  },
+  "document_hash_checks": [
+    {
+      "id": "bt-transport-1221858",
+      "hash_matches": true,
+      "pdf_header": true
+    },
+    {
+      "id": "bt-transport-1221860",
+      "hash_matches": true,
+      "pdf_header": true
+    },
+    {
+      "id": "bt-transport-1221870",
+      "hash_matches": true,
+      "pdf_header": true
+    },
+    {
+      "id": "bt-transport-1222032",
+      "hash_matches": true,
+      "pdf_header": true
+    },
+    {
+      "id": "bt-transport-1222030",
+      "hash_matches": true,
+      "pdf_header": true
+    },
+    {
+      "id": "bt-transport-1222076",
+      "hash_matches": true,
+      "pdf_header": true
+    }
+  ],
+  "actor_assessment": "Six named associations/private experts belong in external scope; BASt is a federal government research authority and its separate reply is excluded from that denominator.",
+  "reading_assessment": "Per-document claimed page counts sum to31. This audit verifies bookkeeping/integrity, not independently every full-read claim.",
+  "date_assessment": "Read BASt and Tiessen cover metadata. Committee distribution cover is not an authenticated transmission timestamp. Tiessen own author date stays null.",
+  "disposition": "Finite URL-set and external/government separation supported; source-version, date and no-every-claim-certification limits preserved."
+}

@@ -1,0 +1,136 @@
+{
+  "id": "bstabg2026-pharmadeutschland-a01",
+  "law_id": "gkv-beitragssatzstabilisierung-2026",
+  "document_id": "pharmadeutschland-bstabg-20260420",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Stabilising statutory health insurance contributions, including ending reimbursement for homeopathic and anthroposophic services.",
+    "they_want": "Retain insurers’ ability to reimburse those treatments as additional benefits.",
+    "they_claim": "Almost all studies in a cited review found comparable or better outcomes at similar or lower costs.",
+    "the_problem": "The review’s cost categories differ, but similarity depends on significance, population and payer perspective; no error is established."
+  },
+  "claim_quote": {
+    "original": "fast alle eingeschlossenen Studien",
+    "language": "de",
+    "translation_en": "Translation: almost all included studies",
+    "locator": {
+      "pdf_page": 7,
+      "printed_page": 7,
+      "section": "3. Die Erstattung homöopathischer und anthroposophischer Arzneimittel ist gesellschaftlich gewünscht und entlastet die GKV",
+      "paragraph": "beginning Zudem hat ein systematischer Review"
+    },
+    "underline": "fast alle"
+  },
+  "counter_quote": {
+    "original": "six (28.6%) described increased costs with homeopathy.",
+    "language": "en",
+    "source_id": "ostermann2024-cost-review",
+    "locator": {
+      "pdf_page": 10,
+      "printed_page": 125,
+      "section": "3.1.2. Summary of main results",
+      "column": "right, second paragraph"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "request_quote": {
+    "original": "den letzten Satz im neuen § 11 Absatz 6 zu streichen",
+    "language": "de",
+    "translation_en": "Translation of request fragment: delete the last sentence in the new section 11(6)",
+    "locator": {
+      "pdf_page": 8,
+      "printed_page": 8,
+      "section": "Forderung von Pharma Deutschland",
+      "item": 2
+    }
+  },
+  "correction": "Unresolved: Figure 2 classifies 14 studies as jointly favourable, one neutral and six with higher costs. That classification alone does not disprove the submission’s qualitative description: some differences are nonsignificant, differ between adults and children, or concern societal rather than social-insurer costs. Do not assert 15/21 as a hard bound on similar or lower costs.",
+  "effect": "No established correction to the policy argument. The lead identifies a source-description question requiring study-level interpretation.",
+  "limits": "No proven factual error, clinical ineffectiveness, or net GKV cost effect is established. The qualitative terms almost all and similar require careful interpretation of the underlying comparisons.",
+  "context_checked": "Read the complete homeopathy section on submission pages 5–10, its references, and the review’s methods, results, Figure 2, discussion and conclusion. The submission makes the joint outcome-and-cost assertion before inferring possible GKV relief; its separate arguments about choice, small expenditure and insurer discretion remain independent.",
+  "alternative_explanations": "Independent adversarial review found: Kass 2020 includes nonsignificant atopic-dermatitis cost differences; Ostermann 2021 has lower costs in children and higher in adults; Trichard 2004 has similar social-security costs despite higher societal/patient costs. These can reconcile some higher-cost classifications with similar costs in the submission’s insurance context.",
+  "materiality_explanation": "Potentially minor if a numerical overstatement is confirmed; currently unresolved. The submission also relies on several separate policy grounds.",
+  "direction_explanation": "The asserted consistency supports reimbursement, but an actual error has not been established. Direction is null; the potential argumentative effect remains conditional.",
+  "confidence": {
+    "text_source_mismatch": "unresolved",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "energy_hearings_independent_ai",
+        "file": "research/reviews/energy-reviews-pharma.json",
+        "verdict": "downgrade to unresolved lead due to cost-comparison context",
+        "specialist": null
+      }
+    ]
+  },
+  "author_response": [],
+  "draft": {
+    "title": "Referentenentwurf eines Gesetzes zur Stabilisierung der Beitragssätze in der gesetzlichen Krankenversicherung",
+    "version_date": "2026-04-16",
+    "submission_date": "2026-04-20",
+    "source_id": "bstabg-refe-20260416",
+    "relevant_provision": "Article 1 number 6, proposed section 11(6), physical/printed page 9; explanation physical/printed pages 91–92. The last sentence excludes the named therapies as additional benefits.",
+    "version_limit": "Current official 16 April PDF has 159 pages; the author describes a 157 page draft. Relevant provision and numbering match; pagination/formatting of the initially dispatched copy is not established. No later 28 April or parliamentary version is substituted.",
+    "process_status_at_screening": "Completed; ministry dossier updated 29 July 2026 links the parliamentary process."
+  },
+  "sources": [
+    {
+      "id": "pharmadeutschland-bstabg-20260420",
+      "title": "Pharma Deutschland submission, 20 April 2026",
+      "url": "https://www.pharmadeutschland.de/index.php?file=redakteur_filesystem%2Fpublic%2FStellungnahmen_und_Positionspapiere%2FPharma_Deutschland_Stellungnahme_GKV-Beitragssatzstabilisierungsgesetz.pdf&id=1&type=565",
+      "ministry_url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/Stellungnahmen_WP21/GKV-BStabG/Pharma_Deutschland_e.V..pdf",
+      "local_file": "research/social-digital/pharmadeutschland-bstabg-20260420.pdf",
+      "ministry_local_file": "research/social-digital/pharmadeutschland-bstabg-ministry.pdf",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "pharmadeutschland-register-sg2605060026",
+      "title": "Official Lobbyregister SG2605060026",
+      "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2605060026/341862",
+      "attachment_url": "https://www.lobbyregister.bundestag.de/media/15/26/732983/Stellungnahme-Gutachten-SG2605060026.pdf",
+      "metadata": "R000739; 37 pages; sent 20 April 2026 to BMG; published 6 May 2026; specifically links the 16 April 2026 draft.",
+      "access": "Metadata and indexed attached PDF read through web; raw binary attachment not archived or asserted identical.",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "ostermann2024-cost-review",
+      "title": "Ostermann et al, Overview and quality assessment of health economic evaluations for homeopathic therapy: an updated systematic review",
+      "url": "https://doi.org/10.1080/14737167.2023.2266136",
+      "repository_url": "https://lirias.kuleuven.be/4117309",
+      "pdf_url": "https://lirias.kuleuven.be/retrieve/27803509-991c-46db-940a-c33b81560adf",
+      "local_file": "research/social-digital/ostermann-2024-cost-review.pdf",
+      "locators": "physical PDF page 10 / printed page 125, section 3.1.2; physical page 22 / printed page 137, Figure 2; physical pages 24–25 / printed pages 139–140, discussion/conclusion.",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "bstabg-refe-20260416",
+      "title": "Official ministry draft, 16 April 2026",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/S/RefE_BStabG_2026.pdf",
+      "local_file": "research/social-digital/bstabg-refe-20260416.pdf",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "bstabg-ministry-dossier",
+      "url": "https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/gkv-beitragssatzstabilisierungsgesetz",
+      "retrieved_at": "2026-10-24"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "First recorded after primary-source and exact-provision check; pending independent adversarial AI review.",
+      "by": "social_digital_ai"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Downgraded to unresolved_lead after independent AI challenge: a higher-cost category does not establish that all differences exceed similar costs; removed the hard 15/21 bound. Original screening hypothesis retained in research history.",
+      "by": "social_digital_ai"
+    }
+  ]
+}

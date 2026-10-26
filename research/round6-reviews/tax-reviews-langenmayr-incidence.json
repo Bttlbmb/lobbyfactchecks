@@ -1,0 +1,33 @@
+{
+  "reviewer": "independent_tax_ai",
+  "reviewed_at": "2026-10-25T11:34:34.386773+00:00",
+  "candidate_ids": [
+    "staendg2025-langenmayr-incidence-root-r6-03"
+  ],
+  "input_hashes": {
+    "research/round6-root/staendg2025-langenmayr-incidence-root-r6-03.json": "a0010b1907c8ac6e84f81116ad8b97daa0e57e89a0d3d1340ee68dcad57ae6fb"
+  },
+  "read_extent": {
+    "author": "All three original physical pages.",
+    "cited_2020_paper": "Introduction, full section V.D and Figure8 context on French/Finnish restaurants, conclusion context and targeted whole-document search for ownership/France; not all37pages.",
+    "related_2019_paper": "Publisher-hosted accepted manuscript: abstract, full introductory findings and limitations, payroll-subsidy/reclassification caveats, full welfare theory/results/conclusion sections physical16–20, and Table3 physical27; not all29pages.",
+    "exact_draft": "Downloaded Beck mirror with original04September2025 09:21 header; complete physical1,7,31,37 read, covering policy aim, operativeArticle4, rationale and commencement. Original official location authenticated by contemporaneous DStV hyperlink, current BMF retrieval503.",
+    "draft_temporary_file": "/tmp/staendg2025-refe-beck.pdf",
+    "draft_sha256": "c5b2b11bcf28fead9e2640b2f00dc898aed0c9ddf472d8610ea6306bac922400",
+    "draft_url": "https://rsw.beck.de/docs/librariesprovider112/default-document-library/10_steu_steuer%C3%A4nderungsgesetz-2025_referentenentwurf.pdf"
+  },
+  "verdict": "retain_narrow_provisional_source_description_finding_once_draft_registry_completed",
+  "severity": "minor",
+  "favours_author_request": true,
+  "assessment": "The cited2020 study establishes price-response evidence; subtracting consumer pass-through from100does not identify owner gains. The related four-recipient primary study expressly assigns separate shares to workers and suppliers, and estimates owners57.7/62.4/55.7percent at6/18/30months (counterfactual-price variants62.9/65.9/59.1). The author presents80percent as an ownership allocation, not merely a producer-side remainder. This supports a narrow source-description correction.",
+  "strongest_alternatives": [
+    "The2019study explicitly treats estimated owner gains as a lower bound, owing to potentially overstated employee/material effects and price-data scope. Actual80percent is not ruled out; avoid saying actual gains were necessarily55.7percent.",
+    "Owners may be loose shorthand for the entire non-consumer producer side. Explicit ownership wording and the separate recipient groups make this inaccurate as a description of the cited research, while the broad low-pass-through conclusion remains supported.",
+    "The2020and2019papers have different research questions and estimators. The2019numbers must not be presented as an exact corrected estimate from the cited2020paper."
+  ],
+  "materiality": "Minor: the ownership concentration is exaggerated as a research attribution, but owners remain the largest group, consumers receive little and the targeting objection survives.",
+  "direction": "True for the distributional rationale against the VAT cut: attributing the entire non-consumer share to owners makes the subsidy seem more concentrated. This does not prove the policy recommendation wrong.",
+  "correction_needed_before_admission": "Raw counter locator currently says IV.B; the accepted manuscript labels the relevant section VI.B (Welfare Analysis, Results), physical19 long-run paragraph. Please correct section label while keeping original quotation exact.",
+  "storage_note": "Temporary exact draft download supports active review; no bulk restoration. The published2020journal PDF is a different version from the accepted2019manuscript, whose placeholder layout is disclosed.",
+  "no_additional_author_quotations": true
+}

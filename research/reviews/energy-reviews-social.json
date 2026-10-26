@@ -1,0 +1,96 @@
+{
+  "reviewer": "energy_hearings",
+  "review_date": "2026-10-24",
+  "review_kind": "independent AI adversarial source/context check; not specialist or human review",
+  "inputs": [
+    "research/social-digital/candidates.json",
+    "research/social-digital/source-registry.json",
+    "research/social-digital/baek-2018-cannkg.pdf",
+    "research/social-digital/dbdd-reitox-2017-treatment.pdf",
+    "research/social-digital/rmhidta-2015-impact.pdf",
+    "research/social-digital/colorado-2016-early-findings.pdf",
+    "research/social-digital/bt-19-819-cannkg-draft.pdf"
+  ],
+  "reviews": [
+    {
+      "id": "cannkg2018-baek-a01",
+      "assessment": "retain as provisional finding",
+      "claim_verified": true,
+      "request_verified": true,
+      "draft_match_verified": true,
+      "independent_reasoning": "The complete submission paragraph says all addiction-related diagnoses in the inpatient setting, without limiting this to illegal-drug principal diagnoses. The cited DBDD source expressly gives 47,777 substance-related DSHS inpatient treatments, of which 11,736 concern selected illegal-drug categories; it explicitly excludes alcohol from the relative ranking. The more precise 33.5% occurs again in DBDD physical/printed page 34. The same-dataset approximate calculation 0.335×11,736÷47,777=8.23% is valid as an illustration, not a national hospital estimate.",
+      "adversarial_checks": [
+        "The wider surrounding subject is cannabis and illegal drugs, which could explain an implicit narrower denominator, but the universal wording omits the source's material exclusion.",
+        "The 17,148 hospital cases belong to the separate hospital-diagnosis series; do not combine them with the DSHS denominator.",
+        "The explicit policy opposition is expressed as an evaluative conclusion about adult liberalisation and youth protection, not as a formal rejection motion. The data support the broader health-risk case; they do not directly prove the youth-protection effect."
+      ],
+      "severity_assessment": "Major is defensible because the represented relative share changes severalfold, independently of policy direction.",
+      "direction_assessment": "true is defensible for the submission's broader precautionary opposition; retain the qualification that this does not directly establish the youth-protection mechanism.",
+      "required_corrections": [],
+      "suggested_additions": [
+        "Add DBDD page 34 as the locator for the exact 33.5%, alongside page 15 for the excluded denominator."
+      ],
+      "visual_checks": [
+        "BÄK PDF page 5",
+        "DBDD PDF page 15"
+      ],
+      "specialist_review": null
+    },
+    {
+      "id": "cannkg2018-baek-a02",
+      "assessment": "retain as provisional finding after locator correction",
+      "claim_verified": true,
+      "request_verified": true,
+      "draft_match_verified": true,
+      "independent_reasoning": "The 32% increase and 10%/~20% shares match RMHIDTA's exact combination. The submission explicitly names that report on its earlier page 4, which strengthens but does not conclusively prove the attribution of the later unfootnoted paragraph. RMHIDTA physical page 24 defines the fatality series by toxicology, while physical page 26 reports 71 to 94 fatalities, a 32.4% increase. Operators include pedestrians and cyclists as well as drivers. The separate DUID enforcement discussion on page 23 does not turn that fatality series into causal attribution.",
+      "adversarial_checks": [
+        "A hypothetical independent causal estimate could exist, but no such estimate is identified in the submission and the unusually specific numerical combination matches the toxicology report. Present source attribution as a matching inference.",
+        "The Colorado 2016 report uses driver-based figures differing from RMHIDTA operator-based figures. It supports only the methodological limit, not substitution of one series for the other.",
+        "The submission's 2013 retail-sales reference is a distinct chronological imprecision; retail stores began in 2014. Do not confuse this with the causal-attribution issue.",
+        "The general claim that cannabis can impair driving is not refuted."
+      ],
+      "severity_assessment": "Major is defensible because the evidence is changed from association to attributed cause of death.",
+      "direction_assessment": "true is defensible; the causal wording strengthens the road-safety objection and anticipated enforcement burden. Keep the evaluative-request qualification.",
+      "required_corrections": [
+        {
+          "field": "supplementary_counter_quotes[0].locator.printed_page",
+          "current": 32,
+          "corrected": 31,
+          "reason": "Physical PDF page 33 visibly bears printed page 31. Exact quotation is in its third paragraph."
+        }
+      ],
+      "suggested_additions": [
+        "Separate confidence in the data-series definition (high) from the inferred source attribution (strong matching inference).",
+        "Mention that the matched fatality series includes positive-tested operators, not exclusively impaired drivers."
+      ],
+      "visual_checks": [
+        "BÄK PDF page 7",
+        "Colorado 2016 PDF page 33 / printed 31"
+      ],
+      "specialist_review": null
+    }
+  ],
+  "followup_reviews": [
+    {
+      "date": "2026-10-24",
+      "reviewer": "energy_hearings_ai_agent",
+      "id": "cannkg2018-baek-a01",
+      "assessment": "retain narrow provisional denominator finding; withdraw earlier8.23% calculation as invalid",
+      "new_primary_source": "research/social-digital/dshs-annual-report-2016.pdf",
+      "source_url": "https://www.suchthilfestatistik.de/fileadmin/user_upload_dshs/05_publikationen/jahresberichte/DSHS_Jahresbericht_2016.pdf",
+      "checked_locators": [
+        "Physical/printed page5, methods: inpatient analyses use completed treatments (Beender).",
+        "Physical/printed page8:47,776 total inpatient treatment volume includes carryovers and episodes outside subsequent analyses.",
+        "Physical/printed page10: principal diagnoses describe the main treatment problem; additional diagnoses capture comorbidity.",
+        "Physical/printed page11, Figure4: cannabis9.2%, alcohol68.6%; visually inspected page.",
+        "Physical/printed page54, TableB:42,306 valid principal diagnoses, cannabis3,897, alcohol29,016;210 inpatient institutions, Beender."
+      ],
+      "correction_to_prior_review": "My earlier statement that0.335×11,736÷47,777=8.23% was a valid same-dataset illustration is withdrawn. The arithmetic can mix analytical bases: the total-volume denominator is not the valid completed-treatment principal-diagnosis denominator. Preserve that text as review history only, not active evidence or a corrected percentage.",
+      "current_reasoning": "The source expressly excludes alcohol from the33.5% ranking, which remains sufficient for the narrower all-addiction-denominator mismatch. The directly reported9.2% is corroborating context for the broader principal-diagnosis analysis only. It must not be represented as a national all-hospital rate, a rate of every comorbid addiction diagnosis, or a mathematically reconstructed replacement for the precise33.5% figure.",
+      "materiality": "Major remains defensible for omitting alcohol from a claim framed as all addiction-related inpatient diagnoses, independently of any reconstructed percentage. Exact magnitude should not be inferred from mismatched denominators.",
+      "required_action": "Remove the8.2% calculation from all active findings, cards and aggregate summaries. Use direct9.2% only with the explicit DSHS completed-treatment principal-diagnosis and participating-facility limits.",
+      "specialist_review": null
+    }
+  ],
+  "current_adjudication_note": "For cannkg2018-baek-a01, the follow-up review below supersedes the initial arithmetic illustration. The original calculation is preserved solely as review history and explicitly withdrawn."
+}

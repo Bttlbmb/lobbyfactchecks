@@ -1,0 +1,285 @@
+{
+  "agent": "b",
+  "batch": "short-it-components-20261025",
+  "status": "frozen_initial_inventory",
+  "created_at_utc": "2026-10-25T21:12:37.238462+00:00",
+  "documents": [
+    {
+      "id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "author": "DBSV",
+      "process": "IT components ordinance — three formal external responses",
+      "author_date": "2026-09-14",
+      "submission_date_verified": false,
+      "author_date_note": "verified_from_document_or_transmittal",
+      "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/Stellungnahmen_ITKV/ITKV_Stn_DBSV.pdf",
+      "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-004.pdf",
+      "sha256": "f42d81c2a2e0f3ae8d7415732464cafa310ce95310c182943ed6ea8a3e7a59a2",
+      "physical_pages": 1,
+      "pilot_text": "research/factual-checks/short-it-components-20261025/text/bmds-it-komponentenverordnung-itkv-response-004.txt",
+      "reading_depth": "full_submission",
+      "actor_scope_limit": "Three formal external published responses only; eight Land replies and one association decline excluded. VITAKO author date unverified; publication is not receipt.",
+      "pages_read": [
+        1
+      ],
+      "fully_read": true,
+      "read_before_prior_dispositions": true,
+      "text_snapshot_sha256": "1b6fa79f16937ed7b453357f4dc2dd06daafdc8b236f28e49077a82f714ea297",
+      "visual_read": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "short-it-b-001",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Full one-page response",
+      "original_excerpt": "deren Erkrankung zu einem Sehverlust führen kann",
+      "claim_en": "DBSV statutory interest representation includes people already blind or visually impaired and people whose disease can cause sight loss, including additional disabilities.",
+      "claim_type": "organisational scope",
+      "materiality": "low",
+      "policy_link": "Constituency, nationwide service mandate and accessibility premises supporting explicit accessible-service requirements.",
+      "cited_by_author": false,
+      "check_method": "Read complete original PDF and fresh text before prior dispositions; visual read of original page; independent primary statute, provider declaration, organisation rule and clinical-method checks.",
+      "evidence": [
+        {
+          "source_id": "short-it-b-satzung",
+          "locator": "Section 2(2)–(5)",
+          "summary": "Broad constituency is explicit."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Statutes expressly support this broad constituency. It is not a claim that every represented person is a registered member or already blind.",
+      "limits": "Assessed as of authored 14 September 2026, distinct from unverified receipt. Explicit draft is a proposal. No lack-of-evidence error, intent inference, live technical test or human specialist confirmation.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-b-002",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Full one-page response",
+      "original_excerpt": "mehr als 7 Mio. Menschen.",
+      "claim_en": "More than seven million people in Germany fall within the broad represented group of blindness, visual impairment or disease that could cause sight loss.",
+      "claim_type": "quantitative / clinical scope",
+      "materiality": "low",
+      "policy_link": "Constituency, nationwide service mandate and accessibility premises supporting explicit accessible-service requirements.",
+      "cited_by_author": false,
+      "check_method": "Read complete original PDF and fresh text before prior dispositions; visual read of original page; independent primary statute, provider declaration, organisation rule and clinical-method checks.",
+      "evidence": [
+        {
+          "source_id": "short-it-b-dog-count",
+          "locator": "Physical page 1",
+          "summary": "Around seven million AMD cases, including disease stages, not all blind."
+        },
+        {
+          "source_id": "short-it-b-ghs",
+          "locator": "Methods and results in primary article abstract",
+          "summary": "Regional ages 35–74 cohort and stage definitions limit extrapolation."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Primary clinical-society figures make the scale plausible, including early AMD; the exact composite unique-person count, date and extrapolation were not recovered. Do not compare this broad disease-at-risk group to severe-impairment or blindness-only registries, and do not sum overlapping disorders.",
+      "limits": "Assessed as of authored 14 September 2026, distinct from unverified receipt. Explicit draft is a proposal. No lack-of-evidence error, intent inference, live technical test or human specialist confirmation.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-b-003",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Full one-page response",
+      "original_excerpt": "Bundesländer flächendeckend zur Nutzung",
+      "claim_en": "The proposed ITKV requires the electronic residence-registration service to be used across the Länder for the relevant electronic registration procedures.",
+      "claim_type": "proposed legal scope",
+      "materiality": "medium",
+      "policy_link": "Constituency, nationwide service mandate and accessibility premises supporting explicit accessible-service requirements.",
+      "cited_by_author": false,
+      "check_method": "Read complete original PDF and fresh text before prior dispositions; visual read of original page; independent primary statute, provider declaration, organisation rule and clinical-method checks.",
+      "evidence": [
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical pages 4–5 and 12",
+          "summary": "Operative duty and full-coverage rationale match."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Exact draft section 1 requires service 10124 for electronic procedures under BMG23a/24; rationale expressly pursues complete territorial coverage. Ordinary mandate reading is supported; no claim every paper route is abolished or no general statutory derogation can ever exist is inferred.",
+      "limits": "Assessed as of authored 14 September 2026, distinct from unverified receipt. Explicit draft is a proposal. No lack-of-evidence error, intent inference, live technical test or human specialist confirmation.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-b-004",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Full one-page response",
+      "original_excerpt": "Hamburg (HH) entwickelten Onlinedienstes",
+      "claim_en": "Hamburg developed the electronic residence-registration online service.",
+      "claim_type": "technical / institutional provenance",
+      "materiality": "medium",
+      "policy_link": "Constituency, nationwide service mandate and accessibility premises supporting explicit accessible-service requirements.",
+      "cited_by_author": false,
+      "check_method": "Read complete original PDF and fresh text before prior dispositions; visual read of original page; independent primary statute, provider declaration, organisation rule and clinical-method checks.",
+      "evidence": [
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical pages 1 and 12",
+          "summary": "Hamburg development, Dataport operation on Hamburg behalf."
+        },
+        {
+          "source_id": "short-it-b-ewa-provider",
+          "locator": "Homepage service/about attribution",
+          "summary": "Hamburg service developed jointly with BMI."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Exact draft and official service provider attribution independently confirm Hamburg development. Hamburg leadership does not imply no joint federal funding or partner participation.",
+      "limits": "Assessed as of authored 14 September 2026, distinct from unverified receipt. Explicit draft is a proposal. No lack-of-evidence error, intent inference, live technical test or human specialist confirmation.",
+      "check_completed": true
+    },
+    {
+      "id": "short-it-b-005",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Full one-page response",
+      "original_excerpt": "nach Angaben der Erklärung zur Barrierefreiheit",
+      "claim_en": "According to its accessibility declaration, the eWA service does not yet fully meet digital-accessibility requirements.",
+      "claim_type": "technical accessibility",
+      "materiality": "medium",
+      "policy_link": "Constituency, nationwide service mandate and accessibility premises supporting explicit accessible-service requirements.",
+      "cited_by_author": true,
+      "check_method": "Read complete original PDF and fresh text before prior dispositions; visual read of original page; independent primary statute, provider declaration, organisation rule and clinical-method checks.",
+      "evidence": [
+        {
+          "source_id": "short-it-b-ewa-accessibility",
+          "locator": "Physical pages 1–3",
+          "summary": "Service-specific partial compliance and concrete defects; date predates response."
+        },
+        {
+          "source_id": "short-it-b-bitv",
+          "locator": "Sections 2–4 and7; scope context",
+          "summary": "Relevant standards/declaration duties, without conflating all Land implementations."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Service-specific primary declaration, assessed in April 2026 and last checked 22 April, explicitly says partly compliant and lists substantive keyboard and screen-reader barriers. This goes beyond checking only whether the author cited a source accurately: the actual declared scope, assessment date, standards and concrete defects were read. No all-users-unusable or fresh independent audit claim is inferred.",
+      "limits": "Assessed as of authored 14 September 2026, distinct from unverified receipt. Explicit draft is a proposal. No lack-of-evidence error, intent inference, live technical test or human specialist confirmation.",
+      "check_completed": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "short-it-b-satzung",
+      "title": "DBSV statutes adopted June 2022",
+      "url": "https://www.dbsv.org/satzung-dbsv.html",
+      "retrieved_at": "2026-10-25T21:12:37.238462+00:00",
+      "temporal_limit": "Primary organisation rule; June 2022 stated version predates September 2026 response.",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+      "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43",
+      "archive_type": "Concise authored primary-source check note, not original HTML/PDF",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-b-dog-count",
+      "title": "DOG September 2025 primary clinical-society statement",
+      "url": "https://dog.org/wp-content/uploads/sites/11/2025/09/DOG-PM-Kongress_AMD_und-Katarakt_September_2025_F.pdf",
+      "retrieved_at": "2026-10-25T21:12:37.238462+00:00",
+      "temporal_limit": "Rough clinical estimate, not a current national census. No summation of overlapping eye-disease counts; not a blindness-only number.",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+      "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43",
+      "archive_type": "Concise authored primary-source check note, not original HTML/PDF",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-b-ghs",
+      "title": "Korb et al., Gutenberg Health Study, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24566902/",
+      "retrieved_at": "2026-10-25T21:12:37.238462+00:00",
+      "temporal_limit": "Original abstract only, not full paper or reconstructed national extrapolation. Does not settle exact composite 2026 count.",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+      "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43",
+      "archive_type": "Concise authored primary-source check note, not original HTML/PDF",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-b-ewa-provider",
+      "title": "Official electronic residence-registration provider homepage",
+      "url": "https://wohnsitzanmeldung.gov.de/",
+      "retrieved_at": "2026-10-25T21:12:37.238462+00:00",
+      "temporal_limit": "Current provider page; historical attribution corroborated by exact September draft. Not sole-developer or sole-funder claim.",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+      "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43",
+      "archive_type": "Concise authored primary-source check note, not original HTML/PDF",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-b-ewa-accessibility",
+      "title": "Hamburg service-specific eWA accessibility declaration, checked 22 April 2026",
+      "url": "https://static.hamburg.de/fhh/efa-ods/bfe-ewa.pdf",
+      "retrieved_at": "2026-10-25T21:12:37.238462+00:00",
+      "temporal_limit": "Supports author explicitly qualified according-to-declaration premise. Actual live service not independently retested at 14 September or October; current retrieved declaration has April date, not authenticated September capture.",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+      "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43",
+      "archive_type": "Concise authored primary-source check note, not original HTML/PDF",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "short-it-b-bitv",
+      "title": "Official BITV 2.0, last amended 24 October 2023",
+      "url": "https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html",
+      "retrieved_at": "2026-10-25T21:12:37.238462+00:00",
+      "temporal_limit": "OZG current consolidation includes post-author 6 October 2026 amendment; current §§4/7 are context only, not a certified historical chain. Hamburg-law direct page required JavaScript and was not treated as read. No assertion every Land has identical implementation.",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/b-primary-checks.json",
+      "sha256": "d5dc8f4b24ecee1823b5399a03aedd50a89e932b41130dd13b685c89efce2f43",
+      "archive_type": "Concise authored primary-source check note, not original HTML/PDF",
+      "usable_as_evidence": true
+    }
+  ],
+  "exclusions": [
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "pdf_pages": [
+        1
+      ],
+      "reason": "Title, Berlin date, identity wording and incidental legal citation metadata are provenance; BITV2011 date checked and accurate, not a separate material claim."
+    },
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "pdf_pages": [
+        1
+      ],
+      "reason": "Uniform standard satisfying all Länder, explicit dynamic BITV reference in ITKV and requirement that mandated services be accessible are policy recommendations. They do not assert that all existing Länder rules are identical, that no accessibility duty already applies or that adding text guarantees outcomes."
+    }
+  ],
+  "limitations": [
+    "Exact response receipt unverified; authored date printed 14 September 2026.",
+    "Only five material/context claims in a single-page response; constituency count is unresolved, not disproved.",
+    "Current OZG has post-author amendment; exact September draft used for proposed mandate. No blanket current-law historical certification.",
+    "Actual service not independently tested; supported accessibility proposition is explicitly about dated provider declaration."
+  ],
+  "visual_checks": [
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "pdf_page": 1,
+      "method": "Rendered original with pdftoppm and independently viewed full page; date, entire wording and absence of omitted footnotes confirmed.",
+      "render_retention": "Temporary render; original exact PDF retained shared."
+    }
+  ],
+  "candidate_findings": [],
+  "counts": {
+    "documents": 1,
+    "pages": 1,
+    "claims": 5,
+    "results": {
+      "supported": 4,
+      "unresolved": 1
+    }
+  }
+}

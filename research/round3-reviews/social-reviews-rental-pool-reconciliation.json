@@ -1,0 +1,490 @@
+{
+  "audit_id": "social-independent-rental-fresh-triage-reconciliation",
+  "date_utc": "2026-10-25T04:46:02.473253+00:00",
+  "reviewer": "social_round2 independent AI",
+  "read_extent": "Read reconciliation proof and inventory structures; independently hashed all26archivePDFmembers against current merged files; checked all19excerpt headers and all recorded page-context strings against original extractedtexts. Independently visually read3omitted scanned covers. This audits identity/depth/evidence, not full rental content or root’s substantive factual screening.",
+  "merged_pool_sha256": "da8f68b4bc6d4211b1c15fb74a1a3335f42cbaa3f087aea420ba22895752a682",
+  "counts": {
+    "archive_pdf_members": 26,
+    "distinct_archive_hashes": 26,
+    "merged_unique_units_covering_members": 26,
+    "fresh_named_ids": 19,
+    "fresh_units_at_keyword_triage": 19,
+    "other_prior_named_units": 7,
+    "depths_all26": {
+      "selected_passages": 1,
+      "full_submission": 6,
+      "keyword_triage": 19
+    }
+  },
+  "rows": [
+    {
+      "archive_member": "2026-03-06 Stellungnahme+Anlage gif - Steffen Sebastian.pdf",
+      "sha256": "07d1d35f22b8aa21086b92644d6bc4e7b0f3e803cc49b0c17fbb6b2fffdd5842",
+      "merged_ids": [
+        "root-miete-2026-03-06 Stellungnahme+Anlage gif - Steffen Sebastian"
+      ],
+      "merged_depths": [
+        "selected_passages"
+      ],
+      "fresh_ids": []
+    },
+    {
+      "archive_member": "2026-03-11_GdW StN RefE Änderung Recht Wohn- und Geschäftsraummiete.pdf",
+      "sha256": "7076200e7b62df44f4a5db148e22722055fe67dddc7408cb269358dcca7de2ac",
+      "merged_ids": [
+        "round3-root-rental-triage-37c693160a4e"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-37c693160a4e"
+      ]
+    },
+    {
+      "archive_member": "20260306 Stellungnahme IVD zum Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+      "sha256": "c798cdef6c83cafe131b4aba6f03e0a7d9bec0f1d585aa92ffe9310224620f9c",
+      "merged_ids": [
+        "root-miete-20260306 Stellungnahme IVD zum Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete"
+      ],
+      "merged_depths": [
+        "full_submission"
+      ],
+      "fresh_ids": []
+    },
+    {
+      "archive_member": "20260306_Stellungnahme_Mietrechtsnovelle_EDL_HUB.pdf",
+      "sha256": "f88c173ea131823ad381109d70108599b3dc04dd327a186655517a652c94332e",
+      "merged_ids": [
+        "round3-root-rental-triage-3fd2c736e322"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-3fd2c736e322"
+      ]
+    },
+    {
+      "archive_member": "20260306_VDIV Stellungnahme_Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+      "sha256": "682e4fdfca3e18975b8ab3b6568d8c56cf92b0dfca4baa8996bc5e019a721a0d",
+      "merged_ids": [
+        "round3-root-rental-triage-cc0eb99ba1f2"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-cc0eb99ba1f2"
+      ]
+    },
+    {
+      "archive_member": "260304-SN_Mietrecht_Paritaet.pdf",
+      "sha256": "4899af940bfdc689143d930283e5431151163db6cb3df5e32416a7e362a63f63",
+      "merged_ids": [
+        "round3-root-rental-triage-bfb4048b2831"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-bfb4048b2831"
+      ]
+    },
+    {
+      "archive_member": "260304_Stellungnahme_BML.pdf",
+      "sha256": "8f92fbb3082eccf53e213e4c2ce5e6e61c5a68dba5317e2ba7c2a815540b3618",
+      "merged_ids": [
+        "round3-root-rental-triage-a037cf6c42d3"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-a037cf6c42d3"
+      ]
+    },
+    {
+      "archive_member": "260306_BFW_Stellungnahme_Mietrecht.pdf",
+      "sha256": "c7e4b4a6fd11a8c84dca292d6ed967fc980a66a1c257dc0fc9dbda5dc0151e7a",
+      "merged_ids": [
+        "root-miete-260306_BFW_Stellungnahme_Mietrecht"
+      ],
+      "merged_depths": [
+        "full_submission"
+      ],
+      "fresh_ids": []
+    },
+    {
+      "archive_member": "260306_StN des RAV zum Gesetz zur Änderung des Rechts der Wohnraummiete_fin.pdf",
+      "sha256": "d6e02ce4df1dd5d7a19e705df6c98f5c403554dff77d8f5f7b169142cb1313e5",
+      "merged_ids": [
+        "round3-root-rental-triage-9d9511a2fd87"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-9d9511a2fd87"
+      ]
+    },
+    {
+      "archive_member": "BAGW-Stellungnahme-Mietrechtsreform2026-Barrierefrei.pdf",
+      "sha256": "49a75a9acb130e3905416f03abc8acca3e8a3db7b23953f2a4b5424cfde0a21d",
+      "merged_ids": [
+        "round3-root-rental-triage-0ed8022a4bec"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-0ed8022a4bec"
+      ]
+    },
+    {
+      "archive_member": "BIIS-Stellungnahme zur Mietrechtsreform 2026.pdf",
+      "sha256": "ee8341544f1ea5e0a5843cbdda2c60fc092eaf35d1aea80cd5ab527720c6903a",
+      "merged_ids": [
+        "round3-root-rental-triage-891218d36b63"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-891218d36b63"
+      ]
+    },
+    {
+      "archive_member": "BNotK STN 2026_5_ Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+      "sha256": "3e0be3d6d70a46a8831bdc02fe0ad574bcf9a60101392726d1cec39762e989d8",
+      "merged_ids": [
+        "round3-root-rental-triage-bbc920285af1"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-bbc920285af1"
+      ]
+    },
+    {
+      "archive_member": "BRAK_Stn_14_v_04_03_RefE_Änderung_des_Rechts_der_Wohn_und_Geschäftsraummiete.pdf",
+      "sha256": "200a2d723881b848eafab450891e147892321ab3ffab48d5f7cf4c1a040cd8f8",
+      "merged_ids": [
+        "round3-root-rental-triage-1c8bc58c3e2f"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-1c8bc58c3e2f"
+      ]
+    },
+    {
+      "archive_member": "DAV-SN 15-2026 RefE Änderung des Rechts der [...]Miete.pdf",
+      "sha256": "7c3d4945a01d92f8c0437838d50b7c0ba2acac926baf5c3af25f18314edc368e",
+      "merged_ids": [
+        "round3-root-rental-triage-dc6ea2347e16"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-dc6ea2347e16"
+      ]
+    },
+    {
+      "archive_member": "DGB_2026-03-06_Stellungnahme zum Gesetzentwurf zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+      "sha256": "860d86906ced4c1346a319fa30922af580749a62b250c06ec5a68d52a71fbf88",
+      "merged_ids": [
+        "round3-root-rental-triage-de06ed90d594"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-de06ed90d594"
+      ]
+    },
+    {
+      "archive_member": "fzs_Stellungnahme_Mietrechtsreform.pdf",
+      "sha256": "5670b3394f1cdd1b31a66a33fa02eb983f39ff0d74f9063cff6ef80f8115344a",
+      "merged_ids": [
+        "round3-root-rental-triage-28953e677349"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-28953e677349"
+      ]
+    },
+    {
+      "archive_member": "Haus & Grund Deutschland - Stellungnahme zur Änderung des Rechtes der Wohn- und Geschäftsraummiete.pdf",
+      "sha256": "2adbbe7d0f45ac3b18fed2cb2970a680ccdb74ab51360655bd3f87af6085b1fc",
+      "merged_ids": [
+        "root-miete-Haus & Grund Deutschland - Stellungnahme zur Änderung des Rechtes der Wohn- und Geschäftsraummiete"
+      ],
+      "merged_depths": [
+        "full_submission"
+      ],
+      "fresh_ids": []
+    },
+    {
+      "archive_member": "MhM Hamburg 060326.pdf",
+      "sha256": "c8b5bdebb6942bc1fdbf7dfb6250cdad36b8e61245d62b90fda9944f742c5086",
+      "merged_ids": [
+        "round3-root-rental-triage-3b034ffcf943"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-3b034ffcf943"
+      ]
+    },
+    {
+      "archive_member": "Stellungnahme DMB ÄnderungsG  Wohn- und Geschäftsraummiete.pdf",
+      "sha256": "82d0d4d552472f7280109bbd64fbffd06029ce7483e601163e1afd590be05e87",
+      "merged_ids": [
+        "root-miete-Stellungnahme DMB ÄnderungsG  Wohn- und Geschäftsraummiete"
+      ],
+      "merged_depths": [
+        "full_submission"
+      ],
+      "fresh_ids": []
+    },
+    {
+      "archive_member": "Stellungnahme NRV Mietrecht II final.pdf",
+      "sha256": "982f52eedac738b7f9bbc000be1462e70c188deb7f309ae1ccb5b3d12d09c905",
+      "merged_ids": [
+        "round3-root-rental-triage-b2cecbf8f232"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-b2cecbf8f232"
+      ]
+    },
+    {
+      "archive_member": "Stellungnahme VdK_zum Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+      "sha256": "a16bc849c9f9d44ef6227917d5a7fcfe8187cbd919e6219c85a09d3a50f5f4bf",
+      "merged_ids": [
+        "round3-root-rental-triage-07752e230962"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-07752e230962"
+      ]
+    },
+    {
+      "archive_member": "Stellungnahme WiE zu RefE Mietrecht II - 26-03-06.pdf",
+      "sha256": "e5e1d42f9ac72648b1efbe99403149b041882b28e2d5f15202be3414baa9c006",
+      "merged_ids": [
+        "root-miete-Stellungnahme WiE zu RefE Mietrecht II - 26-03-06"
+      ],
+      "merged_depths": [
+        "full_submission"
+      ],
+      "fresh_ids": []
+    },
+    {
+      "archive_member": "Stellungnahme-DMT-15-03-26.pdf",
+      "sha256": "af94bba441fe7bea7c2b55ae4de396b8ca449b250aeced132e9bdc7627b04b24",
+      "merged_ids": [
+        "round3-root-rental-triage-e1fc3ee7fbe4"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-e1fc3ee7fbe4"
+      ]
+    },
+    {
+      "archive_member": "Stellungnahme_DST_DStGB_Mietrechtspaket_II - 20260306.pdf",
+      "sha256": "ad87f46691d88e9d59bee59a90e5d1aa0778b815263b2249ab335990b70ec5c6",
+      "merged_ids": [
+        "round3-root-rental-triage-f84b07c473f1"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-f84b07c473f1"
+      ]
+    },
+    {
+      "archive_member": "vzbv_26-03-05_Stellungnahme_Referententwurf_Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+      "sha256": "aec42da4ef3f6b973d56edf7d9ece0b105f5858287a13fbd8d6079926c4d2f7c",
+      "merged_ids": [
+        "round3-root-rental-triage-2ea2858ffd86"
+      ],
+      "merged_depths": [
+        "keyword_triage"
+      ],
+      "fresh_ids": [
+        "round3-root-rental-triage-2ea2858ffd86"
+      ]
+    },
+    {
+      "archive_member": "ZIA_Stellungnahme_RefE_Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+      "sha256": "2794f0af0f523c5aea39f606837a91849c97f78b74bd6a832d64e823b09cd49e",
+      "merged_ids": [
+        "root-miete-ZIA_Stellungnahme_RefE_Änderung des Rechts der Wohn- und Geschäftsraummiete"
+      ],
+      "merged_depths": [
+        "full_submission"
+      ],
+      "fresh_ids": []
+    }
+  ],
+  "excerpt_checks": [
+    {
+      "file": "research/round2-root/consultation/2026-03-11_GdW StN RefE Änderung Recht Wohn- und Geschäftsraummiete.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 8,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/20260306_Stellungnahme_Mietrechtsnovelle_EDL_HUB.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 7,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/20260306_VDIV Stellungnahme_Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 8,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/260304-SN_Mietrecht_Paritaet.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 4,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/260304_Stellungnahme_BML.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 8,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/260306_StN des RAV zum Gesetz zur Änderung des Rechts der Wohnraummiete_fin.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 8,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/BAGW-Stellungnahme-Mietrechtsreform2026-Barrierefrei.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 6,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/BIIS-Stellungnahme zur Mietrechtsreform 2026.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 8,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/BNotK STN 2026_5_ Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 0,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/BRAK_Stn_14_v_04_03_RefE_Änderung_des_Rechts_der_Wohn_und_Geschäftsraummiete.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 2,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/DAV-SN 15-2026 RefE Änderung des Rechts der [...]Miete.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 8,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/DGB_2026-03-06_Stellungnahme zum Gesetzentwurf zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 1,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/MhM Hamburg 060326.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 4,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/Stellungnahme NRV Mietrecht II final.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 5,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/Stellungnahme VdK_zum Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 6,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/Stellungnahme-DMT-15-03-26.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 0,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/Stellungnahme_DST_DStGB_Mietrechtspaket_II - 20260306.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 8,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/fzs_Stellungnahme_Mietrechtsreform.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 8,
+      "page_windows_match": true
+    },
+    {
+      "file": "research/round2-root/consultation/vzbv_26-03-05_Stellungnahme_Referententwurf_Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+      "header_chars": 1400,
+      "header_matches_extracted_file": true,
+      "target_windows": 8,
+      "page_windows_match": true
+    }
+  ],
+  "visual_covers_independently_read": [
+    "research/round3-reviews/rendered/rental-bml-p1.png",
+    "research/round3-reviews/rendered/rental-mhm-p1.png",
+    "research/round3-reviews/rendered/rental-nrv-p1.png"
+  ],
+  "interpretation": "Fresh19namedtriages plus7previous named units cover26distinctPDFs. No retroactive proof of which25were earlier anonymously scanned. Currentanonymousbound can be zero because actual fresh evidence now covers remaining identities. Earlier snapshotminimum remains historically qualified.",
+  "scope_limit": "February/March2026historical consultation; no automatic admission to July25–October24delivery cohort. Triage is not fullreading or truthcertification.",
+  "required_corrections": [],
+  "disposition": "pass"
+}

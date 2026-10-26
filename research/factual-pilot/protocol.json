@@ -1,0 +1,198 @@
+{
+  "id": "kltgv-2026-factual-pilot",
+  "status": "complete",
+  "started_at_utc": "2026-10-25T08:49:29.689015+00:00",
+  "authorisation": "User authorised systematic expansion of checks on already examined material, using multiple agents that independently check each other. No fixed time minimum.",
+  "objective": "Inventory and independently assess potentially material checkable factual assertions, cited or uncited, in every one of seven archived external KLtgV responses; retain supported, qualified, unresolved and negative results.",
+  "selection_reason": "Finite published external set already fully read, with no earlier findings; 35 physical author pages. Selection is for manageable systematic pilot, not expected error yield.",
+  "population": "Seven published external versions from existing proof; six government contributors excluded from external cohort. Unpublished or other-channel completeness not claimed.",
+  "baseline_proof": "research/round3-energy/coverage-bounded-kltgv-proof.json",
+  "documents": [
+    {
+      "id": "bmwe-kltgv-2026-001",
+      "author": "Deutsche Carbon Management Initiative (DCMI)",
+      "author_date_or_month": "2026-08",
+      "submission_date_verified": false,
+      "local_file": "research/round3-energy/sources/bmwe-members/8c01fd78e04190e7fd04.pdf",
+      "sha256": "8c01fd78e04190e7fd040d67d00c152efff2705f4062d1269eb8b03c275d5847",
+      "physical_pages": 7,
+      "depth": "full_submission",
+      "log_locator": "$[66]",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "pilot_text": "research/factual-pilot/text/bmwe-kltgv-2026-001.txt"
+    },
+    {
+      "id": "bmwe-kltgv-2026-002",
+      "author": "Verband Deutscher Maschinen- und Anlagenbau e. V. (VDMA)",
+      "author_date_or_month": "2026-08-07",
+      "submission_date_verified": false,
+      "local_file": "research/round3-energy/sources/bmwe-members/f59c094f95a549fabf84.pdf",
+      "sha256": "f59c094f95a549fabf84d7e9774dd2ac763284061c8164ad3769b853534c3572",
+      "physical_pages": 3,
+      "depth": "full_submission",
+      "log_locator": "$[67]",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "pilot_text": "research/factual-pilot/text/bmwe-kltgv-2026-002.txt"
+    },
+    {
+      "id": "bmwe-kltgv-2026-003",
+      "author": "Deutscher Verein des Gas- und Wasserfaches (DVGW)",
+      "author_date_or_month": "2026-08-10",
+      "submission_date_verified": false,
+      "local_file": "research/round3-energy/sources/bmwe-members/76f23439ac86e024d40d.pdf",
+      "sha256": "76f23439ac86e024d40d6d10fce2f1ba80c36bb8a378e8bcbff078c4f1403118",
+      "physical_pages": 3,
+      "depth": "full_submission",
+      "log_locator": "$[68]",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "pilot_text": "research/factual-pilot/text/bmwe-kltgv-2026-003.txt"
+    },
+    {
+      "id": "bmwe-kltgv-2026-007",
+      "author": "Bundesverband der Energie- und Wasserwirtschaft e.V. (BDEW)",
+      "author_date_or_month": "2026-08-04",
+      "submission_date_verified": false,
+      "local_file": "research/round3-energy/sources/bmwe-members/123609f5962b8ebb52ca.pdf",
+      "sha256": "123609f5962b8ebb52ca2e33fed40b23350cc930f50eb1e53640ef949b7edc4a",
+      "physical_pages": 9,
+      "depth": "full_submission",
+      "log_locator": "$[69]",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "pilot_text": "research/factual-pilot/text/bmwe-kltgv-2026-007.txt"
+    },
+    {
+      "id": "bmwe-kltgv-2026-008",
+      "author": "Carbon Management Allianz (CMA)",
+      "author_date_or_month": "2026-08-10",
+      "submission_date_verified": false,
+      "local_file": "research/round3-energy/sources/bmwe-members/357765fb0849592315bf.pdf",
+      "sha256": "357765fb0849592315bf5c6646a2d1c6897d3ef5a6b6fcb353961839895e6df6",
+      "physical_pages": 3,
+      "depth": "full_submission",
+      "log_locator": "$[70]",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "pilot_text": "research/factual-pilot/text/bmwe-kltgv-2026-008.txt"
+    },
+    {
+      "id": "bmwe-kltgv-2026-010",
+      "author": "TÜV-Verband e.V.",
+      "author_date_or_month": "2026-08-07",
+      "submission_date_verified": false,
+      "local_file": "research/round3-energy/sources/bmwe-members/548a2744055035f3ff68.pdf",
+      "sha256": "548a2744055035f3ff68e06d584d3e65a9873bb3f62205571948b4c33353e5d7",
+      "physical_pages": 6,
+      "depth": "full_submission",
+      "log_locator": "$[71]",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "pilot_text": "research/factual-pilot/text/bmwe-kltgv-2026-010.txt"
+    },
+    {
+      "id": "bmwe-kltgv-2026-011",
+      "author": "VNG AG",
+      "author_date_or_month": "2026-08-10",
+      "submission_date_verified": false,
+      "local_file": "research/round3-energy/sources/bmwe-members/510584d04f8620f4f1b0.pdf",
+      "sha256": "510584d04f8620f4f1b0a0e0453d5d2d811584c28d0daf9628cee1a1cca2438f",
+      "physical_pages": 4,
+      "depth": "full_submission",
+      "log_locator": "$[72]",
+      "evidence_log": "research/round3-energy/screening-log.json",
+      "pilot_text": "research/factual-pilot/text/bmwe-kltgv-2026-011.txt"
+    }
+  ],
+  "draft": {
+    "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/Gesetz/2026/20260818-renentwurf-kohlendioxidleitungsverordnung.pdf?__blob=publicationFile&v=6",
+    "local_file": "research/round3-energy/sources/kltgv-refe-official.pdf",
+    "sha256": "927255e40b4443c789705a93d3440cd4dbfbb81a5c09f8e3214246082a4c30cf",
+    "internal_version": "July8,2026,09:33",
+    "read_extent": "Cover, operative physical3–4, general rationale5–8, specific rationale17–19; not full19pages.",
+    "version_limit": "VDMA and TÜV identify July7draft; no byte identity with an independently archived July7iteration. BDEW identifies July8. No draft difference is inferred solely from this date variation."
+  },
+  "claim_rules": [
+    "Read each assigned submission fully before consulting prior targeted dispositions. Extract factual assertions potentially affecting policy cost, benefit, need, safety, feasibility or legal scope, regardless of citation. Include sufficiently specific proposed-draft/current-law descriptions; distinguish proposals from descriptions.",
+    "Split materially different propositions; merge repetitions within one document. Retain within-document page/section locators and short exact original-language anchors, with concise English paraphrases.",
+    "List excluded normative statements, forecasts and low-priority descriptive matter with page ranges and reasons. Audit all pages for omitted material claims.",
+    "Assess independent primary evidence even when an author citation is accurate. Check source definitions, cohorts, dates, instrument applicability and methods. Archive public evidence with URL, access time and hash when possible; record denied access.",
+    "Evaluate claims as of authored date; distinguish contemporaneous text from later snapshots. Missing standards or missing evidence do not establish falsehood. Exact July7/July8 draft identity must remain qualified.",
+    "Materiality high: a correction could alter central policy rationale; medium: significant supporting factual premise; low: incidental detail. Direction relative to author request is separate from severity.",
+    "No policy disagreement, prediction, unsupported assertion, or lack of accessible evidence alone becomes an error. Do not infer intent or invent author responses.",
+    "Fresh peer independently re-read all assigned counterpart author pages, repeat evidence checks, and look for omissions. Reviews are of claims and non-findings, not only proposed errors. Preserve disagreement and adjudication.",
+    "No author contact. No human specialist confirmation. Technical paywalls are access limits, not findings."
+  ],
+  "allowed_results": [
+    "supported",
+    "contradicted",
+    "overstated",
+    "unresolved",
+    "not_checked"
+  ],
+  "claim_fields": [
+    "id",
+    "document_id",
+    "pdf_pages",
+    "section",
+    "original_excerpt",
+    "claim_en",
+    "claim_type",
+    "materiality",
+    "policy_link",
+    "cited_by_author",
+    "check_method",
+    "evidence",
+    "result",
+    "explanation",
+    "limits",
+    "check_completed"
+  ],
+  "source_fields": [
+    "id",
+    "title",
+    "url",
+    "retrieved_at",
+    "local_file",
+    "sha256",
+    "temporal_limit"
+  ],
+  "agent_outputs": {
+    "a": [
+      "bmwe-kltgv-2026-001",
+      "bmwe-kltgv-2026-002"
+    ],
+    "b": [
+      "bmwe-kltgv-2026-003",
+      "bmwe-kltgv-2026-007"
+    ],
+    "c": [
+      "bmwe-kltgv-2026-008",
+      "bmwe-kltgv-2026-010",
+      "bmwe-kltgv-2026-011"
+    ]
+  },
+  "peer_review_rotation": {
+    "a": "c",
+    "b": "a",
+    "c": "b"
+  },
+  "completion_gates": [
+    "All seven archived hashes and page counts reconciled",
+    "All35authorpages re-read and material claim inventories saved",
+    "Every inventoried claim has explicit outcome and primary-evidence or access-limit rationale",
+    "Each inventory and its omissions independently peer-reviewed",
+    "Disagreements adjudicated and supported/unresolved outcomes retained",
+    "Potential findings pass full context, temporal and materiality review before main-data admission",
+    "Machine validation and concise report saved"
+  ],
+  "limitations": [
+    "Pilot completeness concerns inventoried material claims in finite archived set, not all factual assertions or national prevalence.",
+    "Internal drafting metadata and author-identified dates differ; no silent substitution of later enacted provisions.",
+    "Not a representative sample. No new reading units added by repeat checks."
+  ],
+  "completed_at_utc": "2026-10-25T09:21:19.988884+00:00",
+  "completion_evidence": {
+    "claim_ledger": "research/factual-pilot/claim-ledger.json",
+    "validation": "research/factual-pilot/validation-report.json",
+    "final_independent_integration_audit": "research/factual-pilot/reviews/b-final-integration-audit.json",
+    "main_issue_admission": "research/factual-pilot/assembly-manifest.json",
+    "report": "research/factual-pilot/report.html"
+  }
+}

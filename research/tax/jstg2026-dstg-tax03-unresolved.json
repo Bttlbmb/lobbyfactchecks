@@ -1,0 +1,120 @@
+{
+  "law_id": "jstg-2026",
+  "document_id": "dstg-jstg-2026",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "energy_ai_independent_review",
+        "date": "2026-10-25",
+        "review_file": "research/round2-reviews/energy-reviews-dstg-deletion.json",
+        "outcome": "retain_unresolved_lead_null_direction",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "first recorded",
+      "by": "tax_consultations_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent full-section and exact-draft review retained the lead as unresolved and set direction to null; conditional possible request-favouring effect remains in explanation. Original first-recorded metadata preserved.",
+      "by": "energy_ai_screen"
+    }
+  ],
+  "id": "jstg2026-dstg-tax03",
+  "severity": "major",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Annual tax changes allowing necessary personal data for tax-authority AI.",
+    "they_want": "Longer retention of training and validation data.",
+    "they_claim": "The draft entails forced annual data destruction.",
+    "the_problem": "The clock starts after measures end or continued-operation need ceases; the intended criticism needs clarification."
+  },
+  "claim_quote": {
+    "original": "jährlicher Datenabbau",
+    "language": "de",
+    "translation_en": "Translation: annual data reduction",
+    "locator": {
+      "pdf_page": 5,
+      "section": "III.3, first paragraph"
+    },
+    "underline": "jährlicher Datenabbau"
+  },
+  "request_quote": null,
+  "counter_quote": {
+    "original": "in dem Zeitpunkt, in dem die Daten für die Fortsetzung eines ordnungsgemäßen Betriebs des automatisierten Systems nicht länger erforderlich sind.",
+    "source_id": "jstg2026-refe",
+    "locator": {
+      "pdf_page": 130,
+      "section": "Article 18 number 5(a), section 29c AO explanation"
+    },
+    "retrieved_at": "2026-10-24",
+    "language": "de",
+    "translation_en": "Translation of fragment: at the time when the data are no longer required to continue proper operation of the automated system."
+  },
+  "correction": "The operative rule on p 28 starts the one-year period after the measures end; its continued-operation clause and explanation p 130 preserve necessary data until they are no longer needed for proper ongoing operation.",
+  "effect": "If annual meant deletion during necessary ongoing use, the stated threat to continuing model validity is overstated.",
+  "limits": "Not established as an error: p 4 accurately describes deletion within one year after the development or review measure ends. Annual may be shorthand for deletion following each completed measure; original-data audit concerns can extend beyond that point. No adjudication of model science, retention necessity or legal compatibility.",
+  "materiality_explanation": "Potentially major because it would support changing retention law, but scope and intended reading remain unresolved. The asserted risk favours longer retention; severity is provisional pending clarification.",
+  "confidence": {
+    "text_source_mismatch": "unresolved_contextual_interpretation",
+    "materiality": "editorial_judgment",
+    "submission_provenance": "high_author_copy_independently_verified"
+  },
+  "context_checked": "Full p 4–5 retained: correct end-of-measure trigger appears before broader annual-destruction wording. Treating the latter as an unqualified annual purge could unfairly ignore that accurate qualification.",
+  "draft": {
+    "title": "Referentenentwurf eines Jahressteuergesetzes 2026",
+    "version_date": "2026-05-19",
+    "version_time": "10:22",
+    "source_id": "jstg2026-refe",
+    "submission_date": null,
+    "submission_date_note": "Undated PDF; author announcement and PDF metadata both 2026-06-15. Do not use 2026-08-12 government draft as comparison.",
+    "process_status_at_screen": "Ongoing: BT 21/8283 first reading 2026-10-08; hearing announced for 2026-11-02.",
+    "comparison": "Compared to the 151-page ministerial draft dated 19.05.2026 10:22; § 29c amendment on PDF p 28, explanation on PDF pp 129–130."
+  },
+  "sources": [
+    {
+      "id": "dstg-jstg2026-author",
+      "title": "Stellungnahme der Deutschen Steuer-Gewerkschaft zum Referentenentwurf eines Jahressteuergesetzes 2026",
+      "url": "https://www.dstg.de/fileadmin/user_upload/www_dstg_de/pdf/Stellungnahmen/Stellungnahme_JStG_2026.pdf",
+      "local_file": "research/tax/dstg-jstg2026-author-original.pdf",
+      "retrieved_at": "2026-10-24",
+      "provenance_note": "Independent agent retrieved directly from author website. Full pdftotext-layout output matches mirror; binary PDFs differ. Submission undated; author announcement 15 June 2026. See research/reviews/social-reviews-tax.json."
+    },
+    {
+      "id": "bmf-jstg2026-consultation",
+      "title": "BMF consultation dossier JStG 2026",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-05-19-JStG2026/0-Gesetz.html",
+      "retrieved_at": "2026-10-24",
+      "access": "Search-index content available; direct HTTP 503."
+    },
+    {
+      "id": "dstg-20260615-news",
+      "title": "DSTG zum JStG 2026: Modernisierung ja, aber praxistauglich",
+      "url": "https://www.dstg.de/pressekontakt/news-archiv/news/dstg-zum-jstg-2026-modernisierung-ja-aber-praxistauglich/",
+      "date": "2026-06-15",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "jstg2026-refe",
+      "title": "Referentenentwurf JStG 2026, Bearbeitungsstand 19.05.2026 10:22",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-05-19-JStG2026/1-Referentenentwurf.pdf?__blob=publicationFile&v=2",
+      "access": "Original indexed but direct 503; full corresponding mirror retrieved.",
+      "mirror_url": "https://bundestagszusammenfasser.de/wp-content/uploads/rewp21/1261_Referentenentwurf.pdf",
+      "local_file": "research/tax/jstg2026-refe-20260519-mirror.pdf"
+    }
+  ],
+  "request_quote_reference": {
+    "issue_id": "jstg2026-dstg-tax02",
+    "field": "request_quote",
+    "note": "Same minimum-three-year request on PDF page 5; refer to exact quote there to avoid duplicating source excerpt."
+  },
+  "direction_explanation": "Null while the intended annual-deletion reading remains unresolved. A proved exaggerated annual purge would favour longer retention, but that conditional hypothesis is context rather than an established direction finding. The author already correctly describes the end-of-measure trigger and may be discussing successive completed measures or retrospective audits."
+}

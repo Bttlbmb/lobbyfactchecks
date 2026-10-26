@@ -1,0 +1,41 @@
+{
+  "event": "Integrity repair after overbroad prose-spacing transform",
+  "date": "2026-10-25",
+  "affected_files_audited": [
+    "research/round2-social/abortionaccess2026-1000plus-social02.json",
+    "research/round2-social/sources.json",
+    "research/round2-social/grundsicherung2026-vansuntum-social01.json",
+    "research/round2-social/abortionaccess2026-1000plus-social03.json",
+    "research/round2-social/aktivrente2025-brussig-social07.json",
+    "research/round2-social/nipt2024-eiben-social04.json",
+    "research/round2-social/apovwg2026-raddatz-social05.json",
+    "research/round2-social/apovwg2026-raddatz-social06.json",
+    "research/round2-social/bstabg2026-pharmadeutschland-social09.json",
+    "research/round2-social/medcang2025-cantourage-social08.json",
+    "research/round2-social/research-log.json",
+    "research/round2-reviews/social-reviews-dbv-dueng-sales.json",
+    "research/round2-reviews/social-reviews-dmb-energy-poverty.json",
+    "research/round2-reviews/social-reviews-dmb-inflation-vintage.json",
+    "research/round2-reviews/social-reviews-muellersyhre-geowg.json",
+    "research/round2-reviews/social-reviews-meyer-invest.json",
+    "research/round2-reviews/social-reviews-eichfelder-percentile.json",
+    "research/round2-reviews/social-reviews-vzbv-contract-order.json",
+    "research/round2-reviews/social-reviews-georg-dac8.json"
+  ],
+  "affected_file_count": 19,
+  "restorations": [
+    "Restored candidate_id,issue_id,reviewed_issue_id(s) and additional_source_id values by comparing canonical raw record identifiers.",
+    "Restored ISO timestamp T/Z formatting in research-log.json.",
+    "Restored statutory139e and WID sfiinct992 code spacing in prose."
+  ],
+  "protected_values": "Executed readability pass explicitly skipped original,underline,id,law_id,document_id,source_id,source_ids,submission_source_id,quote_id,metadata_file,reviewer,review_file,local_file,url,download_url,doi,sha256 and any string containing a URL/archive path. Missed identifier suffixes caused the error. No further global readability transform will be run.",
+  "verification": {
+    "identifiers_checked": 187,
+    "paths_checked": 71,
+    "remaining_integrity_issues": [],
+    "registry_local_hashes": "All declared local archives exist and SHA256 values match.",
+    "author_quotations": "All nine raw issue records checked against archived author text. Straight text matches for six records and allPharma fragments. VanSuntum request has a PDFfl ligature extraction gap; Eiben text is two-column/interleaved, already visually checked and exact line-column fragments manually reread. No quote original was modified by the transform.",
+    "locators": "Reviewed locator fields in all19affected files. Counter GKV locator independently corrected before spacing pass to physical13/printed1; author physical32/34 retained. No PDF/printed-page integer or original-language title token altered by spacing restoration."
+  },
+  "limits": "No pre-transform byte snapshot existed for prose. This audit establishes restored identifiers, source identities, timestamps, path/hash integrity and quote-source consistency, not identical prose bytes."
+}

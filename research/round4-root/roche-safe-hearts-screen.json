@@ -1,0 +1,47 @@
+{
+  "status": "research_only_scope_gate_pending",
+  "register_id": "SG2609210003",
+  "document": "Roche, Eine Chance für Deutschlands Herzen – der EU Safe Hearts Plan, July2026",
+  "read_extent": "All five author pages, including qualifications and final requests.",
+  "test_results": [
+    {
+      "claim": "Germany903euro highest societal cardiovascular cost",
+      "source": "OECD2025 original table2.2 and underlying2023population-cost study discovery",
+      "result": "Germany903PPP per-capita is highest in the original EU table. Surrounding EU context makes Europe shorthand plausible. No numerical-error promotion; not a full OECD report appraisal."
+    },
+    {
+      "claim": "Annual testing from26 / over26 years",
+      "source": "Commission COM2025/1024 final16December2025, physical9/printed8",
+      "result": "Source age band starts25, with explicit age/test-dependent65–90%targets by2035. Author retains percentage qualifiers onp1. One-year threshold discrepancy warrants only minor possible source-description correction, not a universal-screening or medical-policy allegation."
+    },
+    {
+      "claim": "About40%of EU smoking decline over the past decade attributed to taxation",
+      "source": "Original Commission COM2025/1024, physical12/printed11",
+      "result": "Exact surrounding primary paragraph supports this attribution. This is a source-description match, not independent validation of the cited causal estimate."
+    }
+  ],
+  "policy_request": "Annual German checkups from18years includingpharmacies, broader childhood tests, dataaccess and Präventionsgesetzreform.",
+  "scope_gate": "Paper is a national implementation position discussing several laws. Exact addressed federal legislative draft/vehicle not established; do not substitute the EU communication for a German bill.",
+  "disposition": "No issue admitted to compiled findings. Source match and tiny discrepancy preserved for possible followup after eligibility authentication.",
+  "no_medical_recommendation": true,
+  "independent_review": "research/round4-reviews/social-reviews-roche-safe-hearts.json",
+  "additional_original_source_checks": [
+    {
+      "source": "Exact hyperlink from author p1: OECD2025 original PDF",
+      "local_file": "research/round4-root/sources/oecd-cardiovascular2025.pdf",
+      "extent": "Physical105 and112, selected contextual costs discussion and complete table2.2 with notes. Full report not read.",
+      "result": "EU PPP per-capita ranking matches903forGermany; no error promoted."
+    },
+    {
+      "source": "Exact hyperlink from author p5: official German2023countryhealthprofile",
+      "local_file": "research/round4-root/sources/germany-health-profile2023-de.pdf",
+      "extent": "Complete physical11, with first source-discovery highlights3. Other pages not read.",
+      "result": "157is2020preventable-mortality rate; treatable81separate. Broad author terminology can refer to this preventable subset. IHD11%is one of the three leading preventable causes. No error promoted."
+    }
+  ],
+  "visual_primary_checks": [
+    "research/round4-root/sources/oecd-cvd-p112.png",
+    "research/round4-root/sources/germany-chp-p11.png"
+  ],
+  "visual_note": "Both relevant primary pages visually read by root. Country-profile figure is stacked; web-generated tabulations must not be mistaken for exact independent component values."
+}

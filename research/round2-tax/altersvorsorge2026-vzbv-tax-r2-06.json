@@ -1,0 +1,108 @@
+{
+  "id": "altersvorsorge2026-vzbv-tax-r2-06",
+  "law_id": "altersvorsorgereformgesetz-2026",
+  "document_id": "vzbv-altersvorsorge-20260312",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Reform of tax-subsidised private pension saving, including new pension depots and a limit on qualifying contracts.",
+    "they_want": "Clarify that the two-contract limit applies only to newly concluded contracts, protecting existing pension arrangements.",
+    "they_claim": "Concluding a third contract makes the first contract lose pension-contract status.",
+    "the_problem": "The addressed bill excludes the third and subsequent contracts. The author’s own proposed wording on the same page already says third."
+  },
+  "claim_quote": {
+    "original": "der zuerst geschlossene\nVertrag nicht mehr als Altersvorsorgevertrag gelten.",
+    "language": "de",
+    "translation_en": "Translation of claim fragment: the first-concluded contract would no longer count as a pension contract.",
+    "locator": {
+      "pdf_page": 11,
+      "printed_page": 11,
+      "section": "V.2, Zu Artikel 2 Nr.5 b) – Anzahl förderfähiger Verträge",
+      "paragraph": "First paragraph, second sentence."
+    },
+    "underline": "zuerst geschlossene"
+  },
+  "request_quote": {
+    "original": "Die Einschränkung sollte im Wortlaut nochmals verdeutlicht werden:",
+    "language": "de",
+    "translation_en": "Translation: The limitation should be clarified again in the wording.",
+    "locator": {
+      "pdf_page": 11,
+      "printed_page": 11,
+      "section": "V.2, request box",
+      "paragraph": "The following proposed insertion adds neu (newly) before concluded and already refers to the third contract."
+    }
+  },
+  "counter_quote": {
+    "original": "ab dem dritten dieser abgeschlossenen Verträge",
+    "language": "de",
+    "translation_en": "Translation of operative fragment: from the third of these concluded contracts onward",
+    "source_id": "altersvorsorge-bt214088",
+    "locator": {
+      "pdf_page": 12,
+      "printed_page": 12,
+      "section": "Article2 number5(b), proposed Income Tax Act §82(5), first sentence; explanatory memorandum pages63–64."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The exact government bill links the loss of qualifying contribution and contract treatment to the third and subsequent contracts, ordered by conclusion date. It does not disqualify the first contract when a third is concluded. Its explanatory memorandum also expressly excludes contracts concluded before 1 January 2027.",
+  "effect": "Removes the stated first-contract-disqualification mechanism from the argument that older advantageous contracts might be pushed out through new sales. It narrows one rationale for the requested wording clarification.",
+  "limits": "The same page’s proposed wording correctly refers to the third contract, making an editorial slip a strong explanation. The request may still be defensible as added clarity. This does not establish that all old-contract sales or replacement risks disappear, that the two-contract cap is desirable, or that the author’s wider consumer-policy analysis is false. No intent is inferred.",
+  "context_and_alternatives": [
+    "All 20 submission pages were read. The document advances many separate requests concerning a public standard product, cost ceilings, guarantees, commissions and the range of eligible investments. This issue concerns only the short contract-order explanation.",
+    "The next paragraph already recognises the importance of limiting the rule to new contracts, and the request box quotes a third-contract rule. Those internal qualifications are preserved rather than presenting the whole section as consistently misreading the draft.",
+    "A simple first/third drafting mistake is plausible. It remains a false description in the explanatory paragraph, but the correct formulation nearby sharply limits its materiality.",
+    "The 1 December 2025 consultation draft and later committee or enacted amendments are not substituted for the February bill the author expressly addresses. The operative provision and memorandum in BT21/4088 were checked directly."
+  ],
+  "materiality_explanation": "Minor: this reverses which contract is affected in one supporting explanation, but the author’s own request already uses the correct third-contract rule. It does not overturn the requested clarification or the broader reform position.",
+  "direction_explanation": "True for the narrow stated rationale: making a new sale appear capable of disqualifying the first contract heightens the concern used to support protective clarification. The internal correct wording and the independent merits of clarification limit that conclusion.",
+  "confidence": {
+    "text_source_mismatch": "high for the literal first-versus-third mismatch; editorial-slip alternative explicit",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "title": "Gesetz zur Reform der steuerlich geförderten privaten Altersvorsorge (Altersvorsorgereformgesetz)",
+    "version": "Government bill BT21/4088, 11 February 2026, addressed at the 16 March 2026 hearing",
+    "source_id": "altersvorsorge-bt214088",
+    "submission_date": "2026-03-12",
+    "relevant_provision": "Article2 number5(b), proposed §82(5) EStG, physical page12; explanation physical pages63–64.",
+    "version_check": "Submission cover identifies the bill and hearing. The exact February parliamentary text and its memorandum were compared, not the later committee recommendation or enacted law."
+  },
+  "submission_source_id": "vzbv-altersvorsorge-20260312",
+  "source_ids": [
+    "vzbv-altersvorsorge-20260312",
+    "altersvorsorge-bt214088",
+    "altersvorsorge-hearing-20260316"
+  ],
+  "verification": {
+    "visual": "Submission physical page11 and bill physical page12 rendered and visually inspected; full submission and relevant memorandum read.",
+    "quotation_budget": "Seventeen author words in the claim and request fragments; no other issue from this source recorded."
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_round2_ai_agent",
+        "date": "2026-10-25",
+        "outcome": "retain_provisional_minor_true_narrowly",
+        "review_file": "research/round2-reviews/social-reviews-vzbv-contract-order.json",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full submission, exact operative draft and memorandum comparison; independent adversarial AI review requested.",
+      "by": "tax_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent social-agent review read full submission, operative draft and memorandum; retained the narrow first-versus-third slip as minor, with the same-page correct request and rationale-only direction limit.",
+      "by": "tax_ai_screen"
+    }
+  ]
+}

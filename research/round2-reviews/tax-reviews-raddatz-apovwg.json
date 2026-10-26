@@ -1,0 +1,44 @@
+{
+  "reviewer": "tax_consultations_ai_agent",
+  "date": "2026-10-25",
+  "candidate_ids": [
+    "apovwg2026-raddatz-social05",
+    "apovwg2026-raddatz-social06"
+  ],
+  "specialist_review": false,
+  "materials_checked": [
+    "Full 34-page Raddatz submission, not just the claim paragraphs; physical pages4 and14 rendered and visually checked.",
+    "Exact addressed bill BT21/4084: relevant Bundesrat request30(a), pages85–87, and accompanying remuneration context.",
+    "ABDA13January2026primary release read in full; 2025 statistical yearbook page8 table independently extracted.",
+    "GKV-Spitzenverband primary remuneration webpage, net/gross explanation and dated examples; earlier ABDA27September2022hearing statement page4 confirms the unit distinction predates this submission."
+  ],
+  "results": [
+    {
+      "candidate_id": "apovwg2026-raddatz-social05",
+      "outcome": "retain_provisional_minor_true",
+      "assessment": [
+        "The literal every-year acceleration assertion follows an end-2025stock figure and cites the January2026release. Both gross closures and net loss fell in2025relative2024:578to502and530to440. Gross/net ambiguity does not rescue annual acceleration.",
+        "A longer-run rhetorical reading remains plausible, and ABDA’s2025yearbook itself described the preceding trajectory as accelerating. However, the more recent directly cited2026release expressly says2025slowed, so the narrow current-endpoint correction is affirmative.",
+        "The continuing large loss and general long-run decline are intact. The finding does not establish that a higher fee prevents closure or that access is adequate. Minor materiality and true direction are proportionate."
+      ]
+    },
+    {
+      "candidate_id": "apovwg2026-raddatz-social06",
+      "outcome": "retain_provisional_minor_null",
+      "assessment": [
+        "The exact addressed bill describes8.35and9.50as net. The statutory1.77discount includesVAT; primaryGKV and preexisting2022ABDAexplanation corroborate about1.49net. The source arithmetic mixes units.",
+        "Independent calculation:8.35−1.77/1.19=6.86260504net, while the corresponding gross remainder is8.1665. Neither consistent basis yields6.58.",
+        "Page15explicitly uses6.58as its40percentuplift base and then adds0.80. Correcting only the units raises that illustrative no-rebate net target from10.012to10.40764706. It is therefore appropriate to keep direction null: the original error makes current remuneration appear smaller but also lowers the derived target.",
+        "Fixed component must not be described as total pharmacy income; percentage remuneration and other payments remain. The author’s economic and constitutional conclusions are not settled by this arithmetic."
+      ]
+    }
+  ],
+  "temporal_limits": [
+    "The GKV webpage includes post-submission April2026examples; it corroborates the preexisting gross/net convention, not a claim that the exact present webpage existed on2March. The2022ABDAhearing source independently establishes that historical distinction.",
+    "No later enacted remuneration rate is used to retroactively contradict the March2026author."
+  ],
+  "recommended_changes": [
+    "Keep readable spaces in English narratives and metadata; preserve exact original quotation strings and IDs."
+  ],
+  "new_quotations": false
+}

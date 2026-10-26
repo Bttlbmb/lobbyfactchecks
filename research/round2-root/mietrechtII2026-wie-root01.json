@@ -1,0 +1,110 @@
+{
+  "id": "mietrechtII2026-wie-root01",
+  "law_id": "mietrechtII-2026",
+  "document_id": "wie-mietrechtII-20260306",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Regulating short-term and furnished rentals, index-linked rents and protection against termination after arrears are paid.",
+    "they_want": "Replace the proposed six-month limit with a rebuttable presumption or a longer limit.",
+    "they_claim": "The draft makes rental duration the only criterion for the short-term exception and removes consideration of the particular purpose.",
+    "the_problem": "The operative draft expressly retains a special-need criterion alongside the six-month duration limit."
+  },
+  "claim_quote": {
+    "original": "Es käme danach nur noch auf die Dauer und nicht den konkreten Anlass an.",
+    "language": "de",
+    "translation_en": "Translation: It would then depend only on the duration and no longer on the particular occasion.",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 3,
+      "section": "Art.1Nr.2–Änderung§549Abs.2Nr.1BGB",
+      "paragraph": "third paragraph,second sentence"
+    },
+    "underline": "nur noch auf die Dauer"
+  },
+  "request_quote": {
+    "original": "nur als Regelvermutung",
+    "language": "de",
+    "translation_en": "Translation of request fragment: only as a rebuttable presumption",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 3,
+      "section": "boxed recommendation on§549",
+      "paragraph": "third sentence; alternative is to move the fixed limit further upwards"
+    },
+    "context": "The full recommendation proposes a presumption or a longer limit; its illustrative statutory text retains special need and uses a one-year maximum."
+  },
+  "counter_quote": {
+    "original": "Wohnraum, der vom Mieter für einen besonderen Bedarf für einen Zeitraum von bis zu sechs Monaten angemietet wird",
+    "language": "de",
+    "translation_en": "Translation: residential premises rented by the tenant for a special need for a period of up to six months",
+    "source_id": "mietrechtII-refe-20260206",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": 4,
+      "section": "Article1number2,proposed§549(2)number1BGB"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The draft requires both a special need and a rental duration of no more than six months. Its explanatory memorandum explains the special-purpose criterion on pages20–21. It adds a maximum duration; it does not replace the purpose criterion with duration alone.",
+  "effect": "Removes the stated premise that the draft abandons examination of the particular rental purpose. This weakens that part of the justification for replacing the proposed definition.",
+  "limits": "The six-month maximum still excludes rentals exceeding that duration even where a special purpose exists. The author can therefore maintain its separate objection to a rigid maximum and its request for a presumption or longer period. This finding does not establish the appropriate duration or decide whether any individual rental should qualify. No intent is inferred.",
+  "context_and_alternatives": [
+    "Read all15pages. On page2 the author identifies current duration and purpose requirements and refers to the draft memorandum’s discussion of diverse special needs. Page3 nevertheless expressly says that the new definition has only one criterion and excludes the particular occasion.",
+    "Strongest benign reading: the author may mean that beyond six months duration becomes decisive regardless of purpose. That is true, and the following paragraph accurately objects to a rigid maximum. The separate sentence that purpose no longer matters is broader than this valid complaint.",
+    "The author’s illustrative replacement on page3 itself includes special need, supporting the limited interpretation that its desired substantive change is mainly a longer or rebuttable duration threshold.",
+    "Later government and parliamentary drafts changed other rental provisions. The comparison here uses the34-page ministry consultation draft associated with the response,not those later drafts.",
+    "Exact draft memorandum physical21,last paragraph expressly states that special need is codified in addition to duration and that not every rental lasting up to six months qualifies."
+  ],
+  "materiality_explanation": "Minor editorial judgment: an express description of the operative test is wrong,but correcting it leaves the adjacent rigid-duration objection and central policy request largely intact. This is narrower than a finding that the whole short-term-rental argument fails.",
+  "direction_explanation": "True: removing purpose from the described test gives an additional reason for the author’s claim that the proposed definition is inappropriate. The effect is limited because its distinct duration objection survives.",
+  "confidence": {
+    "text_source_mismatch": "high for the express only-duration description; scope of intended shorthand considered in context",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete",
+    "version": "34-page ministry consultation draft circulated6February2026",
+    "source_id": "mietrechtII-refe-20260206",
+    "submission_date": "2026-03-06",
+    "relevant_provision": "Article1number2,proposed§549(2)number1BGB,physical4; explanatory memorandum physical20–21",
+    "version_check": "The official ministry dossier supplies both this draft and the ZIP containing the dated response. The response quotes and discusses the corresponding six-month,5%furnishing and3.5%index provisions. No later government draft is substituted."
+  },
+  "submission_source_id": "wie-mietrechtII-20260306",
+  "source_ids": [
+    "wie-mietrechtII-20260306",
+    "mietrechtII-refe-20260206",
+    "mietrechtII-ministry-dossier-2026",
+    "mietrechtII-ministry-consultation-zip-2026"
+  ],
+  "verification": {
+    "visual": "Full statement read; original physical3 and exact draft physical4,20 rendered and visually read. Independent tax-agent review requested."
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "tax_consultations_independent_ai",
+        "date": "2026-10-25",
+        "outcome": "retain_provisional_minor_true",
+        "review_file": "research/round2-reviews/tax-reviews-wie-mietrechtII.json",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full submission and exact draft comparison; independent adversarial review requested. Provisional classification pending that review.",
+      "by": "root_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent tax-agent full-text/draft review retained narrow minor/true; added explicit memo21context that a rental of six months or less does not automatically qualify.",
+      "by": "root_ai_screen"
+    }
+  ]
+}

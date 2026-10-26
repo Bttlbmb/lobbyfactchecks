@@ -1,0 +1,83 @@
+{
+  "reviewed_at": "2026-10-25",
+  "reviewer": "energy_hearings independent AI",
+  "scope": "Inventory identity and declared-depth plausibility audit; not a repeat substantive read of all nine submissions.",
+  "verdict": "Supported, with no count-changing correction identified.",
+  "checks": [
+    {
+      "id": "bve-eudr-20260727",
+      "pdf_pages": 4,
+      "sha256": "54a871e5cb6b223996ebb1794080941e9694555f8a7b9031a78cb9440688e2d4",
+      "declared_depth": "selected_passages",
+      "read_extent_matches_log": true
+    },
+    {
+      "id": "bagsb-insverwalter-20261023",
+      "pdf_pages": 5,
+      "sha256": "c388a8b6e67f7be994268576c04cc473889a20d2855a94d20f36852e93e24599",
+      "declared_depth": "selected_passages",
+      "read_extent_matches_log": true
+    },
+    {
+      "id": "round4-root-plastics-joint",
+      "pdf_pages": 3,
+      "sha256": "285bbf292e32810b0d4315af88f169a238808fddc4e66d5dfd569a4b01e2fd6c",
+      "declared_depth": "full_submission",
+      "read_extent_matches_log": true
+    },
+    {
+      "id": "wir-pnog-20260901",
+      "pdf_pages": 2,
+      "sha256": "af5af3345ba05117d534abfedd2fb76f39c831edeed9383b0af240f1bb7d238f",
+      "declared_depth": "full_submission",
+      "read_extent_matches_log": true
+    },
+    {
+      "id": "vdeh-krwg-20260630",
+      "pdf_pages": 6,
+      "sha256": "02793c211b8688ab0953d366aa251a3f2e408299b941ce9edfdc95b2b4039f55",
+      "declared_depth": "full_submission",
+      "read_extent_matches_log": true
+    },
+    {
+      "id": "bvte-krwg-20260807",
+      "pdf_pages": 6,
+      "sha256": "3718a8624a073005f253a4388d115890765bd9151b529794ba5e6bc48526affd",
+      "declared_depth": "full_submission",
+      "read_extent_matches_log": true
+    },
+    {
+      "id": "vdb-waffen-evaluation-20260925",
+      "pdf_pages": 364,
+      "sha256": "a22e69d2d9348b42a90b98d0b8b9fc2d39db31c94d2248e7c383e47e6e9a3fd0",
+      "declared_depth": "selected_passages",
+      "read_extent_matches_log": true
+    },
+    {
+      "id": "round4-root-bvte-tabak-recheck",
+      "pdf_pages": 10,
+      "sha256": "415f2e40dbcba5416e5dc8ad8786422ed9dd36cc0ff5cea8f166e448e3d3fce4",
+      "declared_depth": "selected_passages",
+      "read_extent_matches_log": true
+    },
+    {
+      "id": "dgkjp-digital-protection-202607",
+      "pdf_pages": 8,
+      "sha256": "1767144c63054f8c5453c3321f1c2b9339fb46037f17fccdeb9271daa3244da7",
+      "declared_depth": "selected_passages",
+      "read_extent_matches_log": true
+    }
+  ],
+  "identity_checks": [
+    "All nine local files exist, page counts match declared resource sizes and every PDF SHA256 and source URL matches the central register archive manifest.",
+    "BVTE register10-page body and baseline hearing16-page package compared by normalized extracted text. Differences were page-layout ordering and two line-wrapped numbers. Both physical6 tables independently rendered and visually inspected: numbers145.145 and91.497 match; no substantive numerical revision identified. First10baseline pages are author body; physical11 begins DIW appendix.",
+    "The BVTE row uses selected_passages and shares related_issue_document_ids bvte-tabstaendg-2026 with baseline; it must merge into the existing authored unit rather than add a new submission. Full reading of the10-page body does not imply the6-page DIW appendix was read."
+  ],
+  "depth_and_scope": [
+    "Four declared full author resources are3,2,6,6pages. Five rows remain selected, including364-page VDB resource with only complete36–42plusintro/contents read. Resource length must not be counted as full reading.",
+    "Sources such as original laws, fiscal tables, RIVM/Fraunhofer reports and ministry drafts are counter/context evidence, not external-submission pool rows.",
+    "Plastics exact legislative vehicle, VDB evaluation linkage and DGKJP policy statement retain pending eligibility; register recipient events alone are not exact-draft proof.",
+    "June author date versus August reported dispatch is retained for VdeH; recipient dates are self-reported, not authenticated delivery."
+  ],
+  "limits": "Actual reading was declared by the researcher and checked against contemporaneous logs and file identities; this audit cannot independently reconstruct every reading event. No findings, sources or compiled pool edited."
+}

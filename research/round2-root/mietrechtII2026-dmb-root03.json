@@ -1,0 +1,103 @@
+{
+  "id": "mietrechtII2026-dmb-root03",
+  "law_id": "mietrechtII-2026",
+  "document_id": "dmb-mietrechtII-20260305",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Restricting index-linked rent increases and changing other tenant protections.",
+    "they_want": "Cap increases in existing index-linked tenancies at2%annually throughout Germany.",
+    "they_claim": "Annual inflation was7.9%in2022,followed by5.9%in2023.",
+    "the_problem": "The2022figure is the superseded2015-base vintage; the2023release cited alongside it explicitly gives the revised2022rate as6.9%. Whether historical-vintage use is an error here remains under review."
+  },
+  "claim_quote": {
+    "original": "Die Inflationsrate betrug im Jahr 2022 +7,9 %",
+    "language": "de",
+    "translation_en": "Translation: The inflation rate in2022was+7.9%.",
+    "locator": {
+      "pdf_page": 11,
+      "printed_page": 11,
+      "section": "9.Art.1Nr.9§557bBGB-E",
+      "paragraph": "third paragraph,last statistical sentence,before footnote10"
+    },
+    "underline": "+7,9 %"
+  },
+  "request_quote": {
+    "original": "auf maximal 2 % pro Jahr zu begrenzen",
+    "language": "de",
+    "translation_en": "Translation of request fragment: to limit to a maximum of2%peryear",
+    "locator": {
+      "pdf_page": 13,
+      "printed_page": 13,
+      "section": "Der Deutsche Mieterbund fordert daher",
+      "bullet": "second,on existing index-linked tenancies"
+    }
+  },
+  "counter_quote": {
+    "original": "Sie hatte im Jahr 2022 noch bei +6,9 % gelegen.",
+    "language": "de",
+    "translation_en": "Translation: It had still been+6.9%in2022.",
+    "source_id": "destatis-inflation2023-release",
+    "locator": {
+      "section": "WIESBADEN,opening paragraph",
+      "paragraph": "second sentence,referring to annual inflation"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "If using the revised comparable annual CPI series,the2022rate is6.9%,not7.9%;2023is5.9%. The7.9%value was genuinely published17January2023on the old2015base and was revised22February2023. The very original release linked in submissionfootnote10now carries an explicit revision warning. Footnote11links theJanuary2024release that alreadystates6.9%for2022.",
+  "effect": "On a current comparable-series reading,the passage overstates the2022inflation benchmark by1percentagepoint and makes its crisis-pressure example stronger. Both6.9%and5.9%remain well above the draft’s3.5%threshold.",
+  "limits": "The7.9%number is not fabricated: it belongs to an authentic earlier statistical vintage. Already implemented contractual index adjustments may remain legally effective after statistical rebasing; this investigation does not recalculate anyone’s rent. Annual-average inflation is not itself the increase applicable to every individual tenancy. The submission does not explicitly name a base year,so the possibility that it deliberately refers to the original historical rate must be considered. No intent is inferred.",
+  "context_and_alternatives": [
+    "Full20-page submission read; claimphysical11and requestphysical13. Correctly addresses the original3.5%consultation cap,not the later government formula.",
+    "Historical-vintage alternative is plausible because the author links the originalJanuary2023release directly. Against treating the pair as coherent current statistics,the adjacent2023source expressly restates revised2022at6.9%and the originalsource has a revision warning. Independent review must decide whether this is an unresolved vintage choice or a narrow factual presentation error.",
+    "The source’s warning and newer series predate theMarch2026submission by years; this is not judged against a revision made only after the submission."
+  ],
+  "materiality_explanation": "Potential minor editorial issue:1percentagepoint changes a supporting historical benchmark,but does not remove the high-inflation example or establish the merits of a2%cap. No major finding is proposed.",
+  "direction_explanation": "If the unqualified historical rate is treated as erroneous current-series presentation,the higher2022rate strengthens the described inflation shock supporting stricter rent caps. This conditional direction is separate from whether an error has been established.",
+  "confidence": {
+    "text_source_mismatch": "high that vintages differ; unresolved whether the submission’s historical-vintage presentation is an error rather than a permissible use of its expressly linked old release",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete",
+    "version": "34-page BMJV ministerial consultation draft circulated6February2026",
+    "source_id": "mietrechtII-refe-20260206",
+    "submission_date": "2026-03-05",
+    "relevant_provision": "Article1number9,proposed§557b(4)BGB,3.5%annual threshold"
+  },
+  "submission_source_id": "dmb-mietrechtII-20260305",
+  "source_ids": [
+    "dmb-mietrechtII-20260305",
+    "destatis-inflation2022-original",
+    "destatis-inflation2023-release",
+    "destatis-wertsicherung-information",
+    "mietrechtII-refe-20260206"
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "social_round2_independent_ai",
+        "date": "2026-10-25",
+        "outcome": "retain_unresolved_historical_vintage_alternative",
+        "review_file": "research/round2-reviews/social-reviews-dmb-inflation-vintage.json",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as unresolved historical-statistical-vintage lead after reading full submission and both actual cited releases. Independent adversarial review requested; not counted as a finding.",
+      "by": "root_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent social-agent review retained unresolved classification: explicit original-vintage citation and historical rent-adjustment context prevent promotion. Separate2%request has other supporting reasons.",
+      "by": "root_ai_screen"
+    }
+  ]
+}

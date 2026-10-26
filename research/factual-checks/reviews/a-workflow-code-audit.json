@@ -1,0 +1,1212 @@
+{
+  "reviewer": "A",
+  "audit_type": "Read-only reusable factual-check workflow code audit, separate from final output snapshot audit",
+  "completed_at_utc": "2026-10-25T10:30:42.403677+00:00",
+  "status": "reviewed_code_and_available_input_checks_pass",
+  "code_snapshots": [
+    {
+      "file": "research/build_factual_batch.py",
+      "sha256": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+      "syntax": "parsed successfully"
+    },
+    {
+      "file": "research/build_factual_index.py",
+      "sha256": "cff442042e234b1ae47d804b1f84d459ed5849e9c303671132dcc3f089c1bcc8",
+      "syntax": "parsed successfully"
+    },
+    {
+      "file": "research/build_deliverables.py",
+      "sha256": "7e2410529c722c581d57c766d49805dc932d294170251a24a7f3f635248573c1",
+      "syntax": "parsed successfully"
+    },
+    {
+      "file": "research/build_screening_pool.py",
+      "sha256": "029e797dda52b11c6ce38ac5a1884cece3593319a9427664a6089603b5c05b82",
+      "syntax": "parsed successfully"
+    },
+    {
+      "file": "research/build_bounded_coverage.py",
+      "sha256": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+      "syntax": "parsed successfully"
+    }
+  ],
+  "scope": [
+    "research/build_factual_batch.py",
+    "research/build_factual_index.py",
+    "research/build_deliverables.py manifest discovery and explicit issue inputs",
+    "research/build_screening_pool.py canonical factual annotations and preservation",
+    "research/build_bounded_coverage.py systematic-check annotations"
+  ],
+  "method": "Full static read of the named code, inspection of protocols/schema/current admissions, read-only captured execution with all Path.write_text calls intercepted in memory, independent current mapping and original-hash comparisons, eight disposable metadata negative checks, and fresh exact text extraction comparisons for all 30 new-batch originals. No code/data/report outputs were modified by the audit.",
+  "checks": [
+    {
+      "id": "coverage",
+      "result": "pass_for_reviewed_code_and_available_inputs",
+      "details": "Global protocol allocations must be exhaustive and disjoint, protocol IDs unique, and peer rotation must cover each researcher independently once. Initial explicit page lists must cover all physical pages. Exact peer claim IDs and required document-page coverage are checked. Current protocols satisfy these gates."
+    },
+    {
+      "id": "frozen-peer-binding",
+      "result": "pass",
+      "details": "Each peer file is bound to the expected target inventory path and exact SHA256. Non-accept dispositions require root decisions; claim identity and provenance cannot be changed by updates. Additional claims require explicit root review and actual peer omission document, pages and reviewer binding."
+    },
+    {
+      "id": "omissions",
+      "result": "pass",
+      "details": "Every actual omission needs exactly one nonempty disposition referencing existing claims or an explicit exclusion. Orphan review-file/index references are rejected. Current four BEHG additional claims bind correctly to the original peer omissions."
+    },
+    {
+      "id": "source-and-anchor-integrity",
+      "result": "pass_with_substantive_limits",
+      "details": "Conflicting source identities are rejected across inventories, peer sources and additions; archive hashes and PDF signatures are checked; unusable evidence cannot support claims. Every original PDF hash/page count is checked. Saved author text must exactly match fresh pdftotext -layout output. Anchors must occur in cited pages or use a visual review bound to image hash, original PDF hash, pages, excerpt and reviewer. Source relevance, primary status, dates and the adequacy of short anchors still require substantive review."
+    },
+    {
+      "id": "explicit-admissions",
+      "result": "pass_for_current_manifest",
+      "details": "No claim-ledger outcome is automatically promoted. Deliverables use explicit assembly manifest inputs. The batch validator requires manifest IDs to agree with root admissions and each admitted issue to reference a final contradicted/overstated claim. Registered final candidate-review and staged-record hashes are checked. Missing explicit inputs fail. Current extension manifest names exactly the separately admitted BEHG mortality-range issue."
+    },
+    {
+      "id": "canonical-pool-mapping",
+      "result": "pass_for_all_37_current_documents",
+      "details": "Each of the 7 old-pilot, 9 BEHG and 21 network originals matches exactly one existing included canonical reading unit; all matches include the exact original path. Every batch original hash matches. Independent author/title inspection found no false link; distinct canonical targets equal document counts in each set. This includes BEHG and network records whose canonical IDs differ from batch IDs."
+    },
+    {
+      "id": "existing-reading-ledger-preservation",
+      "result": "pass_for_captured_run",
+      "details": "Read-only execution reproduces exactly 626 included units, the identical canonical ID set, zero differences in preserved title/process/depth/kind/inclusion/identity/path/URL/related-issue fields, and all 7 old-pilot annotations unchanged. The factual annotation loop creates no reading rows and records repeat_read_adds_unit false."
+    },
+    {
+      "id": "index-and-bounded-coverage",
+      "result": "pass_static_scope_with_cache_limit",
+      "details": "The index requires every configured summary to say complete. Bounded coverage retains finite-population and every-assertion limits and annotates the corresponding existing process rather than adding reading counts. Both these builders, and pool annotations, consume cached completed summaries/ledgers; they do not independently revalidate raw hashes on every downstream invocation."
+    }
+  ],
+  "concerns_resolved_during_review": [
+    {
+      "concern": "Allocation omissions and fully_read flag could pass without exact explicit page coverage",
+      "status": "resolved_in_reviewed_hash"
+    },
+    {
+      "concern": "A valid hash for the wrong inventory was not rejected",
+      "status": "resolved_in_reviewed_hash"
+    },
+    {
+      "concern": "Omission resolutions lacked valid disposition, claim references and actual peer binding",
+      "status": "resolved_in_reviewed_hash"
+    },
+    {
+      "concern": "Additional source metadata could overwrite source identity",
+      "status": "resolved_in_reviewed_hash"
+    },
+    {
+      "concern": "An arbitrary existing image could bypass failed text anchors",
+      "status": "resolved_in_reviewed_hash"
+    },
+    {
+      "concern": "Saved text could diverge from the archived author PDF",
+      "status": "resolved_in_reviewed_hash"
+    },
+    {
+      "concern": "Adjudication updates could rewrite immutable claim provenance",
+      "status": "resolved_in_reviewed_hash"
+    },
+    {
+      "concern": "Missing explicit issue input could be silently skipped",
+      "status": "resolved_in_reviewed_hash"
+    },
+    {
+      "concern": "Explicit admissions needed agreement with final error claims and reviewed candidate snapshots",
+      "status": "resolved_in_reviewed_hash"
+    }
+  ],
+  "open_concerns": [
+    {
+      "severity": "low",
+      "type": "operational_limit",
+      "title": "Downstream cached completion requires an ordered rebuild and final snapshot audit",
+      "details": "Index, pool and bounded-coverage builders trust the saved complete summaries and ledgers. They can expose stale completion if run without rebuilding an upstream batch after inputs change. This is not a detected defect in the current reviewed document mapping.",
+      "action": "After final adjudication and candidate decisions, rebuild each batch from its current raw inputs, then the extension index and deliverables, then the pool and bounded coverage. Independently audit the resulting exact artifact hashes, totals, report links, admissions and preservation before describing the final extension as complete."
+    }
+  ],
+  "read_only_execution_proof": {
+    "method": "Executed unchanged screening-pool and deliverables builders in a fresh process with Path.write_text intercepted into memory; no data, code, manifests or reports written.",
+    "pool": {
+      "units": 626,
+      "rows": 626,
+      "same_id_set": true,
+      "added_ids": [],
+      "removed_ids": [],
+      "by_depth": {
+        "full_submission": 406,
+        "selected_passages": 91,
+        "keyword_triage": 128,
+        "full_text_ocr": 1
+      },
+      "preserved_field_differences": [],
+      "old_pilot_annotations": [
+        {
+          "id": "bmwe-kltgv-2026-001",
+          "unchanged": true,
+          "claims": 18
+        },
+        {
+          "id": "bmwe-kltgv-2026-002",
+          "unchanged": true,
+          "claims": 9
+        },
+        {
+          "id": "bmwe-kltgv-2026-003",
+          "unchanged": true,
+          "claims": 10
+        },
+        {
+          "id": "bmwe-kltgv-2026-007",
+          "unchanged": true,
+          "claims": 36
+        },
+        {
+          "id": "bmwe-kltgv-2026-008",
+          "unchanged": true,
+          "claims": 17
+        },
+        {
+          "id": "bmwe-kltgv-2026-010",
+          "unchanged": true,
+          "claims": 11
+        },
+        {
+          "id": "bmwe-kltgv-2026-011",
+          "unchanged": true,
+          "claims": 10
+        }
+      ],
+      "mapping_checks": [
+        {
+          "protocol": "research/factual-pilot/protocol.json",
+          "documents": [
+            {
+              "document_id": "bmwe-kltgv-2026-001",
+              "local_file": "research/round3-energy/sources/bmwe-members/8c01fd78e04190e7fd04.pdf",
+              "matches": [
+                "bmwe-kltgv-2026-001"
+              ],
+              "matched_on_original_path": [
+                "bmwe-kltgv-2026-001"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Deutsche Carbon Management Initiative (DCMI) Kohlendioxidleitungsverordnung response",
+              "author": "Deutsche Carbon Management Initiative (DCMI)"
+            },
+            {
+              "document_id": "bmwe-kltgv-2026-002",
+              "local_file": "research/round3-energy/sources/bmwe-members/f59c094f95a549fabf84.pdf",
+              "matches": [
+                "bmwe-kltgv-2026-002"
+              ],
+              "matched_on_original_path": [
+                "bmwe-kltgv-2026-002"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Verband Deutscher Maschinen- und Anlagenbau e. V. (VDMA) Kohlendioxidleitungsverordnung response",
+              "author": "Verband Deutscher Maschinen- und Anlagenbau e. V. (VDMA)"
+            },
+            {
+              "document_id": "bmwe-kltgv-2026-003",
+              "local_file": "research/round3-energy/sources/bmwe-members/76f23439ac86e024d40d.pdf",
+              "matches": [
+                "bmwe-kltgv-2026-003"
+              ],
+              "matched_on_original_path": [
+                "bmwe-kltgv-2026-003"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Deutscher Verein des Gas- und Wasserfaches (DVGW) Kohlendioxidleitungsverordnung response",
+              "author": "Deutscher Verein des Gas- und Wasserfaches (DVGW)"
+            },
+            {
+              "document_id": "bmwe-kltgv-2026-007",
+              "local_file": "research/round3-energy/sources/bmwe-members/123609f5962b8ebb52ca.pdf",
+              "matches": [
+                "bmwe-kltgv-2026-007"
+              ],
+              "matched_on_original_path": [
+                "bmwe-kltgv-2026-007"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Bundesverband der Energie- und Wasserwirtschaft e.V. (BDEW) Kohlendioxidleitungsverordnung response",
+              "author": "Bundesverband der Energie- und Wasserwirtschaft e.V. (BDEW)"
+            },
+            {
+              "document_id": "bmwe-kltgv-2026-008",
+              "local_file": "research/round3-energy/sources/bmwe-members/357765fb0849592315bf.pdf",
+              "matches": [
+                "bmwe-kltgv-2026-008"
+              ],
+              "matched_on_original_path": [
+                "bmwe-kltgv-2026-008"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Carbon Management Allianz (CMA) Kohlendioxidleitungsverordnung response",
+              "author": "Carbon Management Allianz (CMA)"
+            },
+            {
+              "document_id": "bmwe-kltgv-2026-010",
+              "local_file": "research/round3-energy/sources/bmwe-members/548a2744055035f3ff68.pdf",
+              "matches": [
+                "bmwe-kltgv-2026-010"
+              ],
+              "matched_on_original_path": [
+                "bmwe-kltgv-2026-010"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "TÜV-Verband e.V. Kohlendioxidleitungsverordnung response",
+              "author": "TÜV-Verband e.V."
+            },
+            {
+              "document_id": "bmwe-kltgv-2026-011",
+              "local_file": "research/round3-energy/sources/bmwe-members/510584d04f8620f4f1b0.pdf",
+              "matches": [
+                "bmwe-kltgv-2026-011"
+              ],
+              "matched_on_original_path": [
+                "bmwe-kltgv-2026-011"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "VNG AG Kohlendioxidleitungsverordnung response",
+              "author": "VNG AG"
+            }
+          ],
+          "unique_matches": true,
+          "distinct_pool_ids": 7
+        },
+        {
+          "protocol": "research/factual-checks/behg-2026/protocol.json",
+          "documents": [
+            {
+              "document_id": "bt-environment-1222134",
+              "local_file": "research/round3-energy/sources/submissions/bt-environment-1222134.pdf",
+              "matches": [
+                "bvf-behg-202607-reproduced202610"
+              ],
+              "matched_on_original_path": [
+                "bvf-behg-202607-reproduced202610"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "BundesverbandFeuerverzinken — Third BEHG amendment, BT21/7869",
+              "author": "Bundesverband Feuerverzinken"
+            },
+            {
+              "document_id": "bt-environment-1222372",
+              "local_file": "research/round3-energy/sources/submissions/bt-environment-1222372.pdf",
+              "matches": [
+                "bt-environment-1222372"
+              ],
+              "matched_on_original_path": [
+                "bt-environment-1222372"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Deutscher Städtetag BEHG hearing statement",
+              "author": "Deutscher Städtetag"
+            },
+            {
+              "document_id": "bt-environment-1222374",
+              "local_file": "research/round3-energy/sources/submissions/bt-environment-1222374.pdf",
+              "matches": [
+                "bt-environment-1222374"
+              ],
+              "matched_on_original_path": [
+                "bt-environment-1222374"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Fritz Söllner BEHG hearing statement",
+              "author": "Fritz Söllner"
+            },
+            {
+              "document_id": "bt-environment-1222444",
+              "local_file": "research/round3-energy/sources/submissions/bt-environment-1222444.pdf",
+              "matches": [
+                "bt-environment-1222444"
+              ],
+              "matched_on_original_path": [
+                "bt-environment-1222444"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "BDEW BEHG hearing statement",
+              "author": "BDEW"
+            },
+            {
+              "document_id": "bt-environment-1222442",
+              "local_file": "research/round3-energy/sources/submissions/bt-environment-1222442.pdf",
+              "matches": [
+                "bt-environment-1222442"
+              ],
+              "matched_on_original_path": [
+                "bt-environment-1222442"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Bernd Fleischmann BEHG hearing statement",
+              "author": "Bernd Fleischmann"
+            },
+            {
+              "document_id": "bt-environment-1222672",
+              "local_file": "research/round3-energy/sources/submissions/bt-environment-1222672.pdf",
+              "matches": [
+                "bwp-behg-20261002"
+              ],
+              "matched_on_original_path": [
+                "bwp-behg-20261002"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "BundesverbandWärmepumpe — Third BEHG amendment,BT21/7869",
+              "author": "Bundesverband Wärmepumpe"
+            },
+            {
+              "document_id": "bt-environment-1222674",
+              "local_file": "research/round3-energy/sources/submissions/bt-environment-1222674.pdf",
+              "matches": [
+                "vci-behg-20261005"
+              ],
+              "matched_on_original_path": [
+                "vci-behg-20261005"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "VCI — Third BEHG amendment, BT21/7869",
+              "author": "VCI"
+            },
+            {
+              "document_id": "bt-environment-1222756",
+              "local_file": "research/round3-energy/sources/submissions/bt-environment-1222756.pdf",
+              "matches": [
+                "ewe-behg-20261006"
+              ],
+              "matched_on_original_path": [
+                "ewe-behg-20261006"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "EWEAG — Third BEHG amendment, BT21/7869",
+              "author": "EWE AG"
+            },
+            {
+              "document_id": "bt-environment-1222878",
+              "local_file": "research/round3-energy/sources/submissions/bt-environment-1222878.pdf",
+              "matches": [
+                "foes-behg-20261006"
+              ],
+              "matched_on_original_path": [
+                "foes-behg-20261006"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "ForumÖkologisch-SozialeMarktwirtschaft — Third BEHG amendment,BT21/7869",
+              "author": "Forum Ökologisch-Soziale Marktwirtschaft"
+            }
+          ],
+          "unique_matches": true,
+          "distinct_pool_ids": 9
+        },
+        {
+          "protocol": "research/factual-checks/netzkosten-2026/protocol.json",
+          "documents": [
+            {
+              "document_id": "bmwe-netzkosten-2026-001",
+              "local_file": "research/round3-energy/sources/bmwe-members/8ca7c81d348638c3300a.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-001"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-001"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Wirtschaftsvereinigung Stahl transmission-network subsidy response",
+              "author": "Wirtschaftsvereinigung Stahl"
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-002",
+              "local_file": "research/round3-energy/sources/bmwe-members/1e0aaa1083ee112c39e2.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-002"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-002"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "DIE FAMILIENUNTERNEHMER e.V. transmission-network subsidy response",
+              "author": "DIE FAMILIENUNTERNEHMER e.V."
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-003",
+              "local_file": "research/round3-energy/sources/bmwe-members/5e62695c1b4b8a47d3d5.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-003"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-003"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Deutsche Industrie- und Handelskammer transmission-network subsidy response",
+              "author": "Deutsche Industrie- und Handelskammer"
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-004",
+              "local_file": "research/round3-energy/sources/bmwe-members/dfa4dee9a8b3d0343694.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-004"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-004"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "VIK – Verband der Industriellen Energie- und Kraftwirtschaft e.V. transmission-network subsidy response",
+              "author": "VIK – Verband der Industriellen Energie- und Kraftwirtschaft e.V."
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-005",
+              "local_file": "research/round3-energy/sources/bmwe-members/98b453ec03caa87a273f.pdf",
+              "matches": [
+                "bmwe-member-98b453ec03caa87a273f"
+              ],
+              "matched_on_original_path": [
+                "bmwe-member-98b453ec03caa87a273f"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Handelsverband Deutschland response on transmission-network subsidy2027-2029",
+              "author": "Handelsverband Deutschland e.V."
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-006",
+              "local_file": "research/round3-energy/sources/bmwe-members/6fcec758a5867312830d.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-006"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-006"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Bundesverband Baustoffe – Steine und Erden e.V. transmission-network subsidy response",
+              "author": "Bundesverband Baustoffe – Steine und Erden e.V."
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-007",
+              "local_file": "research/round3-energy/sources/bmwe-members/8f45c1daeb123c8d32b0.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-007"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-007"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Bundesverband Neue Energiewirtschaft e.V. transmission-network subsidy response",
+              "author": "Bundesverband Neue Energiewirtschaft e.V."
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-008",
+              "local_file": "research/round3-energy/sources/bmwe-members/2808b19a5bb1843ca144.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-008"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-008"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Bundesverband Kooperierender Mittelstand e.V. transmission-network subsidy response",
+              "author": "Bundesverband Kooperierender Mittelstand e.V."
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-009",
+              "local_file": "research/round3-energy/sources/bmwe-members/762898b5a24d4ec118b2.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-009"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-009"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Zentralverband des Deutschen Handwerks transmission-network subsidy response",
+              "author": "Zentralverband des Deutschen Handwerks"
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-010",
+              "local_file": "research/round3-energy/sources/bmwe-members/fcccacc0cbc14c644a7f.pdf",
+              "matches": [
+                "bmwe-member-fcccacc0cbc14c644a7f"
+              ],
+              "matched_on_original_path": [
+                "bmwe-member-fcccacc0cbc14c644a7f"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "VEA response on transmission-network subsidy2027-2029",
+              "author": "Bundesverband der Energieabnehmer e.V."
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-011",
+              "local_file": "research/round3-energy/sources/bmwe-members/8fbc73dc6dd02de58d3d.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-011"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-011"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Verband der Chemischen Industrie e.V. transmission-network subsidy response",
+              "author": "Verband der Chemischen Industrie e.V."
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-012",
+              "local_file": "research/round3-energy/sources/bmwe-members/ef4258c47c5c63706a57.pdf",
+              "matches": [
+                "bmwe-member-ef4258c47c5c63706a57"
+              ],
+              "matched_on_original_path": [
+                "bmwe-member-ef4258c47c5c63706a57"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Deutscher Gewerkschaftsbund response on transmission-network subsidy2027-2029",
+              "author": "Deutscher Gewerkschaftsbund"
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-013",
+              "local_file": "research/round3-energy/sources/bmwe-members/46904b8b054e72305d5f.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-013"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-013"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Industriegewerkschaft Bergbau, Chemie, Energie transmission-network subsidy response",
+              "author": "Industriegewerkschaft Bergbau, Chemie, Energie"
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-014",
+              "local_file": "research/round3-energy/sources/bmwe-members/1437a31bae6be165c81b.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-014"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-014"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Verbraucherzentrale Bundesverband e.V. transmission-network subsidy response",
+              "author": "Verbraucherzentrale Bundesverband e.V."
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-015",
+              "local_file": "research/round3-energy/sources/bmwe-members/7df082cca4e3972165d7.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-015"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-015"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Bundesverband der Energie- und Wasserwirtschaft e.V. transmission-network subsidy response",
+              "author": "Bundesverband der Energie- und Wasserwirtschaft e.V."
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-016",
+              "local_file": "research/round3-energy/sources/bmwe-members/722bb8be9a031cc7474f.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-016"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-016"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Verein Deutscher Ingenieure e.V. transmission-network subsidy response",
+              "author": "Verein Deutscher Ingenieure e.V."
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-017",
+              "local_file": "research/round3-energy/sources/bmwe-members/6fdc7ef6aba69b473fda.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-017"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-017"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "50Hertz Transmission GmbH, Amprion GmbH, TenneT Holding B.V., TransnetBW GmbH transmission-network subsidy response",
+              "author": "50Hertz Transmission GmbH, Amprion GmbH, TenneT Holding B.V., TransnetBW GmbH"
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-018",
+              "local_file": "research/round3-energy/sources/bmwe-members/168908c1dee545d6d0c2.pdf",
+              "matches": [
+                "bmwe-member-168908c1dee545d6d0c2"
+              ],
+              "matched_on_original_path": [
+                "bmwe-member-168908c1dee545d6d0c2"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Deutscher Naturschutzring and Germanwatch response on transmission-network subsidy2027-2029",
+              "author": "Deutscher Naturschutzring e.V. and Germanwatch e.V."
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-019",
+              "local_file": "research/round3-energy/sources/bmwe-members/a04793fd3dc3aede452a.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-019"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-019"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "ZVEI e.V. transmission-network subsidy response",
+              "author": "ZVEI e.V."
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-020",
+              "local_file": "research/round3-energy/sources/bmwe-members/b2814f63c746b5b300f8.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-020"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-020"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "thyssenkrupp Steel Europe AG transmission-network subsidy response",
+              "author": "thyssenkrupp Steel Europe AG"
+            },
+            {
+              "document_id": "bmwe-netzkosten-2026-023",
+              "local_file": "research/round3-energy/sources/bmwe-members/0660a8e9fdf55fc1262e.pdf",
+              "matches": [
+                "bmwe-netzkosten-2026-023"
+              ],
+              "matched_on_original_path": [
+                "bmwe-netzkosten-2026-023"
+              ],
+              "sha256_matches_original": true,
+              "included": true,
+              "pool_kind": "written_submission",
+              "pool_title": "Deutscher Landkreistag transmission-network subsidy response",
+              "author": "Deutscher Landkreistag"
+            }
+          ],
+          "unique_matches": true,
+          "distinct_pool_ids": 21
+        }
+      ]
+    },
+    "deliverables": {
+      "counts": {
+        "data/findings.json": 63,
+        "data/unresolved-leads.json": 37,
+        "data/rejected-candidates.json": 2
+      },
+      "extension_manifests": [
+        {
+          "file": "research/factual-checks/behg-2026/assembly-manifest.json",
+          "inputs": [
+            {
+              "input": "research/factual-checks/behg-2026/behg2026-fleischmann-mortality-range-fc01-admitted.json",
+              "exists": true,
+              "issue_id": "behg2026-fleischmann-mortality-range-fc01",
+              "finding_state": "provisional_finding"
+            }
+          ]
+        }
+      ],
+      "all_output_issue_ids_unique": true
+    },
+    "captured_output_paths": [
+      "data/documents.json",
+      "data/findings.json",
+      "data/rejected-candidates.json",
+      "data/review-index.json",
+      "data/screening-pool-summary.json",
+      "data/screening-pool.json",
+      "data/source-registry.json",
+      "data/unresolved-leads.json"
+    ]
+  },
+  "final_batch_validator_proof": {
+    "code_hash": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+    "method": "Unchanged code executed with JSON reads overridden by disposable in-memory fixture transformations and every Path.write_text captured in memory. No actual input or generated output modified. Archive reads remain the actual bytes; these tests check rejection of the injected metadata defects.",
+    "positive": {
+      "exit_code": 0,
+      "exception": null,
+      "errors": [],
+      "valid": true,
+      "captured_output_paths": [
+        "data/factual-check-pilots.json",
+        "research/factual-checks/behg-2026/claim-ledger.json",
+        "research/factual-checks/behg-2026/report.html",
+        "research/factual-checks/behg-2026/summary.json",
+        "research/factual-checks/behg-2026/validation-report.json"
+      ],
+      "captured_summary": {
+        "id": "behg-2026-factual-checks",
+        "status": "complete",
+        "completed_at_utc": "2026-10-25T10:29:37.280720+00:00",
+        "started_at_utc": "2026-10-25T09:26:03.345919+00:00",
+        "documents": 9,
+        "author_pages": 60,
+        "pdf_pages": 60,
+        "page_scope": "Physical PDF pages, including committee covers and appendices where present.",
+        "claims": 194,
+        "outcomes": {
+          "unresolved": 70,
+          "supported": 123,
+          "overstated": 1
+        },
+        "materiality": {
+          "medium": 152,
+          "high": 40,
+          "low": 2
+        },
+        "independent_peer_claim_reviews": 190,
+        "peer_omissions_independently_adjudicated_by_root": 5,
+        "additional_claims_independently_adjudicated_by_root": 4,
+        "completed_assessments": 194,
+        "per_document": [
+          {
+            "document_id": "bt-environment-1222134",
+            "author": "Bundesverband Feuerverzinken",
+            "pages": 4,
+            "claims": 8,
+            "outcomes": {
+              "supported": 3,
+              "unresolved": 5
+            }
+          },
+          {
+            "document_id": "bt-environment-1222372",
+            "author": "Deutscher Städtetag",
+            "pages": 5,
+            "claims": 15,
+            "outcomes": {
+              "supported": 13,
+              "unresolved": 2
+            }
+          },
+          {
+            "document_id": "bt-environment-1222374",
+            "author": "Fritz Söllner",
+            "pages": 10,
+            "claims": 25,
+            "outcomes": {
+              "unresolved": 7,
+              "supported": 18
+            }
+          },
+          {
+            "document_id": "bt-environment-1222444",
+            "author": "BDEW",
+            "pages": 14,
+            "claims": 40,
+            "outcomes": {
+              "supported": 31,
+              "unresolved": 9
+            }
+          },
+          {
+            "document_id": "bt-environment-1222442",
+            "author": "Bernd Fleischmann",
+            "pages": 9,
+            "claims": 43,
+            "outcomes": {
+              "supported": 16,
+              "unresolved": 26,
+              "overstated": 1
+            }
+          },
+          {
+            "document_id": "bt-environment-1222672",
+            "author": "Bundesverband Wärmepumpe",
+            "pages": 6,
+            "claims": 22,
+            "outcomes": {
+              "supported": 14,
+              "unresolved": 8
+            }
+          },
+          {
+            "document_id": "bt-environment-1222674",
+            "author": "VCI",
+            "pages": 4,
+            "claims": 16,
+            "outcomes": {
+              "supported": 10,
+              "unresolved": 6
+            }
+          },
+          {
+            "document_id": "bt-environment-1222756",
+            "author": "EWE AG",
+            "pages": 4,
+            "claims": 10,
+            "outcomes": {
+              "supported": 9,
+              "unresolved": 1
+            }
+          },
+          {
+            "document_id": "bt-environment-1222878",
+            "author": "Forum Ökologisch-Soziale Marktwirtschaft",
+            "pages": 4,
+            "claims": 15,
+            "outcomes": {
+              "supported": 9,
+              "unresolved": 6
+            }
+          }
+        ],
+        "main_issue_admissions": [
+          "behg2026-fleischmann-mortality-range-fc01"
+        ],
+        "scope": "All nine response PDFs listed on the official October 7, 2026 BEHG hearing page; academics and municipal umbrella included as external stakeholders. Not the entire legislative-process or three-channel corpus.",
+        "limits": [
+          "Nine previously examined public hearing responses, 60 physical PDF pages including committee covers. Not the complete legislative-process population.",
+          "Inventories target material testable premises, not every incidental factual assertion. Supported is bounded to the proposition and source/version stated; unresolved is neither an error nor confirmation.",
+          "Claims are judged as of authored dates. Covers, hearing dates and actual delivery are distinct. Current official files are not independently authenticated copies of each original delivery.",
+          "Pure policy preferences and forecasts are recorded in page exclusions; model descriptions, assumptions and observable causal premises remain assessable.",
+          "No author contact, human specialist confirmation, intent inference or representative error rate."
+        ],
+        "conclusions": [
+          "All nine archived external responses and all60physical PDF pages were re-read;190initial claims received complete independent peer review. Root separately adjudicated five peer omissions, extending one existing assessment and adding four premises.",
+          "One narrow minor overstatement is admitted: the corrected cited urban mortality table does not support a five-to-fifteen cold/heat ratio in every country group. Its larger aggregate cold burden and the German cohort ratio remain intact. The direction of the correction is unknown because country deviations are mixed.",
+          "No new major finding is admitted. The infrasound threshold, net-feedback and measured-versus-modelled candidates remain unresolved after fair contextual alternatives and source-scope limits were tested.",
+          "The earlier public July consultation draft, official auction series, coalition agreement and technology-specific EEG payment table resolved several access gaps in favour of supported assessments. Unresolved assessments remain separate from main issue counts."
+        ],
+        "sources": 127,
+        "archived_source_files": 116,
+        "new_reading_units": 0,
+        "source_access_attempts_unusable": 14
+      }
+    },
+    "negative_checks": [
+      {
+        "name": "Global allocation missing one protocol document",
+        "expected_failure_fragment": "Researcher allocations must cover every protocol document exactly once",
+        "observed_failures": [
+          "Researcher allocations must cover every protocol document exactly once"
+        ],
+        "exit_code": 1,
+        "passed": true
+      },
+      {
+        "name": "A fully_read flag cannot replace a missing explicit page",
+        "expected_failure_fragment": "Initial full read not recorded",
+        "observed_failures": [
+          "Initial full read not recorded: a:bt-environment-1222374"
+        ],
+        "exit_code": 1,
+        "passed": true
+      },
+      {
+        "name": "Correct hash for the wrong peer inventory is rejected",
+        "expected_failure_fragment": "Peer review is not bound to expected target inventory",
+        "observed_failures": [
+          "Peer review is not bound to expected target inventory: a-reviews-c.json"
+        ],
+        "exit_code": 1,
+        "passed": true
+      },
+      {
+        "name": "Orphan omission resolution is rejected",
+        "expected_failure_fragment": "Resolution references nonexistent peer omission",
+        "observed_failures": [
+          "Resolution references nonexistent peer omission: {'review_file': 'research/factual-checks/behg-2026/reviews/nonexistent.json', 'omission_index': 0, 'resolution': 'Excluded in a disposable fixture.', 'disposition': 'excluded', 'claim_ids': []}"
+        ],
+        "exit_code": 1,
+        "passed": true
+      },
+      {
+        "name": "Adjudication cannot rewrite claim identity or provenance",
+        "expected_failure_fragment": "Root decision attempts to change immutable identity/provenance",
+        "observed_failures": [
+          "Root decision attempts to change immutable identity/provenance: behg-b-01"
+        ],
+        "exit_code": 1,
+        "passed": true
+      },
+      {
+        "name": "A changed source archive fingerprint is rejected",
+        "expected_failure_fragment": "Source hash mismatch or absent",
+        "observed_failures": [
+          "Source hash mismatch or absent: behg-root-law"
+        ],
+        "exit_code": 1,
+        "passed": true
+      },
+      {
+        "name": "Explicitly manifested missing issue is rejected rather than silently dropped",
+        "expected_failure_fragment": "Explicitly manifested issue input is missing",
+        "observed_failures": [
+          "FileNotFoundError: Explicitly manifested issue input is missing: research/factual-checks/behg-2026/does-not-exist-fixture.json"
+        ],
+        "exit_code": 1,
+        "passed": true
+      },
+      {
+        "name": "Admission list must agree with the explicit issue manifest",
+        "expected_failure_fragment": "Explicit admission manifest and adjudication IDs differ",
+        "observed_failures": [
+          "Explicit admission manifest and adjudication IDs differ"
+        ],
+        "exit_code": 1,
+        "passed": true
+      }
+    ],
+    "fresh_original_text_checks": [
+      {
+        "document_id": "bt-environment-1222134",
+        "pdf_sha256": "16b6ea68dc0808ad8c41deb0ea3c6caf6c585dcebe6724cc24f7582fa737ab97",
+        "text_sha256": "53264ed72ba62fe2d2dc073a41b94d48783b99ed0e39b3fd23247d154a45c9d6",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bt-environment-1222372",
+        "pdf_sha256": "df9d293b47e793dbfb9bad2a51bcda04a4ca35e755d219dc0d92b5b5b91be403",
+        "text_sha256": "43ff9c25d2929de0f6aa03be8a90259bbc32a20fa53be5182fd3773bce3fe02f",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bt-environment-1222374",
+        "pdf_sha256": "0e5c9b510ccf175368134f3eb360150d6f3f397d27b0b8d9329f5ff22ec62d24",
+        "text_sha256": "c56fa262209458cc35d729043b535188aed671d734e82529ee6b5d08ee271b8e",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bt-environment-1222444",
+        "pdf_sha256": "1c80062f21df64813daa4742f1e6c969f534affe60327cd6232f67e0a5e76d5e",
+        "text_sha256": "c13f8f5a6c81b983d51f2356629dc7462e6dcbec2510bfff208ede0e51db29c5",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bt-environment-1222442",
+        "pdf_sha256": "16171e921a88ff950fb5cf7e4ac9587dd4bd148590c3642d7dfbf5771413e475",
+        "text_sha256": "dd3690e5b69383f7449227a33754b99e6f99ded9be8e7cf628b7c924122c4a91",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bt-environment-1222672",
+        "pdf_sha256": "960b0358e6083cad3526685b1f534fb596145161f925ab3c49706a6f1180e308",
+        "text_sha256": "6eb7e13b03994ccaab7ef59f016bbadb179aabacf65b8b1baf318d3a715891ed",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bt-environment-1222674",
+        "pdf_sha256": "4852479d354546da9015fe2a9e7bdab829186294e0eecf58bb6fd51971ad0548",
+        "text_sha256": "fc38601b4799b56808f31a1fb8d460665345893847c5d640fc010aaa8b3dc1a3",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bt-environment-1222756",
+        "pdf_sha256": "cd6b3403b923d85295d722132e10333ed79b90322cc7d79ffacbf565d60e8659",
+        "text_sha256": "27b59d937dae3b4166bfed9caaba137a689624ec694878b95439cd9c0c415806",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bt-environment-1222878",
+        "pdf_sha256": "bd81c1d54bc58bfef3838713477d155604c9d63b42816a1e3bcbadef17a427b4",
+        "text_sha256": "2ff3783ed8b05c1b6749698869549d182c16ca135efebc0fdf9c56a1c6adb362",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-001",
+        "pdf_sha256": "8ca7c81d348638c3300a30f68f2419f5aa0e36d74ffa3084ae395ba5cec95b55",
+        "text_sha256": "79cc5e8b98d752d7dde4fb7d9a1c7298610ca88996d1edff9fb97f5315e14fa5",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-002",
+        "pdf_sha256": "1e0aaa1083ee112c39e2ed380c2f1279ec577c6e5d0e75fdd99e76d3c26141f3",
+        "text_sha256": "355df41b8bdab6589f116a0de5c4cb80c2b2ebb3cb77ace6efe647104696a75d",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-003",
+        "pdf_sha256": "5e62695c1b4b8a47d3d5ed94369e01961c133d3d3e7a154c4438f35489db7380",
+        "text_sha256": "bc534e23f99f7e9f72a4b394887d1afd4a96354676760349e4252b3eeb86b271",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-004",
+        "pdf_sha256": "dfa4dee9a8b3d0343694027e38dc9e25f4b3cbe46b408131a02556039b1385a1",
+        "text_sha256": "faf5b9b275acb4c5e29c2e45492fcda08b465717a78613fd3090d2a7dc5d97fb",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-005",
+        "pdf_sha256": "98b453ec03caa87a273f7270549d6bb8991daa6370b0553133f24c53b972f670",
+        "text_sha256": "89d1a5e9f7a8c9af1dd6c56a59cafe78761b322e39cc4b52d927d403ca04f494",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-006",
+        "pdf_sha256": "6fcec758a5867312830dbb7f00ebc1c07c4992f3ccd7bb32952c4f0d73ce3daa",
+        "text_sha256": "a0e6d152f0f0fe7b5e97fcc1ec3ba4ef7daf6bcc0f0dad0c2de30821a02ff843",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-007",
+        "pdf_sha256": "8f45c1daeb123c8d32b08a9c544af3179ce65b6c7792cd36992772c24f27d4ae",
+        "text_sha256": "9b5adb757fc031094bb4c6cec488d8aede73b4f64692a360554f46f81dbda569",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-008",
+        "pdf_sha256": "2808b19a5bb1843ca1442c055382dcd7cd0bde8d4044111f6fab88fd55d14034",
+        "text_sha256": "39771a94280e7c286d6fb325369fc3902a466aca3ea88e1e034a5f505e4a08ec",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-009",
+        "pdf_sha256": "762898b5a24d4ec118b289511cf6c9d4db3fe2cec9d8b98cd78621ee09cb45d9",
+        "text_sha256": "51f896fadbc839dc077fb7aef2fe04b58f6c709b0d961df1d20c0629667dabac",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-010",
+        "pdf_sha256": "fcccacc0cbc14c644a7fbbb644d122cdefe745e160fb1f238402d844275be01d",
+        "text_sha256": "6e41f0ed1cc1240189dea334fcab4ffbb98029797289a1ce2dde4491593b8119",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-011",
+        "pdf_sha256": "8fbc73dc6dd02de58d3d8b7880514fa80ed4c1a659cb7a99367b7759611a509a",
+        "text_sha256": "cd553b9189ac999fccc0b4cfa37fcf2410d45411cec0d41f2f1237d5400e8155",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-012",
+        "pdf_sha256": "ef4258c47c5c63706a570e68f474987d3dca96136ddb6a0f00eae4c36d584067",
+        "text_sha256": "09c7a5309f392d331eed47ce201add75400ab8bfb541cec7ad081673cdd2c38d",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-013",
+        "pdf_sha256": "46904b8b054e72305d5f121ec6702b1f0ca8ae19aea34b93dd255480237461a1",
+        "text_sha256": "b0859e7ab9fe2a3d312e7dd049335f3d7058dd094016125e748c43a27719e93b",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-014",
+        "pdf_sha256": "1437a31bae6be165c81b7af78a92769444d3677d7b714b8b94c29bf4c86afb7b",
+        "text_sha256": "ccd85490122e30458c9bf6b15da12e5aeffb37f0e31b5f083bcf4fbb674de0c1",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-015",
+        "pdf_sha256": "7df082cca4e3972165d73737f754f5a6e9a960fea64594624711e9a1ca6a27ff",
+        "text_sha256": "998edcb933087586a69ac8610d38b2d7838eb5bece3e53a9e23788799a1bbee1",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-016",
+        "pdf_sha256": "722bb8be9a031cc7474fd1f6f7ccd55abb156138c8df43b1edb5524414faafbb",
+        "text_sha256": "85acd15fefdd5b14f208758ca001187db32561e1dc452ed6adee2b24d5557a7d",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-017",
+        "pdf_sha256": "6fdc7ef6aba69b473fda9b655c5b3491212180d3681a45e8a7ca37c5cc4b4fc1",
+        "text_sha256": "21f6d24e717fa0c27bfaacecf44dc7b743e9b456006734b7b0b6e01191da9351",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-018",
+        "pdf_sha256": "168908c1dee545d6d0c23cc9d9f969b747e402369c407fb308f3b18f833f3f97",
+        "text_sha256": "0540e77f28706611ef349dde094cf9ab4078783aba25523bf9cf71c453b4c348",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-019",
+        "pdf_sha256": "a04793fd3dc3aede452ae073410694b8e2d3920c48c1d4c3d57bcb1dc065ee64",
+        "text_sha256": "0ea131898d5047066f98e8ca7827a8aa0f73eb0f8ad1457b89220fc652f6dbcf",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-020",
+        "pdf_sha256": "b2814f63c746b5b300f8006f5e310ec543d686e3c9c31a783083385f95c1245d",
+        "text_sha256": "7783207a3d85e303531d448e44afd28396060ce53566a373b437be3c90474d48",
+        "fresh_layout_extraction_matches": true
+      },
+      {
+        "document_id": "bmwe-netzkosten-2026-023",
+        "pdf_sha256": "0660a8e9fdf55fc1262ed3df6ad23bac3b9135c8fdb069ab62d0897fc92df2db",
+        "text_sha256": "a9b2ccdca105c77dd350e731f35a9c9334db22654be984c6a8c837ccedd92811",
+        "fresh_layout_extraction_matches": true
+      }
+    ]
+  },
+  "certification_limits": [
+    "This audit is bound to the exact code hashes above. Later code or input changes require revalidation.",
+    "The network final summary and final extension outputs were not certified. No future generated output is covered by this code audit.",
+    "Machine structural checks do not establish exhaustive capture of all factual assertions, substantive source truth, temporal applicability or correct policy interpretation. Independent page/claim review and root adjudication remain necessary.",
+    "A complete physical page count includes covers. A reread adds zero new reading units.",
+    "No human specialist review or author contact was performed."
+  ]
+}

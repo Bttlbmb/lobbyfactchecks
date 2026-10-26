@@ -1,0 +1,222 @@
+{
+  "id": "tax-independent-round3-merged-pool-audit",
+  "reviewed_at_utc": "2026-10-25T04:30:27.215626+00:00",
+  "reviewer": "tax_consultations",
+  "snapshot_files": [
+    {
+      "file": "data/screening-pool.json",
+      "sha256": "fe39089ff71997dc427ff380345566a26e9558068106cb92e5083611a8285ea1"
+    },
+    {
+      "file": "data/screening-pool-summary.json",
+      "sha256": "2b19e7f19340aef972cf64335e1cc4268a2baa5801f4f4b39413c1224e263f82"
+    },
+    {
+      "file": "research/build_screening_pool.py",
+      "sha256": "0f8155becdc6e3e8d4f56380cdd8ab4948168cd83b3f27f834965cfcfec0b2a4"
+    }
+  ],
+  "input_ledgers": [
+    {
+      "branch": "root",
+      "file": "research/round3-root/pool-audit.json",
+      "sha256": "22a2a3d74c705a5cd2694382c2049707bb82135d8f7fa4c4145cb094939a765b",
+      "documents": 15,
+      "depth_counts": {
+        "full_submission": 14,
+        "selected_passages": 1
+      }
+    },
+    {
+      "branch": "energy",
+      "file": "research/round3-energy/pool-audit.json",
+      "sha256": "ed748cb83506d163b2dc0a1c13a645cc986b5961097b996f19c9629fe8277d24",
+      "documents": 39,
+      "depth_counts": {
+        "full_submission": 37,
+        "selected_passages": 2
+      }
+    },
+    {
+      "branch": "tax",
+      "file": "research/round3-tax/pool-audit.json",
+      "sha256": "0c2df84d505721196ef622ccfa6c2030e501364f9e8daea0aff2f5f42f03c07f",
+      "documents": 61,
+      "depth_counts": {
+        "full_submission": 60,
+        "selected_passages": 1
+      }
+    },
+    {
+      "branch": "social",
+      "file": "research/round3-social/pool-audit.json",
+      "sha256": "e697dadb9a4b5e67b0cb61ba627c09dec08d9faac1a601e327e05ae1722e790c",
+      "documents": 69,
+      "depth_counts": {
+        "full_submission": 69
+      }
+    }
+  ],
+  "independent_recounts": {
+    "included_named_units": 499,
+    "by_depth": {
+      "full_submission": 310,
+      "selected_passages": 82,
+      "keyword_triage": 106,
+      "full_text_ocr": 1
+    },
+    "by_kind": {
+      "written_submission": 479,
+      "government_consultation_response": 12,
+      "consultation_reply_declining_formal_statement": 1,
+      "public_statement": 6,
+      "oral_contribution": 1
+    },
+    "excluded_rows": 19,
+    "government_rows": 12,
+    "declining_formal_reply_rows": 1,
+    "tax_ledger_full_reads": 60,
+    "tax_formal_external_full_reads": 47,
+    "tax_government_full_replies": 12
+  },
+  "admission_checks": {
+    "missing_input_ids": [],
+    "depth_downgrades": [],
+    "actor_role_conflicts": [],
+    "missing_local_files": [],
+    "decline_classification_errors": [],
+    "multiple_groups_per_input_id": [],
+    "extraction_only_rows_included_without_manual_review_of_other_evidence": []
+  },
+  "sampled_package_checks": [
+    {
+      "source_id": "six-associations-kassenpflicht2026-20260813",
+      "output_ids": [
+        "six-associations-kassenpflicht2026-20260813"
+      ],
+      "branches": [
+        [
+          "round3_tax"
+        ]
+      ],
+      "files": [
+        [
+          "research/round3-root/coverage/register-pdfs/SG2610010069.pdf",
+          "research/round3-root/coverage/register-pdfs/SG2610010070.pdf"
+        ]
+      ],
+      "kinds": [
+        "written_submission"
+      ]
+    },
+    {
+      "source_id": "amcham-tax-bureaucracy-202610",
+      "output_ids": [
+        "amcham-tax-bureaucracy-202610"
+      ],
+      "branches": [
+        [
+          "case_index",
+          "round3_tax"
+        ]
+      ],
+      "files": [
+        [
+          "research/round3-root/coverage/register-pdfs/SG2610050028.pdf"
+        ]
+      ],
+      "kinds": [
+        "written_submission"
+      ]
+    },
+    {
+      "source_id": "bmds-gigabit-grundbuch-verordnung-ggv-response-013",
+      "output_ids": [
+        "bmds-gigabit-grundbuch-verordnung-ggv-response-013"
+      ],
+      "branches": [
+        [
+          "round3_tax"
+        ]
+      ],
+      "files": [
+        [
+          "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-013.pdf"
+        ]
+      ],
+      "kinds": [
+        "government_consultation_response"
+      ]
+    },
+    {
+      "source_id": "bmds-it-komponentenverordnung-itkv-response-002",
+      "output_ids": [
+        "bmds-it-komponentenverordnung-itkv-response-002"
+      ],
+      "branches": [
+        [
+          "round3_tax"
+        ]
+      ],
+      "files": [
+        [
+          "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-002.pdf"
+        ]
+      ],
+      "kinds": [
+        "consultation_reply_declining_formal_statement"
+      ]
+    },
+    {
+      "source_id": "nexi-kassenpflicht2026-202608",
+      "output_ids": [
+        "nexi-kassenpflicht2026-202608"
+      ],
+      "branches": [
+        [
+          "round3_tax"
+        ]
+      ],
+      "files": [
+        [
+          "research/round3-root/coverage/register-pdfs/SG2608270009.pdf"
+        ]
+      ],
+      "kinds": [
+        "written_submission"
+      ]
+    },
+    {
+      "source_id": "dk-kassenpflicht2026-20260818",
+      "output_ids": [
+        "dk-kassenpflicht2026-20260818"
+      ],
+      "branches": [
+        [
+          "round3_tax"
+        ]
+      ],
+      "files": [
+        [
+          "research/round3-root/coverage/register-pdfs/SG2608180015.pdf"
+        ]
+      ],
+      "kinds": [
+        "written_submission"
+      ]
+    }
+  ],
+  "builder_review": [
+    "Read active-round admission and union/deduplication code. Collection inventories are not admission inputs; only branch actual-reading ledgers enter this pool.",
+    "Union keys exclude shared multi-author containers. Multipart joint cash package has one input row with two authored component PDFs; registered mirrors and re-read copies do not add rows.",
+    "Full-depth is strongest actual recorded read, not complete factual verification. Hessen GGV full read is four author pages; its77-page draft annex is not claimed as an author full read.",
+    "Government/Land replies are retained in broad reading ledger but explicitly excluded from external denominator; Bitkom decline separately labelled.",
+    "Primary draft, study and court archives are not added as standalone screened submissions by active-round admission."
+  ],
+  "disposition": "499-unit snapshot passes these admission, depth, role, file and count checks. No concrete count correction found.",
+  "limits": [
+    "This audit verifies current ledger/output integrity and selected original contexts; it does not independently repeat every full substantive read.",
+    "The18 additional rental-batch lower-bound units are inherited from an older unresolved membership reconciliation, not newly identified round3documents.",
+    "The pool mixes historical and current versions and is not the requested national three-month cohort. Do not use it for prevalence estimates."
+  ]
+}

@@ -1,0 +1,1633 @@
+{
+  "agent": "a",
+  "batch": "driving-2026",
+  "status": "frozen_initial_inventory",
+  "created_at_utc": "2026-10-25T11:10:09.130748+00:00",
+  "documents": [
+    {
+      "id": "bt-transport-1221858",
+      "author": "ACE Auto Club Europa",
+      "url": "https://www.bundestag.de/resource/blob/1221858/Stellungnahme-Waschke-ACE.pdf",
+      "local_file": "research/round3-energy/sources/submissions/bt-transport-1221858.pdf",
+      "sha256": "5d84d8435c2d8d9eb7e491eae08bc72c776981fa1f77df44f7e30a2813389098",
+      "physical_author_pages_read": 4,
+      "depth": "full_submission",
+      "author_date": "2026-09-30",
+      "committee_cover_date": "2026-09-30",
+      "submission_date_verified": false,
+      "screen_id": "r3-fahrlehrer-1221858",
+      "physical_pages": 4,
+      "pilot_text": "research/factual-checks/driving-2026/text/bt-transport-1221858.txt",
+      "page_scope": "Physical PDF pages, including covers and appendices where present.",
+      "external_submission": true,
+      "pages_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "fully_read": true,
+      "read_before_prior_dispositions": true
+    },
+    {
+      "id": "bt-transport-1221860",
+      "author": "Deutsche Fahrlehrer-Akademie",
+      "url": "https://www.bundestag.de/resource/blob/1221860/Stellungnahme-Ewers-Lauer-DFA.pdf",
+      "local_file": "research/round3-energy/sources/submissions/bt-transport-1221860.pdf",
+      "sha256": "409cab6bc2f766e746de6340764572dbb03f45f42792401baaedc5384b199481",
+      "physical_author_pages_read": 5,
+      "depth": "full_submission",
+      "author_date": "2026-09-30",
+      "committee_cover_date": "2026-09-30",
+      "submission_date_verified": false,
+      "screen_id": "r3-fahrlehrer-1221860",
+      "physical_pages": 5,
+      "pilot_text": "research/factual-checks/driving-2026/text/bt-transport-1221860.txt",
+      "page_scope": "Physical PDF pages, including covers and appendices where present.",
+      "external_submission": true,
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fully_read": true,
+      "read_before_prior_dispositions": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "driving-a-ace-01",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "die fast 30 Jahre alten Grundlagen der Fahrausbildung",
+      "claim_en": "The core foundations of German driving training date back almost 30 years.",
+      "claim_type": "historical",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Introduction, printed pp. 13–15",
+          "summary": "Last comprehensive reform of goals, content and didactic principles in 1998; later amendments acknowledged."
+        }
+      ],
+      "result": "supported",
+      "explanation": "1998 to September 2026 is about 28 years. The wording concerns foundations, not an assertion that no rules have changed since.",
+      "limits": "A targeted primary-source review was performed, not an exhaustive systematic review. Missing or indirect evidence is not proof of error.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-02",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "Für 76 Prozent der Befragten",
+      "claim_en": "For 76% of the representative ACE/forsa sample, good training quality comes first.",
+      "claim_type": "quantitative",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-ace-forsa",
+          "locator": "Physical pp. 1–2 and methodology note",
+          "summary": "76% call quality and road preparation very important; 60% call cost very important. Sample 1,001 German-speaking adults, 10–16 December 2025, forsa.omninet."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Quality is the highest rated consideration in the reported importance ratings. The ordinary priority reading is supported.",
+      "limits": "This was not a forced first-choice ranking: respondents rated each item independently. It does not show that 76% exclusively rank quality above cost; survey concerns adults, not only pupils.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-03",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "Eine fünfjährige Erprobungsphase",
+      "claim_en": "The proposed lay-practice trial is five years and has no mandatory halfway report.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrPraxAnlV § 11, physical p. 31; Article 9, physical p. 53",
+          "summary": "Trial authorisations expire at end of fifth year; whole ordinance evaluation within five years."
+        },
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Proposed StVG § 2e(9), physical p. 9",
+          "summary": "BASt evaluation and report by end of fourth year."
+        }
+      ],
+      "result": "supported",
+      "explanation": "No mandatory 2.5-year interim report appears in the recovered texts. The claim must not be read as denying the fourth-year statutory report.",
+      "limits": "The June 2026 ordinance and July 2026 bill predate the response, but the precise ordinance bytes considered by the author and actual delivery are not authenticated.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-04",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "mindestens sechs Unterrichtseinheiten",
+      "claim_en": "At least six professional practical units are required before lay practice starts.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrPraxAnlV § 3, physical p. 28",
+          "summary": "Passed theory, six practical units and joint theoretical induction required."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Matches the recovered operative text.",
+      "limits": "The June 2026 ordinance and July 2026 bill predate the response, but the precise ordinance bytes considered by the author and actual delivery are not authenticated.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-05",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "Sechs Unterrichtseinheiten allein gewährleisten",
+      "claim_en": "Six lessons alone do not ensure sufficient driving competence before lay practice.",
+      "claim_type": "empirical",
+      "materiality": "high",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrPraxAnlV § 3 and rationale, physical pp. 28, 90",
+          "summary": "Six-unit minimum is described as basic preparation; joint induction and later professional lessons also required."
+        },
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Learner assessment, printed pp. 60–61",
+          "summary": "Individual learning progress requires assessment; no universal six-lesson competence threshold measured."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The concern is reasonable, but the sources do not measure a universally adequate threshold or show the actual distribution of competence at six units. Minimum lesson count and individual competence are distinct.",
+      "limits": "Do not infer that the author denies other safeguards or claims every learner is unsafe.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-06",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "Forderung des Bundesrates nach einer Opt-Out-Möglichkeit",
+      "claim_en": "The Bundesrat requests opt-out rather than the bill’s state opt-in system.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Annex 3 point 4, physical p. 90; government response physical p. 100",
+          "summary": "Bundesrat explicitly proposes opt-out, government rejects it."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Directly matches the two institutional positions.",
+      "limits": "The June 2026 ordinance and July 2026 bill predate the response, but the precise ordinance bytes considered by the author and actual delivery are not authenticated.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-07",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "section": "Physical PDF page [1, 2]",
+      "original_excerpt": "Gefahrenwahrnehmung, Reﬂexion und Austausch",
+      "claim_en": "Hazard perception, reflection and exchange need pedagogically guided interactive learning in addition to factual exam preparation.",
+      "claim_type": "empirical",
+      "materiality": "high",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Sections 4.2.1–4.2.5, printed pp. 127–135",
+          "summary": "Recommends blended learning and differentiated teaching; German modality effectiveness evidence sparse."
+        },
+        {
+          "source_id": "driving-a-dmv-home-study",
+          "locator": "Executive summary and printed pp. 18–26",
+          "summary": "Randomised curriculum-matched instruction comparison finds no significant attitude difference in properly assigned subgroup; no adequate road-test or crash outcome."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Research supports the value of instructional design and feedback, but does not establish that all these outcomes require a prescribed interactive modality. Retain the necessity claim without converting recommendations into causal proof.",
+      "limits": "DFA and ACE discuss self-study quality, not a categorical ban on all online interactive teaching.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-08",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "mit 47 Prozent keine Mehrheit",
+      "claim_en": "Only 47% of 18–29-year-olds support abolition of mandatory classroom presence, below a majority in the survey.",
+      "claim_type": "quantitative",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-ace-forsa",
+          "locator": "Physical pp. 3–4",
+          "summary": "47% in age 18–29 regard abolition and fully digital learning as very/rather sensible."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Matches the reported subgroup point estimate.",
+      "limits": "Age-cell sample size and confidence interval are not given; this is a survey estimate, not proof that population support is below 50%.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-09",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "rund 600",
+      "claim_en": "Each avoided repeat examination saves about €600.",
+      "claim_type": "quantitative",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "Cost model, physical pp. 61–65",
+          "summary": "Separates training, professional fees, application and private practice costs; no national €600-per-retake estimate."
+        },
+        {
+          "source_id": "driving-a-eckpunkte",
+          "locator": "Physical pp. 1, 3",
+          "summary": "National average total €3,400 and multiple cost components, not retake-cost distribution."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "A repeat practical examination can entail examination and school presentation fees plus further lessons. The universal approximate saving cannot be authenticated from the recovered primary sources.",
+      "limits": "Exam class/type, local school prices and number of additional lessons are unspecified. A single statutory exam fee would not capture total retake expense.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-10",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "verpﬂichtende Feststellung der Prüfungsreife",
+      "claim_en": "The ordinance proposes a mandatory documented practical test-readiness assessment.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrschAusbV §§ 11–12, physical pp. 14–15",
+          "summary": "At least one exam-like public-road journey, full exam duration, documented assessment before accompanying candidate to exam."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Matches operative safeguards.",
+      "limits": "The June 2026 ordinance and July 2026 bill predate the response, but the precise ordinance bytes considered by the author and actual delivery are not authenticated.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-11",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "fehlen jedoch strukturierte",
+      "claim_en": "Structured learning-progress checks during ordinary practical instruction are missing, while lay practice has an observation drive.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrschAusbV § 4 and Annex 1, physical pp. 10–12, 18; FahrPraxAnlV § 7, p. 29",
+          "summary": "General learner-oriented instruction criteria and final assessment; explicit observation drive after 500–600 km for lay practice."
+        },
+        {
+          "source_id": "driving-a-fahrschausbo",
+          "locator": "§ 5(1)",
+          "summary": "Current law already requires discussion of level and documentation."
+        },
+        {
+          "source_id": "driving-a-m348-moving",
+          "locator": "Printed p. 122",
+          "summary": "Systematic progress diagnostics still proposed as an improvement."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Supported as the contextual comparison of a defined structured interim checkpoint with ordinary instruction. Existing duties to discuss/document progress must be preserved.",
+      "limits": "Not a claim that instructors perform no assessment, or that current law contains no documentation duties. Draft identity qualified.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-12",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "Veröffentlichung von Preisen sowie",
+      "claim_en": "The reform provides for publishing school prices and practical pass rates.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Proposed FahrlG §§ 32, 57(3), physical pp. 25–26, 36",
+          "summary": "Prices reported to ministry; public comparison including practical pass rates contemplated."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The proposed framework supports the description; implementation details remain delegated.",
+      "limits": "The June 2026 ordinance and July 2026 bill predate the response, but the precise ordinance bytes considered by the author and actual delivery are not authenticated.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-13",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "10.000 Fahrschulen mit 17.000 Filialen",
+      "claim_en": "There are around 10,000 schools with 17,000 branches in Germany.",
+      "claim_type": "quantitative",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Cost rationale, physical pp. 44–45",
+          "summary": "Estimates 9,665 enterprises and 17,750 total sites: 10,325 main sites plus 7,425 secondary sites."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The approximate enterprise count is corroborated. The branch count depends on whether Filialen means all locations or strictly secondary branches. The primary comparator counts total sites, not 17,000 secondary sites.",
+      "limits": "Ordinary colloquial site usage is plausible; denominator ambiguity prevents a conservative error finding.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-14",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "wer die Angaben auf Aktualität und Richtigkeit",
+      "claim_en": "How complete, current and accurate price/pass-rate reporting will be assured is still unclear.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "FahrlG §§ 32, 57–58 and rationale",
+          "summary": "Framework reporting and supervision powers exist; detailed operation delegated."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The recovered bill does not resolve all implementation questions, but an absence claim across every implementation instrument cannot be established.",
+      "limits": "Treat practical uncertainty as the author’s implementation concern, not proof that no public authority has responsibility.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-15",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "fünf Minuten weniger",
+      "claim_en": "The proposed reduction removes five minutes of on-road driving from the class B practical examination.",
+      "claim_type": "quantitative",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-fev",
+          "locator": "Annex 7 point 2.3",
+          "summary": "Current class B: total 55 minutes, driving 30 minutes."
+        },
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FeV Annex 7 amendment, physical p. 44",
+          "summary": "Proposed class B: total 40 minutes, driving 25 minutes."
+        }
+      ],
+      "result": "supported",
+      "explanation": "On-road time falls by five minutes. Total exam duration is a separate 15-minute change.",
+      "limits": "Current consolidated FeV header last amended 12 August 2026; precise September ordinance version remains qualified.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-16",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "Physical PDF page [2, 3]",
+      "original_excerpt": "Eine Verkürzung der Fahrzeit reduziert",
+      "claim_en": "Reducing driving time reduces opportunities to observe relevant situations and assess competence reliably.",
+      "claim_type": "empirical",
+      "materiality": "high",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-fev",
+          "locator": "Annex 7 point 2.3",
+          "summary": "Defines present observation time."
+        },
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FeV amendment and rationale",
+          "summary": "Cuts road-driving minimum; no direct reliability estimate established in passages checked."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Fewer observation minutes are mechanically true, but whether reliability materially declines depends on test design and observations per minute. No direct comparative validation recovered.",
+      "limits": "Risk magnitude and claimed small financial advantage are evaluative; do not treat risk warning as a demonstrated crash outcome.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-17",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "zahlreiche Ausbildungs- und Prüfungsanforderungen",
+      "claim_en": "Many training and testing requirements change together, complicating isolation of individual measures’ effects.",
+      "claim_type": "methodological",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "Articles 1–3 and Article 9",
+          "summary": "Parallel changes to theory, simulator use, special drives, lay practice and examination duration, with evaluation."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Simultaneous interventions can confound attribution in an uncontrolled before/after evaluation. This supports the conditional identification concern.",
+      "limits": "A properly designed comparison could still identify effects; the statement does not prove evaluation will fail.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-18",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "eine bestandene Theorieprüfung voraussetzt",
+      "claim_en": "Lay practice requires a passed theory test and therefore, for BF17, cannot begin earlier than three months before age 17 under current timing rules.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrPraxAnlV § 3, physical p. 28",
+          "summary": "Requires passed theory test."
+        },
+        {
+          "source_id": "driving-a-fev",
+          "locator": "§ 16(3), § 10 and § 48a",
+          "summary": "Theory max three months before minimum age; BF17 minimum 17."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Matches combined requirements for the BF17 route.",
+      "limits": "Not all lay-practice candidates seek BF17. Joint induction and initial lessons must also occur.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-19",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "1.000 Kilometer Fahrpraxis",
+      "claim_en": "Before completion, the BF17 lay route requires at least 1,000 km, observation, further professional instruction and the practical exam.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrPraxAnlV §§ 7–8, physical pp. 29–30",
+          "summary": "Observation after 500–600 km; at least six more units; total at least 1,000 km and any further instruction needed."
+        },
+        {
+          "source_id": "driving-a-fev",
+          "locator": "§ 17(1),(5)",
+          "summary": "Practical test after training and theory."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The stated components match. Completing them before age 17 is necessary only to obtain the maximum BF17 period, not a legal three-month expiry.",
+      "limits": "Read the short period in context of starting BF17 at the 17th birthday; it is not a mandatory deadline for every learner.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-20",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "längere Erfahrungsaufbau",
+      "claim_en": "Longer accompanied experience is a central safety advantage of BF17.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-bf17-evaluation",
+          "locator": "Primary ministry release, 12 July 2007, evaluation results",
+          "summary": "Observational comparison finds 28.5% fewer accidents after solo driving; more than six months accompanied period associated with greater reductions."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Primary evaluation supports experience-building as a relevant mechanism and lower subsequent accident association.",
+      "limits": "Nonrandomised evaluation and possible selection/confounding prevent assigning all benefit solely to duration. It does not measure the new pre-test lay regime.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-21",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "optimales Reformszenario",
+      "claim_en": "The package’s lay-practice cost example compares a minimum-lesson reform scenario with typical existing training costs.",
+      "claim_type": "methodological",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "Cost model, physical pp. 61–65",
+          "summary": "Baseline 35 units from median in M330; reform recipe six initial and six further units plus assessment/induction. Explicit example because uptake unknown."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The methodological description is broadly right: specified low-lesson example versus a typical baseline. The baseline is a median, and the source labels the reform case illustrative rather than a population forecast.",
+      "limits": "Do not infer the bill claims every pupil saves that amount. ACE uses Gesetzentwurf loosely for the related package; detailed example is in June ordinance.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-22",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "Zahl der benötigten",
+      "claim_en": "More required professional practical lessons increase a learner’s total cost, other components held fixed.",
+      "claim_type": "conditional",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "Cost model, physical pp. 61–65",
+          "summary": "Per-unit fees multiplied by number of ordinary and special lessons."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Follows from the explicit fee model.",
+      "limits": "This is a conditional cost mechanism, not a prediction of actual uptake, lesson counts or net national saving.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-ace-23",
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "ein geeignetes Fahrzeug und eine Begleitperson",
+      "claim_en": "Access to a suitable vehicle and eligible companion is required to benefit from lay practice.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrPraxAnlV §§ 2, 4–5, physical pp. 27–29",
+          "summary": "Vehicle/insurance conditions and named eligible companion required."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The legal and practical access prerequisite is supported.",
+      "limits": "The further prediction that low-income pupils will benefit less is excluded as a forecast; these provisions alone do not estimate inequality.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-01",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "2018 eingeführte Fahrlehrerreform",
+      "claim_en": "The 2018 instructor reform organised training into competence areas and expanded training.",
+      "claim_type": "historical",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-fahrlausbv-current",
+          "locator": "§ 1 and Annex 1",
+          "summary": "2018 framework, introduction, seven-month 1,100-unit course, placement and reflection, competence-based curriculum."
+        },
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Historical discussion of instructor reform and assessment, printed pp. 13–17, 60–61",
+          "summary": "2018 pedagogical reforms and strengthening evaluation competences described."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Official curriculum and research history corroborate the qualitative reform description.",
+      "limits": "No precise increment or comparison year is claimed. This does not prove all current instructors completed the new course.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-02",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "annähernd die Hälfte der Gesamtstunden",
+      "claim_en": "Pedagogical and psychological content takes almost half the total instructor-training hours.",
+      "claim_type": "quantitative",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-fahrlausbv-current",
+          "locator": "Annex 1: initial class BE course",
+          "summary": "525 pedagogical/psychological units out of 1,080 curriculum units, about 48.6%. § 1 additionally includes introduction, placement and reflection."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Supported in the ordinary curricular-hours context of the preceding sentence about training content.",
+      "limits": "Including introductory, placement and reflection hours would yield a lower proportion; the denominator is the theoretical curriculum, not every hour of the entire qualification pathway.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-03",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "Bei der Suche nach Lösungsansätzen",
+      "claim_en": "The BMV previously posted the exact quoted statement prioritising increased road safety.",
+      "claim_type": "historical",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-eckpunkte",
+          "locator": "Physical p. 1",
+          "summary": "Ministry says training quality must remain and road safety must not be harmed."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The ministry’s published safety commitment is corroborated, but the exact historical webpage sentence and removal date were not recovered.",
+      "limits": "A source-access or historical-page gap is not evidence that the author fabricated the quotation.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-04",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        1
+      ],
+      "section": "Physical PDF page 1",
+      "original_excerpt": "16. Oktober 2025",
+      "claim_en": "The ministry published its cost-reduction reform proposals on 16 October 2025 at a press conference.",
+      "claim_type": "historical",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-eckpunkte",
+          "locator": "Dated cover and contents, physical pp. 1–3",
+          "summary": "Official dated reform points publish the listed proposals."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The official document is dated 16 October 2025 and contains the proposals.",
+      "limits": "The exact press-conference event is not independently reconstructed; no material contrary evidence, and publication timing is directly corroborated.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-05",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "Einstellungen und Werthaltungen",
+      "claim_en": "Theoretical driver education teaches rules and also forms attitudes and values relevant to safe participation.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-fahrschausbo",
+          "locator": "§§ 1–4 and Annex 1",
+          "summary": "Curriculum includes partners, emotions, risk, responsibility, self-assessment and interaction."
+        },
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Goals/curriculum and learning-form discussion",
+          "summary": "Affective goals and reflection are part of the training concept."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The stated functions and learning objectives are supported.",
+      "limits": "This does not establish that every real course successfully changes attitudes or that only presence can do so.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-06",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "eher zurückzuführen auf kritische Einstellungen",
+      "claim_en": "Accidents and traffic misconduct arise more from adverse rule-compliance attitudes than deficient rule knowledge.",
+      "claim_type": "empirical",
+      "materiality": "high",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Training goals and learner characteristics; section 4.2",
+          "summary": "Attitudes and knowledge both recognised; no directly comparable causal population attribution for these two categories."
+        },
+        {
+          "source_id": "driving-a-dmv-home-study",
+          "locator": "Study measures and limitations",
+          "summary": "Attitude/knowledge tests do not establish relative causes of crashes."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The comparative causal claim needs a defined population and method for apportioning causes. The recovered evidence does not establish that ranking.",
+      "limits": "No claim of falsity or intent follows from lack of an appropriate causal denominator.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-07",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "Die Pflicht zum Präsenzunterricht soll zukünftig entfallen",
+      "claim_en": "The reform allows fully digital theory preparation instead of compulsory physical presence.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrschAusbV § 3, physical p. 10",
+          "summary": "Presence, synchronous, asynchronous e-learning or combinations available to learner; schools need not offer every format."
+        },
+        {
+          "source_id": "driving-a-eckpunkte",
+          "locator": "Physical p. 1",
+          "summary": "Explicitly proposes abolishing mandatory presence and fully digital learning."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Matches proposed options, not a mandate for everyone to learn alone.",
+      "limits": "The June 2026 ordinance and July 2026 bill predate the response, but the precise ordinance bytes considered by the author and actual delivery are not authenticated.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-08",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "durch reines Auswendiglernen der Prüfungsfragen",
+      "claim_en": "Memorising the question bank can enable passing the theory test, but such preparation cannot develop practical preparation or attitudes.",
+      "claim_type": "empirical",
+      "materiality": "high",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Section 4.2, printed pp. 127–135",
+          "summary": "Distinguishes factual learning and deeper application; no experiment isolating pure memorisation against practical/attitude outcomes."
+        },
+        {
+          "source_id": "driving-a-dmv-home-study",
+          "locator": "Printed pp. 18–26",
+          "summary": "Matched curricula and random assignment, not a pure memorisation intervention; no adequate practical-test outcome."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Rote success and limited transfer are plausible, but the zero-transfer/zero-attitude proposition is not established by these designs.",
+      "limits": "The word so refers to pure memorisation, not all online instruction. Do not use successful digital instruction as a direct refutation.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-09",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "geringer digitaler",
+      "claim_en": "Limited digital competence, access or learning ability can hinder self-directed digital preparation.",
+      "claim_type": "conditional",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Sections 4.2.3–4.2.4, printed pp. 130–134",
+          "summary": "Learner background, motivation and self-regulation matter; some learners need guidance; adaptation may also assist low-literacy learners."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The conditional mechanism is supported. The sentence’s predicted actual exclusion is separately excluded as a forecast.",
+      "limits": "Not proof that all disadvantaged pupils are excluded or that digital learning is always worse; available support and design can mitigate barriers.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-10",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "eine positive Lernatmosphäre hat nachweislich Auswirkungen",
+      "claim_en": "A positive learning atmosphere improves cognition, knowledge uptake, motivation and interaction.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "General teaching-quality and e-learning discussion",
+          "summary": "Teaching quality and learner engagement are relevant; source combines literature, theory and proposed curriculum."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "A broad pedagogical proposition is reasonable, but the checked primary material does not isolate classroom atmosphere as a causal treatment for each listed outcome.",
+      "limits": "Does not establish that a statutory room specification is necessary; that legal requirement is the author’s preference.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-11",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "welche in Präsenz unterrichtet werden müssen",
+      "claim_en": "BASt OFSA I/II investigations establish which subjects must be taught in person and which can be online.",
+      "claim_type": "empirical",
+      "materiality": "high",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Sections 4.2.1–4.2.5, printed pp. 127–135",
+          "summary": "Sparse driver-specific comparative evidence; recommended blended curriculum allocates content by pedagogical rationale."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The source supports a reasoned curricular allocation. It does not provide experimental proof that specified subjects cannot be learned in other modalities. The author may mean the recommended model’s allocation.",
+      "limits": "Because an ordinary recommendation-based reading is plausible, do not classify an empirical overstatement as a finding.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-12",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "section": "Physical PDF page [2, 3]",
+      "original_excerpt": "Präsenzunterricht in Verbindung mit asynchronem E-Learning",
+      "claim_en": "Combining in-person teaching with asynchronous e-learning can give good learning results and extend/strengthen learning.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": true,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Sections 4.2.3–4.2.5",
+          "summary": "General education comparisons and design principles support blended learning, with heterogeneity and possible extra-time confounding."
+        },
+        {
+          "source_id": "driving-a-dmv-home-study",
+          "locator": "Method/results",
+          "summary": "Different methods can achieve comparable knowledge and attitude scores; no single universally best method."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Supported as a capability claim, with instructional quality and learner conditions.",
+      "limits": "Evidence is not a direct German reform trial or proof that this combination dominates every alternative. The nearly cost-neutral extension is not separately validated.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-13",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        2
+      ],
+      "section": "Physical PDF page 2",
+      "original_excerpt": "annähernd kostenneutral verlängert",
+      "claim_en": "Adding online elements can extend learning time nearly without extra cost.",
+      "claim_type": "conditional",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Blended-learning concept, printed pp. 132–135",
+          "summary": "Self-directed phases extend engagement, but no complete implementation cost evaluation for this proposition."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Feasible for some existing platforms, but near cost neutrality depends on development, licensing, instructor support and baseline. No primary cost comparison recovered.",
+      "limits": "Conditional possibility; not evidence of a false national cost figure.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-14",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "hohes Maß an intrinsischer",
+      "claim_en": "Self-directed theory learning requires motivation and structured engagement, particularly for young learners.",
+      "claim_type": "conditional",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Printed pp. 132–134",
+          "summary": "Self-regulation, motivation, autonomy and guidance are explicit requirements; not every learner has all prerequisites."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Supports the mechanism behind the concern.",
+      "limits": "Age-wide inability and a prediction of lower pass rates are not established and are excluded forecasts.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-15",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "Angst-/",
+      "claim_en": "Simulators can reduce early-stage anxiety/stress, practise basic skills and repeat complex scenarios without real-road risk.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-m348-moving",
+          "locator": "Abstract; sections 2 and 5.2, printed pp. 42, 120–122",
+          "summary": "Qualitative literature review and competence mapping; protected environment, early preparation, lower/different stress and repeated rare scenarios."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Supported as potential and functional use, not a quantified effect for all simulator products.",
+      "limits": "Study reports few robust comparative studies; co-author MOVING archive and technical/didactic assessment do not establish a crash reduction or guaranteed training-time saving.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-16",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        3
+      ],
+      "section": "Physical PDF page 3",
+      "original_excerpt": "nicht ersetzen",
+      "claim_en": "Simulators cannot fully replace complex real-road training.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-m348-moving",
+          "locator": "Section 5.2, printed pp. 120–122",
+          "summary": "Transfer and realism limitations; no complete substitution of theory or practical driving."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Matches the source’s scope and contemporary technical limitations.",
+      "limits": "Not a claim about all future technology or a prohibition of selected simulator learning.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-17",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF page 4",
+      "original_excerpt": "Kundenwünsche nach einer vollständigen Ausbildung",
+      "claim_en": "Demand for full manual-car training means schools still need manual vehicles.",
+      "claim_type": "empirical",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-eckpunkte",
+          "locator": "Physical p. 2",
+          "summary": "Ministry proposes simulator manual competence with automatic-car exam."
+        },
+        {
+          "source_id": "driving-a-fev",
+          "locator": "§ 17a",
+          "summary": "Permits a manual training/test pathway."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "A preference for full manual training is plausible, but its prevalence and consequent fleet requirement for every school are not established.",
+      "limits": "A customer-demand forecast or commercial choice is not an error solely because no survey was recovered.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-18",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF page 4",
+      "original_excerpt": "Regelungen der Fahrerlaubnisverordnung zur",
+      "claim_en": "Existing rules on extensions can require a manual-vehicle practical test to avoid an automatic restriction.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-fev",
+          "locator": "§ 17a(1),(3)–(4)",
+          "summary": "B197 manual-competence route does not give the same prior manual-test exemption for later BE/C/D extensions."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The extension-rule issue is real under the consolidated law predating the response.",
+      "limits": "A school offering only basic B need not itself offer every extension; future harmonisation could change rules. Need for every school to retain manual cars is not established.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-19",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF page 4",
+      "original_excerpt": "Fachliche Kompetenzen in rechtlicher",
+      "claim_en": "Instructor qualifications require legal, didactic, methodological, communicative and social competence.",
+      "claim_type": "legal",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-fahrlausbv-current",
+          "locator": "Annex 1 competence domains and § 1",
+          "summary": "Competence areas encompass teaching, assessment, advice, education and technical/legal knowledge."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Curriculum directly corroborates the qualification requirements.",
+      "limits": "Requirement does not prove every practising instructor has equal skills, or that lay practice lacks every safeguard.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-20",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF page 4",
+      "original_excerpt": "zu keinem Zeitpunkt vorgesehen",
+      "claim_en": "The established German novice-driver system has never included lay training before the professional test, while BF17 is a lawful alternative.",
+      "claim_type": "historical",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-fev",
+          "locator": "§§ 15–17 and § 48a",
+          "summary": "Current BF17 requires the ordinary passed theory/practical tests before accompanied driving."
+        },
+        {
+          "source_id": "driving-a-fahrschausbo",
+          "locator": "§§ 1–6",
+          "summary": "Current professional pre-test training framework."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The current distinction is supported. The historical absolute at no time is not authenticated across the system’s full history.",
+      "limits": "Do not substitute current law for a universal historical claim or treat BF17 post-test experience as identical to proposed pre-test lay instruction.",
+      "check_completed": true
+    },
+    {
+      "id": "driving-a-dfa-21",
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Physical PDF page 4",
+      "original_excerpt": "derzeit veranschlagten € 3.400",
+      "claim_en": "The ministry’s current reference estimate for class B acquisition is €3,400.",
+      "claim_type": "quantitative",
+      "materiality": "medium",
+      "policy_link": "Cost, learning quality, safety or feasibility premise in the author’s reform assessment.",
+      "cited_by_author": false,
+      "check_method": "Independent comparison with primary law, draft provisions, original survey tables and/or research methods and results; temporal and contextual reading.",
+      "evidence": [
+        {
+          "source_id": "driving-a-eckpunkte",
+          "locator": "Physical p. 1",
+          "summary": "Official 16 October 2025 paper gives average around €3,400 with regional variation."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The attributed reference estimate is authentic.",
+      "limits": "This supports the estimate used in the debate, not a measured price for every learner in September 2026 or a guarantee that future lay practice costs more.",
+      "check_completed": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "driving-a-ace-poll",
+      "title": "ACE commissioned forsa survey release, 27 January 2026",
+      "url": "https://presse.ace.de/pressemitteilungen/presse-detail/news/forsa-umfrage-mehrheit-will-bezahlbaren-fuehrerschein-ohne-qualitaetseinbussen/",
+      "retrieved_at": "2026-10-25T10:56:41.546983+00:00",
+      "temporal_limit": "Retrieved 25 October 2026. Authored responses dated 30 September; source date, methods and legal header require validation. Current snapshots do not prove earlier page bytes.",
+      "local_file": "research/factual-checks/driving-2026/sources/a-ace-poll.html",
+      "sha256": "e0d6c95091ad1c05aa2222d8471430f25fb667a4ed2f11941f3d55b870e273e6",
+      "http_status": 200,
+      "bytes": 52277,
+      "content_type": "text/html; charset=utf-8",
+      "usable_as_evidence": true,
+      "content_validation": "Actual readable primary text inspected: legal title/header and cited provisions, or report cover/methods/cited results. Not merely HTTP 200 or PDF signature.",
+      "read_extent": "Targeted passages and methods supporting cited claims; long reports are evidence only, not full reading-unit targets."
+    },
+    {
+      "id": "driving-a-m330",
+      "title": "BASt M330: Ausbildungs- und Evaluationskonzept, 2022",
+      "url": "https://www.nw-verlag.de/media/nwdownload/M%20330%20Gesamtversion%20BF.pdf",
+      "retrieved_at": "2026-10-25T10:56:41.547372+00:00",
+      "temporal_limit": "Retrieved 25 October 2026. Authored responses dated 30 September; source date, methods and legal header require validation. Current snapshots do not prove earlier page bytes.",
+      "local_file": "research/factual-checks/driving-2026/sources/a-m330.pdf",
+      "sha256": "db3d7f9dc8d643b7004a4df42ed3efd934d75378be3843d6effe471dac8a4153",
+      "http_status": 200,
+      "bytes": 34813371,
+      "content_type": "application/pdf",
+      "usable_as_evidence": true,
+      "content_validation": "Actual readable primary text inspected: legal title/header and cited provisions, or report cover/methods/cited results. Not merely HTTP 200 or PDF signature.",
+      "read_extent": "Targeted passages and methods supporting cited claims; long reports are evidence only, not full reading-unit targets."
+    },
+    {
+      "id": "driving-a-m348",
+      "title": "BASt M348 simulator study, 2024; URL to be validated",
+      "url": "https://bast.opus.hbz-nrw.de/files/3107/M348.pdf",
+      "retrieved_at": "2026-10-25T10:56:41.547522+00:00",
+      "temporal_limit": "Retrieved 25 October 2026. Authored responses dated 30 September; source date, methods and legal header require validation. Current snapshots do not prove earlier page bytes.",
+      "usable_as_evidence": false,
+      "error": "URLError(timeout('timed out'))"
+    },
+    {
+      "id": "driving-a-m219",
+      "title": "BASt M219: Unterstützung der Fahrausbildung durch Lernsoftware, 2012",
+      "url": "https://bast.opus.hbz-nrw.de/files/543/M219.pdf",
+      "retrieved_at": "2026-10-25T10:56:41.547679+00:00",
+      "temporal_limit": "Retrieved 25 October 2026. Authored responses dated 30 September; source date, methods and legal header require validation. Current snapshots do not prove earlier page bytes.",
+      "usable_as_evidence": false,
+      "error": "URLError(timeout('timed out'))"
+    },
+    {
+      "id": "driving-a-eckpunkte",
+      "title": "BMV Bezahlbarer Führerschein Eckpunkte, 16 October 2025",
+      "url": "https://www.bmv.de/SharedDocs/DE/Anlage/K/presse/bezahlbarer-fuehrerschein-eckpunkte.pdf?__blob=publicationFile",
+      "retrieved_at": "2026-10-25T10:56:43.355596+00:00",
+      "temporal_limit": "Retrieved 25 October 2026. Authored responses dated 30 September; source date, methods and legal header require validation. Current snapshots do not prove earlier page bytes.",
+      "local_file": "research/factual-checks/driving-2026/sources/a-eckpunkte.pdf",
+      "sha256": "c792010f06632e5a20777f063a4b10f795018f44f7a7f67dbae147516d5c0def",
+      "http_status": 200,
+      "bytes": 70628,
+      "content_type": "application/pdf;charset=UTF-8",
+      "usable_as_evidence": true,
+      "content_validation": "Actual readable primary text inspected: legal title/header and cited provisions, or report cover/methods/cited results. Not merely HTTP 200 or PDF signature.",
+      "read_extent": "Targeted passages and methods supporting cited claims; long reports are evidence only, not full reading-unit targets."
+    },
+    {
+      "id": "driving-a-fahrlausbv",
+      "title": "Fahrlehrer-Ausbildungsverordnung full consolidated law",
+      "url": "https://www.gesetze-im-internet.de/fahrlausbv/BJNR000210018.html",
+      "retrieved_at": "2026-10-25T10:56:46.277303+00:00",
+      "temporal_limit": "Retrieved 25 October 2026. Authored responses dated 30 September; source date, methods and legal header require validation. Current snapshots do not prove earlier page bytes.",
+      "usable_as_evidence": false,
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "id": "driving-a-fev",
+      "title": "Fahrerlaubnis-Verordnung full consolidated law",
+      "url": "https://www.gesetze-im-internet.de/fev_2010/BJNR198000010.html",
+      "retrieved_at": "2026-10-25T10:56:47.208212+00:00",
+      "temporal_limit": "Retrieved 25 October 2026. Authored responses dated 30 September; source date, methods and legal header require validation. Current snapshots do not prove earlier page bytes.",
+      "local_file": "research/factual-checks/driving-2026/sources/a-fev.html",
+      "sha256": "16e502c3cd50531d7021724d1584b1e1a6ea896a59ae8986936f53c5c517c91e",
+      "http_status": 200,
+      "bytes": 1042626,
+      "content_type": "text/html",
+      "usable_as_evidence": true,
+      "content_validation": "Actual readable primary text inspected: legal title/header and cited provisions, or report cover/methods/cited results. Not merely HTTP 200 or PDF signature.",
+      "read_extent": "Targeted passages and methods supporting cited claims; long reports are evidence only, not full reading-unit targets."
+    },
+    {
+      "id": "driving-a-fahrschausbo",
+      "title": "Fahrschüler-Ausbildungsordnung full consolidated law",
+      "url": "https://www.gesetze-im-internet.de/fahrschausbo_2012/BJNR131800012.html",
+      "retrieved_at": "2026-10-25T10:56:58.163952+00:00",
+      "temporal_limit": "Retrieved 25 October 2026. Authored responses dated 30 September; source date, methods and legal header require validation. Current snapshots do not prove earlier page bytes.",
+      "local_file": "research/factual-checks/driving-2026/sources/a-fahrschausbo.html",
+      "sha256": "c29f2fd309b2b662fd9c3ab725a2cc43e871810cf5451a78f16392924e98f40c",
+      "http_status": 200,
+      "bytes": 223648,
+      "content_type": "text/html",
+      "usable_as_evidence": true,
+      "content_validation": "Actual readable primary text inspected: legal title/header and cited provisions, or report cover/methods/cited results. Not merely HTTP 200 or PDF signature.",
+      "read_extent": "Targeted passages and methods supporting cited claims; long reports are evidence only, not full reading-unit targets."
+    },
+    {
+      "id": "driving-a-ace-forsa",
+      "title": "forsa full commissioned survey tables, January 2026",
+      "url": "https://images.ace.de/dokumente/presse/Meinungsumfrage_Fuehrerschein_ACE_forsa.pdf",
+      "retrieved_at": "2026-10-25T10:58:56.848013+00:00",
+      "temporal_limit": "Publication and legal header predate September 2026; current downloaded bytes not a historical page snapshot.",
+      "local_file": "research/factual-checks/driving-2026/sources/a-ace-forsa.pdf",
+      "sha256": "0a407a83d9dcd6b3d7ba482e9f17321423be929efb184f9ab0086b1d0da7b6f7",
+      "bytes": 575485,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "content_validation": "Actual readable primary text inspected: legal title/header and cited provisions, or report cover/methods/cited results. Not merely HTTP 200 or PDF signature.",
+      "read_extent": "All five physical pages including tables and methodology."
+    },
+    {
+      "id": "driving-a-m348-moving",
+      "title": "BASt M348 simulator study, co-author MOVING archive",
+      "url": "https://www.moving-roadsafety.com/wp-content/uploads/2024/12/M-348-Gesamtversion-BF.pdf",
+      "retrieved_at": "2026-10-25T10:58:56.848354+00:00",
+      "temporal_limit": "Publication and legal header predate September 2026; current downloaded bytes not a historical page snapshot.",
+      "local_file": "research/factual-checks/driving-2026/sources/a-m348-moving.pdf",
+      "sha256": "718e3a4bcd2d1fe49cf740a0741d083f322f0144d54d8b3ea8de730eaa5ca48f",
+      "bytes": 14073566,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "content_validation": "Actual readable primary text inspected: legal title/header and cited provisions, or report cover/methods/cited results. Not merely HTTP 200 or PDF signature.",
+      "read_extent": "Targeted passages and methods supporting cited claims; long reports are evidence only, not full reading-unit targets."
+    },
+    {
+      "id": "driving-a-fahrlausbv-current",
+      "title": "Fahrlehrer-Ausbildungsverordnung, last amended March 2022",
+      "url": "https://www.gesetze-im-internet.de/fahrlausbv/BJNR001500018.html",
+      "retrieved_at": "2026-10-25T10:58:56.848528+00:00",
+      "temporal_limit": "Publication and legal header predate September 2026; current downloaded bytes not a historical page snapshot.",
+      "local_file": "research/factual-checks/driving-2026/sources/a-fahrlausbv-current.html",
+      "sha256": "6be259b30f01aa5e9891fd6fe3e383ab770b7350f4ea6d1759bce06a3c419dd2",
+      "bytes": 429471,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "content_validation": "Actual readable primary text inspected: legal title/header and cited provisions, or report cover/methods/cited results. Not merely HTTP 200 or PDF signature.",
+      "read_extent": "Targeted passages and methods supporting cited claims; long reports are evidence only, not full reading-unit targets."
+    },
+    {
+      "id": "driving-a-dmv-home-study",
+      "title": "California DMV randomized home-study evaluation, April 2003",
+      "url": "https://www.dmv.ca.gov/portal/uploads/2020/04/S1-203.pdf",
+      "retrieved_at": "2026-10-25T11:00:58.191157+00:00",
+      "temporal_limit": "Research predates September 2026. Different jurisdiction/period and outcome methods limit transfer to current German reform.",
+      "local_file": "research/factual-checks/driving-2026/sources/a-dmv-home-study.pdf",
+      "sha256": "540a79cec3762fcbc7ac08942a61805efa7bf04a2b3e30f827e9c15422ccdaa2",
+      "bytes": 536490,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "content_validation": "Actual readable primary text inspected: legal title/header and cited provisions, or report cover/methods/cited results. Not merely HTTP 200 or PDF signature.",
+      "read_extent": "Targeted passages and methods supporting cited claims; long reports are evidence only, not full reading-unit targets."
+    },
+    {
+      "id": "driving-a-bf17-evaluation",
+      "title": "Niedersachsen ministry primary release on its BF17 evaluation",
+      "url": "https://www.mw.niedersachsen.de/startseite/uber_uns/presse/presseinformationen/-15133.html",
+      "retrieved_at": "2026-10-25T11:00:59.515992+00:00",
+      "temporal_limit": "Research predates September 2026. Different jurisdiction/period and outcome methods limit transfer to current German reform.",
+      "local_file": "research/factual-checks/driving-2026/sources/a-bf17-evaluation.html",
+      "sha256": "2a4652b9be87caaffcf57a37204802f49bbd2143c52b23a1398ec2ab28cae5c9",
+      "bytes": 105758,
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "content_validation": "Actual readable primary text inspected: legal title/header and cited provisions, or report cover/methods/cited results. Not merely HTTP 200 or PDF signature.",
+      "read_extent": "Targeted passages and methods supporting cited claims; long reports are evidence only, not full reading-unit targets."
+    },
+    {
+      "id": "driving-2026-root-draft",
+      "title": "Driving-instruction reform hearing — archived official addressed draft/context",
+      "url": "https://dserver.bundestag.de/btd/21/074/2107404.pdf",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/round3-energy/sources/bt217404-fahrlehrgesetz.pdf",
+      "sha256": "bb8fc57510906f3ec95f751abed4e7402d21c4a2442f0266204918645ca59866",
+      "archive_note": "Previously archived official file; hash and physical page count reverified at continuation start. Not a new original-download timestamp.",
+      "temporal_limit": "Current public version; initial delivered bytes not authenticated.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "driving-2026-root-ministry-statute",
+      "title": "BMV Fahrlehrergesetz amendment ministry draft, internal4May2026 14:57",
+      "url": "https://www.bmv.de/SharedDocs/DE/Anlage/Gesetze/Gesetze-21/gesetz-zur-aenderung-des-fahrlehrergesetzes-und-andere-strassenverkehrsrechtlicher-gesetze.pdf?__blob=publicationFile",
+      "retrieved_at": "2026-10-25T10:58:18.356430+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/root-ministry-statute.pdf",
+      "sha256": "6b0d6599bd14809927cfced4974387482f0415d99d820ef75bdea54375244c02",
+      "http_status": 200,
+      "resolved_url": "https://www.bmv.de/SharedDocs/DE/Anlage/Gesetze/Gesetze-21/gesetz-zur-aenderung-des-fahrlehrergesetzes-und-andere-strassenverkehrsrechtlicher-gesetze.pdf?__blob=publicationFile",
+      "content_type": "application/pdf;charset=UTF-8",
+      "usable_as_evidence": true,
+      "temporal_limit": "Retrieved 25 October 2026. Identify stated draft date and operative text before attributing to September/October responses; exact initial delivery bytes unauthenticated."
+    },
+    {
+      "id": "driving-2026-root-ministry-ordinance",
+      "title": "BMV ministry Fahrschulmodernisierungs-Verordnung draft, internal4May2026 14:48",
+      "url": "https://www.bmv.de/SharedDocs/DE/Anlage/Gesetze/Gesetze-21/verordnung-zur-modernisierung-der-fahrschulausbildung.pdf?__blob=publicationFile",
+      "retrieved_at": "2026-10-25T10:58:25.593329+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/root-ministry-ordinance.pdf",
+      "sha256": "97e49788fe467669fd3df3a7048d8b733707bf787aeafe97e0c0a98e68daf77e",
+      "http_status": 200,
+      "resolved_url": "https://www.bmv.de/SharedDocs/DE/Anlage/Gesetze/Gesetze-21/verordnung-zur-modernisierung-der-fahrschulausbildung.pdf?__blob=publicationFile",
+      "content_type": "application/pdf;charset=UTF-8",
+      "usable_as_evidence": true,
+      "temporal_limit": "Current official download identifies internal4May2026 14:48,104physicalpages. An earlier ministry text, not silently interchangeable with June BR365/26 or addressed September bill. Exact delivery bytes not authenticated.",
+      "physical_pages": 104
+    },
+    {
+      "id": "driving-2026-root-br365",
+      "title": "Bundesrat365/26, Fahrschulmodernisierungs-Verordnung,10June2026",
+      "url": "https://dserver.bundestag.de/brd/2026/0365-26.pdf",
+      "retrieved_at": "2026-10-25T10:58:32.127255+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/root-br365.pdf",
+      "sha256": "e2891fc67c5afa333d35cc19c3212198b8b6252ca2963c0cf096504ced5544cc",
+      "http_status": 200,
+      "resolved_url": "https://dserver.bundestag.de/brd/2026/0365-26.pdf",
+      "content_type": "application/pdf",
+      "usable_as_evidence": true,
+      "temporal_limit": "Official June10 parliamentary ordinance draft retrieved25October2026, preceding September/October responses. Operative FahrPraxAnlV §§3–8 at physical28–30; distinguish May4 ministry draft and any later amendments. Exact recipient-delivery bytes not authenticated.",
+      "physical_pages": 120
+    },
+    {
+      "id": "driving-root-adac-hours-chart",
+      "title": "ADAC2023 original learner-survey infographic, linked from original7November2023release",
+      "url": "https://presse.adac.de/meldungen/adac-ev/verkehr/img/anzahl-fahrstunden-stadt-land-11-06-2023-zoom.jpg",
+      "retrieved_at": "2026-10-25T11:09:31.405815+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/root-adac-hours-chart.jpg",
+      "sha256": "35854cbcf2dad7d06ac99420ad7496935140cfee1b85c0be1ee1204ab4b103a8",
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Original2023survey, acquisition cohorts differ. Current image retrieval not original-time archive or national2026representativeness. Visually read category definitions before use."
+    },
+    {
+      "id": "driving-root-adac-cost-chart",
+      "title": "ADAC2023 original learner-survey infographic, linked from original7November2023release",
+      "url": "https://presse.adac.de/meldungen/adac-ev/verkehr/img/fuhrerschein-ist-teuerer-11-06-2023-zoom.jpg",
+      "retrieved_at": "2026-10-25T11:09:32.569121+00:00",
+      "local_file": "research/factual-checks/driving-2026/sources/root-adac-cost-chart.jpg",
+      "sha256": "248f5f55640ff592ac7a69b371bcac77491db9a6971c3ee398fa2a4ace6ef0f3",
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Original2023survey, acquisition cohorts differ. Current image retrieval not original-time archive or national2026representativeness. Visually read category definitions before use."
+    }
+  ],
+  "exclusions": [
+    {
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        1
+      ],
+      "reason": "Safety/quality priorities, intermediate-report timing, extra competence check and national opt-out are policy preferences. Their underlying legal and competence premises are inventoried."
+    },
+    {
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        2
+      ],
+      "reason": "Minimum interactive standards, portal/KBA design and documented diagnostics are recommendations; benefits of transparency are conditional expectations without a quantified realised effect."
+    },
+    {
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        3
+      ],
+      "reason": "Predicted delay, lower BF17 uptake, realised savings and distribution by income are forecasts. Earlier test/application timing is a requested change, not a claim current applications cannot be filed six months before minimum age."
+    },
+    {
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        4
+      ],
+      "reason": "Income-tested Führerschein-BAföG design and asserted fairer access are a policy proposal and prospective effects; repeated modernisation/safety priorities add no independent factual claim."
+    },
+    {
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        1
+      ],
+      "reason": "Cover/contact/banking matter incidental. Deklassierung and safety priority are evaluations; inevitable deterioration is a forecast."
+    },
+    {
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        2
+      ],
+      "reason": "Room regulation and social interaction requirements are preferences. Unavoidable future extra lessons/cost and actual exclusion are forecasts; conditional learning/access mechanisms inventoried."
+    },
+    {
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        3
+      ],
+      "reason": "Proposed teaching sequence, mandatory presence and claimed most promising option are curriculum choices; future pass-rate deterioration and universal adolescent incapacity are predictions/evaluations."
+    },
+    {
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        4
+      ],
+      "reason": "Better parental preparation, BF17 expansion and rejection of cost-focus are recommendations. Future accident damage/net cost above €3,400 and road-safety harm are forecasts, not realised facts. Successful/stetig gewachsen wording lacks a defined measurable comparison."
+    },
+    {
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        5
+      ],
+      "reason": "Conclusion and signature repeat normative preferences, with no additional material testable premise."
+    }
+  ],
+  "visual_checks": [
+    {
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        3
+      ],
+      "method": "Poppler PNG inspected for BF17 timing and cost-comparison context."
+    },
+    {
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        2
+      ],
+      "method": "Poppler PNG inspected for pure-memorisation antecedent and OFSA wording."
+    }
+  ],
+  "limitations": [
+    "The June 2026 ordinance and July 2026 bill predate the response, but the precise ordinance bytes considered by the author and actual delivery are not authenticated.",
+    "A targeted primary-source review was performed, not an exhaustive systematic review. Missing or indirect evidence is not proof of error.",
+    "All nine original physical pages read before old dispositions or counterpart inventory. Source PDFs are evidence only; targeted extents are recorded rather than hundreds of report pages treated as screening targets.",
+    "No candidate factual error proposed. Supported propositions retain denominator/method/context qualifications; unresolved propositions are not findings."
+  ]
+}

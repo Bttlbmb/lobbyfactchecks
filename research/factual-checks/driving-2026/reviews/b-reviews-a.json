@@ -1,0 +1,801 @@
+{
+  "reviewer": "b",
+  "batch": "driving-2026",
+  "reviewed_file": "research/factual-checks/driving-2026/agents/claims-a.json",
+  "reviewed_sha256": "59cccba326f68b8e5cc6f9e5870e224e1f1db0d828df56eeffa274d35b583616",
+  "created_at_utc": "2026-10-25T11:23:14.414893+00:00",
+  "documents_reread": [
+    {
+      "document_id": "bt-transport-1221858",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "method": "Complete original extracted page text reread before claim adjudication; original PDF physical page 3 (ACE) and 2 (DFA) additionally rendered and visually inspected."
+    },
+    {
+      "document_id": "bt-transport-1221860",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "method": "Complete original extracted page text reread before claim adjudication; original PDF physical page 3 (ACE) and 2 (DFA) additionally rendered and visually inspected."
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "driving-a-ace-01",
+      "verdict": "accept",
+      "reason": "M330 printed p. 16 independently dates the last comprehensive training-design reform to 1998; almost 30 years in 2026 is a reasonable approximate historical description, distinct from the 2018 instructor qualification reform.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Introduction, printed pp. 13–15",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-02",
+      "verdict": "accept",
+      "reason": "Original forsa tables pp. 1–2 show 76% rating quality very important versus 60% affordability. The question permits multiple ratings: the ordinary priority reading is supported, not an exclusive forced ranking. Method p. 5 establishes 1,001 German-speaking adults, 10–16 December 2025.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-ace-forsa",
+          "locator": "Physical pp. 1–2 and methodology note",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-03",
+      "verdict": "accept",
+      "reason": "Ordinance § 11/Article 9 and statutory § 2e(9) jointly establish five-year experimental horizon and a fourth-year report. No compulsory halfway report is stated; this does not mean no evaluation or report.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrPraxAnlV § 11, physical p. 31; Article 9, physical p. 53",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Proposed StVG § 2e(9), physical p. 9",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-04",
+      "verdict": "accept",
+      "reason": "FahrPraxAnlV § 3 requires six prior professional units plus passed theory and joint instruction. Six units are a minimum condition rather than a guarantee of competence.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrPraxAnlV § 3, physical p. 28",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-05",
+      "verdict": "accept",
+      "reason": "Correctly unresolved: a legal threshold alone does not prove universal competence or universal inadequacy. Individual readiness and the meaning of sufficient competence need outcome evidence.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrPraxAnlV § 3 and rationale, physical pp. 28, 90",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Learner assessment, printed pp. 60–61",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-06",
+      "verdict": "revise",
+      "reason": "Bundesrat amendment at BT physical p. 90 requests opt-out; the government expressly rejects it at physical p. 98. Correct the second locator from p. 100 to p. 98; outcome remains supported.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Annex 3 point 4, physical p. 90; government response physical p. 100",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ],
+      "proposed_result": "supported"
+    },
+    {
+      "claim_id": "driving-a-ace-07",
+      "verdict": "accept",
+      "reason": "M330 offers reasoned curriculum recommendations and heterogeneous evidence, not a demonstration that every proposed digital format necessarily fails to deliver reflection or interaction. Unresolved full necessity claim is appropriate.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Sections 4.2.1–4.2.5, printed pp. 127–135",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-dmv-home-study",
+          "locator": "Executive summary and printed pp. 18–26",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-08",
+      "verdict": "accept",
+      "reason": "Original forsa demographic table p. 4 gives 47% very/eher sinnvoll among 18–29-year-olds for the exact abolition/digital-option question. This is a sample percentage, not a statistically certain population majority claim.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-ace-forsa",
+          "locator": "Physical pp. 3–4",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-09",
+      "verdict": "accept",
+      "reason": "The roughly €600 universal savings need the particular exam type, presentation fee and extra lessons. Neither legal fees nor the examined model establish this for each repeat. Retain unresolved rather than inferring an error.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "Cost model, physical pp. 61–65",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-eckpunkte",
+          "locator": "Physical pp. 1, 3",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-10",
+      "verdict": "accept",
+      "reason": "Proposed FahrschAusbV § 11 physical pp. 14–15 requires an exam-like public-road readiness drive and documentation; this is a proposed future obligation, not a present universal practice.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrschAusbV §§ 11–12, physical pp. 14–15",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-11",
+      "verdict": "revise",
+      "reason": "The full assertion says structured interim learning checks are missing. A legally fixed observation-style checkpoint is absent from the ordinary route, but existing FahrschAusbO § 5(1) requires progress discussion/documentation, FahrlAusbV Annex 2 includes diagnostics and M330 printed p. 61 describes these existing requirements. Structured is undefined; a categorical actual absence is not established. Retain the narrower statutory comparison as supported within an unresolved full proposition.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrschAusbV § 4 and Annex 1, physical pp. 10–12, 18; FahrPraxAnlV § 7, p. 29",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-fahrschausbo",
+          "locator": "§ 5(1)",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-m348-moving",
+          "locator": "Printed p. 122",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "driving-a-ace-12",
+      "verdict": "accept",
+      "reason": "Proposed FahrlG § 32 requires price transmission for publication and § 57(3) authorises a public price/practical-pass-rate register. Supports the proposed framework without promising implemented completeness.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Proposed FahrlG §§ 32, 57(3), physical pp. 25–26, 36",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-13",
+      "verdict": "accept",
+      "reason": "Official bill separates 9,665 enterprises, 17,750 total sites, 10,325 main sites and 7,425 secondary sites. The author’s colloquial Filialen may mean all sites or additional branches. Denominator ambiguity prevents either full support or a conservative error finding.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "Cost rationale, physical pp. 44–45",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-14",
+      "verdict": "accept",
+      "reason": "An enabling reporting framework exists, but the exact administrative assurance of completeness and accuracy is not exhausted by that framework. The concern is not a factual claim that no ministry or reporting duty is named; unresolved remains fair.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-draft",
+          "locator": "FahrlG §§ 32, 57–58 and rationale",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-15",
+      "verdict": "accept",
+      "reason": "Current Annex 7 and proposed table independently show B road-driving time 30 to 25 minutes; total exam time 55 to 40 is a distinct quantity. Five-minute claim is supported.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-fev",
+          "locator": "Annex 7 point 2.3",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FeV Annex 7 amendment, physical p. 44",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-16",
+      "verdict": "accept",
+      "reason": "Five fewer minutes reduce available observation time mechanically, but the full reliability/selection effect is not quantified by the inspected sources. Preserve unresolved rather than assuming a safety effect.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-fev",
+          "locator": "Annex 7 point 2.3",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FeV amendment and rationale",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-17",
+      "verdict": "accept",
+      "reason": "Operative package simultaneously changes several instruction, access and examination conditions. Causal isolation is harder in an uncontrolled before/after comparison; this does not rule out a designed evaluation.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "Articles 1–3 and Article 9",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-18",
+      "verdict": "accept",
+      "reason": "Current FeV § 16 permits theory at most three months before minimum age; the proposal requires passed theory before lay practice. Combination supports earliest start, subject to the actual future version.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrPraxAnlV § 3, physical p. 28",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-fev",
+          "locator": "§ 16(3), § 10 and § 48a",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-19",
+      "verdict": "accept",
+      "reason": "Proposal requires 1,000 km, an observation drive, further professional units/readiness and a practical test. The three-month language concerns using the maximum BF17 period; it is not an expiry rule forbidding later completion.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrPraxAnlV §§ 7–8, physical pp. 29–30",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-fev",
+          "locator": "§ 17(1),(5)",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-20",
+      "verdict": "accept",
+      "reason": "Independent ministry evaluation releases report lower post-licence accident/violation rates and an association with longer accompaniment. This supports experience as a safety mechanism; observational selection and other BF17 features prevent an isolated causal effect estimate.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-bf17-evaluation",
+          "locator": "Primary ministry release, 12 July 2007, evaluation results",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-21",
+      "verdict": "accept",
+      "reason": "Ordinance rationale physical pp. 63–65 explicitly contrasts the 35-unit median existing example with a minimum-unit lay example, calls it an individual illustrative case and says uptake is unknown. Contextual author comparison is supported; it does not establish average realised savings.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "Cost model, physical pp. 61–65",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-22",
+      "verdict": "accept",
+      "reason": "With a positive per-unit price and fixed other components, extra professional units add cost arithmetically. Future number of extra units and actual net effects remain forecasts.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "Cost model, physical pp. 61–65",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-ace-23",
+      "verdict": "accept",
+      "reason": "FahrPraxAnlV §§ 2–4 requires a suitable insured vehicle and eligible named companion. The legal access condition is supported; prevalence and income distribution are not measured here.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrPraxAnlV §§ 2, 4–5, physical pp. 27–29",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-01",
+      "verdict": "accept",
+      "reason": "Independently reread current § 1/Annex 1 and M330 printed p. 61: the 2018 instructor reform strengthened pedagogical competence and added assessment as a competence area. Current course includes 1,080 curriculum units plus placement; full pathway contains additional phases.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-fahrlausbv-current",
+          "locator": "§ 1 and Annex 1",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Historical discussion of instructor reform and assessment, printed pp. 13–17, 60–61",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-02",
+      "verdict": "accept",
+      "reason": "Annex 1 independently gives 525 pedagogical/psychological units in the 1,080-unit curriculum, 48.6%. Context is course content in the preceding sentence. This must not be presented as half every hour of introduction, placements and reflection.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-fahrlausbv-current",
+          "locator": "Annex 1: initial class BE course",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-03",
+      "verdict": "accept",
+      "reason": "The exact old ministry wording and its removal date were not authenticated. Broad ministry safety priorities do not authenticate a historical verbatim quote. Retain unresolved without imputing fabrication.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-eckpunkte",
+          "locator": "Physical p. 1",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-04",
+      "verdict": "revise",
+      "reason": "The official 16 October 2025 paper and fresh ministry release corroborate publication and public presentation on that date. Neither independently establishes the exact press-conference event. Do not mark the entire combined event proposition supported merely by narrowing it to publication; retain unresolved for the event component, with date/publication supported.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-eckpunkte",
+          "locator": "Dated cover and contents, physical pp. 1–3",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "driving-a-dfa-05",
+      "verdict": "accept",
+      "reason": "Current FahrschAusbO § 1 and competency curriculum explicitly include attitudes, responsibility and conduct alongside rules. Support concerns aims and relevant curricular functions, not proof every classroom changes each learner’s attitudes.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-fahrschausbo",
+          "locator": "§§ 1–4 and Annex 1",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Goals/curriculum and learning-form discussion",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-06",
+      "verdict": "accept",
+      "reason": "The comparative causal weight of attitudes versus deficient rule knowledge is not established by curriculum aims or general safety literature. Outcome unresolved is appropriate.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Training goals and learner characteristics; section 4.2",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-dmv-home-study",
+          "locator": "Study measures and limitations",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-07",
+      "verdict": "accept",
+      "reason": "Operative § 3 permits presence, synchronous, asynchronous and blended formats by learner choice; it permits fully digital preparation, without forcing all learners to study alone.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-2026-root-br365",
+          "locator": "FahrschAusbV § 3, physical p. 10",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-eckpunkte",
+          "locator": "Physical p. 1",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-08",
+      "verdict": "accept",
+      "reason": "Original p. 2 links the stronger inability claim to pure question memorisation. The DMV study instead tests structured curricula and interactive home courses; it cannot falsify that precise premise. Nor does it establish zero practical/attitude learning from all memorisation. Unresolved is conservative.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Section 4.2, printed pp. 127–135",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-dmv-home-study",
+          "locator": "Printed pp. 18–26",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-09",
+      "verdict": "accept",
+      "reason": "M330 identifies self-regulation, infrastructure and digital literacy as conditions; limited access or skill can impede preparation. The author’s forecast of actual exclusion is separately excluded, not treated as a measured realised effect.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Sections 4.2.3–4.2.4, printed pp. 130–134",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-10",
+      "verdict": "accept",
+      "reason": "Positive environment is a broad, plausible educational claim, but the exact causal bundle and magnitude are not isolated by the inspected reports. Missing direct support is not an error.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "General teaching-quality and e-learning discussion",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-11",
+      "verdict": "accept",
+      "reason": "M330 printed pp. 127–135 explicitly says German empirical comparisons were absent and recommends designs from wider evidence. It does not experimentally establish which subjects must physically be taught. Retain unresolved for the author’s stronger must wording and preserve the recommendation interpretation.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Sections 4.2.1–4.2.5, printed pp. 127–135",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-12",
+      "verdict": "accept",
+      "reason": "M330 discusses blended potential with learner/design conditions and possible extra learning-time confounding. The DMV original studies a different structured setting and supports comparable knowledge/attitude learning, not German blended superiority. The can/good-results scope is supportable; universal dominance remains unproven.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Sections 4.2.3–4.2.5",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-dmv-home-study",
+          "locator": "Method/results",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-13",
+      "verdict": "accept",
+      "reason": "Extended study time can be designed, but near-zero incremental production, platform, support and learner costs were not independently established. Retain unresolved quantitative feasibility premise.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Blended-learning concept, printed pp. 132–135",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-14",
+      "verdict": "accept",
+      "reason": "M330 printed pp. 132–134 identifies self-regulation, motivation and instructional structure as conditions for self-directed learning. This supports a conditional requirement, not a claim all adolescents lack capacity.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-m330",
+          "locator": "Printed pp. 132–134",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-15",
+      "verdict": "accept",
+      "reason": "M348 is a qualitative review plus market screening/expert competence mapping, not a crash-effect trial. Its protected environment, lower/different stress and repeatable tasks support the statement’s functional can scope. No guaranteed anxiety or total-training effect is inferred.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-m348-moving",
+          "locator": "Abstract; sections 2 and 5.2, printed pp. 42, 120–122",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-16",
+      "verdict": "accept",
+      "reason": "M348 printed pp. 120–122 discusses transfer limitations and explicitly says simulator training cannot wholly substitute current practical road training. Supported for contemporary training capabilities, not an eternal technology impossibility.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-m348-moving",
+          "locator": "Section 5.2, printed pp. 120–122",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-17",
+      "verdict": "accept",
+      "reason": "Law permits different routes; it does not measure manual demand or require every school to retain a manual car. Retain unresolved whole market/operational inference.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-eckpunkte",
+          "locator": "Physical p. 2",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-fev",
+          "locator": "§ 17a",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-18",
+      "verdict": "accept",
+      "reason": "FeV § 17a(1) distinguishes an actual prior manual examination from B197 school certification. Certain later BE/C/D automatic tests otherwise create a restriction. Supported conditional legal point, not a blanket obligation on every school.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-fev",
+          "locator": "§ 17a(1),(3)–(4)",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-19",
+      "verdict": "accept",
+      "reason": "Annex 1 independently covers traffic/legal/technical, teaching, education, advice, assessment, communication and social competence. Current qualification premise is supported.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-fahrlausbv-current",
+          "locator": "Annex 1 competence domains and § 1",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-20",
+      "verdict": "accept",
+      "reason": "Never in the complete history of the system is stronger than the inspected contemporary rules. BF17 occurs after the practical test; that does not prove the historical universal. Retain unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-fev",
+          "locator": "§§ 15–17 and § 48a",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        },
+        {
+          "source_id": "driving-a-fahrschausbo",
+          "locator": "§§ 1–6",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    },
+    {
+      "claim_id": "driving-a-dfa-21",
+      "verdict": "accept",
+      "reason": "Fresh official 16 October 2025 ministry release and Eckpunkte both state approximately €3,400. This corroborates the ministry reference, not a new independent current cost distribution.",
+      "evidence_checks": [
+        {
+          "source_id": "driving-a-eckpunkte",
+          "locator": "Physical p. 1",
+          "review_action": "Independently reopened relevant legal, survey or research context; scope assessed in reason."
+        }
+      ]
+    }
+  ],
+  "omissions": [],
+  "sources": [
+    {
+      "url": "https://www.bmv.de/SharedDocs/DE/Pressemitteilungen/2025/050-schnieder-reformvorschlaege-fahrausbildung.html",
+      "local_file": "research/factual-checks/driving-2026/sources/br-bmv-presentation.html",
+      "sha256": "efc76517a1be5b28ce4e84776e9206a88bba4f92e1bcef7edcfb51761398f88c",
+      "http_status": 200,
+      "bytes": 190598,
+      "usable_as_evidence": true,
+      "id": "driving-br-bmv-presentation",
+      "retrieved_at": "2026-10-25T11:20:09.380784+00:00",
+      "title": "BMV: Reform proposals presented on 16 October 2025",
+      "temporal_limit": "Dated official publication predates the September 2026 response; current retrieval may include later navigation or updates. Publication/date and relevant evaluation summary independently read; no inference of a reconstructed exact press event or isolated causal effect."
+    },
+    {
+      "url": "https://www.mw.niedersachsen.de/startseite/uber_uns/presse/presseinformationen/fuehrerschein-mit-17-109164.html",
+      "local_file": "research/factual-checks/driving-2026/sources/br-bf17-ministry.html",
+      "sha256": "6ee6b8d99279163edc16f91febc0eee7a18f8bae50014ac17cfe99166a252c20",
+      "http_status": 200,
+      "bytes": 101283,
+      "usable_as_evidence": true,
+      "id": "driving-br-bf17-ministry",
+      "retrieved_at": "2026-10-25T11:20:11.227335+00:00",
+      "title": "Niedersachsen ministry: BF17 evaluation and duration association, 28 September 2012",
+      "temporal_limit": "Dated official publication predates the September 2026 response; current retrieval may include later navigation or updates. Publication/date and relevant evaluation summary independently read; no inference of a reconstructed exact press event or isolated causal effect."
+    }
+  ],
+  "limitations": [
+    "This is a complete review of the nine short author pages and all 44 raw assessments, with targeted primary-source checks; it is not an exhaustive review of every education study.",
+    "Long evidence reports were read only for relevant methods/results: M330 physical 16–17, 61–62, 128–136; M348 physical 43–44, 116–122; DMV executive physical 4–10. Law and draft passages described in individual checks were independently reopened.",
+    "The precise ordinance bytes before each author are not authenticated; current law and proposals remain distinct. No unresolved claim is promoted to error and no intent is inferred."
+  ],
+  "reopened_evidence_snapshots": [
+    {
+      "local_file": "research/factual-checks/driving-2026/sources/a-ace-forsa.pdf",
+      "sha256": "0a407a83d9dcd6b3d7ba482e9f17321423be929efb184f9ab0086b1d0da7b6f7"
+    },
+    {
+      "local_file": "research/factual-checks/driving-2026/sources/a-fahrlausbv-current.html",
+      "sha256": "6be259b30f01aa5e9891fd6fe3e383ab770b7350f4ea6d1759bce06a3c419dd2"
+    },
+    {
+      "local_file": "research/factual-checks/driving-2026/sources/a-fev.html",
+      "sha256": "16e502c3cd50531d7021724d1584b1e1a6ea896a59ae8986936f53c5c517c91e"
+    },
+    {
+      "local_file": "research/factual-checks/driving-2026/sources/a-fahrschausbo.html",
+      "sha256": "c29f2fd309b2b662fd9c3ab725a2cc43e871810cf5451a78f16392924e98f40c"
+    },
+    {
+      "local_file": "research/factual-checks/driving-2026/sources/a-m330.pdf",
+      "sha256": "db3d7f9dc8d643b7004a4df42ed3efd934d75378be3843d6effe471dac8a4153"
+    },
+    {
+      "local_file": "research/factual-checks/driving-2026/sources/a-m348-moving.pdf",
+      "sha256": "718e3a4bcd2d1fe49cf740a0741d083f322f0144d54d8b3ea8de730eaa5ca48f"
+    },
+    {
+      "local_file": "research/factual-checks/driving-2026/sources/a-dmv-home-study.pdf",
+      "sha256": "540a79cec3762fcbc7ac08942a61805efa7bf04a2b3e30f827e9c15422ccdaa2"
+    },
+    {
+      "local_file": "research/factual-checks/driving-2026/sources/a-bf17-evaluation.html",
+      "sha256": "2a4652b9be87caaffcf57a37204802f49bbd2143c52b23a1398ec2ab28cae5c9"
+    },
+    {
+      "local_file": "research/factual-checks/driving-2026/sources/root-br365.pdf",
+      "sha256": "e2891fc67c5afa333d35cc19c3212198b8b6252ca2963c0cf096504ced5544cc"
+    }
+  ],
+  "page_omission_audit": [
+    {
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        1
+      ],
+      "conclusion": "All potentially material testable premises are covered by the claim inventory; policy preferences, unquantified future effects and incidental matter appropriately excluded. No additional material omission identified."
+    },
+    {
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        2
+      ],
+      "conclusion": "All potentially material testable premises are covered by the claim inventory; policy preferences, unquantified future effects and incidental matter appropriately excluded. No additional material omission identified."
+    },
+    {
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        3
+      ],
+      "conclusion": "All potentially material testable premises are covered by the claim inventory; policy preferences, unquantified future effects and incidental matter appropriately excluded. No additional material omission identified."
+    },
+    {
+      "document_id": "bt-transport-1221858",
+      "pdf_pages": [
+        4
+      ],
+      "conclusion": "All potentially material testable premises are covered by the claim inventory; policy preferences, unquantified future effects and incidental matter appropriately excluded. No additional material omission identified."
+    },
+    {
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        1
+      ],
+      "conclusion": "All potentially material testable premises are covered by the claim inventory; policy preferences, unquantified future effects and incidental matter appropriately excluded. No additional material omission identified."
+    },
+    {
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        2
+      ],
+      "conclusion": "All potentially material testable premises are covered by the claim inventory; policy preferences, unquantified future effects and incidental matter appropriately excluded. No additional material omission identified."
+    },
+    {
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        3
+      ],
+      "conclusion": "All potentially material testable premises are covered by the claim inventory; policy preferences, unquantified future effects and incidental matter appropriately excluded. No additional material omission identified."
+    },
+    {
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        4
+      ],
+      "conclusion": "All potentially material testable premises are covered by the claim inventory; policy preferences, unquantified future effects and incidental matter appropriately excluded. No additional material omission identified."
+    },
+    {
+      "document_id": "bt-transport-1221860",
+      "pdf_pages": [
+        5
+      ],
+      "conclusion": "All potentially material testable premises are covered by the claim inventory; policy preferences, unquantified future effects and incidental matter appropriately excluded. No additional material omission identified."
+    }
+  ],
+  "summary": {
+    "all_claims_reviewed": 44,
+    "accept": 41,
+    "revise": 3,
+    "new_error_candidates": 0,
+    "additional_material_omissions": 0
+  },
+  "schema_repair": {
+    "kind": "Source registry field normalization only",
+    "original_snapshot": "research/factual-checks/driving-2026/reviews/snapshots/b-reviews-a-v1.json",
+    "original_sha256": "9c2798556ad74cf9f404b49719ddd380defdf71d80be510f8891dc4f0a93b205",
+    "changes": "source_id to id; retrieved_at_utc to retrieved_at; title and temporal_limit supplied. All substantive review outcomes, reasons, evidence checks and other content preserved."
+  }
+}

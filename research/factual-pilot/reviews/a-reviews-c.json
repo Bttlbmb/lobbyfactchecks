@@ -1,0 +1,802 @@
+{
+  "reviewer": "A",
+  "reviewed_file": "research/factual-pilot/agents/claims-c.json",
+  "reviewed_sha256": "d664f6931e8f7d5231b10a0d857fe0353f3c634f9ce2cd5f6ea020fa97776c44",
+  "reviewed_at_utc": "2026-10-25T09:02:55.227066+00:00",
+  "documents_reread": [
+    {
+      "document_id": "bmwe-kltgv-2026-008",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "method": "Complete original text independently re-read before inventory; full page context rechecked.",
+      "visual_checks": [
+        2,
+        3
+      ]
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-010",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "method": "Complete original text independently re-read before inventory; full page context rechecked.",
+      "visual_checks": [
+        4
+      ]
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-011",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "method": "Complete original text independently re-read before inventory; full page context rechecked.",
+      "visual_checks": [
+        2
+      ]
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "kltgv-008-01",
+      "verdict": "accept",
+      "reason": "KSpTG§4a(3)imports EnWG§49 and draftp17identifies corresponding CO2rules; source does not imply every engineering matter is resolved.",
+      "evidence_checks": [
+        {
+          "source_id": "root-kspg",
+          "locator": "§4a(3) sentence2",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "root-enwg49",
+          "locator": "§49(1)–(2)",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "root-draft",
+          "locator": "rationale §2 physical17",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-02",
+      "verdict": "revise",
+      "reason": "Substance correct, but effective-date locator should beGasHDrLtgV§21plus header/textnachweis, not§20(existing pipelines). Retain supported.",
+      "evidence_checks": [
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "heading, effective-date footnote, §20",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-03",
+      "verdict": "accept",
+      "reason": "The three enumerated additions match draft§3(1). Strongest context concerns design additions, so omission of§3(2)/(3)from this sentence is not an inaccurate count of the entire section.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(1) physical3–4",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-04",
+      "verdict": "accept",
+      "reason": "Core CO2phase-transition premise independently supported bySINTEF2013/2021andHSE. Preserve explicit ordinary dry-natural-gas operating-context limitation: natural gas mixtures can condense, so do not endorse universal physical impossibility for natural gas.",
+      "evidence_checks": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "scope1; terms3.6–3.8,3.20",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-zenodo-depressurization",
+          "locator": "dataset description and test conditions",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-doe-cslf2015",
+          "locator": "report CO2 transport, §4.4.1.3 dynamic phenomena",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-depressurization-preprint",
+          "locator": "abstract p1; introduction p3–4; experimentalmethod and initialconditions",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "a-sintef-2013",
+          "locator": "pp3–5,10–11",
+          "check": "Independently gathered primary modelling countercheck:state/composition/temperature matter; limited model stops at bubble inception."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-05",
+      "verdict": "accept",
+      "reason": "Draft§3(1)3andUSGSlow-lying accumulation description support the conditional hazard. No inference that oxygen displacement is the only mechanism of CO2toxicity.",
+      "evidence_checks": [
+        {
+          "source_id": "c-usgs-co2",
+          "locator": "Carbon dioxide trapped in low-lying areas section",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "root-draft",
+          "locator": "§3(1)number3",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-06",
+      "verdict": "accept",
+      "reason": "IndependentSINTEFdynamic-flow/depressurisation studies andHSEmaterials guidance confirm composition/state influences. No universal threshold inferred.",
+      "evidence_checks": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction; scope1; terms3.3–3.8",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "contents and2025revision points14–17",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-doe-cslf2015",
+          "locator": "report CO2 transport, §4.4.1.2 corrosion and §4.4.1.3",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "a-sintef-2013",
+          "locator": "pp3–5,10–11",
+          "check": "Independently gathered primary modelling countercheck:state/composition/temperature matter; limited model stops at bubble inception."
+        },
+        {
+          "source_id": "a-hse-co2",
+          "locator": "ConveyingCO2;updated25February2026",
+          "check": "Independent regulator corroboration of materials,water,fracture and composition principles."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-07",
+      "verdict": "accept",
+      "reason": "Catalogue existence ofC260/C463does not resolve exact official-notice status or full coverage ofnew§3duties. Unresolved is appropriate; absence from search is not evidence of absence.",
+      "evidence_checks": [
+        {
+          "source_id": "c-dvgw-c260",
+          "locator": "publisher catalogue2022-04",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "publisher catalogue2025-06",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "root-draft",
+          "locator": "rationale§2 physical17",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-08",
+      "verdict": "accept",
+      "reason": "PublisherC260title/2022edition andC463references support subject matter only. Fulltext adequacy is correctly not claimed.",
+      "evidence_checks": [
+        {
+          "source_id": "c-dvgw-c260",
+          "locator": "title and edition2022-04",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "C260references in published change list",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-09",
+      "verdict": "accept",
+      "reason": "Draft§§2/4andgas§§4–10/19support nationwide safety/oversight/fines architecture. This does not prove administrative speed or identical practice.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "§2;§4; rationalephysical17–19",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§§2–6,9,10,19",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-10",
+      "verdict": "accept",
+      "reason": "ISOofficialscope includes pipeline conversion, whileDVGWC4632025change list discusses conversionAnnexB. In-principle feasibility is supported subject to suitability.",
+      "evidence_checks": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "scope1; TOC§11",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "2025change point24, conversionAnnexB",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "root-kspg",
+          "locator": "§4a(1) corresponding energy-law reuse provisions",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-11",
+      "verdict": "accept",
+      "reason": "Re-readCMAphysical2including full paragraph and statutory§3numbers6/6a: neither definition requires a Land/national border. Per definition is an overgeneralisation. Retain medium materiality as a supporting harmonisation premise, with narrow correction: pipelines may cross borders; nationwide rules remain useful for projects contained within one Land.",
+      "evidence_checks": [
+        {
+          "source_id": "root-kspg",
+          "locator": "§3number6and6a",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "root-draft",
+          "locator": "§1; rationale§1",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-12",
+      "verdict": "revise",
+      "reason": "Porthosdated16April2026shows constructionearly2024/anticipatedstartup2027, supporting a real multi-year example. One integratedtransport/storage project does not establish commonly across a population. Narrow claim_en to large projects can involve multi-year periods and retain supported; otherwise leave general frequency unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "c-porthos-schedule20260416",
+          "locator": "16April2026project announcement",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-dnv-rpf104",
+          "locator": "design/construction/operation scope",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-13",
+      "verdict": "accept",
+      "reason": "DINENISO27913:2026-07establishes European adoption, whereas Commission harmonised-standard term has a separate EU-law meaning. No complete mandate/OJhistory checked; unresolved avoids false contradiction.",
+      "evidence_checks": [
+        {
+          "source_id": "c-din27913",
+          "locator": "edition2026-07; ENISO27913:2025",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-cen-workplan2026",
+          "locator": "CEN/TC474section",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-eu-harmonised",
+          "locator": "definition of harmonised standard",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-14",
+      "verdict": "accept",
+      "reason": "Standard applicability and ongoing work do not establish actual projects’ chosen design basis. Unresolved correctly retains the missing project-population evidence.",
+      "evidence_checks": [
+        {
+          "source_id": "c-din27913",
+          "locator": "EN adoption and edition",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction/scope",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-cen-workplan2026",
+          "locator": "ongoing stream-quality standardisation",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-15",
+      "verdict": "accept",
+      "reason": "Commissiondated6October2025announcement explicitly identifies planned2026CO2market/infrastructure legislation; no later delivery inferred.",
+      "evidence_checks": [
+        {
+          "source_id": "c-commission-initiative",
+          "locator": "6October2025consultationannouncement",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-16",
+      "verdict": "accept",
+      "reason": "CEN2026workprogramme directly listsTC474composition/transport work. AugustDINdraft establishes a subject project but is not needed for earlier existence of the committee programme.",
+      "evidence_checks": [
+        {
+          "source_id": "c-cen-workplan2026",
+          "locator": "TC4742026work programme",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-din18397-drafts",
+          "locator": "DINEN18397entry2026-08",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-008-17",
+      "verdict": "revise",
+      "reason": "Change outcome to unresolved. I independently read the 2022 report at physical/printed pages 20, 101–104, 114 and 133–134. It finds CCS necessary in all six selected contemporary scenarios and strongly favours timely deployment. CMA’s belegt can reasonably summarise that consensus; interpreting it as mathematical proof across every possible pathway overreads ordinary policy prose. RESCUE addresses 2050, so it is not a matching 2045 counterexample. Retain scenario assumptions and uncertainty as methodological limits, not an admitted factual error.",
+      "evidence_checks": [
+        {
+          "source_id": "c-evaluation2022",
+          "locator": "printed20;101;104;114;133",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "kltgv-010-01",
+      "verdict": "accept",
+      "reason": "Operative§2directly confirms corresponding application. July7/July8identity remains qualified.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "§2physical3",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-010-02",
+      "verdict": "accept",
+      "reason": "Gas§2(2)states presumption ofstate-of-the-art compliance. The author’s compressed wording is reasonable if not extended into proof of all regulatory duties.",
+      "evidence_checks": [
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§2(1)–(2)",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-010-03",
+      "verdict": "accept",
+      "reason": "IndependentISOscope confirms traditionalstandards leaveCO2specificissues; C260/C463existence is important counterevidence but does not settle sufficient differentiation/validation. Correctly unresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§1scope",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-dvgw-c260",
+          "locator": "2022catalogue",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "2025revisiondescription",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-010-04",
+      "verdict": "accept",
+      "reason": "Primaryphase/compositionexperiments,DNVresearch andHSEmaterials guidance independently support these engineering issues; inadequacy degree kept separate.",
+      "evidence_checks": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction; terms; TOC§§6–8",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-doe-cslf2015",
+          "locator": "CO2transport§4.4.1.2–3",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-zenodo-depressurization",
+          "locator": "experimentalmetadata",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "a-sintef-2013",
+          "locator": "pp3–5,10–11",
+          "check": "Independently gathered primary modelling countercheck:state/composition/temperature matter; limited model stops at bubble inception."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-010-05",
+      "verdict": "revise",
+      "reason": "Keep supported for absence of an operative criteria catalogue, but expressly record that draft rationale p18already gives examples:measurement,ventilation/extraction,accessrestrictions/instruction. TÜV’s without further concretisation is broader than literal§3wording; examples are not acceptance criteria, so no error follows merely from that omission.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(1)number3physical4; rationalephysical18",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-010-06",
+      "verdict": "accept",
+      "reason": "HSE guidance updated 25 February 2026 explicitly confirms carbonic-acid and water corrosion, and other impurity hazards. The author says can; do not read it as all low dissolved-water amounts necessarily causing severe corrosion. Intensive and small remain unquantified qualifiers.",
+      "evidence_checks": [
+        {
+          "source_id": "c-doe-cslf2015",
+          "locator": "CO2transport§4.4.1.2corrosion",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction/internalcorrosion and TOC§6.7",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "materialandwall-thicknessscope",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "a-hse-co2",
+          "locator": "ConveyingCO2;updated25February2026",
+          "check": "Independent regulator corroboration of materials,water,fracture and composition principles."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-010-07",
+      "verdict": "accept",
+      "reason": "Independently compared official RohrFLtgV section 5: recurring inspections ordinarily every two years, with extension to three years possible for low hazard. Proposed wall-thickness inspection is distinct; red proposal text was visually confirmed.",
+      "evidence_checks": [
+        {
+          "source_id": "c-rohrfltgv5",
+          "locator": "§5(1)number6 and finalsentence",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "ar-rohrfltgv",
+          "locator": "§§5,8 and amendment header",
+          "check": "Independently fetched official combined law and compared operative clauses."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-010-08",
+      "verdict": "accept",
+      "reason": "Official RohrFLtgV section 8(3) requires information to emergency bodies; section 8(2) sets maximum two-year exercise intervals. It does not mandate formal participation in writing plans. Existing limits correctly preserve that distinction.",
+      "evidence_checks": [
+        {
+          "source_id": "c-rohrfltgv8",
+          "locator": "§8(1)–(3)",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "ar-rohrfltgv",
+          "locator": "§§5,8 and amendment header",
+          "check": "Independently fetched official combined law and compared operative clauses."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-010-09",
+      "verdict": "accept",
+      "reason": "Draft section 3(2) expressly excludes gas section 7(1) and substitutes danger removal and a safe operating state. It does not imply every controlled pressure reduction is prohibited.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(2)physical4",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§7(1)",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-010-10",
+      "verdict": "accept",
+      "reason": "SINTEF 2021 experiments and the 2023 preprint independently demonstrate flashing and two-phase phenomena during decompression. Conditional can is important.",
+      "evidence_checks": [
+        {
+          "source_id": "c-zenodo-depressurization",
+          "locator": "authors' datasetdescription and fourinitialstates",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-doe-cslf2015",
+          "locator": "CO2transport§4.4.1.3",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-depressurization-preprint",
+          "locator": "abstract p1; introduction p3–4; experimentalmethod and initialconditions",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "a-sintef-2013",
+          "locator": "pp3–5,10–11",
+          "check": "Independently gathered primary modelling countercheck:state/composition/temperature matter; limited model stops at bubble inception."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-011-01",
+      "verdict": "accept",
+      "reason": "VNG acknowledges the operative construction/operation words and the broader intention. The textual description is supported; legal ambiguity remains interpretive.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "§2physical3; rationale§2physical17",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-011-02",
+      "verdict": "accept",
+      "reason": "C463 publisher’s detailed 2025 change list and ISO scope cover composition, materials, integrity, fracture and conversion. This establishes topic coverage, not universal adequacy.",
+      "evidence_checks": [
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "2025contents/revisiondescription",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-dvgw-c260",
+          "locator": "2022title",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction/scope/TOC",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-011-03",
+      "verdict": "accept",
+      "reason": "HSE and primary experiments support water- and mixture-related integrity issues; the DOE report explicitly includes SO2 and NOx. Thresholds depend on state, mixture and materials.",
+      "evidence_checks": [
+        {
+          "source_id": "c-doe-cslf2015",
+          "locator": "CO2transport§4.4.1.2",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction/qualityassurancescope",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "a-hse-co2",
+          "locator": "ConveyingCO2;updated25February2026",
+          "check": "Independent regulator corroboration of materials,water,fracture and composition principles."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-011-04",
+      "verdict": "accept",
+      "reason": "DIN publisher metadata shows July 2026 German adoption of EN ISO 27913:2025; ISO scope includes design, operation and conversion. No mandatory legal applicability is assumed.",
+      "evidence_checks": [
+        {
+          "source_id": "c-din27913",
+          "locator": "title/edition2026-07",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction/scope1",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-011-05",
+      "verdict": "revise",
+      "reason": "Standards-body catalogues support an August 2026 draft on composition and integrity, narrower than complete planning/construction/operation requirements. Add temporal precision: a nominal August edition does not independently establish its exact public release day by 10 August. The author could know the working draft, so this is not a contradiction. Supported concerns scope/existence, not final standard status.",
+      "evidence_checks": [
+        {
+          "source_id": "c-din18397-drafts",
+          "locator": "DINEN18397entry2026-08",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-evs-pren18397",
+          "locator": "draftstatusandscope",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-011-06",
+      "verdict": "accept",
+      "reason": "DNV 2024 research and HSE fracture guidance independently confirm running ductile and brittle failure considerations, including requalification principles.",
+      "evidence_checks": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "introduction; TOC§8.1.6,§11andAnnexD",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-dvgw-c463",
+          "locator": "revisionpoints15–17,24",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "a-hse-co2",
+          "locator": "ConveyingCO2;updated25February2026",
+          "check": "Independent regulator corroboration of materials,water,fracture and composition principles."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-011-07",
+      "verdict": "accept",
+      "reason": "SINTEF 2013 phase envelopes and 2021 mixture experiments directly show joint pressure, temperature and composition effects. This does not settle what legal wording already permits.",
+      "evidence_checks": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "terms3.3,3.6–3.8",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-zenodo-depressurization",
+          "locator": "pressure/temperaturetestmetadata",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "a-sintef-2013",
+          "locator": "pp3–5,10–11",
+          "check": "Independently gathered primary modelling countercheck:state/composition/temperature matter; limited model stops at bubble inception."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-011-08",
+      "verdict": "accept",
+      "reason": "No specific safe-pause operating envelope was provided. Unresolved is appropriate; failure to validate an example does not show that all phase transitions are unsafe.",
+      "evidence_checks": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "flowassurancedefinition3.13; denseandgaseousscope",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "c-doe-cslf2015",
+          "locator": "CO2transport§4.4.1.3",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-011-09",
+      "verdict": "accept",
+      "reason": "The additional literal failover requirement is clear in draft section 3(1)2 compared with gas section 3(4). Underlying technical rules may already require redundancy.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(1)number2",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§3(4)finalsentence",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    },
+    {
+      "claim_id": "kltgv-011-10",
+      "verdict": "accept",
+      "reason": "The draft adds all unlawful attempts to gas section 9 accident/danger reporting. Additional administrative burden remains a conditional forecast, not an observed outcome.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(3)physical4",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        },
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§9(1)",
+          "check": "Primary document/metadata re-inspected; assessment compared to full author-page context."
+        }
+      ]
+    }
+  ],
+  "omissions": [
+    {
+      "id": "ar-omission-01",
+      "document_id": "bmwe-kltgv-2026-010",
+      "pdf_pages": [
+        1
+      ],
+      "original_excerpt": "aufgrund ähnlicher Gefahrenpotenziale",
+      "claim_en": "CO2 and gas pipelines have broadly similar hazard potential.",
+      "recommendation": "Add a qualified supported material premise, rather than excluding solely as a qualitative comparison.",
+      "reason": "This factual comparison supports the central choice to borrow the gas framework. HSE’s contemporaneous official guidance cites a risk comparison finding similar risk for loss of containment from dense/supercriticalCO2and highpressure-natural-gaspipelines. Do not generalise to every pressure,route,release or state.",
+      "evidence_checks": [
+        {
+          "source_id": "a-hse-co2",
+          "locator": "Fluid Hazard Classification,updated25February2026",
+          "check": "Officialregulatorstatementreadindependently;conditionsareexplicit."
+        }
+      ]
+    }
+  ],
+  "exclusion_audit": "Other page-based exclusions are acceptable: red proposed text is not current law; hedged cost and administrative benefits are forecasts rather than measured outcomes; corporate self-descriptions are not material policy premises. Original pages were independently re-read for omissions and non-findings, as well as candidate errors.",
+  "candidate_dispositions": [
+    {
+      "claim_id": "kltgv-008-11",
+      "recommendation": "Retain a narrow medium-materiality overstatement, subject to root admission gates."
+    },
+    {
+      "claim_id": "kltgv-008-17",
+      "recommendation": "Do not admit as an error; retain methodological qualifications and unresolved disposition."
+    }
+  ],
+  "limitations": [
+    "No human technical or legal expert confirmation.",
+    "No authenticated July 7 draft; retain the July 8 archive identity qualification.",
+    "Full licensed standards were not comprehensively audited; catalogue topic coverage is not validation.",
+    "No independent 2045 national pathway modelling; 2050 RESCUE cannot refute 2045 necessity.",
+    "Current catalogue edition months are not frozen historical bytes; exact EN 18397 release day not authenticated."
+  ],
+  "stats": {
+    "reviewed_claims": 37,
+    "verdicts": {
+      "accept": 32,
+      "revise": 5
+    },
+    "proposed_omissions": 1
+  }
+}

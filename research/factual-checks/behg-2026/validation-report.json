@@ -1,0 +1,674 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "author_snapshot_hashes_checked": 9,
+  "author_text_extractions": [
+    {
+      "document_id": "bt-environment-1222134",
+      "pdf_sha256": "16b6ea68dc0808ad8c41deb0ea3c6caf6c585dcebe6724cc24f7582fa737ab97",
+      "text_file": "research/factual-checks/behg-2026/text/bt-environment-1222134.txt",
+      "text_sha256": "53264ed72ba62fe2d2dc073a41b94d48783b99ed0e39b3fd23247d154a45c9d6",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bt-environment-1222372",
+      "pdf_sha256": "df9d293b47e793dbfb9bad2a51bcda04a4ca35e755d219dc0d92b5b5b91be403",
+      "text_file": "research/factual-checks/behg-2026/text/bt-environment-1222372.txt",
+      "text_sha256": "43ff9c25d2929de0f6aa03be8a90259bbc32a20fa53be5182fd3773bce3fe02f",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bt-environment-1222374",
+      "pdf_sha256": "0e5c9b510ccf175368134f3eb360150d6f3f397d27b0b8d9329f5ff22ec62d24",
+      "text_file": "research/factual-checks/behg-2026/text/bt-environment-1222374.txt",
+      "text_sha256": "c56fa262209458cc35d729043b535188aed671d734e82529ee6b5d08ee271b8e",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bt-environment-1222444",
+      "pdf_sha256": "1c80062f21df64813daa4742f1e6c969f534affe60327cd6232f67e0a5e76d5e",
+      "text_file": "research/factual-checks/behg-2026/text/bt-environment-1222444.txt",
+      "text_sha256": "c13f8f5a6c81b983d51f2356629dc7462e6dcbec2510bfff208ede0e51db29c5",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bt-environment-1222442",
+      "pdf_sha256": "16171e921a88ff950fb5cf7e4ac9587dd4bd148590c3642d7dfbf5771413e475",
+      "text_file": "research/factual-checks/behg-2026/text/bt-environment-1222442.txt",
+      "text_sha256": "dd3690e5b69383f7449227a33754b99e6f99ded9be8e7cf628b7c924122c4a91",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bt-environment-1222672",
+      "pdf_sha256": "960b0358e6083cad3526685b1f534fb596145161f925ab3c49706a6f1180e308",
+      "text_file": "research/factual-checks/behg-2026/text/bt-environment-1222672.txt",
+      "text_sha256": "6eb7e13b03994ccaab7ef59f016bbadb179aabacf65b8b1baf318d3a715891ed",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bt-environment-1222674",
+      "pdf_sha256": "4852479d354546da9015fe2a9e7bdab829186294e0eecf58bb6fd51971ad0548",
+      "text_file": "research/factual-checks/behg-2026/text/bt-environment-1222674.txt",
+      "text_sha256": "fc38601b4799b56808f31a1fb8d460665345893847c5d640fc010aaa8b3dc1a3",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bt-environment-1222756",
+      "pdf_sha256": "cd6b3403b923d85295d722132e10333ed79b90322cc7d79ffacbf565d60e8659",
+      "text_file": "research/factual-checks/behg-2026/text/bt-environment-1222756.txt",
+      "text_sha256": "27b59d937dae3b4166bfed9caaba137a689624ec694878b95439cd9c0c415806",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    },
+    {
+      "document_id": "bt-environment-1222878",
+      "pdf_sha256": "bd81c1d54bc58bfef3838713477d155604c9d63b42816a1e3bcbadef17a427b4",
+      "text_file": "research/factual-checks/behg-2026/text/bt-environment-1222878.txt",
+      "text_sha256": "2ff3783ed8b05c1b6749698869549d182c16ca135efebc0fdf9c56a1c6adb362",
+      "method": "Exact comparison with fresh pdftotext -layout extraction"
+    }
+  ],
+  "claims_checked": 194,
+  "reviews": [
+    {
+      "file": "research/factual-checks/behg-2026/reviews/a-reviews-c.json",
+      "sha256": "6bd11b545c53c68782d85e20017513814d680ad948749e485d85b7d1ac73e27a",
+      "claims_reviewed": 76,
+      "omissions": 2
+    },
+    {
+      "file": "research/factual-checks/behg-2026/reviews/b-reviews-a.json",
+      "sha256": "08b070e393651f7bf369806240e15f30a2a38bf58549968f7e1cdcbd65d191ed",
+      "claims_reviewed": 66,
+      "omissions": 3
+    },
+    {
+      "file": "research/factual-checks/behg-2026/reviews/c-reviews-b.json",
+      "sha256": "d9599120d88708351308318c0abb7cbbad891f13e274a5da7d08c4b6ae666d54",
+      "claims_reviewed": 48,
+      "omissions": 0
+    }
+  ],
+  "archives": [
+    {
+      "source_id": "behg-root-law",
+      "file": "research/factual-checks/behg-2026/sources/behg-root-law.html",
+      "sha256": "ca0ef4cae5948b172cea2912ce85e80a9ffe85b33aaca0f56827df15b6677988"
+    },
+    {
+      "source_id": "behg-root-behv",
+      "file": "research/factual-checks/behg-2026/sources/behg-root-behv.html",
+      "sha256": "a69f7b4b7fca2ed10a5d0d69f85b3d197403d4a9733ae6cec169f4e4b4995db9"
+    },
+    {
+      "source_id": "behg-root-co2cost",
+      "file": "research/factual-checks/behg-2026/sources/behg-root-co2cost.pdf",
+      "sha256": "563c614c75f51f3da2dc7cec70f86f8757e2e848f8d28929be708c0f43e91ee4"
+    },
+    {
+      "source_id": "behg-root-eu2026667",
+      "file": "research/factual-checks/behg-2026/sources/behg-root-eu2026667.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_id": "behg-root-becv-index",
+      "file": "research/factual-checks/behg-2026/sources/behg-root-becv-index.html",
+      "sha256": "baffe73081d800fd30971dae38bf42e9cef618146fa511e665bcd68105f300cd"
+    },
+    {
+      "source_id": "behg-root-ksg",
+      "file": "research/factual-checks/behg-2026/sources/behg-root-ksg.html",
+      "sha256": "d1ae57867220028f6953e0049334ed1c3d4422333ddb7452bdae98722c0dd8ef"
+    },
+    {
+      "source_id": "behg-root-draft",
+      "file": "research/round3-energy/sources/bt217869-behg.pdf",
+      "sha256": "cb48c3954e4777e343788a5f243483a4b431cd4622f0f38728cc9c5b7ca53de3"
+    },
+    {
+      "source_id": "behg-root-becv",
+      "file": "research/factual-checks/behg-2026/sources/behg-root-becv.html",
+      "sha256": "2f21b1265835c8d88c06e2db229f455ae3718a66e26c2cb3a0d236714e3e547d"
+    },
+    {
+      "source_id": "behg-root-co2cost-html",
+      "file": "research/factual-checks/behg-2026/sources/behg-root-co2cost-html.html",
+      "sha256": "9651080852f4d71b4bf2930617d4faec3bf85190d41683d24997716aa7c61c43"
+    },
+    {
+      "source_id": "behg-root-eu2026667-boe",
+      "file": "research/factual-checks/behg-2026/sources/behg-root-eu2026667-boe.pdf",
+      "sha256": "52cf183a478d211f5aa8ac62f77431b2e8d8923d4b55aa60df1acb4e4cc17367"
+    },
+    {
+      "source_id": "behg-root-ministry-dossier",
+      "file": "research/factual-checks/behg-2026/sources/behg-root-ministry-dossier.html",
+      "sha256": "1defa51d073d9765af630a371ecef97c27fef509d9230261093cce0f3a9c00e0"
+    },
+    {
+      "source_id": "behg-root-ministry-refe",
+      "file": "research/factual-checks/behg-2026/sources/behg-root-ministry-refe.pdf",
+      "sha256": "d1be100fe1c50a96986786d070393ae44069a87c7ec07faf1137f59e9356804d"
+    },
+    {
+      "source_id": "behg-root-ministry-cabinet",
+      "file": "research/factual-checks/behg-2026/sources/behg-root-ministry-cabinet.pdf",
+      "sha256": "a8627978060474b42346b7d239770380e2f95eeb34f8dc38ce093f4899b6d968"
+    },
+    {
+      "source_id": "shared-coalition2025",
+      "file": "research/factual-checks/sources/coalition2025.pdf",
+      "sha256": "c0633240e8bbe34d1998cf3ebb916f9adba370936682cad033ffb75d5520a89d"
+    },
+    {
+      "source_id": "behg-root-gmodg-government",
+      "file": "research/factual-checks/behg-2026/sources/root-gmodg-government.html",
+      "sha256": "96ec32d43fc830da636dfb28b2759704763be75380b79c15bbd23bd687ba1a86"
+    },
+    {
+      "source_id": "netzkosten-root-monitoring2025",
+      "file": "research/factual-checks/netzkosten-2026/sources/netzkosten-root-monitoring2025.pdf",
+      "sha256": "29695eeb24c6b6d247ba86adba0f8df54039ef4cbb9380cc466f8c37f921297a"
+    },
+    {
+      "source_id": "behg-a-edgar2026",
+      "file": "research/factual-checks/behg-2026/sources/a-edgar2026.html",
+      "sha256": "abeaa00f8e80aeedb6fc63b438302b294a5e214aa272d87efdcba790728b077d"
+    },
+    {
+      "source_id": "behg-a-ipcc-ar6-ch7",
+      "file": "research/factual-checks/behg-2026/sources/a-ipcc-ar6-ch7.html",
+      "sha256": "d2391a9175bf941fe543439e6fe3802b9c570af3750de1ff6ef166ad4e537b53"
+    },
+    {
+      "source_id": "behg-a-ipcc-ar6-ch3",
+      "file": "research/factual-checks/behg-2026/sources/a-ipcc-ar6-ch3.html",
+      "sha256": "85e3b52cb32b5d8d6c23ad1cd4c6915ffd9a079ad6959b4423c850f624032554"
+    },
+    {
+      "source_id": "behg-a-ipcc-ar6-ch5",
+      "file": "research/factual-checks/behg-2026/sources/a-ipcc-ar6-ch5.html",
+      "sha256": "8b10255b7d55384ae90934661406fad29537a31c28658a450be9127010086240"
+    },
+    {
+      "source_id": "behg-a-ipcc-ar6-ch4",
+      "file": "research/factual-checks/behg-2026/sources/a-ipcc-ar6-ch4.html",
+      "sha256": "40ca5258665f1a69ec5f120a4acd0f8d3cfbb15c4b66450fb1fe20e979b3363d"
+    },
+    {
+      "source_id": "behg-a-ipcc-ar5-spm",
+      "file": "research/factual-checks/behg-2026/sources/a-ipcc-ar5-spm.pdf",
+      "sha256": "92c996def24060809394bc65885b1227b4ca53adf34d1165b5c23161c4fa4ac4"
+    },
+    {
+      "source_id": "behg-a-kalisoras2024",
+      "file": "research/factual-checks/behg-2026/sources/a-kalisoras2024.pdf",
+      "sha256": "293c0ebbcf99173746a2c47467146e639be6f0e1255c7a77ce6263be71de9888"
+    },
+    {
+      "source_id": "behg-a-vvuuren2026",
+      "file": "research/factual-checks/behg-2026/sources/a-vvuuren2026.pdf",
+      "sha256": "da9b08cc7ed4255b7d8594e6e2b75dd688341e2cb7d20567bfbf0d208d6f68a7"
+    },
+    {
+      "source_id": "behg-a-csiro2013",
+      "file": "research/factual-checks/behg-2026/sources/a-csiro2013.html",
+      "sha256": "d3a3d9cfde9b954269c54cf8a3616f24f605e04c458426e4f260069f7c1a38c8"
+    },
+    {
+      "source_id": "behg-a-hereon2022",
+      "file": "research/factual-checks/behg-2026/sources/a-hereon2022.html",
+      "sha256": "22aa363a8557a94c68ce1546c62533f78a4b27809a29a8735b37ef63966df3a2"
+    },
+    {
+      "source_id": "behg-a-wangprinn2010",
+      "file": "research/factual-checks/behg-2026/sources/a-wangprinn2010.pdf",
+      "sha256": "500c845db62f537f129d71a49d31b3de3a17e890c20aac169a5aad00f9223232"
+    },
+    {
+      "source_id": "behg-a-smith2013",
+      "file": "research/factual-checks/behg-2026/sources/a-smith2013.html",
+      "sha256": "f803a54b14cfbdc8ae3985d8a101ee08a7c92e8cd249cbf61adf4e009e2bda8c"
+    },
+    {
+      "source_id": "behg-a-rickels2024",
+      "file": "research/factual-checks/behg-2026/sources/a-rickels2024.html",
+      "sha256": "a3d08ce5bc754136d1636ce7ce77082c0a9cb7038d9dbf2b05a0818ca4fbace6"
+    },
+    {
+      "source_id": "behg-a-bill2019",
+      "file": "research/factual-checks/behg-2026/sources/a-bill2019.pdf",
+      "sha256": "ace34110723572fe8d242bbbe89fbeb48b1e0dac54256659b8ebf2cad322d05f"
+    },
+    {
+      "source_id": "behg-a-bt6164",
+      "file": "research/factual-checks/behg-2026/sources/a-bt6164.pdf",
+      "sha256": "584fd06c8c2f8348f740c5da6e1718dc5c3428c588ea2009b2936427a94260e9"
+    },
+    {
+      "source_id": "behg-a-bt6872",
+      "file": "research/factual-checks/behg-2026/sources/a-bt6872.pdf",
+      "sha256": "edf4aa3228ddd593a40a45f531e963077b561b878ee113314f73d8e71e8e0bec"
+    },
+    {
+      "source_id": "behg-a-lfu2022",
+      "file": "research/factual-checks/behg-2026/sources/a-lfu2022.pdf",
+      "sha256": "5351c2eedcaba230045d2166b893e5c826a9167c9e8b33e4309810ca38214590"
+    },
+    {
+      "source_id": "behg-a-who-heat",
+      "file": "research/factual-checks/behg-2026/sources/a-who-heat.html",
+      "sha256": "d8a6e1a593917108e22799921d4a1b222ef6b9ff68aaf507d3602460de3ba063"
+    },
+    {
+      "source_id": "behg-a-imo2020",
+      "file": "research/factual-checks/behg-2026/sources/a-imo2020.html",
+      "sha256": "c6c9b4bdf398af75b07ea37abdae97717ad1fcc70fb91230ca43c1141bf8caef"
+    },
+    {
+      "source_id": "behg-a-happer2023",
+      "file": "research/factual-checks/behg-2026/sources/a-happer2023.pdf",
+      "sha256": "2c77050398e505fff8612ffa864965930528ebfd1641f105d4ff29d87f92e977"
+    },
+    {
+      "source_id": "behg-a-noaa-co2",
+      "file": "research/factual-checks/behg-2026/sources/a-noaa-co2.txt",
+      "sha256": "42acfe30569dd7134bda3ac3eb74e347a55b5133c3926557410e1b4ec4423f7f"
+    },
+    {
+      "source_id": "behg-a-masselot2023",
+      "file": "research/factual-checks/behg-2026/sources/a-masselot2023.pdf",
+      "sha256": "348e75f1c96558b09de05981534513cb2c674e1090cb5a03fb1b874a077b71ad"
+    },
+    {
+      "source_id": "behg-a-mattsson2026",
+      "file": "research/factual-checks/behg-2026/sources/a-mattsson2026.pdf",
+      "sha256": "68a38aa64eab6980a9faa8ca54beab9669473e6b27d77abd998a9b4839e08063"
+    },
+    {
+      "source_id": "behg-a-uk-carbonbudgets",
+      "file": "research/factual-checks/behg-2026/sources/a-uk-carbonbudgets.html",
+      "sha256": "e36ee2c70d96b9cc20f1867b08bbe98f380e785b1f639af65b6c62e6af006a90"
+    },
+    {
+      "source_id": "behg-a-uk-act1",
+      "file": "research/factual-checks/behg-2026/sources/a-uk-act1.html",
+      "sha256": "e7dd066d80a19f5e48d7e3ab759d32d318a42c7b955a1603ab2f30e28968e29c"
+    },
+    {
+      "source_id": "behg-a-dehstq1",
+      "file": "research/factual-checks/behg-2026/sources/a-dehstq1.pdf",
+      "sha256": "1635a0008952c1e34c883bbb8cf8af01e69ea0053a87d503e384098298f3c446"
+    },
+    {
+      "source_id": "behg-a-dwd-sun",
+      "file": "research/factual-checks/behg-2026/sources/a-dwd-sun.txt",
+      "sha256": "83512a930198078c7d57261da013d67e7cb8d24c9f300416deae6d30cce6b690"
+    },
+    {
+      "source_id": "behg-a-dwd-temp",
+      "file": "research/factual-checks/behg-2026/sources/a-dwd-temp.txt",
+      "sha256": "f36ed3486289e517ff30765815c4c2397697c9abda8279cc4a200a3c55b5164d"
+    },
+    {
+      "source_id": "behg-a-singlife2026",
+      "file": "research/factual-checks/behg-2026/sources/a-singlife2026.html",
+      "sha256": "4df38c8218935ac9facb427fb3f6cdec962519bbee520358f824d831f8ba5d73"
+    },
+    {
+      "source_id": "behg-a-destatislife2025",
+      "file": "research/factual-checks/behg-2026/sources/a-destatislife2025.html",
+      "sha256": "cc9c37bd5f0ac336690cbe26b690a8e112bf791a461f03570a5d1529705a3fb8"
+    },
+    {
+      "source_id": "behg-a-chang2016pdf",
+      "file": "research/factual-checks/behg-2026/sources/a-chang2016pdf.pdf",
+      "sha256": "7052fc6f4b43ab70d6da31834fff4033b814f2134bf6fe175655cafc110e454c"
+    },
+    {
+      "source_id": "behg-a-kalisoras-supplement",
+      "file": "research/factual-checks/behg-2026/sources/a-kalisoras-supplement.pdf",
+      "sha256": "4c19b55670142700f483584f2dbebcce60c4bc387b4625a5e0291e4e8d10053d"
+    },
+    {
+      "source_id": "behg-a-dessler2013pmc",
+      "file": "research/factual-checks/behg-2026/sources/a-dessler2013pmc.html",
+      "sha256": "401de01690803c87c1b984c1ec8b1dbf3d6b21c05654184f3e7b3820c0582a06"
+    },
+    {
+      "source_id": "behg-a-lindzen2011",
+      "file": "research/factual-checks/behg-2026/sources/a-lindzen2011.pdf",
+      "sha256": "2d00c3a94a287939d107e7b5d379c1e2674592dd266b748ad5538389270b5c40"
+    },
+    {
+      "source_id": "behg-a-hereon-original",
+      "file": "research/factual-checks/behg-2026/sources/a-hereon-original.html",
+      "sha256": "3bf36c9bee21048912da750a3759c83ec808a221ca35d93778118b7cafdedb23"
+    },
+    {
+      "source_id": "behg-a-unfccc-overview",
+      "file": "research/factual-checks/behg-2026/sources/a-unfccc-overview.html",
+      "sha256": "624b8716d660d625527610f047967902032729ad580d518037b1b3ad74e2483f"
+    },
+    {
+      "source_id": "behg-a-diw2025",
+      "file": "research/factual-checks/behg-2026/sources/a-diw2025.html",
+      "sha256": "13bb3f0d3d75cab163894479760ca58ac25bf078a1400810cbc055109840f748"
+    },
+    {
+      "source_id": "behg-a-masselot-corrected",
+      "file": "research/factual-checks/behg-2026/sources/a-masselot-corrected.pdf",
+      "sha256": "b82e4db1746f0dd0022494ffd59d7660c9ca5a1fb322b08b6592a93f74f39a21"
+    },
+    {
+      "source_id": "behg-a-masselot-correction",
+      "file": "research/factual-checks/behg-2026/sources/a-masselot-correction.pdf",
+      "sha256": "f92809d0f34b49bf01e9f154c420baf41697d3aad00ad3ccce9ec3b09729432a"
+    },
+    {
+      "source_id": "behg-a-primary-web",
+      "file": "research/factual-checks/behg-2026/sources/a-primary-web-extraction.json",
+      "sha256": "11a996a81d05122e5b6f0b7cbc39d236566b64a165811eaadf5f4253fef2c2d1"
+    },
+    {
+      "source_id": "behg-a-methods-web",
+      "file": "research/factual-checks/behg-2026/sources/a-methods-web-extraction.json",
+      "sha256": "601c6f7720f7e224f3a9d5d5990b3c51e446847031d6d3297a89713ab8c527f6"
+    },
+    {
+      "source_id": "behg-a-kwra-methods-web",
+      "file": "research/factual-checks/behg-2026/sources/a-kwra-methods-web.json",
+      "sha256": "d99dcb926313f8eadba58d49d3cdbf07a5bfc00188e73eda5862087272e026a5"
+    },
+    {
+      "source_id": "behg-b-eex-nehs",
+      "file": "research/factual-checks/behg-2026/sources/b-eex-nehs.html",
+      "sha256": "681a3016ef72a27b00eccebb34cf527101ffd0bba2f3888496e034faf5e17264"
+    },
+    {
+      "source_id": "behg-b-eex-data",
+      "file": "research/factual-checks/behg-2026/sources/b-eex-data.html",
+      "sha256": "ba96a94b326a8c5e34b217b22d29ed030281dcabe17799974faa7a5371f07303"
+    },
+    {
+      "source_id": "behg-b-ecc-circular16",
+      "file": "research/factual-checks/behg-2026/sources/b-ecc-circular16.pdf",
+      "sha256": "4525022a2ca3f79545c686aab58b9d31c7fca382aa6df110393b105ce19c8c99"
+    },
+    {
+      "source_id": "behg-b-becv-law",
+      "file": "research/factual-checks/behg-2026/sources/b-becv-law.html",
+      "sha256": "2f21b1265835c8d88c06e2db229f455ae3718a66e26c2cb3a0d236714e3e547d"
+    },
+    {
+      "source_id": "behg-b-eex-calendar-april",
+      "file": "research/factual-checks/behg-2026/sources/b-eex-calendar-april.pdf",
+      "sha256": "a99ed904e14871ea42682829254f9381ae88609f74ac4b29662760e536ccb765"
+    },
+    {
+      "source_id": "behg-b-auction-csv",
+      "file": "research/factual-checks/behg-2026/sources/b-auction.csv",
+      "sha256": "5c171c0092dbba7932bd063916bc9e5119da9946ebd0d3e1666a477367c20114"
+    },
+    {
+      "source_id": "behg-b-tehg2025",
+      "file": "research/factual-checks/behg-2026/sources/b-tehg2025.html",
+      "sha256": "9b523cffa835654346cd0b89cf8c9f506d17230c2e66c91d53c41e0474ce7181"
+    },
+    {
+      "source_id": "behg-b-ebev2030",
+      "file": "research/factual-checks/behg-2026/sources/b-ebev2030.html",
+      "sha256": "8ce7c3a419466e66b0ef0eba74dacac99b433489c4c9ec8f82db2d4930f2cb19"
+    },
+    {
+      "source_id": "behg-b-ets1-indexed",
+      "file": "research/factual-checks/behg-2026/sources/b-ets1-indexed-extract.json",
+      "sha256": "9c794f12bd2cbd52e6f59c62c3446e5248b600e231431f321754490819f06233"
+    },
+    {
+      "source_id": "behg-b-auction-calculation",
+      "file": "research/factual-checks/behg-2026/sources/b-auction-recomputation.json",
+      "sha256": "9ea8d38f21d3b3c9b50fa16d0491f9effb8d4bce90de33af66faf64693b3ddc5"
+    },
+    {
+      "source_id": "behg-c-gmodg-law",
+      "file": "research/factual-checks/behg-2026/sources/c-gmodg-law.html",
+      "sha256": "3062ef71110c8d3248063caff01d9f825108169b4ccead884d6fffcd82a20748"
+    },
+    {
+      "source_id": "behg-c-destatis-industry",
+      "file": "research/factual-checks/behg-2026/sources/c-destatis-industry.html",
+      "sha256": "63917785737731cd3eac96b80b56e0933ab92f8c5a06476b553f6256758041d5"
+    },
+    {
+      "source_id": "behg-c-bwp-study2026-mirror",
+      "file": "research/factual-checks/behg-2026/sources/c-bwp-study2026-mirror.pdf",
+      "sha256": "4cd9e3f159eb93b6f805e9a71422db29355febd3aa66bfa86c43e2f3a8ead4b6"
+    },
+    {
+      "source_id": "behg-c-ireland-carbon",
+      "file": "research/factual-checks/behg-2026/sources/c-ireland-carbon.html",
+      "sha256": "517de28f84d31b5171eb9c13c84c44f4fce15ff3eb7a43919272a8a22ec1bbd6"
+    },
+    {
+      "source_id": "behg-c-becv",
+      "file": "research/factual-checks/behg-2026/sources/c-becv.html",
+      "sha256": "2f21b1265835c8d88c06e2db229f455ae3718a66e26c2cb3a0d236714e3e547d"
+    },
+    {
+      "source_id": "behg-c-waste-study",
+      "file": "research/factual-checks/behg-2026/sources/c-waste-study.pdf",
+      "sha256": "bfb51c89f99ec0958dcb7ac6e628b91cd76f1fd2777538b8d500601a5a30e9d6"
+    },
+    {
+      "source_id": "behg-c-fos-price2027",
+      "file": "research/factual-checks/behg-2026/sources/c-fos-price2027.pdf",
+      "sha256": "4a37a069d03ed3a823ccf3f83b1e53a9ae8052e8f6022a3c31064062e6f7b9c5"
+    },
+    {
+      "source_id": "behg-c-zks-ktf2027",
+      "file": "research/factual-checks/behg-2026/sources/c-zks-ktf2027.pdf",
+      "sha256": "09dcc368f24f896eae000b97e104caa3a7f48b61bb47f87cf757097514f1f2d8"
+    },
+    {
+      "source_id": "behg-c-uba-distribution",
+      "file": "research/factual-checks/behg-2026/sources/c-uba-distribution.pdf",
+      "sha256": "67ba5ecf6909d6968433686e394c158889a652e495c32bd12d35d9555b208cab"
+    },
+    {
+      "source_id": "behg-c-oeko-klimageld",
+      "file": "research/factual-checks/behg-2026/sources/c-oeko-klimageld.pdf",
+      "sha256": "6312b4622ab1c34e783de24d1f01b23f875c965f3796861769c40b4843bb0343"
+    },
+    {
+      "source_id": "behg-c-fos-nehs2022",
+      "file": "research/factual-checks/behg-2026/sources/c-fos-nehs2022.pdf",
+      "sha256": "36545d86f0446e1ea1010e249a00ec9c7a7473dbd1e36c8ccadd2b2531b8251e"
+    },
+    {
+      "source_id": "behg-c-uba-projections",
+      "file": "research/factual-checks/behg-2026/sources/c-uba-projections.html",
+      "sha256": "46497c34b0ed557737a5ceb3392ebbcb4d5c4b1ab1095d2c58a12daaf30f6829"
+    },
+    {
+      "source_id": "behg-c-eex-nehs",
+      "file": "research/factual-checks/behg-2026/sources/c-eex-nehs.html",
+      "sha256": "681a3016ef72a27b00eccebb34cf527101ffd0bba2f3888496e034faf5e17264"
+    },
+    {
+      "source_id": "behg-c-eex-data",
+      "file": "research/factual-checks/behg-2026/sources/c-eex-data.html",
+      "sha256": "e28655525ca127e01026549e9b2f1d0d0e22184095cf4536d60c85aa79453006"
+    },
+    {
+      "source_id": "behg-c-kfw432-stop",
+      "file": "research/factual-checks/behg-2026/sources/c-kfw432-stop.html",
+      "sha256": "bdc282e007fe38ec343e048083502fba218d721366ba501e79aa880281d2187b"
+    },
+    {
+      "source_id": "behg-c-kfw458",
+      "file": "research/factual-checks/behg-2026/sources/c-kfw458.html",
+      "sha256": "71c37470830151440d25f41e90a3e4bfd5d5a03475c5fd09cb0e89d6a2bec002"
+    },
+    {
+      "source_id": "behg-c-bwp-market202608",
+      "file": "research/factual-checks/behg-2026/sources/c-bwp-market202608.html",
+      "sha256": "9ed7febbdceeeeb6c7a46ed6313c93f567b87348ededf46dfcb4e35151c62a21"
+    },
+    {
+      "source_id": "behg-c-bwp-monitor20261002",
+      "file": "research/factual-checks/behg-2026/sources/c-bwp-monitor20261002.html",
+      "sha256": "e938d088c15ef3da60883f484cf46666e3809920657cc654af2bf4dbd43141d9"
+    },
+    {
+      "source_id": "behg-c-bwp-study2023",
+      "file": "research/factual-checks/behg-2026/sources/c-bwp-study2023.pdf",
+      "sha256": "60af9c8249cf02235d164f38d94f270618ad66ee277b2ebff87079325319b464"
+    },
+    {
+      "source_id": "behg-c-bundestag-ktf",
+      "file": "research/factual-checks/behg-2026/sources/c-bundestag-ktf.html",
+      "sha256": "4a7882ebe8970733c2856f248558d0f8eeaf14170378bcd47ceca9565e46737f"
+    },
+    {
+      "source_id": "behg-c-krwg",
+      "file": "research/factual-checks/behg-2026/sources/c-krwg.html",
+      "sha256": "c8192bbfc2812aa0f206b6aec39847ceff64fc145c82ac1beda70667573c9f75"
+    },
+    {
+      "source_id": "behg-c-bimschg5",
+      "file": "research/factual-checks/behg-2026/sources/c-bimschg5.html",
+      "sha256": "600e37db49f94c6b49989b9b3dd4341c385fcb44d70d2d40859cda46a4ea6545"
+    },
+    {
+      "source_id": "behg-c-eex-auctions",
+      "file": "research/factual-checks/behg-2026/sources/c-eex-auctions.csv",
+      "sha256": "5c171c0092dbba7932bd063916bc9e5119da9946ebd0d3e1666a477367c20114"
+    },
+    {
+      "source_id": "behg-c-eex-sales",
+      "file": "research/factual-checks/behg-2026/sources/c-eex-sales.csv",
+      "sha256": "2a052059b51ec1bf242c599628877a86ade8c0ae392597f75f8fe1bbe64dcf6a"
+    },
+    {
+      "source_id": "behg-c-eex-calendar2026",
+      "file": "research/factual-checks/behg-2026/sources/c-eex-calendar2026.pdf",
+      "sha256": "a99ed904e14871ea42682829254f9381ae88609f74ac4b29662760e536ccb765"
+    },
+    {
+      "source_id": "behg-c-hesse-inflation202609",
+      "file": "research/factual-checks/behg-2026/sources/c-hesse-inflation202609.html",
+      "sha256": "0bdbcbaca098a13d51bb04ca35ea1dd3d5a90e8a5f0049232c93046c974630a9"
+    },
+    {
+      "source_id": "behg-c-bavaria-inflation202609",
+      "file": "research/factual-checks/behg-2026/sources/c-bavaria-inflation202609.html",
+      "sha256": "005dfde37decccf39426494049832dd992e0fd14f85c6bf0a0fb44cddcb3c309"
+    },
+    {
+      "source_id": "behg-c-eu-ets2-calendar",
+      "file": "research/factual-checks/behg-2026/sources/c-eu-ets2-calendar.html",
+      "sha256": "b988211ff627f7c64fc298040696b2deddc8aa29232418a49a3c03cf056878fd"
+    },
+    {
+      "source_id": "behg-c-hhbgl2027",
+      "file": "research/factual-checks/behg-2026/sources/c-hhbgl2027.pdf",
+      "sha256": "4ccd01839f14b8671997fb248e908eb605111082a180132dccaa821d3c8eee11"
+    },
+    {
+      "source_id": "behg-c-pricebrakes-government2024",
+      "file": "research/factual-checks/behg-2026/sources/c-pricebrakes-government2024.pdf",
+      "sha256": "96687480e9546fb1cbdb4d71eab9d2a60d12f2e6b4e576a51f366aadec955301"
+    },
+    {
+      "source_id": "behg-c-primary-web",
+      "file": "research/factual-checks/behg-2026/sources/c-primary-web-extract.json",
+      "sha256": "c20c0f0ee7786b3aa0571d1b3520af42aea141de5a079998faad5511186b14ab"
+    },
+    {
+      "source_id": "behg-c-model-calendar-web",
+      "file": "research/factual-checks/behg-2026/sources/c-model-calendar-web-extract.json",
+      "sha256": "54eb3ca29bb3961ecf9bce7578cbb13ebad7b2e56d2379585960f3d29b64b5af"
+    },
+    {
+      "source_id": "behg-c-com616-directive-web",
+      "file": "research/factual-checks/behg-2026/sources/c-com616-directive-web-extract.json",
+      "sha256": "c631b257d4a042d2830d98a46a5a506cf834d65b41bdd7d98f9af67dcc54fa19"
+    },
+    {
+      "source_id": "behg-ar-ar-primary-web-checks",
+      "file": "research/factual-checks/behg-2026/sources/ar-primary-web-checks.json",
+      "sha256": "0ca06a6a425c483042fcfc274bb829944122549b14b08359362816719e9b9834"
+    },
+    {
+      "source_id": "behg-ar-ar-primary-search-checks",
+      "file": "research/factual-checks/behg-2026/sources/ar-primary-search-checks.json",
+      "sha256": "005a8b5bc2223b0016756ad99bfe4bb6c0fe63711e184ff0c2472f418b537e43"
+    },
+    {
+      "source_id": "behg-ar-ar-source-verification",
+      "file": "research/factual-checks/behg-2026/sources/ar-source-verification.json",
+      "sha256": "90bda267684952ad87707afa093e5b6677ef206bf18bd71f369591710db3479b"
+    },
+    {
+      "source_id": "behg-br-kalisoras",
+      "file": "research/factual-checks/behg-2026/sources/br-kalisoras.html",
+      "sha256": "91660ae61a2e7669077d57b6e4b615f3cefdd734e8b5b15ea8182e0a9f27752a"
+    },
+    {
+      "source_id": "behg-br-scenariomip",
+      "file": "research/factual-checks/behg-2026/sources/br-scenariomip.html",
+      "sha256": "c5bf02868907968ba4f26b1962646a89adee2764a14aa8546507fcae6f3bdd5f"
+    },
+    {
+      "source_id": "behg-br-ipccspm",
+      "file": "research/factual-checks/behg-2026/sources/br-ipccspm.pdf",
+      "sha256": "37c9fa760757524c8d69630a89cecab9ebcacb66786970a3439da0619875e446"
+    },
+    {
+      "source_id": "behg-br-masselot",
+      "file": "research/factual-checks/behg-2026/sources/br-masselot.pdf",
+      "sha256": "b82e4db1746f0dd0022494ffd59d7660c9ca5a1fb322b08b6592a93f74f39a21"
+    },
+    {
+      "source_id": "behg-br-trenberth",
+      "file": "research/factual-checks/behg-2026/sources/br-trenberth.pdf",
+      "sha256": "710c0866ab4aa5aa978632d8a2ed97d75b120d7bcf76b8c29dbee0e61ead62ac"
+    },
+    {
+      "source_id": "behg-br-masselot-corrected",
+      "file": "research/factual-checks/behg-2026/sources/br-masselot-corrected-author.pdf",
+      "sha256": "b82e4db1746f0dd0022494ffd59d7660c9ca5a1fb322b08b6592a93f74f39a21"
+    },
+    {
+      "source_id": "behg-br-masselot-correction",
+      "file": "research/factual-checks/behg-2026/sources/br-masselot-correction.pdf",
+      "sha256": "f92809d0f34b49bf01e9f154c420baf41697d3aad00ad3ccce9ec3b09729432a"
+    },
+    {
+      "source_id": "behg-br-sunshine-calc",
+      "file": "research/factual-checks/behg-2026/sources/br-sunshine-recalculation.json",
+      "sha256": "acd139dc16dd96750d3ab60aeb01bac3713ff4b1957d6e464a3b128bc39c64b4"
+    },
+    {
+      "source_id": "behg-cr-ecc16",
+      "file": "research/factual-checks/behg-2026/sources/cr-ecc16.pdf",
+      "sha256": "4525022a2ca3f79545c686aab58b9d31c7fca382aa6df110393b105ce19c8c99"
+    },
+    {
+      "source_id": "behg-cr-tehg",
+      "file": "research/factual-checks/behg-2026/sources/cr-tehg.html",
+      "sha256": "9b523cffa835654346cd0b89cf8c9f506d17230c2e66c91d53c41e0474ce7181"
+    },
+    {
+      "source_id": "behg-cr-ebev",
+      "file": "research/factual-checks/behg-2026/sources/cr-ebev.html",
+      "sha256": "8ce7c3a419466e66b0ef0eba74dacac99b433489c4c9ec8f82db2d4930f2cb19"
+    },
+    {
+      "source_id": "behg-cr-calculation",
+      "file": "research/factual-checks/behg-2026/sources/cr-auction-recalculation.json",
+      "sha256": "2a7220bcbdd26479d191544f413e90a084c4173ae76eaa882ace074479dc8f6f"
+    }
+  ]
+}

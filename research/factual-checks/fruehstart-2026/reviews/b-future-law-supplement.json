@@ -1,0 +1,120 @@
+{
+  "reviewer": "b",
+  "created_at_utc": "2026-10-25T11:34:47.791236+00:00",
+  "purpose": "Supplement frozen initial/review access gaps using independently reread promulgated future law; no raw claim or peer file edited.",
+  "reviewed_snapshots": [
+    {
+      "local_file": "research/factual-checks/fruehstart-2026/agents/claims-c.json",
+      "sha256": "5ddd9106eed62e461a99fd154a99b1af0522ad86b2015dfd9e2ae3f0e6b44554"
+    },
+    {
+      "local_file": "research/factual-checks/fruehstart-2026/agents/claims-a.json",
+      "sha256": "e5b3656339ade07d2b5f801313024b109a4c2b312e76aef8bc0ebcd5a2fd6b95"
+    },
+    {
+      "local_file": "research/factual-checks/fruehstart-2026/agents/claims-b.json",
+      "sha256": "10302346e1404781e7a307d7a8d124d6e7cc45f3201c7dbd1b10984b041f1f6e"
+    },
+    {
+      "local_file": "research/factual-checks/fruehstart-2026/reviews/a-reviews-c.json",
+      "sha256": "ba59887a742e020ecf3f3855b2da06d85c62860fe933956d3fc77c02ac9c913a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "fruehstart-root-altreform2026",
+      "title": "Promulgated Altersvorsorgereformgesetz26May2026, BGBl2026 I156,29May",
+      "url": "https://www.recht.bund.de/bgbl/1/2026/156/regelungstext.pdf?__blob=publicationFile&v=1",
+      "retrieved_at": "2026-10-25T11:26:52.470382+00:00",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/root-altreform2026.pdf",
+      "sha256": "88e8bedbc87566c0943433e767a1f2b42d3089adade3235e38f2acf153dc04ce",
+      "http_status": 200,
+      "usable_as_evidence": true,
+      "temporal_limit": "Official promulgated Mayact, not consolidatedcurrent AltZertG. Map futureeffective operative amendments and commencement before applying to2027proposed scheme. Only relevant sections read; not a new screening target."
+    },
+    {
+      "id": "fruehstart-br-priips-indexed",
+      "title": "Official EUR-Lex indexed text of Annex VI, cost composition and total-cost indicator",
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A02017R0653-20230101",
+      "retrieved_at": "2026-10-25",
+      "local_file": "research/factual-checks/fruehstart-2026/sources/br-priips-web-extraction.json",
+      "sha256": "790eaba62db5e5a76c8d676f19bfa3b0da5f0049d980de4fed8ee0d31027ffa7",
+      "temporal_limit": "Explicit search-tool extraction of official EUR-Lex sources, not original HTML/PDF. Direct retrieval was challenged/empty. Consolidated 1 January 2023 indexed text and original 2017 methodology compared; later methodological amendments not exhaustively reconstructed.",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "fruehstart-br-priips2023",
+      "title": "EU delegated regulation 2017/653, consolidated 1 January 2023, Annex VI cost methodology",
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX%3A02017R0653-20230101",
+      "retrieved_at": "2026-10-25T11:33:10.550685+00:00",
+      "temporal_limit": "Consolidated 1 January 2023 primary EU text predates the October 2026 response. Specific Annex VI methodology incorporated by the promulgated German future provision; later technical amendments, if any, not exhaustively reconstructed.",
+      "http_status": 202,
+      "local_file": "research/factual-checks/fruehstart-2026/sources/br-priips2023.pdf",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "usable_as_evidence": false,
+      "failed_access": true,
+      "error": "HTTP 202 empty response, no usable PDF bytes. Browser HTML/PDF routes also returned robot challenges."
+    }
+  ],
+  "primary_read_extent": [
+    {
+      "source_id": "fruehstart-root-altreform2026",
+      "physical_pdf_pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        23
+      ],
+      "contents": "Article 6 future AltZertG § 1(1b)–(1e), § 2a; Article 14 commencement."
+    },
+    {
+      "source_id": "fruehstart-br-priips-indexed",
+      "contents": "Annex VI one-off/distribution and recurring cost categories; total-cost indicator paras. 61–62; current consolidated identification. Indexed official source text only; direct access failures retained."
+    }
+  ],
+  "claim_recommendations": [
+    {
+      "claim_id": "fruehstart-2026-c-032",
+      "proposed_result": "supported",
+      "reason": "Promulgated Article 6 enacts AltZertG § 2a(1)–(2): effective costs, measured as reduction in contractual return by the Annex VI total-cost methodology, at most 1.0% for § 1(1c) standard depots. § 1(1c) provides two risk-class fund options, a default contribution split if the saver does not choose, and scheduled de-risking to at most 50% in the higher-risk fund five years before payout and 30% two years before/at payout. The saver can request other percentages. Article 14(2) starts Article 6 on 1 January 2027. This resolves the exact future-rule access gap.",
+      "limits": "It is an enacted future rule for the proposed 2027 scheme, not an October 2026 already-operative requirement. The ceiling is effective-cost reduction in yield, not a simple annual cash-fee maximum; preset lifecycle percentages can be changed by the saver. It does not guarantee a loss-free product."
+    },
+    {
+      "claim_id": "fruehstart-2026-c-008",
+      "proposed_result": "supported",
+      "reason": "The factual cost-coverage component is now supportable for acquisition/distribution costs charged within the standard-depot contract. Future § 2a(1) covers costs reducing the contract return and expressly incorporates the total-cost indicator. Official Annex VI indexed text includes entry/distribution/marketing cost categories and aggregates one-off, recurring and incidental costs into the return-reduction measure. A separate acquisition/distribution cost ban is legally different from an aggregate ceiling.",
+      "limits": "Do not infer that a 1% ceiling makes a ban unnecessary or assures equal effective access to every distribution model; those are policy/effect claims. The rule does not automatically capture every independently billed third-party advisory fee outside the contract, and PRIIPs disclosure itself flags possible extra seller/adviser fees. The author’s paragraph concerns the product-contract charge prohibition, which defines this supported scope. Exact independent web retrieval was challenged; indexed official methodology is explicitly labelled."
+    }
+  ],
+  "affected_a_claims": [
+    {
+      "claim_id": "fruehstart-a-malmendier-12",
+      "recommendation": "Remain unresolved; no change to A peer recommendation.",
+      "reason": "The enacted standard-depot contract/lifecycle rules reinforce that it can continue into adult retirement saving; they do not impose universal re-conclusion of an existing individual contract at 18. The collective late-transfer choice/cutoff still comes from the separate Frühstart bill."
+    },
+    {
+      "claim_id": "fruehstart-a-bonfig-23",
+      "recommendation": "Remain supported.",
+      "reason": "Future § 1(1) no. 5 also corroborates the €6,840 contract contribution cap, while the Frühstart bill separately defines additional contributions and tax treatment."
+    }
+  ],
+  "affected_b_claims": [
+    {
+      "claim_ids": [
+        "frueh-b-dk-03",
+        "frueh-b-gdv-04",
+        "frueh-b-gdv-11",
+        "frueh-b-gdv-16"
+      ],
+      "recommendation": "Supported outcomes remain; add promulgated source as stronger direct future-law evidence.",
+      "reason": "Exact enacted effective-cost, electronic-conclusion and two-OGAW structure are now directly authenticated. Earlier current-consolidation access qualification can be resolved for these specific provisions; no distribution/advice-market outcome is thereby proven."
+    }
+  ],
+  "limitations": [
+    "No new error candidate. This supplement does not change the original frozen files or substitute an aggregate cost ceiling for a particular fee ban.",
+    "DGUV/external eligibility and BioStoffV draft identity are unrelated and remain outside this supplement."
+  ]
+}

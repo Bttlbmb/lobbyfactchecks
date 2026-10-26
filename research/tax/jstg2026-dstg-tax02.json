@@ -1,0 +1,170 @@
+{
+  "law_id": "jstg-2026",
+  "document_id": "dstg-jstg-2026",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "social_digital_independent_ai",
+        "date": "2026-10-24",
+        "review_file": "research/reviews/social-reviews-tax.json",
+        "outcome": "supports_provisional_minor_true_after_severity_reassessment",
+        "specialist_review": false
+      }
+    ],
+    "materiality_followup": {
+      "reviewer": "tax_consultations_ai",
+      "date": "2026-10-24",
+      "outcome": "minor_favours_request_true",
+      "basis": "Potential subsection miscitation, conditional argument on page 5, and unresolved application of other AI Act provisions limit the demonstrated materiality. Root adjudicated minor after independent reassessment.",
+      "preserves_earlier_review": true
+    }
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "first recorded",
+      "by": "tax_consultations_ai"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Reclassified from major to minor after fresh context and materiality challenge; lead researcher concurred. Proven source mismatch retained, broader tax-AI classification and retention lawfulness left undecided.",
+      "by": "tax_consultations_ai"
+    }
+  ],
+  "id": "jstg2026-dstg-tax02",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Annual federal tax changes, including AI development by tax authorities.",
+    "they_want": "Retain AI training data for at least three years.",
+    "they_claim": "Tax scoring regularly falls within AI Act Annex III 5(d).",
+    "the_problem": "That provision covers emergency calls, dispatch and triage."
+  },
+  "claim_quote": {
+    "original": "Anhang III Nr. 5 lit. d",
+    "language": "de",
+    "translation_en": "Translation: Annex III no.5 point(d)",
+    "locator": {
+      "pdf_page": 4,
+      "section": "III.3, paragraph beginning Vor allem aber"
+    },
+    "underline": "Nr. 5 lit. d"
+  },
+  "request_quote": {
+    "original": "mindestens drei Jahre",
+    "language": "de",
+    "translation_en": "Translation: at least three years",
+    "locator": {
+      "pdf_page": 5,
+      "section": "III.3, final paragraph"
+    }
+  },
+  "counter_quote": {
+    "original": "KI-Systeme, die bestimmungsgemäß zur Bewertung und Klassifizierung von Notrufen von natürlichen Personen",
+    "source_id": "ai-act2024-1689",
+    "locator": {
+      "section": "Annex III,5(d)"
+    },
+    "retrieved_at": "2026-10-24",
+    "language": "de",
+    "translation_en": "Translation of fragment: AI systems intended to evaluate and classify emergency calls from natural persons"
+  },
+  "correction": "Annex III 5(d) concerns emergency-call evaluation, emergency-service dispatch and triage. It does not classify tax scoring. Other provisions may apply to particular tax or enforcement uses; classification requires their actual purpose.",
+  "effect": "Removes the cited subsection as support for the classification premise; a properly supported alternative classification could leave the retention argument intact.",
+  "limits": "Does not classify any actual tax AI, determine that no other provision applies, settle retention necessity, or decide the draft’s lawfulness. A subsection miscitation could explain the mismatch. The author’s conditional argument must be preserved.",
+  "materiality_explanation": "Minor after adversarial reassessment: the cited subsection plainly concerns emergency systems, but the established error is its description or citation. Particular tax systems might fall under other provisions, and the following paragraph conditions the remedy argument on high-risk status. The narrower correction does not establish that the broader retention request fails.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment",
+    "submission_provenance": "high_author_copy_independently_verified"
+  },
+  "context_checked": "Page 4 says tax-risk scoring regularly counts under the cited annex. Page 5 later qualifies the effective-remedy argument with soweit; that qualification does not change the content of 5(d). Article 9 itself requires lifecycle risk management for systems within scope, but no conclusion on retention duration is made here. A mistaken subsection number is a plausible explanation, but the text also expressly describes tax scoring as regularly covered. No intent is inferred.",
+  "draft": {
+    "title": "Referentenentwurf eines Jahressteuergesetzes 2026",
+    "version_date": "2026-05-19",
+    "version_time": "10:22",
+    "source_id": "jstg2026-refe",
+    "submission_date": null,
+    "submission_date_note": "Undated PDF; author announcement and PDF metadata both 2026-06-15. Do not use 2026-08-12 government draft as comparison.",
+    "process_status_at_screen": "Ongoing: BT 21/8283 first reading 2026-10-08; hearing announced for 2026-11-02.",
+    "comparison": "Compared to the 151-page ministerial draft dated 19.05.2026 10:22; § 29c amendment on PDF p 28, explanation on PDF pp 129–130."
+  },
+  "sources": [
+    {
+      "id": "dstg-jstg2026-author",
+      "title": "Stellungnahme der Deutschen Steuer-Gewerkschaft zum Referentenentwurf eines Jahressteuergesetzes 2026",
+      "url": "https://www.dstg.de/fileadmin/user_upload/www_dstg_de/pdf/Stellungnahmen/Stellungnahme_JStG_2026.pdf",
+      "local_file": "research/tax/dstg-jstg2026-author-original.pdf",
+      "retrieved_at": "2026-10-24",
+      "provenance_note": "Independent agent retrieved directly from author website. Full pdftotext-layout output matches mirror; binary PDFs differ. Submission undated; author announcement 15 June 2026. See research/reviews/social-reviews-tax.json."
+    },
+    {
+      "id": "bmf-jstg2026-consultation",
+      "title": "BMF consultation dossier JStG 2026",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-05-19-JStG2026/0-Gesetz.html",
+      "retrieved_at": "2026-10-24",
+      "access": "Search-index content available; direct HTTP 503."
+    },
+    {
+      "id": "dstg-20260615-news",
+      "title": "DSTG zum JStG 2026: Modernisierung ja, aber praxistauglich",
+      "url": "https://www.dstg.de/pressekontakt/news-archiv/news/dstg-zum-jstg-2026-modernisierung-ja-aber-praxistauglich/",
+      "date": "2026-06-15",
+      "retrieved_at": "2026-10-24"
+    },
+    {
+      "id": "jstg2026-refe",
+      "title": "Referentenentwurf JStG 2026, Bearbeitungsstand 19.05.2026 10:22",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-05-19-JStG2026/1-Referentenentwurf.pdf?__blob=publicationFile&v=2",
+      "access": "Original indexed but direct 503; full corresponding mirror retrieved.",
+      "mirror_url": "https://bundestagszusammenfasser.de/wp-content/uploads/rewp21/1261_Referentenentwurf.pdf",
+      "local_file": "research/tax/jstg2026-refe-20260519-mirror.pdf"
+    },
+    {
+      "id": "ai-act2024-1689",
+      "title": "Regulation (EU) 2024/1689, official German text",
+      "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?qid=1753435357718&uri=CELEX%3A32024R1689",
+      "retrieved_at": "2026-10-24",
+      "locator": {
+        "section": "Annex III 5(d); Art 6; Art 9"
+      },
+      "access": "Relevant German text retrieved through the indexed EUR-Lex result; direct page triggered a JavaScript check and its PDF was not archived. The separate adopted Council-text source below was successfully archived."
+    },
+    {
+      "id": "ai-act-council-adopted-2024-de",
+      "title": "Adopted and signed German AI Act text, PE-CONS 24/1/24 REV 1, 13 June 2024",
+      "url": "https://data.consilium.europa.eu/doc/document/PE-24-2024-REV-1/de/pdf",
+      "local_file": "research/root/ai-act-adopted-council-2024-de.pdf",
+      "retrieved_at": "2026-10-24",
+      "sha256": "fa96f13318e77a4d71328267f2e1b29d2220af248dbf7e05efc7ddef662fba1d",
+      "note": "Accessible primary adopted text; PDF page 386 is Annex III printed page 3. Corroborates the exact German wording also indexed in the Official Journal; not an earlier proposal."
+    }
+  ],
+  "additional_counter_source": {
+    "source_id": "ai-act-council-adopted-2024-de",
+    "locator": {
+      "pdf_page": 386,
+      "printed_page": 3,
+      "section": "AnhangIII,5(d)"
+    },
+    "verification": "Relevant page rendered and visually checked by lead researcher."
+  },
+  "temporal_note": "The narrow correction concerns the actual content of Annex III 5(d), not the application date of high-risk obligations. Do not read this finding as a determination that Article 9 already applied to all systems in June 2026. The Digital Omnibus timeline is a separate issue.",
+  "additional_claim_quotes": [
+    {
+      "original": "regelmäßig zählen",
+      "language": "de",
+      "translation_en": "Translation: regularly count [as high-risk systems]",
+      "locator": {
+        "pdf_page": 4,
+        "section": "III.3, same sentence as Annex III 5(d) reference"
+      },
+      "note": "Separate verbatim fragment of the same sentence; the paraphrase in card.they_claim describes its full assertion."
+    }
+  ],
+  "direction_explanation": "True for the narrow source mismatch: attributing tax scoring to the cited high-risk category supplies support for the requested longer retention period. Correcting the citation does not establish that the systems are outside every other category or that the policy request is wrong."
+}

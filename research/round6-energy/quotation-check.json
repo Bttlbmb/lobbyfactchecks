@@ -1,0 +1,68 @@
+{
+  "checks": [
+    {
+      "case": "krwg2026-itad-prevention-target-energy-r6-02",
+      "field": "claim_quote",
+      "literal_whitespace_normalized_match": true,
+      "page": 20,
+      "source_id": "itad-krwg-20260807"
+    },
+    {
+      "case": "krwg2026-itad-prevention-target-energy-r6-02",
+      "field": "request_quote",
+      "literal_whitespace_normalized_match": true,
+      "page": 20,
+      "source_id": "itad-krwg-20260807"
+    },
+    {
+      "case": "krwg2026-itad-prevention-target-energy-r6-02",
+      "field": "counter_quote",
+      "literal_whitespace_normalized_match": true,
+      "page": 6,
+      "source_id": "krwg-refe-20260626-r6"
+    },
+    {
+      "case": "izg2026-biesemann-seaports-energy-r6-03",
+      "field": "claim_quote",
+      "literal_whitespace_normalized_match": true,
+      "page": 5,
+      "source_id": "biesemann-izg-20260223-r6"
+    },
+    {
+      "case": "izg2026-biesemann-seaports-energy-r6-03",
+      "field": "request_quote",
+      "literal_whitespace_normalized_match": true,
+      "page": 4,
+      "source_id": "biesemann-izg-20260223-r6"
+    },
+    {
+      "case": "izg2026-biesemann-seaports-energy-r6-03",
+      "field": "counter_quote",
+      "literal_whitespace_normalized_match": true,
+      "page": 1,
+      "source_id": "seehafen-finanzhilfen-law-r6"
+    },
+    {
+      "case": "krwg2026-itad-recycling-method-energy-r6-01",
+      "field": "claim_quote",
+      "literal_whitespace_normalized_match": true,
+      "page": 8,
+      "source_id": "itad-krwg-20260807"
+    },
+    {
+      "case": "krwg2026-itad-recycling-method-energy-r6-01",
+      "field": "request_quote",
+      "literal_whitespace_normalized_match": true,
+      "page": 9,
+      "source_id": "itad-krwg-20260807"
+    },
+    {
+      "case": "krwg2026-itad-recycling-method-energy-r6-01",
+      "field": "counter_quote",
+      "literal_whitespace_normalized_match": true,
+      "page": 1,
+      "source_id": "eurostat-municipal-2026-r6"
+    }
+  ],
+  "limits": "Whitespace-normalized exact fragments checked against retained active PDF and stated physical page. Not a substitute for contextual review. No new quotations added."
+}

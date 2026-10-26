@@ -1,0 +1,59 @@
+{
+  "reviewer": "b",
+  "status": "frozen_complete",
+  "created_at_utc": "2026-10-25T22:23:27.834680+00:00",
+  "reviewed_file": "research/factual-checks/short-statements-20261025/agents/claims-a.json",
+  "reviewed_sha256": "b3444bb4e8564b1fe9bb08c8acc7af6ec158324d65644a38f674ecb0047e8ce5",
+  "scheduled_peer_file": "research/factual-checks/short-statements-20261025/reviews/b-reviews-a.json",
+  "scheduled_peer_sha256": "068eeaed80f13d4bca5ecd01bbe732c72f0b2f7f367cd2df16caabfa185c643f",
+  "source": {
+    "id": "short-br-rsv-price-dossier",
+    "title": "MSD Clesrovimab ENFLONSIA Module 3A manufacturer benefit-assessment dossier, 28 April 2026",
+    "url": "https://www.g-ba.de/downloads/92-975-9935/2026_04_28_Modul3A_Clesrovimab.pdf",
+    "retrieved_at": "2026-10-25T22:23:27.834680+00:00",
+    "local_file": "research/factual-checks/short-statements-20261025/sources/br-rsv-price-followup-note.json",
+    "sha256": "e182c867b514290e3f71fb2961a1e98d62b459af228f885cb4eddf377d59b72a",
+    "local_file_kind": "authored_primary_check_notes",
+    "observed_original_sha256": "737c54e91b9db7424270d9806a05d8c1febc5a1c16dbfcd41d9899728594140f",
+    "temporal_limit": "March comparator price only. Neither a September matched price pair nor complete realised insurer expenditure; manuscript placeholders do not prove an absent market price months later.",
+    "read_extent": "Cover and contents for identity; complete section 3.3.3 on physical pages 62–63, preceding Nirsevimab dose paragraph on 62, method paragraph and reference context on 70. Physical page 63 independently rendered and visually read. No full 87-page reading claimed.",
+    "usable_as_evidence": true,
+    "retention_exception": "Concise authored supplemental review note; shared temporary original not duplicated."
+  },
+  "claim_reviews": [
+    {
+      "claim_id": "short-a-007",
+      "verdict": "accept",
+      "proposed_result": "unresolved",
+      "reason": "New primary lead gives a dated comparator but no numeric Clesrovimab price. Broad cost direction and the exact 14 percent/EUR 60 difference both still require a same-date, same-rebate-basis pair. Arithmetic compatibility is not independent validation; missing data do not contradict the author.",
+      "evidence_checks": [
+        {
+          "source_id": "short-br-rsv-price-dossier",
+          "locator": "Physical pp. 62–63 and 70; table and method independently read, p. 63 visually checked."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-a-048",
+      "verdict": "accept",
+      "proposed_result": "unresolved",
+      "reason": "New primary lead gives a dated comparator but no numeric Clesrovimab price. Broad cost direction and the exact 14 percent/EUR 60 difference both still require a same-date, same-rebate-basis pair. Arithmetic compatibility is not independent validation; missing data do not contradict the author.",
+      "evidence_checks": [
+        {
+          "source_id": "short-br-rsv-price-dossier",
+          "locator": "Physical pp. 62–63 and 70; table and method independently read, p. 63 visually checked."
+        }
+      ]
+    }
+  ],
+  "independent_arithmetic": {
+    "conditional_percent_times_march_comparator": "0.14 × 427.56 = 59.8584 EUR",
+    "conditional_60_euro_percent_of_comparator": "60 / 427.56 × 100 = 14.033118 percent",
+    "scope": "This checks numerical compatibility only. The unknown Clesrovimab price is not back-solved and presented as independently observed."
+  },
+  "limitations": [
+    "Both original insurer responses are dated 3 September 2026; receipt not verified. April manufacturer filing and March price lookup are not silently treated as September price data.",
+    "Current matched gross/net pair, rebate scope and date remain unverified; no price-error finding is proposed.",
+    "Scheduled peer, raw claims and assembled ledger remain unchanged; parent may add this evidence note through explicit adjudication."
+  ]
+}

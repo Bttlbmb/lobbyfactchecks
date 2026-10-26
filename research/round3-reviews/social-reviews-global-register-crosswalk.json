@@ -1,0 +1,2554 @@
+{
+  "audit_id": "social-independent-global-register-crosswalk",
+  "as_of_utc": "2026-10-25T04:54:28.720174+00:00",
+  "reviewer": "social_round2 independent AI",
+  "script_logic_read": [
+    "research/round3-root/coverage/crosswalk_register_archives.py",
+    "research/round3-root/coverage/crosswalk_register_text.py"
+  ],
+  "input_hashes": {
+    "research/round3-root/coverage/global-register-archive-crosswalk.json": "76bb5b6319efaf6d83a91ba7d9449a431e4d320b5e10eaeba3483198630e5f8f",
+    "research/round3-root/coverage/global-register-text-mirror-candidates.json": "be66a6dd533b632e1e11b1a647d2490d9fa65e03ca185571d819b73ab5220afa"
+  },
+  "scope": "Candidate collection/identity audit, not factual screening or eligibility determination. All existing binary matches rehashed; all textcandidate paths freshly extracted fromPDFs to check stale-sidecar risk. No fullreading credit.",
+  "counts": {
+    "binary_register_rows": 25,
+    "binary_rows_reverified": 25,
+    "text_candidate_groups": 58,
+    "text_paths_freshly_reextracted": 135,
+    "groups_verified_from_fresh_extraction": 58,
+    "groups_with_low_text_pages": 0
+  },
+  "binary_checks": [
+    {
+      "register_id": "SG2610230010",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2610230010.pdf",
+          "sha256": "061842d593c107a827cce7f28a0a96885dab70e4f8d9e9b7f09eb5d9bfecb962",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-social/coverage-pdfs/c66e09bd49576ad3b9.pdf",
+          "sha256": "061842d593c107a827cce7f28a0a96885dab70e4f8d9e9b7f09eb5d9bfecb962",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2610010027",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2610010027.pdf",
+          "sha256": "49376cbc681f7eecbfdfc5941d26614103fe315e5c90136fa921198fcdc628f8",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-tax/sources/hearing-1216340-response-003.pdf",
+          "sha256": "49376cbc681f7eecbfdfc5941d26614103fe315e5c90136fa921198fcdc628f8",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2610010049",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2610010049.pdf",
+          "sha256": "bf5a2eea6c762364fd0dd1f87f033e2949058d493cb25417b79d806a3c46943d",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-social/coverage-pdfs/0bf7f19d0e93b01ca5.pdf",
+          "sha256": "bf5a2eea6c762364fd0dd1f87f033e2949058d493cb25417b79d806a3c46943d",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2609300222",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2609300222.pdf",
+          "sha256": "44a6ff80a60f409e7e7bf12dcb977e64a521923c2c7750cf16bd21bb9254bee2",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-social/coverage-pdfs/dbb39dd0a9b06ba5b7.pdf",
+          "sha256": "44a6ff80a60f409e7e7bf12dcb977e64a521923c2c7750cf16bd21bb9254bee2",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2609290076",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2609290076.pdf",
+          "sha256": "8f45c1daeb123c8d32b08a9c544af3179ce65b6c7792cd36992772c24f27d4ae",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-energy/sources/bmwe-members/8f45c1daeb123c8d32b0.pdf",
+          "sha256": "8f45c1daeb123c8d32b08a9c544af3179ce65b6c7792cd36992772c24f27d4ae",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2609250027",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2609250027.pdf",
+          "sha256": "40a79c8d5750081842aeb97443ae09083ffeef8e83674fa79f74d70e7a1b1f7b",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-energy/sources/bmwe-members/40a79c8d5750081842ae.pdf",
+          "sha256": "40a79c8d5750081842aeb97443ae09083ffeef8e83674fa79f74d70e7a1b1f7b",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2609250029",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2609250029.pdf",
+          "sha256": "88be59da05c2ca39adab224cd701883df4e2c0b7bf24e261d5bc7a54e20fdaa9",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-energy/sources/bmwe-members/88be59da05c2ca39adab.pdf",
+          "sha256": "88be59da05c2ca39adab224cd701883df4e2c0b7bf24e261d5bc7a54e20fdaa9",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2609180005",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2609180005.pdf",
+          "sha256": "98d592c867b32e2782a3fb13c2bc47f875fc0531374716e762335e21f8d96c83",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-social/coverage-pdfs/7e02ff85c8d3a0cd77.pdf",
+          "sha256": "98d592c867b32e2782a3fb13c2bc47f875fc0531374716e762335e21f8d96c83",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2609150001",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2609150001.pdf",
+          "sha256": "eadff6587d0356ee7a5b5181e94bd6641778df30ad9327dfa822b05d9ebd62f6",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-social/sources/SG2609150001.pdf",
+          "sha256": "eadff6587d0356ee7a5b5181e94bd6641778df30ad9327dfa822b05d9ebd62f6",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2609110020",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2609110020.pdf",
+          "sha256": "07989b50c59150dea99512842f73d1b0efb96bfbc49e3de21d16f556656e7ebe",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-social/coverage-pdfs/c8a140c7d12b5d98b8.pdf",
+          "sha256": "07989b50c59150dea99512842f73d1b0efb96bfbc49e3de21d16f556656e7ebe",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2608240012",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2608240012.pdf",
+          "sha256": "1437a31bae6be165c81b7af78a92769444d3677d7b714b8b94c29bf4c86afb7b",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-energy/sources/bmwe-members/1437a31bae6be165c81b.pdf",
+          "sha256": "1437a31bae6be165c81b7af78a92769444d3677d7b714b8b94c29bf4c86afb7b",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2607290016",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2607290016.pdf",
+          "sha256": "ec17140201d681c4ae546352914c6599681bc373b6ac172f9fd5eefb48f35c96",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-social/coverage-pdfs/84ea4456ca9b2680e2.pdf",
+          "sha256": "ec17140201d681c4ae546352914c6599681bc373b6ac172f9fd5eefb48f35c96",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2608280001",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2608280001.pdf",
+          "sha256": "fcccacc0cbc14c644a7fbbb644d122cdefe745e160fb1f238402d844275be01d",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-energy/sources/bmwe-members/fcccacc0cbc14c644a7f.pdf",
+          "sha256": "fcccacc0cbc14c644a7fbbb644d122cdefe745e160fb1f238402d844275be01d",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2608250002",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2608250002.pdf",
+          "sha256": "b18a921dea91b69b1295fbf9248cc973b357b84e20c9b5c05975254c19fec5c5",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-energy/sources/bmwe-members/b18a921dea91b69b1295.pdf",
+          "sha256": "b18a921dea91b69b1295fbf9248cc973b357b84e20c9b5c05975254c19fec5c5",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2608140010",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2608140010.pdf",
+          "sha256": "4bd991829268e3897499bb0eadcfdbc693751d0049cf14d7463eab580762172f",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-energy/sources/bmwe-members/4bd991829268e3897499.pdf",
+          "sha256": "4bd991829268e3897499bb0eadcfdbc693751d0049cf14d7463eab580762172f",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2608130013",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2608130013.pdf",
+          "sha256": "6fcec758a5867312830dbb7f00ebc1c07c4992f3ccd7bb32952c4f0d73ce3daa",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-energy/sources/bmwe-members/6fcec758a5867312830d.pdf",
+          "sha256": "6fcec758a5867312830dbb7f00ebc1c07c4992f3ccd7bb32952c4f0d73ce3daa",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2608120013",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2608120013.pdf",
+          "sha256": "44a6ff80a60f409e7e7bf12dcb977e64a521923c2c7750cf16bd21bb9254bee2",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-social/coverage-pdfs/dbb39dd0a9b06ba5b7.pdf",
+          "sha256": "44a6ff80a60f409e7e7bf12dcb977e64a521923c2c7750cf16bd21bb9254bee2",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2608120011",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2608120011.pdf",
+          "sha256": "60998306851effcddff3ba24a76d31de5d40e9e9d6ddefa602dd570a1b11e228",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-social/coverage-pdfs/9c6f07e388f3ab1d15.pdf",
+          "sha256": "60998306851effcddff3ba24a76d31de5d40e9e9d6ddefa602dd570a1b11e228",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2608110010",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2608110010.pdf",
+          "sha256": "c4f417d328d100c5ba19ae382fb59da8f21185c24e1f8e3907b7cffcd80e7b0f",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-social/coverage-pdfs/dc2be9c2a5abcce0d2.pdf",
+          "sha256": "c4f417d328d100c5ba19ae382fb59da8f21185c24e1f8e3907b7cffcd80e7b0f",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2608060013",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2608060013.pdf",
+          "sha256": "31047ed09c20ffe48371ac745bd8d981ec207cd042c48bb3d26f4951872c3106",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-social/coverage-pdfs/6ea66987edcb60974e.pdf",
+          "sha256": "31047ed09c20ffe48371ac745bd8d981ec207cd042c48bb3d26f4951872c3106",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2608040027",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2608040027.pdf",
+          "sha256": "b83a3ec7328594defbf8fcf5bd0cc95b00c2c5df57f00179f1753907a1e6ec98",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-social/coverage-pdfs/757431341ee57b52d1.pdf",
+          "sha256": "b83a3ec7328594defbf8fcf5bd0cc95b00c2c5df57f00179f1753907a1e6ec98",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2608010002",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2608010002.pdf",
+          "sha256": "466514deb1b121581cdb1bfc830950fdb7c74cd281c391d40074b7eed1088df4",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-social/coverage-pdfs/05f10d21a373465568.pdf",
+          "sha256": "466514deb1b121581cdb1bfc830950fdb7c74cd281c391d40074b7eed1088df4",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2607290015",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2607290015.pdf",
+          "sha256": "0f7a54ae8993070c182df5d356cf9bb64d8ce7d7c70c7bebce3f4f3f8b2a3252",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-social/coverage-pdfs/6c3232abc499ce3419.pdf",
+          "sha256": "0f7a54ae8993070c182df5d356cf9bb64d8ce7d7c70c7bebce3f4f3f8b2a3252",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2607270013",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2607270013.pdf",
+          "sha256": "ace814c605bc1b614b3856205903cabd38ac84b30869ae42a557f49b3b51a69a",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-energy/sources/bmwe-members/ace814c605bc1b614b38.pdf",
+          "sha256": "ace814c605bc1b614b3856205903cabd38ac84b30869ae42a557f49b3b51a69a",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    },
+    {
+      "register_id": "SG2604270019",
+      "paths": [
+        {
+          "path": "research/round3-root/coverage/register-pdfs/SG2604270019.pdf",
+          "sha256": "b7b18754b42c7e62005fec6506143d8f211e31a78d43074fe5a2d031460f9327",
+          "actual_pdf": true
+        },
+        {
+          "path": "research/round3-root/coverage/package-members/2f571cb5e1284d46fd50.pdf",
+          "sha256": "b7b18754b42c7e62005fec6506143d8f211e31a78d43074fe5a2d031460f9327",
+          "actual_pdf": true
+        }
+      ],
+      "verified": true
+    }
+  ],
+  "text_groups": [
+    {
+      "registered_records": [
+        "SG2608170006"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2610010027"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609250027"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608210013"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608140010"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2607270013"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609250029"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608210014"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608250002"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609280054",
+        "SG2609300263",
+        "SG2609300285",
+        "SG2610020047"
+      ],
+      "paths": 5,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608280001"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608240012"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609280052",
+        "SG2609300261",
+        "SG2609300283",
+        "SG2610020042"
+      ],
+      "paths": 5,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608130013"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609290076"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609240036",
+        "SG2609250023"
+      ],
+      "paths": 3,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609280013"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2610060006",
+        "SG2610060007"
+      ],
+      "paths": 3,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609280065"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2610090020"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609150015"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609230043"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609290148"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2605130032"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609280057",
+        "SG2609300272",
+        "SG2609300292",
+        "SG2610020050"
+      ],
+      "paths": 5,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608130018"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609290083",
+        "SG2609290187"
+      ],
+      "paths": 3,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608050018"
+      ],
+      "paths": 3,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608110005"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2610230010"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2610210032"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2610200007"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2610010049"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608120013",
+        "SG2609300222"
+      ],
+      "paths": 3,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609290173",
+        "SG2609290211"
+      ],
+      "paths": 3,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609290176"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609280017"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609230017"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609200001"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609180005"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609150001"
+      ],
+      "paths": 4,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609110021"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609110020"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609100010"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2609080007"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2607290016"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608240005",
+        "SG2608270012"
+      ],
+      "paths": 3,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608270013"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608210006"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608120011"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608110010"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608110008"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608060013"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608040027"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608030030"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2608010002"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2607290015"
+      ],
+      "paths": 3,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    },
+    {
+      "registered_records": [
+        "SG2604270019"
+      ],
+      "paths": 2,
+      "fresh_equality_verified": true,
+      "low_text_pages": [
+        0
+      ]
+    }
+  ],
+  "fresh_file_checks": [
+    {
+      "path": "research/round3-energy/sources/bmwe-datasets/3a6ba53bcd27a25c.pdf",
+      "actual_pdf": true,
+      "sha256": "d79f82984f19c591b13c8d137de2617fbe4483dc621513f11a9151f4b7d3f4fa",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "c0937935a558bf3b1a03b7c612e83cdfbcc26d40d744468dd670b6d444674ad9",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 7788,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/bmwe-members/1437a31bae6be165c81b.pdf",
+      "actual_pdf": true,
+      "sha256": "1437a31bae6be165c81b7af78a92769444d3677d7b714b8b94c29bf4c86afb7b",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "704ab95ff45f1deaf51b8eba1fb38cb8e331e3f1e28703f88b60177c2de88a54",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 7618,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/bmwe-members/40a79c8d5750081842ae.pdf",
+      "actual_pdf": true,
+      "sha256": "40a79c8d5750081842aeb97443ae09083ffeef8e83674fa79f74d70e7a1b1f7b",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "42eabe9889126a7e41bf261eb9376e249ec93cb832a62aa61bf1c52a515488b8",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 6019,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/bmwe-members/4bd991829268e3897499.pdf",
+      "actual_pdf": true,
+      "sha256": "4bd991829268e3897499bb0eadcfdbc693751d0049cf14d7463eab580762172f",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "f921035d2fd653e102c1e54739c187cfd646c8a6390c2b1498589e53b9f8b99e",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 20627,
+      "fresh_extracted_pages": 12,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/bmwe-members/58b212b27795fa0d2deb.pdf",
+      "actual_pdf": true,
+      "sha256": "58b212b27795fa0d2debd5137e972ba9ca8f0b16cce0a46110fe7e668d4cd62f",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "737442abddf28dfbed8286c249abb7cb729c8290a7f6b0cab59dae9a258358c8",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 11190,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/bmwe-members/6fcec758a5867312830d.pdf",
+      "actual_pdf": true,
+      "sha256": "6fcec758a5867312830dbb7f00ebc1c07c4992f3ccd7bb32952c4f0d73ce3daa",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "bbdfd978264291219689ed24d3479f101cb4ba1ba3467c4a3970492eea00ba7f",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 2643,
+      "fresh_extracted_pages": 1,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/bmwe-members/6fdc7ef6aba69b473fda.pdf",
+      "actual_pdf": true,
+      "sha256": "6fdc7ef6aba69b473fda9b655c5b3491212180d3681a45e8a7ca37c5cc4b4fc1",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d981e8b3539b2c8dd2a8bac569cae6008919ddea578396f6b96ae8dff029d2e2",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 2840,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/bmwe-members/88be59da05c2ca39adab.pdf",
+      "actual_pdf": true,
+      "sha256": "88be59da05c2ca39adab224cd701883df4e2c0b7bf24e261d5bc7a54e20fdaa9",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "42f503b4274081a1c9b68f5cfb7b787c4f91a652a5098bc8fd5559cdf88db9de",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 11907,
+      "fresh_extracted_pages": 6,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/bmwe-members/8f45c1daeb123c8d32b0.pdf",
+      "actual_pdf": true,
+      "sha256": "8f45c1daeb123c8d32b08a9c544af3179ce65b6c7792cd36992772c24f27d4ae",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "0a6475741773e04077ca3577b3deda060a301cf3ea00d2878a29e3ea72be8766",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 12071,
+      "fresh_extracted_pages": 5,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/bmwe-members/ace814c605bc1b614b38.pdf",
+      "actual_pdf": true,
+      "sha256": "ace814c605bc1b614b3856205903cabd38ac84b30869ae42a557f49b3b51a69a",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "557b1bb5b41ace54d496ccf2bb71dc95d3f5716743fdf33edcab86d7ac561483",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 14959,
+      "fresh_extracted_pages": 7,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/bmwe-members/b0128f3065d3dc7663c3.pdf",
+      "actual_pdf": true,
+      "sha256": "b0128f3065d3dc7663c3ed6b39f5242d21eba405c3626d9e2c918a3d7da5c6b7",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "257b507759e57144faa43bc1a5c027e5a7a8b45ce9742499730be69cd2b6eb16",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 18423,
+      "fresh_extracted_pages": 6,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/bmwe-members/b18a921dea91b69b1295.pdf",
+      "actual_pdf": true,
+      "sha256": "b18a921dea91b69b1295fbf9248cc973b357b84e20c9b5c05975254c19fec5c5",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "b7d26e2d8a69e5284a6c6596a04597a35316ed8d34852a9733ac40d17e516876",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 155940,
+      "fresh_extracted_pages": 72,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/bmwe-members/f6292a404d9c0d3b63fb.pdf",
+      "actual_pdf": true,
+      "sha256": "f6292a404d9c0d3b63fb2044ba100ae068b2d27d25f84c60ae6b34990395af17",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "a9fed9c7a0f3baf8c968126f124f70b7a6820611c515004c390c673c1665d137",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 42886,
+      "fresh_extracted_pages": 18,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/bmwe-members/fcccacc0cbc14c644a7f.pdf",
+      "actual_pdf": true,
+      "sha256": "fcccacc0cbc14c644a7fbbb644d122cdefe745e160fb1f238402d844275be01d",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "a472e18b3fd9f02854290016a76d7cbf3fb101964dcef1c3e32a1aedf57b11ef",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4379,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/submissions/ministry-0f1c7be69aec44ca.pdf",
+      "actual_pdf": true,
+      "sha256": "7fc20a2e2c30344d171536849c41167c5891d29d624c3c8e12f7a8f3c1b4231d",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "1f024de94d0da54197fb46a66e2efb103a752c842f2ec66c160b7e0a7d0a813e",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 38520,
+      "fresh_extracted_pages": 15,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/submissions/ministry-122b1763d49c96fd.pdf",
+      "actual_pdf": true,
+      "sha256": "454b9a6d0cb8fe87ade56eb6c499d86e0cc2098cf9b4528babb2953491d20130",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "a9a041819f68e2cf26d228e651386330d23a74707b8b58253844231e66e5cbe3",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 7865,
+      "fresh_extracted_pages": 5,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/submissions/ministry-1279a0d1cccd3985.pdf",
+      "actual_pdf": true,
+      "sha256": "cea02d589c2014202c0dcc38a240282f3e3af81b7bea7c6e62f5a3bf36f8e65a",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "e65ea3696c965266c243cc9561d8c3f237f81b968bf4e2ecacacabdd46b56301",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 19305,
+      "fresh_extracted_pages": 9,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/submissions/ministry-166e56b3149e6828.pdf",
+      "actual_pdf": true,
+      "sha256": "6ef7b5bf3ef8d71f5e83b11ed1464bdd12d01b34a14bfa9e1cba26c0d1a25c17",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "af42112fa422c425614a73ab611b8a5e6e5ada9fb4e845e72f6cc7cf7b06ff6e",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 8851,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/submissions/ministry-1d4b9956c4ff0786.pdf",
+      "actual_pdf": true,
+      "sha256": "fde26400ad9c6b928f46fbf4339d1c4878265854920e7e8799bb9f30e9f3a553",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "23d27c7a8bd8e9c09d67295290c9f9239efffdab7f616f0176640d0039627d37",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 3314,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/submissions/ministry-484f5a57edd58b7b.pdf",
+      "actual_pdf": true,
+      "sha256": "54b4bb47785e009d93c260b67b17ad5893df9c1b45b2e322650ed855c1b6e6ea",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "22409dd92a9a96ae6b4377409503e4004f21ce5cbf20db355f526afb249e9341",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4369,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/submissions/ministry-4cdd8c82006005af.pdf",
+      "actual_pdf": true,
+      "sha256": "bc0a8e4efaaf795727aac55f1fed8f7e4cc303c5bf16eb2e17addb3ef3d46f66",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "917ca9ed9b3935cfe95e1e930991095cb85e35b8497d0da8b2f056d303eb5c5f",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 6775,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/submissions/ministry-4ed1ec47ed0ee973.pdf",
+      "actual_pdf": true,
+      "sha256": "92b306e8135fd9ccc6147d7293314188c97d3f665e6449b5a14fc4a0ad36df0a",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "93ae91890d8e9946ba41fc2b250f8a91878ee282b2800ede62a4a85873fe95bc",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 11682,
+      "fresh_extracted_pages": 5,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/submissions/ministry-8fe41e42afae4032.pdf",
+      "actual_pdf": true,
+      "sha256": "fde26400ad9c6b928f46fbf4339d1c4878265854920e7e8799bb9f30e9f3a553",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "23d27c7a8bd8e9c09d67295290c9f9239efffdab7f616f0176640d0039627d37",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 3314,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/submissions/ministry-9ab8f73ff40c43f2.pdf",
+      "actual_pdf": true,
+      "sha256": "e2e68ec8f26b4b2c5b82511ad4866c2c456e3d2c96f1c15ddbcc0fdfd52b88f9",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "95decedb9b6775ad18b509e21d6c0464c31280eefedb1c6ec8736cf4f640a252",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 19526,
+      "fresh_extracted_pages": 8,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/submissions/ministry-a64bfa1caf3890c9.pdf",
+      "actual_pdf": true,
+      "sha256": "eaf537a103441a89e2a71e283386fe5e0a868f34213a4e6b38d40ec048128caf",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d6af52da6e6660043c649dd1ee6bd103d5738d691e27147626f175c64773330e",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 3426,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/submissions/ministry-bfda2dd7aae89520.pdf",
+      "actual_pdf": true,
+      "sha256": "bfc8b7093dde33acb8d53e7e398a1f895ac1d710b7c7df596ea60b1b68690766",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d5c42b54c3d9d9d129b34d33044933182ebf6dde4919002993875d7ed55f15c0",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4393,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-energy/sources/submissions/ministry-ea950d6289b68534.pdf",
+      "actual_pdf": true,
+      "sha256": "a38e6cf5e3b8f2076fbfee863eff749e431aaa70fdedcb065dbf8c2ae4aa921f",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "679fecd419afcc4208a9c23a579782456bfa04d67e31d79c567f8c6fdc094a12",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 9418,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/package-members/2a0ca7e0bd66dac45116.pdf",
+      "actual_pdf": true,
+      "sha256": "624de90f57e6266b34464cbf5710ba540feeb0f1ac03c1521928f9057233aa58",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "a1be56bf4b0c9dd4031cf640b1a332e01e4ea61bc4347d5d44d72d5deb290a8b",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 16414,
+      "fresh_extracted_pages": 10,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/package-members/2f571cb5e1284d46fd50.pdf",
+      "actual_pdf": true,
+      "sha256": "b7b18754b42c7e62005fec6506143d8f211e31a78d43074fe5a2d031460f9327",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "e6e136b7a852d8f23c64728f042aa177b798df01086071e995518602bde28658",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 6403,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/package-members/4ad8dc289a29234a308d.pdf",
+      "actual_pdf": true,
+      "sha256": "614b10ba3b8dbc7a11728bcac2b49e6b6befab52a938e878ebccfd4dab271cbf",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "3ff67c3779dcd0dfc00a83f1ede43cd6cfca7a5d072ea23cc278868801edccaa",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4516,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2604270019.pdf",
+      "actual_pdf": true,
+      "sha256": "b7b18754b42c7e62005fec6506143d8f211e31a78d43074fe5a2d031460f9327",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "e6e136b7a852d8f23c64728f042aa177b798df01086071e995518602bde28658",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 6403,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2605130032.pdf",
+      "actual_pdf": true,
+      "sha256": "d3ab40600cb7ee2badbde5e8585d8b35e43c14e51824d0b252d24a9081e356ba",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "93ae91890d8e9946ba41fc2b250f8a91878ee282b2800ede62a4a85873fe95bc",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 11682,
+      "fresh_extracted_pages": 5,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2607270013.pdf",
+      "actual_pdf": true,
+      "sha256": "ace814c605bc1b614b3856205903cabd38ac84b30869ae42a557f49b3b51a69a",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "557b1bb5b41ace54d496ccf2bb71dc95d3f5716743fdf33edcab86d7ac561483",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 14959,
+      "fresh_extracted_pages": 7,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2607290015.pdf",
+      "actual_pdf": true,
+      "sha256": "0f7a54ae8993070c182df5d356cf9bb64d8ce7d7c70c7bebce3f4f3f8b2a3252",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "09d9ee4762f37f6dbedd0b7ae02ef3ae19d0dead96c132e205d58d865a5ae9ee",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 32227,
+      "fresh_extracted_pages": 13,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2607290016.pdf",
+      "actual_pdf": true,
+      "sha256": "ec17140201d681c4ae546352914c6599681bc373b6ac172f9fd5eefb48f35c96",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "ba1b367b09e23e078e0534d0851895f225e031a7119922a6676de4fd66d170f3",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 11879,
+      "fresh_extracted_pages": 5,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608010002.pdf",
+      "actual_pdf": true,
+      "sha256": "466514deb1b121581cdb1bfc830950fdb7c74cd281c391d40074b7eed1088df4",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "55e9097ebd86a4d42b8e51e790dc594199f56ba3646ec37fc331414cdb8016f2",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 22740,
+      "fresh_extracted_pages": 8,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608030030.pdf",
+      "actual_pdf": true,
+      "sha256": "f676afb3c28cdc7a79f1b09279fb7d6223c090cc928b24d74c07c54ea25e6527",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "b6c3bfb9dd49ec0c17a46b1fcc559189c37649b93127c131524ac3d2e21a1347",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 30982,
+      "fresh_extracted_pages": 13,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608040027.pdf",
+      "actual_pdf": true,
+      "sha256": "b83a3ec7328594defbf8fcf5bd0cc95b00c2c5df57f00179f1753907a1e6ec98",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d78f5688d28a867092eafc324243037a223598e9e550a0a87f2b99809f23f43c",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 16058,
+      "fresh_extracted_pages": 9,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608050018.pdf",
+      "actual_pdf": true,
+      "sha256": "4728e8bf71969083dc9a43e544930451532f2c3959ad4b945573595d417276df",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "23d27c7a8bd8e9c09d67295290c9f9239efffdab7f616f0176640d0039627d37",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 3314,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608060013.pdf",
+      "actual_pdf": true,
+      "sha256": "31047ed09c20ffe48371ac745bd8d981ec207cd042c48bb3d26f4951872c3106",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "e19f9e6622f8dbff95d18037694e80c628dd9bf0144530948ea0981841e6bf70",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 6442,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608110005.pdf",
+      "actual_pdf": true,
+      "sha256": "a539c41c47bdd6c771f3c5a265028a96386e975dfccda05aa880f22ec4c93b6e",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "3ff67c3779dcd0dfc00a83f1ede43cd6cfca7a5d072ea23cc278868801edccaa",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4516,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608110008.pdf",
+      "actual_pdf": true,
+      "sha256": "d340cb6f2a93f4537e3d3dce6c3f0f2dda1384b1662ac71bc941e7a967529329",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "a1be56bf4b0c9dd4031cf640b1a332e01e4ea61bc4347d5d44d72d5deb290a8b",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 16414,
+      "fresh_extracted_pages": 10,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608110010.pdf",
+      "actual_pdf": true,
+      "sha256": "c4f417d328d100c5ba19ae382fb59da8f21185c24e1f8e3907b7cffcd80e7b0f",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "36ece4f4e66cea9be6f0cd8354c417d2f5ae2009b5fc2c2bcb093b9209da6f34",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 8845,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608120011.pdf",
+      "actual_pdf": true,
+      "sha256": "60998306851effcddff3ba24a76d31de5d40e9e9d6ddefa602dd570a1b11e228",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "53ef2056c32ddfd4810cf69bf6c71f7eb497b38c06e95a531870be636d384cb5",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 30658,
+      "fresh_extracted_pages": 12,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608120013.pdf",
+      "actual_pdf": true,
+      "sha256": "44a6ff80a60f409e7e7bf12dcb977e64a521923c2c7750cf16bd21bb9254bee2",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d7f92bdb4f1ab12421470089661d15ac14179a30f08af6a4192a12d523ec8d4f",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 35165,
+      "fresh_extracted_pages": 15,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608130013.pdf",
+      "actual_pdf": true,
+      "sha256": "6fcec758a5867312830dbb7f00ebc1c07c4992f3ccd7bb32952c4f0d73ce3daa",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "bbdfd978264291219689ed24d3479f101cb4ba1ba3467c4a3970492eea00ba7f",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 2643,
+      "fresh_extracted_pages": 1,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608130018.pdf",
+      "actual_pdf": true,
+      "sha256": "edca753a3b12aba4f52483641bf0170f49503d0221b73d19e5da833f3c3075df",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "679fecd419afcc4208a9c23a579782456bfa04d67e31d79c567f8c6fdc094a12",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 9418,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608140010.pdf",
+      "actual_pdf": true,
+      "sha256": "4bd991829268e3897499bb0eadcfdbc693751d0049cf14d7463eab580762172f",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "f921035d2fd653e102c1e54739c187cfd646c8a6390c2b1498589e53b9f8b99e",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 20627,
+      "fresh_extracted_pages": 12,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608170006.pdf",
+      "actual_pdf": true,
+      "sha256": "8dd94e1201ef35eedfb4f7408ed2379aecf00a1618cb0fce7f9c00ee0f0ca96b",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "0c656f80eb644704b7ca16480b0d5ed05e58dcf63c29137a58fce0f13a9c17ef",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 42073,
+      "fresh_extracted_pages": 22,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608210006.pdf",
+      "actual_pdf": true,
+      "sha256": "487f43c42022ea9583d8d5155a990592b2118aac5e97033a4d457eb2e5b8344e",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "5f5a51a5dd10fb77092a71288918f45cf03ca1f1cc72cf9963011d7a013d8572",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 11156,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608210013.pdf",
+      "actual_pdf": true,
+      "sha256": "851247ffb0d1ea9e8c2ae479b15ddf3242ac8d833f955c89e9a8c917f5d77cc3",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "257b507759e57144faa43bc1a5c027e5a7a8b45ce9742499730be69cd2b6eb16",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 18423,
+      "fresh_extracted_pages": 6,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608210014.pdf",
+      "actual_pdf": true,
+      "sha256": "1f2728f69ff46299a7e73e243c182d2ff0142909fb0cb50c0e0133c1ef1a53c4",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "737442abddf28dfbed8286c249abb7cb729c8290a7f6b0cab59dae9a258358c8",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 11190,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608240005.pdf",
+      "actual_pdf": true,
+      "sha256": "9b2bb1e3b4d6d4cac61c6964c45518cb2dfee91a542ec8b613b7da8d2ee2fbef",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "7b1a4ec7418cff07c57faf66ef1ff6b3903dcb5371808edcef76df78d2b338c2",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 15468,
+      "fresh_extracted_pages": 9,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608240012.pdf",
+      "actual_pdf": true,
+      "sha256": "1437a31bae6be165c81b7af78a92769444d3677d7b714b8b94c29bf4c86afb7b",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "704ab95ff45f1deaf51b8eba1fb38cb8e331e3f1e28703f88b60177c2de88a54",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 7618,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608250002.pdf",
+      "actual_pdf": true,
+      "sha256": "b18a921dea91b69b1295fbf9248cc973b357b84e20c9b5c05975254c19fec5c5",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "b7d26e2d8a69e5284a6c6596a04597a35316ed8d34852a9733ac40d17e516876",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 155940,
+      "fresh_extracted_pages": 72,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608270012.pdf",
+      "actual_pdf": true,
+      "sha256": "9b2bb1e3b4d6d4cac61c6964c45518cb2dfee91a542ec8b613b7da8d2ee2fbef",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "7b1a4ec7418cff07c57faf66ef1ff6b3903dcb5371808edcef76df78d2b338c2",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 15468,
+      "fresh_extracted_pages": 9,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608270013.pdf",
+      "actual_pdf": true,
+      "sha256": "74d0f606831c7a6ff0d23cdf9b72d0422c7d1c80e1c26c631950f9a2a0e098c1",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "ce6bc2f9f68dad34dc10bcdec2a225a48d531d94c6d92e7a5b911b6649cbf769",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 42152,
+      "fresh_extracted_pages": 21,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2608280001.pdf",
+      "actual_pdf": true,
+      "sha256": "fcccacc0cbc14c644a7fbbb644d122cdefe745e160fb1f238402d844275be01d",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "a472e18b3fd9f02854290016a76d7cbf3fb101964dcef1c3e32a1aedf57b11ef",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4379,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609080007.pdf",
+      "actual_pdf": true,
+      "sha256": "6e370092304885133b5c52afcf149d8dc00f2ae3f402326f4e66599335349c65",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "88dbe7cb5f735463994d0f1fc864793db0c58374463b7d158de05b0024630da4",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 2078,
+      "fresh_extracted_pages": 1,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609100010.pdf",
+      "actual_pdf": true,
+      "sha256": "f09d0b08a79439e2c4cccc61b9fafaf7da3b42048989ba8359959fb14234fbde",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "8a42ed4045a8b104c903113aa2998553db24f86a29700282be42b0725b62099e",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 3090,
+      "fresh_extracted_pages": 1,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609110020.pdf",
+      "actual_pdf": true,
+      "sha256": "07989b50c59150dea99512842f73d1b0efb96bfbc49e3de21d16f556656e7ebe",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "3363e58414147a26f04ee35496bd1c31013e4449b4d45ae209b4b44709329750",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 3216,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609110021.pdf",
+      "actual_pdf": true,
+      "sha256": "be1f4867ff85ab7614470cd65a0472e45c7cb4e5f96af2b2414a24a894bbd5ce",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "c568743a603b37dbe14f2469edc5565b297e5128614a88ae1e82421d002b4f3b",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 6370,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609150001.pdf",
+      "actual_pdf": true,
+      "sha256": "eadff6587d0356ee7a5b5181e94bd6641778df30ad9327dfa822b05d9ebd62f6",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "96f2e0b72ca29ae5ce7bd5cc68439522d92c7852b2fa0ab0eae839cbd3383eed",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4236,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609150015.pdf",
+      "actual_pdf": true,
+      "sha256": "0f17f7c4fe3dd7932718c8fa0aeb3accec05d390020064ff473385caab1e1362",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "1f024de94d0da54197fb46a66e2efb103a752c842f2ec66c160b7e0a7d0a813e",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 38520,
+      "fresh_extracted_pages": 15,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609180005.pdf",
+      "actual_pdf": true,
+      "sha256": "98d592c867b32e2782a3fb13c2bc47f875fc0531374716e762335e21f8d96c83",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "86390430227b4330f99c7b8bac77cfbb974d29d615638490507451d4fb9807fd",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4894,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609200001.pdf",
+      "actual_pdf": true,
+      "sha256": "2e03228aaf482680891872f1cac1e69df5e07dfc3ddfceea41b25d0e836e0373",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "72aff846ad1fde46a58a0a102f40322591cc0dbe1ede1ba459ed8471119918af",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 5224,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609230017.pdf",
+      "actual_pdf": true,
+      "sha256": "c35f3082fa3c4335e98a77c3ec545f32b0e4f7b9e48754a96c54979a72ca43cc",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "842f18907152c7ab78adcef846e909a8925d2e9d627429e8f810e869ae4ab956",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 13962,
+      "fresh_extracted_pages": 6,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609230043.pdf",
+      "actual_pdf": true,
+      "sha256": "5fab5e22ad8c42184a0833411599f5b15d977a31770d7cb88e8b4e7218120d5c",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "917ca9ed9b3935cfe95e1e930991095cb85e35b8497d0da8b2f056d303eb5c5f",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 6775,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609240036.pdf",
+      "actual_pdf": true,
+      "sha256": "c7254871fd1a1d0ab74b2887b7b984db6a3b713eec4700fe8c4b789abfde5d0c",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "c0937935a558bf3b1a03b7c612e83cdfbcc26d40d744468dd670b6d444674ad9",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 7788,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609250023.pdf",
+      "actual_pdf": true,
+      "sha256": "c7254871fd1a1d0ab74b2887b7b984db6a3b713eec4700fe8c4b789abfde5d0c",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "c0937935a558bf3b1a03b7c612e83cdfbcc26d40d744468dd670b6d444674ad9",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 7788,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609250027.pdf",
+      "actual_pdf": true,
+      "sha256": "40a79c8d5750081842aeb97443ae09083ffeef8e83674fa79f74d70e7a1b1f7b",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "42eabe9889126a7e41bf261eb9376e249ec93cb832a62aa61bf1c52a515488b8",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 6019,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609250029.pdf",
+      "actual_pdf": true,
+      "sha256": "88be59da05c2ca39adab224cd701883df4e2c0b7bf24e261d5bc7a54e20fdaa9",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "42f503b4274081a1c9b68f5cfb7b787c4f91a652a5098bc8fd5559cdf88db9de",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 11907,
+      "fresh_extracted_pages": 6,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609280013.pdf",
+      "actual_pdf": true,
+      "sha256": "03bde9d36590bc5e3949c460af2b574c4b79401724f4b61edb9284b2cb6bc1d4",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "a9a041819f68e2cf26d228e651386330d23a74707b8b58253844231e66e5cbe3",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 7865,
+      "fresh_extracted_pages": 5,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609280017.pdf",
+      "actual_pdf": true,
+      "sha256": "3cee044d9f517f62b69b1e2f1632d36ae72cd6691d46282023e2aedf1e07fee3",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "86aa15dd86e7c7f6096b7732ab8cfdedd112f1923e1f1017867eec14217fbd2b",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4859,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609280052.pdf",
+      "actual_pdf": true,
+      "sha256": "0c01fe0c12b2e64d885089fc00a1929942cf3afed095b27b0eb260be18e46625",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d981e8b3539b2c8dd2a8bac569cae6008919ddea578396f6b96ae8dff029d2e2",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 2840,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609280054.pdf",
+      "actual_pdf": true,
+      "sha256": "28ee1bc84e8aad674832bab278173a06da2ea4fcc598f5f5c33212bc757a8f75",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "a9fed9c7a0f3baf8c968126f124f70b7a6820611c515004c390c673c1665d137",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 42886,
+      "fresh_extracted_pages": 18,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609280057.pdf",
+      "actual_pdf": true,
+      "sha256": "d2e957786dbbd9a31e981170ad0eab3909e722d87ce97ded018e111b55c041b2",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d6af52da6e6660043c649dd1ee6bd103d5738d691e27147626f175c64773330e",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 3426,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609280065.pdf",
+      "actual_pdf": true,
+      "sha256": "a7d03174cf6f9dc6f71c9a1341f4f19bd036dbd2d188d0cebcaa612521b2536c",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d5c42b54c3d9d9d129b34d33044933182ebf6dde4919002993875d7ed55f15c0",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4393,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609290076.pdf",
+      "actual_pdf": true,
+      "sha256": "8f45c1daeb123c8d32b08a9c544af3179ce65b6c7792cd36992772c24f27d4ae",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "0a6475741773e04077ca3577b3deda060a301cf3ea00d2878a29e3ea72be8766",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 12071,
+      "fresh_extracted_pages": 5,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609290083.pdf",
+      "actual_pdf": true,
+      "sha256": "f4eb22083f2fd78c9e828a5a7121404786e13e53b10e018e531a97fe6d9656b7",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "95decedb9b6775ad18b509e21d6c0464c31280eefedb1c6ec8736cf4f640a252",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 19526,
+      "fresh_extracted_pages": 8,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609290148.pdf",
+      "actual_pdf": true,
+      "sha256": "0645e1d30fc477f19f525228a890ed1b8a6594c11b3f43204d8330960a81273f",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "af42112fa422c425614a73ab611b8a5e6e5ada9fb4e845e72f6cc7cf7b06ff6e",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 8851,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609290173.pdf",
+      "actual_pdf": true,
+      "sha256": "fd996b7b33e2a666d4c3e91f49a858b1e9acce2f3672b17c7973b748c648d891",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "786e6c95bb77351b51eaa3d576df63d801037ffeb170b5d0ae3bdd9d6f752350",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 12180,
+      "fresh_extracted_pages": 6,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609290176.pdf",
+      "actual_pdf": true,
+      "sha256": "da6b4c01110db9d860d8e6ca90d80a22a76879b7cafc877ad51573a745a2230a",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "ed09b2c2e83154df627a59bfe553e6d994c06d88b1da1f63df4d068cd414b8dd",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 9747,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609290187.pdf",
+      "actual_pdf": true,
+      "sha256": "f4eb22083f2fd78c9e828a5a7121404786e13e53b10e018e531a97fe6d9656b7",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "95decedb9b6775ad18b509e21d6c0464c31280eefedb1c6ec8736cf4f640a252",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 19526,
+      "fresh_extracted_pages": 8,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609290211.pdf",
+      "actual_pdf": true,
+      "sha256": "fd996b7b33e2a666d4c3e91f49a858b1e9acce2f3672b17c7973b748c648d891",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "786e6c95bb77351b51eaa3d576df63d801037ffeb170b5d0ae3bdd9d6f752350",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 12180,
+      "fresh_extracted_pages": 6,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609300222.pdf",
+      "actual_pdf": true,
+      "sha256": "44a6ff80a60f409e7e7bf12dcb977e64a521923c2c7750cf16bd21bb9254bee2",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d7f92bdb4f1ab12421470089661d15ac14179a30f08af6a4192a12d523ec8d4f",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 35165,
+      "fresh_extracted_pages": 15,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609300261.pdf",
+      "actual_pdf": true,
+      "sha256": "0c01fe0c12b2e64d885089fc00a1929942cf3afed095b27b0eb260be18e46625",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d981e8b3539b2c8dd2a8bac569cae6008919ddea578396f6b96ae8dff029d2e2",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 2840,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609300263.pdf",
+      "actual_pdf": true,
+      "sha256": "28ee1bc84e8aad674832bab278173a06da2ea4fcc598f5f5c33212bc757a8f75",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "a9fed9c7a0f3baf8c968126f124f70b7a6820611c515004c390c673c1665d137",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 42886,
+      "fresh_extracted_pages": 18,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609300272.pdf",
+      "actual_pdf": true,
+      "sha256": "d2e957786dbbd9a31e981170ad0eab3909e722d87ce97ded018e111b55c041b2",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d6af52da6e6660043c649dd1ee6bd103d5738d691e27147626f175c64773330e",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 3426,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609300283.pdf",
+      "actual_pdf": true,
+      "sha256": "0c01fe0c12b2e64d885089fc00a1929942cf3afed095b27b0eb260be18e46625",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d981e8b3539b2c8dd2a8bac569cae6008919ddea578396f6b96ae8dff029d2e2",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 2840,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609300285.pdf",
+      "actual_pdf": true,
+      "sha256": "28ee1bc84e8aad674832bab278173a06da2ea4fcc598f5f5c33212bc757a8f75",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "a9fed9c7a0f3baf8c968126f124f70b7a6820611c515004c390c673c1665d137",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 42886,
+      "fresh_extracted_pages": 18,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2609300292.pdf",
+      "actual_pdf": true,
+      "sha256": "d2e957786dbbd9a31e981170ad0eab3909e722d87ce97ded018e111b55c041b2",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d6af52da6e6660043c649dd1ee6bd103d5738d691e27147626f175c64773330e",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 3426,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2610010027.pdf",
+      "actual_pdf": true,
+      "sha256": "49376cbc681f7eecbfdfc5941d26614103fe315e5c90136fa921198fcdc628f8",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "401a712331bf2f76ee2754842f8645da8ae2b1d51d0b565cb781df540179b53d",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 15156,
+      "fresh_extracted_pages": 8,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2610010049.pdf",
+      "actual_pdf": true,
+      "sha256": "bf5a2eea6c762364fd0dd1f87f033e2949058d493cb25417b79d806a3c46943d",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "fd7ad66252ef9ae0eafcfe2f503246a547ae85d12cfcc9a19cc7ed9ceae6ee5d",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 21692,
+      "fresh_extracted_pages": 8,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2610020042.pdf",
+      "actual_pdf": true,
+      "sha256": "91d737a2439b4e175a58312129359cc82f0afe65c5ff02bc7880eacecb29bf5b",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d981e8b3539b2c8dd2a8bac569cae6008919ddea578396f6b96ae8dff029d2e2",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 2840,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2610020047.pdf",
+      "actual_pdf": true,
+      "sha256": "2871ac3f17f664437fd134394ffb4600030b4f16e8e8b188c686cba819b61495",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "a9fed9c7a0f3baf8c968126f124f70b7a6820611c515004c390c673c1665d137",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 42886,
+      "fresh_extracted_pages": 18,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2610020050.pdf",
+      "actual_pdf": true,
+      "sha256": "04be005fa74280a29f7cf5cb131596ce0d1cf52c317c09a41e40d10ff92d1c6c",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d6af52da6e6660043c649dd1ee6bd103d5738d691e27147626f175c64773330e",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 3426,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2610060006.pdf",
+      "actual_pdf": true,
+      "sha256": "9c425fde08c36137c14d0ce3c10525984702c8d1167b920cd1b053feb3fdd752",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "e65ea3696c965266c243cc9561d8c3f237f81b968bf4e2ecacacabdd46b56301",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 19305,
+      "fresh_extracted_pages": 9,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2610060007.pdf",
+      "actual_pdf": true,
+      "sha256": "9c425fde08c36137c14d0ce3c10525984702c8d1167b920cd1b053feb3fdd752",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "e65ea3696c965266c243cc9561d8c3f237f81b968bf4e2ecacacabdd46b56301",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 19305,
+      "fresh_extracted_pages": 9,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2610090020.pdf",
+      "actual_pdf": true,
+      "sha256": "f49b7997049fe1991bd2bd5ec58d1f4dae97df9faec1d51da2c70f41f985599b",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "22409dd92a9a96ae6b4377409503e4004f21ce5cbf20db355f526afb249e9341",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4369,
+      "fresh_extracted_pages": 2,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2610200007.pdf",
+      "actual_pdf": true,
+      "sha256": "3c07d3c337536795532e7ad878f7480b6c2fd34a38b7ad85f5e1e7871569c483",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "8f6593003253a693eeb163a37160477d49c61023d76509989265662bfcdf086c",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 12751,
+      "fresh_extracted_pages": 6,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2610210032.pdf",
+      "actual_pdf": true,
+      "sha256": "b0c14149a6948fa0e630744618700086e4a82c11a565d9e03330fc91ae945fd8",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "46de8bd419ebbf762b3c85ad36d6a7b0eab0003e1a1b7e350ee5233911b09db0",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 11530,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/register-pdfs/SG2610230010.pdf",
+      "actual_pdf": true,
+      "sha256": "061842d593c107a827cce7f28a0a96885dab70e4f8d9e9b7f09eb5d9bfecb962",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "71d9a3dc9266fdb898668445f75a487276e92071b1b26b0d4e3223b80b1579e6",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 13410,
+      "fresh_extracted_pages": 8,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-root/coverage/response-resources/b2b86b6f4478243722.pdf",
+      "actual_pdf": true,
+      "sha256": "41991743af160611901dc6cb7aa1a0c03496691d3c5763fc4c132976fddd5a25",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "842f18907152c7ab78adcef846e909a8925d2e9d627429e8f810e869ae4ab956",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 13962,
+      "fresh_extracted_pages": 6,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/047a8d2d0161c54372.pdf",
+      "actual_pdf": true,
+      "sha256": "9d9669eabef448500b5c5c5a6c48ee51be7c8386dc029c29873619511aab1337",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "8f6593003253a693eeb163a37160477d49c61023d76509989265662bfcdf086c",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 12751,
+      "fresh_extracted_pages": 6,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/05f10d21a373465568.pdf",
+      "actual_pdf": true,
+      "sha256": "466514deb1b121581cdb1bfc830950fdb7c74cd281c391d40074b7eed1088df4",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "55e9097ebd86a4d42b8e51e790dc594199f56ba3646ec37fc331414cdb8016f2",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 22740,
+      "fresh_extracted_pages": 8,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/0bf7f19d0e93b01ca5.pdf",
+      "actual_pdf": true,
+      "sha256": "bf5a2eea6c762364fd0dd1f87f033e2949058d493cb25417b79d806a3c46943d",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "fd7ad66252ef9ae0eafcfe2f503246a547ae85d12cfcc9a19cc7ed9ceae6ee5d",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 21692,
+      "fresh_extracted_pages": 8,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/1279465339487ea31a.pdf",
+      "actual_pdf": true,
+      "sha256": "272d08a07020610b85e51f5f000563abdca3fe4b0876652ea15c13e7294c2991",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "5f5a51a5dd10fb77092a71288918f45cf03ca1f1cc72cf9963011d7a013d8572",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 11156,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/19bb877f99eb90d6c7.pdf",
+      "actual_pdf": true,
+      "sha256": "ebc48082732773742d5f075ae38bf02d9d7c6382ef5c2887924b372c0aba4e2b",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "ed09b2c2e83154df627a59bfe553e6d994c06d88b1da1f63df4d068cd414b8dd",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 9747,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/5dd70fe986ee3d82eb.pdf",
+      "actual_pdf": true,
+      "sha256": "3e0accf5258c471e2de51d3c6ac397e4d77dd80979ab16b01cb48c017dc2c674",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "86aa15dd86e7c7f6096b7732ab8cfdedd112f1923e1f1017867eec14217fbd2b",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4859,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/6c3232abc499ce3419.pdf",
+      "actual_pdf": true,
+      "sha256": "0f7a54ae8993070c182df5d356cf9bb64d8ce7d7c70c7bebce3f4f3f8b2a3252",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "09d9ee4762f37f6dbedd0b7ae02ef3ae19d0dead96c132e205d58d865a5ae9ee",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 32227,
+      "fresh_extracted_pages": 13,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/6ea66987edcb60974e.pdf",
+      "actual_pdf": true,
+      "sha256": "31047ed09c20ffe48371ac745bd8d981ec207cd042c48bb3d26f4951872c3106",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "e19f9e6622f8dbff95d18037694e80c628dd9bf0144530948ea0981841e6bf70",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 6442,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/757431341ee57b52d1.pdf",
+      "actual_pdf": true,
+      "sha256": "b83a3ec7328594defbf8fcf5bd0cc95b00c2c5df57f00179f1753907a1e6ec98",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d78f5688d28a867092eafc324243037a223598e9e550a0a87f2b99809f23f43c",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 16058,
+      "fresh_extracted_pages": 9,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/7e02ff85c8d3a0cd77.pdf",
+      "actual_pdf": true,
+      "sha256": "98d592c867b32e2782a3fb13c2bc47f875fc0531374716e762335e21f8d96c83",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "86390430227b4330f99c7b8bac77cfbb974d29d615638490507451d4fb9807fd",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4894,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/84ea4456ca9b2680e2.pdf",
+      "actual_pdf": true,
+      "sha256": "ec17140201d681c4ae546352914c6599681bc373b6ac172f9fd5eefb48f35c96",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "ba1b367b09e23e078e0534d0851895f225e031a7119922a6676de4fd66d170f3",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 11879,
+      "fresh_extracted_pages": 5,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/9c6f07e388f3ab1d15.pdf",
+      "actual_pdf": true,
+      "sha256": "60998306851effcddff3ba24a76d31de5d40e9e9d6ddefa602dd570a1b11e228",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "53ef2056c32ddfd4810cf69bf6c71f7eb497b38c06e95a531870be636d384cb5",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 30658,
+      "fresh_extracted_pages": 12,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/a5a8fcbb3eb36a5a5a.pdf",
+      "actual_pdf": true,
+      "sha256": "5dd10c3b598bb3e7b757fc7d1ce34710ce6741d3bc146840c8da3cae0b23aec6",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "8a42ed4045a8b104c903113aa2998553db24f86a29700282be42b0725b62099e",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 3090,
+      "fresh_extracted_pages": 1,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/ac25a84866f5a6b00c.pdf",
+      "actual_pdf": true,
+      "sha256": "f5ef15dc50d5ffc85d5c1106656d1ff8af66f1d2dd79bbe9dd3f4e19f7cf3ed2",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "72aff846ad1fde46a58a0a102f40322591cc0dbe1ede1ba459ed8471119918af",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 5224,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/ad27cee9da96b1ab62.pdf",
+      "actual_pdf": true,
+      "sha256": "17eb447ef72c68f67f16dcd71df54c761291d1a68d67a377ee5c054437bb4f94",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "b6c3bfb9dd49ec0c17a46b1fcc559189c37649b93127c131524ac3d2e21a1347",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 30982,
+      "fresh_extracted_pages": 13,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/ad5129a9c5ef0b7d00.pdf",
+      "actual_pdf": true,
+      "sha256": "afcca5ff2e0fac6ce184d6d44c55b278f7be8bbb02f5983e64e8c3e2a9ff74fb",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "c568743a603b37dbe14f2469edc5565b297e5128614a88ae1e82421d002b4f3b",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 6370,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/b72ea7d86c253ddb4d.pdf",
+      "actual_pdf": true,
+      "sha256": "eb526b668bb25337818ffc2a4b30022c9e32b76c1e8705e290010c8ccfb9c6fe",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "7b1a4ec7418cff07c57faf66ef1ff6b3903dcb5371808edcef76df78d2b338c2",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 15468,
+      "fresh_extracted_pages": 9,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/c66e09bd49576ad3b9.pdf",
+      "actual_pdf": true,
+      "sha256": "061842d593c107a827cce7f28a0a96885dab70e4f8d9e9b7f09eb5d9bfecb962",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "71d9a3dc9266fdb898668445f75a487276e92071b1b26b0d4e3223b80b1579e6",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 13410,
+      "fresh_extracted_pages": 8,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/c8a140c7d12b5d98b8.pdf",
+      "actual_pdf": true,
+      "sha256": "07989b50c59150dea99512842f73d1b0efb96bfbc49e3de21d16f556656e7ebe",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "3363e58414147a26f04ee35496bd1c31013e4449b4d45ae209b4b44709329750",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 3216,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/dbb39dd0a9b06ba5b7.pdf",
+      "actual_pdf": true,
+      "sha256": "44a6ff80a60f409e7e7bf12dcb977e64a521923c2c7750cf16bd21bb9254bee2",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "d7f92bdb4f1ab12421470089661d15ac14179a30f08af6a4192a12d523ec8d4f",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 35165,
+      "fresh_extracted_pages": 15,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/dc2be9c2a5abcce0d2.pdf",
+      "actual_pdf": true,
+      "sha256": "c4f417d328d100c5ba19ae382fb59da8f21185c24e1f8e3907b7cffcd80e7b0f",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "36ece4f4e66cea9be6f0cd8354c417d2f5ae2009b5fc2c2bcb093b9209da6f34",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 8845,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/e7583fca8c747060a0.pdf",
+      "actual_pdf": true,
+      "sha256": "cbb56a625abf84e008b59c789af3740a02cc89ecaac75693c3e4cfb2b336f8d4",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "88dbe7cb5f735463994d0f1fc864793db0c58374463b7d158de05b0024630da4",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 2078,
+      "fresh_extracted_pages": 1,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/ef2a3cb95e01842cac.pdf",
+      "actual_pdf": true,
+      "sha256": "b0bd9160e29011181d3a87e78aa1f13ba4263fdb370c5907276810680d32daab",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "ce6bc2f9f68dad34dc10bcdec2a225a48d531d94c6d92e7a5b911b6649cbf769",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 42152,
+      "fresh_extracted_pages": 21,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/f11025c9a4e3f2d70e.pdf",
+      "actual_pdf": true,
+      "sha256": "f10263034eb8d143c31ca8e8cbd07cfc00bfd64f02616d7ab83cc5acc0a04698",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "96f2e0b72ca29ae5ce7bd5cc68439522d92c7852b2fa0ab0eae839cbd3383eed",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4236,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/coverage-pdfs/fe351c2a11bf0994e2.pdf",
+      "actual_pdf": true,
+      "sha256": "8dc77f6b21a5d7dfe6e24a32d48a6097c947c061231a5f9304cdc2bc7f88f06e",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "786e6c95bb77351b51eaa3d576df63d801037ffeb170b5d0ae3bdd9d6f752350",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 12180,
+      "fresh_extracted_pages": 6,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/sources/SG2609150001.pdf",
+      "actual_pdf": true,
+      "sha256": "eadff6587d0356ee7a5b5181e94bd6641778df30ad9327dfa822b05d9ebd62f6",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "96f2e0b72ca29ae5ce7bd5cc68439522d92c7852b2fa0ab0eae839cbd3383eed",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4236,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/sources/baek-rsv-author-20260908.pdf",
+      "actual_pdf": true,
+      "sha256": "0753321c97fe333964f80d17f11765a5d1f319a3df907a8b7d6bccf3c55bd934",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "96f2e0b72ca29ae5ce7bd5cc68439522d92c7852b2fa0ab0eae839cbd3383eed",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 4236,
+      "fresh_extracted_pages": 3,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-social/sources/baek-suizid-author-20260728.pdf",
+      "actual_pdf": true,
+      "sha256": "fe543a9a205e0ea93c25952146d556cf6e516dc3139456a1fcd3084f60f65fba",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "09d9ee4762f37f6dbedd0b7ae02ef3ae19d0dead96c132e205d58d865a5ae9ee",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 32227,
+      "fresh_extracted_pages": 13,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-tax/sources/bmds-gigabit-grundbuch-verordnung-ggv-response-003.pdf",
+      "actual_pdf": true,
+      "sha256": "79907ef18268e9805258fbff2c4edd5cb76c8f1b22a968cfd54d8c26e450e45a",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "46de8bd419ebbf762b3c85ad36d6a7b0eab0003e1a1b7e350ee5233911b09db0",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 11530,
+      "fresh_extracted_pages": 4,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-tax/sources/dstv-kassenpflicht2026-s07.pdf",
+      "actual_pdf": true,
+      "sha256": "e1285e8d6270d8dbf9aafed858c5f14f511fad411c6b75695b63779c1d816db2",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "0c656f80eb644704b7ca16480b0d5ed05e58dcf63c29137a58fce0f13a9c17ef",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 42073,
+      "fresh_extracted_pages": 22,
+      "fresh_low_text_pages": 0
+    },
+    {
+      "path": "research/round3-tax/sources/hearing-1216340-response-003.pdf",
+      "actual_pdf": true,
+      "sha256": "49376cbc681f7eecbfdfc5941d26614103fe315e5c90136fa921198fcdc628f8",
+      "PDF_matches_fingerprint": true,
+      "fresh_normalized_text_sha256": "401a712331bf2f76ee2754842f8645da8ae2b1d51d0b565cb781df540179b53d",
+      "fresh_matches_stored_fingerprint": true,
+      "fresh_normalized_characters": 15156,
+      "fresh_extracted_pages": 8,
+      "fresh_low_text_pages": 0
+    }
+  ],
+  "required_or_recommended_actions": [
+    {
+      "kind": "discovery_completeness_gap_resolved_for_reported_fields",
+      "status": "resolved",
+      "issue": "Root patched both scripts to include local_pdf and archivePDFfield where SHAavailable, then reran. Existing and added candidate matches independently reverified. This expands discovered candidates without establishing an exhaustive universe."
+    },
+    {
+      "kind": "identity_guard",
+      "issue": "Text equality after whitespace removal can hide images, scanned/redacted covers, tables or signatures, and whitespace boundaries; retain candidate-only status. Lowtext flags are useful but do not prove all remainingvisualcontent identical."
+    },
+    {
+      "kind": "author_scope_guard",
+      "issue": "Registrant is not necessarily actual author: misattached third-party documents already observed. Actual authored identity, exactversion and relevantdeliveryevent require adjudication even for byte-identical files."
+    },
+    {
+      "kind": "read_credit_guard",
+      "issue": "Fingerprinted/downloaded documents may be drafts, government advice, primary evidence, historicalforwardedmaterial or duplicateevents. None becomes an eligible externalwrittenresponse or factualscreen solely by matching."
+    }
+  ],
+  "validation_errors": [],
+  "disposition": "corrected_existing_and_added_matches_verified_as_candidates_only",
+  "previous_audited_snapshot": {
+    "as_of_utc": "2026-10-25T04:53:05.727228+00:00",
+    "counts": {
+      "binary_register_rows": 11,
+      "binary_rows_reverified": 11,
+      "text_candidate_groups": 33,
+      "text_paths_freshly_reextracted": 79,
+      "groups_verified_from_fresh_extraction": 33,
+      "groups_with_low_text_pages": 0
+    },
+    "input_hashes": {
+      "research/round3-root/coverage/global-register-archive-crosswalk.json": "1518bdc6fc6ea73f2c251bee30a58871f38f13906a033e85420658923ae9ec83",
+      "research/round3-root/coverage/global-register-text-mirror-candidates.json": "485e24533769942f5b807ff3a9c4ba68b324b14fbe55e082fbd62a9fa8004aad"
+    },
+    "discovery_gap": "Scripts omitted local_pdf; identified and reported before corrected rerun."
+  },
+  "corrected_rerun_addendum": {
+    "new_binary_register_rows": 14,
+    "new_text_candidate_groups": 25,
+    "all_binary_rows_reverified": 25,
+    "all_text_groups_freshly_reextracted": 58,
+    "all_candidate_PDF_paths_freshly_reextracted": 135,
+    "local_pdf_and_archive_fields_now_recognized": true,
+    "known_joint_Digistore_mirror_present": true
+  }
+}

@@ -1,0 +1,779 @@
+{
+  "researcher": "a",
+  "batch": "unresolved-followup-20261026",
+  "created_at_utc": "2026-10-26T00:34:31.800110+00:00",
+  "status": "frozen_initial_proposals",
+  "baseline_claims_file": "research/factual-checks/unresolved-followup-20261026/baseline-claims.json",
+  "baseline_claims_sha256": "a64d950a61112fb0a888edea57ca8bc0f78392f66df118506a27a4406fd328cb",
+  "protocol_sha256": "dad53212cc1a7d9251714b2a3af7ff70bd8be819dee07dfe2427b0ad4d451231",
+  "source_notes": "research/factual-checks/unresolved-followup-20261026/sources/a-primary-checks.json",
+  "source_notes_sha256": "4293ba718116e7519b3910071a2e8d4627f9234a858ec9ec0c3b52f5fe093e57",
+  "counts": {
+    "total": 20,
+    "supported": 5,
+    "unresolved": 15,
+    "new_error_candidates": 0
+  },
+  "resolutions": [
+    {
+      "claim_id": "short-a-007",
+      "baseline_result": "unresolved",
+      "proposed_result": "supported",
+      "resolution_basis": "new_primary_evidence_and_reassessed_price_precision",
+      "document_id": "rsv-amendvo2026-aok",
+      "claim_en": "At the author date clesrovimab cost the GKV 14 percent, or EUR 60 per dose, more than nirsevimab.",
+      "original_excerpt": "Mehrkosten pro Dosis bei 14 Prozent",
+      "baseline_claim_sha256": "fc4de7b281a06e6f47c40bdae7152659aac912204cdd10e0b318233b590259e7",
+      "baseline_ledger": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+      "explanation": "The independent IQWi G assessment published on 1 September records GKV costs of EUR 487.27 and EUR 427.56 for the once-per-season doses and expressly validates their Lauer price basis. The difference is EUR 59.71, or 13.965% of nirsevimab, which supports the respondent’s rounded EUR 60 and 14% comparison. A normal public-price comparison need not establish each insurer’s confidential transaction cost. This resolves the earlier missing matched public pair; it does not assert that an exact 3 September database snapshot was recovered.",
+      "limits": "Observed prices are the 1 June launch and 15 May comparator listings, appraised on 25 August and published on 1 September. No intervening price-change record was identified. IQWi G labels these GKV costs but does not itself detail the rebate calculation in table footnotes. Confidential rebates and hospital acquisition prices remain outside the claim’s ordinary public benchmark.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-iqwig",
+          "locator": "Physical 67–70, II 2.1–II 2.4/table 3; physical 69 visually verified",
+          "check_summary": "Two validated GKV cost values and once-per-season consumption reproduce both rounded assertions."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/87ae08139ce27708c5.pdf",
+        "sha256": "f6835f4dc31059a57b46384c5cd42451b5dd58152a600d5eb6de0e83b0e66836",
+        "physical_pages": [
+          2
+        ],
+        "author_date": "2026-09-03",
+        "context_result": "AOK, 3 September, physical page 2 expressly says current price basis and rounds both figures. Its subsequent whole-cohort scenario is checked separately in A 008."
+      },
+      "check_completed": true,
+      "researcher": "a"
+    },
+    {
+      "claim_id": "short-a-008",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "partial_new_evidence_and_reassessed_model_standard",
+      "document_id": "rsv-amendvo2026-aok",
+      "claim_en": "Using clesrovimab for an entire GKV newborn cohort at the stated price gap would add EUR 36 million.",
+      "original_excerpt": "36 Mio. € Mehrausgaben",
+      "baseline_claim_sha256": "9e98d158bbf2845d441e025c1177e9d630452eb9f4e3f0c024cc79082b487077",
+      "baseline_ledger": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+      "explanation": "The new price pair removes the price-gap access problem. EUR 36 million divided by the rounded EUR 60 implies about 600, 000 doses; at the exact EUR 59.71 gap, 600, 000 doses cost EUR 35.826 million. A reasonable historical illustration is 677, 117 births in 2024 times the dossier’s 89.11% overall GKV proxy: about 603, 578 infants and EUR 36.04 million. The newer 2025 births with that proxy yield about 583, 000 and EUR 34.8 million. This makes the stated scale plausible, but does not recover the intended cohort year, infant insurance share or scenario inputs. Actual uptake is not required for this expressly hypothetical full-cohort model.",
+      "limits": "No numerical-error finding: the cohort and figures may be deliberately rounded. IQWi G’s secondary-prophylaxis subgroup must not replace a universal cohort, and its overall GKV share is only a proxy for newborns.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-iqwig",
+          "locator": "Physical 61–66 and 67–70",
+          "check_summary": "Price gap verified; birth projection and overall GKV proxy are explicitly uncertain and subgroup-specific."
+        },
+        {
+          "source_id": "uf-a-destatis",
+          "locator": "Release 146, 28 April 2026 birth totals",
+          "check_summary": "Checks reasonable annual birth scale without pretending it is AOK’s recovered model."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/87ae08139ce27708c5.pdf",
+        "sha256": "f6835f4dc31059a57b46384c5cd42451b5dd58152a600d5eb6de0e83b0e66836",
+        "physical_pages": [
+          2
+        ],
+        "author_date": "2026-09-03",
+        "context_result": "AOK page 2 says use for an entire newborn cohort “would” cause the expenditure. It does not say actual spending already occurred or specify a birth year."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "The intended cohort and rounding convention remain unspecified.",
+      "next_step": "Resolve if a dated public AOK calculation or infant-specific cohort definition becomes available; otherwise preserve as plausible but unaudited model, without requesting actual uptake data."
+    },
+    {
+      "claim_id": "short-a-028",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "new_primary_process_evidence_retains_frequency_gap",
+      "document_id": "rsv-amendvo2026-bvkj",
+      "claim_en": "Newborns and young infants frequently have unresolved insurance eligibility at prophylaxis time.",
+      "original_excerpt": "häufig der Versicherungsschutz zum Zeitpunkt",
+      "baseline_claim_sha256": "6cfb0ec37c44dad47a25a1be4ca3911b73ac4c70375bad1c7ba18368b3614f89",
+      "baseline_ledger": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+      "explanation": "AOK PLUS independently describes frequent newborn treatment-certificate requests, and provider guidance confirms a post-birth paperwork process. These observations concern missing documentation. The July 2026 substitute procedure still requires the insurer and confirmation that cover exists. They neither refute genuinely unclear entitlement nor establish that such entitlement uncertainty is frequent at RSV prophylaxis time.",
+      "limits": "Missing card, missing formal proof and legally unclear eligibility are different states. No national or sufficiently defined clinical frequency was recovered.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-aok-plus",
+          "locator": "Physical 7 newborn subsection",
+          "check_summary": "Frequent requests for interim documentation, not a frequency of undecided entitlement."
+        },
+        {
+          "source_id": "uf-a-annex",
+          "locator": "Physical 5–7, clauses 2.1–2.9",
+          "check_summary": "Under-18 fallback requires insurance information and confirmation of existing cover."
+        },
+        {
+          "source_id": "uf-a-hospital",
+          "locator": "Physical 13",
+          "check_summary": "Ordinary card production involves post-birth documents and interim treatment."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/bb99c89b22ea1d8154.pdf",
+        "sha256": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+        "physical_pages": [
+          3
+        ],
+        "author_date": "2026-08-27",
+        "context_result": "BVKJ page 3 discusses babies whose insurance cover is not yet clarified, then explains the paperwork and private-prescribing consequences. It is a practice observation, not a claim that every newborn lacks statutory cover."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "No dated primary denominator for genuinely unresolved eligibility at prophylaxis time.",
+      "next_step": "An existing published insurer or clinic process audit distinguishing entitlement from documentation could settle this; do not repeat general card-delay searches."
+    },
+    {
+      "claim_id": "short-a-029",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "new_primary_process_evidence_with_precise_remaining_scope",
+      "document_id": "rsv-amendvo2026-bvkj",
+      "claim_en": "It often takes several weeks after birth for an infant insurance proof to arrive.",
+      "original_excerpt": "oft einige Wochen, bis ein Krankenversicherungsnachweis",
+      "baseline_claim_sha256": "f50b1604181f0c072ba222800bfb2ce4b07161f317c3446c258d31f482d5d66a",
+      "baseline_ledger": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+      "explanation": "The birth-hospital guidance expects about two weeks from returned documents to receipt of the child’s card, after the earlier notification and birth-certificate steps. That supports the plausibility of several weeks in the ordinary card process. AOK PLUS also reports frequent certificate requests. However, an alternative valid proof or substitute procedure may precede the physical card, so these sources do not fully establish the actual stronger proposition that insurance proof often takes several weeks.",
+      "limits": "No error follows from the gap. Nor is a precise national delay distribution required to recognise ordinary multiweek card production; the unresolved part is proof rather than card timing.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-hospital",
+          "locator": "Physical 13 insurance instructions",
+          "check_summary": "Two weeks after paperwork for card, with interim doctor visits explicitly allowed."
+        },
+        {
+          "source_id": "uf-a-aok-plus",
+          "locator": "Physical 7",
+          "check_summary": "Frequent requests for an interim treatment certificate."
+        },
+        {
+          "source_id": "uf-a-annex",
+          "locator": "Physical 6–7",
+          "check_summary": "Existing substitute proof route and electronic certificate alternative."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/bb99c89b22ea1d8154.pdf",
+        "sha256": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+        "physical_pages": [
+          3
+        ],
+        "author_date": "2026-08-27",
+        "context_result": "BVKJ page 3 says “Krankenversicherungsnachweis”, not exclusively the physical eGK. The surrounding paragraph connects delay to genuinely unclear cover."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "No source establishes time to every valid form of proof rather than physical card.",
+      "next_step": "Resolve only with an existing dated insurer service/process publication measuring proof issuance, or qualify the record as card-delay evidence rather than silently changing the original word."
+    },
+    {
+      "claim_id": "short-a-030",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "methodological_reassessment_of_conditional_practice_prediction",
+      "document_id": "rsv-amendvo2026-bvkj",
+      "claim_en": "When infant insurance eligibility remains unclear, practices will initially prescribe prophylaxis privately, requiring parents to prepay and later seek reimbursement.",
+      "original_excerpt": "zunächst auf Privatrezepten verordnen",
+      "baseline_claim_sha256": "0f2e041ce03e88b7e6016c673541b137f7d1220b9af1444a4600f6e605bd3d36",
+      "baseline_ledger": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+      "explanation": "The conditional cashflow route is coherent: if neither entitlement nor the confirmation needed for substitute billing can be established, the contract permits treatment without proof and prescriptions marked accordingly. This is useful support for the described risk; it is not a legal requirement that all practices prescribe privately. Nor does treatment-fee reimbursement by quarter end establish medicine reimbursement in every later case. The original future practice statement remains a conditional prediction rather than an observed uptake result.",
+      "limits": "No practice-frequency estimate is demanded for the mechanism itself. Its unresolved components are the predicted practice response and later medicine reimbursement, not the existence of a possible private route.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-annex",
+          "locator": "Physical 5–7, especially 2.1 and 2.5–2.7",
+          "check_summary": "Possible private route, conditional child substitute procedure and limited treatment-fee refund rule."
+        },
+        {
+          "source_id": "uf-a-aok-plus",
+          "locator": "Physical 7",
+          "check_summary": "Actual interim billing route exists when statutory cover can be confirmed."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/bb99c89b22ea1d8154.pdf",
+        "sha256": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+        "physical_pages": [
+          3
+        ],
+        "author_date": "2026-08-27",
+        "context_result": "BVKJ page 3 begins “Bei unklarem Versicherungsschutz” and says practices “werden” prescribe privately. This must not be recast either as a universal current legal rule or merely “may” for purposes of declaring the full proposition supported."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "Primary procedure establishes possibility, not all predicted responses and reimbursement outcomes.",
+      "next_step": "An already published practice/insurer implementation audit could resolve the actual response; absent that, retain conditional forecast uncertainty without treating it as factual error."
+    },
+    {
+      "claim_id": "short-a-031",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "targeted_primary_uptake_check",
+      "document_id": "rsv-amendvo2026-bvkj",
+      "claim_en": "When parents cannot prepay the private prophylaxis prescription, children from disadvantaged families will often not receive RSV prophylaxis in time.",
+      "original_excerpt": "Kinder aus sozial benachteiligten Familien",
+      "baseline_claim_sha256": "72bead3f1097fc32bcbf89f5ce5793ebc2c59c8cac83d6bd3cca04c53a691e24",
+      "baseline_ledger": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+      "explanation": "The German Munich study documents actual first-season implementation and substantial but incomplete uptake, without testing the proposed private-prepayment mechanism or its social frequency. A US multi-practice study finds social and insurance associations but explicitly says the reasons are unclear. These findings support the plausibility of an equity concern, not the German causal prediction that disadvantaged children will often miss timely prophylaxis because parents cannot prepay.",
+      "limits": "Foreign health financing, observational association, parent acceptance and German insurance paperwork are not interchangeable. No negative finding is made about a future risk.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-lmu",
+          "locator": "Published 5 February 2026 abstract, Munich birth cohort",
+          "check_summary": "Actual German uptake, not a test of this mechanism."
+        },
+        {
+          "source_id": "uf-a-us-uptake",
+          "locator": "2025 primary results/discussion",
+          "check_summary": "Associations with public insurance and deprivation; causes unresolved and country differs."
+        },
+        {
+          "source_id": "uf-a-annex",
+          "locator": "Physical 5–7",
+          "check_summary": "Alternative billing may mitigate missing-card cases but does not dispose of genuinely unclear eligibility."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/bb99c89b22ea1d8154.pdf",
+        "sha256": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+        "physical_pages": [
+          3
+        ],
+        "author_date": "2026-08-27",
+        "context_result": "BVKJ page 3 derives the predicted timing problem from privately paid expensive products and social disadvantage. The claim is stronger than the existence of a possible cashflow barrier."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "No German primary evidence isolates the claimed timing mechanism or supports “often”.",
+      "next_step": "Use a future existing German uptake analysis only if it measures insurance clarification, prepayment and socioeconomic timing together; do not infer this cause from overall incomplete uptake."
+    },
+    {
+      "claim_id": "short-a-032",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "reassessed_reasonable_denominator_without_compound_weakening",
+      "document_id": "rsv-amendvo2026-bvoegd",
+      "claim_en": "In Germany, severe RSV lower-respiratory disease is described as the leading cause of hospitalisation, intensive-care treatment and RSV-attributed deaths, particularly in first-season infants; the compound ranking denominator is unclear.",
+      "original_excerpt": "die häufigste Ursache von Hospitalisierungen,",
+      "baseline_claim_sha256": "92c3338fa3fecc024d6fbffa867b6beb319e9e649fb04f9195acac9cceb3c4dd",
+      "baseline_ledger": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+      "explanation": "The charitable respiratory-disease denominator is medically natural in context, and RKI supports the leading lower-respiratory hospitalisation burden. It is therefore inappropriate to manufacture an all-cause comparison including birth admissions or prematurity merely to find an error. Nevertheless, the respondent joins hospitalisation, ICU treatment and RSV-related deaths in a single leading-cause assertion. The recovered primary guide does not independently establish the ICU ranking or explain the death-ranking denominator, so the entire compound is not resolved by its supported hospitalisation fragment.",
+      "limits": "No contradiction or severity finding. This is an imprecise compound ranking with a well-supported clinical burden, not a claim that RSV causes most all-cause infant deaths.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-rki-burden",
+          "locator": "Vorkommen and update-history paragraphs",
+          "check_summary": "Supports respiratory illness/hospital admission ranking, not a complete national ICU/death ranking."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/36b41c5f7e8c878ef1.pdf",
+        "sha256": "4c939eb88da6cd6ae5c8882c32e8674b411ddad61489e00dd7b98ff2af987fd6",
+        "physical_pages": [
+          1
+        ],
+        "author_date": "2026-08-23",
+        "context_result": "BVÖGD page 1 begins with severe RSV lower-respiratory illness, stresses first-season infants and specifically says RSV-related deaths. Both the respiratory context and circular/narrow death phrase are retained."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "ICU comparison population and death-ranking meaning remain insufficiently defined.",
+      "next_step": "If a dated primary nationwide respiratory ICU comparison is recovered, reassess that fragment; retain the full compound unresolved unless all material parts are addressed."
+    },
+    {
+      "claim_id": "short-a-048",
+      "baseline_result": "unresolved",
+      "proposed_result": "supported",
+      "resolution_basis": "new_primary_evidence_and_reassessed_price_precision",
+      "document_id": "rsv-amendvo2026-gkvsv",
+      "claim_en": "At the author date clesrovimab would cost the GKV more than nirsevimab.",
+      "original_excerpt": "Mehrkosten für die GKV gegenüber Nirsevimab entstehen.",
+      "baseline_claim_sha256": "ac7f9d05ff9a6ed64f80d3e816f970899d3f2369eb86f0eb47d595507b59fccb",
+      "baseline_ledger": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+      "explanation": "IQWi G’s assessment published two days before the GKV response validates public GKV costs of EUR 487.27 for clesrovimab versus EUR 427.56 for nirsevimab. The response’s simpler direction-of-cost claim is supported on that ordinary public benchmark. Requiring proof of every confidential insurer rebate or an immutable same-day database printout would exceed this modest proposition.",
+      "limits": "Listing dates are 1 June and 15 May 2026, assessed 25 August. Exact 3 September transaction prices and confidential agreements were not recovered; do not describe the pair as those.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-iqwig",
+          "locator": "Physical 67–70, II 2.2 andtable 3",
+          "check_summary": "Validated comparable first-season GKV cost pair supports higher cost direction."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-social/coverage-pdfs/41906598a892884b60.pdf",
+        "sha256": "b417cb7aa430874181f26c0a16b450da9246fef63094e05f5aa57077b8e1743b",
+        "physical_pages": [
+          2
+        ],
+        "author_date": "2026-09-03",
+        "context_result": "GKV page 2 uses “nach aktuellem Preisstand” and says clesrovimab would entail higher expenditure. No numerical cohort or realised total is asserted here."
+      },
+      "check_completed": true,
+      "researcher": "a"
+    },
+    {
+      "claim_id": "short-it-a-001",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "scoped_no_further_broad_search",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "claim_en": "Member companies develop/support more than half of relevant public-sector specialist applications and IT systems, through which most administrative services are provided.",
+      "original_excerpt": "deutlich mehr als die Hälfte aller Fachverfahren und IT-Systeme",
+      "baseline_claim_sha256": "390dab398d64013d02a27f75509836adb6447aa525c2ebfabb581ae0180f7632",
+      "baseline_ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "explanation": "The target is an aggregate market-share and service-coverage statement. Individual large suppliers and successful municipal products cannot supply the missing denominator or remove overlap. The targeted pass did not recover an independent definition or count of the relevant specialist applications, installations, IT systems and services. A broad website inventory would not solve the denominator and is not justified.",
+      "limits": "Promotional institutional background with low materiality; no contrary finding from lack of independent data.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-firm-history",
+          "locator": "HSH anniversary and ab-data company history",
+          "check_summary": "Confirms substantial and long-standing suppliers, not aggregate share or the service denominator."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          1
+        ],
+        "author_date": "2026-09-14",
+        "context_result": "DATABUND page 1 introduces the association’s claimed reach. It does not identify the unit counted or a market-share methodology."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "Undefined market universe, counting unit and overlapping service coverage.",
+      "next_step": "An existing independent procurement or supplier census with explicit units could resolve this; otherwise close this research pass with unresolved background context."
+    },
+    {
+      "claim_id": "short-it-a-002",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "new_primary_history_partial_support",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "claim_en": "Member firms have over 35 years of municipal-software experience and have provided online administrative services for over 20 years.",
+      "original_excerpt": "seit mehr als 20 Jahren auch Online-Dienste",
+      "baseline_claim_sha256": "8e4a0ee8779e649a9e4d645f36d9d7276c9cc029ed6a1941ff0fdfe620f2e169",
+      "baseline_ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "explanation": "The HSH anniversary dates the company to February 1991, and ab-data documents municipal software since the early 1980 s and a web transition from 2005. These support long software experience. But web-based municipal finance software is not automatically an online citizen administrative service, and no dated pre-September 2006 service launch for the relevant plural firms was recovered. The compound historical claim therefore remains unresolved.",
+      "limits": "It would be unreasonable to demand that every member firm is over 35 years old; the original permits a qualifying subset. Even on that reasonable reading, the online-service duration remains unverified.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-firm-history",
+          "locator": "February 2026 HSH anniversary; ab-data history sections",
+          "check_summary": "Over 35-year software experience corroborated, but the twenty-year citizen-facing service component is not."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          1
+        ],
+        "author_date": "2026-09-14",
+        "context_result": "DATABUND page 1 describes member firms with long municipal experience which also offer online services. It does not assert that all nearly 90 members share those ages."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "Dated launch evidence for the online administrative services, not merely firm age or web backend technology.",
+      "next_step": "Reassess if a pre-September 2006 municipal launch notice or supplier product announcement is recovered for the qualifying firms; no member-wide crawl needed."
+    },
+    {
+      "claim_id": "short-it-a-005",
+      "baseline_result": "unresolved",
+      "proposed_result": "supported",
+      "resolution_basis": "methodological_reassessment_with_replicated_primary_mechanism",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "claim_en": "Using established standards contributed to eWA’s good implementability.",
+      "original_excerpt": "was zu einer guten Umsetzbarkeit beigetragen hat",
+      "baseline_claim_sha256": "40d27cfbf241c2d534849f6cec24d8927a25f64a7b462aac5077f61d6f1d1e54",
+      "baseline_ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "explanation": "The original makes a modest unquantified contribution claim. Dataport specifies the actual shared XMeld/OSCI/DVDV and XPassAusweis exchanges, while d-NRW documents maintained communication endpoints and integration with separate vendors’ systems. Those are concrete mechanisms through which existing standards enabled implementation. A comparative causal effect size or a world without standards is unnecessary to support the ordinary technical contribution, and the earlier demand exceeded the proposition.",
+      "limits": "This does not certify that integration is universally easy, that standards alone caused success or that their contribution has been measured numerically. Successful backend integration does not disprove other frontends’ alleged denied access.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-faq",
+          "locator": "Physical 17 and 22",
+          "check_summary": "Actual standard message exchanges connect the eWA workflow and four vendor products."
+        },
+        {
+          "source_id": "uf-a-dnrw",
+          "locator": "Technical information, stand 03/2026",
+          "check_summary": "Existing OSCI/DVDV communication and vendor integration document the enabling mechanism."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          1
+        ],
+        "author_date": "2026-09-14",
+        "context_result": "DATABUND page 1 praises implementability and expressly attributes a contribution to established standards. It separately discusses extension costs and quality conditions."
+      },
+      "check_completed": true,
+      "researcher": "a"
+    },
+    {
+      "claim_id": "short-it-a-007",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "methodological_reassessment_retains_broad_market_scope",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "claim_en": "The EfA strategy generally removes private providers’ opportunity to place competing online services for the same OZG services.",
+      "original_excerpt": "privaten Anbietern die Möglichkeit",
+      "baseline_claim_sha256": "4a7a435537ed03aea0d6d137e3277860b573117507325ca796083a03eecef876",
+      "baseline_ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "explanation": "The mandatory common-component strategy can displace demand for rival frontends, a credible commercial mechanism. However, actual backend/private-supplier participation remains possible and the strategy is not a general statutory prohibition on private products. The original says the strategy generally removes the opportunity to place competing online services for the same OZG services. A particular mandatory component and a plausible crowding-out mechanism do not independently establish that broad market-wide effect.",
+      "limits": "No need to interpret this as a universal legal ban or demand a numerical causal estimate. It remains a broad empirical/commercial claim, distinct from the supported existence of a chosen default frontend.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-it-draft",
+          "locator": "Physical 4–5",
+          "check_summary": "Concrete mandatory eWA proposal, not a universal private-provider exclusion."
+        },
+        {
+          "source_id": "uf-a-dnrw",
+          "locator": "Vendor/interface information",
+          "check_summary": "Private backend integration can coexist with one selected common frontend."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          1
+        ],
+        "author_date": "2026-09-14",
+        "context_result": "DATABUND page 1 discusses private competing online services, then the quality and cost conditions for mandatory Ef A solutions. The criticism is commercial, not a claim that private software is legally prohibited altogether."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "No dated evidence establishes the stated general exclusion from same-service frontend markets.",
+      "next_step": "An existing procurement/competition analysis of comparable frontend opportunities could resolve this; do not use backend contracts as a rebuttal to the actual frontend claim."
+    },
+    {
+      "claim_id": "short-it-a-010",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "rechecked_product_disjunction_scope",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "claim_en": "Other available registration online services fail either EfA minimum criteria or some required legal criteria for electronic residence registration.",
+      "original_excerpt": "erfüllen nicht alle erforderlichen rechtlichen Kriterien",
+      "baseline_claim_sha256": "e2af82fa200468fd4775b6d92c604e58cc5104ae82d6841cebadfe6767846625",
+      "baseline_ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "explanation": "The ministry draft repeats the disjunction that all other available services miss either Ef A minimum requirements or legal requirements. Dataport and BSI describe the full workflow and certificate conditions, making such shortcomings possible. Neither is a product-by-product assessment of the entire alternative-service set, so repeating the proposer’s statement does not independently resolve it.",
+      "limits": "Preserve the logical “or”: it would be wrong to demand or assert that every alternative fails both categories. No alternative’s mere existence refutes the disjunction.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-it-draft",
+          "locator": "Physical 2 Alternatives",
+          "check_summary": "Government source of the quoted disjunction."
+        },
+        {
+          "source_id": "uf-a-faq",
+          "locator": "Physical 17, 22, 32",
+          "check_summary": "Actual chip-writing and integration requirements, not all-alternative compliance decisions."
+        },
+        {
+          "source_id": "uf-a-bsi",
+          "locator": "Physical 13, 22–23",
+          "check_summary": "Certification/outsourcing conditions without complete market assessment."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          2
+        ],
+        "author_date": "2026-09-14",
+        "context_result": "DATABUND page 2 quotes this government statement as a fact and disputes how competitors came to fall short. It does not itself supply an exhaustive product audit."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "No published complete alternative-product compliance assessment recovered.",
+      "next_step": "Resolve if the ministry’s existing assessment matrix or named product certification decisions are public; no purchase, vendor contact or speculative testing required."
+    },
+    {
+      "claim_id": "short-it-a-011",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "targeted_primary_access_conditions_vs_historical_events",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "claim_en": "Federal responsible bodies denied other manufacturers necessary interface access, contributing to competing services’ failure to meet the requirements.",
+      "original_excerpt": "zu notwendigen Schnittstellen verwehrt wurde",
+      "baseline_claim_sha256": "abbdba50deeeb90d2fa043e59562f3dea328a083e6e2fe84e42c585bbf793295",
+      "baseline_ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "explanation": "The operator FAQ confirms that eWA has a sovereign chip-writing certificate and an implemented central writing component. BSI specifies approval and outsourcing requirements. These show a real access dependency, but do not record a federal refusal to another manufacturer or prove that a particular refusal caused a competing service’s failure. The targeted historical query pass did not recover such an event record.",
+      "limits": "Public technical documentation is not proof that access was practically open to every frontend. Conversely, certificate restrictions do not by themselves prove wrongful denial. No adverse factual finding.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-faq",
+          "locator": "Physical 17",
+          "check_summary": "Identifies sovereign certificate and eWA chip-writing integration."
+        },
+        {
+          "source_id": "uf-a-bsi",
+          "locator": "Physical 13, 22–23",
+          "check_summary": "Actual authority/security conditions, not rejected applications."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          2
+        ],
+        "author_date": "2026-09-14",
+        "context_result": "DATABUND page 2 alleges federal responsible bodies denied necessary interfaces to manufacturers other than Hamburg, contributing to the failures just quoted. This is a historical access-and-causation claim."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "No named dated request/refusal and no corresponding implementation impact record.",
+      "next_step": "A public historical access request/decision or Land parliamentary answer identifying the incident could resolve it; stop repeated broad searches without such a lead."
+    },
+    {
+      "claim_id": "short-it-a-012",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "targeted_historical_primary_search_no_event_record",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "claim_en": "Several Länder complained about that interface denial in previous years.",
+      "original_excerpt": "von mehreren Bundesländern beklagt",
+      "baseline_claim_sha256": "a1d5230c9eb92c035ff360fa00e42d44a121dfbf0cd6629f4a7ae1eb1c059b17",
+      "baseline_ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "explanation": "The pass specifically sought Land parliamentary, Bundesrat and central-writing-service records of the alleged complaints. It recovered architecture and implementation material but no dated primary complaint from named Länder. A technical dependency or a supplier’s own report does not establish that several Länder complained about denial in the previous years.",
+      "limits": "No claim that no complaints occurred. Restricted/private correspondence could exist; absence from targeted public results is not evidence of falsity.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-bsi",
+          "locator": "Physical 13, 22–23",
+          "check_summary": "Conditions documented, historical complaints not addressed."
+        },
+        {
+          "source_id": "uf-a-faq",
+          "locator": "Physical 17",
+          "check_summary": "Operator account of the component, not records of Land objections."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          2
+        ],
+        "author_date": "2026-09-14",
+        "context_result": "DATABUND page 2 expressly says several Länder complained in recent years. This is a separate historical premise from the existence of a restrictive interface."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "No named Land, date, complaint document or official response recovered.",
+      "next_step": "Resolve upon a public named Land objection/answer; otherwise retain with this concrete blocker rather than repeat generic rollout searches."
+    },
+    {
+      "claim_id": "short-it-a-013",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "reassessed_causal_scope_no_quantification_requirement",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "claim_en": "The federal approach frequently counteracts development of completely end-to-end digital services.",
+      "original_excerpt": "komplett Ende-zu-Ende digitalisierten",
+      "baseline_claim_sha256": "349dec77932a3f72e61606d8700de13cd9e674f288099456be7bcd1248b28920",
+      "baseline_ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "explanation": "The operator demonstrates a working end-to-end service, which does not refute the respondent’s allegation about competing developments. BSI and the workflow show that access can be a dependency. Yet the claimed frequent counteraction by the federal approach remains broader than the possible mechanism: no dated series of affected competing projects was recovered.",
+      "limits": "No numerical causal effect estimate is necessary. A documented pattern of interrupted or limited projects would suffice; neither a single successful service nor a plausible dependency supplies that pattern.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-faq",
+          "locator": "Physical 17, 22, 32",
+          "check_summary": "Existing end-to-end architecture and vendor interfaces, without evidence of the alleged competing-project pattern."
+        },
+        {
+          "source_id": "uf-a-bsi",
+          "locator": "Physical 13, 22–23",
+          "check_summary": "Access dependency rather than a causal series."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          2
+        ],
+        "author_date": "2026-09-14",
+        "context_result": "DATABUND page 2 links this sentence to historical access denial and subsequent manufacturer investment decisions. It concerns competing end-to-end developments, not whether the selected eWA works at all."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "No independently documented repeated affected-development pattern.",
+      "next_step": "Use an existing dated project audit or official complaint response if identified; retain qualitative uncertainty otherwise."
+    },
+    {
+      "claim_id": "short-it-a-014",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "reassessed_material_qualitative_effect_scope",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "claim_en": "Federal conduct in recent years has massively hindered manufacturers’ investment decisions.",
+      "original_excerpt": "in ihren Investitionsentscheidungen massiv behindert",
+      "baseline_claim_sha256": "bd1be0cb832a6e6aba1eaea61cab779fe7bb1625d8a03d649c3eaf7c4a7c0642",
+      "baseline_ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "explanation": "Approval dependencies and a mandatory shared frontend can affect investment incentives. The respondent, however, says federal conduct in recent years massively hindered manufacturers’ investment decisions. No identified investments, decisions, dates or independent documented effects were recovered. This is a material qualitative-impact assertion, not merely the existence of an incentive mechanism.",
+      "limits": "A numerical national estimate or experimental counterfactual is not demanded. First-party project records plus independently dated government decisions could support the qualitative effect, but are absent from this targeted pass.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-it-draft",
+          "locator": "Physical 4–5",
+          "check_summary": "Prospective mandatory shared frontend is a plausible incentive change, not evidence of the alleged past decisions."
+        },
+        {
+          "source_id": "uf-a-bsi",
+          "locator": "Physical 22–23",
+          "check_summary": "Approval conditions may be relevant but do not document actual investment outcomes."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+        "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+        "physical_pages": [
+          2
+        ],
+        "author_date": "2026-09-14",
+        "context_result": "DATABUND page 2 places “massively hindered” within the same historical denied-access argument. It is retained at that strength, rather than rewritten as “could affect investment”."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "No dated actual investment decisions linked to the alleged federal conduct.",
+      "next_step": "Resolve only with existing public project/decision records, not a generic market-structure argument or further company-history searches."
+    },
+    {
+      "claim_id": "short-it-b-002",
+      "baseline_result": "unresolved",
+      "proposed_result": "supported",
+      "resolution_basis": "new_primary_lower_bound_and_reassessment_of_required_denominator",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "claim_en": "More than seven million people in Germany fall within the broad represented group of blindness, visual impairment or disease that could cause sight loss.",
+      "original_excerpt": "mehr als 7 Mio. Menschen.",
+      "baseline_claim_sha256": "ad9371be1291ee4c0596c669b546ea10cda8a4eda259723dfa9e7de07bc8812b",
+      "baseline_ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "explanation": "The actual group includes people whose existing disease can lead to sight loss, not only people already blind or visually impaired. The primary Zi release reports 7.03 million unique GKV patients treated for type 2 diabetes in 2023 under a repeated confirmed-diagnosis definition. Research-institution clinical information explains that diabetes can damage the retina and lead to sight loss, and recommends screening before retinal disease is known. That single within-country disease group supplies a defensible lower bound exceeding seven million. Reconstructing a de-duplicated union of every eye-disease category is unnecessary and would exceed the proposition.",
+      "limits": "This supports the broad represented risk group, not seven million blind people or certain future sight loss. Zi routine coding, DDZ broader estimates and RKI GEDA self-report use different ascertainment, dates and populations: RKI gives 6.05 m 2022 while DDZ reports≥9.1 m. No exact uncontested 2026 census or addition of overlapping groups is claimed. The narrow Zi excess above 7 m is routine-diagnosis evidence, not individually validated clinical cases.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-zi",
+          "locator": "Primary authored release on IDW, lines 81–112, especially 88 and 99",
+          "check_summary": "7.03 m GKV patients, nationwide claims, repeated confirmed diagnoses; count and method independently read."
+        },
+        {
+          "source_id": "uf-a-diabinfo",
+          "locator": "Opening risk explanation and screening advice; stand 30 December 2022",
+          "check_summary": "Diabetes is an existing disease that can cause sight loss even before eye symptoms appear."
+        },
+        {
+          "source_id": "uf-a-ddz",
+          "locator": "Physical 8–11",
+          "check_summary": "Corroborating larger estimated scale, with estimate methodology retained."
+        },
+        {
+          "source_id": "uf-a-rki-diabetes",
+          "locator": "17 September 2025 indexed abstract methods/results",
+          "check_summary": "Conflicting smaller survey-based baseline acknowledged; not silently merged with claims counts."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-004.pdf",
+        "sha256": "f42d81c2a2e0f3ae8d7415732464cafa310ce95310c182943ed6ea8a3e7a59a2",
+        "physical_pages": [
+          1
+        ],
+        "author_date": "2026-09-14",
+        "context_result": "DBSV page 1 expressly includes “deren Erkrankung zu einem Sehverlust führen kann”. The lower-bound approach preserves that full broad definition and does not substitute the much smaller blindness-only population."
+      },
+      "check_completed": true,
+      "researcher": "a"
+    },
+    {
+      "claim_id": "short-it-c-003",
+      "baseline_result": "unresolved",
+      "proposed_result": "supported",
+      "resolution_basis": "methodological_reassessment_of_contextual_first_claim",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-012",
+      "claim_en": "The EfA principle is being legally secured for the first time by this proposal.",
+      "original_excerpt": "erstmals rechtlich abgesichert",
+      "baseline_claim_sha256": "6b8e6a8ac9c36e903bedad3489c3dc6f415c4afb255a27cd18e80a01392c1c1e",
+      "baseline_ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "explanation": "The immediately proposed measure is a concrete mandatory Ef A component. BMDS’s dated 7 September dossier explicitly calls eWA the first IT component prescribed by this §4 OZG ordinance route. In that context, “legally secured for the first time” reasonably means the first concrete binding common-component mandate. Prior authorising legislation, Ef A funding rules and cooperation contracts do not contradict this claim. The earlier demand to establish absence of every earlier legal Ef A arrangement was excessive for the contextual proposition.",
+      "limits": "This is an explicit contextual resolution, not a new proof that Ef A never had legal footing. A detached stronger “no previous Ef A law or contract ever existed” reading would remain unsupported. The proposal was still a proposal at author time.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-bmds",
+          "locator": "7 September 2026 substantive introduction",
+          "check_summary": "Primary dated ministry says first component on the concrete mandatory ordinance route."
+        },
+        {
+          "source_id": "uf-a-it-draft",
+          "locator": "Physical 4–5",
+          "check_summary": "Operative eWA mandate and first-component rationale, distinct from existing§4 authority."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-012.pdf",
+        "sha256": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699",
+        "physical_pages": [
+          1
+        ],
+        "author_date": null,
+        "context_result": "VITAKO page 1 links the sentence to implementing the 25 June MPK decision through this mandatory eWA ordinance. The first-concrete-mandate reading follows that immediate context; it is not a silently substituted fragment."
+      },
+      "check_completed": true,
+      "researcher": "a"
+    },
+    {
+      "claim_id": "short-it-c-007",
+      "baseline_result": "unresolved",
+      "proposed_result": "unresolved",
+      "resolution_basis": "reassessed_contribution_standard_with_remaining_programme_scope",
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-012",
+      "claim_en": "The BMDS rollout-funding programme has materially supported the rollout achieved so far.",
+      "original_excerpt": "Das Programm hat den bisherigen Rollout wesentlich getragen.",
+      "baseline_claim_sha256": "26d7b5bb780208495209e363e9870cb40ac0c3c25fd9dae2daa28c2dbcebb1dc",
+      "baseline_ledger": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+      "explanation": "The primary sources document real enabling mechanisms: the federal programme pays connection costs and provides organisation, and the draft’s observed programme experience informs an EUR 8300 connection-cost estimate. Niedersachsen documents an improving taskforce process and a new federal support agreement. It is unreasonable to demand a measured national causal effect size for “materially supported”. Nevertheless, the available dated evidence does not identify the extent of completed eWA connections financed by this exact programme before the statement. A different Land rollout programme or prospective funding terms cannot silently settle that prior-rollout claim.",
+      "limits": "No implication that the programme contributed nothing. Its existence and mechanism are supported; the remaining issue is material prior scope and programme identity, not experimental causal identification. VITAKO is undated, so the consultation period is the temporal ceiling rather than an invented exact day.",
+      "new_evidence": [
+        {
+          "source_id": "uf-a-it-draft",
+          "locator": "Physical 11 programme and cost paragraphs",
+          "check_summary": "Observed connection-cost experience and voluntary federal mechanism; no count attributable to the programme."
+        },
+        {
+          "source_id": "uf-a-ni",
+          "locator": "10 April 2026 agreement and previous taskforce paragraphs",
+          "check_summary": "Actual state process improvement distinguished from prospective expanded federal support."
+        }
+      ],
+      "author_context_checked": {
+        "original_pdf": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-012.pdf",
+        "sha256": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699",
+        "physical_pages": [
+          1
+        ],
+        "author_date": null,
+        "context_result": "VITAKO page 1 specifically refers to the BMDS voluntary programme mentioned in the draft, says it has materially carried past rollout and seeks continuation until all authorities connect."
+      },
+      "check_completed": true,
+      "researcher": "a",
+      "resolution_blocker": "No dated completed funded-connection result for the exact federal programme establishes material prior contribution.",
+      "next_step": "A dated public implementation statement linking completed eWA connections to this programme could resolve the modest qualitative contribution; no numerical causal experiment is required."
+    }
+  ],
+  "limits": [
+    "These are initial proposals, not final adjudications or new admitted findings. Independent B review is required.",
+    "All full original propositions retained. Every unresolved case has a concrete blocker and an evidence-based next step; no author contact, paid access or unbounded crawl proposed.",
+    "Historical ledgers and completed records are untouched; temporary primary bytes remain for peer review."
+  ]
+}

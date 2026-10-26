@@ -1,0 +1,203 @@
+{
+  "reviewer": "tax_consultations_ai",
+  "reviewed_at_utc": "2026-10-24T09:10:32.149887+00:00",
+  "review_type": "independent_ai_cross_review",
+  "specialist_review": false,
+  "reviews": [
+    {
+      "id": "geg2023-hausgrund-a01",
+      "recommendation": "retain_provisional_finding",
+      "checks": {
+        "claim": "Checked full opening summary and neighbouring paragraphs in archived source and page2 render. Claim has no explicit limitation to unrenovated pre-war houses.",
+        "counterevidence": "Independently inspected Fraunhofer ID363 text and page235 image:1973, ground-source heat pump, electric backup only, original walls/windows, roof insulation in1990, oil boiler replaced2009; measured JAZ3.7 and heater/compressor ratio0%/0%.",
+        "draft": "Read archived3April2023 draft context and confirmed§71c heat-pump option; physical counterexample is contemporaneous and does not depend on later law.",
+        "alternative_explanations": "An old building may still be partly renovated, as this one was. Finding appropriately preserves roof-insulation limit and does not generalise feasibility or cost to all buildings.",
+        "request_and_direction": "Broader hardship exceptions correspond to claimed blanket necessity of fossil hybrid; direction is plausibly favourable, independently of severity.",
+        "severity": "Major is defensible because a categorical technical constraint appears in opening summary and applies across a broad class.",
+        "quotations": "Claim and request aggregate24 whitespace-separated German words; within25-word source quote cap."
+      },
+      "required_changes": [],
+      "optional_changes": [
+        "Use heater-to-compressor ratio0%/0% rather than recorded heater use0% if precision desired; this is not a total annual heat-share statistic."
+      ]
+    },
+    {
+      "id": "wassbg2024-waniczek-a01",
+      "recommendation": "retain_provisional_finding",
+      "checks": {
+        "claim": "Checked complete final source page4 image/text, including preceding Leipzig test-run sentence and following opposition paragraph. No explicit commercial-operation limitation appears.",
+        "counterevidence": "Read original Siemens/ENGIE/Centrax13October2023 release p1-2 independently and reopened NEDO20April2018 primary announcement. Both describe test operation on100% hydrogen before September2024. Siemens identifies turbine as industrial SGT-400.",
+        "draft": "Source cover namesBT20/11899. Historical assertion is unaffected by later draft changes.",
+        "alternative_explanations": "Industrial may mean routine commercial operation colloquially, but source says operated and prior sentence discusses a test run. Demonstrator status must stay prominent.",
+        "request_and_direction": "Written opposition supports anti-acceleration direction; oral record is supplementary, not fabricated imperative request.",
+        "severity": "Major is defensible because zero worldwide demonstrations is qualitatively different from an existing demonstration and explicitly supports missing technical prerequisites.",
+        "limits": "Correctly does not establish commercial economics, scale feasibility or Leipzig viability."
+      },
+      "required_changes": [],
+      "optional_changes": [
+        "Keep a clear operator-report attribution forHYFLEXPOWER and its demonstration status; do not label it independent experimental certification."
+      ]
+    },
+    {
+      "issue_id": "enefg2026-uim-l01",
+      "reviewed_at_utc": "2026-10-24 09:30:35 UTC",
+      "decision": "retain_as_unresolved_lead_only",
+      "independent_checks": [
+        "Read full source context on submission pages6–8 and visually inspected page7.",
+        "Read primary report modelling scope on pages40–44 and visually inspected page41.",
+        "Checked exact April9draft operative changes around proposed section11."
+      ],
+      "assessment": "The report is a model of the evolving German fleet including new colocation sites; it does not give the exact fixed incumbent cohort invoked in the legislative burden argument. However, existing can mean the fleet present in a forecast year, and the absence of cohort/distribution evidence does not disprove the author's assertion. The mean alone cannot establish how few exceed the threshold, but this is insufficient support, not affirmative proof of numerical error. Rounding1.25 to1.2 is not independently an error. Keep prominent no-error-established language; do not include in the provisional-finding total.",
+      "limitations": "No specialist or author response obtained. No independent distribution dataset establishing a false proportion was found."
+    },
+    {
+      "issue_id": "enefg2026-bund-a01",
+      "reviewed_at_utc": "2026-10-24",
+      "decision": "retain_provisional_finding_minor",
+      "independent_checks": [
+        "Extracted and read the full four-page submission, including preceding requests and following cost extrapolation. Rendered and visually checked PDFpage3.",
+        "Independently recalculated fixed-IT relative changes for PUE1.5→1.6,1.3→1.4,and1.2→1.3 as6.667%,7.692%,8.333%.",
+        "Compared the exact April9draft PUEdefinition and bracketed operative limits."
+      ],
+      "adversarial_assessment": "A0.1PUE change correctly corresponds to10%ofIT demand, but the statement explicitly chooses total consumption and repeats that denominator in its100TWh illustration. It is therefore a real denominator error rather than merely a loose percentage-point label. Minor severity is defensible because a higher permitted total remains and the cost/sector effects are not proven. The forecast cannot be repaired by simply applying the corrected percentages to all100TWh: fleet mix,additional versus total capacity,and affected cohort remain unresolved.",
+      "source_provenance": "I read the archive-mirror authoredPDF,not an independently matched ministry original. Preserve that limitation.",
+      "specialist_review": null,
+      "author_response_obtained": false
+    },
+    {
+      "issue_id": "enefg2026-vik-a01",
+      "reviewed_at_utc": "2026-10-24",
+      "decision": "retain_provisional_finding_major_direction_true",
+      "independent_checks": [
+        "Independently opened the official four-page Lobbyregister attachmentSG2608060032 and matched the exactpage3claim and page2request against the local archivecopy.",
+        "Read the entire local four-page submission, including its preceding correct reference-scenario statement and pandemic qualification.",
+        "Independently opened AGEB2020annual report and visually inspected physicalPDF3/printed2; inspected final-energy infographic, whose actualheading says2020 and8,341PJ despite filenamecontaining2018.",
+        "Independently opened Commission primary explanation, which explicitly says2020projectionsfor2030; checked the exactApril9draft retains section4 and1,867TWh."
+      ],
+      "adversarial_assessment": "The402million-tonne figure is plainly a primary-energy total. Its approximate numerical match does not prove where the author sourced it, and the case correctly avoids alleging copying. The conversion itself is consistent with tonnesofcoalequivalent and is not the error. The preceding correct reference-scenario sentence does not rescue the following arithmetic with observed pandemic-year consumption. A hypothetical alternative baseline still cannot substantiate an EU-consistent national ceiling. Both errors feed the same numerical comparator; recording one issue with two baseline faults avoids double-counting the argument.",
+      "materiality_assessment": "Major is defensible: around40%inflation of the quantity labelledfinalenergy and the resulting2,890TWhcomparator directly support the requesteddeletion/weakingofsection4. The favourable direction is separate fromseverity. No conclusion about feasibility,optimality or exact legallyrequiredGerman contribution follows.",
+      "recommendations": [
+        "Keep actual2020finalenergy only as a categorycounterexample,not as a replacementEUtarget calculation.",
+        "Preserve the collectiveEUtarget versus indicative national-contribution distinction and rawdownload/provenance limitations.",
+        "Keep citationbaseline claim at11.7%comparison,not the unrelated2050typo later onthecurrentCommissionwebpage."
+      ],
+      "specialist_review": null,
+      "author_response_obtained": false
+    },
+    {
+      "issue_id": "enefg2026-hansgrohe-a01",
+      "reviewer": "tax_consultations_ai",
+      "reviewed_on": "2026-10-24",
+      "decision": "retain_provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "independent_checks": [
+        "Read all three submission pages in layout text; independently inspected physicalPDFpage1. Exactdirective and date are explicit.",
+        "Independently retrieved original-law indexed text fromEUR-Lex:Article7(1)(a) says2028. Directopen still challenged; no claim of full official-hostPDFretrieval.",
+        "Retrieved unchanged originalGermanOfficialJournal copy fromEWOarchive,68pages; independently rendered/inspectedPDF23. This is a primary-text copy on a third-partyhost, not an official-host download.",
+        "Commissionofficialzero-emission-building explanation independently confirms2028fornewpubliclyownedbuildings and2030forallnewbuildings. Exact9Aprildraftp8–9already checked for public-body savingmeasure context."
+      ],
+      "adversarial_tests": [
+        "Another2027EPBDdate concerns life-cycleGWProadmaps, a different duty; it does not rescue the explicit zero-emissionstandard date.",
+        "Some earlier nationalrules or exemptions are possible, but the disputed sentence expressly attributes its deadline to the EUdirective.",
+        "The request also invokes existing savingpotential and procurement clarity, so the one-yearshift affects an auxiliary timing rationale; minor rather than major is proportionate.",
+        "Do not convert the registerdispatch/PDFdate mismatch into a separate finding or infer which dispatchdate is correct."
+      ],
+      "direction_reason": "Advancing a compliance date makes a public-buildingefficiency requirement appear more immediate and strengthens the call for prompt explicit recognition. The direction is separate from limited materiality.",
+      "limits": "No evaluation of realisedfixture savings, water-demand forecasts or merits of adding the measure.",
+      "primary_urls": [
+        "https://eur-lex.europa.eu/eli/dir/2024/1275/oj/deu",
+        "https://energy.ec.europa.eu/topics/energy-efficiency/energy-performance-buildings/energy-performance-buildings-directive/zero-emission-buildings_en"
+      ],
+      "primary_text_copy": {
+        "url": "https://www.ewo-austria.at/wp-content/uploads/2025/03/EU-Gebaeuderichtlinie-2024_1275-.pdf",
+        "local_file": "research/reviews/epbd-2024-1275-original-oj-mirror.pdf",
+        "locator": {
+          "pdf_page": 23,
+          "article": "7(1)(a)"
+        },
+        "visual_file": "research/reviews/epbd-original-p23.png"
+      },
+      "specialist_review": null
+    },
+    {
+      "issue_id": "enefg2026-algorithmwatch-l01",
+      "reviewer": "tax_consultations_ai",
+      "reviewed_on": "2026-10-24",
+      "decision": "retain_unresolved_lead",
+      "severity_if_confirmed": "minor",
+      "favours_author_request": null,
+      "independent_checks": [
+        "Read complete submission section pp7–10 and footnotes20–27. Independently read primary report methodology and tables9–11 on physicalpp16–18, plusREFdefinition/Figures15–17onpp45–46; also read report introduction and reporting-period description.",
+        "Visually inspected primary table11. Its German renewable components sum exactly:12,108,417+281,964+7,284=12,397,665kWh. The guarantees-of-origin share of that renewable average is97.6669%, plausibly the origin of98%.",
+        "Figure15GermanyweightedREFis0.89; that is a different denominator and metric. Do not turn a ratio of potentially different reporting-subset averages into an asserted corrected national estimate."
+      ],
+      "adversarial_tests": [
+        "The literal German syntax naturally sounds like98%ofall energy was renewable and certificate-backed. However, the surrounding paragraph is about certificate sourcing and the cited table supports nearly98%ofrenewablepurchases. An imprecisely compressed denominator remains a strong benign reading.",
+        "Reporting incompleteness alone is not proof the claim is false. A mismatch between report year and activity year would require its own temporal evidence and is not independently promoted here.",
+        "The broader additionality argument does not depend on an exact98%total share; high certificate reliance is independently supported."
+      ],
+      "recommendation": "Retain only in unresolved leads; do not count as a provisional error without clarifying the claimed denominator.",
+      "primary_report_local": "research/energy/sources/ec-datacentres-first-report-2025.pdf",
+      "submission_local": "research/energy/sources/algorithmwatch-enefg-2026-official.pdf",
+      "specialist_review": null
+    }
+  ],
+  "followup_reviews": [
+    {
+      "issue_id": "geg2023-hausgrund-a01",
+      "reviewer": "tax_consultations_ai",
+      "reviewed_on": "2026-10-24",
+      "trigger": "Root requested reassessment after additional-context audit found section2.4qualification.",
+      "independently_checked": "Read complete sections2.3–2.7 and3.2 in layout text; independently inspected physicalPDFpage7, printed6. The author expressly envisages heat pumps meeting full demand and avoiding hybrids in existing buildings.",
+      "mismatch_decision": "Retain narrow provisional mismatch in opening categorical formulation; do not characterise whole submission as denying all boiler-free heat-pump feasibility.",
+      "severity_recommendation": "minor",
+      "severity_reason": "On the complete document, the later operative discussion recognises the key exception that the opening summary omits. That materially limits how much the opening overstatement supports the broad hardship request. Although a summary claim about a large building class can matter, conservative minor classification better reflects the internal qualification and undefined older-building boundary. This revises my earlier major judgment, which insufficiently weighted this passage.",
+      "favours_author_request": true,
+      "direction_reason": "The opening overstatement still makes a fossil hybrid appear unavoidable and thereby favours broader hardship relief. Correcting it does not decide the case for exceptions in difficult buildings.",
+      "alternative_considered": "A major rating is defensible based on opening prominence and broad scope; it should be labelled an editorial disagreement, not higher evidentiary certainty.",
+      "no_intent_inference": true,
+      "specialist_review": null
+    },
+    {
+      "date": "2026-10-24",
+      "candidate_id": "wassbg2024-waniczek-a01",
+      "outcome": "retain_provisional_major_true_narrow_to_prior_operation",
+      "reviewer": "tax_consultations_ai",
+      "checks": [
+        "Fresh full re-read of all three authored pages in the four-page official submission, including preceding Leipzig test-run sentence and concluding technical/economic argument.",
+        "Fresh re-read of Siemens Energy/ENGIE/Centrax original report, including its demonstration-to-market qualifications; independently reopened Commission CORDIS article and NEDO 2018 primary report.",
+        "Reviewed the oral exchanges around transcript pages 25–26 for the opposition request and surrounding economic reasoning; these do not supply an express utility-scale or commercial-service qualification to the written universal assertion.",
+        "Tested an apparently commercial Kawasaki 2022 counterexample; it used 30% hydrogen, so it is not evidence against a pure-hydrogen claim and is not used."
+      ],
+      "strongest_benign_reading": "Industrial may mean routine commercial utility service in context, particularly because the preceding example is the much larger Leipzig project. Demonstrations and a turbine’s product classification do not establish such service or its economics.",
+      "why_mismatch_survives": "The written assertion is worldwide and says none had been operated, without a duration, utility-size or routine-service restriction. The preceding sentence invokes absence even of a test run. The identified SGT-400 is expressly an industrial gas turbine and had undergone 100%-hydrogen operation before September 2024.",
+      "limits": "The correction does not establish commercial maturity, routine fleet deployment, affordable power, Leipzig-equivalent scale, economic preconditions or the merits of the bill. Manufacturer and project reports are primary accounts, not an independent performance certification. NEDO provides a separate earlier verification project.",
+      "materiality": "Major is retained only for categorical absence of prior technical operation as a material premise; it does not imply that the broader economic opposition is disproved. A specialist could clarify the intended technical meaning of industrial more confidently.",
+      "new_original_quotations": false
+    },
+    {
+      "date": "2026-10-24",
+      "reviewer": "tax_consultations_ai_agent",
+      "issue_id": "enefg2026-bund-a01",
+      "trigger": "Fresh adversarial challenge: legal PUE measures all energy, whereas the quoted submission predicts electricity.",
+      "recommendation": "downgrade_to_unresolved_lead_minor_direction_null_unless_finding_is_explicitly_limited_to_a_general_ratio_identity",
+      "reasoning": "For total energy and fixed IT energy, PUE p→p+0.1 implies a relative increase of 0.1/p. That identity is established. Electricity is a component of total energy: ΔE_electric =0.1×E_IT−ΔE_non-electric, while the baseline electricity denominator also depends on non-electric consumption. With a fixed energy-carrier mix the familiar 6.7–8.3% carries across; without that condition, a 10% electricity change is not disproved by the ratio alone. The statement presents an unqualified general implication, so its derivation is defective as a general identity, but the actual extra-electricity amount and direction require an unstated model.",
+      "materiality": "Minor if a narrow general-conversion finding is retained; the ratio calculation does not adjudicate sector forecasts, costs, compliance or stricter-limit merits.",
+      "direction": "Null for an asserted actual-electricity error because the correction is conditional on carrier mix. True would remain defensible only for a specifically stated fixed-mix comparison, which is not expressly specified by the author.",
+      "limits": "Do not convert missing energy-mix evidence into a proved factual overestimate. Preserve the demonstrated total-energy algebra as an unresolved lead and distinguish it from the submission’s electricity forecast. No new verbatim quotations or specialist review.",
+      "supersedes": "Earlier unconditional electricity-overstatement reading; original review history preserved."
+    },
+    {
+      "date": "2026-10-24",
+      "reviewer": "tax_consultations_ai_agent",
+      "issue_id": "wassbg2024-waniczek-a01",
+      "trigger": "Energy reviewer read the cited Correctiv article, which concerns the Leipzig SGT-800 model specifically.",
+      "outcome": "retain_provisional_major_true_with_model_scope_limit",
+      "checks": "Re-read the entire written statement again, especially both adjacent turbine sentences on physical page 4. The first refers to Leipzig; the following claim expressly generalises to all industrial turbines worldwide and contains no this-model or similar restriction.",
+      "alternative": "The cited article may explain how an initially model-specific account became a broad statement. No intent is inferred. A model-specific interpretation remains the strongest contextual alternative.",
+      "materiality": "The universal absence premise is materially changed by the prior industrial SGT-400 operation, whereas utility-scale, commercial-maturity and Leipzig-model claims remain unadjudicated. Major remains an editorial judgment about that categorical technical premise.",
+      "limits": "The SGT-400 demonstration does not contradict Correctiv’s specific SGT-800 account and does not establish economic operation or suitability of the Leipzig model. No extra source quotations or specialist review."
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "reviewer": "a",
+  "reviewed_file": "research/factual-checks/short-it-components-20261025/agents/claims-c.json",
+  "reviewed_sha256": "52a572db0816360722f510d607d40f06b198edb06fd9d7c7680cffd22ab35223",
+  "created_at_utc": "2026-10-25T22:19:05.068442+00:00",
+  "documents_reread": [
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-012",
+      "pages": [
+        1,
+        2
+      ],
+      "original_sha256": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699"
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "short-it-c-001",
+      "claim_as_reviewed": "The identified ITKV proposal prescribes the eWA service as an IT component under OZG § 4(1), to provide electronic registration through that service.",
+      "verdict": "accept",
+      "reason": "Operative draft section 1 and rationale independently read: named electronic-service duty rather than a duty that every citizen use it. Date/dispatch uncertainty remains explicit.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical pp. 4–5 and 12",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        },
+        {
+          "source_id": "short-it-ar-ozg2024",
+          "locator": "Physical p. 3, Article 1 item 4",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-c-002",
+      "claim_as_reviewed": "The proposal implements the 25 June 2026 MPK decision concerning eWA and the measure 167 bundling work of the federal modernisation agenda.",
+      "verdict": "accept",
+      "reason": "Official ministry account and newly recovered exact MPK resolution independently support the measure 167 and 25 June connection. Necessity/sensible bundling remain evaluation.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-ar-mpk-resolution",
+          "locator": "Physical pp. 2–3, paragraph 3(a)",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        },
+        {
+          "source_id": "short-it-ar-ministry",
+          "locator": "Policy history paragraph",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-c-003",
+      "claim_as_reviewed": "The EfA principle is being legally secured for the first time by this proposal.",
+      "verdict": "accept",
+      "reason": "Keep unresolved broad first-ever legal backing, with the reasonable first-concrete-mandatory-component interpretation explicitly preserved. Earlier enabling law does not establish an author error in context.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical p. 5, first concrete component",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        },
+        {
+          "source_id": "short-it-ar-ozg2024",
+          "locator": "Physical p. 3, Article 1 item 4",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        },
+        {
+          "source_id": "short-it-ar-ministry",
+          "locator": "First-component explanation",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-c-004",
+      "claim_as_reviewed": "The ordinary option of registering or changing residence in person at the registration authority remains available.",
+      "verdict": "accept",
+      "reason": "Complete BMG sections 23/23a/24 independently read with header; the draft adds a specific electronic route and does not repeal ordinary registration. Supported.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-ar-bmg",
+          "locator": "Complete sections 23–24; header",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        },
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical p. 4",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-c-005",
+      "claim_as_reviewed": "The draft rationale attributes connection costs to Länder including municipalities.",
+      "verdict": "accept",
+      "reason": "Draft physical p. 11 explicitly assigns costs to Länder including municipalities for the estimate, while actual cost-bearing arrangements vary. Supported bounded model description.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical p. 11, model cost assignment",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-c-006",
+      "claim_as_reviewed": "The rationale describes the BMDS rollout-funding programme as an additional voluntary offer.",
+      "verdict": "accept",
+      "reason": "Draft physical p. 11 explicitly calls the programme voluntary/additional; independent state agreement establishes financial and organisational support without an ordinance guarantee.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical p. 11, voluntary programme",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        },
+        {
+          "source_id": "short-it-ar-lower-saxony",
+          "locator": "Funding/implementation agreement paragraphs",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-c-007",
+      "claim_as_reviewed": "The BMDS rollout-funding programme has materially supported the rollout achieved so far.",
+      "verdict": "accept",
+      "reason": "Primary state/programme material supports real assistance but does not isolate the programme’s strong national causal contribution to earlier rollout. Unresolved is appropriate; no contrary causal result or error inferred.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-ar-lower-saxony",
+          "locator": "State agreement scope",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        },
+        {
+          "source_id": "short-it-ar-baykommun",
+          "locator": "Subsidy scope/timeframe",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        },
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical pp. 10–11, cost estimates from programme experience",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-c-008",
+      "claim_as_reviewed": "Making a digital alternative available does not by itself guarantee citizens will actually use it.",
+      "verdict": "accept",
+      "reason": "Independent current primary service steps and preserved statutory ordinary route support the absence of a usage guarantee. No specific uptake percentage or KPI effect attributed.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-ar-ewa-faq",
+          "locator": "User actions/eligibility/credentials",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        },
+        {
+          "source_id": "short-it-ar-bmg",
+          "locator": "Sections 23–24",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-c-009",
+      "claim_as_reviewed": "The draft does not yet give a concrete calendar date on which its rules will enter into force.",
+      "verdict": "accept",
+      "reason": "Draft operative section 2 contains a calendar placeholder with a post-promulgation formula. Author does not deny any commencement formula; supported lack of a concrete calendar date.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical p. 4, section 2",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-c-010",
+      "claim_as_reviewed": "The associated federal–Länder state-modernisation working-group decision aims at a nationwide mandatory obligation to reuse eWA by the end of 2026.",
+      "verdict": "revise",
+      "reason": "New exact 25 June MPK resolution, physical p. 3 paragraph 3(a), resolves the pre-freeze access gap: end-2026 target is implementation by ordinance of nationwide compulsory reuse. Support the stated target with explicit legal-instrument scope; do not turn it into guaranteed actual nationwide connections or achieved rollout.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-ar-mpk-resolution",
+          "locator": "Physical p. 3, paragraph 3(a)",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        }
+      ],
+      "proposed_result": "supported",
+      "proposed_limits": "The end-2026 target concerns a legal ordinance mandating nationwide reuse, not guaranteed live connections in every municipality. No target achievement or exact VITAKO author date inferred."
+    },
+    {
+      "claim_id": "short-it-c-011",
+      "claim_as_reviewed": "The ordinance itself does not spell out specific federal/Land enforcement measures for eWA use.",
+      "verdict": "accept",
+      "reason": "Complete operative text contains service prescription and commencement only, with no additional specific enforcement instrument. Broader supervision/enforcement powers are not denied.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-root-draft",
+          "locator": "Physical p. 4, complete operative sections 1–2",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        },
+        {
+          "source_id": "short-it-ar-ozg",
+          "locator": "Complete current section 4, temporal limit",
+          "independent_check": "Actual primary passage independently read, with full original statement context and source date/scope limits."
+        }
+      ]
+    }
+  ],
+  "omissions": [
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-012",
+      "pdf_pages": [
+        2
+      ],
+      "original_excerpt": "genügend Vorlaufzeit zur",
+      "claim_en": "Technical connection to eWA requires preparation and integration stages, so immediate service availability is not guaranteed solely by issuing a legal duty.",
+      "proposed_result": "supported",
+      "reason": "Retain the narrow technical premise beneath the request for adequate lead time. Actual operator requirements include local application adaptation, configuration, testing and connection stages. No universal necessary twelve-month period, national deadline failure or fixed integration duration inferred.",
+      "evidence": [
+        {
+          "source_id": "short-it-a-dnrw",
+          "locator": "Implementation checklist and test/connection stages, stand March 2026"
+        },
+        {
+          "source_id": "short-it-a-dataport-fv",
+          "locator": "Required application adaptation and existing integration tests"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "short-it-ar-ozg",
+      "title": "OZG current official law",
+      "url": "https://www.gesetze-im-internet.de/ozg/BJNR313800017.html",
+      "retrieved_at": "2026-10-25T22:19:05.068442+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "696a42455753ddf7737b5b139e89858ec07830a1c6a76b82c8f23932314257a9",
+      "read_extent": "Current OZG header and complete section 4",
+      "temporal_limit": "Current text; selected 2024/October promulgated changes independently checked, not every intervening amendment.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored research/review record; full supporting public bytes temporary only."
+    },
+    {
+      "id": "short-it-ar-bmg",
+      "title": "BMG official law, header last amendment 22 July 2026",
+      "url": "https://www.gesetze-im-internet.de/bmg/BJNR108410013.html",
+      "retrieved_at": "2026-10-25T22:19:05.068442+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "bbe06f207028e7dec7cb7fb24e3cc591438ecb9d02a2e640299839150786b5d6",
+      "read_extent": "BMG header and complete sections 23, 23a and 24",
+      "temporal_limit": "No full-law reading; permission does not demonstrate usage or universal availability.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored research/review record; full supporting public bytes temporary only."
+    },
+    {
+      "id": "short-it-ar-ministry",
+      "title": "BMDS official ITKV dossier, published 7 September 2026",
+      "url": "https://bmds.bund.de/service/gesetzgebungsverfahren/it-komponentenverordnung-itkv",
+      "retrieved_at": "2026-10-25T22:19:05.068442+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "e4c99b1ae52ebab322e5861cd7fdf4bf4c8a8d13e34ed1239bc3ae66e018676b",
+      "read_extent": "Entire relevant official ITKV dossier, dated 7 September 2026",
+      "temporal_limit": "Current retrieved version; no exact dispatch/date of VITAKO response inferred.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored research/review record; full supporting public bytes temporary only."
+    },
+    {
+      "id": "short-it-ar-ozg2024",
+      "title": "OZG amending Act, 19 July 2024, published 23 July 2024",
+      "url": "https://www.recht.bund.de/bgbl/1/2024/245/regelungstext.pdf?__blob=publicationFile&v=1",
+      "retrieved_at": "2026-10-25T22:19:05.068442+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "aa017004168a11338fc45438054b3d59b087e41e8bc2135dfaece94eb10993b4",
+      "read_extent": "Cover and physical p. 3, Article 1 item 4",
+      "temporal_limit": "Selected passages only, not full 17 pages. Prior enabling law is distinct from a concrete compulsory component.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored research/review record; full supporting public bytes temporary only."
+    },
+    {
+      "id": "short-it-ar-ozg2026",
+      "title": "OZG amending Act, 6 October 2026, published 9 October 2026",
+      "url": "https://www.recht.bund.de/bgbl/1/2026/289/regelungstext.pdf?__blob=publicationFile&v=1",
+      "retrieved_at": "2026-10-25T22:19:05.068442+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "dc408b7d21a8b92420ce20ccc05889dbc4385d45a672c1ece73c3e4ea7adf4d9",
+      "read_extent": "Cover and physical p. 6, complete Article 3",
+      "temporal_limit": "Selected passages only, not full nine pages or full intervening amendment history.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored research/review record; full supporting public bytes temporary only."
+    },
+    {
+      "id": "short-it-ar-lower-saxony",
+      "title": "Niedersachsen/BMDS rollout agreement release, 10 April 2026, updated 21 May 2026",
+      "url": "https://www.stk.niedersachsen.de/startseite/presseinformationen/flachendeckender-rollout-von-funf-fokusleistungen-nun-auch-in-niedersachsen-vereinbarungen-mit-dem-bund-uber-finanzielle-unterstutzung-251035.html",
+      "retrieved_at": "2026-10-25T22:19:05.068442+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "8643f491a84bf8789115551b97ae3cec534584ecc137aa2b8d78fef51780e0a2",
+      "read_extent": "Dated release agreement, relevant complete project and funding paragraphs",
+      "temporal_limit": "Particular state rather than a national causal evaluation or national AG deadline.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored research/review record; full supporting public bytes temporary only."
+    },
+    {
+      "id": "short-it-ar-baykommun",
+      "title": "BayKommun official National Digital Offensive programme page",
+      "url": "https://www.baykommun.bayern/nationale-digitaloffensive.html",
+      "retrieved_at": "2026-10-25T22:19:05.068442+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "12d0d147e5c3acb061f1fa339e39d154744401b199d0a2d2aed87f7826e9508f",
+      "read_extent": "Relevant programme funding, cost, timeframe and eWA implementation sections",
+      "temporal_limit": "Undated current account; no exact VITAKO author-date bytes or quantified share of national prior rollout.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored research/review record; full supporting public bytes temporary only."
+    },
+    {
+      "id": "short-it-ar-mpk-resolution",
+      "title": "25 June 2026 MPK/Bundeskanzler resolution TOP 3.2",
+      "url": "https://www.rlp.de/fileadmin/02/MPK_Vorsitz/Beschluesse_MPK_25Juni_Berlin/Neue_Dokumente_03072026/Beschluss_TOP_3.2_BK-MPK_final.pdf",
+      "retrieved_at": "2026-10-25T22:19:05.068442+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": null,
+      "read_extent": "Official PDF title/date, physical p. 2 measure 167 and physical p. 3 paragraph 3(a), including adjacent functionality expansion.",
+      "temporal_limit": "Policy/legal-instrument deadline; not proof all authorities must already be operational or target achieved. Selected passages only, not all eight pages; web extraction, no original-byte hash claimed.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored research/review record; full supporting public bytes temporary only."
+    },
+    {
+      "id": "short-it-ar-ewa-faq",
+      "title": "Official Hamburg eWA FAQ",
+      "url": "https://wohnsitzanmeldung.gov.de/haeufig-gestellte-fragen",
+      "retrieved_at": "2026-10-25T22:19:05.068442+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/ar-primary-checks.json",
+      "sha256": "2745b02d4035a8eda4c422622654468a203f4fc41fac0518216f7e1ef54c6e5f",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": null,
+      "read_extent": "Eligibility, credentials, account setup, review/confirmation and card-update steps.",
+      "temporal_limit": "Current service instructions, not historical uptake or KPI-effect study; no numerical shortfall inferred.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored research/review record; full supporting public bytes temporary only."
+    },
+    {
+      "id": "short-it-a-dnrw",
+      "title": "d-NRW AöR eWA technical and implementation description, stand March 2026",
+      "url": "https://www.d-nrw.de/kommunalvertreter-onlinezugang/verfuegbare-leistungen/elektronische-wohnsitzanmeldung",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "4f060b8bc0d8a89666268bc0ffb7b700339ffdab82a391bf6c022d2f6a627e2f",
+      "temporal_limit": "Page states March 2026, but current HTML exact historical bytes unauthenticated. It describes operator implementation, not national market shares or privately denied access.",
+      "read_extent": "Full relevant service, identity, technical interfaces and implementation sections; no linked documents downloaded.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-a-dataport-fv",
+      "title": "Dataport eWA Fachverfahren integration documentation",
+      "url": "https://docs.osi.dataport.de/public/puboddoku/fachverfahren-ertuechtigen-525435776.html",
+      "retrieved_at": "2026-10-25T22:13:17.977323+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/a-primary-checks.json",
+      "sha256": "83ca8fc281ea45ede288491480cf44cccc23ec0e0510c9d3c37353219240cfd7",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "42d98a5f7ac4340c4eeb83a028307f55225358fc350528ce3b22ad071db93ce8",
+      "temporal_limit": "Current undated article corroborates operation, not every historical access decision or legal adequacy of independent competing front ends. Backend integration access is distinct from access needed to build a competing service.",
+      "read_extent": "Entire short article on specifications, existing solutions and costs.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored primary-check/review dependency; full background bytes temporary."
+    },
+    {
+      "id": "short-it-root-draft",
+      "title": "Entwurf einer Verordnung über IT-Komponenten für die elektronische Abwicklung von Verwaltungsverfahren; official consultation draft",
+      "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/ITKV_RefE_2026-09-03_barrierefrei.pdf",
+      "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-draft.pdf",
+      "sha256": "3083a6061d2f2512530d3f8f8272e564d557a3ada730660b9aa264a51780cf22",
+      "retrieved_at": "2026-10-25",
+      "temporal_limit": "Printed1September2026,18:18; filename3September not substituted. Actual addressed version to be checked against each response. Current canonical shared original retained as report/validation dependency.",
+      "archive_type": "Shared exact canonical draft PDF",
+      "usable_as_evidence": true,
+      "retention_exception": "Existing shared canonical exact-version report/validation dependency; no duplicate source archive."
+    }
+  ],
+  "limitations": [
+    "Both original VITAKO pages read before C inventory, all 11 outcomes and exclusions reviewed and all exact original anchors checked.",
+    "Current draft printed 1 September matches the response, but author/receipt and exact dispatch dates remain unverified. No historical date manufactured.",
+    "Longer primary sources read only at needed passages. Current OZG separated from selected dated promulgated amendments; no exhaustive historical reconstruction or broad legal opinion claimed.",
+    "New MPK primary resolves a target-description access gap only; it does not prove actual end-2026 rollout.",
+    "No new author-error candidate. Raw C and frozen A inventories remain unchanged."
+  ],
+  "counts": {
+    "documents": 1,
+    "physical_pages": 2,
+    "claims_reviewed": 11,
+    "accept": 10,
+    "revise": 1,
+    "omissions": 1,
+    "new_error_candidates": 0
+  }
+}

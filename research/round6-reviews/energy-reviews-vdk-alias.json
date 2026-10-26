@@ -1,0 +1,35 @@
+{
+  "reviewer": "energy_hearings",
+  "at_utc": "2026-10-25T12:10:28.384951+00:00",
+  "conclusion": "Merge round6-social-sg2610200007 into existing versmedv7-2026-vdk. Different PDF binaries contain exactly the same entire whitespace-normalized six-page authored text, including12October2026date. This is a genuine repeated read, not a distinct authored version.",
+  "copies": [
+    {
+      "role": "baseline_author_copy",
+      "pdf": "research/round3-social/coverage-pdfs/047a8d2d0161c54372.pdf",
+      "pdf_sha256": "9d9669eabef448500b5c5c5a6c48ee51be7c8386dc029c29873619511aab1337",
+      "pdf_hash_basis": "current_bytes",
+      "text_file": "research/round3-social/coverage-pdfs/047a8d2d0161c54372.txt",
+      "text_sha256": "dc062fff86e9974a2c07467eca3336d1b491b7bafaf20d0b1073cd2bb6e968fb",
+      "physical_pages_from_form_feeds": 6,
+      "words": 1743,
+      "all_whitespace_removed_sha256": "8f6593003253a693eeb163a37160477d49c61023d76509989265662bfcdf086c",
+      "author_date": "2026-10-12"
+    },
+    {
+      "role": "register_copy",
+      "pdf": "research/round3-root/coverage/register-pdfs/SG2610200007.pdf",
+      "pdf_sha256": "3c07d3c337536795532e7ad878f7480b6c2fd34a38b7ad85f5e1e7871569c483",
+      "pdf_hash_basis": "verified central register manifest; PDF intentionally evicted",
+      "text_file": "research/round3-root/coverage/register-pdfs/SG2610200007.txt",
+      "text_sha256": "dc062fff86e9974a2c07467eca3336d1b491b7bafaf20d0b1073cd2bb6e968fb",
+      "physical_pages_from_form_feeds": 6,
+      "words": 1743,
+      "all_whitespace_removed_sha256": "8f6593003253a693eeb163a37160477d49c61023d76509989265662bfcdf086c",
+      "author_date": "2026-10-12"
+    }
+  ],
+  "same_normalized_entire_text": true,
+  "proof_limit": "Text comparison validates duplicate authored content, not a new independent merits review or byte-identical PDFs. No mass restoration needed.",
+  "prior_audit_correction": "Social source row had explicitly named this existing-pool mirror. Earlier ledger audit verified that metadata but did not test final merged grouping, so it missed the duplicate group. Root caught it before finalisation.",
+  "count_effect": "Current792 becomes791;625retainedbaselinegroups plus166newgroups, net+165from626baseline after separateDKduplicate merge. No case/findings count change."
+}

@@ -1,0 +1,390 @@
+{
+  "round": "additional two-hour round beginning2026-10-25 00:01:28UTC",
+  "last_updated": "2026-10-25",
+  "note": "Negative and partial screens, not findings. No assertion that every statement in a document was checked. Retain unresolved alternatives and separate uncertain forecasts from errors.",
+  "screens": [
+    {
+      "screen_id": "gmodg2026-waniczek",
+      "scope": "Government BT21/6278; official4-page submission19June2026",
+      "disposition": "not_promoted",
+      "reason": "The€2.3bn business figure is net annual relief in the bill. The author uses the neutral Erfüllungsaufwand category and acknowledges offsetting relief/uncertainty, so a clear sign reversal is not established. Climate-mechanism rhetorical claims need separate scoped evidence.",
+      "sources": [
+        "sources/waniczek-gmodg-20260619.pdf",
+        "sources/gmodg-bt216278.pdf"
+      ]
+    },
+    {
+      "screen_id": "gmodg2026-hausgrund",
+      "scope": "Government BT21/6278; official13-page submission18June2026",
+      "disposition": "not_promoted",
+      "reason": "Private dwelling shares can legitimately include condominium-owner associations. Zensus2022 private persons+WEG gives about79.3%, consistent with79.4%; earlier33.3m stock level may concern another date/cohort. No material overstatement proved. Statutory heat-pump exceptions may be shorthand, not categorical denial.",
+      "sources": [
+        "sources/hausgrund-gmodg-20260618.pdf"
+      ]
+    },
+    {
+      "screen_id": "gmodg2026-dmb-housing-overburden",
+      "scope": "Official DMB June2026submission",
+      "disposition": "not_promoted",
+      "reason": "The30% housing-cost threshold is expressly defined. A different40% Eurostat convention would not prove an error.",
+      "sources": [
+        "sources/dmb-gmodg-202606.pdf"
+      ]
+    },
+    {
+      "screen_id": "gmodg2026-dmb-subsidy",
+      "scope": "Official DMB June2026submission; Ariadne2021panel and BMV2017",
+      "disposition": "not_promoted_unresolved_scope",
+      "reason": "Ariadne reports roughly6–10% subsidies for multi-family/high-rise measures,12% for roofs; building type is not identical to rental ownership. The cited data do not establish a false national landlord uptake rate. BMV2017PDF is scanned and not yet fully OCR-read; no issue promoted from incomplete evidence.",
+      "sources": [
+        "sources/dmb-gmodg-202606.pdf",
+        "sources/ariadne-wohnenwaermepanel2021-202204.pdf",
+        "sources/bmv-modernisierung-2017.pdf"
+      ]
+    },
+    {
+      "screen_id": "gmodg2026-bwp",
+      "scope": "BWP8May2026consultation response; BDH2025market statistics",
+      "disposition": "not_promoted",
+      "reason": "2025heat-pump sales299k exceed gas276.5k, so most-sold claim is supported. Manufacturer sales versus actual installation is a different metric, but no contrary installation evidence establishes falsity. Roughly1m gas/oil installations since2024 may include2026and rounding.",
+      "sources": [
+        "https://www.waermepumpe.de/fileadmin/user_upload/waermepumpe/03_Politik/2026/2026_05_08_Stellungnahme_GMG_final.pdf",
+        "https://www.bdh-industrie.de/fileadmin/user_upload/Downloads/PresseMeldungen/Absatzzahlen_Heizungen_Deutschland_2025.pdf"
+      ]
+    },
+    {
+      "screen_id": "gmodg2026-dgb",
+      "scope": "Official18-page June2026submission",
+      "disposition": "not_promoted",
+      "reason": "Main numerical renewable-fuel stages agree with the addressed bill. Legal,distributional and future-cost objections are not converted into factual errors.",
+      "sources": [
+        "sources/dgb-gmodg-202606.pdf"
+      ]
+    },
+    {
+      "screen_id": "gmodg2026-bdh",
+      "scope": "Official20-page June2026submission; selected technical passages screened",
+      "disposition": "partial_screen_no_finding",
+      "reason": "Rated hybrid power shares yielding a larger annual heat share can reflect engineering sizing/operating-hour assumptions; no primary counterexample to the proposed design rule checked. Avoid treating a conditional technical recommendation as a universal measured assertion.",
+      "sources": [
+        "sources/bdh-gmodg-202606.pdf"
+      ]
+    },
+    {
+      "screen_id": "gmodg2026-rosin",
+      "scope": "Official39-page legal memorandum; summary and selected sections read",
+      "disposition": "partial_screen_no_finding",
+      "reason": "Predicted remaining fossil-heater numbers and constitutional proportionality are uncertain forecasts/legal interpretation. No factual misdescription identified in the selected reading; full memorandum not yet screened.",
+      "sources": [
+        "sources/rosin-buedenbender-gmodg-202606.pdf"
+      ]
+    },
+    {
+      "screen_id": "thg2026-nabu-volume",
+      "scope": "Official9-page submission; cited underlying biofuel report",
+      "disposition": "not_promoted",
+      "reason": "7.3PJ to56PJ is a667%increase, reasonably rounded to around700%. Primary Cerulogy table12 gives2023demand-weighted average109.2gCO2e/MJ against94fossil, about16.2%higher. Global-versus-German implications are policy context, not a proved false global ratio.",
+      "sources": [
+        "sources/nabu-thg-20260227.pdf",
+        "sources/cerulogy-diverted-harvest-2024.pdf"
+      ]
+    },
+    {
+      "screen_id": "thg2026-duh-carbon",
+      "scope": "Official10-page submission; carbon opportunity study and KSG schedule",
+      "disposition": "not_promoted",
+      "reason": "16.37Mt/39Mt annual statutory reduction≈42%, consistent with643→604Mt unadjusted KSG schedule. Distinguish opportunity-cost modelling from realised removals; author uses conditional renaturation, not observed sequestration.",
+      "sources": [
+        "sources/duh-thg-202602.pdf",
+        "https://www.gesetze-im-internet.de/ksg/anlage_2.html"
+      ]
+    },
+    {
+      "screen_id": "thg2026-efuel-finland",
+      "scope": "Official5-page submission; Finnish government19Dec2024primary explanation",
+      "disposition": "not_promoted",
+      "reason": "Finnish RFNBO-specific4percentage-point minimum from2030is supported, separate from combined advanced-fuel quota. Other scale/cost results are conditional forecasts. Two-millionBEV-versus-current-stock rhetoric may involve rounding and publication timing; no precise false comparison established.",
+      "sources": [
+        "sources/efuel-thg-202602.pdf",
+        "https://valtioneuvosto.fi/-/1410877/jakeluvelvoite-nousee-ensi-vuonna-maltillisesti-16-5-prosenttiin"
+      ]
+    },
+    {
+      "screen_id": "thg2026-te",
+      "scope": "Official6-page submission",
+      "disposition": "not_promoted_unresolved_technical_scope",
+      "reason": "80%retail-price change is expressly a possibility based on a future scenario, not a measured fact. Biogenic-hydrogen description as hypothetical may refer industrial deployment; BioH2Ref demonstrates a pilot, which alone does not establish the intended commercial claim false.",
+      "sources": [
+        "sources/te-thg-202602.pdf",
+        "https://www.iob.rwth-aachen.de/projekte/bioh2ref-projekt/"
+      ]
+    },
+    {
+      "screen_id": "thg2026-becker",
+      "scope": "Official6-page submission",
+      "disposition": "not_promoted",
+      "reason": "Long-term storage needs and supply gaps depend on system assumptions. More-than97%combustion mileage may be stale/rounded, but no matching-scope primary vehicle-kilometre counter read. No error promoted from absence of evidence.",
+      "sources": [
+        "sources/becker-thg-202602.pdf"
+      ]
+    },
+    {
+      "screen_id": "thg2026-hornsteiner-winter",
+      "scope": "Official18-page submission, auxiliary weather description",
+      "disposition": "not_promoted",
+      "reason": "One of the warmest/record-suspicious is loose ranking language. DWD provisional winter average1.8°C and later UBA20thwarmest do not uniquely refute that description or establish the intended geographical/ranking scope. Primary evidence-existence issue is recorded separately.",
+      "sources": [
+        "sources/hornsteiner-thg-202602.pdf",
+        "https://dkkv.org/wp-content/uploads/2026/03/2026-02-27-Deutschlandwetter-Winter-2025-2026.pdf"
+      ]
+    },
+    {
+      "screen_id": "geowg2024-swm",
+      "scope": "Official24-page statement; main proposal text screened",
+      "disposition": "not_promoted",
+      "reason": "Unchanged thermal-water composition/quality in a closed loop cannot fairly be rebutted merely because useful heat is removed: context concerns water quantity/chemical composition. Specific operational treatment effects require further primary evidence.",
+      "sources": [
+        "sources/swm-geowg-202410.pdf"
+      ]
+    },
+    {
+      "screen_id": "geowg2024-muellersyhre-small-slips",
+      "scope": "Official21-page submission, full OCR plus key visuals",
+      "disposition": "auxiliary_slips_not_additional_issue_records",
+      "reason": "10TWh/year corresponds to1.1416GW, not1.41; subsequent250×4.7MW sizing instead approximates1.14GW.50°C is323.15K, not313.15K. These small slips are not the basis for an asserted deployment feasibility or profitability result; the independently reviewed monetary-comparator issue is recorded separately.",
+      "sources": [
+        "sources/muellersyhre-geowg-202410.pdf",
+        "sources/geowg-ocr/page-12.png",
+        "sources/geowg-ocr/page-13.png"
+      ]
+    },
+    {
+      "screen_id": "netzpaket2026-vik-eu-priority",
+      "scope": "Official10physical-page5October2026submission; full text read; exactBT21/7866 and CommissionCOM2026/600",
+      "disposition": "not_promoted_supported",
+      "reason": "The Commission17July2026proposal actually inserts Article18d and expressly includes energy-intensive industries among user categories that regulatory authorities may prioritise when connection capacity is scarce. The author describes a proposal, not enacted law. Other industrial timing/cost concerns are policy and forecast arguments.",
+      "sources": [
+        "sources/vik-netzpaket-202610.pdf",
+        "sources/netzpaket-bt217866.pdf",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0600"
+      ]
+    },
+    {
+      "screen_id": "netzpaket2026-bee-employment",
+      "scope": "Official23physical-page30September2026submission; full text read; cited24September2026Bertelsmann primary release and GWS report",
+      "disposition": "not_promoted_context_rescues",
+      "reason": "The186,600jobs difference is explicitly relative to the706,100target-path scenario. The alternative519,500scenario still grows above436,300baseline, but the author says the jobs would be lost from that potential, not categorically that186,600existing jobs disappear. Forecast assumptions are not proved false. Broad high-qualified/social-insurance description lacks a matched contrary employee classification and is not promoted.",
+      "sources": [
+        "sources/bee-netzpaket-202610.pdf",
+        "sources/gws-ee-employment2026.pdf",
+        "https://www.bertelsmann-stiftung.de/de/themen/aktuelle-meldungen/2026/neue-gesetze-weniger-investitionen-jobpotenzial-der-energiewende-bleibt-ungenutzt"
+      ]
+    },
+    {
+      "screen_id": "netzpaket2026-vku",
+      "scope": "Official3physical-pageAugust2026position supplied5October2026; full read",
+      "disposition": "not_promoted",
+      "reason": "Main5percent threshold, six-year designation and2027generation-cap descriptions agree with the draft. Request for mandatory technology differentiation uses a can-versus-must shorthand, while the draft says should; no categorical source-description finding is made from that legal shorthand. System-growth numbers are projections.",
+      "sources": [
+        "sources/vku-netzpaket-202610.pdf",
+        "sources/netzpaket-bt217866.pdf"
+      ]
+    },
+    {
+      "screen_id": "netzpaket2026-bne",
+      "scope": "Official27physical-page5October2026submission; full read; exact government draft",
+      "disposition": "not_promoted_legal_and_source_ambiguity",
+      "reason": "Digital-portal2028date matches draft. Capacity release after three unused years conflicts with normative five-year text, but repeats the addressed bill explanation own three-year statement, so this is an unresolved internal-draft ambiguity rather than a promoted author error.70percentDC/AC capacity arithmetic is correct and distinguished from energy yield. NEST incentive, EU-law compatibility and financing effects require legal/model judgments, not proof from counter-forecasts.",
+      "sources": [
+        "sources/bne-netzpaket-202610.pdf",
+        "sources/netzpaket-bt217866.pdf"
+      ]
+    },
+    {
+      "screen_id": "kspg2025-bund-project-failure",
+      "scope": "Official6physical-page13October2025submission; full read; citedKazlouCherpJewell2024mainpaper/methods/extendedfigure1",
+      "disposition": "not_promoted_historical_cohort_alternative",
+      "reason": "The cited figure genuinely reports100percent failed historical planned capacity for1972–2017 cement/waste/bioelectricity cohorts. Brevik commercial operation in2025 does not contradict that dated cohort. The author omits cohort/date and discusses long-term failures, but a historical-track-record interpretation remains reasonable. Do not equate recently commissioned operation with proved long-term success or invent a sector-wide current failure rate.",
+      "sources": [
+        "sources/bund-kspg-20251013.pdf",
+        "sources/ccs-feasible-nature2024.pdf",
+        "https://www.equinor.com/news/20250825-first-co2-volumes-stored-at-northern-lights"
+      ]
+    },
+    {
+      "screen_id": "kspg2025-bund-corrosion",
+      "scope": "Same submission physical4; citedCEN/TC474June2025openletter all4pages read",
+      "disposition": "not_promoted_qualification_and_scope",
+      "reason": "The CEN letter expressly identifies local corrosion above10mm/year under acid-forming impure-stream conditions and says no open-access infrastructure mixing reducing/oxidizing streams yet exists. Older purified-CO2/EOR pipelines are not a fair contradiction. The submission compresses can/local/conditional risk into a categorical-sounding sentence; context and the actual severe-case evidence prevent promotion of an unqualified universal-rate error. Purity specification is an identified prevention approach, not proof every proposed network is safe.",
+      "sources": [
+        "sources/bund-kspg-20251013.pdf",
+        "https://www.co2cz.cz/media/attachments/2025/06/26/prodlouzeni_tc474wg1_open_letter_2025_06_12.pdf"
+      ]
+    },
+    {
+      "screen_id": "kspg2025-vci-ipcc",
+      "scope": "Official5physical-page9October2025submission; full read; IPCCAR6SPM and chapter6selected source passages",
+      "disposition": "not_promoted_unresolved_pathway_scope",
+      "reason": "Categorical CCS/CCU necessity attribution is stronger than the selected AR6 passages, but those passages do call for CCS in residual fossil systems and CDR for residual emissions. No full specified no-CCS/CCU compatible pathway was independently reconstructed, so absence of an explicit necessity sentence is not treated as proof of a source-description error.",
+      "sources": [
+        "sources/vci-kspg-20251009.pdf",
+        "https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/",
+        "https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-6/"
+      ]
+    },
+    {
+      "screen_id": "kspg2025-bellona-norway-chronology",
+      "scope": "Official9physical-pageOctober2025submission; full read; firstNorwegianSleipner1996operation primary source",
+      "disposition": "auxiliary_rounding_not_promoted",
+      "reason": "More than30years in Norway overstates the1996-to2025Sleipner record by about a year if this is the intended starting project. A round-number description of three decades has little effect on the underlying industrial experience argument; no separate issue record promoted. Capacity constraints are expressly conservative forecasts, not observed universal limits.",
+      "sources": [
+        "sources/bellona-kspg-202510.pdf",
+        "https://www.equinor.com/news/20240404-reducing-emissions-from-sleipner-and-gudrun"
+      ]
+    },
+    {
+      "screen_id": "kspg2025-nabu",
+      "scope": "Official6physical-page9October2025submission; full read",
+      "disposition": "not_promoted",
+      "reason": "Rest-waste sorting thirds are explicitly sourced to a UBA composition study; category and practical-recycling limits would require primary investigation before any contrary claim. Offshore capacity, lock-in and natural-sink priorities are conditional forecasts or policy judgments. UVP sentence appears in storage-protection context and is not treated as categorical denial of every pipeline exception.",
+      "sources": [
+        "sources/nabu-kspg-202510.pdf"
+      ]
+    },
+    {
+      "screen_id": "netzpaket2026-bee-fraunhofer-storage",
+      "scope": "Full23-page BEE government-bill submission; FraunhoferIEE primary2026 study landing and summary",
+      "disposition": "not_promoted",
+      "reason": "The150GW PV potential with60GW four-hour storage is explicitly a conditional configuration; primary study reports the same scale and1percent curtailment. Small studied transformer sample and omitted upstream/downstream constraints limit extrapolation but do not prove the conditional description false.",
+      "sources": [
+        "sources/bee-netzpaket-202610.pdf",
+        "https://www.iee.fraunhofer.de/de/publikationen/neueste-publikationen/berichte-studien/studie-pv-durch-intelligente-batterie-speicher-an-umspannwerken.html"
+      ]
+    },
+    {
+      "screen_id": "stromvkg2026-uim-demand-side",
+      "scope": "Full3-page registered5May2026 submission SG2605050040; exact27April2026 22:16 ministry draft definitions and§§3–6",
+      "disposition": "not_promoted_scope_alternative",
+      "reason": "The draft expressly includes controllable loads in2027/2029 capacity auctions, but author expressly seeks demand-side analysis before the first2026 generation auction. That timing and efficiency rather than demand-response distinction supplies a strong benign reading of the opening broad criticism. No categorical omission error promoted. Conditional54TWh/8760h≈6.16GW arithmetic correct;9GW2026 matches exactdraft.",
+      "sources": [
+        "https://www.lobbyregister.bundestag.de/media/26/00/732396/Stellungnahme-Gutachten-SG2605050040.pdf",
+        "sources/stromvkg-refe-20260427.pdf"
+      ],
+      "archive_limit": "Official PDF fully read through web reader. Local direct download returned copyright-information HTML, retained as .download and not mislabelled as PDF."
+    },
+    {
+      "screen_id": "eeg2027-kommunal-segments",
+      "scope": "Full7-page municipal-associations2October2026 statement; exact BT21/7867",
+      "disposition": "not_promoted_self_correcting_auxiliary_error",
+      "reason": "Physical3 first paragraph appears to swap first/second PV auction segments, but the immediate following paragraph correctly identifies roof as second and ground-mounted as first. Narrow auxiliary typo not promoted; policy requests do not depend on the swap. Municipal payment and§50c numerical claims checked against draft."
+    },
+    {
+      "screen_id": "kspg2025-bund-cumulative-storage",
+      "scope": "Full6physical-page official13October2025 BUND statement; exactBT21/1494; primary LondonRegister2025 annualreport9pages and publicZenodo metadata",
+      "disposition": "not_promoted_storage_scope_unresolved",
+      "reason": "The50Mt historical cumulative figure looks far below an all-project aggregate of384.6Mt through2024, but the same author footnote uses about7Mt annual geological-end-storage injection. A dedicated-storage interpretation excluding enhanced-oil recovery is a strong rescue. The all-project register includes EOR, and its narrative does not supply a matched dedicated cumulative total. No factor-seven error inferred from mismatched categories. Register report published aftersubmission and used only as retrospective corroboration, not information author necessarily had.",
+      "sources": [
+        "sources/bund-kspg-20251013.pdf",
+        "sources/kspg-bt211494.pdf",
+        "https://imperialcollegelondon.github.io/The-London-Register-of-Subsurface-CO2-Storage/downloads/London_Register_Annual_Report_2025.pdf",
+        "sources/london-register-zenodo-18016847.json"
+      ],
+      "access_note": "2025Zenodo metadata now marksfilesrestricted; no file-access bypass attempted. Public annualreport was read. Current2026site has embargoedmaterials, which were not accessed."
+    },
+    {
+      "screen_id": "eeg2027-bsw-smartmeter-rate",
+      "scope": "BSWphysical47/printed45; BNetzA currentH1/2026data and September2026governmentanswer",
+      "disposition": "not_promoted_revision_timing",
+      "reason": "Author current5.5percent differs from later/current5.9percent overall June2026rollout and revised4.4percent year-end2025figure. However, September17governmentanswerstill reported5.5percent; regulator explicitly revises published figures. Without exactpublication/revisionchronology, no error at1Octoberauthor date established. Obligatory-case26.1percent has a different denominator and is not the correction.",
+      "sources": [
+        "sources/bsw-eeg2027-202610.pdf",
+        "https://bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/NetzzugangMesswesen/Mess-undZaehlwesen/iMSys/start.html",
+        "https://www.bundestag.de/presse/hib/kurzmeldungen-1216244"
+      ]
+    },
+    {
+      "screen_id": "umwrg2026-general-context",
+      "sources": [
+        "Official Heß31p submission, full empirical opening and relevant legal/request sections; selected other pages.",
+        "Official GLI6p submission, full read.",
+        "Official BDI9p submission, full read.",
+        "Official Schmidt15p submission, all relevant empirical and legal sections; several tool outputs truncated, so not claiming all lines full read.",
+        "UBA37/2025 original174p, methods, selected quantitative results, sections2.4 and2.8.1, not full report.",
+        "Exact government BT21/4146 operative§5physical12, overview and selected other sections."
+      ],
+      "disposition": "One narrow Heß court-summary finding recorded separately. No other proven factual error retained.",
+      "notes": [
+        "Heß51.3% explicitly excludes pending outcomes;43/51 participation claim is expressly bounded to cases with available information;30interviews/fivegroups matches source. Before/after duration and causal generalisations are interpretations with confounding uncertainty, not proved numerical errors.",
+        "GLI seven planetary boundaries was checked against new2025 seven-boundary assessment rather than outdated2023 six-boundary statement. Other numeric summaries match matched UBA context.",
+        "BDI comparative-law quotation matches the cited2017 report wording in original primary-text search result. Its EU-compatibility inference is a legal position, not disproved by selected facts alone. Industrial challenges are explicitly said rare, so low case counts do not refute its separate indirect-delay argument.",
+        "BDI36-versus40member associations opening/imprint inconsistency screened but not promoted as material legislative issue."
+      ]
+    },
+    {
+      "screen_id": "umwrg2026-schmidt-success-rate",
+      "sources": [
+        "Official Schmidt physical2/printed1 summary and physical6/printed5qualification, plus legal requests.",
+        "Original Destatis2023 officialXLSX sheets24251-03 and24251-05, Germany columnC, downloaded from published indexv4.",
+        "UBA37/2025 physical47table4 and methods38–41, plus earlier2019comparison footnote60."
+      ],
+      "disposition": "Unresolved denominator/source matching lead, no issue record promoted.",
+      "notes": [
+        "Schmidt compares >50%environmental success with6.2%general2023average. Primary environmental numerator57/111 excludes96open plus one unknown; closedcases include3moot outcomes.",
+        "Destatis general-chamber3,002full+1,548partialgrants over75,059judgment/orderclosures=6.06%; denominator includes29,569withdrawals,20,666moot outcomes and others. Over grant/partial/denial outcomes alone the illustrative ratio is20.89%. Allchambers includingasylum17,753/148,068=11.99%.",
+        "None reproduces precisely6.2%; the exact calculation/version remains unidentified. A comparison of differently selected populations can be limited without being an express false identical-denominator claim. Excluding withdrawn or moot general cases does not necessarily establish the appropriate matched environmental denominator. No corrected national overall environmental advantage or causal selection result asserted.",
+        "The broad environmental success rate remains higher in these illustrative comparisons. Missing method detail and heterogeneity are not by themselves proven errors."
+      ]
+    },
+    {
+      "screen_id": "kwsg2024-deneff-eers",
+      "sources": [
+        "Official LobbyregisterSG2410280005,15October2024 full7p web read.",
+        "Cited NCSL Energy Efficiency Resource Standards report, updated15September2021, background/policydesign/fullrelevantstate examples."
+      ],
+      "disposition": "Negative screen; cited count has affirmative source support.",
+      "notes": [
+        "NCSL itself describes33states implementing EERS policies, including voluntary targets. DENEFF does not expressly limit its count to binding standards, so a narrowerACE EEcount would not refute its figure.",
+        "Over30years wording can refer energy-efficiency programmes preceding formal1999TexasfirstEERS; not promoted as a chronology error without a clear exclusive EERS-timespan claim.",
+        "Process-heat142–226TWh is placed in electrification context; no verified boundary-specific original source mismatch established. Future potential persistence and capacity substitution depend on uncertain scenarios, not proved false from missing data."
+      ]
+    },
+    {
+      "screen_id": "eeg2027-bsw-remaining-context",
+      "disposition": "negative_screen_no_additional_issue",
+      "scope": "Remaining official58-physical-pageBSW submission read, including physical1–10 and20–58 after claim-context11–19; selected exactdraft and currentstatutes checked.",
+      "notes": [
+        "Five-percent uncompensated output at5ct/kWh baseline requiresabout0.263ct/kWh compensation, consistent with about0.25ct.",
+        "Solar-euro2000EUR/MW/year yields40000EUR/year for20MW and800000EUR over20years; quoted0.285ct/kWh can follow about700MWh/MW remunerated output. No arithmetic finding.",
+        "Article19dsmallplant threshold200kW cross-references futureArticle5/12thresholds; contemporary primary legal analysis supports200kW afterJanuary2026. A simplistic400kWcounter would mismatch applicable date.",
+        "Direct-line producer-to-customer description checked against existingEnWG§3#27; alternative energy-supplier/customer provisions have a different actor scope, so no proved universal restriction error recorded. Exacthistorical/cohort applicability unresolved.",
+        "Two-secondfrequency-control latency versus30-secondfull-response requirement can describe different stages, not a matched technical contradiction.",
+        "Smartmeter rate has contemporaneous5.5%government support and regulator revisions; different compulsory-case denominator not substituted. AgNes projected charges and communication-volume estimates are not proved errors from absent evidence."
+      ],
+      "sources": [
+        "sources/bsw-eeg2027-202610.pdf",
+        "sources/eeg2027-bt217867.pdf"
+      ]
+    },
+    {
+      "screen_id": "ehv2030-2026-short-responses",
+      "disposition": "negative_screen_no_additional_issue",
+      "scope": "Full officialBBE5p,Germanwatch2p,DVFG3p,VDR3p,E.ON2p through official ministry webPDFs; exactJanuaryEHVdraftselectedoperative/explanation sections.",
+      "notes": [
+        "BBE95%2019–2023exclusion aligns with exactdraft/TEHGcohort; no universal all-biomass exemption inferred.",
+        "Germanwatch date2025on2026consultation is an apparent auxiliary header slip, but no timing-dependent policy contradiction was established. No issue promoted.",
+        "VDR expressly recognises§6(2)alternative evidence while requesting clearer formats; not false categorical denial of an alternative route. March2025national implementation and2024maritimefirstreporting chronology match official process.",
+        "DVFGtechnical90%new-boiler argument tested against originalRegulation813/2013AnnexII1(a). Explicit75%seasonal-B1exception and86%ordinaryminimum mean a universal market-ban statement needs qualification, but seasonal versus useful efficiency, fuel calorific basis and intended new-device cohort prevent an established matched90%counterexample here. More fundamentally the draft explanation uses a mixed installed-plant average, not only newly marketed boilers. This affects argumentative fit but does not prove a specific average false. No issue recorded from that uncertainty.",
+        "E.ON universal80%description recorded separately for independent review; optionalgrandfatheringlegaldebate is not itself treated as an error."
+      ],
+      "sources": [
+        "https://www.bundesumweltministerium.de/fileadmin/Daten_BMU/Download_PDF/Glaeserne_Gesetze/21._LP/ehv_2030/Stellungnahmen/Verbaende/ehv_2030_stn_bbe_bf.pdf",
+        "https://www.bundesumweltministerium.de/fileadmin/Daten_BMU/Download_PDF/Glaeserne_Gesetze/21._LP/ehv_2030/Stellungnahmen/Verbaende/ehv_2030_stn_gw_bf.pdf",
+        "https://www.bundesumweltministerium.de/fileadmin/Daten_BMU/Download_PDF/Glaeserne_Gesetze/21._LP/ehv_2030/Stellungnahmen/Verbaende/ehv_2030_stn_dvfg_bf.pdf",
+        "https://www.bundesumweltministerium.de/fileadmin/Daten_BMU/Download_PDF/Glaeserne_Gesetze/21._LP/ehv_2030/Stellungnahmen/Verbaende/ehv_2030_stn_vdr_bf.pdf",
+        "sources/eon-ehv2030-202601.pdf",
+        "sources/ehv2030-refe-202601.pdf",
+        "https://eur-lex.europa.eu/eli/reg/2013/813/oj/eng"
+      ]
+    }
+  ]
+}

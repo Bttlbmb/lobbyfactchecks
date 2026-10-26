@@ -1,0 +1,142 @@
+{
+  "law_id": "geowg-2024",
+  "document_id": "muellersyhre-geowg-20241031",
+  "status": "ai_screened",
+  "request_quote": {
+    "quote_id": "muellersyhre-geowg-request",
+    "metadata_file": "research/round2-energy/source-registry.json"
+  },
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Beschleunigung der Genehmigungsverfahren von Geothermieanlagen,Wärmepumpen und Wärmespeichern sowie zur Änderung weiterer rechtlicher Rahmenbedingungen für den klimaneutralen Ausbau der Wärmeversorgung",
+    "version": "BT 20/13092,30 September 2024; companion comments/replyBT 20/13556,30 October 2024",
+    "source_id": "geowg-bt2013092",
+    "additional_source_id": "geowg-bt2013556",
+    "submission_date": "2024-10-31",
+    "date_note": "Official committee-cover date; author text has no separate date. Hearing 4 November 2024.",
+    "relevant_provision": "Geothermal heat and heat-network expansion rationale; accelerated permitting. The source claims and arithmetic are assessed against this draft, not later legislation.",
+    "process_status_at_screen": "2024 process lapsed with the 20 thBundestag; later reintroduced legislation is not substituted."
+  },
+  "submission_source_id": "muellersyhre-geowg-20241031",
+  "source_ids": [
+    "muellersyhre-geowg-20241031",
+    "geowg-bt2013092",
+    "geowg-bt2013556",
+    "destatis-energy2023h1"
+  ],
+  "source_registry": "research/round2-energy/source-registry.json",
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "social_round2_independent_ai",
+        "date": "2026-10-25",
+        "disposition": "retain narrow minor/false numerical finding",
+        "review_file": "research/round2-reviews/social-reviews-muellersyhre-geowg.json"
+      }
+    ],
+    "follow_up_checks": [
+      {
+        "review_file": "research/round2-reviews/root-followup-geowg-arithmetic.json",
+        "scope": "Independent root calculation check only; not an additional full primary-source read or specialist review"
+      }
+    ]
+  },
+  "author_response": [],
+  "verification": {
+    "visual": "Full20author pages plus cover independently read; critical pages12–15/21visually checked. See review."
+  },
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full submission/exact-draft check; independent review requested.",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent full-context review completed; disposition updated or retained conservatively.",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Merged the independently verified price-input and division defects into one monetary-comparator record; formera 04 retired to superseded archive to avoid double counting.",
+      "by": "energy_hearings_ai_screen"
+    }
+  ],
+  "id": "geowg2024-muellersyhre-a03",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": false,
+  "card": {
+    "law_is_about": "Accelerating geothermal heat, heat-pump and heat-storage permits.",
+    "they_want": "Reject the whole bill.",
+    "they_claim": "A 33 ct household electricity input and 0.347 heat/electricity ratio produce a monetary ratio of 1.592.",
+    "the_problem": "The official electricity average is 42.29 ct; also 9.5/33 is 0.28788. Correcting both inputs yields about 1.031 under the same model."
+  },
+  "claim_quote": {
+    "original": "33,00 Cent",
+    "language": "de",
+    "translation_en": "Translation:33.00 cents",
+    "locator": {
+      "pdf_page": 14,
+      "printed_page": 13,
+      "section": "3.1.1 Monetärer Aufwands-/Nutzenvergleich",
+      "paragraph": "Price-input paragraph explicitly naming households in Germany and first half 2023."
+    },
+    "underline": "33,00"
+  },
+  "counter_quote": {
+    "original": "durchschnittlich 42,29 Cent je Kilowattstunde",
+    "language": "de",
+    "translation_en": "Translation: an average of 42.29 cents per kilowatt-hour",
+    "source_id": "destatis-energy2023h1",
+    "locator": {
+      "section": "Press release 388,29 September 2023",
+      "paragraph": "First body paragraph, electricity sentence; household-total row in first table corroborates."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Two defects affect one monetary comparator: the first-half 2023 household electricity average is 42.29 ct/kWh,not 33.00; independently,the stated 9.5/33 division is 0.28788,not 0.347. Correcting the division alone gives 1.32136; correcting both gives approximately 1.031 under the same remaining assumptions.",
+  "effect": "Lowers the stated monetary heat-output/electricity-cost ratio. Both errors made the hypothetical heat-pump case appear more favourable.",
+  "limits": "Actual operator tariffs, delivery costs and total project profitability remain unknown. The historical household average is not automatically an industrial tariff. The separate below-one conclusion stays unresolved. Either a misplaced input or arithmetic typo could explain the defects; no intent is inferred.",
+  "materiality_explanation": "Minor editorial judgment: two clear defects in one supporting monetary comparator. Their combined correction is substantial within that model, but the household-price comparison does not determine commercial project returns.",
+  "direction_explanation": "False for both defects: understating electricity cost and overstating the price ratio improve the heat-pump comparison, weakening the rejection argument. Severity is separate.",
+  "confidence": {
+    "text_source_mismatch": "high for period/population-specific official average",
+    "materiality": "editorial_judgment"
+  },
+  "additional_claim_quote": {
+    "original": "0,347",
+    "language": "de",
+    "translation_en": "Translation of numerical fragment:0.347",
+    "locator": {
+      "pdf_page": 14,
+      "printed_page": 13,
+      "section": "3.1.1 Monetärer Aufwands-/Nutzenvergleich",
+      "paragraph": "Bold price-ratio number after the heat/electricity price inputs."
+    },
+    "underline": "0,347"
+  },
+  "additional_counter_quote": {
+    "original": "9,5 Cent pro kWh",
+    "language": "de",
+    "translation_en": "Translation:9.5 cents per kilowatt-hour",
+    "source_id": "muellersyhre-geowg-20241031",
+    "locator": {
+      "pdf_page": 14,
+      "printed_page": 13,
+      "section": "3.1.1",
+      "paragraph": "Same price-input paragraph; electricity denominator 33 ct/kWh is directly above."
+    },
+    "retrieved_at": "2026-10-25",
+    "note": "Exact input from the same primary submission; the independent arithmetic below provides the correction."
+  },
+  "calculation": {
+    "label": "Independent arithmetic, not quotations",
+    "separate_checks": [
+      "Holding the author’s stated prices fixed:9.5/33=0.2878788,not 0.347;4.59×9.5/33=1.3213636.",
+      "Substituting the matching official 42.29 ct household electricity average:4.59×9.5/42.29=1.0310948."
+    ],
+    "scope": "Hold the 9.5 ct heat benchmark and physicalCOP 4.59 fixed. Neither is independently validated as a commercial project input."
+  },
+  "distinctness_rationale": "Combined as one flawed monetary-ratio argument, with two independently falsifiable underlying errors, to avoid counting the same comparator twice. The hypothesis about delivery costs in a 02 is separately unresolved."
+}

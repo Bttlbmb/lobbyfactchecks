@@ -1,0 +1,122 @@
+{
+  "id": "tax-targeted-expansion-lead-selection",
+  "selected_at_utc": "2026-10-25T05:21:48.727704+00:00",
+  "purpose": "Short risk-based expansion toward central, checkable claims in collected but previously unread submissions. These are not error findings.",
+  "selection_method": "Started from the 279 broad BMF-recipient register candidates; removed PDF binaries already present anywhere in the compiled reading pool and repeat binaries within the candidate set. Read actual claim/request context. Avoided already screened eight-association tax-reform copies, tobacco variants and exhausted ambiguous leads.",
+  "leads": [
+    {
+      "lead_id": "tax-expansion-sg2610070020",
+      "verification_state": "unverified_lead",
+      "author": "Bundesverband der Deutschen Spirituosen-Industrie und -Importeure (BSI)",
+      "title": "Positionspapier zum Haushaltsbegleitgesetz 2027, alcohol-tax change",
+      "process": "Body names a Haushaltsbegleitgesetz 2027 draft; register identifies a BMF-entered discussion-draft title on alcohol, sparkling-wine, intermediate-product and alcopop taxes.",
+      "document_date": "2026-09-07",
+      "self_reported_dispatch_dates": [
+        "15.09.2026"
+      ],
+      "date_limit": "Register recipient events are self-reported; no independently authenticated receipt.",
+      "source": {
+        "register_id": "SG2610070020",
+        "url": "https://www.lobbyregister.bundestag.de/media/2a/8c/858017/Stellungnahme-Gutachten-SG2610070020.pdf",
+        "register_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610070020/501508",
+        "local_file": "research/round3-root/coverage/register-pdfs/SG2610070020.pdf",
+        "text_file": "research/round3-root/coverage/register-pdfs/SG2610070020.txt",
+        "sha256": "c9073d7448644d17881888b94d35aff90a27c4de914451a20abc7dcdd0af0daf"
+      },
+      "claim_excerpt": {
+        "original": "knapp 70 %), obwohl sie mengenmäßig nur einen sehr kleinen Anteil am Alkoholkonsum haben (4,6 %)",
+        "language": "de",
+        "translation_en": "Translation: nearly 70%), although in quantity they account for only a very small share of alcohol consumption (4.6%)",
+        "pdf_page": 1,
+        "quotation_note": "Exact original-language fragment; line-break whitespace normalised."
+      },
+      "request_summary": "Do not proceed with the proposed 20% spirits-tax increase; require a realistic net impact assessment.",
+      "request_locator": "Physical page 3, paragraph beginning Der BSI fordert daher; context pages 1-2.",
+      "reason_to_prioritise": "The opening burden comparison combines a revenue share with a consumption share and directly supports opposition to the differentiated tax rise. The denominator can be checked: beverage litres versus pure-ethanol litres could materially alter the comparison. This is a concrete source-definition question, not a prediction of tax effects.",
+      "strongest_benign_alternative": "The 4.6% may use a compatible ethanol measure, or the author may intentionally and transparently compare beverage volumes. Different tax structures do not by themselves make the comparison false.",
+      "next_primary_evidence": "BMF/Destatis alcohol-excise revenue tables and beverage-consumption tables; BSI source tables or cited background annex showing exactly what the 4.6% measures. Retrieve the exact pre-15-September discussion draft and the AWB annex before evaluating legal attributions.",
+      "eligibility_and_version_gate": "Exact draft and annex versions remain to be obtained; do not substitute an unrelated later budget bill. Source and policy comparability are unverified.",
+      "initial_depth": {
+        "level": "selected_claim_context",
+        "extent": "All three author pages read for this short selection exercise, including qualifications and request. This is not primary-source verification and has not been admitted to the compiled screened pool."
+      },
+      "novelty_check": {
+        "current_pool_sha256": "bbca6fb012fcd387bf6e96d0a9b938f5a9bc6ab0608187036c6c4498bbf4753e",
+        "binary_absent_from_existing_pool": true,
+        "title_process_scan": "No existing pool title/process mentions this plastics-tax or spirits-tax position. A full semantic comparison of every unpublished variant is not claimed.",
+        "duplicate_registrants": "Joint signatories and later register copies must be merged before any future pool admission."
+      },
+      "independent_plausibility_review": {
+        "state": "requested",
+        "reviewer": "social_round2 AI agent",
+        "file": null
+      }
+    },
+    {
+      "lead_id": "tax-expansion-sg2610060025",
+      "verification_state": "unverified_lead",
+      "author": "Fourteen trade associations jointly; register copy supplied by Lebensmittelverband Deutschland",
+      "title": "Eine nationale Plastiksteuer ist der falsche Weg",
+      "process": "Proposed national plastics tax / packaging-law reform; no named exact draft in the three-page letter or structured register draft field.",
+      "document_date": "2026-07-31",
+      "self_reported_dispatch_dates": [
+        "31.07.2026"
+      ],
+      "date_limit": "Register recipient events are self-reported; no independently authenticated receipt.",
+      "source": {
+        "register_id": "SG2610060025",
+        "url": "https://www.lobbyregister.bundestag.de/media/09/b2/857418/Stellungnahme-Gutachten-SG2610060025.pdf",
+        "register_url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2610060025/500618",
+        "local_file": "research/round3-root/coverage/register-pdfs/SG2610060025.pdf",
+        "text_file": "research/round3-root/coverage/register-pdfs/SG2610060025.txt",
+        "sha256": "285bbf292e32810b0d4315af88f169a238808fddc4e66d5dfd569a4b01e2fd6c"
+      },
+      "claim_excerpt": {
+        "original": "Die jährlichen Bürokratiekosten einer allgemeinen Verpackungssteuer für die Wirtschaft beziffert das UBA auf 420 Millionen Euro jährlich",
+        "language": "de",
+        "translation_en": "Translation: The UBA puts the annual bureaucracy costs of a general packaging tax for businesses at 420 million euros per year.",
+        "pdf_page": 2,
+        "quotation_note": "Exact original-language fragment; line-break whitespace normalised."
+      },
+      "request_summary": "Abandon the proposed national plastics tax; use ecological modulation of licensing fees instead.",
+      "request_locator": "Physical page 2, final appeal and section Ökologisch sinnvolle Alternativen; opening page 1.",
+      "reason_to_prioritise": "A quantified administrative-cost estimate anchors the impracticality argument. The paper moves between a national plastics tax, a general packaging tax and different affected-firm scenarios. The named UBA 87/2025 study permits a direct check of the policy base, firm counts, cost assumptions and whether the cited number is transplanted between different designs.",
+      "strongest_benign_alternative": "The authors expressly call the estimate a general packaging tax, say the plastics population is only slightly smaller, and separately qualify the government staffing scenario as conditional on 500,000 firms. Those qualifications may make the comparison fair and entirely accurate.",
+      "next_primary_evidence": "Original UBA report 87/2025, Untersuchung ökonomischer Instrumente zur Verringerung des Verpackungsverbrauches sowie zur Stärkung des Kunststoffrecyclings und des Rezyklateinsatzes: cost-method sections, affected taxpayers, 420-million and 1.2-million scenarios. Obtain the exact government plastics-tax design contemplated on 31 July.",
+      "eligibility_and_version_gate": "Confirm connection to a concrete federal legislative process and the exact contemplated tax base before promoting any case. Absence of a draft link is not itself an error or exclusion.",
+      "initial_depth": {
+        "level": "selected_claim_context",
+        "extent": "All three author pages read for this short selection exercise, including qualifications and request. This is not primary-source verification and has not been admitted to the compiled screened pool."
+      },
+      "novelty_check": {
+        "current_pool_sha256": "bbca6fb012fcd387bf6e96d0a9b938f5a9bc6ab0608187036c6c4498bbf4753e",
+        "binary_absent_from_existing_pool": true,
+        "title_process_scan": "No existing pool title/process mentions this plastics-tax or spirits-tax position. A full semantic comparison of every unpublished variant is not claimed.",
+        "duplicate_registrants": "Joint signatories and later register copies must be merged before any future pool admission."
+      },
+      "independent_plausibility_review": {
+        "state": "requested",
+        "reviewer": "social_round2 AI agent",
+        "file": null
+      }
+    }
+  ],
+  "not_selected_after_context": [
+    "VDV maintenance-cost letter: old December 2023 administrative clarification request, potential statutory shorthand and legislative-scope gate make it a weaker next choice.",
+    "VBUW minijob submission: the inspected numerical comparison and policy critique did not present an equally clear source-definition question.",
+    "GDV/PKV reserve-deduction paper: the initial accounting example is expressly simplified and arithmetically coherent; technical legal or accounting disagreement is not a proved error."
+  ],
+  "compiled_pool_changed": false,
+  "author_contact": false,
+  "limitations": [
+    "Novelty is affirmative binary novelty plus title/process screening; unknown semantic copies must still be reconciled.",
+    "Selection prioritises verification value, not a presumption that either author is wrong.",
+    "No severity, direction or issue classification is assigned."
+  ],
+  "independent_plausibility_review": {
+    "state": "completed",
+    "reviewer": "social_round2 AI agent",
+    "file": "research/targeted-expansion/social-reviews-tax-leads.json",
+    "result": "BSI retained as medium-priority denominator question; joint plastics-tax source-scope check deprioritised because the author openly labels the general-packaging comparator and conditions its separate scenario. Neither is a finding."
+  }
+}

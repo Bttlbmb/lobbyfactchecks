@@ -1,0 +1,133 @@
+{
+  "id": "duengg2026-dbv-root04",
+  "law_id": "duengg-2026",
+  "document_id": "dbv-duengg-20260902",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Changing fertiliser-law monitoring,reporting powers and farm nutrient-balance rules.",
+    "they_want": "Remove farm nutrient-balance rules and limit additional reporting and regulatory burdens.",
+    "they_claim": "Nitrogen-fertiliser sales fell43%from the2016/17to2023/24marketing year.",
+    "the_problem": "The official table for those seasons gives a decline of about37.4%; the reduction remains substantial."
+  },
+  "claim_quote": {
+    "original": "WS 23/24 um 43 % seit WS 16/17",
+    "language": "de",
+    "translation_en": "Translation of fragment: marketing year2023/24down43%since marketing year2016/17",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": null,
+      "author_page": 1,
+      "section": "introductory assessment",
+      "paragraph": "second body paragraph,parenthesis in second sentence"
+    },
+    "underline": "43 %"
+  },
+  "request_quote": {
+    "original": "Stoffstrombilanzverordnung ersatzlos streichen",
+    "language": "de",
+    "translation_en": "Translation: delete the Material Flow Balance Ordinance without replacement",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 2,
+      "author_page": 2,
+      "section": "heading Stoffstrombilanzverordnung ersatzlos streichen"
+    },
+    "context": "The following paragraph also opposes the replacement power for regulating farm nutrient management; later sections repeat the request to remove the legal basis and prevent an alternative balance requirement."
+  },
+  "counter_quote": {
+    "original": "1 658,8",
+    "language": "de",
+    "translation_en": "Translation of numerical table cell:1,658.8(thousandtonnesofnitrogen)",
+    "source_id": "bmel-agrarjahrbuch-2024",
+    "locator": {
+      "pdf_page": 84,
+      "printed_page": 57,
+      "table": "40a.InlandsabsatzvonHandelsdünger,nachSortenundNährstoffen",
+      "row": "Stickstoff(N),Zusammen",
+      "column": "2016/2017",
+      "unit": "1000tNährstoff"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "additional_counter_quote": {
+    "original": "1 039,1",
+    "language": "de",
+    "translation_en": "Translation of numerical table cell:1,039.1(thousandtonnesofnitrogen)",
+    "source_id": "bmel-agrarjahrbuch-2024",
+    "locator": {
+      "pdf_page": 84,
+      "printed_page": 57,
+      "table": "40a.InlandsabsatzvonHandelsdünger,nachSortenundNährstoffen",
+      "row": "Stickstoff(N),Zusammen",
+      "column": "2023/2024",
+      "unit": "1000tNährstoff",
+      "qualification": "footnote2:provisional"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Using the official pre-submission table for the seasons actually named,the decrease is(1658.8−1039.1)/1658.8≈37.36%,or37.4%. It is about5.6percentagepoints smaller than43%. CurrentDestatis42321-0001also gives approximately1.659million versus1.039milliontonnes; small provisional revisions do not account for the gap. The table measures domestic sales of nitrogen nutrient,not fertiliser-product mass or directly observed field application.",
+  "effect": "Reduces the size of this introductory progress statistic used to support avoiding further regulatory and reporting burdens. It does not erase the marked fall in fertiliser sales.",
+  "limits": "This does not establish the effect of the law on water quality,why fertiliser sales fell,actual nutrient use on farms or the desirability of nutrient balances. Weather,prices,stock changes and other factors can affect sales. A different starting season or clerical year slip is a possible explanation,but the record tests the years actually printed and does not infer the source or intent of the mistake.",
+  "context_and_alternatives": [
+    "Read all11physicalpages(committeecoverplus10authorpages),including the request to abolish the balance requirement,opposition to replacement reporting powers and later qualifications about statutory exceptions. The43%claim has no explicit different-series qualification or source citation.",
+    "The adjacent reduction in national nitrogen surplus is a separate statistic and is not substituted for fertiliser sales. Its42%calculation from109to63is approximately correct. The distinct claimed date of national target achievement requires separate averaging/reference-year checks and is not alleged erroneous here.",
+    "Tested per-hectare alternatives: table40b also shows a decrease below43%for these seasons. Different old provisional totals would need a documented source; the pre-submission2024yearbook and currently indexedDestatistable both imply about37%.",
+    "The statement does not explicitly cite the yearbook. This is a comparison to the responsible official statistics,not an allegation that the author copied a particular source.",
+    "An independently checked primary BMEL2022table gives2014/15sales of1822.8thousandtonnes. Using that earlier starting season and the2023/24endpoint yields42.9943%,almost exactly43%. A mistaken starting-year label is therefore a concrete benign explanation; it does not make the printed2016/17comparison correct."
+  ],
+  "draft": {
+    "title": "Entwurf eines Zweiten Gesetzes zur Änderung des Düngegesetzes",
+    "version": "BT21/6135,26May2026; Bundesratstatement/governmentresponseBT21/6811,1July2026",
+    "source_id": "duengg-bt216135",
+    "additional_source_id": "duengg-bt216811",
+    "submission_date": "2026-09-02",
+    "hearing_date": "2026-09-08",
+    "relevant_provision": "Article1removes§11aand adds farm nutrient-management/monitoring provisions,including§3(2a)and§12a. Historical sales statistic does not depend on later amendments.",
+    "version_check": "Officialcommitteecover and statement identifyBT21/6135. Assessed against the2026government bill,not the separate2024bill that failed in theBundesrat."
+  },
+  "materiality_explanation": "Minor editorial judgment: the stated decline is overstated by about5.6percentagepoints,but a large decline remains and the passage is introductory background rather than a quantified estimate of compliance costs or a direct causal effect.",
+  "direction_explanation": "True: a larger apparent reduction supports the stated narrative of sufficient progress and the request to avoid additional nutrient-balance and reporting obligations. This does not establish that the obligations are necessary or unnecessary.",
+  "confidence": {
+    "text_source_mismatch": "high for the named-year calculation using official sales statistics; author’s uncited source is unidentified",
+    "materiality": "editorial_judgment"
+  },
+  "submission_source_id": "dbv-duengg-20260902",
+  "source_ids": [
+    "dbv-duengg-20260902",
+    "bmel-agrarjahrbuch-2024",
+    "duengg-bt216135",
+    "duengg-bt216811",
+    "bmel-duengestatistik-2022"
+  ],
+  "verification": {
+    "visual": "Authorphysical2and officialyearbookphysical84rendered and visually read,including tablecolumnheaders,totalrow,unitsandprovisionalfootnote."
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "social_round2_independent_ai",
+        "date": "2026-10-25",
+        "review_file": "research/round2-reviews/social-reviews-dbv-dueng-sales.json",
+        "outcome": "retain_provisional_minor_true",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full submission and official named-year table comparison; independent adversarial review requested.",
+      "by": "root_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent full-submission and official-table review retained the named-year arithmetic issue; added a primary-source starting-year clerical explanation without inferring intent.",
+      "by": "root_ai_screen"
+    }
+  ]
+}

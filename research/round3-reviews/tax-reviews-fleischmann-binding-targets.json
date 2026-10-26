@@ -1,0 +1,32 @@
+{
+  "id": "tax-independent-fleischmann-binding-targets-review",
+  "candidate_id": "behg2026-fleischmann-binding-targets-energy-r3-01",
+  "reviewed_at_utc": "2026-10-25T04:55:53.449317+00:00",
+  "reviewer": "tax_consultations AI agent",
+  "candidate_file": "research/round3-energy/behg2026-fleischmann-binding-targets-energy-r3-01.json",
+  "candidate_snapshot_sha256": "a8569443e012ef857bbc3d1ddeff7effcb6afb9d193b9d4d77ad8ad2eb473f91",
+  "read_extent": [
+    "All nine physical pages of the original committee PDF, including the complete eight authored pages and bibliography.",
+    "Full current UK Climate Change Act 2008 section 1 and its 2019 amendment note, via an independently retrieved official HTML page and the archived copy.",
+    "Full original 2019/1056 made Order, commencement and explanatory note, in the official archived HTML.",
+    "Exact addressed government BT 21/7869 cover and selected operative physical pages 9-11. No full draft reading claimed."
+  ],
+  "independent_sources": [
+    {
+      "url": "https://www.legislation.gov.uk/ukpga/2008/27/section/1",
+      "access": "Ordinary curl succeeded; the web reader rejected the XHTML content type. Operative section read from the retrieved HTML."
+    },
+    {
+      "url": "https://www.legislation.gov.uk/uksi/2019/1056/made",
+      "local_file": "research/round3-energy/sources/uk-climate-target-amendment2019.html"
+    }
+  ],
+  "judgment": "Retain unresolved_lead, minor, favours_author_request null. Do not promote a proved broad global-exclusivity finding from the UK comparator alone.",
+  "reasoning": "The UK statutory duty is affirmative counterevidence to a literal claim covering domestic legislation. However, the preceding Paris paragraph explicitly concerns internationally binding emissions outcomes; the following EU discussion concerns requirements imposed on member states. The Norway/Iceland exceptions fit that supranational setting. A reasonable narrower reading can therefore exclude independently enacted UK domestic law. The heading about national targets and the unqualified sentence also support the broader reading, leaving real scope ambiguity.",
+  "materiality": "The proposed abolition is explicit in the conclusion. A confirmed correction would weaken one supporting geographic premise, but it would not settle comparative burdens, climate forecasts or BEHG policy merits. The unresolved scope prevents a firm direction judgment.",
+  "technical_notes": [
+    "Add counter_quote.language=en for consistent quote-language metadata.",
+    "Use review.ai_reviews for the assembler instead of the alternative independent_ai key.",
+    "No additional original quotations are repeated in this review."
+  ]
+}

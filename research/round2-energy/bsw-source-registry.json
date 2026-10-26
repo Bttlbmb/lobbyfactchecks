@@ -1,0 +1,39 @@
+{
+  "sources": [
+    {
+      "id": "bsw-eeg2027-20261001",
+      "url": "https://www.bundestag.de/resource/blob/1221988/Stellungnahme_Bundesverband_Solarwirtschaft_eV.pdf",
+      "local_file": "research/round2-energy/sources/bsw-eeg2027-202610.pdf",
+      "sha256": "efab0d56340d87c4042fbd25f6f63ff364091c9baeabae268837c049b82e5f94",
+      "retrieved_at": "2026-10-25"
+    },
+    {
+      "id": "enervis-pv-price-20260618",
+      "url": "https://www.solarwirtschaft.de/wp-content/uploads/2026/08/260618_enervis-Studie-zu-Auswirkung-von-PV-auf-Strompreise_2025.pdf",
+      "local_file": "research/round2-energy/sources/enervis-pv-price-20260618.pdf",
+      "sha256": "068f5d21dbc2d4ac63af405d6906d2f1ae0c784d5dcb1e72e1ac5903b539e75b",
+      "retrieved_at": "2026-10-25"
+    },
+    {
+      "id": "eeg2027-bt217867",
+      "url": "https://dserver.bundestag.de/btd/21/078/2107867.pdf",
+      "local_file": "research/round2-energy/sources/eeg2027-bt217867.pdf",
+      "sha256": "9c884e1ee80fe910c394f065c344eb953c3020b3a2f094fecfc555a61cd02a3d",
+      "retrieved_at": "2026-10-25"
+    }
+  ],
+  "request_quotes": [
+    {
+      "id": "bsw-eeg2027-preserve-feed-in",
+      "document_id": "bsw-eeg2027-20261001",
+      "original": "Eine Abschaffung der Einspeisevergütung lehnt",
+      "language": "de",
+      "translation_en": "Translation of request fragment: [the solar and storage industry] rejects abolishing the feed-in tariff",
+      "locator": {
+        "pdf_page": 16,
+        "printed_page": 15,
+        "section": "Last sentence before§3.2; continuation explicitly identifies industry and rejects abolition"
+      }
+    }
+  ]
+}

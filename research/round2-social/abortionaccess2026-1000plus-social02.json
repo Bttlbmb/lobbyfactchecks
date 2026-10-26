@@ -1,0 +1,166 @@
+{
+  "id": "abortionaccess2026-1000plus-social02",
+  "law_id": "abortion-access-motion-2026",
+  "document_id": "1000plus-abortion-20260414",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "A parliamentary motion requesting measures to improve access to abortion services, including staffing, training and telemedical support.",
+    "they_want": "Reject the motion and prioritise counselling and practical support for continuing pregnancy.",
+    "they_claim": "An abortion-rate rise from 56 to 63 per 10,000 women equals 14.3%.",
+    "the_problem": "Using the stated rates, the increase is 12.5%. The percentage exaggerates the rise, but its upward direction remains."
+  },
+  "claim_quote": {
+    "original": "7 Punkte beziehungsweise 14,3 Prozent entspricht.",
+    "language": "de",
+    "translation_en": "Translation: corresponds to 7 points or 14.3 percent.",
+    "locator": {
+      "pdf_page": 6,
+      "printed_page": 6,
+      "section": "a) Glaubwürdigkeit des Antrags angesichts steigender Abtreibungszahlen",
+      "paragraph": "First paragraph, continuation frompage 5; previous sentence gives 56 in 2015 and 63 in 2024 per 10,000 women"
+    },
+    "underline": "14,3 Prozent"
+  },
+  "request_quote": {
+    "original": "den vorliegenden Antrag abzulehnen.",
+    "language": "de",
+    "translation_en": "Translation of request fragment: to reject the present motion.",
+    "locator": {
+      "pdf_page": 12,
+      "printed_page": 12,
+      "section": "Fazit zum vorgelegten Antrag",
+      "paragraph": "First paragraph, final clause"
+    }
+  },
+  "counter_quote": {
+    "original": "2015                      99.237                     56,0                             132,5",
+    "language": "de",
+    "translation_en": "Translation of table row:2015;99,237 abortions;56.0 per 10,000 women;132.5 per 1,000 live births and stillbirths.",
+    "source_id": "rki-women-health-2020",
+    "locator": {
+      "pdf_page": 282,
+      "printed_page": 281,
+      "table": "7.3.2.3",
+      "row": "2015",
+      "column": "Abbrueche je 10.000 Frauen(15-49 Jahre)"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "additional_counter_quote": {
+    "original": "63,0",
+    "language": "de",
+    "source_id": "destatis-abortion-rates-from2023",
+    "locator": {
+      "table": "Abortion counts by age and rates per 10,000 women, from 2023",
+      "row": "Quote in der Altersgruppe 15 bis unter 50 Jahre",
+      "column": "2024"
+    },
+    "retrieved_at": "2026-10-25",
+    "translation_en": "Translation of number: 63.0 abortions per 10,000 women in the stated age group."
+  },
+  "calculation": {
+    "expression": "(63-56)/56*100",
+    "result_percent": 12.5,
+    "difference_from_stated_percent_points": 1.8,
+    "relative_overstatement_of_increase_percent": 14.4,
+    "scope": "Arithmetic of the displayed rates, not a new causal estimate or assertion that rounded rates are exact underlying rates."
+  },
+  "correction": "The stated seven-unit rise is 12.5%of the 2015 base 56, not 14.3%. The comparison remains an increase. Official Destatis tables confirm the displayed rates; the RKI historical table reports 2015 as 56.0 to one decimal, which also limits a benign rounding explanation.",
+  "effect": "Slightly weakens the magnitude used in the argument that rising abortions show no need to expand provision. It does not establish whether access is adequate; national totals alone do not settle regional barriers.",
+  "limits": "The absolute counts and upward direction are not refuted. No calculation is shown; a clerical or denominator slip is possible. Published rates are rounded and census-based population series can change. This record corrects the arithmetic of the displayed 56-to 63 comparison rather than deriving an exact harmonised 2015-2024 trend. Historical RKI 2015 rate 56.0 means a hidden rate near 55.5 cannot rescue 14.3%while retaining a 2024 rate rounded to 63. No clinical-risk conclusion or optimal-policy conclusion follows.",
+  "materiality_explanation": "Minor: growth is overstated by 1.8 percentage points, while the same national upward trend remains. The opposition also invokes legal, moral, clinical and counselling arguments, which this arithmetic check does not decide.",
+  "direction_explanation": "A larger growth figure adds support to the national-abundance premise supporting rejection. The direction is distinct from limited materiality. No intent is inferred.",
+  "confidence": {
+    "text_source_mismatch": "high for arithmetic of the displayed figures",
+    "materiality": "editorial_judgment"
+  },
+  "context_checked": [
+    "Read all 12 pages, including the national counts onpp 5-6, supply-adequacy inference immediately after the calculation, account of counselling experiences and final explicit request onp 12.",
+    "The denominator is expressly women aged 15 to under 50; no pregnancy/recipient denominator conflation alleged. The separate percentage among live births plus abortions is outside this issue.",
+    "Destatis identifies rates based on resident women and different census-based population series from 2024. Preserve comparability context without inflating it into another proved error.",
+    "National count increases alone prove neither adequate provision nor shortage. This inference is discussed as effect, not alleged as a separate fact error.",
+    "Independent tax reviewer checked the current Destatis table date(28 April 2026)against the 14 Aprilsubmission. Treat this later retrieval as reference-year corroboration, not an authenticated contemporaneous webpage. The stated-figure arithmetic and earlierRKI 2015 precision are the core check."
+  ],
+  "draft": {
+    "title": "Versorgung bei Schwangerschaftsabbrüchen sichern",
+    "version": "BT 21/3909,28 January 2026; parliamentary motion, not an enacted bill",
+    "source_id": "abortion-motion213909",
+    "submission_date": "2026-04-14",
+    "hearing_date": "2026-04-15",
+    "relevant_provision": "MotionII requests access measures including staffing and telemedical support; the historical arithmetic is independent of later outcomes.",
+    "process_status_at_screen": "Motion considered at 15 April 2026 public hearing; exact target is the January motion, not the 2024-2025 abortion reform bill."
+  },
+  "sources": [
+    {
+      "id": "1000plus-abortion-20260414",
+      "title": "Kristijan Aufiero/1000 plus-Profemina statement, 14 April 2026; official Bundestag copy",
+      "url": "https://www.bundestag.de/resource/blob/1165512/21-14-0080-4-1000plus.pdf",
+      "local_file": "research/round2-social/sources/1000plus-abortion-2026.pdf",
+      "sha256": "67336710180d3f1139236ee7ad76cbea1639808e8616a92efd6670251f8d270e",
+      "retrieved_at": "2026-10-25"
+    },
+    {
+      "id": "abortion-motion213909",
+      "title": "Motion BT 21/3909, 28 January 2026, on securing abortion-service access",
+      "url": "https://dserver.bundestag.de/btd/21/039/2103909.pdf",
+      "local_file": "research/round2-social/sources/abortion-motion213909.pdf",
+      "sha256": "bb6cfd890cd14b7ef76816aff61c3605237341897744af17fa945f97e9e5eee7",
+      "retrieved_at": "2026-10-25"
+    },
+    {
+      "id": "destatis-abortion-rates-2012-2022",
+      "title": "Destatis historical abortion counts and rates by age, 2012-2022",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Schwangerschaftsabbrueche/Tabellen/01-schwangerschaftsabbr-alter-quote-10tsd-je-altersgruppe-zv-2012-2022.html",
+      "local_file": "research/round2-social/sources/destatis-abortion-rates-2012-2022.html",
+      "sha256": "6aa3b7e7804f77b8533c67d4f8cb260aed2adcecc6a51d8b30fb421d144637e9",
+      "retrieved_at": "2026-10-25"
+    },
+    {
+      "id": "destatis-abortion-rates-from2023",
+      "title": "Destatis abortion counts and rates by age, from 2023",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Schwangerschaftsabbrueche/Tabellen/01-schwangerschaftsabbr-alter-quote-10tsd-je-altersgruppe-zv-ab-2023.html",
+      "local_file": "research/round2-social/sources/destatis-abortion-rates-from2023.html",
+      "sha256": "c16c6c5c3ab453a58837354258b5d9514a761200336373bf2503d6b58c4b5393",
+      "retrieved_at": "2026-10-25",
+      "version_note": "Current archived table displays Stand 28 April 2026, after the 14 April 2026 submission. It corroborates the stated 2024 rate, but is not asserted to be the exact webpage the author saw."
+    },
+    {
+      "id": "rki-women-health-2020",
+      "title": "Robert Koch Institute, German women health report 2020, table 7.3.2.3",
+      "url": "https://edoc.rki.de/bitstream/handle/176904/7554/Gesundheitliche_Lage_der_Frauen_2020.pdf",
+      "local_file": "research/round2-social/sources/rki-women-health-2020.pdf",
+      "sha256": "f8428b939b9f86961cbe42bcc8bccb420989f623339429c478ee9f13dd31edfe",
+      "retrieved_at": "2026-10-25"
+    }
+  ],
+  "verification": {
+    "visual": "Submissionpage 6 rendered and visually read; primaryRKIrow checked in extracted text. Official Destatis HTML tables archived directly; webreaderreturned 403 but direct public download succeeded."
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "tax_consultations",
+        "file": "research/round2-reviews/tax-reviews-1000plus-arithmetic.json",
+        "date": "2026-10-25",
+        "assessment": "Retain provisional minor/true; stated-figure arithmetic survives rounding check; current Destatis table is corroboration, not authenticated page seen by author."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as provisional narrow arithmetic candidate; independent AI review requested.",
+      "by": "social_round 2_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent tax review retained minor/true after full context, exact motion, visual quotation, rounding and source-timing checks.",
+      "by": "social_round 2_ai_screen"
+    }
+  ]
+}

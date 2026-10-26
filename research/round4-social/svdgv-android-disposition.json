@@ -1,0 +1,126 @@
+{
+  "id": "svdgv-android-access-round4-not-promoted",
+  "document_id": "svdgv-gedig-20261012",
+  "law_id": "gedig-2026",
+  "status": "ai_screened",
+  "not_issue_record": true,
+  "research_disposition": "unresolved_estimation_and_scope_questions_not_promoted_as_error",
+  "author": "Spitzenverband Digitale Gesundheitsversorgung e.V. (SVDGV)",
+  "document_date": "2026-10-12",
+  "committee_cover_date": "2026-10-13",
+  "hearing_date": "2026-10-14",
+  "claim_quote": {
+    "original": "20 Millionen",
+    "language": "de",
+    "translation_en": "Translation: 20 million.",
+    "locator": {
+      "pdf_page": 8,
+      "printed_page": 8,
+      "section": "4. Discussion of § 139e(10), final paragraph; sentence continues onto page 9."
+    },
+    "underline": "20 Millionen"
+  },
+  "author_request": {
+    "original": "niedrigeren Sicherheitsniveau",
+    "language": "de",
+    "translation_en": "Translation of fragment: lower level of security.",
+    "locator": {
+      "pdf_page": 7,
+      "printed_page": 7,
+      "section": "Proposed new § 139e(10) sentence 5."
+    },
+    "explanation": "Extend informed patient choice of lower security to further technical requirements, including minimum operating-system versions; the current exception concerns authentication. Pages 8–9 give the justification and expressly acknowledge the importance of data security."
+  },
+  "addressed_draft": {
+    "id": "bt-21-8279",
+    "date": "2026-09-30",
+    "url": "https://dserver.bundestag.de/btd/21/082/2108279.pdf",
+    "local_file": "research/round4-social/sources/gedig-government-bt218279.pdf",
+    "identity_evidence": "Author page 1 expressly distinguishes its earlier response to the 5 May ministry draft from this government-bill hearing. Government-column language for new § 33a(1) and § 374a matches the government text. This is not treated as a May-draft submission.",
+    "reading_extent": "Government cover and selected operative and memorandum passages, not all 258 pages. Section 139e(10) is an existing provision that the author asks to supplement, rather than a new Android 14 rule introduced by this bill.",
+    "locators": [
+      {
+        "pdf_page": 11,
+        "description": "Article 1 no. 4, § 33a amendment begins."
+      },
+      {
+        "pdf_page": 59,
+        "description": "New § 374a interfaces."
+      }
+    ]
+  },
+  "context_checked": [
+    "All 45 author pages read. Pages 7–9 distinguish the current authentication exception from proposed informed consent for other technical requirements; the association does not seek to abandon security wholesale.",
+    "The cited 28 April 2026 press release was read in full. It describes rejection of Android 13 or older applications as the current interpretation or application of TR-03161, rather than a verbatim Android 14 clause. Its footnote identifies March Statcounter data, and separately describes a 16-member survey of 127,079 active Android installations.",
+    "The press release labels the member survey’s 27% figure conditionally: affected active users would be excluded if they had to restart a BSI-approved version. This cautions against equating the survey directly with a census of people already blocked."
+  ],
+  "checks": [
+    {
+      "topic": "Arithmetic and source date",
+      "result": "Affirmative rescue",
+      "detail": "Exact March 2026 public CSV gives 59.22% Android mobile operating-system share and 44.92% Android 13 or older within mobile and tablet Android-version traffic. An illustrative multiplication by 75 million gives 19.951218 million; using BMG’s 74.2 million insured as of 1 January gives 19.738405 million. Both round to about 20 million. The press release does not publish its complete person-count formula; this is a plausible reconstruction, rather than a claimed exact reproduction of unpublished work.",
+      "evidence": "android-calculation.json"
+    },
+    {
+      "topic": "October applicability",
+      "result": "No numerical contradiction",
+      "detail": "Using the same assumptions on September 2026 CSV gives about 21.31 million with 75 million or 21.08 million with 74.2 million. These later traffic shares do not establish a smaller corrected number. They also do not validate actual patient exclusion."
+    },
+    {
+      "topic": "Population denominator",
+      "result": "Unresolved estimation limitation",
+      "detail": "Statcounter expressly measures page views rather than unique visitors. It does not directly measure GKV-insured people, their primary device, upgradeability, clinical eligibility or alternative device ownership. Mobile-only operating-system share and mobile-plus-tablet version share also have different sampling scopes. Treating a weighted extrapolation as a measured patient census would be unwarranted, but the unit difference does not prove the actual 20 million figure false.",
+      "source_id": "statcounter-faq"
+    },
+    {
+      "topic": "BSI/BfArM rule",
+      "result": "Underlying restriction supported in general; complete application-specific practice not independently established",
+      "detail": "TR-03161 part 1 version 3, dated 25 March 2024, physical page 12 A.Device assumes devices still supplied with manufacturer security updates. It does not literally name Android 14. BfArM guide version 3.6, physical page 63/printed 62, confirms certificates since 2025 and formal application completeness since 1 July 2025. The BSI FAQ uses case-specific residual-risk assessment. Absence of a literal version number cannot refute the author’s explicit claim about certification practice."
+    },
+    {
+      "topic": "Practical alternative access",
+      "result": "Narrower scope warranted, no population correction established",
+      "detail": "Manufacturer edupression’s FAQ confirms the Android 14 app floor and expressly tells users whose devices no longer receive updates that browser access is an alternative. Deprexis likewise documents browser use across devices; gematik distinguishes mobile and web DiGA. This affirmative evidence challenges a literal reading that every owner of an old Android device can use no DiGA at all. It does not show that every affected patient has a suitable web DiGA for the same indication, usable hardware, a current browser or the ability to set up authentication. Current undated manufacturer FAQs alone do not prove their exact 12 October wording."
+    }
+  ],
+  "counter_quote": {
+    "original": "We base our stats on page views (and not unique visitors)",
+    "language": "en",
+    "source_id": "statcounter-faq",
+    "locator": {
+      "section": "Why are your stats different to other sources? methodological comparison bullet"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "conclusion": "Do not promote an established factual or numerical error. Arithmetic supports the approximate scale under an extrapolation. Person-count precision, wholly-excluded wording and the actual application of certification rules remain unresolved. A disagreement over the acceptable security/access trade-off is not a factual error.",
+  "materiality_if_demonstrated": "A large overstatement of excluded people would materially strengthen the explicit informed-consent request, but no corrected actual count has been established. Materiality and direction cannot be adjudicated as an existing error.",
+  "favours_author_request": null,
+  "what_this_does_not_establish": [
+    "Does not establish that 20 million is the true number or that all exclusion is unavoidable.",
+    "Does not establish that the estimate is false, that there is no access barrier, that patients should accept unsupported software, or that the requested exception is good/bad policy.",
+    "Does not infer author intent."
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "/root/energy_hearings",
+        "review_file": "research/round4-reviews/energy-reviews-svdgv-android.json",
+        "verdict": "Retain non-promotion. Arithmetic reproduces the scale under extrapolation; unit and practical-access limits do not prove the 20 million figure false."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "Targeted lead investigated; arithmetic and strongest contextual explanations checked; no issue promoted. Independent energy review requested.",
+      "by": "ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Exact excerpts shortened after original visual checks to preserve the aggregate quotation budget for a separate cost-description lead from the same author document. Assessment unchanged.",
+      "by": "social_round4_ai"
+    }
+  ]
+}

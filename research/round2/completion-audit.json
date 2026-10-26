@@ -1,0 +1,102 @@
+{
+  "audit_type": "Requirement-by-requirement research and deliverable audit; source reviews remain the substantive evidence",
+  "round_status": "completed",
+  "counts": {
+    "provisional_finding": 52,
+    "unresolved_lead": 26,
+    "rejected_after_review": 1
+  },
+  "law_count": 43,
+  "document_count": 64,
+  "structural_and_reference_flags": [],
+  "unmanifested_screened_round2_records": [],
+  "baseline_original_quotations_unchanged": true,
+  "first_round_timing_bytes_unchanged": true,
+  "requirements": [
+    {
+      "requirement": "Ministry consultation pages, Bundestag hearings and Lobbyregister investigated",
+      "evidence": [
+        "research/round2-root/screening-log.json",
+        "research/round2-tax/research-log.json",
+        "research/round2-social/research-log.json",
+        "research/round2-energy/screening-log.json",
+        "data/source-registry.json"
+      ],
+      "assessment": "Substantive source reviews and records cover all three channels; gated author-publication leads are explicitly unresolved, not asserted as formally received submissions."
+    },
+    {
+      "requirement": "Ongoing and completed federal processes, addressed draft versions",
+      "evidence": [
+        "data/findings.json",
+        "data/unresolved-leads.json",
+        "data/documents.json"
+      ],
+      "assessment": "Each issue contains addressed-version metadata. Examples include ongoing JStG2026 consultation and completed2018CannKG process. Historical official/mirror and byte-edition limits are explicit; later law is not silently used as addressed draft."
+    },
+    {
+      "requirement": "Factual or source-description mismatch; context and benign alternatives",
+      "evidence": [
+        "research/round2-social/semantic-audit.json",
+        "research/round2-energy/final-evidence-audit.json",
+        "research/round2-tax/audit.json",
+        "research/round2-reviews/"
+      ],
+      "assessment": "Independently reviewed provisional cases are separated from unresolved leads. Negative screens record rescued readings, missing evidence and model disagreements without promoting them as errors."
+    },
+    {
+      "requirement": "User JSON fields, ai_screened, severity versus direction, null unknown",
+      "evidence": [
+        "data/issue.schema.json",
+        "data/validation-report.json"
+      ],
+      "assessment": "All79 issue records retain requested fields and ai_screened. Separate materiality/direction explanations present; unknown-direction entries are null."
+    },
+    {
+      "requirement": "Exact short original quotations, labelled translations, precise locators and request grounding",
+      "evidence": [
+        "data/validation-report.json",
+        "data/quotation-audit.json",
+        "research/reviews/manual-quote-checks.json",
+        "data/documents.json"
+      ],
+      "assessment": "Automated extraction, actual visual reviews and declared web-only source checks are distinguished. All request evidence resolves, including shared and cross-issue references. No automated check is claimed to establish substantive truth."
+    },
+    {
+      "requirement": "Correction, effect and limits; no intent or invented response",
+      "evidence": [
+        "data/findings.json",
+        "data/unresolved-leads.json",
+        "data/rejected-candidates.json"
+      ],
+      "assessment": "Every record explains effect/limits and separate materiality/direction. Unresolved cases may state correction conditionally. Specialist fields remain null and author_response arrays empty."
+    },
+    {
+      "requirement": "Multiple AI agents independently check one another",
+      "evidence": [
+        "data/review-index.json",
+        "research/round2-reviews/"
+      ],
+      "assessment": "All52 provisional findings have saved independent-AI reviews. The four-agent team made reciprocal primary-source checks; no human specialist review is implied."
+    },
+    {
+      "requirement": "Save project-folder deliverables; preserve first round",
+      "evidence": [
+        "README.md",
+        "data/",
+        "research/round2/baseline/",
+        "data/investigation.json"
+      ],
+      "assessment": "Saved JSON and source/review artifacts exist. Original32baselineissue quotations unchanged; original first-round timing bytes equal baseline snapshot."
+    },
+    {
+      "requirement": "Spend another at least two hours and finish started cases",
+      "evidence": [
+        "data/investigation-round2.json",
+        "research/round2/assembly-manifest.json"
+      ],
+      "assessment": "Completed minimum duration: 8118 elapsed seconds and 7205 goal-reported time-used seconds; all screened round-two raw records manifested, with unresolved limits retained."
+    }
+  ],
+  "pending": [],
+  "limits": "Mechanical completeness does not establish factual correctness. Two formal-channel gates and other substantive uncertainties are intentionally preserved as unresolved leads. No specialist review or author contact."
+}

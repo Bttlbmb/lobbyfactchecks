@@ -1,0 +1,19 @@
+import json,pathlib,re,collections
+P=pathlib.Path('research/round3-social');src=json.load(open(P/'coverage-window-collected.json'))['documents'];out=[]
+# These authored dates were read in the complete first-page/date/footer metadata excerpts, not inferred from hearing dates.
+authored={'00c43b7d79b3588ec5':'2026-10-12','b7abbdd46fd1fbd823':'2026-09-23','5e8d37b81d7d939521':'2026-10-08','4f50f83a47bac691c5':'2026-10-01','fdfca51eb2f0803fcf':'2026-10-13','b895e53abd852c22fc':'2026-10-11','a163b9fd01f4b90c8e':'2026-10-09','3b7696a006db6950eb':'2026-10-12','c7d210ee67d7e445bf':'2026-10-09','04e9874f7c7b374a7e':'2026-10-09','f302d9134da32722d4':'2026-08-31','305db554451de071a1':'2026-10-12','3b342526a2abdff000':'2026-10-12','ff5ad24128f6de3962':'2026-10-12','1fc2295f9d716e62c2':'2026-10-12','e686813f34b4fa5e2c':'2026-10-12','59e0ba38a6a8704664':'2026-10-12','e1c68ccef041121705':'2026-10-12','f9a005fdc5b1d20531':'2026-10-12','c55bab2f7dc48dde68':'2026-10-12','0b68365ef906bb5288':'2026-10-12','ba137adb82eb71dd22':'2026-10-12','cfa4ba7c76499dc26c':'2026-10-12','e455557e039a497a25':'2026-10-12','0c1318b0fd168b8883':'2026-10-12','68ad68662192c46d07':'2026-10-13','740e13a4feddcde5d7':'2026-05-15'}
+for r in src:
+ if not r['authority'].startswith('Bundestag'):continue
+ key=pathlib.Path(r['local_pdf']).stem; text=pathlib.Path(r['local_text']).read_text();p1=text.split('\f')[0];head='\n'.join(p1.splitlines()[:13]);number=re.search(r'21\s*\(\s*(\d+)\s*\)\s*([\d]+(?:\([\d.]+\))?)',head);date=None;date_line=None
+ if number and 'Ausschussdrucksache' in head:
+  # StandardHealthcover: hearingdayfollowedbydatedcommitteeprintstamp. Do not call this receipt/submission.
+  m=re.search(r'(?m)^\s*(\d{1,2})\.(\d{1,2})\.(2026)(?:\s+.*)?$',head)
+  # Exclude a date line also naming a hearing theme; a pure/date-first line may include authorcontact.
+  hits=[m for m in re.finditer(r'(?m)^\s*(\d{1,2})\.(\d{1,2})\.(2026)([^\n]*)$',head) if not m.group(4).lstrip().startswith('-')]
+  if hits:
+   z=hits[-1];date=f'{z.group(3)}-{int(z.group(2)):02d}-{int(z.group(1)):02d}';date_line=z.group(0).strip()
+ d={'url':r['url'],'local_pdf':r['local_pdf'],'sha256':r['sha256'],'author_label':r['link_title'],'authority':r['authority'],'process':r['process'],'process_url':r['process_url'],'hearing_date_label':r.get('hearing_date_label'),'committee_print_number':number.group(0)if number else None,'committee_print_date':date,'committee_print_date_locator':{'pdf_page':1,'location':'Committeeprintheader','text':date_line}if date else None,'committee_date_check':'standardheaderautomaticallyextracted;31GeDIGheadersindependentlyreadasmetadata' if date else 'no_standard_date_parsed','authored_date_independently_checked':authored.get(key),'depth':'cover_date_metadata_only','submission_date':None,'submission_date_status':'actual_delivery_date_unverified','eligibility_note':'A datedcommitteeprint provespublicparliamentaryusebythatdate;itisnotnecessarilytheauthoreddateortheexactreceiptdate. Older authoredcopiescanbereusedinnewsubmissionrounds.','document_kind':r.get('document_kind')}
+ if key=='740e13a4feddcde5d7':d['version_reuse_note']='Authored15May2026atphysical14;committeeprint21(14)115(30)dated14October2026. Do not exclude solely fromauthoreddateorpretendMaydocumentwasrewrittenOctober.'
+ out.append(d)
+result={'date':'2026-10-25','documents':out,'summary':{'candidate_files':len(out),'parsed_committee_print_dates':sum(bool(d['committee_print_date'])for d in out),'independently_checked_authored_dates':len(authored),'unverified_receipt_dates':len(out)},'limits':'Metadata work, not full content screening. No exact submission date inferred from hearing day or committee print date; actual registerreported delivery events can supplement this.'}
+(P/'coverage-committee-date-evidence.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n');print(result['summary'])

@@ -1,0 +1,36 @@
+{
+  "reviewer": "c",
+  "reviewed_file": "research/factual-checks/short-it-components-20261025/agents/claims-c.json",
+  "reviewed_sha256": "52a572db0816360722f510d607d40f06b198edb06fd9d7c7680cffd22ab35223",
+  "created_at_utc": "2026-10-25T22:17:49.547356+00:00",
+  "claim_reviews": [
+    {
+      "claim_id": "short-it-c-010",
+      "verdict": "revise",
+      "proposed_result": "supported",
+      "reason": "Newly recovered official primary resolution independently read after initial freeze supplies the exact previously missing nationwide end-2026 target. Preserve distinction between issuing the binding ordinance and guaranteed actual municipal completion.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-c-mpk-resolution",
+          "locator": "Physical pp. 2–4, paragraph 3(a)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "short-it-c-mpk-resolution",
+      "title": "MPK resolution TOP 3.2, 25 June 2026",
+      "url": "https://www.rlp.de/fileadmin/02/MPK_Vorsitz/Beschluesse_MPK_25Juni_Berlin/Neue_Dokumente_03072026/Beschluss_TOP_3.2_BK-MPK_final.pdf",
+      "retrieved_at": "2026-10-25T22:17:22.208790+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/c-mpk-followup-note.json",
+      "sha256": "dfc4fe56f973a987f9eba6ffaa4abea433ebff373ce6f16d9bedb50621553615",
+      "archive_type": "Authored concise primary-check note, not original bytes",
+      "temporal_limit": "Target concerns the ordinance route and political implementation; it is not proof every municipality will be technically live by that date. Header is 25 June 2026; official directory marks a 3 July publication/version step, both pre-consultation. No unqualified historical immutable-byte claim.",
+      "usable_as_evidence": true
+    }
+  ],
+  "limitations": [
+    "Frozen initial inventory is unchanged. This is new evidence and a proposed result change, not a new finding."
+  ]
+}

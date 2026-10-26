@@ -1,0 +1,56 @@
+{
+  "round": "round4-tax",
+  "stable_at_utc": "2026-10-25T06:09:28.510569+00:00",
+  "issue_inputs": [
+    "research/round4-tax/schuberdg2026-agsbv-costsum-tax-r4-01.json",
+    "research/round4-tax/estreform2027-dstv-anlagen-tax-r4-02.json"
+  ],
+  "source_registries": [
+    "research/round4-tax/sources.json"
+  ],
+  "pool_audit": "research/round4-tax/pool-audit.json",
+  "reading_log": "research/round4-tax/research-log.json",
+  "submission_source_map": {
+    "agsbv-schuberdg-financing-20260825": "agsbv-financing-20260825",
+    "dstv-est-reform-20261021": "dstv-est-reform-20261021"
+  },
+  "review_files": [
+    "research/round4-reviews/social-reviews-agsbv-costsum.json",
+    "research/round4-reviews/social-reviews-dstv-anlagen.json"
+  ],
+  "research_only_dispositions": [
+    "research/round4-tax/bsi-denominator-negative.json",
+    "research/round4-tax/plastics-tax-cost-negative.json",
+    "research/round4-tax/parlamentwatch-options-negative.json"
+  ],
+  "reciprocal_reviews": [
+    "research/round4-reviews/tax-reviews-mibrag-reserve.json",
+    "research/round4-reviews/tax-reviews-bdew-offshore.json",
+    "research/round4-reviews/tax-reviews-ks-fertiliser.json",
+    "research/round4-reviews/tax-reviews-bvte-forecast-vintages.json"
+  ],
+  "notes": [
+    "Two provisional minor findings, direction null for AG SBV and true narrowly for DStV. No new major claim.",
+    "27 actual reading units: 24 full originals or multipart packages, three selected reads. Counts precede cross-round/mirror deduplication and include explicitly scope-pending or outside-scope evaluations.",
+    "BSI and plastics initial targeted pilot reads are the same authored units and must not be counted again.",
+    "No compiled data, builder or manifest edited."
+  ],
+  "late_existing_document_followup": {
+    "path": "research/round4-tax/tabstaendg2026-bvte-forecast-tax-r4-03.json",
+    "id": "tabstaendg2026-bvte-forecast-tax-r4-03",
+    "finding_state": "unresolved_lead",
+    "severity": "major",
+    "severity_note": "Potential materiality only, not a confirmed major finding.",
+    "favours_author_request": true,
+    "source_registry": "research/round4-tax/sources.json",
+    "submission_source_id": "bvte-tabstaendg-2026",
+    "document_id": "bvte-tabstaendg-2026",
+    "new_pool_units": 0,
+    "review_status": "Root and energy independently reviewed; both retain unresolved only.",
+    "research_note": "research/round4-tax/bvte-forecast-provenance-followup.json",
+    "reviews": [
+      "research/round4-reviews/root-reviews-bvte-forecast.json",
+      "research/round4-reviews/energy-reviews-bvte-forecast.json"
+    ]
+  }
+}

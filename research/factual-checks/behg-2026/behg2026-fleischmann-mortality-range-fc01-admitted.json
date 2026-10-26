@@ -1,0 +1,126 @@
+{
+  "law_id": "behg-2026",
+  "document_id": "bt-environment-1222442",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": null,
+  "request_quote": {
+    "original": "Das BEHG sollte abgeschafft werden.",
+    "language": "de",
+    "translation_en": "Translation: The BEHG should be abolished.",
+    "locator": {
+      "pdf_page": 8,
+      "printed_page": 7,
+      "section": "9. Fazit"
+    }
+  },
+  "submission_source_id": "fleischmann-behg20261005",
+  "draft": {
+    "title": "Entwurf eines Dritten Gesetzes zur Änderung des Brennstoffemissionshandelsgesetzes",
+    "source_id": "behg-root-draft",
+    "version": "BT 21/7869, dated 7 September 2026; current archived parliamentary PDF.",
+    "relevant_provision": "The proposed 2027 carbon-price corridor; the narrow research-description correction does not depend on draft wording.",
+    "authored_submission_date": "2026-10-05",
+    "delivery_date_verified": false,
+    "version_limit": "Committee cover refers to the 7 October hearing. Authored date is 5 October; actual delivery not independently authenticated.",
+    "comparison": "The narrow cited-study correction does not depend on a BEHG drafting change. The parliamentary bill and authored/cover dates were checked separately; exact delivery bytes are unauthenticated.",
+    "submission_date_note": "Authored 5 October 2026; committee hearing 7 October. Actual delivery date has not been independently authenticated."
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "researcher B, independent of initial A",
+        "date": "2026-10-25",
+        "review_file": "research/factual-checks/behg-2026/reviews/b-final-candidate-records.json",
+        "assessment": "Accept narrow cited-study overstatement as minor; preserve urban-cohort, correction and uncertainty limits."
+      },
+      {
+        "reviewer": "researcher C, fresh final context/source review",
+        "date": "2026-10-25",
+        "review_file": "research/factual-checks/behg-2026/reviews/c-final-candidate-records.json",
+        "assessment": "Accept narrow cited-study overstatement as minor. Table deviations are mixed; root conservatively records direction unknown."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "Identified in systematic factual-check inventory; narrow staged record awaits explicit independent context and source review.",
+      "by": "factual_extension_root"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Both independent final-record reviews accepted the narrow corrected-table overstatement. Root admitted it as minor and set direction unknown because country deviations lie both above and below the asserted range. Staged snapshot remains preserved.",
+      "by": "factual_extension_root"
+    }
+  ],
+  "verification": {
+    "scope": "A narrow description of cited evidence; no finding of intent or general adjudication of energy policy.",
+    "staged_file": "research/factual-checks/behg-2026/staged/behg2026-fleischmann-mortality-range-fc01.json",
+    "staged_sha256": "b8b8905fcabe7235f5008a04ef6455c61965694d044edf32c671e6e00df24ac2",
+    "visual": "research/factual-checks/behg-2026/sources/root-fleischmann-p6.png"
+  },
+  "id": "behg2026-fleischmann-mortality-range-fc01",
+  "card": {
+    "law_is_about": "Extending national fuel-carbon pricing through the transition to the European system.",
+    "they_want": "Abolish the national fuel-emissions trading law.",
+    "they_claim": "Every European country has five to fifteen times more cold-related than heat-related deaths.",
+    "the_problem": "The cited study’s corrected urban estimates show widely differing ratios, including values above 30 and below five. They do not establish a universal national range."
+  },
+  "claim_quote": {
+    "original": "in allen europäischen Ländern fünf- bis fünfzehnmal mehr Todesfälle durch Kälte als durch Hitze",
+    "language": "de",
+    "translation_en": "Translation: in all European countries five to fifteen times more deaths from cold than from heat",
+    "locator": {
+      "pdf_page": 6,
+      "printed_page": 5,
+      "section": "5. Health comparison",
+      "paragraph": "Paragraph beginning Tatsache ist allerdings"
+    },
+    "underline": "allen europäischen Ländern fünf- bis fünfzehnmal"
+  },
+  "counter_quote": {
+    "original": "Country-level annual excess number of deaths",
+    "source_id": "behg-a-masselot-corrected",
+    "language": "en",
+    "locator": {
+      "pdf_page": 6,
+      "printed_page": "e276",
+      "section": "Corrected Table 2, Denmark, Finland, UK and Croatia rows"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Describe the corrected study’s estimates for adults aged 20 and older in 854 urban areas during 2000–2019. Its country-grouped point estimates imply cold/heat ratios of about 31.6 for Denmark (884/28), 32.3 for Finland (1452/45), 58.1 for the UK (28342/488), and 3.9 for Croatia (1142/293). They do not support an everywhere-five-to-fifteen description. The corrected German ratio 12108/2015 is about 6.0.",
+  "effect": "Corrects the universal numerical range in a supporting health comparison. The deviations are mixed, the study still estimates a larger aggregate cold burden, and the approximate German six-to-one ratio is supported within its urban cohort. No uniform direction of policy advantage is established.",
+  "limits": "This is a narrow overgeneralisation of cited evidence, not proof of a different whole-population ratio in every country. The estimates are modelled temperature-attributable mortality with uncertainty, not counts of direct hypothermia and heatstroke deaths. The study was corrected on 2 July 2024; corrected values are used. A historical cold/heat comparison does not by itself determine the effect of future warming, adaptation or emissions policy.",
+  "context_and_alternatives": [
+    "Researcher A and both independent final reviewers B and C re-read all nine physical pages; root read the full text and visually inspected physical page 6.",
+    "The separate German approximately-six comparison is numerically consistent with corrected Table 2; its nationwide generalisation remains a separate unresolved ledger assessment.",
+    "The original article’s age 85+ code error changed impact levels. A 2 July 2024 correction notice and corrected article are archived; the superseded institutional copy is preserved as history.",
+    "The surrounding argument concerns whether warming reduces mortality and whether wind energy is more harmful. This correction does not establish either broader conclusion.",
+    "The corrected aggregate ratio is about 9.58 and lies inside five to fifteen. An approximate aggregate comparison is fair, but does not support the explicit every-country range. Point-estimate ratios are checked without inventing ratio confidence intervals from marginal bounds."
+  ],
+  "materiality_explanation": "Minor: corrects a universal numerical range and the population scope of a supporting health comparison. It preserves the cited study’s larger aggregate cold burden and does not independently decide the policy request.",
+  "direction_explanation": "Unknown: the universal range supports a health comparison used in the abolition argument, but the table’s deviations are mixed. The claim understates several northern cold/heat ratios and overstates Croatia’s ratio. Correcting the range does not uniformly weaken or strengthen the policy case.",
+  "confidence": {
+    "text_source_mismatch": "High for the corrected table and universal-range description; actual national population ratios are not established here.",
+    "materiality": "editorial_judgment"
+  },
+  "source_ids": [
+    "fleischmann-behg20261005",
+    "behg-a-masselot-corrected",
+    "behg-a-masselot-correction",
+    "behg-root-draft"
+  ],
+  "factual_check_claim_id": "behg-a-fleischmann-30",
+  "context_checked": [
+    "Researcher A and both independent final reviewers B and C re-read all nine physical pages; root read the full text and visually inspected physical page 6.",
+    "The separate German approximately-six comparison is numerically consistent with corrected Table 2; its nationwide generalisation remains a separate unresolved ledger assessment.",
+    "The original article’s age 85+ code error changed impact levels. A 2 July 2024 correction notice and corrected article are archived; the superseded institutional copy is preserved as history.",
+    "The surrounding argument concerns whether warming reduces mortality and whether wind energy is more harmful. This correction does not establish either broader conclusion.",
+    "The corrected aggregate ratio is about 9.58 and lies inside five to fifteen. An approximate aggregate comparison is fair, but does not support the explicit every-country range. Point-estimate ratios are checked without inventing ratio confidence intervals from marginal bounds."
+  ]
+}

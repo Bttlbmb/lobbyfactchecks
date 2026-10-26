@@ -1,0 +1,53 @@
+{
+  "reviewer": "root_ai",
+  "review_type": "independent_ai_crosscheck",
+  "date": "2026-10-24",
+  "independence": "Reviewer opened the official Bundestag submission and DBDD report separately, extracted complete relevant pages from archived originals, and compared the exact 2018 draft. This is not specialist review.",
+  "issues": [
+    {
+      "id": "cannkg2018-baek-a01",
+      "outcome": "supported_with_locator_clarification",
+      "checks": [
+        "Official submission cover names BT-Drs. 19/819 and two accompanying motions; not the later CanG.",
+        "Submission PDF p5 broadens the denominator to all addiction-related inpatient diagnoses. The DBDD report p15 expressly excludes alcohol from the selected drug-treatment share and distinguishes specialised DSHS facilities from hospital and rehabilitation datasets.",
+        "DBDD p15 reports 47,777 inpatient substance-related treatments and 11,736 selected drug treatments. Multiplying the latter by 33.5% and dividing by the former yields approximately 8.23%. This derived figure is a within-DSHS scale check, not an observed national all-hospital rate.",
+        "The exact 33.5% appears in the report's later inpatient-trends subsection; p15 and table4 p16 round to 33%. The final source locator should include the exact-value subsection as supplementary evidence.",
+        "The p6 youth-protection passage expressly criticises adult liberalisation. It is an evaluative policy position, not a literal formal rejection motion. A cautious opposition description is supported."
+      ],
+      "severity_assessment": "Major is defensible because excluding alcohol changes the represented treatment share substantially. It does not establish that the author's policy position is wrong.",
+      "direction_assessment": "True is defensible for the health-risk rationale supporting opposition; no inference about intent.",
+      "required_changes": [
+        "Verify and add the physical PDF page of the exact33.5% trends paragraph; retain the p15 denominator quotation."
+      ]
+    },
+    {
+      "id": "cannkg2018-baek-a02",
+      "outcome": "supported_with_locator_and_metric_cautions",
+      "checks": [
+        "Submission p7 explicitly describes marijuana-caused deaths. The matched 32% and 10%/~20% combination occurs in RMHIDTA2015 printedp14 / physicalPDFp24.",
+        "RMHIDTA defines the measure by positive toxicology, including other substances; operators can include pedestrians and bicyclists. That measure cannot itself establish causation.",
+        "Official Colorado2016 printedp31 / physicalPDFp33 independently explains that FARS toxicology indicates presence rather than impairment and that changes in missing data complicate historical comparisons.",
+        "The official2016 table and RMHIDTA figures use different inclusion criteria. Do not replace32% with a different percentage as if it were a like-for-like numerical correction.",
+        "The submission separately cites an accident-risk association from CaPRis. This review does not disprove that distinct evidence."
+      ],
+      "severity_assessment": "Major is defensible for turning a positive-test association into a quantified cause of death.",
+      "direction_assessment": "True is defensible for the road-safety objection; request linkage remains broader precautionary opposition rather than a formal rejection instruction.",
+      "required_changes": [
+        "Ensure RMHIDTA locator is physicalPDF24/printed14 and Colorado2016 caution locator physicalPDF33/printed31."
+      ]
+    }
+  ],
+  "specialist": null,
+  "supersession_notice": "For cannkg2018-baek-a01, any earlier approximately8.2% derived illustration in this preserved review is withdrawn. The direct original DSHS annual report uses treatment-completer diagnostic bases that must not be multiplied by the broader episode volume. The retained finding is the omitted nonalcohol-drug restriction; no corrected national inpatient rate is supplied.",
+  "followup_20261024": {
+    "issue_id": "cannkg2018-baek-a01",
+    "reviewer": "root_independent_ai",
+    "outcome": "retain_narrow_mismatch_with_derived_illustration_withdrawn",
+    "checks": "Independently read original IFT DSHS2016 annual report methods page5 and diagnosis section/figure4 pages10–11; visually inspected page11. Analyses of inpatients use treatment completers. The figure directly gives9.2% cannabis and68.6% alcohol in that defined sample, not a national inpatient diagnosis rate. Overall volume47,776includes different episode bases. This supports removing the mixed-base8.2% illustration while retaining the primary REITOX restriction mismatch. No source quotation added.",
+    "evidence": [
+      "research/social-digital/dshs-annual-report-2016.pdf",
+      "research/root/dshs-2016-p11.png"
+    ],
+    "limits": "The9.2% is source-specific contextual evidence, not the corrected value of an all-Germany claim or an assertion about all hospital admissions."
+  }
+}

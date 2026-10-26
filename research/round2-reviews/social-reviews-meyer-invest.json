@@ -1,0 +1,44 @@
+{
+  "reviewed_issue_ids": [
+    "invest2025-meyer-tax-r2-01",
+    "invest2025-meyer-tax-r2-02"
+  ],
+  "date": "2026-10-25",
+  "reviewer": "social_round2_independent_ai",
+  "specialist": null,
+  "independence": "Read all 13 author pages in full, the exact operative billpage 5, the March 2025 UBAreportpage 14 and current official federal Deutschlandatlas reference-year explanation. Visually read complete authorpp 5-6 and exactbillp 5. DRVarchive failed in webreader; the operative exact bill itself is decisive for the baseline.",
+  "reviews": [
+    {
+      "issue_id": "invest2025-meyer-tax-r2-01",
+      "disposition": "retain_provisional_finding",
+      "severity_recommendation": "minor",
+      "favours_author_request_recommendation": false,
+      "reason": "Exact addressed BT 21/323 expressly replaces 70,000 with 100,000. The author gives 75,000-to 100,000 in the matching subsection and correctly gives the proposed 100,000 endpoint elsewhere. No surrounding correction or different threshold is supplied. The adjacent 75%depreciation rule is distinct and offers a benign number-slip possibility. Correcting the lower baseline makes the expansion larger, which cuts against the author’s criticism, so false is justified independently from minor materiality.",
+      "limits": "Do not infer budget/take-up effects or intent. The draft is the coalition-fractions bill, not technically a government-authored bill; improve any generic government-draft description accordingly."
+    },
+    {
+      "issue_id": "invest2025-meyer-tax-r2-02",
+      "disposition": "retain_unresolved_lead",
+      "severity_recommendation": "minor",
+      "favours_author_request_recommendation": null,
+      "reason": "The 18%May 2025 new-registration figure is followed by 3.3%for 2024 and a possible month-specific-effect explanation, which strongly invites a time comparison. But 3.3 is a valid fleet-stock share and the author does not expressly label it new registrations. A valid stock-context reading survives. UBAp 14 independently shows 2024 BEVnew-registration share 13.5%; Deutschlandatlas expressly distinguishes 3.3%stock at 1 January 2025 from nearly 14%new registrations.",
+      "limits": "Do not call 3.3 a false real-world number or claim a proved like-for-like intention. Preserve the author’s explicit lack of business-car demand and elasticity data; forecasts remain outside this finding."
+    }
+  ],
+  "new_author_quotations": [],
+  "source_files": [
+    "research/round2-tax/sources/meyer-investitionssofortprogramm-20250620.pdf",
+    "research/round2-tax/sources/investitionssofortprogramm-bt2100323.pdf",
+    "research/round2-tax/sources/uba-ee-2024-march2025.pdf"
+  ],
+  "additional_primary_sources_read": [
+    "https://deutschlandatlas.bund.de/karten/wie-wir-uns-bewegen/elektroautos-im-pkw-bestand"
+  ],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "Independent review complete: retain narrow baseline error as minor/false; retain stock-flow comparator as unresolved.",
+      "by": "social_round 2_independent_ai"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "status": "complete",
+  "started_at_utc": "2026-10-25T10:54:33Z",
+  "not_before_utc": "2026-10-25T12:24:33Z",
+  "minimum_requested_minutes": 90,
+  "completed_at_utc": "2026-10-25T12:24:51.698872+00:00",
+  "elapsed_minutes": 90.31,
+  "purpose": "Continue targeted primary-source investigation with independent reciprocal AI checks; prioritise short external submissions and named expert statements.",
+  "result": {
+    "new_provisional_findings": 6,
+    "new_major_findings": 2,
+    "new_minor_findings": 4,
+    "new_documents_with_findings": 5,
+    "new_unresolved_leads": 1,
+    "new_rejected_candidates": 1,
+    "new_broad_reading_groups": 166,
+    "net_broad_pool_increase": 165
+  },
+  "new_findings": [
+    {
+      "id": "fruehstart2026-dai-doubletax-tax-r6-01",
+      "severity": "major",
+      "document_id": "dai-fruehstart-20260731",
+      "favours_author_request": true,
+      "easy_explanation": "The addressed draft distinguishes unfunded private contributions from the state-funded balance. Its memorandum expressly retains taxation of the income component for unfunded contributions, rather than taxing the contributed principal again.",
+      "materiality": "Major, provisionally: full second taxation of contributed principal would be substantially more restrictive than taxation confined to investment income, and this is the central factual premise in the dedicated tax-support subsection. The record concerns that premise, not all four policy requests in the submission; independent review may reassess severity.",
+      "limits": "No future individual tax liability, tax rate or effective return is calculated. Parents genuinely cannot deduct their contributions under this draft, and subsequent investment income can still be taxed. State grants and the returns attributable to them are a different, funded category. The finding does not establish that the proposed tax support is undesirable or that foreign schemes are comparable in all respects. It infers no intent."
+    },
+    {
+      "id": "izg2026-biesemann-seaports-energy-r6-03",
+      "severity": "minor",
+      "document_id": "biesemann-izg-20260223",
+      "favours_author_request": true,
+      "easy_explanation": "The identifiable statutory grant is EUR 38.346 million, about one-thousandth as much.",
+      "materiality": "Minor despite approximately 1,000-fold unit mismatch: this is an auxiliary illustration, without a derived financing total or quantitative policy threshold. The general maintenance-financing argument does not turn on its amount.",
+      "limits": "A million/billion clerical slip is a strong explanation. No explicit derived total depends on it, and the wider financing recommendation stands independently. Neither actual diversion of funds nor the entirety of federal maritime expenditure is established. No intent inferred."
+    },
+    {
+      "id": "krwg2026-itad-prevention-target-energy-r6-02",
+      "severity": "minor",
+      "document_id": "itad-krwg-20260807",
+      "favours_author_request": true,
+      "easy_explanation": "The draft sets a 20% municipal waste reduction target per person; 40% applies to waste intensity relative to real GDP.",
+      "materiality": "Minor: it doubles the stated quantity-reduction percentage in one supporting paragraph, but the same page gives the correct 20%rule and the response separately recognises the 40% intensity target.",
+      "limits": "The response correctly reproduces the 20% operative text immediately above and correctly describes 40% intensity elsewhere. A local drafting or reference slip is therefore plausible; readers can recover the correct distinction from the same document. No prediction about feasibility or motive is inferred."
+    },
+    {
+      "id": "krwg2026-itad-recycling-method-energy-r6-01",
+      "severity": "major",
+      "document_id": "itad-krwg-20260807",
+      "favours_author_request": true,
+      "easy_explanation": "Eurostat separates that statistical series from mandatory target reporting, which gives 46.36% for Germany 2023.",
+      "materiality": "Major: the wrong compliance measure turns a baseline below 50% into one above the 2035 threshold 65%, directly reversing a substantial stated reason for the draft measures. This materiality is separate from the direction and from other reasons for data-quality reform.",
+      "limits": "Does not establish 2025 actual compliance, future 2035 performance, the optimal target level, reliable cross-country rankings, or the merits of the requested data improvements. Destatis itself expressly publishes the already-met 2035 claim in its current official explanation; faithful repetition is a strong source-provenance explanation. No intent or invented number is inferred."
+    },
+    {
+      "id": "mietrechtII2026-ivd-cpiyears-root-r6-02",
+      "severity": "minor",
+      "document_id": "ivd-mietrecht-20261009",
+      "favours_author_request": true,
+      "easy_explanation": "Official CPI growth was also above 3% in 2021. Effects on individual rent adjustments depend on the rolling measurement period.",
+      "materiality": "Minor: omitting at least one historical year overstates rarity, but the 2021 annual example exceeds 3% by only 0.1 percentage point. Halving that excess changes the illustrative increase from 3.1% to 3.05%; no substantial financial effect is established.",
+      "limits": "Annual-average inflation is not the formula for every individual index-rent increase. The bill uses a one-year period, while contracts can have different adjustment dates and longer intervals. No exact count of affected leases, lost revenue or future inflation is established. The count error does not prove the cap desirable. The release quoted is explicitly provisional; the later official historical table corroborates the same 2021 figure."
+    },
+    {
+      "id": "suizidpraevg2026-marburger-costs-social-r6-01",
+      "severity": "minor",
+      "document_id": "marburger-suizid-20260728",
+      "favours_author_request": true,
+      "easy_explanation": "The addressed draft estimates recurring office costs of EUR 1.482 million a year. EUR 1.2 million is the one-off setup estimate phased in through 2029.",
+      "materiality": "Minor: the full annual estimate is understated by about 19%, but the qualitative adequacy argument survives. This is a bounded description of the draft, not proof that more funding is unnecessary.",
+      "limits": "The estimated costs are not legally guaranteed funding or proof of actual spending. The author does not expressly say funding ends after 2029; its period may focus on implementation. No separate termination-date allegation is made. Early costs are phased in, and no amount for 2027 or 2028 is invented. The correction does not establish adequate resources, clinical benefit or the merits of the policy request. No intent is inferred."
+    }
+  ],
+  "additional_dispositions": [
+    {
+      "id": "staendg2025-langenmayr-incidence-root-r6-03",
+      "finding_state": "unresolved_lead",
+      "reason": "The 2019 study expressly warns it may underestimate owner gains; no claim actual 80%is statistically ruled out. This is a potential misdescription of what cited research establishes, not a refutation of an uncertain economic estimate or forecast for Germany. The author may have used owners loosely for the broader producer side; that reading would not accurately distinguish workers and suppliers but is preserved. No intent inferred."
+    },
+    {
+      "id": "mietrechtII2026-ivd-vacate-root-r6-01",
+      "finding_state": "rejected_after_review",
+      "reason": "Closed as an unsupported allegation after contextual review. This does not endorse the forecast or establish that landlords will terminate or continue contracts. No intent inferred."
+    }
+  ],
+  "totals": {
+    "issue_records": 110,
+    "provisional_findings": 69,
+    "major": 13,
+    "minor": 56,
+    "unresolved_leads": 38,
+    "rejected_candidates": 3,
+    "documents_with_provisional_findings": 60,
+    "documents_with_major_findings": 12,
+    "broad_reading_units": 791,
+    "reading_depth": {
+      "full_submission": 554,
+      "selected_passages": 108,
+      "keyword_triage": 128,
+      "full_text_ocr": 1
+    }
+  },
+  "reading_reconciliation": "research/round6/reading-delta.json",
+  "coverage": {
+    "national_three_month_coverage_established": false,
+    "eligible_window_denominator": null,
+    "coverage_percentage": null,
+    "representative_error_rate": null,
+    "scope": "All external written submissions; academics/NGOs included. The broad pool includes historical, scope-pending and differently examined documents."
+  },
+  "review": {
+    "specialist": null,
+    "type": "Independent reciprocal AI checks and root adjudication; not human specialist confirmation.",
+    "review_files": [
+      "research/round6-reviews/energy-reviews-ivd-mietrecht.json",
+      "research/round6-reviews/energy-reviews-marburger-costs.json",
+      "research/round6-reviews/energy-reviews-merged-output.json",
+      "research/round6-reviews/energy-reviews-social-pool.json",
+      "research/round6-reviews/energy-reviews-tax-pool.json",
+      "research/round6-reviews/energy-reviews-vdk-alias.json",
+      "research/round6-reviews/root-langenmayr-final-context.json",
+      "research/round6-reviews/root-reviews-dai-doubletax.json",
+      "research/round6-reviews/root-reviews-haucap-comparator.json",
+      "research/round6-reviews/root-reviews-itad-krwg.json",
+      "research/round6-reviews/root-reviews-marburger-suizid.json",
+      "research/round6-reviews/social-pool-body-alias-followup.json",
+      "research/round6-reviews/social-reviews-dai-doubletax.json",
+      "research/round6-reviews/social-reviews-langenmayr-incidence.json",
+      "research/round6-reviews/social-reviews-lessig-deaths.json",
+      "research/round6-reviews/social-reviews-merged-output.json",
+      "research/round6-reviews/social-reviews-root-pool.json",
+      "research/round6-reviews/social-reviews-vzbv-wallet.json",
+      "research/round6-reviews/tax-reviews-biesemann-seaports.json",
+      "research/round6-reviews/tax-reviews-itad-krwg.json",
+      "research/round6-reviews/tax-reviews-langenmayr-incidence.json"
+    ],
+    "disagreements_preserved": true
+  },
+  "integration": {
+    "baseline_issue_records": 102,
+    "baseline_issues_with_substantive_status_or_severity_change": 0,
+    "baseline_quote_only_shortening": [
+      "behg2026-fleischmann-binding-targets-energy-r3-01"
+    ],
+    "baseline_alias_merge": "Identical DK crypto authored bodies merge two earlier groups; original dates/covers preserved.",
+    "VdK_alias_merge": "Exact six-page body identity; register and author-copy PDF binaries differ.",
+    "quote_only_note": "Original longer research record preserved. Shorter exact excerpt avoids combined quotation overage after separate mortality finding integration."
+  },
+  "verification": {
+    "validation_report": "data/validation-report.json",
+    "quotation_audit": "data/quotation-audit.json",
+    "final_completion_audit": "research/round6/completion-audit.json",
+    "records_validated": 110,
+    "validation_errors": 0,
+    "validation_warnings": 0,
+    "quotation_overages": 0,
+    "final_Langenmayr_context_followup": "research/round6-reviews/root-langenmayr-final-context.json"
+  },
+  "assembly_manifest": "research/round6/assembly-manifest.json",
+  "new_findings_file": "data/findings-round6.json",
+  "preserved_baseline": "research/round6/baseline",
+  "no_author_contact": true,
+  "author_response": [],
+  "storage_audit": "research/round6/storage-audit.json",
+  "negative_check_examples": [
+    {
+      "record": "research/round6-tax/haucap-eu-food-comparator-negative.json",
+      "independent_review": "research/round6-reviews/root-reviews-haucap-comparator.json",
+      "outcome": "Matched-food definitions and exact historical EU total not resolved; no issue admitted."
+    },
+    {
+      "record": "research/round6-root/research-log.json",
+      "outcome": "Exact linked2005Stanford report supports relevant recommendations; a different2015report is not used as counterproof."
+    }
+  ]
+}

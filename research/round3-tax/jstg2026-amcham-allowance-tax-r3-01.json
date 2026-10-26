@@ -1,0 +1,138 @@
+{
+  "law_id": "jstg-2026",
+  "document_id": "amcham-tax-bureaucracy-202610",
+  "status": "ai_screened",
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "independent social agent",
+        "review_file": "research/round3-reviews/social-reviews-amcham-allowance.json",
+        "date": "2026-10-25",
+        "outcome": "retain provisional minor finding"
+      },
+      {
+        "reviewer": "independent root agent",
+        "review_file": "research/round3-reviews/root-reviews-amcham-allowance.json",
+        "date": "2026-10-25",
+        "outcome": "retain provisional minor finding"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "first recorded",
+      "by": "ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent AI review completed; disposition retained",
+      "by": "independent social agent"
+    }
+  ],
+  "draft": {
+    "source_id": "bt-21-8283-jstg2026",
+    "version": "Government JStG2026 bill adopted 12 August 2026, transmitted as BT 21/8283 on 30 September 2026",
+    "locator": {
+      "pdf_page": 7,
+      "section": "Article list; no §19(1)1no 1a or §6a GrEStG amendment identified in the operative bill"
+    },
+    "scope": "The paper explicitly addresses the 12 August government JStG in sections 1A and 2A; the two requests examined here are supplementary proposals beyond those specific provisions. It is not treated as a response to the earlier consultation draft."
+  },
+  "source_ids": [
+    "amcham-tax-bureaucracy-202610",
+    "bt-21-8283-jstg2026",
+    "estg19-current20261025",
+    "lsth2025-threshold-table",
+    "cjeu-c83724-20260604-de"
+  ],
+  "submission_metadata": {
+    "registry_id": "SG2610050028",
+    "recipient_events": [
+      {
+        "date": "05.10.2026",
+        "recipients": "05.10.2026 Bundestag: Gremien [alle SG dorthin] ; Bundesregierung: Bundesministerium der Finanzen (BMF) [alle SG dorthin]",
+        "links": [
+          {
+            "text": "[alle SG dorthin]",
+            "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundestag%7CGremien%5D=true&sort=FIRSTPUBLICATION_DESC"
+          },
+          {
+            "text": "[alle SG dorthin]",
+            "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundesregierung%7CBundesministerium+der+Finanzen+%28BMF%29%5D=true&filter%5Bcircleofrecipients%5D%5B19.+Wahlperiode+Bundesregierung%7CBundesministerium+der+Finanzen+%28BMF%29+%2819.+WP%29%5D=true&filter%5Bcircleofrecipients%5D%5B20.+Wahlperiode+Bundesregierung%7CBundesministerium+der+Finanzen+%28BMF%29+%2820.+WP%29%5D=true&sort=FIRSTPUBLICATION_DESC"
+          }
+        ]
+      }
+    ],
+    "author_document_date": "October 2026, no exact day on cover",
+    "date_basis": "Register reports dispatch5October 2026; document month separately verified on cover",
+    "document_date_verified": true,
+    "delivery_independently_verified": false
+  },
+  "id": "jstg2026-amcham-allowance-tax-r3-01",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "The annual package of German tax changes.",
+    "they_want": "Convert employee-tax thresholds into allowances and simplify staff-event taxation.",
+    "they_claim": "The €110 staff-event rule is a threshold whose small excess can cause disproportionate tax.",
+    "the_problem": "The cited income-tax provision already exempts the first €110 for qualifying events."
+  },
+  "claim_quote": {
+    "original": "Freigrenzen (z. B. die 110-Euro-Grenze bei Betriebsveranstaltungen",
+    "language": "de",
+    "translation_en": "Translation of fragment: exemption thresholds (e.g. the €110 limit for staff events",
+    "locator": {
+      "pdf_page": 11,
+      "printed_page": 11,
+      "section": "6. Sonstiges; Harmonisierung von Freigrenzen"
+    },
+    "underline": "Freigrenzen"
+  },
+  "request_quote": {
+    "original": "als Freibeträge ausgestaltet werden",
+    "language": "de",
+    "translation_en": "Translation of request fragment: be designed as allowances",
+    "locator": {
+      "pdf_page": 11,
+      "printed_page": 11,
+      "section": "Same bullet"
+    }
+  },
+  "counter_quote": {
+    "original": "Soweit solche Zuwendungen den Betrag von 110 Euro je Betriebsveranstaltung und teilnehmenden Arbeitnehmer nicht übersteigen",
+    "language": "de",
+    "translation_en": "Translation of fragment: To the extent that such benefits do not exceed €110 per staff event and participating employee",
+    "source_id": "estg19-current20261025",
+    "locator": {
+      "section": "§19(1) sentence 1 no 1a, sentence 3; sentence 4 limits this to two annual events"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "For qualifying events, only the excess above €110 is employment income. The €50 benefits-in-kind example is a genuine threshold; this finding concerns only the €110 example.",
+  "effect": "Weakens one stated cliff-edge rationale for changing existing income-tax rules.",
+  "materiality": "Minor: one example in a broader reform programme is wrong. It implies a tax cliff where the cited provision already supplies the requested allowance.",
+  "direction_explanation": "The misdescription supports the stated aim of preventing disproportionate tax when a limit is narrowly exceeded.",
+  "limits": "Does not establish that event administration is simple or that the separate10% flat-tax proposal is unwise. VAT has a different €110 threshold; the passage expressly cites income-tax §19. Eligibility conditions and the two-event limit still apply.",
+  "alternative_explanations": [
+    "The author may have used Freigrenze loosely for monetary limits generally. The explicit request for conversion to Freibeträge, linked to small excesses, makes that wording consequential.",
+    "The following page discusses differing VAT and wage-tax treatment, but does not qualify the cited income-tax example."
+  ],
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "additional_evidence": [
+    {
+      "source_id": "lsth2025-threshold-table",
+      "locator": {
+        "section": "§19(1) sentence 1 no 1a table row"
+      },
+      "note": "The pre-existing 2025 ministry table expressly classifies the €110 rule as a Freibetrag. Official indexed text read; live archival request failed503."
+    }
+  ],
+  "reading_extent": "All 13 author pages read; page 11 visually checked. Current §19 and dated 2025 official table checked, plus exact government draft article list/operative search."
+}

@@ -1,0 +1,34 @@
+{
+  "reviewer": "energy_hearings",
+  "reviewed_at": "2026-10-25",
+  "scope": "Bounded metadata, deduplication and protocol audit of known Fernunterricht resources; not an independent rereading of 123 substantive pages.",
+  "inputs": [
+    "research/round3-social/coverage-ferns-proof.json",
+    "research/round3-social/coverage-ferns-index-duplicate-audit.json",
+    "research/round3-social/coverage-ferns-register-crosscheck.json"
+  ],
+  "checks_completed": [
+    "Independently parsed archived process embedded GLAESERNES_GESETZ JSON: 32 statement entries, 31 unique statement PDF URLs. The sole repeated exact URL is VDP; the separately listed draft is excluded.",
+    "Reconciled the exact 31-URL set with the reading ledger: no missing or extra response URL. Independently recalculated all 31 SHA-256 hashes and PDF page counts: all match, total 123 physical pages.",
+    "Resolved all 31 log locators and verified each points to the recorded local PDF. This supports the researcher reading ledger, not an independent confirmation that every claim was fact-checked.",
+    "Checked all 12 register PDF hashes. Independently re-extracted six claimed whitespace-normalized text matches, including the byte-identical Digistore joint document; all six match their ministry counterparts.",
+    "Inspected headers and opening body of four additional versions: separate September Digistore response, two August letters addressed to different ministries with different introductory bodies, and the September Fernstudienanbieter version distinct from the updated October ministry version.",
+    "Confirmed the proof expressly retains DGWF as date-unverified and the exact August 17 draft as unavailable; the October revision is not substituted for September comparisons."
+  ],
+  "count_assessment": {
+    "ministry_entries": 32,
+    "unique_ministry_pdf_versions": 31,
+    "physical_pages_in_ministry_ledger": 123,
+    "additional_register_versions": 4,
+    "known_versions_across_bounded_sources": 35,
+    "date_qualified_using_author_or_reported_delivery": 34,
+    "date_unverified": 1
+  },
+  "disposition": "Supports the bounded counts and duplicate handling. No required count correction.",
+  "limits": [
+    "The two manual same-body matches (BAGSV and BDÜ) were not independently re-adjudicated character by character in this audit; the researcher retains explicit redaction/layout limits.",
+    "Author date or author month alone is not a verified submission date. The 34 date-qualified count must retain its stated authored-or-reported date basis and must not silently become 34 independently verified delivery events.",
+    "The metadata-keyword register search is a discovery subset. These 35 versions do not prove that every external submission in all channels has been found.",
+    "Different recipient letters are counted as distinct authored versions, not distinct policy positions. Full-reading depth is supplied by the original per-document log."
+  ]
+}

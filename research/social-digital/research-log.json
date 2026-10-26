@@ -1,0 +1,339 @@
+{
+  "researcher": "social_digital_ai",
+  "started_at_utc": "2026-10-24T08:57:18Z",
+  "updated_at_utc": "2026-10-24 10:56:45 UTC",
+  "notes": "Active screening log. These are not published allegations. Rejected or unresolved entries remain distinct from provisional findings. Exact quotations are stored only in candidates to avoid unnecessary repetition.",
+  "leads": [
+    {
+      "id": "baek 2018-counselling-share-v-count",
+      "state": "unresolved_lead",
+      "submission": "https://www.bundestag.de/resource/blob/561312/19_14_20-1-_BAeK_Cannabis.pdf",
+      "locator": "PDFp 5;3.2,penultimateparagraph",
+      "suspicion": "Submission describes 50% increase in cannabis-related counselling occasions 2007–2016; cited DBDD 2017 p 34 reports 51% growth in the share of entrants with cannabis principal diagnosis,index 151.",
+      "evidence": "https://www.dbdd.de/fileadmin/user_upload_dbdd/05_Publikationen/PDFs_Reitox-Bericht/REITOX_BERICHT_2017/WB_05_Behandlung_Germany_DE.pdf",
+      "why_unresolved": "Need underlying DSHS counts and denominators to rule out a coincidentally similar count increase. The monitoring report’s share wording alone does not prove that the separately stated count increase is false.",
+      "closing_check": "Revisited alongside the original DSHS annual-report methods and historical diagnosis-share tables. A later primary research report presents retrospective counts with different coverage and analytical samples; these cannot simply replace the author’s intended count series. No additional proven error promoted.",
+      "supplementary_research_url": "https://www.zi.de/fileadmin/Downloads/Service/Projektfoerderung/AmCaSD_Abschlussbericht_240131.pdf"
+    },
+    {
+      "id": "baek 2018-sales-date",
+      "state": "promoted_as_minor_after_independent_review",
+      "submission": "baek-cannkg-2018",
+      "locator": "PDFp 5 and 7",
+      "suspicion": "Retail sales described as introduced 2013 although official first stores opened 1 January 2014.",
+      "evidence": "https://cdpsdocs.state.co.us/ors/docs/reports/2016-SB13-283-Rpt.pdf",
+      "why_not_promoted": "Minor chronological imprecision separable from causation issue. Author might refer loosely to 2013 regulatory preparation/legalisation era; do not inflate into a major policy allegation.",
+      "record": "research/social-digital/candidates.json#cannkg2018-baek-a03",
+      "adjudication": "Promoted only as historical precision, direction unknown, after full-paragraph and official chronology checks; earlier not-promoted rationale preserved as context."
+    },
+    {
+      "id": "baek 2018-tobacco-forecast",
+      "state": "rejected_as_error",
+      "submission": "baek-cannkg-2018",
+      "locator": "PDFp 5",
+      "suspicion": "Concern that cannabis legalisation might raise tobacco use.",
+      "why_rejected": "Explicit forecast/fear, not an established empirical claim. No proven mismatch identified."
+    },
+    {
+      "id": "baek 2023-ecale-subjective-availability",
+      "state": "rejected_as_error",
+      "submission": "https://www.bundestag.de/resource/blob/974438/821ee52941b81ab9ee546a780efbb224/20_14_0154-11-_Bundesaerztekammer_Cannabis.pdf",
+      "locator": "PDFp 4",
+      "suspicion": "Submission says ECALe finds increased subjective cannabis availability for adolescents.",
+      "evidence": [
+        "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/5_Publikationen/Drogen_und_Sucht/Abschlussbericht/ECaLe_Policy_Paper.pdf",
+        "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/5_Publikationen/Drogen_und_Sucht/Abschlussbericht/230623_Technical_Report_de_bf.pdf"
+      ],
+      "why_rejected": "Primary technical report 3.4.1 and policy paper directly support this description. Other claims may require separate analysis."
+    },
+    {
+      "id": "baek 2023-incb-black-market",
+      "state": "unresolved_lead",
+      "submission": "https://www.bundestag.de/resource/blob/974438/821ee52941b81ab9ee546a780efbb224/20_14_0154-11-_Bundesaerztekammer_Cannabis.pdf",
+      "locator": "PDFp 4",
+      "suspicion": "Blanket claim expected black-market reduction does not occur, attributed to INCB 2022. ECALe policy paper instead reports reduction with uncertainty.",
+      "why_unresolved": "Conflicting assessments are not themselves a proven error. Must inspect exact INCB 2022 wording, jurisdiction/time and any qualifications before judgment."
+    },
+    {
+      "id": "dggg 2023-medical-archive-name-change",
+      "state": "unresolved_lead",
+      "submission": "https://www.bmbfsfj.bund.de/resource/blob/229580/f73f59b798ddd9aafb5fff64582e56b2/dggg-data.pdf",
+      "locator": "PDFp 1–2;§10/§13",
+      "suspicion": "Requests medical-archive exception to document-name-change rule, whereas§10(2) lists document classes.",
+      "why_unresolved": "Submission largely requests clarification/exception and predicts administrative difficulty; no unequivocal false description established. Need exact 9 May 2023 draft and legal interaction with other data-rights rules before promoting."
+    },
+    {
+      "id": "eggd 2023-misgendering-fine",
+      "state": "rejected_as_error_after_context",
+      "submission": "https://www.bundestag.de/resource/blob/978632/20-13-77dd.pdf",
+      "locator": "PDFp 2 opening;PDFp 14–15 section 5",
+      "suspicion": "Opening summary broadly describes fines for naming previous sex/identity.",
+      "evidence": "https://dserver.bundestag.de/btd/20/090/2009049.pdf",
+      "why_rejected": "Later detailed analysis expressly acknowledges intentional harm and exceptions; remaining chilling-effect argument is a prediction/legal opinion. Cannot screen opening shorthand in isolation."
+    },
+    {
+      "id": "eggd 2023-standesamt-famfg",
+      "state": "rejected_as_error",
+      "submission": "eggd-sbgg-2023",
+      "locator": "PDFp 8–9",
+      "suspicion": "Possibly quotes older draft’s registrar notification procedure.",
+      "evidence": "bt-20-9049-sbgg",
+      "why_rejected": "Exact government draft retains§168 gFamFG reference and corresponding explanation. Pagination differs but quoted procedural content remains present."
+    },
+    {
+      "id": "eggd 2023-nhs-hospital-rape",
+      "state": "unresolved_lead",
+      "submission": "eggd-sbgg-2023",
+      "locator": "PDFp 13–14;footnote 35",
+      "suspicion": "Strong factual account of NHS hospital rape case and alleged later admission; locally cites TheTimes 19 March 2022.",
+      "why_unresolved": "No primary police, hospital or court record retrieved to verify or refute this incident. Absence of corroboration is not a proven error; do not report as fabricated."
+    },
+    {
+      "id": "chatcontrol 2023-ngos",
+      "state": "scope_not_promoted",
+      "discovery_source": "https://netzpolitik.org/2023/falsche-behauptungen-so-unserioes-machen-einige-kinderrechtsorganisationen-fuer-die-chatkontrolle-mobil/",
+      "suspicion": "Third-party critique of NGOsource/legal descriptions after BundestagEUhearing.",
+      "why_not_promoted": "Not yet independently verified against primary submission and exactEUproposal; federal legislative-process scope ambiguous. Secondary critique alone insufficient."
+    },
+    {
+      "id": "sbgg2023-eggd-a01",
+      "state": "unresolved_lead",
+      "candidate_file": "research/social-digital/sbgg2023-eggd-a01.json",
+      "why_unresolved": "Downgraded after adversarial review. Citation does not establish broad long-term treatment assertion, but submission does not explicitly misdescribe measured outcomes; inadequate evidence is not a proven factual error."
+    },
+    {
+      "id": "bda2023-gender-pay-east",
+      "state": "eligibility_unresolved",
+      "submission": "BDA evaluation statement appended BT20/8100,p309",
+      "suspicion": "Prose says EastGermanwomen earn more than men while neighbouring IAB2021figures show positive6.3%gap.",
+      "evidence": "https://doku.iab.de/arbeitsmarktdaten/Gender_Pay_Gap_2021_regional.pdf",
+      "why_unresolved": "No concrete draft established; formalEntgTranspGevaluation may fall outside requested legislative submission scope. Not promoted."
+    },
+    {
+      "id": "hateaid2026-social-age-capacity",
+      "state": "eligibility_unresolved",
+      "submission": "LobbyregisterSG2603030005,6February2026expertcommission submission",
+      "suspicion": "Indexedtext places limited civil capacity at14; GermanBGB§106beginsat7.",
+      "why_unresolved": "FullPDFretrieval returnedHTML; expertcommission evidence not yet tied to exactdraft. Do not promote fromsearchsnippet."
+    },
+    {
+      "id": "zalando2025-consumercredit",
+      "state": "unresolved_legal_interpretation",
+      "submission": "https://www.lobbyregister.bundestag.de/media/f9/94/591825/Stellungnahme-Gutachten-SG2507250014.pdf",
+      "locator": "pp12–14",
+      "suspicion": "Categorical contrast between Germanpaymentclaim wording and allotherlanguage buycredit wording; claims nationalgoldplating.",
+      "why_unresolved": "Otherlanguage wording genuinely differs; consequences for factoring/legalharmonisation need specialistanalysis. No unequivocalfactualerror established."
+    },
+    {
+      "id": "dav2015-retention-clearance-rate",
+      "state": "unresolved_lead",
+      "submission": "DAVSN25/2015,May2015,p10",
+      "suspicion": "0.006%clearancerate estimate may confusepercentwithpercentagepoints.",
+      "why_unresolved": "Submission reportsWDsource and immediatelyqualifies effectsunquantifiable; underlyingBKAcalculationnotyetchecked. No provenmaterialerror."
+    },
+    {
+      "id": "lsvd2026-shelter-seven-percent",
+      "state": "unresolved_source_scope",
+      "submission": "LSVDBerlinBrandenburg22May2026GgdGRefE,pp2–3",
+      "suspicion": "Says7%investigatedshelters admittranswomen; citedbachelorthesisabstractdescribeswebsitesofferingadmission,notallactualadmissionpolicies.",
+      "evidence": "https://www.hb.fh-muenster.de/opus4/frontdoor/index/index/year/2024/docId/17788",
+      "why_unresolved": "Fulltextrestrictedwithinuniversity; abstractitselfbridgeswebsiteinvitationtoadmissionoffer. Missingqualifieraloneinsufficienttoestablishfalseadmissioncount."
+    },
+    {
+      "id": "dkhw2026-jim-insults",
+      "state": "not_promoted_ambiguous_wording",
+      "submission": "DKHW22May2026GgdGRefE,p2",
+      "suspicion": "JIM64%encounteredinsultingcomments paraphrasedexposedtoinsults; possiblevictim/observerconflation.",
+      "why_not_promoted": "Germanexposed-to wordingcanmeanencounteringcomments,notnecessarilybeingpersonaltarget. No unambiguousfalsevictimisationclaim."
+    },
+    {
+      "id": "hateaid2026-deepfake98-scope",
+      "state": "unresolved_source_scope",
+      "submission": "research/social-digital/ggdg-screening/HateAid_Stellungnahme_RefE_Gesetz_digitale_Gewalt.pdf",
+      "locator": "p14,footnote6",
+      "suspicion": "Attributes98%share to all online deepfake content; cited SecurityHero2023 study measures deepfake videos.",
+      "evidence": "https://www.securityhero.io/state-of-deepfakes/",
+      "why_unresolved": "Narrow source-population discrepancy is visible, but no contrary aggregate estimate for all formats. Keep as unresolved source-description lead, not proof actual globalsharefalse.",
+      "record": "research/social-digital/ggdg2026-hateaid-a02.json",
+      "review": "research/reviews/energy-reviews-hateaid-deepfake.json"
+    },
+    {
+      "id": "ikk2024-esc-industry-income",
+      "state": "rejected_as_error",
+      "submission": "https://www.ikkev.de/fileadmin/Daten/Stellungnahmen/GHG_-_StN_IKK_e.V.__v.__09.07.2024.pdf",
+      "locator": "p11",
+      "suspicion": "Claim75.5%ESC2018income industryrelated might overcount conference fees.",
+      "evidence": "https://www.escardio.org/static-file/Escardio/About%20the%20ESC/Annual-Reports/ESC-Annual-Report-2018.pdf",
+      "why_rejected": "Primary annualreport printedp71 explicitly classifies54.328m/71.990m as industry-related75.5%. The submission accurately reports that financial classification. No intent/bias conclusion follows from checking the number."
+    },
+    {
+      "id": "ikk2024-statin-nnh13",
+      "state": "unresolved_shorthand",
+      "submission": "https://www.ikkev.de/fileadmin/Daten/Stellungnahmen/GHG_-_StN_IKK_e.V.__v.__09.07.2024.pdf",
+      "locator": "p11",
+      "suspicion": "One in13 diabetesprogression wording omits additional; primary says one additionalper13, with55.9%vs48.0%cohortprogression.",
+      "evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8491130/",
+      "why_unresolved": "Possible shorthand for numberneededtoharm rather than explicit claim of total incidence. Literalreading would understate, notstrengthen, author’s harmargument. No promoted allegation."
+    },
+    {
+      "id": "ikk2024-statin-complication-trends",
+      "state": "unresolved_source_description",
+      "submission": "sameIKK2024GHGsubmission,p11",
+      "suspicion": "Sentence after Mansi2021cohort summary mentions resurgence in hyperglycaemic crises,hospitalisations anddeaths. Primarydiscussion cites separateUS2009–2015surveillance for that trend, rather than cohortoutcomes.",
+      "evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8491130/",
+      "why_unresolved": "Linking phrase can refer to broader context rather than claiming studymeasured orstatinscausedmortalityrise. FullunderlyingDAZsecondaryarticle notyetread. Do not treat absence of suchcohortoutcome as proof broaderclinicalclaimfalse."
+    },
+    {
+      "id": "suizid2022-oregon-insurance",
+      "state": "no_matching_submission_found",
+      "scope": "OfficialBundestag28Nov2022written-submissionbundle",
+      "suspicion": "Plenaryspeaker equatesMedicare/Medicaidpublicinsurance withsocialdeprivation; Medicarealso coversolderadults.",
+      "why_not_promoted": "No corresponding writtenclaim in officialsubmissionbundlefound; plenarypoliticianstatementoutsidechosen submissionfocus. Bundle screened forrelevantterms, notallassertionsfullyverified.",
+      "archive": "research/social-digital/suizidhilfe-2022-bt-submissions.pdf"
+    },
+    {
+      "id": "bstabg2026-pharmadeutschland-a01",
+      "state": "unresolved_lead_after_adversarial_review",
+      "record": "research/social-digital/bstabg2026-pharmadeutschland-a01.json",
+      "reason": "Near-unanimity claim about joint clinical/cost outcomes initially contrasted with review classification. Independent reviewer found nonsignificant differences and population/payer distinctions that can reconcile similar costs. No proven error retained."
+    },
+    {
+      "id": "bstabg2026-gaaed-damid-screen",
+      "state": "not_promoted_context_and_missing_sources",
+      "scope": "Read DAMiD five-page18April2026 and GAÄD original/corrected four-page April2026 submissions from ministry dossier.",
+      "reason": "DAMiD no concrete savings wording may mean no separate anthroposophic estimate; combined50m draft does not refute that. GAÄD40m legislative-context figure may reflect another estimate. Unretrieved bibliographical entries and private BAG letter cannot be called fictitious from absence. No accusation promoted."
+    },
+    {
+      "id": "dzvhae2026-oncology-guideline",
+      "state": "not_promoted_context_supported",
+      "submission": "DZVhÄ17April2026BStabGsubmission,p3guidelinebullet",
+      "primary_source": "https://www.leitlinienprogramm-onkologie.de/fileadmin/user_upload/Downloads/Leitlinien/Komplement%C3%A4r/Version_2/LL_Komplement%C3%A4rmedizin_Kurzversion_2.0.pdf",
+      "locator": "physicalPDF56/printed56§4.4recommendation4.25andstatements4.26–4.27",
+      "reason": "May2024guideline does contain a conditional grade0recommendation for initial consultation plus individualised remedy to improve quality of life as adjunct to tumour therapy. It makes no recommendation for registered remedies alone. Broad shorthand loses distinctions, but existence of a recommendation is supported; no proven false guideline-description case promoted."
+    },
+    {
+      "id": "dgb2026-summed-wage-gains",
+      "state": "rejected_after_context",
+      "submission": "DGB submission 5 January 2026 in official hearing bundle 21(11)71, PDF page 40",
+      "suspicion": "5.7 billion euro purchasing-power gain initially appeared too large relative to the 2026 increment alone.",
+      "reason": "Author explanation sums the 2026 and 2027 increments across both years: 108 plus 178 cents, times stated 20 million euros per cent, equals 5.72 billion euros. Arithmetic objection rejected."
+    },
+    {
+      "id": "dgb2026-minimum-wage-count-scope",
+      "state": "unresolved_source_scope",
+      "submission": "DGB 5 January 2026 submission, official Bundestag bundle 21(11)71, physical PDF page40/author page1",
+      "primary_source": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_256_62.html",
+      "author_explanation": "https://www.dgb.de/presse/pressemitteilungen/pressemitteilung/gesetzlicher-mindestlohn-steigt-auf-1390-euro/",
+      "suspicion": "6.6 million people/17.1% are described as currently earning minimum wage. The author press explanation attributes this to Destatis. Original14July2025release instead estimates an upper bound of jobs below the future13.90 euro floor, based on April2024wages and no later wage increases.",
+      "reason_unresolved": "Scope and certainty differ, but the hearing does not cite that release explicitly and actual January2026floor distribution is not observed. Earlier actual-floor statistics concern a different rate/date; later22January2026revisions cannot retrospectively prove a5Januaryclaim false. Retain lead only, with no claim actual6.6m false.",
+      "archive": "research/social-digital/destatis-20250714-minwage.html"
+    },
+    {
+      "id": "stvg2026-ace-manual-control",
+      "state": "unresolved_after_context",
+      "submission": "ACE19February2026submission, official hearing bundle physical17/author4; BT21/3505",
+      "source": "https://www.bundestag.de/resource/blob/1151880/Anlagenkonvolut-Protokoll-21-Sitzung-23-02-2026.pdf",
+      "suspicion": "Manual24-hourvehicle sight check described as mandatory while exactdraft§63g(2)sentence5already exempts fully digital permit coverage.",
+      "context_rescue": "Full ACEsection recognises disability permits need digitalisation. Communal associations in the same bundle explicitly discuss the exception but explain why present non-digital permits prevent its use. ACE wording may describe current implementation rather than deny the statutory exception. Do not promote as a proved general draft misdescription.",
+      "primary_counter": "https://dserver.bundestag.de/btd/21/035/2103505.pdf,physical/printed14§63g(2)"
+    },
+    {
+      "id": "stvg2026-dpolg-human-review",
+      "state": "unresolved_legal_scope",
+      "submission": "DPolG hearing statement physical8, digital parking-control section",
+      "suspicion": "Says human oversight always determines machine-generated suspicion, while exactdraft§63g(3)allows sufficiently certain video findings without a renewed control.",
+      "reason": "Automatic collection/processing does not necessarily mean fully automated adverse decision. Other data-protection provisions and procedural safeguards may support human decision review. No proved legal contradiction retained."
+    },
+    {
+      "id": "medcang2026-vca-exhausted-treatment",
+      "state": "unresolved_law_vs_actual_practice",
+      "submission": "VCA12January2026hearing statement physical/printed3",
+      "source": "https://www.bundestag.de/resource/blob/1136206/21-14-0056-10-Verband-der-Cannabis-Versorgenden-Apotheken-Cannabis-nicht-barriefrei.pdf",
+      "suspicion": "Says GKV reimbursed2017–2024only demonstrably fully treated/exhausted patients. Statutory§31(6)and BSG recognise physician-assessed unsuitable standard treatments without trying every alternative.",
+      "reason": "Author describes actual insurer practice, not unambiguously a legal prerequisite. Law alone does not disprove actual universal reimbursement practice; no primary adjudicated factual counterexample yet established. Austherapiert may also mean no individually suitable further standard option. Do not present as proven error.",
+      "primary_sources": [
+        "https://www.bsg.bund.de/SharedDocs/Downloads/DE/Entscheidungen/2022/2022_11_10_B_01_KR_28_21_R.pdf?__blob=publicationFile&v=2",
+        "https://www.bundestag.de/webarchiv/textarchiv/2017/kw03-de-betaeubungsmittel-487044"
+      ]
+    },
+    {
+      "id": "nutzhanf2026-eu-controls",
+      "state": "rejected_as_error",
+      "submission": "Drewes5October2026written hearing statement physical8/printed7; DBVphysical3",
+      "suspicion": "New2026EU15%/10%hemp control rates might have been confused with30%.",
+      "primary": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R0177",
+      "reason": "Primary2026/177AnnexIreplacement expressly establishes15%ordinary/10%prior-approval minimum rates. Author description is supported; no error."
+    },
+    {
+      "id": "nutzhanf2026-graeff-harvest-loss",
+      "state": "unresolved_legal_and_practical_scope",
+      "submission": "Prof. Dr. Simone Graeff-Hönninger, 5 October 2026, physical PDF page 4 / printed page 3, section 3.1; summary physical page 2 / printed page 1",
+      "source": "https://www.bundestag.de/resource/blob/1223042/02_Stellungnahme-Prof-Dr-Simone-Graeff-Hoenninger.pdf",
+      "exact_draft": "BT 21/2116, 7 October 2025; official archived sixteen-page bill",
+      "suspicion": "The claim that accidental THC exceedance in certified-seed crops leads to harvest disqualification and total loss supports raising the national threshold to 1%. Official government answer 21/1188, page 2, says the alternative certified-seed route absorbs natural THC fluctuations.",
+      "checks": "Read the complete eight-page author text plus cover, exact bill and government answer, current KCanG definition, BLE January 2026 farmer guidance and its January 2025 Annex 4. Independent energy reviewer read the same primary sources.",
+      "why_unresolved": "A formal certified-seed exemption is a serious qualification, but practical crop usability, product rules, enforcement or other loss mechanisms may remain. BLE permits harvest after sampling or written release but does not resolve subsequent high-THC outcomes. Silence is not proof of no destruction risk. The author separately acknowledges that the EU funding threshold remains unchanged, so no funding conflation is proved.",
+      "review": "research/reviews/energy-reviews-nutzhanf-graeff.json",
+      "archives": [
+        "research/social-digital/nutzhanf2026-graeff.pdf",
+        "research/social-digital/nutzhanf2026-bt212116.pdf",
+        "research/social-digital/nutzhanf-20250811-gov-answer.pdf",
+        "research/social-digital/ble-2026-nutzhanf-merkblatt.pdf",
+        "research/social-digital/ble-2026-nutzhanf-information.pdf"
+      ]
+    },
+    {
+      "id": "pnog2026-sovd-eigenanteil-screen",
+      "state": "not_promoted_context_supported",
+      "source": "https://www.sovd-mv.de/stellungnahmen/meldung/stellungnahme-zum-referentenentwurf-pflegeneuordnungsgesetz-pnog",
+      "scope": "Screened numerical burden and phase-in claims in the published July 2026 SoVD statement; no full assertion-by-assertion audit.",
+      "reason": "The 3,364 euro monthly out-of-pocket amount is explicitly qualified as first-year and dated July 2026. Do not allege an all-residents denominator error. The table makes eighteen-month stages visible; the phrase about six-month extensions can refer to each stage length rather than identical cumulative postponements. No proven arithmetic error."
+    }
+  ],
+  "accepted_candidates": [
+    "cannkg2018-baek-a01",
+    "cannkg2018-baek-a02",
+    "ggdg2026-hateaid-a01",
+    "bstabg2026-dzvhae-a01",
+    "bstabg2026-dzvhae-a02",
+    "cannkg2018-baek-a03",
+    "mindestlohn2026-bda-a01"
+  ],
+  "cross_reviews": [
+    "research/reviews/social-reviews-tax.json",
+    "research/reviews/social-reviews-dehoga.json",
+    "research/reviews/social-reviews-sdc.json",
+    "research/reviews/social-reviews-bdi-airtax.json",
+    "research/reviews/social-reviews-financewatch-forg.json",
+    "research/reviews/social-reviews-bdz-fkbg-lead.json"
+  ],
+  "screening_batch": {
+    "archive": "research/social-digital/ggdg-2026-ministry-submissions.zip",
+    "documents": 65,
+    "method": "Extracted public ministry PDFs; searched statistical/source assertions; read relevant excerpts and surrounding sections. This is not a claim that every assertion in all65documents was fully checked.",
+    "source": "https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/Stellungnahmen/2026/0603_Stellungnahmen_RefE_Gesetz_gegen_digitale_Gewalt.zip?__blob=publicationFile&v=2"
+  },
+  "additional_screening_archives": {
+    "stvg2026": "research/social-digital/stvg-20260223-hearing.pdf; exact bill research/social-digital/stvg-bt213505-20260107.pdf",
+    "nutzhanf2026": [
+      "research/social-digital/nutzhanf2026-drewes.pdf",
+      "research/social-digital/nutzhanf2026-graeff.pdf",
+      "research/social-digital/nutzhanf2026-dbv.pdf"
+    ],
+    "scope_limit": "Relevant sections and sources checked; archives do not imply every assertion was fully fact-checked."
+  },
+  "final_adversarial_checks": [
+    {
+      "date": "2026-10-24",
+      "record_ids": [
+        "cannkg2018-baek-a01",
+        "cannkg2018-baek-a02"
+      ],
+      "sources_read": "Full BÄK submission; relevant DBDD scope/methods; RMHIDTA definitions/data and neighbouring DUID language; original IFT DSHS 2016 annual report methods, volume and principal-diagnosis table.",
+      "outcome": "Retained narrow source-description findings. Withdrew originating AI approximate denominator calculation after finding different total-volume and completed-treatment analytic bases. Direct annual-report 9.2% is only scoped corroboration. Actual national/all-secondary-diagnosis share and actual cannabis-caused fatality increase remain unestablished.",
+      "independent_followup": "Energy reviewer independently checked the new DSHS primary report and superseded prior approval of the approximate calculation in research/reviews/energy-reviews-social.json.",
+      "artifact": "research/social-digital/baek-final-adversarial-reassessment.json"
+    }
+  ],
+  "closing_status": "Seven provisional findings and three schema-compatible unresolved leads completed; independent reviews linked. Broad screening ended before the final context/provenance window. Research log retains rejected and unresolved leads without treating them as established errors."
+}

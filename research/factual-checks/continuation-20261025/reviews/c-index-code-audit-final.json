@@ -1,0 +1,307 @@
+{
+  "reviewer": "c",
+  "audit_type": "Independent read-only follow-up of index path identity validation",
+  "completed_at_utc": "2026-10-25T11:33:54.284029+00:00",
+  "reviewed_code": {
+    "file": "research/build_factual_index.py",
+    "sha256": "6cd981ac2d28e5bc44f3f882dd16cfbba7f9f133f957c8c369937a07487b9be5",
+    "previous_reviewed_sha256": "27a33a59fbaa9fbedbbf1487c95ef62654ce8672547e829ebf7917008fef85da",
+    "extent": "Full current file read and AST parsed; path-gate delta executed through captured fixtures."
+  },
+  "previous_audit": {
+    "file": "research/factual-checks/continuation-20261025/reviews/c-index-code-audit.json",
+    "sha256": "2ae9c52f9dbecb31fabe816358f821d3134e70caf3e66b5ffe72ab10b0bc1d79",
+    "preserved_unchanged": true
+  },
+  "method": "runpy with Path.write_text intercepted in memory, Path.mkdir suppressed and read-only virtual config/summary fixtures; no builder outputs written to live destinations. Only this separate audit record is saved.",
+  "default_configuration": {
+    "summary_matches_frozen_except_timestamp": true,
+    "counts": {
+      "documents": 30,
+      "pdf_pages": 131,
+      "claims": 388,
+      "outcomes": {
+        "unresolved": 119,
+        "supported": 268,
+        "overstated": 1
+      },
+      "initial_peer_reviews": 378
+    },
+    "captured_write_paths": [
+      "research/factual-checks/summary.json",
+      "research/factual-checks/report.html"
+    ]
+  },
+  "alternate_canonical_configuration": {
+    "fixture_only": true,
+    "reason": "Root is still adjudicating; synthetic summaries test code behavior without certifying completed batches.",
+    "output_directory": "research/factual-checks/continuation-20261025",
+    "all_writes_stay_in_continuation": true,
+    "dynamic_counts_and_outcomes_pass": true,
+    "hrefs": [
+      "../driving-2026/report.html",
+      "../fruehstart-2026/report.html",
+      "../biostoffv-2026/report.html",
+      "summary.json",
+      "completion-audit.json",
+      "protocol.json",
+      "../../../README.md"
+    ],
+    "resolved_link_targets": [
+      "research/factual-checks/driving-2026/report.html",
+      "research/factual-checks/fruehstart-2026/report.html",
+      "research/factual-checks/biostoffv-2026/report.html",
+      "research/factual-checks/continuation-20261025/summary.json",
+      "research/factual-checks/continuation-20261025/completion-audit.json",
+      "research/factual-checks/continuation-20261025/protocol.json",
+      "README.md"
+    ],
+    "links_match_expected": true
+  },
+  "negative_tests": [
+    {
+      "label": "incomplete phase",
+      "batches": null,
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Factual-check phase is not complete"
+      },
+      "captured_write_count": 0
+    },
+    {
+      "label": "duplicate literal names",
+      "batches": [
+        "behg-2026",
+        "behg-2026"
+      ],
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Configure a nonempty list of distinct batches"
+      },
+      "captured_write_count": 0
+    },
+    {
+      "label": "empty batch list",
+      "batches": [],
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Configure a nonempty list of distinct batches"
+      },
+      "captured_write_count": 0
+    },
+    {
+      "label": "duplicate dot aliases",
+      "batches": [
+        "behg-2026",
+        "./behg-2026"
+      ],
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Batches must identify distinct direct child directories"
+      },
+      "captured_write_count": 0
+    },
+    {
+      "label": "duplicate parent-normalized aliases",
+      "batches": [
+        "behg-2026",
+        "../factual-checks/behg-2026"
+      ],
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Batches must identify distinct direct child directories"
+      },
+      "captured_write_count": 0
+    },
+    {
+      "label": "duplicate absolute alias",
+      "batches": [
+        "behg-2026",
+        "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/behg-2026"
+      ],
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Batches must identify distinct direct child directories"
+      },
+      "captured_write_count": 0
+    },
+    {
+      "label": "parent path outside allowed direct children",
+      "batches": [
+        ".."
+      ],
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Batches must identify distinct direct child directories"
+      },
+      "captured_write_count": 0
+    },
+    {
+      "label": "outside sibling traversal",
+      "batches": [
+        "../../round2-tax"
+      ],
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Batches must identify distinct direct child directories"
+      },
+      "captured_write_count": 0
+    },
+    {
+      "label": "nested child path",
+      "batches": [
+        "behg-2026/text"
+      ],
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Batches must identify distinct direct child directories"
+      },
+      "captured_write_count": 0
+    },
+    {
+      "label": "absolute outside path",
+      "batches": [
+        "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/round2-tax"
+      ],
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Batches must identify distinct direct child directories"
+      },
+      "captured_write_count": 0
+    },
+    {
+      "label": "batch root itself",
+      "batches": [
+        "."
+      ],
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Batches must identify distinct direct child directories"
+      },
+      "captured_write_count": 0
+    },
+    {
+      "label": "incomplete constituent batch",
+      "batches": [
+        "behg-2026"
+      ],
+      "passed": true,
+      "error": {
+        "type": "ValueError",
+        "message": "Incomplete batch: behg-2026"
+      },
+      "captured_write_count": 0
+    }
+  ],
+  "noncanonical_direct_child_probes": [
+    {
+      "label": "single dot alias",
+      "name": "./behg-2026",
+      "error": null,
+      "captured_write_count": 2,
+      "report_href": "../behg-2026/report.html",
+      "resolved_target": "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/behg-2026/report.html",
+      "expected_target": "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/behg-2026/report.html",
+      "link_correct": true
+    },
+    {
+      "label": "single normalized parent alias",
+      "name": "../factual-checks/behg-2026",
+      "error": null,
+      "captured_write_count": 2,
+      "report_href": "../behg-2026/report.html",
+      "resolved_target": "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/behg-2026/report.html",
+      "expected_target": "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/behg-2026/report.html",
+      "link_correct": true
+    },
+    {
+      "label": "single absolute direct-child path",
+      "name": "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/behg-2026",
+      "error": null,
+      "captured_write_count": 2,
+      "report_href": "../Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/behg-2026/report.html",
+      "resolved_target": "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/behg-2026/report.html",
+      "expected_target": "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/behg-2026/report.html",
+      "link_correct": false
+    }
+  ],
+  "previous_alias_concern_resolved": true,
+  "files_unchanged_during_captures": true,
+  "watched_files_count": 215,
+  "unchanged_generic_builders": [
+    {
+      "file": "research/build_factual_batch.py",
+      "current_sha256": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+      "completion_audit_sha256": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+      "workflow_audit_sha256": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+      "matching_hashes": true,
+      "prior_audit_reusable_for_unchanged_code": true,
+      "still_matches_previous_audit": true
+    },
+    {
+      "file": "research/build_screening_pool.py",
+      "current_sha256": "029e797dda52b11c6ce38ac5a1884cece3593319a9427664a6089603b5c05b82",
+      "completion_audit_sha256": "029e797dda52b11c6ce38ac5a1884cece3593319a9427664a6089603b5c05b82",
+      "workflow_audit_sha256": "029e797dda52b11c6ce38ac5a1884cece3593319a9427664a6089603b5c05b82",
+      "matching_hashes": true,
+      "prior_audit_reusable_for_unchanged_code": true,
+      "still_matches_previous_audit": true
+    },
+    {
+      "file": "research/build_bounded_coverage.py",
+      "current_sha256": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+      "completion_audit_sha256": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+      "workflow_audit_sha256": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+      "matching_hashes": true,
+      "prior_audit_reusable_for_unchanged_code": true,
+      "still_matches_previous_audit": true
+    },
+    {
+      "file": "research/build_deliverables.py",
+      "current_sha256": "7e2410529c722c581d57c766d49805dc932d294170251a24a7f3f635248573c1",
+      "completion_audit_sha256": "7e2410529c722c581d57c766d49805dc932d294170251a24a7f3f635248573c1",
+      "workflow_audit_sha256": "7e2410529c722c581d57c766d49805dc932d294170251a24a7f3f635248573c1",
+      "matching_hashes": true,
+      "prior_audit_reusable_for_unchanged_code": true,
+      "still_matches_previous_audit": true
+    }
+  ],
+  "historical_artifact_hashes_still_match_prior_audit": true,
+  "pilot_artifact_hashes_still_match_prior_audit": true,
+  "concerns": [
+    {
+      "severity": "low",
+      "finding": "A single absolute direct-child batch path passes the new gate, but report and ledger strings still interpolate the raw name and produce incorrect relative links.",
+      "scope": "Generic alternate configs using absolute batch paths; current canonical names are unaffected.",
+      "evidence": {
+        "label": "single absolute direct-child path",
+        "name": "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/behg-2026",
+        "error": null,
+        "captured_write_count": 2,
+        "report_href": "../Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/behg-2026/report.html",
+        "resolved_target": "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/behg-2026/report.html",
+        "expected_target": "/Users/maxnurnus/Documents/Dev/lobby-fact-check/research/factual-checks/behg-2026/report.html",
+        "link_correct": false
+      },
+      "recommendation": "Generate report/ledger paths from the validated resolved directory, or require canonical immediate-child names."
+    }
+  ],
+  "status": "pass_for_current_canonical_configs_with_nonblocking_absolute_path_link_concern",
+  "limitations": [
+    "Captured fixtures do not certify final integration outputs.",
+    "No live output builder invocation occurred.",
+    "Path aliases resolving outside a direct child are rejected; output_directory itself remains caller-configurable by design.",
+    "Final ordered rebuild and integration snapshot remain for root freeze."
+  ]
+}

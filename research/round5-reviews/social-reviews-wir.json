@@ -1,0 +1,35 @@
+{
+  "candidate_id": "pnog2026-wir-care-share-root-r4-01",
+  "reviewer": "social_round2 independent AI",
+  "review_date": "2026-10-25",
+  "reviewed_disposition": "research/round5-energy/wir-care-share-disposition.json",
+  "reviewed_disposition_sha256": "fdd68ab48c798cc743b2d09c3a2629d4b5921707db2e44253257a3979cc5dada",
+  "verdict": "Retain unresolved/minor/null at most; do not promote a factual or source-description finding.",
+  "actual_read_extent": [
+    "Both complete original 1 September 2026 author pages; physical page 1 image independently inspected. Original text includes binding participation request on page 2.",
+    "Entire saved original Destatis 2023 provision-type table and all three footnotes, plus substantive original December 2024 release and methodology. Independent live web attempts returned 403, so saved primary reliance is explicit.",
+    "Original current PflegeStatV physical pages 1–2, including source/version header and recipient, staffing and collection-date definitions; not all three pages.",
+    "Selected original October 2025 response physical pages 1–2 and 11, plus October 2026 response physical pages 1–2 and 6–7. No full eleven- or seven-page independent reread. July 2025 response and May 2025 release were not independently reread in this review."
+  ],
+  "literal_source_description_test": "The table unambiguously measures people and benefit/provision categories at reference dates, not national care hours, tasks or economic value. 4,888,882 / 5,688,473 × 100 = 85.94366%, matching rounded 86. If the letter specifically presents this table as a measured national work share, that is a real measure-description problem even if an independently measured work share happened to be similar. But the letter identifies no table or reference year, and the additional earlier versions do not authenticate a unique source for this particular sentence.",
+  "benign_context_test": [
+    "The immediate subject is who sustains the care system, followed by family experience and participation. Care work can be loose social-arrangement shorthand rather than a defined measured volume. The earlier recipient language supports that reading; it is not proof of author method or intention.",
+    "Civil society is not operationally defined. It is not automatically synonymous with unpaid family labour, and the sentence says care is often unpaid rather than asserting every included task is unpaid. Do not assume every professional charitable provider lies outside the author’s social category.",
+    "Home recipients may receive both family help and professional services; institutional recipients can also receive family help. Subtracting the professional ambulatory group, or using 54.5% exclusively cash-benefit recipients, would produce another recipient statistic rather than a corrected national work share."
+  ],
+  "arithmetic_check": {
+    "home_recipients": 4888882,
+    "total_recipients": 5688473,
+    "unrounded_percent": 85.94366185793622,
+    "published_percent": 85.9,
+    "unit": "recipients, not volume of work"
+  },
+  "severity_direction": "Potentially minor source-description imprecision only. Direction remains null because no actual work-share correction is established. The broad importance of family care and participation survives.",
+  "version_gate": "The 1 September open letter does not identify a draft or provision. A June reference draft and later October comparison cannot authenticate its precise addressed version. Preserve this gate.",
+  "resolution_route": "An explicit source citation or public definition of the work-share measure could make the source-description test definite. A valid national time-use estimate would address actual work volume but would not automatically identify the source intended in this sentence. Without such evidence, no further promotion is justified.",
+  "no_new_original_quotations": true,
+  "no_author_contact": true,
+  "specialist_review": null,
+  "author_response": [],
+  "no_compiled_or_other_researcher_raw_edits": true
+}

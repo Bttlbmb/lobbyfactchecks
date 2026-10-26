@@ -1,0 +1,296 @@
+[
+  {
+    "law_id": "cannkg-2018",
+    "document_id": "baek-cannkg-2018",
+    "status": "ai_screened",
+    "finding_state": "provisional_finding",
+    "severity": "major",
+    "favours_author_request": true,
+    "request_quote": {
+      "quote_id": "baek-cannkg-2018-request",
+      "metadata_file": "source-registry.json"
+    },
+    "review": {
+      "specialist": null,
+      "independent_ai": [
+        "research/reviews/root-reviews-social.json",
+        "research/reviews/energy-reviews-social.json"
+      ],
+      "followup_note": "Energy independently checked the original DSHS annual report and appended followup_reviews to energy-reviews-social.json, superseding its earlier derived-rate approval. The former arithmetic is review history only."
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "first recorded",
+        "by": "ai_screen"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Full submission and primary-source scope adversarially reassessed by originating AI; provisional major finding retained with narrower limits and explicit alternative explanations. This is not an additional independent review.",
+        "by": "social_digital_ai"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Originating AI withdrew its earlier approximate derived comparison after retrieving original DSHS annual report: total treatment volume and completed-treatment diagnosis analyses have different bases. Added directly reported 9.2% only as scoped contextual corroboration. Core exclusion finding retained; no original quotation changed.",
+        "by": "social_digital_ai"
+      }
+    ],
+    "id": "cannkg2018-baek-a01",
+    "card": {
+      "law_is_about": "Creating a regulated adult cannabis market.",
+      "they_want": "Oppose adult liberalisation on youth-protection grounds.",
+      "they_claim": "Cannabis accounts for over 30% of all inpatient addiction diagnoses.",
+      "the_problem": "The cited share excludes alcohol and concerns a selected treatment dataset."
+    },
+    "claim_quote": {
+      "original": "mehr als 30 % aller suchtbezogenen Diagnosen",
+      "language": "de",
+      "translation_en": "Translation: more than 30% of all addiction-related diagnoses",
+      "locator": {
+        "pdf_page": 5,
+        "section": "3.2. Gesundheitliche Folgen einer Legalisierung von Cannabisprodukten",
+        "paragraph": "penultimate"
+      },
+      "underline": "aller suchtbezogenen Diagnosen"
+    },
+    "counter_quote": {
+      "original": "ohne Hauptdiagnose Alkohol",
+      "source_id": "dbdd-treatment-2017",
+      "locator": {
+        "pdf_page": 15,
+        "section": "1.3.1 Übersichtstabellen zur Behandlung; Stationäre Behandlung",
+        "paragraph": "paragraph beginning Im Jahr 2016",
+        "supplementary_locator": {
+          "pdf_page": 34,
+          "printed_page": 34,
+          "section": "2.1; Veränderungen in Zugängen stationärer Behandlung",
+          "note": "Exact 33.5% appears here; page 15 uses rounded 33%."
+        }
+      },
+      "retrieved_at": "2026-10-24",
+      "language": "de",
+      "translation_en": "Translation: excluding alcohol as the principal diagnosis"
+    },
+    "correction": "The cited 33.5% describes selected nonalcohol drug principal diagnoses in DSHS services, not all addiction-related diagnoses. The original DSHS annual report separately reports cannabis as 9.2% of its broader inpatient principal-diagnosis distribution, based on completed treatments; that is contextual corroboration, not a national inpatient rate or a recalculation from the REITOX totals.",
+    "effect": "Presenting the restricted share as an all-addiction share overstates its scope and strengthens the submission’s health-risk rationale.",
+    "materiality": "Major: removing the alcohol exclusion substantially broadens the represented burden. In the original DSHS report, alcohol accounts for 68.6% and cannabis for 9.2% of the broader principal-diagnosis distribution; the restricted 33.5% cannot be presented as the all-addiction share. This editorial materiality judgment is separate from direction and policy merits.",
+    "direction_explanation": "A larger apparent addiction-treatment share supports the author’s caution against adult liberalisation. This does not establish intent.",
+    "limits": "The restricted 33.5% figure is valid. DSHS is a selected treatment-service sample, not the national hospital population. The annual report’s 9.2% concerns principal diagnoses among completed treatments in its specified sample and is not a corrected national rate. Total treatment volume and completed-treatment analytic bases must not be mixed. The adjacent hospital-treatment count belongs to another dataset. Cannabis-related harm and treatment demand remain real; no policy conclusion follows automatically. The finding concerns the scope of the cited figure; no national proportion or share including all secondary diagnoses is determined.",
+    "confidence": {
+      "text_source_mismatch": "high",
+      "materiality": "editorial_judgment"
+    },
+    "context_and_alternatives": [
+      "The source chapter concerns illegal-drug treatment, which may explain the omitted qualification; the submission itself says all addiction-related diagnoses.",
+      "The report distinguishes DSHS specialised services from hospital-diagnosis statistics and rehabilitation. The adjacent 17,148 hospital cases are a different dataset and cannot be used as the numerator for the 33.5%.",
+      "A fresh read of the full eight-page submission found no explicit qualification limiting this sentence to the selected nonalcohol drug categories. Its wider cannabis focus could explain an implicit narrower meaning, but does not reproduce the source restriction. The health-risk rationale supports broader precautionary opposition; this statistic does not directly establish the asserted youth-protection effect.",
+      "The original DSHS annual report distinguishes total treatment volume from the completed-treatment group used for diagnosis analyses (methods page 5; treatment volume page 8; figure 4 page 11; table B page 54). Table B reports 3,897 cannabis principal diagnoses among 42,306 diagnoses in 210 facilities, with 0.3% unknown. This differs from simply multiplying the REITOX restricted share by its case totals, so the earlier approximate derived comparison has been withdrawn."
+    ],
+    "source_ids": [
+      "baek-cannkg-2018",
+      "dbdd-treatment-2017",
+      "bt-19-819",
+      "bt-cannkg-hearing-2018",
+      "lobbyregister-baek",
+      "dshs-annual-2016"
+    ],
+    "supplementary_evidence": [
+      {
+        "source_id": "dshs-annual-2016",
+        "locator": {
+          "pdf_page": 54,
+          "printed_page": 54,
+          "table": "B. Hauptdiagnosen nach Geschlecht (stationär)",
+          "rows": "Cannabis; Alkohol; total; table note"
+        },
+        "paraphrase": "Cannabis 9.2% (3,897 of 42,306 principal diagnoses); alcohol 68.6%; 210 facilities, 0.3% unknown; completed-treatment group. Figure 4 on page 11 presents the same shares.",
+        "role": "Contextual corroboration with a separately specified analytic base; not a national rate or substitute arithmetic for the REITOX percentage."
+      }
+    ]
+  },
+  {
+    "law_id": "cannkg-2018",
+    "document_id": "baek-cannkg-2018",
+    "status": "ai_screened",
+    "finding_state": "provisional_finding",
+    "severity": "major",
+    "favours_author_request": true,
+    "request_quote": {
+      "quote_id": "baek-cannkg-2018-request",
+      "metadata_file": "source-registry.json"
+    },
+    "review": {
+      "specialist": null,
+      "independent_ai": [
+        "research/reviews/root-reviews-social.json",
+        "research/reviews/energy-reviews-social.json"
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "first recorded",
+        "by": "ai_screen"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Full submission and primary-source scope adversarially reassessed by originating AI; provisional major finding retained with narrower limits and explicit alternative explanations. This is not an additional independent review.",
+        "by": "social_digital_ai"
+      }
+    ],
+    "id": "cannkg2018-baek-a02",
+    "card": {
+      "law_is_about": "Creating a regulated adult cannabis market.",
+      "they_want": "Oppose adult liberalisation on youth-protection grounds.",
+      "they_claim": "Colorado traffic deaths caused by marijuana rose 32%.",
+      "the_problem": "The matched statistic counts deaths in crashes involving a marijuana-positive operator; it does not establish causation."
+    },
+    "claim_quote": {
+      "original": "durch Marihuana verursachten Verkehrstoten um 32 %",
+      "language": "de",
+      "translation_en": "Translation: traffic deaths caused by marijuana by 32%",
+      "locator": {
+        "pdf_page": 7,
+        "section": "3.5. Sicherheit des Straßenverkehrs",
+        "paragraph": "second under Stellungnahme der Bundesärztekammer"
+      },
+      "underline": "durch Marihuana verursachten Verkehrstoten"
+    },
+    "counter_quote": {
+      "original": "any time marijuana shows up in the toxicology report",
+      "source_id": "rmhidta-impact-2015",
+      "locator": {
+        "printed_page": 14,
+        "pdf_page": 24,
+        "section": "Definitions in Reviewing Fatality Data",
+        "item": "Marijuana-Related"
+      },
+      "retrieved_at": "2026-10-24",
+      "language": "en"
+    },
+    "correction": "The matching 32% and 10%/19.26% figures in RMHIDTA concern marijuana-related traffic fatalities involving operators with positive tests, including combinations with alcohol or other drugs. Positive toxicology does not identify marijuana-caused deaths.",
+    "effect": "Removes a claimed causal quantification from the traffic-safety argument.",
+    "materiality": "Major: the wording turns a toxicology association into an attributed cause of death, materially strengthening the evidence presented for the road-safety objection.",
+    "direction_explanation": "A quantified causal harm supports the author’s precautionary opposition. The road-safety discussion also supports greater traffic monitoring; no intent is inferred.",
+    "limits": "This finding concerns the description of the strongly matched statistic, conditional on that source identification. The actual change in deaths causally attributable to cannabis is not established here and could coincidentally have been 32%; the toxicology series does not decide that question. Cannabis can impair driving, and legalisation may have traffic effects. The preceding CaPRis risk association remains a separate argument and is not disproved.",
+    "confidence": {
+      "text_source_mismatch": "high",
+      "materiality": "editorial_judgment",
+      "source_identification": "strong_matching_inference; no explicit local footnote",
+      "actual_causal_change": "not_established"
+    },
+    "context_and_alternatives": [
+      "The submission does not cite the traffic statistic locally; source identification is a strong matching inference from the exact 32% and 10%/~20% combination and its earlier citation of the 2015 RMHIDTA report.",
+      "RMHIDTA distinguishes DUID enforcement data from fatality toxicology data; its DUID discussion cannot supply causation for the separate fatality series.",
+      "The source says the 32% change is 2013–2014. Retail stores opened 1 January 2014; the submission’s 2013 sales reference is a separate chronological imprecision, not necessary to this finding.",
+      "A fresh full-context check considered the report’s neighbouring DUID causation language. That language concerns a different enforcement dataset and cannot supply causal attribution for the matched fatality series. The Colorado 2016 driver series is used only for a methodological warning, not as a replacement for the RMHIDTA operator series.",
+      "RMHIDTA also reports that 47% of operators in fatal crashes were tested in 2014 (physical page 24), and labels its 2014 FARS data preliminary when published (physical page 25). These reporting limits are preserved as context; they do not establish a different actual causal increase."
+    ],
+    "source_ids": [
+      "baek-cannkg-2018",
+      "rmhidta-impact-2015",
+      "colorado-early-findings-2016",
+      "bt-19-819",
+      "bt-cannkg-hearing-2018",
+      "lobbyregister-baek"
+    ],
+    "supplementary_counter_quotes": [
+      {
+        "original": "only indicate the presence of THC and are not statements about driver impairment.",
+        "source_id": "colorado-early-findings-2016",
+        "locator": {
+          "pdf_page": 33,
+          "printed_page": 31,
+          "section": "Fatality Analysis Reporting System",
+          "paragraph": "third"
+        },
+        "retrieved_at": "2026-10-24",
+        "language": "en"
+      }
+    ],
+    "verification": {
+      "visual_check": "BÄK PDF pages 5 and 7, DBDD page 15, RMHIDTA page 24 rendered and visually inspected on 2026-10-24; page indices are 1-based."
+    }
+  },
+  {
+    "id": "cannkg2018-baek-a03",
+    "law_id": "cannkg-2018",
+    "document_id": "baek-cannkg-2018",
+    "status": "ai_screened",
+    "finding_state": "provisional_finding",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Creating a regulated adult cannabis market.",
+      "they_want": "Oppose adult liberalisation on youth-protection and safety grounds.",
+      "they_claim": "Legal recreational marijuana sales began in Colorado in 2013.",
+      "the_problem": "Licensed recreational retail stores opened on 1 January 2014."
+    },
+    "claim_quote": {
+      "original": "2013",
+      "language": "de",
+      "translation_en": "Translation: 2013",
+      "locator": {
+        "pdf_page": 7,
+        "section": "3.5. Sicherheit des Straßenverkehrs",
+        "paragraph": "paragraph beginning In Colorado wurde nach Einführung; year immediately after the legal-marijuana-sales wording"
+      },
+      "underline": "2013"
+    },
+    "counter_quote": {
+      "original": "Licensed retail stores open on January 1, 2014.",
+      "language": "en",
+      "source_id": "colorado-early-findings-2016",
+      "locator": {
+        "pdf_page": 17,
+        "printed_page": 15,
+        "section": "Colorado Law",
+        "bullet": "2014 to present"
+      },
+      "retrieved_at": "2026-10-24"
+    },
+    "request_quote": {
+      "quote_id": "baek-cannkg-2018-request",
+      "metadata_file": "source-registry.json"
+    },
+    "correction": "Distinguish 2013 personal-possession and regulatory implementation from the opening of licensed recreational retail stores on 1 January 2014. Medical sales predated both.",
+    "effect": "Corrects the sequence around the cited 2013–2014 traffic comparison; it does not change the 32% calculation itself.",
+    "limits": "The legal framework and licence applications developed in 2013, which may explain the date conflation. The chronology correction does not show a causal effect of retail sales on crashes. The separate causal-description issue remains distinct.",
+    "context_and_alternatives": "The paragraph refers to introduction of legal marijuana sales, not simply possession legalisation. Its 32%/10%/20% figures closely match RMHIDTA 2015, whose executive summary places retail businesses beginning in 2014. An imprecise shorthand for the 2013 recreational legal regime is plausible, but that is not the retail-opening date.",
+    "materiality_explanation": "Minor: a one-year phase mislabel affects historical precision; the selected comparison and separate policy concern remain.",
+    "direction_explanation": "Null: an earlier start could change perceived exposure duration, but no definite favourable argumentative effect is established.",
+    "confidence": {
+      "text_source_mismatch": "high",
+      "materiality": "editorial_judgment"
+    },
+    "review": {
+      "specialist": null,
+      "independent_ai": [
+        "research/reviews/energy-reviews-baek-chronology.json"
+      ]
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "Recorded as a distinct minor chronology issue after exact paragraph and primary phase definitions checked; pending independent AI review.",
+        "by": "social_digital_ai"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Independent AI review retained minor chronology issue with unknown direction; full section and official phase chronology checked.",
+        "by": "social_digital_ai"
+      }
+    ],
+    "source_ids": [
+      "baek-cannkg-2018",
+      "colorado-early-findings-2016",
+      "rmhidta-impact-2015",
+      "bt-19-819",
+      "bt-cannkg-hearing-2018",
+      "lobbyregister-baek"
+    ]
+  }
+]

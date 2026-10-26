@@ -1,0 +1,121 @@
+{
+  "id": "impfpflicht2022-aefi-social-r3-01",
+  "law_id": "ifsg-impfpflicht-2022",
+  "document_id": "aefi-impfpflicht-20221012",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "major",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Motions to repeal a COVID-19 vaccination requirement for workers in health and care facilities and investigate adverse effects.",
+    "they_want": "Repeal the facility-specific vaccination mandate immediately.",
+    "they_claim": "From nearly equal crude Danish household infection rates, even boosters did not reduce onward infection risk at all.",
+    "the_problem": "The crude rates do not identify a causal absence of protection, while the same study reports an adjusted protective association. But the author expressly adopts crude absolute rates, so a proven factual or source-description error is not established."
+  },
+  "claim_quote": {
+    "original": "und damit das Ansteckungsrisiko auch enger Kontaktpersonen somit gar nicht.",
+    "language": "de",
+    "translation_en": "Translation: and therefore did not reduce the infection risk even for close contacts at all.",
+    "locator": {
+      "pdf_page": 23,
+      "printed_page": "23/34",
+      "section": "Haushaltskontaktstudien unter Omikron",
+      "paragraph": "first, final clause; subject in preceding clause is two-dose and booster vaccination"
+    },
+    "underline": "somit gar nicht"
+  },
+  "request_quote": {
+    "original": "Aufhebung der einrichtungsbezogenen Impfpflicht",
+    "language": "de",
+    "translation_en": "Translation: repeal of the facility-specific vaccination mandate",
+    "locator": {
+      "pdf_page": 34,
+      "printed_page": "34/34",
+      "paragraph": "final request before signatures"
+    }
+  },
+  "counter_quote": {
+    "original": "booster vaccination did offer some protection against household transmission",
+    "language": "en",
+    "source_id": "lyngse-omicron-20220923",
+    "locator": {
+      "pdf_page": 4,
+      "printed_page": "4",
+      "section": "Discussion",
+      "paragraph": "second"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The copied supplement gives crude secondary attack rates by the primary case’s vaccine status. The main adjusted model reports a pooled primary-case booster odds ratio of0.80(95%CI0.69–0.92) versus fully vaccinated and describes some protection. These are different estimands. The author accurately reproduces the descriptive table, expressly prefers absolute SAR differences on page20, and then draws its own inference. Neither crude equality nor the adjusted observational association alone establishes the actual causal risk claim.",
+  "effect": "Unresolved: if an affirmative misattribution or factual no-protection error were established, it would weaken a central empirical argument for repeal. The present evidence instead establishes differing analyses and an under-supported inference, which is insufficient to classify a proved error under this project’s rules.",
+  "limits": "No proved factual/source-description error is alleged on present evidence. The author does not expressly attribute a no-protection conclusion to the study authors. An omitted adjusted observational association does not by itself make the author’s preferred crude-rate inference factually false. The adjusted estimate pools Delta and Omicron and acknowledges residual confounding, misclassification and uncertain duration; it is not an Omicron-only causal estimate. No conclusion about mandate necessity, proportionality, current protection or care-facility efficacy follows.",
+  "context_and_alternatives": "All34 author pages were read. Page20 expressly adopts differences in absolute household SARs as its effectiveness measure. Page23 correctly introduces the descriptive rates before its own inferential step, and pages22–24 argue against reliable protection. This supports a methodological-inference reading rather than a false quotation or claimed adjusted study conclusion. The adjusted model supplies an affirmative reason to question the categorical inference but does not resolve the causal claim. The small30/31% running-text discrepancy is not promoted separately.",
+  "materiality_explanation": "Potential major materiality if a categorical factual error or affirmative source misattribution were independently established: absence of protection is central to the repeal argument. That error has not been established, so this is an unresolved lead rather than a major finding.",
+  "direction_explanation": "True only for the tested hypothesis: a categorical no-protection claim supports repeal. This records argumentative direction, not a finding that the claim is false or any intent.",
+  "confidence": {
+    "text_source_mismatch": "unresolved",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "root_independent_ai",
+        "verdict": "Initial support superseded after further adversarial review; root now concurs with unresolved disposition.",
+        "review_file": "research/round3-reviews/root-reviews-aefi-household.json",
+        "specialist": null
+      },
+      {
+        "reviewer": "energy_hearings_independent_ai",
+        "verdict": "Downgrade to unresolved: accurate crude table plus express methodological preference does not establish affirmative misattribution.",
+        "review_file": "research/round3-reviews/energy-reviews-aefi-household.json",
+        "specialist": null
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full submission, exact motions, primary main paper and supplementary table checks; independent review pending.",
+      "by": "social_round3_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent root AI review retained narrow provisional major finding with explicit crude-rate inference and pooled observational-result limits. Marked outside the newly requested submission-date window.",
+      "by": "root_independent_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Downgraded to unresolved after independent energy review and root concurrence. Page20 methodological preference and page23 author inference defeat a proved source-misattribution classification; prior review and full source work preserved.",
+      "by": "social_round3_ai"
+    }
+  ],
+  "submission_source_id": "aefi-impfpflicht-20221012",
+  "source_ids": [
+    "aefi-impfpflicht-20221012",
+    "lyngse-omicron-20220923",
+    "lyngse-omicron-supplement",
+    "bt201507",
+    "bt202567"
+  ],
+  "draft": {
+    "source_id": "bt201507",
+    "version_date": "2022-04-26",
+    "relevant_provision": "Motion BT20/1507 section II, physical/printed page2 requests a bill repealing the facility-specific mandate. Companion motion BT20/2567 dated5July2022 sectionII(3), physical/printed page2 requests suspension. Both identifiers are on the submission title page.",
+    "exactness_limit": "These are parliamentary motions addressed by the hearing, not a later replacement bill. Both complete original four-physical-page PDFs read. No later policy version substituted."
+  },
+  "reading_depth": {
+    "submission": "full_submission: all34 pages read; p23 visually verified",
+    "primary": "Entire7-page main paper read; supplement selected S8, S18 and methodological passages; primary main p3–4 visually verified",
+    "motions": "Both complete four-physical-page original PDFs read"
+  },
+  "research_record": "research/round3-social/impfpflicht2022-aefi-social-r3-01.json",
+  "current_window_scope": {
+    "from": "2026-07-25",
+    "through": "2026-10-24",
+    "status": "outside_current_window",
+    "submission_date": "2022-10-12",
+    "reason": "Started before user steering to a new date-window census; retained as a separately tagged historical case."
+  }
+}

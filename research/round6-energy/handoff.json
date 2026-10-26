@@ -1,0 +1,60 @@
+{
+  "as_of_utc": "2026-10-25T11:53:59.033423+00:00",
+  "branch": "energy_hearings",
+  "case_records": [
+    {
+      "path": "research/round6-energy/izg2026-biesemann-seaports-energy-r6-03.json",
+      "id": "izg2026-biesemann-seaports-energy-r6-03",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "sha256": "fd4c181d0b4f63a98e55516c0eb87527f0cabe2d7798c8cab2640b066b77c032"
+    },
+    {
+      "path": "research/round6-energy/krwg2026-itad-prevention-target-energy-r6-02.json",
+      "id": "krwg2026-itad-prevention-target-energy-r6-02",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "sha256": "9955a005040746e44b6ab6a7e73a8c12f217d793b9cdcdc6503f3fb874f64fee"
+    },
+    {
+      "path": "research/round6-energy/krwg2026-itad-recycling-method-energy-r6-01.json",
+      "id": "krwg2026-itad-recycling-method-energy-r6-01",
+      "finding_state": "provisional_finding",
+      "severity": "major",
+      "favours_author_request": true,
+      "sha256": "35a3f19269d0df73245e6068c49678cdc2783feb22f431b36913860bdf081a94"
+    }
+  ],
+  "source_registry": "research/round6-energy/sources.json",
+  "reading_ledger": "research/round6-energy/research-log.json",
+  "pool_audit": "research/round6-energy/pool-audit.json",
+  "reading_counts": {
+    "reading_units": 48,
+    "depths": {
+      "full_submission": 37,
+      "selected_passages": 11
+    }
+  },
+  "peer_reviews_written": [
+    "research/round6-reviews/energy-reviews-ivd-mietrecht.json",
+    "research/round6-reviews/energy-reviews-marburger-costs.json",
+    "research/round6-reviews/energy-reviews-social-pool.json",
+    "research/round6-reviews/energy-reviews-tax-pool.json"
+  ],
+  "important_limits": [
+    "ITAD’s 69% is supported by the statistical series and by explicit official Destatis wording. The narrow mismatch concerns its use as the 2025/2030/2035 compliance metric. No claim of 2020 noncompliance, actual 2025 failure or invented data.",
+    "The current KrWG PDF was modified on 8 July 2026. Relevant wording matches the named 26 June version; no frozen historical byte identity is asserted.",
+    "Biesemann’s 23 February 2026 statement falls outside the preferred recent window and within the overall task. The correction concerns a specific coastal-Länder grant, not all maritime spending.",
+    "The reviewed Destatis HTML was intentionally evicted and later live HTML bytes changed. Its completed main-article check and short text remain; no changed snapshot was silently substituted.",
+    "Only active report, version and quotation dependencies were individually restored with matching hashes and documented retention exceptions. Routine large studies and previews are disposable working cache.",
+    "The 48 own reading units precede final crossbranch and semantic deduplication. They do not establish 48 new eligible submissions. Machine-filtered extracts earn no reading credit."
+  ],
+  "negative_screens": [
+    "WAFG 98.1%PETclaim positively matches primary recovery metric; SmartMeterLight criticism matches primary EWI/BET subsection; BUND BEG evaluation and GermanZero RKI death estimate also positively match primary sources.",
+    "VDV 80%production-site/company shorthand, EU-only industrial proposals, qualified technical/economic forecasts and incomplete draft identity did not produce allegations.",
+    "Two short new hearing responses (Iannone, municipal umbrella) were read in full; definition/market/legal criticisms were not forced into errors."
+  ],
+  "compiled_data_mutated": false
+}

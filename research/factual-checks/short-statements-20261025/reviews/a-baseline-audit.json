@@ -1,0 +1,978 @@
+{
+  "reviewer": "a",
+  "audit_kind": "Read-only point-in-time baseline preservation and provenance audit before final integration rebuild",
+  "started_at_utc": "2026-10-25T22:22:49.477166+00:00",
+  "completed_at_utc": "2026-10-25T22:22:49.826748+00:00",
+  "baseline_directory": "research/factual-checks/short-statements-20261025/baseline",
+  "captured_file_bindings": [
+    {
+      "role": "baseline",
+      "path": "research/factual-checks/short-statements-20261025/baseline/findings.json",
+      "sha256": "1d0a76119a83ba58b9d93e4e01d3c8b91ca371ed7e62582d3baca0d4cdeaaf79",
+      "bytes": 510002,
+      "read_at_utc": "2026-10-25T22:22:49.478134+00:00"
+    },
+    {
+      "role": "current",
+      "path": "data/findings.json",
+      "sha256": "1d0a76119a83ba58b9d93e4e01d3c8b91ca371ed7e62582d3baca0d4cdeaaf79",
+      "bytes": 510002,
+      "read_at_utc": "2026-10-25T22:22:49.479393+00:00"
+    },
+    {
+      "role": "baseline",
+      "path": "research/factual-checks/short-statements-20261025/baseline/unresolved-leads.json",
+      "sha256": "b0430096b8186c3b6c8fcfe646026af9881b660bad3614632da3f74ab49f53cc",
+      "bytes": 264929,
+      "read_at_utc": "2026-10-25T22:22:49.479973+00:00"
+    },
+    {
+      "role": "current",
+      "path": "data/unresolved-leads.json",
+      "sha256": "b0430096b8186c3b6c8fcfe646026af9881b660bad3614632da3f74ab49f53cc",
+      "bytes": 264929,
+      "read_at_utc": "2026-10-25T22:22:49.480667+00:00"
+    },
+    {
+      "role": "baseline",
+      "path": "research/factual-checks/short-statements-20261025/baseline/rejected-candidates.json",
+      "sha256": "b7855eb215a1a33f2102a38845581de148df9c29440db3d7d37f8972adc75487",
+      "bytes": 24288,
+      "read_at_utc": "2026-10-25T22:22:49.480886+00:00"
+    },
+    {
+      "role": "current",
+      "path": "data/rejected-candidates.json",
+      "sha256": "b7855eb215a1a33f2102a38845581de148df9c29440db3d7d37f8972adc75487",
+      "bytes": 24288,
+      "read_at_utc": "2026-10-25T22:22:49.481048+00:00"
+    },
+    {
+      "role": "baseline",
+      "path": "research/factual-checks/short-statements-20261025/baseline/documents.json",
+      "sha256": "ba3a57cd62ed4e10524a49be8ef889ff8e84a4f1e971c47d30e70af07378ad8a",
+      "bytes": 89031,
+      "read_at_utc": "2026-10-25T22:22:49.481310+00:00"
+    },
+    {
+      "role": "current",
+      "path": "data/documents.json",
+      "sha256": "ba3a57cd62ed4e10524a49be8ef889ff8e84a4f1e971c47d30e70af07378ad8a",
+      "bytes": 89031,
+      "read_at_utc": "2026-10-25T22:22:49.481565+00:00"
+    },
+    {
+      "role": "baseline",
+      "path": "research/factual-checks/short-statements-20261025/baseline/source-registry.json",
+      "sha256": "b48a74317df92d67dbe5e70f73c41541a6a964f8eda3785aad94039b18a044e6",
+      "bytes": 325257,
+      "read_at_utc": "2026-10-25T22:22:49.482089+00:00"
+    },
+    {
+      "role": "current",
+      "path": "data/source-registry.json",
+      "sha256": "b48a74317df92d67dbe5e70f73c41541a6a964f8eda3785aad94039b18a044e6",
+      "bytes": 325257,
+      "read_at_utc": "2026-10-25T22:22:49.482622+00:00"
+    },
+    {
+      "role": "baseline",
+      "path": "research/factual-checks/short-statements-20261025/baseline/screening-pool.json",
+      "sha256": "a2563db0d8714dd29194b7c5aa187ba3233a364c724f2274bdafe6625dfc50e1",
+      "bytes": 1484004,
+      "read_at_utc": "2026-10-25T22:22:49.484266+00:00"
+    },
+    {
+      "role": "current",
+      "path": "data/screening-pool.json",
+      "sha256": "a2563db0d8714dd29194b7c5aa187ba3233a364c724f2274bdafe6625dfc50e1",
+      "bytes": 1484004,
+      "read_at_utc": "2026-10-25T22:22:49.486299+00:00"
+    },
+    {
+      "role": "baseline",
+      "path": "research/factual-checks/short-statements-20261025/baseline/screening-pool-summary.json",
+      "sha256": "389bbe47f8a4fd8cd0cbc712655570f599e8ca5d30ab19a126a12b11055d8e78",
+      "bytes": 25859,
+      "read_at_utc": "2026-10-25T22:22:49.486545+00:00"
+    },
+    {
+      "role": "current",
+      "path": "data/screening-pool-summary.json",
+      "sha256": "389bbe47f8a4fd8cd0cbc712655570f599e8ca5d30ab19a126a12b11055d8e78",
+      "bytes": 25859,
+      "read_at_utc": "2026-10-25T22:22:49.486745+00:00"
+    },
+    {
+      "role": "baseline",
+      "path": "research/factual-checks/short-statements-20261025/baseline/bounded-coverage.json",
+      "sha256": "5cc2ffa0c8de6f65f6cfc75e04dace8a9ef3725652b2744e42034dff521622dc",
+      "bytes": 11570,
+      "read_at_utc": "2026-10-25T22:22:49.486921+00:00"
+    },
+    {
+      "role": "current",
+      "path": "data/bounded-coverage.json",
+      "sha256": "5cc2ffa0c8de6f65f6cfc75e04dace8a9ef3725652b2744e42034dff521622dc",
+      "bytes": 11570,
+      "read_at_utc": "2026-10-25T22:22:49.487176+00:00"
+    },
+    {
+      "role": "baseline",
+      "path": "research/factual-checks/short-statements-20261025/baseline/factual-check-pilots.json",
+      "sha256": "410dac70bb7ef5d125c775ece8798a14f74902dc538a51d324aec0ddc5f34a53",
+      "bytes": 3527,
+      "read_at_utc": "2026-10-25T22:22:49.487338+00:00"
+    },
+    {
+      "role": "current",
+      "path": "data/factual-check-pilots.json",
+      "sha256": "f05a0028e813f5ef3ffed47b6349a88354497e3b4e52f39b10d4ce46b9e5573b",
+      "bytes": 4204,
+      "read_at_utc": "2026-10-25T22:22:49.487709+00:00"
+    }
+  ],
+  "close_recheck": [
+    {
+      "path": "research/factual-checks/short-statements-20261025/baseline/findings.json",
+      "sha256_at_close": "1d0a76119a83ba58b9d93e4e01d3c8b91ca371ed7e62582d3baca0d4cdeaaf79",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "data/findings.json",
+      "sha256_at_close": "1d0a76119a83ba58b9d93e4e01d3c8b91ca371ed7e62582d3baca0d4cdeaaf79",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "research/factual-checks/short-statements-20261025/baseline/unresolved-leads.json",
+      "sha256_at_close": "b0430096b8186c3b6c8fcfe646026af9881b660bad3614632da3f74ab49f53cc",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "data/unresolved-leads.json",
+      "sha256_at_close": "b0430096b8186c3b6c8fcfe646026af9881b660bad3614632da3f74ab49f53cc",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "research/factual-checks/short-statements-20261025/baseline/rejected-candidates.json",
+      "sha256_at_close": "b7855eb215a1a33f2102a38845581de148df9c29440db3d7d37f8972adc75487",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "data/rejected-candidates.json",
+      "sha256_at_close": "b7855eb215a1a33f2102a38845581de148df9c29440db3d7d37f8972adc75487",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "research/factual-checks/short-statements-20261025/baseline/documents.json",
+      "sha256_at_close": "ba3a57cd62ed4e10524a49be8ef889ff8e84a4f1e971c47d30e70af07378ad8a",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "data/documents.json",
+      "sha256_at_close": "ba3a57cd62ed4e10524a49be8ef889ff8e84a4f1e971c47d30e70af07378ad8a",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "research/factual-checks/short-statements-20261025/baseline/source-registry.json",
+      "sha256_at_close": "b48a74317df92d67dbe5e70f73c41541a6a964f8eda3785aad94039b18a044e6",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "data/source-registry.json",
+      "sha256_at_close": "b48a74317df92d67dbe5e70f73c41541a6a964f8eda3785aad94039b18a044e6",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "research/factual-checks/short-statements-20261025/baseline/screening-pool.json",
+      "sha256_at_close": "a2563db0d8714dd29194b7c5aa187ba3233a364c724f2274bdafe6625dfc50e1",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "data/screening-pool.json",
+      "sha256_at_close": "a2563db0d8714dd29194b7c5aa187ba3233a364c724f2274bdafe6625dfc50e1",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "research/factual-checks/short-statements-20261025/baseline/screening-pool-summary.json",
+      "sha256_at_close": "389bbe47f8a4fd8cd0cbc712655570f599e8ca5d30ab19a126a12b11055d8e78",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "data/screening-pool-summary.json",
+      "sha256_at_close": "389bbe47f8a4fd8cd0cbc712655570f599e8ca5d30ab19a126a12b11055d8e78",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "research/factual-checks/short-statements-20261025/baseline/bounded-coverage.json",
+      "sha256_at_close": "5cc2ffa0c8de6f65f6cfc75e04dace8a9ef3725652b2744e42034dff521622dc",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "data/bounded-coverage.json",
+      "sha256_at_close": "5cc2ffa0c8de6f65f6cfc75e04dace8a9ef3725652b2744e42034dff521622dc",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "research/factual-checks/short-statements-20261025/baseline/factual-check-pilots.json",
+      "sha256_at_close": "410dac70bb7ef5d125c775ece8798a14f74902dc538a51d324aec0ddc5f34a53",
+      "same_as_captured_read": true
+    },
+    {
+      "path": "data/factual-check-pilots.json",
+      "sha256_at_close": "f05a0028e813f5ef3ffed47b6349a88354497e3b4e52f39b10d4ce46b9e5573b",
+      "same_as_captured_read": true
+    }
+  ],
+  "concurrent_mutation_during_audit": [],
+  "comparisons": [
+    {
+      "file": "findings.json",
+      "byte_equal": true,
+      "semantic_equal": true,
+      "baseline_objects": 69,
+      "current_objects": 69,
+      "added_ids": [],
+      "removed_ids": [],
+      "changed_ids": []
+    },
+    {
+      "file": "unresolved-leads.json",
+      "byte_equal": true,
+      "semantic_equal": true,
+      "baseline_objects": 38,
+      "current_objects": 38,
+      "added_ids": [],
+      "removed_ids": [],
+      "changed_ids": []
+    },
+    {
+      "file": "rejected-candidates.json",
+      "byte_equal": true,
+      "semantic_equal": true,
+      "baseline_objects": 3,
+      "current_objects": 3,
+      "added_ids": [],
+      "removed_ids": [],
+      "changed_ids": []
+    },
+    {
+      "file": "documents.json",
+      "byte_equal": true,
+      "semantic_equal": true,
+      "baseline_objects": 87,
+      "current_objects": 87,
+      "added_ids": [],
+      "removed_ids": [],
+      "changed_ids": []
+    },
+    {
+      "file": "source-registry.json",
+      "byte_equal": true,
+      "semantic_equal": true,
+      "baseline_objects": 587,
+      "current_objects": 587,
+      "added_ids": [],
+      "removed_ids": [],
+      "changed_ids": []
+    },
+    {
+      "file": "screening-pool.json",
+      "byte_equal": true,
+      "semantic_equal": true
+    },
+    {
+      "file": "screening-pool-summary.json",
+      "byte_equal": true,
+      "semantic_equal": true
+    },
+    {
+      "file": "bounded-coverage.json",
+      "byte_equal": true,
+      "semantic_equal": true
+    },
+    {
+      "file": "factual-check-pilots.json",
+      "byte_equal": false,
+      "semantic_equal": false,
+      "baseline_pilots": 6,
+      "current_pilots": 7,
+      "added_ids": [
+        "short-statements-20261025-factual-checks"
+      ],
+      "removed_ids": [],
+      "changed_existing_ids": [],
+      "added_objects": [
+        {
+          "id": "short-statements-20261025-factual-checks",
+          "status": "complete",
+          "documents": 17,
+          "author_pages": 58,
+          "pdf_pages": 58,
+          "page_scope": "Physical PDF pages, including committee covers and appendices where present.",
+          "claims": 169,
+          "outcomes": {
+            "supported": 125,
+            "unresolved": 42,
+            "contradicted": 2
+          },
+          "new_reading_units": 0,
+          "summary": "research/factual-checks/short-statements-20261025/summary.json",
+          "ledger": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+          "report": "research/factual-checks/short-statements-20261025/report.html"
+        }
+      ]
+    }
+  ],
+  "main_object_preservation": {
+    "findings": 69,
+    "unresolved_leads": 38,
+    "rejected_candidates": 3,
+    "documents": 87,
+    "source_registry_records": 587,
+    "all_five_byte_identical_to_baseline": true,
+    "note": "No main-object addition, removal or content change observed in these five files. Separate unbaselined sidecars/other sessions are outside this comparison."
+  },
+  "reading_pool": {
+    "baseline_units": 791,
+    "current_units": 791,
+    "baseline_unique_ids": 791,
+    "current_unique_ids": 791,
+    "added_ids": [],
+    "removed_ids": [],
+    "changed_object_ids": [],
+    "byte_identical": true,
+    "summary_count": 791,
+    "new_reading_units": 0,
+    "annotation_status": "No new factual annotations are yet visible in the captured pool or bounded-coverage files, both byte-identical to baseline. The factual-pilot index already adds the 17-document round; final downstream builders remain a separate integration check."
+  },
+  "proof_and_protocol_bindings": [
+    {
+      "path": "research/factual-checks/short-statements-20261025/protocol.json",
+      "sha256": "305254e5b21439b5dc4b3c682a586f17f81fa7df0bed85c080f8b047effee186"
+    },
+    {
+      "path": "research/factual-checks/short-it-components-20261025/protocol.json",
+      "sha256": "55dac2c07782d8bd9b168b03ce699222cac5e2e0d9699a559c2254b7cea80908"
+    },
+    {
+      "path": "research/round3-social/coverage-rsv-proof.json",
+      "sha256": "d2697f65036a93f94f0a177c6090426eaacbb009a8d9062345d1376b4a0dc002"
+    },
+    {
+      "path": "research/round3-root/coverage/idnrg-known-public-proof.json",
+      "sha256": "ab951acecfe5fecb3a766874726e61934bffe4746156a6353291cf0889f1e099"
+    },
+    {
+      "path": "research/round3-energy/coverage-bounded-wpexamen-proof.json",
+      "sha256": "3209f0ed1b2b956553b3406c34a927dff6874c9076a82d15cbc93c0398ddb7d1"
+    },
+    {
+      "path": "research/round3-tax/coverage-bounded-ggv-itkv-proofs.json",
+      "sha256": "856da4556b99d63becfcb63a95b6678e453d3885bc5ea355c3da746ddfc77da6"
+    }
+  ],
+  "three_original_bounded_proof_matches": [
+    {
+      "process": "RSV ordinance amendment",
+      "proof_file": "research/round3-social/coverage-rsv-proof.json",
+      "proof_id": "rsv-amendvo2026-coverage-proof",
+      "proof_sha256": "d2697f65036a93f94f0a177c6090426eaacbb009a8d9062345d1376b4a0dc002",
+      "target_count": 8,
+      "physical_pages": 20,
+      "exact_set_match": true,
+      "matches": [
+        {
+          "target_id": "rsv-amendvo2026-aok",
+          "proof_id": "rsv-amendvo2026-aok",
+          "proof_member_name": null,
+          "local_file": "research/round3-social/coverage-pdfs/87ae08139ce27708c5.pdf",
+          "sha256": "f6835f4dc31059a57b46384c5cd42451b5dd58152a600d5eb6de0e83b0e66836",
+          "physical_pages": 2,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        },
+        {
+          "target_id": "rsv-amendvo2026-baek",
+          "proof_id": "rsv-amendvo2026-baek",
+          "proof_member_name": null,
+          "local_file": "research/round3-social/coverage-pdfs/f11025c9a4e3f2d70e.pdf",
+          "sha256": "f10263034eb8d143c31ca8e8cbd07cfc00bfd64f02616d7ab83cc5acc0a04698",
+          "physical_pages": 3,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        },
+        {
+          "target_id": "rsv-amendvo2026-baemi",
+          "proof_id": "rsv-amendvo2026-baemi",
+          "proof_member_name": null,
+          "local_file": "research/round3-social/coverage-pdfs/9262241137ec78a0c5.pdf",
+          "sha256": "2d2c9f027900b1426b00d640e29fed3a90d2f354722a26ceb0569699f66ff949",
+          "physical_pages": 2,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        },
+        {
+          "target_id": "rsv-amendvo2026-bvkj",
+          "proof_id": "rsv-amendvo2026-bvkj",
+          "proof_member_name": null,
+          "local_file": "research/round3-social/coverage-pdfs/bb99c89b22ea1d8154.pdf",
+          "sha256": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+          "physical_pages": 4,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        },
+        {
+          "target_id": "rsv-amendvo2026-bvoegd",
+          "proof_id": "rsv-amendvo2026-bvoegd",
+          "proof_member_name": null,
+          "local_file": "research/round3-social/coverage-pdfs/36b41c5f7e8c878ef1.pdf",
+          "sha256": "4c939eb88da6cd6ae5c8882c32e8674b411ddad61489e00dd7b98ff2af987fd6",
+          "physical_pages": 2,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        },
+        {
+          "target_id": "rsv-amendvo2026-gba",
+          "proof_id": "rsv-amendvo2026-gba",
+          "proof_member_name": null,
+          "local_file": "research/round3-social/coverage-pdfs/3f38e66dbfaaf78995.pdf",
+          "sha256": "666233e76ca9e4369ed13ade4866e0ce00fb241504771bdf10a3121a55aa8b29",
+          "physical_pages": 3,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        },
+        {
+          "target_id": "rsv-amendvo2026-gkvsv",
+          "proof_id": "rsv-amendvo2026-gkvsv",
+          "proof_member_name": null,
+          "local_file": "research/round3-social/coverage-pdfs/41906598a892884b60.pdf",
+          "sha256": "b417cb7aa430874181f26c0a16b450da9246fef63094e05f5aa57077b8e1743b",
+          "physical_pages": 2,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        },
+        {
+          "target_id": "rsv-amendvo2026-vfa",
+          "proof_id": "rsv-amendvo2026-vfa",
+          "proof_member_name": null,
+          "local_file": "research/round3-social/coverage-pdfs/ac2da2aca06e25a632.pdf",
+          "sha256": "d6d4ec30393881a428e4fe34e135610ec554360d9f0fc9509803683e3a60b094",
+          "physical_pages": 2,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        }
+      ],
+      "scope_assessment": "Eight distinct published authored RSV versions; statutory/self-government actor boundaries and register deduplication preserved, not eight private commercial lobbyists or all actual submissions."
+    },
+    {
+      "process": "Land-register IDNrG proposal",
+      "proof_file": "research/round3-root/coverage/idnrg-known-public-proof.json",
+      "proof_id": "idnrg-ground-register-known-public-packet",
+      "proof_sha256": "ab951acecfe5fecb3a766874726e61934bffe4746156a6353291cf0889f1e099",
+      "target_count": 7,
+      "physical_pages": 26,
+      "exact_set_match": true,
+      "matches": [
+        {
+          "target_id": "idnrg2026-bnotk",
+          "proof_id": null,
+          "proof_member_name": "Stellungnahme BNotK.pdf",
+          "local_file": "research/round3-root/coverage/package-members/70dc62e0c15287deba79.pdf",
+          "sha256": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+          "physical_pages": 5,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        },
+        {
+          "target_id": "idnrg2026-databund",
+          "proof_id": null,
+          "proof_member_name": "Stellungnahme DATABUND.pdf",
+          "local_file": "research/round3-root/coverage/package-members/e988e94152724ca18e6c.pdf",
+          "sha256": "5bc89faa12bb4469ebc4962df2470ff2f052fb944a84f28e3b65cd9378509f2c",
+          "physical_pages": 2,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        },
+        {
+          "target_id": "idnrg2026-dav",
+          "proof_id": null,
+          "proof_member_name": "Stellungnahme DAV.pdf",
+          "local_file": "research/round3-root/coverage/package-members/4ad8dc289a29234a308d.pdf",
+          "sha256": "614b10ba3b8dbc7a11728bcac2b49e6b6befab52a938e878ebccfd4dab271cbf",
+          "physical_pages": 4,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        },
+        {
+          "target_id": "idnrg2026-dnotv",
+          "proof_id": null,
+          "proof_member_name": "Stellungnahme DNotV.pdf",
+          "local_file": "research/round3-root/coverage/package-members/9128f71fd4c3fff3b58f.pdf",
+          "sha256": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+          "physical_pages": 4,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        },
+        {
+          "target_id": "idnrg2026-kommunale-spitzenverbaende",
+          "proof_id": null,
+          "proof_member_name": "Stellungnahme Städtetag.pdf",
+          "local_file": "research/round3-root/coverage/package-members/2c8eae086c97d6e8b252.pdf",
+          "sha256": "9372c9b810d4ad0c4cfeca94d42dac477c2bdeb9e1623d8de482cc55179ac72e",
+          "physical_pages": 6,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        },
+        {
+          "target_id": "idnrg2026-vdv",
+          "proof_id": null,
+          "proof_member_name": "Stellungnahme VDV.pdf",
+          "local_file": "research/round3-root/coverage/package-members/e2ba6f91a069b805bd8e.pdf",
+          "sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+          "physical_pages": 2,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        },
+        {
+          "target_id": "idnrg2026-zbi",
+          "proof_id": null,
+          "proof_member_name": "Stellungnahme ZBI.pdf",
+          "local_file": "research/round3-root/coverage/package-members/b559f95b62c7fa35bbf0.pdf",
+          "sha256": "65734c02596c9cc46940ffde4effd5bf6eed22f058b72843fe6dc218a5ebed06",
+          "physical_pages": 3,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        }
+      ],
+      "scope_assessment": "Seven authored PDFs in one official response ZIP; shared ZIP URL is not an identity key. Joint municipal author counted once; no all-channel/unpublished-submission closure."
+    },
+    {
+      "process": "Accountant-examination ordinance",
+      "proof_file": "research/round3-energy/coverage-bounded-wpexamen-proof.json",
+      "proof_id": "energy-wpexamen2026-known-external-reading",
+      "proof_sha256": "3209f0ed1b2b956553b3406c34a927dff6874c9076a82d15cbc93c0398ddb7d1",
+      "target_count": 2,
+      "physical_pages": 12,
+      "exact_set_match": true,
+      "matches": [
+        {
+          "target_id": "bmwe-wpexamen-2026-002",
+          "proof_id": "bmwe-wpexamen-2026-002",
+          "proof_member_name": null,
+          "local_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+          "sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+          "physical_pages": 6,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        },
+        {
+          "target_id": "bmwe-wpexamen-2026-003",
+          "proof_id": "bmwe-wpexamen-2026-003",
+          "proof_member_name": null,
+          "local_file": "research/round3-energy/sources/bmwe-members/91571d57ee384611cb11.pdf",
+          "sha256": "91571d57ee384611cb117c6b52786dc17ba6fc161d0bab578071812a3b0531a3",
+          "physical_pages": 6,
+          "match": "Exact archived author path, byte hash and physical page count agree."
+        }
+      ],
+      "scope_assessment": "Two external authored responses from a three-participant publication list; Hessen government reply excluded from this factual target set. File/date/version caveats retained."
+    }
+  ],
+  "all_target_pool_mappings": [
+    {
+      "target_id": "rsv-amendvo2026-aok",
+      "baseline_pool_id": "rsv-amendvo2026-aok",
+      "current_pool_id": "rsv-amendvo2026-aok",
+      "local_file": "research/round3-social/coverage-pdfs/87ae08139ce27708c5.pdf",
+      "actual_original_sha256": "f6835f4dc31059a57b46384c5cd42451b5dd58152a600d5eb6de0e83b0e66836",
+      "actual_physical_pages": 2,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "Umbrella association representing AOK statutory health insurers; stakeholder policy response, not a government or Länder ministry response."
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "rsv-amendvo2026-baek",
+      "baseline_pool_id": "rsv-amendvo2026-baek",
+      "current_pool_id": "rsv-amendvo2026-baek",
+      "local_file": "research/round3-social/coverage-pdfs/f11025c9a4e3f2d70e.pdf",
+      "actual_original_sha256": "f10263034eb8d143c31ca8e8cbd07cfc00bfd64f02616d7ab83cc5acc0a04698",
+      "actual_physical_pages": 3,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "Professional umbrella of German medical chambers; stakeholder response, not a government ministry submission."
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "rsv-amendvo2026-baemi",
+      "baseline_pool_id": "rsv-amendvo2026-baemi",
+      "current_pool_id": "rsv-amendvo2026-baemi",
+      "local_file": "research/round3-social/coverage-pdfs/9262241137ec78a0c5.pdf",
+      "actual_original_sha256": "2d2c9f027900b1426b00d640e29fed3a90d2f354722a26ceb0569699f66ff949",
+      "actual_physical_pages": 2,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "Medical professional association; external stakeholder response."
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "rsv-amendvo2026-bvkj",
+      "baseline_pool_id": "rsv-amendvo2026-bvkj",
+      "current_pool_id": "rsv-amendvo2026-bvkj",
+      "local_file": "research/round3-social/coverage-pdfs/bb99c89b22ea1d8154.pdf",
+      "actual_original_sha256": "83346e452cf6e2f6cf4a9dc48ac81e93867be7c9b49e001d02dc4d933875d7a8",
+      "actual_physical_pages": 4,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "Medical professional association; external stakeholder response."
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "rsv-amendvo2026-bvoegd",
+      "baseline_pool_id": "rsv-amendvo2026-bvoegd",
+      "current_pool_id": "rsv-amendvo2026-bvoegd",
+      "local_file": "research/round3-social/coverage-pdfs/36b41c5f7e8c878ef1.pdf",
+      "actual_original_sha256": "4c939eb88da6cd6ae5c8882c32e8674b411ddad61489e00dd7b98ff2af987fd6",
+      "actual_physical_pages": 2,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "Professional association of public-health physicians; represents members and is not itself a Länder ministry response."
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "rsv-amendvo2026-gba",
+      "baseline_pool_id": "rsv-amendvo2026-gba",
+      "current_pool_id": "rsv-amendvo2026-gba",
+      "local_file": "research/round3-social/coverage-pdfs/3f38e66dbfaaf78995.pdf",
+      "actual_original_sha256": "666233e76ca9e4369ed13ade4866e0ce00fb241504771bdf10a3121a55aa8b29",
+      "actual_physical_pages": 3,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": null,
+      "actor_roles": [
+        "Impartial members of the statutory Joint Federal Committee; response is from these officeholders, not a private trade association. Public-function/external-denominator boundary pending explicit adjudication."
+      ],
+      "scope_status": [
+        "public_function_actor_external_eligibility_pending"
+      ]
+    },
+    {
+      "target_id": "rsv-amendvo2026-gkvsv",
+      "baseline_pool_id": "rsv-amendvo2026-gkvsv",
+      "current_pool_id": "rsv-amendvo2026-gkvsv",
+      "local_file": "research/round3-social/coverage-pdfs/41906598a892884b60.pdf",
+      "actual_original_sha256": "b417cb7aa430874181f26c0a16b450da9246fef63094e05f5aa57077b8e1743b",
+      "actual_physical_pages": 2,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": null,
+      "actor_roles": [
+        "Statutory umbrella of health-insurance funds and health self-governance body; distinct from a government ministry and from a private commercial association. External-denominator boundary pending explicit adjudication."
+      ],
+      "scope_status": [
+        "public_function_actor_external_eligibility_pending"
+      ]
+    },
+    {
+      "target_id": "rsv-amendvo2026-vfa",
+      "baseline_pool_id": "rsv-amendvo2026-vfa",
+      "current_pool_id": "rsv-amendvo2026-vfa",
+      "local_file": "research/round3-social/coverage-pdfs/ac2da2aca06e25a632.pdf",
+      "actual_original_sha256": "d6d4ec30393881a428e4fe34e135610ec554360d9f0fc9509803683e3a60b094",
+      "actual_physical_pages": 2,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "Pharmaceutical industry association; external stakeholder response."
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "idnrg2026-bnotk",
+      "baseline_pool_id": "idnrg2026-bnotk",
+      "current_pool_id": "idnrg2026-bnotk",
+      "local_file": "research/round3-root/coverage/package-members/70dc62e0c15287deba79.pdf",
+      "actual_original_sha256": "78a4085a7030a7a46cb9b46cf20fcdd89eeb141a1dc80042b29097c00ae2d14a",
+      "actual_physical_pages": 5,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "external_professional_body_or_association"
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "idnrg2026-databund",
+      "baseline_pool_id": "idnrg2026-databund",
+      "current_pool_id": "idnrg2026-databund",
+      "local_file": "research/round3-root/coverage/package-members/e988e94152724ca18e6c.pdf",
+      "actual_original_sha256": "5bc89faa12bb4469ebc4962df2470ff2f052fb944a84f28e3b65cd9378509f2c",
+      "actual_physical_pages": 2,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "external_professional_body_or_association"
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "idnrg2026-dav",
+      "baseline_pool_id": "idnrg2026-dav",
+      "current_pool_id": "idnrg2026-dav",
+      "local_file": "research/round3-root/coverage/package-members/4ad8dc289a29234a308d.pdf",
+      "actual_original_sha256": "614b10ba3b8dbc7a11728bcac2b49e6b6befab52a938e878ebccfd4dab271cbf",
+      "actual_physical_pages": 4,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "external_professional_body_or_association"
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "idnrg2026-dnotv",
+      "baseline_pool_id": "idnrg2026-dnotv",
+      "current_pool_id": "idnrg2026-dnotv",
+      "local_file": "research/round3-root/coverage/package-members/9128f71fd4c3fff3b58f.pdf",
+      "actual_original_sha256": "badee59e6ca0f2ded2e9117655579705e60beb6f553beccdc11cb27d256fd1a8",
+      "actual_physical_pages": 4,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "external_professional_body_or_association"
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "idnrg2026-kommunale-spitzenverbaende",
+      "baseline_pool_id": "idnrg2026-kommunale-spitzenverbaende",
+      "current_pool_id": "idnrg2026-kommunale-spitzenverbaende",
+      "local_file": "research/round3-root/coverage/package-members/2c8eae086c97d6e8b252.pdf",
+      "actual_original_sha256": "9372c9b810d4ad0c4cfeca94d42dac477c2bdeb9e1623d8de482cc55179ac72e",
+      "actual_physical_pages": 6,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "external_professional_body_or_association"
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "idnrg2026-vdv",
+      "baseline_pool_id": "idnrg2026-vdv",
+      "current_pool_id": "idnrg2026-vdv",
+      "local_file": "research/round3-root/coverage/package-members/e2ba6f91a069b805bd8e.pdf",
+      "actual_original_sha256": "92f5c4fdeac7c24d511f228dc218c3bb2db39905d68f76546e1601067e43fe21",
+      "actual_physical_pages": 2,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "external_professional_body_or_association"
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "idnrg2026-zbi",
+      "baseline_pool_id": "idnrg2026-zbi",
+      "current_pool_id": "idnrg2026-zbi",
+      "local_file": "research/round3-root/coverage/package-members/b559f95b62c7fa35bbf0.pdf",
+      "actual_original_sha256": "65734c02596c9cc46940ffde4effd5bf6eed22f058b72843fe6dc218a5ebed06",
+      "actual_physical_pages": 3,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "external_professional_body_or_association"
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "bmwe-wpexamen-2026-002",
+      "baseline_pool_id": "bmwe-wpexamen-2026-002",
+      "current_pool_id": "bmwe-wpexamen-2026-002",
+      "local_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+      "actual_original_sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+      "actual_physical_pages": 6,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": null,
+      "actor_roles": [],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "bmwe-wpexamen-2026-003",
+      "baseline_pool_id": "bmwe-wpexamen-2026-003",
+      "current_pool_id": "bmwe-wpexamen-2026-003",
+      "local_file": "research/round3-energy/sources/bmwe-members/91571d57ee384611cb11.pdf",
+      "actual_original_sha256": "91571d57ee384611cb117c6b52786dc17ba6fc161d0bab578071812a3b0531a3",
+      "actual_physical_pages": 6,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": null,
+      "actor_roles": [],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "baseline_pool_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "current_pool_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-003.pdf",
+      "actual_original_sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+      "actual_physical_pages": 2,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "stakeholder_association"
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "baseline_pool_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "current_pool_id": "bmds-it-komponentenverordnung-itkv-response-004",
+      "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-004.pdf",
+      "actual_original_sha256": "f42d81c2a2e0f3ae8d7415732464cafa310ce95310c182943ed6ea8a3e7a59a2",
+      "actual_physical_pages": 1,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "stakeholder_association"
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    },
+    {
+      "target_id": "bmds-it-komponentenverordnung-itkv-response-012",
+      "baseline_pool_id": "bmds-it-komponentenverordnung-itkv-response-012",
+      "current_pool_id": "bmds-it-komponentenverordnung-itkv-response-012",
+      "local_file": "research/round3-tax/sources/bmds-it-komponentenverordnung-itkv-response-012.pdf",
+      "actual_original_sha256": "d6e0419d7ddd363596bf5a83685addd0957c864e4febd9fe5242bd7ecc5b6699",
+      "actual_physical_pages": 2,
+      "prior_reading_depth": "full_submission",
+      "object_unchanged_from_baseline": true,
+      "external_submission": true,
+      "actor_roles": [
+        "municipal_IT_association"
+      ],
+      "scope_status": [
+        "federal_process"
+      ]
+    }
+  ],
+  "it_subset_audit": {
+    "proof_file": "research/round3-tax/coverage-bounded-ggv-itkv-proofs.json",
+    "proof_id": "bounded-known-public-bmds-it-komponentenverordnung-itkv",
+    "proof_sha256": "856da4556b99d63becfcb63a95b6678e453d3885bc5ea355c3da746ddfc77da6",
+    "formal_external_target_ids": [
+      "bmds-it-komponentenverordnung-itkv-response-003",
+      "bmds-it-komponentenverordnung-itkv-response-004",
+      "bmds-it-komponentenverordnung-itkv-response-012"
+    ],
+    "matches": [
+      {
+        "target_id": "bmds-it-komponentenverordnung-itkv-response-003",
+        "actor_type": "stakeholder_association",
+        "formal_statement": true,
+        "external_submission": true,
+        "baseline_pool_id": "bmds-it-komponentenverordnung-itkv-response-003",
+        "current_pool_id": "bmds-it-komponentenverordnung-itkv-response-003",
+        "source_identity_match": true,
+        "physical_pages": 2,
+        "author_date": "2026-09-14",
+        "receipt_verified": false
+      },
+      {
+        "target_id": "bmds-it-komponentenverordnung-itkv-response-004",
+        "actor_type": "stakeholder_association",
+        "formal_statement": true,
+        "external_submission": true,
+        "baseline_pool_id": "bmds-it-komponentenverordnung-itkv-response-004",
+        "current_pool_id": "bmds-it-komponentenverordnung-itkv-response-004",
+        "source_identity_match": true,
+        "physical_pages": 1,
+        "author_date": "2026-09-14",
+        "receipt_verified": false
+      },
+      {
+        "target_id": "bmds-it-komponentenverordnung-itkv-response-012",
+        "actor_type": "municipal_IT_association",
+        "formal_statement": true,
+        "external_submission": true,
+        "baseline_pool_id": "bmds-it-komponentenverordnung-itkv-response-012",
+        "current_pool_id": "bmds-it-komponentenverordnung-itkv-response-012",
+        "source_identity_match": true,
+        "physical_pages": 2,
+        "author_date": null,
+        "receipt_verified": false
+      }
+    ],
+    "target_physical_pages": 5,
+    "published_reply_resources_in_prior_proof": 12,
+    "prior_proof_total_resource_pages": 18,
+    "government_replies_excluded": 8,
+    "external_decline_excluded": 1,
+    "formal_external_reply_resources": 3,
+    "all_three_already_in_baseline_pool": true,
+    "whole_twelve_reply_factual_closure_claimed": false,
+    "scope_note": "This round checks three formal external statements/five pages only. Eight Land-authority replies and BITKOM’s decline remain outside this factual batch; prior complete reading of twelve resources is a distinct fact."
+  },
+  "old_factual_pilot_preservation": {
+    "baseline_pilots": 6,
+    "existing_pilot_objects_unchanged": true,
+    "added_pilot_ids": [
+      "short-statements-20261025-factual-checks"
+    ],
+    "note": "Captured current pilot index has one new 17-document/58-page/169-claim entry; six existing pilot objects are unchanged. The IT extension is not yet in that captured index."
+  },
+  "concerns": [],
+  "limits": [
+    "Point-in-time local snapshot comparison, not a certification that future builds or concurrent sessions cannot change data. Closing hashes explicitly record stability during this audit.",
+    "No final generated-report/pool/bounded-annotation correctness certified; C will independently audit final integration after ordered builders.",
+    "The three original proof objects were assessed for exact target identity/set/page and scope matching; no new live ministry enumeration, ZIP download, register crawl or national prevalence claim performed.",
+    "All twenty targets are existing pool units; main documents.json has a different narrower role from the 791-unit reading pool, so its count is not a reading denominator.",
+    "RSV G-BA/GKV external eligibility remains pending in pool metadata; IDW/BVBC external_submission is null in pre-existing pool while their bounded proof explicitly treats them as external. This audit preserves those pre-existing qualifications rather than reclassifying them as private commercial actors.",
+    "No main data, baseline, protocol, prior proof, source registry, builder or frozen research file changed by this audit. Only this authored audit record saved."
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "id": "tax-final-independent-merged-pool-and-register-links-audit",
+  "reviewed_at_utc": "2026-10-25T05:00:55.638273+00:00",
+  "reviewer": "tax_consultations AI agent",
+  "snapshot_files": [
+    {
+      "file": "data/screening-pool.json",
+      "sha256": "5dc09ba66d1e3de9d689417779e60bcede1d3ff1b9ece9f7fa952fd9f957161f"
+    },
+    {
+      "file": "data/screening-pool-summary.json",
+      "sha256": "26ccb2cf84b0d57d409452ed4ebcfed177e6e1d995f42f61752c430f4aba0f5a"
+    },
+    {
+      "file": "research/round3-root/coverage/register-positive-reading-links.json",
+      "sha256": "6acdc8a0d92f2ca864d7a6192314cbbcf4a6dec4383f356bc4a5f0478129fdb7"
+    },
+    {
+      "file": "research/build_screening_pool.py",
+      "sha256": "28fc356d4b20df6dbe12a88042b39bf57ee62b384c17b9c6239be9351af4dd58"
+    },
+    {
+      "file": "research/round3-root/coverage/crosswalk_register_reading.py",
+      "sha256": "02d35038a593767bb384556a2761dc835566618a342a2a610b4211433cd9ec52"
+    },
+    {
+      "file": "research/round3-root/coverage/register-archive-manifest.json",
+      "sha256": "39bd16f75dcbbe1c230efd2d9f94f93c6040ab9ab3d4443c8df414b4e01d165f"
+    }
+  ],
+  "changed_during_audit": [],
+  "round3_input_ledgers": [
+    {
+      "branch": "root",
+      "file": "research/round3-root/pool-audit.json",
+      "sha256": "4bd82af43e917eeb816a834a85d950642b8fcd60441b8aedd3e352758288a4f6",
+      "rows": 34,
+      "by_depth": {
+        "full_submission": 14,
+        "selected_passages": 1,
+        "keyword_triage": 19
+      }
+    },
+    {
+      "branch": "energy",
+      "file": "research/round3-energy/pool-audit.json",
+      "sha256": "feae2ea9de83b8b206b133fa0e41b2c720f5577413b3f8068ddd9ccda40ec119",
+      "rows": 71,
+      "by_depth": {
+        "full_submission": 69,
+        "selected_passages": 2
+      }
+    },
+    {
+      "branch": "tax",
+      "file": "research/round3-tax/pool-audit.json",
+      "sha256": "37252d2bf85d57079c20be00c07d656bed1a68cf38b1d5c5614cad58fd9a147f",
+      "rows": 71,
+      "by_depth": {
+        "full_submission": 71
+      }
+    },
+    {
+      "branch": "social",
+      "file": "research/round3-social/pool-audit.json",
+      "sha256": "36634e5850817420325ef4512921c92ac80d25edee334942f709fc95764c81ae",
+      "rows": 81,
+      "by_depth": {
+        "full_submission": 81
+      }
+    }
+  ],
+  "pool_recount": {
+    "named_included_units": 565,
+    "by_depth": {
+      "full_submission": 358,
+      "selected_passages": 81,
+      "keyword_triage": 125,
+      "full_text_ocr": 1
+    },
+    "by_document_kind": {
+      "written_submission": 545,
+      "government_consultation_response": 12,
+      "consultation_reply_declining_formal_statement": 1,
+      "public_statement": 6,
+      "oral_contribution": 1
+    },
+    "excluded_rows": 0,
+    "summary_named_matches": true,
+    "summary_depth_matches": true,
+    "summary_kind_matches": true,
+    "explicit_actor_states": {
+      "unreconciled": 457,
+      "external": 96,
+      "government": 12
+    }
+  },
+  "round3_admission_checks": {
+    "errors": [],
+    "depth_downgrades": [],
+    "role_conflicts": [],
+    "missing_local_files": []
+  },
+  "rental_reconciliation": {
+    "archive_pdf_members": 26,
+    "distinct_binary_hashes": 26,
+    "matching_output_units": 26,
+    "all_members_map_once": true,
+    "anonymous_additional_minimum": 0,
+    "members": [
+      {
+        "member": "2026-03-06 Stellungnahme+Anlage gif - Steffen Sebastian.pdf",
+        "sha256": "07d1d35f22b8aa21086b92644d6bc4e7b0f3e803cc49b0c17fbb6b2fffdd5842",
+        "output_units": [
+          "root-miete-2026-03-06 Stellungnahme+Anlage gif - Steffen Sebastian"
+        ]
+      },
+      {
+        "member": "2026-03-11_GdW StN RefE Änderung Recht Wohn- und Geschäftsraummiete.pdf",
+        "sha256": "7076200e7b62df44f4a5db148e22722055fe67dddc7408cb269358dcca7de2ac",
+        "output_units": [
+          "round3-root-rental-triage-37c693160a4e"
+        ]
+      },
+      {
+        "member": "20260306 Stellungnahme IVD zum Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+        "sha256": "c798cdef6c83cafe131b4aba6f03e0a7d9bec0f1d585aa92ffe9310224620f9c",
+        "output_units": [
+          "root-miete-20260306 Stellungnahme IVD zum Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete"
+        ]
+      },
+      {
+        "member": "20260306_Stellungnahme_Mietrechtsnovelle_EDL_HUB.pdf",
+        "sha256": "f88c173ea131823ad381109d70108599b3dc04dd327a186655517a652c94332e",
+        "output_units": [
+          "round3-root-rental-triage-3fd2c736e322"
+        ]
+      },
+      {
+        "member": "20260306_VDIV Stellungnahme_Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+        "sha256": "682e4fdfca3e18975b8ab3b6568d8c56cf92b0dfca4baa8996bc5e019a721a0d",
+        "output_units": [
+          "round3-root-rental-triage-cc0eb99ba1f2"
+        ]
+      },
+      {
+        "member": "260304-SN_Mietrecht_Paritaet.pdf",
+        "sha256": "4899af940bfdc689143d930283e5431151163db6cb3df5e32416a7e362a63f63",
+        "output_units": [
+          "round3-root-rental-triage-bfb4048b2831"
+        ]
+      },
+      {
+        "member": "260304_Stellungnahme_BML.pdf",
+        "sha256": "8f92fbb3082eccf53e213e4c2ce5e6e61c5a68dba5317e2ba7c2a815540b3618",
+        "output_units": [
+          "round3-root-rental-triage-a037cf6c42d3"
+        ]
+      },
+      {
+        "member": "260306_BFW_Stellungnahme_Mietrecht.pdf",
+        "sha256": "c7e4b4a6fd11a8c84dca292d6ed967fc980a66a1c257dc0fc9dbda5dc0151e7a",
+        "output_units": [
+          "root-miete-260306_BFW_Stellungnahme_Mietrecht"
+        ]
+      },
+      {
+        "member": "260306_StN des RAV zum Gesetz zur Änderung des Rechts der Wohnraummiete_fin.pdf",
+        "sha256": "d6e02ce4df1dd5d7a19e705df6c98f5c403554dff77d8f5f7b169142cb1313e5",
+        "output_units": [
+          "round3-root-rental-triage-9d9511a2fd87"
+        ]
+      },
+      {
+        "member": "BAGW-Stellungnahme-Mietrechtsreform2026-Barrierefrei.pdf",
+        "sha256": "49a75a9acb130e3905416f03abc8acca3e8a3db7b23953f2a4b5424cfde0a21d",
+        "output_units": [
+          "round3-root-rental-triage-0ed8022a4bec"
+        ]
+      },
+      {
+        "member": "BIIS-Stellungnahme zur Mietrechtsreform 2026.pdf",
+        "sha256": "ee8341544f1ea5e0a5843cbdda2c60fc092eaf35d1aea80cd5ab527720c6903a",
+        "output_units": [
+          "round3-root-rental-triage-891218d36b63"
+        ]
+      },
+      {
+        "member": "BNotK STN 2026_5_ Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+        "sha256": "3e0be3d6d70a46a8831bdc02fe0ad574bcf9a60101392726d1cec39762e989d8",
+        "output_units": [
+          "round3-root-rental-triage-bbc920285af1"
+        ]
+      },
+      {
+        "member": "BRAK_Stn_14_v_04_03_RefE_Änderung_des_Rechts_der_Wohn_und_Geschäftsraummiete.pdf",
+        "sha256": "200a2d723881b848eafab450891e147892321ab3ffab48d5f7cf4c1a040cd8f8",
+        "output_units": [
+          "round3-root-rental-triage-1c8bc58c3e2f"
+        ]
+      },
+      {
+        "member": "DAV-SN 15-2026 RefE Änderung des Rechts der [...]Miete.pdf",
+        "sha256": "7c3d4945a01d92f8c0437838d50b7c0ba2acac926baf5c3af25f18314edc368e",
+        "output_units": [
+          "round3-root-rental-triage-dc6ea2347e16"
+        ]
+      },
+      {
+        "member": "DGB_2026-03-06_Stellungnahme zum Gesetzentwurf zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+        "sha256": "860d86906ced4c1346a319fa30922af580749a62b250c06ec5a68d52a71fbf88",
+        "output_units": [
+          "round3-root-rental-triage-de06ed90d594"
+        ]
+      },
+      {
+        "member": "fzs_Stellungnahme_Mietrechtsreform.pdf",
+        "sha256": "5670b3394f1cdd1b31a66a33fa02eb983f39ff0d74f9063cff6ef80f8115344a",
+        "output_units": [
+          "round3-root-rental-triage-28953e677349"
+        ]
+      },
+      {
+        "member": "Haus & Grund Deutschland - Stellungnahme zur Änderung des Rechtes der Wohn- und Geschäftsraummiete.pdf",
+        "sha256": "2adbbe7d0f45ac3b18fed2cb2970a680ccdb74ab51360655bd3f87af6085b1fc",
+        "output_units": [
+          "root-miete-Haus & Grund Deutschland - Stellungnahme zur Änderung des Rechtes der Wohn- und Geschäftsraummiete"
+        ]
+      },
+      {
+        "member": "MhM Hamburg 060326.pdf",
+        "sha256": "c8b5bdebb6942bc1fdbf7dfb6250cdad36b8e61245d62b90fda9944f742c5086",
+        "output_units": [
+          "round3-root-rental-triage-3b034ffcf943"
+        ]
+      },
+      {
+        "member": "Stellungnahme DMB ÄnderungsG  Wohn- und Geschäftsraummiete.pdf",
+        "sha256": "82d0d4d552472f7280109bbd64fbffd06029ce7483e601163e1afd590be05e87",
+        "output_units": [
+          "root-miete-Stellungnahme DMB ÄnderungsG  Wohn- und Geschäftsraummiete"
+        ]
+      },
+      {
+        "member": "Stellungnahme NRV Mietrecht II final.pdf",
+        "sha256": "982f52eedac738b7f9bbc000be1462e70c188deb7f309ae1ccb5b3d12d09c905",
+        "output_units": [
+          "round3-root-rental-triage-b2cecbf8f232"
+        ]
+      },
+      {
+        "member": "Stellungnahme VdK_zum Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+        "sha256": "a16bc849c9f9d44ef6227917d5a7fcfe8187cbd919e6219c85a09d3a50f5f4bf",
+        "output_units": [
+          "round3-root-rental-triage-07752e230962"
+        ]
+      },
+      {
+        "member": "Stellungnahme WiE zu RefE Mietrecht II - 26-03-06.pdf",
+        "sha256": "e5e1d42f9ac72648b1efbe99403149b041882b28e2d5f15202be3414baa9c006",
+        "output_units": [
+          "root-miete-Stellungnahme WiE zu RefE Mietrecht II - 26-03-06"
+        ]
+      },
+      {
+        "member": "Stellungnahme-DMT-15-03-26.pdf",
+        "sha256": "af94bba441fe7bea7c2b55ae4de396b8ca449b250aeced132e9bdc7627b04b24",
+        "output_units": [
+          "round3-root-rental-triage-e1fc3ee7fbe4"
+        ]
+      },
+      {
+        "member": "Stellungnahme_DST_DStGB_Mietrechtspaket_II - 20260306.pdf",
+        "sha256": "ad87f46691d88e9d59bee59a90e5d1aa0778b815263b2249ab335990b70ec5c6",
+        "output_units": [
+          "round3-root-rental-triage-f84b07c473f1"
+        ]
+      },
+      {
+        "member": "vzbv_26-03-05_Stellungnahme_Referententwurf_Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+        "sha256": "aec42da4ef3f6b973d56edf7d9ece0b105f5858287a13fbd8d6079926c4d2f7c",
+        "output_units": [
+          "round3-root-rental-triage-2ea2858ffd86"
+        ]
+      },
+      {
+        "member": "ZIA_Stellungnahme_RefE_Änderung des Rechts der Wohn- und Geschäftsraummiete.pdf",
+        "sha256": "2794f0af0f523c5aea39f606837a91849c97f78b74bd6a832d64e823b09cd49e",
+        "output_units": [
+          "root-miete-ZIA_Stellungnahme_RefE_Änderung des Rechts der Wohn- und Geschäftsraummiete"
+        ]
+      }
+    ]
+  },
+  "register_link_recount": {
+    "register_archive_records": 1558,
+    "all_archive_hashes_recomputed": true,
+    "archive_hash_errors": [],
+    "positive_record_count": 49,
+    "full_author_reading_unit_link_records": 48,
+    "recorded_counts_match": true,
+    "link_errors": [],
+    "extra_recorded_register_ids": [],
+    "role_depth_evidence_metadata_errors": [],
+    "shared_path_containers_excluded": [
+      {
+        "file": "research/social-digital/mindestlohn-hearing-20260112.pdf",
+        "owners": [
+          "bda-mindestlohn-20260112",
+          "pool-dgb-mindestlohn20260105"
+        ]
+      },
+      {
+        "file": "research/social-digital/stvg-20260223-hearing.pdf",
+        "owners": [
+          "pool-ace-stvg20260219",
+          "pool-dpolg-stvg20260217"
+        ]
+      },
+      {
+        "file": "research/round2-social/sources/tariftreue-2025-hearing.pdf",
+        "owners": [
+          "pool-bda-tariftreue2025",
+          "pool-dgb-tariftreue2025",
+          "pool-igbau-tariftreue2025"
+        ]
+      },
+      {
+        "file": "research/round2-social/sources/nipt2024-ungeladen.pdf",
+        "owners": [
+          "pool-lebenshilfe-nipt2024",
+          "pool-reifenschneider-nipt2024"
+        ]
+      },
+      {
+        "file": "research/social-digital/suizidhilfe-2022-bt-submissions.pdf",
+        "owners": [
+          "pool-suizidhilfe2022-andreas-lob-huedepohl-prevention-motion",
+          "pool-suizidhilfe2022-arndt-sinn-bills",
+          "pool-suizidhilfe2022-barbara-schneider-bills",
+          "pool-suizidhilfe2022-barbara-schneider-prevention-motion",
+          "pool-suizidhilfe2022-bettina-schoene-seifert-bills",
+          "pool-suizidhilfe2022-bettina-schoene-seifert-prevention-motion",
+          "pool-suizidhilfe2022-christoph-knauer-bills",
+          "pool-suizidhilfe2022-gina-greeve-bills",
+          "pool-suizidhilfe2022-heiner-melching-prevention-motion",
+          "pool-suizidhilfe2022-helmut-frister-bills",
+          "pool-suizidhilfe2022-karsten-gaede-bills",
+          "pool-suizidhilfe2022-kerstin-kurzke-bills",
+          "pool-suizidhilfe2022-maximilian-schulz-bills",
+          "pool-suizidhilfe2022-ute-lewitzka-bills",
+          "pool-suizidhilfe2022-winfried-hardinghaus-bills"
+        ]
+      }
+    ],
+    "different_output_owners_sharing_an_admitted_binary": [],
+    "distinct_linked_reading_units": 44
+  },
+  "script_review": [
+    "Read the merged-pool builder: it admits actual-reading branch ledgers and case-associated selected reads; shared containers are not deduplication keys. Reading depth is strongest recorded actual extent, rather than complete factual validation.",
+    "Read the positive-link producer and independently recomputed its byte identities from actual PDF files, including every register archive hash. No producer code was imported or executed.",
+    "The positive-link output copies depth, document kind, explicit external status and the complete reading-evidence objects, preserving date and annex qualifications.",
+    "A lack of byte identity cannot establish an unread record: altered metadata, redacted covers, scans and separately published versions may prevent matching.",
+    "The 49 positive SG records are disclosure records, not a denominator of eligible external authored submissions. No negative inference, national coverage percentage or error-prevalence estimate follows."
+  ],
+  "limits": [
+    "This is an independent structural and source-identity audit. It does not repeat every substantive claim check or every full read.",
+    "The broad pool includes historical versions, government replies, a formal decline, public statements and an oral contribution. It is not the national three-month external-submission cohort.",
+    "Unreconciled actor status remains unknown rather than being silently classified as external."
+  ],
+  "disposition": "Stable 565-unit snapshot and 49 positive SG links (48 with full-author-reading links) pass these independent structural, byte-identity, role/depth and rental-membership checks. No count correction found.",
+  "OCR_classification_check": {
+    "id": "tax-screened-ekkehard-wenger-standortfordergesetz-november-2025",
+    "source_evidence": "research/round2-tax/research-log.json /screened/30; original pool notes explicitly state all 12 pages read through OCR text.",
+    "decision": "The separate full_text_ocr category is justified by this actual read, without claiming full visual page verification. The observed input contains only this one historical tax extraction label that the builder converts."
+  }
+}

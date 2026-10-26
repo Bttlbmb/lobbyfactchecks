@@ -1,0 +1,107 @@
+{
+  "law_id": "steuerberatungsgesetz-9-aenderung-2026",
+  "document_id": "bstbk-stberg-20260408",
+  "status": "ai_screened",
+  "severity": "minor",
+  "confidence": {
+    "text_source_mismatch": "high for the statutory three/six-week distinction; unresolved for the author’s intended legal scope",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "title": "Neuntes Gesetz zur Änderung des Steuerberatungsgesetzes und zur Änderung weiterer steuerrechtlicher Vorschriften; accompanying Green motion",
+    "version": "BT 21/4550, 12 March 2026, and BT 21/4953, 24 March 2026; hearing 13 April 2026",
+    "source_id": "stberg-bt2104550",
+    "additional_source_id": "stberg-green-motion-bt2104953",
+    "submission_date": "2026-04-08",
+    "version_check": "The dated cover addresses the exact government bill and Green motion. Bill Article 8, physical pages 29–31, concerns real-estate transfer tax; the author expressly proposes additional reform. Motion section II.1, page 2, requests expanded bookkeeping permissions; it is not part of the government bill as introduced."
+  },
+  "submission_source_id": "bstbk-stberg-20260408",
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "energy_hearings_ai_agent",
+        "date": "2026-10-25",
+        "outcome": "retain_unresolved_null",
+        "review_file": "research/round2-reviews/energy-reviews-bstbk-stberg.json",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full 35-page submission, named court decision and relevant exact bill/motion text were read; adversarial AI review requested.",
+      "by": "tax_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent energy-agent review read full submission and court decision, exact bill and motion; retained the PV source mismatch as minor and the filing-deadline lead as unresolved.",
+      "by": "tax_ai_screen"
+    }
+  ],
+  "id": "stberg2026-bstbk-tax-r2-05",
+  "finding_state": "unresolved_lead",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Tax-advice permissions; a Green motion also proposes allowing qualified bookkeepers to prepare small-business financial statements.",
+    "they_want": "Keep preparation of financial statements and income-surplus accounts reserved to tax-advisory professions.",
+    "they_claim": "In a paragraph on already-insolvent, balance-sheet-overindebted companies, management must file within three weeks.",
+    "the_problem": "The statutory outer limit for legal overindebtedness is six weeks, but a three-week or earlier duty may arise from illiquidity or the immediate-filing obligation; the author’s scope remains ambiguous."
+  },
+  "claim_quote": {
+    "original": "binnen\n3 Wochen",
+    "language": "de",
+    "translation_en": "Translation: within three weeks",
+    "locator": {
+      "pdf_page": 24,
+      "printed_page": 22,
+      "section": "III.4(a), first bullet, final three sentences."
+    },
+    "underline": "3 Wochen"
+  },
+  "request_quote": {
+    "original": "auch weiterhin den steuerberatenden\nBerufen vorzubehalten",
+    "language": "de",
+    "translation_en": "Translation of request fragment: continue to reserve [these activities] to the tax-advisory professions",
+    "locator": {
+      "pdf_page": 24,
+      "printed_page": 22,
+      "paragraph": "Introductory paragraph before the financial-statement and income-surplus-account bullet."
+    }
+  },
+  "counter_quote": {
+    "original": "Der Antrag ist spätestens drei Wochen nach Eintritt der Zahlungsunfähigkeit und sechs Wochen nach Eintritt der Überschuldung zu stellen.",
+    "language": "de",
+    "translation_en": "Translation: The application must be filed no later than three weeks after illiquidity and six weeks after overindebtedness occurs.",
+    "source_id": "saninsfog-bgbl2020-3256",
+    "locator": {
+      "printed_page": 3282,
+      "section": "Article 5 number 8(a)(bb), inserting Insolvency Code §15a(1) sentence 2; commencement Article 25(1), page 3298."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The statute distinguishes a three-week outer limit for illiquidity from six weeks for legal overindebtedness, alongside a duty to file without culpable delay. The six-week rule was inserted by the 2020 Act effective 1 January 2021. Negative balance-sheet equity does not, by itself, establish legal overindebtedness. However, the author first limits the discussion to already-insolvent companies; it does not explicitly exclude illiquidity or state that every affected company may lawfully wait three weeks.",
+  "effect": "If the paragraph purports to state the general deadline triggered by overindebtedness, it overstates the timetable pressure supporting the reserved-profession argument. That reading is not treated as established.",
+  "limits": "Unresolved: an already-insolvent company can also be illiquid, and the duty to file without culpable delay may require an earlier filing than either outer limit. This record does not accuse the author of treating negative equity as invariably sufficient for insolvency, does not confer a six-week grace period, and does not settle the competence or safety of bookkeepers.",
+  "context_and_alternatives": [
+    "The full paragraph begins with preparation of statements for companies already described as insolvency-mature. That qualification prevents a categorical finding that the author equates any negative equity with legal insolvency.",
+    "The three-week sentence is nevertheless linked to balance-sheet overindebtedness, making an outdated general deadline a plausible concern. Coexisting illiquidity or an earlier filing obligation could explain the stated urgency.",
+    "No specific factual company is identified, so its insolvency grounds and permissible filing time cannot be reconstructed from this submission."
+  ],
+  "materiality_explanation": "Potential minor issue only: the disputed timetable is one supporting illustration in a larger competence argument; the scope is too uncertain for a provisional error finding.",
+  "direction_explanation": "Null: a general deadline error would support the author’s urgency argument, but the qualifying already-insolvent-company reading is unresolved.",
+  "source_ids": [
+    "bstbk-stberg-20260408",
+    "saninsfog-bgbl2020-3256",
+    "inso15a-current",
+    "inso19-current",
+    "stberg-bt2104550",
+    "stberg-green-motion-bt2104953",
+    "stberg-hearing-20260413"
+  ],
+  "verification": {
+    "visual": "Submission physical page 24 rendered and visually read. Original 2020 amending provision and commencement checked in the official Gazette web text."
+  }
+}

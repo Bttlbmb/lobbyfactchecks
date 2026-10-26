@@ -1,0 +1,132 @@
+{
+  "unit": "Distinct authored response/version; jointly authored responses count once. Oral contribution separately labelled. Mirrors and repeat checks merged. This is a targeted pool, not a representative sample.",
+  "individually_identified_screened_units": 458,
+  "by_depth": {
+    "full_submission": 270,
+    "selected_passages": 81,
+    "keyword_triage": 106,
+    "full_text_ocr": 1
+  },
+  "by_document_kind": {
+    "written_submission": 440,
+    "government_consultation_response": 12,
+    "consultation_reply_declining_formal_statement": 1,
+    "public_statement": 4,
+    "oral_contribution": 1
+  },
+  "excluded_extracted_only_units": 19,
+  "issue_associated_documents": 69,
+  "documents_with_provisional_findings": 48,
+  "provisional_findings": 54,
+  "unresolved_leads": 30,
+  "rejected_candidates": 1,
+  "major_findings": 11,
+  "documents_with_major_findings": 10,
+  "case_index_only_rows": [],
+  "ambiguous_batches": [
+    {
+      "process": "MietrechtII2026 consultation",
+      "archive": "research/round2-root/mietrechtII-stellungnahmen.zip",
+      "actual_pdf_members": 26,
+      "logged_triage_count": 25,
+      "individually_documented_deeper_reads": 7,
+      "unidentified_additional_triage_minimum": 18,
+      "issue": "Count mismatch: full-batch wording but25versus26files. The19unnamedmembers remain extracted_only pending reconciliation; final combined minimum may add a set-level bound after cross-branch deduplication."
+    }
+  ],
+  "manual_aliases": [],
+  "explicit_actor_status_counts": {
+    "not_reconciled_in_actor_ledger": 412,
+    "external": 34,
+    "government": 12
+  },
+  "rental_batch_individually_screened_members": 7,
+  "rental_batch_additional_unidentified_screened_minimum": 18,
+  "screened_pool_minimum_including_batch_bound": 476,
+  "tool_history_only_additional_screens_excluded": 3,
+  "minimum_by_depth_including_batch_bound": {
+    "full_submission": 270,
+    "selected_passages": 81,
+    "keyword_triage": 124,
+    "full_text_ocr": 1
+  },
+  "scope_qualifications": [
+    {
+      "id": "cantourage-medcang-20250801",
+      "scope_status": [
+        "formal_submission_channel_unverified"
+      ]
+    },
+    {
+      "id": "pool-amnesty-biometrie2020",
+      "scope_status": [
+        "general_hearing_not_tied_to_exact_draft"
+      ]
+    },
+    {
+      "id": "pool-bda-entgtransp-evaluation2023",
+      "scope_status": [
+        "evaluation_not_tied_to_exact_draft"
+      ]
+    },
+    {
+      "id": "pool-bdcan-medcang202601",
+      "scope_status": [
+        "publication_verified_channel_not_reconstructed_in_log"
+      ]
+    },
+    {
+      "id": "venro-haushalt2026-20250909",
+      "scope_status": [
+        "formal_submission_channel_unverified"
+      ]
+    }
+  ],
+  "limitations": [
+    "Three additional tool-history-only screens excluded; archive-only and primary-evidence-only files excluded.",
+    "The rental consultation archive has26 PDFs, but the log records25 triaged. Seven are individually documented; at least18 others screened, with exact membership unresolved.",
+    "One original/corrected GAÄD response is counted as two versions, not two response families.",
+    "The depth categories describe recorded reading extent, not complete factual verification of every assertion.",
+    "The pool is deliberately targeted and unevenly examined; findings divided by this denominator do not estimate error prevalence.",
+    "Three public statements and one oral contribution are labelled separately; two public statements lack a verified formal submission channel.",
+    "Counts include one BStBK submitted package with a joint appendix; the appendix is not counted separately."
+  ],
+  "independent_audits": [
+    "research/pool-merged-audit-energy.json",
+    "research/pool-merged-audit-social.json",
+    "research/pool-merged-audit-tax.json"
+  ],
+  "audit_note": "Branch inventories independently reconciled by multiple AI agents. See audit files for actual dispositions; no human specialist review implied.",
+  "active_round_reading_ledgers": [
+    "research/round3-root/pool-audit.json",
+    "research/round3-energy/pool-audit.json",
+    "research/round3-tax/pool-audit.json",
+    "research/round3-social/pool-audit.json"
+  ],
+  "active_round_scope_limit": "These additional actual reads include earlier historical versions and depth upgrades. They are not a completed three-month cohort; see data/coverage-progress.json. The prior independent merged audits cover the baseline; the active-round merged audit is still pending."
+}
+MULTIBRANCH GROUPS
+['aefi-impfpflicht-20221012', 'aefi-impfpflicht-20221012', 'aefi-impfpflicht-20221012']
+['algorithmwatch-enefg-2026', 'algorithmwatch-enefg-2026', 'algorithmwatch-enefg-2026']
+['bmds-gigabit-grundbuch-verordnung-ggv-response-009', 'bmds-gigabit-grundbuch-verordnung-ggv-response-009', 'bmds-gigabit-grundbuch-verordnung-ggv-response-009']
+['root-ggdg-HateAid', 'hateaid-ggdg-20260522', 'hateaid-ggdg-20260522']
+['root-ggdg-AlgorithmWatch', 'pool-ggdg2026-algorithmwatch']
+['root-ggdg-BRAK', 'pool-ggdg2026-brak']
+['root-ggdg-BVDW', 'pool-ggdg2026-bvdw']
+['root-ggdg-Bitkom', 'pool-ggdg2026-bitkom']
+['root-ggdg-DF', 'pool-ggdg2026-df']
+['root-ggdg-DIMR', 'pool-ggdg2026-dimr-bst-gg']
+['root-ggdg-FSM', 'pool-ggdg2026-fsm']
+['root-ggdg-GFF', 'pool-ggdg2026-gff']
+['root-ggdg-GI', 'pool-ggdg2026-gi']
+['root-ggdg-Google', 'pool-ggdg2026-google']
+['root-ggdg-SDC', 'sdc-ggdg-20260522', 'sdc-ggdg-20260522']
+['root-ggdg-eco', 'pool-ggdg2026-eco']
+['root-ip-2026-01-30_GE_IP-Adressspeicherung_StN_Bahnhof_Naetverk', 'round3-root-ip-bahnhof-nätverk']
+['root-ip-2026-01-28_GE_IP-Adressspeicherung_StN_ADAC', 'round3-root-ip-adac']
+['root-ip-2026-01-28_GE_IP-Adressspeicherung_StN_Bitkom', 'round3-root-ip-bitkom']
+['root-ip-2026-01-30_GE_IP-Adressspeicherung_StN_BUGLAS', 'round3-root-ip-buglas']
+['root-ip-2026-01-30_GE_IP-Adressspeicherung_StN_Mobilfunknetzbetreiber', 'round3-root-ip-mobile-network-operators-joint']
+['root-ip-2026-01-30_GE_IP-Adressspeicherung_StN_VATM', 'round3-root-ip-vatm']
+['zdh-beschv9-20261015', 'beschv9-2026-zdh', 'zdh-beschv9-20261015']
+COUNTAINERS ['research/round2-root/wolf/hearing-protocol.pdf', 'research/round2-social/sources/nipt2024-ungeladen.pdf', 'research/round2-social/sources/tariftreue-2025-hearing.pdf', 'research/social-digital/ggdg-2026-ministry-submissions.zip', 'research/social-digital/mindestlohn-hearing-20260112.pdf', 'research/social-digital/stvg-20260223-hearing.pdf', 'research/social-digital/suizidhilfe-2022-bt-submissions.pdf']

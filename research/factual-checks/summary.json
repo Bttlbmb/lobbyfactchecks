@@ -1,0 +1,62 @@
+{
+  "id": "factual-check-extension",
+  "status": "complete",
+  "built_at_utc": "2026-10-25T10:35:49.920331+00:00",
+  "started_at_utc": "2026-10-25T09:26:03.345919+00:00",
+  "batches": [
+    {
+      "batch": "behg-2026",
+      "title": "BEHG amendment hearing",
+      "documents": 9,
+      "pdf_pages": 60,
+      "claims": 194,
+      "outcomes": {
+        "unresolved": 70,
+        "supported": 123,
+        "overstated": 1
+      },
+      "initial_peer_reviews": 190,
+      "main_issue_admissions": [
+        "behg2026-fleischmann-mortality-range-fc01"
+      ],
+      "report": "research/factual-checks/behg-2026/report.html",
+      "ledger": "research/factual-checks/behg-2026/claim-ledger.json"
+    },
+    {
+      "batch": "netzkosten-2026",
+      "title": "Transmission-network cost subsidy 2027–2029",
+      "documents": 21,
+      "pdf_pages": 71,
+      "claims": 194,
+      "outcomes": {
+        "supported": 145,
+        "unresolved": 49
+      },
+      "initial_peer_reviews": 188,
+      "main_issue_admissions": [],
+      "report": "research/factual-checks/netzkosten-2026/report.html",
+      "ledger": "research/factual-checks/netzkosten-2026/claim-ledger.json"
+    }
+  ],
+  "documents": 30,
+  "pdf_pages": 131,
+  "claims": 388,
+  "outcomes": {
+    "unresolved": 119,
+    "supported": 268,
+    "overstated": 1
+  },
+  "initial_peer_reviews": 378,
+  "main_issue_admissions": [
+    "behg2026-fleischmann-mortality-range-fc01"
+  ],
+  "new_reading_units": 0,
+  "limits": [
+    "Finite, previously examined response sets; not a representative sample or national denominator.",
+    "Physical PDF pages include committee covers where present.",
+    "Supported concerns the recorded proposition; unresolved is neither a finding nor confirmation.",
+    "Every initial assessment received an independent AI peer review. Root adjudicated challenges and omissions.",
+    "The inventories target material testable premises; they do not certify every factual assertion.",
+    "No author contact or human specialist confirmation."
+  ]
+}

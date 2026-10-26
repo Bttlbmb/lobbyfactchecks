@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-24",
+  "researcher": "energy_hearings_ai_agent",
+  "scope": "Selected federal energy/transport submissions from hearings, ministry consultations and registered submissions. This records rejected or unresolved leads, not a claim that every statement in each document is accurate.",
+  "screening_depth": "The 57-member official EnEfG consultation ZIP is archived. Eighteen selected submissions were initially keyword-screened for numerical/source claims. BUND, VIK, UIM, Bellona and BNW received targeted full-context checks; the other documents received selected passage triage, not an exhaustive audit.",
+  "negative_or_unresolved_leads": [
+    {
+      "document": "Haus & Grund GEG April 2023, physical PDF page 7, section 2.4",
+      "lead": "JAZ 2.5 allegedly saves about one quarter of final energy; following electricity/gas price comparison supports subsidy concerns.",
+      "decision": "Do not promote.",
+      "reason": "The useful-heat and boiler baseline are unspecified. Household purchased-electricity and national final-energy accounting also treat ambient heat differently. Even a fixed useful-heat illustration giving 60% lower purchased input does not invalidate the following cost comparison: a 3:1 electricity/gas price ratio divided by JAZ 2.5 gives 1.2. This is an unresolved system-boundary question, not a proven consequential error.",
+      "primary_context": "UBA 2021 Wärmewende in privaten Haushalten, archived research/energy/sources/uba-waermewende-2021.pdf; author full section read."
+    },
+    {
+      "document": "UIM EnEfG 17 April 2026",
+      "lead": "Industry has roughly 40%/100 billion EUR investment/29 billion EUR annual savings potential.",
+      "decision": "Rejected as error candidate.",
+      "reason": "The cited Hochschule Niederrhein 22 October 2025 analysis reports 263 TWh potential against 635.4 TWh and approximately 104 billion EUR investment. Rounded quantities match; economic assumptions remain model-dependent.",
+      "source": "https://www.hs-niederrhein.de/fileadmin/dateien/Institute_und_Kompetenzzentren/SWK_E2/UmInMuen01-Kurzstudie-2025-10-22.pdf"
+    },
+    {
+      "document": "UIM EnEfG 17 April 2026",
+      "lead": "Microsoft new datacentres often near PUE 1.12, compared with Microsoft fleet value 1.16.",
+      "decision": "Rejected as error candidate.",
+      "reason": "The specific linked German Microsoft local-information page itself supplies the new-site claim. A different fleet-average denominator is not a contradiction. No independent measured site evidence establishing falsehood was found."
+    },
+    {
+      "document": "UIM EnEfG 17 April 2026",
+      "lead": "Dutch datacentres only one third occupied; source measures installed power rather than floor area.",
+      "decision": "Unresolved; not promoted.",
+      "reason": "The underlying Leitmotiv discussion also contains empty-floor assertions. The denominator difference alone does not establish that the submission’s occupancy claim is false."
+    },
+    {
+      "document": "UIM EnEfG 17 April 2026",
+      "lead": "About 40 TWh corresponds to 22 gas plants of 500 MW at 3,500 annual hours.",
+      "decision": "Rejected as material error candidate.",
+      "reason": "The calculation gives 38.5 TWh and reasonably supports the rounded comparison. An adjacent parenthetical naming six plants could be a clerical inconsistency; it was not treated as a distinct material error."
+    },
+    {
+      "document": "ZVEI Gebäudemodernisierungsgesetz, 6 March 2026, SG2603060015",
+      "lead": "One million additional heat pumps bring approximately 350 million EUR annual benefits.",
+      "decision": "Rejected as error candidate.",
+      "reason": "The cited Neon 2024 primary analysis gives approximately 346 EUR per heat pump in its model. Multiplying by one million reasonably rounds to 350 million. This is conditional model evidence, not proof of a realised outcome.",
+      "primary_url": "https://www.zvei.org/fileadmin/user_upload/Presse_und_Medien/Pressebereich/2024-021-Dezentrale_Flexibilitaet/ZVEI-Analyse_Kurzstudie-Mehrwert_dezentraler_Flexibilitaet-8032024.pdf",
+      "submission_url": "https://www.lobbyregister.bundestag.de/media/10/24/702829/Stellungnahme-Gutachten-SG2603060015.pdf"
+    },
+    {
+      "document": "Bellona and BNW EnEfG April 2026 submissions",
+      "lead": "Net-zero process-heat industry could produce one million jobs and 91 billion EUR annual value added in 2050; suspected job-years confusion.",
+      "decision": "Rejected as error candidate.",
+      "reason": "The cited Prognos 2025 project description actually forecasts approximately one million employees in 2050, rather than accumulated job-years, and 91 billion EUR value added. The policy/model conditions matter, but the suspected numerical category error is absent.",
+      "primary_url": "https://www.prognos.com/de/projekt/net-zero-industrie-klimaneutrale-prozesswaerme"
+    },
+    {
+      "document": "BGL EnEfG April 2026 submission",
+      "lead": "2.77 GWh threshold corresponds to approximately 277,000 litres diesel, or ten trucks.",
+      "decision": "Rejected as arithmetic error candidate.",
+      "reason": "Approximately 10 kWh/litre reproduces the fuel conversion. The ten-truck illustration implies about 27,700 litres per truck annually; no primary fleet counterevidence was established."
+    },
+    {
+      "document": "VDMA EnEfG April 2026 submission",
+      "lead": "Audit threshold change 2.5 GWh to 2.77 GWh.",
+      "decision": "Rejected as error candidate.",
+      "reason": "The exact April draft supports the described threshold change. No material numerical discrepancy identified."
+    },
+    {
+      "document": "DENEFF EnEfG April 2026 submission",
+      "lead": "7,800 enterprises and 100 TWh savings; 4,500 firms account for 80% of industrial consumption.",
+      "decision": "Further checked; no error promoted.",
+      "reason": "Official government answer BT21/982, physical page52 (printed46), gives12,376 enterprises above7.5GWh and4,508 above23.6GWh. The difference7,868 is consistent with the rough7,800 claim. The cited2022 study chapter7 explicitly provides a variable-threshold AAE simulation using industrial and commercial/service data; the published illustrative case uses10GWh, not23.6GWh, and does not itself establish the asserted100TWh or80% cohort. The companion model could generate different thresholds. Lack of a reproduced model output or an energy-consumption column in the government answer does not establish those quantities false. No error finding follows from unavailable cohort detail.",
+      "primary_local_files": [
+        "research/energy/sources/bt21-982-20250725.pdf",
+        "research/energy/sources/bfee-enms-2022.pdf"
+      ],
+      "exact_draft": "Official9April2026draft, proposed enterprise thresholds and removal of mandatory plans above23.6GWh; actual author section9–10."
+    },
+    {
+      "document": "BUND EnEfG 17 April 2026, physical page 3",
+      "lead": "Blue Angel DE-UZ 228 PUE 1.25 for datacentres from 2024.",
+      "decision": "Rejected as separate error candidate.",
+      "reason": "The primary 2023-edition criteria, table 2, expressly set PUE ≤1.25 for sites commissioned on or after 1 January 2024. The submission’s from-2024 shorthand reasonably describes that cohort. Older commissioning cohorts and first-two-year exceptions should not be erased, but no clear contrary assertion was found.",
+      "primary_url": "https://produktinfo.blauer-engel.de/uploads/criteriafile/de/211/DE-UZ-228-202301-de-Kriterien-V3.pdf"
+    },
+    {
+      "document": "BUND EnEfG 17 April 2026, physical page 3",
+      "lead": "Adjacent non-IT operating/cooling increase range of roughly 7–33%.",
+      "decision": "Related conditional arithmetic question, not counted as a separate finding.",
+      "reason": "Under fixed IT energy, changing PUE1.2 to1.3 changes the non-IT energy component0.2 to0.3, or50%; corresponding1.3→1.4 and1.5→1.6 comparisons give33.3% and20%. The stated7–33% range does not reproduce this one consistent energy denominator. However the paragraph concerns electricity/cooling while PUE measures total energy, so carrier and system boundaries remain unresolved. This related question is not separately promoted, and the conditional understatement for new sites would run against the request. The main BUND record was also downgraded to unresolved after this scope check."
+    },
+    {
+      "document": "AlgorithmWatch EnEfG 17 April 2026, physical page 9",
+      "lead": "IEA existing power-system integration with datacentre flexibility for 0.1–1% of hours; suspected geographic/model-scope compression.",
+      "decision": "Rejected after independent primary-source check by tax agent.",
+      "reason": "The exact IEA Energy and AI 2025 report page 100 expressly describes the US, China and EU and integration to 2035 using the cited flexibility range. Pages 101 and 104 qualify scalability and costs, but do not prove the submission’s selected storage/thermal examples or economic forecast false.",
+      "primary_local_file": "research/tax-round2/sources/iea-energy-and-ai-202504.pdf",
+      "reviewer": "tax_consultations_ai_agent"
+    },
+    {
+      "document": "VEA EnEfG/EDL-G response17April2026, official archive member061, six pages",
+      "lead": "No EU duty for national energy-saving targets; national contribution is indicative. Other numerical changes described in addressed draft.",
+      "decision": "Not promoted as factual error.",
+      "reason": "Read all six pages. Its page2 distinction concerns the form of Article4 national energy-consumption contributions, whose indicative status is real; the separate Article8 cumulative savings duty does not by itself make the scope-specific policy argument a false factual description. Proposed23.6GWh threshold, October2027 management deadline,2.77GWh plans threshold and draft12-month audit timing match the relevant draft. Criticisms of burden, feasibility and standards are evaluative or forecast-dependent; no quantified primary contradiction established.",
+      "scope_limit": "No exhaustive audit of the organisation’s membership count or anecdotal compliance burdens."
+    },
+    {
+      "document": "Data Center Excellence GmbH, 16 April 2026, Anmerkung 6 physical page 7",
+      "lead": "Datacentre operators described as exempt from certification while IT operators are obliged; request to move certification to datacentre operators.",
+      "decision": "Not promoted as a separate issue; general-rule and cohort scope remain a plausible alternative.",
+      "reason": "The exact draft page 15 expressly retains certification for datacentres with installed IT capacity of at least 1MW and public-sector sites in §12(3), contrary to a literal blanket exemption. However §12(1) does create a general exemption, while unchanged §12(5) retains a 500kW threshold for ordinary IT operators. The later overall assertion that datacentre requirements are lower can therefore describe the 500kW–1MW private-site cohort. This strong benign reading makes a second issue less secure than the independently documented §13 publication/transmission mismatch.",
+      "source_context": "Full ten-page response read; exact draft §12 amendments on physical page15, explanation66; existing §12(5) independently checked on official Gesetze-im-Internet. No new author quotations or formal legal conclusion."
+    }
+  ],
+  "broader_triage_documents": [
+    "Bellona",
+    "BUND",
+    "BDI",
+    "bdo",
+    "BuVEG",
+    "BGL",
+    "BNW",
+    "DUH",
+    "DENEFF",
+    "eco",
+    "GDA",
+    "Google",
+    "Öko-Institut",
+    "four transmission-system operators",
+    "VIK",
+    "VDMA",
+    "VDPM",
+    "ZIA",
+    "VEA (full six-page response read; exact-draft scope check)",
+    "Data Center Excellence (full ten-page response read; exact-draft §12/§13 distinctions checked)"
+  ],
+  "findings_saved_separately": [
+    "geg2023-hausgrund-a01",
+    "wassbg2024-waniczek-a01",
+    "enefg2026-vik-a01",
+    "enefg2026-hansgrohe-a01",
+    "enefg2026-dce-a01"
+  ],
+  "unresolved_saved_separately": [
+    "enefg2026-uim-l01",
+    "enefg2026-algorithmwatch-l01",
+    "enefg2026-bund-a01"
+  ]
+}

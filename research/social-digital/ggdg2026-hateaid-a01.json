@@ -1,0 +1,195 @@
+{
+  "id": "ggdg2026-hateaid-a01",
+  "law_id": "gesetz-digitale-gewalt-2026",
+  "document_id": "hateaid-ggdg-20260522",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Civil and criminal protection against digital violence, including disclosure of account data.",
+    "they_want": "Extend disclosure to telecom and email providers to identify authors.",
+    "they_claim": "Even prepaid SIM purchase within the EU requires data verification.",
+    "the_problem": "EU countries have different rules; Finnish anonymous prepaid services supply a counterexample."
+  },
+  "claim_quote": {
+    "original": "Innerhalb der EU erfordert nämlich selbst die Anschaffung einer Prepaid-Karte die Verifikation von Daten",
+    "language": "de",
+    "translation_en": "Translation: Within the EU, even purchasing a prepaid card requires verification of data",
+    "locator": {
+      "pdf_page": 6,
+      "printed_page": 6,
+      "section": "2.3.a) Beschränkung des Auskunftsanspruchs",
+      "paragraph": "second; final three sentences"
+    },
+    "underline": "Innerhalb der EU"
+  },
+  "request_quote": {
+    "original": "auf Telekommunikationsanbieter und E-Mailprovider verwertbar zu machen",
+    "language": "de",
+    "translation_en": "Translation of request fragment: to make [the disclosure claim] usable against telecommunications and email providers",
+    "locator": {
+      "pdf_page": 6,
+      "section": "2.3.a)",
+      "paragraph": "first sentence"
+    },
+    "note": "Short exact fragment; the full sentence expressly recommends the extension."
+  },
+  "counter_quote": {
+    "original": "The issue of access to prepaid SIM cards is not regulated at EU level.",
+    "language": "en",
+    "source_id": "council-5556-2025-sim",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": 2,
+      "section": "Introduction",
+      "paragraph": "second, first sentence"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "supplementary_counter_quote": {
+    "original": "The number of an anonymous prepaid service can not be ported.",
+    "language": "en",
+    "source_id": "traficom-porting",
+    "locator": {
+      "section": "Porting instructions",
+      "paragraph": "opening"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "correction": "There is no general EU requirement. The Presidency note distinguishes Member States that require identification from those allowing anonymous purchases. Finland’s regulator recognises anonymous prepaid service; a Finnish operator’s terms expressly permit service activation without authentication.",
+  "effect": "Narrows the assumed coverage of verified telephone identities supporting the requested extension.",
+  "limits": "The preceding sentence says telephone numbers often permit identification, which can remain true. The paragraph may generalise from German practice. This does not show German identification requirements are absent, disclosure is never useful, or the proposed extension is unwise.",
+  "materiality_explanation": "Minor: the geographical generalisation overstates coverage, while domestic and many other numbers can still be identified. The broader policy case survives.",
+  "direction_explanation": "The claim makes telephone disclosure look more reliably useful across the EU, supporting the author’s explicit extension request. No intent is inferred.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "context_checked": [
+    "Read all of section 2.3.a and adjacent sections 2.2 and 2.3.b. The disputed sentence is explicitly EU-wide; the paragraph does not restrict it to German TKG requirements.",
+    "The preceding statement uses a frequency qualification for identifying numbers; preserve this and do not turn it into a claim that every telephone user can always be identified.",
+    "The identification example mentions a document and Post-Ident, suggesting possible generalisation from German practice. This is an alternative explanation, not an intent finding."
+  ],
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur Stärkung des zivilrechtlichen und strafrechtlichen Schutzes vor digitaler Gewalt",
+    "version": "BMJV RefE, Bearbeitungsstand 16.04.2026 14:37; published 17 April 2026",
+    "submission_date": "2026-05-22",
+    "dispatch_date_register": "2026-05-26",
+    "source_id": "ggdg-refe-20260417",
+    "relevant_provision": "Article 1 section 1(2) defines covered platforms and web/cloud hosts; section 2(1) covers these and internet-access providers; PDF pages 4–5.",
+    "process_status_at_screen": "ongoing; compare this consultation version, not the October 2026 Cabinet version"
+  },
+  "sources": [
+    {
+      "id": "hateaid-ggdg-20260522",
+      "title": "HateAid submission, 22 May 2026; author copy",
+      "url": "https://hateaid.org/wp-content/uploads/2026/06/260522-publikation-stellungnahme-hateaid-ggdg.pdf",
+      "retrieved_at": "2026-10-24",
+      "local_file": "research/social-digital/hateaid-ggdg-20260522.pdf",
+      "sha256": "dcdced7d0fd9aadf3ae647ab72d50e4ecaebf7231266b51ebe8933d0c2657728"
+    },
+    {
+      "id": "hateaid-ggdg-ministry",
+      "title": "Same submission in official ministry consultation archive",
+      "url": "https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/Stellungnahmen/2026/0603_Stellungnahmen_RefE_Gesetz_gegen_digitale_Gewalt.zip?__blob=publicationFile&v=2",
+      "retrieved_at": "2026-10-24",
+      "archive_member": "HateAid_Stellungnahme_RefE_Gesetz_digitale_Gewalt.pdf",
+      "provenance_note": "Author and ministry copies differ in some editing/formatting; the relevant page 6 claim and request agree. Do not claim full binary/text identity.",
+      "local_file": "research/social-digital/hateaid-ggdg-2026-ministry.pdf",
+      "sha256": "6a0061aac0e20b26821524dcaf49b37992949539e3b14d7cf8df3f4a01359e87"
+    },
+    {
+      "id": "hateaid-ggdg-register",
+      "title": "Lobbyregister SG2606020004, R001880",
+      "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche/SG2606020004/379773",
+      "retrieved_at": "2026-10-24",
+      "registration_number": "R001880",
+      "attachment_url": "https://www.lobbyregister.bundestag.de/media/26/9f/750556/Stellungnahme-Gutachten-SG2606020004.pdf",
+      "access": "Official metadata page archived directly after following the copyright-notice form. It identifies the 20-page attachment, dispatch on 26 May 2026, and the exact ministry draft published 17 April. Direct attachment requests still returned metadata HTML rather than PDF; no register binary identity is asserted.",
+      "local_file": "research/social-digital/hateaid-lobbyregister-metadata-20261024.html",
+      "sha256": "d6e5b02ad21ea1a83a4885aa2514aa2c713fb56ac430aafbc5ccf414bbab1d37",
+      "archived_content": "Official register metadata HTML, not the attached PDF.",
+      "displayed_provided_date": "2026-06-05",
+      "date_note": "This is the page’s displayed provision date, not asserted as the signed submission date or initial publication date."
+    },
+    {
+      "id": "ggdg-refe-20260417",
+      "title": "Official BMJV draft, 16 April 2026, published 17 April",
+      "url": "https://www.bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/RefE/RefE_GgdG.pdf?__blob=publicationFile&v=2",
+      "retrieved_at": "2026-10-24",
+      "local_file": "research/social-digital/ggdg-refe-20260417.pdf",
+      "sha256": "7198ef00ab9bd250041199fca98a1681bad34f63292cc4a67466377e0ab6d88f"
+    },
+    {
+      "id": "council-5556-2025-sim",
+      "title": "Polish Council Presidency note, 28 January 2025: Use of prepaid cards to commit terrorist and criminal offenses",
+      "url": "https://data.consilium.europa.eu/doc/document/ST-5556-2025-INIT/en/pdf",
+      "retrieved_at": "2026-10-24",
+      "local_file": "research/social-digital/council-5556-2025-sim.pdf",
+      "sha256": "ce8403ab2a2e7501dc05e08b72cb99bfe1e3a540fe2034361a0fae7c6bb5e8dd"
+    },
+    {
+      "id": "traficom-porting",
+      "title": "Finnish telecom regulator: Porting instructions",
+      "url": "https://www.traficom.fi/en/telephone-and-broadband/telephone-and-broadband-users/porting-instructions",
+      "retrieved_at": "2026-10-24",
+      "page_updated": "2019-03-18",
+      "note": "Public regulator page explicitly recognises anonymous prepaid services. The retrieved HTML displays last updated 18 March 2019; still publicly current at retrieval.",
+      "local_file": "research/social-digital/traficom-porting-retrieved-20261024.html",
+      "sha256": "f4570a1b98868b61e99c12a8f4141c8c4cf74d0a307ee1168607b1958fb13278"
+    },
+    {
+      "id": "elisa-prepaid-terms",
+      "title": "Elisa/Saunalahti prepaid terms",
+      "url": "https://elisa.fi/attachment/content/SL_Prepaid_Erityisehdot_ENG.pdf",
+      "retrieved_at": "2026-10-24",
+      "version": "2 December 2013; still publicly served",
+      "locator": "section 2: service deployment does not require customer identity authentication",
+      "local_file": "research/social-digital/elisa-prepaid-terms.pdf",
+      "sha256": "bb1a4e8bf804e21e8babf2a7ff2a22ddbf6791ad0f116cfee9da56c3b280b802"
+    },
+    {
+      "id": "dna-prepaid",
+      "title": "Finnish operator DNA: Prepaid descriptions and FAQ",
+      "url": "https://www.dna.fi/liittymat-ja-palvelut/puhe/prepaid/other-languages",
+      "retrieved_at": "2026-10-24",
+      "note": "Current corroboration: purchase and use require no registration or ID; not alone used to infer historical law.",
+      "locator": "Heading: Order a DNA Prepaid SIM card & eSIM easily; paragraph beginning You can buy your prepaid SIM card online.",
+      "local_file": "research/social-digital/dna-prepaid-retrieved-20261024.html",
+      "sha256": "bc3ed7f6d1228c6dfce04da76056d7fb118d7777012b688ca7aba634d6c2b45c"
+    }
+  ],
+  "verification": {
+    "visual": "Author submission page 6, Council note page 2 and Elisa terms page 1 rendered and visually inspected; exact ministry draft text checked."
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "energy_hearings",
+        "file": "research/reviews/energy-reviews-hateaid.json",
+        "date": "2026-10-24",
+        "assessment": "retain provisional minor; direction true"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "first recorded; pending independent adversarial AI review",
+      "by": "social_digital_ai_screen"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "independently checked by energy_hearings AI; retained minor with preceding frequency qualification and historical-source caveat",
+      "by": "social_digital_ai_screen"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Official Lobbyregister metadata HTML archived and checked during final provenance pass; attachment download remained unavailable as binary, which is explicitly distinguished.",
+      "by": "social_digital_ai"
+    }
+  ]
+}

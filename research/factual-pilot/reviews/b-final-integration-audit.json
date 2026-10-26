@@ -1,0 +1,93 @@
+{
+  "reviewer": "b",
+  "status": "pass",
+  "audit_scope": "Independent final semantic/integration audit; no main assembly or edits performed.",
+  "audited_at_utc": "2026-10-25T09:19:25.066468+00:00",
+  "ledger": {
+    "file": "research/factual-pilot/claim-ledger.json",
+    "sha256": "cf0fd598fefda230bd445a43e7763c83b95a8d8e5f6953adab9352e6046cc6b3"
+  },
+  "adjudication": {
+    "file": "research/factual-pilot/adjudication.json",
+    "sha256": "275100d1d3c9b6c42d350218c232d4271f29a9aeb44e887f5a9be662e85985a9"
+  },
+  "summary": {
+    "file": "research/factual-pilot/summary.json",
+    "sha256": "48a82dd766eb4fe067fcc33c0b85832d7efa2725e4e78732921d2c40a893ddb7"
+  },
+  "validation_report": {
+    "file": "research/factual-pilot/validation-report.json",
+    "sha256": "4d5d8788c4fa3740559c2c96aba2de5ec14e6775fc25ff07fe1ad0cb8a54bd9b",
+    "valid": true
+  },
+  "admitted_issue": {
+    "file": "research/factual-pilot/kltgv2026-cma-border-pilot01-admitted.json",
+    "sha256": "72783f70f9ed3976f81ffe677b282733ded0c59e3c22f56f44022ca7cf9e71d1"
+  },
+  "checks": [
+    {
+      "check": "raw_and_adjudicated_population",
+      "status": "pass",
+      "evidence": "Raw A 26 + B 45 + C 37 = 108. All raw claim IDs remain exactly once. The three root additions are root-dcmi-reporting-01, root-tuv-risk-01 and root-scope-text-01, giving 111."
+    },
+    {
+      "check": "outcome_counts",
+      "status": "pass",
+      "evidence": "Independently counted 75 supported, 35 unresolved and 1 overstated. Totals match the summary, report HTML and per-document annotations."
+    },
+    {
+      "check": "peer_hash_and_change_reconciliation",
+      "status": "pass",
+      "evidence": "All three raw inventory hashes and three peer-review hashes match ledger references. Every non-accept peer verdict has a substantive adjudication. All five omission records are explicitly resolved; the separate supported scope-text addition follows the explicit B06 peer split."
+    },
+    {
+      "check": "accepted_b_and_c_corrections",
+      "status": "pass",
+      "evidence": "DVGW B05 removes the inferred word nonredundant. BDEW B06 retains the categorical scope claim as unresolved and adds the narrower supported text claim. B08 adds DIN 27913 offshore counterevidence. B27 adds C491 risk/cloud counterevidence. B32 corrects the amount locator to physical page 8. B11 retains draft 18397 status; B31 retains comparative-rationale uncertainty."
+    },
+    {
+      "check": "b_review_of_a_integrated",
+      "status": "pass",
+      "evidence": "VDMA A08 includes both new primary social sources and remains unresolved. The DCMI page 4 comparative-justification premise appears as root-dcmi-reporting-01. The preferred industrial-piping norms exclusion is explicitly retained."
+    },
+    {
+      "check": "main_admission_delta",
+      "status": "pass",
+      "evidence": "Against the pre-admission snapshot: all 61 existing finding objects are unchanged; only kltgv2026-cma-border-pilot01 is added as ai_screened, provisional_finding, minor, with narrowly favourable direction. The 37 unresolved leads and 2 rejected candidates are unchanged. All 80 previous document objects and 554 previous source objects are unchanged; 1 document, 3 sources and 4 review references are added."
+    },
+    {
+      "check": "admitted_issue_scope_and_primary_support",
+      "status": "pass",
+      "evidence": "For this audit, I independently re-read all three CMA author pages and checked the exact claim on physical page 2 against KSpTG section 3 numbers 6 and 6a. The record preserves the narrow definition correction, informal-backbone alternative, continuing nationwide-policy case, minor severity, and delivery/draft-version limits. The assembled main issue differs from the admitted file only by whitespace presentation and an added research_record pointer."
+    },
+    {
+      "check": "reading_pool_invariants",
+      "status": "pass",
+      "evidence": "The same 626 pool IDs remain, with no additions or removals. Method and reading-depth counts are unchanged. Exactly the seven expected KLtgV entries changed. The CMA entry also links to the single admitted issue. Every pilot annotation says repeat_read_adds_unit is false, and the summary adds zero reading units."
+    },
+    {
+      "check": "source_and_citation_status",
+      "status": "pass",
+      "evidence": "Independently verified all 53 archived-source hashes. Every claim evidence reference resolves; none cites a source marked usable_as_evidence false. Original-source, tool-extraction, access-failure and draft-status limits remain explicit."
+    },
+    {
+      "check": "report_data_semantic_consistency",
+      "status": "pass",
+      "evidence": "The final HTML contains 111 unique ledger claim IDs with matching outcomes. Every relative HTML link resolves. README and report agree on 111 assessments, 75/35/1 outcomes, one provisional minor finding, no major finding and zero additions to the 626-unit pool. Root repaired display-only standard-identifier spacing; the semantic ledger and adjudication hashes are unchanged."
+    }
+  ],
+  "material_issues": [],
+  "nonblocking_observations": [
+    "Report presentation was separately repaired and rechecked: ISO 27913 numbers and section 4c are preserved; no ledger or adjudication hash changed.",
+    "Source, scope and temporal limits remain essential: supported corroborates a bounded proposition and is not comprehensive certification."
+  ],
+  "pool_changed_ids": [
+    "bmwe-kltgv-2026-001",
+    "bmwe-kltgv-2026-002",
+    "bmwe-kltgv-2026-003",
+    "bmwe-kltgv-2026-007",
+    "bmwe-kltgv-2026-008",
+    "bmwe-kltgv-2026-010",
+    "bmwe-kltgv-2026-011"
+  ]
+}

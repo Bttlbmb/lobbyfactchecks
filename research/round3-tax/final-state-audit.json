@@ -1,0 +1,89 @@
+{
+  "id": "tax-round3-stable-state-audit",
+  "at_utc": "2026-10-25T04:57:35.798706+00:00",
+  "scope": "Own branch integrity and completed-read bookkeeping; no factual validation is inferred from mechanical checks.",
+  "screened_pool": {
+    "file": "research/round3-tax/pool-audit.json",
+    "sha256": "37252d2bf85d57079c20be00c07d656bed1a68cf38b1d5c5614cad58fd9a147f",
+    "counts": {
+      "full_submission": 71,
+      "selected_passages": 0,
+      "keyword_triage": 0,
+      "external_full_submissions": 58,
+      "government_full_replies": 12,
+      "external_full_declining_replies": 1
+    },
+    "units": 71,
+    "source_documents_only_not_studies_or_drafts": true
+  },
+  "issues": [
+    {
+      "id": "ggv2026-deutscheglasfaser-quarterly-tax-r3-03",
+      "file": "research/round3-tax/ggv2026-deutscheglasfaser-quarterly-tax-r3-03.json",
+      "sha256": "eb8df76af6ca5153cce024ab3275cad69aa2527595471e28f562f4984f65fe0e",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "independent_ai_reviews": [
+        null
+      ]
+    },
+    {
+      "id": "jstg2026-amcham-allowance-tax-r3-01",
+      "file": "research/round3-tax/jstg2026-amcham-allowance-tax-r3-01.json",
+      "sha256": "42c223cc9d70d784c097bbeaaaaf5e1d4b3897627b5622ee6a5e8ce4a41d1860",
+      "finding_state": "provisional_finding",
+      "severity": "minor",
+      "favours_author_request": true,
+      "independent_ai_reviews": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": "jstg2026-amcham-cjeu-tax-r3-02",
+      "file": "research/round3-tax/jstg2026-amcham-cjeu-tax-r3-02.json",
+      "sha256": "12cfe4ccdf5783704124e9fea7e029623bdfce9c1ea36167aa92456485decd91",
+      "finding_state": "unresolved_lead",
+      "severity": "minor",
+      "favours_author_request": null,
+      "independent_ai_reviews": [
+        null
+      ]
+    },
+    {
+      "id": "tkg2026-dk-fraud-source-tax-r3-04",
+      "file": "research/round3-tax/tkg2026-dk-fraud-source-tax-r3-04.json",
+      "sha256": "3f531d72b7c529bc210e569cf57cefb70cedcf3846f3c3110d72762069508175",
+      "finding_state": "unresolved_lead",
+      "severity": "minor",
+      "favours_author_request": null,
+      "independent_ai_reviews": [
+        "research/round3-reviews/root-reviews-dk-payment-fraud.json"
+      ]
+    }
+  ],
+  "source_registry": {
+    "file": "research/round3-tax/sources.json",
+    "sha256": "0eeb6c3119e6473a02b52fb4bc1e81688021e981fefffce27c67f127d5863881",
+    "source_id_count": 44,
+    "all_local_paths_exist": true,
+    "all_supplied_local_file_hashes_match": true
+  },
+  "bounded_public_reading_proofs": [
+    "research/round3-tax/coverage-bounded-ggv-itkv-proofs.json",
+    "research/round3-tax/coverage-bounded-fruehstart-proof.json"
+  ],
+  "known_cash_package_audit": "research/round3-tax/coverage-cash-process-version-audit.json",
+  "coverage_snapshot": "research/round3-tax/coverage-closure-snapshot.json",
+  "unclosed_population_and_date_limits": [
+    "BMF live master is blocked by a SecurityCheck; cached variants do not establish the current full process population.",
+    "AA and BMZ response populations are not closed merely because current index pages display no submissions.",
+    "The BMVg master omits a contemporary infrastructure process, and historical unlinked or removed responses remain possible.",
+    "The complete current hearing-link census does not establish no unpublished, late or register-only responses.",
+    "Most author dates or committee covers are not independently verified dispatch or receipt events.",
+    "Full author-text reading is not independent verification of every claim, model or footnote."
+  ],
+  "assembly_note": "Shared compiled data and assembly manifests are maintained by root. This audit does not authorize treating every collected PDF as screened.",
+  "latest_peer_review_out": "research/round3-reviews/tax-reviews-fleischmann-binding-targets.json"
+}

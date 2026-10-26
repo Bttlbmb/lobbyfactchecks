@@ -1,0 +1,48 @@
+{
+  "review_date": "2026-10-24",
+  "reviewer": "tax_consultations_ai_agent",
+  "finding_id": "enefg2026-dce-a01",
+  "specialist_review": false,
+  "outcome": "retain_provisional_major_true",
+  "scope": "Independent adversarial review of the complete ten-page 16 April 2026 DCE submission, exact 9 April 2026 consultation draft, and the distinction between public publication and confidential regulatory transmission.",
+  "checks": [
+    {
+      "evidence": "research/energy/enefg-screening/official/057.pdf",
+      "locator": "All ten physical pages; particular attention to Anmerkung 7 on pages 7–8",
+      "assessment": "The author presents confidentiality as permitting operators to withhold the reported dataset, predicts that the register would be empty and EU reporting impossible, and asks for an exhaustive list of allowable exceptions from transmission. Its own continuation states that the data are sent to an authority rather than published. These statements rule out reading the section solely as a concern about public access."
+    },
+    {
+      "evidence": "research/energy/sources/enefg-draft-2026-04-09.pdf",
+      "locator": "Physical page 15, Article 1 number 15, proposed § 13(1), (2), (3)",
+      "assessment": "The operative exception is expressly confined to publication. The retained existing first sentence still separately requires transmission to the federal authority; new subsection 3 expressly provides onward federal transmission to the EU database and confidentiality safeguards. The proposed list of transmission exceptions would introduce specified exceptions, rather than merely narrow the publication exception."
+    },
+    {
+      "evidence": "research/energy/sources/enefg-draft-2026-04-09.pdf",
+      "locator": "Physical page 66, explanation Zu Nummer 15",
+      "assessment": "The explanation expressly states that protected information has no exception from transmission to the federal authority. It separately explains aggregated or anonymised publication and confidentiality. This directly corroborates the operative reading."
+    },
+    {
+      "evidence": "https://www.gesetze-im-internet.de/enefg/__13.html",
+      "locator": "Existing § 13(1)",
+      "assessment": "Independently retrieved the complete existing provision. Its first sentence separates publication from transmission; the amendment does not silently erase the latter obligation."
+    },
+    {
+      "evidence": [
+        "research/reviews/tax-dce-p7.png",
+        "research/reviews/tax-dce-p8.png",
+        "research/reviews/tax-enefg-draft-p15.png"
+      ],
+      "locator": "Rendered physical pages 7, 8 and 15 respectively",
+      "assessment": "Visually checked the claim and request in their page context and the exact operative amendment."
+    }
+  ],
+  "alternatives_tested": [
+    "Public-facing-register interpretation: genuinely relevant to transparency policy, but cannot explain the express EU-reporting impossibility claim and request to enumerate transmission exemptions.",
+    "Forecast versus text: the review does not purport to disprove a forecast of strategic non-compliance. It identifies the incorrect legal-text premise that this draft supplies a broad confidentiality exemption from mandatory transmission.",
+    "Later version: no subsequent cabinet or parliamentary text is substituted for the official 9 April consultation draft.",
+    "Other DCE claims: the general certification comparison on page 7 may refer to centres below the 1 MW exception threshold. It has not been promoted as a second error, and does not rescue the distinct § 13 scope mismatch."
+  ],
+  "materiality_judgment": "Major is defensible and retained: the claimed destruction of regulatory reporting is the central reason for this requested amendment. The correction substantially changes that reason. This is an editorial judgment about the section, not proof that the entire submission or transparency request is unsound.",
+  "direction_judgment": "True: the mistaken exemption makes an exhaustive list and extra justification requirement appear necessary to preserve regulatory collection and EU reporting.",
+  "limits": "No conclusion about actual compliance, completeness, data accuracy, enforcement, public-access merits, appropriate confidentiality boundaries or the wisdom of the proposed list. No intent is inferred. No new verbatim quotations are introduced in this review."
+}

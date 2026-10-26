@@ -1,0 +1,168 @@
+{
+  "reviewer": "b",
+  "created_at_utc": "2026-10-25T22:15:18.493447+00:00",
+  "status": "needs_metadata_changes",
+  "audit_scope": "Read-only targeted integration snapshot; no regeneration or file edits. Not final parent/main-data integration audit.",
+  "reviewed_snapshots": [
+    {
+      "file": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+      "sha256": "56cbf9c58fa3601399b18fec1031231b4d3cb6fe075b3ea43b3616c47239d875"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/adjudication.json",
+      "sha256": "4ca19462a4045c92983a0fddb79b25948d309fe3c97e0a9f1a7c24472850463f"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/summary.json",
+      "sha256": "ac9817b68aaadac35f54c9678e2b69b919044f0b9065d117ead1e7cb53f22b6b"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/validation-report.json",
+      "sha256": "979bc1a7585e6fb249c8df184b6d2eb8f2a08c776f0bcedac0dcc8ae9fb23d66"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/factual-freeze.json",
+      "sha256": "83ea1c2c8def0e683e66472d205178ff0f24ab2b5160a8f215966643c8bb9ce6"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/report.html",
+      "sha256": "c8d5d3f72c1b49f912fafe6431b96d29e2277be083350e83021c0668abef5b84"
+    }
+  ],
+  "checks": {
+    "documents": 17,
+    "pages": 58,
+    "claims": 169,
+    "outcomes": {
+      "supported": 125,
+      "unresolved": 42,
+      "contradicted": 2
+    },
+    "initial_peer_claim_reviews": 166,
+    "root_added_claims": 3,
+    "all_3_scheduled_review_hashes_and_reviewed_raw_hashes_match": true,
+    "all_134_source_record_hashes_match": true,
+    "distinct_referenced_source_files": 13,
+    "freeze_hashes_match": true,
+    "author_pdf_and_fresh_text_checks": [
+      {
+        "document_id": "rsv-amendvo2026-aok",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "rsv-amendvo2026-baek",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "rsv-amendvo2026-baemi",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "rsv-amendvo2026-bvkj",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "rsv-amendvo2026-bvoegd",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "rsv-amendvo2026-gba",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "rsv-amendvo2026-gkvsv",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "rsv-amendvo2026-vfa",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "idnrg2026-bnotk",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "idnrg2026-databund",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "idnrg2026-dav",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "idnrg2026-dnotv",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "idnrg2026-kommunale-spitzenverbaende",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "idnrg2026-vdv",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "idnrg2026-zbi",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "bmwe-wpexamen-2026-002",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      },
+      {
+        "document_id": "bmwe-wpexamen-2026-003",
+        "pdf_sha256_matches": true,
+        "fresh_text_matches": true
+      }
+    ],
+    "selected_adjudication_confirmed": [
+      "short-a-015",
+      "short-a-031",
+      "short-a-032",
+      "short-a-035",
+      "short-a-037",
+      "short-a-049",
+      "short-b-015",
+      "short-b-021",
+      "short-b-040"
+    ],
+    "no_main_admissions": true
+  },
+  "issues": [
+    {
+      "id": "b-audit-01",
+      "severity": "low_provenance",
+      "location": "adjudication.json omission_resolutions[0] and [1]",
+      "finding": "Repeated VDV physical page 1 visual-read wording is attached to an IDW physical page 3 and municipal-umbrella physical page 5 claim.",
+      "recommendation": "Correct the original document/page attribution explicitly; no claim result change indicated."
+    },
+    {
+      "id": "b-audit-02",
+      "severity": "low_metadata",
+      "location": "summary.json archived_source_files and source_access_attempts_unusable",
+      "finding": "134 archived_source_files is a per-source-record count; only 13 distinct referenced source files exist, including authored note containers and four reused canonical PDFs. The 2 unusable count similarly concerns registry records, not every nested failed attempt.",
+      "recommendation": "Label source records and unique files distinctly; do not present either count as full-source downloads or an exhaustive access-attempt count."
+    }
+  ],
+  "limitations": [
+    "Source-hash verification authenticates referenced authored research notes; it is not a fresh read of every underlying long primary source.",
+    "Substantive counterpart full-review coverage is as recorded in the frozen scheduled peers. This snapshot audit targets integration and B-supported corrections, not a fourth full read of accountant originals.",
+    "Frozen raw B and scheduled B peer remain unchanged. Root formatting/provenance changes may supersede these exact output hashes."
+  ]
+}

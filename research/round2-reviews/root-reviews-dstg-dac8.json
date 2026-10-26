@@ -1,0 +1,35 @@
+{
+  "candidate_id": "dac8-2025-dstg-tax-r2-07",
+  "reviewer": "root_ai_independent_of_originating_tax_agent",
+  "date": "2026-10-25",
+  "review_type": "independent_adversarial_AI_review",
+  "specialist_review": false,
+  "outcome": "retain_provisional_major_favours_request_true_with_narrow_scope",
+  "checked": [
+    "Read the complete seven-page DSTG submission, including the multi-year-strategy qualification, all international examples, explicit resource requests and programme-specific ROI paragraph. Visually inspected original physical pages 4 and 6.",
+    "Read IRS FY2021 annual report physical page 8 and surrounding cybercrime context; visually inspected the original page. The $3.5 billion and 93% labels are CI-wide, and the adjacent Silk Road case records seizure on 3 November 2020, valued above $1 billion on the following day.",
+    "Read TIGTA July2024 audit highlights physical2, detailed operation section physical18–19/printed14–15, methodology physical24–25 and available management-response text physical28–30. Redacted or image-only portions were not represented as fully extracted text.",
+    "Read addressed BT21/1937 cover, problem/solution and resource sections physical1–3, plus reporting framework physical38. This is the original 1 October2025 bill, not the enacted law."
+  ],
+  "adversarial_tests": [
+    {
+      "alternative": "Operation Hidden Treasure is an informal umbrella name for the wider, explicitly multi-year IRS enforcement strategy.",
+      "assessment": "Plausible explanation for the prose, but the submission specifically attributes the annual seizures to an operation it dates to2021 and later assigns that operation a greater-than-fiftyfold ROI. The annual total includes a large earlier seizure. The narrower agency-versus-programme attribution mismatch remains."
+    },
+    {
+      "alternative": "November2020 is simply included in FY2021.",
+      "assessment": "Correct; this rescues the annual report's chronology, not the submission's causal attribution to the later operation. The finding must not describe the annual report's fiscal year as erroneous."
+    },
+    {
+      "alternative": "The project supplied useful tools that contributed to real investigations, even if it had no separate enforcement deliverables.",
+      "assessment": "Confirmed in TIGTA and retained explicitly. Neither lack of a written evaluation nor the tools/training focus proves zero benefit, a lower true ROI or the undesirability of the requested German resources."
+    },
+    {
+      "alternative": "A later or differently measured programme ROI could independently exceed1:50.",
+      "assessment": "Not excluded. No corrected ROI is established. The record should challenge the demonstrated attribution and the use of aggregate seizure value as its claimed quantitative precedent, rather than announce a proved numerical ROI below the asserted ratio."
+    }
+  ],
+  "materiality": "Major editorial judgment: the alleged programme-specific billion-dollar outcome and ROI directly support financing at least50million euros in technology and500posts. The source-scope correction removes that particular quantified precedent; policy merits remain open.",
+  "direction": "True for the identified mismatch: attributing an exceptional agency-wide result to the chosen intervention strengthens the request for comparable investment. No intent inferred.",
+  "quotation_check": "Short original-language fragments checked against extracted original context; author claims and IRS counter quotation also visually checked. No additional quotations added to the deliverable."
+}

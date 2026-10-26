@@ -1,0 +1,110 @@
+{
+  "id": "wolf2026-vdl-root08",
+  "law_id": "wolf-bjagdg-2026",
+  "document_id": "vdl-wolf-oral-20260223",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Adding the wolf to federal hunting law and providing management and removal rules.",
+    "they_want": "Fast, straightforward removal of problem wolves and nationwide management rules.",
+    "they_claim": "Sheep and goat keepers are affected by91%of all attacks.",
+    "the_problem": "The matching official2024statistic assigns91%of harmed animals to sheep/goats; the same report assigns79%of attack events to them."
+  },
+  "claim_quote": {
+    "original": "mit 91 Prozent aller Übergriffe am stärksten betroffen.",
+    "language": "de",
+    "translation_en": "Translation of fragment: most affected, with91percent of all attacks.",
+    "locator": {
+      "pdf_page": 9,
+      "printed_page": 9,
+      "section": "Opening statement, Anette Wohlfarth (VDL)",
+      "paragraph": "Right column, first sentence; subject is sheep and goat keepers."
+    },
+    "underline": "91 Prozent aller Übergriffe"
+  },
+  "request_quote": {
+    "original": "schnell, umgehend und unbürokratisch erfolgen.",
+    "language": "de",
+    "translation_en": "Translation of request fragment: take place quickly, immediately and without bureaucracy.",
+    "locator": {
+      "pdf_page": 9,
+      "printed_page": 9,
+      "section": "Same opening statement",
+      "paragraph": "Right column; request concerns immediate removal of problem wolves, including unfavourable conservation status and closed season."
+    }
+  },
+  "counter_quote": {
+    "original": "Schafe / Ziegen (79%)",
+    "language": "de",
+    "translation_en": "Translation: sheep/goats(79%)",
+    "source_id": "dbbw-damage2024",
+    "locator": {
+      "pdf_page": 10,
+      "printed_page": 8,
+      "figure": "3, Anteil Übergriffe2024nach Tierart; lower pie chart",
+      "note": "Figure2immediately above gives91%of harmed animals; Figure3denominator is1109attack events."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Distinguish the share of harmed animals from the share of attack events. The primary report’s2024figures2and3give respectively91%of4300harmed animals and79%of1109attacks for sheep/goats. One attack can harm multiple animals. The oral statement does not name a year or local source; identification of the91%as this statistic is a strong matching inference, not an explicit citation.",
+  "effect": "Reduces the matched2024attack-event share by approximately12percentage points, weakening the stated concentration of attack events on the represented livestock sector. Sheep and goats nevertheless remain by far the largest affected category under both measures.",
+  "limits": "An oral shorthand use of attacks to mean harms is plausible. The91%animal share is valid and still supports a serious burden. The record does not determine the actual2025or2026event share, the effectiveness of herd protection, an individual keeper’s loss or whether the proposed removals are appropriate. The report includes killed, injured and missing animals and differing state attribution criteria; it is not simply a confirmed-kills census. No intent is inferred.",
+  "context_and_alternatives": [
+    "Read the full four-page writtenVDLsubmission and opening oral statement physical9–10, plus relevant question-answer context physical11,13,20–21. The written statement explicitly cites dated2023counts, which are not treated as current or fabricated. The opening oral statement is the distinct source for this finding. No full28-page transcript review is claimed.",
+    "Strongest benign explanation: colloquial substitution of attacks for animals affected in a short oral statement. This limits severity; the official report expressly distinguishes both quantities on the same page.",
+    "The oral statement gives no year. The latest matching2024report was publishedJuly2025before theFebruary2026hearing. Identification rests on the exact91%and sheep/goat pairing, strengthened by the speaker’s later explicitDBBW2024reference for protection expenditure. No source copying or intent is alleged.",
+    "The companion claim that losses are increasing could refer to the long run or hotspots despite the2024national decline; it is not promoted as a separate falsehood. Policy forecasts and practical experiences in the later answers are not disproved by the denominator correction."
+  ],
+  "materiality_explanation": "Minor: the event-share description overstates the matching figure, but correcting it leaves a clear majority of attacks on sheep/goats and preserves the central claim of disproportionate burden. The numerical difference alone does not make the overall policy argument fail.",
+  "direction_explanation": "True narrowly: a larger apparent share of attack events strengthens the represented sector’s argument for urgent removal and management measures. This does not establish intent or the merits of the request.",
+  "confidence": {
+    "text_source_mismatch": "high for the primary report’s event-versus-animal distinction",
+    "source_identification": "strong_matching_inference; no explicit local source or year",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "id": "wolf-bt213546",
+    "source_id": "wolf-bt213546",
+    "version": "Government BT21/3546,12January2026; hearing23February2026; companionBT21/4090,11February2026",
+    "relevant_provision": "Proposed section22d(2)regular management and22d(3)problem-wolf removal,physical9–10; no later enacted text substituted."
+  },
+  "submission_source_id": "wolf-hearing-protocol-20260223",
+  "source_ids": [
+    "wolf-hearing-protocol-20260223",
+    "vdl-wolf-written-20260216",
+    "dbbw-damage2024",
+    "wolf-bt213546",
+    "wolf-bt214090",
+    "wolf-bundestag-process-2026"
+  ],
+  "verification": {
+    "visual": "Original transcript physical9and originalDBBWphysical10figures2–3visually inspected byroot. Exact fragments verified; lowerchart text is an image and not fully extracted.",
+    "quotation_budget": "Nine words in claim and five in request; four primarychart tokens. No other original transcript excerpts included in this issue."
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "tax_consultations_ai",
+        "date": "2026-10-25",
+        "review_file": "research/round2-reviews/tax-reviews-vdl-wolf-denominator.json",
+        "outcome": "retain_provisional_minor_true_with_source_identification_limit"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after original oral passage and original report’s paired animal/event charts read; independent adversarial AI review requested.",
+      "by": "root_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent tax AI review retained narrow minor/true finding, preserving undated source-identification and colloquial-harms qualifications.",
+      "by": "root_ai_screen"
+    }
+  ]
+}

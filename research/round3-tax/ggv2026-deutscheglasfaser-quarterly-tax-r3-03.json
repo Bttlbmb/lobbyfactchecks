@@ -1,0 +1,106 @@
+{
+  "id": "ggv2026-deutscheglasfaser-quarterly-tax-r3-03",
+  "law_id": "gigabit-grundbuch-verordnung-2026",
+  "document_id": "bmds-gigabit-grundbuch-verordnung-ggv-response-009",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Data reporting and access rules for the German Gigabit-Grundbuch infrastructure portal.",
+    "they_want": "Permit changed-data reports instead of repeated full datasets and reduce reporting burdens.",
+    "they_claim": "The draft requires a full delivery every three months.",
+    "the_problem": "Its three-month mechanism is a possible no-change confirmation, distinct from required full updates."
+  },
+  "claim_quote": {
+    "original": "Auflage einer Gesamtlieferung alle drei Monate",
+    "language": "de",
+    "translation_en": "Translation of fragment: requirement of a full delivery every three months",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 3,
+      "section": "e. Zeitpunkte der Datenlieferung (§12 und §18); repeated on page2"
+    },
+    "underline": "Gesamtlieferung alle drei Monate"
+  },
+  "request_quote": {
+    "original": "lediglich den Änderungsbestand",
+    "language": "de",
+    "translation_en": "Translation of request fragment: only the changed data",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": 2,
+      "section": "Datenlieferung Infrastrukturen, a. Allgemein; paragraph comparing differential and full deliveries"
+    }
+  },
+  "counter_quote": {
+    "original": "eine Bestätigung verlangen, dass seit der letzten Datenübermittlung keine Veränderungen im Gesamtdatenbestand erfolgt ist",
+    "language": "de",
+    "translation_en": "Translation of fragment: require confirmation that no changes have occurred in the overall dataset since the last data transmission",
+    "source_id": "bmds-gigabit-grundbuch-verordnung-ggv-draft",
+    "locator": {
+      "pdf_page": 10,
+      "printed_page": 10,
+      "section": "§12(2); earliest three months after the last delivery under (1)"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "draft": {
+    "source_id": "bmds-gigabit-grundbuch-verordnung-ggv-draft",
+    "version": "Official consultation draft, printed Bearbeitungsstand 3 September 2026, 16:17; ministry consultation publication 14 September 2026",
+    "locator": {
+      "pdf_page": 10,
+      "section": "§12(1) and (2); explanation physical 70"
+    }
+  },
+  "correction": "Section 12(1)requires the updated full dataset when the EU update duty applies. Section 12(2)allows the authority to request no-change confirmation no sooner than three months after the last delivery. The explanatory note expressly calls this confirmation a relief.",
+  "effect": "Removes the claimed quarterly full-delivery requirement where nothing changed, weakening that part of the burden argument.",
+  "limits": "Full updated datasets remain required when data changes, potentially more often than quarterly. Checking that nothing changed can itself require work. No actual implementation burden or optimum reporting method is established, and differential reporting may remain a defensible request.",
+  "materiality": "Minor: the response repeatedly overstates one mechanism, but the separate criticism of full updates under (1)survives.",
+  "direction_explanation": "The overstatement increases the apparent administrative burden supporting the express request for differential reports.",
+  "alternative_explanations": [
+    "The author may have combined the full-data rule in (1)with the confirmation interval in (2). Unlike a loose reference to recurring data delivery, it repeatedly specifies full deliveries every three months.",
+    "Operational confirmation procedures might entail work, but neither the operative text nor its explanation requires retransmission of the unchanged full dataset."
+  ],
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "independent energy agent",
+        "review_file": "research/round3-reviews/energy-reviews-dg-ggv-quarterly.json",
+        "date": "2026-10-25",
+        "outcome": "retain narrow provisional minor finding"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "first recorded",
+      "by": "ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent AI review completed; narrow finding retained",
+      "by": "independent energy agent"
+    }
+  ],
+  "source_ids": [
+    "bmds-gigabit-grundbuch-verordnung-ggv-response-009",
+    "bmds-gigabit-grundbuch-verordnung-ggv-draft",
+    "gia2024-1309-official-indexed"
+  ],
+  "reading_extent": "All five author pages read; author page 3 and draft page 10 visually inspected. Exact operative §12 and explanation on page 70 compared; other security and engineering claims not adjudicated as errors.",
+  "submission_metadata": {
+    "author": "Deutsche Glasfaser Holding GmbH",
+    "document_date": "2026-10-14",
+    "published_on_official_consultation_page": true,
+    "delivery_date_verified": false,
+    "process_url": "https://bmds.bund.de/service/gesetzgebungsverfahren/gigabit-grundbuch-verordnung-ggv"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "window": {
+    "from": "2026-07-25",
+    "through": "2026-10-24",
+    "eligibility_basis": "Submission/transmittal/document date, not hearing or publication date; unverified dates are retained."
+  },
+  "ministries": [
+    {
+      "ministry": "BMF",
+      "url": "https://www.bundesfinanzministerium.de/Web/DE/Service/Gesetze_Gesetzesvorhaben/Gesetze_Gesetzgebungsvorhaben.html",
+      "access": "live_security_check_blocked",
+      "evidence": [
+        "research/round3-tax/sources/bmf-master-variants.web.txt",
+        "research/round3-tax/sources/bmf-index-pages123.web.txt"
+      ],
+      "status": "incomplete",
+      "limitations": [
+        "Live page presents an explicit security/CAPTCHA check in normal browser, confirmed by root; no challenge bypass attempted.",
+        "Official cached reader variants disagree on47/48/49 items and latest date, so cached index pages are leads rather than a current population census.",
+        "BMF master additionally limits ordinance coverage to particularly significant ordinances.",
+        "Recipient mention in Lobbyregister is not enough to establish a domestic legislative process."
+      ]
+    },
+    {
+      "ministry": "BMDS",
+      "url": "https://bmds.bund.de/service/gesetzgebungsverfahren",
+      "local_file": "research/round3-tax/sources/bmds-legislation-index.html",
+      "access": "retrieved",
+      "current_processes": 8,
+      "published_response_links": 188,
+      "process_inventory": "research/round3-tax/coverage-bmds-processes.json",
+      "response_inventory": "research/round3-tax/coverage-bmds-responses.json",
+      "status": "current_master_fully_enumerated; historic/completed population not established",
+      "limitations": [
+        "Eight currently linked pages fully enumerated. Removed/completed process pages outside current master may exist.",
+        "Link-level entries include an attachment and distinct consultation phases; not188 deduplicated submissions.",
+        "No response date is excluded merely because a process was initiated before the window."
+      ]
+    },
+    {
+      "ministry": "AA",
+      "url": "https://www.auswaertiges-amt.de/de/service/opendata/2748494-2748494",
+      "local_file": "research/round3-tax/sources/aa-legislation-index.html",
+      "access": "retrieved",
+      "current_processes": 6,
+      "published_response_links_on_master": 0,
+      "status": "current_master_fully_enumerated; absence of responses not a zero-population finding",
+      "limitations": [
+        "The master says it covers consultations initiated since the 21st parliamentary term; earlier proceedings may be outside this index.",
+        "Six process, draft or enacted-law links are listed, but no external-response links are displayed. A missing link does not establish that no responses were submitted."
+      ],
+      "processes": [
+        {
+          "title": "Entwurf eines Gesetzes zu dem Übereinkommen vom 16. Dezember 2025 zur Einrichtung einer Internationalen Schadensersatzkommission für die Ukraine",
+          "type": "treaty_ratification_bill_or_enacted_act",
+          "url": "https://www.auswaertiges-amt.de/resource/blob/2779960/8195cddbed2c78bda3f8bbed9924b79a/ukr-schadensersatzabkommen-data.pdf",
+          "external_response_links_displayed": 0,
+          "depth": "index_metadata_read"
+        },
+        {
+          "title": "Entwurf eines Gesetzes zu dem Partnerschaftsabkommen vom 17. Januar 2026 zwischen der Europäischen Union und ihren Mitgliedstaaten einerseits und dem Gemeinsamen Markt des Südens, der Argentinischen Republik, der Föderativen Republik Brasilien, der Republik Paraguay und der Republik Östlich des Uruguay andererseits",
+          "type": "treaty_ratification_bill_or_enacted_act",
+          "url": "https://www.auswaertiges-amt.de/resource/blob/2775160/6c4d35f36e6704d3b18cb60f63dee8b3/eu-mercosur-data.pdf",
+          "external_response_links_displayed": 0,
+          "depth": "index_metadata_read"
+        },
+        {
+          "title": "Entwurf eines Gesetzes zum Abkommen vom 29. Juli 2025 zwischen der Regierung der Bundesrepublik Deutschland und der Regierung der Französischen Republik über die Deutsch-Französischen Gymnasien und das Deutsch-Französische Abitur",
+          "type": "treaty_ratification_bill_or_enacted_act",
+          "url": "https://www.auswaertiges-amt.de/resource/blob/2755172/f5d65b69e8d21431dd4e8cfae28ba3cf/d-fra-gymnasien-data.pdf",
+          "external_response_links_displayed": 0,
+          "depth": "index_metadata_read"
+        },
+        {
+          "title": "Verordnung zu der Vereinbarung zwischen der Regierung der Bundesrepublik Deutschland und dem Freiwilligenprogramm der Vereinten Nationen über die Errichtung eines Büros der Einheit der Vereinten Nationen für Gleichstellung und Stärkung der Frauen ( UN -Frauen) in Bonn",
+          "type": "ordinance",
+          "url": "https://www.recht.bund.de/bgbl/2/2025/263/VO.html",
+          "external_response_links_displayed": 0,
+          "depth": "index_metadata_read"
+        },
+        {
+          "title": "Gesetz zu dem Fortgeschrittenen Rahmenabkommen vom 13. Dezember 2023 zwischen der Europäischen Union und ihren Mitgliedstaaten einerseits und der Republik Chile andererseits",
+          "type": "treaty_ratification_bill_or_enacted_act",
+          "url": "https://www.recht.bund.de/eli/bund/bgbl-2/2026/8",
+          "external_response_links_displayed": 0,
+          "depth": "index_metadata_read"
+        },
+        {
+          "title": "Entwurf eines Gesetzes zu dem Vertrag vom 17. Juli 2025 zwischen der Bundesrepublik Deutschland und dem Vereinigten Königreich Großbritannien und Nordirland über Freundschaft und bilaterale Zusammenarbeit",
+          "type": "treaty_ratification_bill_or_enacted_act",
+          "url": "https://www.auswaertiges-amt.de/resource/blob/2748758/9d364948afb9e237e94b6a3b0a1e7e4d/eu-uk-data.pdf",
+          "external_response_links_displayed": 0,
+          "depth": "index_metadata_read"
+        }
+      ]
+    },
+    {
+      "ministry": "BMZ",
+      "url": null,
+      "access": "no_central_master_identified",
+      "checked_pages": [
+        "https://www.bmz.de/de",
+        "https://www.bmz.de/de/ministerium",
+        "https://www.bmz.de/de/themen/privatwirtschaft/wirtschaftspartnerschaftsabkommen-afrikanische-staaten"
+      ],
+      "evidence": [
+        "research/round3-tax/sources/bmz-home.html",
+        "research/round3-tax/sources/bmz-ministry.html",
+        "research/round3-tax/sources/bmz-epa-index.html"
+      ],
+      "status": "incomplete",
+      "limitations": [
+        "No central legislative consultation index was identified from official homepage or ministry navigation and targeted primary-source discovery.",
+        "The EPA page lists four treaty bills and an 11 July 2025 consultation deadline, but no external responses. No inference that later submissions are absent is made."
+      ]
+    },
+    {
+      "ministry": "BMVg",
+      "url": "https://www.bmvg.de/de/service/gesetze-und-verordnungen/gesetzgebungsverfahren-bmvg",
+      "local_file": "research/round3-tax/sources/bmvg-legislation-index.html",
+      "access": "retrieved",
+      "response_pages_linked_by_master": 37,
+      "reserve_responses": 17,
+      "response_inventory": "research/round3-tax/coverage-bmvg-responses.json",
+      "status": "current_master_enumerated; completeness challenged by missing contemporary process",
+      "limitations": [
+        "Current2026 section lists only ReserveStG, while official homepage separately announces anOctober2026 infrastructure-acceleration bill. Root crosschecks Defence committee and register.",
+        "All37 response pages linked by the historical master are being enumerated, so earlier-process responses are not silently discarded.",
+        "German Bundeswehrverband response is expressly withheld for non-consent on ReserveStG page."
+      ]
+    }
+  ],
+  "source_collection_status": "metadata/date census; not complete substantive screening"
+}

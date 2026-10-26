@@ -1,0 +1,154 @@
+{
+  "id": "jstg2026-bdst-tax01",
+  "law_id": "jstg-2026",
+  "document_id": "bdst-jstg-2026",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Annual federal tax changes.",
+    "they_want": "Remove the 80% childcare deduction restriction and update allowances.",
+    "they_claim": "The current childcare deduction is capped at €6,000.",
+    "the_problem": "The wording may conflate a €6,000 qualifying-expense base with the €4,800 maximum deduction; no error is established if it means the expense base."
+  },
+  "claim_quote": {
+    "original": "80 % der Kosten, max. 6.000 Euro pro Jahr",
+    "language": "de",
+    "translation_en": "Translation: 80% of costs, maximum €6,000 per year",
+    "locator": {
+      "pdf_page": 16,
+      "printed_page": "Annex 1p 2",
+      "table": "Beispiele für veraltete Pauschalen und Freibeträge im Steuerrecht",
+      "row": "Sonderausgabenabzug für Kinderbetreuung (§ 10 Abs. 1 Nr. 5 EStG)",
+      "column": "aktueller Wert"
+    },
+    "underline": "max. 6.000 Euro"
+  },
+  "request_quote": {
+    "original": "Verzicht auf 80 % Abzugsbeschränkung",
+    "language": "de",
+    "translation_en": "Translation: removal of 80% deduction restriction",
+    "locator": {
+      "pdf_page": 16,
+      "printed_page": "Annex 1p 2",
+      "row": "Sonderausgabenabzug für Kinderbetreuung",
+      "column": "Forderung Bund der Steuerzahler"
+    }
+  },
+  "counter_quote": {
+    "original": "80 Prozent der Aufwendungen, höchstens 4 800 Euro je Kind",
+    "source_id": "estg10",
+    "locator": {
+      "section": "§ 10 Absatz 1 Nummer 5 Satz 1"
+    },
+    "retrieved_at": "2026-10-24",
+    "language": "de",
+    "translation_en": "Translation: 80 percent of expenses, up to €4,800 per child"
+  },
+  "correction": "The maximum deduction is €4,800 per child; at 80%, that is reached with €6,000 of qualifying expenses.",
+  "effect": "Clarifies the baseline used for the proposed childcare change.",
+  "limits": "The €6,000 may mean qualifying expenses before multiplying by 80%. This is an unresolved presentation ambiguity, not a proven numerical or calculation error. Direction is unknown.",
+  "materiality_explanation": "Minor: one appendix baseline is ambiguous or mislabeled; the main reform demand does not depend on treating €6,000 as an already deductible amount. Direction is null because the intended arithmetic is unclear.",
+  "confidence": {
+    "text_source_mismatch": "medium",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [],
+    "follow_up_checks": [
+      {
+        "reviewer": "tax_consultations_ai",
+        "date": "2026-10-25",
+        "independent": false,
+        "review_file": "research/round2-reviews/tax-followup-bdst-statutory-access.json",
+        "outcome": "Supplementary direct statutory access confirms the baseline; unresolved expense-base interpretation and null direction retained. Not a new independent review."
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "first recorded",
+      "by": "tax_consultations_ai"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Classified as unresolved presentation ambiguity after independent AI review; corrected submission date",
+      "by": "tax_consultations_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Supplementary current official statutory HTML retrieved and full relevant provision read; original24October indexed quotation source and date retained. No change to unresolved classification.",
+      "by": "tax_consultations_ai"
+    }
+  ],
+  "draft": {
+    "title": "Referentenentwurf eines Jahressteuergesetzes 2026",
+    "version_date": "2026-05-19",
+    "version_time": "10:22",
+    "source_id": "jstg2026-refe",
+    "submission_date": "2026-06-12",
+    "submission_date_note": "Submission explicitly dated 12 June 2026. This metadata belongs to BdSt, not the undated DSTG submission.",
+    "process_status_at_screen": "Ongoing: BT 21/8283 first reading 2026-10-08; hearing announced for 2026-11-02.",
+    "comparison": "Compared to the 151-page ministerial draft dated 19.05.2026 10:22. The childcare deduction provision is unchanged."
+  },
+  "sources": [
+    {
+      "id": "bdst-jstg2026",
+      "title": "BdSt Stellungnahme JStG 2026, 12 June 2026",
+      "url": "https://bundestagszusammenfasser.de/wp-content/uploads/stellungnahmen/1261/Stellungnahme-07-BdSt.pdf",
+      "local_file": "research/tax/bdst-jstg2026-mirror.pdf",
+      "retrieved_at": "2026-10-24",
+      "provenance_note": "Public mirror; official BMF dossier lists BdSt submission. Original direct retrieval pending 503.",
+      "visual_verification": "research/tax/bdst-jstg2026-p16.png"
+    },
+    {
+      "id": "estg10",
+      "title": "Einkommensteuergesetz§ 10",
+      "url": "https://www.gesetze-im-internet.de/estg/__10.html",
+      "retrieved_at": "2026-10-24",
+      "access": "Search-index statutory text retrieved; direct open timed out."
+    },
+    {
+      "id": "bfh2026-childcare",
+      "title": "BFH press release 006/26,29 January 2026",
+      "url": "https://www.bundesfinanzhof.de/de/presse/pressemeldungen/detail/sonderausgabenabzug-fuer-kinderbetreuungskosten-verfassungsmaessigkeit-des-kriteriums-der-haushaltszugehoerigkeit/",
+      "date": "2026-01-29",
+      "retrieved_at": "2026-10-24",
+      "locator": {
+        "section": "Opening paragraph"
+      },
+      "note": "Confirms 80%/€4,800 before 12 June 2026 submission."
+    },
+    {
+      "id": "bmf-jstg2026-consultation",
+      "title": "BMF consultation dossier JStG 2026",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-05-19-JStG2026/0-Gesetz.html",
+      "retrieved_at": "2026-10-24",
+      "access": "Search-index content available; direct HTTP 503."
+    },
+    {
+      "id": "jstg2026-refe",
+      "title": "Referentenentwurf JStG 2026, Bearbeitungsstand 19.05.2026 10:22",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/21_Legislaturperiode/2026-05-19-JStG2026/1-Referentenentwurf.pdf?__blob=publicationFile&v=2",
+      "access": "Original indexed but direct 503; full corresponding mirror retrieved.",
+      "mirror_url": "https://bundestagszusammenfasser.de/wp-content/uploads/rewp21/1261_Referentenentwurf.pdf",
+      "local_file": "research/tax/jstg2026-refe-20260519-mirror.pdf"
+    },
+    {
+      "id": "estg10-current20261025",
+      "title": "Official EStG§10, supplementary current statutory access on25October2026",
+      "url": "https://www.gesetze-im-internet.de/estg/__10.html",
+      "local_file": "research/round2-tax/sources/estg-par10-current20261025.html",
+      "retrieved_at": "2026-10-25",
+      "sha256": "f970952c77597337017ee213013219bd490a91f1f0b7048bbd8cb697d1d9befd",
+      "encoding": "ISO-8859-1",
+      "role": "Supplementary evidence only; not the original24October quotation source.",
+      "access_note": "Direct public retrieval succeeded25October; subsection1number5read in full. Earlier indexed24October estg10 source identity/date retained."
+    }
+  ],
+  "direction_explanation": "Unknown: €6,000 could denote the gross qualifying expense base rather than the maximum deduction. Neither the intended comparison nor an advantage to the reform request is established."
+}

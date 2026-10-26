@@ -1,0 +1,104 @@
+{
+  "created_at": "2026-10-25T05:25:00Z",
+  "purpose": "Short risk-based next-check queue; no error finding and no claim of an increased expected error rate.",
+  "status": "unverified_leads_only",
+  "pool_sha256": "bbca6fb012fcd387bf6e96d0a9b938f5a9bc6ab0608187036c6c4498bbf4753e",
+  "selection_method": "Selected central, falsifiable quantitative or source-description claims from collected texts, checked surrounding passages, and compared actual PDF SHA-256 values against existing pool PDF files. No pool or issue records were changed.",
+  "candidates": [
+    {
+      "id": "target-social-svdgv-android-access",
+      "priority": 1,
+      "status": "unverified_lead",
+      "author": "Spitzenverband Digitale Gesundheitsversorgung (SVDGV)",
+      "document_date": "2026-10-12",
+      "committee_cover_date": "2026-10-13",
+      "process": "Gesetz für Daten und digitale Innovation im Gesundheitswesen (GeDIG), hearing 14 October 2026",
+      "addressed_version": "The submission expressly comments on the government bill and separately mentions the 5 May 2026 ministry draft. Exact operative government text and temporal BSI rules still need matching; no legal mismatch alleged.",
+      "claim_quote": {
+        "original": "20 Millionen",
+        "language": "de",
+        "translation_en": "Translation: 20 million.",
+        "locator": {
+          "pdf_page": 8,
+          "printed_page": 8,
+          "section": "4. Zu § 139e Abs. 10 SGB V, final paragraph continuing onto page 9"
+        }
+      },
+      "claim_context": "The preceding sentence attributes this exclusion to Android 13 and older operating systems being excluded. It especially identifies older, chronically ill and lower-income insured people.",
+      "request_quote": {
+        "original": "niedrigeren Sicherheitsniveau",
+        "language": "de",
+        "translation_en": "Translation of fragment: lower level of security.",
+        "locator": {
+          "pdf_page": 7,
+          "printed_page": 7,
+          "section": "Proposed new §139e(10) sentence 5"
+        }
+      },
+      "request": "Extend informed patient consent to lower technical security requirements, including older operating systems, beyond the existing authentication exception.",
+      "source_url": "https://www.bundestag.de/resource/blob/1224358/21-14-00115-21-Spitzenverband-Digitale-Gesundheitsversorgung-Innovation-nicht-barrierefrei.pdf",
+      "local_pdf": "research/round3-social/coverage-pdfs/0b68365ef906bb5288.pdf",
+      "local_text": "research/round3-social/coverage-pdfs/0b68365ef906bb5288.txt",
+      "sha256": "6b059e094166bdeff14fda8ebdb07f8eb50329f2e4422d6cfbe3e90176866516",
+      "novelty": {
+        "exact_binary_match_in_current_pool": false,
+        "semantic_alias_check": "No SVDGV/digitale Gesundheitsversorgung title or author match found in current pool metadata; does not guarantee no unlabelled textual duplicate."
+      },
+      "why_worth_checking": "A concrete large insured-person count and categorical access conclusion support an express change to security requirements. The technical rule, OS denominator, population conversion and possible alternative access routes are independently checkable.",
+      "plausible_benign_alternative": "Applicable certification rules and representative insured-person OS data may support the number. Browser or other-device access may be impractical for the affected group. The association explicitly values data security and asks for informed choice, rather than abandoning security.",
+      "next_primary_evidence": [
+        {
+          "source": "Author footnote 2 press release, underlying OS statistics and calculation",
+          "url": "https://cdn.prod.website-files.com/66fa4e35eeec650dad5b9a78/69f0c7e0a34c3bf645e7bd8c_PM%20Android%2014.pdf",
+          "locator": "Footnote 2, physical page 9",
+          "accessed_for_this_selection": false
+        },
+        {
+          "source": "Applicable dated BSI TR-03161 requirements and BfArM implementation guidance; distinguish certification scope, all DiGA, web applications and authentication requirements",
+          "accessed_for_this_selection": false
+        },
+        {
+          "source": "Exact government GeDIG bill and existing §139e(10), with date-matched GKV population and OS-use denominator",
+          "accessed_for_this_selection": false
+        }
+      ],
+      "initial_depth": "selected_passages",
+      "pages_read": [
+        1,
+        2,
+        7,
+        8,
+        9,
+        45
+      ],
+      "limits": "The remaining 39 pages were not fully read. No statement that 20 million is wrong, that the requirement has no access effects, or that the requested trade-off is unsound. These are next-check hypotheses only.",
+      "independent_review": {
+        "reviewer": "/root/energy_hearings",
+        "status": "completed",
+        "path": "research/targeted-expansion/social-leads-energy-review.json",
+        "disposition": "Retain as an unverified targeted lead; no error finding or normative-security conclusion."
+      },
+      "quote_note": "Exact fragments shortened after checking the original physical pages 7–8, to preserve the aggregate quotation budget when recording a separate cost-description lead from this same document. Full claim and request remain described in the surrounding metadata."
+    }
+  ],
+  "not_selected": [
+    {
+      "document": "Mobile Retter Notfallversorgung, September 2026 package including April joint appendix",
+      "sha256": "dcdbfccdece657215a83dd57ab3375b2e8273678ec3d1639c969c1e21106dcc1",
+      "reason": "Exact binary already in pool as mobile-retter-notfall2026; not genuinely new despite initial source-interest."
+    },
+    {
+      "document": "Björn Steiger Stiftung Notfallversorgung, 31 August 2026",
+      "sha256": "e1b73c1c02435cff31fd58a063e5b97a5df33ae3c7e68defd60a1800535724f9",
+      "reason": "Exact binary already in pool as steiger-notfall2026; not genuinely new."
+    },
+    {
+      "document": "DGVT October 2026 amendment response",
+      "reason": "Clinical equivalence claim is expressly conditioned on matched treatment, patient group and dose; no concrete discrepancy found in this selection. Not elevated merely to fill three places."
+    },
+    {
+      "document": "DPtV October 2026 amendment response",
+      "reason": "Return-on-investment claim explicitly described as sensitivity/model analysis; no discrepancy established by the selected passages."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "reviewer": "social_digital_independent_ai",
+  "date": "2026-10-24",
+  "review_type": "independent AI source and context crosscheck; not specialist review",
+  "specialist": null,
+  "method": [
+    "Read all 7 pages of the submission text; visually inspected author-original PDF pages 2,4,5.",
+    "Read exact 19 May 2026 10:22 draft § 29c amendment and surrounding explanation; visually inspected draft pages 28 and 130.",
+    "Independently retrieved European Commission ViDA timeline and Council final-adoption record; independently retrieved indexed official German AI Act annex content.",
+    "Retrieved submission directly from author website by following its public HTML PDF link; mirror text comparison returned no differences."
+  ],
+  "provenance": {
+    "author_url": "https://www.dstg.de/fileadmin/user_upload/www_dstg_de/pdf/Stellungnahmen/Stellungnahme_JStG_2026.pdf",
+    "local_file": "research/tax/dstg-jstg2026-author-original.pdf",
+    "author_sha256": "1a0cc4c0debf91b59befc77937432f406625efe47958d922a8e2d416b3e5e819",
+    "mirror_sha256": "186b0dc07f6a1a1ed54625647a6093b75ade1b01652020107e427cfb13c3714d",
+    "comparison": "Binary hashes differ; complete pdftotext-layout output is identical. Visual pages 2,4,5 confirm quoted claims and requests.",
+    "bmf_access": "Independent original BMF consultation page attempt returned 503. Author copy independently authenticates submitted text without assuming mirror authenticity.",
+    "date_limit": "The submission itself is undated. Author news is 15 June 2026; do not silently promote this to an exact signed submission date."
+  },
+  "issues": [
+    {
+      "id": "jstg2026-dstg-tax01",
+      "verdict": "supports_provisional_finding",
+      "quote_and_locator": "Confirmed exact claim and immediate infrastructure request on PDF page 2, sectionIII.1.",
+      "independent_evidence": [
+        {
+          "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en",
+          "locator": "opening timetable paragraph and text timeline item 4",
+          "finding": "Digital cross-borderB 2 B reporting starts 1 July 2030;2028 concerns platforms/singleVATregistration."
+        },
+        {
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/03/11/taxation-council-adopts-vat-in-the-digital-age-package/",
+          "locator": "paragraph listing new rules; last reviewed 12 March 2025",
+          "finding": "Final 2025 adoption already gave 2030 reporting date, preceding the submission."
+        }
+      ],
+      "context_challenge": "The sentence specifically says intra-Community reporting; it cannot reasonably be rescued by pointing to other 2028 ViDA pillars. The immediately adjacent call for infrastructure now makes directional relevance clear.",
+      "alternative_explanation": "2022 proposal timetable or confusion between pillars could explain date; no intent inference.",
+      "severity_assessment": "Major is defensible as a material shortening of preparation time. It remains editorial judgment: an early infrastructure policy can be sensible even with 2030 start.",
+      "required_changes": [
+        "Use directly retrieved author PDF for submission provenance.",
+        "Correct common draft explanatory locator to pages 129–130; p 126 is not the relevant § 29c explanation.",
+        "Maintain explicit limit that this does not disprove the merits of starting now."
+      ]
+    },
+    {
+      "id": "jstg2026-dstg-tax02",
+      "verdict": "supports_provisional_finding_with_scope_limit",
+      "quote_and_locator": "Confirmed incorrect annex reference on author-original PDF page 4; repeated conditionally on page 5; three-year request on page 5.",
+      "independent_evidence": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?qid=1721050527675&uri=CELEX%3A32024R1689",
+          "locator": "Annex III,5(a)–(d),6 and Article 9",
+          "finding": "Point 5(d) is emergency calls, emergency-service dispatch and emergency triage. It does not describe tax-risk scoring.",
+          "access": "Official indexed legal text independently retrieved via search. Direct ELI page returned a JavaScript challenge; attempted PDF returned zero bytes, which were deleted and are not represented as archive."
+        }
+      ],
+      "context_challenge": "Page 5 includes a conditional qualification concerning high-risk status. This limits any conclusion that all tax AI is asserted to be high-risk but does not fix the page 4 positive claim or wrong content of 5(d).",
+      "alternative_explanation": "Potential miscitation/typo. Another provision might apply to a particular tax-enforcement use; therefore the finding must remain the content of the cited provision, not a ruling that no tax AI can be high-risk.",
+      "severity_assessment": "Major is defensible only with clear materiality explanation that the mistaken classification is used to support an asserted EU-law conflict and personal-data retention change. If treated solely as an isolated reference typo, minor would also be reasonable.",
+      "required_changes": [
+        "Use directly retrieved author PDF.",
+        "Correct exact-draft explanation locator to PDF pages 129–130.",
+        "Preserve limits: no adjudication of specific tax AI classification, lifecycle-data obligations, or overall legality."
+      ],
+      "additional_draft_context": "Draft page 28 permits necessary personal-data use during continued operation; explanation page 130 says the deletion period begins when data are no longer necessary for proper continued operation. The submission’s separate claim of forced annual data destruction may merit its own issue but is not necessary to prove the 5(d) source mismatch."
+    }
+  ],
+  "unresolved_limits": [
+    "No specialist has reviewed either issue.",
+    "Primary-source mismatch can be high-confidence while severity and direction remain editorial judgments.",
+    "This review does not verify all other numerical and scientific claims in the submission."
+  ],
+  "subsequent_adjudications": [
+    {
+      "date": "2026-10-24",
+      "candidate_id": "jstg2026-dstg-tax02",
+      "reviewer": "social_digital_independent_ai",
+      "trigger": "Root requested a fresh severity challenge, separating proved source mismatch from unadjudicated broader legal consequences.",
+      "checks": "Re-read the entire III.3 section on author-original physical/printed pages 4–5, including positive classification statement, subsequent conditional, technical/audit premises and exact three-year request.",
+      "recommendation": "downgrade severity to minor; retain provisional narrow finding and favours_author_request true",
+      "reasoning": "The proven correction is the content of the cited annex provision. It does not establish that all described tax systems are outside every high-risk route, invalidate Article 9 lifecycle risk management, prove a retention conflict, or refute the independent technical/audit rationale. A wrong subsection can be a miscitation, though that explanation is not established. Given the limited proved argumentative effect, major is not adequately supported by this narrow case.",
+      "direction": "The citation supplies apparent EU-law authority for longer retention, so the error favours the request even though its standalone materiality is minor.",
+      "history_note": "Original major-defensible assessment remains above as review history; this is the superseding severity judgment.",
+      "specialist": null
+    }
+  ]
+}

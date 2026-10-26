@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lobby-fact-check:issue:1",
+  "title": "AI-screened legislative-submission issue",
+  "type": "object",
+  "required": ["id", "law_id", "document_id", "status", "severity", "favours_author_request", "card", "claim_quote", "counter_quote", "effect", "limits", "confidence", "review", "author_response", "history", "finding_state", "materiality_explanation"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*$"},
+    "law_id": {"type": "string", "minLength": 1},
+    "document_id": {"type": "string", "minLength": 1},
+    "status": {"const": "ai_screened"},
+    "finding_state": {"enum": ["provisional_finding", "unresolved_lead", "rejected_after_review"]},
+    "severity": {"enum": ["minor", "major"]},
+    "favours_author_request": {"type": ["boolean", "null"]},
+    "card": {
+      "type": "object",
+      "required": ["law_is_about", "they_want", "they_claim", "the_problem"],
+      "additionalProperties": false,
+      "properties": {
+        "law_is_about": {"type": "string", "minLength": 1},
+        "they_want": {"type": "string", "minLength": 1},
+        "they_claim": {"type": "string", "minLength": 1},
+        "the_problem": {"type": "string", "minLength": 1}
+      }
+    },
+    "claim_quote": {"$ref": "#/$defs/claimQuote"},
+    "counter_quote": {"$ref": "#/$defs/counterQuote"},
+    "effect": {"type": "string", "minLength": 1},
+    "limits": {"type": "string", "minLength": 1},
+    "materiality_explanation": {"type": "string", "minLength": 1},
+    "confidence": {
+      "type": "object",
+      "required": ["text_source_mismatch", "materiality"],
+      "properties": {
+        "text_source_mismatch": {"type": "string"},
+        "materiality": {"const": "editorial_judgment"}
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": ["specialist"],
+      "properties": {
+        "specialist": {"type": "null"},
+        "ai_reviews": {"type": "array", "items": {"type": "object"}}
+      }
+    },
+    "author_response": {"type": "array"},
+    "history": {
+      "type": "array", "minItems": 1,
+      "items": {"type": "object", "required": ["date", "event", "by"]}
+    }
+  },
+  "$defs": {
+    "locator": {"type": "object", "minProperties": 1},
+    "claimQuote": {
+      "type": "object",
+      "required": ["original", "language", "translation_en", "locator", "underline"],
+      "properties": {
+        "original": {"type": "string", "minLength": 1},
+        "language": {"type": "string", "minLength": 2},
+        "translation_en": {"type": "string", "pattern": "^[Tt]ranslation"},
+        "locator": {"$ref": "#/$defs/locator"},
+        "underline": {"type": "string", "minLength": 1}
+      }
+    },
+    "counterQuote": {
+      "type": "object",
+      "required": ["original", "source_id", "locator", "retrieved_at"],
+      "properties": {
+        "original": {"type": "string", "minLength": 1},
+        "source_id": {"type": "string", "minLength": 1},
+        "locator": {"$ref": "#/$defs/locator"},
+        "retrieved_at": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"}
+      }
+    }
+  }
+}

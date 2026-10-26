@@ -1,0 +1,123 @@
+{
+  "law_id": "jstg-2026",
+  "document_id": "amcham-tax-bureaucracy-202610",
+  "status": "ai_screened",
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "independent social agent",
+        "review_file": "research/round3-reviews/social-reviews-amcham-cjeu.json",
+        "date": "2026-10-25",
+        "outcome": "retain unresolved lead; analogy reading remains plausible"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "first recorded",
+      "by": "ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent AI review completed; disposition retained",
+      "by": "independent social agent"
+    }
+  ],
+  "draft": {
+    "source_id": "bt-21-8283-jstg2026",
+    "version": "Government JStG2026 bill adopted 12 August 2026, transmitted as BT 21/8283 on 30 September 2026",
+    "locator": {
+      "pdf_page": 7,
+      "section": "Article list; no §19(1)1no 1a or §6a GrEStG amendment identified in the operative bill"
+    },
+    "scope": "The paper explicitly addresses the 12 August government JStG in sections 1A and 2A; the two requests examined here are supplementary proposals beyond those specific provisions. It is not treated as a response to the earlier consultation draft."
+  },
+  "source_ids": [
+    "amcham-tax-bureaucracy-202610",
+    "bt-21-8283-jstg2026",
+    "estg19-current20261025",
+    "lsth2025-threshold-table",
+    "cjeu-c83724-20260604-de"
+  ],
+  "submission_metadata": {
+    "registry_id": "SG2610050028",
+    "recipient_events": [
+      {
+        "date": "05.10.2026",
+        "recipients": "05.10.2026 Bundestag: Gremien [alle SG dorthin] ; Bundesregierung: Bundesministerium der Finanzen (BMF) [alle SG dorthin]",
+        "links": [
+          {
+            "text": "[alle SG dorthin]",
+            "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundestag%7CGremien%5D=true&sort=FIRSTPUBLICATION_DESC"
+          },
+          {
+            "text": "[alle SG dorthin]",
+            "url": "https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/stellungnahmengutachtensuche?filter%5Bcircleofrecipients%5D%5B21.+Wahlperiode+Bundesregierung%7CBundesministerium+der+Finanzen+%28BMF%29%5D=true&filter%5Bcircleofrecipients%5D%5B19.+Wahlperiode+Bundesregierung%7CBundesministerium+der+Finanzen+%28BMF%29+%2819.+WP%29%5D=true&filter%5Bcircleofrecipients%5D%5B20.+Wahlperiode+Bundesregierung%7CBundesministerium+der+Finanzen+%28BMF%29+%2820.+WP%29%5D=true&sort=FIRSTPUBLICATION_DESC"
+          }
+        ]
+      }
+    ],
+    "author_document_date": "October 2026, no exact day on cover",
+    "date_basis": "Register reports dispatch5October 2026; document month separately verified on cover",
+    "document_date_verified": true,
+    "delivery_independently_verified": false
+  },
+  "id": "jstg2026-amcham-cjeu-tax-r3-02",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "The annual package of German tax changes.",
+    "they_want": "Broader property-transfer-tax relief for group reorganisations.",
+    "they_claim": "A CJEU judgment confirms that the German group exemption’s conditions hinder reorganisations.",
+    "the_problem": "The judgment concerns a Portuguese tax; however, its reasoning rejects Germany’s position and may support the author’s analogy."
+  },
+  "claim_quote": {
+    "original": "fünfjährigen Vor- und Nachbehaltensfrist",
+    "language": "de",
+    "translation_en": "Translation of fragment: five-year prior and subsequent holding period",
+    "locator": {
+      "pdf_page": 9,
+      "printed_page": 9,
+      "section": "3. Grunderwerbsteuer (§6a GrEStG)"
+    },
+    "underline": "fünfjährigen"
+  },
+  "request_quote": {
+    "original": "alle konzerninternen Umstrukturierungen",
+    "language": "de",
+    "translation_en": "Translation of request fragment: all intra-group reorganisations",
+    "locator": {
+      "pdf_page": 9,
+      "printed_page": 9,
+      "section": "Second bullet; asks that these be exempt from property-transfer tax while the ultimate parent is unchanged and no outsiders participate"
+    }
+  },
+  "counter_quote": {
+    "original": "Steuer auf die entgeltliche Übertragung von Immobilien",
+    "language": "de",
+    "translation_en": "Translation of fragment: tax on the transfer of immovable property for consideration",
+    "source_id": "cjeu-c83724-20260604-de",
+    "locator": {
+      "paragraph": 2,
+      "section": "Portuguese IMT dispute; read with paragraphs 23, 55–61 and 69"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "No adjudication of German §6a or five-year conditions is established. The actual ruling concerns a defined capital-contribution transaction under Directive 2008/7, not an exemption for every group reorganisation.",
+  "effect": "Unresolved: this could be an over-specific description of the holding, or the author’s application of its principle to German law.",
+  "materiality": "Potentially minor source-description overstatement; no established error in the substantive legal reform request.",
+  "direction_explanation": null,
+  "limits": "Paragraphs55–61reject the German government’s economic-ownership argument and explain that it would undermine removing restructuring obstacles. This affirmatively supports a benign analogy reading. No conclusion is drawn that §6a is valid or invalid, or that broader relief is unwarranted.",
+  "alternative_explanations": [
+    "The wording says the judgment confirmed an obstacle, not explicitly that it invalidated §6a. It can therefore express the author’s doctrinal inference rather than a claimed German-law ruling."
+  ],
+  "confidence": {
+    "text_source_mismatch": "unresolved",
+    "materiality": "editorial_judgment"
+  },
+  "reading_extent": "All 13 author pages and all 71 judgment paragraphs read, including the German-government arguments and the operative ruling."
+}

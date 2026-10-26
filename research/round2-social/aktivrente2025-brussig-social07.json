@@ -1,0 +1,109 @@
+{
+  "id": "aktivrente2025-brussig-social07",
+  "law_id": "aktivrente-2025",
+  "document_id": "brussig-aktivrente2025",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "A tax exemption for qualifying employment income after statutory retirement age.",
+    "they_want": "Reject the Aktivrente and improve working conditions and support for healthy ageing instead.",
+    "they_claim": "The German microcensus surveys 0.1 percent of the resident population.",
+    "the_problem": "Its basic annual sample is about 1 percent. This is a narrow survey-description error, not a demonstrated error in the author’s estimates."
+  },
+  "draft": {
+    "title": "Entwurf eines Gesetzes zur steuerlichen Förderung von Arbeitnehmerinnen und Arbeitnehmern im Rentenalter (Aktivrentengesetz)",
+    "version": "Government bill BT 21/2673,7 November 2025",
+    "source_id": "aktivrente-bt212673",
+    "hearing_date": "2025-12-01",
+    "submission_date": null,
+    "version_check": "The submission title expressly identifies BT 21/2673. Exact operative Article 1 number 1, physical 7, and explanatory scope were read. No date beyond publication for the hearing is inferred."
+  },
+  "claim_quote": {
+    "original": "Im Mikrozensus werden 0,1 Prozent der Wohnbevölkerung in Deutschland befragt.",
+    "language": "de",
+    "translation_en": "Translation: The microcensus surveys 0.1 percent of the resident population in Germany.",
+    "locator": {
+      "pdf_page": 1,
+      "section": "1 Einleitung",
+      "paragraph": "Third paragraph, second sentence"
+    },
+    "underline": "0,1 Prozent"
+  },
+  "request_quote": {
+    "original": "ist die Aktivrente abzulehnen.",
+    "language": "de",
+    "translation_en": "Translation of request fragment: the Aktivrente should be rejected.",
+    "locator": {
+      "pdf_page": 9,
+      "printed_page": 9,
+      "section": "6 Fazit",
+      "paragraph": "Second paragraph, first sentence"
+    }
+  },
+  "counter_quote": {
+    "original": "Rund 1 % der Bevölkerung wird jährlich stellvertretend für die gesamte Bevölkerung zu seinen Lebensbedingungen befragt.",
+    "language": "de",
+    "translation_en": "Translation: Around 1 percent of the population is surveyed annually about living conditions, representing the population as a whole.",
+    "source_id": "destatis-mikrozensus-methods",
+    "locator": {
+      "section": "Was ist der Mikrozensus?",
+      "paragraph": "Opening paragraph"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Describe the basic annual microcensus selection as approximately 1 percent, not 0.1 percent. Separate this from the realised response, individual subprogrammes, scientific-use-file subsamples and the author’s own filtered analysis sample, none of whose exact sizes is established by the correction.",
+  "effect": "Corrects a background description of the data used in the argument. A larger basic survey sample would ordinarily support rather than undermine potential statistical precision, but the policy estimates cannot be recalculated from this sentence.",
+  "limits": "No finding that the author’s weighted pension or employment totals are wrong, or that every variable or analytic subgroup uses the full 1 percent. Sampling fractions alone do not establish representativeness, causal validity or policy effectiveness. No intent is inferred.",
+  "context_and_alternatives": [
+    "Full 10-page author submission read. The adjacent text discusses large case numbers and compulsory participation, then explicitly qualifies employment, pension-type and age-group limitations. Those qualifications must remain visible.",
+    "Some microcensus components genuinely use smaller subsamples. Destatis’s 2012 quality discussion explicitly distinguishes the 1 percent basic sample from a 0.1 percent retirement-transition supplementary module. GESIS metadata independently documents this history and later integrated subprogrammes.",
+    "A reference to a smaller component or an editorial decimal slip is plausible. However, the printed sentence describes the microcensus generally and does not identify a special 0.1 percent module. The author’s tables span general pension and employment status in 2012 and 2021.",
+    "The current Destatis methods webpage corroborates the long-standing design. Historical 2012 primary documentation and the MZG basic-sample rule prevent treating a later methodology change as the correction.",
+    "The separate parenthetical comment about regular retirement pension can be read as distinguishing pension types rather than excluding people who defer pension receipt. No additional eligibility-error finding is promoted."
+  ],
+  "materiality_explanation": "Minor: a factor-ten error in the background sampling fraction, but no demonstrated effect on a published estimate, standard error or policy conclusion. The size of the numerical factor is separate from materiality.",
+  "direction_explanation": "Null: correcting this background description does not establish a policy-direction effect. It should not be coded as strengthening opposition merely because it appears in an opposing submission.",
+  "confidence": {
+    "text_source_mismatch": "high for the general microcensus basic-sample description; exact analytic subsample unknown",
+    "materiality": "editorial_judgment"
+  },
+  "submission_source_id": "brussig-aktivrente2025",
+  "source_ids": [
+    "brussig-aktivrente2025",
+    "aktivrente-bt212673",
+    "destatis-mikrozensus-methods",
+    "destatis-mikrozensus2012",
+    "fdz-mikrozensus-methods",
+    "gesis-mikrozensus-series"
+  ],
+  "source_registry": "research/round2-social/sources.json",
+  "verification": {
+    "visual": "Original author physicalpage 1 rendered and visually inspected; no OCR numeral ambiguity.",
+    "quotation_budget": "Author claim and request together 15 words; counterquote 19 words from Destatis methods webpage."
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "energy_hearings_ai_agent",
+        "path": "research/round2-reviews/energy-reviews-brussig-microcensus.json",
+        "outcome": "retain_provisional_minor_null"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as narrow provisional minor sampling-description finding; independent energy AI review requested, including subsample rescue.",
+      "by": "social_round 2_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent energy AI review retained narrow general-sampling finding with actual-subsample and no-estimate-consequence limits.",
+      "by": "social_round 2_ai_screen"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "status": "complete",
+  "started_at_utc": "2026-10-24T08:56:30+00:00",
+  "minimum_duration_seconds": 7200,
+  "earliest_completion_at_utc": "2026-10-24T10:56:30+00:00",
+  "completed_at_utc": "2026-10-24T10:56:41.125614+00:00",
+  "duration_seconds": 7211.126,
+  "timezone": "Asia/Seoul",
+  "screen_date": "2026-10-24",
+  "team": [
+    "root_ai_screen",
+    "tax_consultations_ai",
+    "energy_hearings_ai",
+    "social_digital_ai"
+  ],
+  "method": "Independent source searches followed by adversarial AI cross-review, exact-draft checks, quotation verification and lead-researcher adjudication. No specialist confirmation and no author contact.",
+  "sampling_limit": "Purposive issue search, not exhaustive or representative. Counts are distinct screened issues, not rates of error or counts of culpable authors.",
+  "states": {
+    "provisional_finding": "Primary-evidence mismatch survived context and independent AI checks; still provisional.",
+    "unresolved_lead": "A question remains; not an established error. Severity and any stated favourable direction concern the tested hypothesis if established; unknown direction is null.",
+    "rejected_after_review": "Initial suspicion did not survive an identified alternative or contextual explanation."
+  },
+  "outputs": [
+    "data/findings.json",
+    "data/unresolved-leads.json",
+    "data/rejected-candidates.json",
+    "data/source-registry.json",
+    "data/documents.json",
+    "data/review-index.json",
+    "data/issue.schema.json",
+    "data/validation-report.json"
+  ],
+  "review_limits": "AI reviewers are not human specialists. Disagreement, downgrade and rescue decisions remain in the research records. Empty author_response means no recorded response; it does not imply an approach to the author.",
+  "counts": {
+    "provisional_findings": 20,
+    "major_provisional_findings": 6,
+    "minor_provisional_findings": 14,
+    "ancillary_chronology_or_attribution_findings": 5,
+    "unresolved_leads": 11,
+    "rejected_candidates": 1,
+    "distinct_submission_documents_with_provisional_findings": 16,
+    "distinct_process_ids_in_all_issue_records": 16,
+    "registered_sources": 136,
+    "source_records_with_local_archives": 95
+  },
+  "completion_note": "Research and adversarial evaluation continued through the minimum period; source, quote, schema and reference checks were completed before this snapshot."
+}

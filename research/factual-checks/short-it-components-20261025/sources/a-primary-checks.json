@@ -1,0 +1,163 @@
+{
+  "agent": "a",
+  "kind": "Concise authored primary-check notes; not original source HTML/PDF",
+  "checks": [
+    {
+      "id": "short-it-a-dnrw",
+      "title": "d-NRW AöR eWA technical and implementation description, stand March 2026",
+      "url": "https://www.d-nrw.de/kommunalvertreter-onlinezugang/verfuegbare-leistungen/elektronische-wohnsitzanmeldung",
+      "checked_at_utc": "2026-10-25T22:13:17.977323+00:00",
+      "observed_original_sha256": "4f060b8bc0d8a89666268bc0ffb7b700339ffdab82a391bf6c022d2f6a627e2f",
+      "method": "Independent read of actual primary source bytes; actual content verified beyond HTTP status. Full public bytes temporary only.",
+      "read_extent": "Full relevant service, identity, technical interfaces and implementation sections; no linked documents downloaded.",
+      "check": "OZG ID 10124; OSCI/DVDV communication; direct Fachverfahren integration; adaptation and testing stages.",
+      "limits": "Page states March 2026, but current HTML exact historical bytes unauthenticated. It describes operator implementation, not national market shares or privately denied access."
+    },
+    {
+      "id": "short-it-a-dataport-fv",
+      "title": "Dataport eWA Fachverfahren integration documentation",
+      "url": "https://docs.osi.dataport.de/public/puboddoku/fachverfahren-ertuechtigen-525435776.html",
+      "checked_at_utc": "2026-10-25T22:13:17.977323+00:00",
+      "observed_original_sha256": "42d98a5f7ac4340c4eeb83a028307f55225358fc350528ce3b22ad071db93ce8",
+      "method": "Independent read of actual primary source bytes; actual content verified beyond HTTP status. Full public bytes temporary only.",
+      "read_extent": "Entire short article on specifications, existing solutions and costs.",
+      "check": "XMeld for registration; XPassAusweis for separate document-authority communications, with named message types from 1 May 2025. Private/public backend vendors have pilot modules and integration tests. Adaptation costs acknowledged.",
+      "limits": "Current undated article corroborates operation, not every historical access decision or legal adequacy of independent competing front ends. Backend integration access is distinct from access needed to build a competing service."
+    },
+    {
+      "id": "short-it-a-xpass-release25-11",
+      "title": "KoSIT XPassAusweis release history 25.11, final 31 January 2025",
+      "url": "https://www1.osci.de/sixcms/media.php/13/ReleaseHistorie-XPassAusweis.16883.pdf",
+      "checked_at_utc": "2026-10-25T22:13:17.977323+00:00",
+      "observed_original_sha256": "b6434510b8ff1e094cb7f23b26ecfb3f87ba662a496229e35c7e1ba45a607944",
+      "method": "Independent read of actual primary source bytes; actual content verified beyond HTTP status. Full public bytes temporary only.",
+      "read_extent": "Cover/version identity and physical p. 5, section 2.4.1.1.",
+      "check": "Pre-author release records EWA-PA messages by authority type to notify document-data changes performed by an online service.",
+      "limits": "Only relevant release-history passages read, not full standard specification or all seven short pages."
+    },
+    {
+      "id": "short-it-a-bsi-tr03128-3",
+      "title": "BSI TR-03128 part 3, version 1.3, 26 March 2026",
+      "url": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil3.pdf?__blob=publicationFile&v=6",
+      "checked_at_utc": "2026-10-25T22:13:17.977323+00:00",
+      "observed_original_sha256": "8f52ca127607ed3b20d4bd78b8220ac356ac6908037189d258970bc9269aba1f",
+      "method": "Independent read of actual primary source bytes; actual content verified beyond HTTP status. Full public bytes temporary only.",
+      "read_extent": "Cover; relevant legal/role passages pp. 5–9; full operation rules pp. 22–23.",
+      "check": "Sovereign address-change service uses official certificates; delegated central writing service and controlled outsourcing possible. Outsourcing does not remove responsible authority or security obligations.",
+      "limits": "Selected passages only, not full 25-page reading. Architecture/security requirements do not show which competing applicant was denied interfaces, why or when."
+    },
+    {
+      "id": "short-it-a-ozg4",
+      "title": "OZG section 4, current official clause",
+      "url": "https://www.gesetze-im-internet.de/ozg/__4.html",
+      "checked_at_utc": "2026-10-25T22:13:17.977323+00:00",
+      "observed_original_sha256": "b74a1f1ba707e0625b26c6a25ee953f0715fbe11242f89e1c14303da261d80a2",
+      "method": "Independent read of actual primary source bytes; actual content verified beyond HTTP status. Full public bytes temporary only.",
+      "read_extent": "Complete clause; current full-law header separately checked through official web extraction.",
+      "check": "IT components may be prescribed; Land statutory deviation for suitable components and open-interface/open-standard preferences appear in current text.",
+      "limits": "Full-law header includes 6 October 2026 amendment after 14 September author. Current clause is contextual corroboration only, not exact September consolidated proof or evidence that commercial markets remained unaffected."
+    },
+    {
+      "id": "short-it-a-pauswg7",
+      "title": "PAuswG section 7, competent authorities",
+      "url": "https://www.gesetze-im-internet.de/pauswg/__7.html",
+      "checked_at_utc": "2026-10-25T22:13:17.977323+00:00",
+      "observed_original_sha256": "5bd0b810da8c1040b2efdc11d6ccc1feb221f402bb537f8317dd1e64ef06c3b4",
+      "method": "Independent read of actual primary source bytes; actual content verified beyond HTTP status. Full public bytes temporary only.",
+      "read_extent": "Complete short clause.",
+      "check": "Identity-card matters allocated to Land-designated identity-card authorities; distinct specific functions allocated to manufacturer/certificate bodies.",
+      "limits": "Current single norm; dated pre-author BSI/PAuswV independently corroborate relevant functional allocation. Physical offices may perform both identity and registration roles."
+    },
+    {
+      "id": "short-it-a-pauswg20a",
+      "title": "PAuswG section 20a, sovereign certificates",
+      "url": "https://www.gesetze-im-internet.de/pauswg/__20a.html",
+      "checked_at_utc": "2026-10-25T22:13:17.977323+00:00",
+      "observed_original_sha256": "ee229735609a2f8f1b41c583aad029678dac5579ceec233bfe53f72ac2baa9e9",
+      "method": "Independent read of actual primary source bytes; actual content verified beyond HTTP status. Full public bytes temporary only.",
+      "read_extent": "Complete short clause.",
+      "check": "Identity-card authorities and manufacturer receive sovereign certificates within assigned functions.",
+      "limits": "Public authority certificate scope does not establish actual private-provider denial or a ban on all contracted private technical work."
+    },
+    {
+      "id": "short-it-a-pauswv19",
+      "title": "PAuswV section 19, address change",
+      "url": "https://www.gesetze-im-internet.de/pauswv/__19.html",
+      "checked_at_utc": "2026-10-25T22:13:17.977323+00:00",
+      "observed_original_sha256": "dc1f3a3fafc65a558d43a32090b7e21054f4c072406d3f3a725ced4011c3ed4f",
+      "method": "Independent read of actual primary source bytes; actual content verified beyond HTTP status. Full public bytes temporary only.",
+      "read_extent": "Complete clause; full-law header read through official web extraction, last amended 30 January 2026.",
+      "check": "Identity-card authority changes chip address/register and handles address sticker, including online registration route using sovereign certificate.",
+      "limits": "Author-date baseline is pre-response. No inference that the same municipal body cannot also be the registration authority or a contractor cannot execute technical steps."
+    },
+    {
+      "id": "short-it-a-eidkg6",
+      "title": "eIDKG section 6, competent authorities",
+      "url": "https://www.gesetze-im-internet.de/eidkg/__6.html",
+      "checked_at_utc": "2026-10-25T22:13:17.977323+00:00",
+      "observed_original_sha256": "27caa73be1fdd6ae05a8e1d0569fe005073f6aca6b6cb5c4aa121c3882772ae5",
+      "method": "Independent read of actual primary source bytes; actual content verified beyond HTTP status. Full public bytes temporary only.",
+      "read_extent": "Complete short clause.",
+      "check": "eID-card matters assigned to Land-designated eID-card authorities.",
+      "limits": "Function-specific, not necessarily a separate building/staff. Exact historical HTML not archived."
+    },
+    {
+      "id": "short-it-a-eidkg12",
+      "title": "eIDKG section 12, electronic identification",
+      "url": "https://www.gesetze-im-internet.de/eidkg/__12.html",
+      "checked_at_utc": "2026-10-25T22:13:17.977323+00:00",
+      "observed_original_sha256": "20da52ff2c1a4fd0e0bd6cb1d7b794485a68594e09c8e4bf745b2d0a68f58784",
+      "method": "Independent read of actual primary source bytes; actual content verified beyond HTTP status. Full public bytes temporary only.",
+      "read_extent": "Complete clause, especially paragraph 4.",
+      "check": "eID-card authorities may perform electronic identification during address change after electronic registration using sovereign certificates.",
+      "limits": "No universal bar on outsourcing, no exclusive physical-office inference."
+    },
+    {
+      "id": "short-it-a-eidkg14a",
+      "title": "eIDKG section 14a, sovereign certificates",
+      "url": "https://www.gesetze-im-internet.de/eidkg/__14a.html",
+      "checked_at_utc": "2026-10-25T22:13:17.977323+00:00",
+      "observed_original_sha256": "533624b5780fb70b6b5b8c23f96c7bebdb6a0579f9f03ed2cef878ee213ee384",
+      "method": "Independent read of actual primary source bytes; actual content verified beyond HTTP status. Full public bytes temporary only.",
+      "read_extent": "Complete short clause.",
+      "check": "eID-card authority/manufacturer receive sovereign certificates according to assigned competences.",
+      "limits": "Certificate eligibility is not a record of actual denial to identified competing developers."
+    },
+    {
+      "id": "short-it-a-aufenthg71",
+      "title": "AufenthG section 71, foreigner-authority roles",
+      "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__71.html",
+      "checked_at_utc": "2026-10-25T22:13:17.977323+00:00",
+      "observed_original_sha256": "ef1ea6632342decc3fcbf6fae6563d57905c3119600fc3ab3ec5ccfb031db73b",
+      "method": "Independent read of actual primary source bytes; actual content verified beyond HTTP status. Full public bytes temporary only.",
+      "read_extent": "Paragraph 1 independently read in full; related section 78(7) read separately.",
+      "check": "Residence/pass-law measures ordinarily assigned to foreigner authorities.",
+      "limits": "Land designations and specific exceptions matter; no comprehensive state-law competence survey."
+    },
+    {
+      "id": "short-it-a-aufenthg78",
+      "title": "AufenthG section 78, electronic residence documents",
+      "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__78.html",
+      "checked_at_utc": "2026-10-25T22:13:17.977323+00:00",
+      "observed_original_sha256": "6cf9faf257db7f935c7c1a7aff40c491cc549db2ff511e7406922483593cc38c",
+      "method": "Independent read of actual primary source bytes; actual content verified beyond HTTP status. Full public bytes temporary only.",
+      "read_extent": "Full relevant paragraphs 5 and 7; current full-law header via official web extraction, last amended 22 July 2026.",
+      "check": "Residence-document electronic identity uses foreigner authority in place of identity-card authority. Address change may be performed by foreigner authorities or other authorities designated by Land law.",
+      "limits": "Supports functional document competence rather than exclusive office classification. Do not assume every designated body is organisationally separate from registration office."
+    },
+    {
+      "id": "short-it-a-access-search",
+      "title": "Independent primary-source search for denied interfaces, Land complaints and market effects",
+      "url": "https://www.bundestag.de/",
+      "checked_at_utc": "2026-10-25T22:13:17.977323+00:00",
+      "method": "Targeted web searches of Bundestag/Bundesrat/BSI and official service/implementation sources; not a census.",
+      "read_extent": "Search terms electronic Wohnsitzanmeldung, Schnittstellen, private Anbieter, Hersteller and Zugang/verwehrt; relevant returned BSI, operator and implementation material checked.",
+      "check": "Found certification/architecture and backend integration evidence; no identified denial decisions, several dated Land complaints, causal investment records or bounded competing-service legal census recovered.",
+      "limits": "Search/access limits are not evidence allegations are false. No author contact or inference of motive."
+    }
+  ],
+  "access_attempts": [
+    "Web single-norm retrievals for PAuswG20a and AufenthG71/78 timed out; direct temporary downloads succeeded and actual clauses were read. No failed response treated as evidence."
+  ],
+  "storage_note": "All new supporting source bytes in /private/tmp/short-it-a-20261025 only. Concise authored notes retained; shared canonical draft reused."
+}

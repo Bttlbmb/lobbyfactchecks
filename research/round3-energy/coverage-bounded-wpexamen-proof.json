@@ -1,0 +1,44 @@
+{
+  "id": "energy-wpexamen2026-known-external-reading",
+  "as_of": "2026-10-25",
+  "scope": "Two external responses in the finite published BMWE OpenData three-participant list; Hessen government response retained in collection but not in external denominator or fully read here.",
+  "dataset_url": "https://daten.bundeswirtschaftsministerium.de/ODP/Redaktion/DE/OpenData/Stellungnahmen-Wirtschaftsprueferexamen.html",
+  "participant_list_file": "research/round3-energy/sources/bmwe-datasets/735472d7503f22b1.pdf",
+  "named_participants_all_kinds": 3,
+  "external_named_participants": 2,
+  "external_public_pdf_versions_fully_read": 2,
+  "external_physical_pages": 12,
+  "documents": [
+    {
+      "id": "bmwe-wpexamen-2026-002",
+      "author": "IDW Institut der Wirtschaftsprüfer in Deutschland",
+      "author_date": "2026-10-14",
+      "submission_date_verified": false,
+      "local_file": "research/round3-energy/sources/bmwe-members/b2f9effb723f2d0c78c9.pdf",
+      "sha256": "b2f9effb723f2d0c78c9195045b990cafab046124dd4101579a98f4810b79fb8",
+      "physical_pages": 6,
+      "depth": "full_submission"
+    },
+    {
+      "id": "bmwe-wpexamen-2026-003",
+      "author": "BVBC Bundesverband der Bilanzbuchhalter und Controller e.V. (joint author WIB on PDF)",
+      "author_date": "2026-10-13",
+      "submission_date_verified": false,
+      "local_file": "research/round3-energy/sources/bmwe-members/91571d57ee384611cb11.pdf",
+      "sha256": "91571d57ee384611cb117c6b52786dc17ba6fc161d0bab578071812a3b0531a3",
+      "physical_pages": 6,
+      "depth": "full_submission"
+    }
+  ],
+  "exact_version_limit": "Current official30-page PDF is an accessible October6-created artifact linked from October7 process page. IDW expressly addressesSeptember23version; no internal draft timestamp or byte identity with initial dispatch established. Operative provisions checked and consistent with the submissions; no issue promoted.",
+  "draft": {
+    "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/Gesetz/2026/20261007-refentwurf-wirtschaftsprueferexamen.pdf?__blob=publicationFile&v=4",
+    "local_file": "research/round3-energy/sources/wpexamen-refe-official.pdf",
+    "sha256": "e719aec2fb79e41bfd54b30fb36d67eff0644cfbd74f9ee8b3cc53256f7bc5bc",
+    "read_extent": "Cover, operative physical4–7, selected explanation29–30; not full30pages."
+  },
+  "date_limits": "Both author dates in window; filenameBVBCOctober19 is not its authorOctober13 date or proven receipt. Ministry interval is not individual dispatch evidence.",
+  "new_findings": 0,
+  "limits": "Finite published-resource closure is not a claim of all-channel completeness or verification of every assertion.",
+  "independent_coverage_review": "research/round3-reviews/tax-reviews-energy-small-bounded-coverage.json"
+}

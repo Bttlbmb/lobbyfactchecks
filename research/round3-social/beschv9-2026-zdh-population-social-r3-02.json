@@ -1,0 +1,106 @@
+{
+  "id": "beschv9-2026-zdh-population-social-r3-02",
+  "law_id": "beschv9-2026",
+  "document_id": "zdh-beschv9-20261015",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "A proposed reduction of the annual Western Balkans employment-route quota from50,000 to25,000.",
+    "they_want": "Retain50,000 approvals, or exempt collective-agreement employers from the reduced quota.",
+    "they_claim": "The cited IW study puts skilled workers among route users at61.3%.",
+    "the_problem": "IW measured workers of six nationalities across all immigration routes. Separate IAB evidence nevertheless supports roughly60% for actual route users; the exact addressed draft remains unavailable."
+  },
+  "claim_quote": {
+    "original": "hierüber sozialversicherungspflichtig beschäftigten Fachkräfte",
+    "language": "de",
+    "translation_en": "Translation of fragment: skilled workers employed with social insurance through this route",
+    "locator": {
+      "pdf_page": 2,
+      "printed_page": 2,
+      "section": "2. Migrationspolitische Würdigung; sentence continuing on physical3 with61.3% and explicitly citing IW33/2025"
+    },
+    "underline": "hierüber"
+  },
+  "request_quote": {
+    "original": "bei dem jetzigen Kontingent von 50.000 dauerhaft belassen",
+    "language": "de",
+    "translation_en": "Translation: retain the current quota of50,000 permanently",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 3,
+      "section": "4. Fazit"
+    }
+  },
+  "counter_quote": {
+    "original": "Bürger der Westbalkanländer",
+    "language": "de",
+    "translation_en": "Translation: citizens of the Western Balkan countries",
+    "source_id": "iw-westbalkan-20250401",
+    "locator": {
+      "pdf_page": 3,
+      "printed_page": 3,
+      "paragraph": "First, continuing from previous page;61.3% denominator excludes trainees. Read with physical2 migration-route distinction."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "IW33/2025 studies nationality-defined employment, and expressly says most migration occurs outside the special route. Its61.3% is the share of social-insured workers excluding trainees in jobs generally requiring vocational or university education, not a route-defined estimate. But IAB2/2023physical18 independently reports just under60% of actual route users employed as skilled workers, specialists or experts. That affirmative evidence preserves the broad skilled-employment argument.",
+  "effect": "Unresolved: the named source population is misdescribed, but its practical effect is limited by corroborating route-specific evidence and an outstanding exact-draft gate. No actual route share or quota effect is recalculated.",
+  "limits": "Does not establish that61.3% is the actual route-specific value, that current route users lack skills, or that cutting the quota is justified. Nationality and route populations overlap. Exact current consultation draft and its date have not been obtained; do not substitute the earlier8th amendment or later enacted rule.",
+  "context_and_alternatives": "All4 author pages read. The paragraph distinguishes absence of formal qualification requirements from actual skilled employment, and explicitly attributes61.3% to IW33/2025. A shorthand nationality-to-route inference or confusion with independently established roughly60% IAB results is a strong benign explanation. The original IW paper itself recommends against quota reduction, so its overall recommendation is not misrepresented.",
+  "materiality_explanation": "Potentially minor source-population precision issue; the same broad policy premise has separate primary support. No material reversal of the argument is established.",
+  "direction_explanation": null,
+  "confidence": {
+    "text_source_mismatch": "high_for_named_IW_population_only",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "title": "Referentenentwurf Neunte Verordnung zur Änderung der Beschäftigungsverordnung",
+    "version_date": null,
+    "exact_draft_status": "not_obtained; operative quota reduction independently described consistently by multiple dated responses; date/version not inferred",
+    "source_evidence": "Author cover and pp1–3 identify this specific current draft. All396 indexed BMAS process pages inspected in census;9thBeschV round not listed. Search exact draft title found responses but no original draft."
+  },
+  "submission_source": {
+    "url": "https://www.zdh.de/fileadmin/Oeffentlich/Arbeitsmarkt_Tarifpolitik/Positionen/rs10126_Anlage2_ZDH-Stng_Halbierung_Westbalkanregelung.pdf",
+    "local_file": "research/round3-social/coverage-pdfs/4278b62725c6a159d6.pdf",
+    "authored_date": "2026-10-15",
+    "document_kind": "written_submission",
+    "formal_delivery_date": "unverified; own public author page identifies consultation response"
+  },
+  "source_ids": [
+    "zdh-beschv9-20261015",
+    "iw-westbalkan-20250401",
+    "iab-westbalkan-sn0223"
+  ],
+  "reading_depth": {
+    "author": "full4physicalpages",
+    "IW": "full3physicalpages",
+    "IAB": "selectedphysical17–18 only;36pagepaper not fully read",
+    "draft": "unavailable"
+  },
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "energy_hearings independent AI",
+        "verdict": "Retain unresolved/minor/null: named IW population inaccurate, affirmative route-specific IAB evidence preserves broad premise; exact draft unavailable.",
+        "review_file": "research/round3-reviews/energy-reviews-zdh-westbalkan-population.json",
+        "specialist": null
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as unresolved with affirmative IAB rescue and exact-draft gate; no established policy-relevant factual error promoted.",
+      "by": "social_round3_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent energy review read full author4/IW3, selected IAB17–18 and visually verified key pages; retained unresolved lead with source-population and exact-draft limits.",
+      "by": "social_round3_ai"
+    }
+  ]
+}

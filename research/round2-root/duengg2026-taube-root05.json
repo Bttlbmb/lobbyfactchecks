@@ -1,0 +1,100 @@
+{
+  "id": "duengg2026-taube-root05",
+  "law_id": "duengg-2026",
+  "document_id": "taube-duengg-20260902",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Changing fertiliser-law monitoring, reporting powers and farm nutrient-balance rules.",
+    "they_want": "Require broader farm nutrient-flow data and strengthen the monitoring system.",
+    "they_claim": "The CJEU expressly required representative, methodologically robust and empirically verifiable monitoring in the cited judgment.",
+    "the_problem": "The cited passage leaves the network dispute undecided, but other passages may support the general quality standard. The source-description concern remains unresolved."
+  },
+  "claim_quote": {
+    "original": "dass das Monitoring repräsentativ, methodisch belastbar und empirisch überprüfbar sein muss",
+    "language": "de",
+    "translation_en": "Translation: that monitoring must be representative, methodologically robust and empirically verifiable",
+    "locator": {
+      "pdf_page": 4,
+      "section": "4. Das Wirkungsmonitoring",
+      "paragraph": "Final sentence on physical page4, following the attribution to CJEU C-543/16 paragraphs60ff."
+    },
+    "underline": "repräsentativ"
+  },
+  "request_quote": {
+    "original": "entsprechende Verordnungsermächtigungen sind zu gewährleisten",
+    "language": "de",
+    "translation_en": "Translation: the corresponding powers to issue ordinances must be ensured",
+    "locator": {
+      "pdf_page": 10,
+      "section": "Konklusion",
+      "paragraph": "First paragraph, following the request to access documented farm nutrient imports and exports."
+    }
+  },
+  "counter_quote": {
+    "original": "ohne dass es einer Erörterung der Frage bedürfte",
+    "language": "de",
+    "translation_en": "Translation of fragment: without there being any need to discuss the question",
+    "source_id": "cjeu-c54316-official",
+    "locator": {
+      "paragraph": 61,
+      "section": "Würdigung durch den Gerichtshof",
+      "mirror_pdf_page": 14,
+      "context": "The following clauses concern calculation methods and which groundwater monitoring network is most representative."
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "No proved error is asserted. Paragraph61 leaves the calculation-method and monitoring-network dispute unexamined because undisputed coastal eutrophication already demonstrates the need for additional measures. It is not an express monitoring-design ruling. However, paragraph7 reproduces the duty of suitable monitoring, paragraph111 requires the best available science, and paragraphs118–120 discuss unrepresentative studies. Those passages may support the author’s general evidentiary-quality summary.",
+  "effect": "If the express-holding attribution is inaccurate, correcting it would remove a claimed direct judicial authority for the monitoring criticism. The broader monitoring and data proposals retain separate legal and scientific arguments.",
+  "limits": "The absence of the precise three-adjective formulation is not proof of a misdescription. This check does not establish that monitoring may be unrepresentative, that current German arrangements comply with EU law, or that farm nutrient-flow accounting is unnecessary. The judgment’s permission to use forecasts does not refute the author’s narrower point about models conflicting with actual data; he also endorses suitable modelling elsewhere. No intent is inferred.",
+  "context_and_alternatives": [
+    "Read all12physical submission pages, including the surrounding monitoring criticism, acknowledged modelling role, final data-access request and bibliography.",
+    "The strongest benign reading is a doctrinal summary of suitable monitoring and best-science requirements, with60ff used broadly, rather than a claim that the Court decided between particular networks.",
+    "The originating researcher initially considered a narrow minor express-attribution finding; independent review identified substantial support for an inferential quality-standard reading. It remains a lead."
+  ],
+  "draft": {
+    "title": "Entwurf eines Zweiten Gesetzes zur Änderung des Düngegesetzes",
+    "version": "BT21/6135,26May2026; companionBT21/6811,1July2026",
+    "source_id": "duengg-bt216135",
+    "additional_source_id": "duengg-bt216811",
+    "submission_date": "2026-09-02",
+    "hearing_date": "2026-09-08",
+    "relevant_provision": "Article1: repeal of§11a and new§12a monitoring and data powers; exact2026bill, not failed2024proposal."
+  },
+  "materiality_explanation": "Potential minor source-attribution issue: the text invokes direct judicial authority for a monitoring-quality objection, but the general standard may be independently defensible and the specific data proposal has additional arguments. No major finding is justified.",
+  "direction_explanation": "Null while unresolved. An established overstatement of direct judicial authority would support the request, but this record does not establish that overstatement.",
+  "confidence": {
+    "text_source_mismatch": "unresolved: the cited paragraph leaves the particular dispute open, while the broader judgment may support the general norm",
+    "materiality": "editorial_judgment"
+  },
+  "submission_source_id": "taube-duengg-20260902",
+  "source_ids": [
+    "taube-duengg-20260902",
+    "cjeu-c54316-official",
+    "cjeu-c54316-mirror",
+    "duengg-bt216135",
+    "duengg-bt216811"
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "tax_consultations_independent_ai",
+        "date": "2026-10-25",
+        "review_file": "research/round2-reviews/tax-reviews-taube-monitoring.json",
+        "outcome": "recommend_unresolved; broad doctrinal-reading alternative",
+        "specialist_review": false
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after primary judgment and complete submission check; conservative unresolved disposition follows independent adversarial review.",
+      "by": "root_ai_screen"
+    }
+  ]
+}

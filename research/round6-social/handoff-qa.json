@@ -1,0 +1,48 @@
+{
+  "as_of_utc": "2026-10-25T12:00:03.619767+00:00",
+  "branch": "round6-social",
+  "actual_reading_summary": {
+    "rows": 57,
+    "full_submission": 51,
+    "selected_passages": 6,
+    "existing_version_match_rows": 4,
+    "full_resource_pages_read": 220,
+    "selected_pages_read": 27,
+    "match_snapshot_note": "Earlier row matched the pre-round 626-unit baseline; final AIDS checks used the current merged pool after root additions. Three AIDS resource aliases map to two current pool units. This is not a claim that every row is new."
+  },
+  "admitted_cases": [
+    "suizidpraevg2026-marburger-costs-social-r6-01"
+  ],
+  "new_issue_count": 1,
+  "finding_state": "provisional_finding",
+  "errors": [],
+  "checks": [
+    "All 57 resource row IDs unique.",
+    "Every pool log pointer resolves to matching identity, depth, hash and page extent.",
+    "All full reads list every physical resource page exactly once.",
+    "Every pool resource hash resolves to branch source metadata.",
+    "Active case author/draft PDF hashes individually restored and exact."
+  ],
+  "dedup_limits": [
+    "57 is a resource-row count, not a count of new merged pool units.",
+    "One VdK baseline version and three AIDS resources have existing/current pool matches.",
+    "Two AIDS authored resources reside under one current merged unit; root handles cross-branch/bundle reconciliation.",
+    "No collection-only download counts as reading."
+  ],
+  "source_cache": "Only active Marburger author/draft dependencies restored. Routine negative-source downloads remain evicted; historical hashes/provenance preserved. A 135266304-byte incomplete temporary exact-budget download was removed after timeout.",
+  "file_hashes": {
+    "pool-audit.json": "7e61d0c3f4cde7be0b46c7cf35e75085a61073e05ab7c219f186a0b3efb886fb",
+    "research-log.json": "56da3e01e6aa86ac6c5e986179322fec04b5aee2c2a29a9f6b4dd1d6f1cb78b1",
+    "sources.json": "6a5eae60ee6b1b6430f2bdd8a41485e1e38654f282f768bb595cd554b5f6da0a",
+    "documents.json": "5c81a018f312212c0504ce133e96ae8e244bce5e3f02f6b54988a15ee27ea4bc",
+    "research-dispositions.json": "4248818963b042d924cd928ac34f1e83413f1ee75368ec2ba8823255da933990",
+    "case-qa.json": "6981b3ea9d4fe064544734e835a87361c89533704781345013e791c82f9ce689",
+    "suizidpraevg2026-marburger-costs-social-r6-01.json": "de00fc53cf2c894030b187282582593696ca362e4e46a395bc0dd12ca0542adb"
+  },
+  "independent_reviews": [
+    "research/round6-reviews/energy-reviews-marburger-costs.json",
+    "research/round6-reviews/root-reviews-marburger-suizid.json",
+    "research/round6-reviews/energy-reviews-social-pool.json"
+  ],
+  "limits": "Audit checks provenance and declared reading extent, not an independent reread of every submission or verification of every claim."
+}

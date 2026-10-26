@@ -1,0 +1,104 @@
+{
+  "id": "schuberdg2026-agsbv-costsum-tax-r4-01",
+  "law_id": "schuberdg-2025-2026",
+  "document_id": "agsbv-schuberdg-financing-20260825",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Access to independent debt advice under the EU Consumer Credit Directive.",
+    "they_want": "Reliably financed, free debt advice, including more advisory staff and creditor contributions.",
+    "they_claim": "The cost table totals EUR 121,730 per advisory post plus a share of administration.",
+    "the_problem": "Its displayed subtotal, operating costs and overhead instead add to EUR 129,430. The lower total also feeds the national financing estimate."
+  },
+  "claim_quote": {
+    "original": "SUMME                                                                     € 121.730,00",
+    "language": "de",
+    "translation_en": "Translation: TOTAL EUR 121,730.00.",
+    "locator": {
+      "pdf_page": 10,
+      "printed_page": 10,
+      "section": "Cost calculation, SUMME row"
+    },
+    "underline": "121.730,00"
+  },
+  "counter_quote": {
+    "original": "Zwischensumme                                                             €   99.775,00\nSachkosten (+ IT-Kosten), Pauschalwert                                    €    9.700,00\nGemeinkosten (20 % von Brutto-PK)                                         €   19.955,00",
+    "language": "de",
+    "translation_en": "Translation: Subtotal EUR 99,775; operating costs including IT, flat rate EUR 9,700; overhead 20 percent of gross personnel costs EUR 19,955.",
+    "source_id": "agsbv-financing-20260825",
+    "locator": {
+      "pdf_page": 10,
+      "printed_page": 10,
+      "section": "Three rows immediately above SUMME"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "request_quote": {
+    "original": "Schuldnerberatung dauerhaft und verlässlich finanzieren",
+    "language": "de",
+    "translation_en": "Translation: Finance debt advice permanently and reliably.",
+    "locator": {
+      "pdf_page": 3,
+      "section": "Request 3 heading"
+    }
+  },
+  "correction": "Holding the three printed inputs fixed gives 99,775+9,700+19,955=129,430, EUR 7,700 above the printed total. Its stated national parameters reproduce 412,695,500=3,350×121,730+1,400×3,500. Using the component sum instead gives 438,490,500, a difference of EUR 25,795,000. This is a conditional consistency check, not an independently validated funding requirement.",
+  "effect": "The table and resulting model cannot all be correct simultaneously. Correcting the total alone raises the illustrative national figure by about 6.25 percent.",
+  "limits": "An input rather than the total could be the typo: operating costs of EUR 2,000 would reproduce 121,730. The intended KGSt-based inputs and real national need remain undetermined. The paper calls the headline a minimum and expressly distinguishes total need from additional public expenditure; its 412.7 million figure must not be described as wholly new government spending.",
+  "materiality_explanation": "Minor because the confirmed issue is internal addition in a transparent illustrative model, with alternative input correction possible. The aggregate numerical consequence is material enough to report, but does not establish the amount of actual underfunding or invalidate the proposed staffing standard.",
+  "direction_explanation": "Unknown: a lower headline makes the model appear cheaper, while also understating the amount sought for debt-advice provision. The statement does not establish which effect drives the request.",
+  "confidence": {
+    "text_source_mismatch": "high",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "source_id": "bt-21-2774",
+    "title": "BT 21/1847 as amended by BT 21/2774 and adopted 14 November 2025; pending mediation when the 25 August 2026 position was written",
+    "version_date": "2025-11-14",
+    "addressed_stage": "Bundestag-adopted version before later September 2026 mediation",
+    "exact_version_evidence": "Original submission page 2 expressly invokes the Bundestag version of section 4(2). Committee BT 21/2774 page 3 has the matching professional-provider definition and pages 3–4 the cost-free principle and resolution requesting examination of creditor financing. Official Bundestag proceedings page confirms adoption 14 November 2025.",
+    "version_limits": "The register field links an older 20/9492 motion; the current process identification follows the original document rather than that historical metadata. Later mediation or enacted versions are not substituted. No proposed statutory cost requirement of EUR 412.7 million is inferred."
+  },
+  "document_metadata": {
+    "author": "Arbeitsgemeinschaft Schuldnerberatung der Verbände (AG SBV), joint position of AWO, BAG-SB, Caritas, Paritätischer, DRK, Diakonie and vzbv",
+    "author_date": "2026-08-25",
+    "register_id": "SG2608270005",
+    "self_reported_dispatch_date": "2026-08-26",
+    "dispatch_independently_verified": false,
+    "full_submission_read": true,
+    "physical_pages": 10,
+    "visual_check": "research/round4-tax/previews/agsbv-finance-p10.png"
+  },
+  "sources": [
+    "agsbv-financing-20260825",
+    "bt-21-2774",
+    "bt-schuberdg-proceedings"
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      "research/round4-reviews/social-reviews-agsbv-costsum.json"
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full original read, original table visual check and exact-stage draft check; independent review requested",
+      "by": "ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent full-context review confirms narrow arithmetic mismatch; input-typo, minimum and mixed-direction qualifications retained",
+      "by": "independent_ai_review"
+    }
+  ],
+  "source_ids": [
+    "agsbv-financing-20260825",
+    "bt-21-2774",
+    "bt-schuberdg-proceedings"
+  ],
+  "submission_source_id": "agsbv-financing-20260825"
+}

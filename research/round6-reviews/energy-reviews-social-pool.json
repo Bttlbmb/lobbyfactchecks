@@ -1,0 +1,451 @@
+{
+  "reviewer": "energy_hearings",
+  "date": "2026-10-25",
+  "subject": "Round6 social actual-reading ledger and dedup premises",
+  "snapshot_files": [
+    {
+      "path": "research/round6-social/pool-audit.json",
+      "sha256": "e73a99fec0b0c1769ecdab213fc535bbcb610fb9aafad9a6ebd0390bab53f8a1"
+    },
+    {
+      "path": "research/round6-social/research-log.json",
+      "sha256": "e8e6245eb39acf48708412331ba11be650b7bbd97836050148e922a449b2da85"
+    }
+  ],
+  "disposition": "Counts/depth bookkeeping and historical hash provenance supported, with scope qualifications below. No independent assertion that all36full texts were reread by this reviewer.",
+  "counts": {
+    "rows": 50,
+    "depths": {
+      "full_submission": 44,
+      "selected_passages": 6
+    },
+    "matching_log_rows": 50,
+    "errors": []
+  },
+  "checks": [
+    "All42declared PDF identities reconciled with recorded cachemanifest hashes after intentional eviction. This verifies historical archive identity metadata, not a fresh42-document content reread.",
+    "Every full-depth row declares all resource pages; six selected rows remain selected. No keyword batch or merely downloaded source is admitted.",
+    "PKV SG2608130010/11/12 have identical recorded PDF hashes and identical normalized full text, correctly grouped once. Nicotine SG2609300060/SG2609220022 have different PDF hashes but identical normalized full text, correctly represented as one authored version.",
+    "Patient representation in GBA is explicitly external_submission null and eligibility pending, preserving the public-function boundary.",
+    "Author dates/months and unverified historical body dates are distinct from self-reported register recipient events. Historical ZaPF and Mayresolution bodies are not silently relabelled authored in autumn."
+  ],
+  "scope_cautions": [
+    "DGfN SG2608130006 has unqualified federal_process, whereas analogous HNO primary-care concept is exact-draft pending. Recommend mark exact federal legislative vehicle pending unless separately authenticated.",
+    "ZaPF SG2609190004 concerns an autonomous psychotherapy-fee decision and associated policy request; recommend explicit exact federal legislative vehicle pending rather than assuming the register association proves a legislative process. Reading count unchanged."
+  ],
+  "disposition_crosscheck": {
+    "hno": "Non-promotion is appropriate. Reviewer read author physical2,6–8,12 in full. Immediate context explicitly admits only few techniques available; formal GPbilling eligibility would not establish broad practical availability or falsify predicted referral costs. Exact draft/prevalence gates remain. No added issue or quotation.",
+    "limits": "No clinical efficacy or national billing/prevalence determination made; no missing evidence converted into proven error."
+  },
+  "follow_up_audits": [
+    {
+      "at_utc": "2026-10-25T11:42:16.325223+00:00",
+      "snapshot_files": [
+        {
+          "path": "research/round6-social/pool-audit.json",
+          "sha256": "62a5889352872423315f1a940b04f309bc2e685d8282b3ff6ecaadca12dc6ad7"
+        },
+        {
+          "path": "research/round6-social/research-log.json",
+          "sha256": "e13291a002ad7b28680b0a5ba6e51380542eb69dc9e4d5677ecb5bfae585bea3"
+        }
+      ],
+      "counts": {
+        "rows": 53,
+        "depths": {
+          "full_submission": 47,
+          "selected_passages": 6
+        },
+        "matching_log_rows": 53,
+        "errors": []
+      },
+      "checks": [
+        "All current rows reconcile declared reading depths, page extents and SHA256 identity with the historical central register manifest. This is metadata/ledger validation, not independent full rereading of the submissions.",
+        "New short Diakonie, ProGenerika, KipsFam, Frauenhaus, DSW and cannabis submissions are individually represented; subsequent DKG and DOPANET selected reads remain selected rather than full.",
+        "Previously flagged DGfN and ZaPF exact-vehicle gates are now explicit; analogous pending proposals are not represented as authenticated exact drafts. EU-only ProGenerika remains outside an established German federal legislative vehicle.",
+        "No merely downloaded study, draft or law is counted as a submission. Historical author dates remain distinct from self-reported recipient dates."
+      ],
+      "limits": "The earlier audit described42rows; later live metadata counts had already risen to50. This explicit snapshot supersedes the count only and preserves that historical audit narrative. No assertion that this reviewer independently reread44full texts or validated every clinical/financial claim."
+    },
+    {
+      "at_utc": "2026-10-25T11:59:24.762024+00:00",
+      "snapshot_files": [
+        {
+          "path": "research/round6-social/pool-audit.json",
+          "sha256": "7e61d0c3f4cde7be0b46c7cf35e75085a61073e05ab7c219f186a0b3efb886fb"
+        },
+        {
+          "path": "research/round6-social/research-log.json",
+          "sha256": "56da3e01e6aa86ac6c5e986179322fec04b5aee2c2a29a9f6b4dd1d6f1cb78b1"
+        }
+      ],
+      "counts": {
+        "rows": 57,
+        "depths": {
+          "full_submission": 51,
+          "selected_passages": 6
+        },
+        "full_resource_pages": 220,
+        "selected_declared_pages": 27,
+        "errors": []
+      },
+      "checks": [
+        "All57resource rows reconcile declared pages/depths/logs and central historical hashes. No mass restoration or independent57-document full reread.",
+        "Final four AIDS resources contribute actual reading credit but not automatically four new authored units. SG2610210014 and0017 map to the single pre-existing aids-childhealth-budget-20260923 unit; SG2610210018 maps to aids-globalhealth-budget-20261001. The parent rebuilt the current pool during this audit, and the full57-resource current match list is labelled accordingly.",
+        "The joint UNAIDS letter SG2610210019 keeps its policy-only/exact-legislative-vehicle gate. Original letter/table resources may be components of one authored package; current merged grouping is consistent with those pre-existing packages.",
+        "Previously reviewed primary-data ambiguities and phase-in limits remain; no additional issue inferred from the expanded inventory."
+      ],
+      "limits": "This audit validates identity/depth bookkeeping and known binary duplicate premises; it does not validate all claims or establish the entire national submission universe.",
+      "current_compiled_pool_matches": [
+        {
+          "id": "round6-social-sg2610220028",
+          "compiled_pool_ids": [
+            "round6-social-sg2610220028"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610220029",
+          "compiled_pool_ids": [
+            "round6-social-sg2610220029"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610220030",
+          "compiled_pool_ids": [
+            "round6-social-sg2610220030"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610220026",
+          "compiled_pool_ids": [
+            "round6-social-sg2610220026"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609250038",
+          "compiled_pool_ids": [
+            "round6-social-sg2609250038"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610060033",
+          "compiled_pool_ids": [
+            "round6-social-sg2610060033"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610200007",
+          "compiled_pool_ids": [
+            "round6-social-sg2610200007"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609300201",
+          "compiled_pool_ids": [
+            "round6-social-sg2609300201"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610120040",
+          "compiled_pool_ids": [
+            "round6-social-sg2610120040"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610010060",
+          "compiled_pool_ids": [
+            "round6-social-sg2610010060"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610070030",
+          "compiled_pool_ids": [
+            "round6-social-sg2610070030"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609300047",
+          "compiled_pool_ids": [
+            "round6-social-sg2609300047"
+          ]
+        },
+        {
+          "id": "round6-social-sg2608010002",
+          "compiled_pool_ids": [
+            "round6-social-sg2608010002"
+          ]
+        },
+        {
+          "id": "round6-social-sg2608040027",
+          "compiled_pool_ids": [
+            "round6-social-sg2608040027"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609300166",
+          "compiled_pool_ids": [
+            "round6-social-sg2609300166"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610190014",
+          "compiled_pool_ids": [
+            "round6-social-sg2610190014"
+          ]
+        },
+        {
+          "id": "round6-social-sg2608130010",
+          "compiled_pool_ids": [
+            "round6-social-sg2608130010"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609030005",
+          "compiled_pool_ids": [
+            "round6-social-sg2609030005"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610060032",
+          "compiled_pool_ids": [
+            "round6-social-sg2610060032"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609290126",
+          "compiled_pool_ids": [
+            "round6-social-sg2609290126"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609300038",
+          "compiled_pool_ids": [
+            "round6-social-sg2609300038"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609300041",
+          "compiled_pool_ids": [
+            "round6-social-sg2609300041"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609300042",
+          "compiled_pool_ids": [
+            "round6-social-sg2609300042"
+          ]
+        },
+        {
+          "id": "round6-social-sg2608210017",
+          "compiled_pool_ids": [
+            "round6-social-sg2608210017"
+          ]
+        },
+        {
+          "id": "round6-social-sg2608060013",
+          "compiled_pool_ids": [
+            "round6-social-sg2608060013"
+          ]
+        },
+        {
+          "id": "round6-social-sg2608030005",
+          "compiled_pool_ids": [
+            "round6-social-sg2608030005"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610230016",
+          "compiled_pool_ids": [
+            "round6-social-sg2610230016"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610050001",
+          "compiled_pool_ids": [
+            "round6-social-sg2610050001"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609140006",
+          "compiled_pool_ids": [
+            "round6-social-sg2609140006"
+          ]
+        },
+        {
+          "id": "round6-social-sg2608110010",
+          "compiled_pool_ids": [
+            "round6-social-sg2608110010"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609280079",
+          "compiled_pool_ids": [
+            "round6-social-sg2609280079"
+          ]
+        },
+        {
+          "id": "round6-social-sg2608130023",
+          "compiled_pool_ids": [
+            "round6-social-sg2608130023"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610160017",
+          "compiled_pool_ids": [
+            "round6-social-sg2610160017"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610140002",
+          "compiled_pool_ids": [
+            "round6-social-sg2610140002"
+          ]
+        },
+        {
+          "id": "round6-social-sg2608130006",
+          "compiled_pool_ids": [
+            "round6-social-sg2608130006"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609190004",
+          "compiled_pool_ids": [
+            "round6-social-sg2609190004"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609070002",
+          "compiled_pool_ids": [
+            "round6-social-sg2609070002"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609030007",
+          "compiled_pool_ids": [
+            "round6-social-sg2609030007"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610070028",
+          "compiled_pool_ids": [
+            "round6-social-sg2610070028"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609100006",
+          "compiled_pool_ids": [
+            "round6-social-sg2609100006"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609300269",
+          "compiled_pool_ids": [
+            "round6-social-sg2609300269"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609300287",
+          "compiled_pool_ids": [
+            "round6-tax-sg2609300287"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610120016",
+          "compiled_pool_ids": [
+            "round6-social-sg2610120016"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610050030",
+          "compiled_pool_ids": [
+            "round6-social-sg2610050030"
+          ]
+        },
+        {
+          "id": "round6-social-sg2608210012",
+          "compiled_pool_ids": [
+            "round6-social-sg2608210012"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609140012",
+          "compiled_pool_ids": [
+            "round6-social-sg2609140012"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609290004",
+          "compiled_pool_ids": [
+            "round6-social-sg2609290004"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609300209",
+          "compiled_pool_ids": [
+            "round6-social-sg2609300209"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609220020",
+          "compiled_pool_ids": [
+            "round6-social-sg2609220020"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609300060",
+          "compiled_pool_ids": [
+            "round6-social-sg2609300060"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609300259",
+          "compiled_pool_ids": [
+            "round6-social-sg2609300259"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610070001",
+          "compiled_pool_ids": [
+            "round6-social-sg2610070001"
+          ]
+        },
+        {
+          "id": "round6-social-sg2609040001",
+          "compiled_pool_ids": [
+            "round6-social-sg2609040001"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610210014",
+          "compiled_pool_ids": [
+            "aids-childhealth-budget-20260923"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610210017",
+          "compiled_pool_ids": [
+            "aids-childhealth-budget-20260923"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610210018",
+          "compiled_pool_ids": [
+            "aids-globalhealth-budget-20261001"
+          ]
+        },
+        {
+          "id": "round6-social-sg2610210019",
+          "compiled_pool_ids": [
+            "round6-social-sg2610210019"
+          ]
+        }
+      ],
+      "compiled_pool_snapshot": {
+        "path": "data/screening-pool.json",
+        "sha256": "87a290bdcdf6862a41121f965d1cd936efe1d2316884bc56fa857f4fddc2eab3",
+        "units": 792,
+        "note": "Parent rebuilt current pool during this audit; these are current compiled matches, not57pre-round6matches."
+      }
+    }
+  ]
+}

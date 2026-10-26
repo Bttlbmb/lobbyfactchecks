@@ -1,0 +1,354 @@
+{
+  "reviewer": "b",
+  "status": "pass_after_resolved_changes",
+  "created_at_utc": "2026-10-25T22:31:00.003218+00:00",
+  "review_type": "Independent final semantic integration audit",
+  "reviewed_snapshots": [
+    {
+      "batch": "short-statements-20261025",
+      "files": [
+        {
+          "file": "research/factual-checks/short-statements-20261025/factual-freeze.json",
+          "sha256": "51a3d472ec7a811b6b5b6d648a2da603889c0a7523b4800b18030962396ef56d"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/protocol.json",
+          "sha256": "305254e5b21439b5dc4b3c682a586f17f81fa7df0bed85c080f8b047effee186"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/adjudication.json",
+          "sha256": "35dfd07513ac5019971edab165722835a2657ed1e59b674ae8b4eca6f3256f46"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/claim-ledger.json",
+          "sha256": "761cc33b4f63980d13b4d28a60adc0ed6f43b8e4751ac9dda3181aacbcd8c5ac"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/summary.json",
+          "sha256": "9d5e1468ebadff1c8f5e83a239815eccf004213ea13f3b84be0afaa112dfb259"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/validation-report.json",
+          "sha256": "e34792163522c7c31e620c9cb9ed9980f7b0d573f556d726396f00db9db49c4c"
+        },
+        {
+          "file": "research/factual-checks/short-statements-20261025/report.html",
+          "sha256": "4a5d3cd33b452545a447d201d3eb7d25d0fd082a945026ddaeff71fca905634e"
+        }
+      ]
+    },
+    {
+      "batch": "short-it-components-20261025",
+      "files": [
+        {
+          "file": "research/factual-checks/short-it-components-20261025/factual-freeze.json",
+          "sha256": "1465d1e1dc737799be6c0f96e2b723e3bb10099bf355f90f6d6b0a30e630f83d"
+        },
+        {
+          "file": "research/factual-checks/short-it-components-20261025/protocol.json",
+          "sha256": "8b383620aa9e1ac8c34f8a99ec5a297739120ec42fb9a5ac24ed223080656aa5"
+        },
+        {
+          "file": "research/factual-checks/short-it-components-20261025/adjudication.json",
+          "sha256": "f8467ca476a46d29eb5c5e6c044a019c961126fe31e04b97619448654a9ed03e"
+        },
+        {
+          "file": "research/factual-checks/short-it-components-20261025/claim-ledger.json",
+          "sha256": "7853bb5d363924107763e75341bcdb48bbfe0ede9fcd881f69d7cef509e4aeca"
+        },
+        {
+          "file": "research/factual-checks/short-it-components-20261025/summary.json",
+          "sha256": "4642c054b873772b09d7a32922a357d22d2ac28d2360bbf8b9539e0eea2c021b"
+        },
+        {
+          "file": "research/factual-checks/short-it-components-20261025/validation-report.json",
+          "sha256": "8723e120a58cb56ef17cd18c6ab0fb559ee3dbe3c5f41c323eeb235703260bc9"
+        },
+        {
+          "file": "research/factual-checks/short-it-components-20261025/report.html",
+          "sha256": "886e8740e39a4d65e204a18ed523502eeb994dfaa9b48c9f92fce3d575fa86fa"
+        }
+      ]
+    }
+  ],
+  "scope": "Both assembled factual batches, with all recorded paraphrases/outcomes read and targeted adversarial examination of root changes, author context, previously checked premises and four omissions. Full scheduled independent originals/claim peers remain separately bound; C audits mechanical/global integration. This does not assert that B freshly researched all 201 claims or all counterpart background pages.",
+  "counts": {
+    "documents": 20,
+    "physical_pages": 63,
+    "assessments": 201,
+    "supported": 143,
+    "unresolved": 56,
+    "contradicted": 2,
+    "initial_peer_claim_reviews": 197,
+    "root_assessed_omissions": 4,
+    "new_main_issue_admissions": 0,
+    "new_reading_units": 0
+  },
+  "checks": [
+    {
+      "scope": "All assembled propositions",
+      "status": "pass",
+      "detail": "Read all 201 claim paraphrases and outcomes from both ledgers; inspected changed root decisions, four added omissions, relevant evidence/limits and corresponding rendered report articles. This is a targeted final semantic audit, not a fresh independent research pass over every primary source for all 201."
+    },
+    {
+      "scope": "Counts and bounded target descriptions",
+      "status": "pass",
+      "detail": "First batch 17 documents/58 pages/169 assessments = 123 supported, 44 unresolved, 2 contradicted. IT 3 formal external responses/5 pages/32 assessments = 20 supported, 12 unresolved. Combined 20 documents/63 pages/201 assessments = 143 supported, 56 unresolved, 2 contradicted; 197 initial peer reviews plus 4 root-assessed omissions. No new reading units or national/all-12-IT-response closure claimed."
+    },
+    {
+      "claim_ids": [
+        "short-a-015",
+        "short-a-037"
+      ],
+      "status": "pass",
+      "detail": "Final support remains confined to the dated guideline’s approximate clinical-planning German outer ranges and roughly five-month European winter context. Visible limits preserve quartiles, year/region variability, nonuniform season boundaries and no guaranteed whole-season protection."
+    },
+    {
+      "claim_ids": [
+        "short-a-031",
+        "short-a-032",
+        "short-a-035"
+      ],
+      "status": "pass",
+      "detail": "Original stronger often access premise and full hospital/ICU/death compound remain unresolved, rather than being weakened to can or dropping deaths. Preventive contribution is restored in 035 with ecological limitations; separate full primary June 2026 article check is preserved in B causal supplement. No exact causal fraction or sole-programme attribution inferred."
+    },
+    {
+      "claim_ids": [
+        "short-a-007",
+        "short-a-048"
+      ],
+      "status": "pass",
+      "detail": "Additional manufacturer dossier check is correctly limited to one March comparator price; Clesrovimab placeholders and preliminary-filing uncertainty do not recover the matched 3 September pair. Both remain unresolved. Report separates manufacturer submission from regulator determination and statutory deductions from negotiated rebates."
+    },
+    {
+      "claim_ids": [
+        "short-a-049"
+      ],
+      "status": "pass",
+      "detail": "Short exact section 130e anchor repair preserves the original incidental subsection-2 wording and supported proposed rebate mechanism. The staged edit does not invent a new author finding or mutate the frozen initial/peer record."
+    },
+    {
+      "claim_ids": [
+        "short-b-015"
+      ],
+      "status": "pass",
+      "detail": "Bounded intended identifier-based NOOTS legal architecture is supported. The author is not made to claim tax ID is technically necessary for every possible parcel retrieval; existing non-ID retrieval remains recognised."
+    },
+    {
+      "claim_ids": [
+        "short-b-021",
+        "short-b-036"
+      ],
+      "status": "pass_after_conservative_readjudication",
+      "detail": "Final full compounds remain unresolved after B challenge and C/root concurrence: service non-availability and an undetermined future commencement date are distinct. Article 20(5) supplies a readiness/announcement mechanism; September provider section E corroborates unavailable application, whereas section B’s unknown start date refers to inheritance-tax filing. No complete authenticated August announcement history was reconstructed."
+    },
+    {
+      "claim_ids": [
+        "short-b-055"
+      ],
+      "status": "pass_after_context_repair",
+      "detail": "Independently visually reread original VDV image-only page 1. The final paraphrase and explanation preserve primary/first-consulted source as the reasonable meaning of erste, not necessarily historically first-ever or exclusive source. Unresolved comprehensive actual digital coverage does not imply a proven chronological error."
+    },
+    {
+      "claim_ids": [
+        "short-c-003",
+        "short-c-005",
+        "short-c-024"
+      ],
+      "status": "pass",
+      "detail": "Actual IDW paragraphs on physical pp. 2, 3 and 5 independently read. EU ancillary-subject qualification is separate from illegality. Governance support now rests on complete HGB section 317, whose express assurance limits were independently read. Broad comparable assurance methods match the modest author premise and current curriculum; sustainability-specific differences and sufficiency of one four-hour exam remain separate."
+    },
+    {
+      "claim_ids": [
+        "short-c-032",
+        "short-c-033",
+        "short-c-034",
+        "short-c-042",
+        "short-c-043"
+      ],
+      "status": "pass",
+      "detail": "Entire BVBC six-page text reread for contextual audit. It expressly recognises non-degree routes and denies automatic DQR equivalence. WPO sections 8 and 13b independently read: normal degree route has stated experience alternatives, and existing credit is for higher-education examination work. Exact addressed draft to BVBC remains unauthenticated; IDW’s 23 September reference is not attributed to BVBC."
+    },
+    {
+      "claim_ids": [
+        "short-root-001"
+      ],
+      "status": "pass",
+      "detail": "IDW p. 3 explicitly makes reduced topic/compensation opportunities conditional on unchanged paper structure. Current exam rules independently confirm two papers and a written overall grade. Root does not claim measured psychometric effects, automatic lower competence or actual deterrence reductions."
+    },
+    {
+      "claim_ids": [
+        "short-root-002"
+      ],
+      "status": "pass",
+      "detail": "Municipal umbrella p. 5 independently reread. Its possible integration costs and listed software/interface/testing/migration inputs are represented as conditional and unquantified. Prior technical/model checks support work mechanisms, not realised cost amounts, compulsory costs in every system or adequacy of financing."
+    },
+    {
+      "claim_ids": [
+        "short-root-003"
+      ],
+      "status": "pass",
+      "detail": "VDV p. 1 visually reread. Present-tense owner-data causal premise remains distinct from hoped-for future reform gains. Error-handling architecture alone is not made proof of the full breadth or incidence of actual project delays/cost effects; unresolved retained without a falsehood inference."
+    },
+    {
+      "claim_ids": [
+        "short-it-a-001",
+        "short-it-a-002",
+        "short-it-a-005",
+        "short-it-a-007",
+        "short-it-a-010",
+        "short-it-a-011",
+        "short-it-a-012",
+        "short-it-a-013",
+        "short-it-a-014"
+      ],
+      "status": "pass",
+      "detail": "All original DATABUND two pages and all 15 claims independently peer-read before this audit. Market share/history, good implementability attribution, practical market displacement, actual denied interfaces/Land complaints and massive investment effects remain unresolved. Public standards, backend integration and public-authority certificate rules are not used to deny historical competing-front-end access allegations."
+    },
+    {
+      "claim_ids": [
+        "short-it-a-008",
+        "short-it-a-015"
+      ],
+      "status": "pass",
+      "detail": "Operator cost/adaptation mechanics and exact draft pp. 10–11 support bounded conditional work, not the excluded unreasonable future threshold. Statutory role allocation remains functional; one municipal organisation can hold multiple duties, and AufenthG section 78(7) permits other Land-designated authorities."
+    },
+    {
+      "claim_ids": [
+        "short-it-b-002",
+        "short-it-b-005"
+      ],
+      "status": "pass",
+      "detail": "Broad disease-at-risk constituency is not compared to blindness-only registries or summed across overlapping disorders; seven-million precise current composite remains unresolved. Accessibility support is explicitly attributed to the April service declaration, not an independently repeated live technical test; transaction service and marketing website are distinguished."
+    },
+    {
+      "claim_ids": [
+        "short-it-c-010",
+        "short-it-root-001"
+      ],
+      "status": "pass",
+      "detail": "Full VITAKO two-page text independently reread for context. Exact June MPK primary paragraph 3(a), physical p. 3, independently reopened: end-2026 concerns an ordinance establishing binding reuse, not guaranteed achieved nationwide live connections. Operator stages support preparation lead time; neither statute nor this mechanism proves the requested twelve-month period is a technical minimum."
+    },
+    {
+      "scope": "Error admissions and actor/scope safeguards",
+      "status": "pass",
+      "detail": "Both adjudications contain zero main issue admissions. Existing wrong IDNrG deadline is explicitly deduplicated; incidental RSV next-day commencement discrepancy is not admitted as a substantive new finding. Reports retain no intent/human-specialist/receipt-completeness inference and do not call every statutory/self-government body a private lobbyist."
+    },
+    {
+      "scope": "Earlier metadata concerns",
+      "status": "pass",
+      "detail": "Earlier preserved B snapshot audit identified copied author/page provenance and source-count-label ambiguity. Current omission resolutions correctly name IDW p. 3 and municipal umbrella p. 5; source note containers are distinguished from full archives and duplicate source-record counts from unique physical files."
+    }
+  ],
+  "resolved_issues": [
+    {
+      "id": "b-semantic-enova-date-scope",
+      "affected_claims": [
+        "short-b-021",
+        "short-b-036"
+      ],
+      "challenge": "Application not yet available does not by itself prove future commencement date not already fixed/announced. The original compound includes that date premise.",
+      "resolution": "Root and C independently reconsidered the actual author pages, Act and provider passages. Both full compounds now unresolved, with support for only the narrower availability/trigger evidence expressly separated.",
+      "no_author_error_inferred": true
+    },
+    {
+      "id": "b-semantic-vdv-first-source",
+      "affected_claims": [
+        "short-b-055"
+      ],
+      "challenge": "Erste reasonably means primary/first consulted, not historical first-ever or sole source.",
+      "resolution": "Root preserves alternative explicitly in final paraphrase/explanation, retains unresolved comprehensive digital availability, and disclaims chronological error."
+    }
+  ],
+  "remaining_issues": [],
+  "primary_reopening": [
+    {
+      "url": "https://www.gesetze-im-internet.de/wiprpr_fv/__7.html",
+      "extent": "Complete section 7; current official single norm",
+      "result": "Two BWL/VWL papers in existing structure; no measured psychometric result claimed."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/wiprpr_fv/__13.html",
+      "extent": "Complete section 13; current official single norm",
+      "result": "Written overall grade where two papers are required."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/wiprpr_fv/__4.html",
+      "extent": "Complete displayed subject catalogue",
+      "result": "Core audit standards, approach/conduct and reporting are explicitly examined; not curriculum identity for every sustainability topic."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/HGB.pdf",
+      "original_sha256": "30dd1fc834d186097de827e80c3ebda61a63967996066525701658c3871acc09",
+      "extent": "Header and complete section 317, physical 93–94 only",
+      "result": "Pre-author 4 February 2026 header; relevant audit/legal/governance scope plus explicit limits on management/continuance assurance."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/wipro/WPO.pdf",
+      "original_sha256": "438e41ccc5b833d904a2d3dc4b288f014e2acba374ebd3a3cf3a842956221c3e",
+      "extent": "Header; sections 8 and 13b; not whole statute",
+      "result": "Pre-author 4 February 2026 header; normal degree/experience alternatives and higher-education credit scope."
+    },
+    {
+      "url": "https://ifacweb.blob.core.windows.net/publicfiles/2025-01/IAASB-International-Standard-on-Sustainability-Assurance-ISSA-5000.pdf",
+      "extent": "Cover, contents, requirements 89 and 95 and selected A225–A227 plus adjacent evidence discussion; not full 231 pages",
+      "result": "Common evidence/planning/procedure families support broad comparability, without identical expertise or examination sufficiency."
+    },
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2006-81064",
+      "extent": "Original Article 8 and adjacent Articles 9–12; not full act or reconstructed 2026 consolidation",
+      "result": "Ancillary subjects qualified by audit relevance; national options and equivalent qualification language are conditional."
+    },
+    {
+      "url": "https://www.bnotk.de/aufgaben-und-taetigkeiten/rundschreiben/details/elektronischer-notar-verwaltungs-austausch-enova-erste-verpflichtungen-ab-dem-1-oktober-2026",
+      "extent": "Date/header and complete sections B/E independently reopened; not all annexes",
+      "result": "September query application forthcoming; no direct complete August announcement history. Unspecified date in B is inheritance-tax filing."
+    },
+    {
+      "url": "https://www.recht.bund.de/bgbl/1/2026/192/regelungstext.pdf?__blob=publicationFile&v=1",
+      "original_sha256": "15fcf268bd8ec91b2c27933d163d5ffbad40ac7dc6af37ba6a70300b112d0ce2",
+      "extent": "Existing independently checked exact promulgated copy; Article 20 physical 14 reread in this audit",
+      "result": "Readiness trigger with BMF Gazette notice, not a fixed calendar date in the Act."
+    },
+    {
+      "url": "https://www.rlp.de/fileadmin/02/MPK_Vorsitz/Beschluesse_MPK_25Juni_Berlin/Neue_Dokumente_03072026/Beschluss_TOP_3.2_BK-MPK_final.pdf",
+      "extent": "Identity and physical pp. 2–4, especially complete paragraph 3(a); not full eight pages",
+      "result": "Target for nationwide legally binding eWA reuse through section 4 ordinance, distinct future functionality and implementation timelines."
+    }
+  ],
+  "source_access_limits": [
+    {
+      "url": "https://www.gesetze-im-internet.de/hgb/__317.html",
+      "result": "Timed out; resolved by independently reading shared exact official PDF relevant pages."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/wipro/__13b.html",
+      "result": "Timed out; resolved by independently reading shared official PDF relevant section."
+    },
+    {
+      "search_scope": "Official BMF/BZSt/Bundesgesetzblatt targeted enquiry commencement queries",
+      "result": "No matched historical announcement recovered. Search absence is not proof of none; final compound remains unresolved."
+    }
+  ],
+  "linked_prior_frozen_work": [
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/b-integration-snapshot-audit.json",
+      "sha256": "8697d57f7f42d912a4360c51cc9a413fdbe1a05e47414b6f23b1403f167d5b4c"
+    },
+    {
+      "file": "research/factual-checks/short-statements-20261025/reviews/b-rsv-price-supplement.json",
+      "sha256": "faecd52ffc40eeb429064a581d2fb554ecfa7fdd5850b85f21e9b3c05b76cc3c"
+    },
+    {
+      "file": "research/factual-checks/short-it-components-20261025/reviews/b-reviews-a.json",
+      "sha256": "d651248a0758da095855d0b4001cd06e605bc269a76ea18b81defaf3d05feb81"
+    }
+  ],
+  "limitations": [
+    "No regeneration of JSON caches, builders, main data or frozen raw/review mutation.",
+    "Detailed full-original initial and scheduled counterpart review coverage is in its respective immutable records. Extra author contexts here do not create new screening units.",
+    "Global pool and main-record preservation are C’s separate audit; this file asserts no fresh full baseline equality audit.",
+    "Parent minimum active-work duration remains separately gated and is not certified by this factual semantic pass.",
+    "No new public source download retained; shared temporary bytes were reused, web passages read directly, and this authored audit records actual extents."
+  ]
+}

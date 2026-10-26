@@ -1,0 +1,61 @@
+{
+  "review_id": "tax-reviews-vik-ehv-waste",
+  "reviewed_at": "2026-10-25",
+  "reviewer": "independent_tax_ai",
+  "candidate_id": "ehv2030-2026-vik-waste-costs-a01",
+  "outcome": "recommend_unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "checks": [
+    "Read both author pages in full, including the immediately preceding general reference to plants newly covered by BEHG, the following hazardous-waste sentences, and the alternative request for a targeted exemption or suspension of BEHG.",
+    "Independently read the Danish Energy Agency original release of 28 May 2014, Danish Tax Agency guidance 2026-1 for waste incineration, the Swedish government directive of 2 June 2016 at its ETS section, and the relevant Danish/Swedish/Norwegian portions of the Nordic 2024 governmental report. These affirm foreign pricing of waste-to-energy installations.",
+    "Read the archived January EHV consultation draft cover and problem/solution section, and operative section 4 beginning at printed page 20. The request concerns the wider underlying market rather than a claim that this implementing draft first imposed waste pricing."
+  ],
+  "analysis": "The general wording creates a worthwhile lead, and absence of a uniform European obligation does not entail absence of all foreign carbon costs. Nevertheless, the immediately preceding reference to newly BEHG-covered plants can delimit the following demonstrative to a specific cohort. The ensuing substantive discussion and requested exemption concern hazardous-waste installations. Affirmative foreign examples are principally energy-recovery installations. The Swedish government expressly distinguishes energy-production purpose from waste-destruction purpose, while Danish guidance excludes dedicated hazardous/municipal-waste facilities from ETS. Those are substantive scope differences, not merely missing data. No matched hazardous/dedicated-waste counterexample is established here.",
+  "strongest_alternative": "The author may mean the additional German charge for the cohort newly entering BEHG, particularly dedicated hazardous-waste sites, rather than all installations that burn waste anywhere. A separate instrument-specific reading is also possible, although the causal appeal to European coverage makes that reading less complete.",
+  "materiality": "Potentially minor if the broad generic reading were established: foreign counterexamples would qualify uniqueness but not equalize coverage or costs. At present the interpretation uncertainty precedes materiality adjudication.",
+  "direction": "Null while unresolved. Under the broad reading a Germany-only claim would support the requested exemption or suspension, but direction cannot resolve which cohort the author meant.",
+  "limits": [
+    "Do not infer that the printed Germany-only statement is correct. This review withholds a proved-error finding because the presently established foreign counterexamples may concern a different legal cohort.",
+    "Do not claim equal net costs, identical coverage, or pricing of hazardous waste in the foreign examples. No policy merit or intent conclusion follows.",
+    "A matched foreign dedicated-waste carbon charge applicable by 29 January 2026, or an explicit broader scope clarification in the author record, could resolve this lead."
+  ],
+  "files_checked": [
+    "research/round2-energy/sources/vik-ehv2030-20260129.pdf",
+    "research/round2-energy/sources/ehv2030-refe-202601.pdf",
+    "research/round2-energy/vik-ehv-source-registry.json"
+  ],
+  "primary_web_sources_checked": [
+    "https://ens.dk/presse/kvotevirksomhedernes-co2-udledning-steg-i-2013",
+    "https://info.skat.dk/data.aspx?oid=2060524",
+    "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/kommittedirektiv/utredning-om-ekonomiska-styrmedel-for-el-och_h4b134/",
+    "https://pub.norden.org/temanord2024-524/2-legislative-frameworks-and-circular-economy-impacts.html"
+  ],
+  "quote_note": "No additional verbatim quotations recorded.",
+  "follow_up": {
+    "date": "2026-10-25",
+    "supersedes_original_outcome": true,
+    "outcome": "retain_provisional_finding_after_new_hazardous_waste_evidence",
+    "severity": "minor",
+    "favours_author_request": true,
+    "new_primary_reads": [
+      "Independently read the complete Danish Tax Agency2026-1 E.A.4.2.1 historical/operative overview: the hazardous-waste subsection expressly identifies CO2 tax from1January2015, and the immediately following ETS subsection separately excludes hazardous incineration from ETS. This is affirmative carbon-tax coverage, not inference from ordinary energy-recovery ETS plants.",
+      "Read the non-ETS calculation and exemption discussion in2026-1 E.A.4.5.7.3, including heat/electricity treatment, qualifying waste, and exceptions. Pure destruction without taxable energy use and eligible exempt material must not be described as universally charged.",
+      "Read the relevant Danish parliamentary ministerial2022 answer identifying Fortum as a specialised hazardous-waste incineration/destruction facility. It corroborates existence of the dedicated cohort; its proposed future rates are not treated as paid charges."
+    ],
+    "reassessment": "The original objection depended on counterexamples being only an unrelated energy-recovery ETS cohort. The new official guidance expressly establishes a separate hazardous-incineration carbon-tax regime, including plants outside ETS. A general claim that waste-incineration carbon costs arise exclusively in Germany is therefore overstated even under a hazardous-waste-focused reading. We do not need to establish tax on every dedicated destruction plant to refute a universal exclusive-country description. Nevertheless, instrument-specific additional German costs and particular unpriced destruction operations remain material qualifications.",
+    "materiality": "Retain minor only: the correction qualifies international uniqueness, not competitive parity or the appropriateness of suspension/exemption. No current operator-specific amount or net fiscal burden is established.",
+    "archive_integrity": "The bare-URL web reader exposes2026-1 with editorial cutoff31December2025. The initial local dk-tax-waste-2026-1.html archive actually has2026-2 breadcrumb/vid221020 and a later case inserted in its body. Energy agent notified to correct archive labels or retrieve explicit historical version. Do not silently authenticate that local copy as2026-1.",
+    "limits": [
+      "Retain heat/energy-use and non-biodegradable-waste scope, national instrument differences, exemptions, cost pass-through and possible compensation. No claim of identical German/Danish legal scope or net costs.",
+      "The official guide describes a historical rule still in force in its2026-1 text. No full tax-law consolidation audit or professionally certified Danish translation is claimed.",
+      "If the raw record remains framed as all hazardous plants necessarily charged abroad, that broader wording is not supported by this review."
+    ],
+    "sources": [
+      "https://info.skat.dk/data.aspx?oid=2048993",
+      "https://info.skat.dk/data.aspx?oid=2060524",
+      "https://www.ft.dk/samling/20211/almdel/kef/spm/337/svar/1894862/2596909/index.htm"
+    ],
+    "quote_note": "No new quotations recorded; original conservative assessment preserved for audit."
+  }
+}

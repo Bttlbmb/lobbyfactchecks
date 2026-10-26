@@ -1,0 +1,4349 @@
+[
+  [
+    "questionName",
+    "variableName",
+    "questionType",
+    "subType",
+    "questionText",
+    "choiceValue",
+    "choiceText"
+  ],
+  [
+    "c_1",
+    "c_1",
+    "Closed",
+    "Single",
+    "Organisationsname",
+    "469",
+    null
+  ],
+  [
+    "c_nrname2",
+    "c_nrname2",
+    "Open",
+    "String",
+    "Organisationsname gemäß Lobbyregister",
+    "469",
+    null
+  ],
+  [
+    "c_kombname1",
+    "c_kombname1",
+    "Open",
+    "String",
+    "Kombinierter Organisationsname",
+    "469",
+    null
+  ],
+  [
+    "Veröffentlichung_Einverständnis",
+    "veröffentlichung_einverständnis",
+    "Closed",
+    "Single",
+    "Einverständniserklärung Veröffentlichung (Pflichtfeld)",
+    "469",
+    null
+  ],
+  [
+    "datenschutz_zustimmung",
+    "datenschutz_zustimmung",
+    "Closed",
+    "Single",
+    "datenschutz_zustimmung",
+    "469",
+    null
+  ],
+  [
+    "reg_nr1",
+    "reg_nr1",
+    "Open",
+    "String",
+    "Bitte geben Sie die Registernummer für Ihre Organisation ein (Form: R123456):",
+    "469",
+    null
+  ],
+  [
+    "organisation_art",
+    "organisation_art",
+    "Closed",
+    "Single",
+    "Art der Organisation",
+    "469",
+    null
+  ],
+  [
+    "organisation_name",
+    "organisation_name",
+    "Open",
+    "String",
+    "Name der Organisation*\n* Pflichtfeld, als Privatperson \"Privat\" eintragen.",
+    "469",
+    null
+  ],
+  [
+    "person_anrede",
+    "person_anrede",
+    "Closed",
+    "Single",
+    "Anrede der Ansprechperson\n(wird grundsätzlich nicht veröffentlicht)",
+    "469",
+    null
+  ],
+  [
+    "person_titel",
+    "person_titel",
+    "Closed",
+    "Single",
+    "Titel der Ansprechperson\n(wird grundsätzlich nicht veröffentlicht)",
+    "469",
+    null
+  ],
+  [
+    "person_nachname",
+    "person_nachname",
+    "Open",
+    "String",
+    "Nachname der Ansprechperson*\n* Pflichtfeld (wird grundsätzlich nicht veröffentlicht)",
+    "469",
+    null
+  ],
+  [
+    "person_vorname",
+    "person_vorname",
+    "Open",
+    "String",
+    "Vorname der Ansprechperson*\n* Pflichtfeld (wird grundsätzlich nicht veröffentlicht)",
+    "469",
+    null
+  ],
+  [
+    "person_email",
+    "person_email",
+    "Open",
+    "String",
+    "Alternative E-Mail-Adresse\nstandardmäßig ist bereits die E-Mail-Adresse hinterlegt, an die der Verifizierungslink geschickt wurde. Wenn Sie möchten, können Sie hier eine weitere E-Mail hinterlegen.\n(wird grundsätzlich nicht veröffentlicht)",
+    "469",
+    null
+  ],
+  [
+    "person_Telefonnummer",
+    "person_telefonnummer",
+    "Open",
+    "Double",
+    "Telefonnummer\nbitte im Format 0049 000000, ohne Klammern (wird grundsätzlich nicht veröffentlicht)",
+    "469",
+    null
+  ],
+  [
+    "organisation_anschrift",
+    "organisation_anschrift",
+    "Open",
+    "String",
+    "Anschrift\n(wird grundsätzlich nicht veröffentlicht)",
+    "469",
+    null
+  ],
+  [
+    "Auswahl_Stellungsnahme",
+    "auswahl_stellungsnahme_1",
+    "Closed",
+    "Multiple",
+    "Zu welchen Teilen des Gesetzesentwurfs möchten Sie Stellung nehmen?",
+    1,
+    "Artikel 1 – Änderung des Erneuerbare-Energien-Gesetzes (EEG)"
+  ],
+  [
+    "Auswahl_Stellungsnahme",
+    "auswahl_stellungsnahme_2",
+    "Closed",
+    "Multiple",
+    "Zu welchen Teilen des Gesetzesentwurfs möchten Sie Stellung nehmen?",
+    5,
+    "Artikel 2 – Änderung des Energiewirtschaftsgesetzes (EnWG)"
+  ],
+  [
+    "Auswahl_Stellungsnahme",
+    "auswahl_stellungsnahme_3",
+    "Closed",
+    "Multiple",
+    "Zu welchen Teilen des Gesetzesentwurfs möchten Sie Stellung nehmen?",
+    2,
+    "Artikel 3 – Änderung des Messstellenbetriebsgesetzes (MsbG)"
+  ],
+  [
+    "Auswahl_Stellungsnahme",
+    "auswahl_stellungsnahme_4",
+    "Closed",
+    "Multiple",
+    "Zu welchen Teilen des Gesetzesentwurfs möchten Sie Stellung nehmen?",
+    3,
+    "Artikel 4 – Änderung der Erneuerbare-Energien-Verordnung (EEV)"
+  ],
+  [
+    "Auswahl_Stellungsnahme",
+    "auswahl_stellungsnahme_5",
+    "Closed",
+    "Multiple",
+    "Zu welchen Teilen des Gesetzesentwurfs möchten Sie Stellung nehmen?",
+    6,
+    "Artikel 5 – Innovationsausschreibungsverordnung (InnAusV)"
+  ],
+  [
+    "Auswahl_Stellungsnahme",
+    "auswahl_stellungsnahme_6",
+    "Closed",
+    "Multiple",
+    "Zu welchen Teilen des Gesetzesentwurfs möchten Sie Stellung nehmen?",
+    4,
+    "Artikel 6 – Energiefinanzierungsgesetz (EnFG)"
+  ],
+  [
+    "s_36",
+    "s_36_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 1, zu welchen Teilen möchten Sie Stellung nehmen?",
+    1,
+    "Teil 1 – Allgemeine Bestimmungen "
+  ],
+  [
+    "s_36",
+    "s_36_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 1, zu welchen Teilen möchten Sie Stellung nehmen?",
+    2,
+    "Teil 2 – Anschluss, Abnahme, Übertragung und Verteilung"
+  ],
+  [
+    "s_36",
+    "s_36_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 1, zu welchen Teilen möchten Sie Stellung nehmen?",
+    3,
+    "Teil 3 – Zahlungsanspruch und Zahlungspflicht der Anlagenbetreiber, Ausschreibungen, Gesetzliche Bestimmung der Zahlungen"
+  ],
+  [
+    "s_36",
+    "s_36_4",
+    "Closed",
+    "Multiple",
+    "In Artikel 1, zu welchen Teilen möchten Sie Stellung nehmen?",
+    4,
+    "Teil 4 – Weitergabe und Vermarktung des Stroms aus erneuerbaren Energien"
+  ],
+  [
+    "s_36",
+    "s_36_5",
+    "Closed",
+    "Multiple",
+    "In Artikel 1, zu welchen Teilen möchten Sie Stellung nehmen?",
+    5,
+    "Teil 5 – Transparenz"
+  ],
+  [
+    "s_36",
+    "s_36_6",
+    "Closed",
+    "Multiple",
+    "In Artikel 1, zu welchen Teilen möchten Sie Stellung nehmen?",
+    6,
+    "Teil 6 – Rechtsschutz und behördliches Verfahren "
+  ],
+  [
+    "s_36",
+    "s_36_7",
+    "Closed",
+    "Multiple",
+    "In Artikel 1, zu welchen Teilen möchten Sie Stellung nehmen?",
+    7,
+    "Teil 7 – Verordnungsermächtigungen, Berichte, Übergangsbestimmungen"
+  ],
+  [
+    "s_36",
+    "s_36_8",
+    "Closed",
+    "Multiple",
+    "In Artikel 1, zu welchen Teilen möchten Sie Stellung nehmen?",
+    8,
+    "Anlage 1"
+  ],
+  [
+    "s_36",
+    "s_36_9",
+    "Closed",
+    "Multiple",
+    "In Artikel 1, zu welchen Teilen möchten Sie Stellung nehmen?",
+    9,
+    "Anlage 2"
+  ],
+  [
+    "s_36",
+    "s_36_10",
+    "Closed",
+    "Multiple",
+    "In Artikel 1, zu welchen Teilen möchten Sie Stellung nehmen?",
+    10,
+    "Anlage 4"
+  ],
+  [
+    "artikel_2",
+    "artikel_2_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 2, zu welchen Teilen möchten Sie Stellung nehmen?",
+    4,
+    "Teil 4 – Energielieferung an Letztverbraucher"
+  ],
+  [
+    "Artikel2",
+    "artikel2_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 3, zu welche Kapitel möchten Sie Stellung nehmen",
+    1,
+    "Kapitel 4 – Ergänzende Rechte und Pflichten im Zusammenhang mit dem Messstellenbetrieb mit modernen Messeinrichtungen und intelligenten Messsystemen"
+  ],
+  [
+    "Artikel2",
+    "artikel2_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 3, zu welche Kapitel möchten Sie Stellung nehmen",
+    2,
+    "Kapitel 6 – Übertragung der Grundzuständigkeit für moderne Messeinrichtungen und intelligente Messsysteme"
+  ],
+  [
+    "s_38",
+    "s_38_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 4, zu welchen Abschnitten Möchten SIe Stellung nehmen?",
+    1,
+    "Abschnitt 2 – Vermarktung von EEG-Strom"
+  ],
+  [
+    "s_38",
+    "s_38_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 4, zu welchen Abschnitten Möchten SIe Stellung nehmen?",
+    3,
+    "Abschnitt 3 – Herkunfts- und Regionalnachweise für Strom aus erneuerbaren Energien"
+  ],
+  [
+    "s_38",
+    "s_38_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 4, zu welchen Abschnitten Möchten SIe Stellung nehmen?",
+    2,
+    "Abschnitt 3a – Anschlussförderung von Güllekleinanlagen"
+  ],
+  [
+    "s_39",
+    "s_39_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6, zu welchen Teilen möchten Sie Stellung nehmen?",
+    1,
+    "Teil 1 – Allgemeine Bestimmungen"
+  ],
+  [
+    "s_39",
+    "s_39_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6, zu welchen Teilen möchten Sie Stellung nehmen?",
+    3,
+    "Teil 3 – Ausgleich durch Zahlungen des Bundes "
+  ],
+  [
+    "s_39",
+    "s_39_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 6, zu welchen Teilen möchten Sie Stellung nehmen?",
+    4,
+    "Teil 4 – Ausgleich durch Erhebung von Umlagen und weiterer Ausgleichsmechanismus"
+  ],
+  [
+    "s_39",
+    "s_39_4",
+    "Closed",
+    "Multiple",
+    "In Artikel 6, zu welchen Teilen möchten Sie Stellung nehmen?",
+    5,
+    "Teil 5 – Kontoführungs-, Mitteilungs- und Veröffentlichungspflichten"
+  ],
+  [
+    "s_39",
+    "s_39_5",
+    "Closed",
+    "Multiple",
+    "In Artikel 6, zu welchen Teilen möchten Sie Stellung nehmen?",
+    6,
+    "Teil 6 – Rechtsschutz und behördliches Verfahren"
+  ],
+  [
+    "s_39",
+    "s_39_6",
+    "Closed",
+    "Multiple",
+    "In Artikel 6, zu welchen Teilen möchten Sie Stellung nehmen?",
+    7,
+    "Teil 7 – Verordnungsermächtigungen, Schlussbestimmungen "
+  ],
+  [
+    "s_39",
+    "s_39_7",
+    "Closed",
+    "Multiple",
+    "In Artikel 6, zu welchen Teilen möchten Sie Stellung nehmen?",
+    8,
+    "Anlage 1"
+  ],
+  [
+    "s_11",
+    "s_11_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 3, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    1,
+    "Abschnitt 1, Unterabschnitt 1 – Zahlungsanspruch der Anlagenbetreiber"
+  ],
+  [
+    "s_11",
+    "s_11_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 3, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    13,
+    "Abschnitt 1, Unterabschnitt 2 – Zahlungspflicht der Anlagenbetreiber"
+  ],
+  [
+    "s_11",
+    "s_11_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 3, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    2,
+    "Abschnitt 2 - Allgemeine Bestimmungen zum Zahlungsanspruch und zur Zahlungspflicht"
+  ],
+  [
+    "s_11",
+    "s_11_4",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 3, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    12,
+    "Abschnitt 3, Unterabschnitt 1 – Allgemeine Ausschreibungsbestimmungen"
+  ],
+  [
+    "s_11",
+    "s_11_5",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 3, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    3,
+    "Abschnitt 3, Unterabschnitt 2 – Ausschreibungen für Windenergie an Land"
+  ],
+  [
+    "s_11",
+    "s_11_6",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 3, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    4,
+    "Abschnitt 3, Unterabschnitt 3 – Ausschreibungen für Solaranlagen des ersten Segments"
+  ],
+  [
+    "s_11",
+    "s_11_7",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 3, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    5,
+    "Abschnitt 3, Unterabschnitt 4 – Ausschreibungen für Solaranlagen des zweiten Segments"
+  ],
+  [
+    "s_11",
+    "s_11_8",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 3, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    6,
+    "Abschnitt 3, Unterabschnitt 5 – Ausschreibungen für Biomasseanlagen"
+  ],
+  [
+    "s_11",
+    "s_11_9",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 3, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    7,
+    "Abschnitt 3, Unterabschnitt 6 – (weggefallen)"
+  ],
+  [
+    "s_11",
+    "s_11_10",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 3, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    8,
+    "Abschnitt 3, Unterabschnitt 7 – Resilienzausschreibungen "
+  ],
+  [
+    "s_11",
+    "s_11_11",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 3, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    9,
+    "Abschnitt 4, Unterabschnitt 1 – Anzulegende Werte"
+  ],
+  [
+    "s_11",
+    "s_11_12",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 3, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    10,
+    "Abschnitt 4, Unterabschnitt 2 – Zahlung für Flexibilität"
+  ],
+  [
+    "s_11",
+    "s_11_13",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 3, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    14,
+    "Abschnitt 4, Unterabschnitt 3 – Zahlungen für den Hochlauf der Direktvermarktung"
+  ],
+  [
+    "s_11",
+    "s_11_14",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 3, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    11,
+    "Abschnitt 5 – Rechtsfolgen und Strafen"
+  ],
+  [
+    "s_13",
+    "s_13_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 5, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    1,
+    "Teil 5, Abschnitt 1 – Mitteilungs- und Veröffentlichungspflichten"
+  ],
+  [
+    "s_13",
+    "s_13_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 5, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    2,
+    " Teil 5, Abschnitt 2 – Stromkennzeichnung und Doppelvermarktungsverbot"
+  ],
+  [
+    "s_44",
+    "s_44_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 7, zu welchen Abschnitte möchten Sie Stellung nehmen?",
+    1,
+    " Teil 7, Abschnitt 1 – Verordnungsermächtigungen"
+  ],
+  [
+    "s_44",
+    "s_44_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 7, zu welchen Abschnitte möchten Sie Stellung nehmen?",
+    2,
+    " Teil 7, Abschnitt 2 – Kooperationsausschuss, Monitoring, Berichte"
+  ],
+  [
+    "s_44",
+    "s_44_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 7, zu welchen Abschnitte möchten Sie Stellung nehmen?",
+    3,
+    " Teil 7, Abschnitt 3 – Schlussbestimmungen"
+  ],
+  [
+    "Artikel1_Teil1",
+    "artikel1_teil1_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 3  Begriffsbestimmungen"
+  ],
+  [
+    "Artikel1_Teil1",
+    "artikel1_teil1_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 4 Ausbaupfad"
+  ],
+  [
+    "Artikel1_Teil1",
+    "artikel1_teil1_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 4a (weggefallen)"
+  ],
+  [
+    "Artikel1_Teil1",
+    "artikel1_teil1_4",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "§ 5 Ausbau im In- und Ausland; grenzüberschreitende Ausschreibungen"
+  ],
+  [
+    "Artikel1_Teil1",
+    "artikel1_teil1_5",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "§ 6 Finanzielle Beteiligung der Kommunen"
+  ],
+  [
+    "Artikel1_Teil1",
+    "artikel1_teil1_6",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    15,
+    "§ 7 Gesetzliches Schuldverhältnis "
+  ],
+  [
+    "Artikel1_Teil1",
+    "artikel1_teil1_7",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    14,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "Artikel1_Teil1",
+    "artikel1_teil1_8",
+    "Closed",
+    "Multiple",
+    "In Artikel 1 Teil 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    13,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 1 machen"
+  ],
+  [
+    "Artikel1_Teil2Abschnitt1",
+    "artikel1_teil2abschnitt1_1",
+    "Closed",
+    "Multiple",
+    "In Teil 2 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 8b Mitteilung des Einspeiseortes"
+  ],
+  [
+    "Artikel1_Teil2Abschnitt1",
+    "artikel1_teil2abschnitt1_2",
+    "Closed",
+    "Multiple",
+    "In Teil 2 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 9 Technische Vorgaben"
+  ],
+  [
+    "Artikel1_Teil2Abschnitt1",
+    "artikel1_teil2abschnitt1_3",
+    "Closed",
+    "Multiple",
+    "In Teil 2 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "§ 10b Vorgaben zur Direktvermarktung"
+  ],
+  [
+    "Artikel1_Teil2Abschnitt1",
+    "artikel1_teil2abschnitt1_4",
+    "Closed",
+    "Multiple",
+    "In Teil 2 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "Artikel1_Teil2Abschnitt1",
+    "artikel1_teil2abschnitt1_5",
+    "Closed",
+    "Multiple",
+    "In Teil 2 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    7,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 2 – Abschnitt 1 machen"
+  ],
+  [
+    "Artikel1_Teil3Abschnitt1",
+    "artikel1_teil3abschnitt1_1",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 1 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 19 Zahlungsanspruch"
+  ],
+  [
+    "Artikel1_Teil3Abschnitt1",
+    "artikel1_teil3abschnitt1_2",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 1 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 20 Marktprämie"
+  ],
+  [
+    "Artikel1_Teil3Abschnitt1",
+    "artikel1_teil3abschnitt1_3",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 1 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "§ 21 Netzbetreiberabnahme und Mieterstromzuschlag"
+  ],
+  [
+    "Artikel1_Teil3Abschnitt1",
+    "artikel1_teil3abschnitt1_4",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 1 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    9,
+    "§ 21b Zuordnung zu einer Veräußerungsform, Wechsel"
+  ],
+  [
+    "Artikel1_Teil3Abschnitt1",
+    "artikel1_teil3abschnitt1_5",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 1 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    10,
+    "§ 21c Verfahren für die Zuordnung und den Wechsel"
+  ],
+  [
+    "Artikel1_Teil3Abschnitt1",
+    "artikel1_teil3abschnitt1_6",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 1 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    7,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "Artikel1_Teil3Abschnitt1",
+    "artikel1_teil3abschnitt1_7",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 1 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    8,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 1, Unterabschnitt 1 machen"
+  ],
+  [
+    "Artikel1Teil3Abschnitt1Unterabschnitt2",
+    "artikel1teil3abschnitt1unterabschnitt2_1",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 1 Unterabschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    1,
+    "§ 21d Zahlungspflicht der Anlagenbetreiber, Refinanzierungsbeitrag"
+  ],
+  [
+    "Artikel1Teil3Abschnitt1Unterabschnitt2",
+    "artikel1teil3abschnitt1unterabschnitt2_2",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 1 Unterabschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 21e Wegfall des Refinanzierungsbeitrags bei Verzicht auf die Marktprämie"
+  ],
+  [
+    "Artikel1Teil3Abschnitt1Unterabschnitt2",
+    "artikel1teil3abschnitt1unterabschnitt2_3",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 1 Unterabschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 1, Unterabschnitt 2 machen"
+  ],
+  [
+    "Artikel1_Teil3_Abschnitt2",
+    "artikel1_teil3_abschnitt2_1",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    7,
+    "§ 22 Wettbewerbliche Ermittlung des anzulegenden Wertes"
+  ],
+  [
+    "Artikel1_Teil3_Abschnitt2",
+    "artikel1_teil3_abschnitt2_2",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    8,
+    "§ 22b Bürgerenergiegesellschaften"
+  ],
+  [
+    "Artikel1_Teil3_Abschnitt2",
+    "artikel1_teil3_abschnitt2_3",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 23 Allgemeine Bestimmungen zur Höhe der Zahlungen"
+  ],
+  [
+    "Artikel1_Teil3_Abschnitt2",
+    "artikel1_teil3_abschnitt2_4",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    10,
+    "§ 23a Besondere Bestimmung zur Höhe der Marktprämie und des Refinanzierungsbeitrags"
+  ],
+  [
+    "Artikel1_Teil3_Abschnitt2",
+    "artikel1_teil3_abschnitt2_5",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    11,
+    "§ 23b Besondere Bestimmungen zur Netzbetreiberabnahme in der Variante für ausgeförderte Anlagen"
+  ],
+  [
+    "Artikel1_Teil3_Abschnitt2",
+    "artikel1_teil3_abschnitt2_6",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    12,
+    "§ 23c Anteilige Zahlungen"
+  ],
+  [
+    "Artikel1_Teil3_Abschnitt2",
+    "artikel1_teil3_abschnitt2_7",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 24 Sonderregelungen für Strom aus mehreren Anlagen; Anlagenzusammenfassung"
+  ],
+  [
+    "Artikel1_Teil3_Abschnitt2",
+    "artikel1_teil3_abschnitt2_8",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 25 Beginn, Dauer und Beendigung der Zahlungspflichten"
+  ],
+  [
+    "Artikel1_Teil3_Abschnitt2",
+    "artikel1_teil3_abschnitt2_9",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    9,
+    "§ 26 Fälligkeit, Abschläge und Endabrechnung"
+  ],
+  [
+    "Artikel1_Teil3_Abschnitt2",
+    "artikel1_teil3_abschnitt2_10",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "Artikel1_Teil3_Abschnitt2",
+    "artikel1_teil3_abschnitt2_11",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 2 machen"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3Unterabschnitt1",
+    "artikel1teil3abschnitt3unterabschnitt1_1",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 28 Ausschreibungsvolumen und Gebotstermine für Windenergie an Land"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3Unterabschnitt1",
+    "artikel1teil3abschnitt3unterabschnitt1_2",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 28a Ausschreibungsvolumen und Gebotstermine für Solaranlagen des ersten Segments"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3Unterabschnitt1",
+    "artikel1teil3abschnitt3unterabschnitt1_3",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "§ 28b Ausschreibungsvolumen und Gebotstermine für Solaranlagen des zweiten Segments "
+  ],
+  [
+    "Artikel1Teil3Abschnitt3Unterabschnitt1",
+    "artikel1teil3abschnitt3unterabschnitt1_4",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "§ 28 c Ausschreibungsvolumen und Gebotstermine für Biomasse"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3Unterabschnitt1",
+    "artikel1teil3abschnitt3unterabschnitt1_5",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    7,
+    "§ 28d (weggefallen)"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3Unterabschnitt1",
+    "artikel1teil3abschnitt3unterabschnitt1_6",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    8,
+    "§ 28e Ausschreibungsvolumen und Gebotstermine für Resilienzausschreibungen"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3Unterabschnitt1",
+    "artikel1teil3abschnitt3unterabschnitt1_7",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    13,
+    "§ 28 f (weggefallen)"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3Unterabschnitt1",
+    "artikel1teil3abschnitt3unterabschnitt1_8",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    14,
+    "§ 28 g (weggefallen)"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3Unterabschnitt1",
+    "artikel1teil3abschnitt3unterabschnitt1_9",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    15,
+    "§ 30 Anforderungen an Gebote "
+  ],
+  [
+    "Artikel1Teil3Abschnitt3Unterabschnitt1",
+    "artikel1teil3abschnitt3unterabschnitt1_10",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    12,
+    "§ 34a Ausschluss von Bietern"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3Unterabschnitt1",
+    "artikel1teil3abschnitt3unterabschnitt1_11",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    11,
+    "§ 35a Entwertung von Zuschlägen"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3Unterabschnitt1",
+    "artikel1teil3abschnitt3unterabschnitt1_12",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    10,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3Unterabschnitt1",
+    "artikel1teil3abschnitt3unterabschnitt1_13",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    9,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 3, Unterabschnitt 1 machen"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3_Unterabschnitt2",
+    "artikel1teil3abschnitt3_unterabschnitt2_1",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 2, zu welchen Paragraphen wollen Sie Stellung nehmen?",
+    7,
+    "§ 36 Gebote für Windenergieanlagen an Land"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3_Unterabschnitt2",
+    "artikel1teil3abschnitt3_unterabschnitt2_2",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 2, zu welchen Paragraphen wollen Sie Stellung nehmen?",
+    2,
+    "§ 36b Höchstwert für Windenergieanlagen an Land"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3_Unterabschnitt2",
+    "artikel1teil3abschnitt3_unterabschnitt2_3",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 2, zu welchen Paragraphen wollen Sie Stellung nehmen?",
+    8,
+    "[§ 36d Begrenzung von Entgelten zur Nutzung von Grundstücken zur Errichtung und zum Betrieb von Windenergieanlagen an Land]"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3_Unterabschnitt2",
+    "artikel1teil3abschnitt3_unterabschnitt2_4",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 2, zu welchen Paragraphen wollen Sie Stellung nehmen?",
+    9,
+    "§ 36f Änderungen nach Erteilung des Zuschlags für Windenergieanlagen an Land"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3_Unterabschnitt2",
+    "artikel1teil3abschnitt3_unterabschnitt2_5",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 2, zu welchen Paragraphen wollen Sie Stellung nehmen?",
+    3,
+    "§ 36h Anzulegender Wert für Windenergieanlagen an Land"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3_Unterabschnitt2",
+    "artikel1teil3abschnitt3_unterabschnitt2_6",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 2, zu welchen Paragraphen wollen Sie Stellung nehmen?",
+    4,
+    "§ 36i Dauer der Zahlungspflichten für Windenergieanlagen an Land"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3_Unterabschnitt2",
+    "artikel1teil3abschnitt3_unterabschnitt2_7",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 2, zu welchen Paragraphen wollen Sie Stellung nehmen?",
+    5,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "Artikel1Teil3Abschnitt3_Unterabschnitt2",
+    "artikel1teil3abschnitt3_unterabschnitt2_8",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 2, zu welchen Paragraphen wollen Sie Stellung nehmen?",
+    6,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 3, Unterabschnitt 2 machen"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt3",
+    "artikel1teil3abschnitt3unterabschnitt3_1",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 37 Gebote für Solaranlagen des ersten Segments"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt3",
+    "artikel1teil3abschnitt3unterabschnitt3_2",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    10,
+    "§ 37b Höchstwert für Solaranlagen des ersten Segments"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt3",
+    "artikel1teil3abschnitt3unterabschnitt3_3",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 37d (weggefallen)"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt3",
+    "artikel1teil3abschnitt3unterabschnitt3_4",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    8,
+    "§ 37e Erlöschen von Zuschlägen für Solaranlagen des ersten Segments"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt3",
+    "artikel1teil3abschnitt3unterabschnitt3_5",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 38 Besondere Bestimmungen für Solaranlagen des ersten Segments"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt3",
+    "artikel1teil3abschnitt3unterabschnitt3_6",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    9,
+    "§ 38a Anpassung des anzulegenden Wertes bei besonderen Solaranlagen"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt3",
+    "artikel1teil3abschnitt3unterabschnitt3_7",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "§ 38b Ersetzen von Solaranlagen des ersten Segments"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt3",
+    "artikel1teil3abschnitt3unterabschnitt3_8",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt3",
+    "artikel1teil3abschnitt3unterabschnitt3_9",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    7,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 3, Unterabschnitt 3 machen"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt4",
+    "artikel1teil3abschnitt3unterabschnitt4_1",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 38d Projektssicherungsbeiträge"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt4",
+    "artikel1teil3abschnitt3unterabschnitt4_2",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 38e Höchstwert für Solaranlagen des zweiten Segments"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt4",
+    "artikel1teil3abschnitt3unterabschnitt4_3",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 38h Ersetzen von Solaranlagen des zweiten Segments"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt4",
+    "artikel1teil3abschnitt3unterabschnitt4_4",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt4",
+    "artikel1teil3abschnitt3unterabschnitt4_5",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 3, Unterabschnitt 4 machen"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt5",
+    "artikel1teil3abschnitt3unterabschnitt5_1",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 39b Höchstwert für Biomasseanlagen"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt5",
+    "artikel1teil3abschnitt3unterabschnitt5_2",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 39g Einbeziehung bestehender Biomasseanlagen"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt5",
+    "artikel1teil3abschnitt3unterabschnitt5_3",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 39i Besondere Zahlungsbestimmungen für Biomasseanlagen"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt5",
+    "artikel1teil3abschnitt3unterabschnitt5_4",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt5",
+    "artikel1teil3abschnitt3unterabschnitt5_5",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    7,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 3, Unterabschnitt 5 machen"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt6",
+    "artikel1teil3abschnitt3unterabschnitt6_1",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "§ 39j (weggefallen)"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt6",
+    "artikel1teil3abschnitt3unterabschnitt6_2",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "§ 39k (weggefallen)"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt6",
+    "artikel1teil3abschnitt3unterabschnitt6_3",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 39l (weggefallen)"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt6",
+    "artikel1teil3abschnitt3unterabschnitt6_4",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    7,
+    "§ 39m (weggefallen)"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt6",
+    "artikel1teil3abschnitt3unterabschnitt6_5",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt6",
+    "artikel1teil3abschnitt3unterabschnitt6_6",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 3, Unterabschnitt 6 machen"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt7",
+    "artikel1teil3abschnitt3unterabschnitt7_1",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 7, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 39n Resilienzausschreibungen"
+  ],
+  [
+    "artikel1Teil3abschnitt3unterabschnitt7",
+    "artikel1teil3abschnitt3unterabschnitt7_2",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 3 Unterabschnitt 7, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 3, Unterabschnitt 7 machen"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt1",
+    "artikel1teil3abschnitt4unterabschnitt1_1",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 41 Deponie-, Klär- und Grubengas"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt1",
+    "artikel1teil3abschnitt4unterabschnitt1_2",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 42 Biomasse"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt1",
+    "artikel1teil3abschnitt4unterabschnitt1_3",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "§ 43 Vergärung von Bioabfällen"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt1",
+    "artikel1teil3abschnitt4unterabschnitt1_4",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "§ 44 Vergärung von Gülle"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt1",
+    "artikel1teil3abschnitt4unterabschnitt1_5",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    7,
+    "§ 44a Absenkung der anzulegenden Werte für Strom aus Biomasse"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt1",
+    "artikel1teil3abschnitt4unterabschnitt1_6",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    14,
+    "§ 44b Gemeinsame Bestimmung für Strom aus Gasen"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt1",
+    "artikel1teil3abschnitt4unterabschnitt1_7",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    13,
+    "§ 44c Sonstige gemeinsame Bestimmungen für Strom aus Biomasse"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt1",
+    "artikel1teil3abschnitt4unterabschnitt1_8",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    15,
+    "§ 45 Geothermie"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt1",
+    "artikel1teil3abschnitt4unterabschnitt1_9",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    8,
+    "§ 46 Windenergie an Land"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt1",
+    "artikel1teil3abschnitt4unterabschnitt1_10",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    9,
+    "§ 48 Solare Strahlungsenergie"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt1",
+    "artikel1teil3abschnitt4unterabschnitt1_11",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    10,
+    "§ 48a Mieterstromzuschlag bei solarer Strahlungsenergie"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt1",
+    "artikel1teil3abschnitt4unterabschnitt1_12",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    11,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt1",
+    "artikel1teil3abschnitt4unterabschnitt1_13",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    12,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 4, Unterabschnitt 1 machen"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt2",
+    "artikel1teil3abschnitt4unterabschnitt2_1",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "§ 50 Zahlungsanspruch für Flexibilität"
+  ],
+  [
+    "artikel1Teil3abschnitt4unterabschnitt2",
+    "artikel1teil3abschnitt4unterabschnitt2_2",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 4, Unterabschnitt 2 machen"
+  ],
+  [
+    "s_18",
+    "s_18_1",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 4 Unterabschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "§ 50c Bonus für ausschließlich auf sonstige Weise direkt vermarkteten Strom"
+  ],
+  [
+    "artikel1Teil3abschnitt5",
+    "artikel1teil3abschnitt5_1",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 51 Verringerung des Zahlungsanspruchs und der Zahlungspflicht bei negativen Preisen"
+  ],
+  [
+    "artikel1Teil3abschnitt5",
+    "artikel1teil3abschnitt5_2",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 51a Verlängerung des Zahlungszeitraums bei negativen Preisen"
+  ],
+  [
+    "artikel1Teil3abschnitt5",
+    "artikel1teil3abschnitt5_3",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    12,
+    "§ 51b Verringerung des Zahlungsanspruchs für Biogasanlagen in Ausschreibungen bei schwach positiven und negativen Preisen"
+  ],
+  [
+    "artikel1Teil3abschnitt5",
+    "artikel1teil3abschnitt5_4",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    9,
+    "§ 52 Zahlungen bei Pflichtverstößen"
+  ],
+  [
+    "artikel1Teil3abschnitt5",
+    "artikel1teil3abschnitt5_5",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 53 Verringerung des anzulegenden Wertes im Rahmen der Netzbetreiberabnahme"
+  ],
+  [
+    "artikel1Teil3abschnitt5",
+    "artikel1teil3abschnitt5_6",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    7,
+    "§ 53a Zahlungen bei überhöhten Entgelten für die Nutzung von Grundstücken für die Errichtung und den Betrieb von Windenergieanlagen an Land"
+  ],
+  [
+    "artikel1Teil3abschnitt5",
+    "artikel1teil3abschnitt5_7",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    10,
+    "§ 53b Anpassung der Zahlungen bei einer Stromsteuerbefreiung"
+  ],
+  [
+    "artikel1Teil3abschnitt5",
+    "artikel1teil3abschnitt5_8",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    11,
+    "§ 53c (weggefallen)"
+  ],
+  [
+    "artikel1Teil3abschnitt5",
+    "artikel1teil3abschnitt5_9",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    8,
+    "§ 54 Verringerung des Zahlungsanspruchs bei Ausschreibungen für Solaranlagen des ersten Segments"
+  ],
+  [
+    "artikel1Teil3abschnitt5",
+    "artikel1teil3abschnitt5_10",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "artikel1Teil3abschnitt5",
+    "artikel1teil3abschnitt5_11",
+    "Closed",
+    "Multiple",
+    "In Teil 3 Abschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 5 machen"
+  ],
+  [
+    "artikel1Teil4",
+    "artikel1teil4_1",
+    "Closed",
+    "Multiple",
+    "In Teil 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 56 Weitergabe an den Übertragungsnetzbetreiber"
+  ],
+  [
+    "artikel1Teil4",
+    "artikel1teil4_2",
+    "Closed",
+    "Multiple",
+    "In Teil 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 57 Vermarktung durch die Übertragungsnetzbetreiber "
+  ],
+  [
+    "artikel1Teil4",
+    "artikel1teil4_3",
+    "Closed",
+    "Multiple",
+    "In Teil 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "artikel1Teil4",
+    "artikel1teil4_4",
+    "Closed",
+    "Multiple",
+    "In Teil 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4 machen"
+  ],
+  [
+    "artikel1Teil5abschnitt1",
+    "artikel1teil5abschnitt1_1",
+    "Closed",
+    "Multiple",
+    "In Teil 5 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    7,
+    "§ 71 Anlagenbetreiber"
+  ],
+  [
+    "artikel1Teil5abschnitt1",
+    "artikel1teil5abschnitt1_2",
+    "Closed",
+    "Multiple",
+    "In Teil 5 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 72 Netzbetreiber"
+  ],
+  [
+    "artikel1Teil5abschnitt1",
+    "artikel1teil5abschnitt1_3",
+    "Closed",
+    "Multiple",
+    "In Teil 5 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 73 Übertragungsnetzbetreiber"
+  ],
+  [
+    "artikel1Teil5abschnitt1",
+    "artikel1teil5abschnitt1_4",
+    "Closed",
+    "Multiple",
+    "In Teil 5 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Sonstige  Bestimmungen "
+  ],
+  [
+    "artikel1Teil5abschnitt1",
+    "artikel1teil5abschnitt1_5",
+    "Closed",
+    "Multiple",
+    "In Teil 5 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 5, Abschnitt 1 machen"
+  ],
+  [
+    "artikel1Teil5abschnitt2",
+    "artikel1teil5abschnitt2_1",
+    "Closed",
+    "Multiple",
+    "In Teil 5 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 79 Herkunftsnachweise"
+  ],
+  [
+    "artikel1Teil5abschnitt2",
+    "artikel1teil5abschnitt2_2",
+    "Closed",
+    "Multiple",
+    "In Teil 5 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 79a (weggefallen)"
+  ],
+  [
+    "artikel1Teil5abschnitt2",
+    "artikel1teil5abschnitt2_3",
+    "Closed",
+    "Multiple",
+    "In Teil 5 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "§ 80 Doppelvermarktungsverbot"
+  ],
+  [
+    "artikel1Teil5abschnitt2",
+    "artikel1teil5abschnitt2_4",
+    "Closed",
+    "Multiple",
+    "In Teil 5 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "artikel1Teil5abschnitt2",
+    "artikel1teil5abschnitt2_5",
+    "Closed",
+    "Multiple",
+    "In Teil 5 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 5, Abschnitt 2 machen"
+  ],
+  [
+    "artikel1Teil6",
+    "artikel1teil6_1",
+    "Closed",
+    "Multiple",
+    "In Teil 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "§ 81 Clearingstelle"
+  ],
+  [
+    "artikel1Teil6",
+    "artikel1teil6_2",
+    "Closed",
+    "Multiple",
+    "In Teil 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 85 Aufgaben der Bundesnetzagentur"
+  ],
+  [
+    "artikel1Teil6",
+    "artikel1teil6_3",
+    "Closed",
+    "Multiple",
+    "In Teil 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    7,
+    "§ 86 Bußgeldvorschriften"
+  ],
+  [
+    "artikel1Teil6",
+    "artikel1teil6_4",
+    "Closed",
+    "Multiple",
+    "In Teil 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "artikel1Teil6",
+    "artikel1teil6_5",
+    "Closed",
+    "Multiple",
+    "In Teil 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 6 machen"
+  ],
+  [
+    "artikel1Teil7abschnitt1",
+    "artikel1teil7abschnitt1_1",
+    "Closed",
+    "Multiple",
+    "In Teil 7 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 88a Verordnungsermächtigung zu grenzüberschreitenden Ausschreibungen"
+  ],
+  [
+    "artikel1Teil7abschnitt1",
+    "artikel1teil7abschnitt1_2",
+    "Closed",
+    "Multiple",
+    "In Teil 7 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 88d Verordnungsermächtigung zu Resilienzausschreibungen "
+  ],
+  [
+    "artikel1Teil7abschnitt1",
+    "artikel1teil7abschnitt1_3",
+    "Closed",
+    "Multiple",
+    "In Teil 7 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    7,
+    "§ 92 Verordnungsermächtigung zu Herkunftsnachweisen"
+  ],
+  [
+    "artikel1Teil7abschnitt1",
+    "artikel1teil7abschnitt1_4",
+    "Closed",
+    "Multiple",
+    "In Teil 7 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    8,
+    "§ 93 (weggefallen)"
+  ],
+  [
+    "artikel1Teil7abschnitt1",
+    "artikel1teil7abschnitt1_5",
+    "Closed",
+    "Multiple",
+    "In Teil 7 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "artikel1Teil7abschnitt1",
+    "artikel1teil7abschnitt1_6",
+    "Closed",
+    "Multiple",
+    "In Teil 7 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 7, Abschnitt 1 machen"
+  ],
+  [
+    "artikel1Teil7abschnitt2",
+    "artikel1teil7abschnitt2_1",
+    "Closed",
+    "Multiple",
+    "In Teil 7 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 97 Kooperationsausschuss"
+  ],
+  [
+    "artikel1Teil7abschnitt2",
+    "artikel1teil7abschnitt2_2",
+    "Closed",
+    "Multiple",
+    "In Teil 7 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 98 Jährliches Monitoring zur Zielerrreichung"
+  ],
+  [
+    "artikel1Teil7abschnitt2",
+    "artikel1teil7abschnitt2_3",
+    "Closed",
+    "Multiple",
+    "In Teil 7 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "§99a Evaluierung zu Wechselwirkungen mit nachgelagerten Märkten"
+  ],
+  [
+    "artikel1Teil7abschnitt2",
+    "artikel1teil7abschnitt2_4",
+    "Closed",
+    "Multiple",
+    "In Teil 7 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "artikel1Teil7abschnitt2",
+    "artikel1teil7abschnitt2_5",
+    "Closed",
+    "Multiple",
+    "In Teil 7 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 7, Abschnitt 2 machen"
+  ],
+  [
+    "s_20",
+    "s_20_1",
+    "Closed",
+    "Multiple",
+    "In Teil 7 Abschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 100 Übergangsbestimmungen"
+  ],
+  [
+    "s_20",
+    "s_20_2",
+    "Closed",
+    "Multiple",
+    "In Teil 7 Abschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "s_20",
+    "s_20_3",
+    "Closed",
+    "Multiple",
+    "In Teil 7 Abschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 7, Abschnitt 3 machen"
+  ],
+  [
+    "artikel2Teil4",
+    "artikel2teil4_1",
+    "Closed",
+    "Multiple",
+    "In Teil 4 zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    1,
+    "§ 42 Stromkennzeichnung, Transparenz der Stromrechnungen, Verordnungsermächtigung"
+  ],
+  [
+    "artikel2Teil4",
+    "artikel2teil4_2",
+    "Closed",
+    "Multiple",
+    "In Teil 4 zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Kapitel 4 machen"
+  ],
+  [
+    "Artikel2Kapitel4",
+    "artikel2kapitel4_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 3 Kapitel 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 29 Ausstattung von Messstellen mit intelligenten Messsystemen, Steuerungseinrichtungen und modernen Messeinrichtungen"
+  ],
+  [
+    "Artikel2Kapitel4",
+    "artikel2kapitel4_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 3 Kapitel 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 30 Wirtschaftliche Vertretbarkeit der Ausstattung von Messstellen mit intelligenten Messsystemen und Steuerungseinrichtungen; Preisobergrenzen; Festlegungskompetenz"
+  ],
+  [
+    "Artikel2Kapitel4",
+    "artikel2kapitel4_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 3 Kapitel 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Kapitel 4 machen"
+  ],
+  [
+    "Artikel2Kapitel6",
+    "artikel2kapitel6_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 3 Kapitel 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 45 Ausstattungsverpflichtungen des grundzuständigen Messstellenbetreibers"
+  ],
+  [
+    "Artikel2Kapitel6",
+    "artikel2kapitel6_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 3 Kapitel 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Kapitel 6 machen"
+  ],
+  [
+    "artikel4Abschnitt2",
+    "artikel4abschnitt2_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 4 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    1,
+    "§ 2 Vermarktung durch die Übertragungsnetzbetreiber"
+  ],
+  [
+    "artikel4Abschnitt2",
+    "artikel4abschnitt2_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 4 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 3 Transparenz der Vermarktungstätigkeiten"
+  ],
+  [
+    "artikel4Abschnitt2",
+    "artikel4abschnitt2_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 4 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 5 Preislimitierung"
+  ],
+  [
+    "artikel4Abschnitt2",
+    "artikel4abschnitt2_4",
+    "Closed",
+    "Multiple",
+    "In Artikel 4 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Abschnitt 2 machen"
+  ],
+  [
+    "artikel4Abschnitt3",
+    "artikel4abschnitt3_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 4 Abschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    1,
+    "§ 9 Mindestinhalt von Herkunftsnachweisen"
+  ],
+  [
+    "artikel4Abschnitt3",
+    "artikel4abschnitt3_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 4 Abschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Abschnitt 3 machen"
+  ],
+  [
+    "Artikel4Abshcnitt3a",
+    "artikel4abshcnitt3a_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 4 Abschnitt 3a, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 12a Verlängerter Zahlungsanspruch"
+  ],
+  [
+    "Artikel4Abshcnitt3a",
+    "artikel4abshcnitt3a_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 4 Abschnitt 3a, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 12b Zahlungsbestimmungen"
+  ],
+  [
+    "Artikel4Abshcnitt3a",
+    "artikel4abshcnitt3a_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 4 Abschnitt 3a, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 12c Höhe des Zahlungsanspruchs"
+  ],
+  [
+    "Artikel4Abshcnitt3a",
+    "artikel4abshcnitt3a_4",
+    "Closed",
+    "Multiple",
+    "In Artikel 4 Abschnitt 3a, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "§ 12g Beihilfevorbehalt "
+  ],
+  [
+    "Artikel4Abshcnitt3a",
+    "artikel4abshcnitt3a_5",
+    "Closed",
+    "Multiple",
+    "In Artikel 4 Abschnitt 3a, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "Artikel4Abshcnitt3a",
+    "artikel4abshcnitt3a_6",
+    "Closed",
+    "Multiple",
+    "In Artikel 4 Abschnitt 3a, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    7,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Abschnitt 3a machen"
+  ],
+  [
+    "s_21",
+    "s_21_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    1,
+    "Abschnitt 1 – Ermittlung und Erhebung von Umlagen, Ausgleichsmechanismus"
+  ],
+  [
+    "s_21",
+    "s_21_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    2,
+    "Abschnitt 3 - Herstellung von grünem Wasserstoff"
+  ],
+  [
+    "s_21",
+    "s_21_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    3,
+    "Abschnitt 4 - Besondere Ausgleichsregelung "
+  ],
+  [
+    "s_21",
+    "s_21_4",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    4,
+    "Abschnitt 5 – Abgrenzung, Messung und Schätzung von Strommengen"
+  ],
+  [
+    "s_22",
+    "s_22_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 5, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    1,
+    "Abschnitt 1 – Kontoführung und gesonderte Buchführung"
+  ],
+  [
+    "s_22",
+    "s_22_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 5, zu welchen Abschnitten möchten Sie Stellung nehmen?",
+    2,
+    "Abschnitt 2 - Mitteilungs- und Veröffentlichungspflichten "
+  ],
+  [
+    "s_26",
+    "s_26_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 2 Begriffsbestimmungen"
+  ],
+  [
+    "s_26",
+    "s_26_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "s_26",
+    "s_26_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 1 machen"
+  ],
+  [
+    "s_28",
+    "s_28_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 6 Ausgleichsanspruch"
+  ],
+  [
+    "s_28",
+    "s_28_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 7 Abschlagszahlungen "
+  ],
+  [
+    "s_28",
+    "s_28_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "s_28",
+    "s_28_4",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3 machen"
+  ],
+  [
+    "s_29",
+    "s_29_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    7,
+    "§ 13 Ausgleich von Finanzierungsbedarfen zwischen Verteilernetzbetreibern und Übertragungsnetzbetreibern"
+  ],
+  [
+    "s_29",
+    "s_29_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 14 Ausgleich zwischen Übertragungsnetzbetreibern und Verteilernetzbetreiber"
+  ],
+  [
+    "s_29",
+    "s_29_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 15 Ausgleich zwischen Übertragungsnetzbetreibern "
+  ],
+  [
+    "s_29",
+    "s_29_4",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "s_29",
+    "s_29_5",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4, Abschnitt 1 machen"
+  ],
+  [
+    "s_30",
+    "s_30_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 26 Anforderungen an grünen Wasserstoff"
+  ],
+  [
+    "s_30",
+    "s_30_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "s_30",
+    "s_30_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 3, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4, Abschnitt 3 machen"
+  ],
+  [
+    "Artikel5T4A4_AuswahlUA",
+    "artikel5t4a4_auswahlua_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    1,
+    "Unterabschnitt 2 – Stromkostenintensive Unternehmen"
+  ],
+  [
+    "Artikel5T4A4_AuswahlUA",
+    "artikel5t4a4_auswahlua_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "Unterabschnitt 4 – Verkehr"
+  ],
+  [
+    "Artikel5T4A4_AuswahlUA",
+    "artikel5t4a4_auswahlua_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "Unterabschnitt 5– Verfahren"
+  ],
+  [
+    "s_31",
+    "s_31_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 46 Messung und Schätzung"
+  ],
+  [
+    "s_31",
+    "s_31_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 5, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4, Abschnitt 5 machen"
+  ],
+  [
+    "s_35",
+    "s_35_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 5 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    1,
+    "§ 47 Kontoführung und gesonderte Buchführung der Übertragungsnetzbetreiber"
+  ],
+  [
+    "s_35",
+    "s_35_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 5 Abschnitt 1, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 5, Abschnitt 2 machen"
+  ],
+  [
+    "s_32",
+    "s_32_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 5 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    1,
+    "§ 50 Verteilernetzbetreiber"
+  ],
+  [
+    "s_32",
+    "s_32_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 5 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 51 Übertragungsnetzbetreiber"
+  ],
+  [
+    "s_32",
+    "s_32_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 5 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 60 Vorausschau des EEG-Finanzierungsbedarfs"
+  ],
+  [
+    "s_32",
+    "s_32_4",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 5 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 61 Schätzungsbefugnis"
+  ],
+  [
+    "s_32",
+    "s_32_5",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 5 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    5,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "s_32",
+    "s_32_6",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 5 Abschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    6,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 5, Abschnitt 2 machen"
+  ],
+  [
+    "s_33",
+    "s_33_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 62 Aufsicht durch die Bundesnetzagentur"
+  ],
+  [
+    "s_33",
+    "s_33_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 6, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 6 machen"
+  ],
+  [
+    "s_34",
+    "s_34_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 7, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "§ 66 Allgemeine Übergangsbestimmung"
+  ],
+  [
+    "s_34",
+    "s_34_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 7, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "§ 67 Übergangs- und Härtefallbestimmungen zur Besonderen Ausgleichsregelung"
+  ],
+  [
+    "s_34",
+    "s_34_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 7, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 7 machen"
+  ],
+  [
+    "s_45",
+    "s_45_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 4 Unterabschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    1,
+    "§ 32 Nachweisführung"
+  ],
+  [
+    "s_45",
+    "s_45_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 4 Unterabschnitt 2, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4, Abschnitt 4, Unterabschnitt 2 machen"
+  ],
+  [
+    "s_56",
+    "s_56_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 4 Unterabschnitt 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    1,
+    "§ 37 Schienenbahnen"
+  ],
+  [
+    "s_56",
+    "s_56_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 4 Unterabschnitt 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    4,
+    "§ 38 Verkehrsunternehmen mit elektrisch betriebenen Bussen im Linienverkehr"
+  ],
+  [
+    "s_56",
+    "s_56_3",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 4 Unterabschnitt 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "Sonstige Bestimmungen"
+  ],
+  [
+    "s_56",
+    "s_56_4",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 4 Unterabschnitt 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    3,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4, Abschnitt 4, Unterabschnitt 4 machen"
+  ],
+  [
+    "s_59",
+    "s_59_1",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 4 Unterabschnitt 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    1,
+    "§ 40 Antragstellung und Entscheidungswirkung"
+  ],
+  [
+    "s_59",
+    "s_59_2",
+    "Closed",
+    "Multiple",
+    "In Artikel 6 Teil 4 Abschnitt 4 Unterabschnitt 4, zu welchen Paragraphen möchten Sie Stellung nehmen?",
+    2,
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4, Abschnitt 4, Unterabschnitt 5 machen"
+  ],
+  [
+    "Artikel2_AllgAnmerkungen",
+    "artikel2_allganmerkungen",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zum Artikel 1, Teil 1, § 3:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_46",
+    "s_46",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zum Artikel 1, Teil 1, § 4:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_47",
+    "s_47",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zum Artikel 1, Teil 1, § 4a:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_48",
+    "s_48",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zum Artikel 1, Teil 1, § 5:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_49",
+    "s_49",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zum Artikel 1, Teil 1, § 6:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_211",
+    "s_211",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zum Artikel 1, Teil 1, § 7:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_50",
+    "s_50",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zum Artikel 1, Teil 1, Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_51",
+    "s_51",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Artikel 1 Teil 1 machen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_52",
+    "s_52",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zum Artikel 1, Teil 2, § 8b:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_53",
+    "s_53",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zum Artikel 1, Teil 2, § 9:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_54",
+    "s_54",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zum Artikel 1, Teil 2, § 10b:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_55",
+    "s_55",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zum Artikel 1, Teil 2, Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_202",
+    "s_202",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 2 Abschnitt 1 machen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_57",
+    "s_57",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3 Abschnitt 1, Unterabschnitt 1 § 19:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_58",
+    "s_58",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3 Abschnitt 1, Unterabschnitt 1 § 20:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_60",
+    "s_60",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3 Abschnitt 1, Unterabschnitt 1 § 21:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_212",
+    "s_212",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3 Abschnitt 1, Unterabschnitt 1 § 21b:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_213",
+    "s_213",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3 Abschnitt 1, Unterabschnitt 1 § 21c:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_61",
+    "s_61",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3 Abschnitt 1 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_69",
+    "s_69",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 1 machen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_1",
+    "s_1",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 1, Unterabschnitt 2 § 21d:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_2",
+    "s_2",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 1, Unterabschnitt 2 § 21e:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_3",
+    "s_3",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 1, Unterabschnitt 2 machen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_4",
+    "s_4",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 2 § 22:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_5",
+    "s_5",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 2 § 22b:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_62",
+    "s_62",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 2 § 23:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_79",
+    "s_79",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 2 § 23a:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_135",
+    "s_135",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 2 § 23b:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_151",
+    "s_151",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 2 § 23c:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_63",
+    "s_63",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 2 § 24:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_64",
+    "s_64",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 2 § 25:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_227",
+    "s_227",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 2 § 26:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_65",
+    "s_65",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 2 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_66",
+    "s_66",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Artikel 1 Teil 3, Abschnitt 2 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_67",
+    "s_67",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 1 § 28:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_68",
+    "s_68",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 1 § 28a:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_70",
+    "s_70",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 1 § 28b:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_71",
+    "s_71",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 1 § 28c:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_72",
+    "s_72",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 1 § 28d:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_73",
+    "s_73",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 1 § 28e:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_214",
+    "s_214",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 1 § 28f:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_215",
+    "s_215",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 1 § 28g:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_216",
+    "s_216",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 1 § 30:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_6",
+    "s_6",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 1 § 34a:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_7",
+    "s_7",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 1 § 35a:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_74",
+    "s_74",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 1 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_75",
+    "s_75",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 3, Unterabschnitt 1 machen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_8",
+    "s_8",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 2 § 36:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_76",
+    "s_76",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 2 § 36b:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_9",
+    "s_9",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 2 § 36d:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_228",
+    "s_228",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 2 § 36f:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_77",
+    "s_77",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 2 § 36h:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_78",
+    "s_78",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 2 § 36i:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_80",
+    "s_80",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 2 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_81",
+    "s_81",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 3, Unterabschnitt 2 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_82",
+    "s_82",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 3 § 37:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_217",
+    "s_217",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 3 § 37b:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_83",
+    "s_83",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 3 § 37d:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_10",
+    "s_10",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 3 § 37e:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_84",
+    "s_84",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 3 § 38:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_12",
+    "s_12",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 3 § 38a:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_85",
+    "s_85",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 3 § 38b:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_86",
+    "s_86",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 3 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_87",
+    "s_87",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 3, Unterabschnitt 3 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_88",
+    "s_88",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 4 § 38d:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_89",
+    "s_89",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 4 § 38e:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_90",
+    "s_90",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 4 § 38h:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_91",
+    "s_91",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 4 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_92",
+    "s_92",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 3, Unterabschnitt 4 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_93",
+    "s_93",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 5 § 39b:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_94",
+    "s_94",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 5 § 39g:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_95",
+    "s_95",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 5 § 39i:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_96",
+    "s_96",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 5 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_97",
+    "s_97",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 3, Unterabschnitt 5 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_218",
+    "s_218",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 6 § 39j:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_219",
+    "s_219",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 6 § 39k:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_98",
+    "s_98",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 6 § 39l:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_220",
+    "s_220",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 6 § 39m:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_99",
+    "s_99",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 6 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_100",
+    "s_100",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 3, Unterabschnitt 6 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_101",
+    "s_101",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 3, Unterabschnitt 7 § 39n:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_102",
+    "s_102",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 3, Unterabschnitt 7 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_104",
+    "s_104",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 4, Unterabschnitt 1 § 41:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_105",
+    "s_105",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 4, Unterabschnitt 1 § 42:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_106",
+    "s_106",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 4, Unterabschnitt 1 § 43:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_107",
+    "s_107",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 4, Unterabschnitt 1 § 44:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_108",
+    "s_108",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 4, Unterabschnitt 1 § 44a:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_158",
+    "s_158",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 4, Unterabschnitt 1 § 44b:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_221",
+    "s_221",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 4, Unterabschnitt 1 § 44c:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_170",
+    "s_170",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 4, Unterabschnitt 1 § 45:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_109",
+    "s_109",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 4, Unterabschnitt 1 § 46:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_110",
+    "s_110",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 4, Unterabschnitt 1 § 48:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_111",
+    "s_111",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 4, Unterabschnitt 1 § 48a:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_112",
+    "s_112",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 4, Unterabschnitt 1 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_113",
+    "s_113",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 4, Unterabschnitt 1 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_229",
+    "s_229",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 4, Unterabschnitt 2 § 50:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_115",
+    "s_115",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 4, Unterabschnitt 2 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_230",
+    "s_230",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 4, Unterabschnitt 3 § 50c:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_116",
+    "s_116",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 5 § 51:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_117",
+    "s_117",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 5 § 51a:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_231",
+    "s_231",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 5 § 51b:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_222",
+    "s_222",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 5 § 52:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_118",
+    "s_118",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 5 § 53:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_14",
+    "s_14",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 5 § 53a:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_223",
+    "s_223",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 5 § 53b:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_224",
+    "s_224",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 5 § 53c:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_15",
+    "s_15",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 5 § 54:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_119",
+    "s_119",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 3, Abschnitt 5 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_120",
+    "s_120",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3, Abschnitt 5 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_121",
+    "s_121",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 4 § 56:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_122",
+    "s_122",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 4 § 57:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_123",
+    "s_123",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 4  Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_124",
+    "s_124",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_232",
+    "s_232",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 5, Abschnitt 1 § 71:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_125",
+    "s_125",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 5, Abschnitt 1 § 72:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_126",
+    "s_126",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 5, Abschnitt 1 § 73:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_127",
+    "s_127",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 5, Abschnitt 1 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_128",
+    "s_128",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 5, Abschnitt 1 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_129",
+    "s_129",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 5, Abschnitt 2 § 79:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_130",
+    "s_130",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 5, Abschnitt 2 § 79a:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_233",
+    "s_233",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 5, Abschnitt 2 § 80:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_131",
+    "s_131",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 5, Abschnitt 2 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_132",
+    "s_132",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 5, Abschnitt 2 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_16",
+    "s_16",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 6 § 81:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_133",
+    "s_133",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 6 § 85:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_234",
+    "s_234",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 6 § 86:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_134",
+    "s_134",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 6 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_136",
+    "s_136",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 6 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_137",
+    "s_137",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 7, Abschnitt 1 § 88a:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_138",
+    "s_138",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 7, Abschnitt 1 § 88d:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_235",
+    "s_235",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 7, Abschnitt 1 § 92:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_236",
+    "s_236",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 7, Abschnitt 1 § 93:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_139",
+    "s_139",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 7, Abschnitt 1 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_140",
+    "s_140",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 7, Abschnitt 1 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_141",
+    "s_141",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 7, Abschnitt 2 § 97:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_142",
+    "s_142",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 7, Abschnitt 2 § 98:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_225",
+    "s_225",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 7, Abschnitt 2 § 99a:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_143",
+    "s_143",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 7, Abschnitt 2 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_144",
+    "s_144",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 7, Abschnitt 2 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_145",
+    "s_145",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 7, Abschnitt 3 § 100:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_146",
+    "s_146",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Teil 7, Abschnitt 3 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_147",
+    "s_147",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 7, Abschnitt 3 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_148",
+    "s_148",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Anlage 1:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_237",
+    "s_237",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Anlage 2:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_238",
+    "s_238",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 1 Anlage 4:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_183",
+    "s_183",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 2 Teil 4 § 42:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_203",
+    "s_203",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4 machen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_156",
+    "s_156",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 3 Kapitel 4 § 29:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_157",
+    "s_157",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 3 Kapitel 4 § 30:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_159",
+    "s_159",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Kapitel 4 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_160",
+    "s_160",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 3 Kapitel 6 § 45:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_161",
+    "s_161",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Kapitel 6 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_204",
+    "s_204",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 4, Abschnitt 2 § 2:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_149",
+    "s_149",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 4, Abschnitt 2 § 3:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_150",
+    "s_150",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 4, Abschnitt 2 § 5:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_153",
+    "s_153",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Abschnitt 2 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_199",
+    "s_199",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 4, Abschnitt 3 § 9:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_200",
+    "s_200",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Abschnitt 3 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_154",
+    "s_154",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 4, Abschnitt 3a § 12a:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_155",
+    "s_155",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 4, Abschnitt 3a § 12b:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_162",
+    "s_162",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 4, Abschnitt 3a § 12c:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_163",
+    "s_163",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 4, Abschnitt 3a § 12g:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_164",
+    "s_164",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 4, Abschnitt 3a Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_165",
+    "s_165",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Abschnitt 3a machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_169",
+    "s_169",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 5 § 20:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_166",
+    "s_166",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 1, § 2:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_167",
+    "s_167",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 1, Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_168",
+    "s_168",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 1 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_171",
+    "s_171",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 3, § 6:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_172",
+    "s_172",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 3, § 7:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_173",
+    "s_173",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 3, Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_174",
+    "s_174",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 3 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_241",
+    "s_241",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 4, Abschnitt 1 § 13:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_175",
+    "s_175",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 4, Abschnitt 1 § 14:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_176",
+    "s_176",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 4, Abschnitt 1 § 15:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_177",
+    "s_177",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 4, Abschnitt 1 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_178",
+    "s_178",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4, Abschnitt 1 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_179",
+    "s_179",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 4, Abschnitt 3 § 26:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_180",
+    "s_180",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 4, Abschnitt 3 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_181",
+    "s_181",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4, Abschnitt 3 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_182",
+    "s_182",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 4, Abschnitt 4 Unterabschnitt 2 § 32:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_196",
+    "s_196",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4, Abschnitt 4, Unterabschnitt 2 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_193",
+    "s_193",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 4, Abschnitt 4 Unterabschnitt 4 § 37:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_226",
+    "s_226",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 4, Abschnitt 4 Unterabschnitt 4 § 38:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_206",
+    "s_206",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 4, Abschnitt 4 Unterabschnitt 4 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_205",
+    "s_205",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4, Abschnitt 4, Unterabschnitt 4 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_208",
+    "s_208",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 4, Abschnitt 4 Unterabschnitt 5 § 40:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_207",
+    "s_207",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4, Abschnitt 4, Unterabschnitt 5 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_197",
+    "s_197",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 4, Abschnitt 5 § 46 :\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_184",
+    "s_184",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 4, Abschnitt 5 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_201",
+    "s_201",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 5, Abschnitt 1 § 47:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_209",
+    "s_209",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 5, Abschnitt 1 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_185",
+    "s_185",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 5, Abschnitt 2 § 50:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_186",
+    "s_186",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 5, Abschnitt 2 § 51:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_187",
+    "s_187",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 5, Abschnitt 2 § 60:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_210",
+    "s_210",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 5, Abschnitt 2 § 61:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_188",
+    "s_188",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 5, Abschnitt 2 Sonstige Bestimmungen:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_189",
+    "s_189",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 6, Abschnitt 2 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_190",
+    "s_190",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 6, § 62:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_198",
+    "s_198",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 6 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_191",
+    "s_191",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 7, § 66:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_192",
+    "s_192",
+    "Open",
+    "String",
+    "Allgemeine Anmerkungen zu Artikel 6 Teil 7, § 67:\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_194",
+    "s_194",
+    "Open",
+    "String",
+    "Ich/wir möchte/n allgemeine bzw. paragraphen-übergreifende Anmerkungen zu Teil 7 machen\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "s_195",
+    "s_195",
+    "Open",
+    "String",
+    "Anlage 1\n(Bitte maximal 6500 Zeichen verwenden, Leerzeichen werden mitgezählt)",
+    "469",
+    null
+  ],
+  [
+    "Zustimmung_Abschicken",
+    "zustimmung_abschicken",
+    "Closed",
+    "Single",
+    "Zustimmung_Abschicken",
+    "469",
+    null
+  ],
+  [
+    "email",
+    "email",
+    "Open",
+    "String",
+    "E-Mail",
+    "469",
+    null
+  ],
+  [
+    "statoverall",
+    "statoverall_1",
+    "Closed",
+    "Multiple",
+    "Gesamtstatus",
+    1,
+    "Neu"
+  ],
+  [
+    "statoverall",
+    "statoverall_2",
+    "Closed",
+    "Multiple",
+    "Gesamtstatus",
+    2,
+    "Versendet"
+  ],
+  [
+    "statoverall",
+    "statoverall_3",
+    "Closed",
+    "Multiple",
+    "Gesamtstatus",
+    3,
+    "Teilweise abgeschlossen"
+  ],
+  [
+    "statoverall",
+    "statoverall_4",
+    "Closed",
+    "Multiple",
+    "Gesamtstatus",
+    4,
+    "Abgeschlossen"
+  ],
+  [
+    "statoverall",
+    "statoverall_5",
+    "Closed",
+    "Multiple",
+    "Gesamtstatus",
+    5,
+    "Abgelehnt"
+  ]
+]

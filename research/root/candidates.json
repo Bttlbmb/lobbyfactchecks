@@ -1,0 +1,191 @@
+[
+  {
+    "id": "tabstaendg2026-vdr-root01",
+    "law_id": "tabstaendg-2026",
+    "document_id": "vdr-tabstaendg-2026",
+    "status": "ai_screened",
+    "finding_state": "unresolved_lead",
+    "severity": "major",
+    "favours_author_request": true,
+    "card": {
+      "law_is_about": "Increasing German tobacco taxes in annual steps from2027.",
+      "they_want": "Continue moderate, predictable tax increases.",
+      "they_claim": "Earlier increases doubled the black market to over20%.",
+      "the_problem": "A matching series includes legal foreign purchases, but the author’s actual source remains unidentified."
+    },
+    "claim_quote": {
+      "original": "der Schwarzmarkt verdoppelte sich auf über 20 %",
+      "language": "de",
+      "translation_en": "Translation: the black market doubled to over20%",
+      "locator": {
+        "pdf_page": 2,
+        "section": "Die erwarteten Mehreinnahmen werden nicht fließen",
+        "paragraph": 1
+      },
+      "underline": "der Schwarzmarkt"
+    },
+    "counter_quote": {
+      "original": "Die nicht in Deutschland versteuerten Zigaretten setzen sich aus legalen und illegalen Importen zusammen.",
+      "language": "de",
+      "translation_en": "Translation: Cigarettes not taxed in Germany comprise legal and illegal imports.",
+      "source_id": "hwwi-2010-1-28",
+      "locator": {
+        "pdf_page": 5,
+        "printed_page": 2,
+        "section": "2.2. Legales oder illegales Grenzgeschäft?",
+        "pagination_note": "EconStor archived PDF includes an additional cover; university repository PDF page4 corresponds to EconStor PDF page5."
+      },
+      "retrieved_at": "2026-10-24"
+    },
+    "request_quote": {
+      "original": "bestehenden Aufwuchspfad mit planbaren, moderaten Schritten fortsetzt",
+      "language": "de",
+      "translation_en": "Translation: continues the existing growth path with predictable, moderate steps",
+      "locator": {
+        "pdf_page": 6,
+        "section": "Empfehlungen des VdR",
+        "paragraph": "final"
+      }
+    },
+    "correction": "HWWI’s relevant series covers cigarettes not taxed in Germany, including legal foreign purchases. It cannot be described wholly as black-market trade. The submission provides no local citation, however, so matching its historical percentage to HWWI does not establish that this was the source used or disprove an alternative illicit-trade estimate.",
+    "effect": "If the mixed legal/illegal series was used, the submission overstates measured criminal-market growth. That premise remains unverified.",
+    "limits": "Unresolved, not an established factual error: the actual historical source must first be identified. Legal foreign purchases can still reduce German receipts. No finding about intent, eventual tax revenue or the appropriate tax rate follows.",
+    "confidence": {
+      "text_source_mismatch": "unresolved_source_identification",
+      "materiality": "editorial_judgment"
+    },
+    "materiality_explanation": "Potentially major if a mixed legal/illegal series was represented as criminal trade, because that would change the historical evidence used for moderate increases. Severity describes the potential issue, not a confirmed error.",
+    "direction_explanation": "The larger alleged black market supports the explicit request for moderate steps. No intent is inferred.",
+    "context_and_alternatives": [
+      "Elsewhere the submission distinguishes foreign purchases from the black market. The historical paragraph may use shorthand, but supplies no definition making legal imports criminal.",
+      "HWWI itself acknowledges uncertainty and assumptions in allocating imports. Its estimated legal/illegal split must not be treated as an exact observed rate.",
+      "The parallel BVTE hearing submission uses the same historical20% claim with the correct non-German-tax category and cites HWWI1-27/1-28 and DZV. This helps identify the series but is not independent evidence of the actual illicit share."
+    ],
+    "draft": {
+      "source_id": "bt-21-7859",
+      "version_date": "2026-09-07",
+      "version": "BT-Drs.21/7859; submission also addresses coalition Formulierungshilfe circulating before5October hearing",
+      "version_limit": "Exact date/version of the additional Formulierungshilfe is not authenticated; this historical-series correction is independent of its rate schedule. Do not compare to the later14October committee amendment as if it were the addressed text."
+    },
+    "source_ids": [
+      "vdr-tabstaendg-2026",
+      "hwwi-2010-1-28",
+      "bvte-tabstaendg-2026",
+      "bt-21-7859",
+      "bt-tabak-hearing-2026"
+    ],
+    "review": {
+      "specialist": null,
+      "ai_reviews": []
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "first recorded",
+        "by": "root_ai_screen"
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Lead researcher downgraded after independent review: matching a likely series without an explicit citation is insufficient to establish the claim false. Independent reviewer’s narrower provisional assessment is preserved.",
+        "by": "root_ai_adjudication"
+      }
+    ]
+  },
+  {
+    "id": "tabstaendg2026-bvte-root01",
+    "law_id": "tabstaendg-2026",
+    "document_id": "bvte-tabstaendg-2026",
+    "status": "ai_screened",
+    "finding_state": "provisional_finding",
+    "severity": "minor",
+    "favours_author_request": null,
+    "card": {
+      "law_is_about": "Increasing German tobacco taxes in annual steps from2027.",
+      "they_want": "Moderate, predictable tobacco-tax adjustments.",
+      "they_claim": "The table gives positive price elasticities for2006–2007.",
+      "the_problem": "Its falling quantities and rising prices yield negative signs."
+    },
+    "claim_quote": {
+      "original": "0,5",
+      "language": "de",
+      "translation_en": "Translation:0.5",
+      "locator": {
+        "pdf_page": 6,
+        "section": "Tabelle: Entwicklung von Zigarettenpreis, versteuertem Absatz und daraus abgeleiteten Preiselastizitäten2002–2007",
+        "row": "Preiselastizität",
+        "column": "2006"
+      },
+      "underline": "0,5"
+    },
+    "additional_claim_quotes": [
+      {
+        "original": "0,8",
+        "language": "de",
+        "translation_en": "Translation:0.8",
+        "locator": {
+          "pdf_page": 6,
+          "row": "Preiselastizität",
+          "column": "2007"
+        }
+      }
+    ],
+    "counter_quote": {
+      "original": "-2%",
+      "source_id": "bvte-tabstaendg-2026",
+      "locator": {
+        "pdf_page": 6,
+        "row": "Zigarettenabsatz: Veränderung zum Vorjahr",
+        "column": "2006 and2007"
+      },
+      "retrieved_at": "2026-10-24",
+      "language": "de",
+      "translation_en": "Translation of numeric entry: -2%."
+    },
+    "request_quote": {
+      "original": "für planbare, moderate und marktverträgliche Steueranpassungen",
+      "language": "de",
+      "translation_en": "Translation: for predictable, moderate and market-compatible tax adjustments",
+      "locator": {
+        "pdf_page": 1,
+        "section": "2. Bewertung des BVTE",
+        "paragraph": "final"
+      }
+    },
+    "correction": "Using the table's unrounded levels and its signed percentage-change convention gives2006: ((93465/95827)-1)/((21.31/20.38)-1)≈−0.54;2007: ((91497/93465)-1)/((21.85/21.31)-1)≈−0.83. The printed0.5/0.8 should carry minus signs.",
+    "effect": "Corrects the table's direction of association for those two years; their smaller absolute elasticities remain.",
+    "limits": "Does not validate causal elasticity estimates from simple annual changes or disprove the commissioned model, forecasts, or policy proposal.",
+    "confidence": {
+      "text_source_mismatch": "high",
+      "materiality": "editorial_judgment"
+    },
+    "materiality_explanation": "Minor: two displayed signs are wrong, but the magnitude comparison and separately cited2002–2005 estimate remain. The model's use of these cells is unestablished.",
+    "direction_explanation": "Unknown: the effect of these displayed cells on the request is unestablished, so direction is null.",
+    "context_and_alternatives": [
+      "Earlier years in the same row use negative signs, so an unsigned absolute-elasticity convention cannot explain the two positive entries. Visual rendering confirms the signs are absent in the original PDF."
+    ],
+    "draft": {
+      "source_id": "bt-21-7859",
+      "version_date": "2026-09-07",
+      "version": "BT-Drs.21/7859 and the additional coalition Formulierungshilfe addressed by the29September submission",
+      "version_limit": "Historical table arithmetic does not depend on the later amended tariff. The precise additional Formulierungshilfe version remains to authenticate."
+    },
+    "source_ids": [
+      "bvte-tabstaendg-2026",
+      "bt-21-7859",
+      "bt-tabak-hearing-2026"
+    ],
+    "review": {
+      "specialist": null,
+      "ai_reviews": []
+    },
+    "author_response": [],
+    "history": [
+      {
+        "date": "2026-10-24",
+        "event": "first recorded",
+        "by": "root_ai_screen"
+      }
+    ]
+  }
+]

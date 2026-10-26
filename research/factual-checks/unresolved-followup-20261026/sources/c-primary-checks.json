@@ -1,0 +1,265 @@
+{
+  "reviewer": "c",
+  "created_at_utc": "2026-10-26T00:29:21.022956+00:00",
+  "artifact_kind": "Concise authored primary check notes, not original background bytes",
+  "records": [
+    {
+      "id": "uf-c-draft",
+      "title": "BMWE examination-reform draft, current published artifact",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/Gesetz/2026/20261007-refentwurf-wirtschaftsprueferexamen.pdf?__blob=publicationFile&v=4",
+      "identity_version": "30 physical pages; exact shared PDF e719aec2; metadata creation and modification 6 October 2026 13:35:36 UTC; URL names 7 October.",
+      "read_extent": "Re-read cover pp. 1–3, operative pp. 4–7, selected rationale pp. 24–26 and 29–30, and compliance-cost passages p. 15. Examined metadata and searched complete extracted text only for a printed September/version-date string; no complete 30-page source read claimed.",
+      "check_results": "Operative text matches all eight IDW draft descriptions: narrowed subject catalogue; up to two-year evidenced family-period extension; BWL one paper; four-hour non-tax papers; oral waiver at 4.00 in non-core modules; supplementary route deleted with transition; conditional future sustainability paper/oral changes; institutional equivalence confirmation eight years. Article 2 and rationale retain university education and equivalence safeguards. No printed 23 September date recovered.",
+      "limits": "Metadata creation is not proof of a substantive October amendment and not proof of unchanged September contents. This verifies current official proposal content, not exact September dispatch bytes. Future sustainability changes depend on the separate CSRD/WPO package.",
+      "recorded_at_utc": "2026-10-26T00:29:21.022956+00:00",
+      "canonical_file": "research/round3-energy/sources/wpexamen-refe-official.pdf",
+      "canonical_sha256": "e719aec2fb79e41bfd54b30fb36d67eff0644cfbd74f9ee8b3cc53256f7bc5bc",
+      "accessed_date_utc": "2026-10-26",
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-version-probes",
+      "title": "Targeted ministry version-number recovery test",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/Gesetz/2026/20261007-refentwurf-wirtschaftsprueferexamen.pdf?__blob=publicationFile&v=1",
+      "identity_version": "Requested official URL versions 1, 2 and 3, compared byte-for-byte against canonical v4.",
+      "read_extent": "All three returned PDF identities, lengths, Last-Modified response headers and PDF metadata checked; relevant operative paragraphs compared through identical SHA256.",
+      "check_results": "All three requests returned exactly the same 405,089-byte e719aec2 artifact as v4. Response Last-Modified is 7 October 2026 11:16:23 GMT. Version-number URLs do not recover an earlier September file.",
+      "limits": "No inference that identical September dispatch was recovered; public query parameters may serve the current content. Bounded searches for exact date/title and dated WPK/IDW/ministry links found no authenticated September mirror.",
+      "recorded_at_utc": "2026-10-26T00:29:21.022956+00:00",
+      "probes": [
+        {
+          "accessed_at_utc": "2026-10-25T23:41:51.686865+00:00",
+          "original_download_sha256": "e719aec2fb79e41bfd54b30fb36d67eff0644cfbd74f9ee8b3cc53256f7bc5bc",
+          "download_bytes": 405089,
+          "http_status": 200,
+          "temporary_file": "/private/tmp/unresolved-c-20261026/draft-v1.pdf",
+          "identity_checked": true
+        },
+        {
+          "accessed_at_utc": "2026-10-25T23:41:51.687270+00:00",
+          "original_download_sha256": "e719aec2fb79e41bfd54b30fb36d67eff0644cfbd74f9ee8b3cc53256f7bc5bc",
+          "download_bytes": 405089,
+          "http_status": 200,
+          "temporary_file": "/private/tmp/unresolved-c-20261026/draft-v2.pdf",
+          "identity_checked": true
+        },
+        {
+          "accessed_at_utc": "2026-10-25T23:41:51.687438+00:00",
+          "original_download_sha256": "e719aec2fb79e41bfd54b30fb36d67eff0644cfbd74f9ee8b3cc53256f7bc5bc",
+          "download_bytes": 405089,
+          "http_status": 200,
+          "temporary_file": "/private/tmp/unresolved-c-20261026/draft-v3.pdf",
+          "identity_checked": true
+        }
+      ],
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-ministry-dossier",
+      "title": "BMWE consultation dossier and publication chronology",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Artikel/Service/Gesetzesvorhaben/2026/20261007-verordnung-wirtschaftsprueferexamen.html",
+      "identity_version": "Primary ministry page indexed as 7 October 2026.",
+      "read_extent": "Official-site web-search extraction of dossier introduction, draft listing and consultation dates. Direct web open failed 429; shell HTTP 200 content inspected and was Radware. Official energiewechsel alias likewise challenge.",
+      "check_results": "Indexed primary text identifies consultation launch on 23 September, deadline 14 October, and a 7 October draft download. Together with actual PDF Last-Modified this corroborates public October publication before both author letters.",
+      "limits": "Indexed primary extraction is not an archived original HTML or proof of exact historical dispatch. HTTP 200 challenge bytes are unusable as substantive evidence. No browser challenge circumvented.",
+      "recorded_at_utc": "2026-10-26T00:29:21.022956+00:00",
+      "accessed_date_utc": "2026-10-25",
+      "access_method": "Official-page indexed extraction via web search; failed direct retrievals recorded separately.",
+      "short_excerpt": "am 23. September 2026 die Länder- und Verbändebeteiligung",
+      "direct_attempt": {
+        "sha256": "17f15d24fa45b20de7eb5e7573d6781d5f7c62159f5635a67c45c3ab7d5a881c",
+        "bytes": 118413,
+        "http_status": 200,
+        "actual_content": "Radware challenge",
+        "usable_as_evidence": false
+      },
+      "alias_attempt": {
+        "url": "https://www.energiewechsel.de/Redaktion/DE/Artikel/Service/Gesetzesvorhaben/2026/20261007-verordnung-wirtschaftsprueferexamen.html",
+        "sha256": "fc827682375d960d7e9fe946a34e3141008eddb69accdf90ff8bacc4de9f5dcd",
+        "actual_content": "Radware challenge",
+        "usable_as_evidence": false
+      },
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-idw-release",
+      "title": "IDW release describing its examination-reform response",
+      "url": "https://www.idw.de/news/idw-begruesst-reform-des-wirtschaftsprueferexamens.html",
+      "identity_version": "Displayed date 15 October 2026; directly linked author letter dated 14 October.",
+      "read_extent": "Full substantive release paragraphs and linked-letter identity read; author letter reused canonical original, not downloaded again.",
+      "check_results": "Says BMWE published the draft in October, summarises the four-hour, one-paper and oral-threshold changes, and links the original response which expressly refers to 23 September. Provides chronological corroboration, not independent evidence of candidate burden or September contents.",
+      "limits": "Same author repeating its claim is not independent empirical verification. HTML includes login furniture but substantive release text is present and was read.",
+      "recorded_at_utc": "2026-10-26T00:29:21.022956+00:00",
+      "accessed_at_utc": "2026-10-25T23:41:54.375806+00:00",
+      "original_download_sha256": "0570c5de6374004c1ee5933c161fe7e26237c50d531824e6167d855194fd1f36",
+      "download_bytes": 64825,
+      "http_status": 200,
+      "temporary_file": "/private/tmp/unresolved-c-20261026/idw-reform.html",
+      "identity_checked": true,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-wpk-preproposal",
+      "title": "WPK report on 28 November 2025 board-of-advisers meeting",
+      "url": "https://www.wpk.de/neu/bericht-ueber-die-sitzung-am-28-november-2025/",
+      "identity_version": "Displayed publication 5 December 2025; explicitly reports proposals, not enacted reform or 2026 ministry dispatch.",
+      "read_extent": "Header/date and complete examination-reform paragraph/list under report of the WPK board.",
+      "check_results": "WPK was already proposing four-hour non-tax papers, one instead of two BWL papers, non-core oral waiver at 4.00, and moderate subject reduction. Corroborates a pre-consultation reform lineage.",
+      "limits": "Does not authenticate the September 2026 attachment, measure candidate burdens or prove diagnostic adequacy. No whole-page unrelated political assertions adopted.",
+      "recorded_at_utc": "2026-10-26T00:29:21.022956+00:00",
+      "accessed_at_utc": "2026-10-25T23:41:53.957785+00:00",
+      "original_download_sha256": "cc716434299ef8ac5f948ea29456b817acea93b6d7deb1dbf633d134c1005664",
+      "download_bytes": 117483,
+      "http_status": 200,
+      "temporary_file": "/private/tmp/unresolved-c-20261026/wpk2025.html",
+      "identity_checked": true,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-law",
+      "title": "Current examination regulation baseline",
+      "url": "https://www.gesetze-im-internet.de/wiprpr_fv/WiPrPr%C3%BCfV.pdf",
+      "identity_version": "Official consolidation; header last amendment 11 December 2024, predating both October replies.",
+      "read_extent": "Re-read header and complete sections 4–7, 13–19, selected physical pp. 4–10.",
+      "check_results": "Four modules each have written/oral components subject to exemptions; current six-year registration, two BWL papers, general four-to-six-hour length, module oral sections and supplementary route corroborate the baseline. Legal assessment structure does not establish actual oral questioning by written grade or before/after psychological burden.",
+      "limits": "Only listed operative passages read. A rule that questions are to be posed does not contradict an empirical allegation about examiner behaviour.",
+      "recorded_at_utc": "2026-10-26T00:29:21.022956+00:00",
+      "accessed_at_utc": "2026-10-25T23:41:56.675861+00:00",
+      "original_download_sha256": "3ea1af865e5cc6528933bae744e8084b1bd02efd8a7422f91b2109196b01d205",
+      "download_bytes": 104614,
+      "http_status": 200,
+      "temporary_file": "/private/tmp/unresolved-c-20261026/wp-exam-law.pdf",
+      "identity_checked": true,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-wpanrv",
+      "title": "Current examination-credit regulation baseline",
+      "url": "https://www.gesetze-im-internet.de/wpanrv/WPAnrV.pdf",
+      "identity_version": "Official consolidation; header last amendment 11 December 2024.",
+      "read_extent": "Header and complete sections 7–9, physical pp. 3–4.",
+      "check_results": "Section 8 institutional confirmations are separate from section 9(2) individual degree-age eight-year limit. Section 9(6) allows denial when material curriculum redesign removes equivalence; not every material change automatically cancels credit.",
+      "limits": "Safeguard corroborates a quality-control mechanism but not an empirical guarantee of unchanged professional quality or exact September wording.",
+      "recorded_at_utc": "2026-10-26T00:29:21.022956+00:00",
+      "accessed_at_utc": "2026-10-25T23:41:54.555068+00:00",
+      "original_download_sha256": "30be806b2d4f73a2c70d06dbbc11cbb99d20ff73d5e0a2ed1ae28418324de46e",
+      "download_bytes": 70080,
+      "http_status": 200,
+      "temporary_file": "/private/tmp/unresolved-c-20261026/wp-anrv.pdf",
+      "identity_checked": true,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-wpo",
+      "title": "WPO statutory boundary for university exam credit",
+      "url": "https://www.gesetze-im-internet.de/wipro/WPO.pdf",
+      "identity_version": "Official consolidation; last amendment 4 February 2026; exact bytes match prior checked primary WPO.",
+      "read_extent": "Re-read header and complete sections 8a, 13b and 14, selected physical pp. 10 and 12–13.",
+      "check_results": "Section 13b limits this credit route to examinations in higher education, establishes equivalence in content/form/extent, and delegates procedure. Neither this statutory boundary nor the current proposal adds a vocational-exam category. This independently supports BVBC credit-scope description.",
+      "limits": "No claim that vocational entry is universally impossible: other entry routes remain. No full 77-page law read claimed.",
+      "recorded_at_utc": "2026-10-26T00:29:21.022956+00:00",
+      "accessed_at_utc": "2026-10-26T00:22:28.969527+00:00",
+      "original_download_sha256": "438e41ccc5b833d904a2d3dc4b288f014e2acba374ebd3a3cf3a842956221c3e",
+      "download_bytes": 440449,
+      "http_status": 200,
+      "temporary_file": "/private/tmp/unresolved-c-20261026/wpo.pdf",
+      "identity_checked": true,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-bayoblg",
+      "title": "BayObLG order 8 August 2025, 101 W 116/24",
+      "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2025-N-20079",
+      "identity_version": "Official Bavarian judiciary full-text publication of the 8 August 2025 order.",
+      "read_extent": "Header and complete paragraphs 32–39, especially 36–38; not whole judgment.",
+      "check_results": "The court regards IDW professional valuation pronouncements as recognised and commonly used despite methodological criticism. It separately says they lack binding legal-norm character. This is independent direct evidence of ordinary practical use, supplementing the examination catalogue and statutory professional framework.",
+      "limits": "Decision concerns business valuation and judicial estimation, not a census of all audit assignments or a mandate to consult every pronouncement. Those universal propositions are not what IDW p. 6 says.",
+      "recorded_at_utc": "2026-10-26T00:29:21.022956+00:00",
+      "short_excerpt": "anerkannt und gebräuchlich",
+      "accessed_at_utc": "2026-10-25T23:41:54.444672+00:00",
+      "original_download_sha256": "39ee2e1613d57436805fe0a553fb6cc94092507528e7bc1c2cdd41b35829d8a9",
+      "download_bytes": 231081,
+      "http_status": 200,
+      "temporary_file": "/private/tmp/unresolved-c-20261026/bayoblg.html",
+      "identity_checked": true,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-ig1",
+      "title": "EFRAG IG 1 materiality-assessment implementation guidance",
+      "url": "https://www.efrag.org/sites/default/files/sites/webpublishing/SiteAssets/IG%201%20Materiality%20Assessment_final.pdf",
+      "identity_version": "Final May 2024, 55 physical pages, official EFRAG direct file. Older Assets/Download endpoint returned 404 through shell; web tool could extract it.",
+      "read_extent": "Independently read disclaimer p. 2 and section 2.1 pp. 10–14, paragraphs 33–39; p. 14 boxed text visually inspected from actual direct-file render. No full 55-page read claimed.",
+      "check_results": "Paragraph 35 calls impact/financial materiality often intertwined. Paragraph 37 says most material impacts may develop financial risks/opportunities over time; the p. 14 box states most material matters give rise to financial risks/opportunities. Examples explain delayed production losses, compensation claims and staff-turnover effects. This supports the ordinary qualitative relationship in IDW sustainability-reporting context, beyond merely hypothetical possibility.",
+      "limits": "Non-authoritative ESRS guidance for large CSRD reporting entities, not an empirical population estimate, universal effect of every nonfinancial event or guarantee of recognised financial-statement loss. Ordinary unquantified often is retained; no percentage inferred.",
+      "recorded_at_utc": "2026-10-26T00:29:21.022956+00:00",
+      "accessed_at_utc": "2026-10-26T00:24:58.354357+00:00",
+      "original_download_sha256": "e303392104bb94ef7f112f2ea5a15446ba537264ca50fe4acfc64481893832a6",
+      "download_bytes": 1675287,
+      "http_status": 200,
+      "temporary_file": "/private/tmp/unresolved-c-20261026/ig1-direct.pdf",
+      "identity_checked": true,
+      "short_excerpt": "Impact materiality and financial materiality are often intertwined",
+      "failed_endpoint": {
+        "url": "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2FIG+1+Materiality+Assessment_final.pdf",
+        "accessed_at_utc": "2026-10-26T00:24:32.412884+00:00",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-connectivity",
+      "title": "EFRAG discussion paper on financial/sustainability reporting connectivity",
+      "url": "https://www.efrag.org/sites/default/files/media/document/2026-02/EFRAG%20Discussion%20Paper%20Connectivity%20of%20financial%20and%20sustainability%20reporting.pdf",
+      "identity_version": "Dated December 2025; official February 2026 file; 116 pages.",
+      "read_extent": "Disclaimer p. 2, selected introduction/method p. 19–20 and complete intertemporal subsection pp. 82–83/paras. 5.38–5.43. Web searches within document were locators, not whole-paper reading.",
+      "check_results": "Explains how presently nonfinancial/qualitative risks, commitments and disclosures may become measurable later financial effects; methodological background includes a 72-company report review and stakeholder outreach. Complements IG1 causal/timing interpretation.",
+      "limits": "Non-authoritative research discussion paper. Selected examples/report review do not estimate the prevalence of realised delayed financial effects; no universal frequency claim derived.",
+      "recorded_at_utc": "2026-10-26T00:29:21.022956+00:00",
+      "accessed_at_utc": "2026-10-26T00:22:28.970259+00:00",
+      "original_download_sha256": "f2ad8d956703db6ad4530dead23887cd1149f863b52f1a93e58254769f56cc84",
+      "download_bytes": 8598255,
+      "http_status": 200,
+      "temporary_file": "/private/tmp/unresolved-c-20261026/efrag.pdf",
+      "identity_checked": true,
+      "usable_as_evidence": true
+    },
+    {
+      "id": "uf-c-public-access-limits",
+      "title": "Targeted additional primary access checks",
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2018-6-14&Gericht=bgh&anz=15&nr=87053&pos=10",
+      "identity_version": "BGH 14 June 2018 IX ZR 22/15 candidate source; other attempted court/professional documents below.",
+      "read_extent": "Search-indexed primary BGH passage on impartial industry expertise located; direct shell and web PDF both failed 403. Berlin official case URL inspected and returned JS shell, not decision text. IDW working-principles PDF returned 404.",
+      "check_results": "These attempts did not recover practice-frequency or examiner-log evidence. No proposed result relies on the unavailable full BGH/ Berlin/IDW document.",
+      "limits": "An unavailable source cannot establish contradiction or prove a staffing distribution. Non-primary republications were used only to locate official identifiers, not as evidence.",
+      "recorded_at_utc": "2026-10-26T00:29:21.022956+00:00",
+      "accessed_date_utc": "2026-10-26",
+      "attempts": [
+        {
+          "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2018-6-14&Gericht=bgh&anz=15&nr=87053&pos=10",
+          "error": "HTTP Error 403: Forbidden",
+          "sha256": null,
+          "actual_content": null
+        },
+        {
+          "url": "https://www.idw.de/IDW/UeberUns/Fachgremien/IDW-Grundsaetze-IDW-Fachgremien-2022.pdf",
+          "error": "HTTP Error 404: ",
+          "sha256": null,
+          "actual_content": null
+        },
+        {
+          "url": "https://gesetze.berlin.de/perma?d=NJRE001628020",
+          "error": null,
+          "sha256": "0efa5ebc1bf6594a88dbc5bf79d69861a00e77d14e9d1a3e0a26191282f69e3b",
+          "actual_content": "JavaScript application shell, not judicial opinion"
+        }
+      ],
+      "usable_as_evidence": false
+    }
+  ],
+  "storage_policy": "Supporting bytes, extracts and renders are temporary. Shared canonical draft reused once; no full background PDF or HTML added to repository. Keep authored notes and manifests.",
+  "limits": [
+    "All access attempts are actual recorded checks; HTTP 200 challenge/application shells are explicitly unusable for substance.",
+    "Factual support is distinguished from exact September byte identity, draft effect from current law, and qualitative technical relationships from measured statistical rates."
+  ]
+}

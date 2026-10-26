@@ -1,0 +1,541 @@
+{
+  "reviewer": "b",
+  "reviewed_file": "research/factual-checks/short-it-components-20261025/agents/claims-a.json",
+  "reviewed_sha256": "f9b4665bcd107f3ec39f1ef7e5f459c56c1a3c718156d89a2baa8a3c16966792",
+  "status": "frozen_complete",
+  "created_at_utc": "2026-10-25T22:21:57.699476+00:00",
+  "documents_reread": [
+    {
+      "document_id": "bmds-it-komponentenverordnung-itkv-response-003",
+      "pages": [
+        1,
+        2
+      ],
+      "fully_reread": true,
+      "read_before_counterpart_dispositions": true,
+      "sha256": "2cffb63592e24084aca9549f2ff00db5bc9b789730466d659719908691d6f304",
+      "text_snapshot_sha256": "dfe1168dcb08a5877ef0d259becc29a121708c1ad35f40dbc14276a8423007ba",
+      "visual_checks": "Original page 2 independently visually read, including truncated quote, authority functions and 14 September date. Both pages independently fully text-read before dispositions."
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "short-it-a-001",
+      "verdict": "accept",
+      "reason": "A concrete supplier example or association member list does not establish the denominator of all specialist applications and IT systems. Full original scope is retained, with unresolved market share rather than treating self-description as a census.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-history",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-search",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-a-002",
+      "verdict": "accept",
+      "reason": "The independently opened HSH history establishes a 1991 founding and present products, but not the plural-member greater-than-35/20-year proposition at the response date. This remains unresolved, not contradicted.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-history",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-dataport-fv",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-search",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-a-003",
+      "verdict": "accept",
+      "reason": "Exact draft and d-NRW service identity both identify eWA as 10124.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-draft",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-dnrw",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-a-004",
+      "verdict": "accept",
+      "reason": "Operator technical descriptions independently confirm OSCI, XMeld and XPassAusweis; dated KoSIT release history corroborates the document-authority notification component.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-dnrw",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-dataport-fv",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-xpass",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-a-005",
+      "verdict": "accept",
+      "reason": "Standardised messages and existing pilots provide a plausible implementation mechanism, but the observed sources do not independently assess the claimed good implementability or its causal attribution. No quantitative contribution or proof of necessity is demanded; unresolved evaluation retained.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-dnrw",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-dataport-fv",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-xpass",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-a-006",
+      "verdict": "accept",
+      "reason": "Independently read draft page 12 requires examination of an extension if dissemination and cost savings are successful; the author does not claim an automatic extension.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-draft",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-a-007",
+      "verdict": "accept",
+      "reason": "Read as the practical displacement of competing private front ends. Current Land deviation or backend integration does not falsify that market-effect assertion. No historical market comparison establishes its general extent.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-draft",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-ozg4",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-dataport-fv",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-search",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-a-008",
+      "verdict": "accept",
+      "reason": "The recorded conditional adaptation-cost mechanism is independently supported by operator requirements and draft pages 10–11. The future unreasonable cost threshold is explicitly excluded as a normative/forecast judgement; no silently weakened supported estimate results.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-dataport-fv",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-draft",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-a-009",
+      "verdict": "accept",
+      "reason": "The quote in draft section C contains the either-EfA-minimum-or-legal-criteria alternatives. Document-content support is separated from whether every competing product actually fails either branch.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-draft",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-a-010",
+      "verdict": "accept",
+      "reason": "No bounded product census and matching historical compliance audit was recovered. Neither branch is collapsed into a claim that all competitors necessarily fail both.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-draft",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-search",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-a-011",
+      "verdict": "accept",
+      "reason": "BSI specifies sovereign writing/certificate roles and permits controlled outsourcing. It neither establishes nor refutes actual historical denial to competing front ends; access for backend suppliers is a different question.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-bsi",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-pauswg20a",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-eidkg14a",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-dataport-fv",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-search",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-a-012",
+      "verdict": "accept",
+      "reason": "Independent official-domain searches did not recover identified primary Land complaints. Private or unpublished complaints cannot be excluded; unresolved is appropriate.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-search",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-a-013",
+      "verdict": "accept",
+      "reason": "Successful eWA end-to-end technical operation does not prove the effect on other suppliers. The frequently wording remains in the proposition without reducing it to mere possibility.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-bsi",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-dataport-fv",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-search",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-a-014",
+      "verdict": "accept",
+      "reason": "No matched investment decisions or causal magnitude were recovered. The actual massively historical assertion is retained; this is not an intent finding or an inference of falsehood.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-search",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-draft",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    },
+    {
+      "claim_id": "short-it-a-015",
+      "verdict": "accept",
+      "reason": "Independent statutory reading confirms functional identity/eID/residence-document competence. Section 78(7) explicitly allows other Land-designated authorities. The original can reasonably refer to legal roles rather than distinct physical organisations, and the recorded limitations preserve this.",
+      "evidence_checks": [
+        {
+          "source_id": "short-it-br-pauswg7",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-pauswv19",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-eidkg6",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-eidkg12",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-aufenthg71",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-aufenthg78",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-bsi",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        },
+        {
+          "source_id": "short-it-br-dataport-fv",
+          "check": "Independently reopened/read; exact scope, result and temporal limits recorded in peer primary-check note."
+        }
+      ]
+    }
+  ],
+  "omissions": [],
+  "omission_audit": "Both complete original pages, all 15 recorded claims and both page exclusions independently compared. Exact member count, high utility, quality requirements and future acceptable-cost threshold are incidental or normative/forecast matter. All material historical access, complaint, investment, technical-standard and legal-role premises are represented. No additional material omission identified.",
+  "sources": [
+    {
+      "id": "short-it-br-draft",
+      "title": "Consultation ITKV draft, printed 1 September 2026 at 18:18",
+      "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Gesetzesvorhaben/ITKV_RefE_2026-09-03_barrierefrei.pdf",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "3083a6061d2f2512530d3f8f8272e564d557a3ada730660b9aa264a51780cf22",
+      "temporal_limit": "Exact common draft is corroborated by matching quoted content; filename date is not the printed date. Forecast figures in the draft are not independently validated or attributed to DATABUND.",
+      "read_extent": "Physical pp. 1–2, 4–5 and 10–12 independently read; not all 12 pages claimed.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-dnrw",
+      "title": "d-NRW eWA service description, stand March 2026",
+      "url": "https://www.d-nrw.de/kommunalvertreter-onlinezugang/verfuegbare-leistungen/elektronische-wohnsitzanmeldung",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "4f060b8bc0d8a89666268bc0ffb7b700339ffdab82a391bf6c022d2f6a627e2f",
+      "temporal_limit": "Current page states March 2026 but exact September bytes are not authenticated; later page availability is qualified.",
+      "read_extent": "Complete substantive short service entry, technical interfaces and implementation stages; current primary web page independently opened.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-dataport-fv",
+      "title": "Dataport eWA specialist-application integration documentation",
+      "url": "https://docs.osi.dataport.de/public/puboddoku/fachverfahren-ertuechtigen-525435776.html",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "42d98a5f7ac4340c4eeb83a028307f55225358fc350528ce3b22ad071db93ce8",
+      "temporal_limit": "Undated current operator material supports mechanisms but cannot determine historical denials, national market share, causal investment losses or legal adequacy of every competitor.",
+      "read_extent": "Entire short substantive article, independently reopened and read in saved primary HTML as well as web extraction.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-xpass",
+      "title": "KoSIT XPassAusweis release history 25.11, final 31 January 2025",
+      "url": "https://www1.osci.de/sixcms/media.php/13/ReleaseHistorie-XPassAusweis.16883.pdf",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "b6434510b8ff1e094cb7f23b26ecfb3f87ba662a496229e35c7e1ba45a607944",
+      "temporal_limit": "Release history is not the full standard or proof of market/interface access.",
+      "read_extent": "Physical pp. 1 and 5, exact PDF identity independently verified; seven-page document not fully read.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-bsi",
+      "title": "BSI TR-03128 part 3, version 1.3, 26 March 2026",
+      "url": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil3.pdf?__blob=publicationFile&v=6",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "8f52ca127607ed3b20d4bd78b8220ac356ac6908037189d258970bc9269aba1f",
+      "temporal_limit": "Security architecture does not prove that named competitors were denied access, whether denial was unjustified, or whether multiple Länder complained. Backend integration is not competing-front-end access.",
+      "read_extent": "Cover, selected pp. 5–9, complete pp. 14–18 and 22–23 independently read; not a full 25-page reading.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-ozg4",
+      "title": "Current OZG section 4, contextual comparison",
+      "url": "https://www.gesetze-im-internet.de/ozg/__4.html",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "b74a1f1ba707e0625b26c6a25ee953f0715fbe11242f89e1c14303da261d80a2",
+      "temporal_limit": "Full-law header includes 6 October 2026 amendment after the 14 September response; not silently substituted as September legal proof.",
+      "read_extent": "Complete clause and official full-law amendment header independently checked.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-pauswg7",
+      "title": "PAuswG section 7, functional competence",
+      "url": "https://www.gesetze-im-internet.de/pauswg/__7.html",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "5bd0b810da8c1040b2efdc11d6ccc1feb221f402bb537f8317dd1e64ef06c3b4",
+      "temporal_limit": "Current single clause corroborated by pre-author BSI and PAuswV; no full historical amendment-chain or all Land designation survey.",
+      "read_extent": "Complete short clause independently read.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-pauswg20a",
+      "title": "PAuswG section 20a, sovereign certificate roles",
+      "url": "https://www.gesetze-im-internet.de/pauswg/__20a.html",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "ee229735609a2f8f1b41c583aad029678dac5579ceec233bfe53f72ac2baa9e9",
+      "temporal_limit": "Current single clause with dated pre-author technical corroboration; no retrospective denial inference.",
+      "read_extent": "Complete short clause independently read.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-pauswv19",
+      "title": "PAuswV section 19, address changes",
+      "url": "https://www.gesetze-im-internet.de/pauswv/__19.html",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "dc1f3a3fafc65a558d43a32090b7e21054f4c072406d3f3a725ced4011c3ed4f",
+      "temporal_limit": "Supports legal roles, not separate physical buildings or a compulsory in-person visit.",
+      "read_extent": "Complete clause independently read; full official law header independently opened, last amendment 30 January 2026.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-eidkg6",
+      "title": "eIDKG section 6, competent authorities",
+      "url": "https://www.gesetze-im-internet.de/eidkg/__6.html",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "27caa73be1fdd6ae05a8e1d0569fe005073f6aca6b6cb5c4aa121c3882772ae5",
+      "temporal_limit": "No complete state competence or historical amendment survey.",
+      "read_extent": "Complete short clause independently read.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-eidkg12",
+      "title": "eIDKG section 12, identification for address updates",
+      "url": "https://www.gesetze-im-internet.de/eidkg/__12.html",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "20da52ff2c1a4fd0e0bd6cb1d7b794485a68594e09c8e4bf745b2d0a68f58784",
+      "temporal_limit": "Not proof of a universal contractor exclusion or separate physical office.",
+      "read_extent": "Complete clause, especially paragraph 4, independently read.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-eidkg14a",
+      "title": "eIDKG section 14a, sovereign certificates",
+      "url": "https://www.gesetze-im-internet.de/eidkg/__14a.html",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "533624b5780fb70b6b5b8c23f96c7bebdb6a0579f9f03ed2cef878ee213ee384",
+      "temporal_limit": "Does not identify any denied competing service or establish reasons for an actual denial.",
+      "read_extent": "Complete short clause independently read.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-aufenthg71",
+      "title": "AufenthG section 71, foreigner-authority competence",
+      "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__71.html",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "ef1ea6632342decc3fcbf6fae6563d57905c3119600fc3ab3ec5ccfb031db73b",
+      "temporal_limit": "No all-Land competence survey; related section 78(7) permits other designated bodies.",
+      "read_extent": "Full paragraph 1 and relevant section context independently read; not all statutory tasks independently researched.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-aufenthg78",
+      "title": "AufenthG section 78, electronic residence documents",
+      "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__78.html",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": "6cf9faf257db7f935c7c1a7aff40c491cc549db2ff511e7406922483593cc38c",
+      "temporal_limit": "Supports function-specific competence, not organisational exclusivity; all designated bodies are not surveyed.",
+      "read_extent": "Complete relevant paragraphs 5 and 7 independently read; full official law header independently opened, last amendment 22 July 2026.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-history",
+      "title": "HSH primary company history and product description",
+      "url": "https://www.hsh-berlin.com/modules.php?cid=13&name=HSH_Content",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": null,
+      "temporal_limit": "Current self-description is not an independent national market census; 1991 alone does not establish a strict greater-than-35-year threshold at 14 September 2026 or greater-than-20 years of online services.",
+      "read_extent": "Complete short company description independently opened.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    },
+    {
+      "id": "short-it-br-search",
+      "title": "Primary-source search scope for interface denial, Land complaints and market consequences",
+      "url": "https://www.bundestag.de/",
+      "retrieved_at": "2026-10-25T22:21:57.699476+00:00",
+      "local_file": "research/factual-checks/short-it-components-20261025/sources/br-primary-checks.json",
+      "sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+      "local_file_kind": "authored_primary_check_notes",
+      "observed_original_sha256": null,
+      "temporal_limit": "Search evidence limits cannot refute historical allegations. No author contact, market survey or human specialist consultation.",
+      "read_extent": "Independent searches for electronic Wohnsitzanmeldung + Schnittstellen + private Anbieter/verwehrt, including Bundestag and Bundesrat domains; inspected returned technical/operator and primary implementation descriptions.",
+      "usable_as_evidence": true,
+      "retention_exception": "Concise authored review evidence note; not a retained whole public document."
+    }
+  ],
+  "source_note_sha256": "83b33440a7652cf41e116d1d79bf9a4ccf3bd944263cb7c9c05589ee972b1745",
+  "limitations": [
+    "No author contact or human specialist confirmation.",
+    "No primary denial decisions, investment records, complete competitor compliance audit or national application denominator recovered; absent evidence is not falsehood.",
+    "Current OZG contains a post-author October amendment and is contextual only. Dated BSI/KoSIT, exact shared draft and pre-author PAuswV/AufenthG headers provide scoped corroboration.",
+    "Longer technical/legal evidence was read only for identified relevant passages, not as new fully screened targets.",
+    "Raw A inventory and first-17 research/review records remain unchanged."
+  ],
+  "counts": {
+    "documents": 1,
+    "pages": 2,
+    "claims_reviewed": 15,
+    "accept": 15,
+    "revise": 0,
+    "needs_more_evidence": 0,
+    "new_error_candidates": 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "reviewer": "/root/social_round2",
+  "date": "2026-10-25",
+  "candidate_id": "bsi-alcohol-denominator-round4-negative",
+  "candidate_sha256": "ea3056b8d821ada6d64d444e4219c24ef8d4445ddf0f92a6a9ac0c77b0d96571",
+  "disposition": "Retain negative/non-promotion for the hypothesised beverage-volume-versus-ethanol substitution.",
+  "read_extent": {
+    "author": "All three original author pages independently read during targeted triage and rechecked request/denominator wording.",
+    "primary_context": "Read author statistical brochure physical12 and19, named AWB annex physical1,6–7, pre-submission30June HTML paragraph plus surrounding text; related government BT21/7860 physical7 and16. Did not read entire statistical brochure, legal opinion or bill.",
+    "visual_checks": [
+      "research/round4-social/visual-checks/bsi-table-p19.png",
+      "research/round4-social/visual-checks/bsi-annex-p6.png"
+    ]
+  },
+  "independent_checks": [
+    {
+      "check": "finished-beverage share",
+      "calculation": "4.85/(21.5+2.9+75.4+4.85)*100",
+      "result": 4.634495938843764,
+      "meaning": "Reproduces illustrated4.6% after rounding; labelled table denominator is litres of finished beverage."
+    },
+    {
+      "check": "cash excise-revenue share",
+      "calculation": "2050.5/2977.6*100",
+      "result": 68.86418592154756,
+      "meaning": "Reproduces68.9% / nearly70%; official raw BMF source not independently acquired for this review."
+    },
+    {
+      "check": "strongest affirmative context",
+      "result": "Named annex physical6 explicitly distinguishes4.6% beverage consumption and18–20% pure-alcohol share. June30author statement likewise states both, before the challenged September text."
+    }
+  ],
+  "reason": "The original quantity wording is compatible with finished beverage volume, and its expressly cited annex contains the ethanol qualification. Comparing two different but identified percentages to argue tax inequality is not by itself a false denominator description. Policy fairness and fiscal forecasts remain separate.",
+  "limits": [
+    "The author statistical table is a compilation, not the original official BMF cash-receipts table. No independent validation of all underlying quantities claimed.",
+    "Brochure physical12 warns that wine per-capita data from2023 use population16+, whereas other series differ; summing rounded pure-alcohol per-capita entries cannot supply an exact corrected population share. The reconstructed diagram is not proof its underlying denominator is otherwise perfect.",
+    "Exact June discussion draft remains unavailable; related September government draft matches the quoted rate and385m component, but is not retroactively substituted for the June version.",
+    "No legal-opinion merits, actual elasticity, future net revenue or health-effect finding. No new original-language quotes added."
+  ],
+  "new_issue_recommended": false,
+  "new_pool_credit": false
+}

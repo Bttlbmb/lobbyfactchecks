@@ -1,0 +1,30 @@
+{
+  "reviewer": "energy_hearings",
+  "reviewed_at": "2026-10-25",
+  "input": "research/round3-tax/coverage-bounded-fruehstart-proof.json",
+  "scope": "Independent finite URL, archive, page-count and date-premise audit, not rereading all author text.",
+  "checks_completed": [
+    "Reparsed the published-response aside section: exact seven-URL set matches proof. Whole hearing page has 15 PDF links including eight non-response resources (agendas, witness list, bills/motions), which are correctly excluded from this response denominator.",
+    "Recalculated archived hearing-page SHA-256 and all seven submission SHA-256 values: all match.",
+    "Independently read PDF page counts:6+7+8+6+4+8+11=50; first six39pages, prior-round vzbv11pages counted once.",
+    "Inspected available author-date/header contexts and GDV final date line 30 September; retained six author dates versus Malmendier hearing-date context, not an inferred author or delivery date.",
+    "The cited prior-round local vzbv artifact remains separate from six new readings and is not inflated into an additional round3 version."
+  ],
+  "counts_supported": {
+    "unique_known_response_urls": 7,
+    "unique_pdf_hashes": 7,
+    "physical_resource_pages": 50,
+    "new_round3_resources": 6,
+    "new_round3_pages": 39,
+    "prior_round2_resource": 1,
+    "prior_round2_pages": 11
+  },
+  "required_corrections": [],
+  "disposition": "Supports bounded count and duplicate handling; no required correction.",
+  "limits": [
+    "All-seven substantive reading is the original researcher ledger claim, not this independent archive audit.",
+    "The hearing page can be closed for its observed published links without proving the entire process or all three channels complete.",
+    "Exact recipient dates remain unverified; author date and committee/hearing context are not substitute delivery evidence.",
+    "The assigned expert name and organizational author may differ; proof appropriately preserves Initiative Digitale Altersvorsorge under Soltau contribution rather than treating labels as separate documents."
+  ]
+}

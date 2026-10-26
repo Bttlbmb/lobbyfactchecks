@@ -1,0 +1,54 @@
+{
+  "created_at_utc": "2026-10-25T05:24:14.176234+00:00",
+  "reviewer": "tax_consultations AI agent",
+  "scope": "Independent novelty and plausibility selection review only. No issue record, error finding or compiled-pool change. Parent primary-source discoveries are explicitly attributed, not represented as an independent full-source read.",
+  "reviewed_file": "research/targeted-expansion/energy-leads.json",
+  "reviewed_file_sha256": "9fa257d04ee43353ccd9e0245c497b61963ce526dbad937a84804153924892ef",
+  "pool_snapshot_sha256": "bbca6fb012fcd387bf6e96d0a9b938f5a9bc6ab0608187036c6c4498bbf4753e",
+  "binary_novelty_checks": [
+    {
+      "register_id": "SG2610230021",
+      "sha256": "a9447d2df431815919d239f3a6b32d3650cc8d041adeab6dc451d51962823236",
+      "matches_declared_hash": true,
+      "pool_binary_matches": []
+    },
+    {
+      "register_id": "SG2610190007",
+      "sha256": "893b5f809d8ba6c6cfeba113de750d81409aed17cea44ec570787c13bc8df1e0",
+      "matches_declared_hash": true,
+      "pool_binary_matches": []
+    },
+    {
+      "register_id": "SG2610130043",
+      "sha256": "1a91eba9ceafb39ece498cefb110e6db0024f20ac6599375b84f0bd9b9eaf127",
+      "matches_declared_hash": true,
+      "pool_binary_matches": []
+    }
+  ],
+  "read_extent": {
+    "SG2610230021": "All extracted substantive text on physical pages 2–3; first page is not extractable and was not independently visually reviewed in this audit.",
+    "SG2610130043": "All four extracted author pages.",
+    "SG2610190007": "Entire one-page extracted author text."
+  },
+  "decisions": [
+    {
+      "register_id": "SG2610230021",
+      "disposition": "deprioritise_quantitative_mismatch_branch; retain_lower_priority_timetable_gate",
+      "reason": "The author explicitly cites the September Prognos study and frames cumulative policy impacts as a scenario. Root reports that the original study physical pages 2 and 38–40 affirm the 30 percent and 1.3–1.5 ct/kWh figures, substantially rescuing the selected numerical attribution. I have not independently read the 52-page study and do not certify all assumptions. The separate assertion that new AgNes capacity charges begin on 1 January 2027 remains a definite timetable question, but should be gated by the precise regulatory stage and scenario assumptions before any allegation.",
+      "benign_alternative": "The author may describe a proposed implementation scenario rather than an enacted obligation. A correct cited scenario is not a factual forecast error."
+    },
+    {
+      "register_id": "SG2610130043",
+      "disposition": "deprioritise_after_affirmative_primary_rescue",
+      "reason": "The four-page context expressly offers an alternative compliance route while preserving verification and corrective duties. Root found the official ASHRAE 90.4-2022 Store description affirmatively supporting the four electrical load points and their alignment with mechanical metrics. A different edition or an unavailable paid standard cannot supply affirmative evidence of error. I agree with removal from the active queue.",
+      "primary_discovery_attribution": "Root independent initial source check, relayed to this reviewer; full paid standard not read by this reviewer."
+    },
+    {
+      "register_id": "SG2610190007",
+      "disposition": "conditional_low_priority_scope_lead",
+      "reason": "The entire statement expressly concerns return of Netzreserve plants, then invokes the strategic-reserve provisions of Article 22. This creates a checkable category question, but the actual contemplated legislative mechanism is not identified. Strategic-reserve rules or state-aid conditions could apply to the concrete design. First identify the exact vehicle and version; do not infer falsity solely from differing reserve labels.",
+      "benign_alternative": "The author may use a shorthand legal analogy or address a mechanism that is in substance a strategic capacity reserve. A political market-return proposal may also fall outside the target legislative-submission population."
+    }
+  ],
+  "limits": "Binary novelty does not establish semantic novelty across redacted, reformatted or joint-author copies. No factual mismatch was established in this selection audit."
+}

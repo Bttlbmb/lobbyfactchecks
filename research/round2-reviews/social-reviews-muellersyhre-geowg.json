@@ -1,0 +1,59 @@
+{
+  "id": "social-reviews-muellersyhre-geowg",
+  "reviewer": "social_round2",
+  "reviewed_at": "2026-10-25",
+  "scope": [
+    "Read all 20 author pages using complete OCR plus targeted re-reads of portions truncated in the first output; read official cover. OCR spelling was not treated as authoritative quotation.",
+    "Visually inspected original physical 12,13,14,15 and 21, including equations,2.8%sentence and rejection request.",
+    "Read exact BT 20/13092 rationale physical 16 and 17, including explicit heat-network 10 TWh goal.",
+    "Read archived original Destatis release 388 of 29 September 2023 and both household/non-household tables, price-brake note and methods."
+  ],
+  "adjudications": [
+    {
+      "candidate_id": "geowg2024-muellersyhre-a01",
+      "disposition": "retain_unresolved_lead",
+      "severity": "major",
+      "favours_author_request": null,
+      "reason": "Draft goal is unambiguously heat-network feed-in. Author acknowledges deep geothermal direct heat earlier and explicitly labels this scenario electrical. The subsequent therefore-link to shallow heat pumps is troubling, but a hypothetical-option reading remains possible. Do not assert proven target misdescription."
+    },
+    {
+      "candidate_id": "geowg2024-muellersyhre-a02",
+      "disposition": "downgrade_to_unresolved_lead",
+      "severity": "major",
+      "favours_author_request": null,
+      "reason": "The below-one assertion is not established by the stated lower bound, but this alone is missing support rather than a proved false result. The sentence does not explicitly name 2.8%as an exact break-even threshold or state every larger cost suffices. Higher actual costs can satisfy both >2.8%and below 1. A 3%counterexample refutes a universal implication, not necessarily the author’s actual project assumption. Preserve as unresolved unless an explicit sufficient-threshold assertion or actual share is found.",
+      "alternative_test": "With the author’s reported 1.592, raw delivery cost 100%of raw-heat price gives 1.592/2=0.796<1 and meets the lower bound. With corrected 1.32136,50%of raw heat gives 0.88091<1. These examples are logical rescues, not empirical project-cost estimates."
+    },
+    {
+      "candidate_id": "geowg2024-muellersyhre-a03",
+      "disposition": "retain_provisional_finding",
+      "severity": "minor",
+      "favours_author_request": false,
+      "reason": "Author explicitly states national households, first-half 2023, average 33.00. Same-period primary Destatis average 42.29(including price-brake relief)and adjacent gas 12.26 match period. Neither household consumption-band totals nor national non-household average supports 33.00. Special operator tariff or different year cannot rescue this descriptive sentence, but actual industrial applicability remains open."
+    }
+  ],
+  "possible_replacement_for_a02": {
+    "state": "provisional_arithmetic_issue_subject_to_agent_revision",
+    "severity": "minor",
+    "favours_author_request": false,
+    "locator": "Physical 14/printed 13, section 3.1.1, price-ratio paragraph and final equation",
+    "author_price_ratio": 0.347,
+    "independent_arithmetic": "9.5/33=0.2878787879;4.59*(9.5/33)=1.3213636364, rather than 1.592.",
+    "reason": "This is a concrete division/input-consistency error independent of actual project delivery costs. The higher author ratio makes heat pumps look better, opposing the rejection request. Do not turn correcting it into proof of actual project loss."
+  },
+  "other_minor_checks_not_promoted": [
+    "Physical 12 states 10 TWh/year=1.41 GW, but the continuous 365-day equivalent is 1.14155 GW. The 250*4.7 MWcapacity and 51.3 bn downstream cost calculation align roughly with 1.14, so a transposition is plausible and no separate major issue follows.",
+    "Physical 13 uses 313.15 Kfor 50 C, while 50 C=323.15 K. This is another small input inconsistency; no additional record requested or broad thermodynamic claim adjudicated."
+  ],
+  "limits": [
+    "No inference of intent or proof of actual feasibility, profitability, delivery-cost share or tariff suitability.",
+    "No specialist review or author response is claimed."
+  ],
+  "new_author_quotations": [],
+  "merged_comparator_followup": {
+    "date": "2026-10-25",
+    "record": "research/round2-energy/geowg2024-muellersyhre-a03.json",
+    "disposition": "retain_merged_provisional_minor_false",
+    "assessment": "Read revised merged record. Both independently checked defects remain valid:9.5/33=0.2878787879, not 0.347, and matching official household electricity average 42.29. Holding remaining author assumptions fixed gives 4.59×9.5/42.29=1.0310948. Noactual tariff, deliverycostorprofitability conclusion follows. Formerstandalonea 04 retired; no additional quotation reproduced."
+  }
+}

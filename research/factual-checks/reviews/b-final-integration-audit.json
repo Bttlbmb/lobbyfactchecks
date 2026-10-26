@@ -1,0 +1,1089 @@
+{
+  "reviewer": "claims_b",
+  "audit_type": "Independent read-only final integration audit of both completed factual-check batches and their main-data integration",
+  "reviewed_at_utc": "2026-10-25T10:48:11.756222+00:00",
+  "status": "pass",
+  "verdict": "pass",
+  "material_concerns": [],
+  "scope": [
+    "Both final ledgers, adjudications, protocols, summaries, validation reports, raw inventories, complete peer reviews, omission resolutions and candidate dispositions",
+    "Explicit issue-admission manifests, final admitted record and main issue/source/document/review datasets",
+    "Pre-extension issue and reading-pool baselines; all 626 canonical pool entries and 37 linked annotations",
+    "README, combined and batch HTML reports, final issue HTML, workflow audit, relevant builders and captured ordered reproduction"
+  ],
+  "method": [
+    "Independently recomputed counts from saved claims and main issue arrays rather than accepting summary counts.",
+    "Verified all 62 root completion snapshot hashes against current files, then separately recorded the completion audit, baselines, schemas and decisive primary/visual snapshots.",
+    "Checked all 30 original PDF hashes and physical page counts using pdfinfo; freshly extracted pdftotext -layout output exactly matches every saved original-text file.",
+    "Validated all 388 claim objects against the shared schema, page bounds and exact line-wrap-normalized source-language anchors. Every anchor occurs in its cited pages; no visual exception was needed.",
+    "Verified each raw inventory and review hash, all 378 exact claim-review bindings, complete initial and counterpart page records, all 26 non-accept peer dispositions, all 11 omission dispositions and all 10 root-added claim bindings. Compared every adjudication update with the final claim.",
+    "Compared all 101 pre-extension issue objects field-for-field, and all 626 pool objects field-for-field. Independently verified all 37 annotations against their exact original paths and corresponding ledger claim sets/outcomes.",
+    "Checked every declared main source archive hash, both batch source registries and the absence of unusable-source citations. Read final candidate reviews, decisive source passages and the corrected mortality table/correction notice; visually inspected the saved author page and corrected table.",
+    "Compared all 388 rendered HTML cards with ledger IDs, outcomes and exact anchors. Parsed links in the combined report, both batch reports, main index and admitted issue page; all 1,514 local target references resolve. Read the final issue and report/README scope text.",
+    "Executed both unchanged batch builders, the index, main deliverables, pool and bounded-coverage builders in order with every Path.write_text intercepted in memory and read-after-write overlay. No saved data or report was regenerated. All 20 generated outputs match saved contents semantically; only generated build/completion/as-of timestamps differ."
+  ],
+  "batch_checks": {
+    "behg-2026": {
+      "documents": 9,
+      "physical_pages": 60,
+      "initial_claims": 190,
+      "claims": 194,
+      "outcomes": {
+        "unresolved": 70,
+        "supported": 123,
+        "overstated": 1
+      },
+      "peer_reviews": 190,
+      "peer_omissions": 5,
+      "additional_claims": 4,
+      "challenge_resolutions": [
+        {
+          "id": "behg-c-005",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        },
+        {
+          "id": "behg-c-018",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        },
+        {
+          "id": "behg-c-020",
+          "peer_verdict": "revise",
+          "final_result": "unresolved"
+        },
+        {
+          "id": "behg-c-027",
+          "peer_verdict": "revise",
+          "final_result": "unresolved"
+        },
+        {
+          "id": "behg-c-035",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        },
+        {
+          "id": "behg-c-062",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        },
+        {
+          "id": "behg-a-soellner-13",
+          "peer_verdict": "revise",
+          "final_result": "unresolved"
+        },
+        {
+          "id": "behg-a-soellner-16",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        },
+        {
+          "id": "behg-a-fleischmann-21",
+          "peer_verdict": "needs_more_evidence",
+          "final_result": "unresolved"
+        },
+        {
+          "id": "behg-a-fleischmann-33",
+          "peer_verdict": "revise",
+          "final_result": "unresolved"
+        },
+        {
+          "id": "behg-a-fleischmann-34",
+          "peer_verdict": "revise",
+          "final_result": "unresolved"
+        },
+        {
+          "id": "behg-b-01",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        },
+        {
+          "id": "behg-b-40",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        },
+        {
+          "id": "behg-b-42",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        },
+        {
+          "id": "behg-b-43",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        }
+      ],
+      "source_records": 127,
+      "local_archives": 116,
+      "text_anchors_verified": 194,
+      "visual_anchor_exceptions": [],
+      "saved_validation_errors": [],
+      "saved_validation_warnings": []
+    },
+    "netzkosten-2026": {
+      "documents": 21,
+      "physical_pages": 71,
+      "initial_claims": 188,
+      "claims": 194,
+      "outcomes": {
+        "supported": 145,
+        "unresolved": 49
+      },
+      "peer_reviews": 188,
+      "peer_omissions": 6,
+      "additional_claims": 6,
+      "challenge_resolutions": [
+        {
+          "id": "netzkosten-c-003",
+          "peer_verdict": "revise",
+          "final_result": "unresolved"
+        },
+        {
+          "id": "netzkosten-c-009",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        },
+        {
+          "id": "netzkosten-c-014",
+          "peer_verdict": "revise",
+          "final_result": "unresolved"
+        },
+        {
+          "id": "netzkosten-c-029",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        },
+        {
+          "id": "netzkosten-a-001-04",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        },
+        {
+          "id": "netzkosten-a-002-01",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        },
+        {
+          "id": "netzkosten-a-005-01",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        },
+        {
+          "id": "netzkosten-a-007-03",
+          "peer_verdict": "revise",
+          "final_result": "supported"
+        },
+        {
+          "id": "netzkosten-b-011-07",
+          "peer_verdict": "revise",
+          "final_result": "unresolved"
+        },
+        {
+          "id": "netzkosten-b-012-09",
+          "peer_verdict": "revise",
+          "final_result": "unresolved"
+        },
+        {
+          "id": "netzkosten-b-013-15",
+          "peer_verdict": "revise",
+          "final_result": "unresolved"
+        }
+      ],
+      "source_records": 99,
+      "local_archives": 97,
+      "text_anchors_verified": 194,
+      "visual_anchor_exceptions": [],
+      "saved_validation_errors": [],
+      "saved_validation_warnings": []
+    }
+  },
+  "totals": {
+    "documents": 30,
+    "physical_pdf_pages": 131,
+    "initial_assessments": 378,
+    "independent_initial_peer_reviews": 378,
+    "root_added_claims": 10,
+    "final_assessments": 388,
+    "outcomes": {
+      "unresolved": 119,
+      "supported": 268,
+      "overstated": 1
+    },
+    "peer_omission_entries_resolved": 11,
+    "new_reading_units": 0
+  },
+  "main_issue_checks": {
+    "deltas_against_pre_extension_baseline": {
+      "findings": {
+        "before": 62,
+        "after": 63,
+        "added": [
+          "behg2026-fleischmann-mortality-range-fc01"
+        ],
+        "removed": [],
+        "changed_existing": []
+      },
+      "unresolved-leads": {
+        "before": 37,
+        "after": 37,
+        "added": [],
+        "removed": [],
+        "changed_existing": []
+      },
+      "rejected-candidates": {
+        "before": 2,
+        "after": 2,
+        "added": [],
+        "removed": [],
+        "changed_existing": []
+      }
+    },
+    "total_records": 102,
+    "issue_associated_documents": 81,
+    "documents_with_findings": 55,
+    "schema_errors": [],
+    "sole_new_issue": "behg2026-fleischmann-mortality-range-fc01",
+    "sole_new_issue_severity": "minor",
+    "sole_new_issue_finding_state": "provisional_finding",
+    "sole_new_issue_direction": null,
+    "admission_file": "research/factual-checks/behg-2026/behg2026-fleischmann-mortality-range-fc01-admitted.json",
+    "admission_sha256": "5d4c57ae2c366ede7a5bb90a3b8c8a0091842fc94b5209791b1ef8f9a9e4717a",
+    "assembly_difference": "The main assembled copy adds only research_record pointing to the explicit admitted input. Every authored substantive field matches that admitted input.",
+    "other_staged_candidates_admitted": false
+  },
+  "pool_preservation": {
+    "before": 626,
+    "after": 626,
+    "canonical_id_set_unchanged": true,
+    "all_original_depths_roles_scope_and_other_fields_preserved": true,
+    "depth_counts": {
+      "full_submission": 406,
+      "selected_passages": 91,
+      "keyword_triage": 128,
+      "full_text_ocr": 1
+    },
+    "annotations_by_batch": {
+      "kltgv-2026-factual-pilot": 7,
+      "behg-2026-factual-checks": 9,
+      "netzkosten-2026-factual-checks": 21
+    },
+    "old_seven_annotations_unchanged": true,
+    "annotation_mapping_checks": [
+      {
+        "protocol": "research/factual-pilot/protocol.json",
+        "id": "kltgv-2026-factual-pilot",
+        "mappings": [
+          {
+            "batch_document_id": "bmwe-kltgv-2026-001",
+            "canonical_id": "bmwe-kltgv-2026-001",
+            "assessments": 18
+          },
+          {
+            "batch_document_id": "bmwe-kltgv-2026-002",
+            "canonical_id": "bmwe-kltgv-2026-002",
+            "assessments": 9
+          },
+          {
+            "batch_document_id": "bmwe-kltgv-2026-003",
+            "canonical_id": "bmwe-kltgv-2026-003",
+            "assessments": 10
+          },
+          {
+            "batch_document_id": "bmwe-kltgv-2026-007",
+            "canonical_id": "bmwe-kltgv-2026-007",
+            "assessments": 36
+          },
+          {
+            "batch_document_id": "bmwe-kltgv-2026-008",
+            "canonical_id": "bmwe-kltgv-2026-008",
+            "assessments": 17
+          },
+          {
+            "batch_document_id": "bmwe-kltgv-2026-010",
+            "canonical_id": "bmwe-kltgv-2026-010",
+            "assessments": 11
+          },
+          {
+            "batch_document_id": "bmwe-kltgv-2026-011",
+            "canonical_id": "bmwe-kltgv-2026-011",
+            "assessments": 10
+          }
+        ]
+      },
+      {
+        "protocol": "research/factual-checks/behg-2026/protocol.json",
+        "id": "behg-2026-factual-checks",
+        "mappings": [
+          {
+            "batch_document_id": "bt-environment-1222134",
+            "canonical_id": "bvf-behg-202607-reproduced202610",
+            "assessments": 8
+          },
+          {
+            "batch_document_id": "bt-environment-1222372",
+            "canonical_id": "bt-environment-1222372",
+            "assessments": 15
+          },
+          {
+            "batch_document_id": "bt-environment-1222374",
+            "canonical_id": "bt-environment-1222374",
+            "assessments": 25
+          },
+          {
+            "batch_document_id": "bt-environment-1222444",
+            "canonical_id": "bt-environment-1222444",
+            "assessments": 40
+          },
+          {
+            "batch_document_id": "bt-environment-1222442",
+            "canonical_id": "bt-environment-1222442",
+            "assessments": 43
+          },
+          {
+            "batch_document_id": "bt-environment-1222672",
+            "canonical_id": "bwp-behg-20261002",
+            "assessments": 22
+          },
+          {
+            "batch_document_id": "bt-environment-1222674",
+            "canonical_id": "vci-behg-20261005",
+            "assessments": 16
+          },
+          {
+            "batch_document_id": "bt-environment-1222756",
+            "canonical_id": "ewe-behg-20261006",
+            "assessments": 10
+          },
+          {
+            "batch_document_id": "bt-environment-1222878",
+            "canonical_id": "foes-behg-20261006",
+            "assessments": 15
+          }
+        ]
+      },
+      {
+        "protocol": "research/factual-checks/netzkosten-2026/protocol.json",
+        "id": "netzkosten-2026-factual-checks",
+        "mappings": [
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-001",
+            "canonical_id": "bmwe-netzkosten-2026-001",
+            "assessments": 7
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-002",
+            "canonical_id": "bmwe-netzkosten-2026-002",
+            "assessments": 6
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-003",
+            "canonical_id": "bmwe-netzkosten-2026-003",
+            "assessments": 6
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-004",
+            "canonical_id": "bmwe-netzkosten-2026-004",
+            "assessments": 12
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-005",
+            "canonical_id": "bmwe-member-98b453ec03caa87a273f",
+            "assessments": 7
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-006",
+            "canonical_id": "bmwe-netzkosten-2026-006",
+            "assessments": 5
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-007",
+            "canonical_id": "bmwe-netzkosten-2026-007",
+            "assessments": 17
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-008",
+            "canonical_id": "bmwe-netzkosten-2026-008",
+            "assessments": 20
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-009",
+            "canonical_id": "bmwe-netzkosten-2026-009",
+            "assessments": 6
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-010",
+            "canonical_id": "bmwe-member-fcccacc0cbc14c644a7f",
+            "assessments": 7
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-011",
+            "canonical_id": "bmwe-netzkosten-2026-011",
+            "assessments": 8
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-012",
+            "canonical_id": "bmwe-member-ef4258c47c5c63706a57",
+            "assessments": 16
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-013",
+            "canonical_id": "bmwe-netzkosten-2026-013",
+            "assessments": 15
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-014",
+            "canonical_id": "bmwe-netzkosten-2026-014",
+            "assessments": 21
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-015",
+            "canonical_id": "bmwe-netzkosten-2026-015",
+            "assessments": 9
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-016",
+            "canonical_id": "bmwe-netzkosten-2026-016",
+            "assessments": 4
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-017",
+            "canonical_id": "bmwe-netzkosten-2026-017",
+            "assessments": 4
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-018",
+            "canonical_id": "bmwe-member-168908c1dee545d6d0c2",
+            "assessments": 7
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-019",
+            "canonical_id": "bmwe-netzkosten-2026-019",
+            "assessments": 5
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-020",
+            "canonical_id": "bmwe-netzkosten-2026-020",
+            "assessments": 4
+          },
+          {
+            "batch_document_id": "bmwe-netzkosten-2026-023",
+            "canonical_id": "bmwe-netzkosten-2026-023",
+            "assessments": 8
+          }
+        ]
+      }
+    ],
+    "sole_non_annotation_change": {
+      "canonical_id": "bt-environment-1222442",
+      "field": "screening_evidence, case_index evidence_log",
+      "change": "One new admitted-record path is added; all previous references and all other fields are preserved."
+    }
+  },
+  "source_integrity": {
+    "main": {
+      "records": 560,
+      "records_with_archive": 454,
+      "unique_archive_files": 449,
+      "hash_or_missing_errors": []
+    },
+    "batch_archive_records_verified": 213,
+    "unusable_access_attempts_cited_as_evidence": 0,
+    "correction_version_check": "Final mortality evidence uses corrected article SHA256 b82e4db1746f0dd0022494ffd59d7660c9ca5a1fb322b08b6592a93f74f39a21 and the 2 July 2024 correction notice. The uncorrected copy is preserved separately and is not used for the admitted numerical examples.",
+    "archive_count_definition": "454 main source records have local archives; they refer to 449 distinct paths because independently registered copies can share an archive."
+  },
+  "semantic_adjudication_checks": [
+    {
+      "claims": [
+        "behg-a-soellner-13",
+        "behg-a-soellner-16"
+      ],
+      "result": "pass",
+      "detail": "Annual-budget versus regular-auction-supply ambiguity is retained as unresolved; the complete official 2026 EEX series resolves the separate historical ceiling-outcome premise as supported."
+    },
+    {
+      "claims": [
+        "behg-a-fleischmann-21",
+        "behg-a-fleischmann-33",
+        "behg-a-fleischmann-34"
+      ],
+      "result": "pass",
+      "detail": "Net-feedback scope, distant measurement attribution and frequency/complete-exposure threshold alternatives remain unresolved. Contrary evidence is retained without claiming that one positive component alone establishes net feedback or that a universal 1 Hz threshold was proved."
+    },
+    {
+      "claims": [
+        "behg-a-fleischmann-30"
+      ],
+      "result": "pass",
+      "detail": "The only overstatement concerns the explicit every-country five-to-fifteen description of corrected cited urban evidence. Recomputed ratios: Denmark 31.57, Finland 32.27, UK 58.08, Croatia 3.90, German urban cohort 6.01 and aggregate 9.58. Mixed deviations justify direction null. Cohort, model uncertainty, study correction, aggregate cold burden and lack of national/future conclusions are preserved in the admitted record and HTML."
+    },
+    {
+      "claims": [
+        "behg-b-01",
+        "behg-b-40",
+        "behg-b-42",
+        "behg-b-43"
+      ],
+      "result": "pass",
+      "detail": "Recovered official consultation and statutory terminology resolve the specific initial access gaps. Authorship, current official bytes, later parliamentary version and actual delivery remain distinct; no later-version difference becomes an error."
+    },
+    {
+      "claims": [
+        "netzkosten-b-011-07",
+        "netzkosten-b-012-09",
+        "netzkosten-b-013-15"
+      ],
+      "result": "pass",
+      "detail": "All C peer refinements are retained: numerous-user incidence is unresolved despite the possible mechanism, exact 2024 investment start is unresolved, and glass process constraints have primary support without certifying broad economic extent/payback."
+    },
+    {
+      "claims": [
+        "netzkosten-b-008-07"
+      ],
+      "result": "pass",
+      "detail": "The statutory producing/construction-craft eligibility is preserved, while the same-sentence producing-sector qualification supports a reasonable non-producing-craft contextual alternative. The staged candidate remains unresolved and absent from main issue files."
+    },
+    {
+      "claims": [
+        "netzkosten-a-001-04",
+        "netzkosten-a-002-01",
+        "netzkosten-a-005-01",
+        "netzkosten-a-007-03"
+      ],
+      "result": "pass",
+      "detail": "B peer corrections are applied: contemporaneous TSO tariff corroboration, complete-word anchor repairs, and support limited to the publication calendar while the supplier planning-need judgment is explicitly excluded."
+    },
+    {
+      "claims": [
+        "all 10 root-added claims and the extended S03 chart assessment"
+      ],
+      "result": "pass",
+      "detail": "Every peer omission has a recorded disposition. New supported propositions are bounded statutory/programme eligibility, conditional cost mechanisms, or technology-specific wind support. Causal/current-burden uncertainties stay unresolved. Fresh reading of the dated government relaxation account, monitoring Table 17, Monopolkommission paragraph 807, industrial-price extraction and other cited context found no material scope promotion."
+    }
+  ],
+  "report_checks": {
+    "all_388_article_ids_outcomes_and_anchors_match": true,
+    "local_link_targets": {
+      "research/factual-checks/report.html": {
+        "local_links": 6,
+        "missing_targets": []
+      },
+      "research/factual-checks/behg-2026/report.html": {
+        "local_links": 699,
+        "missing_targets": []
+      },
+      "research/factual-checks/netzkosten-2026/report.html": {
+        "local_links": 741,
+        "missing_targets": []
+      },
+      "site/index.html": {
+        "local_links": 64,
+        "missing_targets": []
+      },
+      "site/evidence/behg2026-fleischmann-mortality-range-fc01.html": {
+        "local_links": 4,
+        "missing_targets": []
+      }
+    },
+    "scope_consistency": "README and reports distinguish finite archived sets from national completeness, recorded supported propositions from truth certification, unresolved assessments from findings, forecasts from observations, and independent AI review from specialist confirmation. The main admitted HTML says Minor error and Direction unclear and retains corrected urban-study limits.",
+    "excluded_staged_candidates": "Neither the infrasound nor craft-tax stage appears among main index finding links or main issue arrays."
+  },
+  "reproducibility": {
+    "workflow_audit_file": "research/factual-checks/reviews/a-workflow-code-audit.json",
+    "workflow_audit_sha256": "7a027252f810edb0634c4cfb1d32128630a703e1eab1a05141de2128b15fe125",
+    "captured_execution": {
+      "method": "Fresh ordered execution of unchanged builders with every Path.write_text intercepted in memory and read-after-write overlay; no saved artifacts regenerated. Generated completion/build clock keys excluded only for semantic comparison.",
+      "scripts": [
+        {
+          "script": "research/build_factual_batch.py",
+          "arguments": [
+            "research/factual-checks/behg-2026"
+          ],
+          "stdout": "{\n  \"status\": \"complete\",\n  \"documents\": 9,\n  \"author_pages\": 60,\n  \"claims\": 194,\n  \"outcomes\": {\n    \"unresolved\": 70,\n    \"supported\": 123,\n    \"overstated\": 1\n  },\n  \"independent_peer_claim_reviews\": 190\n}\n"
+        },
+        {
+          "script": "research/build_factual_batch.py",
+          "arguments": [
+            "research/factual-checks/netzkosten-2026"
+          ],
+          "stdout": "{\n  \"status\": \"complete\",\n  \"documents\": 21,\n  \"author_pages\": 71,\n  \"claims\": 194,\n  \"outcomes\": {\n    \"supported\": 145,\n    \"unresolved\": 49\n  },\n  \"independent_peer_claim_reviews\": 188\n}\n"
+        },
+        {
+          "script": "research/build_factual_index.py",
+          "arguments": [],
+          "stdout": "{\n  \"documents\": 30,\n  \"pdf_pages\": 131,\n  \"claims\": 388,\n  \"outcomes\": {\n    \"unresolved\": 119,\n    \"supported\": 268,\n    \"overstated\": 1\n  },\n  \"initial_peer_reviews\": 378\n}\n"
+        },
+        {
+          "script": "research/build_deliverables.py",
+          "arguments": [],
+          "stdout": "{\"findings.json\": 63, \"unresolved-leads.json\": 37, \"rejected-candidates.json\": 2}\n"
+        },
+        {
+          "script": "research/build_screening_pool.py",
+          "arguments": [],
+          "stdout": "age-28953e677349']\n['root-miete-vzbv_26-03-05_Stellungnahme_Referententwurf_Änderung des Rechts der Wohn- und Geschäftsraummiete', 'round3-root-rental-triage-2ea2858ffd86']\n['root-miete-2026-03-11_GdW StN RefE Änderung Recht Wohn- und Geschäftsraummiete', 'round3-root-rental-triage-37c693160a4e']\n['root-miete-MhM Hamburg 060326', 'round3-root-rental-triage-3b034ffcf943']\n['root-miete-20260306_Stellungnahme_Mietrechtsnovelle_EDL_HUB', 'round3-root-rental-triage-3fd2c736e322']\n['root-miete-BIIS-Stellungnahme zur Mietrechtsreform 2026', 'round3-root-rental-triage-891218d36b63']\n['root-miete-260306_StN des RAV zum Gesetz zur Änderung des Rechts der Wohnraummiete_fin', 'round3-root-rental-triage-9d9511a2fd87']\n['root-miete-260304_Stellungnahme_BML', 'round3-root-rental-triage-a037cf6c42d3']\n['root-miete-Stellungnahme NRV Mietrecht II final', 'round3-root-rental-triage-b2cecbf8f232']\n['root-miete-BNotK STN 2026_5_ Entwurf eines Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete', 'round3-root-rental-triage-bbc920285af1']\n['root-miete-260304-SN_Mietrecht_Paritaet', 'round3-root-rental-triage-bfb4048b2831']\n['root-miete-20260306_VDIV Stellungnahme_Gesetzes zur Änderung des Rechts der Wohn- und Geschäftsraummiete', 'round3-root-rental-triage-cc0eb99ba1f2']\n['root-miete-DAV-SN 15-2026 RefE Änderung des Rechts der [...]Miete', 'round3-root-rental-triage-dc6ea2347e16']\n['root-miete-DGB_2026-03-06_Stellungnahme zum Gesetzentwurf zur Änderung des Rechts der Wohn- und Geschäftsraummiete', 'round3-root-rental-triage-de06ed90d594']\n['root-miete-Stellungnahme-DMT-15-03-26', 'round3-root-rental-triage-e1fc3ee7fbe4']\n['root-miete-Stellungnahme_DST_DStGB_Mietrechtspaket_II - 20260306', 'round3-root-rental-triage-f84b07c473f1']\n['round4-root-plastics-joint', 'joint-plasticstax-20260731']\n['tax-screened-anja-bonfig-fruhstartrentengesetz-september-2026', 'hearing-1216340-response-001']\n['tax-screened-deutsche-kreditwirtschaft-fruhstartrentengesetz-september-2026', 'hearing-1216340-response-002']\n['tax-screened-gdv-fruhstartrentengesetz-september-2026', 'hearing-1216340-response-003']\n['tax-screened-harald-hantke-fruhstartrentengesetz-september-2026', 'hearing-1216340-response-004']\n['tax-screened-thomas-soltau-fruhstartrentengesetz-september-2026', 'hearing-1216340-response-006']\n['tax-screened-ulrike-malmendier-fruhstartrentengesetz-september-2026', 'hearing-1216340-response-005']\n['wuppertaler-ferns-20260910', 'ferns2026-wuppertaler-20260910', 'wuppertaler-ferns-20260910']\n['zdh-beschv9-20261015', 'beschv9-2026-zdh', 'zdh-beschv9-20261015']\nCOUNTAINERS ['research/round2-root/wolf/hearing-protocol.pdf', 'research/round2-social/sources/nipt2024-ungeladen.pdf', 'research/round2-social/sources/tariftreue-2025-hearing.pdf', 'research/social-digital/ggdg-2026-ministry-submissions.zip', 'research/social-digital/mindestlohn-hearing-20260112.pdf', 'research/social-digital/stvg-20260223-hearing.pdf', 'research/social-digital/suizidhilfe-2022-bt-submissions.pdf']\n"
+        },
+        {
+          "script": "research/build_bounded_coverage.py",
+          "arguments": [],
+          "stdout": "bounded proof rows 14\n"
+        }
+      ],
+      "outputs": [
+        {
+          "file": "data/bounded-coverage.json",
+          "exact_text_equal": false,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "0b1379ed6b4f20a906464e8115c033925d251249d296de5a2c37d82ca612ab09",
+          "saved_sha256": "3c32b9568aac06697ab00c7bfce66ebdaa6fd9d620b928260918286f8d1fdff2"
+        },
+        {
+          "file": "data/documents.json",
+          "exact_text_equal": true,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "c3c6b47d8c70125482fa53a4dca185679f1c402bef13403155d5cceed6e19294",
+          "saved_sha256": "c3c6b47d8c70125482fa53a4dca185679f1c402bef13403155d5cceed6e19294"
+        },
+        {
+          "file": "data/factual-check-pilots.json",
+          "exact_text_equal": true,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "5170c352103d0c26d0cfe9c0bf56e119df34cc1078ee83cae6d3aaefed690dca",
+          "saved_sha256": "5170c352103d0c26d0cfe9c0bf56e119df34cc1078ee83cae6d3aaefed690dca"
+        },
+        {
+          "file": "data/findings.json",
+          "exact_text_equal": true,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "6cc56589d5891f7f7ad4a76c1fad5848aff1351cf7bc9061c53a035960c34342",
+          "saved_sha256": "6cc56589d5891f7f7ad4a76c1fad5848aff1351cf7bc9061c53a035960c34342"
+        },
+        {
+          "file": "data/rejected-candidates.json",
+          "exact_text_equal": true,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "670e715e9940077649d5daef8b15663a9611c9646babc270fc67414c29f5eec3",
+          "saved_sha256": "670e715e9940077649d5daef8b15663a9611c9646babc270fc67414c29f5eec3"
+        },
+        {
+          "file": "data/review-index.json",
+          "exact_text_equal": true,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "cbde313a06b0bbe396307c9e1bc9417be00ccf433ef6d72e4db520ee0cadefe6",
+          "saved_sha256": "cbde313a06b0bbe396307c9e1bc9417be00ccf433ef6d72e4db520ee0cadefe6"
+        },
+        {
+          "file": "data/screening-pool-summary.json",
+          "exact_text_equal": true,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "01a6ab96919be346731b98fc31bc7baac46db16edfc2a5bbf1bc2b401f88a132",
+          "saved_sha256": "01a6ab96919be346731b98fc31bc7baac46db16edfc2a5bbf1bc2b401f88a132"
+        },
+        {
+          "file": "data/screening-pool.json",
+          "exact_text_equal": true,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "11ac3480bbf72c468b88fb62b643ee0689f195d25d95964520cacb5413d71d61",
+          "saved_sha256": "11ac3480bbf72c468b88fb62b643ee0689f195d25d95964520cacb5413d71d61"
+        },
+        {
+          "file": "data/source-registry.json",
+          "exact_text_equal": true,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "2da51a7cae5eabfb8c3a8ec5e93432b4b86b49ab120ccf88729806d9f744b5fd",
+          "saved_sha256": "2da51a7cae5eabfb8c3a8ec5e93432b4b86b49ab120ccf88729806d9f744b5fd"
+        },
+        {
+          "file": "data/unresolved-leads.json",
+          "exact_text_equal": true,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "cd72dfb597c0a9295ca6f58d068fa1a83ae10614548ffda8790da9b115e8d8a4",
+          "saved_sha256": "cd72dfb597c0a9295ca6f58d068fa1a83ae10614548ffda8790da9b115e8d8a4"
+        },
+        {
+          "file": "research/factual-checks/behg-2026/claim-ledger.json",
+          "exact_text_equal": false,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "2af7d5b96a99a2688d384da7ddfe415181e4e900d89134348b192f09491a3bf7",
+          "saved_sha256": "f4e857b045534e417193e99ccac8e19f288d6fde0c96644ea8f1ac28989add3d"
+        },
+        {
+          "file": "research/factual-checks/behg-2026/report.html",
+          "exact_text_equal": true,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "616140a9310f5b7deb33f578cccabdb80732e7fca52f990992be3afa3274da98",
+          "saved_sha256": "616140a9310f5b7deb33f578cccabdb80732e7fca52f990992be3afa3274da98"
+        },
+        {
+          "file": "research/factual-checks/behg-2026/summary.json",
+          "exact_text_equal": false,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "c7341c3ebcef0d4c41cdfdc2e924593b0dcb8141e3648438e2c047b7ecb3500c",
+          "saved_sha256": "d542bbbc22bf517d574f4a8623b14dee24a2a8a663715c70e94a0aea6ae9f319"
+        },
+        {
+          "file": "research/factual-checks/behg-2026/validation-report.json",
+          "exact_text_equal": true,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "530dd8826816390998fc6db68c58fbde5f0c77932b6eb3c32460660f8b00d359",
+          "saved_sha256": "530dd8826816390998fc6db68c58fbde5f0c77932b6eb3c32460660f8b00d359"
+        },
+        {
+          "file": "research/factual-checks/netzkosten-2026/claim-ledger.json",
+          "exact_text_equal": false,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "e5f388ca14bada30f4fc15d41a74bbbcf0b4d7b6ceb22b11e5a7dfc1476a0e59",
+          "saved_sha256": "5bc0cce7e172ca08f42dad2ec7a561d1453e6c288de672560c90e92391f5920f"
+        },
+        {
+          "file": "research/factual-checks/netzkosten-2026/report.html",
+          "exact_text_equal": true,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "94cca75a2fac0f55f1381a59554bb1114d8d1e2bcd3d8853549bc944c7cec80d",
+          "saved_sha256": "94cca75a2fac0f55f1381a59554bb1114d8d1e2bcd3d8853549bc944c7cec80d"
+        },
+        {
+          "file": "research/factual-checks/netzkosten-2026/summary.json",
+          "exact_text_equal": false,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "a3751276f3c6a8bb7a00afd99bb616102fbd25c33e8985a86441904857005620",
+          "saved_sha256": "0ddf382eb1589098aa9251d81d6529732a76358dd6859c8c05d0aa285b005d78"
+        },
+        {
+          "file": "research/factual-checks/netzkosten-2026/validation-report.json",
+          "exact_text_equal": true,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "4f8ce8817f64863eb193b58d468cc2bc553d0d6a7e31ebf050ab10efc777d272",
+          "saved_sha256": "4f8ce8817f64863eb193b58d468cc2bc553d0d6a7e31ebf050ab10efc777d272"
+        },
+        {
+          "file": "research/factual-checks/report.html",
+          "exact_text_equal": true,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "0cc58cfe69b9b7857ab77daa2512755b5f7cc2d9ebfa032beedb6ac35f8b089a",
+          "saved_sha256": "0cc58cfe69b9b7857ab77daa2512755b5f7cc2d9ebfa032beedb6ac35f8b089a"
+        },
+        {
+          "file": "research/factual-checks/summary.json",
+          "exact_text_equal": false,
+          "semantic_equal_ignoring_generated_clocks": true,
+          "captured_sha256": "612afba0ed1cb1345f5e8bfea44ce39c28f2689fbb2d091cab4da70472a73016",
+          "saved_sha256": "de6bd4968b6cde99fbe0de1ea545baa09aafbfbf630f39c3273bcaa94df0f5ba"
+        }
+      ],
+      "semantic_mismatches": []
+    },
+    "code_syntax": {
+      "research/build_factual_batch.py": "parsed",
+      "research/build_factual_index.py": "parsed",
+      "research/build_screening_pool.py": "parsed",
+      "research/build_bounded_coverage.py": "parsed",
+      "research/build_deliverables.py": "parsed"
+    },
+    "remaining_operational_limit": "Downstream consumers use completed cached summaries/ledgers. Rebuild in order and re-audit after input changes; this audit covers only the exact saved hashes below."
+  },
+  "non_blocking_notes": [
+    "The historical C admission-delta review is bound to an earlier admitted snapshot. This final audit independently checks the current admitted file hash, current main assembled copy and current rendered issue; it does not silently treat that historical delta hash as the current file.",
+    "The 454 archive count is a count of locally archived source records, not 454 unique filesystem paths."
+  ],
+  "limitations": [
+    "Integration audit and targeted final semantic/source checks, not a new reconstruction of every empirical proposition or a certification that all material assertions were found. Earlier inventories and independent counterpart reviews remain the substantive evidence trail.",
+    "No human specialist or author confirmation, inference of intent, national eligibility denominator, population error rate or authenticated recipient-delivery chronology.",
+    "Counts concern physical PDF pages including covers. Supported conclusions concern their recorded bounded propositions. Unresolved is neither confirmation nor an admitted error.",
+    "Only this audit artifact was added to the repository. Read-only execution used temporary scripts/results outside the repository; saved JSON caches, reports, main data and code were not changed."
+  ],
+  "original_pdf_checks": [
+    {
+      "id": "bt-environment-1222134",
+      "file": "research/round3-energy/sources/submissions/bt-environment-1222134.pdf",
+      "sha256": "16b6ea68dc0808ad8c41deb0ea3c6caf6c585dcebe6724cc24f7582fa737ab97",
+      "physical_pages": 4,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bt-environment-1222372",
+      "file": "research/round3-energy/sources/submissions/bt-environment-1222372.pdf",
+      "sha256": "df9d293b47e793dbfb9bad2a51bcda04a4ca35e755d219dc0d92b5b5b91be403",
+      "physical_pages": 5,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bt-environment-1222374",
+      "file": "research/round3-energy/sources/submissions/bt-environment-1222374.pdf",
+      "sha256": "0e5c9b510ccf175368134f3eb360150d6f3f397d27b0b8d9329f5ff22ec62d24",
+      "physical_pages": 10,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bt-environment-1222444",
+      "file": "research/round3-energy/sources/submissions/bt-environment-1222444.pdf",
+      "sha256": "1c80062f21df64813daa4742f1e6c969f534affe60327cd6232f67e0a5e76d5e",
+      "physical_pages": 14,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bt-environment-1222442",
+      "file": "research/round3-energy/sources/submissions/bt-environment-1222442.pdf",
+      "sha256": "16171e921a88ff950fb5cf7e4ac9587dd4bd148590c3642d7dfbf5771413e475",
+      "physical_pages": 9,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bt-environment-1222672",
+      "file": "research/round3-energy/sources/submissions/bt-environment-1222672.pdf",
+      "sha256": "960b0358e6083cad3526685b1f534fb596145161f925ab3c49706a6f1180e308",
+      "physical_pages": 6,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bt-environment-1222674",
+      "file": "research/round3-energy/sources/submissions/bt-environment-1222674.pdf",
+      "sha256": "4852479d354546da9015fe2a9e7bdab829186294e0eecf58bb6fd51971ad0548",
+      "physical_pages": 4,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bt-environment-1222756",
+      "file": "research/round3-energy/sources/submissions/bt-environment-1222756.pdf",
+      "sha256": "cd6b3403b923d85295d722132e10333ed79b90322cc7d79ffacbf565d60e8659",
+      "physical_pages": 4,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bt-environment-1222878",
+      "file": "research/round3-energy/sources/submissions/bt-environment-1222878.pdf",
+      "sha256": "bd81c1d54bc58bfef3838713477d155604c9d63b42816a1e3bcbadef17a427b4",
+      "physical_pages": 4,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-001",
+      "file": "research/round3-energy/sources/bmwe-members/8ca7c81d348638c3300a.pdf",
+      "sha256": "8ca7c81d348638c3300a30f68f2419f5aa0e36d74ffa3084ae395ba5cec95b55",
+      "physical_pages": 4,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-002",
+      "file": "research/round3-energy/sources/bmwe-members/1e0aaa1083ee112c39e2.pdf",
+      "sha256": "1e0aaa1083ee112c39e2ed380c2f1279ec577c6e5d0e75fdd99e76d3c26141f3",
+      "physical_pages": 3,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-003",
+      "file": "research/round3-energy/sources/bmwe-members/5e62695c1b4b8a47d3d5.pdf",
+      "sha256": "5e62695c1b4b8a47d3d5ed94369e01961c133d3d3e7a154c4438f35489db7380",
+      "physical_pages": 3,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-004",
+      "file": "research/round3-energy/sources/bmwe-members/dfa4dee9a8b3d0343694.pdf",
+      "sha256": "dfa4dee9a8b3d0343694027e38dc9e25f4b3cbe46b408131a02556039b1385a1",
+      "physical_pages": 4,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-005",
+      "file": "research/round3-energy/sources/bmwe-members/98b453ec03caa87a273f.pdf",
+      "sha256": "98b453ec03caa87a273f7270549d6bb8991daa6370b0553133f24c53b972f670",
+      "physical_pages": 3,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-006",
+      "file": "research/round3-energy/sources/bmwe-members/6fcec758a5867312830d.pdf",
+      "sha256": "6fcec758a5867312830dbb7f00ebc1c07c4992f3ccd7bb32952c4f0d73ce3daa",
+      "physical_pages": 1,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-007",
+      "file": "research/round3-energy/sources/bmwe-members/8f45c1daeb123c8d32b0.pdf",
+      "sha256": "8f45c1daeb123c8d32b08a9c544af3179ce65b6c7792cd36992772c24f27d4ae",
+      "physical_pages": 5,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-008",
+      "file": "research/round3-energy/sources/bmwe-members/2808b19a5bb1843ca144.pdf",
+      "sha256": "2808b19a5bb1843ca1442c055382dcd7cd0bde8d4044111f6fab88fd55d14034",
+      "physical_pages": 5,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-009",
+      "file": "research/round3-energy/sources/bmwe-members/762898b5a24d4ec118b2.pdf",
+      "sha256": "762898b5a24d4ec118b289511cf6c9d4db3fe2cec9d8b98cd78621ee09cb45d9",
+      "physical_pages": 5,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-010",
+      "file": "research/round3-energy/sources/bmwe-members/fcccacc0cbc14c644a7f.pdf",
+      "sha256": "fcccacc0cbc14c644a7fbbb644d122cdefe745e160fb1f238402d844275be01d",
+      "physical_pages": 3,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-011",
+      "file": "research/round3-energy/sources/bmwe-members/8fbc73dc6dd02de58d3d.pdf",
+      "sha256": "8fbc73dc6dd02de58d3d8b7880514fa80ed4c1a659cb7a99367b7759611a509a",
+      "physical_pages": 2,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-012",
+      "file": "research/round3-energy/sources/bmwe-members/ef4258c47c5c63706a57.pdf",
+      "sha256": "ef4258c47c5c63706a570e68f474987d3dca96136ddb6a0f00eae4c36d584067",
+      "physical_pages": 5,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-013",
+      "file": "research/round3-energy/sources/bmwe-members/46904b8b054e72305d5f.pdf",
+      "sha256": "46904b8b054e72305d5f121ec6702b1f0ca8ae19aea34b93dd255480237461a1",
+      "physical_pages": 6,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-014",
+      "file": "research/round3-energy/sources/bmwe-members/1437a31bae6be165c81b.pdf",
+      "sha256": "1437a31bae6be165c81b7af78a92769444d3677d7b714b8b94c29bf4c86afb7b",
+      "physical_pages": 4,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-015",
+      "file": "research/round3-energy/sources/bmwe-members/7df082cca4e3972165d7.pdf",
+      "sha256": "7df082cca4e3972165d73737f754f5a6e9a960fea64594624711e9a1ca6a27ff",
+      "physical_pages": 5,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-016",
+      "file": "research/round3-energy/sources/bmwe-members/722bb8be9a031cc7474f.pdf",
+      "sha256": "722bb8be9a031cc7474fd1f6f7ccd55abb156138c8df43b1edb5524414faafbb",
+      "physical_pages": 1,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-017",
+      "file": "research/round3-energy/sources/bmwe-members/6fdc7ef6aba69b473fda.pdf",
+      "sha256": "6fdc7ef6aba69b473fda9b655c5b3491212180d3681a45e8a7ca37c5cc4b4fc1",
+      "physical_pages": 2,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-018",
+      "file": "research/round3-energy/sources/bmwe-members/168908c1dee545d6d0c2.pdf",
+      "sha256": "168908c1dee545d6d0c23cc9d9f969b747e402369c407fb308f3b18f833f3f97",
+      "physical_pages": 3,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-019",
+      "file": "research/round3-energy/sources/bmwe-members/a04793fd3dc3aede452a.pdf",
+      "sha256": "a04793fd3dc3aede452ae073410694b8e2d3920c48c1d4c3d57bcb1dc065ee64",
+      "physical_pages": 2,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-020",
+      "file": "research/round3-energy/sources/bmwe-members/b2814f63c746b5b300f8.pdf",
+      "sha256": "b2814f63c746b5b300f8006f5e310ec543d686e3c9c31a783083385f95c1245d",
+      "physical_pages": 2,
+      "fresh_text_equal": true
+    },
+    {
+      "id": "bmwe-netzkosten-2026-023",
+      "file": "research/round3-energy/sources/bmwe-members/0660a8e9fdf55fc1262e.pdf",
+      "sha256": "0660a8e9fdf55fc1262ed3df6ad23bac3b9135c8fdb069ab62d0897fc92df2db",
+      "physical_pages": 3,
+      "fresh_text_equal": true
+    }
+  ],
+  "reviewed_snapshot_sha256": {
+    "README.md": "dd364171e862ed6af85c78febcca35493cdbb6549955d233fb11ff9e8aa3f932",
+    "data/factual-check-pilots.json": "5170c352103d0c26d0cfe9c0bf56e119df34cc1078ee83cae6d3aaefed690dca",
+    "data/findings.json": "6cc56589d5891f7f7ad4a76c1fad5848aff1351cf7bc9061c53a035960c34342",
+    "data/unresolved-leads.json": "cd72dfb597c0a9295ca6f58d068fa1a83ae10614548ffda8790da9b115e8d8a4",
+    "data/rejected-candidates.json": "670e715e9940077649d5daef8b15663a9611c9646babc270fc67414c29f5eec3",
+    "data/source-registry.json": "2da51a7cae5eabfb8c3a8ec5e93432b4b86b49ab120ccf88729806d9f744b5fd",
+    "data/documents.json": "c3c6b47d8c70125482fa53a4dca185679f1c402bef13403155d5cceed6e19294",
+    "data/review-index.json": "cbde313a06b0bbe396307c9e1bc9417be00ccf433ef6d72e4db520ee0cadefe6",
+    "data/screening-pool.json": "11ac3480bbf72c468b88fb62b643ee0689f195d25d95964520cacb5413d71d61",
+    "data/screening-pool-summary.json": "01a6ab96919be346731b98fc31bc7baac46db16edfc2a5bbf1bc2b401f88a132",
+    "data/bounded-coverage.json": "3c32b9568aac06697ab00c7bfce66ebdaa6fd9d620b928260918286f8d1fdff2",
+    "data/validation-report.json": "1367f7976aba4552d3c7d9867a145449b05da92d319259b3022b668a9afb0a71",
+    "research/build_factual_batch.py": "c639236e4123bb0270c316ae9626c63387a97350a81ce30d15663924e5469018",
+    "research/build_factual_index.py": "cff442042e234b1ae47d804b1f84d459ed5849e9c303671132dcc3f089c1bcc8",
+    "research/build_screening_pool.py": "029e797dda52b11c6ce38ac5a1884cece3593319a9427664a6089603b5c05b82",
+    "research/build_bounded_coverage.py": "3263a943e19a7365e7063a704e92d27fb807c7c81a35056537a7c5b41f450deb",
+    "research/build_deliverables.py": "7e2410529c722c581d57c766d49805dc932d294170251a24a7f3f635248573c1",
+    "site/labels.py": "c6bb40b8472d7bbd459300986c5b29673ab9b6ad247f418fb6c6e95e6dd0adef",
+    "site/index.html": "0ebc721b0606666635719e0c2ce81dae1f6c8d73357dbd25f2b0d0fbd4936b4f",
+    "site/evidence/behg2026-fleischmann-mortality-range-fc01.html": "fd0d96ce8db14b00b139baaaa0700c6b1fee316f3c1f3134234df7418cf1a091",
+    "research/factual-checks/extension-protocol.json": "7026254a7c187eee4a119b8298c6476f97ef7a3deb91068398427c19798a6e14",
+    "research/factual-checks/summary.json": "de6bd4968b6cde99fbe0de1ea545baa09aafbfbf630f39c3273bcaa94df0f5ba",
+    "research/factual-checks/report.html": "0cc58cfe69b9b7857ab77daa2512755b5f7cc2d9ebfa032beedb6ac35f8b089a",
+    "research/factual-checks/root-working-audit.json": "8e1137698873cbe5b11fe33fcb138e719c473ce0b698b9e4220ae06119015fa8",
+    "research/factual-checks/reviews/a-workflow-code-audit.json": "7a027252f810edb0634c4cfb1d32128630a703e1eab1a05141de2128b15fe125",
+    "research/factual-checks/behg-2026/protocol.json": "ce20ffa07e951c5a0ac0dea93c1c68ce2468a09d3469cedeed7dce3218cca27b",
+    "research/factual-checks/behg-2026/root-sources.json": "c6e4b6bf5242b7b2135aa28f3b42277d02af824c25c8a540e55f1663edb00657",
+    "research/factual-checks/behg-2026/adjudication.json": "97f7727c9058be6d8647a43a43b1f0656b7ab836646fd121e1ed7161face8105",
+    "research/factual-checks/behg-2026/summary.json": "d542bbbc22bf517d574f4a8623b14dee24a2a8a663715c70e94a0aea6ae9f319",
+    "research/factual-checks/behg-2026/claim-ledger.json": "f4e857b045534e417193e99ccac8e19f288d6fde0c96644ea8f1ac28989add3d",
+    "research/factual-checks/behg-2026/validation-report.json": "530dd8826816390998fc6db68c58fbde5f0c77932b6eb3c32460660f8b00d359",
+    "research/factual-checks/behg-2026/report.html": "616140a9310f5b7deb33f578cccabdb80732e7fca52f990992be3afa3274da98",
+    "research/factual-checks/behg-2026/assembly-manifest.json": "f52b5fdf2c02dcbccf80d4c7ccf9f84d1dc0a809b41b714f026067aee0578645",
+    "research/factual-checks/behg-2026/agents/claims-a.json": "abd47189df88c00ba1e936d77189f40a885c5da06cdcd50181ea21031df5e14f",
+    "research/factual-checks/behg-2026/agents/claims-b.json": "035bc94a7749daa5aae0c5f34500340d48cfd439193eede79f0b61b1c62d5f99",
+    "research/factual-checks/behg-2026/agents/claims-c.json": "539e99778009c011610291190a95ddbe88986155f54d9e31166688e5299cb453",
+    "research/factual-checks/behg-2026/reviews/a-reviews-c.json": "6bd11b545c53c68782d85e20017513814d680ad948749e485d85b7d1ac73e27a",
+    "research/factual-checks/behg-2026/reviews/b-final-candidate-records.json": "672c6463dd4b01cadc1d032daddbb709e46cfba5c3ac8c720fc15a5622a1b17f",
+    "research/factual-checks/behg-2026/reviews/b-reviews-a.json": "08b070e393651f7bf369806240e15f30a2a38bf58549968f7e1cdcbd65d191ed",
+    "research/factual-checks/behg-2026/reviews/c-admission-delta.json": "baf1e542cfc4504cb50bffeffbe3893b8a1500905067105ea570a857ea25a35d",
+    "research/factual-checks/behg-2026/reviews/c-final-candidate-records.json": "3fbb26b9fc5b46db11ac669b58981f391754d9143be50ddfd2c758656f72c737",
+    "research/factual-checks/behg-2026/reviews/c-reviews-b.json": "d9599120d88708351308318c0abb7cbbad891f13e274a5da7d08c4b6ae666d54",
+    "research/factual-checks/behg-2026/staged/behg2026-fleischmann-infrasound-threshold-fc02.json": "2eb4d3bb725c79cd201449dd65e046fb3b3699956dfbfdbc46d580de537d6f8a",
+    "research/factual-checks/behg-2026/staged/behg2026-fleischmann-mortality-range-fc01.json": "b8b8905fcabe7235f5008a04ef6455c61965694d044edf32c671e6e00df24ac2",
+    "research/factual-checks/behg-2026/behg2026-fleischmann-mortality-range-fc01-admitted.json": "5d4c57ae2c366ede7a5bb90a3b8c8a0091842fc94b5209791b1ef8f9a9e4717a",
+    "research/factual-checks/netzkosten-2026/protocol.json": "2582de6c786a9f1f1f136483ed06415bc7128b78e0c6efac847366040a2040a1",
+    "research/factual-checks/netzkosten-2026/root-sources.json": "97ecf93c0c856184d5d049452cc57a8e0c23264ab8fdafac9b7e36b6d7772a40",
+    "research/factual-checks/netzkosten-2026/adjudication.json": "5b981bb8291e8e250916176c22044522fc685d0e260dd5f4a9a1232b5dd9bfd4",
+    "research/factual-checks/netzkosten-2026/summary.json": "0ddf382eb1589098aa9251d81d6529732a76358dd6859c8c05d0aa285b005d78",
+    "research/factual-checks/netzkosten-2026/claim-ledger.json": "5bc0cce7e172ca08f42dad2ec7a561d1453e6c288de672560c90e92391f5920f",
+    "research/factual-checks/netzkosten-2026/validation-report.json": "4f8ce8817f64863eb193b58d468cc2bc553d0d6a7e31ebf050ab10efc777d272",
+    "research/factual-checks/netzkosten-2026/report.html": "94cca75a2fac0f55f1381a59554bb1114d8d1e2bcd3d8853549bc944c7cec80d",
+    "research/factual-checks/netzkosten-2026/assembly-manifest.json": "51adb5c299674bba96b3153c4ad56d3fc1675f820bbc61e1e21c59203a43ea93",
+    "research/factual-checks/netzkosten-2026/agents/claims-a.json": "00fb9eec92aac5cc6938f49f59656aea161c0c3d759218df0b96543b05223bf9",
+    "research/factual-checks/netzkosten-2026/agents/claims-b.json": "fa6b6b61054a33ce4aa3ea3437da238427fb5848e73fc855245ee2510b2778ca",
+    "research/factual-checks/netzkosten-2026/agents/claims-c.json": "343ad90ab5e07a80111aab8df350cb94f8a80a506797debea12f5e6f9daa6a44",
+    "research/factual-checks/netzkosten-2026/reviews/a-bkm-final-candidate.json": "6bd5f54d81c46d582a8ab4769482a261b4b1cbd3692459dfc1c514e743e905e4",
+    "research/factual-checks/netzkosten-2026/reviews/a-reviews-c.json": "419571578210a8b244df72e6ffbc6eb6f18616028a85a35145ce583d36f048bd",
+    "research/factual-checks/netzkosten-2026/reviews/b-reviews-a.json": "06e9b7345b722a488912b314bbb8ffcef4e699d9255b03a788ea7d2541605808",
+    "research/factual-checks/netzkosten-2026/reviews/c-reviews-b.json": "c555af867717e23b1cb4d3ba6c64577581adce2ac6963701af15cc5095c81077",
+    "research/factual-checks/netzkosten-2026/staged/netzkosten2026-bkm-craft-tax-fc01.json": "2d3d20fbea433cf4ed2e210dbb7e513b9fe16048a6cd9b811ee25dabaf51d2ed",
+    "research/factual-checks/browser-qa.json": "505ae6794a3f324485f1c1f47a2968210acd8caa4d88fa7fa8a59bda42e971a2",
+    "research/factual-checks/completion-audit.json": "a7bfe36997f842350fb2fe950054eb49d267cfc4c75fca435598cfc3d7fb933d",
+    "research/factual-checks/claim.schema.json": "6f13e5be1a789f064de6d2e43f441f41a4f4f5b6e5c11cbbd7131cf1abfe39ce",
+    "data/issue.schema.json": "cbd1ac087fa860dcdf251b0b43c2edec418659964dc28af4eead69b839e82c5c",
+    "research/factual-pilot/protocol.json": "4d282710d19637e3fca98bb0a5516850ce8dec76d4477ad623f43209c3b719e3",
+    "research/factual-pilot/claim-ledger.json": "cf0fd598fefda230bd445a43e7763c83b95a8d8e5f6953adab9352e6046cc6b3",
+    "research/factual-checks/behg-2026/sources/a-masselot-corrected.pdf": "b82e4db1746f0dd0022494ffd59d7660c9ca5a1fb322b08b6592a93f74f39a21",
+    "research/factual-checks/behg-2026/sources/br-masselot-correction.pdf": "f92809d0f34b49bf01e9f154c420baf41697d3aad00ad3ccce9ec3b09729432a",
+    "research/factual-checks/behg-2026/sources/root-masselot-corrected-p6.png": "16f5c67837b39b3db5356a4884db1e269e6a9e822f86514183d04d19385b21b6",
+    "research/factual-checks/behg-2026/sources/root-fleischmann-p6.png": "37f2f950550e6187410f85d13849908ca642f8e8c8b87b04a8b65a6fc6171790",
+    "research/factual-checks/behg-2026/baseline/screening-pool.json": "920aefa8a8f15aed931643d00935b352be30d7a941d05c04e4b70d86afcb4e6b",
+    "research/factual-checks/behg-2026/baseline/findings.json": "24c01e204fb439a0f9c72f4047a05b5ec747df8f3fca46df183183a0b4985345",
+    "research/factual-checks/behg-2026/baseline/rejected-candidates.json": "670e715e9940077649d5daef8b15663a9611c9646babc270fc67414c29f5eec3",
+    "research/factual-checks/behg-2026/baseline/screening-pool-summary.json": "649aab1cb8bad95575117e8c7bb78f7fc5bbb0e6b596baf750022b79bd4e1db4",
+    "research/factual-checks/behg-2026/baseline/unresolved-leads.json": "cd72dfb597c0a9295ca6f58d068fa1a83ae10614548ffda8790da9b115e8d8a4",
+    "research/factual-checks/netzkosten-2026/baseline/screening-pool.json": "920aefa8a8f15aed931643d00935b352be30d7a941d05c04e4b70d86afcb4e6b",
+    "research/factual-checks/netzkosten-2026/baseline/findings.json": "24c01e204fb439a0f9c72f4047a05b5ec747df8f3fca46df183183a0b4985345",
+    "research/factual-checks/netzkosten-2026/baseline/rejected-candidates.json": "670e715e9940077649d5daef8b15663a9611c9646babc270fc67414c29f5eec3",
+    "research/factual-checks/netzkosten-2026/baseline/screening-pool-summary.json": "649aab1cb8bad95575117e8c7bb78f7fc5bbb0e6b596baf750022b79bd4e1db4",
+    "research/factual-checks/netzkosten-2026/baseline/unresolved-leads.json": "cd72dfb597c0a9295ca6f58d068fa1a83ae10614548ffda8790da9b115e8d8a4"
+  }
+}

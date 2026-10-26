@@ -1,0 +1,68 @@
+{
+  "id": "round6-tax-budget-experts-negative",
+  "record_kind": "negative_research_disposition_not_issue",
+  "recorded_at": "2026-10-25T12:01:59Z",
+  "status": "research_only",
+  "admit_to_issues": false,
+  "submission_ids": [
+    "hearing-1194566-response-003",
+    "hearing-1194566-response-001",
+    "hearing-1194566-response-010",
+    "hearing-1194566-response-005",
+    "hearing-1194566-response-006"
+  ],
+  "actual_reading": "All 26 pages of the five submissions were read. This does not mean that every cited model, legal interpretation or forecast was independently checked. Individual read start/finish times were not measured.",
+  "exact_draft": {
+    "document": "BT 21/7860, Haushaltsbegleitgesetz 2027",
+    "local_files": [
+      "research/round4-tax/sources/bt-21-7860.pdf",
+      "research/round4-tax/sources/bt-21-7860.txt"
+    ],
+    "read_extent": "Complete operative Articles 5 and 6; opening effects and costs table; Article 5/6 explanations on physical page 25; selected related pension provision on page 26. Not the entire bill."
+  },
+  "primary_checks": [
+    {
+      "title": "Bundesbank, August 2026 monthly report, Public finances",
+      "url": "https://publikationen.bundesbank.de/publikationen-de/berichte-studien/monatsberichte/monatsbericht-august-2026-1003902?article=oeffentliche-finanzen-1003914",
+      "read_extent": "Sections 1.1–1.3 and the EU fiscal excursion; complete Table 5.3 and all footnotes; sections 3.1–3.2; selected tax-reform discussion in section 2.2. Not the complete article.",
+      "result": "The report distinguishes national-accounts/Maastricht and financial-statistical/budget definitions. Table 5.3 gives federal cash deficits around 4.2–4.4% of GDP for 2027–2030. The report independently warns of a rising general-government deficit, around 5% by 2028. Its footnotes place planned fund exhaustion at end-2027 and repayments from 2028 through 2033.",
+      "access": "Ordinary official HTML download read via a temporary cleaned extraction; temporary download is disposable under AGENTS.md."
+    },
+    {
+      "title": "BMF, September 2025, debt-brake accounting for 2024",
+      "url": "https://www.bundesfinanzministerium.de/Monatsberichte/Ausgabe/2025/09/Inhalte/Kapitel-3-Analysen/3-6-abrechnung-der-schuldenbremse-2024.html",
+      "read_extent": "Indexed official repayment paragraph, not a successfully archived full webpage.",
+      "result": "Repayment is planned from 2028 to 2058, around EUR 3.2 billion annually; the latest statutory start and an exhaustion-dependent earlier start must be distinguished.",
+      "access_limit": "Indexed primary excerpt only; no full-page snapshot is claimed."
+    }
+  ],
+  "decisions": [
+    {
+      "author": "Stefan Homburg",
+      "outcome": "No issue promoted.",
+      "reason": "The 2027 repayment-start wording differs from the cited Bundesbank footnote, but is an auxiliary chronology point. No material 2027 financing conclusion depending on that date was established. Comparing federal financial-statistical deficits with the 3% Maastricht benchmark also mixes bases, but the primary report itself supports the broader deficit warning. This is insufficient to prove a false fiscal conclusion."
+    },
+    {
+      "author": "Hanno Kube",
+      "outcome": "No issue promoted.",
+      "reason": "The submission distinguishes legal and fiscal questions and identifies the conditional 2028 repayment timing. Its constitutional and EU-use arguments require legal judgment rather than a factual-error label."
+    },
+    {
+      "author": "Ulrike Malmendier",
+      "outcome": "No issue promoted.",
+      "reason": "EUR 4.5 billion divided by the EUR 555.4 billion budget is approximately 0.8%. Forecast growth and productivity effects were not treated as established facts."
+    },
+    {
+      "author": "Désirée Christofzik",
+      "outcome": "No issue promoted.",
+      "reason": "The submission distinguishes the EUR 455 million full-year effect from EUR 380 million of cash effect in 2027 and identifies 2028 repayment timing. A static arithmetic example does not by itself establish that the author has falsely denied behavioural effects."
+    },
+    {
+      "author": "Alexander Thiele",
+      "outcome": "No issue promoted.",
+      "reason": "The 2031 reference may describe the latest statutory repayment start, while EUR 455 million from 2027 may describe the full-year rate. These auxiliary shorthand points do not establish a material error in the qualified constitutional conclusion."
+    }
+  ],
+  "limits": "No endorsement of the submissions, fiscal forecasts or constitutional positions follows. No causal effect of transfers, actual future deficit or optimal policy was calculated. No additional issue, author response or intent is inferred.",
+  "reading_ledger": "research/round6-tax/research-log.json"
+}

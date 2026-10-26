@@ -1,0 +1,20 @@
+{
+  "reviewer": "a",
+  "reviewed_at_utc": "2026-10-25T22:30:54.647577+00:00",
+  "scope": "One-line display-label delta in build_factual_index.py; read-only, no generated outputs run or certified.",
+  "before_file": "research/factual-checks/short-statements-20261025/reviews/factual-index-before-label.py",
+  "before_sha256": "2b8c9c4d667c06461f28c128a27f975947c07af9a7e23edda32c64fab572ea3d",
+  "reviewed_file": "research/build_factual_index.py",
+  "reviewed_sha256": "17135ae8487505261440715cea8ea862d057f80793a0017a9b11f73fdbb3a496",
+  "disposition": "accept",
+  "checks": [
+    "Exact whole-file replacement comparison confirms only bounded archived public sets changes to research batches.",
+    "The loop appends one row per configured distinct batch, so len(rows) counts research batches. A batch can span several public response sets or a strict actor subset.",
+    "No aggregation, source handling, claim results, admission, page/peer coverage, or validation logic changed. Current source parses."
+  ],
+  "concerns": [],
+  "limits": [
+    "This audit covers the label delta only, not final rendered-output or integration correctness.",
+    "No claim that each research batch is one closed public set or that the IT subset covers all twelve replies."
+  ]
+}

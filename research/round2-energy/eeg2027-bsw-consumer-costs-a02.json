@@ -1,0 +1,99 @@
+{
+  "law_id": "eeg-2027",
+  "document_id": "bsw-eeg2027-20261001",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "request_quote_ref": {
+    "quote_id": "bsw-eeg2027-preserve-feed-in",
+    "metadata_file": "data/documents.json"
+  },
+  "request_registry": "research/round2-energy/bsw-source-registry.json",
+  "draft": {
+    "version": "Government BT 21/7867,7 September 2026, the 29 July 2026 cabinet draft; hearing 5 October 2026.",
+    "source_id": "eeg2027-bt217867",
+    "submission_date": "2026-10-01",
+    "version_check": "Author cover expressly addresses EEG 2027 governmentbill. Exactproposed§§ 19–21 physical 22–24 and§ 25 physical 30 were read: former fixed feed-in payment is replaced by temporary payment, while small-system support is changed. No later text substituted."
+  },
+  "limits": "This checks the description of one explicitly cited scenario study, not whether the scenario is the true counterfactual.  The study holds other generation capacity fixed, omits grid-related curtailment and some wider economic effects, and says alternative investment responses could reduce the price effect. Neither correction proves that preserving feed-in support is unwise or that a specific household actually realised the modelled saving. No intent is inferred.",
+  "materiality_explanation": "Minor: an auxiliary numerical/source-description issue in a much broader submission. The cited scenario still finds substantial solar benefits and the policy conclusion does not depend on this error alone.",
+  "confidence": {
+    "text_source_mismatch": "high for detailed study figures; source-summary qualifications explicitly retained",
+    "materiality": "editorial_judgment"
+  },
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "agent": "tax_consultations_ai_agent",
+        "date": "2026-10-25",
+        "result": "Retain narrow provisional minor finding and stated direction; full cited study and exact relevant draft independently checked.",
+        "review_file": "research/round2-reviews/tax-reviews-bsw-enervis.json"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after reading full claim context and all 15 pages of the cited study; independent adversarial review requested.",
+      "by": "energy_ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent adversarial review retained both distinct minor corrections, with opposing direction; primary-summary and national-benefit alternatives preserved.",
+      "by": "energy_ai_screen"
+    }
+  ],
+  "source_ids": [
+    "bsw-eeg2027-20261001",
+    "enervis-pv-price-20260618",
+    "eeg2027-bt217867"
+  ],
+  "source_registry": "research/round2-energy/bsw-source-registry.json",
+  "verification": {
+    "visual": "Authorphysical 15/printed 14 and studyphysical 7–8 rendered and visually checked. Request printed 15/physical 16 read in full adjacent context.",
+    "quote_budget": "Across both BSW records and shared request:22 words from author; across primary-study counterquotes 19 words. Do not add further submission quotations without counting."
+  },
+  "id": "eeg2027-bsw-consumer-costs-a02",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Renewable-electricity support and marketing rules, including small rooftop systems.",
+    "they_want": "Preserve the fixed feed-in tariff for rooftop solar.",
+    "they_claim": "The cited study means 15.7 billion euros lower costs for energy consumers.",
+    "the_problem": "That combined value includes 2.6 billion euros of export receipts; the study separately assigns 13.1 billion to lower procurement prices."
+  },
+  "claim_quote": {
+    "original": "Für Energieverbraucher bedeutet das rund 15,7 Milliarden Euro geringere Kosten.",
+    "language": "de",
+    "translation_en": "Translation: For energy consumers, that means around 15.7 billion euros in lower costs.",
+    "locator": {
+      "pdf_page": 15,
+      "printed_page": 14,
+      "section": "Same first paragraph, immediately after the percentage claim"
+    },
+    "underline": "15,7 Milliarden Euro geringere Kosten"
+  },
+  "counter_quote": {
+    "original": "Der Gesamtwert aus Stromexporten und Strompreisdifferenz am Großhandel",
+    "language": "de",
+    "translation_en": "Translation of fragment: The combined value from electricity exports and the wholesale price difference",
+    "source_id": "enervis-pv-price-20260618",
+    "locator": {
+      "pdf_page": 8,
+      "printed_page": 8,
+      "section": "Berechnungsmethodik, first bullet; adjoining bars 13.1 wholesale/2.6 exports/10.9 support costs"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "Describe 15.7 billion euros as the study’s combined wholesale-price and export value. Its procurement-price component is 13.1 billion euros and its export-receipt component 2.6 billion. Using the displayed 10.9 billion support-cost comparator, the price component alone is about 20.2 percent above support costs, while the combined figure is about 44 percent above.",
+  "effect": "Weakens the depicted size of the consumer cost-saving component supporting continued subsidy. It leaves the study’s combined 15.7 billion value and positive sign intact.",
+  "direction_explanation": "True narrowly: assigning the export component to consumer cost reductions enlarges the stated consumer benefit. The wider national-benefit argument can still legitimately include exports.",
+  "context_and_alternatives": [
+    "The strongest benign reading is shorthand for an overall national electricity-system benefit ultimately relevant to consumers. However, the sentence expressly identifies lower consumer costs, and the surrounding text repeatedly describes the price-reducing effect rather than adding export receipts.",
+    "The study itself consistently labels 15.7 billion as a combined value in the detailed methodology and its summary. It is not being corrected for computing that total.",
+    "The submission’s opening about 40 percent advantage over EEGcosts tracks the combined figure. Do not call the combined 40 percent comparison false; the narrow issue is relabelling that aggregate as lower consumer costs.",
+    "Export receipts may benefit producers and the economy and can indirectly matter for consumers. Their classification as a distinct component is nevertheless explicit in the study."
+  ],
+  "submission_source_id": "bsw-eeg2027-20261001"
+}

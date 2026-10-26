@@ -1,0 +1,107 @@
+{
+  "id": "estreform2027-dstv-anlagen-tax-r4-02",
+  "law_id": "einkommensteuerreformgesetz-2027",
+  "document_id": "dstv-est-reform-20261021",
+  "status": "ai_screened",
+  "finding_state": "provisional_finding",
+  "severity": "minor",
+  "favours_author_request": true,
+  "card": {
+    "law_is_about": "Income-tax changes including raising the employee expense allowance from EUR 1,230 to EUR 1,430.",
+    "they_want": "Give priority to a workday allowance instead of merely raising the existing employee allowance.",
+    "they_claim": "Every compulsory-assessment case requires the employment-income attachment regardless of expenses.",
+    "the_problem": "Official instructions permit omission of that attachment when electronic wage data suffice and specified extra entries are unnecessary. A compulsory return alone does not remove that exception."
+  },
+  "claim_quote": {
+    "original": "ist die Anlage N unabhängig von der Höhe der tatsächlich\nangefallenen Werbungskosten einzureichen.",
+    "language": "de",
+    "translation_en": "Translation of claim fragment: Anlage N must be submitted regardless of the amount of actual employment expenses.",
+    "locator": {
+      "pdf_page": 5,
+      "printed_page": 5,
+      "section": "Article 1 number 2, employee allowance; paragraph on compulsory assessment under section 46(2) EStG"
+    },
+    "underline": "unabhängig von der Höhe"
+  },
+  "request_quote": {
+    "original": "Arbeitstagepauschale Vorrang eingeräumt werden",
+    "language": "de",
+    "translation_en": "Translation of request fragment: priority should be given to a workday allowance.",
+    "locator": {
+      "pdf_page": 6,
+      "printed_page": 6,
+      "section": "Petitum under Article 1 number 2"
+    }
+  },
+  "counter_quote": {
+    "original": "Die Abgabe der Anlage N entfällt, wenn:",
+    "language": "de",
+    "translation_en": "Translation: Submission of Anlage N is unnecessary if:",
+    "source_id": "elster-2025-unrestricted-n",
+    "locator": {
+      "section": "Anlage N: Einkünfte aus nichtselbständiger Arbeit, introductory exception and its three cumulative bullet conditions"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "The official 2025 instructions for unrestricted taxpayers dispense with Anlage N where wage data were transmitted electronically, no entries are needed in lines 10, 18–19 or 21–26, and employment expenses do not exceed the applicable allowance. Those conditions can coexist with compulsory assessment, for example ordinary electronic wage data for spouses using III/V. The requirement to submit a tax return is distinct from the requirement to complete this attachment.",
+  "effect": "This weakens the categorical procedural objection to the allowance increase as a simplification. It does not validate the government estimate that 1.3 million taxpayers will omit the attachment, nor settle the comparison with a workday allowance.",
+  "limits": "Some compulsory-assessment cases do require extra entries and an attachment; the finding concerns the universal assertion, not every example. Higher expenses after a move or job change can still require entries. Existing 2025 guidance is not a complete specification of future 2027 forms. No claim about actual filing behaviour, total time saved, distributional fairness or the preferred allowance is established.",
+  "context_and_alternatives": [
+    "All thirteen author pages were read, including both the qualified opening criticism and the later workday-allowance request. The original expressly says all compulsory-assessment cases, gives III/V and factor combinations as examples, and says the attachment must be submitted regardless of expenses.",
+    "A strong benign reading is practical shorthand: tax software may prefill or transmit employment data and advisers still check whether expenses exceed the allowance. That practical work is real, but does not make the stated universal attachment obligation accurate.",
+    "The preceding sentence merely says the government estimate cannot be confirmed so generally. That qualified challenge and the distinct possibility of changing personal circumstances remain defensible; neither is treated as a proven error.",
+    "The exact bill changes section 9a and its memorandum physical pages 26 and 28 explicitly estimates omitted attachments. No amendment abolishing the electronic-data exception is identified in the operative text relevant to the claim.",
+    "The official unrestricted-taxpayer ELSTER page was checked directly. An initially discovered restricted-taxpayer help page was not substituted as the counter-source. The published guidance for tax year 2025 is retrieved live on October 25; no frozen October 21 webpage snapshot is claimed.",
+    "An official tax-office leaflet with a July 2020 footer separately confirms that entire attachments N, R and Vorsorgeaufwand may be omitted where electronically supplied data suffice and no other entries are needed. It explicitly retains the main return in every case. This is supplementary historical artifact evidence, not proof of a frozen October 21 webpage."
+  ],
+  "materiality_explanation": "Minor: one concrete procedural premise overstates the remaining filing burden. The overall reform request also rests on separate simplicity and fairness arguments, and the numerical government forecast is not independently tested.",
+  "direction_explanation": "True narrowly: overstating an unavoidable attachment requirement supports preferring the proposed alternative allowance by understating the existing bill’s possible simplification. This is separate from materiality and does not show the alternative policy is worse.",
+  "confidence": {
+    "text_source_mismatch": "high for the universal attachment assertion against the express official exception",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "source_id": "bt-21-8235",
+    "title": "Government bill BT 21/8235, Entwurf eines Einkommensteuerreformgesetzes 2027",
+    "version_date": "2026-09-28",
+    "exact_version_evidence": "The original cover explicitly names BT 21/8235 and the 4 November hearing. Operative Article 1 number 2 physical page 7 raises section 9a allowance to EUR 1,430; memorandum pages 26 and 28 are the passages expressly discussed on submission page 5.",
+    "read_extent": "Cover, relevant operative provisions and complete memorandum physical pages 26 and 28; no full 36-page read."
+  },
+  "document_metadata": {
+    "author": "Deutscher Steuerberaterverband e.V. (DStV)",
+    "author_date": "2026-10-21",
+    "register_id": "SG2610210010",
+    "full_submission_read": true,
+    "physical_pages": 13,
+    "visual_check": "research/round4-tax/previews/dstv-est-p5.png",
+    "delivery_independently_verified": false
+  },
+  "submission_source_id": "dstv-est-reform-20261021",
+  "source_ids": [
+    "dstv-est-reform-20261021",
+    "bt-21-8235",
+    "elster-2025-unrestricted-n",
+    "ao150-current-20261025",
+    "fa-nuernberg-edaten",
+    "fa-edaten-leaflet2020"
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      "research/round4-reviews/social-reviews-dstv-anlagen.json"
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded after full original read, visual claim check, exact bill and official unrestricted-taxpayer guidance check; independent review requested.",
+      "by": "ai_screen"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent full-original and exact-bill review retained narrow minor/true finding; official July 2020 leaflet subsequently corroborated the longstanding return-versus-attachment distinction.",
+      "by": "ai_screen"
+    }
+  ]
+}

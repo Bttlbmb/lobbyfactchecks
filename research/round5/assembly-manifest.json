@@ -1,0 +1,30 @@
+{
+  "note": "Three existing leads reassessed with issue identities and prior raw records preserved. Independent reviews support one closure as unproven and two narrowed unresolved leads. No new findings or target submission units.",
+  "replacement_inputs": {
+    "research/round4-social/gedig2026-svdgv-costs-social-r4-01.json": "research/round5-social/gedig2026-svdgv-costs-follow-up.json",
+    "research/round4-root/pnog2026-wir-care-share-root-r4-01.json": "research/round5-root/pnog2026-wir-care-share-update.json",
+    "research/round4-tax/tabstaendg2026-bvte-forecast-tax-r4-03.json": "research/round5-tax/tabstaendg2026-bvte-forecast-tax-r4-03-update.json"
+  },
+  "source_registries": [
+    [
+      "research/round5-root/sources.json",
+      "research/round5-root"
+    ],
+    [
+      "research/round5-tax/sources.json",
+      "research/round5-tax"
+    ],
+    [
+      "research/round5-social/sources.json",
+      "research/round5-social"
+    ],
+    [
+      "research/round5-energy/sources.json",
+      "research/round5-energy"
+    ]
+  ],
+  "review_directories": [
+    "research/round5-reviews"
+  ],
+  "inputs": []
+}

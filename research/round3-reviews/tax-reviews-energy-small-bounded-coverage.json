@@ -1,0 +1,128 @@
+{
+  "id": "tax-independent-energy-three-small-bounded-coverage-review",
+  "reviewer": "tax_consultations AI agent",
+  "reviewed_at_utc": "2026-10-25T04:51:47.689323+00:00",
+  "scope": "Count, actor-role, local PDF hash/page-count, original list or DOM and full-depth ledger-reference audit. No second full substantive reading of the 51 combined external author pages is claimed.",
+  "proofs": [
+    {
+      "label": "KLtgV",
+      "input": "research/round3-energy/coverage-bounded-kltgv-proof.json",
+      "input_sha256": "ca1022cc2a729fe4c5dac7e5489b0ab0276ec38cf338d69c9250184d8d95a4f6",
+      "counts": {
+        "named": 13,
+        "external": 7,
+        "government": 6,
+        "withheld": 2
+      },
+      "external_document_checks": [
+        {
+          "id": "bmwe-kltgv-2026-001",
+          "sha256_matches": true,
+          "physical_pages": 7,
+          "declared_pages_match": true,
+          "matching_full_read_log_entries": 1
+        },
+        {
+          "id": "bmwe-kltgv-2026-002",
+          "sha256_matches": true,
+          "physical_pages": 3,
+          "declared_pages_match": true,
+          "matching_full_read_log_entries": 1
+        },
+        {
+          "id": "bmwe-kltgv-2026-003",
+          "sha256_matches": true,
+          "physical_pages": 3,
+          "declared_pages_match": true,
+          "matching_full_read_log_entries": 1
+        },
+        {
+          "id": "bmwe-kltgv-2026-007",
+          "sha256_matches": true,
+          "physical_pages": 9,
+          "declared_pages_match": true,
+          "matching_full_read_log_entries": 1
+        },
+        {
+          "id": "bmwe-kltgv-2026-008",
+          "sha256_matches": true,
+          "physical_pages": 3,
+          "declared_pages_match": true,
+          "matching_full_read_log_entries": 1
+        },
+        {
+          "id": "bmwe-kltgv-2026-010",
+          "sha256_matches": true,
+          "physical_pages": 6,
+          "declared_pages_match": true,
+          "matching_full_read_log_entries": 1
+        },
+        {
+          "id": "bmwe-kltgv-2026-011",
+          "sha256_matches": true,
+          "physical_pages": 4,
+          "declared_pages_match": true,
+          "matching_full_read_log_entries": 1
+        }
+      ],
+      "external_page_sum": 35,
+      "evidence": "Original participant list read in full: 13 named KLtgV contributors (seven external, six government; two government withheld), or three named exam contributors (two external, one government), respectively.",
+      "version_and_date_limits": "The review supports the bounded count and archive bookkeeping. Author dates and filenames do not prove delivery. Preserve the stated July7/July8 KLtgV edition gap, September23/current October exam artifact gap, and possibly revised KrWaff current-draft wording. No claim that these are byte-identical earlier dispatch versions."
+    },
+    {
+      "label": "Wirtschaftsprueferexamen",
+      "input": "research/round3-energy/coverage-bounded-wpexamen-proof.json",
+      "input_sha256": "885d8bd9e16fc8f7d473ea6fc857fdd30dd2a1d29cdde1f643ac802864bff536",
+      "counts": {
+        "named": 3,
+        "external": 2,
+        "government": 1,
+        "withheld": 0
+      },
+      "external_document_checks": [
+        {
+          "id": "bmwe-wpexamen-2026-002",
+          "sha256_matches": true,
+          "physical_pages": 6,
+          "declared_pages_match": true,
+          "matching_full_read_log_entries": 1
+        },
+        {
+          "id": "bmwe-wpexamen-2026-003",
+          "sha256_matches": true,
+          "physical_pages": 6,
+          "declared_pages_match": true,
+          "matching_full_read_log_entries": 1
+        }
+      ],
+      "external_page_sum": 12,
+      "evidence": "Original participant list read in full: 13 named KLtgV contributors (seven external, six government; two government withheld), or three named exam contributors (two external, one government), respectively.",
+      "version_and_date_limits": "The review supports the bounded count and archive bookkeeping. Author dates and filenames do not prove delivery. Preserve the stated July7/July8 KLtgV edition gap, September23/current October exam artifact gap, and possibly revised KrWaff current-draft wording. No claim that these are byte-identical earlier dispatch versions."
+    },
+    {
+      "label": "KrWaff",
+      "input": "research/round3-energy/coverage-bounded-krwaff-proof.json",
+      "input_sha256": "543e769ae4f418d80d9a3d52fddffea178958d16b661621f1116156ad0031dee",
+      "counts": {
+        "named": 2,
+        "external": 1,
+        "government": 1,
+        "reparsed_direct_response_urls": 2,
+        "url_sets_match": true
+      },
+      "external_document_checks": [
+        {
+          "id": "bmwe-data-3a6ba53bcd27a25c",
+          "sha256_matches": true,
+          "physical_pages": 4,
+          "declared_pages_match": true,
+          "matching_full_read_log_entries": 1
+        }
+      ],
+      "external_page_sum": 4,
+      "evidence": "Official captured dataset DOM independently reparsed: exactly two direct response PDFs, a joint BDSV/BDLI position and Bremen government reply. Joint author organisations constitute one authored response package.",
+      "version_and_date_limits": "The review supports the bounded count and archive bookkeeping. Author dates and filenames do not prove delivery. Preserve the stated July7/July8 KLtgV edition gap, September23/current October exam artifact gap, and possibly revised KrWaff current-draft wording. No claim that these are byte-identical earlier dispatch versions."
+    }
+  ],
+  "verdict": "Counts and local archives supported: KLtgV seven external/35 pages, exam two external/12 pages, KrWaff one joint external/four pages. Government and withheld replies remain separate; none of these finite proofs establishes all-channel completeness."
+}

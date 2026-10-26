@@ -1,0 +1,257 @@
+{
+  "reviewer": "energy_hearings",
+  "at_utc": "2026-10-25T12:09:10.100642+00:00",
+  "subject": "Round6 merged reading-pool and findings delta, before final quotation-only rebuild",
+  "snapshot_files": [
+    {
+      "path": "research/round6/baseline/screening-pool.json",
+      "sha256": "11ac3480bbf72c468b88fb62b643ee0689f195d25d95964520cacb5413d71d61"
+    },
+    {
+      "path": "research/round6/baseline/findings.json",
+      "sha256": "6cc56589d5891f7f7ad4a76c1fad5848aff1351cf7bc9061c53a035960c34342"
+    },
+    {
+      "path": "data/screening-pool.json",
+      "sha256": "c20701143fcc0537d8de1e2c54804bfeadfcf72eed78584b960e03022a86a4c2"
+    },
+    {
+      "path": "data/screening-pool-summary.json",
+      "sha256": "a740ed726390a3810ea92271387e5cbf4fbf936861638da35a73d983f1668154"
+    },
+    {
+      "path": "data/findings.json",
+      "sha256": "1d0a76119a83ba58b9d93e4e01d3c8b91ca371ed7e62582d3baca0d4cdeaaf79"
+    },
+    {
+      "path": "data/unresolved-leads.json",
+      "sha256": "b0430096b8186c3b6c8fcfe646026af9881b660bad3614632da3f74ab49f53cc"
+    },
+    {
+      "path": "data/rejected-candidates.json",
+      "sha256": "b7855eb215a1a33f2102a38845581de148df9c29440db3d7d37f8972adc75487"
+    }
+  ],
+  "pool_reconciliation": {
+    "baseline_units": 626,
+    "current_units": 792,
+    "retained_baseline_ids": 625,
+    "removed_baseline_ids": [
+      "dk-kryptotax-20261015"
+    ],
+    "new_ids": 167,
+    "net_change": 166,
+    "identity": "625 retained baseline groups +167 new groups =792; baseline626 minus one duplicate gives net+166.",
+    "retained_baseline_depth_changes": [],
+    "lost_retained_metadata_sets": [],
+    "new_depths": {
+      "full_submission": 150,
+      "selected_passages": 17
+    },
+    "new_document_kinds": {
+      "written_submission": 144,
+      "public_statement": 8,
+      "written_policy_position_scope_pending": 15
+    },
+    "current_depths": {
+      "full_submission": 555,
+      "selected_passages": 108,
+      "keyword_triage": 128,
+      "full_text_ocr": 1
+    }
+  },
+  "dk_alias_independent_check": {
+    "conclusion": "The removed dk-kryptotax-20261015 group is incorporated into retained dk-crypto-20261015; both source inventory IDs, URLs, files and reading evidence are preserved. All three cover variants have the same2892-word authored body, independently recomputed.",
+    "bodies": [
+      {
+        "register_id": "SG2610190011",
+        "body_pages": "physical2–8",
+        "words": 2892,
+        "all_whitespace_removed_sha256": "cc07fe27fcc818a0981c86e2c52116cb25c38d98f0c2a58a7d6a8542505d605d"
+      },
+      {
+        "register_id": "SG2610150030",
+        "body_pages": "physical2–8",
+        "words": 2892,
+        "all_whitespace_removed_sha256": "cc07fe27fcc818a0981c86e2c52116cb25c38d98f0c2a58a7d6a8542505d605d"
+      },
+      {
+        "register_id": "SG2610150012",
+        "body_pages": "physical2–8",
+        "words": 2892,
+        "all_whitespace_removed_sha256": "cc07fe27fcc818a0981c86e2c52116cb25c38d98f0c2a58a7d6a8542505d605d"
+      }
+    ],
+    "proof": "research/round6-tax/dk-crypto-alias-proof.json"
+  },
+  "findings_reconciliation": {
+    "baseline": 63,
+    "current": 69,
+    "new_records": [
+      {
+        "id": "fruehstart2026-dai-doubletax-tax-r6-01",
+        "severity": "major",
+        "favours_author_request": true,
+        "status": "ai_screened"
+      },
+      {
+        "id": "izg2026-biesemann-seaports-energy-r6-03",
+        "severity": "minor",
+        "favours_author_request": true,
+        "status": "ai_screened"
+      },
+      {
+        "id": "krwg2026-itad-prevention-target-energy-r6-02",
+        "severity": "minor",
+        "favours_author_request": true,
+        "status": "ai_screened"
+      },
+      {
+        "id": "krwg2026-itad-recycling-method-energy-r6-01",
+        "severity": "major",
+        "favours_author_request": true,
+        "status": "ai_screened"
+      },
+      {
+        "id": "mietrechtII2026-ivd-cpiyears-root-r6-02",
+        "severity": "minor",
+        "favours_author_request": true,
+        "status": "ai_screened"
+      },
+      {
+        "id": "suizidpraevg2026-marburger-costs-social-r6-01",
+        "severity": "minor",
+        "favours_author_request": true,
+        "status": "ai_screened"
+      }
+    ],
+    "removed_baseline_findings": [],
+    "baseline_content_changes_at_snapshot": [],
+    "major_findings": 13,
+    "unresolved": 38,
+    "rejected": 3,
+    "total_records": 110
+  },
+  "why_net166_is_not166_eligible_recent_submissions": [
+    "Net166 mixes167 new reading groups with deletion of one historical duplicate; it is an arithmetic change in the targeted reading pool, not an eligible-submission census.",
+    "New groups include150full reads and17selected reads. Full means declared complete resource reading, not verification of every claim or every cited source.",
+    "New groups include15scope-pending written positions and8public statements, as well as144written-submission labelled groups. Explicit EU-only, UN-governance, executive-strategy, tax-administration and exact-federal-vehicle gates remain in scope metadata; labels are not proof of eligibility.",
+    "Historical expert submissions were intentionally read, including Biesemann23February2026, Siefer16April2026 and Schneider23January2026. Iannone’sJune30body carries anOctober12committee cover. Author date, committee date and self-reported delivery are separate; an autumn cover or upload alone does not establish new delivery.",
+    "Joint and multipart resources count once; branch repeat reads and three newly rereadAIDSresources already represented by two baseline packages do not create three new units.",
+    "All167new groups carry an external actor flag, but that does not authenticate a formal submission channel, exact addressed draft, or in-window delivery. The whole pool still contains government responses and unreconciled historical actor metadata."
+  ],
+  "crossbranch_dedup_spot_checks": [
+    "BUND SG2610080006 appears once with energy and tax reading evidence.",
+    "DSW SG2609300287 appears once with social and tax reading evidence.",
+    "AIDS SG2610210014and0017 stay under aids-childhealth-budget-20260923; SG2610210018 stays under aids-globalhealth-budget-20261001.",
+    "Smartbroker’s copy of the JulyIDA position is excluded as a separate authored unit; the substantive changed SeptemberSoltau version remains distinct."
+  ],
+  "disposition": "Counts and these explicit dedup premises are supported. No claim of representative sampling, complete national coverage, all-case factual validation, or fresh rereading of the entire792-unit pool.",
+  "pending_final_confirmation": null,
+  "final_confirmation": {
+    "at_utc": "2026-10-25T12:14:13.056612+00:00",
+    "snapshot_files": [
+      {
+        "path": "data/screening-pool.json",
+        "sha256": "a2563db0d8714dd29194b7c5aa187ba3233a364c724f2274bdafe6625dfc50e1"
+      },
+      {
+        "path": "data/screening-pool-summary.json",
+        "sha256": "389bbe47f8a4fd8cd0cbc712655570f599e8ca5d30ab19a126a12b11055d8e78"
+      },
+      {
+        "path": "data/findings.json",
+        "sha256": "1d0a76119a83ba58b9d93e4e01d3c8b91ca371ed7e62582d3baca0d4cdeaaf79"
+      },
+      {
+        "path": "data/unresolved-leads.json",
+        "sha256": "b0430096b8186c3b6c8fcfe646026af9881b660bad3614632da3f74ab49f53cc"
+      },
+      {
+        "path": "data/rejected-candidates.json",
+        "sha256": "b7855eb215a1a33f2102a38845581de148df9c29440db3d7d37f8972adc75487"
+      },
+      {
+        "path": "research/round6/reading-delta.json",
+        "sha256": "85ba5d6438538da96fefc7c5df6b63444845bc42e4c3c593c4ec58c603f17b02"
+      }
+    ],
+    "parent_requested_hashes_match": true,
+    "pool_counts": {
+      "baseline": 626,
+      "retained_baseline_groups": 625,
+      "new_groups": 166,
+      "current": 791,
+      "net_change": 165,
+      "new_depths": {
+        "full_submission": 149,
+        "selected_passages": 17
+      },
+      "current_depths": {
+        "full_submission": 554,
+        "selected_passages": 108,
+        "keyword_triage": 128,
+        "full_text_ocr": 1
+      },
+      "new_kinds": {
+        "written_submission": 143,
+        "public_statement": 8,
+        "written_policy_position_scope_pending": 15
+      }
+    },
+    "reading_delta_independently_reconciled": {
+      "raw_branch_rows": 173,
+      "groups_touched": 170,
+      "existing_groups_rechecked": [
+        "aids-childhealth-budget-20260923",
+        "aids-globalhealth-budget-20261001",
+        "vdb-waffen-evaluation-20260925",
+        "versmedv7-2026-vdk"
+      ],
+      "new_groups_touched": 166,
+      "mapping_errors": [],
+      "method": "Every raw row ID was checked against actual merged source_inventory_ids or screening_evidence IDs, not just the delta summary."
+    },
+    "vdk_correction": {
+      "proof": "research/round6-reviews/energy-reviews-vdk-alias.json",
+      "result": "The new VdK read is now grouped with the pre-existing six-page12October2026response. Different binary hashes are preserved; complete normalized text is identical. Earlier792-unit snapshot is superseded by791."
+    },
+    "findings_counts": {
+      "baseline": 63,
+      "current": 69,
+      "new": 6,
+      "new_major": 2,
+      "new_minor": 4,
+      "all_major": 13,
+      "unresolved": 38,
+      "rejected": 3,
+      "total_records": 110
+    },
+    "new_case_status_review_check": {
+      "all_six_ai_screened": true,
+      "all_six_provisional": true,
+      "all_six_have_independent_ai_review": true,
+      "all_six_specialist_null": true,
+      "all_six_no_invented_author_response": true,
+      "directions": {
+        "fruehstart2026-dai-doubletax-tax-r6-01": true,
+        "izg2026-biesemann-seaports-energy-r6-03": true,
+        "krwg2026-itad-prevention-target-energy-r6-02": true,
+        "krwg2026-itad-recycling-method-energy-r6-01": true,
+        "mietrechtII2026-ivd-cpiyears-root-r6-02": true,
+        "suizidpraevg2026-marburger-costs-social-r6-01": true
+      },
+      "calibration": "Six new findings are two major and four minor, each narrowly explained as favouring the request. Langenmayr remains a minor unresolved lead with disagreement between the two AI reviews preserved; IVDvacating remains rejected_after_review with directionnull. Neither is promoted by inclusion in the110-record total."
+    },
+    "baseline_findings_removed": [],
+    "baseline_findings_changed_at_snapshot": [],
+    "why_net165_is_not165_eligible_recent_submissions": "The166new reading groups combine149full and17selected reads and include15scope-pending written positions and8public statements. EU-only/UN/administrative/strategy gates, formal-channel uncertainty and historical author dates remain. The net+165also subtracts one old DK duplicate. It is targeted reading inventory growth, not a count of newly verified eligible recent federal submissions.",
+    "source_retention": {
+      "unused_own_temporary_downloads_remaining": false,
+      "cleanup": "Removed own disposable round6-energy cache only: routine negative-screen studies, full regenerated texts, previews and machine extracts. Source URLs/hashes/read extents and authored dispositions remain.",
+      "retained_exceptions": "Exact active quote/version/report dependencies remain with registry retention explanations and matching hashes. A short historical Destatis article text remains because later liveHTMLbytes differ; the evictedHTMLpath is historical only.",
+      "limits": "No global source corpus was restored or cleaned, and no active case PDF/XLSX/HTML dependency was removed."
+    },
+    "conclusion": "Recomputed counts, explicit dedup premises, review classifications and requested hashes agree. Earlier792/+166 snapshot is retained as history and superseded by791/+165. No independent all-claims validation or national completeness assertion."
+  }
+}

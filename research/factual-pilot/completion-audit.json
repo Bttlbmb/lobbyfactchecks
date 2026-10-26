@@ -1,0 +1,85 @@
+{
+  "id": "factual-pilot-completion-audit",
+  "completed_at_utc": "2026-10-25T09:21:19.988884+00:00",
+  "status": "complete",
+  "started_at_utc": "2026-10-25T08:49:29.689015+00:00",
+  "fixed_time_minimum_requested": false,
+  "scope": "Seven existing external KLtgVresponses,35physicalauthorpages; systematic assessment of inventoried potentially material factual/interpretive claims.",
+  "result": {
+    "supported": 75,
+    "unresolved": 35,
+    "overstated": 1
+  },
+  "claims": 111,
+  "initial_claim_peer_reviews": 108,
+  "additional_claims_independently_adjudicated": 3,
+  "main_admission": {
+    "id": "kltgv2026-cma-border-pilot01",
+    "severity": "minor",
+    "state": "provisional_finding",
+    "independent_final_review": "research/factual-pilot/reviews/a-cma-finding-review.json"
+  },
+  "existing_main_records_unchanged": true,
+  "main_counts": {
+    "findings": 62,
+    "major": 11,
+    "minor": 51,
+    "unresolved": 37,
+    "rejected": 2,
+    "total_issues": 101,
+    "documents_with_findings": 54
+  },
+  "reading_ledger": {
+    "before": 626,
+    "after": 626,
+    "new_units": 0,
+    "changed_existing_entries": [
+      "bmwe-kltgv-2026-001",
+      "bmwe-kltgv-2026-002",
+      "bmwe-kltgv-2026-003",
+      "bmwe-kltgv-2026-007",
+      "bmwe-kltgv-2026-008",
+      "bmwe-kltgv-2026-010",
+      "bmwe-kltgv-2026-011"
+    ],
+    "all_depths_preserved": true
+  },
+  "validation": {
+    "pilot": "valid;0errors;0warnings;111anchors,allsourcehashesandreviewcoveragechecked",
+    "main": "pass_with_disclosed_manual_checks",
+    "main_errors": 0,
+    "main_warnings": 0
+  },
+  "independent_integration_audit": "research/factual-pilot/reviews/b-final-integration-audit.json",
+  "snapshot_hashes": {
+    "research/factual-pilot/claim-ledger.json": "cf0fd598fefda230bd445a43e7763c83b95a8d8e5f6953adab9352e6046cc6b3",
+    "research/factual-pilot/adjudication.json": "275100d1d3c9b6c42d350218c232d4271f29a9aeb44e887f5a9be662e85985a9",
+    "research/factual-pilot/report.html": "74779659e29be573b5fc2718f36f0bb1d866c2cd29104baa6ebac7ffdcdb7471",
+    "research/factual-pilot/kltgv2026-cma-border-pilot01-admitted.json": "72783f70f9ed3976f81ffe677b282733ded0c59e3c22f56f44022ca7cf9e71d1",
+    "data/findings.json": "24c01e204fb439a0f9c72f4047a05b5ec747df8f3fca46df183183a0b4985345",
+    "data/screening-pool.json": "920aefa8a8f15aed931643d00935b352be30d7a941d05c04e4b70d86afcb4e6b"
+  },
+  "ui_qa": {
+    "report_layout_visually_inspected": true,
+    "evidence_page_layout_visually_inspected": true,
+    "outcome_filter_counts": {
+      "all": 111,
+      "unresolved": 35,
+      "overstated": 1
+    },
+    "unresolved_search_Satartia_count": 1,
+    "source_identifier_display_checked": [
+      "DIN EN ISO27913",
+      "§4c"
+    ],
+    "report_local_links_resolve": true,
+    "report_unique_ids": true
+  },
+  "limits": [
+    "Pilot completeness concerns inventoried material claims in finite archived set, not all factual assertions or national prevalence.",
+    "Internal drafting metadata and author-identified dates differ; no silent substitution of later enacted provisions.",
+    "Not a representative sample. No new reading units added by repeat checks.",
+    "35unresolvedpilotassessmentsremainintheclaimledgerandarenotautomaticallyadmittedas37mainunresolvedissues.",
+    "No human specialist confirmation or author contact."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "short-root-rsv-price-followup",
+  "reviewer": "root",
+  "checked_at_utc": "2026-10-25T22:21:15.902029+00:00",
+  "claim_ids": [
+    "short-a-007",
+    "short-a-048"
+  ],
+  "source": {
+    "url": "https://www.g-ba.de/downloads/92-975-9935/2026_04_28_Modul3A_Clesrovimab.pdf",
+    "identity": "MSD Clesrovimab Module3A,28April2026; price-table Lauer basis15March2026",
+    "sha256": "737c54e91b9db7424270d9806a05d8c1febc5a1c16dbfcd41d9899728594140f",
+    "physical_pages": 87,
+    "source_type": "Manufacturer primary submission hosted by regulator, not an independent regulator price determination",
+    "temporary_download": "/private/tmp/short-statements-qa-clsv-dossier.pdf"
+  },
+  "read_scope": "Identity/title, complete section3.3.3/table3-14 on physical62–63, methodology paragraph3.3.7 on physical70. Physical63 also directly visually read. Not a full87-page read.",
+  "observations": [
+    "Beyfortus50mg and100mg single syringes each453.83EUR pharmacy retail;427.56EUR after statutory manufacturer24.50EUR and pharmacy1.77EUR deductions.",
+    "Enflonsia entries are placeholders. Methodology explicitly says its cost was not yet fixed at preliminary submission.",
+    "Table excludes §130a(8) negotiated rebates and parallels/reimports. March pricing basis is earlier than September author comparison."
+  ],
+  "assessment": "Retain unresolved matched 3 September 2026 author-date comparison. One older comparator price is corroborated; neither the exact Enflonsia pair nor unchanged September prices nor all actual net purchasing arrangements are established. The asserted approximate60EUR/14percent gap is not disproved.",
+  "calculation_scope": "60/427.56=14.03percent is arithmetically compatible with the author, conditional on an unverified60EUR difference. It is not a recovered second price.",
+  "limits": [
+    "The secondary-prophylaxis dossier population differs from universal primary-prophylaxis policy; do not substitute its eligible cohort.",
+    "October hospital supplementary reimbursement rates are a different setting and later date.",
+    "No new main finding or unresolved lead admitted."
+  ],
+  "retention": "Full public supporting PDF and render temporary; authored note and exact observed hash retained.",
+  "author_date_note": "AOK and GKV originals are dated 3 September 2026. Earlier root shorthand referring to August was incorrect; exact September pair is the missing evidence."
+}

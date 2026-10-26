@@ -1,0 +1,108 @@
+{
+  "id": "hochschul2026-bdp-ects-social-r3-03",
+  "law_id": "hochschulrechtsbereinigung-2026",
+  "document_id": "bdp-hochschulrecht-20261005",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Repealing obsolete federal higher-education framework legislation and updating references, including psychotherapist-study duration wording.",
+    "they_want": "Describe the qualifying degree as a three-year bachelor followed by a two-year master.",
+    "they_claim": "Only90of180bachelor ECTS, equivalent to1.5years, have specified content in the licensing regulations.",
+    "the_problem": "The legal scheme specifies82teaching+19practicalECTS=101. But90could reflect a narrower subject-content count excluding6research+5orientation, so interpretation needs independent challenge."
+  },
+  "claim_quote": {
+    "original": "nur 1,5 Jahre (90 ECTS von 180) inhaltlich definiert",
+    "language": "de",
+    "translation_en": "Translation: only1.5years (90ECTS out of180) are specified in content",
+    "locator": {
+      "pdf_page": 1,
+      "paragraph": "Paragraph beginning In der dem Gesetz zugrunde liegenden Approbationsordnung"
+    },
+    "underline": "90 ECTS von 180"
+  },
+  "request_quote": {
+    "original": "darauf aufbauenden Masterstudiengang",
+    "language": "de",
+    "translation_en": "Translation of fragment: master’s programme building on it",
+    "locator": {
+      "pdf_page": 2,
+      "section": "Vorschlag des BDP zum Art.2Abs.17und§2PsychThApprO n.F."
+    }
+  },
+  "counter_quote": {
+    "original": "insgesamt 19 ECTS Punkte",
+    "language": "de",
+    "translation_en": "Translation: a total of19ECTS credits",
+    "source_id": "psychthg9-current",
+    "locator": {
+      "section": "§9(8), bachelor practical placements; read with§9(7)no1 teaching82ECTS"
+    },
+    "retrieved_at": "2026-10-25"
+  },
+  "correction": "A count of all legally specified bachelor components gives82ECTS teaching plus19practical=101. ApprOAnnex1 sums82 and§§13(2),14(2),15(4) specify6research+5orientation+8professional practice. Those provisions also describe their learning content.101/180is56.1%, rather than half; a60ECTS/year conversion is approximately1.68years. These are minimum regulated components, not the full content actually taught.",
+  "effect": "Unresolved: the numeric insufficiency illustration may understate regulated content by11ECTS, but the author might be excluding broad research and orientation placements from its subject-content metric. No established professional-qualification conclusion is reversed.",
+  "limits": "Does not show that a bachelor qualifies someone for independent psychotherapy, that101ECTS are clinically sufficient, or that the requested five-year wording is undesirable. The addressed draft’s memo expressly preserves full-study and examination prerequisites and distinguishes academic qualification from professional permission. That legal disagreement is not promoted as a separate error.",
+  "context_and_alternatives": "Both author pages read. Strongest benign arithmetic rescue is82teaching+8BQT-I=90, excluding6ECTS research and5orientation as less subject-specific. The phrase specifies content but does not explicitly say total statutory credit requirements, so this narrower meaning requires adversarial assessment. Conversely, the excluded internships have legally specified learning content too. No intent inferred.",
+  "materiality_explanation": "Potentially minor numerical definition issue: even101regulatedcredits remain well below the entire180-credit bachelor, and the main five-year clinical-qualification position survives.",
+  "direction_explanation": null,
+  "confidence": {
+    "text_source_mismatch": "unresolved_due_content_definition",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "source_id": "hochschul-br45526-20260814",
+    "date": "2026-08-14",
+    "locator": {
+      "pdf_page": 8,
+      "printed_page": 4,
+      "section": "Article2(17), replacing§2PsychThApprO; memorandum physical17/printed13"
+    },
+    "exactness": "Author title expressly dates draft14August2026, matching originalBR455/26. LaterBT21/8280Art2(17)andmemorandum checked as corroboration; it is not silently substituted.",
+    "read_extent": "Cover and operativeArticle2(17), relatedmemo17 selected; not all18pages independently read."
+  },
+  "submission_source": {
+    "url": "https://www.lobbyregister.bundestag.de/media/62/72/858807/Stellungnahme-Gutachten-SG2610080029.pdf",
+    "local_file": "research/round3-root/coverage/register-pdfs/SG2610080029.pdf",
+    "authored_date": "2026-10-05",
+    "reported_recipient_date": "2026-10-05",
+    "reported_delivery_independently_verified": false
+  },
+  "reading_depth": {
+    "author": "Full2physicalpages; originalp1visually verified",
+    "current_law": "PsychThG§9 andApprO§§8,13–15,fullAnnex1 selected; lastApprOamendment16Oct2024 predates author",
+    "draft": "Exact14AugBR455/26selected8/17;30SeptBT21/8280selected8/16"
+  },
+  "source_ids": [
+    "bdp-hochschulrecht-20261005",
+    "psychthg9-current",
+    "psychthappro-full-current",
+    "hochschul-br45526-20260814",
+    "hochschul-bt218280"
+  ],
+  "review": {
+    "specialist": null,
+    "ai_reviews": [
+      {
+        "reviewer": "root independent AI",
+        "verdict": "Retain unresolved/minor/null: all-regulated101 versus narrower82+8=90 is concrete content-definition ambiguity. No proved numerical error or clinical-qualification conclusion.",
+        "review_file": "research/round3-reviews/root-reviews-bdp-ects.json",
+        "specialist": null
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-25",
+      "event": "First recorded as unresolved pending independent assessment of content-definition rescue; exact14Augustdraft identified and relevant provision checked.",
+      "by": "social_round3_ai"
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Independent root review read both author pages, official current§9/ApprO§§8,12–15 and exactBR455/26p8/17; retained unresolved/minor/null after testing concrete82+8rescue.",
+      "by": "social_round3_ai"
+    }
+  ]
+}

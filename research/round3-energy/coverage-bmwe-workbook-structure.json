@@ -1,0 +1,468 @@
+[
+  {
+    "id": "bmwe-data-86b8353efe95ecc8",
+    "source": "research/round3-energy/sources/bmwe-datasets/86b8353efe95ecc8.xlsx",
+    "dataset": "Open Data Portal | Veröffentlichung der Stellungnahmen der Länder und Verbände zum Entwurf eines Gesetzes für einen planbaren, kosteneffizienten, netzverträglichen und marktorientierten Ausbau der erneuerbaren Energien im Stromsektor (EEG-Novelle)",
+    "overview": "{\"kind\":\"workbook\",\"id\":\"wb/8vq5m8\",\"sheets\":5,\"tables\":5}\n{\"kind\":\"sheet\",\"id\":\"ws/7r9mu0\",\"name\":\"Datensatz\",\"index\":0,\"range\":\"A1:QY109\",\"address\":\"A1:QY109\",\"tables\":1}\n{\"kind\":\"table\",\"sheet\":\"Datensatz\",\"address\":\"A1:QY109\",\"rows\":109,\"cols\":467,\"values\":[[\"Organisationsname gemäß Lobbyregister\",\"Kombinierter Organisationsname\",\"Einverständniserklärung Veröffentlichung (Pflichtfeld)\",\"Bitte geben Sie die Registernummer für Ihre Organisation ein (Form: R123456):\",\"Art der Organisation\",\"Name der Organisation*\\n* Pflichtfeld, als Privatperson \\\"Privat\\\" eintragen.\",\"Zu welchen Teilen des Gesetzesentwurfs möchten Sie Stellung nehmen? - Artikel...\",\"Zu welchen Teilen des Gesetzesentwurfs möchten Sie Stellung nehmen? - Artikel...\"],[\"Bundesverband WindEnergie e.V.\",\"Bundesverband WindEnergie e.V.\",\"Ich stimme der Veröffentlichung der Stellungnahme zu.\",\"R002154\",\"Wirtschaftsverband\",\"469\",1,0],[\"Bundesverband der Deutschen Industrie e.V.\",\"Bundesverband der Deutschen Industrie e.V.\",\"Ich stimme der Veröffentlichung der Stellungnahme zu.\",\"R000534\",\"Wirtschaftsverband\",\"469\",1,0]],\"valuesTruncated\":true,\"valuesPreviewRows\":3,\"valuesPreviewCols\":8,\"valuesPreviewAddress\":\"A1:H3\"}\n{\"kind\":\"sheet\",\"id\":\"ws/ifigxc\",\"name\":\"Labels\",\"index\":1,\"range\":\"A1:C545\",\"address\":\"A1:C545\",\"tables\":1}\n{\"kind\":\"table\",\"sheet\":\"Labels\",\"address\":\"A1:C545\",\"rows\":545,\"cols\":3,\"values\":[[\"c_1\",1,\"test\"],[\"c_1\",2,\"test2\"],[\"c_1\",3,\"test3\"]],\"valuesTruncated\":true,\"valuesPreviewRows\":3,\"valuesPreviewCols\":3,\"valuesPreviewAddress\":\"A1:C3\"}\n{\"kind\":\"sheet\",\"id\":\"ws/0x79re\",\"name\":\"Variables\",\"index\":2,\"range\":\"A1:B483\",\"address\":\"A1:B483\",\"tables\":1}\n{\"kind\":\"table\",\"sheet\":\"Variables\",\"address\":\"A1:B483\",\"rows\":483,\"cols\":2,\"values\":[[\"variableName\",\"variableDescription\"],[\"c_1\",\"Organisationsname\"],[\"c_nrname2\",\"Organisationsname gemäß Lobbyregister\"]],\"valuesTruncated\":true,\"valuesPreviewRows\":3,\"valuesPreviewCols\":2,\"valuesPreviewAddress\":\"A1:B3\"}\n{\"kind\":\"sheet\",\"id\":\"ws/htbjzx\",\"name\":\"Dataset\",\"index\":3,\"range\":\"A1:QY109\",\"address\":\"A1:QY109\",\"tables\":1}\n{\"kind\":\"table\",\"sheet\":\"Dataset\",\"address\":\"A1:QY109\",\"rows\":109,\"cols\":467,\"values\":[[\"c_nrname2\",\"c_kombname1\",\"veröffentlichung_einverständnis\",\"reg_nr1\",\"organisation_art\",\"organisation_name\",\"auswahl_stellungsnahme_1\",\"auswahl_stellungsnahme_2\"],[\"Bundesverband WindEnergie e.V.\",\"Bundesverband WindEnergie e.V.\",0,\"R002154\",3,\"469\",1,0],[\"Bundesverband der Deutschen Industrie e.V.\",\"Bundesverband der Deutschen Industrie e.V.\",0,\"R000534\",3,\"469\",1,0]],\"valuesTruncated\":true,\"valuesPreviewRows\":3,\"valuesPreviewCols\":8,\"valuesPreviewAddress\":\"A1:H3\"}\n{\"kind\":\"sheet\",\"id\":\"ws/z8c9pg\",\"name\":\"Structure\",\"index\":4,\"range\":\"A1:G483\",\"address\":\"A1:G483\",\"tables\":1}\n{\"kind\":\"table\",\"sheet\":\"Structure\",\"address\":\"A1:G483\",\"rows\":483,\"cols\":7,\"values\":[[\"questionName\",\"variableName\",\"questionType\",\"subType\",\"questionText\",\"choiceValue\",\"choiceText\"],[\"c_1\",\"c_1\",\"Closed\",\"Single\",\"Organisationsname\",\"469\",null],[\"c_nrname2\",\"c_nrname2\",\"Open\",\"String\",\"Organisationsname gemäß Lobbyregister\",\"469\",null]],\"valuesTruncated\":true,\"valuesPreviewRows\":3,\"valuesPreviewCols\":7,\"valuesPreviewAddress\":\"A1:G3\"}",
+    "sheets": [
+      {
+        "name": "Datensatz",
+        "range": "A1:QY109",
+        "rows": 109,
+        "columns": 467,
+        "first_rows": [
+          [
+            "Organisationsname gemäß Lobbyregister",
+            "Kombinierter Organisationsname",
+            "Einverständniserklärung Veröffentlichung (Pflichtfeld)",
+            "Bitte geben Sie die Registernummer für Ihre Organisation ein (Form: R123456):",
+            "Art der Organisation",
+            "Name der Organisation*\n* Pflichtfeld, als Privatperson \"Privat\" eintragen.",
+            "Zu welchen Teilen des Gesetzesentwurfs möchten Sie Stellung nehmen? - Artikel 1 – Änderung des Erneuerbare-Energien-Gesetzes (EEG)",
+            "Zu welchen Teilen des Gesetzesentwurfs möchten Sie Stellung nehmen? - Artikel 2 – Änderung des Energiewirtschaftsgesetzes (EnWG)",
+            "Zu welchen Teilen des Gesetzesentwurfs möchten Sie Stellung nehmen? - Artikel 3 – Änderung des Messstellenbetriebsgesetzes (MsbG)",
+            "Zu welchen Teilen des Gesetzesentwurfs möchten Sie Stellung nehmen? - Artikel 4 – Änderung der Erneuerbare-Energien-Verordnung (EEV)",
+            "Zu welchen Teilen des Gesetzesentwurfs möchten Sie Stellung nehmen? - Artikel 5 – Innovationsausschreibungsverordnung (InnAusV)",
+            "Zu welchen Teilen des Gesetzesentwurfs möchten Sie Stellung nehmen? - Artikel 6 – Energiefinanzierungsgesetz (EnFG)"
+          ],
+          [
+            "Bundesverband WindEnergie e.V.",
+            "Bundesverband WindEnergie e.V.",
+            "Ich stimme der Veröffentlichung der Stellungnahme zu.",
+            "R002154",
+            "Wirtschaftsverband",
+            "469",
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            "Bundesverband der Deutschen Industrie e.V.",
+            "Bundesverband der Deutschen Industrie e.V.",
+            "Ich stimme der Veröffentlichung der Stellungnahme zu.",
+            "R000534",
+            "Wirtschaftsverband",
+            "469",
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            "VKU - Verband kommunaler Unternehmen e.V. ",
+            "VKU - Verband kommunaler Unternehmen e.V. ",
+            "Ich stimme der Veröffentlichung der Stellungnahme zu.",
+            "R000098",
+            "Wirtschaftsverband",
+            "469",
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "Labels",
+        "range": "A1:C545",
+        "rows": 545,
+        "columns": 3,
+        "first_rows": [
+          [
+            "c_1",
+            1,
+            "test"
+          ],
+          [
+            "c_1",
+            2,
+            "test2"
+          ],
+          [
+            "c_1",
+            3,
+            "test3"
+          ],
+          [
+            "veröffentlichung_einverständnis",
+            0,
+            "Ich stimme der Veröffentlichung der Stellungnahme zu."
+          ]
+        ]
+      },
+      {
+        "name": "Variables",
+        "range": "A1:B483",
+        "rows": 483,
+        "columns": 2,
+        "first_rows": [
+          [
+            "variableName",
+            "variableDescription"
+          ],
+          [
+            "c_1",
+            "Organisationsname"
+          ],
+          [
+            "c_nrname2",
+            "Organisationsname gemäß Lobbyregister"
+          ],
+          [
+            "c_kombname1",
+            "Kombinierter Organisationsname"
+          ]
+        ]
+      },
+      {
+        "name": "Dataset",
+        "range": "A1:QY109",
+        "rows": 109,
+        "columns": 467,
+        "first_rows": [
+          [
+            "c_nrname2",
+            "c_kombname1",
+            "veröffentlichung_einverständnis",
+            "reg_nr1",
+            "organisation_art",
+            "organisation_name",
+            "auswahl_stellungsnahme_1",
+            "auswahl_stellungsnahme_2",
+            "auswahl_stellungsnahme_3",
+            "auswahl_stellungsnahme_4",
+            "auswahl_stellungsnahme_5",
+            "auswahl_stellungsnahme_6"
+          ],
+          [
+            "Bundesverband WindEnergie e.V.",
+            "Bundesverband WindEnergie e.V.",
+            0,
+            "R002154",
+            3,
+            "469",
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            "Bundesverband der Deutschen Industrie e.V.",
+            "Bundesverband der Deutschen Industrie e.V.",
+            0,
+            "R000534",
+            3,
+            "469",
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            "VKU - Verband kommunaler Unternehmen e.V. ",
+            "VKU - Verband kommunaler Unternehmen e.V. ",
+            0,
+            "R000098",
+            3,
+            "469",
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "Structure",
+        "range": "A1:G483",
+        "rows": 483,
+        "columns": 7,
+        "first_rows": [
+          [
+            "questionName",
+            "variableName",
+            "questionType",
+            "subType",
+            "questionText",
+            "choiceValue",
+            "choiceText"
+          ],
+          [
+            "c_1",
+            "c_1",
+            "Closed",
+            "Single",
+            "Organisationsname",
+            "469",
+            null
+          ],
+          [
+            "c_nrname2",
+            "c_nrname2",
+            "Open",
+            "String",
+            "Organisationsname gemäß Lobbyregister",
+            "469",
+            null
+          ],
+          [
+            "c_kombname1",
+            "c_kombname1",
+            "Open",
+            "String",
+            "Kombinierter Organisationsname",
+            "469",
+            null
+          ]
+        ]
+      }
+    ],
+    "depth": "metadata_only; workbook structure and source-row identities, not all answer contents reviewed"
+  },
+  {
+    "id": "bmwe-data-2f8a69c59529b8ce",
+    "source": "research/round3-energy/sources/bmwe-datasets/2f8a69c59529b8ce.xlsx",
+    "dataset": "Open Data Portal | Länder- und Verbändeanhörung des BMWE zum Entwurf eines Gesetzes zur Optimierung und Absicherung des Ausbaus der Windenergie auf See (WindSeeG-Novelle)",
+    "overview": "{\"kind\":\"workbook\",\"id\":\"wb/z29629\",\"sheets\":5,\"tables\":5}\n{\"kind\":\"sheet\",\"id\":\"ws/gk3dfe\",\"name\":\"Datensatz\",\"index\":0,\"range\":\"A1:JI35\",\"address\":\"A1:JI35\",\"tables\":1}\n{\"kind\":\"table\",\"sheet\":\"Datensatz\",\"address\":\"A1:JI35\",\"rows\":35,\"cols\":269,\"values\":[[\"Organisationsname gemäß Lobbyregister\",\"Kombinierter Organisationsname\",\"Einverständniserklärung Veröffentlichung (Pflichtfeld)\",\"Bitte geben Sie die Registernummer für Ihre Organisation ein (Form: R123456):\",\"Art der Organisation\",\"Name der Organisation*\\n* Pflichtfeld, als Privatperson \\\"Privat\\\" eintragen.\",\"Zu welchen Abschnitten des Gesetzentwurfs möchten Sie Stellung nehmen?  - Abs...\",\"Zu welchen Abschnitten des Gesetzentwurfs möchten Sie Stellung nehmen?  - Abs...\"],[\"VDMA e.V.\",\"VDMA e.V.\",\"Ich stimme der Veröffentlichung der Stellungnahme zu.\",\"R000802\",\"Wirtschaftsverband\",\"587\",1,0],[\"50Hertz Transmission GmbH\",\"50Hertz Transmission GmbH\",\"Ich stimme der Veröffentlichung der Stellungnahme zu.\",\"R001625\",\"Unternehmen\",\"587\",1,1]],\"valuesTruncated\":true,\"valuesPreviewRows\":3,\"valuesPreviewCols\":8,\"valuesPreviewAddress\":\"A1:H3\"}\n{\"kind\":\"sheet\",\"id\":\"ws/tv01ds\",\"name\":\"Dataset\",\"index\":1,\"range\":\"A1:JI35\",\"address\":\"A1:JI35\",\"tables\":1}\n{\"kind\":\"table\",\"sheet\":\"Dataset\",\"address\":\"A1:JI35\",\"rows\":35,\"cols\":269,\"values\":[[\"c_nrname2\",\"veröffentlichung_einverständnis\",\"datenschutz_zustimmung\",\"reg_nr1\",\"organisation_art\",\"organisation_name\",\"auswahl_stellungsnahme_1\",\"auswahl_stellungsnahme_2\"],[\"VDMA e.V.\",0,1,\"R000802\",3,\"587\",1,0],[\"50Hertz Transmission GmbH\",0,1,\"R001625\",5,\"587\",1,1]],\"valuesTruncated\":true,\"valuesPreviewRows\":3,\"valuesPreviewCols\":8,\"valuesPreviewAddress\":\"A1:H3\"}\n{\"kind\":\"sheet\",\"id\":\"ws/hdhfb8\",\"name\":\"Labels\",\"index\":2,\"range\":\"A1:C294\",\"address\":\"A1:C294\",\"tables\":1}\n{\"kind\":\"table\",\"sheet\":\"Labels\",\"address\":\"A1:C294\",\"rows\":294,\"cols\":3,\"values\":[[\"veröffentlichung_einverständnis\",0,\"Ich stimme der Veröffentlichung der Stellungnahme zu.\"],[\"veröffentlichung_einverständnis\",1,\"Ich stimme der Veröffentlichung der Stellungnahme nicht zu. Im Falle des Wide...\"],[\"datenschutz_zustimmung\",1,\"Ich/wir akzeptiere/n die Datenschutzerklärung. * (Pflichtfeld)\"]],\"valuesTruncated\":true,\"valuesPreviewRows\":3,\"valuesPreviewCols\":3,\"valuesPreviewAddress\":\"A1:C3\"}\n{\"kind\":\"sheet\",\"id\":\"ws/eiez1h\",\"name\":\"Variables\",\"index\":3,\"range\":\"A1:B283\",\"address\":\"A1:B283\",\"tables\":1}\n{\"kind\":\"table\",\"sheet\":\"Variables\",\"address\":\"A1:B283\",\"rows\":283,\"cols\":2,\"values\":[[\"variableName\",\"variableDescription\"],[\"veröffentlichung_einverständnis\",\"Einverständniserklärung Veröffentlichung (Pflichtfeld)\"],[\"datenschutz_zustimmung\",\"datenschutz_zustimmung\"]],\"valuesTruncated\":true,\"valuesPreviewRows\":3,\"valuesPreviewCols\":2,\"valuesPreviewAddress\":\"A1:B3\"}\n{\"kind\":\"sheet\",\"id\":\"ws/r7235h\",\"name\":\"Structure\",\"index\":4,\"range\":\"A1:G283\",\"address\":\"A1:G283\",\"tables\":1}\n{\"kind\":\"table\",\"sheet\":\"Structure\",\"address\":\"A1:G283\",\"rows\":283,\"cols\":7,\"values\":[[\"questionName\",\"variableName\",\"questionType\",\"subType\",\"questionText\",\"choiceValue\",\"choiceText\"],[\"Veröffentlichung_Einverständnis\",\"veröffentlichung_einverständnis\",\"Closed\",\"Single\",\"Einverständniserklärung Veröffentlichung (Pflichtfeld)\",\"587\",null],[\"datenschutz_zustimmung\",\"datenschutz_zustimmung\",\"Closed\",\"Single\",\"datenschutz_zustimmung\",\"587\",null]],\"valuesTruncated\":true,\"valuesPreviewRows\":3,\"valuesPreviewCols\":7,\"valuesPreviewAddress\":\"A1:G3\"}",
+    "sheets": [
+      {
+        "name": "Datensatz",
+        "range": "A1:JI35",
+        "rows": 35,
+        "columns": 269,
+        "first_rows": [
+          [
+            "Organisationsname gemäß Lobbyregister",
+            "Kombinierter Organisationsname",
+            "Einverständniserklärung Veröffentlichung (Pflichtfeld)",
+            "Bitte geben Sie die Registernummer für Ihre Organisation ein (Form: R123456):",
+            "Art der Organisation",
+            "Name der Organisation*\n* Pflichtfeld, als Privatperson \"Privat\" eintragen.",
+            "Zu welchen Abschnitten des Gesetzentwurfs möchten Sie Stellung nehmen?  - Abschnitt 1: Artikel 1",
+            "Zu welchen Abschnitten des Gesetzentwurfs möchten Sie Stellung nehmen?  - Abschnitt 2: Artikel 2 ",
+            "Zu welchen Abschnitten des Gesetzentwurfs möchten Sie Stellung nehmen?  - Abschnitt 3: Sonstige Anmerkungen, über Anmerkungen zu Artikel 1 und 2 hinaus",
+            "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich) - Inhaltsübersicht",
+            "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich) - § 1 Absatz 3",
+            "In Abschnitt 1: Artikel 1 - Zu welchen Paragraphen möchten Sie Stellung nehmen?  (Mehrfachauswahl möglich) - § 2a Abs. 1"
+          ],
+          [
+            "VDMA e.V.",
+            "VDMA e.V.",
+            "Ich stimme der Veröffentlichung der Stellungnahme zu.",
+            "R000802",
+            "Wirtschaftsverband",
+            "587",
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            "50Hertz Transmission GmbH",
+            "50Hertz Transmission GmbH",
+            "Ich stimme der Veröffentlichung der Stellungnahme zu.",
+            "R001625",
+            "Unternehmen",
+            "587",
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            "587",
+            "IG Metall Bezirksleitung Küste",
+            "Ich stimme der Veröffentlichung der Stellungnahme zu.",
+            "Die IG Metall ist vom Lobbyregistergesetz durch § 2 Abs. 2 Nr. 7 LobbyRG ausgenommen.",
+            "Andere",
+            "IG Metall Bezirksleitung Küste",
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "Dataset",
+        "range": "A1:JI35",
+        "rows": 35,
+        "columns": 269,
+        "first_rows": [
+          [
+            "c_nrname2",
+            "veröffentlichung_einverständnis",
+            "datenschutz_zustimmung",
+            "reg_nr1",
+            "organisation_art",
+            "organisation_name",
+            "auswahl_stellungsnahme_1",
+            "auswahl_stellungsnahme_2",
+            "auswahl_stellungsnahme_3",
+            "artikel1_auswahlparagrahen_1",
+            "artikel1_auswahlparagrahen_2",
+            "artikel1_auswahlparagrahen_3"
+          ],
+          [
+            "VDMA e.V.",
+            0,
+            1,
+            "R000802",
+            3,
+            "587",
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            "50Hertz Transmission GmbH",
+            0,
+            1,
+            "R001625",
+            5,
+            "587",
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            "587",
+            0,
+            1,
+            "Die IG Metall ist vom Lobbyregistergesetz durch § 2 Abs. 2 Nr. 7 LobbyRG ausgenommen.",
+            8,
+            "IG Metall Bezirksleitung Küste",
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "name": "Labels",
+        "range": "A1:C294",
+        "rows": 294,
+        "columns": 3,
+        "first_rows": [
+          [
+            "veröffentlichung_einverständnis",
+            0,
+            "Ich stimme der Veröffentlichung der Stellungnahme zu."
+          ],
+          [
+            "veröffentlichung_einverständnis",
+            1,
+            "Ich stimme der Veröffentlichung der Stellungnahme nicht zu. Im Falle des Widerspruchs zur Veröffentlichung wird auf der Homepage des BMWE auf den Widerspruch hingewiesen. "
+          ],
+          [
+            "datenschutz_zustimmung",
+            1,
+            "Ich/wir akzeptiere/n die Datenschutzerklärung. * (Pflichtfeld)"
+          ],
+          [
+            "organisation_art",
+            1,
+            "Land/Landesbehörde"
+          ]
+        ]
+      },
+      {
+        "name": "Variables",
+        "range": "A1:B283",
+        "rows": 283,
+        "columns": 2,
+        "first_rows": [
+          [
+            "variableName",
+            "variableDescription"
+          ],
+          [
+            "veröffentlichung_einverständnis",
+            "Einverständniserklärung Veröffentlichung (Pflichtfeld)"
+          ],
+          [
+            "datenschutz_zustimmung",
+            "datenschutz_zustimmung"
+          ],
+          [
+            "reg_nr1",
+            "Bitte geben Sie die Registernummer für Ihre Organisation ein (Form: R123456):"
+          ]
+        ]
+      },
+      {
+        "name": "Structure",
+        "range": "A1:G283",
+        "rows": 283,
+        "columns": 7,
+        "first_rows": [
+          [
+            "questionName",
+            "variableName",
+            "questionType",
+            "subType",
+            "questionText",
+            "choiceValue",
+            "choiceText"
+          ],
+          [
+            "Veröffentlichung_Einverständnis",
+            "veröffentlichung_einverständnis",
+            "Closed",
+            "Single",
+            "Einverständniserklärung Veröffentlichung (Pflichtfeld)",
+            "587",
+            null
+          ],
+          [
+            "datenschutz_zustimmung",
+            "datenschutz_zustimmung",
+            "Closed",
+            "Single",
+            "datenschutz_zustimmung",
+            "587",
+            null
+          ],
+          [
+            "reg_nr1",
+            "reg_nr1",
+            "Open",
+            "String",
+            "Bitte geben Sie die Registernummer für Ihre Organisation ein (Form: R123456):",
+            "587",
+            null
+          ]
+        ]
+      }
+    ],
+    "depth": "metadata_only; workbook structure and source-row identities, not all answer contents reviewed"
+  }
+]

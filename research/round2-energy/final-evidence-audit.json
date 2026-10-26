@@ -1,0 +1,32 @@
+{
+  "audit_date": "2026-10-25",
+  "audit_by": "energy_ai_screen",
+  "scope": "Thirteen additional-round energy records, not prior-round compiled records.",
+  "checks": [
+    "All 13 records have status ai_screened; all 9 provisional findings and 4 unresolved leads link an independent review file.",
+    "Locally embedded source files and registered VIK historical source files exist and match saved SHA256 hashes.",
+    "Every claim underline is an exact substring of the stored original quotation.",
+    "Author quotations with text layers matched the specified original PDF page after whitespace and line-end hyphen normalisation.",
+    "The three scanned Müller-Syhre claim pages (12, 14, 15) and E.ON page 1 were rechecked visually; their fragments were confirmed.",
+    "Counterquotation extraction flags were resolved visually for IW page 3, BNetzA manual page 3, Feldman page 1, enervis pages 7–8 and Commission GD3 table 26. Line wrapping and table order explained the flags.",
+    "The Danish counterquotation is an exact substring in the explicitly versioned historical edition’s main text.",
+    "Shared Müller-Syhre and BSW requests remain referenced through existing metadata; no duplicate source quotations added."
+  ],
+  "concrete_fixes": [
+    "Restored additional_source_id values geowg-bt2013556 and thg-bt214083, plus the social_round2 reviewer identifier, after an earlier narrative-spacing pass. This repair did not change original quotations, primary source_ids, URLs or hashes.",
+    "Corrected the VIK Danish archive attribution: the earlier bare-URL file was edition 2026-2; explicitly versioned 2026-1 main text now supplies the citation. Later appended cases are excluded from evidence available before the author’s statement. No frozen whole-page snapshot is claimed.",
+    "Added the EHV version limit: the cover lacks an internal drafting timestamp. PDF creation on 28 January and modification on 29 January neither establishes byte identity with the 15 January iteration nor proves a substantive revision."
+  ],
+  "remaining_limits": [
+    "Historical-edition Danish HTML can append later decisions dynamically; the cited historical main text, rather than later case listings, supplies the 2015 rule.",
+    "No professional specialist review or author response obtained. Independent AI checks are recorded.",
+    "No full reads claimed for the 85-page Commission guidance, 94-page BioSt draft, 174-page UBA report or other long sources where only relevant sections were checked.",
+    "Four leads remain unresolved because affirmative benign readings or differences in scope prevent a proved error."
+  ],
+  "record_counts": {
+    "provisional_findings": 9,
+    "major_provisional": 1,
+    "minor_provisional": 8,
+    "unresolved_leads": 4
+  }
+}

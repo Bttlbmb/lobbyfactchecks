@@ -1,0 +1,353 @@
+{
+  "snapshot_id": "round3-social-coverage-closure",
+  "as_of_utc": "2026-10-25T04:53:54.757831+00:00",
+  "requested_window": {
+    "submission_date_from": "2026-07-25",
+    "submission_date_through": "2026-10-24"
+  },
+  "channels": [
+    {
+      "channel": "ministry",
+      "authority": "BMG",
+      "index_enumeration_state": "all_returned_index_pages_enumerated",
+      "index_page_count": 22,
+      "labelled_process_count": 220,
+      "process_pages_http200": 220,
+      "raw_document_link_occurrences": 5637,
+      "raw_automatically_classified_submission_link_occurrences": 5107,
+      "potential_window_PDF_links_archived": 70,
+      "date_annotation_rows": 62,
+      "date_annotations_by_status": {
+        "within_window": 49,
+        "within_window_month_range": 1,
+        "outside_window": 11,
+        "date_unverified": 1
+      },
+      "full_submission_versions_read_current_window": 8,
+      "full_read_date_basis": "Authored day/month within window; precise delivery events remain separately qualified",
+      "full_read_collection_origin": "BMG ministry chapter",
+      "date_unverified_full_reads": 1,
+      "selected_content_reads_current_window": 0,
+      "keyword_content_triage_current_window": 0,
+      "scope_and_date_metadata_work_not_content_review": true,
+      "enumeration_ledger": "research/round3-social/coverage-index-bmg.json",
+      "process_resource_ledger": "research/round3-social/coverage-processes-bmg.json",
+      "candidate_archive_ledger": "research/round3-social/coverage-window-collected.json",
+      "date_ledger": "research/round3-social/coverage-date-and-review-annotations.json",
+      "content_read_ledger": "research/round3-social/pool-audit.json",
+      "gaps": [
+        "Older consultation rounds can contain in-window responses: SuizidPrävG62-link2026chapter added after dated28JulyBÄKresponse discovery. Other old-round late responses require register/author crosscheck.",
+        "Candidate selection and document-date verification are incomplete; no full review of entire220-process historical universe."
+      ],
+      "closure": "one_RSValready_read_bounded_round"
+    },
+    {
+      "channel": "ministry",
+      "authority": "BMAS",
+      "index_enumeration_state": "all_returned_index_pages_enumerated",
+      "index_page_count": 40,
+      "labelled_process_count": 396,
+      "process_pages_http200": 395,
+      "raw_document_link_occurrences": 2718,
+      "raw_automatically_classified_submission_link_occurrences": 2205,
+      "potential_window_PDF_links_archived": 33,
+      "date_annotation_rows": 33,
+      "date_annotations_by_status": {
+        "date_unverified": 1,
+        "within_window": 32
+      },
+      "full_submission_versions_read_current_window": 25,
+      "full_read_date_basis": "Authored day/month within window; precise delivery events remain separately qualified",
+      "full_read_collection_origin": "Eight supplementary VersMedV/BeschV, six RentueAuthV/SVR2027, nine BioStoffV and two dated tariff-ordinance responses completely read; one additional undated tariff response retained separately.",
+      "date_unverified_full_reads": 1,
+      "selected_content_reads_current_window": 0,
+      "keyword_content_triage_current_window": 0,
+      "scope_and_date_metadata_work_not_content_review": true,
+      "enumeration_ledger": "research/round3-social/coverage-index-bmas.json",
+      "process_resource_ledger": "research/round3-social/coverage-processes-bmas.json",
+      "candidate_archive_ledger": "research/round3-social/coverage-window-collected.json",
+      "date_ledger": "research/round3-social/coverage-date-and-review-annotations.json",
+      "content_read_ledger": "research/round3-social/pool-audit.json",
+      "gaps": [
+        "One old process page (Brückenteilzeit) returned502;395otherindexedpagesretrieved.",
+        "Current7thVersMedVand9thBeschVprocesses not present among396retrievedindexURLs; supplementary author/register responses retained.",
+        "Older-round late filings not exhausted; index enumeration completeness does not prove process-universe completeness."
+      ],
+      "closure": "census_in_progress_not_closed"
+    },
+    {
+      "channel": "ministry",
+      "authority": "BMBFSFJ",
+      "index_enumeration_state": "all_returned_index_pages_enumerated",
+      "index_page_count": 4,
+      "labelled_process_count": 65,
+      "process_pages_http200": 65,
+      "raw_document_link_occurrences": 1545,
+      "raw_automatically_classified_submission_link_occurrences": 1282,
+      "potential_window_PDF_links_archived": 151,
+      "date_annotation_rows": 120,
+      "date_annotations_by_status": {
+        "within_window": 51,
+        "within_window_month_range": 3,
+        "date_unverified": 2,
+        "outside_window": 62,
+        "date_unverified_month_straddles_window": 2
+      },
+      "full_submission_versions_read_current_window": 30,
+      "full_read_date_basis": "Authored day/month within window; precise delivery events remain separately qualified",
+      "full_read_collection_origin": "31 unique ministry Fernunterricht PDFs completely read; one dateunverified. Additional register-only versions separate.",
+      "date_unverified_full_reads": 1,
+      "selected_content_reads_current_window": 0,
+      "keyword_content_triage_current_window": 0,
+      "scope_and_date_metadata_work_not_content_review": true,
+      "enumeration_ledger": "research/round3-social/coverage-index-family.json",
+      "process_resource_ledger": "research/round3-social/coverage-processes-family.json",
+      "candidate_archive_ledger": "research/round3-social/coverage-window-collected.json",
+      "date_ledger": "research/round3-social/coverage-date-and-review-annotations.json",
+      "content_read_ledger": "research/round3-social/pool-audit.json",
+      "gaps": [
+        "Central standalone statement index omits latest Fernunterricht responses visible in individual process embeddedJSON; all65individual process pages parsed instead.",
+        "151candidate files include85olderKJHSRGchapter responses; date checks separate out-of-window documents.",
+        "Actual response dates/versions and supplementary register-only material not fully adjudicated."
+      ],
+      "closure": "census_in_progress_not_closed",
+      "bounded_reading_ledger": "research/round3-social/coverage-ferns-proof.json"
+    },
+    {
+      "channel": "ministry",
+      "authority": "BMFTR",
+      "index_enumeration_state": "access_gap_403_or_connection_reset",
+      "labelled_process_count": null,
+      "full_submission_versions_read_current_window": 5,
+      "full_read_basis": "Five complete authored versions obtained from register/author channels; precise dates, version and administrative-role qualifications in pool ledger.",
+      "selected_content_reads_current_window": 0,
+      "keyword_content_triage_current_window": 0,
+      "supplementary_register_recipient_records": 19,
+      "gaps": [
+        "OfficialBMFTRandlegacyBMBFindex URLs unavailable; no zero-submission conclusion.",
+        "Register and author responses reveal Hochschulrechtsbereinigung and WissZeitVG; actual complete ministryround universe remains unknown."
+      ],
+      "register_crosscheck_ledger": "research/round3-social/coverage-register-social-crosscheck.json",
+      "pdf_scope_ledger": "research/round3-social/register_pdf_scope_adjudications.json",
+      "closure": "not_closed"
+    },
+    {
+      "channel": "Bundestag_committee",
+      "authority": "Bundestag health",
+      "index_url": "https://www.bundestag.de/ausschuesse/gesundheit/anhoerungen",
+      "index_enumeration_state": "all_returned_current_legislature_index_fragments_enumerated",
+      "index_fragment_count": 3,
+      "labelled_hearing_entries": 26,
+      "raw_document_link_occurrences": 589,
+      "potential_window_PDF_links_archived": 124,
+      "full_submission_versions_read_current_window": 4,
+      "selected_content_reads_current_window": 0,
+      "keyword_content_triage_current_window": 0,
+      "metadata_checks": "Cover/committeeprint dates retained separately from authorship and delivery dates; selected27authoredGeDIGdates independently checked.",
+      "enumeration_ledger": "research/round3-social/coverage-bundestag.json",
+      "date_ledger": "research/round3-social/coverage-committee-date-evidence.json",
+      "gaps": [
+        "Hearing date and committee print date are not exact submission dates.",
+        "FutureNovember/DecemberhearingscheckedforcurrentlypublishedPDFs; absenceonretrievedpageisnonefound,notproofnofuturesubmissions.",
+        "Bundles, attachments, revised responses and repeat mirrors still require authored-version enumeration."
+      ],
+      "closure": "census_in_progress_not_closed"
+    },
+    {
+      "channel": "Bundestag_committee",
+      "authority": "Bundestag labour",
+      "index_url": "https://www.bundestag.de/ausschuesse/a11_arbeit_soziales/anhoerungen",
+      "index_enumeration_state": "all_returned_current_legislature_index_fragments_enumerated",
+      "index_fragment_count": 2,
+      "labelled_hearing_entries": 13,
+      "raw_document_link_occurrences": 151,
+      "potential_window_PDF_links_archived": 7,
+      "full_submission_versions_read_current_window": 0,
+      "selected_content_reads_current_window": 0,
+      "keyword_content_triage_current_window": 0,
+      "metadata_checks": "Cover/committeeprint dates retained separately from authorship and delivery dates; selected27authoredGeDIGdates independently checked.",
+      "enumeration_ledger": "research/round3-social/coverage-bundestag.json",
+      "date_ledger": "research/round3-social/coverage-committee-date-evidence.json",
+      "gaps": [
+        "Hearing date and committee print date are not exact submission dates.",
+        "FutureNovember/DecemberhearingscheckedforcurrentlypublishedPDFs; absenceonretrievedpageisnonefound,notproofnofuturesubmissions.",
+        "Bundles, attachments, revised responses and repeat mirrors still require authored-version enumeration."
+      ],
+      "closure": "census_in_progress_not_closed"
+    },
+    {
+      "channel": "Bundestag_committee",
+      "authority": "Bundestag family",
+      "index_url": "https://www.bundestag.de/ausschuesse/a13_Bildung-Familie-Senioren-Frauen-und-Jugend/OeffentlicheSitzungen",
+      "index_enumeration_state": "all_returned_current_legislature_index_fragments_enumerated",
+      "index_fragment_count": 2,
+      "labelled_hearing_entries": 15,
+      "raw_document_link_occurrences": 68,
+      "potential_window_PDF_links_archived": 9,
+      "full_submission_versions_read_current_window": 0,
+      "selected_content_reads_current_window": 0,
+      "keyword_content_triage_current_window": 0,
+      "metadata_checks": "Cover/committeeprint dates retained separately from authorship and delivery dates; selected27authoredGeDIGdates independently checked.",
+      "enumeration_ledger": "research/round3-social/coverage-bundestag.json",
+      "date_ledger": "research/round3-social/coverage-committee-date-evidence.json",
+      "gaps": [
+        "Hearing date and committee print date are not exact submission dates.",
+        "FutureNovember/DecemberhearingscheckedforcurrentlypublishedPDFs; absenceonretrievedpageisnonefound,notproofnofuturesubmissions.",
+        "Bundles, attachments, revised responses and repeat mirrors still require authored-version enumeration."
+      ],
+      "closure": "census_in_progress_not_closed",
+      "additional_date_role_metadata_audit": "research/round3-social/coverage-family-hearing-date-role-audit.json",
+      "metadata_only_response_PDFs_checked": 9,
+      "metadata_page_fragments_selected": 19,
+      "metadata_reading_credit": "No new full/selected factual screens; covers, authored-date labels and capacities only."
+    },
+    {
+      "channel": "Bundestag_committee",
+      "authority": "Bundestag research",
+      "index_url": "https://www.bundestag.de/ausschuesse/forschung/sitzungen",
+      "index_enumeration_state": "all_returned_current_legislature_index_fragments_enumerated",
+      "index_fragment_count": 2,
+      "labelled_hearing_entries": 15,
+      "raw_document_link_occurrences": 54,
+      "potential_window_PDF_links_archived": 0,
+      "full_submission_versions_read_current_window": 0,
+      "selected_content_reads_current_window": 0,
+      "keyword_content_triage_current_window": 0,
+      "metadata_checks": "Cover/committeeprint dates retained separately from authorship and delivery dates; selected27authoredGeDIGdates independently checked.",
+      "enumeration_ledger": "research/round3-social/coverage-bundestag.json",
+      "date_ledger": "research/round3-social/coverage-committee-date-evidence.json",
+      "gaps": [
+        "Hearing date and committee print date are not exact submission dates.",
+        "FutureNovember/DecemberhearingscheckedforcurrentlypublishedPDFs; absenceonretrievedpageisnonefound,notproofnofuturesubmissions.",
+        "Bundles, attachments, revised responses and repeat mirrors still require authored-version enumeration."
+      ],
+      "closure": "census_in_progress_not_closed"
+    }
+  ],
+  "register_domain_crosscheck": {
+    "source_records": 1558,
+    "social_recipient_unique_SG_ids": 230,
+    "preliminary_scope_summary": {
+      "unique_SG_ids": 230,
+      "by_scope_state": {
+        "identified_federal_draft_process_metadata": 72,
+        "concrete_federal_draft_not_established_by_selected_passages": 1,
+        "general_policy_or_motion_scope_pending": 79,
+        "statutory_evaluation_related_to_completed_medical_research_act_exact_new_draft_not_established": 1,
+        "related_federal_legislative_policy_statement_exact_amendment_pending": 1,
+        "exact_legislative_or_regulatory_process_pending": 1,
+        "EU_or_mixed_policy_scope_pending": 30,
+        "identified_federal_ordinance_draft_position_paper_exact_version_pending": 1,
+        "possible_federal_legislation_scope_pending": 16,
+        "identified_federal_amendment_process_metadata": 1,
+        "post_enactment_relief_request_exact_new_bill_link_pending": 1,
+        "professional_resolution_transmission_exact_bill_link_pending": 3,
+        "identified_EU_process_not_federal_draft": 4,
+        "identified_federal_ordinance_actual_title_differs_from_register": 1,
+        "general_policy_letter_with_specific_legislative_background": 1,
+        "parliamentary_resolution_followup_specific_implementation_bill_pending": 1,
+        "commission_recommendation_response_exact_federal_draft_pending": 1,
+        "parliamentary_question_adjacent_not_identified_bill": 2,
+        "post_legislative_policy_concept_exact_new_draft_pending": 1,
+        "administrative_tax_treatment_request_exact_federal_bill_pending": 1,
+        "technical_specification_comment_federal_bill_link_pending": 1,
+        "identified_federal_draft_from_exact_ministry_mirror": 2,
+        "commission_recommendation_related_exact_federal_bill_pending": 3,
+        "policy_dialogue_statement_exact_bill_link_pending": 1,
+        "identified_federal_ordinance_process_metadata": 1,
+        "mixed_existing_and_proposed_measures_exact_versions_pending": 1,
+        "identified_federal_draft_candidate_metadata": 2
+      },
+      "actual_PDFs_currently_archived": 230
+    },
+    "scope_ledger": "research/round3-social/coverage-register-social-scope.json",
+    "actual_PDF_scope_adjudications": "research/round3-social/register_pdf_scope_adjudications.json",
+    "limit": "RecipientdomainselectionmissesBundestag-onlyrecordsandcross-sectorfilingswithoutthese ministryrecipients. Scope metadata may contradict actual document author/process; no automatic merging by registrant."
+  },
+  "supplementary_author_discovery": {
+    "resource_files": {
+      "PDFfiles": 7,
+      "stakeholder_response_files": 6,
+      "addressed_draft_files": 1
+    },
+    "ledger": "research/round3-social/coverage-author-supplement-documents.json",
+    "additional_beschv9_ledger": "research/round3-social/coverage-beschv9-author-additions-documents.json",
+    "additional_beschv9_resources": 2,
+    "additional_beschv9_resource_kinds": [
+      "BDA external response",
+      "SVR statutory government advisory statement, separate from stakeholder reading pool"
+    ],
+    "iaf_register_response": "SG2610160012, archived centrally; full3page read in own pool ledger",
+    "enumeration_not_exhaustive": true
+  },
+  "actual_content_reading": {
+    "full_submission_reads": 81,
+    "within_current_window_full_submission_versions": 76,
+    "historical_full_submission_versions_finished": 2,
+    "current_window_full_read_pages": 285,
+    "date_unverified_full_submission_versions": 3,
+    "date_unverified_full_read_pages": 5,
+    "current_window_basis": "Authored date/month and/or self-reported recipient delivery inside interval; exact delivery not independently verified for everyrow. One undatedHochschulkanzlerpaper admitted by reported31Julyrecipientdate with draft-versiongate."
+  },
+  "full_read_ledger": "research/round3-social/pool-audit.json",
+  "bounded_round_closures": [
+    {
+      "process": "2026firstRSVordinanceamendment",
+      "known_authored_versions": 8,
+      "full_read_versions": 8,
+      "full_read_pages": 20,
+      "ministry": 8,
+      "register_entries": 1,
+      "register_additional_authored_versions_after_dedup": 0,
+      "related_health_hearing_found": false,
+      "review_state": "independently_audited_by_root",
+      "protocol": "research/round3-social/coverage-rsv-proof.json",
+      "independent_review": "research/round3-reviews/root-reviews-rsv-coverage.json",
+      "limits": "Knownpublicversionsonly;noabsenceofunpublishedorincorrectlyindexedfilingsproved. Fullreadingandclaimscreeningarenotblankettruthcertification."
+    },
+    {
+      "process": "Fernunterricht2026 reform",
+      "known_authored_versions": 35,
+      "full_read_versions": 35,
+      "ministry_unique_response_PDFs": 31,
+      "ministry_full_read_pages": 123,
+      "state": "knownpublishedversionsread;dateversionanduniversegatesopen",
+      "protocol": "research/round3-social/coverage-ferns-proof.json",
+      "independent_review": "research/round3-reviews/energy-reviews-social-ferns-coverage.json",
+      "limits": "Not a100%allchannel completenessclaim; exactAugustdraft andoneundatedministryresponse unresolved."
+    },
+    {
+      "process": "BioStoffV2026 amendment",
+      "known_published_ministry_versions": 9,
+      "full_read_versions": 9,
+      "full_read_physical_pages": 39,
+      "external_association_versions": 8,
+      "statutory_selfgovernment_external_eligibility_pending": 1,
+      "provisional_issues": 3,
+      "affected_documents": 1,
+      "protocol": "research/round3-social/coverage-biostoff-proof.json",
+      "independent_review": "research/round3-reviews/energy-reviews-social-biostoff-census.json",
+      "state": "knownpublishedministryversionsread;allchanneluniverseandexactAugustversionopen"
+    }
+  ],
+  "overall_closure": "NOT_COMPLETE",
+  "counting_rules": [
+    "Indexprocesses,resourcefiles,SGentries,authoredversions,metadataworkandfactualscreensareseparatemetrics.",
+    "Collectionandtext extractionnevercountascontentreview.",
+    "Wholeversionsdeduplicatedacrossmirrorswhenidentityevidenceexists;separateddispatch/publicationeventsarepreserved.",
+    "Documentdate,registeredrecipientdate,publicationdate,hearingdateandcommitteeprintdateareseparate."
+  ],
+  "active_gaps": [
+    "Completein-windowauthoredsubmissionuniversehasnotbeenestablishedacrossallassignedchannels.",
+    "BMFTRauthoritativeindexaccessgap.",
+    "TwoBMAScurrentordinanceroundsmissingfromretrievedministryindex.",
+    "UnverifieddatesandactualPDFscope/versionchecksremain.",
+    "BMFTR publicweb403 persisted on alternate host; no ordinarybrowser surfaces available. Retry ledger coverage-bmftr-gap-retry.json."
+  ],
+  "register_discovery_only_full_reads": {
+    "versions": 4,
+    "pages": 13,
+    "ledger": "research/round3-social/coverage-ferns-register-crosscheck.json",
+    "scope": "Digistore currentconsultation2p, two predraftpublicletters1p each, and originalSeptemberFernstudienanbieter9p. Register mirrors of ministryresponses not added."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "at_utc": "2026-10-25T11:55:25.210959+00:00",
+  "checks": [
+    {
+      "source_id": "itad-krwg-20260807",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "krwg-refe-20260626-r6",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "krwg-bmukn-dossier-r6",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "eurostat-municipal-2026-r6",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "eurostat-municipal-tables202603-r6",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "eurostat-mwro-methods202603-r6",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "destatis-municipal20261022-r6",
+      "file_exists": false,
+      "documented_intentional_eviction_or_live_change": true
+    },
+    {
+      "source_id": "wfd-2018-ukarchive-r6",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "eu2019-1004-ukarchive-r6",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "biesemann-izg-20260223-r6",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "seehafen-finanzhilfen-law-r6",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "izg-br780-25-r6",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "izg-bt214099-r6",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "gvm-pet-2025-r6-negative",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "ewi-bet-monitor2025-r6-negative",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "ebus-evaluation2024-pwc-r6-negative",
+      "file_exists": true,
+      "sha256_matches": true
+    },
+    {
+      "source_id": "bitkom-unusedphones20260415-r6-negative",
+      "download_not_required": true
+    }
+  ],
+  "limits": "Identity check of retained active dependencies or disposable cache, not a new factual/source-content review. Missing DestatisHTML is explicitly documented; retained prior article text and metadata are not silently replaced."
+}

@@ -1,0 +1,44 @@
+{
+  "status": "active",
+  "window": {
+    "from": "2026-07-25",
+    "to": "2026-10-24",
+    "inclusive": true,
+    "primary_date_basis": "date submitted to a federal recipient; retain document signature date and upload date separately",
+    "retrieval_snapshot": "2026-10-25; not automatically a historical snapshot at the window end"
+  },
+  "target": "All publicly available external written submissions to German federal legislative processes in the window, across ministry consultation pages, Bundestag hearing records and Lobbyregister disclosures.",
+  "process_scope": "German federal statutes and ordinances; retain other parliamentary motions and non-legislative general hearings separately rather than silently treating them as legislation. Pure EU lobbying without an identified German federal legislative process is excluded.",
+  "unit": {
+    "primary": "distinct authored response version",
+    "joint_authorship": "one response, not one per signatory",
+    "copies": "merge ministry/register/hearing mirrors and repeat disclosures of the same authored response",
+    "versions": "retain substantively different versions and label them",
+    "events": "retain each delivery/recipient/process event separately without automatically counting it as a new document",
+    "bundles": "enumerate authored responses within hearing compilations, not one whole bundle or one repeated copy per author"
+  },
+  "discovery": [
+    "Record authoritative ministry and committee master indexes, pagination, snapshot and process-page links.",
+    "Inspect forthcoming hearings with already-published in-window statements and older process pages with later submissions.",
+    "Enumerate the register by its recipient-date filter, traverse every result page and reconcile unique SG IDs against reported result counts.",
+    "Cross-reference the three channels. Search-engine results may discover omissions but cannot prove completeness.",
+    "Keep absent, blocked, undated, scope-uncertain and inaccessible material in a gap ledger."
+  ],
+  "review_stages": [
+    "metadata_collected",
+    "eligibility_and_date_verified",
+    "document_retrieved",
+    "text_readable",
+    "keyword_triage_only",
+    "full_submission_screened",
+    "material_checkable_claims_verified_against_primary_evidence_and_exact_draft",
+    "independent_review_complete_for_proposed_findings"
+  ],
+  "meaning_of_checked": "For any future complete-coverage statement, every eligible document must be read in full and its potentially material, checkable factual/numerical/source-description assertions assessed under the common protocol. Keyword triage or collection alone is not checked. A negative screen does not certify every assertion as true.",
+  "finding_rules": "Preserve original ai_screened schema. Distinguish provisional findings, unresolved leads and rejected candidates; classify materiality independently of direction. Check context, qualifications, primary-source methods and exact addressed draft. No inference of intent, no invented author responses, no policy disagreement/forecast/absence of evidence treated as proven error.",
+  "completion_gate": "Do not claim full three-channel coverage until authoritative enumeration, date/scope adjudication, document-version deduplication, access/reading gaps and the common substantive screening stage are complete. If any are incomplete, report exact achieved coverage by stage and remaining gaps; a completed register listing is only collection coverage for that source frame.",
+  "research_round": "Additional2.5h started2026-10-25T02:41:17Z; earliest time-gate2026-10-25T05:11:17Z. User steering prioritises systematic coverage over opportunistic case discovery.",
+  "author_scope": "All external written submissions, including companies, associations, NGOs, academics and experts; user expressly confirmed. Registered-interest status is a separate attribute, not an inclusion requirement.",
+  "author_scope_confirmed_at_utc": "2026-10-25T04:06:48.900105+00:00",
+  "government_response_handling": "Government bodies and Länder are separately labelled and excluded from the external-stakeholder denominator unless an independently authored external contribution qualifies. Published reply totals may include them, but cannot be reported as the external-submission denominator."
+}

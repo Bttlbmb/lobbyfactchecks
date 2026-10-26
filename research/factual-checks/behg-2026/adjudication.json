@@ -1,0 +1,681 @@
+{
+  "id": "behg-2026-root-adjudication",
+  "status": "complete",
+  "reviewer": "root",
+  "as_of_utc": "2026-10-25T10:12:04.637861+00:00",
+  "decisions": [
+    {
+      "claim_id": "behg-b-01",
+      "decision": "resolve_initial_version_or_document_access_gap",
+      "reason": "Root independently checked the recovered official dossier/draft and relevant statutory terminology; independent reviewer C proposed this revision after re-reading all counterpart pages.",
+      "updates": {
+        "result": "supported",
+        "claim_en": "The government adopted the amendment bill on 12 August 2026 and subsequently forwarded it to Parliament and Bundesrat.",
+        "evidence": [
+          {
+            "source_id": "behg-root-draft",
+            "locator": "cover and introduction"
+          },
+          {
+            "source_id": "behg-root-ministry-dossier",
+            "locator": "Cabinet heading and concluding paragraph; update date 12 August 2026",
+            "summary": "The ministry records cabinet approval on 12 August."
+          },
+          {
+            "source_id": "behg-root-draft",
+            "locator": "Physical page 5, transmittal letter dated 7 September 2026",
+            "summary": "Letter forwards the bill to Bundestag and records prior Bundesrat transmission on 14 August."
+          }
+        ],
+        "explanation": "The official ministry dossier confirms adoption on 12 August. The parliamentary bill’s transmittal letter records forwarding to Bundesrat on 14 August and Bundestag on 7 September. The author’s introductory process description is supported; its conjunction is not read as proving that every transmission happened on 12 August.",
+        "limits": "Adoption and forwarding dates are distinct. This does not establish each recipient’s actual delivery timestamp."
+      }
+    },
+    {
+      "claim_id": "behg-b-40",
+      "decision": "resolve_initial_version_or_document_access_gap",
+      "reason": "Root independently checked the recovered official dossier/draft and relevant statutory terminology; independent reviewer C proposed this revision after re-reading all counterpart pages.",
+      "updates": {
+        "result": "supported",
+        "evidence": [
+          {
+            "source_id": "behg-root-draft",
+            "locator": "physical 7 § 10(3)4; physical 10 § 16(3)"
+          },
+          {
+            "source_id": "behg-root-ministry-refe",
+            "locator": "Physical pages 4 and 7, proposed BEHG §10(3) and BEHV §16(3)",
+            "summary": "The residual-sales index uses Emissionszertifikaten under TEHG §10."
+          },
+          {
+            "source_id": "behg-cr-tehg",
+            "locator": "§3 numbers 3 and 8; §10(1)",
+            "summary": "Emissionszertifikat means fuel/PartB/ETS2, while Berechtigung concerns PartA/ETS1; the auction provision covers both."
+          }
+        ],
+        "explanation": "The recovered official July consultation draft literally indexes residual national sales to TEHG Emissionszertifikate. TEHG defines those as the fuel-trading certificates used in ETS2; Berechtigungen denotes ETS1. Thus the author’s ETS2 description is supported for this residual-sales provision. The separate transitional 2027 fallback uses ETS1 and must not be confused with it.",
+        "limits": "The ministry identifies this as the July consultation draft and its PDF metadata dates to 3 July. Current public bytes are not an independently timestamped copy of the file actually delivered to each participant. This assesses draft wording, not enacted future pricing."
+      }
+    },
+    {
+      "claim_id": "behg-b-42",
+      "decision": "resolve_initial_version_or_document_access_gap",
+      "reason": "Root independently checked the recovered official dossier/draft and relevant statutory terminology; independent reviewer C proposed this revision after re-reading all counterpart pages.",
+      "updates": {
+        "result": "supported",
+        "evidence": [
+          {
+            "source_id": "behg-root-draft",
+            "locator": "physical 7 operativecorridor; physical 14 coalition 12 May 2026 rationale"
+          },
+          {
+            "source_id": "behg-root-ministry-refe",
+            "locator": "Physical pages 1 and 4",
+            "summary": "The cover identifies the coalition decision; proposed §10(2) extends the €55–65 corridor to 2027."
+          },
+          {
+            "source_id": "behg-root-ministry-dossier",
+            "locator": "Consultation launch/deadline paragraphs",
+            "summary": "Dossier identifies the consultation launched 3 July with responses due 15 July."
+          }
+        ],
+        "explanation": "The official July consultation draft confirms the stated corridor and coalition decision. This resolves the initial absence of the earlier draft, without substituting the September parliamentary bill.",
+        "limits": "Current official file is identified by the dossier and aligned 3 July PDF metadata; exact historical delivery bytes and delivery dates remain unauthenticated. Auction corridor excludes the separate excess and top-up sale phases."
+      }
+    },
+    {
+      "claim_id": "behg-b-43",
+      "decision": "resolve_initial_version_or_document_access_gap",
+      "reason": "Root independently checked the recovered official dossier/draft and relevant statutory terminology; independent reviewer C proposed this revision after re-reading all counterpart pages.",
+      "updates": {
+        "result": "supported",
+        "evidence": [
+          {
+            "source_id": "behg-root-behv",
+            "locator": "§ 14–15 current 68/70"
+          },
+          {
+            "source_id": "behg-root-draft",
+            "locator": "physical 10 latergovernment 73/75"
+          },
+          {
+            "source_id": "behg-root-ministry-refe",
+            "locator": "Physical pages 6–7, proposed BEHV §§14–15",
+            "summary": "Excess prices €68 for2026 and €73 for2027; top-up prices €70 for2026vintage and €75 for2027vintage."
+          }
+        ],
+        "explanation": "The identified July draft contains the stated €5 increases. The €75 top-up is for the 2027 reporting vintage and is sold in 2028; the distinction between reporting and purchase years is preserved.",
+        "limits": "Support concerns the identified official July draft. Actual initial-delivery bytes remain unauthenticated; no finding is based on a later bill difference."
+      }
+    },
+    {
+      "claim_id": "behg-c-007",
+      "decision": "repair_truncated_line_end_anchor",
+      "reason": "A frozen raw anchor ends at a layout hyphen. Use a shorter contiguous source-language anchor so text normalization and the readable quotation do not imply an incomplete word. The proposition and outcome are unchanged.",
+      "updates": {
+        "original_excerpt": "die weiterhin die größten Zielabweichungen"
+      }
+    },
+    {
+      "claim_id": "behg-c-015",
+      "decision": "repair_truncated_line_end_anchor",
+      "reason": "A frozen raw anchor ends at a layout hyphen. Use a shorter contiguous source-language anchor so text normalization and the readable quotation do not imply an incomplete word. The proposition and outcome are unchanged.",
+      "updates": {
+        "original_excerpt": "Verbraucher zunehmend für die Wärmepumpe"
+      }
+    },
+    {
+      "claim_id": "behg-c-031",
+      "decision": "repair_truncated_line_end_anchor",
+      "reason": "A frozen raw anchor ends at a layout hyphen. Use a shorter contiguous source-language anchor so text normalization and the readable quotation do not imply an incomplete word. The proposition and outcome are unchanged.",
+      "updates": {
+        "original_excerpt": "2,7 Milliarden Euro"
+      }
+    },
+    {
+      "claim_id": "behg-c-032",
+      "decision": "repair_truncated_line_end_anchor",
+      "reason": "A frozen raw anchor ends at a layout hyphen. Use a shorter contiguous source-language anchor so text normalization and the readable quotation do not imply an incomplete word. The proposition and outcome are unchanged.",
+      "updates": {
+        "original_excerpt": "Der erste Versteigerungskalender"
+      }
+    },
+    {
+      "claim_id": "behg-c-043",
+      "decision": "repair_truncated_line_end_anchor",
+      "reason": "A frozen raw anchor ends at a layout hyphen. Use a shorter contiguous source-language anchor so text normalization and the readable quotation do not imply an incomplete word. The proposition and outcome are unchanged.",
+      "updates": {
+        "original_excerpt": "erfasst auch Anlagen aus anderen"
+      }
+    },
+    {
+      "claim_id": "behg-c-056",
+      "decision": "repair_truncated_line_end_anchor",
+      "reason": "A frozen raw anchor ends at a layout hyphen. Use a shorter contiguous source-language anchor so text normalization and the readable quotation do not imply an incomplete word. The proposition and outcome are unchanged.",
+      "updates": {
+        "original_excerpt": "zwangsläufig zu höheren"
+      }
+    },
+    {
+      "claim_id": "behg-c-059",
+      "decision": "repair_truncated_line_end_anchor",
+      "reason": "A frozen raw anchor ends at a layout hyphen. Use a shorter contiguous source-language anchor so text normalization and the readable quotation do not imply an incomplete word. The proposition and outcome are unchanged.",
+      "updates": {
+        "original_excerpt": "rund 40"
+      }
+    },
+    {
+      "claim_id": "behg-c-061",
+      "decision": "repair_truncated_line_end_anchor",
+      "reason": "A frozen raw anchor ends at a layout hyphen. Use a shorter contiguous source-language anchor so text normalization and the readable quotation do not imply an incomplete word. The proposition and outcome are unchanged.",
+      "updates": {
+        "original_excerpt": "bereits mit dem erhöhten"
+      }
+    },
+    {
+      "claim_id": "behg-c-005",
+      "decision": "correct_primary_locator",
+      "reason": "Independent reviewer A found that the 2027 delay fallback is point5 of§10(3), not§10(2). Root independently read current provision and draft. Outcome and proposition unchanged.",
+      "updates": {
+        "evidence": [
+          {
+            "source_id": "behg-root-law",
+            "locator": "§10(3), sentence 2, point 5; compare 2026 corridor in §10(2)"
+          },
+          {
+            "source_id": "behg-root-draft",
+            "locator": "Physical pages 7, 14–15"
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "behg-c-018",
+      "decision": "correct_primary_locator",
+      "reason": "Independent reviewer A found that the 2027 delay fallback is point5 of§10(3), not§10(2). Root independently read current provision and draft. Outcome and proposition unchanged.",
+      "updates": {
+        "evidence": [
+          {
+            "source_id": "behg-root-law",
+            "locator": "§10(3), sentence 2, point 5; compare 2026 corridor in §10(2)"
+          },
+          {
+            "source_id": "behg-root-draft",
+            "locator": "Physical pages 7, 14–15"
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "behg-c-062",
+      "decision": "correct_primary_locator",
+      "reason": "Independent reviewer A found that the 2027 delay fallback is point5 of§10(3), not§10(2). Root independently read current provision and draft. Outcome and proposition unchanged.",
+      "updates": {
+        "evidence": [
+          {
+            "source_id": "behg-root-law",
+            "locator": "§10(3), sentence 2, point 5; compare 2026 corridor in §10(2)"
+          },
+          {
+            "source_id": "behg-root-draft",
+            "locator": "Physical pages 7, 14–15"
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "behg-c-020",
+      "decision": "retain_unresolved_after_new_primary_access",
+      "reason": "Official coalition contract recovered and independently read by A and root. The stronger asserted policy exchange is not explicitly established.",
+      "updates": {
+        "evidence": [
+          {
+            "source_id": "behg-c-com616-directive-web",
+            "locator": "Archived search extraction: contract access attempts and primary party material"
+          },
+          {
+            "source_id": "shared-coalition2025",
+            "locator": "Physical pages26and30–32; printed24and28–30; lines754–756and916–929",
+            "summary": "Promises wider heating options and keeps carbon pricing as a central component in a policy mix."
+          }
+        ],
+        "explanation": "The contract is now accessible and corroborates wider heating choice plus carbon pricing as a central component of an instrument mix. It does not expressly establish that pricing becomes the single central instrument in return for relaxing heating regulation.",
+        "limits": "The author may reasonably summarise a political policy trade-off. That interpretation is not independently established or clearly falsified by the document; no error is admitted."
+      }
+    },
+    {
+      "claim_id": "behg-c-027",
+      "decision": "retain_original_biogenic_scope_as_unresolved",
+      "reason": "The frozen paraphrase weakened the original biogenic-fuel wording. A and root independently checked all statutory alternatives; support for the narrower timetable does not establish the complete original assertion.",
+      "updates": {
+        "result": "unresolved",
+        "claim_en": "New oil and gas heating installations are subject to increasing biogenic-energy use from 2029.",
+        "explanation": "The statutory increasing shares begin in2029, but§43 permits not only biomethane/bio-oil/biogenic LPG: it also names several hydrogen types and allows solar thermal, heat recovery and hybrid compliance. The unqualified biogenic wording is therefore not fully established as a universal obligation.",
+        "limits": "Possible shorthand for the usual fuel pathway remains a fair contextual interpretation. The start date and increasing shares are corroborated; no categorical author-error finding is admitted.",
+        "evidence": [
+          {
+            "source_id": "behg-c-gmodg-law",
+            "locator": "§43(1),(3)–(7); header amendment23July2026",
+            "summary": "Increasing shares and several fuel/compliance alternatives, dates and exceptions."
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "behg-c-035",
+      "decision": "resolve_primary_document_access_gap",
+      "reason": "Official party-published coalition contract independently read by A and root.",
+      "updates": {
+        "result": "supported",
+        "evidence": [
+          {
+            "source_id": "behg-c-model-calendar-web",
+            "locator": "Search record for official coalition contract; electricity-tax commitment indexed text"
+          },
+          {
+            "source_id": "shared-coalition2025",
+            "locator": "Physical32and49; printed30and47; lines956–958and1501–1503",
+            "summary": "At least fivecents/kWh relief through a package and minimum EU electricitytax for all are explicit promises."
+          }
+        ],
+        "explanation": "The official agreement expressly makes both promises. The initial access limitation is resolved.",
+        "limits": "This verifies what the agreement promises, not fulfilment, universal actual eligibility under enacted tax rules or that the tax reduction alone equals fivecents."
+      }
+    },
+    {
+      "claim_id": "behg-a-soellner-13",
+      "decision": "retain_supply_definition_ambiguity",
+      "reason": "Independent B re-read all original pages and primary evidence; root independently checked original context, operative draft and cited material. Conservative full-proposition adjudication.",
+      "updates": {
+        "result": "unresolved",
+        "explanation": "The quoted 252.366567 million (2026) and 234.418353 million (2027) are annual emissions budgets under BEHV §44. Auction supply is determined separately by §11 adjustments; the proposed 2027 formula subtracts 40 million and includes §45 quantities. The stated excess/top-up prices are supported, but that does not establish that the annual budgets are the available regular auction volumes. The author may use theoretical-budget shorthand, so no categorical numerical-error finding is admitted.",
+        "limits": "Preserves the original regular-availability proposition rather than silently relabelling it as an annual budget. Reporting vintage and later purchase year differ. Actual 2026 auctions allocated 192,084,807 certificates; administrative adjustments prevent treating that comparison alone as proof of an author error.",
+        "evidence": [
+          {
+            "source_id": "behg-root-draft",
+            "locator": "Physical pages 9–11, proposed BEHV §§11(1a),14–15,44"
+          },
+          {
+            "source_id": "behg-root-behv",
+            "locator": "§§11,44–45"
+          },
+          {
+            "source_id": "behg-b-auction-csv",
+            "locator": "All 11 dated 2026 auction rows through 9 September"
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "behg-a-soellner-16",
+      "decision": "resolve_official_auction_series_access",
+      "reason": "Independent B re-read all original pages and primary evidence; root independently checked original context, operative draft and cited material. Conservative full-proposition adjudication.",
+      "updates": {
+        "result": "supported",
+        "explanation": "The complete official EEX series has 11 auctions through 9 September 2026, all clearing at €65. Under the ceiling and uniform-price rules this supports successful bids at the ceiling. The prior missing-series limitation is resolved.",
+        "limits": "The author’s 8 October signature conflicts with the 5 October committee cover and 7 October hearing; no delivery chronology is inferred. The retrieved complete pre-authorship series ends 9 September.",
+        "evidence": [
+          {
+            "source_id": "behg-root-law",
+            "locator": "§10(2), auction corridor"
+          },
+          {
+            "source_id": "behg-b-auction-csv",
+            "locator": "All 11 rows; each auction clearing price €65"
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "behg-a-fleischmann-21",
+      "decision": "retain_net_feedback_scope_as_unresolved",
+      "reason": "Independent B re-read all original pages and primary evidence; root independently checked original context, operative draft and cited material. Conservative full-proposition adjudication.",
+      "updates": {
+        "result": "unresolved",
+        "explanation": "The original context rejects net amplifying feedbacks sufficient for more than 1°C doubling sensitivity and 0.5°C future warming. Observed positive water-vapour components alone do not establish net feedback or exact sensitivity. AR6 §§7.4.2 and 7.5 integrate process, observational and palaeoclimate constraints and provide strong contrary evidence to very low sensitivity. This check has not independently reconstructed the aggregate observational constraint or fully tested the cited Lindzen interpretation, so it does not admit an author-error finding.",
+        "limits": "Unresolved is not confirmation of the author’s scientific conclusion. The contrary assessment and its multiple lines of evidence remain explicitly recorded; no false equivalence or absence of scientific evidence is implied.",
+        "evidence": [
+          {
+            "source_id": "behg-a-methods-web",
+            "locator": "Dessler, Zhang and Yang 2008, abstract",
+            "summary": "Satellite humidity and surface-temperature variations imply positive water-vapour feedback."
+          },
+          {
+            "source_id": "behg-a-dessler2013pmc",
+            "locator": "Abstract and observational analysis",
+            "summary": "Observations support positive stratospheric water-vapour feedback."
+          },
+          {
+            "source_id": "behg-a-lindzen2011",
+            "locator": "Discussion of 2009 analysis and later methodological criticism",
+            "summary": "Authors acknowledge methodological corrections while defending their interpretation."
+          },
+          {
+            "source_id": "behg-a-ipcc-ar6-ch7",
+            "locator": "§§7.4.2 and 7.5",
+            "summary": "Assessment combines distinct feedback and sensitivity constraints."
+          },
+          {
+            "source_id": "behg-br-trenberth",
+            "locator": "Published methodological critique of Lindzen and Choi 2009; short observation window and regional-sampling qualifications"
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "behg-a-fleischmann-33",
+      "decision": "retain_fair_model_results_reading",
+      "reason": "Independent B re-read all original pages and primary evidence; root independently checked original context, operative draft and cited material. Conservative full-proposition adjudication.",
+      "updates": {
+        "result": "unresolved",
+        "claim_en": "The cited wind-farm study reports 90–95 dB at about 1 km under 5.6 m/s hub wind and 105 dB at 20 km under roughly 10 m/s; the passage introduces these results as measurements.",
+        "explanation": "Mattsson combines nearby receiver measurements with calibrated simulated 1 Hz third-octave maps. Figures 12–14 do not establish microphone observations at 20 km. But the author’s later twenty-kilometre sentence says only that the level was present and may reasonably refer to study/model results. The opening measurement wording does not make the stronger distant-microphone assertion unambiguous.",
+        "limits": "The measured-versus-modelled distinction is preserved. The approximate distant map levels and their conditional weather settings are not disproved. No finding is admitted from ambiguous attribution.",
+        "evidence": [
+          {
+            "source_id": "behg-a-mattsson2026",
+            "locator": "Physical p. 11, Figures 12–14, captions and Table 3; §7",
+            "summary": "Measured calibration values distinguished from simulated spatial levels."
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "behg-a-fleischmann-34",
+      "decision": "retain_unresolved_after_independent_final_review",
+      "reason": "A and B favoured a narrow cited-support overstatement. Fresh reviewer C independently re-read all nine author pages, rendered the key pages and re-downloaded scientific sources, finding fair alternative interpretations. Root accepts the conservative unresolved disposition.",
+      "updates": {
+        "result": "unresolved",
+        "explanation": "The relevant maps describe a 1 Hz third-octave band, and LfU requires a frequency-dependent comparison. Its 8 Hz example and below-2-Hz qualification do not establish a 96–101 dB perception threshold at 1 Hz. But the author’s numerical sentence does not specify frequency and may fairly concern complete exposure or unusually sensitive individuals; proximity to a threshold is not quantitatively defined here. The checked sources therefore neither establish the exact comparison nor demonstrate its falsity under all fair readings.",
+        "limits": "No admitted error. No exact universal 1 Hz threshold is inferred from the audible military-aircraft analogy. Individual response, higher-frequency components and possible non-auditory effects remain uncertain. The disputed source-alignment concern is retained with both independent reviewer positions.",
+        "evidence": [
+          {
+            "source_id": "behg-a-lfu2022",
+            "locator": "Physical p. 5, perception-threshold explanation",
+            "summary": "Frequency-specific threshold and below-2-Hz qualification."
+          },
+          {
+            "source_id": "behg-a-mattsson2026",
+            "locator": "§7 and figure captions, 1 Hz third-octave band",
+            "summary": "Frequency of the reported spatial levels."
+          }
+        ]
+      }
+    },
+    {
+      "claim_id": "behg-a-soellner-03",
+      "decision": "extend_existing_chart_assessment",
+      "reason": "Peer B identified omitted comparative chart values. Root visually read the chart and checked the official country table independently.",
+      "updates": {
+        "claim_en": "In 2025 the EU represented 5.8% of global greenhouse gas emissions, Germany 1.2 percentage points and the rest of the EU 4.6. The accompanying chart gives emissions and shares for China, USA, India, EU27, Russia, Indonesia and the remaining world.",
+        "explanation": "EDGAR reports EU27 3,127.15 Mt and Germany 660.44 Mt against 54,149.20 Mt globally: 5.78%, 1.22% and 4.56%, respectively. These round to the quoted figures. Root and B also independently verified the whole accompanying chart: China 15.981 Gt/29.51%, USA 6.0183/11.11%, India 4.50801/8.33%, EU27 3.12715/5.78%, Russia 2.57439/4.75% and Indonesia 1.35891/2.51%. These round to the plotted values; the remaining world is 38.01%.",
+        "evidence": [
+          {
+            "source_id": "behg-a-edgar2026",
+            "locator": "2025 country table; definition excludes LULUCF",
+            "summary": "Direct arithmetic from official totals."
+          }
+        ],
+        "visual_anchor_check": {
+          "evidence_file": "research/factual-checks/behg-2026/sources/root-soellner-p3.png",
+          "note": "Root visually checked all plotted values; existing text anchor remains independently valid."
+        }
+      }
+    }
+  ],
+  "additional_sources": [],
+  "additional_claims": [
+    {
+      "researcher": "peer_omission_adjudicated_by_root",
+      "check_completed": true,
+      "initial_result": "identified_by_peer",
+      "cited_by_author": false,
+      "check_method": [
+        "Peer A independently re-read all counterpart pages and identified omission",
+        "Root independently read the original complete response and primary source/context"
+      ],
+      "peer_review": {
+        "reviewer": "a",
+        "file": "research/factual-checks/behg-2026/reviews/a-reviews-c.json",
+        "verdict": "identified_omission"
+      },
+      "independent_review": {
+        "reviewer": "root",
+        "file": "research/factual-checks/behg-2026/adjudication.json",
+        "verdict": "independently_checked"
+      },
+      "id": "behg-root-dst-heating-requirements-01",
+      "document_id": "bt-environment-1222372",
+      "pdf_pages": [
+        3
+      ],
+      "section": "KTF transparency rationale",
+      "original_excerpt": "ordnungsrechtliche Anforderungen",
+      "claim_en": "Recent building-sector prescriptive heating requirements were relaxed.",
+      "claim_type": "legal_change_description",
+      "materiality": "medium",
+      "policy_link": "Premise for reliable compensating financial support through KTF programmes.",
+      "evidence": [
+        {
+          "source_id": "behg-c-gmodg-law",
+          "locator": "Header dated23July2026; §§42–43",
+          "summary": "Broader heating options and later staged fuel/compliance requirements."
+        },
+        {
+          "source_id": "behg-root-gmodg-government",
+          "locator": "29July2026; section Anforderung von65Prozent erneuerbare Energien entfällt",
+          "summary": "Official account confirms removal of the blanket65%new-heating requirement, with other continuing obligations."
+        }
+      ],
+      "result": "supported",
+      "explanation": "The July reform removed the blanket65%new-heating requirement and broadened permitted options, while retaining staged fuel and alternative-compliance obligations. That bounded statutory relaxation supports the factual premise.",
+      "limits": "Relaxation describes the prescriptive requirements; it does not establish the reform’s eventual emissions effect or quantify additional grant needs. Current consolidated law and dated government account are used.",
+      "omission_index": 0
+    },
+    {
+      "researcher": "peer_omission_adjudicated_by_root",
+      "check_completed": true,
+      "initial_result": "identified_by_peer",
+      "cited_by_author": false,
+      "check_method": [
+        "Peer A independently re-read all counterpart pages and identified omission",
+        "Root independently read the original complete response and primary source/context"
+      ],
+      "peer_review": {
+        "reviewer": "a",
+        "file": "research/factual-checks/behg-2026/reviews/a-reviews-c.json",
+        "verdict": "identified_omission"
+      },
+      "independent_review": {
+        "reviewer": "root",
+        "file": "research/factual-checks/behg-2026/adjudication.json",
+        "verdict": "independently_checked"
+      },
+      "id": "behg-root-bwp-crisis-interest-02",
+      "document_id": "bt-environment-1222672",
+      "pdf_pages": [
+        4
+      ],
+      "section": "Market development and consumer interest",
+      "original_excerpt": "erhöhen derzeit das Interesse",
+      "claim_en": "Current geopolitical crises and fears of fossil-fuel price increases or shortages increase interest in heating replacement.",
+      "claim_type": "current_causal_attribution",
+      "materiality": "medium",
+      "policy_link": "Premise for sustaining grants and carbon-price incentives so current interest becomes investment.",
+      "evidence": [
+        {
+          "source_id": "behg-c-bwp-market202608",
+          "locator": "6August2026 market statement and interpretation of consumer motives",
+          "summary": "Issuer associates contemporary interest with crises and price/availability concerns, without isolating the causal contribution."
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "Observed sales, approval trends and issuer explanations do not identify the causal contribution of geopolitical fears to current replacement interest. The proposition is plausible but not independently established by those data.",
+      "limits": "Distinct from the grant-confidence claim and the historic2023price-brake claim. No representative independently identified causal estimate or counterfactual was authenticated; no falsehood or intent inferred.",
+      "omission_index": 1
+    },
+    {
+      "researcher": "peer_omission_adjudicated_by_root",
+      "check_completed": true,
+      "initial_result": "identified_by_peer",
+      "cited_by_author": false,
+      "check_method": [
+        "Peer B independently re-read all counterpart pages and identified omission",
+        "Root independently read the original complete response and primary source/context"
+      ],
+      "peer_review": {
+        "reviewer": "b",
+        "file": "research/factual-checks/behg-2026/reviews/b-reviews-a.json",
+        "verdict": "identified_omission"
+      },
+      "independent_review": {
+        "reviewer": "root",
+        "file": "research/factual-checks/behg-2026/adjudication.json",
+        "verdict": "independently_checked"
+      },
+      "id": "behg-root-soellner-cost-passthrough-03",
+      "document_id": "bt-environment-1222374",
+      "pdf_pages": [
+        8
+      ],
+      "section": "Peer-identified material factual premise",
+      "original_excerpt": "zumindest zum Großteil",
+      "claim_en": "Suppliers currently pass most direct certificate and indirect compliance costs through to fuel buyers.",
+      "claim_type": "current_cost_incidence",
+      "materiality": "medium",
+      "policy_link": "Supporting factual premise for abolishing the BEHG or altering carbon-pricing design.",
+      "evidence": [
+        {
+          "source_id": "behg-a-diw2025",
+          "locator": "Household incidence assumptions; not a representative estimate of actual direct and indirect supplier pass-through"
+        }
+      ],
+      "result": "unresolved",
+      "explanation": "The distributional study models household incidence under pass-through assumptions; it does not independently measure the share of direct and indirect compliance costs actually passed on. The mechanism is plausible, but the current quantitative majority claim remains unestablished.",
+      "limits": "This is a present incidence premise, not merely a future relocation forecast. No representative contemporaneous supplier microdata or identified causal estimate was established; absence of evidence is not an error finding.",
+      "omission_index": 1
+    },
+    {
+      "researcher": "peer_omission_adjudicated_by_root",
+      "check_completed": true,
+      "initial_result": "identified_by_peer",
+      "cited_by_author": false,
+      "check_method": [
+        "Peer B independently re-read all counterpart pages and identified omission",
+        "Root independently read the original complete response and primary source/context"
+      ],
+      "peer_review": {
+        "reviewer": "b",
+        "file": "research/factual-checks/behg-2026/reviews/b-reviews-a.json",
+        "verdict": "identified_omission"
+      },
+      "independent_review": {
+        "reviewer": "root",
+        "file": "research/factual-checks/behg-2026/adjudication.json",
+        "verdict": "independently_checked"
+      },
+      "id": "behg-root-fleischmann-wind-support-04",
+      "document_id": "bt-environment-1222442",
+      "pdf_pages": [
+        6
+      ],
+      "section": "Peer-identified material factual premise",
+      "original_excerpt": "mit Milliardenbeträgen bezuschusst",
+      "claim_en": "Wind deployment receives support amounting to billions of euros.",
+      "claim_type": "quantitative_context",
+      "materiality": "medium",
+      "policy_link": "Supporting factual premise for abolishing the BEHG or altering carbon-pricing design.",
+      "evidence": [
+        {
+          "source_id": "netzkosten-root-monitoring2025",
+          "locator": "Physical page 81 / printed 80, Table 17; payment definitions physical pages 73–74",
+          "summary": "2024 EEG payments: onshore wind €2.252bn; offshore €2.103bn. 2023: €1.414bn and €1.975bn."
+        }
+      ],
+      "result": "supported",
+      "explanation": "Official technology-specific monitoring reports EEG payments of €4.355bn for wind in 2024 and €3.389bn in 2023. This supports the generic magnitude of billions in wind support without using all-renewables totals as wind-only spending.",
+      "limits": "The author provides no period or precise subsidy definition. EEG operating support is not identical to construction grants, net fiscal cost, total investment or proof of inefficiency. The bounded magnitude is supported; the subsequent health-cost comparison is separate and unresolved.",
+      "omission_index": 2
+    }
+  ],
+  "omission_resolutions": [
+    {
+      "review_file": "research/factual-checks/behg-2026/reviews/a-reviews-c.json",
+      "omission_index": 0,
+      "resolution": "Added separately after root independently checked original context and primary evidence or limits.",
+      "claim_ids": [
+        "behg-root-dst-heating-requirements-01"
+      ]
+    },
+    {
+      "review_file": "research/factual-checks/behg-2026/reviews/a-reviews-c.json",
+      "omission_index": 1,
+      "resolution": "Added separately after root independently checked original context and primary evidence or limits.",
+      "claim_ids": [
+        "behg-root-bwp-crisis-interest-02"
+      ]
+    },
+    {
+      "review_file": "research/factual-checks/behg-2026/reviews/b-reviews-a.json",
+      "omission_index": 0,
+      "resolution": "Subsumed by explicitly extending S03 to the whole chart, independently visually checked by root against EDGAR.",
+      "claim_ids": [
+        "behg-a-soellner-03"
+      ]
+    },
+    {
+      "review_file": "research/factual-checks/behg-2026/reviews/b-reviews-a.json",
+      "omission_index": 1,
+      "resolution": "Added separately as unresolved current incidence premise after root source/context check.",
+      "claim_ids": [
+        "behg-root-soellner-cost-passthrough-03"
+      ]
+    },
+    {
+      "review_file": "research/factual-checks/behg-2026/reviews/b-reviews-a.json",
+      "omission_index": 2,
+      "resolution": "Added separately; bounded magnitude supported by technology-specific official EEG payment table, with metric/time limits.",
+      "claim_ids": [
+        "behg-root-fleischmann-wind-support-04"
+      ]
+    }
+  ],
+  "main_issue_admissions": [
+    "behg2026-fleischmann-mortality-range-fc01"
+  ],
+  "conclusions": [
+    "All nine archived external responses and all60physical PDF pages were re-read;190initial claims received complete independent peer review. Root separately adjudicated five peer omissions, extending one existing assessment and adding four premises.",
+    "One narrow minor overstatement is admitted: the corrected cited urban mortality table does not support a five-to-fifteen cold/heat ratio in every country group. Its larger aggregate cold burden and the German cohort ratio remain intact. The direction of the correction is unknown because country deviations are mixed.",
+    "No new major finding is admitted. The infrasound threshold, net-feedback and measured-versus-modelled candidates remain unresolved after fair contextual alternatives and source-scope limits were tested.",
+    "The earlier public July consultation draft, official auction series, coalition agreement and technology-specific EEG payment table resolved several access gaps in favour of supported assessments. Unresolved assessments remain separate from main issue counts."
+  ],
+  "limits": [
+    "Nine previously examined public hearing responses, 60 physical PDF pages including committee covers. Not the complete legislative-process population.",
+    "Inventories target material testable premises, not every incidental factual assertion. Supported is bounded to the proposition and source/version stated; unresolved is neither an error nor confirmation.",
+    "Claims are judged as of authored dates. Covers, hearing dates and actual delivery are distinct. Current official files are not independently authenticated copies of each original delivery.",
+    "Pure policy preferences and forecasts are recorded in page exclusions; model descriptions, assumptions and observable causal premises remain assessable.",
+    "No author contact, human specialist confirmation, intent inference or representative error rate."
+  ],
+  "candidate_record_reviews": [
+    {
+      "file": "research/factual-checks/behg-2026/reviews/b-final-candidate-records.json",
+      "sha256": "672c6463dd4b01cadc1d032daddbb709e46cfba5c3ac8c720fc15a5622a1b17f"
+    },
+    {
+      "file": "research/factual-checks/behg-2026/reviews/c-final-candidate-records.json",
+      "sha256": "3fbb26b9fc5b46db11ac669b58981f391754d9143be50ddfd2c758656f72c737"
+    }
+  ],
+  "candidate_dispositions": [
+    {
+      "id": "behg2026-fleischmann-mortality-range-fc01",
+      "result": "admit_narrow_minor",
+      "reason": "Both final reviewers independently reproduced the corrected-table mismatch and full-context limits. Direction is set unknown because deviations occur above and below the asserted range."
+    },
+    {
+      "id": "behg2026-fleischmann-infrasound-threshold-fc02",
+      "result": "unresolved_no_main_issue_admission",
+      "reason": "Third reviewer found complete-exposure, unspecified-frequency and sensitivity alternatives prevent a confident error finding. Root adopts conservative outcome despite earlier narrow acceptances."
+    }
+  ]
+}

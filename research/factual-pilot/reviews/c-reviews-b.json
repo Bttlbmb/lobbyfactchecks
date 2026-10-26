@@ -1,0 +1,870 @@
+{
+  "reviewer": "C",
+  "reviewed_file": "research/factual-pilot/agents/claims-b.json",
+  "reviewed_sha256": "79902377b9c2b3e7f1036f1104df567b909906b0a78a39ee2cfd2198afae7ba3",
+  "created_at": "2026-10-25T09:03:48.967194+00:00",
+  "documents_reread": [
+    {
+      "document_id": "bmwe-kltgv-2026-003",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "visual_pages": [
+        2
+      ]
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-007",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "visual_pages": [
+        7
+      ]
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "bmwe-kltgv-2026-003-B01",
+      "verdict": "accept",
+      "reason": "Independently inspected C466 publisher scope and dated preview, C4632025scope/change list. Distinct CO2-specific rules existed before the response.",
+      "evidence_checks": [
+        {
+          "source_id": "b-c466-shop",
+          "locator": "scope; June2023",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "b-c463-shop",
+          "locator": "scope; June2025",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-003-B02",
+      "verdict": "accept",
+      "reason": "Independently read CapTrans full report§2.10.1.1 printed74–75 and DBI slides. They support the modelled inland large-volume case; the conditional large-volume framing still leaves route/load dependence. NETL2024 cost sensitivity independently confirms scale dependence rather than universal modal dominance. Unresolved is appropriate.",
+      "evidence_checks": [
+        {
+          "source_id": "b-dbi-captrans",
+          "locator": "slide headed CO2-Pipelinetransport und Zwischenspeicherung",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "b-captrans-full",
+          "locator": "§2.10.1.1 reportp74",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "b-netl-cost",
+          "locator": "§3.1.2 and Exhibit3-2",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-003-B03",
+      "verdict": "accept",
+      "reason": "Reread draft§3(1)2: adaptation to operation/locality and functional takeover upon failure are express.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "physicalp3 §3(1)2; p18 rationale",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-003-B04",
+      "verdict": "accept",
+      "reason": "Original sentence and coloured proposed change visually rechecked. One-for-one may mean functional backup rather than identical hardware. No authoritative implementation evidence settles the stronger interpretation; unresolved retained.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "physicalp3 §3(1)2; p18 rationale",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-003-B05",
+      "verdict": "revise",
+      "reason": "Remove nonredundant from claim paraphrase: DVGW lists control/alarm/shutdown and mechanical alternatives but does not expressly say none of their architectures would use redundant components. Full technical/cost equivalence remains unresolved, as B correctly concludes.",
+      "evidence_checks": [
+        {
+          "source_id": "b-c491-shop",
+          "locator": "contents §§7.9,7.17,8,9",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "root-draft",
+          "locator": "p18 safety-device rationale",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-003-B06",
+      "verdict": "accept",
+      "reason": "Reread GasHDrLtgV§4(1)1: the April2002interval reference is express. Agent correctly separates incidental sentence numbering from material claim.",
+      "evidence_checks": [
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§4(1)1",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-003-B07",
+      "verdict": "accept",
+      "reason": "Independently inspected G466-1publisher scope identifying gas families2and5. Correctly preserves distinction between the2021edition and statutorily named2002edition.",
+      "evidence_checks": [
+        {
+          "source_id": "b-g466-shop",
+          "locator": "scope; December2021 edition",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-003-B08",
+      "verdict": "accept",
+      "reason": "C4662023publisher scope expressly applies in conjunction with G466-1 and adds CO2-specific requirements; separate document does not mean self-sufficient code. Proposedp3text preserves the G rules absent C deviations.",
+      "evidence_checks": [
+        {
+          "source_id": "b-c466-shop",
+          "locator": "scope",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-003-B09",
+      "verdict": "accept",
+      "reason": "Dated April2002reference itself is static; other recognised-rule obligations remain. Narrow reading auf diese Weise avoids falsely treating later knowledge as legally excluded in every way.",
+      "evidence_checks": [
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§4(1)1 fixed April2002 intervals",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "root-kspg",
+          "locator": "§4a(3)",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "root-enwg49",
+          "locator": "§49(1)–(2)",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-003-B10",
+      "verdict": "accept",
+      "reason": "Independently read GW100§3.4.7 printed17: review at least every5years, process within6months if revision needed. This validates the stated process, not actual compliance in every case.",
+      "evidence_checks": [
+        {
+          "source_id": "b-gw100",
+          "locator": "§3.4.7 p17; §2.1 p7",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B01",
+      "verdict": "accept",
+      "reason": "Archived drafting metadata8July2026 and KSpTG§4cpower agree. The limitation distinguishing internal drafting date from actual publication date is necessary.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "cover and physicalp3 preamble",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "root-kspg",
+          "locator": "§4c",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B02",
+      "verdict": "accept",
+      "reason": "Reread operative§2and rationalephysical17: corresponding application and CO2-specific departures are expressly intended.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "§2 physicalp3; rationalepp1,17",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B03",
+      "verdict": "accept",
+      "reason": "Reread operative§1–§3and functional statutory definition; no express works-versus-transport-line categories. Agent appropriately does not infer no possible individual differentiation.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "§1–§3 physicalpp3–4",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "root-kspg",
+          "locator": "§3 no6 and §4",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B04",
+      "verdict": "accept",
+      "reason": "Operative draft has no separate gas/dense safety categories although it mentions two-phase prevention. Technical-rule differentiation remains possible.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "operative§§1–3",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B05",
+      "verdict": "accept",
+      "reason": "Independently inspected ISO27913scope and terms; both gaseous/dense phases explicit. HSE guidance independently corroborates the engineering distinction.",
+      "evidence_checks": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "§1 Scope; TOC §§6.8,8.1.5–6",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "b-hse-co2",
+          "locator": "Introduction and conveying CO2",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B06",
+      "verdict": "revise",
+      "reason": "Supported result should attach to narrower text observation: draft§1 contains no express16bar threshold. Whether corresponding application of GasHDrLtgV§1 imports its threshold needs legal interpretation. Original categorical scope conclusion should remain unresolved; B explanation wrongly says root baseline concurs with that categorical reading.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "§1–§2; rationale§1",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "root-kspg",
+          "locator": "§3 no6",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§1",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ],
+      "proposed_result": "unresolved",
+      "proposed_narrow_supported_claim": "Draft§1contains no express16bar threshold; legal consequence of§2correspondingapplicationunresolved."
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B07",
+      "verdict": "accept",
+      "reason": "GasHDrLtgV§1(1)expressly requires design for maximum permissible operating pressure over16bar. Comparator accurately described.",
+      "evidence_checks": [
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§1(1)",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B08",
+      "verdict": "revise",
+      "reason": "Add counterevidence: DINENISO27913:2026-07catalogue says part of DVGWRegelwerk; sourceISOscope explicitly includes offshore. Thus the whole-library onshore-only assertion is too broad. However, context and nach unserem Verständnis may mean the DVGW-authored C-series, for which C491is expressly onshore. Keep unresolved with competing readings rather than promote a material error without resolving intended scope.",
+      "evidence_checks": [
+        {
+          "source_id": "b-c491-shop",
+          "locator": "scope expressly Onshore-Anlagen",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "b-c463-shop",
+          "locator": "public scope; full§1 inaccessible",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "c-dnv-rpf104",
+          "locator": "scope covers both on/offshore",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ],
+      "proposed_result": "unresolved",
+      "additional_evidence_checks": [
+        {
+          "source_id": "c-din27913",
+          "locator": "editionJuly2026; Information: partofDVGWRegelwerk"
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "scope1: onshoreandoffshorepipelines"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B09",
+      "verdict": "accept",
+      "reason": "Independently read HSEcorrosion section and technical reportCSLF§4.4.1.2. They confirm water/impurity-driven acid corrosion as a conditional hazard; dry pureCO2not universally corrosive.",
+      "evidence_checks": [
+        {
+          "source_id": "b-hse-co2",
+          "locator": "Corrosion; stream composition",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "Introduction; TOC§§5,6.7,7.2",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B10",
+      "verdict": "accept",
+      "reason": "Reread KSpTG§4a(3)and imported EnWG49technical safety/presumption provisions. Agent correctly limits presumption to relevant DVGW rules.",
+      "evidence_checks": [
+        {
+          "source_id": "root-kspg",
+          "locator": "§4a(3)sentence2",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "root-enwg49",
+          "locator": "§49(1),(2)sentence1no2",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B11",
+      "verdict": "accept",
+      "reason": "DINpublisher catalogue independently inspected: prEN18397published17July2026asAugustdraft, relevant to streamcomposition/carbon-steel integrity. DINENISO27913publishedJuly2026. Supported relevance with explicit draftstatus retained.",
+      "evidence_checks": [
+        {
+          "source_id": "c-din27913",
+          "locator": "catalogue adopted DIN EN ISO27913",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "scope and contents",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "b-en18397",
+          "locator": "catalogue scope/status",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B12",
+      "verdict": "accept",
+      "reason": "C463publisher revisionpoint16explicitly describes minimumwall/crack-control design; ISO27913TOC/introduction identifies runningductilefracture. This establishes topiccoverage only.",
+      "evidence_checks": [
+        {
+          "source_id": "b-c463-shop",
+          "locator": "2025 changes item16; §6.2",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "TOC§8.1.5–6 and AnnexD",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B13",
+      "verdict": "accept",
+      "reason": "ISO27913scope explicitly includes conversions, and HSEGuidance/Standards requires original design reassessment for changed fluid. Conditional possibility accurately retained.",
+      "evidence_checks": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "§1 conversion scope; TOC§11",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "b-hse-co2",
+          "locator": "Guidance and Standards: reassess original design",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "b-c463-shop",
+          "locator": "2025 new AnnexB",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B14",
+      "verdict": "accept",
+      "reason": "Draft contains no bespoke universal oil/product-line conversion section; GasHDrLtgV§§6/8and KSpTGconversion rules support checks but do not alone settle every trigger. Original language may also be a safety recommendation; unresolved retained.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "§2; cost entry2.11/2.16 and rationale",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§6 construction/commissioning certification; §8 subsequent changes",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "root-kspg",
+          "locator": "§4a(2) related approvals",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B15",
+      "verdict": "accept",
+      "reason": "Operative§3(1)1matches. BDEWsubsequently addresses plötzlich, so initial abbreviation is not a material omission.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "physicalp3 §3(1)1; p18 rationale",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B16",
+      "verdict": "accept",
+      "reason": "ISOterms bubble/criticalpoints depend on temperature/composition; HSEloss-of-containment discussion corroborates joint variables. Does not imply that pressure limits in an engineered envelope are ineffective.",
+      "evidence_checks": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "definitions3.3 bubble point and3.26 saturation; scope; introduction",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "b-hse-co2",
+          "locator": "Saturation Pressure and Modelling Loss of Containment",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B17",
+      "verdict": "accept",
+      "reason": "HSEfracture and loss-of-containment guidance assesses loads/materials/conditions as well as transitiondynamics. Author does not deny importance of rapid changes.",
+      "evidence_checks": [
+        {
+          "source_id": "b-hse-co2",
+          "locator": "Fracture propagation and Modelling Loss of Containment",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "definition3.22 operating envelope; TOC§6.8.3",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B18",
+      "verdict": "accept",
+      "reason": "Phase state changes during shut-in are physically supported; full claim about harmless standstill transition lacks a specified safeoperating envelope. New C466previewTOC confirms restart/pauseprocedures exist but not actualconstraints. Unresolved retained.",
+      "evidence_checks": [
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "TOC6.8.3 transient multiphase operations and10.3 shutdown; definitions3.22",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "b-hse-co2",
+          "locator": "Stream composition; pressure cycling; loss of containment",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B19",
+      "verdict": "accept",
+      "reason": "Reread text and rationale§3(1)2: safety devices are the apparent referent. Purificationduplicate reading is hedged hypothetical, not a claim that authorities already require it; unresolved rather than factualerror.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "§3(1)1–2; p18 ZuNummer2",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "root-kspg",
+          "locator": "§3no6",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B20",
+      "verdict": "accept",
+      "reason": "Additional-resource effect is plausible, but no independent architecture/magnitude/timingestimate makes material cost/delay certain. No unsupported-to-false conversion.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "p18 rationale; cost assumptions",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B21",
+      "verdict": "accept",
+      "reason": "Literal GasHDrLtgV§3(4)does not state the draft's functional backup clause. Existing code-specific duties not excluded.",
+      "evidence_checks": [
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§3(4)",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "root-draft",
+          "locator": "p18 ZuNummer2",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B22",
+      "verdict": "accept",
+      "reason": "Rationalephysical18justifies fallback by safetyimportance, while rationale17calls hazardscomparable. A comparative sufficiencycritique remains different from denying all rationale; unresolved is fair.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "physicalpp1,17–18 rationale",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B23",
+      "verdict": "accept",
+      "reason": "No countries/codes specified by author. HSEgeneralALARPframework cannot establish absence of equivalentbackuprequirements in other applicable codes or permits. Unresolved appropriate.",
+      "evidence_checks": [
+        {
+          "source_id": "b-hse-co2",
+          "locator": "Legislation and ALARP; incomplete foreign comparator",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B24",
+      "verdict": "accept",
+      "reason": "Reread draft§3(1)3and rationale: words confinedspace/valleys/depressions are not defined. Does not prove uphillrelease routes are legally excluded.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "physicalp4 §3(1)3; p18 rationale",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B25",
+      "verdict": "accept",
+      "reason": "Independent primary-sitePHMSAsearch extraction reproduces reportp11: gasfirstmoveddownslopeeast, filledcrater, then crossedcrestwesttovalley. This supports down-slope hazard but not exactcrestorigin. Agency's reportp10terrain and aerialmap require full inspection; unnamedincidentidentity remains inference. Unresolved retained.",
+      "evidence_checks": [
+        {
+          "source_id": "b-satartia-primary-search",
+          "locator": "PHMSA reportp11 search extraction",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ],
+      "additional_evidence_checks": [
+        {
+          "source_id": "cr-satartia-primary-search",
+          "locator": "PHMSAreportp11primarysearchextraction"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B26",
+      "verdict": "accept",
+      "reason": "C463publisher describes routingsection5.6but not exactoperative releaseconsequence requirements. A chaptertitle cannot establish completeequivalence. Full licensedclauseaccess remains limiting.",
+      "evidence_checks": [
+        {
+          "source_id": "b-c463-shop",
+          "locator": "change list item12; §5.6 Trassierung",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B27",
+      "verdict": "revise",
+      "reason": "Retain unresolved, but add C491previewTOC§5.3Gefährdungsbeurteilungand§9.4.8Sicherheitszonen/Ausbreitungswolken as counterevidence against a broad all-technical-rules interpretation. GasHDrLtgV§3(4),(6)already demands local adaptation/accumulationprotection. Broad deterministic label and exactextent of route-wide assessment still need fullcontext/expertinterpretation.",
+      "evidence_checks": [
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§§3–4",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "b-c463-shop",
+          "locator": "planning/design contents",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "c-iso27913-gso",
+          "locator": "TOC§6.2 safety philosophy",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ],
+      "proposed_result": "unresolved",
+      "additional_evidence_checks": [
+        {
+          "source_id": "cr-c491-preview",
+          "locator": "TOC§5.3;§9.4.8"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B28",
+      "verdict": "accept",
+      "reason": "All five examples directly present in rationalephysical18ZuNummer3.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "physicalp18 ZuNummer3",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B29",
+      "verdict": "accept",
+      "reason": "Plantversusopenroute distinction plausible; C491scope/TOCaddresses plantlayout and gaswarnings. Without definedscenario no general performance/impossibility conclusion can be verified; unresolved retained.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "p18 ZuNummer3",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "b-c491-shop",
+          "locator": "contents§§5.4,7.13,7.15",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B30",
+      "verdict": "accept",
+      "reason": "Draft§3(3)expressly adds every unlawfulattempt and GasHDrLtgV§9concerns accident/damage/dangers. Minorconductinterpretation not settled by the bare wording.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "physicalp4 §3(3)",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "root-gashdrltgv",
+          "locator": "§9(1)–(2)",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B31",
+      "verdict": "accept",
+      "reason": "Independently reread full§3(3)rationalephysical18–19and BDEWparagraph. Rationale exists aboutlife/infrastructureintegrity; response specifically asks whyCO2requiresstricterstandard. Adequacy/comparative reading is reasonable, so no accepted literal falsehood.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "physicalp18 ZuAbsatz3",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B32",
+      "verdict": "revise",
+      "reason": "Amount verified independently in draftphysical8entry2.2(140000thousandEUR), totalphysical12is140960thousand. Correct locator fromphysical7tophysical8. Overall adequacy remains unresolved without comparativecosting; current description should preserve supportedamountversusunresolvedjudgement.",
+      "evidence_checks": [
+        {
+          "source_id": "root-draft",
+          "locator": "physicalp7 entry2.2 and totalphysicalp12",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ],
+      "proposed_result": "unresolved"
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B33",
+      "verdict": "accept",
+      "reason": "Independently read CapTrans§2.3.1and HSEGuidance/Standards: USpracticeprecedescandidate and multiplemodesestablished. Qualification properly distinguishes establishedtransportfromallfuturemixture/networkrisksbeingresolved.",
+      "evidence_checks": [
+        {
+          "source_id": "b-captrans-full",
+          "locator": "§2.4.3 public-pipeline practice",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "b-hse-co2",
+          "locator": "Guidance and Standards",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B34",
+      "verdict": "accept",
+      "reason": "OfficialGGVSEBtitleestablishes2009regimeand current§1road/rail/inlandwater scope; basic existence predatesauthor. Exactpost-Augustamendment not usedtoassesshistoricalcompliance. Insbesondere makesdescriptionnonexhaustive.",
+      "evidence_checks": [
+        {
+          "source_id": "b-ggvseb",
+          "locator": "§1 scope and reference toADR/RID/ADN",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    },
+    {
+      "claim_id": "bmwe-kltgv-2026-007-B35",
+      "verdict": "accept",
+      "reason": "KSpTGplanning/assessmentand§4a(3)ruleframeworkcheckedindependently. Proposedwaterzoneexclusionsvisiblynormative, not claimedcurrentlaw; no errorfrommisreadingtheproposal.",
+      "evidence_checks": [
+        {
+          "source_id": "root-kspg",
+          "locator": "§4 planning and environmental assessment;§4a(3)",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        },
+        {
+          "source_id": "b-c463-shop",
+          "locator": "scope and routing",
+          "review_status": "independently_reopened_relevant_primary_passage_or_scope; access and inference limits retained"
+        }
+      ]
+    }
+  ],
+  "omissions": [
+    {
+      "document_id": "bmwe-kltgv-2026-007",
+      "pdf_pages": [
+        7
+      ],
+      "item": "First explicit release-consequence consideration compared with GasHDrLtgV, separate from chieflydeterministicclassification",
+      "assessment": "Subsumed inB27but make explicit in adjudication;§3(4),(6)alreadyconsiderlocalconditions/accumulation. Doesnotproveformalroute-wideconsequenceriskregimealreadyrequired. No newacceptederror."
+    },
+    {
+      "document_id": "bmwe-kltgv-2026-003",
+      "pdf_pages": [
+        2
+      ],
+      "item": "Substantial net-user extra costs fromequipmentredundancy",
+      "assessment": "Covered jointly byB05cost/equivalenceclaim; no costestimateverified. Retain unresolved rather than treating broadcostclaimasforecastexclusiononly."
+    }
+  ],
+  "sources": [
+    {
+      "id": "cr-satartia-psc",
+      "url": "https://www.psc.nd.gov/webdocs/case/22-0391/591-010.pdf",
+      "retrieved_at": "2026-10-25T08:59:53.020825+00:00",
+      "error": "<urlopen error timed out>",
+      "title": "cr-satartia-psc",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Currentretrievalofdatedpre-authorprimarycontent; accessfailuresnotusableevidence."
+    },
+    {
+      "id": "cr-satartia-official2024",
+      "url": "https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/2024-06/Failure-Investigation-Report-Denbury-Gulf-Coast-Pipeline.pdf",
+      "retrieved_at": "2026-10-25T09:01:22.210704+00:00",
+      "error": "HTTP Error 403: Forbidden",
+      "title": "cr-satartia-official2024",
+      "local_file": null,
+      "sha256": null,
+      "temporal_limit": "Currentretrievalofdatedpre-authorprimarycontent; accessfailuresnotusableevidence."
+    },
+    {
+      "id": "cr-c466-preview",
+      "url": "https://shop.wvgw.de/media/26/5e/a7/1688384068/512042-lp-dvgw-regelwerk-c_466-2023.pdf",
+      "retrieved_at": "2026-10-25T09:01:22.211138+00:00",
+      "final_url": "https://shop.wvgw.de/media/26/5e/a7/1688384068/512042-lp-dvgw-regelwerk-c_466-2023.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "local_file": "research/factual-pilot/sources/cr-c466-preview.pdf",
+      "sha256": "fb3e147f521ec4e13017602d9a5909a8daa55275778a0ae5f9cf0d4227498271",
+      "bytes": 322247,
+      "title": "cr-c466-preview",
+      "temporal_limit": "Currentretrievalofdatedpre-authorprimarycontent; accessfailuresnotusableevidence."
+    },
+    {
+      "id": "cr-c491-preview",
+      "url": "https://shop.wvgw.de/media/19/69/6c/1695387686/511898-lp-dvgw-regelwerk-c_491-2023.pdf",
+      "retrieved_at": "2026-10-25T09:01:22.211302+00:00",
+      "final_url": "https://shop.wvgw.de/media/19/69/6c/1695387686/511898-lp-dvgw-regelwerk-c_491-2023.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "local_file": "research/factual-pilot/sources/cr-c491-preview.pdf",
+      "sha256": "e825aac18911f9dddf0a122cd53a9768b202feb6d0ceba3062967e8f3366efc2",
+      "bytes": 338747,
+      "title": "cr-c491-preview",
+      "temporal_limit": "Currentretrievalofdatedpre-authorprimarycontent; accessfailuresnotusableevidence."
+    },
+    {
+      "id": "cr-satartia-primary-search",
+      "title": "Independent Satartiagovernmentreportsearch/access-extraction",
+      "url": "https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/2024-06/Failure-Investigation-Report-Denbury-Gulf-Coast-Pipeline.pdf",
+      "retrieved_at": "2026-10-25T09:03:48.966658+00:00",
+      "local_file": "research/factual-pilot/sources/cr-satartia-primary-search.json",
+      "sha256": "e28a2b4f3363869861a90f8eef0f726b1fce8c47b5336db56522e796bec5c127",
+      "temporal_limit": "Search/accessresultarchive, notcompletePDF. web-extractionfileisfailedgovmirrorfetchonly."
+    },
+    {
+      "id": "cr-satartia-web-extraction",
+      "title": "Independent Satartiagovernmentreportsearch/access-extraction",
+      "url": "https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/2024-06/Failure-Investigation-Report-Denbury-Gulf-Coast-Pipeline.pdf",
+      "retrieved_at": "2026-10-25T09:03:48.967011+00:00",
+      "local_file": "research/factual-pilot/sources/cr-satartia-web-extraction.json",
+      "sha256": "181fb4d94de93e87534db5f3fd039d39373ff7d586e08b4f28cbe1f168874639",
+      "temporal_limit": "Search/accessresultarchive, notcompletePDF. web-extractionfileisfailedgovmirrorfetchonly."
+    }
+  ],
+  "limitations": [
+    "Full authorpagesindependentlyrereadbeforeinventoryreview; relevantprimarysourcesreopened, notmerelyBconclusionsaccepted.",
+    "Formalengineeringvalidationandfullpaidstandardsnotobtained; preview/TOCestablishestopiccoverageonly.",
+    "NewprimarySatartiaURLfoundbutbothPDFdownloadsblocked/timedout; limitedprimarysearchreproducesp11, exactoriginremainsunresolved.",
+    "Noauthorcontactorspecialistconfirmation.",
+    "OriginalanchorsinBfrequentlycompacted/ellipsised; rootinformedandwillreplacewithshortcontiguousverbatimanchorsduringadjudication.",
+    "BroadDVGWonshore-onlystatementfacescounterevidencebutC-seriescontextmakesmeaninguncertain; do notsilentlypromoteerror."
+  ],
+  "summary": {
+    "claims_reviewed": 45,
+    "accept": 40,
+    "revise": 5,
+    "needs_more_evidence": 0,
+    "new_accepted_errors": 0
+  }
+}

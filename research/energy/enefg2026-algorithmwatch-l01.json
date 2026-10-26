@@ -1,0 +1,106 @@
+{
+  "id": "enefg2026-algorithmwatch-l01",
+  "law_id": "enefg-2026",
+  "document_id": "algorithmwatch-enefg-2026",
+  "status": "ai_screened",
+  "finding_state": "unresolved_lead",
+  "severity": "minor",
+  "favours_author_request": null,
+  "card": {
+    "law_is_about": "Revising energy-efficiency duties for datacentres.",
+    "they_want": "Require additional renewable generation fed into the German electricity grid.",
+    "they_claim": "A sentence can be read as saying German datacentres used 98% renewable energy based on certificates.",
+    "the_problem": "The cited report gives a weighted renewable-energy factor of about 89%; 98% plausibly refers instead to the certificate share within renewable purchases. Wording scope is unresolved."
+  },
+  "claim_quote": {
+    "original": "zu 98% erneuerbare Energie, die auf Herkunftszertifikaten beruhte",
+    "language": "de",
+    "translation_en": "Translation: 98% renewable energy, which was based on guarantees of origin",
+    "locator": {
+      "pdf_page": 8,
+      "printed_page": 8,
+      "section": "2) Zeitgenaue Nutzung zusätzlich erzeugter erneuerbarer Energie",
+      "paragraph": "second"
+    },
+    "underline": "zu 98% erneuerbare Energie"
+  },
+  "counter_quote": {
+    "original": "Total renewable energy consumption from Guarantees of Origin",
+    "language": "en",
+    "source_id": "ec-datacentres-first-report-2025",
+    "locator": {
+      "pdf_page": 18,
+      "printed_page": 16,
+      "table": "11, Germany average column, 12 108 417 kWh row"
+    },
+    "retrieved_at": "2026-10-24"
+  },
+  "request_quote": {
+    "original": "eine Pflicht zur Nutzung von erneuerbaren Energien",
+    "language": "de",
+    "translation_en": "Translation of request fragment: an obligation to use renewable energy",
+    "locator": {
+      "pdf_page": 8,
+      "printed_page": 8,
+      "paragraph": "last main-text paragraph; conditions immediately following require German-grid injection and additional production"
+    }
+  },
+  "correction_if_confirmed": "Distinguish renewable share of total energy from the origin of renewable purchases. The report’s Figure 15 gives Germany a weighted REF near 0.89. Table 11 reports separate Germany averages of 14,084,560 kWh total, 12,397,665 kWh renewable, and 12,108,417 kWh renewable backed by guarantees of origin. Dividing the last two averages gives about 97.7%, explaining the 98% as a different denominator. These averages may use different reporting subsets, so their ratios are not asserted as a new weighted national estimate.",
+  "effect": "If read as a total-energy assertion, the sentence overstates certificate-backed coverage, potentially strengthening the stated criticism of purely accounting-based requirements. The surrounding critique does not depend on a precise 98% total share.",
+  "limits": "This is unresolved wording scope, not an established error. The sentence may be compressed shorthand for almost all renewable purchases being certificate-based, which the table approximately supports. Reported sites are incomplete and weighted aggregates differ from ratios of averages. No conclusion about physical power flows, actual additional generation or the merits of tighter renewable requirements is established. The report describes a 2024 reporting period for earlier activity; the submission’s year label is not adjudicated as a separate issue.",
+  "materiality": "Minor if the literal total-energy reading were confirmed; the author’s broader accounting/additionality argument remains.",
+  "direction_reasoning": "Null while wording scope remains unresolved. On the disputed literal reading a larger accounting share could favour stricter rules, but no established directional effect is assigned.",
+  "confidence": {
+    "text_source_mismatch": "medium",
+    "materiality": "editorial_judgment"
+  },
+  "draft": {
+    "title": "Gesetz zur Beschleunigung der Umsetzung der Energieeffizienzrichtlinie",
+    "version_date": "2026-04-09",
+    "submission_date": "2026-04-17",
+    "source_id": "enefg-draft-2026-04-09",
+    "relevant_provision": "Proposed section 11(5), accounting-based renewable electricity requirement, exact 79-page consultation draft. The submission explicitly identifies 9 April on cover and addresses this requirement on pages 7–10."
+  },
+  "context_checks": [
+    "Read cover and introduction and complete relevant renewable-energy section on pages 7–10, including qualifications, footnotes 20–25 and alternatives for implementing additionality. Visually inspected submission page 8 and primary report table 11.",
+    "Read report methodology around tables 9–11 and its REF discussion and Figure 15, physical pages 45–46. Do not mistake completeness concerns for affirmative proof that the national claim is false.",
+    "The strongest benign reading is a shortened description of the certificate share within renewable purchases; the surrounding paragraph focuses on certificates and may support that reading.",
+    "Independent reviewer checked that the three reported renewable-source component averages sum exactly to the renewable total, strengthening the benign certificate-share reading without resolving all reporting-subset issues."
+  ],
+  "source_ids": [
+    "algorithmwatch-enefg-2026",
+    "ec-datacentres-first-report-2025",
+    "enefg-draft-2026-04-09",
+    "enefg-ministry-consultation-archive-2026"
+  ],
+  "provenance": "Official ministry ZIP member 014, 15 pages, author Dr Julian Bothe, dated 17 April 2026. Exact cited primary report downloaded from the EU Publications Office.",
+  "open_questions": [
+    "Does the syntax assert a 98% total renewable share or describe the source of renewable purchases?",
+    "Can table 11’s average denominators be matched before computing certificate shares?",
+    "Would clarification materially change the policy argument given the independently high reported certificate use?"
+  ],
+  "review": {
+    "specialist": null,
+    "independent_ai": [
+      {
+        "reviewer": "tax_consultations_ai_agent",
+        "date": "2026-10-24",
+        "file": "research/reviews/tax-reviews-energy.json",
+        "status": "unresolved_lead_retained"
+      }
+    ]
+  },
+  "author_response": [],
+  "history": [
+    {
+      "date": "2026-10-24",
+      "event": "Recorded only as unresolved denominator/wording lead after primary methodology and benign-reading checks.",
+      "by": "energy_hearings_ai_screen"
+    },
+    {
+      "date": "2026-10-24",
+      "event": "Independent tax review retained unresolved/minor/null; noted exact component-total sum as evidence for benign reading.",
+      "by": "energy_hearings_ai_screen"
+    }
+  ]
+}

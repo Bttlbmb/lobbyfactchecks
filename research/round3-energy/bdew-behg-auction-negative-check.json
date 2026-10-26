@@ -1,0 +1,33 @@
+{
+  "id": "bdew-behg2026-auction-negative-check",
+  "date": "2026-10-25",
+  "submission": "research/round3-energy/sources/submissions/bt-environment-1222444.pdf",
+  "submission_locator": {
+    "physical_page": 5,
+    "printed_page": 4
+  },
+  "result": "not_promoted",
+  "primary_source": {
+    "url": "https://public.eex-group.com/eex/nehs-reporting/nEHS_Auction_Reporting.csv",
+    "local_file": "research/round3-energy/sources/nehs-auction-reporting-20261025.csv",
+    "sha256": "5c171c0092dbba7932bd063916bc9e5119da9946ebd0d3e1666a477367c20114",
+    "discovery": "Linked from original EEX German nEHS Data page; current download snapshot, not authenticated contemporaneous archive."
+  },
+  "read_extent": "All eleven original result rows and field names read, sums independently recalculated.",
+  "calculation": {
+    "auction_rows": 11,
+    "date_min": "01.07.2026",
+    "date_max": "09.09.2026",
+    "allocated_nEZ": 192084807,
+    "valid_bid_volume_nEZ": 5181694753,
+    "auction_revenue_eur": 12485512455.0,
+    "bids_over_allocated": 26.976078087216965,
+    "allocated_over_bids_percent": 3.7069880831708653,
+    "mean_bidder_count": 109.0,
+    "all_clearing_prices_eur": [
+      65.0
+    ]
+  },
+  "assessment": "Primary results support rounded 192.1 million allowances, 12.5 billion EUR revenue, 5.2 billion bids, 27-fold demand, 3.7 percent allocation, 109 mean bidders and eleven auctions, all clearing at EUR65. A preliminary February calendar is not a valid counter to actual July–September outcomes.",
+  "limits": "Does not validate market-power, distributional-incidence or future-cost conclusions; concentration figures from the separate DEHSt report were not independently checked."
+}
