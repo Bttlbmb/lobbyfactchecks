@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Errors in statements to German lawmakers · Claim Monitor</title>
+<meta name="description" content="Statements to Bundestag committees and ministries, checked against the sources they cite.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0}
+:root{--ink:#14181F;--muted:#566070;--line:#E3E6EB;--soft:#F5F6F8;--blue:#1F4FA3;--amber:#A84A00;--amberbg:#FFF1E5}
+.pg{font-family:Inter,system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.5}
+.serif{font-family:Newsreader,Georgia,serif}
+a{color:var(--blue)}a:hover{color:#163a7a}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.hd{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line)}
+.hd-in{max-width:1120px;margin:0 auto;padding:4px 32px;display:flex;flex-wrap:wrap;gap:0 24px;justify-content:space-between;align-items:center}
+.hd a{color:var(--ink);text-decoration:none;font-size:14px;font-weight:500;display:inline-flex;align-items:center;min-height:44px}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;font-size:13px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 32px}
+.h2{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin:0}
+
+
+.tools{background:#fff;display:flex;flex-wrap:wrap;gap:8px 24px;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:1px solid var(--ink)}
+.seg{display:flex;flex-wrap:wrap;gap:8px}
+.seg button{min-height:44px;padding:0 16px;border:1px solid var(--line);background:#fff;color:var(--ink);font:500 14px Inter,system-ui,sans-serif;cursor:pointer}
+.seg button:hover{background:var(--soft)}
+.seg button[aria-pressed="true"]{border:2px solid var(--ink);padding:0 15px;font-weight:600}
+.count{font-size:13px;color:var(--muted);margin:0}
+
+.dayhd{position:sticky;top:53px;z-index:3;background:#fff;display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:14px 0 10px;border-bottom:1px solid var(--line)}
+.dayhd .n{font-size:13px;color:var(--muted)}
+article.rc{scroll-margin-top:110px;display:grid;grid-template-columns:230px minmax(0,1fr);column-gap:48px;padding:28px 0;border-top:1px solid var(--line);align-items:start}
+.dayhd+article.rc{border-top:0}
+.meta{min-width:0}
+.pagehead{padding:20px 0 4px}
+.pagehead p{margin:0;font-size:15px;line-height:1.5;color:var(--muted);max-width:52em}
+.lawlabel{margin:0 0 4px;font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+article.rc>.fhead{grid-column:1/-1;margin-bottom:6px}
+.fh{margin:0;font:600 20px/1.3 Inter,system-ui,sans-serif;letter-spacing:-.01em}
+.about{margin:4px 0 8px;font-size:13px;line-height:1.45}
+.by{display:block;font-size:13px;color:var(--muted)}
+.by.sib{color:var(--ink);margin:6px 0 2px}
+.tag{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+#findings[data-view="minor"] .tag.sev{display:none}   /* every row in this view is minor, so the label would repeat */
+.tag::before{content:"";width:10px;height:10px;border:2px solid var(--muted);box-sizing:border-box}
+.rows{display:grid;gap:18px;max-width:700px;margin:0}
+.r{display:grid;grid-template-columns:120px minmax(0,1fr);gap:0 20px}
+.r dt{font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding-top:5px}
+.r dd{margin:0;font-size:15px}
+.r.said dd,.r.real dd{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:20px;line-height:1.35;padding-left:14px;border-left:3px solid}
+.r.said dd{color:var(--amber);border-color:var(--amber)}
+.r.real dd{border-color:var(--ink)}
+.more{display:inline-flex;align-items:center;min-height:44px;margin-top:8px;font-size:14px;font-weight:500;color:var(--blue)}
+.showmore{margin:28px 0 0}
+.showmore button{min-height:44px;padding:0 18px;border:1px solid var(--ink);background:#fff;color:var(--ink);font:500 14px Inter,system-ui,sans-serif;cursor:pointer}
+.showmore button:hover{background:var(--soft)}
+.empty{padding:40px 0;color:var(--muted)}
+footer{margin-top:56px;padding:24px 0 48px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+footer p{margin:0 0 6px;max-width:760px}
+@media (max-width:960px){
+ article.rc{grid-template-columns:minmax(0,1fr);row-gap:14px}
+ article.rc>.fhead{margin-bottom:0}
+}
+@media (max-width:760px){
+ .hd-in,.wrap{padding-left:20px;padding-right:20px}
+ .tools,.dayhd{position:static}
+}
+@media (max-width:640px){
+ .r{grid-template-columns:minmax(0,1fr);gap:2px}
+}
+</style>
+</head>
+<body>
+<div class="pg">
+<header class="hd"><div class="hd-in"><a href="index.html" class="serif" style="font-size:20px;font-weight:600">Claim Monitor</a><nav aria-label="Main"><a href="about.html">About &amp; data</a></nav></div></header>
+<main class="wrap" id="findings">
+<h1 class="vh">Errors in statements to German lawmakers</h1>
+<header class="pagehead"><p>Statements to Bundestag committees and ministries, checked against the sources they cite.</p></header>
+<div class="tools">
+<div class="seg" role="group" aria-label="Filter findings">
+<button type="button" data-f="fav" aria-pressed="false">Major errors that favour the request</button>
+<button type="button" data-f="major" aria-pressed="true">Major errors</button>
+<button type="button" data-f="minor" aria-pressed="false">Minor errors</button>
+</div>
+<p class="count" id="count" aria-live="polite">13 findings</p>
+</div>
+<section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 12 October 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="mietrechtII2026-rueckmann-root02" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Tenancy law reform II</p><h3 class="fh">Expert statement by Ann-Kathrin Rückmann</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Changing short-term rentals, furnishing surcharges, index-linked rent increases and termination protections.</p><a class="more" href="evidence/mietrechtII2026-rueckmann-root02.html">Open the evidence<span class="vh"> for Tenancy law reform II, Ann-Kathrin Rückmann, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Replace the proposed stepped index-rent formula with a lower absolute limit.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Destatis data and calculators concern calendar years, creating problems for rental periods that start within a year.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Destatis provides monthly indices and its dated calculator manual expressly supports flexible starting and ending periods.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes the claimed calendar-year limitation as a reason why the proposed formula is especially difficult for tenancy periods beginning within a year. That premise supports the request for a simpler absolute cap.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 1 October 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="eeg2027-bsw-consumer-costs-a02" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Renewable Energy Act 2027 (EEG)</p><h3 class="fh">Statement by BSW-Solar</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Renewable-electricity support and marketing rules, including small rooftop systems.</p><span class="by sib">One of 2 findings in this statement</span><span class="by desc">solar industry association</span><a class="more" href="evidence/eeg2027-bsw-consumer-costs-a02.html">Open the evidence<span class="vh"> for Renewable Energy Act 2027 (EEG), BSW-Solar, solar industry association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Preserve the fixed feed-in tariff for rooftop solar.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The cited study means 15.7 billion euros lower costs for energy consumers.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>That combined value includes 2.6 billion euros of export receipts; the study separately assigns 13.1 billion to lower procurement prices.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Weakens the depicted size of the consumer cost-saving component supporting continued subsidy. It leaves the study’s combined 15.7 billion value and positive sign intact.</dd></div>
+</dl>
+</article><article class="rc" id="eeg2027-bsw-price-percent-a01" data-sev="minor" data-fav="false" hidden>
+<header class="fhead"><p class="lawlabel">Renewable Energy Act 2027 (EEG)</p><h3 class="fh">Statement by BSW-Solar</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Works against the author’s request</span><p class="about">Renewable-electricity support and marketing rules, including small rooftop systems.</p><span class="by sib">One of 2 findings in this statement</span><span class="by desc">solar industry association</span><a class="more" href="evidence/eeg2027-bsw-price-percent-a01.html">Open the evidence<span class="vh"> for Renewable Energy Act 2027 (EEG), BSW-Solar, solar industry association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Preserve the fixed feed-in tariff for rooftop solar.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The cited scenario makes 2025 electricity prices 20 percent higher without solar.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Its detailed figures imply about 26.3 percent higher without solar;20.8 percent is the reduction in the reverse direction.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>The printed percentage understates the modelled no-solar price increase; correction strengthens this supporting pro-solar point rather than weakening it.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 30 September 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="netzpaket2026-bee-map-a01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Grid connection package</p><h3 class="fh">Statement by BEE</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Grid connection priorities, congestion rules and digital connection procedures.</p><span class="by desc">renewable energy federation</span><a class="more" href="evidence/netzpaket2026-bee-map-a01.html">Open the evidence<span class="vh"> for Grid connection package, BEE, renewable energy federation</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Require current network data and faster, uniform digital grid procedures.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Grey areas in a regulator map are among regions whose grid operators lag dramatically in digitalisation.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The map defines grey as missing data or an index that could not be calculated, rather than measured poor digitalisation.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Weakens the claim that the reproduced map demonstrates dramatic digitalisation deficits in the grey areas. The other coloured areas may still support the author’s broader concern.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 22 September 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="fruehstart2026-vzbv-allocation-tax-r2-10" data-sev="minor" data-fav="false" hidden>
+<header class="fhead"><p class="lawlabel">Early-start pension</p><h3 class="fh">Statement by vzbv</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Works against the author’s request</span><p class="about">A state-funded private-pension starting balance for children, with a collective default investment option.</p><span class="by desc">consumer federation</span><a class="more" href="evidence/fruehstart2026-vzbv-allocation-tax-r2-10.html">Open the evidence<span class="vh"> for Early-start pension, vzbv, consumer federation</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Bind the collective investment strategy more tightly in the statute, including broad diversification, passive management and low costs.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The government bill already requires the collective fund to invest exclusively in globally diversified stocks or stock funds.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The addressed September government bill does not impose the stock-only requirement. That appeared in the earlier July consultation draft and was later restored in October.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>The original government bill leaves more statutory investment discretion than described. Correcting that description strengthens, rather than defeats, the request to anchor additional investment safeguards directly in law.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 2 September 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="duengg2026-dbv-root04" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Fertiliser Act amendment</p><h3 class="fh">Statement by Deutscher Bauernverband</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Changing fertiliser-law monitoring, reporting powers and farm nutrient-balance rules.</p><span class="by desc">farmers’ association</span><a class="more" href="evidence/duengg2026-dbv-root04.html">Open the evidence<span class="vh"> for Fertiliser Act amendment, Deutscher Bauernverband, farmers’ association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Remove farm nutrient-balance rules and limit additional reporting and regulatory burdens.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Nitrogen-fertiliser sales fell 43% from the 2016/17 to 2023/24 marketing year.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The official table for those seasons gives a decline of about 37.4%; the reduction remains substantial.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Reduces the size of this introductory progress statistic used to support avoiding further regulatory and reporting burdens. It does not erase the marked fall in fertiliser sales.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 19 June 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="gmodg2026-dmb-energy-poverty-a01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Buildings Energy Act reform (GMoDG)</p><h3 class="fh">Statement by Deutscher Mieterbund</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Revising building-energy and heating rules, including tenant cost allocation.</p><span class="by desc">tenants’ association</span><a class="more" href="evidence/gmodg2026-dmb-energy-poverty-a01.html">Open the evidence<span class="vh"> for Buildings Energy Act reform (GMoDG), Deutscher Mieterbund, tenants’ association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>A technology-neutral heating-cost cap and stronger tenant protection.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The population share meeting a low/lower-middle-income energy-poverty definition rose from 14.5% to 25.2%.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Those figures belong to the cited study’s broader measure without that income restriction.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>The narrower-income vulnerability statistic is overstated relative to the cited measure, weakening this introductory support for the requested cost protection.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 22 May 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="ggdg2026-hateaid-a01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Digital violence act</p><h3 class="fh">Statement by HateAid</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Civil and criminal protection against digital violence, including disclosure of account data.</p><span class="by desc">civil-society organisation</span><a class="more" href="evidence/ggdg2026-hateaid-a01.html">Open the evidence<span class="vh"> for Digital violence act, HateAid, civil-society organisation</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Extend disclosure to telecom and email providers to identify authors.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Even prepaid SIM purchase within the EU requires data verification.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>EU countries have different rules; Finnish anonymous prepaid services supply a counterexample.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Narrows the assumed coverage of verified telephone identities supporting the requested extension.</dd></div>
+</dl>
+</article><article class="rc" id="ggdg2026-sdc-root01" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">Digital violence act</p><h3 class="fh">Statement by Stiftung Digitale Chancen</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">Civil and criminal protection against digital violence.</p><span class="by desc">foundation</span><a class="more" href="evidence/ggdg2026-sdc-root01.html">Open the evidence<span class="vh"> for Digital violence act, Stiftung Digitale Chancen, foundation</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Involve young people and adapt the law to minors’ needs.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The cited study measured 231 minutes online daily.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The measure is smartphone screen time for a defined respondent subset.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Corrects what the cited usage figure measures. It cannot quantify the total time minors were online or their exposure to digital violence.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 20 April 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="bstabg2026-pharmadeutschland-social09" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Health insurance contribution stabilisation</p><h3 class="fh">Statement by Pharma Deutschland</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Limiting health-insurance spending, including volume-related reductions in reimbursement for digital health applications (DiGA).</p><span class="by desc">industry association</span><a class="more" href="evidence/bstabg2026-pharmadeutschland-social09.html">Open the evidence<span class="vh"> for Health insurance contribution stabilisation, Pharma Deutschland, industry association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Reject additional price controls for DiGA.</dd></div>
+<div class="r said"><dt>They said</dt><dd>DiGA enter care only after a positive healthcare effect has been demonstrated.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Lower-risk DiGA may be admitted and reimbursed provisionally while the required effect is still being tested. Permanent admission requires the evidence.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Qualifies the premise that all reimbursed DiGA already have a demonstrated positive effect. It weakens that part of the argument that further reimbursement controls would penalise established beneficial care, but does not determine whether the proposed volume reductions are appropriate.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 17 April 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="bstabg2026-dzvhae-a01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Health insurance contribution stabilisation</p><h3 class="fh">Statement by DZVhÄ</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Stabilising statutory health insurance contributions and ending reimbursement for named complementary therapies.</p><span class="by sib">One of 2 findings in this statement</span><span class="by desc">homeopathic physicians’ association</span><a class="more" href="evidence/bstabg2026-dzvhae-a01.html">Open the evidence<span class="vh"> for Health insurance contribution stabilisation, DZVhÄ, homeopathic physicians’ association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Keep homeopathic treatments reimbursable.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Swiss homeopathy has been a permanent insurance benefit since a 2005 HTA.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Medical homeopathy coverage ended in 2005, returned provisionally in 2012 and became permanent in 2017.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Weakens the claimed duration and continuity of the international reimbursement precedent.</dd></div>
+</dl>
+</article><article class="rc" id="bstabg2026-dzvhae-a02" data-sev="minor" data-fav="false" hidden>
+<header class="fhead"><p class="lawlabel">Health insurance contribution stabilisation</p><h3 class="fh">Statement by DZVhÄ</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Works against the author’s request</span><p class="about">Stabilising statutory health insurance contributions and ending reimbursement for named complementary therapies.</p><span class="by sib">One of 2 findings in this statement</span><span class="by desc">homeopathic physicians’ association</span><a class="more" href="evidence/bstabg2026-dzvhae-a02.html">Open the evidence<span class="vh"> for Health insurance contribution stabilisation, DZVhÄ, homeopathic physicians’ association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Keep homeopathic treatments reimbursable.</dd></div>
+<div class="r said"><dt>They said</dt><dd>About 40 million euros a year equals 0.03% of GKV expenditure.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Against the latest then-published annual total, it equals about 0.0114%.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Reduces the stated relative expenditure share; the small-budget argument survives and becomes numerically stronger.</dd></div>
+</dl>
+</article><article class="rc" id="enefg2026-hansgrohe-a01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Energy Efficiency Act (EnEfG)</p><h3 class="fh">Statement by Hansgrohe SE</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">An ongoing bill revising energy-efficiency obligations, including annual savings by public bodies.</p><span class="by desc">company</span><a class="more" href="evidence/enefg2026-hansgrohe-a01.html">Open the evidence<span class="vh"> for Energy Efficiency Act (EnEfG), Hansgrohe SE, company</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Explicitly recognise efficient hot-water fixtures as a public-sector energy-saving contribution.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The EU requires new publicly owned buildings to be zero-emission from 1 January 2027.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The enacted directive sets 1 January 2028; the submission advances that deadline by one year.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Makes the cited regulatory development one year less immediate, weakening a timing reason for adding explicit hot-water-efficiency recognition.</dd></div>
+</dl>
+</article></section><section class="day" data-day><div class="dayhd"><h2 class="h2">Submitted on 16 April 2026</h2><span class="n"><span data-n>1</span> findings</span></div><article class="rc" id="enefg2026-dce-a01" data-sev="major" data-fav="true">
+<header class="fhead"><p class="lawlabel">Energy Efficiency Act (EnEfG)</p><h3 class="fh">Statement by Data Center Excellence GmbH</h3></header>
+<div class="meta"><p class="about">Revising energy-efficiency duties and datacentre reporting.</p><span class="by desc">company</span><a class="more" href="evidence/enefg2026-dce-a01.html">Open the evidence<span class="vh"> for Energy Efficiency Act (EnEfG), Data Center Excellence GmbH, company</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Enumerate which data may be withheld from the federal register and impose a justification duty.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The draft confidentiality exception allows withholding register data, making reporting to the EU impossible.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The exception concerns public publication. Mandatory transmission to the federal authority and onward EU reporting remain, with confidentiality safeguards.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes the factual premise that this amendment permits wholesale non-reporting and makes EU reporting impossible. That premise directly supports the requested exhaustive list and extra justification requirement.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 14 April 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="abortionaccess2026-1000plus-social02" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Abortion access motion</p><h3 class="fh">Statement by 1000plus / Profemina</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">A parliamentary motion requesting measures to improve access to abortion services, including staffing, training and telemedical support.</p><a class="more" href="evidence/abortionaccess2026-1000plus-social02.html">Open the evidence<span class="vh"> for Abortion access motion, 1000plus / Profemina</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Reject the motion and prioritise counselling and practical support for continuing pregnancy.</dd></div>
+<div class="r said"><dt>They said</dt><dd>An abortion-rate rise from 56 to 63 per 10,000 women equals 14.3%.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Using the stated rates, the increase is 12.5%. The percentage exaggerates the rise, but its upward direction remains.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Slightly weakens the magnitude used in the argument that rising abortions show no need to expand provision. It does not establish whether access is adequate; national totals alone do not settle regional barriers.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 8 April 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="stberg2026-bstbk-tax-r2-04" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Tax Advisers Act, 9th amendment</p><h3 class="fh">Statement by Bundessteuerberaterkammer</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Reform of tax-advice permissions and several tax rules, including real-estate transfer tax.</p><span class="by desc">tax advisers’ chamber</span><a class="more" href="evidence/stberg2026-bstbk-tax-r2-04.html">Open the evidence<span class="vh"> for Tax Advisers Act, 9th amendment, Bundessteuerberaterkammer, tax advisers’ chamber</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Clarify the transfer-tax classification of photovoltaic systems on mounting structures and consider an exemption for certain sizes.</dd></div>
+<div class="r said"><dt>They said</dt><dd>A named 2010 BFH judgment had already classified such photovoltaic systems as business equipment.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The named judgment concerns pig-barn feeding and ventilation equipment and VAT adjustment periods; it makes no photovoltaic ruling.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes the claimed direct BFH precedent from the argument for clarifying photovoltaic transfer-tax treatment.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 17 March 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="luftvst2026-bdi-tax04" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">Air travel tax amendment</p><h3 class="fh">Statement by BDI</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">Reducing German air passenger tax from July 2026.</p><span class="by desc">industry federation</span><a class="more" href="evidence/luftvst2026-bdi-tax04.html">Open the evidence<span class="vh"> for Air travel tax amendment, BDI, industry federation</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Restore the ETS-linked annual tax abatement mechanism.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The cited 2019 tax amendment entered force on 1 April 2024.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>It entered force on 1 April 2020; this is a chronology error.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Corrects the history. It does not materially weaken the request for reinstatement.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 12 March 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="altersvorsorge2026-vzbv-tax-r2-06" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Private pension reform</p><h3 class="fh">Statement by vzbv</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Reform of tax-subsidised private pension saving, including new pension depots and a limit on qualifying contracts.</p><span class="by desc">consumer federation</span><a class="more" href="evidence/altersvorsorge2026-vzbv-tax-r2-06.html">Open the evidence<span class="vh"> for Private pension reform, vzbv, consumer federation</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Clarify that the two-contract limit applies only to newly concluded contracts, protecting existing pension arrangements.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Concluding a third contract makes the first contract lose pension-contract status.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The addressed bill excludes the third and subsequent contracts. The author’s own proposed wording on the same page already says third.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes the stated first-contract-disqualification mechanism from the argument that older advantageous contracts might be pushed out through new sales. It narrows one rationale for the requested wording clarification.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 6 March 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="mietrechtII2026-wie-root01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Tenancy law reform II</p><h3 class="fh">Statement by Wohnen im Eigentum</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Regulating short-term and furnished rentals, index-linked rents and protection against termination after arrears are paid.</p><span class="by desc">homeowners’ association</span><a class="more" href="evidence/mietrechtII2026-wie-root01.html">Open the evidence<span class="vh"> for Tenancy law reform II, Wohnen im Eigentum, homeowners’ association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Replace the proposed six-month limit with a rebuttable presumption or a longer limit.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The draft makes rental duration the only criterion for the short-term exception and removes consideration of the particular purpose.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The operative draft expressly retains a special-need criterion alongside the six-month duration limit.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes the stated premise that the draft abandons examination of the particular rental purpose. This weakens that part of the justification for replacing the proposed definition.</dd></div>
+</dl>
+</article></section><section class="day" data-day><div class="dayhd"><h2 class="h2">Submitted on 2 March 2026</h2><span class="n"><span data-n>1</span> findings</span></div><article class="rc" id="thg2026-hornsteiner-evidence-a01" data-sev="major" data-fav="true">
+<header class="fhead"><p class="lawlabel">Greenhouse-gas quota act</p><h3 class="fh">Expert statement by Matthias Hornsteiner</h3></header>
+<div class="meta"><p class="about">Increasing transport-fuel greenhouse-gas reduction quotas and implementing RED III.</p><a class="more" href="evidence/thg2026-hornsteiner-evidence-a01.html">Open the evidence<span class="vh"> for Greenhouse-gas quota act, Matthias Hornsteiner, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Do not base policy on the climate premises used to justify this bill.</dd></div>
+<div class="r said"><dt>They said</dt><dd>No indications of anthropogenic climate warming are known.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Published field measurements provide empirical evidence of increasing greenhouse forcing linked to human emissions.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Undercuts the categorical absence-of-evidence premise supporting refusal to base policy on anthropogenic-warming concerns.</dd></div>
+</dl>
+</article><article class="rc" id="apovwg2026-raddatz-social05" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Pharmacy care reform (ApoVWG)</p><h3 class="fh">Expert statement by Marc Raddatz</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Reforming pharmacy services, operating rules and the basis for remuneration.</p><span class="by sib">One of 2 findings in this statement</span><a class="more" href="evidence/apovwg2026-raddatz-social05.html">Open the evidence<span class="vh"> for Pharmacy care reform (ApoVWG), Marc Raddatz, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Raise the fixed pharmacy fee and adjust it automatically each year.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The momentum of pharmacy closures increases every year.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Both gross closures and the net loss slowed in 2025, although the number of pharmacies kept falling.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Weakens the claim of uninterrupted annual acceleration used to intensify the urgency of the request for higher fees. It leaves the continuing large loss of pharmacy sites intact.</dd></div>
+</dl>
+</article><article class="rc" id="apovwg2026-raddatz-social06" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">Pharmacy care reform (ApoVWG)</p><h3 class="fh">Expert statement by Marc Raddatz</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">Reforming pharmacy services, operating rules and the basis for remuneration.</p><span class="by sib">One of 2 findings in this statement</span><a class="more" href="evidence/apovwg2026-raddatz-social06.html">Open the evidence<span class="vh"> for Pharmacy care reform (ApoVWG), Marc Raddatz, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Increase the fixed fee, abolish the pharmacy discount and index remuneration.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The effective fixed fee after the insurance discount is€6.58.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The calculation subtracts a gross discount from a net fee. The comparable net remainder is about€6.86; effects on the rhetoric and derived target run in different directions.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>The current net fixed-fee remainder is understated by about 28 cents, which makes present remuneration look smaller. Yet the same understated baseline also lowers the author’s derived replacement amount: retaining only their 40 percentuplift and€0.80 addition gives approximately€10.41 net rather than€10.01 net.</dd></div>
+</dl>
+</article></section><section class="day" data-day><div class="dayhd"><h2 class="h2">Hearing on 23 February 2026</h2><span class="n"><span data-n>1</span> findings</span></div><article class="rc" id="grundsicherung2026-vansuntum-social01" data-sev="major" data-fav="true">
+<header class="fhead"><p class="lawlabel">Basic income support reform</p><h3 class="fh">Expert statement by van Suntum</h3></header>
+<div class="meta"><p class="about">Replacing Bürgergeld with a revised means-tested basic-security system, including stronger obligations and benefit reductions.</p><a class="more" href="evidence/grundsicherung2026-vansuntum-social01.html">Open the evidence<span class="vh"> for Basic income support reform, van Suntum, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Go beyond the government bill and introduce compulsory work, including placements in private businesses.</dd></div>
+<div class="r said"><dt>They said</dt><dd>A current Bertelsmann survey shows that the majority of Bürgergeld recipients are not interested in being placed in work.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The matched survey measures recent job-search behaviour in a restricted sample; not searching in four weeks is not a finding of disinterest. Most non-searchers reported health obstacles.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes the survey-based majority-disinterest premise used to support stronger compulsory-work obligations. The evidence identifies heterogeneous search barriers and cannot alone establish that compulsion addresses recipients’ willingness.</dd></div>
+</dl>
+</article></section><section class="day" data-day><div class="dayhd"><h2 class="h2">Submitted on 8 February 2026</h2><span class="n"><span data-n>1</span> findings</span></div><article class="rc" id="wolf2026-pfannenstiel-root06" data-sev="major" data-fav="true">
+<header class="fhead"><p class="lawlabel">Wolf management, Federal Hunting Act</p><h3 class="fh">Expert statement by Hans-Dieter Pfannenstiel</h3></header>
+<div class="meta"><p class="about">Adding wolves to federal hunting law and regulating regular hunting and targeted removals.</p><a class="more" href="evidence/wolf2026-pfannenstiel-root06.html">Open the evidence<span class="vh"> for Wolf management, Federal Hunting Act, Hans-Dieter Pfannenstiel, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Broader regular wolf hunting, with fewer conservation-status obstacles.</dd></div>
+<div class="r said"><dt>They said</dt><dd>An absence of favourable conservation status among German wolves cannot justify opposition to regular hunting, because the whole European population is decisive.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The cited judgment expressly requires local and national assessment. Cross-border exchange can support favourable status; a favourable European population does not replace the national assessment.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes the stated legal basis for dismissing the German conservation-status condition in the argument for regular hunting. It does not establish the outcome of any particular hunting application.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 28 January 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="ipspeicherung2026-brak-root01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">IP address retention</p><h3 class="fh">Statement by BRAK</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Mandatory three-month retention of IP-address assignment data and other digital investigation powers.</p><span class="by desc">federal bar association</span><a class="more" href="evidence/ipspeicherung2026-brak-root01.html">Open the evidence<span class="vh"> for IP address retention, BRAK, federal bar association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Oppose indiscriminate retention and require stronger justification for the proposed powers.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Germany had effectively conducted no data retention for over 18 years by January 2026.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Actual retained data existed under the 2008 regime before the March 2010 judgment; the latest continuous gap then measured less than 16 years.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Slightly weakens the length-of-experience premise used to question necessity. The long subsequent period without the invalidated regime remains; no claimed change in crime clearance follows from correcting this date.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 26 January 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="forg2026-financewatch-tax07" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">Fund risk-limitation act</p><h3 class="fh">Statement by Finance Watch</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">Implementing EU rules on fund leverage, liquidity management and clearing.</p><span class="by desc">civil-society organisation</span><a class="more" href="evidence/forg2026-financewatch-tax07.html">Open the evidence<span class="vh"> for Fund risk-limitation act, Finance Watch, civil-society organisation</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Broader and more consistent safeguards for leveraged funds.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The Credit Suisse group collapsed in March 2024.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The emergency takeover was announced in March 2023; the year is wrong.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Corrects the chronology of an ancillary historical example. The leverage-risk argument remains.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Hearing on 12 January 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="mindestlohn2026-bda-a01" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">Minimum wage motions</p><h3 class="fh">Statement by BDA</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">Two Bundestag motions seeking a 15 euro minimum wage and changes to the adjustment process.</p><span class="by desc">employers’ association</span><a class="more" href="evidence/mindestlohn2026-bda-a01.html">Open the evidence<span class="vh"> for Minimum wage motions, BDA, employers’ association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Reject statutory changes to the minimum-wage reference value and adjustment process.</dd></div>
+<div class="r said"><dt>They said</dt><dd>BT 21/346 is attributed to Die Linke and 21/347 to the Greens.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The authorship is reversed: 21/346 is the Greens’ motion and 21/347 Die Linke’s.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Corrects attribution and navigation; no substantive economic or legal argument is shown to change.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Hearing on 1 December 2025</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="aktivrente2025-brussig-social07" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">Aktivrente for working pensioners</p><h3 class="fh">Expert statement by Martin Brussig</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">A tax exemption for qualifying employment income after statutory retirement age.</p><a class="more" href="evidence/aktivrente2025-brussig-social07.html">Open the evidence<span class="vh"> for Aktivrente for working pensioners, Martin Brussig, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Reject the Aktivrente and improve working conditions and support for healthy ageing instead.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The German microcensus surveys 0.1 percent of the resident population.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Its basic annual sample is about 1 percent. This is a narrow survey-description error, not a demonstrated error in the author’s estimates.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Corrects a background description of the data used in the argument. A larger basic survey sample would ordinarily support rather than undermine potential statistical precision, but the policy estimates cannot be recalculated from this sentence.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 27 November 2025</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="stofoeg2025-startups-taxbase-tax-r2-11" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">standortfoerdergesetz 2025</p><h3 class="fh">Statement by Startup-Verband</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Improving financing conditions and reducing financial-market bureaucracy, with a companion motion on exit taxation.</p><span class="by desc">startup association</span><a class="more" href="evidence/stofoeg2025-startups-taxbase-tax-r2-11.html">Open the evidence<span class="vh"> for standortfoerdergesetz 2025, Startup-Verband, startup association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Defer exit tax until an actual sale or exempt shareholders of young companies.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Exit tax is approximately 28% of the fair value of the held stake.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The tax is calculated on the deemed disposal gain after acquisition costs, rather than automatically on the whole stake value.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>For holders with a material acquisition-cost basis, describing the tax as a share of total value overstates the amount. Correcting it weakens that numerical burden rationale for the requested deferral or exemption. A dry-income liability can remain on an unrealised gain.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 10 November 2025</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="rentenniveau2025-werding-social10" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">rentenniveau kindererziehung 2025</p><h3 class="fh">Expert statement by Martin Werding</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">Keeping the pension level at 48 percent and extending childrearing credits for births before 1992.</p><a class="more" href="evidence/rentenniveau2025-werding-social10.html">Open the evidence<span class="vh"> for rentenniveau kindererziehung 2025, Martin Werding, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Omit the proposed further increase in childrearing credits.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The 1992 birth-date cutoff was chosen in a reform following the constitutional judgment of 7 July 1992.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The cutoff already operated from January 1992 under the 1989 reform. This is a narrow chronology issue; later constitutional decisions also supported the cutoff.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Corrects the order of judgment and reform in the historical explanation. It does not refute the separate claim that a cutoff can be legally permissible: the 1996 decision expressly found no unconstitutional inequality in this distinction. The effect on the author’s request is therefore left unknown.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Hearing on 13 October 2025</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="dac8-2025-georg-growth-tax-r2-08" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">DAC8 crypto-tax reporting</p><h3 class="fh">Expert statement by Pierre Georg</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Reporting cryptoasset transactions to tax authorities and exchanging that information internationally.</p><a class="more" href="evidence/dac8-2025-georg-growth-tax-r2-08.html">Open the evidence<span class="vh"> for DAC8 crypto-tax reporting, Pierre Georg, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Review the tax incentives for crypto investors and strengthen the information available for enforcement.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Blockpit reports that the number of crypto holders has increased by 400% since 2021.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The cited report says fourfold, which means an increase of 300%, not 400%. The narrow correction does not settle the future growth forecast.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Reduces the historical growth percentage used to challenge the government’s 5% annual assumption and motivate greater attention to crypto tax incentives. It leaves the qualitative observation of rapid growth intact.</dd></div>
+</dl>
+</article></section><section class="day" data-day><div class="dayhd"><h2 class="h2">Submitted on 8 October 2025</h2><span class="n"><span data-n>1</span> findings</span></div><article class="rc" id="dac8-2025-dstg-tax-r2-07" data-sev="major" data-fav="true">
+<header class="fhead"><p class="lawlabel">DAC8 crypto-tax reporting</p><h3 class="fh">Statement by DSTG</h3></header>
+<div class="meta"><p class="about">Tax-authority reporting and international information exchange for cryptoasset transactions.</p><span class="by desc">tax employees’ union</span><a class="more" href="evidence/dac8-2025-dstg-tax-r2-07.html">Open the evidence<span class="vh"> for DAC8 crypto-tax reporting, DSTG, tax employees’ union</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>At least €50 million for analysis technology and 500 additional specialist posts.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Operation Hidden Treasure produced $3.5 billion in crypto seizures and a return on investment exceeding 1:50.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The $3.5 billion is the IRS Criminal Investigation annual crypto-seizure total, including a billion-dollar seizure before the operation started. It is not a measured result or fiscal return of that operation.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes the claimed quantified American programme result used to make the proposed German resource expansion appear rapidly self-financing. The actual IRS seizure achievements remain real.</dd></div>
+</dl>
+</article></section><section class="day" data-day><div class="dayhd"><h2 class="h2">Submitted on 23 June 2025</h2><span class="n"><span data-n>1</span> findings</span></div><article class="rc" id="invest2025-eichfelder-tax-r2-03" data-sev="major" data-fav="true">
+<header class="fhead"><p class="lawlabel">Immediate investment tax programme</p><h3 class="fh">Expert statement by Sebastian Eichfelder</h3></header>
+<div class="meta"><p class="about">Business-investment tax incentives and staged corporation-tax reductions; the same hearing also considered a motion to remove tax privileges.</p><a class="more" href="evidence/invest2025-eichfelder-tax-r2-03.html">Open the evidence<span class="vh"> for Immediate investment tax programme, Sebastian Eichfelder, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Restrict tax privileges for the upper income group and reject the proposed permanent rate cuts.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The top 1% income share rose from 21.0% in 1995 to 29.76% in 2017.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Those figures match the top 5% in the primary fiscal-income dataset; its top 1% shares are 8.16% and 14.09%.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes a substantial overstatement of the concentration attributed specifically to the top 1%, which the following sentence uses to support its account of tax policy favouring that group.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 20 June 2025</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="invest2025-meyer-tax-r2-01" data-sev="minor" data-fav="false" hidden>
+<header class="fhead"><p class="lawlabel">Immediate investment tax programme</p><h3 class="fh">Expert statement by Dirk Meyer</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Works against the author’s request</span><p class="about">Tax changes intended to encourage business investment, including preferential treatment of electric business cars.</p><a class="more" href="evidence/invest2025-meyer-tax-r2-01.html">Open the evidence<span class="vh"> for Immediate investment tax programme, Dirk Meyer, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Oppose the specific preferential treatment of electric business cars.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The qualifying vehicle-price ceiling rises from €75,000 to €100,000.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The exact addressed draft raises it from €70,000, so the expansion is €30,000 rather than €25,000.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>The correction makes the price-ceiling expansion larger; it does not undermine the author’s criticism of preferential treatment.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 31 October 2024</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="geowg2024-muellersyhre-a03" data-sev="minor" data-fav="false" hidden>
+<header class="fhead"><p class="lawlabel">Geothermal and heat-pump acceleration act</p><h3 class="fh">Expert statement by Reinhard Müller-Syhre</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Works against the author’s request</span><p class="about">Accelerating geothermal heat, heat-pump and heat-storage permits.</p><a class="more" href="evidence/geowg2024-muellersyhre-a03.html">Open the evidence<span class="vh"> for Geothermal and heat-pump acceleration act, Reinhard Müller-Syhre, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Reject the whole bill.</dd></div>
+<div class="r said"><dt>They said</dt><dd>A 33 ct household electricity input and 0.347 heat/electricity ratio produce a monetary ratio of 1.592.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The official electricity average is 42.29 ct; also 9.5/33 is 0.28788. Correcting both inputs yields about 1.031 under the same model.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Lowers the stated monetary heat-output/electricity-cost ratio. Both errors made the hypothetical heat-pump case appear more favourable.</dd></div>
+</dl>
+</article></section><section class="day" data-day><div class="dayhd"><h2 class="h2">Hearing on 25 September 2024</h2><span class="n"><span data-n>1</span> findings</span></div><article class="rc" id="wassbg2024-waniczek-a01" data-sev="major" data-fav="true">
+<header class="fhead"><p class="lawlabel">Hydrogen acceleration act</p><h3 class="fh">Expert statement by Helmut Waniczek</h3></header>
+<div class="meta"><p class="about">Faster permitting, procurement and legal procedures for hydrogen infrastructure.</p><a class="more" href="evidence/wassbg2024-waniczek-a01.html">Open the evidence<span class="vh"> for Hydrogen acceleration act, Helmut Waniczek, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Oppose acceleration on the stated ground that technical and economic prerequisites are missing.</dd></div>
+<div class="r said"><dt>They said</dt><dd>No industrial gas turbine anywhere had operated on pure hydrogen.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>An industrial SGT-400 turbine had run on 100% hydrogen in France in 2023.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Contradicts the categorical claim of zero prior industrial-turbine operation, weakening the stated technical-prerequisites argument against acceleration.</dd></div>
+</dl>
+</article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">Submitted on 29 April 2024</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="begiv2024-bitkom-tax08" data-sev="minor" data-fav="false" hidden>
+<header class="fhead"><p class="lawlabel">Bureaucracy Relief Act IV</p><h3 class="fh">Statement by Bitkom</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Works against the author’s request</span><p class="about">Reducing paperwork, record-retention duties and formal requirements.</p><span class="by desc">digital industry association</span><a class="more" href="evidence/begiv2024-bitkom-tax08.html">Open the evidence<span class="vh"> for Bureaucracy Relief Act IV, Bitkom, digital industry association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>More extensive relief through digital administration and connected registers.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The €682 million proposal reduces a €23.8 billion burden by 2.87%.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The cited NKR measure is €26.8 billion; the same division gives about 2.54%.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>The corrected share is smaller, which reinforces rather than weakens the author’s complaint that the package offers limited relief.</dd></div>
+</dl>
+</article></section><section class="day" data-day><div class="dayhd"><h2 class="h2">Submitted on 19 June 2018</h2><span class="n"><span data-n>2</span> findings</span></div><article class="rc" id="cannkg2018-baek-a01" data-sev="major" data-fav="true">
+<header class="fhead"><p class="lawlabel">Cannabis Control Act (2018 hearing)</p><h3 class="fh">Statement by Bundesärztekammer</h3></header>
+<div class="meta"><p class="about">Creating a regulated adult cannabis market.</p><span class="by sib">One of 3 findings in this statement</span><span class="by desc">federal medical association</span><a class="more" href="evidence/cannkg2018-baek-a01.html">Open the evidence<span class="vh"> for Cannabis Control Act (2018 hearing), Bundesärztekammer, federal medical association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Oppose adult liberalisation on youth-protection grounds.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Cannabis accounts for over 30% of all inpatient addiction diagnoses.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The cited share excludes alcohol and concerns a selected treatment dataset.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Presenting the restricted share as an all-addiction share overstates its scope and strengthens the submission’s health-risk rationale.</dd></div>
+</dl>
+</article><article class="rc" id="cannkg2018-baek-a02" data-sev="major" data-fav="true">
+<header class="fhead"><p class="lawlabel">Cannabis Control Act (2018 hearing)</p><h3 class="fh">Statement by Bundesärztekammer</h3></header>
+<div class="meta"><p class="about">Creating a regulated adult cannabis market.</p><span class="by sib">One of 3 findings in this statement</span><span class="by desc">federal medical association</span><a class="more" href="evidence/cannkg2018-baek-a02.html">Open the evidence<span class="vh"> for Cannabis Control Act (2018 hearing), Bundesärztekammer, federal medical association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Oppose adult liberalisation on youth-protection grounds.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Colorado traffic deaths caused by marijuana rose 32%.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The matched statistic counts deaths in crashes involving a marijuana-positive operator; it does not establish causation.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes a claimed causal quantification from the traffic-safety argument.</dd></div>
+</dl>
+</article><article class="rc" id="cannkg2018-baek-a03" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">Cannabis Control Act (2018 hearing)</p><h3 class="fh">Statement by Bundesärztekammer</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">Creating a regulated adult cannabis market.</p><span class="by sib">One of 3 findings in this statement</span><span class="by desc">federal medical association</span><a class="more" href="evidence/cannkg2018-baek-a03.html">Open the evidence<span class="vh"> for Cannabis Control Act (2018 hearing), Bundesärztekammer, federal medical association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Oppose adult liberalisation on youth-protection and safety grounds.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Legal recreational marijuana sales began in Colorado in 2013.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Licensed recreational retail stores opened on 1 January 2014.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Corrects the sequence around the cited 2013–2014 traffic comparison; it does not change the 32% calculation itself.</dd></div>
+</dl>
+</article></section><section class="day" data-day><div class="dayhd"><h2 class="h2">No date recorded</h2><span class="n"><span data-n>4</span> findings</span></div><article class="rc" id="fruehstart2026-dai-doubletax-tax-r6-01" data-sev="major" data-fav="true">
+<header class="fhead"><p class="lawlabel">Early-start pension</p><h3 class="fh">Statement by Deutsches Aktieninstitut: Frühstart-Rente über ein Altersvorsorgedepot für alle Kinder</h3></header>
+<div class="meta"><p class="about">A public pension starting balance for children, with optional privately financed top-ups.</p><a class="more" href="evidence/fruehstart2026-dai-doubletax-tax-r6-01.html">Open the evidence<span class="vh"> for Early-start pension, Deutsches Aktieninstitut: Frühstart-Rente über ein Altersvorsorgedepot für alle Kinder</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Additional tax support for private top-ups, drawing on foreign junior-investment schemes.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Private contributions from net income are taxed again at payout, making those contributions doubly taxed.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The addressed draft distinguishes unfunded private contributions from the state-funded balance. Its memorandum expressly retains taxation of the income component for unfunded contributions, rather than taxing the contributed principal again.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removing a supposed second tax on private principal weakens this specific rationale for additional contribution tax support. A policy case for deductions, higher grants or tax-free investment returns may still exist.</dd></div>
+</dl>
+</article><article class="rc" id="krwg2026-itad-recycling-method-energy-r6-01" data-sev="major" data-fav="true">
+<header class="fhead"><p class="lawlabel">krwg 2026</p><h3 class="fh">Statement by ITAD response 7 August 2026 to KrWG draft 26 June 2026</h3></header>
+<div class="meta"><p class="about">Revising waste prevention, recycling and collection rules.</p><span class="by sib">One of 2 findings in this statement</span><a class="more" href="evidence/krwg2026-itad-recycling-method-energy-r6-01.html">Open the evidence<span class="vh"> for krwg 2026, ITAD response 7 August 2026 to KrWG draft 26 June 2026</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Reassess the draft measures and data basis.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The 69% statistical recycling rate is the WFD compliance basis, suggesting the target is already met.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Eurostat separates that statistical series from mandatory target reporting, which gives 46.36% for Germany 2023.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes this numerical rebuttal to the draft’s rationale that further action is needed for the rising EU targets. The series distinction supports the existence of a target gap on the relevant 2023 baseline, without proving that any particular proposed measure is required.</dd></div>
+</dl>
+</article><article class="rc" id="enefg2026-vik-a01" data-sev="major" data-fav="true">
+<header class="fhead"><p class="lawlabel">Energy Efficiency Act (EnEfG)</p><h3 class="fh">Statement by VIK</h3></header>
+<div class="meta"><p class="about">A pending revision of German energy-efficiency duties and implementation of the EU Energy Efficiency Directive.</p><span class="by desc">industrial energy users’ association</span><a class="more" href="evidence/enefg2026-vik-a01.html">Open the evidence<span class="vh"> for Energy Efficiency Act (EnEfG), VIK, industrial energy users’ association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Delete or weaken the national energy-efficiency targets in § 4 EnEfG.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Germany used about 3,273 TWh of final energy in 2020; reducing it 11.7% gives an EU-consistent 2030 level around 2,890 TWh, making the German 1,867 TWh target excessively strict.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The 2020 quantity is primary energy, not final energy. The 11.7% EU target also uses modelled 2030 consumption from the 2020 reference scenario, not observed pandemic-year consumption. The derived comparison is invalid.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes the numerical basis for claiming a 2,890 TWh EU comparator against the 1,867 TWh German target. The primary/final mislabelling inflates the starting final-energy quantity by roughly 40%, while the reference-year substitution independently prevents the calculation from establishing the asserted EU comparator.</dd></div>
+</dl>
+</article><article class="rc" id="jstg2026-dstg-tax01" data-sev="major" data-fav="true">
+<header class="fhead"><p class="lawlabel">Annual Tax Act 2026</p><h3 class="fh">Statement by DSTG</h3></header>
+<div class="meta"><p class="about">Annual federal tax changes, including administration and EU VAT rules.</p><span class="by sib">One of 2 findings in this statement</span><span class="by desc">tax employees’ union</span><a class="more" href="evidence/jstg2026-dstg-tax01.html">Open the evidence<span class="vh"> for Annual Tax Act 2026, DSTG, tax employees’ union</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Prepare national digital VAT reporting now.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Mandatory intra-EU reporting starts in 2028.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The adopted EU timetable starts it on 1 July 2030.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Weakens the claimed external timetable for immediate action.</dd></div>
+</dl>
+</article><article class="rc" id="behg2026-fleischmann-mortality-range-fc01" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">Fuel emissions trading amendment (BEHG)</p><h3 class="fh">Expert statement by Bernd Fleischmann</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">Extending national fuel-carbon pricing through the transition to the European system.</p><a class="more" href="evidence/behg2026-fleischmann-mortality-range-fc01.html">Open the evidence<span class="vh"> for Fuel emissions trading amendment (BEHG), Bernd Fleischmann, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Abolish the national fuel-emissions trading law.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Every European country has five to fifteen times more cold-related than heat-related deaths.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The cited study’s corrected urban estimates show widely differing ratios, including values above 30 and below five. They do not establish a universal national range.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Corrects the universal numerical range in a supporting health comparison. The deviations are mixed, the study still estimates a larger aggregate cold burden, and the approximate German six-to-one ratio is supported within its urban cohort. No uniform direction of policy advantage is established.</dd></div>
+</dl>
+</article><article class="rc" id="biostoffv2026-dgaum-citation-social-r3-07" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">biostoffv amendment 2026</p><h3 class="fh">Statement by DGAUM</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">Modernising workplace biological-agent protections, including digital instruction and external exposure records.</p><span class="by sib">One of 3 findings in this statement</span><span class="by desc">occupational and environmental medicine society</span><a class="more" href="evidence/biostoffv2026-dgaum-citation-social-r3-07.html">Open the evidence<span class="vh"> for biostoffv amendment 2026, DGAUM, occupational and environmental medicine society</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Support transfer of exposure records to the central exposure database.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Their supporting reference identifies a 2018 Nienhaus infection-prevention paper as IJERPH 15(2), article 206.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>That precise journal location belongs to a Zou et al. review of Baduanjin exercise for pain and sleep, not the cited author or infection-prevention title.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>The printed citation cannot be used to locate the infection-prevention study that the author invokes for its exposure-record argument. Correcting the bibliography would remove this source-identity error. No claim is made that a different, correctly identified Nienhaus paper could not support the general argument.</dd></div>
+</dl>
+</article><article class="rc" id="biostoffv2026-dgaum-liebers-social-r3-09" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">biostoffv amendment 2026</p><h3 class="fh">Statement by DGAUM</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">Modernising workplace biological-agent protections, including digital instruction and external exposure records.</p><span class="by sib">One of 3 findings in this statement</span><span class="by desc">occupational and environmental medicine society</span><a class="more" href="evidence/biostoffv2026-dgaum-liebers-social-r3-09.html">Open the evidence<span class="vh"> for biostoffv amendment 2026, DGAUM, occupational and environmental medicine society</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Give stronger attention to combined exposure in occupational-medical assessment.</dd></div>
+<div class="r said"><dt>They said</dt><dd>A Liebers 2020 endotoxin/organic-dust review is identified as JTEHB 23(7):293–312.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>That interval lies inside a Cochard et al. atmospheric-particle review at pp 293–318. A real Liebers 2020 endotoxin review has different title/journal/pages; it is only a plausible alternative, not a demonstrated intended source.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>The cited journal location cannot verify the Liebers review that is named. Correcting the reference is needed to check the claimed supporting literature; it does not by itself resolve whether combined exposures warrant the requested assessment.</dd></div>
+</dl>
+</article><article class="rc" id="biostoffv2026-dgaum-sinclair-social-r3-08" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">biostoffv amendment 2026</p><h3 class="fh">Statement by DGAUM</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">Modernising workplace biological-agent protections, including digital instruction and external exposure records.</p><span class="by sib">One of 3 findings in this statement</span><span class="by desc">occupational and environmental medicine society</span><a class="more" href="evidence/biostoffv2026-dgaum-sinclair-social-r3-08.html">Open the evidence<span class="vh"> for biostoffv amendment 2026, DGAUM, occupational and environmental medicine society</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Retain practical instruction and exercises when digital instruction is used.</dd></div>
+<div class="r said"><dt>They said</dt><dd>A Sinclair 2013 safety-training study is identified as Journal of Safety Research 46:145–150.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Pages 145–155 of that volume belong to a Boelhouwer et al. hazard-pictogram paper; the printed author/title and page coordinates do not identify the same article.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>The printed locator does not identify the safety-training study invoked. Correcting it would allow the evidence behind the practical-instruction argument to be checked. No clinical or pedagogical conclusion about whether exercises are necessary is drawn from this citation error.</dd></div>
+</dl>
+</article><article class="rc" id="csrd2025-familienunternehmen-esef-tax-r2-12" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">csrd implementation 2025</p><h3 class="fh">Statement by Stiftung Familienunternehmen und Politik</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Introducing corporate sustainability reporting and assurance rules into German commercial law.</p><span class="by desc">foundation</span><a class="more" href="evidence/csrd2025-familienunternehmen-esef-tax-r2-12.html">Open the evidence<span class="vh"> for csrd implementation 2025, Stiftung Familienunternehmen und Politik, foundation</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Allow electronic formatting only at disclosure, and seek abolition of ESEF if possible.</dd></div>
+<div class="r said"><dt>They said</dt><dd>ESEF is machine-readable but not human-readable.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>ESEF uses human-readable XHTML, with machine-readable tags embedded in the same report.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes one technical premise supporting the request to abolish the format. Readability alone does not resolve whether preparation, tagging, verification or correction costs justify a different reporting workflow.</dd></div>
+</dl>
+</article><article class="rc" id="ehv2030-2026-eon-biomass-threshold-a01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Emissions trading ordinance (EHV 2030)</p><h3 class="fh">Statement by E.ON</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Detailed implementation of revised emissions-trading rules, including sustainability evidence for biomass.</p><span class="by desc">energy company</span><a class="more" href="evidence/ehv2030-2026-eon-biomass-threshold-a01.html">Open the evidence<span class="vh"> for Emissions trading ordinance (EHV 2030), E.ON, energy company</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Introduce grandfathering or a transition period, with the 80% requirement no earlier than 2027.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Every biomass plant in EU ETS 1 must demonstrate 80% greenhouse-gas savings from 1 January 2026.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The addressed rules retain commissioning-date and operating-age distinctions, including 70% for a 2021–2023 cohort until 2029.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Narrows the breadth and immediacy of the asserted burden supporting a general transition request.</dd></div>
+</dl>
+</article><article class="rc" id="ehv2030-2026-vik-waste-costs-a01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Emissions trading ordinance (EHV 2030)</p><h3 class="fh">Statement by VIK</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Implementing the revised German greenhouse-gas emissions trading law through detailed monitoring and administration rules.</p><span class="by desc">industrial energy users’ association</span><a class="more" href="evidence/ehv2030-2026-vik-waste-costs-a01.html">Open the evidence<span class="vh"> for Emissions trading ordinance (EHV 2030), VIK, industrial energy users’ association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Exempt hazardous-waste incineration from the national carbon market or suspend that market until ETS 2 operates reliably.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Waste-incineration carbon costs arise exclusively in Germany.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Danish official guidance expressly imposes a CO₂ tax on relevant hazardous-waste incineration from 2015. That qualifies the Germany-only carbon-cost premise, while scope and net burdens still differ.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Qualifies the premise of a uniquely German carbon-cost burden supporting removal or suspension of national pricing. It does not eliminate possible differences in coverage, rates, exemptions, compensation or competitive disadvantage.</dd></div>
+</dl>
+</article><article class="rc" id="estreform2027-dstv-anlagen-tax-r4-02" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">einkommensteuerreformgesetz 2027</p><h3 class="fh">Statement by Unknown author</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Income-tax changes including raising the employee expense allowance from EUR 1,230 to EUR 1,430.</p><a class="more" href="evidence/estreform2027-dstv-anlagen-tax-r4-02.html">Open the evidence<span class="vh"> for einkommensteuerreformgesetz 2027, Unknown author</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Give priority to a workday allowance instead of merely raising the existing employee allowance.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Every compulsory-assessment case requires the employment-income attachment regardless of expenses.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Official instructions permit omission of that attachment when electronic wage data suffice and specified extra entries are unnecessary. A compulsory return alone does not remove that exception.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>This weakens the categorical procedural objection to the allowance increase as a simplification. It does not validate the government estimate that 1.3 million taxpayers will omit the attachment, nor settle the comparison with a workday allowance.</dd></div>
+</dl>
+</article><article class="rc" id="gedig2026-svdgv-ceilings-social-r4-02" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">gedig 2026</p><h3 class="fh">Statement by Unknown author</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Digital health data, electronic patient records and access to digital care.</p><a class="more" href="evidence/gedig2026-svdgv-ceilings-social-r4-02.html">Open the evidence<span class="vh"> for gedig 2026, Unknown author</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Require manufacturer associations to agree on the statistical reporting parameters for DiGA.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Every digital health application has a reimbursement ceiling from its first day in the official directory.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The framework contains an express initial 2,000-code exemption under its ordinary group rules and separate category exceptions; ceilings do not constrain every DiGA from day one.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>This weakens the specific factual rebuttal used to call the GKV report misleading and to support manufacturer agreement over reporting definitions. It leaves the separate arguments about balanced reporting and practical data collection open.</dd></div>
+</dl>
+</article><article class="rc" id="ggv2026-deutscheglasfaser-quarterly-tax-r3-03" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">gigabit grundbuch verordnung 2026</p><h3 class="fh">Statement by Deutsche Glasfaser</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Data reporting and access rules for the German Gigabit-Grundbuch infrastructure portal.</p><span class="by desc">company</span><a class="more" href="evidence/ggv2026-deutscheglasfaser-quarterly-tax-r3-03.html">Open the evidence<span class="vh"> for gigabit grundbuch verordnung 2026, Deutsche Glasfaser, company</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Permit changed-data reports instead of repeated full datasets and reduce reporting burdens.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The draft requires a full delivery every three months.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Its three-month mechanism is a possible no-change confirmation, distinct from required full updates.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes the claimed quarterly full-delivery requirement where nothing changed, weakening that part of the burden argument.</dd></div>
+</dl>
+</article><article class="rc" id="idnrg2026-kommunale-deadline-root-r3-01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">idnrg grundbuch 2026</p><h3 class="fh">Statement by Municipal umbrella associations</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Adding land-register personal data to national register modernisation and NOOTS infrastructure.</p><a class="more" href="evidence/idnrg2026-kommunale-deadline-root-r3-01.html">Open the evidence<span class="vh"> for idnrg grundbuch 2026, Municipal umbrella associations</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Shorten the proposed 2032 implementation deadline for land-register data.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Other registers have a 31 August 2028 implementation deadline.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The statutory general deadline is 31 December 2028, as the exact draft explains. The gap is four months smaller, but remains four years.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Slightly weakens the timetable argument for earlier implementation: the gap between the general deadline and the proposed land-register deadline is four years, rather than four years and four months.</dd></div>
+</dl>
+</article><article class="rc" id="izg2026-biesemann-seaports-energy-r6-03" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">infrastruktur zukunftsgesetz 2026</p><h3 class="fh">Statement by Prof. Dr. Jörg Biesemann</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Accelerating infrastructure planning and approval.</p><a class="more" href="evidence/izg2026-biesemann-seaports-energy-r6-03.html">Open the evidence<span class="vh"> for infrastruktur zukunftsgesetz 2026, Prof. Dr. Jörg Biesemann</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Finance maintenance from taxes, fees and contributions, with tighter fiscal priorities.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The existing federal annual seaport contribution is EUR 38.4 billion.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The identifiable statutory grant is EUR 38.346 million, about one-thousandth as much.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Greatly reduces the scale of the illustrative existing annual baseline that the author says new infrastructure borrowing could free for social spending. It does not establish whether budget substitution occurs.</dd></div>
+</dl>
+</article><article class="rc" id="jstg2026-amcham-allowance-tax-r3-01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Annual Tax Act 2026</p><h3 class="fh">Statement by AmCham Germany Tax Committee</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">The annual package of German tax changes.</p><span class="by desc">American chamber of commerce</span><a class="more" href="evidence/jstg2026-amcham-allowance-tax-r3-01.html">Open the evidence<span class="vh"> for Annual Tax Act 2026, AmCham Germany Tax Committee, American chamber of commerce</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Convert employee-tax thresholds into allowances and simplify staff-event taxation.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The €110 staff-event rule is a threshold whose small excess can cause disproportionate tax.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The cited income-tax provision already exempts the first €110 for qualifying events.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Weakens one stated cliff-edge rationale for changing existing income-tax rules.</dd></div>
+</dl>
+</article><article class="rc" id="kltgv2026-cma-border-pilot01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Carbon-dioxide pipeline ordinance (KLtgV)</p><h3 class="fh">Statement by Carbon Management Allianz</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Uniform safety requirements for constructing, operating and inspecting carbon-dioxide pipelines.</p><span class="by desc">carbon management industry association</span><a class="more" href="evidence/kltgv2026-cma-border-pilot01.html">Open the evidence<span class="vh"> for Carbon-dioxide pipeline ordinance (KLtgV), Carbon Management Allianz, carbon management industry association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Adopt the ordinance promptly and accelerate permitting through nationwide procedures.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Transport pipelines cross borders and traverse several German states by definition.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The relevant statutory definition describes what a CO₂ pipeline transports and its associated equipment; crossing a state border is not a defining condition.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Narrows one premise for nationwide uniform permitting and inspection procedures: some projects can fall entirely within one Land. The practical case for common national rules across a connected network remains.</dd></div>
+</dl>
+</article><article class="rc" id="krwg2026-itad-prevention-target-energy-r6-02" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">krwg 2026</p><h3 class="fh">Statement by ITAD response 7 August 2026 to KrWG draft 26 June 2026</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Adding waste-prevention targets to the KrWG.</p><span class="by sib">One of 2 findings in this statement</span><a class="more" href="evidence/krwg2026-itad-prevention-target-energy-r6-02.html">Open the evidence<span class="vh"> for krwg 2026, ITAD response 7 August 2026 to KrWG draft 26 June 2026</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Adjust the targets to realistic conditions.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The government calls a 40% reduction in municipal waste volume by 2045 ambitious.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The draft sets a 20% municipal waste reduction target per person; 40% applies to waste intensity relative to real GDP.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>The paragraph overstates the quantity reduction being challenged, making that particular burden argument stronger. It does not demonstrate that the actual 20% target is feasible.</dd></div>
+</dl>
+</article><article class="rc" id="mietrechtII2026-hausgrund-index-root11" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">Tenancy law reform II</p><h3 class="fh">Statement by Haus &amp; Grund</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">Changing tenancy rules, including a higher cost threshold for simplified modernisation rent increases.</p><span class="by desc">property owners’ association</span><a class="more" href="evidence/mietrechtII2026-hausgrund-index-root11.html">Open the evidence<span class="vh"> for Tenancy law reform II, Haus &amp; Grund, property owners’ association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Automatically index the proposed EUR 20,000 threshold to construction prices.</dd></div>
+<div class="r said"><dt>They said</dt><dd>On a 2021=100 base, the residential construction-price index was about 107 in 2019 and above 150 in 2023.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>An official pre-submission table gives annual 90.2 and 126.1 on that base. The implied rise is nevertheless still about 40%, so the numerical growth argument changes little.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Corrects index-level/base reporting. It does not materially remove the evidence of substantial construction-price increases or the general case for discussing indexation.</dd></div>
+</dl>
+</article><article class="rc" id="mietrechtII2026-ivd-cpiyears-root-r6-02" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Tenancy law reform II</p><h3 class="fh">Statement by IVD response9 October 2026 to BT21/6807</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Changing index rents, including halving the part of a one-year CPI rise above 3%.</p><a class="more" href="evidence/mietrechtII2026-ivd-cpiyears-root-r6-02.html">Open the evidence<span class="vh"> for Tenancy law reform II, IVD response9 October 2026 to BT21/6807</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Drop the proposed index-rent restriction.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Only 2022 and 2023 in the last 25 years would have triggered the restriction.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Official CPI growth was also above 3% in 2021. Effects on individual rent adjustments depend on the rolling measurement period.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>The correction weakens the claim that the restriction would have been wholly irrelevant outside two exceptional years. Under an annual-average illustration,3.1% would imply 3.05% instead, a very small difference.</dd></div>
+</dl>
+</article><article class="rc" id="regg2025-vdv-employees-root10" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">regg eleventh amendment 2025</p><h3 class="fh">Statement by VDV</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Continuing federal funding for the Deutschlandticket in 2026.</p><span class="by desc">transport companies’ association</span><a class="more" href="evidence/regg2025-vdv-employees-root10.html">Open the evidence<span class="vh"> for regg eleventh amendment 2025, VDV, transport companies’ association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Remove the expiry of the discounted Deutschlandticket Job offer.</dd></div>
+<div class="r said"><dt>They said</dt><dd>48 million people are employed subject to social-insurance contributions.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The official figures available before the submission put that category at about 34.77 million, rather than 48 million.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Reduces the stated size of the named employee target group supporting continuation of the discounted job ticket. It does not proportionally reduce actual or prospective ticket sales.</dd></div>
+</dl>
+</article><article class="rc" id="schuberdg2026-agsbv-costsum-tax-r4-01" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">schuberdg 2025 2026</p><h3 class="fh">Statement by AG SBV financing position</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">Access to independent debt advice under the EU Consumer Credit Directive.</p><a class="more" href="evidence/schuberdg2026-agsbv-costsum-tax-r4-01.html">Open the evidence<span class="vh"> for schuberdg 2025 2026, AG SBV financing position</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Reliably financed, free debt advice, including more advisory staff and creditor contributions.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The cost table totals EUR 121,730 per advisory post plus a share of administration.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Its displayed subtotal, operating costs and overhead instead add to EUR 129,430. The lower total also feeds the national financing estimate.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>The table and resulting model cannot all be correct simultaneously. Correcting the total alone raises the illustrative national figure by about 6.25 percent.</dd></div>
+</dl>
+</article><article class="rc" id="suizidpraevg2026-marburger-costs-social-r6-01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">suizidpraevg 2026</p><h3 class="fh">Statement by Marburger Bund Bundesverband — Suizidpräventionsgesetz25 June 2026 draft</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Creating a federal suicide-prevention office, coordinating crisis services and enabling prevention pilots.</p><a class="more" href="evidence/suizidpraevg2026-marburger-costs-social-r6-01.html">Open the evidence<span class="vh"> for suizidpraevg 2026, Marburger Bund Bundesverband — Suizidpräventionsgesetz25 June 2026 draft</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Adequate resources for the office and direct support services.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The draft provides EUR 1.2 million a year for the office through 2029, in addition to a one-off EUR 1.2 million.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The addressed draft estimates recurring office costs of EUR 1.482 million a year. EUR 1.2 million is the one-off setup estimate phased in through 2029.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>The stated annual amount makes the office appear to have fewer estimated resources and modestly strengthens the demand for more funding. Correcting it does not answer whether the higher estimate is sufficient for all proposed tasks or direct services.</dd></div>
+</dl>
+</article><article class="rc" id="umwrg2026-hess-decisions-a01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Environmental Appeals Act (UmwRG)</p><h3 class="fh">Expert statement by Franziska Heß</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Revising environmental legal remedies, including examples of abusive late objections.</p><a class="more" href="evidence/umwrg2026-hess-decisions-a01.html">Open the evidence<span class="vh"> for Environmental Appeals Act (UmwRG), Franziska Heß, individual expert</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Delete the proposed non-participation example of abuse and retain the current open clause.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Both identified Stuttgart decisions denied abusiveness.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>One decision left that question undecided and dismissed the application on its merits. The other did reject abuse.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Weakens the small empirical claim that both tested cases affirmatively cleared the associations of abusiveness. It does not alter the reported count of cases in which the abuse clause actually excluded an objection.</dd></div>
+</dl>
+</article><article class="rc" id="wolf2026-vdl-root08" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Wolf management, Federal Hunting Act</p><h3 class="fh">Statement at the committee hearing, 23 Feb 2026</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Adding the wolf to federal hunting law and providing management and removal rules.</p><span class="by desc">speaker in the hearing transcript</span><a class="more" href="evidence/wolf2026-vdl-root08.html">Open the evidence<span class="vh"> for Wolf management, Federal Hunting Act, Committee hearing, 23 Feb 2026, speaker in the hearing transcript</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Fast, straightforward removal of problem wolves and nationwide management rules.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Sheep and goat keepers are affected by 91% of all attacks.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>The matching official 2024 statistic assigns 91% of harmed animals to sheep/goats; the same report assigns 79% of attack events to them.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Reduces the matched 2024 attack-event share by approximately 12 percentage points, weakening the stated concentration of attack events on the represented livestock sector. Sheep and goats nevertheless remain by far the largest affected category under both measures.</dd></div>
+</dl>
+</article><article class="rc" id="geg2023-hausgrund-a01" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Buildings Energy Act 2023 (GEG)</p><h3 class="fh">Statement by Haus &amp; Grund</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">A 65% renewable-heat requirement for newly installed building heating systems.</p><span class="by desc">property owners’ association</span><a class="more" href="evidence/geg2023-hausgrund-a01.html">Open the evidence<span class="vh"> for Buildings Energy Act 2023 (GEG), Haus &amp; Grund, property owners’ association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Additional hardship exceptions, including for partially renovated and unrenovated buildings.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Only a heat-pump and gas/oil hybrid is technically feasible in older buildings.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Contemporary measurements include older buildings heated by heat pumps without a gas/oil boiler.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes the blanket technical premise that older buildings necessarily need a fossil hybrid, weakening that rationale for broader exceptions.</dd></div>
+</dl>
+</article><article class="rc" id="jstg2026-dstg-tax02" data-sev="minor" data-fav="true" hidden>
+<header class="fhead"><p class="lawlabel">Annual Tax Act 2026</p><h3 class="fh">Statement by DSTG</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Annual federal tax changes, including AI development by tax authorities.</p><span class="by sib">One of 2 findings in this statement</span><span class="by desc">tax employees’ union</span><a class="more" href="evidence/jstg2026-dstg-tax02.html">Open the evidence<span class="vh"> for Annual Tax Act 2026, DSTG, tax employees’ union</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Retain AI training data for at least three years.</dd></div>
+<div class="r said"><dt>They said</dt><dd>Tax scoring regularly falls within AI Act Annex III 5(d).</dd></div>
+<div class="r real"><dt>The source says</dt><dd>That provision covers emergency calls, dispatch and triage.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Removes the cited subsection as support for the classification premise; a properly supported alternative classification could leave the retention argument intact.</dd></div>
+</dl>
+</article><article class="rc" id="tabstaendg2026-bvte-root01" data-sev="minor" data-fav="none" hidden>
+<header class="fhead"><p class="lawlabel">Tobacco tax amendment</p><h3 class="fh">Statement by BVTE</h3></header>
+<div class="meta"><span class="tag sev">Minor error</span><span class="tag">Direction unclear</span><p class="about">Increasing German tobacco taxes in annual steps from 2027.</p><span class="by desc">tobacco industry association</span><a class="more" href="evidence/tabstaendg2026-bvte-root01.html">Open the evidence<span class="vh"> for Tobacco tax amendment, BVTE, tobacco industry association</span>&nbsp;→</a></div>
+<dl class="rows">
+<div class="r"><dt>They want</dt><dd>Moderate, predictable tobacco-tax adjustments.</dd></div>
+<div class="r said"><dt>They said</dt><dd>The table gives positive price elasticities for 2006–2007.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Its falling quantities and rising prices yield negative signs.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>Corrects the table&#x27;s direction of association for those two years; their smaller absolute elasticities remain.</dd></div>
+</dl>
+</article></section>
+<p class="showmore"><button type="button" id="showmore" hidden>Show more findings</button></p>
+<p class="empty" id="empty" hidden>No findings match this filter.</p>
+<footer><p>These 69 findings are provisional AI screening results. No human specialist confirmation is recorded. The targeted sample does not establish national coverage or an error rate, and no intent is inferred. <a href="about.html">Read the method, limitations and research data.</a></p><p>Findings are grouped by the date the statement was submitted, newest first. Where only the hearing date is known, they are grouped by that date. Within a date, major errors come first. Findings with no recorded date come last.</p></footer>
+</main>
+</div>
+<script>
+(function(){
+ var LIMIT=10,expanded=false,view='major';
+ var main=document.getElementById('findings'),btns=document.querySelectorAll('.seg button'),arts=[].slice.call(document.querySelectorAll('article.rc')),days=[].slice.call(document.querySelectorAll('[data-day]'));
+ var more=document.getElementById('showmore'),count=document.getElementById('count');
+ var noun=function(n){return n===1?' finding':' findings'};
+ function apply(f){
+  view=f;main.dataset.view=f;
+  btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.f===f?'true':'false')});
+  var match=arts.filter(function(a){return f==='minor'?a.dataset.sev==='minor':a.dataset.sev==='major'&&(f==='major'||a.dataset.fav==='true')});
+  var limit=(f==='minor'&&!expanded&&match.length>LIMIT)?LIMIT:match.length;
+  arts.forEach(function(a){a.hidden=true});
+  match.slice(0,limit).forEach(function(a){a.hidden=false});
+  days.forEach(function(d){
+   var total=match.filter(function(a){return d.contains(a)}).length,shown=d.querySelectorAll('article.rc:not([hidden])').length;
+   d.hidden=shown===0;
+   d.querySelector('.n').textContent=(shown<total?shown+' of '+total:total)+noun(total);
+  });
+  document.getElementById('empty').hidden=match.length>0;
+  count.textContent=(limit<match.length?'Showing '+limit+' of '+match.length:match.length)+noun(match.length);
+  more.hidden=!(limit<match.length);
+  more.textContent='Show '+(match.length-limit)+' more'+noun(match.length-limit);
+ }
+ btns.forEach(function(b){b.addEventListener('click',function(){apply(b.dataset.f)})});
+ more.addEventListener('click',function(){
+  var first=arts.filter(function(a){return a.dataset.sev==='minor'})[LIMIT];
+  expanded=true;apply(view);
+  if(first){var h=first.querySelector('.fh');h.setAttribute('tabindex','-1');h.focus()}   // keep keyboard focus where the new findings begin
+ });
+ function showLinkedFinding(){
+  var id;try{id=decodeURIComponent(location.hash.slice(1))}catch(e){return}
+  var target=document.getElementById(id);
+  if(!target||!target.matches('article.rc'))return;
+  expanded=true;apply(target.dataset.sev==='minor'?'minor':'major');
+  target.scrollIntoView();
+ }
+ apply('major');showLinkedFinding();
+ window.addEventListener('hashchange',showLinkedFinding);
+})();
+</script>
+</body>
+</html>
