@@ -21,6 +21,7 @@ a{color:var(--blue)}a:hover{color:#163a7a}
 .hd{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line)}
 .hd-in{max-width:1120px;margin:0 auto;padding:4px 32px;display:flex;flex-wrap:wrap;gap:0 24px;justify-content:space-between;align-items:center}
 .hd a{color:var(--ink);text-decoration:none;font-size:14px;font-weight:500;display:inline-flex;align-items:center;min-height:44px}
+.hd a.brand{font-size:20px;font-weight:600;gap:10px}
 .vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;font-size:13px}
 .wrap{max-width:1120px;margin:0 auto;padding:0 32px}
 .h2{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin:0}
@@ -42,7 +43,7 @@ article.rc{scroll-margin-top:110px;display:grid;grid-template-columns:230px minm
 .pagehead{padding:20px 0 4px}
 .pagehead p{margin:0;font-size:16px;line-height:1.5;max-width:52em}
 .pagehead .sub{color:var(--muted)}
-.lawlabel{margin:0 0 4px;font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.lawlabel{margin:0 0 4px;font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
 article.rc>.fhead{grid-column:1/-1;margin-bottom:6px}
 .fh{margin:0;font:600 20px/1.3 Inter,system-ui,sans-serif;letter-spacing:-.01em}
 .role{margin:2px 0 0;font-size:13px;color:var(--muted)}
@@ -53,8 +54,8 @@ article.rc>.fhead{grid-column:1/-1;margin-bottom:6px}
 #findings[data-view="minor"] .tag.sev{display:none}   /* every row in this view is minor, so the label would repeat */
 .tag::before{content:"";width:10px;height:10px;border:2px solid var(--muted);box-sizing:border-box}
 .rows{display:grid;gap:18px;max-width:700px;margin:0}
-.r{display:grid;grid-template-columns:120px minmax(0,1fr);gap:0 20px}
-.r dt{font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding-top:5px}
+.r{display:grid;grid-template-columns:136px minmax(0,1fr);gap:0 20px}
+.r dt{font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding-top:5px}
 .r dd{margin:0;font-size:15px}
 .r.said dd,.r.real dd{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:20px;line-height:1.35;padding-left:14px;border-left:3px solid}
 .r.said dd{color:var(--amber);border-color:var(--amber)}
@@ -64,6 +65,7 @@ article.rc>.fhead{grid-column:1/-1;margin-bottom:6px}
 .showmore button{min-height:44px;padding:0 18px;border:1px solid var(--ink);background:#fff;color:var(--ink);font:500 14px Inter,system-ui,sans-serif;cursor:pointer}
 .showmore button:hover{background:var(--soft)}
 .empty{padding:40px 0;color:var(--muted)}
+.nojs{margin:0;font-size:14px;color:var(--muted)}
 footer{margin-top:56px;padding:24px 0 48px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
 footer p{margin:0 0 6px;max-width:760px}
 @media (max-width:960px){
@@ -82,18 +84,26 @@ footer p{margin:0 0 6px;max-width:760px}
 @media (max-width:640px){
  .r{grid-template-columns:minmax(0,1fr);gap:2px}
 }
+@media (max-width:360px){
+ .hd-in{gap:0 12px}
+ .hd a.brand{font-size:17px;gap:8px}
+ .seg button{padding:0 12px}
+ .seg button[aria-pressed="true"]{padding:0 11px}
+}
 </style>
 </head>
 <body>
 <div class="pg">
-<header class="hd"><div class="hd-in"><a href="index.html" class="serif" style="font-size:20px;font-weight:600;gap:10px"><svg width="26" height="20" viewBox="6 12 52 40" aria-hidden="true"><path d="M10 16h18v18H18l-8 14z" fill="#14181F"/><path d="M36 16h18v18H44l-8 14z" fill="#A84A00"/></svg>Lobby Fact Checks</a><nav aria-label="Main"><a href="about.html">About &amp; data</a></nav></div></header>
+<header class="hd"><div class="hd-in"><a href="index.html" class="serif brand"><svg width="26" height="20" viewBox="6 12 52 40" aria-hidden="true"><path d="M10 16h18v18H18l-8 14z" fill="#14181F"/><path d="M36 16h18v18H44l-8 14z" fill="#A84A00"/></svg>Lobby Fact Checks</a><nav aria-label="Main"><a href="about.html">About &amp; data</a></nav></div></header>
 <main class="wrap" id="findings">
 <h1 class="vh">Errors in statements to German lawmakers</h1>
 <header class="pagehead"><p>Errors in statements to Bundestag committees and ministries, checked against the sources they cite. <span class="sub">AI‑screened and provisional, newest submission first. <a href="about.html">How to read this</a></span></p></header>
 <div class="tools">
+<noscript><style>section.day[hidden],article.rc[hidden]{display:block!important}.seg,.dayhd .n,.showmore{display:none!important}</style></noscript>
 <div class="seg" role="group" aria-label="Filter findings">
 <button type="button" data-f="major" aria-pressed="true">Major errors<span class="n">13</span></button><button type="button" data-f="minor" aria-pressed="false">Minor errors<span class="n">56</span></button>
 </div>
+<noscript><p class="nojs">Filters need JavaScript, so all 69 findings are listed, major errors first within each date.</p></noscript>
 <p class="vh" id="count" aria-live="polite">13 findings</p>
 </div>
 <section class="day" data-day hidden><div class="dayhd"><h2 class="h2">12 October 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="mietrechtII2026-rueckmann-root02" data-sev="minor" data-fav="true" hidden>
@@ -120,7 +130,7 @@ footer p{margin:0 0 6px;max-width:760px}
 <dl class="rows">
 <div class="r"><dt>They want</dt><dd>Preserve the fixed feed-in tariff for rooftop solar.</dd></div>
 <div class="r said"><dt>They said</dt><dd>The cited scenario makes 2025 electricity prices 20 percent higher without solar.</dd></div>
-<div class="r real"><dt>The source says</dt><dd>Its detailed figures imply about 26.3 percent higher without solar;20.8 percent is the reduction in the reverse direction.</dd></div>
+<div class="r real"><dt>The source says</dt><dd>Its detailed figures imply about 26.3 percent higher without solar; 20.8 percent is the reduction in the reverse direction.</dd></div>
 <div class="r eff"><dt>What it changes</dt><dd>The printed percentage understates the modelled no-solar price increase; correction strengthens this supporting pro-solar point rather than weakening it.</dd></div>
 </dl>
 </article></section><section class="day" data-day hidden><div class="dayhd"><h2 class="h2">30 September 2026</h2><span class="n"><span data-n>0</span> findings</span></div><article class="rc" id="netzpaket2026-bee-map-a01" data-sev="minor" data-fav="true" hidden>
@@ -643,7 +653,7 @@ footer p{margin:0 0 6px;max-width:760px}
 <div class="r"><dt>They want</dt><dd>Drop the proposed index-rent restriction.</dd></div>
 <div class="r said"><dt>They said</dt><dd>Only 2022 and 2023 in the last 25 years would have triggered the restriction.</dd></div>
 <div class="r real"><dt>The source says</dt><dd>Official CPI growth was also above 3% in 2021. Effects on individual rent adjustments depend on the rolling measurement period.</dd></div>
-<div class="r eff"><dt>What it changes</dt><dd>The correction weakens the claim that the restriction would have been wholly irrelevant outside two exceptional years. Under an annual-average illustration,3.1% would imply 3.05% instead, a very small difference.</dd></div>
+<div class="r eff"><dt>What it changes</dt><dd>The correction weakens the claim that the restriction would have been wholly irrelevant outside two exceptional years. Under an annual-average illustration, 3.1% would imply 3.05% instead, a very small difference.</dd></div>
 </dl>
 </article><article class="rc" id="regg2025-vdv-employees-root10" data-sev="minor" data-fav="true" hidden>
 <header class="fhead"><p class="lawlabel">Regionalisation Act, 11th amendment</p><h3 class="fh">Statement by VDV</h3><p class="role">Transport companies’ association</p></header>
@@ -682,8 +692,8 @@ footer p{margin:0 0 6px;max-width:760px}
 <div class="r eff"><dt>What it changes</dt><dd>Weakens the small empirical claim that both tested cases affirmatively cleared the associations of abusiveness. It does not alter the reported count of cases in which the abuse clause actually excluded an objection.</dd></div>
 </dl>
 </article><article class="rc" id="wolf2026-vdl-root08" data-sev="minor" data-fav="true" hidden>
-<header class="fhead"><p class="lawlabel">Wolf management, Federal Hunting Act</p><h3 class="fh">Statement at the committee hearing, 23 Feb 2026</h3><p class="role">Speaker in the hearing transcript</p></header>
-<div class="meta"><span class="tag sev">Minor error</span><p class="about">Adding the wolf to federal hunting law and providing management and removal rules.</p><a class="more" href="evidence/wolf2026-vdl-root08.html">Open the evidence<span class="vh"> for Wolf management, Federal Hunting Act, Committee hearing, 23 Feb 2026, speaker in the hearing transcript</span>&nbsp;→</a></div>
+<header class="fhead"><p class="lawlabel">Wolf management, Federal Hunting Act</p><h3 class="fh">Statement at the committee hearing, 23 February 2026</h3><p class="role">Speaker in the hearing transcript</p></header>
+<div class="meta"><span class="tag sev">Minor error</span><p class="about">Adding the wolf to federal hunting law and providing management and removal rules.</p><a class="more" href="evidence/wolf2026-vdl-root08.html">Open the evidence<span class="vh"> for Wolf management, Federal Hunting Act, Committee hearing, 23 February 2026, speaker in the hearing transcript</span>&nbsp;→</a></div>
 <dl class="rows">
 <div class="r"><dt>They want</dt><dd>Fast, straightforward removal of problem wolves and nationwide management rules.</dd></div>
 <div class="r said"><dt>They said</dt><dd>Sheep and goat keepers are affected by 91% of all attacks.</dd></div>
